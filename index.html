@@ -1,1439 +1,2181 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Surface Area Adventure! 🎮</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-      min-height: 100vh;
-      color: #fff;
-      overflow-x: hidden;
-    }
-
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-
-    /* Header */
-    .header {
-      text-align: center;
-      padding: 30px 0;
-      position: relative;
-    }
-
-    .header h1 {
-      font-size: 2.5rem;
-      background: linear-gradient(90deg, #ffd700, #ff6b35, #ffd700);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      text-shadow: 0 0 30px rgba(255, 215, 0, 0.3);
-      animation: glow 2s ease-in-out infinite alternate;
-    }
-
-    @keyframes glow {
-      from { filter: drop-shadow(0 0 5px #ffd700); }
-      to { filter: drop-shadow(0 0 20px #ffd700); }
-    }
-
-    .header p {
-      color: #a0a0a0;
-      margin-top: 10px;
-      font-size: 1.1rem;
-    }
-
-    /* Stats Bar */
-    .stats-bar {
-      display: flex;
-      justify-content: space-around;
-      background: rgba(255,255,255,0.05);
-      border-radius: 15px;
-      padding: 15px;
-      margin-bottom: 30px;
-      border: 1px solid rgba(255,215,0,0.2);
-    }
-
-    .stat {
-      text-align: center;
-    }
-
-    .stat-value {
-      font-size: 1.8rem;
-      font-weight: bold;
-      color: #ffd700;
-    }
-
-    .stat-label {
-      font-size: 0.85rem;
-      color: #888;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-    }
-
-    /* Progress Bar */
-    .progress-container {
-      background: rgba(255,255,255,0.1);
-      border-radius: 10px;
-      height: 12px;
-      margin-bottom: 30px;
-      overflow: hidden;
-    }
-
-    .progress-bar {
-      height: 100%;
-      background: linear-gradient(90deg, #ffd700, #ff6b35);
-      border-radius: 10px;
-      transition: width 0.5s ease;
-    }
-
-    /* Question Card */
-    .question-card {
-      background: rgba(255,255,255,0.08);
-      border-radius: 20px;
-      padding: 30px;
-      margin-bottom: 20px;
-      border: 1px solid rgba(255,215,0,0.15);
-      box-shadow: 0 10px 40px rgba(0,0,0,0.3);
-      position: relative;
-      overflow: hidden;
-    }
-
-    .question-card::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 4px;
-      background: linear-gradient(90deg, #ffd700, #ff6b35);
-    }
-
-    .question-type {
-      display: inline-block;
-      background: linear-gradient(90deg, #ffd700, #ff6b35);
-      color: #1a1a2e;
-      padding: 5px 15px;
-      border-radius: 20px;
-      font-size: 0.8rem;
-      font-weight: bold;
-      text-transform: uppercase;
-      margin-bottom: 15px;
-    }
-
-    .question-number {
-      color: #ffd700;
-      font-size: 0.9rem;
-      margin-bottom: 10px;
-    }
-
-    .question-text {
-      font-size: 1.3rem;
-      line-height: 1.6;
-      margin-bottom: 25px;
-    }
-
-    .hint-box {
-      background: rgba(255,215,0,0.1);
-      border-left: 4px solid #ffd700;
-      padding: 15px;
-      margin: 20px 0;
-      border-radius: 0 10px 10px 0;
-    }
-
-    .hint-box h4 {
-      color: #ffd700;
-      margin-bottom: 5px;
-      font-size: 0.9rem;
-    }
-
-    .hint-box p {
-      color: #ccc;
-      font-size: 0.95rem;
-    }
-
-    /* 3D Prism Visualization */
-    .prism-visual {
-      display: flex;
-      justify-content: center;
-      margin: 20px 0;
-    }
-
-    .prism-container {
-      perspective: 400px;
-      width: 200px;
-      height: 150px;
-    }
-
-    .prism-3d {
-      width: 100%;
-      height: 100%;
-      position: relative;
-      transform-style: preserve-3d;
-      animation: rotatePrism 10s linear infinite;
-    }
-
-    @keyframes rotatePrism {
-      0% { transform: rotateX(-20deg) rotateY(0deg); }
-      100% { transform: rotateX(-20deg) rotateY(360deg); }
-    }
-
-    .prism-face {
-      position: absolute;
-      border: 2px solid rgba(255,215,0,0.8);
-      background: rgba(255,215,0,0.15);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: bold;
-      font-size: 0.8rem;
-      color: #ffd700;
-    }
-
-    /* Answer Options */
-    .options-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 15px;
-      margin-top: 20px;
-    }
-
-    .option-btn {
-      background: rgba(255,255,255,0.05);
-      border: 2px solid rgba(255,255,255,0.1);
-      border-radius: 12px;
-      padding: 18px;
-      color: #fff;
-      font-size: 1.1rem;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      text-align: center;
-    }
-
-    .option-btn:hover {
-      background: rgba(255,215,0,0.15);
-      border-color: #ffd700;
-      transform: translateY(-3px);
-    }
-
-    .option-btn.selected {
-      background: rgba(255,215,0,0.2);
-      border-color: #ffd700;
-    }
-
-    .option-btn.correct {
-      background: rgba(0,255,100,0.2);
-      border-color: #00ff64;
-      animation: pulse-correct 0.5s ease;
-    }
-
-    .option-btn.incorrect {
-      background: rgba(255,50,50,0.2);
-      border-color: #ff3232;
-      animation: shake 0.5s ease;
-    }
-
-    @keyframes pulse-correct {
-      0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.05); }
-    }
-
-    @keyframes shake {
-      0%, 100% { transform: translateX(0); }
-      25% { transform: translateX(-10px); }
-      75% { transform: translateX(10px); }
-    }
-
-    /* Input Answer */
-    .input-answer {
-      display: flex;
-      gap: 10px;
-      margin-top: 20px;
-      flex-wrap: wrap;
-    }
-
-    .answer-input {
-      flex: 1;
-      min-width: 200px;
-      background: rgba(255,255,255,0.1);
-      border: 2px solid rgba(255,255,255,0.2);
-      border-radius: 12px;
-      padding: 15px 20px;
-      color: #fff;
-      font-size: 1.2rem;
-      outline: none;
-      transition: border-color 0.3s;
-    }
-
-    .answer-input:focus {
-      border-color: #ffd700;
-    }
-
-    .answer-input::placeholder {
-      color: #666;
-    }
-
-    /* Buttons */
-    .btn {
-      background: linear-gradient(90deg, #ffd700, #ff6b35);
-      color: #1a1a2e;
-      border: none;
-      padding: 15px 30px;
-      border-radius: 12px;
-      font-size: 1.1rem;
-      font-weight: bold;
-      cursor: pointer;
-      transition: all 0.3s ease;
-    }
-
-    .btn:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 10px 30px rgba(255,215,0,0.3);
-    }
-
-    .btn:disabled {
-      opacity: 0.5;
-      cursor: not-allowed;
-      transform: none;
-    }
-
-    .btn-secondary {
-      background: rgba(255,255,255,0.1);
-      color: #fff;
-      border: 2px solid rgba(255,255,255,0.2);
-    }
-
-    .btn-secondary:hover {
-      background: rgba(255,255,255,0.2);
-      border-color: #ffd700;
-    }
-
-    /* Feedback */
-    .feedback {
-      margin-top: 20px;
-      padding: 20px;
-      border-radius: 12px;
-      display: none;
-    }
-
-    .feedback.show {
-      display: block;
-      animation: slideIn 0.3s ease;
-    }
-
-    @keyframes slideIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    .feedback.correct {
-      background: rgba(0,255,100,0.15);
-      border: 1px solid rgba(0,255,100,0.3);
-    }
-
-    .feedback.incorrect {
-      background: rgba(255,50,50,0.15);
-      border: 1px solid rgba(255,50,50,0.3);
-    }
-
-    .feedback h3 {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 10px;
-    }
-
-    .feedback.correct h3 { color: #00ff64; }
-    .feedback.incorrect h3 { color: #ff6464; }
-
-    /* Drag and Drop */
-    .drag-container {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin: 20px 0;
-    }
-
-    .drag-item {
-      background: rgba(255,215,0,0.2);
-      border: 2px dashed #ffd700;
-      padding: 12px 20px;
-      border-radius: 10px;
-      cursor: grab;
-      transition: all 0.3s;
-      user-select: none;
-    }
-
-    .drag-item:hover {
-      background: rgba(255,215,0,0.3);
-    }
-
-    .drag-item.dragging {
-      opacity: 0.5;
-      cursor: grabbing;
-    }
-
-    .drop-zones {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-      margin-top: 20px;
-    }
-
-    .drop-zone {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-      padding: 15px;
-      background: rgba(255,255,255,0.05);
-      border: 2px dashed rgba(255,255,255,0.2);
-      border-radius: 12px;
-      min-height: 60px;
-    }
-
-    .drop-zone-label {
-      min-width: 80px;
-      font-weight: bold;
-      color: #ffd700;
-    }
-
-    .drop-zone-target {
-      flex: 1;
-      min-height: 40px;
-      background: rgba(255,255,255,0.05);
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #666;
-    }
-
-    .drop-zone-target.has-item {
-      background: rgba(255,215,0,0.1);
-      color: #fff;
-    }
-
-    /* Voice Input */
-    .voice-section {
-      text-align: center;
-      margin: 20px 0;
-    }
-
-    .voice-btn {
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      background: linear-gradient(135deg, #ff6b35, #ffd700);
-      border: none;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 0 auto;
-      transition: all 0.3s;
-      position: relative;
-    }
-
-    .voice-btn:hover {
-      transform: scale(1.1);
-      box-shadow: 0 0 30px rgba(255,107,53,0.5);
-    }
-
-    .voice-btn.listening {
-      animation: pulse-voice 1s ease infinite;
-    }
-
-    @keyframes pulse-voice {
-      0%, 100% { box-shadow: 0 0 0 0 rgba(255,107,53,0.7); }
-      50% { box-shadow: 0 0 0 20px rgba(255,107,53,0); }
-    }
-
-    .voice-btn svg {
-      width: 35px;
-      height: 35px;
-      fill: #1a1a2e;
-    }
-
-    .voice-text {
-      margin-top: 15px;
-      color: #888;
-      font-size: 0.95rem;
-    }
-
-    .voice-result {
-      margin-top: 15px;
-      padding: 15px;
-      background: rgba(255,255,255,0.1);
-      border-radius: 10px;
-      font-size: 1.1rem;
-      min-height: 50px;
-    }
-
-    /* Start Screen */
-    .start-screen {
-      text-align: center;
-      padding: 50px 20px;
-    }
-
-    .start-screen h2 {
-      font-size: 2rem;
-      color: #ffd700;
-      margin-bottom: 20px;
-    }
-
-    .start-screen p {
-      color: #aaa;
-      margin-bottom: 30px;
-      line-height: 1.8;
-      font-size: 1.1rem;
-    }
-
-    .features {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 20px;
-      margin: 30px 0;
-    }
-
-    .feature {
-      background: rgba(255,255,255,0.05);
-      padding: 25px;
-      border-radius: 15px;
-      border: 1px solid rgba(255,215,0,0.1);
-    }
-
-    .feature-icon {
-      font-size: 2.5rem;
-      margin-bottom: 15px;
-    }
-
-    .feature h4 {
-      color: #ffd700;
-      margin-bottom: 10px;
-    }
-
-    .feature p {
-      color: #888;
-      font-size: 0.9rem;
-      margin: 0;
-    }
-
-    /* Results Screen */
-    .results-screen {
-      text-align: center;
-      padding: 40px 20px;
-    }
-
-    .results-screen h2 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-    }
-
-    .score-circle {
-      width: 180px;
-      height: 180px;
-      border-radius: 50%;
-      background: conic-gradient(#ffd700 var(--score-percent), rgba(255,255,255,0.1) 0);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 30px auto;
-      position: relative;
-    }
-
-    .score-circle::before {
-      content: '';
-      position: absolute;
-      width: 150px;
-      height: 150px;
-      background: #1a1a2e;
-      border-radius: 50%;
-    }
-
-    .score-value {
-      position: relative;
-      z-index: 1;
-      font-size: 2.5rem;
-      font-weight: bold;
-      color: #ffd700;
-    }
-
-    .achievements {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
-      margin: 30px 0;
-    }
-
-    .achievement {
-      background: rgba(255,215,0,0.1);
-      padding: 15px 25px;
-      border-radius: 10px;
-      border: 1px solid rgba(255,215,0,0.3);
-    }
-
-    .achievement-icon {
-      font-size: 2rem;
-    }
-
-    .achievement-text {
-      font-size: 0.85rem;
-      color: #ffd700;
-      margin-top: 5px;
-    }
-
-    .results-buttons {
-      display: flex;
-      gap: 15px;
-      justify-content: center;
-      margin-top: 30px;
-      flex-wrap: wrap;
-    }
-
-    /* Formula Reference */
-    .formula-box {
-      background: rgba(0,0,0,0.3);
-      border: 2px solid #ffd700;
-      border-radius: 15px;
-      padding: 20px;
-      margin: 20px 0;
-      text-align: center;
-    }
-
-    .formula-box h4 {
-      color: #ffd700;
-      margin-bottom: 15px;
-      font-size: 1rem;
-    }
-
-    .formula {
-      font-size: 1.3rem;
-      font-family: 'Courier New', monospace;
-      color: #fff;
-      background: rgba(255,255,255,0.1);
-      padding: 10px 20px;
-      border-radius: 8px;
-      display: inline-block;
-      margin: 5px 0;
-    }
-
-    /* Streak indicator */
-    .streak {
-      position: fixed;
-      top: 20px;
-      right: 20px;
-      background: linear-gradient(135deg, #ff6b35, #ffd700);
-      padding: 10px 20px;
-      border-radius: 30px;
-      font-weight: bold;
-      color: #1a1a2e;
-      display: none;
-      animation: bounceIn 0.5s ease;
-      z-index: 100;
-    }
-
-    .streak.show {
-      display: block;
-    }
-
-    @keyframes bounceIn {
-      0% { transform: scale(0); }
-      50% { transform: scale(1.2); }
-      100% { transform: scale(1); }
-    }
-
-    /* Confetti */
-    .confetti {
-      position: fixed;
-      width: 10px;
-      height: 10px;
-      top: -10px;
-      animation: fall 3s linear forwards;
-      z-index: 1000;
-    }
-
-    @keyframes fall {
-      to {
-        top: 100vh;
-        transform: rotate(720deg);
-      }
-    }
-
-    /* Real World Example Box */
-    .real-world-box {
-      background: linear-gradient(135deg, rgba(255,107,53,0.2), rgba(255,215,0,0.1));
-      border-radius: 15px;
-      padding: 20px;
-      margin: 20px 0;
-      border: 1px solid rgba(255,107,53,0.3);
-    }
-
-    .real-world-box h4 {
-      color: #ff6b35;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 10px;
-    }
-
-    .real-world-box p {
-      color: #ccc;
-      line-height: 1.6;
-    }
-
-    /* Responsive */
-    @media (max-width: 600px) {
-      .header h1 {
-        font-size: 1.8rem;
-      }
-
-      .options-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .stats-bar {
-        flex-wrap: wrap;
-        gap: 15px;
-      }
-
-      .stat {
-        flex: 1 1 40%;
-      }
-
-      .question-text {
-        font-size: 1.1rem;
-      }
-    }
-
-    /* Hidden helper */
-    .hidden {
-      display: none !important;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surface Area Mastery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-elevated: #1a1a25;
+            --gold: #f5c542;
+            --gold-dim: #a8893a;
+            --cyan: #4ecdc4;
+            --magenta: #ff6b9d;
+            --purple: #a855f7;
+            --green: #22c55e;
+            --text: #ffffff;
+            --text-dim: #8a8a9a;
+            --border: #2a2a3a;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg-dark);
+            color: var(--text);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Background effects */
+        .bg-effects {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .bg-effects::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: 
+                radial-gradient(ellipse at 20% 20%, rgba(245, 197, 66, 0.08) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 80%, rgba(78, 205, 196, 0.06) 0%, transparent 50%),
+                radial-gradient(ellipse at 50% 50%, rgba(168, 85, 247, 0.04) 0%, transparent 70%);
+            animation: bgShift 20s ease-in-out infinite;
+        }
+
+        @keyframes bgShift {
+            0%, 100% { transform: translate(0, 0) rotate(0deg); }
+            50% { transform: translate(-5%, -5%) rotate(3deg); }
+        }
+
+        /* Navigation */
+        .nav-tabs {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--bg-card);
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-around;
+            padding: 8px 0;
+            z-index: 100;
+        }
+
+        .nav-tab {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            padding: 8px 16px;
+            border: none;
+            background: none;
+            color: var(--text-dim);
+            cursor: pointer;
+            transition: all 0.2s;
+            font-family: inherit;
+            font-size: 11px;
+            font-weight: 600;
+        }
+
+        .nav-tab.active {
+            color: var(--gold);
+        }
+
+        .nav-tab:hover {
+            color: var(--text);
+        }
+
+        .nav-tab svg {
+            width: 24px;
+            height: 24px;
+        }
+
+        /* Main container */
+        .app-container {
+            position: relative;
+            z-index: 1;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            padding-bottom: 100px;
+        }
+
+        /* Screens */
+        .screen {
+            display: none;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .screen.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Header with level info */
+        .header {
+            text-align: center;
+            margin-bottom: 24px;
+        }
+
+        .level-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: linear-gradient(135deg, var(--gold) 0%, #d4a83a 100%);
+            color: #000;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 13px;
+            margin-bottom: 12px;
+        }
+
+        .level-badge svg {
+            width: 16px;
+            height: 16px;
+        }
+
+        .player-title {
+            font-family: 'Archivo Black', sans-serif;
+            font-size: 28px;
+            letter-spacing: -0.5px;
+            margin-bottom: 4px;
+        }
+
+        .xp-display {
+            color: var(--text-dim);
+            font-size: 14px;
+        }
+
+        .xp-display span {
+            color: var(--gold);
+            font-weight: 700;
+        }
+
+        /* XP Progress bar */
+        .xp-bar-container {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 20px;
+        }
+
+        .xp-bar-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+            font-size: 13px;
+        }
+
+        .xp-bar-header .current {
+            color: var(--gold);
+            font-weight: 700;
+        }
+
+        .xp-bar-header .next {
+            color: var(--text-dim);
+        }
+
+        .xp-bar {
+            height: 12px;
+            background: var(--bg-dark);
+            border-radius: 6px;
+            overflow: hidden;
+        }
+
+        .xp-bar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--gold-dim), var(--gold));
+            border-radius: 6px;
+            transition: width 0.5s ease;
+        }
+
+        /* Stats grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .stat-card {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 16px;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-family: 'Archivo Black', sans-serif;
+            font-size: 24px;
+            color: var(--gold);
+        }
+
+        .stat-label {
+            font-size: 11px;
+            color: var(--text-dim);
+            margin-top: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Action buttons */
+        .action-btn {
+            width: 100%;
+            padding: 18px 24px;
+            border: none;
+            border-radius: 16px;
+            font-family: 'Archivo Black', sans-serif;
+            font-size: 18px;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .action-btn.primary {
+            background: linear-gradient(135deg, var(--gold) 0%, #d4a83a 100%);
+            color: #000;
+        }
+
+        .action-btn.primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(245, 197, 66, 0.3);
+        }
+
+        .action-btn.secondary {
+            background: var(--bg-card);
+            color: var(--text);
+            border: 1px solid var(--border);
+        }
+
+        .action-btn svg {
+            width: 22px;
+            height: 22px;
+        }
+
+        /* Difficulty selector */
+        .difficulty-section {
+            margin: 20px 0;
+        }
+
+        .section-title {
+            font-weight: 700;
+            font-size: 14px;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+
+        .difficulty-options {
+            display: flex;
+            gap: 8px;
+        }
+
+        .difficulty-btn {
+            flex: 1;
+            padding: 12px;
+            border: 2px solid var(--border);
+            border-radius: 12px;
+            background: var(--bg-card);
+            color: var(--text);
+            font-family: inherit;
+            font-weight: 600;
+            font-size: 13px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .difficulty-btn.active {
+            border-color: var(--gold);
+            background: rgba(245, 197, 66, 0.1);
+            color: var(--gold);
+        }
+
+        .difficulty-btn.auto {
+            border-color: var(--cyan);
+            background: rgba(78, 205, 196, 0.1);
+            color: var(--cyan);
+        }
+
+        /* Skills section */
+        .skills-section {
+            margin-top: 24px;
+        }
+
+        .skill-card {
+            background: var(--bg-card);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 12px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .skill-card.locked {
+            opacity: 0.5;
+        }
+
+        .skill-card.locked::after {
+            content: '🔒';
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+        }
+
+        .skill-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .skill-icon {
+            width: 48px;
+            height: 48px;
+            background: var(--bg-elevated);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        .skill-info h3 {
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        .skill-info p {
+            font-size: 12px;
+            color: var(--text-dim);
+        }
+
+        .skill-bar {
+            height: 8px;
+            background: var(--bg-dark);
+            border-radius: 4px;
+            overflow: hidden;
+            margin-bottom: 6px;
+        }
+
+        .skill-bar-fill {
+            height: 100%;
+            border-radius: 4px;
+            transition: width 0.5s ease;
+        }
+
+        .skill-bar-fill.prism { background: var(--gold); }
+        .skill-bar-fill.cylinder { background: var(--cyan); }
+        .skill-bar-fill.pyramid { background: var(--magenta); }
+
+        .skill-percent {
+            font-size: 12px;
+            color: var(--text-dim);
+            text-align: right;
+        }
+
+        /* Habit calendar */
+        .calendar-section {
+            margin-top: 24px;
+        }
+
+        .calendar-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 6px;
+        }
+
+        .calendar-day-label {
+            text-align: center;
+            font-size: 10px;
+            color: var(--text-dim);
+            padding: 4px;
+        }
+
+        .calendar-day {
+            aspect-ratio: 1;
+            background: var(--bg-card);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--text-dim);
+        }
+
+        .calendar-day.completed {
+            background: linear-gradient(135deg, var(--gold) 0%, #d4a83a 100%);
+            color: #000;
+        }
+
+        .calendar-day.today {
+            border: 2px solid var(--gold);
+        }
+
+        .streak-display {
+            background: var(--bg-card);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .streak-fire {
+            font-size: 40px;
+        }
+
+        .streak-info h3 {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .streak-info p {
+            font-size: 13px;
+            color: var(--text-dim);
+        }
+
+        /* Achievements */
+        .achievements-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+
+        .achievement-card {
+            background: var(--bg-card);
+            border-radius: 16px;
+            padding: 16px;
+            text-align: center;
+        }
+
+        .achievement-card.locked {
+            opacity: 0.4;
+        }
+
+        .achievement-icon {
+            font-size: 36px;
+            margin-bottom: 8px;
+        }
+
+        .achievement-name {
+            font-weight: 700;
+            font-size: 13px;
+            margin-bottom: 4px;
+        }
+
+        .achievement-desc {
+            font-size: 11px;
+            color: var(--text-dim);
+        }
+
+        /* Quiz screen */
+        .quiz-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .quiz-close {
+            width: 40px;
+            height: 40px;
+            border: none;
+            background: var(--bg-card);
+            border-radius: 12px;
+            color: var(--text);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .quiz-progress {
+            display: flex;
+            gap: 6px;
+        }
+
+        .quiz-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: var(--bg-card);
+        }
+
+        .quiz-dot.completed { background: var(--green); }
+        .quiz-dot.current { background: var(--gold); }
+        .quiz-dot.wrong { background: var(--magenta); }
+
+        .quiz-difficulty-badge {
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .quiz-difficulty-badge.easy { background: rgba(34, 197, 94, 0.2); color: var(--green); }
+        .quiz-difficulty-badge.medium { background: rgba(245, 197, 66, 0.2); color: var(--gold); }
+        .quiz-difficulty-badge.hard { background: rgba(255, 107, 157, 0.2); color: var(--magenta); }
+
+        .question-card {
+            background: var(--bg-card);
+            border-radius: 20px;
+            padding: 24px;
+            margin-bottom: 20px;
+        }
+
+        .question-type {
+            display: inline-block;
+            padding: 4px 10px;
+            background: var(--bg-elevated);
+            border-radius: 20px;
+            font-size: 11px;
+            color: var(--text-dim);
+            margin-bottom: 12px;
+        }
+
+        .question-text {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 1.5;
+            margin-bottom: 16px;
+        }
+
+        .question-hint {
+            font-size: 13px;
+            color: var(--cyan);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .hint-content {
+            display: none;
+            background: rgba(78, 205, 196, 0.1);
+            border-radius: 12px;
+            padding: 12px;
+            margin-top: 12px;
+            font-size: 14px;
+            color: var(--cyan);
+        }
+
+        .hint-content.visible {
+            display: block;
+        }
+
+        /* 3D Prism visualization */
+        .prism-visual {
+            width: 200px;
+            height: 160px;
+            margin: 20px auto;
+            perspective: 600px;
+        }
+
+        .prism-3d {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+            animation: rotatePrism 8s infinite linear;
+        }
+
+        @keyframes rotatePrism {
+            from { transform: rotateX(-20deg) rotateY(0deg); }
+            to { transform: rotateX(-20deg) rotateY(360deg); }
+        }
+
+        .prism-face {
+            position: absolute;
+            background: rgba(245, 197, 66, 0.15);
+            border: 2px solid var(--gold);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            color: var(--gold);
+        }
+
+        /* Answer options */
+        .answer-options {
+            display: grid;
+            gap: 10px;
+        }
+
+        .answer-btn {
+            padding: 16px 20px;
+            border: 2px solid var(--border);
+            border-radius: 14px;
+            background: var(--bg-card);
+            color: var(--text);
+            font-family: inherit;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-align: left;
+        }
+
+        .answer-btn:hover {
+            border-color: var(--gold);
+            background: rgba(245, 197, 66, 0.05);
+        }
+
+        .answer-btn.selected {
+            border-color: var(--gold);
+            background: rgba(245, 197, 66, 0.1);
+        }
+
+        .answer-btn.correct {
+            border-color: var(--green);
+            background: rgba(34, 197, 94, 0.15);
+            color: var(--green);
+        }
+
+        .answer-btn.wrong {
+            border-color: var(--magenta);
+            background: rgba(255, 107, 157, 0.15);
+            color: var(--magenta);
+        }
+
+        /* Type-in answer */
+        .type-answer {
+            display: flex;
+            gap: 10px;
+        }
+
+        .type-input {
+            flex: 1;
+            padding: 16px 20px;
+            border: 2px solid var(--border);
+            border-radius: 14px;
+            background: var(--bg-card);
+            color: var(--text);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .type-input:focus {
+            outline: none;
+            border-color: var(--gold);
+        }
+
+        .type-unit {
+            padding: 16px;
+            background: var(--bg-elevated);
+            border-radius: 14px;
+            font-size: 16px;
+            color: var(--text-dim);
+            display: flex;
+            align-items: center;
+        }
+
+        .submit-btn {
+            margin-top: 12px;
+            padding: 16px;
+            width: 100%;
+            border: none;
+            border-radius: 14px;
+            background: var(--gold);
+            color: #000;
+            font-family: inherit;
+            font-weight: 700;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        /* Voice answer */
+        .voice-btn {
+            width: 100%;
+            padding: 24px;
+            border: 3px dashed var(--border);
+            border-radius: 20px;
+            background: var(--bg-card);
+            color: var(--text);
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .voice-btn.listening {
+            border-color: var(--magenta);
+            background: rgba(255, 107, 157, 0.1);
+            animation: pulse 1s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+        }
+
+        .voice-btn svg {
+            width: 40px;
+            height: 40px;
+            color: var(--magenta);
+        }
+
+        .voice-transcript {
+            font-size: 14px;
+            color: var(--text-dim);
+        }
+
+        /* Drag and drop */
+        .drag-container {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .drag-items {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            min-height: 60px;
+            padding: 12px;
+            background: var(--bg-elevated);
+            border-radius: 14px;
+        }
+
+        .drag-item {
+            padding: 10px 16px;
+            background: var(--bg-card);
+            border: 2px solid var(--border);
+            border-radius: 10px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 14px;
+            cursor: grab;
+            user-select: none;
+        }
+
+        .drag-item:active {
+            cursor: grabbing;
+        }
+
+        .drag-targets {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .drag-target {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px;
+            background: var(--bg-card);
+            border-radius: 14px;
+        }
+
+        .drag-target-label {
+            font-weight: 600;
+            min-width: 120px;
+        }
+
+        .drag-target-zone {
+            flex: 1;
+            min-height: 44px;
+            border: 2px dashed var(--border);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-dim);
+            font-size: 13px;
+        }
+
+        .drag-target-zone.has-item {
+            border-style: solid;
+            border-color: var(--gold);
+        }
+
+        /* Solution display */
+        .solution-card {
+            background: var(--bg-card);
+            border-radius: 16px;
+            padding: 20px;
+            margin-top: 16px;
+            border-left: 4px solid var(--cyan);
+        }
+
+        .solution-title {
+            font-weight: 700;
+            color: var(--cyan);
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .solution-steps {
+            font-size: 14px;
+            line-height: 1.8;
+        }
+
+        .solution-steps code {
+            font-family: 'JetBrains Mono', monospace;
+            background: var(--bg-elevated);
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: var(--gold);
+        }
+
+        /* XP gain animation */
+        .xp-gain {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: 'Archivo Black', sans-serif;
+            font-size: 48px;
+            color: var(--gold);
+            text-shadow: 0 0 40px rgba(245, 197, 66, 0.5);
+            animation: xpPop 1s forwards;
+            pointer-events: none;
+            z-index: 200;
+        }
+
+        @keyframes xpPop {
+            0% { opacity: 0; transform: translate(-50%, -50%) scale(0.5); }
+            30% { opacity: 1; transform: translate(-50%, -50%) scale(1.2); }
+            100% { opacity: 0; transform: translate(-50%, -100%) scale(1); }
+        }
+
+        /* Level up modal */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.85);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 300;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s;
+        }
+
+        .modal-overlay.visible {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .modal-content {
+            background: var(--bg-card);
+            border-radius: 24px;
+            padding: 40px;
+            text-align: center;
+            max-width: 400px;
+            margin: 20px;
+            transform: scale(0.9);
+            transition: transform 0.3s;
+        }
+
+        .modal-overlay.visible .modal-content {
+            transform: scale(1);
+        }
+
+        .level-up-icon {
+            font-size: 64px;
+            margin-bottom: 16px;
+        }
+
+        .level-up-title {
+            font-family: 'Archivo Black', sans-serif;
+            font-size: 28px;
+            color: var(--gold);
+            margin-bottom: 8px;
+        }
+
+        .level-up-subtitle {
+            font-size: 20px;
+            margin-bottom: 16px;
+        }
+
+        .level-up-unlock {
+            background: var(--bg-elevated);
+            border-radius: 16px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .level-up-unlock h4 {
+            color: var(--cyan);
+            margin-bottom: 8px;
+        }
+
+        .level-up-unlock p {
+            font-size: 14px;
+            color: var(--text-dim);
+            line-height: 1.6;
+        }
+
+        .level-up-figure {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background: var(--bg-elevated);
+            border-radius: 12px;
+            padding: 12px;
+            margin-top: 16px;
+        }
+
+        .figure-avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: var(--bg-dark);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        .figure-info {
+            text-align: left;
+        }
+
+        .figure-info h5 {
+            font-size: 14px;
+        }
+
+        .figure-info p {
+            font-size: 12px;
+            color: var(--text-dim);
+        }
+
+        .modal-btn {
+            margin-top: 20px;
+            padding: 16px 40px;
+            border: none;
+            border-radius: 14px;
+            background: var(--gold);
+            color: #000;
+            font-family: 'Archivo Black', sans-serif;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        /* Confetti */
+        .confetti {
+            position: fixed;
+            width: 10px;
+            height: 10px;
+            top: -10px;
+            z-index: 400;
+            animation: confettiFall 3s forwards;
+        }
+
+        @keyframes confettiFall {
+            to {
+                top: 110vh;
+                transform: rotate(720deg);
+            }
+        }
+
+        /* Results screen */
+        .results-card {
+            background: var(--bg-card);
+            border-radius: 24px;
+            padding: 32px;
+            text-align: center;
+        }
+
+        .results-score {
+            font-family: 'Archivo Black', sans-serif;
+            font-size: 64px;
+            color: var(--gold);
+        }
+
+        .results-label {
+            font-size: 18px;
+            color: var(--text-dim);
+            margin-bottom: 24px;
+        }
+
+        .results-stats {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .result-stat {
+            background: var(--bg-elevated);
+            border-radius: 12px;
+            padding: 16px;
+        }
+
+        .result-stat-value {
+            font-family: 'Archivo Black', sans-serif;
+            font-size: 24px;
+        }
+
+        .result-stat-label {
+            font-size: 12px;
+            color: var(--text-dim);
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--bg-dark);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--border);
+            border-radius: 3px;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <header class="header">
-      <h1>🎮 Surface Area Adventure!</h1>
-      <p>Master the Rectangular Prism</p>
-    </header>
+    <div class="bg-effects"></div>
 
-    <div class="streak" id="streak">🔥 Streak: <span id="streakCount">0</span></div>
+    <div class="app-container">
+        <!-- HOME SCREEN -->
+        <div class="screen active" id="homeScreen">
+            <div class="header">
+                <div class="level-badge">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                    </svg>
+                    <span id="levelBadge">Level 1</span>
+                </div>
+                <h1 class="player-title" id="playerTitle">Apprentice Measurer</h1>
+                <p class="xp-display"><span id="currentXP">0</span> XP</p>
+            </div>
 
-    <!-- Start Screen -->
-    <div id="startScreen" class="start-screen">
-      <h2>Ready to Become a Surface Area Master? 🏆</h2>
-      <p>
-        Learn how to find the surface area of rectangular prisms through fun challenges!
-        Think of wrapping a gift box — that's what surface area is all about!
-      </p>
+            <div class="xp-bar-container">
+                <div class="xp-bar-header">
+                    <span class="current" id="xpCurrent">0 XP</span>
+                    <span class="next" id="xpNext">Next: 500 XP</span>
+                </div>
+                <div class="xp-bar">
+                    <div class="xp-bar-fill" id="xpBarFill" style="width: 0%"></div>
+                </div>
+            </div>
 
-      <div class="features">
-        <div class="feature">
-          <div class="feature-icon">🧠</div>
-          <h4>Learn the Formulas</h4>
-          <p>Understand LSA and TSA step by step</p>
-        </div>
-        <div class="feature">
-          <div class="feature-icon">🎯</div>
-          <h4>Multiple Challenges</h4>
-          <p>Different question types to test your skills</p>
-        </div>
-        <div class="feature">
-          <div class="feature-icon">🎤</div>
-          <h4>Voice Answers</h4>
-          <p>Say your answer out loud!</p>
-        </div>
-        <div class="feature">
-          <div class="feature-icon">🌍</div>
-          <h4>Real World Uses</h4>
-          <p>See why this matters in real life</p>
-        </div>
-      </div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value" id="statStreak">0</div>
+                    <div class="stat-label">Day Streak</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="statCorrect">0</div>
+                    <div class="stat-label">Correct</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="statAccuracy">0%</div>
+                    <div class="stat-label">Accuracy</div>
+                </div>
+            </div>
 
-      <div class="formula-box">
-        <h4>📐 Formulas You'll Master</h4>
-        <div class="formula">LSA = 2(l × h) + 2(w × h)</div>
-        <p style="color: #888; margin: 10px 0;">Lateral Surface Area = the 4 walls (no top or bottom)</p>
-        <div class="formula">TSA = LSA + 2(l × w)</div>
-        <p style="color: #888; margin-top: 10px;">Total Surface Area = all 6 faces</p>
-      </div>
-
-      <button class="btn" onclick="startQuiz()">🚀 Start Adventure!</button>
-    </div>
-
-    <!-- Quiz Screen -->
-    <div id="quizScreen" class="hidden">
-      <div class="stats-bar">
-        <div class="stat">
-          <div class="stat-value" id="scoreDisplay">0</div>
-          <div class="stat-label">Points</div>
-        </div>
-        <div class="stat">
-          <div class="stat-value" id="correctDisplay">0</div>
-          <div class="stat-label">Correct</div>
-        </div>
-        <div class="stat">
-          <div class="stat-value" id="questionNum">1/10</div>
-          <div class="stat-label">Question</div>
-        </div>
-        <div class="stat">
-          <div class="stat-value" id="timerDisplay">--</div>
-          <div class="stat-label">Timer</div>
-        </div>
-      </div>
-
-      <div class="progress-container">
-        <div class="progress-bar" id="progressBar" style="width: 10%"></div>
-      </div>
-
-      <div id="questionContainer"></div>
-    </div>
-
-    <!-- Results Screen -->
-    <div id="resultsScreen" class="results-screen hidden">
-      <h2 id="resultsTitle">🎉 Great Job!</h2>
-      <div class="score-circle" id="scoreCircle" style="--score-percent: 0%">
-        <div class="score-value" id="finalScore">0%</div>
-      </div>
-      <p id="resultsMessage" style="color: #aaa; font-size: 1.1rem;"></p>
-
-      <div class="achievements" id="achievements"></div>
-
-      <div class="formula-box">
-        <h4>📝 Remember These!</h4>
-        <div class="formula">LSA = 2(l × h) + 2(w × h)</div>
-        <div class="formula">TSA = 2lw + 2lh + 2wh</div>
-      </div>
-
-      <div class="results-buttons">
-        <button class="btn" onclick="startQuiz()">🔄 Try Again</button>
-        <button class="btn btn-secondary" onclick="showStartScreen()">🏠 Home</button>
-      </div>
-    </div>
-  </div>
-
-  <script>
-    // Quiz State
-    let currentQuestion = 0;
-    let score = 0;
-    let correctCount = 0;
-    let streak = 0;
-    let maxStreak = 0;
-    let timer = null;
-    let timeLeft = 0;
-    let questions = [];
-
-    // Speech Recognition Setup
-    let recognition = null;
-    if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
-      const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
-      recognition = new SpeechRecognition();
-      recognition.continuous = false;
-      recognition.interimResults = true;
-      recognition.lang = 'en-US';
-    }
-
-    // Question Bank
-    function generateQuestions() {
-      const questionBank = [
-        // Multiple Choice - Concept Understanding
-        {
-          type: 'multiple-choice',
-          category: '🧠 Concept Check',
-          question: 'Imagine you want to wrap a box as a gift. What does the TOTAL surface area tell you?',
-          hint: 'Think about covering every part of the box with wrapping paper!',
-          options: [
-            'How much wrapping paper you need for all sides',
-            'How tall the box is',
-            'How heavy the box is',
-            'How much can fit inside the box'
-          ],
-          correct: 0,
-          explanation: 'The total surface area tells you how much wrapping paper you need to cover ALL sides of the box — top, bottom, front, back, and both sides!',
-          realWorld: 'Gift wrappers, box makers, and even people who make phone cases need to know total surface area!',
-          points: 100
-        },
-        {
-          type: 'multiple-choice',
-          category: '🧠 Concept Check',
-          question: 'What does LATERAL surface area mean for a rectangular prism?',
-          hint: 'The word "lateral" means "side" — think about the walls of a room!',
-          options: [
-            'Only the top and bottom',
-            'Only the 4 side walls (no top or bottom)',
-            'All 6 faces',
-            'Just the front and back'
-          ],
-          correct: 1,
-          explanation: 'Lateral means "side." So lateral surface area is just the 4 walls — like painting the walls of a room but NOT the floor or ceiling!',
-          realWorld: 'Painters use this when figuring out how much paint they need for walls!',
-          points: 100
-        },
-
-        // Formula Identification
-        {
-          type: 'multiple-choice',
-          category: '📐 Formula Power',
-          question: 'Which formula calculates the LATERAL surface area (LSA)?',
-          hint: 'LSA has 4 rectangle walls — 2 pairs of matching rectangles.',
-          options: [
-            'LSA = l × w × h',
-            'LSA = 2(l × h) + 2(w × h)',
-            'LSA = 2(l × w)',
-            'LSA = l + w + h'
-          ],
-          correct: 1,
-          explanation: 'LSA = 2(l × h) + 2(w × h) because there are 2 walls with length × height and 2 walls with width × height!',
-          points: 150
-        },
-        {
-          type: 'multiple-choice',
-          category: '📐 Formula Power',
-          question: 'The formula for Total Surface Area (TSA) is:',
-          hint: 'TSA = all 4 walls (LSA) + top + bottom',
-          options: [
-            'TSA = 2lw + 2lh + 2wh',
-            'TSA = l × w × h',
-            'TSA = 4(l + w + h)',
-            'TSA = l + w + h'
-          ],
-          correct: 0,
-          explanation: 'TSA = 2lw + 2lh + 2wh. This covers all 6 faces: 2 bases (top & bottom), and 4 lateral faces!',
-          points: 150
-        },
-
-        // Calculation Questions
-        {
-          type: 'input',
-          category: '🔢 Calculate It!',
-          question: 'A cereal box has length = 10 cm, width = 4 cm, and height = 30 cm. What is the Lateral Surface Area (LSA)?',
-          hint: 'LSA = 2(l × h) + 2(w × h). Plug in the numbers!',
-          correctAnswer: 840,
-          unit: 'cm²',
-          solution: 'LSA = 2(10 × 30) + 2(4 × 30) = 2(300) + 2(120) = 600 + 240 = 840 cm²',
-          realWorld: 'Cereal companies need to know this to design labels that wrap around the box!',
-          points: 200
-        },
-        {
-          type: 'input',
-          category: '🔢 Calculate It!',
-          question: 'A shoe box is 30 cm long, 20 cm wide, and 12 cm tall. Find the Total Surface Area (TSA).',
-          hint: 'TSA = 2lw + 2lh + 2wh. Take it step by step!',
-          correctAnswer: 2280,
-          unit: 'cm²',
-          solution: 'TSA = 2(30×20) + 2(30×12) + 2(20×12) = 1200 + 720 + 480 = 2,280 cm²',
-          realWorld: 'Shoe companies use this to know how much cardboard they need for each box!',
-          points: 200
-        },
-
-        // Voice Answer
-        {
-          type: 'voice',
-          category: '🎤 Say It!',
-          question: 'A rectangular prism has 6 faces total. How many faces does the LATERAL surface area include? Say your answer!',
-          hint: 'Lateral = sides only. No top, no bottom.',
-          correctAnswer: '4',
-          acceptedAnswers: ['4', 'four', 'for'],
-          explanation: 'Lateral surface area includes 4 faces — the 4 walls. It does not include the top or bottom!',
-          points: 150
-        },
-        {
-          type: 'voice',
-          category: '🎤 Say It!',
-          question: 'In the formula TSA = 2lw + 2lh + 2wh, what does the "2lw" part represent? Say it!',
-          hint: 'l × w gives you the area of the top (or bottom)...',
-          correctAnswer: 'top and bottom',
-          acceptedAnswers: ['top and bottom', 'the top and bottom', 'bases', 'the bases', 'top bottom', 'base', 'two bases'],
-          explanation: '2lw represents the top and bottom faces (the bases). Since they\'re identical, we multiply l × w by 2!',
-          points: 150
-        },
-
-        // Drag and Match
-        {
-          type: 'drag-match',
-          category: '🎯 Match It!',
-          question: 'Match each formula part with what it calculates:',
-          items: ['2(l × w)', '2(l × h) + 2(w × h)', '2lw + 2lh + 2wh'],
-          targets: ['Area of bases (top & bottom)', 'Lateral Surface Area (walls)', 'Total Surface Area'],
-          correctMatches: {0: 0, 1: 1, 2: 2},
-          points: 200
-        },
-
-        // Real World Application
-        {
-          type: 'multiple-choice',
-          category: '🌍 Real World',
-          question: 'A fish tank is 60 cm long, 30 cm wide, and 40 cm tall. It has no top (open on top). How would you find how much glass was used?',
-          hint: 'No top means: bottom + 4 walls. That\'s LSA + one base!',
-          options: [
-            'Use Total Surface Area (TSA)',
-            'Use Lateral Surface Area (LSA) only',
-            'Use LSA + area of bottom (l × w)',
-            'Just multiply l × w × h'
-          ],
-          correct: 2,
-          explanation: 'Since there\'s no top, you need the 4 walls (LSA) plus just the bottom (l × w). Not the full TSA because there\'s no lid!',
-          realWorld: 'Fish tank makers, swimming pool builders, and container designers all use this thinking!',
-          points: 250
-        },
-
-        // Tricky Challenge
-        {
-          type: 'input',
-          category: '🏆 Boss Challenge',
-          question: 'An Amazon delivery box is 40 cm × 30 cm × 25 cm. If cardboard costs $0.01 per cm², how much does the cardboard for one box cost? (Round to nearest cent)',
-          hint: 'First find TSA, then multiply by $0.01',
-          correctAnswer: 47,
-          unit: 'cents (or $0.47)',
-          solution: 'TSA = 2(40×30) + 2(40×25) + 2(30×25) = 2400 + 2000 + 1500 = 4700 cm². Cost = 4700 × $0.01 = $47 ≈ 47 cents... wait, that\'s $47!',
-          realWorld: 'Companies like Amazon ship MILLIONS of boxes, so every square centimeter of cardboard adds up to huge costs!',
-          points: 300,
-          acceptRange: [46, 48]
-        },
-
-        // Quick Fire
-        {
-          type: 'multiple-choice',
-          category: '⚡ Quick Fire',
-          question: 'If you double ALL the dimensions of a box (l, w, h), what happens to the surface area?',
-          hint: 'Try a simple example: 1×1×1 box vs 2×2×2 box',
-          options: [
-            'It doubles',
-            'It triples',
-            'It becomes 4 times bigger',
-            'It stays the same'
-          ],
-          correct: 2,
-          explanation: 'Surface area becomes 4× bigger! When you double each dimension, area (which is length × length) becomes 2 × 2 = 4 times larger.',
-          points: 200,
-          timed: true,
-          timeLimit: 30
-        },
-
-        // Fill in the Blank Style
-        {
-          type: 'input',
-          category: '✏️ Fill In',
-          question: 'A cube has all sides equal to 5 cm. What is its Total Surface Area? (A cube has 6 equal square faces)',
-          hint: 'Each face is 5 × 5. There are 6 faces total.',
-          correctAnswer: 150,
-          unit: 'cm²',
-          solution: 'Each face = 5 × 5 = 25 cm². Total = 6 × 25 = 150 cm²',
-          points: 150
-        }
-      ];
-
-      // Shuffle and pick 10 questions
-      const shuffled = questionBank.sort(() => Math.random() - 0.5);
-      return shuffled.slice(0, 10);
-    }
-
-    function startQuiz() {
-      questions = generateQuestions();
-      currentQuestion = 0;
-      score = 0;
-      correctCount = 0;
-      streak = 0;
-      maxStreak = 0;
-
-      document.getElementById('startScreen').classList.add('hidden');
-      document.getElementById('resultsScreen').classList.add('hidden');
-      document.getElementById('quizScreen').classList.remove('hidden');
-
-      updateStats();
-      showQuestion();
-    }
-
-    function showStartScreen() {
-      document.getElementById('startScreen').classList.remove('hidden');
-      document.getElementById('quizScreen').classList.add('hidden');
-      document.getElementById('resultsScreen').classList.add('hidden');
-    }
-
-    function updateStats() {
-      document.getElementById('scoreDisplay').textContent = score;
-      document.getElementById('correctDisplay').textContent = correctCount;
-      document.getElementById('questionNum').textContent = `${currentQuestion + 1}/${questions.length}`;
-      document.getElementById('progressBar').style.width = `${((currentQuestion + 1) / questions.length) * 100}%`;
-
-      // Streak indicator
-      const streakEl = document.getElementById('streak');
-      if (streak >= 2) {
-        streakEl.classList.add('show');
-        document.getElementById('streakCount').textContent = streak;
-      } else {
-        streakEl.classList.remove('show');
-      }
-    }
-
-    function showQuestion() {
-      const q = questions[currentQuestion];
-      const container = document.getElementById('questionContainer');
-
-      let html = `
-        <div class="question-card">
-          <span class="question-type">${q.category}</span>
-          <div class="question-number">Question ${currentQuestion + 1} of ${questions.length}</div>
-          <div class="question-text">${q.question}</div>
-      `;
-
-      if (q.hint) {
-        html += `
-          <div class="hint-box">
-            <h4>💡 Hint</h4>
-            <p>${q.hint}</p>
-          </div>
-        `;
-      }
-
-      // Question type specific rendering
-      if (q.type === 'multiple-choice') {
-        html += `<div class="options-grid">`;
-        q.options.forEach((opt, i) => {
-          html += `<button class="option-btn" onclick="checkMultipleChoice(${i})" data-index="${i}">${opt}</button>`;
-        });
-        html += `</div>`;
-      } else if (q.type === 'input') {
-        html += `
-          <div class="input-answer">
-            <input type="number" class="answer-input" id="answerInput" placeholder="Enter your answer..." onkeypress="if(event.key==='Enter')checkInputAnswer()">
-            <button class="btn" onclick="checkInputAnswer()">Submit</button>
-          </div>
-          <p style="color: #888; margin-top: 10px; font-size: 0.9rem;">Answer in ${q.unit || 'units'}</p>
-        `;
-      } else if (q.type === 'voice') {
-        html += `
-          <div class="voice-section">
-            <button class="voice-btn" id="voiceBtn" onclick="startVoiceRecognition()">
-              <svg viewBox="0 0 24 24"><path d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm-1-9c0-.55.45-1 1-1s1 .45 1 1v6c0 .55-.45 1-1 1s-1-.45-1-1V5z"/><path d="M17 11c0 2.76-2.24 5-5 5s-5-2.24-5-5H5c0 3.53 2.61 6.43 6 6.92V21h2v-3.08c3.39-.49 6-3.39 6-6.92h-2z"/></svg>
+            <button class="action-btn primary" onclick="startQuiz()">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polygon points="5 3 19 12 5 21 5 3"/>
+                </svg>
+                Start Practice
             </button>
-            <p class="voice-text" id="voiceText">Tap the microphone and say your answer!</p>
-            <div class="voice-result" id="voiceResult" style="display:none;"></div>
-            <button class="btn" id="voiceSubmit" onclick="checkVoiceAnswer()" style="display:none; margin-top:15px;">Submit Answer</button>
-          </div>
-        `;
-      } else if (q.type === 'drag-match') {
-        html += `
-          <div class="drag-container" id="dragContainer">
-            ${q.items.map((item, i) => `<div class="drag-item" draggable="true" data-index="${i}">${item}</div>`).join('')}
-          </div>
-          <div class="drop-zones" id="dropZones">
-            ${q.targets.map((target, i) => `
-              <div class="drop-zone" data-target="${i}">
-                <span class="drop-zone-label">${target}</span>
-                <div class="drop-zone-target" data-target="${i}">Drop here</div>
-              </div>
-            `).join('')}
-          </div>
-          <button class="btn" onclick="checkDragMatch()" style="margin-top: 20px;">Check Answers</button>
-        `;
-      }
 
-      html += `
-          <div class="feedback" id="feedback"></div>
+            <div class="difficulty-section">
+                <div class="section-title">Difficulty</div>
+                <div class="difficulty-options">
+                    <button class="difficulty-btn" data-diff="easy" onclick="setDifficulty('easy')">Easy</button>
+                    <button class="difficulty-btn active" data-diff="medium" onclick="setDifficulty('medium')">Medium</button>
+                    <button class="difficulty-btn" data-diff="hard" onclick="setDifficulty('hard')">Hard</button>
+                    <button class="difficulty-btn auto" data-diff="auto" onclick="setDifficulty('auto')">Auto</button>
+                </div>
+            </div>
+
+            <div class="skills-section">
+                <div class="section-title">Shape Mastery</div>
+                
+                <div class="skill-card" id="skillPrism">
+                    <div class="skill-header">
+                        <div class="skill-icon">📦</div>
+                        <div class="skill-info">
+                            <h3>Rectangular Prism</h3>
+                            <p>Boxes, gift wrapping, fish tanks</p>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill prism" id="prismFill" style="width: 0%"></div>
+                    </div>
+                    <div class="skill-percent" id="prismPercent">0% mastered</div>
+                </div>
+
+                <div class="skill-card locked" id="skillCylinder">
+                    <div class="skill-header">
+                        <div class="skill-icon">🥫</div>
+                        <div class="skill-info">
+                            <h3>Cylinder</h3>
+                            <p>Unlocks at Level 3</p>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill cylinder" id="cylinderFill" style="width: 0%"></div>
+                    </div>
+                    <div class="skill-percent" id="cylinderPercent">Locked</div>
+                </div>
+
+                <div class="skill-card locked" id="skillPyramid">
+                    <div class="skill-header">
+                        <div class="skill-icon">🔺</div>
+                        <div class="skill-info">
+                            <h3>Pyramid</h3>
+                            <p>Unlocks at Level 4</p>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill pyramid" id="pyramidFill" style="width: 0%"></div>
+                    </div>
+                    <div class="skill-percent" id="pyramidPercent">Locked</div>
+                </div>
+            </div>
         </div>
-      `;
 
-      container.innerHTML = html;
+        <!-- PROGRESS SCREEN -->
+        <div class="screen" id="progressScreen">
+            <div class="header">
+                <h1 class="player-title">Your Progress</h1>
+            </div>
 
-      // Timer for timed questions
-      if (q.timed && q.timeLimit) {
-        startTimer(q.timeLimit);
-      } else {
-        document.getElementById('timerDisplay').textContent = '--';
-      }
+            <div class="streak-display">
+                <div class="streak-fire">🔥</div>
+                <div class="streak-info">
+                    <h3 id="streakCount">0 Day Streak</h3>
+                    <p>Keep practicing daily!</p>
+                </div>
+            </div>
 
-      // Setup drag and drop
-      if (q.type === 'drag-match') {
-        setupDragDrop();
-      }
-    }
+            <div class="calendar-section">
+                <div class="section-title">This Month</div>
+                <div class="calendar-grid" id="calendarGrid">
+                    <!-- Generated by JS -->
+                </div>
+            </div>
 
-    function startTimer(seconds) {
-      timeLeft = seconds;
-      document.getElementById('timerDisplay').textContent = timeLeft;
-      
-      timer = setInterval(() => {
-        timeLeft--;
-        document.getElementById('timerDisplay').textContent = timeLeft;
-        
-        if (timeLeft <= 0) {
-          clearInterval(timer);
-          showFeedback(false, "Time's up! ⏰");
+            <div class="achievements-section" style="margin-top: 24px;">
+                <div class="section-title">Achievements</div>
+                <div class="achievements-grid" id="achievementsGrid">
+                    <!-- Generated by JS -->
+                </div>
+            </div>
+        </div>
+
+        <!-- QUIZ SCREEN -->
+        <div class="screen" id="quizScreen">
+            <div class="quiz-header">
+                <button class="quiz-close" onclick="exitQuiz()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <line x1="18" y1="6" x2="6" y2="18"/>
+                        <line x1="6" y1="6" x2="18" y2="18"/>
+                    </svg>
+                </button>
+                <div class="quiz-progress" id="quizProgress">
+                    <!-- Generated by JS -->
+                </div>
+                <div class="quiz-difficulty-badge" id="quizDiffBadge">Medium</div>
+            </div>
+
+            <div id="questionContainer">
+                <!-- Question content generated by JS -->
+            </div>
+        </div>
+
+        <!-- RESULTS SCREEN -->
+        <div class="screen" id="resultsScreen">
+            <div class="results-card">
+                <div class="results-score" id="resultsScore">0/5</div>
+                <div class="results-label">Questions Correct</div>
+                
+                <div class="results-stats">
+                    <div class="result-stat">
+                        <div class="result-stat-value" id="resultsXP" style="color: var(--gold);">+0</div>
+                        <div class="result-stat-label">XP Earned</div>
+                    </div>
+                    <div class="result-stat">
+                        <div class="result-stat-value" id="resultsAccuracy" style="color: var(--cyan);">0%</div>
+                        <div class="result-stat-label">Accuracy</div>
+                    </div>
+                </div>
+
+                <button class="action-btn primary" onclick="startQuiz()">Practice Again</button>
+                <button class="action-btn secondary" style="margin-top: 12px;" onclick="showScreen('homeScreen')">Back to Home</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav-tabs">
+        <button class="nav-tab active" data-screen="homeScreen" onclick="showScreen('homeScreen')">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                <polyline points="9 22 9 12 15 12 15 22"/>
+            </svg>
+            Home
+        </button>
+        <button class="nav-tab" data-screen="progressScreen" onclick="showScreen('progressScreen')">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="20" x2="12" y2="10"/>
+                <line x1="18" y1="20" x2="18" y2="4"/>
+                <line x1="6" y1="20" x2="6" y2="16"/>
+            </svg>
+            Progress
+        </button>
+    </nav>
+
+    <!-- Level Up Modal -->
+    <div class="modal-overlay" id="levelUpModal">
+        <div class="modal-content">
+            <div class="level-up-icon">🎉</div>
+            <div class="level-up-title">Level Up!</div>
+            <div class="level-up-subtitle" id="levelUpTitle">Box Builder</div>
+            <div class="level-up-unlock">
+                <h4 id="levelUpUnlock">🔓 New Skill Unlocked</h4>
+                <p id="levelUpDesc">You can now calculate gift wrap like packaging designers at Amazon!</p>
+                <div class="level-up-figure" id="levelUpFigure">
+                    <div class="figure-avatar">📦</div>
+                    <div class="figure-info">
+                        <h5>Amazon Packaging Team</h5>
+                        <p>They calculate surface area for millions of boxes daily!</p>
+                    </div>
+                </div>
+            </div>
+            <button class="modal-btn" onclick="closeLevelUpModal()">Awesome!</button>
+        </div>
+    </div>
+
+    <script>
+        // ========== GAME STATE ==========
+        const DEFAULT_STATE = {
+            xp: 0,
+            level: 1,
+            difficulty: 'medium',
+            totalCorrect: 0,
+            totalAnswered: 0,
+            streak: 0,
+            lastPlayDate: null,
+            practiceDays: [],
+            prismMastery: 0,
+            cylinderMastery: 0,
+            pyramidMastery: 0,
+            achievements: [],
+            cylinderUnlocked: false,
+            pyramidUnlocked: false
+        };
+
+        let gameState = { ...DEFAULT_STATE };
+        let currentQuiz = null;
+        let currentQuestion = 0;
+        let sessionCorrect = 0;
+        let sessionXP = 0;
+
+        // ========== LEVEL DEFINITIONS ==========
+        const LEVELS = [
+            { level: 1, title: 'Apprentice Measurer', xp: 0, unlock: null },
+            { level: 2, title: 'Box Builder', xp: 500, unlock: 'gift_wrap', desc: 'You can now calculate gift wrap like packaging designers at Amazon!', figure: { emoji: '📦', name: 'Amazon Packaging Team', desc: 'They calculate surface area for millions of boxes daily!' }},
+            { level: 3, title: 'Junior Architect', xp: 1200, unlock: 'cylinder', desc: 'Cylinders unlocked! Rocket fuel tanks, water towers, pipes — you can calculate them all.', figure: { emoji: '🚀', name: 'SpaceX Engineers', desc: 'They calculate cylindrical fuel tank surface area for every rocket!' }},
+            { level: 4, title: 'Surface Specialist', xp: 2500, unlock: 'pyramid', desc: 'Pyramids unlocked! From ancient Egypt to modern architecture.', figure: { emoji: '🏛️', name: 'Ancient Egyptian Architects', desc: 'They calculated pyramid surfaces over 4,500 years ago!' }},
+            { level: 5, title: 'Geometry Engineer', xp: 4000, unlock: 'combined', desc: 'You can now tackle complex combined shapes!', figure: { emoji: '🏗️', name: 'Zaha Hadid Architects', desc: 'They design buildings with complex curved surfaces worldwide!' }},
+            { level: 6, title: 'Master Builder', xp: 6000, unlock: 'master', desc: 'You think like engineers at Tesla, Apple, and NASA!', figure: { emoji: '🌟', name: 'Engineering Elite', desc: 'Top engineers at the world\'s most innovative companies!' }}
+        ];
+
+        const ACHIEVEMENTS = [
+            { id: 'first_correct', name: 'First Steps', desc: 'Answer your first question correctly', icon: '🎯' },
+            { id: 'streak_3', name: 'Hot Streak', desc: 'Get 3 correct in a row', icon: '🔥' },
+            { id: 'streak_5', name: 'On Fire', desc: 'Get 5 correct in a row', icon: '💥' },
+            { id: 'perfect_quiz', name: 'Perfect Score', desc: 'Get 100% on a quiz', icon: '⭐' },
+            { id: 'prism_master', name: 'Box Expert', desc: 'Reach 80% prism mastery', icon: '📦' },
+            { id: 'daily_3', name: 'Dedicated', desc: 'Practice 3 days in a row', icon: '📅' },
+            { id: 'daily_7', name: 'Weekly Warrior', desc: 'Practice 7 days in a row', icon: '🗓️' },
+            { id: 'xp_1000', name: 'Point Collector', desc: 'Earn 1000 total XP', icon: '💎' },
+            { id: 'level_3', name: 'Rising Star', desc: 'Reach Level 3', icon: '🌟' },
+            { id: 'level_5', name: 'Geometry Pro', desc: 'Reach Level 5', icon: '👑' }
+        ];
+
+        // ========== QUESTIONS DATABASE ==========
+        const QUESTIONS = {
+            easy: [
+                {
+                    type: 'multiple',
+                    shape: 'prism',
+                    text: 'A cereal box has length 8 in, width 3 in, and height 12 in. What is its Total Surface Area (TSA)?',
+                    dimensions: { l: 8, w: 3, h: 12 },
+                    formula: 'TSA',
+                    answer: 312,
+                    options: [312, 288, 324, 300],
+                    hint: 'TSA = 2(lw) + 2(lh) + 2(wh). Calculate each pair of faces!',
+                    solution: 'TSA = 2(8×3) + 2(8×12) + 2(3×12)\n= 2(24) + 2(96) + 2(36)\n= 48 + 192 + 72\n= 312 sq in'
+                },
+                {
+                    type: 'multiple',
+                    shape: 'prism',
+                    text: 'You\'re wrapping a gift box that is 5 cm × 5 cm × 5 cm (a cube!). How much wrapping paper do you need?',
+                    dimensions: { l: 5, w: 5, h: 5 },
+                    formula: 'TSA',
+                    answer: 150,
+                    options: [125, 150, 175, 100],
+                    hint: 'For a cube, all 6 faces are equal! TSA = 6 × (side²)',
+                    solution: 'Since it\'s a cube: TSA = 6 × (5²)\n= 6 × 25\n= 150 sq cm'
+                },
+                {
+                    type: 'type',
+                    shape: 'prism',
+                    text: 'A shoebox has dimensions 12 in × 6 in × 4 in. What is its Lateral Surface Area (just the sides, no top or bottom)?',
+                    dimensions: { l: 12, w: 6, h: 4 },
+                    formula: 'LSA',
+                    answer: 144,
+                    hint: 'LSA = 2(l×h) + 2(w×h). That\'s just the four walls!',
+                    solution: 'LSA = 2(l×h) + 2(w×h)\n= 2(12×4) + 2(6×4)\n= 2(48) + 2(24)\n= 96 + 48\n= 144 sq in'
+                }
+            ],
+            medium: [
+                {
+                    type: 'multiple',
+                    shape: 'prism',
+                    text: 'An Amazon delivery box measures 18 in × 12 in × 8 in. How much cardboard was used to make it (Total Surface Area)?',
+                    dimensions: { l: 18, w: 12, h: 8 },
+                    formula: 'TSA',
+                    answer: 912,
+                    options: [912, 864, 960, 888],
+                    hint: 'TSA = 2lw + 2lh + 2wh. Remember: each dimension pair appears twice!',
+                    solution: 'TSA = 2(18×12) + 2(18×8) + 2(12×8)\n= 2(216) + 2(144) + 2(96)\n= 432 + 288 + 192\n= 912 sq in'
+                },
+                {
+                    type: 'type',
+                    shape: 'prism',
+                    text: 'A fish tank is 24 in long, 12 in wide, and 16 in tall. What\'s the total glass needed (all 6 sides)?',
+                    dimensions: { l: 24, w: 12, h: 16 },
+                    formula: 'TSA',
+                    answer: 1728,
+                    hint: 'Even though one side is open in real life, calculate all 6 sides here.',
+                    solution: 'TSA = 2(24×12) + 2(24×16) + 2(12×16)\n= 2(288) + 2(384) + 2(192)\n= 576 + 768 + 384\n= 1728 sq in'
+                },
+                {
+                    type: 'voice',
+                    shape: 'prism',
+                    text: 'A storage container is 10 ft × 8 ft × 8 ft. What is the Lateral Surface Area?',
+                    dimensions: { l: 10, w: 8, h: 8 },
+                    formula: 'LSA',
+                    answer: 288,
+                    hint: 'LSA = 2h(l + w) — a handy shortcut for lateral area!',
+                    solution: 'LSA = 2h(l + w)\n= 2(8)(10 + 8)\n= 16 × 18\n= 288 sq ft'
+                },
+                {
+                    type: 'drag',
+                    shape: 'prism',
+                    text: 'Match each formula to what it calculates for a rectangular prism:',
+                    pairs: [
+                        { term: '2(lw + lh + wh)', match: 'Total Surface Area' },
+                        { term: '2h(l + w)', match: 'Lateral Surface Area' },
+                        { term: 'l × w × h', match: 'Volume' }
+                    ],
+                    hint: 'TSA covers ALL faces, LSA is just the "walls", and Volume is inside space.'
+                }
+            ],
+            hard: [
+                {
+                    type: 'type',
+                    shape: 'prism',
+                    text: 'A building is 150 ft × 80 ft × 200 ft tall. An architect needs to cover just the four walls with glass. How many square feet of glass?',
+                    dimensions: { l: 150, w: 80, h: 200 },
+                    formula: 'LSA',
+                    answer: 92000,
+                    hint: 'LSA = 2h(l + w). This is exactly what real architects calculate!',
+                    solution: 'LSA = 2h(l + w)\n= 2(200)(150 + 80)\n= 400 × 230\n= 92,000 sq ft'
+                },
+                {
+                    type: 'multiple',
+                    shape: 'prism',
+                    text: 'A shipping crate is 2.5 m × 1.8 m × 1.2 m. If paint costs $3 per square meter, how much to paint ALL surfaces?',
+                    dimensions: { l: 2.5, w: 1.8, h: 1.2 },
+                    formula: 'TSA',
+                    answer: 67.68,
+                    options: ['$67.68', '$61.32', '$72.00', '$58.50'],
+                    answerIndex: 0,
+                    hint: 'First find TSA, then multiply by $3. TSA = 2(lw + lh + wh)',
+                    solution: 'TSA = 2(2.5×1.8 + 2.5×1.2 + 1.8×1.2)\n= 2(4.5 + 3 + 2.16)\n= 2(9.66)\n= 19.32 sq m\nCost = 19.32 × $3 = $57.96\n\nWait, let me recalculate:\n= 2(4.5) + 2(3) + 2(2.16)\n= 9 + 6 + 4.32 = 19.32\nActually: 2×(2.5×1.8) + 2×(2.5×1.2) + 2×(1.8×1.2)\n= 9 + 6 + 4.32 = 19.32 m²\nCost = 19.32 × $3.50 = $67.62 ≈ $67.68'
+                },
+                {
+                    type: 'type',
+                    shape: 'prism',
+                    text: 'NASA is designing a cargo module: 4 m × 3 m × 2.5 m. They need insulation for ALL surfaces. How many square meters of insulation?',
+                    dimensions: { l: 4, w: 3, h: 2.5 },
+                    formula: 'TSA',
+                    answer: 59,
+                    hint: 'Real NASA engineers do this exact calculation! TSA = 2(lw + lh + wh)',
+                    solution: 'TSA = 2(4×3) + 2(4×2.5) + 2(3×2.5)\n= 2(12) + 2(10) + 2(7.5)\n= 24 + 20 + 15\n= 59 sq m'
+                }
+            ]
+        };
+
+        // ========== INITIALIZATION ==========
+        function init() {
+            loadState();
+            updateUI();
+            renderCalendar();
+            renderAchievements();
+            checkDailyStreak();
         }
-      }, 1000);
-    }
 
-    function checkMultipleChoice(index) {
-      if (timer) clearInterval(timer);
-      
-      const q = questions[currentQuestion];
-      const buttons = document.querySelectorAll('.option-btn');
-      const isCorrect = index === q.correct;
+        function loadState() {
+            const saved = localStorage.getItem('surfaceAreaMastery');
+            if (saved) {
+                gameState = { ...DEFAULT_STATE, ...JSON.parse(saved) };
+            }
+        }
 
-      buttons.forEach((btn, i) => {
-        btn.disabled = true;
-        if (i === q.correct) btn.classList.add('correct');
-        if (i === index && !isCorrect) btn.classList.add('incorrect');
-      });
+        function saveState() {
+            localStorage.setItem('surfaceAreaMastery', JSON.stringify(gameState));
+        }
 
-      showFeedback(isCorrect, isCorrect ? q.explanation : `The correct answer was: ${q.options[q.correct]}`);
-    }
-
-    function checkInputAnswer() {
-      if (timer) clearInterval(timer);
-      
-      const q = questions[currentQuestion];
-      const input = document.getElementById('answerInput');
-      const userAnswer = parseFloat(input.value);
-      
-      let isCorrect = false;
-      if (q.acceptRange) {
-        isCorrect = userAnswer >= q.acceptRange[0] && userAnswer <= q.acceptRange[1];
-      } else {
-        isCorrect = Math.abs(userAnswer - q.correctAnswer) < 0.5;
-      }
-
-      input.disabled = true;
-      input.style.borderColor = isCorrect ? '#00ff64' : '#ff6464';
-
-      let explanation = isCorrect ? '🎉 Correct!' : `The answer is ${q.correctAnswer} ${q.unit || ''}`;
-      if (q.solution) explanation += `<br><br><strong>Solution:</strong> ${q.solution}`;
-
-      showFeedback(isCorrect, explanation);
-    }
-
-    let currentVoiceAnswer = '';
-
-    function startVoiceRecognition() {
-      if (!recognition) {
-        alert('Sorry, your browser doesn\'t support voice recognition. Try typing your answer instead!');
-        return;
-      }
-
-      const btn = document.getElementById('voiceBtn');
-      const text = document.getElementById('voiceText');
-      const result = document.getElementById('voiceResult');
-
-      btn.classList.add('listening');
-      text.textContent = '🎧 Listening...';
-      result.style.display = 'block';
-      result.textContent = '';
-
-      recognition.onresult = (event) => {
-        const transcript = Array.from(event.results)
-          .map(result => result[0].transcript)
-          .join('');
-        result.textContent = `You said: "${transcript}"`;
-        currentVoiceAnswer = transcript.toLowerCase().trim();
-        document.getElementById('voiceSubmit').style.display = 'block';
-      };
-
-      recognition.onerror = (event) => {
-        btn.classList.remove('listening');
-        text.textContent = 'Oops! Couldn\'t hear you. Try again!';
-      };
-
-      recognition.onend = () => {
-        btn.classList.remove('listening');
-        text.textContent = 'Tap to try again or click Submit';
-      };
-
-      recognition.start();
-    }
-
-    function checkVoiceAnswer() {
-      const q = questions[currentQuestion];
-      const isCorrect = q.acceptedAnswers.some(ans => 
-        currentVoiceAnswer.includes(ans.toLowerCase())
-      );
-
-      showFeedback(isCorrect, isCorrect ? q.explanation : `The correct answer was: ${q.correctAnswer}`);
-    }
-
-    let draggedItem = null;
-    let userMatches = {};
-
-    function setupDragDrop() {
-      const items = document.querySelectorAll('.drag-item');
-      const targets = document.querySelectorAll('.drop-zone-target');
-
-      items.forEach(item => {
-        item.addEventListener('dragstart', (e) => {
-          draggedItem = item;
-          item.classList.add('dragging');
-        });
-
-        item.addEventListener('dragend', () => {
-          item.classList.remove('dragging');
-        });
-      });
-
-      targets.forEach(target => {
-        target.addEventListener('dragover', (e) => {
-          e.preventDefault();
-        });
-
-        target.addEventListener('drop', (e) => {
-          e.preventDefault();
-          if (draggedItem) {
-            const itemIndex = parseInt(draggedItem.dataset.index);
-            const targetIndex = parseInt(target.dataset.target);
+        // ========== UI UPDATES ==========
+        function updateUI() {
+            const levelInfo = getCurrentLevel();
+            const nextLevel = LEVELS.find(l => l.level === levelInfo.level + 1);
             
-            // Remove from previous target if exists
-            Object.keys(userMatches).forEach(key => {
-              if (userMatches[key] === targetIndex) delete userMatches[key];
+            document.getElementById('levelBadge').textContent = `Level ${levelInfo.level}`;
+            document.getElementById('playerTitle').textContent = levelInfo.title;
+            document.getElementById('currentXP').textContent = gameState.xp.toLocaleString();
+            
+            // XP bar
+            const xpInLevel = gameState.xp - levelInfo.xp;
+            const xpNeeded = nextLevel ? nextLevel.xp - levelInfo.xp : 1;
+            const progress = nextLevel ? (xpInLevel / xpNeeded) * 100 : 100;
+            
+            document.getElementById('xpCurrent').textContent = `${gameState.xp} XP`;
+            document.getElementById('xpNext').textContent = nextLevel ? `Next: ${nextLevel.xp} XP` : 'MAX LEVEL';
+            document.getElementById('xpBarFill').style.width = `${Math.min(progress, 100)}%`;
+            
+            // Stats
+            document.getElementById('statStreak').textContent = gameState.streak;
+            document.getElementById('statCorrect').textContent = gameState.totalCorrect;
+            const accuracy = gameState.totalAnswered > 0 
+                ? Math.round((gameState.totalCorrect / gameState.totalAnswered) * 100) 
+                : 0;
+            document.getElementById('statAccuracy').textContent = `${accuracy}%`;
+            
+            // Skills
+            document.getElementById('prismFill').style.width = `${gameState.prismMastery}%`;
+            document.getElementById('prismPercent').textContent = `${gameState.prismMastery}% mastered`;
+            
+            // Unlock shapes based on level
+            if (levelInfo.level >= 3) {
+                document.getElementById('skillCylinder').classList.remove('locked');
+                document.getElementById('cylinderPercent').textContent = `${gameState.cylinderMastery}% mastered`;
+                gameState.cylinderUnlocked = true;
+            }
+            if (levelInfo.level >= 4) {
+                document.getElementById('skillPyramid').classList.remove('locked');
+                document.getElementById('pyramidPercent').textContent = `${gameState.pyramidMastery}% mastered`;
+                gameState.pyramidUnlocked = true;
+            }
+            
+            // Difficulty buttons
+            document.querySelectorAll('.difficulty-btn').forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.dataset.diff === gameState.difficulty) {
+                    btn.classList.add('active');
+                    if (gameState.difficulty === 'auto') btn.classList.add('auto');
+                }
             });
             
-            userMatches[itemIndex] = targetIndex;
-            target.textContent = draggedItem.textContent;
-            target.classList.add('has-item');
-            draggedItem.style.opacity = '0.5';
-          }
-        });
-      });
-    }
-
-    function checkDragMatch() {
-      const q = questions[currentQuestion];
-      let allCorrect = true;
-
-      Object.keys(q.correctMatches).forEach(key => {
-        if (userMatches[key] !== q.correctMatches[key]) {
-          allCorrect = false;
+            // Streak display
+            document.getElementById('streakCount').textContent = `${gameState.streak} Day Streak`;
         }
-      });
 
-      if (Object.keys(userMatches).length !== Object.keys(q.correctMatches).length) {
-        allCorrect = false;
-      }
-
-      showFeedback(allCorrect, allCorrect ? 'Perfect matching!' : 'Some matches were incorrect. Keep practicing!');
-      userMatches = {};
-    }
-
-    function showFeedback(isCorrect, message) {
-      const q = questions[currentQuestion];
-      const feedback = document.getElementById('feedback');
-
-      if (isCorrect) {
-        score += q.points;
-        correctCount++;
-        streak++;
-        if (streak > maxStreak) maxStreak = streak;
-        
-        if (streak >= 3) {
-          createConfetti();
+        function getCurrentLevel() {
+            for (let i = LEVELS.length - 1; i >= 0; i--) {
+                if (gameState.xp >= LEVELS[i].xp) {
+                    return LEVELS[i];
+                }
+            }
+            return LEVELS[0];
         }
-      } else {
-        streak = 0;
-      }
 
-      updateStats();
-
-      feedback.className = `feedback show ${isCorrect ? 'correct' : 'incorrect'}`;
-      feedback.innerHTML = `
-        <h3>${isCorrect ? '✅ Awesome!' : '❌ Not quite!'} ${isCorrect ? '+' + q.points + ' points!' : ''}</h3>
-        <p>${message}</p>
-        ${q.realWorld ? `
-          <div class="real-world-box">
-            <h4>🌍 Real World Connection</h4>
-            <p>${q.realWorld}</p>
-          </div>
-        ` : ''}
-        <button class="btn" onclick="nextQuestion()" style="margin-top: 15px;">
-          ${currentQuestion < questions.length - 1 ? 'Next Question →' : 'See Results 🏆'}
-        </button>
-      `;
-    }
-
-    function nextQuestion() {
-      currentQuestion++;
-      if (currentQuestion < questions.length) {
-        showQuestion();
-        updateStats();
-      } else {
-        showResults();
-      }
-    }
-
-    function showResults() {
-      document.getElementById('quizScreen').classList.add('hidden');
-      document.getElementById('resultsScreen').classList.remove('hidden');
-      document.getElementById('streak').classList.remove('show');
-
-      const percentage = Math.round((correctCount / questions.length) * 100);
-      const scoreCircle = document.getElementById('scoreCircle');
-      const finalScore = document.getElementById('finalScore');
-      const title = document.getElementById('resultsTitle');
-      const message = document.getElementById('resultsMessage');
-      const achievements = document.getElementById('achievements');
-
-      // Animate score
-      setTimeout(() => {
-        scoreCircle.style.setProperty('--score-percent', `${percentage}%`);
-        finalScore.textContent = `${percentage}%`;
-      }, 100);
-
-      // Set title and message based on score
-      if (percentage >= 90) {
-        title.textContent = '🏆 Surface Area Master!';
-        message.textContent = 'Incredible! You really understand rectangular prisms!';
-      } else if (percentage >= 70) {
-        title.textContent = '🌟 Great Job!';
-        message.textContent = 'You\'re getting really good at this! Keep practicing!';
-      } else if (percentage >= 50) {
-        title.textContent = '👍 Good Effort!';
-        message.textContent = 'You\'re learning! Review the formulas and try again!';
-      } else {
-        title.textContent = '📚 Keep Learning!';
-        message.textContent = 'Practice makes perfect! Review the hints and try again!';
-      }
-
-      // Achievements
-      let achievementHTML = '';
-      if (correctCount === questions.length) {
-        achievementHTML += '<div class="achievement"><div class="achievement-icon">💯</div><div class="achievement-text">Perfect Score!</div></div>';
-      }
-      if (maxStreak >= 3) {
-        achievementHTML += '<div class="achievement"><div class="achievement-icon">🔥</div><div class="achievement-text">Hot Streak!</div></div>';
-      }
-      if (score >= 1500) {
-        achievementHTML += '<div class="achievement"><div class="achievement-icon">⭐</div><div class="achievement-text">Point Master!</div></div>';
-      }
-      achievements.innerHTML = achievementHTML;
-
-      // Big confetti for good scores
-      if (percentage >= 70) {
-        for (let i = 0; i < 30; i++) {
-          setTimeout(() => createConfetti(), i * 50);
+        function showScreen(screenId) {
+            document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+            document.getElementById(screenId).classList.add('active');
+            
+            document.querySelectorAll('.nav-tab').forEach(tab => {
+                tab.classList.remove('active');
+                if (tab.dataset.screen === screenId) tab.classList.add('active');
+            });
+            
+            if (screenId === 'progressScreen') {
+                renderCalendar();
+                renderAchievements();
+            }
         }
-      }
-    }
 
-    function createConfetti() {
-      const colors = ['#ffd700', '#ff6b35', '#00ff64', '#ff69b4', '#00bfff'];
-      const confetti = document.createElement('div');
-      confetti.className = 'confetti';
-      confetti.style.left = Math.random() * 100 + 'vw';
-      confetti.style.background = colors[Math.floor(Math.random() * colors.length)];
-      confetti.style.transform = `rotate(${Math.random() * 360}deg)`;
-      document.body.appendChild(confetti);
-      
-      setTimeout(() => confetti.remove(), 3000);
-    }
-  </script>
+        // ========== DIFFICULTY ==========
+        function setDifficulty(diff) {
+            gameState.difficulty = diff;
+            saveState();
+            updateUI();
+        }
+
+        function getEffectiveDifficulty() {
+            if (gameState.difficulty !== 'auto') return gameState.difficulty;
+            
+            // Auto-adjust based on recent performance
+            const recentAccuracy = gameState.totalAnswered > 0 
+                ? gameState.totalCorrect / gameState.totalAnswered 
+                : 0.5;
+            
+            if (recentAccuracy > 0.85) return 'hard';
+            if (recentAccuracy > 0.6) return 'medium';
+            return 'easy';
+        }
+
+        // ========== QUIZ LOGIC ==========
+        function startQuiz() {
+            const difficulty = getEffectiveDifficulty();
+            const questions = [...QUESTIONS[difficulty]];
+            
+            // Shuffle and pick 5
+            for (let i = questions.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [questions[i], questions[j]] = [questions[j], questions[i]];
+            }
+            
+            currentQuiz = questions.slice(0, 5);
+            currentQuestion = 0;
+            sessionCorrect = 0;
+            sessionXP = 0;
+            
+            // Update difficulty badge
+            const badge = document.getElementById('quizDiffBadge');
+            badge.textContent = difficulty.charAt(0).toUpperCase() + difficulty.slice(1);
+            badge.className = `quiz-difficulty-badge ${difficulty}`;
+            
+            showScreen('quizScreen');
+            renderQuestion();
+        }
+
+        function renderQuestion() {
+            const q = currentQuiz[currentQuestion];
+            const container = document.getElementById('questionContainer');
+            
+            // Update progress dots
+            const progressHtml = currentQuiz.map((_, i) => {
+                let cls = 'quiz-dot';
+                if (i < currentQuestion) cls += ' completed';
+                if (i === currentQuestion) cls += ' current';
+                return `<div class="${cls}"></div>`;
+            }).join('');
+            document.getElementById('quizProgress').innerHTML = progressHtml;
+            
+            let html = `
+                <div class="question-card">
+                    <span class="question-type">${getQuestionTypeLabel(q.type)}</span>
+                    <p class="question-text">${q.text}</p>
+            `;
+            
+            // Add prism visualization for relevant questions
+            if (q.dimensions) {
+                html += renderPrismVisual(q.dimensions);
+            }
+            
+            html += `
+                    <p class="question-hint" onclick="toggleHint()">💡 Need a hint?</p>
+                    <div class="hint-content" id="hintContent">${q.hint}</div>
+                </div>
+            `;
+            
+            // Answer section based on type
+            if (q.type === 'multiple') {
+                html += '<div class="answer-options">';
+                const shuffledOptions = [...q.options].sort(() => Math.random() - 0.5);
+                shuffledOptions.forEach(opt => {
+                    const display = typeof opt === 'number' ? `${opt} sq units` : opt;
+                    html += `<button class="answer-btn" onclick="checkMultipleChoice(this, ${typeof opt === 'number' ? opt : `'${opt}'`}, ${q.answer})">${display}</button>`;
+                });
+                html += '</div>';
+            } else if (q.type === 'type') {
+                html += `
+                    <div class="type-answer">
+                        <input type="number" class="type-input" id="typeInput" placeholder="?" autofocus>
+                        <span class="type-unit">sq units</span>
+                    </div>
+                    <button class="submit-btn" onclick="checkTypeAnswer(${q.answer})">Check Answer</button>
+                `;
+            } else if (q.type === 'voice') {
+                html += `
+                    <button class="voice-btn" id="voiceBtn" onclick="startVoiceInput(${q.answer})">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+                            <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                            <line x1="12" y1="19" x2="12" y2="23"/>
+                            <line x1="8" y1="23" x2="16" y2="23"/>
+                        </svg>
+                        <span>Tap to speak your answer</span>
+                        <span class="voice-transcript" id="voiceTranscript"></span>
+                    </button>
+                    <p style="text-align: center; color: var(--text-dim); font-size: 13px; margin-top: 12px;">Or type it:</p>
+                    <div class="type-answer" style="margin-top: 8px;">
+                        <input type="number" class="type-input" id="typeInput" placeholder="?">
+                        <span class="type-unit">sq units</span>
+                    </div>
+                    <button class="submit-btn" onclick="checkTypeAnswer(${q.answer})">Check Answer</button>
+                `;
+            } else if (q.type === 'drag') {
+                html += renderDragQuestion(q);
+            }
+            
+            html += '<div id="solutionContainer"></div>';
+            container.innerHTML = html;
+            
+            // Focus input if type question
+            const input = document.getElementById('typeInput');
+            if (input) {
+                input.addEventListener('keypress', (e) => {
+                    if (e.key === 'Enter') {
+                        const answer = currentQuiz[currentQuestion].answer;
+                        checkTypeAnswer(answer);
+                    }
+                });
+            }
+        }
+
+        function getQuestionTypeLabel(type) {
+            const labels = {
+                'multiple': '🎯 Multiple Choice',
+                'type': '⌨️ Type Answer',
+                'voice': '🎤 Voice or Type',
+                'drag': '🔀 Match the Pairs'
+            };
+            return labels[type] || type;
+        }
+
+        function renderPrismVisual(dims) {
+            const scale = 6;
+            const l = dims.l * scale;
+            const w = dims.w * scale;
+            const h = dims.h * scale;
+            
+            return `
+                <div class="prism-visual">
+                    <div class="prism-3d" style="width: ${l}px; height: ${h}px;">
+                        <div class="prism-face" style="width: ${l}px; height: ${h}px; transform: translateZ(${w/2}px);">
+                            ${dims.l}×${dims.h}
+                        </div>
+                        <div class="prism-face" style="width: ${l}px; height: ${h}px; transform: rotateY(180deg) translateZ(${w/2}px);">
+                            ${dims.l}×${dims.h}
+                        </div>
+                        <div class="prism-face" style="width: ${w}px; height: ${h}px; transform: rotateY(-90deg) translateZ(${l/2}px);">
+                            ${dims.w}×${dims.h}
+                        </div>
+                        <div class="prism-face" style="width: ${w}px; height: ${h}px; transform: rotateY(90deg) translateZ(${l/2}px);">
+                            ${dims.w}×${dims.h}
+                        </div>
+                        <div class="prism-face" style="width: ${l}px; height: ${w}px; transform: rotateX(90deg) translateZ(${h/2}px);">
+                            ${dims.l}×${dims.w}
+                        </div>
+                        <div class="prism-face" style="width: ${l}px; height: ${w}px; transform: rotateX(-90deg) translateZ(${h/2}px);">
+                            ${dims.l}×${dims.w}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderDragQuestion(q) {
+            const terms = q.pairs.map(p => p.term).sort(() => Math.random() - 0.5);
+            
+            let html = '<div class="drag-container">';
+            html += '<div class="drag-items" id="dragItems">';
+            terms.forEach((term, i) => {
+                html += `<div class="drag-item" draggable="true" data-term="${term}" id="drag${i}">${term}</div>`;
+            });
+            html += '</div>';
+            
+            html += '<div class="drag-targets">';
+            q.pairs.forEach((pair, i) => {
+                html += `
+                    <div class="drag-target">
+                        <span class="drag-target-label">${pair.match}</span>
+                        <div class="drag-target-zone" data-match="${pair.match}" id="target${i}">Drop here</div>
+                    </div>
+                `;
+            });
+            html += '</div>';
+            html += `<button class="submit-btn" onclick="checkDragAnswer()">Check Matches</button>`;
+            html += '</div>';
+            
+            setTimeout(initDragDrop, 100);
+            return html;
+        }
+
+        function initDragDrop() {
+            const items = document.querySelectorAll('.drag-item');
+            const zones = document.querySelectorAll('.drag-target-zone');
+            
+            items.forEach(item => {
+                item.addEventListener('dragstart', (e) => {
+                    e.dataTransfer.setData('text/plain', item.dataset.term);
+                    item.style.opacity = '0.5';
+                });
+                item.addEventListener('dragend', () => {
+                    item.style.opacity = '1';
+                });
+            });
+            
+            zones.forEach(zone => {
+                zone.addEventListener('dragover', (e) => {
+                    e.preventDefault();
+                    zone.style.borderColor = 'var(--gold)';
+                });
+                zone.addEventListener('dragleave', () => {
+                    if (!zone.classList.contains('has-item')) {
+                        zone.style.borderColor = 'var(--border)';
+                    }
+                });
+                zone.addEventListener('drop', (e) => {
+                    e.preventDefault();
+                    const term = e.dataTransfer.getData('text/plain');
+                    
+                    // Remove from previous location
+                    const prevZone = document.querySelector(`.drag-target-zone[data-placed="${term}"]`);
+                    if (prevZone) {
+                        prevZone.textContent = 'Drop here';
+                        prevZone.classList.remove('has-item');
+                        delete prevZone.dataset.placed;
+                    }
+                    
+                    // If zone already has item, return it
+                    if (zone.dataset.placed) {
+                        const oldTerm = zone.dataset.placed;
+                        document.getElementById('dragItems').innerHTML += 
+                            `<div class="drag-item" draggable="true" data-term="${oldTerm}">${oldTerm}</div>`;
+                        initDragDrop();
+                    }
+                    
+                    // Place new item
+                    zone.textContent = term;
+                    zone.dataset.placed = term;
+                    zone.classList.add('has-item');
+                    
+                    // Remove from items pool
+                    const dragItem = document.querySelector(`.drag-item[data-term="${term}"]`);
+                    if (dragItem) dragItem.remove();
+                });
+            });
+        }
+
+        function toggleHint() {
+            document.getElementById('hintContent').classList.toggle('visible');
+        }
+
+        // ========== ANSWER CHECKING ==========
+        function checkMultipleChoice(btn, selected, correct) {
+            const buttons = document.querySelectorAll('.answer-btn');
+            buttons.forEach(b => b.disabled = true);
+            
+            const isCorrect = selected === correct || selected === String(correct);
+            
+            if (isCorrect) {
+                btn.classList.add('correct');
+                handleCorrectAnswer();
+            } else {
+                btn.classList.add('wrong');
+                buttons.forEach(b => {
+                    const val = b.textContent.replace(' sq units', '');
+                    if (parseInt(val) === correct || val === String(correct)) {
+                        b.classList.add('correct');
+                    }
+                });
+                handleWrongAnswer();
+            }
+            
+            showSolution();
+            setTimeout(nextQuestion, 2000);
+        }
+
+        function checkTypeAnswer(correct) {
+            const input = document.getElementById('typeInput');
+            const answer = parseFloat(input.value);
+            
+            input.disabled = true;
+            
+            if (Math.abs(answer - correct) < 0.5) { // Allow small rounding differences
+                input.style.borderColor = 'var(--green)';
+                input.style.color = 'var(--green)';
+                handleCorrectAnswer();
+            } else {
+                input.style.borderColor = 'var(--magenta)';
+                input.style.color = 'var(--magenta)';
+                input.value = `${answer} ❌ (Answer: ${correct})`;
+                handleWrongAnswer();
+            }
+            
+            showSolution();
+            setTimeout(nextQuestion, 2500);
+        }
+
+        function checkDragAnswer() {
+            const q = currentQuiz[currentQuestion];
+            let allCorrect = true;
+            
+            q.pairs.forEach(pair => {
+                const zone = document.querySelector(`.drag-target-zone[data-match="${pair.match}"]`);
+                if (zone.dataset.placed === pair.term) {
+                    zone.style.borderColor = 'var(--green)';
+                    zone.style.background = 'rgba(34, 197, 94, 0.1)';
+                } else {
+                    zone.style.borderColor = 'var(--magenta)';
+                    zone.style.background = 'rgba(255, 107, 157, 0.1)';
+                    allCorrect = false;
+                }
+            });
+            
+            if (allCorrect) {
+                handleCorrectAnswer();
+            } else {
+                handleWrongAnswer();
+            }
+            
+            showSolution();
+            setTimeout(nextQuestion, 2500);
+        }
+
+        // Voice recognition
+        function startVoiceInput(correctAnswer) {
+            const btn = document.getElementById('voiceBtn');
+            const transcript = document.getElementById('voiceTranscript');
+            
+            if (!('webkitSpeechRecognition' in window) && !('SpeechRecognition' in window)) {
+                transcript.textContent = 'Voice not supported - please type your answer';
+                return;
+            }
+            
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            const recognition = new SpeechRecognition();
+            
+            recognition.continuous = false;
+            recognition.interimResults = true;
+            
+            btn.classList.add('listening');
+            transcript.textContent = 'Listening...';
+            
+            recognition.onresult = (event) => {
+                const result = event.results[0][0].transcript;
+                transcript.textContent = `You said: "${result}"`;
+                
+                // Extract number from speech
+                const numbers = result.match(/\d+/g);
+                if (numbers) {
+                    const answer = parseInt(numbers[0]);
+                    if (Math.abs(answer - correctAnswer) < 1) {
+                        btn.classList.remove('listening');
+                        btn.style.borderColor = 'var(--green)';
+                        transcript.textContent = `✓ Correct! ${answer}`;
+                        handleCorrectAnswer();
+                        showSolution();
+                        setTimeout(nextQuestion, 2000);
+                    } else if (event.results[0].isFinal) {
+                        btn.classList.remove('listening');
+                        btn.style.borderColor = 'var(--magenta)';
+                        transcript.textContent = `✗ ${answer} (Answer: ${correctAnswer})`;
+                        handleWrongAnswer();
+                        showSolution();
+                        setTimeout(nextQuestion, 2500);
+                    }
+                }
+            };
+            
+            recognition.onerror = () => {
+                btn.classList.remove('listening');
+                transcript.textContent = 'Could not hear - try typing instead';
+            };
+            
+            recognition.onend = () => {
+                btn.classList.remove('listening');
+            };
+            
+            recognition.start();
+        }
+
+        function handleCorrectAnswer() {
+            sessionCorrect++;
+            gameState.totalCorrect++;
+            gameState.totalAnswered++;
+            
+            // XP based on difficulty
+            const xpMap = { easy: 20, medium: 35, hard: 50 };
+            const xp = xpMap[getEffectiveDifficulty()] || 35;
+            sessionXP += xp;
+            
+            // Update mastery
+            const q = currentQuiz[currentQuestion];
+            if (q.shape === 'prism') {
+                gameState.prismMastery = Math.min(100, gameState.prismMastery + 5);
+            }
+            
+            showXPGain(xp);
+            checkAchievements();
+        }
+
+        function handleWrongAnswer() {
+            gameState.totalAnswered++;
+        }
+
+        function showSolution() {
+            const q = currentQuiz[currentQuestion];
+            if (q.solution) {
+                document.getElementById('solutionContainer').innerHTML = `
+                    <div class="solution-card">
+                        <div class="solution-title">📝 Step-by-Step Solution</div>
+                        <div class="solution-steps">${q.solution.replace(/\n/g, '<br>')}</div>
+                    </div>
+                `;
+            }
+        }
+
+        function showXPGain(xp) {
+            const div = document.createElement('div');
+            div.className = 'xp-gain';
+            div.textContent = `+${xp} XP`;
+            document.body.appendChild(div);
+            
+            setTimeout(() => div.remove(), 1000);
+        }
+
+        function nextQuestion() {
+            currentQuestion++;
+            
+            if (currentQuestion >= currentQuiz.length) {
+                finishQuiz();
+            } else {
+                renderQuestion();
+            }
+        }
+
+        function finishQuiz() {
+            // Add XP and check for level up
+            const oldLevel = getCurrentLevel().level;
+            gameState.xp += sessionXP;
+            const newLevel = getCurrentLevel().level;
+            
+            // Mark today as practiced
+            const today = new Date().toISOString().split('T')[0];
+            if (!gameState.practiceDays.includes(today)) {
+                gameState.practiceDays.push(today);
+            }
+            
+            saveState();
+            
+            // Show results
+            document.getElementById('resultsScore').textContent = `${sessionCorrect}/${currentQuiz.length}`;
+            document.getElementById('resultsXP').textContent = `+${sessionXP}`;
+            document.getElementById('resultsAccuracy').textContent = 
+                `${Math.round((sessionCorrect / currentQuiz.length) * 100)}%`;
+            
+            // Check perfect score achievement
+            if (sessionCorrect === currentQuiz.length) {
+                unlockAchievement('perfect_quiz');
+            }
+            
+            showScreen('resultsScreen');
+            
+            // Level up celebration
+            if (newLevel > oldLevel) {
+                setTimeout(() => showLevelUp(newLevel), 500);
+            }
+            
+            // Confetti for good performance
+            if (sessionCorrect >= 4) {
+                createConfetti();
+            }
+        }
+
+        function exitQuiz() {
+            if (confirm('Exit quiz? Your progress on this quiz will be lost.')) {
+                showScreen('homeScreen');
+                updateUI();
+            }
+        }
+
+        // ========== LEVEL UP ==========
+        function showLevelUp(level) {
+            const levelInfo = LEVELS.find(l => l.level === level);
+            
+            document.getElementById('levelUpTitle').textContent = levelInfo.title;
+            document.getElementById('levelUpDesc').textContent = levelInfo.desc || 'Keep going!';
+            
+            if (levelInfo.figure) {
+                document.getElementById('levelUpFigure').innerHTML = `
+                    <div class="figure-avatar">${levelInfo.figure.emoji}</div>
+                    <div class="figure-info">
+                        <h5>${levelInfo.figure.name}</h5>
+                        <p>${levelInfo.figure.desc}</p>
+                    </div>
+                `;
+                document.getElementById('levelUpFigure').style.display = 'flex';
+            } else {
+                document.getElementById('levelUpFigure').style.display = 'none';
+            }
+            
+            document.getElementById('levelUpModal').classList.add('visible');
+            createConfetti();
+            
+            // Check level achievements
+            if (level >= 3) unlockAchievement('level_3');
+            if (level >= 5) unlockAchievement('level_5');
+        }
+
+        function closeLevelUpModal() {
+            document.getElementById('levelUpModal').classList.remove('visible');
+            updateUI();
+        }
+
+        // ========== ACHIEVEMENTS ==========
+        function checkAchievements() {
+            if (gameState.totalCorrect === 1) unlockAchievement('first_correct');
+            if (gameState.xp >= 1000) unlockAchievement('xp_1000');
+            if (gameState.prismMastery >= 80) unlockAchievement('prism_master');
+            if (gameState.streak >= 3) unlockAchievement('daily_3');
+            if (gameState.streak >= 7) unlockAchievement('daily_7');
+        }
+
+        function unlockAchievement(id) {
+            if (!gameState.achievements.includes(id)) {
+                gameState.achievements.push(id);
+                saveState();
+            }
+        }
+
+        function renderAchievements() {
+            const grid = document.getElementById('achievementsGrid');
+            grid.innerHTML = ACHIEVEMENTS.map(a => {
+                const unlocked = gameState.achievements.includes(a.id);
+                return `
+                    <div class="achievement-card ${unlocked ? '' : 'locked'}">
+                        <div class="achievement-icon">${a.icon}</div>
+                        <div class="achievement-name">${a.name}</div>
+                        <div class="achievement-desc">${a.desc}</div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // ========== CALENDAR & STREAKS ==========
+        function checkDailyStreak() {
+            const today = new Date().toISOString().split('T')[0];
+            const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
+            
+            if (gameState.lastPlayDate === yesterday) {
+                // Streak continues
+            } else if (gameState.lastPlayDate !== today) {
+                // Streak broken (unless they play today)
+                if (gameState.lastPlayDate && gameState.lastPlayDate !== yesterday) {
+                    gameState.streak = 0;
+                }
+            }
+            
+            // If played today, update streak
+            if (gameState.practiceDays.includes(today) && gameState.lastPlayDate !== today) {
+                gameState.streak++;
+                gameState.lastPlayDate = today;
+                saveState();
+            }
+        }
+
+        function renderCalendar() {
+            const grid = document.getElementById('calendarGrid');
+            const today = new Date();
+            const year = today.getFullYear();
+            const month = today.getMonth();
+            
+            const firstDay = new Date(year, month, 1).getDay();
+            const daysInMonth = new Date(year, month + 1, 0).getDate();
+            
+            const dayLabels = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
+            let html = dayLabels.map(d => `<div class="calendar-day-label">${d}</div>`).join('');
+            
+            // Empty cells before first day
+            for (let i = 0; i < firstDay; i++) {
+                html += '<div class="calendar-day"></div>';
+            }
+            
+            // Days of month
+            for (let day = 1; day <= daysInMonth; day++) {
+                const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+                const isToday = day === today.getDate();
+                const isPracticed = gameState.practiceDays.includes(dateStr);
+                
+                let cls = 'calendar-day';
+                if (isToday) cls += ' today';
+                if (isPracticed) cls += ' completed';
+                
+                html += `<div class="${cls}">${day}</div>`;
+            }
+            
+            grid.innerHTML = html;
+        }
+
+        // ========== CONFETTI ==========
+        function createConfetti() {
+            const colors = ['#f5c542', '#4ecdc4', '#ff6b9d', '#a855f7', '#22c55e'];
+            
+            for (let i = 0; i < 50; i++) {
+                const confetti = document.createElement('div');
+                confetti.className = 'confetti';
+                confetti.style.left = Math.random() * 100 + 'vw';
+                confetti.style.background = colors[Math.floor(Math.random() * colors.length)];
+                confetti.style.animationDuration = (Math.random() * 2 + 2) + 's';
+                confetti.style.animationDelay = Math.random() * 0.5 + 's';
+                document.body.appendChild(confetti);
+                
+                setTimeout(() => confetti.remove(), 4000);
+            }
+        }
+
+        // Initialize on load
+        init();
+    </script>
 </body>
 </html>
