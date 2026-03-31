@@ -54,3 +54,8 @@ More subjects are on the way! The goal is to cover lots of different topics kids
 ## How to Run It
 
 Just open `index.html` in any web browser. That's it!
+
+## Changelog
+
+- **2026-03-31** -- Added player profiles. Now when you open the app, you pick who's playing (or create a new player). Each player's progress is saved separately. You can switch between players anytime by tapping the name bar at the top of the home screen.
+- **2026-03-31** -- Rewrote the README to describe the app as a multi-subject quiz platform with Surface Area as the first subject.
