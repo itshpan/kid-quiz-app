@@ -55,6 +55,15 @@ More subjects are on the way! The goal is to cover lots of different topics kids
 
 Just open `index.html` in any web browser. That's it!
 
+## Create Your Own Quiz (API Key Info)
+
+The "Create Your Own Quiz" feature uses Google Gemini's free API to turn photos or text into quizzes. To use it, you'll need your own Gemini API key.
+
+1. Go to [aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey) and create a free key.
+2. In the app, tap the **+** button and paste your key when asked. You only have to do this once.
+
+**Your key stays private.** It is saved in your browser's local storage on your device only. It is never sent anywhere except directly to Google's servers to generate your quiz. It is not stored in the code, not uploaded to GitHub, and not shared with anyone. If you clone this repo, nobody else will ever see your key.
+
 ## Changelog
 
 - **2026-03-31** -- Added "Create Your Own Quiz" feature. Parents can tap the + button, upload a photo of a lesson or type in the content, and AI (Google Gemini, free tier) will generate a custom 5-question quiz. Each player saves their own API key.
