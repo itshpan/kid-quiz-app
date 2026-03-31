@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Surface Area Mastery</title>
+    <title>Kid Quiz App</title>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -1068,14 +1068,263 @@
             background: var(--border);
             border-radius: 3px;
         }
+
+        /* Profile Picker Screen */
+        .profile-screen {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 24px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .profile-screen h1 {
+            font-family: 'Archivo Black', sans-serif;
+            font-size: 28px;
+            margin-bottom: 8px;
+            background: linear-gradient(135deg, var(--gold), var(--cyan));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .profile-screen .subtitle {
+            color: var(--text-dim);
+            margin-bottom: 32px;
+            font-size: 15px;
+        }
+
+        .profile-list {
+            width: 100%;
+            max-width: 360px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .profile-card {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 16px;
+            background: var(--bg-card);
+            border: 2px solid var(--border);
+            border-radius: 16px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .profile-card:hover {
+            border-color: var(--gold);
+            background: var(--bg-elevated);
+        }
+
+        .profile-avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            flex-shrink: 0;
+        }
+
+        .profile-info {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .profile-name {
+            font-weight: 700;
+            font-size: 16px;
+        }
+
+        .profile-level {
+            font-size: 13px;
+            color: var(--text-dim);
+        }
+
+        .profile-delete {
+            background: none;
+            border: none;
+            color: var(--text-dim);
+            cursor: pointer;
+            padding: 8px;
+            border-radius: 8px;
+            font-size: 18px;
+            transition: color 0.2s;
+        }
+
+        .profile-delete:hover {
+            color: var(--magenta);
+        }
+
+        .add-profile-btn {
+            width: 100%;
+            max-width: 360px;
+            padding: 16px;
+            border: 2px dashed var(--border);
+            border-radius: 16px;
+            background: none;
+            color: var(--text-dim);
+            font-family: inherit;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .add-profile-btn:hover {
+            border-color: var(--gold);
+            color: var(--gold);
+        }
+
+        .new-profile-form {
+            width: 100%;
+            max-width: 360px;
+            display: none;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .new-profile-form.visible {
+            display: flex;
+        }
+
+        .new-profile-form input {
+            padding: 14px 16px;
+            border: 2px solid var(--border);
+            border-radius: 14px;
+            background: var(--bg-card);
+            color: var(--text);
+            font-family: inherit;
+            font-size: 16px;
+            outline: none;
+        }
+
+        .new-profile-form input:focus {
+            border-color: var(--gold);
+        }
+
+        .avatar-picker {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .avatar-option {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            border: 2px solid var(--border);
+            background: var(--bg-card);
+            font-size: 22px;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .avatar-option.selected {
+            border-color: var(--gold);
+            background: var(--bg-elevated);
+            transform: scale(1.1);
+        }
+
+        .form-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .form-buttons button {
+            flex: 1;
+            padding: 14px;
+            border: none;
+            border-radius: 14px;
+            font-family: inherit;
+            font-size: 15px;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        .btn-save-profile {
+            background: var(--gold);
+            color: #000;
+        }
+
+        .btn-cancel-profile {
+            background: var(--bg-elevated);
+            color: var(--text-dim);
+        }
+
+        .current-user-bar {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 8px 14px;
+            margin-bottom: 12px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .current-user-bar:hover {
+            border-color: var(--gold-dim);
+        }
+
+        .current-user-bar .profile-avatar {
+            width: 30px;
+            height: 30px;
+            font-size: 16px;
+        }
+
+        .current-user-bar .profile-name {
+            font-size: 14px;
+            flex: 1;
+        }
+
+        .current-user-bar .switch-label {
+            font-size: 12px;
+            color: var(--text-dim);
+        }
     </style>
 </head>
 <body>
     <div class="bg-effects"></div>
 
-    <div class="app-container">
+    <!-- PROFILE PICKER SCREEN -->
+    <div class="profile-screen" id="profileScreen">
+        <h1>Kid Quiz App</h1>
+        <p class="subtitle">Who's playing?</p>
+        <div class="profile-list" id="profileList"></div>
+        <button class="add-profile-btn" id="addProfileBtn" onclick="showNewProfileForm()">+ New Player</button>
+        <div class="new-profile-form" id="newProfileForm">
+            <input type="text" id="newProfileName" placeholder="Enter your name" maxlength="20" autocomplete="off" onkeydown="if(event.key==='Enter')createProfile()">
+            <p style="color: var(--text-dim); font-size: 13px; text-align: center;">Pick your avatar:</p>
+            <div class="avatar-picker" id="avatarPicker"></div>
+            <div class="form-buttons">
+                <button class="btn-cancel-profile" onclick="hideNewProfileForm()">Cancel</button>
+                <button class="btn-save-profile" onclick="createProfile()">Let's Go!</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="app-container" id="appContainer" style="display: none;">
         <!-- HOME SCREEN -->
         <div class="screen active" id="homeScreen">
+            <div class="current-user-bar" onclick="switchProfile()">
+                <div class="profile-avatar" id="currentUserAvatar"></div>
+                <span class="profile-name" id="currentUserName"></span>
+                <span class="switch-label">Switch</span>
+            </div>
             <div class="header">
                 <div class="level-badge">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
@@ -1313,6 +1562,67 @@
         let sessionCorrect = 0;
         let sessionXP = 0;
 
+        // ========== USER MANAGER ==========
+        // Swap this object out for a Firebase/API-backed version later.
+        // The rest of the app only calls these methods — it never touches
+        // localStorage for user or game-state data directly.
+        const AVATARS = ['🦊', '🐱', '🐶', '🐼', '🦁', '🐸', '🦄', '🐵', '🐰', '🐧', '🦋', '🐢'];
+
+        const UserManager = {
+            _key: 'kidQuizApp_users',
+
+            // Returns array of { id, name, avatar }
+            getProfiles() {
+                const raw = localStorage.getItem(this._key);
+                return raw ? JSON.parse(raw) : [];
+            },
+
+            _saveProfiles(profiles) {
+                localStorage.setItem(this._key, JSON.stringify(profiles));
+            },
+
+            createProfile(name, avatar) {
+                const profiles = this.getProfiles();
+                const id = 'user_' + Date.now();
+                profiles.push({ id, name, avatar });
+                this._saveProfiles(profiles);
+                return id;
+            },
+
+            deleteProfile(id) {
+                let profiles = this.getProfiles();
+                profiles = profiles.filter(p => p.id !== id);
+                this._saveProfiles(profiles);
+                localStorage.removeItem('kidQuizApp_state_' + id);
+                if (this.getActiveId() === id) {
+                    localStorage.removeItem('kidQuizApp_activeUser');
+                }
+            },
+
+            getProfile(id) {
+                return this.getProfiles().find(p => p.id === id) || null;
+            },
+
+            setActiveId(id) {
+                localStorage.setItem('kidQuizApp_activeUser', id);
+            },
+
+            getActiveId() {
+                return localStorage.getItem('kidQuizApp_activeUser');
+            },
+
+            loadGameState(userId) {
+                const raw = localStorage.getItem('kidQuizApp_state_' + userId);
+                return raw ? { ...DEFAULT_STATE, ...JSON.parse(raw) } : { ...DEFAULT_STATE };
+            },
+
+            saveGameState(userId, state) {
+                localStorage.setItem('kidQuizApp_state_' + userId, JSON.stringify(state));
+            }
+        };
+
+        let activeUserId = null;
+
         // ========== LEVEL DEFINITIONS ==========
         const LEVELS = [
             { level: 1, title: 'Apprentice Measurer', xp: 0, unlock: null },
@@ -1452,24 +1762,128 @@
             ]
         };
 
-        // ========== INITIALIZATION ==========
-        function init() {
+        // ========== PROFILE PICKER ==========
+        function renderProfileList() {
+            const list = document.getElementById('profileList');
+            const profiles = UserManager.getProfiles();
+            list.innerHTML = '';
+            profiles.forEach(p => {
+                const card = document.createElement('div');
+                card.className = 'profile-card';
+                const state = UserManager.loadGameState(p.id);
+                const levelInfo = LEVELS.slice().reverse().find(l => state.xp >= l.xp) || LEVELS[0];
+                card.innerHTML = `
+                    <div class="profile-avatar" style="background: var(--bg-elevated);">${p.avatar}</div>
+                    <div class="profile-info">
+                        <div class="profile-name">${p.name}</div>
+                        <div class="profile-level">Level ${levelInfo.level} · ${levelInfo.title}</div>
+                    </div>
+                    <button class="profile-delete" onclick="event.stopPropagation(); deleteProfile('${p.id}')" title="Delete profile">&times;</button>
+                `;
+                card.addEventListener('click', () => selectProfile(p.id));
+                list.appendChild(card);
+            });
+        }
+
+        function showNewProfileForm() {
+            document.getElementById('addProfileBtn').style.display = 'none';
+            const form = document.getElementById('newProfileForm');
+            form.classList.add('visible');
+            document.getElementById('newProfileName').value = '';
+            document.getElementById('newProfileName').focus();
+            // Render avatar picker
+            const picker = document.getElementById('avatarPicker');
+            picker.innerHTML = '';
+            AVATARS.forEach((a, i) => {
+                const btn = document.createElement('button');
+                btn.className = 'avatar-option' + (i === 0 ? ' selected' : '');
+                btn.textContent = a;
+                btn.type = 'button';
+                btn.onclick = () => {
+                    picker.querySelectorAll('.avatar-option').forEach(b => b.classList.remove('selected'));
+                    btn.classList.add('selected');
+                };
+                picker.appendChild(btn);
+            });
+        }
+
+        function hideNewProfileForm() {
+            document.getElementById('addProfileBtn').style.display = '';
+            document.getElementById('newProfileForm').classList.remove('visible');
+        }
+
+        function createProfile() {
+            const name = document.getElementById('newProfileName').value.trim();
+            if (!name) return;
+            const selected = document.getElementById('avatarPicker').querySelector('.selected');
+            const avatar = selected ? selected.textContent : AVATARS[0];
+            const id = UserManager.createProfile(name, avatar);
+            hideNewProfileForm();
+            selectProfile(id);
+        }
+
+        function deleteProfile(id) {
+            const profile = UserManager.getProfile(id);
+            if (!profile) return;
+            if (!confirm(`Delete ${profile.name}'s profile? Their progress will be lost.`)) return;
+            UserManager.deleteProfile(id);
+            renderProfileList();
+        }
+
+        function selectProfile(id) {
+            activeUserId = id;
+            UserManager.setActiveId(id);
             loadState();
+            const profile = UserManager.getProfile(id);
+            document.getElementById('currentUserAvatar').textContent = profile.avatar;
+            document.getElementById('currentUserName').textContent = profile.name;
+            document.getElementById('profileScreen').style.display = 'none';
+            document.getElementById('appContainer').style.display = '';
+            document.querySelector('.nav-tabs').style.display = '';
             updateUI();
             renderCalendar();
             renderAchievements();
             checkDailyStreak();
         }
 
+        function switchProfile() {
+            // Save current state before switching
+            if (activeUserId) saveState();
+            activeUserId = null;
+            gameState = { ...DEFAULT_STATE };
+            document.getElementById('profileScreen').style.display = '';
+            document.getElementById('appContainer').style.display = 'none';
+            document.querySelector('.nav-tabs').style.display = 'none';
+            renderProfileList();
+            showScreen('homeScreen');
+        }
+
+        // ========== INITIALIZATION ==========
+        function init() {
+            const lastUser = UserManager.getActiveId();
+            const profile = lastUser ? UserManager.getProfile(lastUser) : null;
+            if (profile) {
+                // Auto-resume last profile
+                selectProfile(lastUser);
+            } else {
+                // Show profile picker
+                document.getElementById('profileScreen').style.display = '';
+                document.getElementById('appContainer').style.display = 'none';
+                document.querySelector('.nav-tabs').style.display = 'none';
+                renderProfileList();
+            }
+        }
+
         function loadState() {
-            const saved = localStorage.getItem('surfaceAreaMastery');
-            if (saved) {
-                gameState = { ...DEFAULT_STATE, ...JSON.parse(saved) };
+            if (activeUserId) {
+                gameState = UserManager.loadGameState(activeUserId);
             }
         }
 
         function saveState() {
-            localStorage.setItem('surfaceAreaMastery', JSON.stringify(gameState));
+            if (activeUserId) {
+                UserManager.saveGameState(activeUserId, gameState);
+            }
         }
 
         // ========== UI UPDATES ==========
