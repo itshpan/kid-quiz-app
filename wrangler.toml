@@ -2,9 +2,25 @@ name = "learning-lab"
 compatibility_date = "2026-01-01"
 pages_build_output_dir = "."
 
-# Filled in by `npm run db:create`. Until then the API returns a clear
-# "not configured yet" message and the app falls back to local-only storage.
-[[d1_databases]]
-binding = "DB"
-database_name = "learning-lab"
-database_id = "PLACEHOLDER"
+# ---------------------------------------------------------------------------
+# Progress syncing (Cloudflare D1).
+#
+# Commented out until the database exists, because Pages refuses to deploy a
+# Function with an unresolvable binding — it fails the whole deploy rather
+# than degrading. With this off, /api/* returns "not-configured" and the app
+# falls back to local storage cleanly.
+#
+# To switch it on:
+#   1. Give the API token  Account · D1 · Edit  (dash.cloudflare.com → My
+#      Profile → API Tokens → edit the token used here)
+#   2. npm run db:create          — prints the database_id
+#   3. paste that id below and uncomment these three lines
+#   4. npm run db:init            — creates the tables
+#   5. npm run db:class -- "Ezra Grade 6" | npx wrangler d1 execute \
+#        learning-lab --remote --file=-      — prints the two codes
+#   6. npm run deploy
+# ---------------------------------------------------------------------------
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "learning-lab"
+# database_id = "PASTE_ID_HERE"
