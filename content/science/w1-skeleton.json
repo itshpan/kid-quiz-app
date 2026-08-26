@@ -1,329 +1,687 @@
 {
-  "id": "sci-w1-skeleton",
+  "id": "sci-w1",
   "courseId": "science",
+  "courseTitle": "Science",
   "week": 1,
   "title": "Skeletal & Muscular Systems",
-  "subtitle": "Your body's roll cage and its engine — bones, and the three kinds of muscle that move them",
-  "estMinutes": 30,
+  "subtitle": "Your body's roll cage, and the engine that moves it.",
+  "estMinutes": 20,
   "objectives": [
     "Name the five jobs the skeleton does for the body",
     "Locate and name the major bones of the human skeleton",
     "Explain how bone structure protects the body during impact",
     "Describe how exercise and puberty change bone density",
-    "Distinguish skeletal, smooth and cardiac muscle by structure, control and location",
-    "Explain how muscles move bones through antagonistic pairs"
+    "Distinguish skeletal, smooth and cardiac muscle",
+    "Explain how muscles move bones through antagonistic pairs",
+    "Explain why daily training now affects bone and muscle health for life"
   ],
-  "blocks": [
+  "cards": [
     {
-      "type": "hook",
+      "kind": "open",
+      "icon": "🏎️",
+      "eyebrow": "Part 1 · Bones",
       "title": "Every car you like has a skeleton too",
-      "body": [
-        "Look at a race car with the body panels stripped off and you'll see a cage of steel tubes. That cage is the reason a driver can hit a wall at 200 km/h and walk away. Engineers call it the safety cell.",
-        "You are walking around inside one right now. 206 bones, arranged so precisely that the important stuff — brain, heart, lungs, spinal cord — is always behind something hard. Today we figure out how that cage is built, and why the way you train changes what it's made of."
-      ]
+      "text": "Strip the panels off a race car. Underneath is a cage of steel tubes. That cage is why a driver can hit a wall and walk away."
     },
     {
-      "type": "text",
+      "kind": "open",
+      "icon": "🦴",
+      "title": "You're inside one right now",
+      "text": "206 bones. Arranged so the parts that can't heal — brain, heart, lungs, spinal cord — always sit behind something hard."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The big idea",
       "title": "Five jobs, one frame",
-      "body": [
-        "People usually think bones do one thing: hold you up. They actually do five, and only one of them is about standing."
-      ],
-      "bullets": [
-        "**Support** — the frame that everything else hangs off. Without it you'd be a puddle with opinions.",
-        "**Protection** — the skull, ribs and spine are armour plating for the organs that can't repair themselves.",
-        "**Movement** — bones are levers. Muscles pull on them; the bones do the actual moving.",
-        "**Blood production** — red bone marrow inside your bones makes red and white blood cells. Your skeleton is a factory.",
-        "**Mineral storage** — bones bank calcium and phosphorus and release them when the rest of the body runs short."
+      "text": "Most people think bones just hold you up. That's one job out of five.",
+      "points": [
+        "**Support** — the frame everything else hangs off.",
+        "**Protection** — armour for organs that can't repair themselves.",
+        "**Movement** — bones are levers. Muscles pull, bones move.",
+        "**Blood and storage** — marrow makes blood cells; bones bank calcium."
       ]
     },
     {
-      "type": "skeleton",
+      "kind": "diagram",
       "title": "Tap any bone",
-      "caption": "Every bone has a car fact and a boxing fact. Tap around before you take the quiz — two questions come straight from this diagram."
+      "text": "Each one has a car fact and a boxing fact. Two quiz questions come from this diagram."
     },
     {
-      "type": "lens",
-      "interest": "cars",
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Death Stranding has this exactly right",
+      "text": "Sam straps on a Power Skeleton to carry more cargo. That's an exoskeleton — a skeleton worn on the outside.",
+      "points": [
+        "**Yours is an endoskeleton** — on the inside.",
+        "**Crabs and beetles** wear theirs outside, like Sam's rig.",
+        "**The whole game is load-bearing.** Balance, weight, centre of gravity."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Sam's Power Skeleton is worn outside his body. What is a skeleton on the outside called?",
+        "options": [
+          "An exoskeleton",
+          "An endoskeleton",
+          "A cartilage frame"
+        ],
+        "answerIndex": 0,
+        "explain": "An exoskeleton. Crabs and beetles have them. Yours is an endoskeleton — endo means inside."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
       "icon": "🚗",
-      "label": "Car mode",
-      "color": "#4ecdc4",
-      "title": "Why a seatbelt goes where it goes",
-      "body": [
-        "A seatbelt isn't placed randomly. Engineers routed it across exactly three places: the collarbone, the ribcage, and the hip bones. All three are bone. The belt deliberately avoids your stomach, because there's nothing under there but soft organs."
-      ],
-      "bullets": [
-        "**The lap belt sits on your pelvis, not your belly.** The pelvis is one of the strongest structures in your body. Wear it too high and a crash loads your intestines instead of your hip bones. That's why 'the belt is annoying so I put it under my arm' is genuinely dangerous.",
-        "**The shoulder belt crosses your clavicle and sternum.** Those spread the force across the whole ribcage instead of one point.",
-        "**Your clavicle is designed to break.** It's the most commonly fractured bone in the human body — and that's a feature. It snaps at a lower force than your neck or spine, absorbing energy like a fuse blowing to save the wiring.",
-        "**Ribs are the crumple zone, the skull is the safety cell.** Ribs flex and can break, absorbing energy. The skull doesn't flex at all — because brains don't heal like bone does. Same design logic as the front of a car crumpling while the passenger cabin stays rigid."
+      "eyebrow": "Car mode",
+      "title": "A seatbelt lands on bone on purpose",
+      "text": "Engineers routed it across three places: collarbone, ribs, hips. All bone. It avoids your stomach completely.",
+      "points": [
+        "**The lap belt sits on your pelvis**, not your belly.",
+        "**Your pelvis can take the hit.** Your intestines cannot.",
+        "**Worn too high**, a crash loads soft organs instead of bone."
       ]
     },
     {
-      "type": "lens",
-      "interest": "boxing",
-      "icon": "🥊",
-      "label": "Boxing mode",
-      "color": "#ff6b9d",
-      "title": "The bones that hit, and the bones that survive being hit",
-      "body": [
-        "Every punch you throw is a force travelling up a chain of bones. Every punch you take is a force being absorbed by a different chain. Knowing which is which is the difference between training for ten years and getting injured in one."
-      ],
-      "bullets": [
-        "**Power starts at the floor, not the fist.** Force goes legs → hips → spine → shoulder → arm. This is why coaches scream about your feet when your hands are the thing that's missing.",
-        "**The metacarpals are the actual striking bones.** Five long bones in your palm. The two that line up with your index and middle finger are the ones you're supposed to land on — they're thickest and best braced by the wrist.",
-        "**'Boxer's fracture' is the 5th metacarpal** — the pinky-side one. It breaks when you land a punch turned slightly outward. It's the single most common hand injury in combat sports, and it's a technique problem, not a strength problem.",
-        "**Hand wraps aren't padding.** They compress the 27 bones of the hand into one solid block so they can't shift on impact. The glove protects the person you're hitting; the wrap protects you.",
-        "**Chin tuck protects the mandible.** Your jaw is a lever attached near your brain. A clean shot to an exposed jaw rotates your skull fast, and your brain — floating in fluid — keeps moving after the skull stops. That rotation is what causes a knockout, not the pain."
-      ]
-    },
-    {
-      "type": "lens",
-      "interest": "growth",
-      "icon": "⚡",
-      "label": "Your body right now",
-      "color": "#f5c542",
-      "title": "You are in the bone-building window and it closes",
-      "body": [
-        "This is the part most kids never get told, and it's genuinely the most useful thing in this lesson."
-      ],
-      "bullets": [
-        "**Bone is alive and rebuilding constantly.** Two crews work on it: osteoblasts build new bone, osteoclasts remove old bone. Right now, in your body, the builders are winning.",
-        "**Puberty triggers a bone-building surge.** Growth hormone and sex hormones ramp up, your long bones lengthen fast, and minerals get packed into them at the highest rate you will ever experience.",
-        "**About 90% of your adult bone mass is set by around age 18–20.** After roughly your late twenties, you mostly maintain and slowly lose. You cannot go back and redo this window later.",
-        "**Wolff's Law: bone adapts to the loads you put on it.** Load a bone regularly and your body reinforces it exactly where the stress is. This is why a boxer's forearms and a runner's shins are measurably denser than average.",
-        "**Which means the training you're already doing is compounding.** Impact and resistance work during puberty produce a denser skeleton that stays denser for decades. You're not just training for your next session — you're setting the floor for your seventies.",
-        "**Growth plates are the catch.** The ends of your long bones are still cartilage, not bone. They're the weakest link until they close, which is exactly why coaches cap heavy loading at your age. Not because you're weak — because that specific tissue is still under construction."
-      ]
-    },
-    {
-      "type": "hook",
-      "title": "Part 2 — The chassis is finished. Now install the engine.",
-      "body": [
-        "A bare skeleton can't do anything. It's a frame with no power. Everything you've read so far is chassis; this half is drivetrain.",
-        "You have over 600 skeletal muscles, and here's the fact that surprises everyone: **a muscle can only pull. It can never push.** Every single movement you have ever made — a jab, a step, blinking — is something being pulled shorter. That one constraint explains almost everything about how bodies are built."
-      ]
-    },
-    {
-      "type": "text",
-      "title": "Three kinds of muscle, three different jobs",
-      "body": [
-        "Your body runs three completely different muscle tissues. They look different under a microscope, they're controlled differently, and they live in different places. The exam will ask you to tell them apart, so here they are side by side."
-      ],
-      "bullets": [
-        "**Skeletal muscle** — attached to bones. **Voluntary**: you decide when it fires. Striped (striated) under a microscope. This is everything you can flex on purpose. It tires.",
-        "**Smooth muscle** — in the walls of hollow organs: stomach, intestines, blood vessels, bladder. **Involuntary**: you cannot control it, and you'd be terrible at it if you could. Not striped. It's what squeezes food along your gut whether you're thinking about it or not.",
-        "**Cardiac muscle** — found in exactly one place: the heart. **Involuntary**, but striped like skeletal muscle. It has its own built-in electrical pacemaker, so it beats without any signal from your brain. It has never stopped, and it does not tire."
-      ]
-    },
-    {
-      "type": "lens",
-      "interest": "boxing",
-      "icon": "🥊",
-      "label": "Boxing mode",
-      "color": "#ff6b9d",
-      "title": "Why your coach says 'stay loose'",
-      "body": [
-        "Because muscles only pull, they have to be installed in opposing pairs. One pulls a joint closed, its partner pulls it back open. Anatomists call these antagonistic pairs, and your arm is the textbook example."
-      ],
-      "bullets": [
-        "**Biceps and triceps are opposites.** Biceps pulls your forearm up (flexion). Triceps pulls it straight (extension). Neither can do the other's job.",
-        "**A jab is your triceps, not your biceps.** Extending the elbow is triceps work. If you're gripping and tensing the biceps at the same time, you are literally fighting yourself — the antagonist is pulling against the movement.",
-        "**That is what 'stay loose' means physiologically.** Speed comes from the antagonist relaxing on time. A tense arm is slower than a relaxed one, every time, and it's not a mindset thing — it's mechanics.",
-        "**Tendons attach muscle to bone. Ligaments attach bone to bone.** Mixing these up is the single most common mistake on this topic. Memory hook: **T**endon → **T**o the muscle. Ligament **L**inks two bones.",
-        "**Fast-twitch vs slow-twitch fibres.** Fast-twitch fire hard and fatigue quickly — that's your power punch. Slow-twitch are fatigue-resistant — that's round 9. Training changes the balance of what you're good at."
-      ]
-    },
-    {
-      "type": "lens",
-      "interest": "cars",
+      "kind": "lens",
+      "lens": "cars",
       "icon": "🚗",
-      "label": "Car mode",
-      "color": "#4ecdc4",
-      "title": "One engine you drive, one that drives itself",
-      "body": [
-        "If bones are the chassis, the three muscle types map cleanly onto three parts of a car — and the mapping actually helps you remember which is which."
-      ],
-      "bullets": [
-        "**Skeletal muscle = the throttle.** You press it. It responds when you decide, as hard as you decide. Full manual control.",
-        "**Smooth muscle = the automatic systems.** Fuel pump, cooling fan, power steering. Constantly adjusting, and no driver ever touches them. Your blood vessels widening when you're hot is smooth muscle doing exactly this.",
-        "**Cardiac muscle = the engine itself, and it has no ignition key.** The heart generates its own electrical impulse from the sinoatrial node. Take a heart out of a body and give it oxygen and nutrients, and it keeps beating. No brain required.",
-        "**The numbers are absurd.** Cardiac muscle beats roughly 100,000 times a day, about 35 million times a year, without a single service interval or a day off. No engine humans have built comes close."
+      "eyebrow": "Car mode",
+      "title": "Your clavicle is built to break",
+      "text": "It's the most commonly fractured bone in your body. That's a feature, not a flaw.",
+      "points": [
+        "**It snaps at a lower force** than your neck or spine.",
+        "**Breaking absorbs the energy** before it reaches something worse.",
+        "**Same idea as a fuse** blowing to save the wiring."
       ]
     },
     {
-      "type": "lens",
-      "interest": "growth",
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why does a lap belt need to sit low across your hips?",
+        "options": [
+          "So the force lands on your pelvis, not your organs",
+          "So it's more comfortable on long drives",
+          "So the airbag can reach you faster"
+        ],
+        "answerIndex": 0,
+        "explain": "Your pelvis is one of the strongest structures you own. Worn high, that same force goes into your intestines."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "Ribs crumple. The skull doesn't.",
+      "text": "Two body parts, two opposite designs — for the same reason cars are built that way.",
+      "points": [
+        "**Ribs flex and can break.** That absorbs energy. Bone heals.",
+        "**The skull doesn't flex at all.** Brains don't heal like bone.",
+        "**A car does both**: the front crumples, the cabin stays rigid."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "The bones that actually hit",
+      "text": "A punch is force travelling up a chain of bones. The fist is the last link, not the first.",
+      "points": [
+        "**Metacarpals are the striking bones** — the five in your palm.",
+        "**Land on the index and middle knuckles.** They're thickest and best braced.",
+        "**Power starts at the floor**, not the hand."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Boxer's fracture is a technique problem",
+      "text": "It's the 5th metacarpal — the pinky-side one. It breaks when you land a punch turned slightly outward.",
+      "points": [
+        "**Most common hand injury** in combat sports.",
+        "**Not a strength problem.** It's about how the fist lands.",
+        "**Wraps compress 27 hand bones** into one solid block."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Why coaches shout about your chin",
+      "text": "Your jaw is a lever attached near your brain. A clean shot rotates your skull fast.",
+      "points": [
+        "**Your brain floats in fluid.** It keeps moving after the skull stops.",
+        "**That rotation causes the knockout** — not the pain.",
+        "**Chin tuck removes the lever.** That's the whole reason for it."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "hotspot",
+        "text": "Tap the bone a seatbelt crosses — the one that's built to break first.",
+        "answerBone": "clavicle",
+        "explain": "The clavicle. It's the most fractured bone in the body, and that's exactly what it's for."
+      }
+    },
+    {
+      "kind": "fact",
+      "eyebrow": "Did you know",
+      "text": "Over a quarter of your bones are in your hands. 27 per hand, 54 out of 206. Evolution really committed to grabbing things."
+    },
+    {
+      "kind": "fact",
+      "eyebrow": "Did you know",
+      "text": "Forza rates cars on power-to-weight. By that stat bone beats mild steel and concrete. Your femur out-specs the car it's sitting in."
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
       "icon": "⚡",
-      "label": "Your body right now",
-      "color": "#f5c542",
-      "title": "You do not grow in the gym",
-      "body": [
-        "Same window, same rules as bone — and the same thing nobody tells kids."
-      ],
-      "bullets": [
-        "**Training damages muscle. Recovery builds it.** A hard session creates microscopic tears in the fibres. Your body repairs them slightly thicker and stronger than before. That's hypertrophy, and it happens while you sleep — not while you train.",
-        "**Which means sleep is training.** Growth hormone releases in the largest pulses during deep sleep. Skipping sleep after a hard session throws away most of the session.",
-        "**Soreness two days later is normal.** Delayed onset muscle soreness peaks 24–48 hours after unfamiliar work. It's a sign of adaptation starting, not of injury.",
-        "**Muscle pulls on bone, and bone responds.** This is the link between both halves of this lesson: the harder your muscles pull, the more your skeleton reinforces itself at those attachment points. Wolff's Law again. The two systems build each other."
+      "eyebrow": "Your body right now",
+      "title": "Bone is alive and rebuilding",
+      "text": "Two crews work on your skeleton around the clock. Right now the builders are winning.",
+      "points": [
+        "**Osteoblasts build** new bone tissue.",
+        "**Osteoclasts clear away** the old.",
+        "**Memory trick:** blasts Build, clasts Crush."
       ]
     },
     {
-      "type": "keyterms",
-      "title": "Words the test will use",
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "⚡",
+      "eyebrow": "Your body right now",
+      "title": "You're in the window. It closes.",
+      "text": "Puberty triggers the fastest bone-building of your life. About 90% of your adult bone mass is set by age 18–20.",
+      "points": [
+        "**After your late twenties** you mostly maintain, then slowly lose.",
+        "**You can't redo this window** later.",
+        "**What you do now** sets the floor for your seventies."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Roughly how much of your adult bone mass is locked in by age 18–20?",
+        "options": [
+          "About 90%",
+          "About half",
+          "About a quarter"
+        ],
+        "answerIndex": 0,
+        "explain": "About 90%. It's the biggest bone-building window you get, and it doesn't reopen later."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Cyberpunk has a Skeleton slot",
+      "text": "You install titanium bone lacing to carry more weight and take more damage. That stat is real.",
+      "points": [
+        "**Real bone already does this.** It's called density.",
+        "**You can't buy the upgrade** at a ripperdoc.",
+        "**Loading your bones is the install.** That's the only way in."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "⚡",
+      "eyebrow": "Your body right now",
+      "title": "Wolff's Law: bone adapts to load",
+      "text": "Load a bone regularly and your body reinforces it exactly where the stress is.",
+      "points": [
+        "**A boxer's forearms are denser** than average. So are a runner's shins.",
+        "**Your training is compounding** into your actual skeleton.",
+        "**Growth plates are still cartilage** — that's why coaches cap heavy loads now."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Pacific Drive is Wolff's Law",
+      "text": "You bolt armour onto the panels that keep getting wrecked. You reinforce where the damage lands.",
+      "points": [
+        "**Your bones do that automatically.**",
+        "**No crafting menu, no scrap.** Just load, and wait.",
+        "**Same rule, no inventory.**"
+      ]
+    },
+    {
+      "kind": "fact",
+      "eyebrow": "Did you know",
+      "text": "Astronauts lose 1–2% of bone density every month in orbit. No gravity means no load, so the body stops reinforcing."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Exercise makes bones denser because bone adapts to the loads placed on it.",
+        "answer": true,
+        "explain": "That's Wolff's Law. Astronauts prove it in reverse — remove the load and density drops fast."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Bone words",
       "terms": [
         {
           "term": "Cranium",
-          "def": "The dome of the skull that encloses the brain. Rigid on purpose — it does not flex."
+          "def": "The dome of the skull around the brain. Rigid on purpose."
         },
         {
           "term": "Mandible",
-          "def": "The lower jaw. The only bone in your skull that moves freely."
+          "def": "Lower jaw. The only skull bone that moves freely."
         },
         {
           "term": "Clavicle",
-          "def": "Collarbone. Connects arm to chest and is the most commonly fractured bone in the body."
+          "def": "Collarbone. The most commonly fractured bone in the body."
         },
         {
           "term": "Sternum",
-          "def": "Breastbone. The flat plate down the centre of your chest that the ribs attach to."
+          "def": "Breastbone. The flat plate your ribs attach to."
         },
         {
           "term": "Vertebrae",
-          "def": "The 33 stacked bones of the spine. Together they form a tunnel that protects the spinal cord."
+          "def": "The 33 stacked bones of the spine. They shield the spinal cord."
         },
         {
           "term": "Femur",
-          "def": "Thigh bone. The longest and strongest bone in the human body."
+          "def": "Thigh bone. Longest and strongest bone you have."
         },
         {
           "term": "Metacarpals",
-          "def": "The five long bones inside your palm. These are the bones you punch with."
+          "def": "The five long bones in your palm. You punch with these."
         },
         {
           "term": "Bone marrow",
-          "def": "Tissue inside bones where red and white blood cells are manufactured."
+          "def": "Tissue inside bones that makes blood cells."
         },
         {
           "term": "Osteoblast",
-          "def": "The cell that builds new bone tissue."
+          "def": "The cell that builds new bone."
         },
         {
           "term": "Osteoclast",
-          "def": "The cell that breaks down old bone tissue."
+          "def": "The cell that breaks down old bone."
         },
         {
           "term": "Growth plate",
-          "def": "Cartilage near the ends of long bones where lengthening happens. Closes after puberty."
+          "def": "Cartilage near the ends of long bones. It's where you grow."
         },
         {
           "term": "Bone density",
-          "def": "How tightly packed with minerals a bone is. Higher density = harder to break."
-        },
+          "def": "How tightly packed with minerals a bone is."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Part 1 done",
+      "title": "Bones — the four that matter",
+      "points": [
+        "**206 bones**, five jobs: support, protect, move, make blood, store minerals.",
+        "**Skull rigid, ribs flexible** — because brains don't heal.",
+        "**Clavicle breaks first** on purpose, like a fuse.",
+        "**Metacarpals strike**; the 5th is the one that breaks."
+      ]
+    },
+    {
+      "kind": "open",
+      "icon": "⚙️",
+      "eyebrow": "Part 2 · Muscles",
+      "title": "The chassis is done. Install the engine.",
+      "text": "A bare skeleton can't do anything. It's a frame with no power. This half is the drivetrain."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The big idea",
+      "title": "A muscle can only pull",
+      "text": "It can never push. Every movement you've ever made was something being pulled shorter.",
+      "points": [
+        "**Blinking, walking, throwing a jab** — all pulling.",
+        "**So muscles come in opposing pairs.** One pulls it closed, one pulls it open.",
+        "**Biceps and triceps** are the textbook example."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "text": "Muscles can only do one thing to a bone. Which is it?",
+        "type": "multiple",
+        "options": [
+          "Pull it",
+          "Push it",
+          "Both, depending on the muscle"
+        ],
+        "answerIndex": 0,
+        "explain": "Pull, always. That's why every muscle has an opposite that pulls the other way."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Type 1 of 3",
+      "title": "Skeletal muscle — the one you control",
+      "text": "Attached to bones. Striped under a microscope. You have over 600 of them.",
+      "points": [
+        "**Voluntary** — you decide when it fires.",
+        "**It gets tired.** That's the trade-off for power.",
+        "**Everything you can flex on purpose** is this."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Type 2 of 3",
+      "title": "Smooth muscle — the automatic one",
+      "text": "In the walls of hollow organs: stomach, intestines, blood vessels, bladder.",
+      "points": [
+        "**Involuntary** — you can't control it.",
+        "**Not striped** under a microscope.",
+        "**It squeezes food through your gut** whether you think about it or not."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Type 3 of 3",
+      "title": "Cardiac muscle — the one that never stops",
+      "text": "Found in exactly one place: your heart. It has its own electrical pacemaker.",
+      "points": [
+        "**Involuntary, but striped** — it borrows from both other types.",
+        "**It beats without your brain.** No signal required.",
+        "**100,000 beats a day.** No day off, ever."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which muscle type is found only in the heart and never gets tired?",
+        "options": [
+          "Cardiac muscle",
+          "Skeletal muscle",
+          "Smooth muscle"
+        ],
+        "answerIndex": 0,
+        "explain": "Cardiac muscle. Striped like skeletal, involuntary like smooth, and the only one with its own pacemaker."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "What 'stay loose' actually means",
+      "text": "A jab is your triceps extending the elbow. Your biceps does the opposite job.",
+      "points": [
+        "**Tense the biceps mid-punch** and you're fighting yourself.",
+        "**Speed comes from the antagonist relaxing** on time.",
+        "**A tense arm is slower.** That's mechanics, not mindset."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Don't mix these up",
+      "title": "Tendon or ligament?",
+      "text": "This is the most confused pair in the whole topic, and the exam knows it.",
+      "points": [
+        "**Tendon** attaches muscle **T**o the bone.",
+        "**Ligament** **L**inks two bones together.",
+        "**Both are tough.** They just connect different things."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "What connects a muscle to a bone?",
+        "accept": [
+          "tendon",
+          "tendons",
+          "a tendon"
+        ],
+        "explain": "A tendon. Ligaments link bone to bone — Tendon To the muscle, Ligament Links two bones."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "⚡",
+      "eyebrow": "Your body right now",
+      "title": "You don't grow in the gym",
+      "text": "Training damages muscle. Recovery builds it. The session is the signal, not the growth.",
+      "points": [
+        "**Hard training tears fibres** microscopically.",
+        "**Your body repairs them thicker.** That's hypertrophy.",
+        "**It happens while you sleep.** Skip sleep, throw away the session."
+      ]
+    },
+    {
+      "kind": "fact",
+      "eyebrow": "Did you know",
+      "text": "Your jaw muscle is the strongest in your body for its size. It can push over 90 kg of force through your molars."
+    },
+    {
+      "kind": "terms",
+      "title": "Muscle words",
+      "terms": [
         {
           "term": "Skeletal muscle",
-          "def": "Voluntary, striated muscle attached to bones. You control it consciously and it fatigues."
+          "def": "Voluntary, striped, attached to bones. It tires."
         },
         {
           "term": "Smooth muscle",
-          "def": "Involuntary, non-striated muscle in the walls of hollow organs and blood vessels."
+          "def": "Involuntary, not striped, in hollow organs and vessels."
         },
         {
           "term": "Cardiac muscle",
-          "def": "Involuntary, striated muscle found only in the heart. Generates its own beat and does not tire."
+          "def": "Involuntary, striped, heart only. Never tires."
         },
         {
           "term": "Voluntary",
-          "def": "Under conscious control — you decide when it moves."
+          "def": "You control it consciously."
         },
         {
           "term": "Involuntary",
-          "def": "Not under conscious control — it runs automatically."
+          "def": "It runs automatically, without you."
         },
         {
           "term": "Tendon",
-          "def": "Tough tissue attaching muscle TO bone."
+          "def": "Connects muscle to bone."
         },
         {
           "term": "Ligament",
-          "def": "Tough tissue linking bone to bone at a joint."
+          "def": "Connects bone to bone at a joint."
         },
         {
           "term": "Antagonistic pair",
-          "def": "Two muscles with opposite actions, e.g. biceps and triceps. One pulls, the other pulls back."
+          "def": "Two muscles with opposite jobs, like biceps and triceps."
         },
         {
           "term": "Hypertrophy",
-          "def": "Growth of muscle fibres in response to training and recovery."
+          "def": "Muscle fibres growing thicker after training and rest."
         }
       ]
     },
     {
-      "type": "dyk",
-      "title": "Did you know",
-      "cards": [
-        {
-          "tag": "Newborn",
-          "text": "You were born with about 270 bones. Adults have 206. You didn't lose any — plates fused together as you grew. Your skull was in separate pieces so your head could compress on the way out."
-        },
-        {
-          "tag": "Strength",
-          "text": "Bone has a higher strength-to-weight ratio than reinforced concrete or mild steel. Gram for gram, your femur outperforms the frame of the car it's sitting in."
-        },
-        {
-          "tag": "Speed",
-          "text": "Your entire skeleton is replaced roughly every 10 years. The femur you have at 22 will be made of different material than the one you have now."
-        },
-        {
-          "tag": "Hands",
-          "text": "Over a quarter of the bones in your body are in your hands — 27 per hand, 54 total out of 206. Evolution really committed to grabbing things."
-        },
-        {
-          "tag": "Space",
-          "text": "Astronauts lose 1–2% of bone density per month in orbit, because Wolff's Law works in reverse: no load, no reinforcement. NASA makes them resistance-train two hours a day to slow it down."
-        },
-        {
-          "tag": "Smallest",
-          "text": "The stapes, deep in your ear, is about 3 mm long — smaller than a grain of rice — and without it you couldn't hear this sentence read aloud."
-        },
-        {
-          "tag": "Count",
-          "text": "You have over 600 skeletal muscles. It takes about 12 of them just to move one eyeball accurately, and around 17 to hold a smile."
-        },
-        {
-          "tag": "Never resting",
-          "text": "Cardiac muscle has been contracting since roughly week 4 of your development, before you were born, and will not stop. It has no off switch and no recovery day."
-        },
-        {
-          "tag": "Strongest",
-          "text": "By raw force, the masseter — your jaw muscle — is the strongest muscle in the body for its size. It can generate over 90 kg of bite force on the molars."
-        },
-        {
-          "tag": "Busiest",
-          "text": "The muscles that move your eyes make over 100,000 movements a day. Fittingly, they're also among the fastest-contracting muscles you own."
-        }
+      "kind": "checkpoint",
+      "question": {
+        "text": "Which is built during sleep rather than during the session — muscle, or bone density?",
+        "type": "multiple",
+        "options": [
+          "Both of them",
+          "Only muscle",
+          "Neither — both need training"
+        ],
+        "answerIndex": 0,
+        "explain": "Both. Training is the signal for each one. The building happens afterwards, mostly while you sleep."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Bones and muscles are done. Part 3 is short, and it's the part that's actually about you. Your place is saved either way."
+    },
+    {
+      "kind": "open",
+      "icon": "💪",
+      "eyebrow": "Part 3 · Why you train",
+      "title": "Now the part about your daily exercises",
+      "text": "You train every day. Here's what that's really doing — and it isn't just making you tired."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Every single session",
+      "title": "A workout is a message to your bones",
+      "text": "Load a bone and it sends one signal: reinforce here. Your osteoblasts turn up and add material.",
+      "points": [
+        "**No load, no signal.** Your body won't spend material it doesn't need.",
+        "**Daily beats occasional.** Bone answers repeated messages, not one big one.",
+        "**You're doing this right now**, whether you notice it or not."
       ]
     },
     {
-      "type": "video",
-      "title": "Watch: the skeletal system in 5 minutes",
-      "note": "PARENT: swap this ID for whichever clip you approve — see docs/CONTENT-GUIDE.md",
-      "youtubeId": null,
-      "caption": "Video slot is wired and ready — drop in an approved YouTube ID and it renders here."
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "⚡",
+      "eyebrow": "Your body right now",
+      "title": "Growth hormone, and how to get more of yours",
+      "text": "Your pituitary gland releases growth hormone in pulses. Two things trigger the big ones.",
+      "points": [
+        "**Deep sleep** produces the largest pulses of your whole day.",
+        "**Hard training** triggers another release on top of that.",
+        "**Puberty is the peak.** You will never produce more than now."
+      ]
     },
     {
-      "type": "recap",
-      "title": "Before the quiz — the 6 things that matter",
-      "bullets": [
-        "206 bones in an adult; five jobs — support, protection, movement, blood production, mineral storage.",
-        "The skull is rigid because brains don't heal; ribs flex because they can.",
-        "The clavicle breaks early on purpose, like a fuse. It's the most-fractured bone in the body.",
-        "Seatbelts load bone (pelvis, ribs, clavicle) and avoid soft tissue.",
-        "Metacarpals are the striking bones; the 5th is the one that breaks.",
-        "Puberty + loading = peak bone density, and that window closes around 18–20.",
-        "Three muscle types: skeletal (voluntary, striated, on bones), smooth (involuntary, in organs), cardiac (involuntary, striated, heart only).",
-        "Muscles only pull, never push — so they come in antagonistic pairs like biceps/triceps.",
-        "Tendon = muscle to bone. Ligament = bone to bone.",
-        "Muscle is built during recovery and sleep, not during the session itself."
+      "kind": "fact",
+      "eyebrow": "Worth knowing",
+      "text": "The version in a bottle is a banned drug with real side effects. The version you make while asleep is free, legal and better."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Not all training is equal",
+      "title": "Some exercise barely touches bone",
+      "text": "Bone responds to impact and resistance. Great cardio doesn't automatically mean strong bones.",
+      "points": [
+        "**Running, jumping, lifting, boxing** load bone hard.",
+        "**Swimming and cycling** are brilliant for your heart, light on bone.",
+        "**Your boxing training is already the bone-building kind.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which of these builds bone density the most?",
+        "options": [
+          "Boxing and jumping",
+          "Swimming laps",
+          "Cycling on flat roads"
+        ],
+        "answerIndex": 0,
+        "explain": "Impact and resistance load bone. Swimming and cycling are excellent cardio, but your bones barely feel them."
+      }
+    },
+    {
+      "kind": "open",
+      "icon": "⏳",
+      "eyebrow": "The other path",
+      "title": "What happens to people who skip it",
+      "text": "Bone and muscle both peak, then decline. How steep that fall gets depends on what you built, and what you keep doing."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The other path",
+      "title": "Osteoporosis: bones full of holes",
+      "text": "Density drops until the inside of a bone looks like a sponge. Then bones break from small falls.",
+      "points": [
+        "**Muscle fades too.** That's sarcopenia, and it starts around 30.",
+        "**Weak muscle means more falls.** Weak bone means worse landings.",
+        "**A hip fracture at 80** often ends living independently."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Death Stranding already showed you this",
+      "text": "Overload Sam, give him bad balance, and he stumbles and drops everything he's carrying.",
+      "points": [
+        "**That's an untrained old body.** Weak frame, weak stabilisers.",
+        "**The game hands you a Power Skeleton.** Real life doesn't.",
+        "**You build yours in advance.** There's no shop."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Growth hormone's biggest release of the day happens while you are in deep sleep.",
+        "answer": true,
+        "explain": "True. Which makes sleep part of training, not a break from it. Skip it and you throw away most of the session."
+      }
+    },
+    {
+      "kind": "story",
+      "icon": "🥊",
+      "eyebrow": "He started smaller than you",
+      "title": "Manny Pacquiao",
+      "text": "He turned pro at 16, weighing under 110 pounds — too light to make the smallest weight class.",
+      "points": [
+        "**He became the only boxer** to win world titles in eight divisions.",
+        "**He was still fighting at world level** in his forties.",
+        "**That wasn't luck.** It was decades of daily work."
+      ]
+    },
+    {
+      "kind": "story",
+      "icon": "🏋️",
+      "eyebrow": "She trained with water jugs",
+      "title": "Hidilyn Diaz",
+      "text": "Stranded abroad during the pandemic with no gym, she trained using water jugs and bamboo poles.",
+      "points": [
+        "**Tokyo 2020:** the first Olympic gold the Philippines ever won.",
+        "**No equipment, no excuse.** She loaded whatever she had.",
+        "**Weightlifting is bone-loading** in its purest form."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Last card",
+      "title": "Today's session is a deposit",
+      "points": [
+        "**You can't feel bone density changing.** That's why it's easy to skip.",
+        "**Every session now** gets stored in your actual skeleton.",
+        "**You're building the body** you'll be using at seventy.",
+        "**The window is open right now.**"
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Ready for the quiz",
+      "title": "Muscles — the four that matter",
+      "points": [
+        "**Three types:** skeletal (you control), smooth (organs), cardiac (heart only).",
+        "**Muscles only pull**, so they work in opposing pairs.",
+        "**Tendon** = muscle to bone. **Ligament** = bone to bone.",
+        "**Muscle is built during sleep**, not during the session."
       ]
     }
   ],
@@ -338,26 +696,26 @@
         "312"
       ],
       "answerIndex": 0,
-      "explain": "206 in an adult. You were born with roughly 270, but many fused together as you grew — especially in the skull and spine.",
+      "explain": "206 in an adult. You were born with about 270. Many fused together as you grew.",
       "objective": "Name the five jobs the skeleton does for the body"
     },
     {
       "type": "hotspot",
-      "text": "Tap the bone that is most commonly fractured in the human body — the one a seatbelt crosses.",
+      "text": "Tap the bone that breaks most often — the one a seatbelt crosses.",
       "answerBone": "clavicle",
-      "explain": "The clavicle. It fractures at a lower force than the structures around it, which absorbs crash energy before it reaches your neck and spine — the same idea as a fuse blowing to protect a circuit.",
+      "explain": "The clavicle. It breaks at a lower force than your neck or spine, so it absorbs the energy first.",
       "objective": "Explain how bone structure protects the body during impact"
     },
     {
       "type": "truefalse",
-      "text": "The skull is designed to flex on impact so it can absorb energy, the same way ribs do.",
+      "text": "The skull flexes on impact to absorb energy, the same way ribs do.",
       "answer": false,
-      "explain": "False — and the reason is the whole point. Ribs flex and may break because bone heals. The skull stays rigid because brain tissue doesn't heal the same way, so the design priority is 'don't let anything move' rather than 'absorb energy'.",
+      "explain": "False. Ribs flex and may break, because bone heals. The skull stays rigid, because brain tissue doesn't.",
       "objective": "Explain how bone structure protects the body during impact"
     },
     {
       "type": "multiple",
-      "text": "A boxer lands a punch turned slightly outward and breaks a bone in their hand. Which bone is it almost certainly going to be?",
+      "text": "A boxer lands a punch turned outward and breaks a hand bone. Which one?",
       "options": [
         "The 5th metacarpal, on the pinky side",
         "The radius, in the forearm",
@@ -365,22 +723,22 @@
         "The clavicle"
       ],
       "answerIndex": 0,
-      "explain": "The 5th metacarpal — the classic 'boxer's fracture'. Landing rotated puts the force through the weakest, least-braced striking bone instead of the index/middle knuckles.",
+      "explain": "The 5th metacarpal — the classic boxer's fracture. Landing rotated loads the weakest striking bone.",
       "objective": "Locate and name the major bones of the human skeleton"
     },
     {
       "type": "type",
-      "text": "What is the name of the cell that BUILDS new bone tissue?",
+      "text": "Which cell BUILDS new bone tissue?",
       "accept": [
         "osteoblast",
         "osteoblasts"
       ],
-      "explain": "Osteoblasts build; osteoclasts clear away. Memory trick: osteoBlasts Build, osteoClasts Crush.",
+      "explain": "Osteoblasts build. Osteoclasts clear away. Blasts Build, Clasts Crush.",
       "objective": "Describe how exercise and puberty change bone density"
     },
     {
       "type": "order",
-      "text": "Put the punch force chain in order, from where the power starts to where it lands.",
+      "text": "Put the punch force chain in order, from where power starts to where it lands.",
       "items": [
         "Legs and floor",
         "Hips and spine",
@@ -388,52 +746,52 @@
         "Arm",
         "Metacarpals"
       ],
-      "explain": "Power is generated at the floor and transmitted upward. This is why coaches correct your feet when your punch feels weak — the hand is the last link, not the first.",
+      "explain": "Power starts at the floor and travels up. That's why coaches fix your feet when a punch feels weak.",
       "objective": "Explain how bone structure protects the body during impact"
     },
     {
       "type": "multiple",
-      "text": "Roughly what percentage of your adult bone mass is already set by around age 18–20?",
+      "text": "Roughly how much of your adult bone mass is set by age 18–20?",
       "options": [
         "About 90%",
         "About 40%",
         "About 60%",
-        "100% — it's fixed at birth"
+        "All of it, from birth"
       ],
       "answerIndex": 0,
-      "explain": "About 90%. Puberty is the highest-rate bone-building window you will ever get, and it doesn't reopen — which is why loading your bones through exercise right now has effects that last into your seventies.",
+      "explain": "About 90%. Puberty is the biggest bone-building window you get, and it doesn't reopen.",
       "objective": "Describe how exercise and puberty change bone density"
     },
     {
       "type": "hotspot",
-      "text": "Tap the longest and strongest bone in the human body.",
+      "text": "Tap the longest and strongest bone in your body.",
       "answerBone": "femur",
-      "explain": "The femur. It carries several times your bodyweight every time you take a step, and gram for gram it outperforms structural steel.",
+      "explain": "The femur. It carries several times your bodyweight with every step you take.",
       "objective": "Locate and name the major bones of the human skeleton"
     },
     {
       "type": "truefalse",
-      "text": "Astronauts lose bone density in space because there is no gravity load for their bones to adapt to.",
+      "text": "Astronauts lose bone density in space because there is no gravity load to adapt to.",
       "answer": true,
-      "explain": "True. This is Wolff's Law running backwards: bone reinforces where it's loaded, so removing the load removes the reason to keep the material. Astronauts lose 1–2% per month and train two hours a day to fight it.",
+      "explain": "True. Wolff's Law running backwards. No load means no reason to keep the material.",
       "objective": "Describe how exercise and puberty change bone density"
     },
     {
       "type": "multiple",
-      "text": "Why does a lap belt need to sit low, across your hips, rather than up on your stomach?",
+      "text": "Why must a lap belt sit low, across your hips?",
       "options": [
-        "So the force is carried by the pelvis instead of soft organs",
+        "So the force is carried by the pelvis, not soft organs",
         "So it is more comfortable on long drives",
         "So it does not wrinkle your shirt",
         "So the airbag can reach you faster"
       ],
       "answerIndex": 0,
-      "explain": "The pelvis is one of the strongest structures in the body and can take the load. Worn too high, that same force goes into your intestines and internal organs instead — this is a real and well-documented crash injury pattern.",
+      "explain": "The pelvis can take the load. Worn high, that force goes into your intestines instead.",
       "objective": "Explain how bone structure protects the body during impact"
     },
     {
       "type": "multiple",
-      "text": "Which type of muscle is found ONLY in the heart, is involuntary, and never gets tired?",
+      "text": "Which muscle type is found only in the heart and never tires?",
       "options": [
         "Cardiac muscle",
         "Skeletal muscle",
@@ -441,19 +799,19 @@
         "Voluntary muscle"
       ],
       "answerIndex": 0,
-      "explain": "Cardiac muscle. It's striated like skeletal muscle but involuntary like smooth muscle — and it's the only one with its own built-in pacemaker, so it beats without any instruction from the brain.",
-      "objective": "Distinguish skeletal, smooth and cardiac muscle by structure, control and location"
+      "explain": "Cardiac muscle. It's the only one with a built-in pacemaker, so it beats without the brain.",
+      "objective": "Distinguish skeletal, smooth and cardiac muscle"
     },
     {
       "type": "truefalse",
-      "text": "A muscle can both push and pull, depending on which direction the brain tells it to work.",
+      "text": "A muscle can push as well as pull, depending on what the brain tells it.",
       "answer": false,
-      "explain": "False. Muscles can ONLY pull (contract). That is exactly why they're installed in antagonistic pairs — biceps pulls the arm closed, triceps pulls it back open. Neither one can push.",
+      "explain": "False. Muscles only pull. That's exactly why they come in opposing pairs like biceps and triceps.",
       "objective": "Explain how muscles move bones through antagonistic pairs"
     },
     {
       "type": "multiple",
-      "text": "Food is squeezed along your intestines without you thinking about it. Which muscle type is doing that?",
+      "text": "Food is squeezed along your intestines automatically. Which muscle does that?",
       "options": [
         "Smooth muscle",
         "Cardiac muscle",
@@ -461,23 +819,23 @@
         "Striated muscle"
       ],
       "answerIndex": 0,
-      "explain": "Smooth muscle — involuntary and found in the walls of hollow organs like the stomach, intestines and blood vessels. Good thing it's automatic; digestion would be a full-time job otherwise.",
-      "objective": "Distinguish skeletal, smooth and cardiac muscle by structure, control and location"
+      "explain": "Smooth muscle. Involuntary, and found in the walls of hollow organs like the gut.",
+      "objective": "Distinguish skeletal, smooth and cardiac muscle"
     },
     {
       "type": "type",
-      "text": "What is the name of the tissue that attaches MUSCLE to BONE?",
+      "text": "What tissue attaches MUSCLE to BONE?",
       "accept": [
         "tendon",
         "tendons",
         "a tendon"
       ],
-      "explain": "A tendon. Ligaments are the other one — they link bone to bone at a joint. Memory hook: Tendon → To the muscle; Ligament Links two bones.",
+      "explain": "A tendon. Ligaments link bone to bone. Tendon To the muscle, Ligament Links two bones.",
       "objective": "Explain how muscles move bones through antagonistic pairs"
     },
     {
       "type": "multiple",
-      "text": "You throw a straight punch. Which muscle is doing the main work of extending your elbow?",
+      "text": "You throw a straight punch. Which muscle extends your elbow?",
       "options": [
         "The triceps",
         "The biceps",
@@ -485,40 +843,72 @@
         "Cardiac muscle"
       ],
       "answerIndex": 0,
-      "explain": "The triceps extends the elbow. The biceps is its antagonist and does the opposite job — which is why tensing your biceps mid-punch actively slows the punch down.",
+      "explain": "The triceps. The biceps is its antagonist, which is why tensing it slows the punch down.",
       "objective": "Explain how muscles move bones through antagonistic pairs"
     },
     {
       "type": "order",
-      "text": "Put the muscle-building process in the right order.",
+      "text": "Put muscle building in the right order.",
       "items": [
         "Train hard",
-        "Muscle fibres get micro-damaged",
+        "Fibres get micro-damaged",
         "Rest and sleep",
-        "Fibres repair thicker and stronger"
+        "Fibres repair thicker"
       ],
-      "explain": "Training is the signal; recovery is the building. You do not grow during the session — you grow afterwards, mostly during deep sleep. Skipping sleep throws away most of the work.",
-      "objective": "Distinguish skeletal, smooth and cardiac muscle by structure, control and location"
+      "explain": "Training is the signal. Recovery is the building. Most of it happens while you sleep.",
+      "objective": "Distinguish skeletal, smooth and cardiac muscle"
+    },
+    {
+      "type": "multiple",
+      "text": "Which activity does the most to increase bone density?",
+      "options": [
+        "Boxing training",
+        "Swimming laps",
+        "Cycling on flat ground",
+        "Stretching"
+      ],
+      "answerIndex": 0,
+      "explain": "Bone responds to impact and resistance. Swimming and cycling are great cardio but load bone very little.",
+      "objective": "Explain why daily training now affects bone and muscle health for life"
+    },
+    {
+      "type": "truefalse",
+      "text": "Your biggest daily release of growth hormone happens during deep sleep.",
+      "answer": true,
+      "explain": "True. Sleep is part of training. Hard exercise triggers a second release on top of it.",
+      "objective": "Explain why daily training now affects bone and muscle health for life"
+    },
+    {
+      "type": "multiple",
+      "text": "What is osteoporosis?",
+      "options": [
+        "Bone density dropping until bones break easily",
+        "Muscles shrinking with age",
+        "Cartilage wearing out in the joints",
+        "Growth plates closing too early"
+      ],
+      "answerIndex": 0,
+      "explain": "Bone loses density until the inside looks like a sponge. The muscle version is called sarcopenia.",
+      "objective": "Explain why daily training now affects bone and muscle health for life"
     }
   ],
   "teacher": {
-    "summary": "Week 1 Science covers both the skeletal system (bones) and the muscular system (skeletal, smooth and cardiac muscle), matching the Term 1 weekly scope. The lesson uses three interest lenses — motorsport safety, combat sports, and adolescent physiology — to anchor standard curriculum content. All 16 quiz items map to a stated objective and the answer key lists the objective for each.",
+    "summary": "Week 1 Science covers the skeletal system and the muscular system, matching the Term 1 weekly scope. Content is delivered as a card deck with five embedded checkpoints, followed by a 16-item quiz. The format follows the rules in docs/WRITING-FOR-ADHD.md: one idea per card, a 40-word ceiling, and retrieval practice every four to six cards. Part 3 links the biology to his own daily training: what loading does to bone, growth hormone and sleep, the long-term cost of skipping it, and two Filipino athletes as worked examples.",
     "discussion": [
-      "Ask him to explain the clavicle-as-a-fuse idea back to you in his own words. If he can, he's understood energy absorption, not just memorised a bone name.",
-      "Ask why the skull and ribs are built differently. The answer 'because brains don't heal' shows he's reasoning about design trade-offs.",
-      "Ask what he'd change about his own training now that he knows the bone-building window closes. This connects biology to a decision he actually controls.",
-      "Ask him to name the three muscle types and give one location for each without looking. This is the single most likely exam question format for this week.",
-      "Ask why muscles have to come in pairs. If he says 'because they can only pull', he has the concept and won't need to memorise the biceps/triceps example."
+      "Ask him to explain the clavicle-as-a-fuse idea in his own words. If he can, he understands energy absorption rather than a bone name.",
+      "Ask why the skull and ribs are built differently. 'Because brains don't heal' shows he is reasoning about design trade-offs.",
+      "Ask him to name the three muscle types with one location each. This is the most likely exam question format for the week.",
+      "Ask what he'd change about his training now that he knows the bone-building window closes. It links biology to a decision he controls.",
+      "Ask him which of his own weekly activities actually load bone, and which don't. Getting swimming into the 'low bone load' column shows he's applying the rule rather than reciting it."
     ],
-    "extension": "Have him sketch a car's safety cage and label three parts with the bone that does the equivalent job. It's a five-minute task that tests transfer rather than recall.",
+    "extension": "Have him sketch a car's safety cage and label three parts with the bone that does the same job. Five minutes, and it tests transfer rather than recall.",
     "misconceptions": [
-      "'Bones are dead / just rocks.' Bone is living tissue with a blood supply, nerves and two competing cell populations remodelling it constantly.",
-      "'You lose bones as you grow up.' Bones fuse, they don't disappear — 270 down to 206.",
-      "'Strong bones come from calcium alone.' Calcium is the material; mechanical loading is the signal that tells the body where to put it. Both are required.",
-      "'Muscles push when you extend your arm.' They don't — the opposing muscle pulls. Pushing is not something muscle tissue can do.",
-      "'The heart is a skeletal muscle because it's strong.' Cardiac muscle is its own tissue type: striated like skeletal, involuntary like smooth, and unique in generating its own beat.",
-      "'Tendons and ligaments are the same thing.' Tendon connects muscle to bone; ligament connects bone to bone."
+      "'Bones are dead.' Bone is living tissue with a blood supply, nerves, and two cell types constantly rebuilding it.",
+      "'You lose bones as you grow.' Bones fuse rather than disappear — 270 down to 206.",
+      "'Strong bones come from calcium alone.' Calcium is the material. Loading is the signal that tells the body where to put it.",
+      "'Muscles push when you straighten your arm.' They don't. The opposing muscle pulls. Pushing is not something muscle can do.",
+      "'Tendons and ligaments are the same.' Tendon connects muscle to bone; ligament connects bone to bone.",
+      "'All exercise builds bone equally.' Impact and resistance load bone; swimming and cycling do very little for it despite being excellent cardiovascular training."
     ]
-  },
-  "courseTitle": "Science"
+  }
 }

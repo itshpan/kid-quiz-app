@@ -2,10 +2,23 @@
 
 An interactive lesson-and-quiz site built around **Grade 6, Term 1 (2026–2027)** — the actual
 weekly scope from school. Each lesson teaches the curriculum topic through the things the learner
-is already interested in (cars, boxing, gaming, space, story writing), then tests retention with a
+is already interested in (cars, boxing, gaming, training), then tests retention with a
 multi-format quiz.
 
-Teachers get a printable answer key for every lesson.
+**It is designed for a reader with ADHD.** That is not a coat of paint — it determines the shape
+of the whole thing:
+
+- A lesson is a **deck of cards**, not a page. One idea on screen, tap to advance.
+- **Checkpoints every 4–6 cards** — quick retrieval, unscored, never blocking.
+- Hard limits on sentence, card and point length, **enforced by a checker**, not by good intentions.
+- Reading measure held near **58 characters**; text size and theme are the reader's to set.
+- **No ambient motion**, no pure black, no pure white, and **wrong answers are never red**.
+- The lesson **remembers where he stopped**, and offers real places to stop.
+
+The reasoning is in [`docs/WRITING-FOR-ADHD.md`](docs/WRITING-FOR-ADHD.md). Read it before writing
+any content.
+
+Teachers get a printable answer key for every lesson, including the checkpoints.
 
 ## Run it
 
@@ -45,12 +58,16 @@ practice/           The original surface-area quiz app, preserved as-is
 assets/css/app.css  Whole design system
 assets/js/
   store.js          Profiles + progress (localStorage today, swappable later)
+  reading.js        Text size + theme controls
   ui.js             Header, profile picker, JSON loading, text helpers
   catalog.js        index.html controller
   course.js         course.html controller
-  lesson.js         lesson.html controller + lesson block renderers
+  lesson.js         lesson.html controller
+  deck.js           The card player — one card kind, one function
+  question.js       Renders ONE question of any type
+  quiz.js           Sequences questions and scores them
   teacher.js        teacher.html controller
-  quiz.js           Question engine — five question types
+  teacher-view.js   Answer-key renderer (shared with the preview build)
   skeleton.js       Interactive skeleton diagram + bone facts
 
 content/
@@ -66,11 +83,21 @@ lesson.
 
 See [`docs/CONTENT-GUIDE.md`](docs/CONTENT-GUIDE.md) for the full schema.
 
+## Tools
+
+```bash
+node tools/check-content.mjs     # enforce the ADHD writing limits; exits non-zero on failure
+node tools/build-preview.mjs content/science/w1-skeleton.json dist/preview.html
+```
+
+`build-preview` flattens one lesson into a single self-contained HTML file, so a lesson can be
+shared before the site is deployed anywhere.
+
 ## What's built
 
 | Subject | Weeks mapped | Lessons live |
 |---|---|---|
-| Science | 11 | Week 1 |
+| Science | 11 | Week 1 — 55 cards, 11 checkpoints, 19 quiz items |
 | Math | 11 | Surface-area trainer (bonus) |
 | English | 11 | — |
 | Social Studies | 11 | — |
@@ -85,11 +112,20 @@ Every subject shows its real weekly scope; weeks that aren't written yet show as
 
 | Type | What it does |
 |---|---|
-| `multiple` | Four options, one correct |
+| `multiple` | Options, one correct |
 | `truefalse` | Two options |
 | `type` | Free-text entry, matched against a list of accepted answers |
 | `order` | Put steps into the correct sequence (▲▼ buttons — works on touch) |
 | `hotspot` | Tap the right bone on the interactive diagram |
+
+The same renderer powers mid-lesson checkpoints and the end-of-lesson quiz, so both behave
+identically.
+
+## Card kinds
+
+`open` · `idea` · `lens` · `story` · `fact` · `diagram` · `terms` · `checkpoint` · `break` · `recap`
+
+Each is one function in `deck.js`. Adding a kind means adding an entry there and a style rule.
 
 ## Progress
 

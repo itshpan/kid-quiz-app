@@ -1,14 +1,14 @@
 /* ==========================================================================
-   course.js — one subject, all 11 weeks of the term.
+   course.js — one subject, all the weeks of the term.
    ========================================================================== */
 
 import { escapeHtml, param, loadJSON, mountHeader, requireProfile } from './ui.js';
 import { getProgress } from './store.js';
 
-const STATUS_CHIP = {
-    live: '<span class="chip live">Ready</span>',
-    soon: '<span class="chip soon">Coming soon</span>',
-    exam: '<span class="chip soon">Exam week</span>'
+const CHIP = {
+    live: '<span class="chip ready">Ready</span>',
+    soon: '<span class="chip">Soon</span>',
+    exam: '<span class="chip">Exam</span>'
 };
 
 async function main() {
@@ -16,74 +16,66 @@ async function main() {
     await requireProfile();
 
     const page = document.getElementById('coursePage');
-    const id = param('c');
-
     let data;
     try {
         data = await loadJSON('courses.json');
     } catch (err) {
-        page.innerHTML = `<div class="card"><h2>Couldn't load this subject</h2><p style="margin-top:10px;">${escapeHtml(err.message)}</p></div>`;
+        page.innerHTML = `<section class="card"><h2>Couldn't load this subject</h2><p>${escapeHtml(err.message)}</p></section>`;
         return;
     }
 
-    const course = data.courses.find(c => c.id === id);
+    const course = data.courses.find(c => c.id === param('c'));
     if (!course) { page.innerHTML = '<p class="muted">Subject not found.</p>'; return; }
 
     document.title = `${course.title} · Learning Lab`;
     const progress = getProgress();
     const weeks = course.weeks || [];
-    const doneCount = weeks.filter(w => progress.lessonsCompleted.includes(w.id)).length;
-    const liveCount = weeks.filter(w => w.status === 'live').length;
+    const done = weeks.filter(w => progress.lessonsCompleted.includes(w.id)).length;
+    const live = weeks.filter(w => w.status === 'live').length;
 
     page.innerHTML = `
         <a class="crumb" href="index.html">← All subjects</a>
-        <div style="display:flex;align-items:center;gap:14px;margin-bottom:10px;">
-            <span style="font-size:40px;">${course.icon}</span>
+        <div class="row" style="gap:12px;margin-bottom:8px;flex-wrap:nowrap;">
+            <span style="font-size:34px;">${course.icon}</span>
             <div>
                 <h1>${escapeHtml(course.title)}</h1>
-                <p class="muted" style="font-size:14px;">${escapeHtml(course.tagline)}</p>
+                <p class="small muted">${escapeHtml(course.tagline)}</p>
             </div>
         </div>
-        ${course.note ? `<p class="muted" style="font-size:14px;margin-bottom:16px;">${course.note}</p>` : ''}
+        ${course.note ? `<p class="small muted" style="margin-bottom:14px;">${course.note}</p>` : ''}
 
-        <section class="card" style="margin:18px 0;">
-            <div class="between" style="margin-bottom:10px;">
-                <span class="muted" style="font-size:13px;font-weight:700;">${doneCount} of ${weeks.length} weeks completed</span>
-                <span class="muted" style="font-size:13px;">${liveCount} ready now</span>
+        <section class="card" style="margin:18px 0;padding:16px;">
+            <div class="between" style="margin-bottom:9px;">
+                <span class="small muted">${done} of ${weeks.length} weeks done</span>
+                <span class="small muted">${live} ready now</span>
             </div>
-            <div class="pbar"><i style="width:${weeks.length ? Math.round(doneCount / weeks.length * 100) : 0}%"></i></div>
+            <div class="pbar"><i style="width:${weeks.length ? Math.round(done / weeks.length * 100) : 0}%"></i></div>
         </section>
 
         ${course.bonus ? `
             <div class="section-title">Extra practice</div>
-            <a class="week-item" href="${course.bonus.external}" style="margin-bottom:22px;">
-                <span class="week-num" style="color:var(--cyan);">★</span>
-                <span class="week-meta"><h3>${escapeHtml(course.bonus.title)}</h3><p>${escapeHtml(course.bonus.summary)}</p></span>
-                <span class="chip live">Ready</span>
+            <a class="week" href="${course.bonus.external}" style="margin-bottom:20px;">
+                <span class="week-num">★</span>
+                <span class="meta"><h3>${escapeHtml(course.bonus.title)}</h3><p>${escapeHtml(course.bonus.summary)}</p></span>
+                <span class="chip ready">Ready</span>
             </a>` : ''}
 
-        <div class="section-title">Term 1 · ${weeks.length} weeks</div>
+        <div class="section-title">${weeks.length} weeks</div>
         <div class="stack">
             ${weeks.map(w => {
-                const done = progress.lessonsCompleted.includes(w.id);
-                const clickable = w.status === 'live';
+                const finished = progress.lessonsCompleted.includes(w.id);
+                const open = w.status === 'live';
                 const href = w.external || (w.file ? `lesson.html?file=${encodeURIComponent(w.file)}` : '#');
-                const topics = (w.topics || []).join(' · ');
-                return `<a class="week-item ${clickable ? '' : 'locked'} ${done ? 'done' : ''}" href="${clickable ? href : '#'}">
-                    <span class="week-num">${done ? '✓' : 'W' + w.week}</span>
-                    <span class="week-meta">
+                return `<a class="week ${open ? '' : 'locked'} ${finished ? 'done' : ''}" href="${open ? href : '#'}">
+                    <span class="week-num">${finished ? '✓' : w.week}</span>
+                    <span class="meta">
                         <h3>${escapeHtml(w.title)}</h3>
-                        <p>${escapeHtml(topics)}</p>
+                        <p>${escapeHtml((w.topics || []).join(' · '))}</p>
                     </span>
-                    ${STATUS_CHIP[w.status] || ''}
+                    ${CHIP[w.status] || ''}
                 </a>`;
             }).join('')}
-        </div>
-
-        ${liveCount === 0 ? `
-            <div class="card center" style="margin-top:22px;">
-                <p class="muted">No lessons built for this subject yet — the full term is mapped above, and weeks get switched on as they're written.</p>
-            </div>` : ''}`;
+        </div>`;
 }
 
 main();

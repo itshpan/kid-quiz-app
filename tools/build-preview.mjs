@@ -14,7 +14,7 @@ const read = p => readFile(join(ROOT, p), 'utf8');
 
 // Order matters: dependencies before dependents, since the bundle drops the
 // module system and relies on a single shared scope.
-const MODULES = ['store.js', 'ui.js', 'skeleton.js', 'quiz.js', 'teacher-view.js', 'lesson.js'];
+const MODULES = ['store.js', 'reading.js', 'ui.js', 'skeleton.js', 'question.js', 'quiz.js', 'deck.js', 'teacher-view.js', 'lesson.js'];
 
 /** Strips ESM syntax so modules can share one <script> scope. */
 function flatten(src) {
@@ -42,15 +42,15 @@ js = js
     .replace(/if \(!file\) \{[^}]*\}\n/, '')
     .replace(/lesson = await loadJSON\(file\);/, 'lesson = EMBEDDED_LESSON;')
     .replace(/href="course\.html\?c=\$\{encodeURIComponent\(lesson\.courseId\)\}"/, 'href="#top"')
-    .replace(/<a class="chip" href="teacher\.html\?file=\$\{encodeURIComponent\(file\)\}"[^>]*>[^<]*<\/a>/,
-             '<button class="chip" id="keyToggle" style="cursor:pointer;font-family:inherit;">🔑 Answer key</button>')
+    .replace(/<a class="btn sm" href="teacher\.html\?file=\$\{encodeURIComponent\(file\)\}">Open the answer key<\/a>/,
+             '<button class="btn sm" id="keyToggle">Open the answer key</button>')
     .replace(/<a class="btn primary" href="index\.html">Back to subjects<\/a>/,
              '<button class="btn primary" onclick="window.scrollTo({top:0,behavior:\'smooth\'})">Back to the top</button>');
 
 const html = `<title>Skeletal &amp; Muscular Systems</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700;9..40,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,700;9..40,800&display=swap" rel="stylesheet">
 <style>
 ${css}
 /* Preview-only: the answer key lives on the same page instead of its own route. */

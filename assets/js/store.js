@@ -20,6 +20,7 @@ const DEFAULT_PROGRESS = {
     xp: 0,
     lessonsCompleted: [],   // lesson ids
     quizScores: {},         // lessonId -> { correct, total, attempts, bestPct, lastAt }
+    deckPosition: {},       // lessonId -> last card index seen, so a lesson resumes
     streak: 0,
     lastPlayDate: null,
     practiceDays: []        // 'YYYY-MM-DD'

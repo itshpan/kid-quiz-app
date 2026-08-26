@@ -2,130 +2,163 @@
 
 How to add a lesson without touching any JavaScript.
 
+Read [`WRITING-FOR-ADHD.md`](WRITING-FOR-ADHD.md) first — it holds the rules this schema exists to
+enforce. Run the checker before you commit:
+
+```bash
+node tools/check-content.mjs
+```
+
+---
+
 ## Adding a week
 
-1. Write `content/<subject>/wN-<slug>.json` (schema below).
-2. In `content/courses.json`, find that week and set:
+1. Write `content/<subject>/wN-<slug>.json`.
+2. In `content/courses.json`, find that week and set `"status": "live"` plus a `"file"` path:
    ```json
-   { "week": 2, "id": "sci-w2", "title": "...", "topics": ["..."],
+   { "week": 2, "id": "sci-w2", "title": "Digestive System",
+     "topics": ["Mouth, Esophagus, Stomach…"],
      "status": "live", "file": "science/w2-digestive.json" }
    ```
-3. That's it. The week unlocks on the subject page and the answer key generates itself.
+3. Done. The week unlocks and the answer key generates itself.
 
-`status` is one of `"live"`, `"soon"`, or `"exam"`.
+`status` is `"live"`, `"soon"` or `"exam"`.
 
-## Lesson file schema
+---
+
+## Lesson shape
 
 ```jsonc
 {
-  "id": "sci-w2",                 // must match the id in courses.json
+  "id": "sci-w2",              // must match the id in courses.json
   "courseId": "science",
-  "courseTitle": "Science",       // used for the breadcrumb
+  "courseTitle": "Science",    // breadcrumb label
   "week": 2,
   "title": "Digestive System",
-  "subtitle": "One sentence hook",
-  "estMinutes": 25,
-  "objectives": ["..."],          // shown to the learner AND used for the
-                                  // answer key's coverage table
-  "blocks": [ ... ],              // the lesson body, in order — see below
-  "quiz": [ ... ],
+  "subtitle": "One short sentence.",
+  "estMinutes": 20,
+  "objectives": ["..."],       // shown to the learner AND used for the
+                               // answer key's coverage table
+  "cards": [ ... ],            // the lesson, one idea at a time
+  "quiz":  [ ... ],            // the end-of-lesson assessment
   "teacher": { ... }
 }
 ```
 
-## Block types
+A lesson is a **deck of cards**, not a page. The reader taps through one at a time. He can leave
+and come back — his position is saved per lesson.
 
-Blocks render in array order. Mix them freely.
+---
 
-### `hook` — opening attention-grabber, gold panel
+## Card kinds
+
+Every card takes an optional `eyebrow` (small uppercase label) and `icon` (one emoji).
+
+### `open` — set the scene
 ```json
-{ "type": "hook", "title": "...", "body": ["paragraph", "paragraph"] }
+{ "kind": "open", "icon": "🏎️", "eyebrow": "Part 1 · Bones",
+  "title": "Every car you like has a skeleton too",
+  "text": "Strip the panels off a race car…" }
 ```
 
-### `text` — standard explanation card
+### `idea` — the teaching card
 ```json
-{ "type": "text", "title": "...", "body": ["..."], "bullets": ["..."] }
+{ "kind": "idea", "title": "Five jobs, one frame",
+  "text": "Most people think bones just hold you up.",
+  "points": ["**Support** — the frame everything hangs off.", "…"] }
 ```
-`bullets` is optional.
+Max 4 points. Start each with 2–4 **bolded** words carrying the idea — he re-finds his place by
+scanning bold text after drifting.
 
-### `lens` — the interest-personalisation block
-This is the core idea of the whole app: the same curriculum content, retold through something the
-learner already cares about.
+### `lens` — the interest-personalisation card
+The core idea of the app: the same curriculum, retold through something he already cares about.
 ```json
-{
-  "type": "lens",
-  "interest": "cars",          // free-form label for your own reference
-  "icon": "🚗",
-  "label": "Car mode",         // small uppercase tag
-  "color": "#4ecdc4",          // accent for the left border and bullets
-  "title": "...",
-  "body": ["..."],
-  "bullets": ["..."]
-}
+{ "kind": "lens", "lens": "cars", "icon": "🚗", "eyebrow": "Car mode",
+  "title": "A seatbelt lands on bone on purpose",
+  "text": "…", "points": ["…"] }
 ```
-Suggested palette: cars `#4ecdc4`, boxing `#ff6b9d`, body/growth `#f5c542`,
-space `#a855f7`, gaming `#22c55e`.
+`lens` is one of `cars`, `boxing`, `growth`, `gaming`. Each gets its own colour bar so he can
+*feel* the shift into "the car bit" without reading a word. Add a lens by adding a colour token
+in `app.css` (search `--lens-`).
 
-### `keyterms` — vocabulary the exam will use
+### `story` — a real person
 ```json
-{ "type": "keyterms", "title": "Words the test will use",
-  "terms": [{ "term": "Femur", "def": "Thigh bone..." }] }
+{ "kind": "story", "icon": "🥊", "eyebrow": "He started smaller than you",
+  "title": "Manny Pacquiao", "text": "…", "points": ["…"] }
 ```
-These also appear automatically at the bottom of the teacher answer key.
+Use for worked examples of the behaviour the lesson is arguing for. Prefer people he could
+plausibly identify with over distant legends.
 
-### `dyk` — "did you know" fact cards
+### `fact` — a single striking number
 ```json
-{ "type": "dyk", "title": "Did you know",
-  "cards": [{ "tag": "Strength", "text": "..." }] }
+{ "kind": "fact", "eyebrow": "Did you know",
+  "text": "Astronauts lose 1–2% of bone density every month in orbit." }
 ```
+One fact, no points, no title. These are pacing tools — put them between two heavy cards.
 
-### `video` — YouTube embed
+### `diagram` — the interactive skeleton
 ```json
-{ "type": "video", "title": "...", "youtubeId": "abc123", "caption": "..." }
+{ "kind": "diagram", "title": "Tap any bone", "text": "…" }
 ```
-Set `"youtubeId": null` to show a placeholder slot instead — useful for drafting a lesson before
-you've picked the clip. Embeds use `youtube-nocookie.com`.
+Bone data lives in `assets/js/skeleton.js`.
 
-### `recap` — the pre-quiz summary
+### `terms` — vocabulary reference
 ```json
-{ "type": "recap", "title": "Before the quiz", "bullets": ["..."] }
+{ "kind": "terms", "title": "Bone words",
+  "terms": [{ "term": "Femur", "def": "Thigh bone…" }] }
 ```
+Exempt from the 40-word ceiling: it's looked up, not read through. Split long lists into two
+cards by theme rather than one card of thirty terms. These also appear in the teacher key.
 
-### `skeleton` — the interactive skeleton diagram
+### `checkpoint` — mid-lesson retrieval
 ```json
-{ "type": "skeleton", "title": "Tap any bone", "caption": "..." }
+{ "kind": "checkpoint", "question": { "type": "multiple", "text": "…", "options": ["…"],
+  "answerIndex": 0, "explain": "…" } }
 ```
-Bone data lives in `assets/js/skeleton.js`. This is currently the one bespoke visual; more will be
-added as separate modules.
+Takes any question type (below). **One every 4–6 cards — the checker enforces it.** Not scored,
+never blocks on being *right*, only on being answered. This is the highest-value structural rule
+in the whole system: reading without retrieval is a trance.
 
-## Text formatting
+### `break` — an offered stopping point
+```json
+{ "kind": "break", "title": "Good spot to pause", "text": "…" }
+```
+Renders a "Stop for now" button alongside "Next". Put one between major parts of a long lesson.
+Quitting mid-lesson feels like failure; being told *this is a fine place to stop, your spot is
+saved* doesn't.
 
-`**bold**` and `*italic*` work inside any body paragraph or bullet. Everything else is escaped, so
-content can't break the page.
+### `recap` — close a part
+```json
+{ "kind": "recap", "eyebrow": "Part 1 done", "title": "Bones — the four that matter",
+  "points": ["…"] }
+```
 
-## Quiz question types
+---
 
-Every question takes an `explain` string (shown after answering, and in the answer key) and an
-optional `objective` that must match one of the lesson's `objectives` exactly — that's what drives
-the coverage table in the teacher key.
+## Question types
+
+Used by both `checkpoint` cards and the `quiz` array. Every question needs `explain` — shown
+after answering, and in the answer key. Quiz questions also take `objective`, which must match
+one of the lesson's `objectives` **exactly**; that's what drives the coverage table.
 
 ```jsonc
-// Multiple choice
-{ "type": "multiple", "text": "...", "options": ["a","b","c","d"],
-  "answerIndex": 0, "explain": "...", "objective": "..." }
+// Four options, one right
+{ "type": "multiple", "text": "…", "options": ["a","b","c","d"], "answerIndex": 0, "explain": "…" }
 
-// True / false
-{ "type": "truefalse", "text": "...", "answer": true, "explain": "..." }
+// Two options
+{ "type": "truefalse", "text": "…", "answer": true, "explain": "…" }
 
-// Short answer — matching ignores case, spaces and punctuation
-{ "type": "type", "text": "...", "accept": ["osteoblast", "osteoblasts"], "explain": "..." }
+// Free text — matching ignores case, spaces and punctuation
+{ "type": "type", "text": "…", "accept": ["tendon", "tendons"], "explain": "…" }
 
-// Sequencing — list items in the CORRECT order; the app shuffles them
-{ "type": "order", "text": "...", "items": ["first","second","third"], "explain": "..." }
+// Sequencing — list in the CORRECT order; the app shuffles and offers ▲▼ buttons
+{ "type": "order", "text": "…", "items": ["first","second","third"], "explain": "…" }
 
-// Diagram hotspot — answerBone must be a key from skeleton.js BONES
-{ "type": "hotspot", "text": "...", "answerBone": "femur", "explain": "..." }
+// Tap the diagram — answerBone is a key from BONES in skeleton.js
+{ "type": "hotspot", "text": "…", "answerBone": "femur", "explain": "…" }
 ```
+
+---
 
 ## Teacher block
 
@@ -133,23 +166,23 @@ the coverage table in the teacher key.
 "teacher": {
   "summary": "What this week covers and how it's taught.",
   "discussion": ["Prompts to ask out loud."],
-  "misconceptions": ["Wrong ideas to watch for and the correction."],
-  "extension": "An optional activity for learners who finish early."
+  "misconceptions": ["Wrong ideas to watch for, and the correction."],
+  "extension": "An activity for whoever finishes early."
 }
 ```
 
-All of it is optional — sections with no content are simply omitted from the printed key.
+All optional — empty sections are omitted from the printed key.
 
-## Writing style that works for this learner
+---
 
-Based on what's landed so far:
+## Formatting
 
-- **Lead with the interest, not the curriculum.** "Every car you like has a skeleton too" beats
-  "Today we will learn about bones."
-- **Give the mechanism, not just the fact.** *Why* the clavicle breaks first is more memorable
-  than *that* it breaks first.
-- **One dry joke per section is plenty.** "A puddle with opinions" works; a joke in every bullet
-  gets skimmed.
-- **Connect to a decision he controls.** The bone-density window lands because it changes what
-  he does at training this week.
-- **Never talk down.** Real terminology, real numbers, explained properly.
+`**bold**` and `*italic*` work in any `text` or point. Everything else is escaped, so content
+can never break the page.
+
+## Before you commit
+
+```bash
+node tools/check-content.mjs        # limits
+node tools/build-preview.mjs <lesson.json> dist/preview.html   # shareable single file
+```

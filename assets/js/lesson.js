@@ -1,71 +1,12 @@
 /* ==========================================================================
-   lesson.js — renders a lesson JSON file into the page, then hands off
-   to the quiz engine. Every block type is one function in BLOCKS.
+   lesson.js — lesson.html controller.
+   Three stages: a short intro, the card deck, then the quiz.
    ========================================================================== */
 
-import { escapeHtml, md, param, loadJSON, mountHeader, requireProfile } from './ui.js';
-import { skeletonSVG, bindSkeleton, boneInfoHTML } from './skeleton.js';
+import { escapeHtml, param, loadJSON, mountHeader, requireProfile } from './ui.js';
+import { mountDeck, deckAsPage } from './deck.js';
 import { runQuiz } from './quiz.js';
-import { recordQuiz, getProgress, levelFor } from './store.js';
-
-const bulletList = items => `<ul class="bullets">${items.map(b => `<li>${md(escapeHtml(b))}</li>`).join('')}</ul>`;
-const paras = body => (body || []).map(p => `<p>${md(escapeHtml(p))}</p>`).join('');
-
-const BLOCKS = {
-    hook: b => `<section class="hook"><h2>${escapeHtml(b.title)}</h2>${paras(b.body)}</section>`,
-
-    text: b => `<section class="card block-text">
-        <h2 style="margin-bottom:12px;">${escapeHtml(b.title)}</h2>
-        ${paras(b.body)}
-        ${b.bullets ? `<div style="margin-top:14px;">${bulletList(b.bullets)}</div>` : ''}
-    </section>`,
-
-    lens: b => `<section class="lens" style="--lens-color:${b.color}">
-        <div class="lens-head">
-            <span class="lens-icon">${b.icon}</span>
-            <div>
-                <div class="lens-label">${escapeHtml(b.label)}</div>
-                <h3>${escapeHtml(b.title)}</h3>
-            </div>
-        </div>
-        ${paras(b.body)}
-        ${b.bullets ? `<div style="margin-top:14px;">${bulletList(b.bullets)}</div>` : ''}
-    </section>`,
-
-    skeleton: b => `<section class="card">
-        <h2 style="margin-bottom:6px;">${escapeHtml(b.title)}</h2>
-        <p class="muted" style="font-size:14px;margin-bottom:16px;">${escapeHtml(b.caption)}</p>
-        <div class="skeleton-explorer" id="skeletonBlock">
-            <div class="skeleton-stage">${skeletonSVG()}</div>
-            <div class="bone-info">${boneInfoHTML(null)}</div>
-        </div>
-    </section>`,
-
-    keyterms: b => `<section class="card">
-        <h2 style="margin-bottom:14px;">${escapeHtml(b.title)}</h2>
-        <div class="keyterms">${b.terms.map(t =>
-            `<dl class="keyterm"><dt>${escapeHtml(t.term)}</dt><dd>${escapeHtml(t.def)}</dd></dl>`).join('')}</div>
-    </section>`,
-
-    dyk: b => `<section>
-        <div class="section-title">${escapeHtml(b.title)}</div>
-        <div class="dyk">${b.cards.map(c =>
-            `<div class="dyk-card"><span class="dyk-tag">${escapeHtml(c.tag)}</span><p>${escapeHtml(c.text)}</p></div>`).join('')}</div>
-    </section>`,
-
-    video: b => `<section>
-        <div class="section-title">${escapeHtml(b.title)}</div>
-        ${b.youtubeId
-            ? `<div class="video-wrap"><iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(b.youtubeId)}" title="${escapeHtml(b.title)}" allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>`
-            : `<div class="media-slot">📺 Video slot ready — add a <code>youtubeId</code> to this block in the lesson JSON and it renders here.</div>`}
-        ${b.caption ? `<p class="video-caption">${escapeHtml(b.caption)}</p>` : ''}
-    </section>`,
-
-    recap: b => `<section class="card" style="border-color:var(--gold-dim);">
-        <h2 style="margin-bottom:14px;">${escapeHtml(b.title)}</h2>
-        ${bulletList(b.bullets)}
-    </section>`
-};
+import { recordQuiz, getProgress, saveProgress, levelFor } from './store.js';
 
 async function main() {
     mountHeader();
@@ -79,62 +20,95 @@ async function main() {
     try {
         lesson = await loadJSON(file);
     } catch (err) {
-        page.innerHTML = `<div class="card"><h2>Couldn't load the lesson</h2><p style="margin-top:10px;">${escapeHtml(err.message)}</p></div>`;
+        page.innerHTML = `<section class="card"><h2>Couldn't load the lesson</h2><p>${escapeHtml(err.message)}</p></section>`;
         return;
     }
 
     document.title = `${lesson.title} · Learning Lab`;
 
-    page.innerHTML = `
-        <a class="crumb" href="course.html?c=${encodeURIComponent(lesson.courseId)}">← Back to ${escapeHtml(lesson.courseTitle || lesson.courseId)}</a>
-        <div class="eyebrow">Week ${lesson.week}</div>
-        <h1 style="margin:6px 0 10px;">${escapeHtml(lesson.title)}</h1>
-        <p class="lede">${escapeHtml(lesson.subtitle)}</p>
+    // Resume where he stopped. Losing your place is a common reason a lesson
+    // never gets finished, so the app remembers it rather than asking him to.
+    const progress = getProgress();
+    const resumeAt = progress.deckPosition?.[lesson.id] ?? 0;
 
-        <div class="row" style="margin:20px 0 8px;">
-            <span class="chip">⏱ About ${lesson.estMinutes} min</span>
-            <span class="chip">📝 ${lesson.quiz.length} questions</span>
-            <a class="chip" href="teacher.html?file=${encodeURIComponent(file)}" style="text-decoration:none;">🔑 Answer key</a>
+    page.innerHTML = `
+        <div class="lesson-head" id="lessonHead">
+            <a class="crumb" href="course.html?c=${encodeURIComponent(lesson.courseId)}">← ${escapeHtml(lesson.courseTitle || 'Back')}</a>
+            <div class="eyebrow">Week ${lesson.week}</div>
+            <h1 style="margin:6px 0 10px;">${escapeHtml(lesson.title)}</h1>
+            <p class="lede">${escapeHtml(lesson.subtitle)}</p>
         </div>
 
-        <section class="card" style="margin-top:18px;">
-            <div class="section-title">By the end of this lesson</div>
-            ${bulletList(lesson.objectives)}
+        <section class="card" style="margin-top:22px;" id="intro">
+            <div class="row" style="gap:8px;margin-bottom:16px;">
+                <span class="chip">⏱ About ${lesson.estMinutes} min</span>
+                <span class="chip">${lesson.cards.length} cards</span>
+                <span class="chip">${lesson.quiz.length} questions at the end</span>
+            </div>
+            <p class="small">One idea per card. Tap through at your own speed. There are a few quick checks along the way — they don't count for anything.</p>
+            <div class="deck-nav" style="margin-top:18px;">
+                <button class="btn primary" id="start">${resumeAt > 0 ? `Pick up at card ${resumeAt + 1}` : 'Start'}</button>
+                ${resumeAt > 0 ? '<button class="btn" id="restart">Start over</button>' : ''}
+            </div>
         </section>
 
-        <div class="lesson-body" style="margin-top:22px;">
-            ${lesson.blocks.map(b => (BLOCKS[b.type] || (() => ''))(b)).join('')}
-        </div>
+        <div id="deckHost" class="deck hidden"></div>
 
-        <section id="quizGate" class="card center" style="margin-top:28px;border-color:var(--gold-dim);">
-            <h2>Ready for the quiz?</h2>
-            <p class="muted" style="margin:8px 0 18px;">${lesson.quiz.length} questions, five different formats. You can retake it as many times as you want.</p>
+        <section class="card center hidden" id="quizGate">
+            <h2>That's the lesson done</h2>
+            <p style="margin:10px auto 18px;">${lesson.quiz.length} questions now. You can retake it as many times as you like.</p>
             <button class="btn primary" id="startQuiz">Start the quiz</button>
         </section>
 
-        <section id="quizHost" class="card hidden" style="margin-top:28px;"></section>`;
+        <div id="quizHost" class="hidden"></div>
 
-    // Wire the interactive skeleton if this lesson uses one.
-    const skelBlock = document.getElementById('skeletonBlock');
-    if (skelBlock) {
-        const info = skelBlock.querySelector('.bone-info');
-        bindSkeleton(skelBlock, id => { info.innerHTML = boneInfoHTML(id); });
+        <details class="no-print" style="margin-top:34px;">
+            <summary class="small muted" style="cursor:pointer;">For parents and teachers: see every card at once</summary>
+            <div style="margin-top:14px;" class="stack">${deckAsPage(lesson.cards)}</div>
+            <p style="margin-top:14px;"><a class="btn sm" href="teacher.html?file=${encodeURIComponent(file)}">Open the answer key</a></p>
+        </details>`;
+
+    const intro = document.getElementById('intro');
+    const deckHost = document.getElementById('deckHost');
+    const quizGate = document.getElementById('quizGate');
+    const quizHost = document.getElementById('quizHost');
+
+    function launchDeck(from) {
+        intro.classList.add('hidden');
+        document.getElementById('lessonHead').classList.add('compact');
+        deckHost.classList.remove('hidden');
+        mountDeck(deckHost, lesson.cards, {
+            startAt: from,
+            onMove: n => {
+                const p = getProgress();
+                p.deckPosition = { ...(p.deckPosition || {}), [lesson.id]: n };
+                saveProgress(p);
+            },
+            onFinish: () => {
+                deckHost.classList.add('hidden');
+                quizGate.classList.remove('hidden');
+                quizGate.scrollIntoView({ block: 'center', behavior: 'smooth' });
+            }
+        });
     }
 
+    document.getElementById('start').addEventListener('click', () => launchDeck(resumeAt));
+    document.getElementById('restart')?.addEventListener('click', () => launchDeck(0));
+
     document.getElementById('startQuiz').addEventListener('click', () => {
-        document.getElementById('quizGate').classList.add('hidden');
-        const host = document.getElementById('quizHost');
-        host.classList.remove('hidden');
-        runQuiz(host, lesson.quiz, {
+        quizGate.classList.add('hidden');
+        quizHost.classList.remove('hidden');
+        runQuiz(quizHost, lesson.quiz, {
             onFinish: ({ correct, total, xp }) => {
                 const before = levelFor(getProgress().xp).level;
-                const after = levelFor(recordQuiz(lesson.id, correct, total, xp).xp).level;
-                if (after > before) {
+                const after = recordQuiz(lesson.id, correct, total, xp);
+                const now = levelFor(after.xp);
+                if (now.level > before) {
                     const note = document.createElement('div');
-                    note.className = 'feedback good';
-                    note.style.marginTop = '16px';
-                    note.innerHTML = `<strong>🎉 Level up — you're now Level ${after}: ${levelFor(getProgress().xp).title}</strong>`;
-                    host.querySelector('.results').appendChild(note);
+                    note.className = 'feedback yes';
+                    note.style.margin = '18px auto 0';
+                    note.innerHTML = `<b>Level up — you're Level ${now.level} now</b>${escapeHtml(now.title)}`;
+                    quizHost.querySelector('.results').appendChild(note);
                 }
             }
         });
