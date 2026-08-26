@@ -9,7 +9,7 @@ import { skeletonSVG, bindSkeleton, BONES } from './skeleton.js';
 
 const XP_PER_CORRECT = 25;
 
-const TYPE_LABEL = {
+const LEARNER_TYPE_LABEL = {
     multiple: 'Multiple choice',
     truefalse: 'True or false',
     type: 'Type the answer',
@@ -203,7 +203,7 @@ export function runQuiz(host, questions, { onFinish }) {
         host.innerHTML = `
             ${progressHTML()}
             <div id="qBody">
-                <span class="q-type-badge">${TYPE_LABEL[q.type] || q.type}</span>
+                <span class="q-type-badge">${LEARNER_TYPE_LABEL[q.type] || q.type}</span>
                 <div class="q-text">Question ${index + 1} of ${questions.length}<br>${md(escapeHtml(q.text))}</div>
             </div>`;
 
