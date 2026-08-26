@@ -1,0 +1,7 @@
+# Cloudflare Pages headers.
+# Lessons are edited often, so never let a stale one stick around.
+/content/*
+  Cache-Control: public, max-age=0, must-revalidate
+
+/assets/*
+  Cache-Control: public, max-age=3600

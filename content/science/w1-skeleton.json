@@ -5,7 +5,7 @@
   "week": 1,
   "title": "Skeletal & Muscular Systems",
   "subtitle": "Your body's roll cage, and the engine that moves it.",
-  "estMinutes": 20,
+  "estMinutes": 25,
   "objectives": [
     "Name the five jobs the skeleton does for the body",
     "Locate and name the major bones of the human skeleton",
@@ -127,6 +127,13 @@
       ]
     },
     {
+      "kind": "figure",
+      "figure": "crumpleZone",
+      "eyebrow": "Same idea, two places",
+      "title": "One design, a car and a ribcage",
+      "text": "Orange stays rigid. Blue is meant to deform. Engineers and evolution reached the same answer."
+    },
+    {
       "kind": "lens",
       "lens": "boxing",
       "icon": "🥊",
@@ -138,6 +145,13 @@
         "**Land on the index and middle knuckles.** They're thickest and best braced.",
         "**Power starts at the floor**, not the hand."
       ]
+    },
+    {
+      "kind": "figure",
+      "figure": "kineticChain",
+      "eyebrow": "Where power comes from",
+      "title": "The punch chain",
+      "text": "Five links. Miss one and the punch is arm-only."
     },
     {
       "kind": "lens",
@@ -249,6 +263,13 @@
         "**Your training is compounding** into your actual skeleton.",
         "**Growth plates are still cartilage** — that's why coaches cap heavy loads now."
       ]
+    },
+    {
+      "kind": "figure",
+      "figure": "boneDensity",
+      "eyebrow": "Try it",
+      "title": "Drag the load and watch the bone change",
+      "text": "This is the inside of a bone. Struts thicken where they're loaded, and vanish where they're not."
     },
     {
       "kind": "lens",
@@ -375,6 +396,13 @@
       }
     },
     {
+      "kind": "figure",
+      "figure": "muscleTypes",
+      "eyebrow": "Tell them apart",
+      "title": "The three types side by side",
+      "text": "This is the comparison the exam asks for. Stripes, control, and where each one lives."
+    },
+    {
       "kind": "idea",
       "eyebrow": "Type 1 of 3",
       "title": "Skeletal muscle — the one you control",
@@ -408,6 +436,14 @@
       ]
     },
     {
+      "kind": "video",
+      "eyebrow": "60 seconds",
+      "title": "See real muscle tissue",
+      "youtubeId": "Wbo8x_Gnb4A",
+      "text": "The Institute of Human Anatomy, on the three muscle types. Under a minute.",
+      "credit": "Institute of Human Anatomy · youtube.com"
+    },
+    {
       "kind": "checkpoint",
       "question": {
         "type": "multiple",
@@ -433,6 +469,13 @@
         "**Speed comes from the antagonist relaxing** on time.",
         "**A tense arm is slower.** That's mechanics, not mindset."
       ]
+    },
+    {
+      "kind": "figure",
+      "figure": "armPair",
+      "eyebrow": "Try it",
+      "title": "Bend the arm and watch which muscle pulls",
+      "text": "Tap the button. Notice that the relaxed muscle never pushes — the other one just pulls the opposite way."
     },
     {
       "kind": "idea",

@@ -14,7 +14,7 @@ const read = p => readFile(join(ROOT, p), 'utf8');
 
 // Order matters: dependencies before dependents, since the bundle drops the
 // module system and relies on a single shared scope.
-const MODULES = ['store.js', 'reading.js', 'ui.js', 'skeleton.js', 'question.js', 'quiz.js', 'deck.js', 'teacher-view.js', 'lesson.js'];
+const MODULES = ['store.js', 'reading.js', 'ui.js', 'skeleton.js', 'question.js', 'quiz.js', 'figures.js', 'deck.js', 'teacher-view.js', 'lesson.js'];
 
 /** Strips ESM syntax so modules can share one <script> scope. */
 function flatten(src) {
@@ -26,7 +26,10 @@ function flatten(src) {
 
 const [lessonPath = 'science/w1-skeleton.json', outPath = 'dist/preview.html'] = process.argv.slice(2);
 
-const lesson = JSON.parse(await read(join('content', lessonPath)));
+// Accept either "science/w1.json" or "content/science/w1.json" — nobody
+// should have to remember which the tool wants.
+const lessonRel = lessonPath.replace(/^content\//, '');
+const lesson = JSON.parse(await read(join('content', lessonRel)));
 const css = await read('assets/css/app.css');
 
 let js = '';

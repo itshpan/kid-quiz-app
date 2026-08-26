@@ -1,0 +1,11 @@
+{
+  "name": "learning-lab",
+  "private": true,
+  "description": "Interactive lessons and quizzes for Grade 6, Term 1",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "check": "node tools/check-content.mjs",
+    "preview": "node tools/build-preview.mjs content/science/w1-skeleton.json dist/preview.html",
+    "deploy": "npx wrangler@latest pages deploy . --project-name=learning-lab --commit-dirty=true"
+  }
+}

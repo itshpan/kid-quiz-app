@@ -700,3 +700,113 @@ strong { font-weight: 700; color: var(--ink); }
     .page { padding: 0; max-width: none; }
     .tkey, .card { break-inside: avoid; }
 }
+
+/* ==========================================================================
+   FIGURES — hand-drawn SVG diagrams. Everything inherits theme tokens, so a
+   figure is legible in light and dark without a second drawing.
+   ========================================================================== */
+.figure { margin-top: 14px; }
+.figure svg { width: 100%; height: auto; display: block; overflow: visible; }
+
+.fig-label {
+    font-family: var(--font-ui);
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: .1em;
+    fill: var(--ink-faint);
+}
+.fig-note      { font-family: var(--font-ui); font-size: 12px; fill: var(--ink-soft); }
+.fig-note-key  { fill: var(--ink); font-weight: 700; }
+.fig-note-soft { fill: var(--notyet); font-weight: 700; }
+.fig-note-rigid{ fill: var(--accent); font-weight: 700; }
+.fig-big       { font-family: var(--font-ui); font-size: 26px; font-weight: 800; fill: var(--accent); }
+.fig-step      { font-family: var(--font-ui); font-size: 11px; font-weight: 700; fill: var(--ink-soft); }
+
+/* Rigid things take the accent; things that deform take the calm blue.
+   Same two colours as "got it"/"not yet", used for the same reason: they
+   already mean something to the reader. */
+.fig-rigid      { fill: none; stroke: var(--accent); stroke-width: 2.5; stroke-linejoin: round; }
+.fig-soft       { fill: none; stroke: var(--notyet); stroke-width: 2.5; stroke-linecap: round; }
+.fig-soft-fill  { fill: var(--notyet); opacity: .1; stroke: none; }
+.fig-wheel      { fill: none; stroke: var(--ink-faint); stroke-width: 2.5; }
+.fig-rule       { stroke: var(--line); stroke-width: 1; }
+
+.fig-tissue { fill: var(--surface-2); stroke: var(--ink-faint); stroke-width: 1.5; }
+.fig-stripe { stroke: var(--ink-faint); stroke-width: 1; opacity: .55; }
+.fig-disc   { stroke: var(--accent); stroke-width: 3; }
+.fig-nuc    { fill: var(--ink-soft); }
+
+.fig-bone       { fill: var(--surface-2); stroke: var(--ink-faint); stroke-width: 1.5; }
+.fig-joint      { fill: var(--surface); stroke: var(--ink-faint); stroke-width: 2; }
+.fig-bone-outer { fill: var(--surface-2); }
+.fig-bone-ring  { fill: none; stroke: var(--ink-faint); stroke-width: 3; }
+.fig-strut      { stroke: var(--accent); stroke-linecap: round; transition: stroke-width .25s, opacity .25s; }
+
+.fig-muscle {
+    fill: var(--ink-faint);
+    opacity: .35;
+    transition: fill .25s, opacity .25s;
+}
+.fig-muscle.pulling { fill: var(--accent); opacity: 1; }
+#apForearm { transition: transform .45s cubic-bezier(.3,.7,.3,1); }
+
+.fig-chip   { fill: var(--surface-2); }
+.fig-chip-t { font-family: var(--font-ui); font-size: 13px; font-weight: 800; fill: var(--ink); }
+.fig-chip-s { font-family: var(--font-ui); font-size: 12px; fill: var(--ink-soft); }
+
+.fig-chain { fill: none; stroke: var(--accent); stroke-width: 4; stroke-linecap: round; }
+.fig-node  { fill: var(--accent); }
+
+.fig-action { margin-top: 14px; }
+
+.fig-control { margin-top: 16px; }
+.fig-control-label {
+    display: block;
+    font-family: var(--font-ui);
+    font-size: calc(13px * var(--scale));
+    font-weight: 700;
+    color: var(--ink-soft);
+    margin-bottom: 8px;
+}
+.fig-control input[type="range"] {
+    width: 100%;
+    accent-color: var(--accent);
+    height: 30px;
+}
+.fig-control-ends {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-ui);
+    font-size: calc(12px * var(--scale));
+    color: var(--ink-faint);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #apForearm, .fig-strut, .fig-muscle { transition: none; }
+}
+
+/* ---------- Photographs and video ---------- */
+.card-media {
+    margin-top: 14px;
+    border-radius: var(--r-sm);
+    overflow: hidden;
+    background: var(--surface-2);
+}
+.card-media img { width: 100%; height: auto; display: block; }
+.media-credit {
+    font-family: var(--font-ui);
+    font-size: calc(12px * var(--scale));
+    color: var(--ink-faint);
+    margin-top: 7px;
+}
+.media-credit a { color: var(--ink-soft); }
+
+.video-frame {
+    position: relative;
+    padding-top: 56.25%;
+    border-radius: var(--r-sm);
+    overflow: hidden;
+    background: var(--surface-2);
+    margin-top: 14px;
+}
+.video-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }

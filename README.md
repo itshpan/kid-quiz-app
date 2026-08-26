@@ -32,19 +32,37 @@ python3 -m http.server 8000
 
 ## Deploy (Cloudflare Pages)
 
+**Option A — one command.** From the repo root:
+
+```bash
+npm run deploy
+```
+
+That runs `wrangler pages deploy`. It opens a browser once to log in to Cloudflare, creates the
+project if it doesn't exist, and returns a live `*.pages.dev` URL. Nothing to configure.
+
+**Option B — connect the repo**, so every push deploys itself:
+
 1. Cloudflare dashboard → **Workers & Pages** → **Create** → **Pages** → **Connect to Git**
-2. Pick this repo and the branch you want to publish
-3. Build settings:
-   - Framework preset: **None**
-   - Build command: *(leave empty)*
-   - Build output directory: **`/`**
+2. Pick this repo and the branch to publish
+3. Build settings: framework preset **None**, build command **empty**, output directory **`/`**
 4. **Save and Deploy**
 
-There is nothing to compile, so the first deploy takes well under a minute. Every push to the
-connected branch redeploys automatically.
+There's nothing to compile, so the first deploy takes under a minute.
 
-To put it behind a login later, use **Cloudflare Access** on the Pages project — it adds auth
-without touching any application code.
+To put it behind a login, turn on **Cloudflare Access** on the Pages project. That's a dashboard
+setting — no application code changes.
+
+### The artifact preview is not the app
+
+`npm run preview` flattens **one** lesson into a single self-contained HTML file. It exists so a
+lesson can be shared before the site is deployed anywhere — useful under time pressure, but it's
+a build output, not a source of truth.
+
+There is **nothing to migrate** from it. The repo is the source; the preview file and the
+Cloudflare site are two outputs of the same content. Adding a week means adding a JSON file, and
+both outputs regenerate. Once more than one lesson is live, the preview stops being adequate
+anyway — it holds a single lesson, with no navigation between subjects and no saved progress.
 
 ## How it's put together
 

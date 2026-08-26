@@ -11,6 +11,7 @@
 import { escapeHtml, md } from './ui.js';
 import { skeletonSVG, bindSkeleton, boneInfoHTML } from './skeleton.js';
 import { renderQuestion } from './question.js';
+import { mountFigure } from './figures.js';
 
 const points = list => `<ul class="points">${list.map(p => `<li>${md(escapeHtml(p))}</li>`).join('')}</ul>`;
 
@@ -44,6 +45,26 @@ const KIND = {
             <div class="skel-stage">${skeletonSVG()}</div>
             <div class="bone-info">${boneInfoHTML(null)}</div>
         </div>`,
+
+    /* A diagram card: figure first, words second. */
+    figure: c => `${eyebrow(c)}<h2>${escapeHtml(c.title)}</h2>
+        <div class="figure" id="figHost"></div>
+        ${c.text ? `<p class="small" style="margin-top:14px;">${md(escapeHtml(c.text))}</p>` : ''}
+        ${c.points ? points(c.points) : ''}`,
+
+    image: c => `${eyebrow(c)}<h2>${escapeHtml(c.title)}</h2>
+        <figure class="card-media"><img src="${escapeHtml(c.src)}" alt="${escapeHtml(c.alt)}" loading="lazy"></figure>
+        ${c.credit ? `<p class="media-credit">${c.credit}</p>` : ''}
+        ${c.text ? `<p class="small" style="margin-top:12px;">${md(escapeHtml(c.text))}</p>` : ''}`,
+
+    video: c => `${eyebrow(c)}<h2>${escapeHtml(c.title)}</h2>
+        ${c.text ? `<p class="small">${md(escapeHtml(c.text))}</p>` : ''}
+        <div class="video-frame">
+            <iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(c.youtubeId)}"
+                title="${escapeHtml(c.title)}" loading="lazy" allowfullscreen
+                allow="accelerometer; encrypted-media; picture-in-picture"></iframe>
+        </div>
+        ${c.credit ? `<p class="media-credit">${escapeHtml(c.credit)}</p>` : ''}`,
 
     story: c => `${eyebrow(c)}<h2>${escapeHtml(c.title)}</h2>
         ${c.text ? `<p>${md(escapeHtml(c.text))}</p>` : ''}
@@ -137,6 +158,8 @@ export function mountDeck(host, cards, { startAt = 0, onMove = () => {}, onFinis
             bindSkeleton(block, id => { info.innerHTML = boneInfoHTML(id); });
         }
 
+        if (c.kind === 'figure') mountFigure(card.querySelector('#figHost'), c.figure);
+
         card.focus?.();
     }
 
@@ -178,8 +201,9 @@ export function deckAsPage(cards) {
         }
         const card = `<section class="card ${c.kind}"${c.lens ? ` data-lens="${c.lens}"` : ''}>${(KIND[c.kind] || KIND.idea)(c)}</section>`;
         // The interactive diagram is meaningless in a flat print view.
-        return c.kind === 'diagram'
-            ? `<section class="card"><h2>${escapeHtml(c.title)}</h2><p class="small">Interactive skeleton diagram.</p></section>`
+        const placeholder = { diagram: 'Interactive skeleton diagram.', figure: 'Diagram.', video: 'Embedded video.' }[c.kind];
+        return placeholder
+            ? `<section class="card"><h2>${escapeHtml(c.title)}</h2><p class="small">${placeholder}</p></section>`
             : card;
     }).join('');
 }
