@@ -1,0 +1,182 @@
+{
+  "term": {
+    "label": "Term 1 · Grade 6",
+    "year": "2026–2027",
+    "weeks": 11,
+    "verse": "Proverbs 16:3 — Commit to the Lord whatever you do, and your plans will succeed."
+  },
+  "courses": [
+    {
+      "id": "science",
+      "title": "Science",
+      "tagline": "Body systems, mixtures and living things",
+      "icon": "🧬",
+      "accent": "#4ecdc4",
+      "status": "live",
+      "weeks": [
+        { "week": 1, "id": "sci-w1", "title": "Skeletal & Muscular Systems", "topics": ["Skeletal System: Bones", "Muscular System: Skeletal, Smooth & Cardiac Muscles"], "status": "live", "file": "science/w1-skeleton.json" },
+        { "week": 2, "id": "sci-w2", "title": "Digestive System", "topics": ["Mouth, Esophagus, Stomach, Small & Large Intestines, Rectum & Anus"], "status": "soon" },
+        { "week": 3, "id": "sci-w3", "title": "Integumentary System", "topics": ["Hair, Oil Gland, Sweat Gland, Epidermis, Dermis, Subcutaneous"], "status": "soon" },
+        { "week": 4, "id": "sci-w4", "title": "Respiratory & Urinary Systems", "topics": ["Pharynx, Larynx, Trachea, Lungs, Diaphragm", "Kidneys, Ureters, Bladder, Urethra"], "status": "soon" },
+        { "week": 5, "id": "sci-w5", "title": "Circulatory & Nervous Systems", "topics": ["Heart, Blood Vessels, Blood", "Brain, Spinal Cord"], "status": "soon" },
+        { "week": 6, "id": "sci-w6", "title": "Vertebrates & Invertebrates", "topics": ["Fishes, Amphibians, Reptiles, Birds, Mammals", "Sponges, Cnidarians, Worms, Molluscs, Echinoderms, Arthropods"], "status": "soon" },
+        { "week": 7, "id": "sci-w7", "title": "Reproduction", "topics": ["Asexual reproduction of animals and plants", "Sexual reproduction of animals and plants", "Modes of reproduction of animals"], "status": "soon" },
+        { "week": 8, "id": "sci-w8", "title": "Heterogeneous Mixtures", "topics": ["In nature, human-made, and medicinal"], "status": "soon" },
+        { "week": 9, "id": "sci-w9", "title": "Homogeneous Mixtures", "topics": ["Solute & Solvent", "Solubility & Concentration", "Miscible & Immiscible"], "status": "soon" },
+        { "week": 10, "id": "sci-w10", "title": "Homogeneous Mixtures (cont.)", "topics": ["Solutions review and application"], "status": "soon" },
+        { "week": 11, "id": "sci-w11", "title": "Exam Week", "topics": ["Term 1 examination"], "status": "exam" }
+      ]
+    },
+    {
+      "id": "math",
+      "title": "Math",
+      "tagline": "Tessellation, decimals, fractions and ratio",
+      "icon": "📐",
+      "accent": "#f5c542",
+      "status": "live",
+      "weeks": [
+        { "week": 1, "id": "math-w1", "title": "Tessellation of Shapes", "topics": ["Tessellation of Shapes"], "status": "soon" },
+        { "week": 2, "id": "math-w2", "title": "Transformations", "topics": ["Translation, reflection, and rotation with shapes"], "status": "soon" },
+        { "week": 3, "id": "math-w3", "title": "Decimals: Add & Subtract", "topics": ["The four operations with decimals: addition & subtraction"], "status": "soon" },
+        { "week": 4, "id": "math-w4", "title": "Decimals: Add & Subtract (cont.)", "topics": ["The four operations with decimals: addition & subtraction"], "status": "soon" },
+        { "week": 5, "id": "math-w5", "title": "Decimals: Multiply & Divide", "topics": ["The four operations with decimals: multiplication & division"], "status": "soon" },
+        { "week": 6, "id": "math-w6", "title": "Decimals: Multiply & Divide (cont.)", "topics": ["The four operations with decimals: multiplication & division"], "status": "soon" },
+        { "week": 7, "id": "math-w7", "title": "Fractions & Mixed Numbers", "topics": ["Four operations with combinations of fractions, whole numbers, and mixed numbers"], "status": "soon" },
+        { "week": 8, "id": "math-w8", "title": "Fractions & Mixed Numbers (cont.)", "topics": ["Four operations with combinations of fractions, whole numbers, and mixed numbers"], "status": "soon" },
+        { "week": 9, "id": "math-w9", "title": "Ratio and Proportion", "topics": ["Ratio and proportion"], "status": "soon" },
+        { "week": 10, "id": "math-w10", "title": "Ratio and Proportion (cont.)", "topics": ["Ratio and proportion"], "status": "soon" },
+        { "week": 11, "id": "math-w11", "title": "Exam Week", "topics": ["Term 1 examination"], "status": "exam" }
+      ],
+      "bonus": { "id": "math-surface-area", "title": "Surface Area Trainer", "summary": "The original quiz app — prisms, cylinders, pyramids", "external": "practice/index.html" }
+    },
+    {
+      "id": "english",
+      "title": "English",
+      "tagline": "Grammar plus Don Quixote, chapter by chapter",
+      "icon": "📖",
+      "accent": "#ff6b9d",
+      "status": "live",
+      "note": "Literature strand: <em>Stories of Don Quixote Written Anew for Children</em> by James Baldwin.",
+      "weeks": [
+        { "week": 1, "id": "eng-w1", "title": "Singular & Plural Nouns", "topics": ["Singular and Plural Forms of Nouns", "Don Quixote Ch. 1: Getting Ready for Adventures"], "status": "soon" },
+        { "week": 2, "id": "eng-w2", "title": "Quantifiers", "topics": ["Quantifiers for count nouns", "Quantifiers for noncount nouns", "Don Quixote Ch. 2: The Adventure at the Inn"], "status": "soon" },
+        { "week": 3, "id": "eng-w3", "title": "Possessive Nouns", "topics": ["Possessive form of nouns ('s and ')", "Don Quixote Ch. 3: The Adventure with the Farmer"], "status": "soon" },
+        { "week": 4, "id": "eng-w4", "title": "Possessive Determiners & Pronouns", "topics": ["Possessive determiners and possessive pronouns", "Don Quixote Ch. 4: The Adventure with the Merchants"], "status": "soon" },
+        { "week": 5, "id": "eng-w5", "title": "Pronoun-Antecedent Agreement", "topics": ["Pronoun antecedent agreement", "Don Quixote Ch. 5: The Library"], "status": "soon" },
+        { "week": 6, "id": "eng-w6", "title": "Compound Personal Pronouns", "topics": ["Compound personal pronouns", "Don Quixote Ch. 6: The Choosing of a Squire"], "status": "soon" },
+        { "week": 7, "id": "eng-w7", "title": "Reflexive Pronouns", "topics": ["Reflexive pronouns", "Don Quixote Ch. 7: The Adventure with the Windmills"], "status": "soon" },
+        { "week": 8, "id": "eng-w8", "title": "Simple Present Tense", "topics": ["Simple present tense", "Don Quixote Ch. 8: The Adventure with the Monks"], "status": "soon" },
+        { "week": 9, "id": "eng-w9", "title": "Subject-Verb Agreement", "topics": ["Subject-verb agreement", "Don Quixote Ch. 9: The Lost Helmet"], "status": "soon" },
+        { "week": 10, "id": "eng-w10", "title": "Subject-Verb Agreement (cont.)", "topics": ["Subject-verb agreement", "Don Quixote Ch. 10: The Adventure with the Sheep"], "status": "soon" },
+        { "week": 11, "id": "eng-w11", "title": "Exam Week", "topics": ["Term 1 examination"], "status": "exam" }
+      ]
+    },
+    {
+      "id": "social-studies",
+      "title": "Social Studies",
+      "tagline": "The Philippines, colonisation and nationhood",
+      "icon": "🌏",
+      "accent": "#a855f7",
+      "status": "live",
+      "weeks": [
+        { "week": 1, "id": "ss-w1", "title": "The Philippines as Part of the World", "topics": ["The Philippines as Part of the World"], "status": "soon" },
+        { "week": 2, "id": "ss-w2", "title": "The Emergence of Filipino Nationalism", "topics": ["The Emergence of Filipino Nationalism"], "status": "soon" },
+        { "week": 3, "id": "ss-w3", "title": "The Reform Movement", "topics": ["The Reform Movement"], "status": "soon" },
+        { "week": 4, "id": "ss-w4", "title": "The Reform Movement (cont.)", "topics": ["The Reform Movement"], "status": "soon" },
+        { "week": 5, "id": "ss-w5", "title": "Revolution & First Philippine Republic", "topics": ["Filipino Revolution and First Philippine Republic"], "status": "soon" },
+        { "week": 6, "id": "ss-w6", "title": "Revolution & First Republic (cont.)", "topics": ["Filipino Revolution and First Philippine Republic"], "status": "soon" },
+        { "week": 7, "id": "ss-w7", "title": "The Filipino-American War", "topics": ["Filipino-American War"], "status": "soon" },
+        { "week": 8, "id": "ss-w8", "title": "American Colonial Government", "topics": ["Establishment of Military and Civil Governments"], "status": "soon" },
+        { "week": 9, "id": "ss-w9", "title": "The Schurman Commission", "topics": ["American Colonial Government: The Schurman Commission"], "status": "soon" },
+        { "week": 10, "id": "ss-w10", "title": "Social Changes Under American Rule", "topics": ["Social Changes During the American Colonization"], "status": "soon" },
+        { "week": 11, "id": "ss-w11", "title": "Exam Week", "topics": ["Term 1 examination"], "status": "exam" }
+      ]
+    },
+    {
+      "id": "filipino",
+      "title": "Filipino",
+      "tagline": "Ortograpiya, salita at pagbasa ng Supremo",
+      "icon": "🇵🇭",
+      "accent": "#fb923c",
+      "status": "live",
+      "note": "Strand ng pagbasa: <em>Supremo</em>, kapitulo bawat linggo.",
+      "weeks": [
+        { "week": 1, "id": "fil-w1", "title": "Ang Ortograpiyang Filipino", "topics": ["Ang Ortograpiyang Filipino", "PAGBASA: Supremo (Kapitulo 1 at 2)"], "status": "soon" },
+        { "week": 2, "id": "fil-w2", "title": "Pagbuo ng Salita", "topics": ["Pagbuo ng Salita", "PAGBASA: Supremo (Kapitulo 3 at 4)"], "status": "soon" },
+        { "week": 3, "id": "fil-w3", "title": "Kayarian ng Salita", "topics": ["Kayarian ng Salita", "PAGBASA: Supremo (Kapitulo 5 at 6)"], "status": "soon" },
+        { "week": 4, "id": "fil-w4", "title": "Bahagi at Ayos ng Pangungusap", "topics": ["Bahagi at ayos ng pangungusap", "PAGBASA: Supremo (Kapitulo 7)"], "status": "soon" },
+        { "week": 5, "id": "fil-w5", "title": "Kayarian ng Pangungusap", "topics": ["Kayarian ng Pangungusap", "PAGBASA: Supremo (Kapitulo 8)"], "status": "soon" },
+        { "week": 6, "id": "fil-w6", "title": "Uri ng Pangungusap ayon sa Gamit", "topics": ["Uri ng Pangungusap ayon sa Gamit", "PAGBASA: Supremo (Kapitulo 9)"], "status": "soon" },
+        { "week": 7, "id": "fil-w7", "title": "Mga Pangungusap na Walang Paksa", "topics": ["Mga pangungusap na walang paksa", "PAGBASA: Supremo (Kapitulo 10)"], "status": "soon" },
+        { "week": 8, "id": "fil-w8", "title": "Uri ng Pangngalan", "topics": ["Uri ng Pangngalan", "PAGBASA: Supremo (Kapitulo 11)"], "status": "soon" },
+        { "week": 9, "id": "fil-w9", "title": "Kasarian ng Pangngalan", "topics": ["Kasarian ng Pangngalan", "PAGBASA: Supremo (Kapitulo 12)"], "status": "soon" },
+        { "week": 10, "id": "fil-w10", "title": "Kailanan ng Pangngalan", "topics": ["Kailanan ng Pangngalan", "PAGBASA: Supremo (Kapitulo 13)"], "status": "soon" },
+        { "week": 11, "id": "fil-w11", "title": "Exam Week", "topics": ["Term 1 examination"], "status": "exam" }
+      ]
+    },
+    {
+      "id": "mapeh",
+      "title": "MAPEH",
+      "tagline": "Music, art, PE and health",
+      "icon": "🎵",
+      "accent": "#22c55e",
+      "status": "live",
+      "weeks": [
+        { "week": 1, "id": "mapeh-w1", "title": "Branches of Music · Personal Space", "topics": ["Exploring the Branches of Music", "My Personal Space Awareness"], "status": "soon" },
+        { "week": 2, "id": "mapeh-w2", "title": "Music Genres Around the World", "topics": ["Music Genres Around the World"], "status": "soon" },
+        { "week": 3, "id": "mapeh-w3", "title": "Filipino Folk Music & OPM", "topics": ["Filipino Folk Music & OPM"], "status": "soon" },
+        { "week": 4, "id": "mapeh-w4", "title": "Elements of Art Around Us", "topics": ["Elements of Art Around Us"], "status": "soon" },
+        { "week": 5, "id": "mapeh-w5", "title": "Traditional & Modern Art Styles", "topics": ["Traditional & Modern Art Styles"], "status": "soon" },
+        { "week": 6, "id": "mapeh-w6", "title": "Colors, Symbols & Visual Design", "topics": ["Colors, Symbols & Visual Design"], "status": "soon" },
+        { "week": 7, "id": "mapeh-w7", "title": "Sports & Movement Categories", "topics": ["Sports & Movement Categories"], "status": "soon" },
+        { "week": 8, "id": "mapeh-w8", "title": "Healthy Habits & Wellness", "topics": ["Healthy Habits & Wellness"], "status": "soon" },
+        { "week": 9, "id": "mapeh-w9", "title": "Fitness & Teamwork", "topics": ["Introduction to Fitness & Teamwork"], "status": "soon" },
+        { "week": 10, "id": "mapeh-w10", "title": "Personal Hygiene & Self-Care", "topics": ["Personal Hygiene & Self-Care"], "status": "soon" },
+        { "week": 11, "id": "mapeh-w11", "title": "Performance Assessment & Showcase", "topics": ["Performance assessment and showcase"], "status": "exam" }
+      ]
+    },
+    {
+      "id": "tle",
+      "title": "TLE",
+      "tagline": "Organising space, materials and digital life",
+      "icon": "🧰",
+      "accent": "#4ecdc4",
+      "status": "live",
+      "weeks": [
+        { "week": 1, "id": "tle-w1", "title": "Firm Foundations", "topics": ["Firm Foundations"], "status": "soon" },
+        { "week": 2, "id": "tle-w2", "title": "Daily Routine & Scheduling", "topics": ["Daily Routine & Scheduling"], "status": "soon" },
+        { "week": 3, "id": "tle-w3", "title": "Decluttering My Space", "topics": ["Decluttering My Space"], "status": "soon" },
+        { "week": 4, "id": "tle-w4", "title": "Bed & Sleeping Area Organization", "topics": ["Bed & Sleeping Area Organization"], "status": "soon" },
+        { "week": 5, "id": "tle-w5", "title": "Clothes & Storage Organization", "topics": ["Clothes & Storage Organization"], "status": "soon" },
+        { "week": 6, "id": "tle-w6", "title": "Personal Hygiene & Self-Care", "topics": ["Personal Hygiene & Self-Care"], "status": "soon" },
+        { "week": 7, "id": "tle-w7", "title": "Organizing School Materials", "topics": ["Organizing School Materials"], "status": "soon" },
+        { "week": 8, "id": "tle-w8", "title": "Organizing Digital Files", "topics": ["Organizing Digital Files"], "status": "soon" },
+        { "week": 9, "id": "tle-w9", "title": "Home Responsibility & Independence", "topics": ["Home Responsibility & Independence"], "status": "soon" },
+        { "week": 10, "id": "tle-w10", "title": "Digital Portfolio & Integration Project", "topics": ["Digital Portfolio Making", "Integration Project – My Organized Life"], "status": "soon" },
+        { "week": 11, "id": "tle-w11", "title": "Performance Assessment & Showcase", "topics": ["Performance assessment and showcase"], "status": "exam" }
+      ]
+    },
+    {
+      "id": "devotion",
+      "title": "Devotion",
+      "tagline": "Character themes for the term",
+      "icon": "🕊️",
+      "accent": "#f5c542",
+      "status": "live",
+      "note": "Term verse: <em>Proverbs 16:3 — Commit to the Lord whatever you do, and your plans will succeed.</em>",
+      "weeks": [
+        { "week": 1, "id": "dev-w1", "title": "Firm Foundations", "topics": ["Firm Foundations"], "status": "soon" },
+        { "week": 2, "id": "dev-w2", "title": "Trust & Obedience", "topics": ["Trust & Obedience"], "status": "soon" },
+        { "week": 3, "id": "dev-w3", "title": "Faith That Moves Mountains", "topics": ["Faith That Moves Mountains"], "status": "soon" },
+        { "week": 4, "id": "dev-w4", "title": "Loving By God's Word", "topics": ["Loving By God's Word"], "status": "soon" },
+        { "week": 5, "id": "dev-w5", "title": "Prayer That Connects", "topics": ["Prayer That Connects"], "status": "soon" },
+        { "week": 6, "id": "dev-w6", "title": "Worship from the Heart", "topics": ["Worship from the Heart"], "status": "soon" },
+        { "week": 7, "id": "dev-w7", "title": "Persevering in Trials", "topics": ["Persevering in Trials"], "status": "soon" },
+        { "week": 8, "id": "dev-w8", "title": "Honesty in All Things", "topics": ["Honesty in All Things"], "status": "soon" },
+        { "week": 9, "id": "dev-w9", "title": "Humility & Service", "topics": ["Humility & Service"], "status": "soon" },
+        { "week": 10, "id": "dev-w10", "title": "Courage to Stand for Truth", "topics": ["Courage to Stand for Truth"], "status": "soon" },
+        { "week": 11, "id": "dev-w11", "title": "Showcase", "topics": ["Term showcase"], "status": "exam" }
+      ]
+    }
+  ]
+}

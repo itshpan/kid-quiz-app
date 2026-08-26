@@ -1,71 +1,101 @@
-# Kid Quiz App
+# Learning Lab
 
-A fun quiz game that helps kids learn all kinds of school subjects!
+An interactive lesson-and-quiz site built around **Grade 6, Term 1 (2026–2027)** — the actual
+weekly scope from school. Each lesson teaches the curriculum topic through the things the learner
+is already interested in (cars, boxing, gaming, space, story writing), then tests retention with a
+multi-format quiz.
 
-## What Is This App?
+Teachers get a printable answer key for every lesson.
 
-Kid Quiz App is an educational game where you answer questions, earn XP (experience points), level up, unlock new content, and collect achievements. Right now, the available subject is **Surface Area** (figuring out the surface area of 3D shapes like boxes, cylinders, and pyramids), but more subjects will be added over time!
+## Run it
 
-## How It Works
+It's a static site with **no build step and no dependencies**. It does need to be *served* over
+http rather than opened as a file, because lessons load as JSON.
 
-- **Pick a subject** and answer questions about it. (The Surface Area subject covers Total Surface Area and Lateral Surface Area.)
-- **Four question types** keep things interesting:
-  - Multiple choice (pick the right answer)
-  - Type-in (type the number yourself)
-  - Voice (say your answer out loud)
-  - Drag and drop (match formulas to the right spot)
-- **Five questions per quiz**, and each quiz tells you how you did at the end.
+```bash
+python3 -m http.server 8000
+# then open http://localhost:8000
+```
 
-## Leveling Up
+## Deploy (Cloudflare Pages)
 
-Each subject has its own set of levels with titles and unlockable content. For example, in the Surface Area subject you start as an **Apprentice Measurer** and work your way up to **Master Builder** across six levels, unlocking new shapes as you go.
+1. Cloudflare dashboard → **Workers & Pages** → **Create** → **Pages** → **Connect to Git**
+2. Pick this repo and the branch you want to publish
+3. Build settings:
+   - Framework preset: **None**
+   - Build command: *(leave empty)*
+   - Build output directory: **`/`**
+4. **Save and Deploy**
 
-## Difficulty
+There is nothing to compile, so the first deploy takes well under a minute. Every push to the
+connected branch redeploys automatically.
 
-You can pick **Easy**, **Medium**, or **Hard** -- or choose **Auto** and the game will adjust for you based on how well you're doing.
+To put it behind a login later, use **Cloudflare Access** on the Pages project — it adds auth
+without touching any application code.
 
-- Easy = 20 XP per correct answer
-- Medium = 35 XP per correct answer
-- Hard = 50 XP per correct answer
+## How it's put together
 
-## Achievements
+```
+index.html          Subject catalogue
+course.html         One subject, all 11 weeks of the term
+lesson.html         Lesson player + quiz
+teacher.html        Printable answer key and teaching notes
+practice/           The original surface-area quiz app, preserved as-is
 
-There are 10 achievements to earn, like getting a perfect score, practicing several days in a row, or reaching a high level. Check the Progress screen to see which ones you've unlocked!
+assets/css/app.css  Whole design system
+assets/js/
+  store.js          Profiles + progress (localStorage today, swappable later)
+  ui.js             Header, profile picker, JSON loading, text helpers
+  catalog.js        index.html controller
+  course.js         course.html controller
+  lesson.js         lesson.html controller + lesson block renderers
+  teacher.js        teacher.html controller
+  quiz.js           Question engine — five question types
+  skeleton.js       Interactive skeleton diagram + bone facts
 
-## Daily Streaks
+content/
+  courses.json      Every subject and all 11 weeks of Term 1
+  science/
+    w1-skeleton.json   Week 1 — Skeletal & Muscular Systems
+```
 
-The app keeps track of how many days in a row you practice. Try not to break your streak!
+**Content is data, not code.** Lessons are JSON files. Adding a week means writing one JSON file
+and flipping its `status` to `"live"` in `courses.json` — no JavaScript changes. That's deliberate:
+it means the renderer can be rewritten (React, or anything else) later without rewriting a single
+lesson.
 
-## Real-World Connections
+See [`docs/CONTENT-GUIDE.md`](docs/CONTENT-GUIDE.md) for the full schema.
 
-Levels feature real people and companies that use the subject in their work. In Surface Area, for example, you'll learn about Amazon (packaging), SpaceX (engineering), and ancient Egyptian architects (pyramids).
+## What's built
 
-## Coming Soon
+| Subject | Weeks mapped | Lessons live |
+|---|---|---|
+| Science | 11 | Week 1 |
+| Math | 11 | Surface-area trainer (bonus) |
+| English | 11 | — |
+| Social Studies | 11 | — |
+| Filipino | 11 | — |
+| MAPEH | 11 | — |
+| TLE | 11 | — |
+| Devotion | 11 | — |
 
-More subjects are on the way! The goal is to cover lots of different topics kids learn in school, all in the same app with the same fun leveling and achievement system.
+Every subject shows its real weekly scope; weeks that aren't written yet show as *Coming soon*.
 
-## Tech Stuff
+## Question types
 
-- The whole app is one HTML file -- no install needed.
-- Works on phones, tablets, and computers.
-- Your progress is saved in your browser so you can pick up where you left off.
-- Built with plain HTML, CSS, and JavaScript (no frameworks).
+| Type | What it does |
+|---|---|
+| `multiple` | Four options, one correct |
+| `truefalse` | Two options |
+| `type` | Free-text entry, matched against a list of accepted answers |
+| `order` | Put steps into the correct sequence (▲▼ buttons — works on touch) |
+| `hotspot` | Tap the right bone on the interactive diagram |
 
-## How to Run It
+## Progress
 
-Just open `index.html` in any web browser. That's it!
+Each learner has their own profile and progress, stored in the browser. Finishing a quiz awards
+XP (25 per correct answer) and advances a six-level track from *Curious Rookie* to *Lab Legend*.
+Daily streaks are tracked.
 
-## Create Your Own Quiz (API Key Info)
-
-The "Create Your Own Quiz" feature uses Google Gemini's free API to turn photos or text into quizzes. To use it, you'll need your own Gemini API key.
-
-1. Go to [aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey) and create a free key.
-2. In the app, tap the **+** button and paste your key when asked. You only have to do this once.
-
-**Your key stays private.** It is saved in your browser's local storage on your device only. It is never sent anywhere except directly to Google's servers to generate your quiz. It is not stored in the code, not uploaded to GitHub, and not shared with anyone. If you clone this repo, nobody else will ever see your key.
-
-## Changelog
-
-- **2026-03-31** -- Added "Create Your Own Quiz" feature. Parents can tap the + button, upload a photo of a lesson or type in the content, and AI (Google Gemini, free tier) will generate a custom 5-question quiz. Each player saves their own API key.
-- **2026-03-31** -- Added player profiles. Now when you open the app, you pick who's playing (or create a new player). Each player's progress is saved separately. You can switch between players anytime by tapping the name bar at the top of the home screen.
-- **2026-03-31** -- Rewrote the README to describe the app as a multi-subject quiz platform with Surface Area as the first subject.
+All of this goes through `assets/js/store.js`. Nothing else in the app touches `localStorage`,
+so moving to Cloudflare D1 or KV later means rewriting one file.
