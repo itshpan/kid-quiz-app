@@ -1,0 +1,10 @@
+name = "learning-lab"
+compatibility_date = "2026-01-01"
+pages_build_output_dir = "."
+
+# Filled in by `npm run db:create`. Until then the API returns a clear
+# "not configured yet" message and the app falls back to local-only storage.
+[[d1_databases]]
+binding = "DB"
+database_name = "learning-lab"
+database_id = "PLACEHOLDER"

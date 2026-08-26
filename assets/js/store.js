@@ -1,9 +1,13 @@
 /* ==========================================================================
    store.js — profiles + per-learner progress.
-   Everything persists to localStorage today. When we move to Cloudflare
-   (D1 / KV / Access), only the bodies of these functions change; no page
-   or lesson touches localStorage directly.
+
+   Local storage is the working copy, so the app is instant and works offline.
+   When a class code is linked, sync.js mirrors progress to Cloudflare D1 so it
+   follows the learner between devices. Nothing outside this file touches
+   storage of either kind.
    ========================================================================== */
+
+import { push, pull, isLinked } from './sync.js';
 
 const K = {
     profiles: 'learningLab_profiles',
@@ -64,6 +68,16 @@ export function createProfile(name, avatar) {
     return id;
 }
 
+/** Creates or updates a profile with a known id — used to adopt a class roster entry. */
+export function upsertProfile({ id, name, avatar }) {
+    const profiles = getProfiles();
+    const found = profiles.find(p => p.id === id);
+    if (found) { found.name = name; found.avatar = avatar; }
+    else profiles.push({ id, name, avatar });
+    write(K.profiles, profiles);
+    return id;
+}
+
 export function deleteProfile(id) {
     write(K.profiles, getProfiles().filter(p => p.id !== id));
     localStorage.removeItem(K.progress(id));
@@ -96,9 +110,21 @@ export function getProgress(id = getActiveId()) {
     return { ...DEFAULT_PROGRESS, ...read(K.progress(id), {}) };
 }
 
-export function saveProgress(progress, id = getActiveId()) {
+export function saveProgress(progress, id = getActiveId(), { immediate = false } = {}) {
     if (!id) return;
     write(K.progress(id), progress);
+    push(progress, { immediate });   // no-op unless a class code is linked
+}
+
+/**
+ * Pulls the server copy and merges it in. Call once on page load; it resolves
+ * to the merged progress, or to the local copy if there is no network.
+ */
+export async function syncProgress(id = getActiveId()) {
+    if (!id || !isLinked()) return getProgress(id);
+    const { merged, synced } = await pull(getProgress(id));
+    if (synced) write(K.progress(id), merged);
+    return merged;
 }
 
 export function isLessonComplete(lessonId, id = getActiveId()) {
@@ -106,8 +132,8 @@ export function isLessonComplete(lessonId, id = getActiveId()) {
 }
 
 /** Records a finished quiz and returns the updated progress. */
-export function recordQuiz(lessonId, correct, total, xpEarned) {
-    const p = getProgress();
+export function recordQuiz(lessonId, correct, total, xpEarned, id = getActiveId()) {
+    const p = getProgress(id);
     const pct = total ? Math.round((correct / total) * 100) : 0;
     const prev = p.quizScores[lessonId];
 
@@ -122,7 +148,7 @@ export function recordQuiz(lessonId, correct, total, xpEarned) {
     if (!p.lessonsCompleted.includes(lessonId)) p.lessonsCompleted.push(lessonId);
 
     touchStreak(p);
-    saveProgress(p);
+    saveProgress(p, id, { immediate: true });
     return p;
 }
 

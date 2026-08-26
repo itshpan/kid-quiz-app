@@ -7,6 +7,11 @@
     "check": "node tools/check-content.mjs",
     "preview": "node tools/build-preview.mjs content/science/w1-skeleton.json dist/preview.html",
     "deploy": "npx wrangler@latest pages deploy . --project-name=learning-lab --branch=main --commit-dirty=true",
-    "images": "node tools/fetch-images.mjs"
+    "images": "node tools/fetch-images.mjs",
+    "db:local": "wrangler d1 execute learning-lab --local --file=db/schema.sql",
+    "db:create": "wrangler d1 create learning-lab",
+    "db:init": "wrangler d1 execute learning-lab --remote --file=db/schema.sql",
+    "db:class": "node tools/new-class.mjs",
+    "dev": "wrangler pages dev . --local"
   }
 }

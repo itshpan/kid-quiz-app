@@ -19,3 +19,4 @@ Thumbs.db
 # Node (in case dependencies are added later)
 node_modules/
 dist/
+.wrangler/
