@@ -30,6 +30,13 @@ python3 -m http.server 8000
 # then open http://localhost:8000
 ```
 
+## Live
+
+**https://learning-lab-8qx.pages.dev**
+
+Public by default. To restrict it to specific email addresses, turn on **Cloudflare Access** on
+the `learning-lab` Pages project — it's a dashboard setting and needs no code change.
+
 ## Deploy (Cloudflare Pages)
 
 **Option A — one command.** From the repo root:

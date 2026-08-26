@@ -23,14 +23,45 @@ These are the rules. They are enforceable, so enforce them.
 | Words per point | **18 max** | A point is one thought, not a paragraph |
 | Line length | **58 characters** (set in CSS) | Long lines cause line-tracking errors |
 | Cards between checkpoints | **6 max** | Passive reading beyond this stops being reading |
+| Videos per lesson | **3 max** | It's a lesson, not a playlist |
+| High-stimulation videos | **1 max** | See below |
 
-There is a checker for the first four. Run it before committing content:
+Every limit in this table is enforced by the checker. Run it before committing content:
 
 ```bash
 node tools/check-content.mjs
 ```
 
 It exits non-zero on any violation, so it can go in CI later.
+
+---
+
+## The stimulation budget
+
+Fast-cut, dramatic, shock-framed video is genuinely engaging. That's the problem.
+
+High-arousal content doesn't just hold attention — it **raises the floor**. Everything calmer that
+follows reads as boring by comparison, and the comedown lands hardest on the reader who was
+already struggling to stay in the text. One of those videos in a lesson is a gift. Three is a
+lesson he can no longer sit through.
+
+So every `video` card declares a `register`:
+
+- **`"high"`** — fast cuts, dramatic music, shock or gross-out framing. Zack D. Films and that
+  whole genre. **One per lesson, maximum.**
+- **`"calm"`** — plain narration, steady pacing, real footage or clean animation. Institute of
+  Human Anatomy, and most straightforward explainers.
+
+Two more rules, both enforced by the checker:
+
+1. **Never put new material straight after a high-stimulation video.** The next card must be a
+   checkpoint, fact, break, recap or terms card. Attention is at its worst in the moments after
+   a spike, and that is the wrong time to introduce a concept.
+2. **Pair it with the calm version of the same idea.** In Week 1 the loud "how strong are your
+   bones" short lands immediately before the quiet power-to-weight fact card. Same claim, two
+   registers — the calm one is where it actually gets encoded.
+
+He likes the loud ones. That's a reason to use them deliberately, not a reason to use them a lot.
 
 ---
 

@@ -15,8 +15,15 @@ const LIMITS = {
     cardWords: 40,
     pointWords: 18,
     pointsPerCard: 4,
-    cardsBetweenCheckpoints: 6
+    cardsBetweenCheckpoints: 6,
+    videosPerLesson: 3,
+    highStimVideosPerLesson: 1
 };
+
+/* Cards that are fine to land on straight after a high-stimulation video.
+   Anything demanding — a new idea, a new lens — is not, because attention is
+   at its worst in the moments after a dopamine spike. */
+const OK_AFTER_HIGH_STIM = new Set(['checkpoint', 'break', 'fact', 'recap', 'terms']);
 
 const words = s => s.replace(/\*\*/g, '').trim().split(/\s+/).filter(Boolean).length;
 
@@ -93,6 +100,30 @@ for (const file of files) {
             }
         }
     });
+
+    // Video pacing. High-stimulation video (fast cuts, shock framing) is
+    // genuinely engaging, but it raises the floor: everything calmer
+    // afterwards reads as boring. So it's budgeted, not banned.
+    const videos = lesson.cards.map((c, i) => ({ c, i })).filter(x => x.c.kind === 'video');
+    const highStim = videos.filter(x => x.c.register === 'high');
+
+    if (videos.length > LIMITS.videosPerLesson) {
+        warn(file, 'videos', `${videos.length} video cards (max ${LIMITS.videosPerLesson}) — this is a lesson, not a playlist`);
+    }
+    if (highStim.length > LIMITS.highStimVideosPerLesson) {
+        warn(file, 'videos', `${highStim.length} high-stimulation videos (max ${LIMITS.highStimVideosPerLesson})`);
+    }
+    for (const { c, i } of videos) {
+        if (!c.register) {
+            warn(file, `card ${i + 1} "${c.title}"`, 'video card has no "register" — set "high" or "calm"');
+            continue;
+        }
+        const next = lesson.cards[i + 1];
+        if (c.register === 'high' && next && !OK_AFTER_HIGH_STIM.has(next.kind)) {
+            warn(file, `card ${i + 1} "${c.title}"`,
+                `high-stimulation video is followed by a "${next.kind}" card — put a checkpoint, fact or break after it, not new material`);
+        }
+    }
 
     // Quiz explanations are read right after a wrong answer — the moment
     // attention is most fragile — so they're held to the same limit.

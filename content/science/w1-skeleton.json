@@ -194,6 +194,16 @@
       "text": "Over a quarter of your bones are in your hands. 27 per hand, 54 out of 206. Evolution really committed to grabbing things."
     },
     {
+      "kind": "video",
+      "register": "high",
+      "eyebrow": "30 seconds",
+      "icon": "💥",
+      "title": "How strong are your bones, really?",
+      "youtubeId": "ttpaCc22iWc",
+      "text": "Zack D. Films on what bone can actually take. Loud and fast — then we get back to it.",
+      "credit": "Zack D. Films · youtube.com"
+    },
+    {
       "kind": "fact",
       "eyebrow": "Did you know",
       "text": "Forza rates cars on power-to-weight. By that stat bone beats mild steel and concrete. Your femur out-specs the car it's sitting in."
@@ -353,6 +363,15 @@
       ]
     },
     {
+      "kind": "video",
+      "register": "calm",
+      "eyebrow": "Under a minute",
+      "title": "The whole skeletal system, plainly",
+      "youtubeId": "3HV55QRPRPE",
+      "text": "A calm run through bones, ligaments, tendons and cartilage. Good to replay before the exam.",
+      "credit": "Whats Up Dude · youtube.com"
+    },
+    {
       "kind": "recap",
       "eyebrow": "Part 1 done",
       "title": "Bones — the four that matter",
@@ -441,7 +460,8 @@
       "title": "See real muscle tissue",
       "youtubeId": "Wbo8x_Gnb4A",
       "text": "The Institute of Human Anatomy, on the three muscle types. Under a minute.",
-      "credit": "Institute of Human Anatomy · youtube.com"
+      "credit": "Institute of Human Anatomy · youtube.com",
+      "register": "calm"
     },
     {
       "kind": "checkpoint",

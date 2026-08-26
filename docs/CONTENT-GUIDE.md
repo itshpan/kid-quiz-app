@@ -81,6 +81,30 @@ The core idea of the app: the same curriculum, retold through something he alrea
 *feel* the shift into "the car bit" without reading a word. Add a lens by adding a colour token
 in `app.css` (search `--lens-`).
 
+### `video` — an embedded clip
+```json
+{ "kind": "video", "register": "calm", "eyebrow": "60 seconds",
+  "title": "See real muscle tissue", "youtubeId": "Wbo8x_Gnb4A",
+  "text": "…", "credit": "Institute of Human Anatomy · youtube.com" }
+```
+`register` is **required**: `"high"` for fast-cut, dramatic, shock-framed clips; `"calm"` for
+everything else. Max 3 videos per lesson and **max one `high`**, and a `high` video may not be
+followed by an `idea` or `lens` card. The checker enforces all of it — see the stimulation budget
+in [`WRITING-FOR-ADHD.md`](WRITING-FOR-ADHD.md).
+
+### `figure` — a built-in SVG diagram
+```json
+{ "kind": "figure", "figure": "boneDensity", "title": "…", "text": "…" }
+```
+`figure` names an entry in `FIGURES` in `assets/js/figures.js`. Two of the five are interactive.
+
+### `image` — a picture file
+```json
+{ "kind": "image", "title": "…", "src": "assets/img/x.svg",
+  "alt": "what the picture shows", "credit": "…", "text": "…" }
+```
+`alt` is required. See [`IMAGE-PROMPTS.md`](IMAGE-PROMPTS.md) for generating these.
+
 ### `story` — a real person
 ```json
 { "kind": "story", "icon": "🥊", "eyebrow": "He started smaller than you",

@@ -6,6 +6,6 @@
     "start": "python3 -m http.server 8000",
     "check": "node tools/check-content.mjs",
     "preview": "node tools/build-preview.mjs content/science/w1-skeleton.json dist/preview.html",
-    "deploy": "npx wrangler@latest pages deploy . --project-name=learning-lab --commit-dirty=true"
+    "deploy": "npx wrangler@latest pages deploy . --project-name=learning-lab --branch=main --commit-dirty=true"
   }
 }
