@@ -134,6 +134,30 @@
       "text": "Orange stays rigid. Blue is meant to deform. Engineers and evolution reached the same answer."
     },
     {
+      "kind": "video",
+      "register": "clip",
+      "eyebrow": "5 seconds · Forza",
+      "icon": "🏎️",
+      "title": "Watch a suspension absorb a landing",
+      "youtubeId": "cuxwxqAmdNQ",
+      "text": "Forza Horizon 1 next to Horizon 5. Deforming to absorb energy — the same job your ribs do.",
+      "credit": "GameScape · youtube.com"
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which part of you is built to deform on impact, like a suspension or a crumple zone?",
+        "options": [
+          "Your ribs",
+          "Your skull",
+          "Your femur"
+        ],
+        "answerIndex": 0,
+        "explain": "Ribs. They flex and can break, and that absorbs energy. The skull is the opposite — rigid, because brains don't heal."
+      }
+    },
+    {
       "kind": "lens",
       "lens": "boxing",
       "icon": "🥊",
@@ -167,6 +191,27 @@
       ]
     },
     {
+      "kind": "figure",
+      "figure": "strikingHand",
+      "eyebrow": "Try it",
+      "title": "Switch the landing and watch the bone change",
+      "text": "Same punch, two wrist angles. Tap the button to see which metacarpal takes the force."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "You land a punch with your wrist rotated outward. Which bone takes the hit?",
+        "options": [
+          "The 5th metacarpal, on the pinky side",
+          "The 2nd metacarpal, under the index knuckle",
+          "The wrist bones"
+        ],
+        "answerIndex": 0,
+        "explain": "The 5th. It's the thinnest metacarpal and the worst braced — which is why this is a technique fix, not a strength one."
+      }
+    },
+    {
       "kind": "lens",
       "lens": "boxing",
       "icon": "🥊",
@@ -178,6 +223,27 @@
         "**That rotation causes the knockout** — not the pain.",
         "**Chin tuck removes the lever.** That's the whole reason for it."
       ]
+    },
+    {
+      "kind": "figure",
+      "figure": "brainRotation",
+      "eyebrow": "Try it",
+      "title": "Land a shot and watch the brain lag",
+      "text": "Switch between chin up and chin tucked, then land the shot. Watch how far the brain keeps turning after the skull stops."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why does tucking your chin protect you?",
+        "options": [
+          "It shortens the lever, so your head rotates less",
+          "It makes your jaw bone harder",
+          "It stops the punch landing at all"
+        ],
+        "answerIndex": 0,
+        "explain": "A tucked chin gives the punch less leverage. Less rotation means the brain moves less inside the skull."
+      }
     },
     {
       "kind": "checkpoint",
@@ -433,6 +499,15 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Under a microscope",
+      "title": "This is what skeletal muscle looks like",
+      "src": "assets/img/muscle-skeletal.jpg",
+      "alt": "Skeletal muscle under a microscope, showing long parallel fibres with regular stripes across them",
+      "credit": "Nephron · CC BY-SA 3.0 · <a href=\"https://commons.wikimedia.org/wiki/File:Skeletal_striated_muscle.jpg\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons</a>",
+      "text": "Long parallel fibres. The stripes are why it is called striated."
+    },
+    {
       "kind": "idea",
       "eyebrow": "Type 2 of 3",
       "title": "Smooth muscle — the automatic one",
@@ -444,6 +519,29 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Under a microscope",
+      "title": "This is smooth muscle",
+      "src": "assets/img/muscle-smooth.jpg",
+      "alt": "Smooth muscle under a microscope, showing spindle-shaped cells with no stripes",
+      "credit": "Juan Carlos Fonseca Mata · CC BY-SA 4.0 · <a href=\"https://commons.wikimedia.org/wiki/File:Smooth_muscle_-_histology.jpg\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons</a>",
+      "text": "Spindle-shaped cells, no stripes at all. Compare it to the last one."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "You look down a microscope and see spindle-shaped cells with no stripes. Which muscle is it?",
+        "options": [
+          "Smooth",
+          "Skeletal",
+          "Cardiac"
+        ],
+        "answerIndex": 0,
+        "explain": "Smooth. The other two are both striped. No stripes means it's the involuntary one in your organs."
+      }
+    },
+    {
       "kind": "idea",
       "eyebrow": "Type 3 of 3",
       "title": "Cardiac muscle — the one that never stops",
@@ -453,6 +551,15 @@
         "**It beats without your brain.** No signal required.",
         "**100,000 beats a day.** No day off, ever."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Under a microscope",
+      "title": "This is cardiac muscle",
+      "src": "assets/img/muscle-cardiac.jpg",
+      "alt": "Cardiac muscle under a microscope, showing branching striped fibres joined by dark intercalated discs",
+      "credit": "Berkshire Community College  Bioscience Image Library · CC0 · <a href=\"https://commons.wikimedia.org/wiki/File:Muscle_Tissue_Intercalated_Discs_in_Cardiac_Muscle_(27061943807).jpg\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons</a>",
+      "text": "Striped like skeletal, but branching. The dark bands are intercalated discs."
     },
     {
       "kind": "video",

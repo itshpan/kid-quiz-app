@@ -1,0 +1,568 @@
+{
+  "id": "math-w1",
+  "courseId": "math",
+  "courseTitle": "Math",
+  "week": 1,
+  "title": "Tessellation of Shapes",
+  "subtitle": "Why some shapes tile forever and some leave a gap.",
+  "estMinutes": 22,
+  "objectives": [
+    "Define a tessellation as a covering with no gaps and no overlaps",
+    "Identify the three regular polygons that tessellate on their own",
+    "Calculate the interior angle of a regular polygon and test it against 360°",
+    "Explain why some regular polygons cannot tessellate",
+    "Create a tessellating tile using the cut-and-slide method"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🎮",
+      "eyebrow": "Part 1 · What counts",
+      "title": "Every game map you've played is one of these",
+      "text": "Open a strategy game and the world is squares or hexagons. That's not decoration. It's the only way a map can go on forever without breaking."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The definition",
+      "title": "Two rules, no exceptions",
+      "text": "A tessellation is a pattern of shapes covering a flat surface. It has to obey exactly two rules.",
+      "points": [
+        "**No gaps.** Not one bare patch anywhere.",
+        "**No overlaps.** Nothing sits on top of anything else.",
+        "**It could go on forever** if you had the room."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "regularTess",
+      "eyebrow": "The whole answer",
+      "title": "Only three regular shapes work alone",
+      "text": "Triangle, square, hexagon. That's the complete list, and it has been for as long as flat surfaces have existed."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which of these breaks the rules of a tessellation?",
+        "options": [
+          "A pattern with a small gap between some tiles",
+          "A pattern of hexagons",
+          "A pattern of squares in a grid"
+        ],
+        "answerIndex": 0,
+        "explain": "Any gap disqualifies it. So does any overlap. The shapes have to fit exactly."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "This is why tilesets exist",
+      "text": "A game world isn't drawn once. It's a small set of tiles repeated across a grid.",
+      "points": [
+        "**Squares are the default.** Easy to store, easy to index.",
+        "**Hex grids** show up in strategy games — six neighbours, not eight.",
+        "**Minecraft is the 3D version.** Cubes tessellate space, not just a plane."
+      ]
+    },
+    {
+      "kind": "open",
+      "icon": "📐",
+      "eyebrow": "Part 2 · Why",
+      "title": "The answer is always at one corner",
+      "text": "Pick any point where tiles meet. The angles around it must add to exactly 360° — a full turn. More and they overlap. Less and there's a gap."
+    },
+    {
+      "kind": "figure",
+      "figure": "angleFit",
+      "eyebrow": "Try it",
+      "title": "Fan the shapes around one point",
+      "text": "Tap through the shapes. Watch the gap close on three of them, and refuse to on the others."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The formula",
+      "title": "Finding the corner angle",
+      "text": "For a regular polygon with n sides, each interior angle is (n − 2) × 180 ÷ n.",
+      "points": [
+        "**Triangle:** (3−2) × 180 ÷ 3 = **60°**",
+        "**Square:** (4−2) × 180 ÷ 4 = **90°**",
+        "**Hexagon:** (6−2) × 180 ÷ 6 = **120°**",
+        "**Then ask:** does it divide into 360 exactly?"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "What is the interior angle of a regular hexagon, in degrees? Digits only.",
+        "accept": [
+          "120",
+          "120°",
+          "120 degrees"
+        ],
+        "explain": "(6 − 2) × 180 ÷ 6 = 4 × 180 ÷ 6 = 120°. And 3 × 120 = 360, so hexagons tile."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The failures",
+      "title": "Where the pentagon goes wrong",
+      "text": "A regular pentagon's corner is 108°. Three of them make 324°.",
+      "points": [
+        "**That's 36° short** of a full turn.",
+        "**Four would be 432°** — now they overlap.",
+        "**There's no whole number** that lands on 360. So it can't."
+      ]
+    },
+    {
+      "kind": "fact",
+      "eyebrow": "Did you know",
+      "text": "A regular octagon fails too — 135° each, and two make only 270°. That's why a tiled floor of stop signs always needs little squares in the gaps."
+    },
+    {
+      "kind": "video",
+      "register": "calm",
+      "eyebrow": "2 minutes",
+      "title": "The angle test, worked through",
+      "youtubeId": "PiOa_vWKJA4",
+      "text": "The same calculation you just did, done out loud. Good to replay before the exam.",
+      "credit": "Minity Maths · youtube.com"
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "A shape's interior angle is 100°. Can it tessellate on its own?",
+        "options": [
+          "No — 360 ÷ 100 isn't a whole number",
+          "Yes — any angle under 120° works",
+          "Yes — three of them make 300°"
+        ],
+        "answerIndex": 0,
+        "explain": "360 ÷ 100 = 3.6. You'd fit three with 60° left over. The division has to come out exact."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "You've got the rule and the reason. Part 3 is where it stops being maths class and starts being art. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "⬡",
+      "eyebrow": "Part 3 · Why hexagons win",
+      "title": "Nature picked one of the three",
+      "text": "Of the shapes that tile, hexagons keep showing up on their own — in hives, in rock formations, in engineering. There's a reason."
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "Race cars are full of hexagons",
+      "text": "Look inside a Formula 1 floor or a crash structure and you'll find aluminium honeycomb.",
+      "points": [
+        "**Hexagons tile with no wasted material.**",
+        "**Huge stiffness for almost no weight.**",
+        "**Carbon fibre weave** is a tessellation too — squares, on the diagonal."
+      ]
+    },
+    {
+      "kind": "fact",
+      "eyebrow": "Did you know",
+      "text": "Bees use hexagons because that shape encloses the most space for the least wall. Less wax, more honey. Mathematicians only proved they were right in 1999."
+    },
+    {
+      "kind": "image",
+      "eyebrow": "The real thing",
+      "title": "A honeycomb, built to the rule",
+      "src": "assets/img/honeycomb.png",
+      "alt": "A bee honeycomb, showing hexagonal cells packed together with no gaps",
+      "credit": "Pearson Scott Foresman · Public domain · <a href=\"https://commons.wikimedia.org/wiki/File:Honeycomb_(PSF).png\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons</a>",
+      "text": "Hexagons, no gaps, no wasted wall. Bees got here before mathematicians did."
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Six neighbours beats eight",
+      "text": "Strategy games use hex grids because every neighbour is the same distance away.",
+      "points": [
+        "**On a square grid**, diagonal moves are longer than straight ones.",
+        "**On hexes**, all six are equal. Movement rules get simpler.",
+        "**Cyberpunk's UI** leans on hexagons for exactly the look of this."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why do bees build hexagonal cells rather than square ones?",
+        "options": [
+          "Hexagons hold the most space for the least wall material",
+          "Hexagons are easier for bees to see",
+          "Squares leave gaps between cells"
+        ],
+        "answerIndex": 0,
+        "explain": "Squares tessellate perfectly well. Hexagons just do it with less wax for the same storage."
+      }
+    },
+    {
+      "kind": "open",
+      "icon": "🎨",
+      "eyebrow": "Part 4 · Making one",
+      "title": "Now the part where you cheat",
+      "text": "So far only three shapes work. But there's a trick. It turns any square into a shape that still tiles — and it looks nothing like a square."
+    },
+    {
+      "kind": "story",
+      "icon": "🦎",
+      "eyebrow": "He did this for 40 years",
+      "title": "M.C. Escher",
+      "text": "A Dutch artist who saw tiled walls in a Spanish palace. He spent the next forty years turning tessellations into lizards, birds and fish.",
+      "points": [
+        "**He wasn't a mathematician.** He worked it out by drawing.",
+        "**Mathematicians later proved** he'd found rules they hadn't written down.",
+        "**Every one of his tiles** started as a triangle, square or hexagon."
+      ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "What started it",
+      "title": "The tiles Escher saw in Spain",
+      "src": "assets/img/alhambra.jpg",
+      "alt": "Interlocking tiled patterns on a wall of the Alhambra palace in Spain",
+      "credit": "gruban · CC BY-SA 2.0 · <a href=\"https://commons.wikimedia.org/wiki/File:Tassellatura_alhambra.jpg\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons</a>",
+      "text": "The Alhambra palace, covered in interlocking tile. He came home and spent forty years on it."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The trick",
+      "title": "Cut and slide",
+      "text": "Take a square. Cut a piece off one edge. Slide that exact piece to the opposite edge and tape it on.",
+      "points": [
+        "**The area never changes.** You moved it, you didn't lose it.",
+        "**The edges still match** their neighbours perfectly.",
+        "**So it still tiles** — with no gaps, forever."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "escherSlide",
+      "eyebrow": "Try it",
+      "title": "Drag the slider and break the square",
+      "text": "The tiles stop being squares. They never stop fitting. That's the whole method."
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Where it ends up",
+      "title": "One tile, repeated",
+      "src": "assets/img/tessellation-art.png",
+      "alt": "A geometric tessellation built from repeating shapes in three directions",
+      "credit": "Basile Morin · CC BY-SA 4.0 · <a href=\"https://commons.wikimedia.org/wiki/File:Tessellation_Serie_-_3_directions.png\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons</a>",
+      "text": "Every shape here started as a simple polygon that somebody cut and slid."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "If you cut a piece off one edge of a square and slide it to the opposite edge, the new shape still tessellates.",
+        "answer": true,
+        "explain": "True. The edges still match up exactly, so the shapes still interlock. This is how Escher built every one of his tilings."
+      }
+    },
+    {
+      "kind": "video",
+      "register": "calm",
+      "eyebrow": "90 seconds",
+      "title": "Escher's method, demonstrated",
+      "youtubeId": "G-oVgNX-fcg",
+      "text": "The Museum of Science shows the cut-and-slide done by hand on paper.",
+      "credit": "Museum of Science · youtube.com"
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "You've used this without knowing",
+      "text": "Interlocking foam mats at the gym are cut-and-slide tiles. So is every jigsaw puzzle.",
+      "points": [
+        "**The tab and the notch** are the same piece, moved.",
+        "**That's why they only fit one way** round.",
+        "**Game tilesets** use the same trick to hide the grid."
+      ]
+    },
+    {
+      "kind": "open",
+      "icon": "🤯",
+      "eyebrow": "Part 5 · The surprises",
+      "title": "Three things that shouldn't be true",
+      "text": "Regular shapes are the fussy ones. Once you drop the word 'regular', tessellation gets strange."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Surprise 1",
+      "title": "Every single triangle works",
+      "text": "Not just equilateral ones. Draw the most lopsided triangle you can and it will still tile the plane.",
+      "points": [
+        "**Two copies make a parallelogram.**",
+        "**Parallelograms tile easily** in rows.",
+        "**So every triangle does too.** No exceptions."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Surprise 2",
+      "title": "Every quadrilateral works too",
+      "text": "Any four-sided shape at all. Even an ugly dented one. It tiles.",
+      "points": [
+        "**Its four angles always total 360°.**",
+        "**Four copies meet at a point** and use up exactly one full turn.",
+        "**Meanwhile the neat regular pentagon** still can't."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "A regular pentagon cannot tessellate, but any four-sided shape you draw can.",
+        "answer": true,
+        "explain": "True, and it's the best joke in geometry. A quadrilateral's angles always sum to 360°, which is exactly what a corner needs."
+      }
+    },
+    {
+      "kind": "fact",
+      "eyebrow": "Surprise 3",
+      "text": "Irregular pentagons CAN tile — but only 15 kinds exist. The 15th was found in 2015, and the proof that there are no more came in 2017."
+    },
+    {
+      "kind": "figure",
+      "figure": "semiRegular",
+      "eyebrow": "Teamwork",
+      "title": "Shapes that fail alone can work together",
+      "text": "An octagon leaves 90° spare at each corner. A square is exactly 90°. Put them together and the gap disappears."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "order",
+        "text": "Put the steps of the angle test in order.",
+        "items": [
+          "Count the sides",
+          "Work out the interior angle",
+          "Divide 360 by that angle",
+          "Check whether the answer is a whole number"
+        ],
+        "explain": "Sides, then angle, then divide, then check. If it isn't whole, the shape can't tile on its own."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Tessellation",
+          "def": "A covering of a flat surface with no gaps and no overlaps."
+        },
+        {
+          "term": "Regular polygon",
+          "def": "A shape with all sides equal and all angles equal."
+        },
+        {
+          "term": "Interior angle",
+          "def": "The angle inside a shape at one corner."
+        },
+        {
+          "term": "Vertex",
+          "def": "A corner. In a tessellation, a point where tiles meet."
+        },
+        {
+          "term": "Regular tessellation",
+          "def": "A tiling made from one regular polygon. Only three exist."
+        },
+        {
+          "term": "Semi-regular tessellation",
+          "def": "A tiling made from two or more regular polygons. There are eight."
+        },
+        {
+          "term": "Plane",
+          "def": "A flat surface that goes on forever in every direction."
+        },
+        {
+          "term": "Translation",
+          "def": "Sliding a shape without turning or flipping it."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Ready for the quiz",
+      "title": "The four that matter",
+      "points": [
+        "**No gaps, no overlaps.** That's the whole definition.",
+        "**Only three regular shapes** tile alone: triangle, square, hexagon.",
+        "**Angles at a corner must total 360°.** Interior angle = (n − 2) × 180 ÷ n.",
+        "**Cut and slide** turns any square into a tile that still fits."
+      ]
+    },
+    {
+      "kind": "open",
+      "icon": "➡️",
+      "eyebrow": "Next week",
+      "title": "Sliding, flipping, turning",
+      "text": "Week 2 is translation, reflection and rotation. You've already used translation — that's the slide in cut-and-slide."
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "What is a tessellation?",
+      "options": [
+        "A pattern of shapes with no gaps and no overlaps",
+        "Any repeating pattern of colours",
+        "A shape with all sides equal",
+        "A pattern made only from squares"
+      ],
+      "answerIndex": 0,
+      "explain": "No gaps and no overlaps. The shapes don't have to be identical, and they don't have to be regular.",
+      "objective": "Define a tessellation as a covering with no gaps and no overlaps"
+    },
+    {
+      "type": "multiple",
+      "text": "Which three regular polygons tessellate on their own?",
+      "options": [
+        "Triangle, square, hexagon",
+        "Square, pentagon, hexagon",
+        "Triangle, square, octagon",
+        "Triangle, pentagon, hexagon"
+      ],
+      "answerIndex": 0,
+      "explain": "Only those three. Their interior angles — 60°, 90° and 120° — each divide into 360 exactly.",
+      "objective": "Identify the three regular polygons that tessellate on their own"
+    },
+    {
+      "type": "type",
+      "text": "What must the angles around any vertex in a tessellation add up to? Digits only.",
+      "accept": [
+        "360",
+        "360°",
+        "360 degrees"
+      ],
+      "explain": "360° — one full turn. More than that and tiles overlap. Less and you get a gap.",
+      "objective": "Calculate the interior angle of a regular polygon and test it against 360°"
+    },
+    {
+      "type": "type",
+      "text": "What is the interior angle of a regular octagon, in degrees? Digits only.",
+      "accept": [
+        "135",
+        "135°",
+        "135 degrees"
+      ],
+      "explain": "(8 − 2) × 180 ÷ 8 = 1080 ÷ 8 = 135°. And 360 ÷ 135 = 2.67, so octagons can't tile alone.",
+      "objective": "Calculate the interior angle of a regular polygon and test it against 360°"
+    },
+    {
+      "type": "multiple",
+      "text": "A regular pentagon has 108° corners. Why can't it tessellate?",
+      "options": [
+        "Three make 324° and four make 432° — neither is 360°",
+        "Its sides are different lengths",
+        "Pentagons are not flat shapes",
+        "It has an odd number of sides"
+      ],
+      "answerIndex": 0,
+      "explain": "You can't fit a whole number of them around a point. Three leave a 36° gap; four would overlap.",
+      "objective": "Explain why some regular polygons cannot tessellate"
+    },
+    {
+      "type": "truefalse",
+      "text": "Any triangle, no matter how lopsided, will tessellate.",
+      "answer": true,
+      "explain": "True. Two copies of any triangle form a parallelogram, and parallelograms tile in rows.",
+      "objective": "Explain why some regular polygons cannot tessellate"
+    },
+    {
+      "type": "truefalse",
+      "text": "Only regular shapes can tessellate.",
+      "answer": false,
+      "explain": "False. Every triangle and every quadrilateral tessellates, regular or not. Meanwhile the perfectly regular pentagon cannot.",
+      "objective": "Define a tessellation as a covering with no gaps and no overlaps"
+    },
+    {
+      "type": "order",
+      "text": "Put the angle test in order, from first step to last.",
+      "items": [
+        "Count the sides",
+        "Work out the interior angle",
+        "Divide 360 by that angle",
+        "Check whether the answer is a whole number"
+      ],
+      "explain": "Sides, angle, divide, check. If the division isn't exact, the shape cannot tile on its own.",
+      "objective": "Calculate the interior angle of a regular polygon and test it against 360°"
+    },
+    {
+      "type": "multiple",
+      "text": "You cut a piece off the left edge of a square and slide it onto the right edge. What happens?",
+      "options": [
+        "The new shape still tessellates",
+        "The shape gets bigger",
+        "The shape stops tessellating",
+        "It only works with triangles"
+      ],
+      "answerIndex": 0,
+      "explain": "It still tiles. The edges still match their neighbours exactly — this is Escher's whole method.",
+      "objective": "Create a tessellating tile using the cut-and-slide method"
+    },
+    {
+      "type": "multiple",
+      "text": "Why do octagons and squares tessellate together when octagons alone cannot?",
+      "options": [
+        "The octagon leaves 90° spare, and a square is exactly 90°",
+        "Squares are smaller than octagons",
+        "Two octagons make 360° on their own",
+        "It only works if the squares are tilted"
+      ],
+      "answerIndex": 0,
+      "explain": "Two octagons give 270°, leaving 90°. A square fills it exactly, so the corner reaches 360°.",
+      "objective": "Identify the three regular polygons that tessellate on their own"
+    },
+    {
+      "type": "truefalse",
+      "text": "Bees use hexagons because hexagons hold the most space for the least wall material.",
+      "answer": true,
+      "explain": "True. Squares tile just as well, but hexagons need less wax for the same storage.",
+      "objective": "Identify the three regular polygons that tessellate on their own"
+    },
+    {
+      "type": "type",
+      "text": "How many regular polygons tessellate on their own? Digits only.",
+      "accept": [
+        "3",
+        "three"
+      ],
+      "explain": "Three: the equilateral triangle, the square and the regular hexagon. That's the complete list.",
+      "objective": "Identify the three regular polygons that tessellate on their own"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 1 Maths covers tessellation of shapes, matching the Term 1 weekly scope. Delivered as a card deck with seven checkpoints and a 12-item quiz. The lesson is built around the vertex-angle argument — that angles at a corner must total 360° — rather than around pattern recognition, so it prepares directly for Week 2 (translation, reflection and rotation). Two interactive diagrams carry the load: one fans polygons around a point so the gap is visible, and one performs the cut-and-slide live.",
+    "discussion": [
+      "Ask him to prove a decagon can't tessellate without being told the answer. If he reaches for (n − 2) × 180 ÷ n and then divides into 360, he has the method rather than a memorised list.",
+      "Ask why every quadrilateral tessellates but the regular pentagon doesn't. The answer — a quadrilateral's angles always total 360° — is the whole lesson in one sentence.",
+      "Ask him to find three tessellations in the room. Floor tiles, brickwork, fabric weave and window grilles all qualify.",
+      "Ask what changes if the surface is curved rather than flat. It's beyond the syllabus, but it's the question that leads to why a football needs pentagons."
+    ],
+    "extension": "Have him make one cut-and-slide tile on squared paper, then repeat it eight times to show it tiles. Escher's entire method in fifteen minutes, and it produces something he can keep.",
+    "misconceptions": [
+      "'Tessellations have to use regular shapes.' Every triangle and every quadrilateral tessellates, however irregular. Regularity is neither necessary nor sufficient.",
+      "'Pentagons never tessellate.' Regular pentagons don't. Fifteen types of irregular convex pentagon do — the last was found in 2015.",
+      "'Any shape tiles if you rotate it enough.' The vertex angles must total exactly 360°. No amount of rearranging fixes a shape whose angle doesn't divide in.",
+      "'A shape with a gap is still a tessellation if the gap is small.' It isn't. The definition allows no gaps at all."
+    ]
+  }
+}

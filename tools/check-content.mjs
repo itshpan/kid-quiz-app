@@ -16,7 +16,8 @@ const LIMITS = {
     pointWords: 18,
     pointsPerCard: 4,
     cardsBetweenCheckpoints: 6,
-    videosPerLesson: 3,
+    cardsPerVideo: 15,            // a 60-card lesson may carry 4 videos, a 30-card one 3
+    minVideosPerLesson: 3,
     highStimVideosPerLesson: 1
 };
 
@@ -107,15 +108,19 @@ for (const file of files) {
     const videos = lesson.cards.map((c, i) => ({ c, i })).filter(x => x.c.kind === 'video');
     const highStim = videos.filter(x => x.c.register === 'high');
 
-    if (videos.length > LIMITS.videosPerLesson) {
-        warn(file, 'videos', `${videos.length} video cards (max ${LIMITS.videosPerLesson}) — this is a lesson, not a playlist`);
+    // "clip" is a few seconds of footage used as a moving picture. It doesn't
+    // interrupt the lesson the way an explainer does, so it isn't budgeted.
+    const segments = videos.filter(x => x.c.register !== 'clip');
+    const cap = Math.max(LIMITS.minVideosPerLesson, Math.floor(lesson.cards.length / LIMITS.cardsPerVideo));
+    if (segments.length > cap) {
+        warn(file, 'videos', `${segments.length} video segments in ${lesson.cards.length} cards (max ${cap}) — this is a lesson, not a playlist`);
     }
     if (highStim.length > LIMITS.highStimVideosPerLesson) {
         warn(file, 'videos', `${highStim.length} high-stimulation videos (max ${LIMITS.highStimVideosPerLesson})`);
     }
     for (const { c, i } of videos) {
-        if (!c.register) {
-            warn(file, `card ${i + 1} "${c.title}"`, 'video card has no "register" — set "high" or "calm"');
+        if (!['high', 'calm', 'clip'].includes(c.register)) {
+            warn(file, `card ${i + 1} "${c.title}"`, 'video card needs "register": "high", "calm" or "clip"');
             continue;
         }
         const next = lesson.cards[i + 1];

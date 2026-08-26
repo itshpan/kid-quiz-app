@@ -1,0 +1,44 @@
+{
+  "muscle-skeletal": {
+    "file": "muscle-skeletal.jpg",
+    "alt": "Skeletal muscle under a microscope, showing long parallel fibres with regular stripes across them",
+    "artist": "Nephron",
+    "licence": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Skeletal_striated_muscle.jpg"
+  },
+  "muscle-smooth": {
+    "file": "muscle-smooth.jpg",
+    "alt": "Smooth muscle under a microscope, showing spindle-shaped cells with no stripes",
+    "artist": "Juan Carlos Fonseca Mata",
+    "licence": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Smooth_muscle_-_histology.jpg"
+  },
+  "muscle-cardiac": {
+    "file": "muscle-cardiac.jpg",
+    "alt": "Cardiac muscle under a microscope, showing branching striped fibres joined by dark intercalated discs",
+    "artist": "Berkshire Community College  Bioscience Image Library",
+    "licence": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Muscle_Tissue_Intercalated_Discs_in_Cardiac_Muscle_(27061943807).jpg"
+  },
+  "honeycomb": {
+    "file": "honeycomb.png",
+    "alt": "A bee honeycomb, showing hexagonal cells packed together with no gaps",
+    "artist": "Pearson Scott Foresman",
+    "licence": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Honeycomb_(PSF).png"
+  },
+  "alhambra": {
+    "file": "alhambra.jpg",
+    "alt": "Interlocking tiled patterns on a wall of the Alhambra palace in Spain",
+    "artist": "gruban",
+    "licence": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tassellatura_alhambra.jpg"
+  },
+  "tessellation-art": {
+    "file": "tessellation-art.png",
+    "alt": "A geometric tessellation built from repeating shapes in three directions",
+    "artist": "Basile Morin",
+    "licence": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tessellation_Serie_-_3_directions.png"
+  }
+}

@@ -810,3 +810,53 @@ strong { font-weight: 700; color: var(--ink); }
     margin-top: 14px;
 }
 .video-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+/* ---------- Maths + hand figures ---------- */
+.fig-tile {
+    fill: var(--accent);
+    fill-opacity: .16;
+    stroke: var(--accent);
+    stroke-width: 1.5;
+    stroke-linejoin: round;
+}
+.fig-tile-alt { fill: var(--notyet); fill-opacity: .2; stroke: var(--notyet); }
+.fig-gap    { fill: var(--notyet); fill-opacity: .3; stroke: var(--notyet); stroke-width: 1.5; stroke-dasharray: 3 3; }
+.fig-vertex { fill: var(--ink); }
+.fig-big-no { fill: var(--notyet); }
+.fig-note-dim { fill: var(--ink-faint); font-size: 10px; }
+
+.fig-hbone {
+    stroke: var(--ink-faint);
+    stroke-linecap: round;
+    opacity: .55;
+    transition: stroke .2s, opacity .2s;
+}
+.fig-hbone.load { stroke: var(--accent); opacity: 1; }
+.fig-hbone.risk { stroke: var(--notyet); opacity: 1; }
+.fig-carpal { fill: var(--surface-2); stroke: var(--ink-faint); stroke-width: 1.5; }
+.fig-force  { stroke: var(--ink); fill: var(--ink); stroke-width: 2; opacity: .75; }
+
+/* A row of shape buttons under an interactive figure. */
+.fig-switch { display: flex; gap: 5px; flex-wrap: wrap; margin-top: 14px; }
+.fig-switch button {
+    flex: 1 1 auto;
+    min-height: 42px;
+    padding: 8px 10px;
+    border: 1.5px solid var(--line-strong);
+    background: var(--surface);
+    color: var(--ink);
+    font-family: var(--font-ui);
+    font-weight: 700;
+    font-size: calc(13px * var(--scale));
+    border-radius: 9px;
+    cursor: pointer;
+}
+.fig-switch button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+
+/* ---------- Skull / brain figure ---------- */
+.fig-skullwall { fill: var(--surface-2); stroke: var(--ink-faint); stroke-width: 2.5; stroke-linejoin: round; }
+.fig-brain      { fill: var(--accent); fill-opacity: .3; stroke: var(--accent); stroke-width: 2; }
+.fig-brain-fold { fill: none; stroke: var(--accent); stroke-width: 1.6; opacity: .8; }
+.fig-jaw        { fill: none; stroke: var(--ink-faint); stroke-width: 6; stroke-linecap: round; }
+#brHead, #brBrain, #brFist { transition: transform .26s cubic-bezier(.3,.8,.4,1); }
+@media (prefers-reduced-motion: reduce) { #brHead, #brBrain, #brFist { transition: none; } }

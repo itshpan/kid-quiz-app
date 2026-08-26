@@ -112,6 +112,7 @@ See [`docs/CONTENT-GUIDE.md`](docs/CONTENT-GUIDE.md) for the full schema.
 
 ```bash
 node tools/check-content.mjs     # enforce the ADHD writing limits; exits non-zero on failure
+node tools/fetch-images.mjs      # download lesson photos from Wikimedia into assets/img/
 node tools/build-preview.mjs content/science/w1-skeleton.json dist/preview.html
 ```
 
@@ -122,8 +123,8 @@ shared before the site is deployed anywhere.
 
 | Subject | Weeks mapped | Lessons live |
 |---|---|---|
-| Science | 11 | Week 1 — 55 cards, 11 checkpoints, 19 quiz items |
-| Math | 11 | Surface-area trainer (bonus) |
+| Science | 11 | Week 1 — 73 cards, 15 checkpoints, 19 quiz items |
+| Math | 11 | Week 1 — 39 cards, 8 checkpoints, 12 quiz items · plus the surface-area trainer |
 | English | 11 | — |
 | Social Studies | 11 | — |
 | Filipino | 11 | — |
