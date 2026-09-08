@@ -1,0 +1,372 @@
+{
+  "id": "tle-w1",
+  "courseId": "tle",
+  "courseTitle": "TLE",
+  "week": 1,
+  "title": "Firm Foundations",
+  "subtitle": "Five habits that decide whether a room stays tidy or goes back in a week.",
+  "estMinutes": 18,
+  "objectives": [
+    "Explain why an organised space reduces mental effort",
+    "State the five foundation habits of home organisation",
+    "Explain what giving something a home means",
+    "Apply the two-minute rule",
+    "Explain the one in, one out rule and why storage is finite"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🧱",
+      "eyebrow": "Part 1 · Why it matters",
+      "title": "Tidying is easy. Staying tidy is the skill",
+      "text": "Anyone can clear a room in an afternoon. Whether it is still clear on Friday depends on habits, not effort."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The real reason",
+      "title": "A tidy room is a room that asks less of you",
+      "text": "Every item out of place is a tiny unfinished decision. They are quiet on their own and loud in a pile.",
+      "points": [
+        "**You scan a messy room** without meaning to.",
+        "**Every scan costs a little attention.**",
+        "**Finding things takes longer**, so you start later.",
+        "**This is not about looking neat.** It is about load."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🔧",
+      "eyebrow": "Car mode",
+      "title": "A pit crew works on a shadow board",
+      "text": "Every tool has its outline painted on the wall. A missing tool is visible instantly, from across the garage.",
+      "points": [
+        "**One place per tool**, and it is drawn on.",
+        "**You do not search.** You look at the gap.",
+        "**Under two seconds** to find anything.",
+        "**That is a system**, not tidiness."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is the main reason an organised room helps you?",
+        "options": [
+          "It reduces the number of small decisions you have to make",
+          "It makes the room look expensive",
+          "It means you never have to clean again",
+          "It makes the room bigger"
+        ],
+        "answerIndex": 0,
+        "explain": "Every item out of place is an unfinished decision. Fewer of them means less to carry around."
+      }
+    },
+    {
+      "kind": "figure",
+      "figure": "homeRules",
+      "eyebrow": "The five",
+      "title": "Tap each habit",
+      "text": "Five habits, not five chores. Quiz questions come from all of them."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What does giving something a home mean?",
+        "options": [
+          "It has one specific place it always lives",
+          "It is stored out of sight",
+          "It belongs to one person only",
+          "It is kept in your bedroom"
+        ],
+        "answerIndex": 0,
+        "explain": "One place, always the same. If you have to think about where it goes, it will not go there."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "The five habits are set out. Part 2 is how to actually make them stick. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "⏱️",
+      "eyebrow": "Part 2 · Making it stick",
+      "title": "The habits are easy. Starting is the hard part",
+      "text": "Every one of these takes under a minute. What stops people is that a minute feels like it can always wait."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Habit 1",
+      "title": "Put it back, do not put it down",
+      "text": "Putting something down is not finishing. It is a decision you have handed to yourself later.",
+      "points": [
+        "**Handle a thing once.** Finish the journey.",
+        "**Down means you decide again tomorrow.**",
+        "**Back means it is done.**",
+        "**Most mess is a pile of postponed journeys.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Habit 2",
+      "title": "The two-minute rule",
+      "text": "If a job takes less than two minutes, do it now rather than remembering it.",
+      "points": [
+        "**Remembering it costs more** than doing it.",
+        "**Hang the towel. Put the plate in.**",
+        "**Two minutes now** or twenty on Saturday.",
+        "**Set a timer once** and see how little it is."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Pack the bag the night before, always",
+      "text": "Wraps, gloves, bottle, towel. Done at night it takes three minutes. Done in the morning it costs a session.",
+      "points": [
+        "**Morning decisions are the worst decisions.**",
+        "**A packed bag by the door** removes them all.",
+        "**Same bag, same order, every time.**",
+        "**Nobody misses training** because of the bag then."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is the two-minute rule?",
+        "options": [
+          "If a job takes under two minutes, do it now",
+          "Tidy for two minutes every day",
+          "Never spend more than two minutes tidying",
+          "Take a two-minute break between chores"
+        ],
+        "answerIndex": 0,
+        "explain": "Remembering a two-minute job costs more than doing it. So do it and be finished with it."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Your room is an inventory with no sort button",
+      "text": "In a game you sort chests by type without thinking about it. A real room needs the same decision, made once.",
+      "points": [
+        "**Like with like.** Tools together, cables together.",
+        "**You search by purpose**, so store by purpose.",
+        "**Full chest? Something has to go.**",
+        "**One in, one out** is the same rule."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Habit 3",
+      "title": "One in, one out",
+      "text": "Space is finite and you already know it. This is the only habit that takes that seriously.",
+      "points": [
+        "**New shirt in, old shirt out.**",
+        "**It keeps the total flat** instead of creeping.",
+        "**Without it, storage always loses.**",
+        "**Decide at the door**, not in six months."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Putting something down and putting it away are the same thing.",
+        "answer": false,
+        "explain": "False. Putting it down leaves the decision for later. Putting it back finishes it."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "a home for everything", "def": "Every object has one place it always lives." },
+        { "term": "put it back", "def": "Finish the journey now instead of leaving the decision for later." },
+        { "term": "two-minute rule", "def": "If a job takes under two minutes, do it immediately." },
+        { "term": "like with like", "def": "Store things by what they are used for, not by size or colour." },
+        { "term": "one in, one out", "def": "When something new arrives, something leaves. Keeps the total flat." },
+        { "term": "shadow board", "def": "A board with each tool's outline drawn on it, so a gap is visible at once." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**One home per object**, decided once.",
+        "**Put it back, never down.**",
+        "**Under two minutes? Do it now.**",
+        "**One in, one out.** Storage is finite."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Why does an organised room reduce mental effort?",
+      "options": [
+        "Every item out of place is a small unfinished decision",
+        "Clean rooms are quieter",
+        "Tidy rooms have more space in them",
+        "It means you never need to clean again"
+      ],
+      "answerIndex": 0,
+      "explain": "They are quiet individually and loud in a pile. Fewer of them means less to carry.",
+      "objective": "Explain why an organised space reduces mental effort"
+    },
+    {
+      "type": "multiple",
+      "text": "What does it mean to give an object a home?",
+      "options": [
+        "It has one place it always lives and returns to",
+        "It is hidden away in a cupboard",
+        "It is labelled with your name",
+        "It stays in the room you use it in"
+      ],
+      "answerIndex": 0,
+      "explain": "One place, always the same. If you have to think about it, it will not happen.",
+      "objective": "Explain what giving something a home means"
+    },
+    {
+      "type": "multiple",
+      "text": "What is a shadow board?",
+      "options": [
+        "A board with each tool's outline drawn on it",
+        "A dark board used for writing",
+        "A cover that keeps dust off tools",
+        "A list of jobs still to be done"
+      ],
+      "answerIndex": 0,
+      "explain": "You do not search for the tool. You look at the gap where it should be.",
+      "objective": "Explain what giving something a home means"
+    },
+    {
+      "type": "truefalse",
+      "text": "Putting something down counts as putting it away.",
+      "answer": false,
+      "explain": "False. Down postpones the decision. Back finishes it. That difference is most of the mess.",
+      "objective": "State the five foundation habits of home organisation"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the two-minute rule?",
+      "options": [
+        "If a job takes under two minutes, do it now",
+        "Spend two minutes tidying each morning",
+        "Rest for two minutes between jobs",
+        "Never let a job run over two minutes"
+      ],
+      "answerIndex": 0,
+      "explain": "Remembering a two-minute job costs more attention than just doing it.",
+      "objective": "Apply the two-minute rule"
+    },
+    {
+      "type": "multiple",
+      "text": "Which of these should you do under the two-minute rule?",
+      "options": [
+        "Hang up the towel as you leave the bathroom",
+        "Reorganise the whole wardrobe",
+        "Repaint the bedroom wall",
+        "Sort every photo on your phone"
+      ],
+      "answerIndex": 0,
+      "explain": "It is for the small jobs. The big ones get a scheduled block instead.",
+      "objective": "Apply the two-minute rule"
+    },
+    {
+      "type": "multiple",
+      "text": "What does like with like mean?",
+      "options": [
+        "Store things by what they are used for",
+        "Store things by their colour",
+        "Store things by their size",
+        "Store the things you like most together"
+      ],
+      "answerIndex": 0,
+      "explain": "You search by purpose, so store by purpose. Cables with cables, tools with tools.",
+      "objective": "State the five foundation habits of home organisation"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the one in, one out rule?",
+      "options": [
+        "When something new arrives, something else leaves",
+        "Only one person tidies at a time",
+        "Only take one item out of a drawer at a time",
+        "Buy one new thing each month"
+      ],
+      "answerIndex": 0,
+      "explain": "It keeps the total flat instead of creeping upward. Storage is finite and this respects that.",
+      "objective": "Explain the one in, one out rule and why storage is finite"
+    },
+    {
+      "type": "truefalse",
+      "text": "Storage space is effectively unlimited if you organise well enough.",
+      "answer": false,
+      "explain": "False. It is finite. One in, one out is the only habit that takes that seriously.",
+      "objective": "Explain the one in, one out rule and why storage is finite"
+    },
+    {
+      "type": "order",
+      "text": "You pick up a jacket off the floor. Put these in the right order.",
+      "items": [
+        "Decide where its home is",
+        "Take it there",
+        "Hang it up",
+        "Leave the room"
+      ],
+      "explain": "Decide, travel, finish. Skipping the third step is exactly how a chair becomes a clothes pile.",
+      "objective": "State the five foundation habits of home organisation"
+    },
+    {
+      "type": "multiple",
+      "text": "Why pack a training bag the night before?",
+      "options": [
+        "It removes decisions from the worst time to make them",
+        "It makes the bag lighter",
+        "It is required by most gyms",
+        "It stops the kit smelling"
+      ],
+      "answerIndex": 0,
+      "explain": "Three minutes at night, or a missed session in the morning. Same bag, same order, every time.",
+      "objective": "Apply the two-minute rule"
+    },
+    {
+      "type": "multiple",
+      "text": "Which is a habit rather than a chore?",
+      "options": [
+        "Always putting your keys in the same bowl",
+        "Cleaning the whole room on Saturday",
+        "Vacuuming the floor",
+        "Washing the windows"
+      ],
+      "answerIndex": 0,
+      "explain": "A habit is small, repeated and automatic. Chores are what you get when the habits are missing.",
+      "objective": "State the five foundation habits of home organisation"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 1 TLE covers the foundations of home organisation, matching the Term 1 weekly scope. The framing is deliberate and it matters more than the content: an organised room is presented as a way of reducing the number of small decisions a person has to carry, not as a way of looking neat. That is the version of this topic that is useful to a learner who finds sustained attention expensive, and it is also the honest one. The shadow board is the anchor image because it makes the abstract idea of 'a home for everything' physical and checkable. Every habit here is under two minutes to perform; the lesson is explicit that starting, not effort, is the obstacle.",
+    "discussion": [
+      "Ask him to name three things in his room that have no home. Naming them is most of the work.",
+      "Try the two-minute rule for one evening and count how many jobs it catches. The number is usually surprising.",
+      "Ask what a shadow board version of his desk would look like. It turns tidying into design.",
+      "Ask what would have to leave for something new to come in. One in, one out only bites when it is specific."
+    ],
+    "extension": "Have him choose one surface — a desk, a shelf, one drawer — and give every object on it a home, written down. One surface done properly beats a whole room done once.",
+    "misconceptions": [
+      "'Tidying and staying tidy are the same skill.' Tidying is a one-off effort. Staying tidy is a set of habits.",
+      "'Putting something down is putting it away.' Down leaves the decision for later. Back finishes it.",
+      "'Organising is about appearance.' It is about reducing the number of decisions a room asks of you.",
+      "'If I organise well enough I will not have to get rid of anything.' Storage is finite. One in, one out is the rule that admits it."
+    ]
+  }
+}

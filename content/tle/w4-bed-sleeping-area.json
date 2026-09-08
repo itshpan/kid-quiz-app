@@ -1,0 +1,380 @@
+{
+  "id": "tle-w4",
+  "courseId": "tle",
+  "courseTitle": "TLE",
+  "week": 4,
+  "title": "Bed & Sleeping Area Organization",
+  "subtitle": "Two minutes in the morning, and a room that lets you sleep.",
+  "estMinutes": 18,
+  "objectives": [
+    "Make a bed correctly, in order",
+    "Name the layers of bedding and what each one does",
+    "State how often bedding should be changed and why",
+    "Explain what makes a sleeping area good for sleeping",
+    "Explain how light, temperature and screens affect sleep"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🛏️",
+      "eyebrow": "Part 1 · The bed",
+      "title": "The cheapest win in the whole room",
+      "text": "Making a bed takes about two minutes and changes how the entire room reads. Nothing else in this subject pays back that fast."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The layers",
+      "title": "A bed is four layers, in one order",
+      "text": "Once you know the order it stops being a chore and becomes a sequence you can do half asleep.",
+      "points": [
+        "**Fitted sheet** — the one with elastic corners.",
+        "**Flat sheet** — patterned side facing down.",
+        "**Blanket or duvet** — on top of the flat sheet.",
+        "**Pillows** — last, on top of everything."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "bedLayers",
+      "eyebrow": "In order",
+      "title": "Four steps, tapped through",
+      "text": "Two quiz questions come straight from this."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "order",
+        "text": "Put the layers of a made bed in order, from the mattress up.",
+        "items": [
+          "Fitted sheet",
+          "Flat sheet",
+          "Blanket",
+          "Pillows"
+        ],
+        "explain": "Fitted, flat, blanket, pillows. The flat sheet's edge folds back over the blanket at the top."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The technique",
+      "title": "Far corners first",
+      "text": "The one piece of technique in the whole job. Doing the two far corners first means you never have to walk round twice.",
+      "points": [
+        "**Two far corners**, then the two near ones.",
+        "**Pull the sheet tight** before the last corner.",
+        "**Fold the flat sheet back** over the blanket edge.",
+        "**That fold** is why the blanket never touches your face."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "It is a warm-up for the day",
+      "text": "Coaches start every session the same way for a reason. A short, identical opening tells your brain what is about to happen.",
+      "points": [
+        "**Same action, same order, every morning.**",
+        "**It is one finished thing** before anything else starts.",
+        "**Cost: two minutes.** Return: the whole room.",
+        "**Small completed jobs** make the next one easier."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Hygiene",
+      "title": "How often bedding gets changed",
+      "text": "You spend around a third of your life in it, and you sweat and shed skin the whole time.",
+      "points": [
+        "**Sheets and pillowcases:** about once a week.",
+        "**More often** in hot weather or after illness.",
+        "**Pillowcases matter most** for skin on your face.",
+        "**Air the bed** for a few minutes before making it."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "How often should sheets and pillowcases be changed?",
+        "options": [
+          "About once a week",
+          "About once a month",
+          "Only when they look dirty",
+          "About twice a year"
+        ],
+        "answerIndex": 0,
+        "explain": "Weekly. You spend a third of your life in them, sweating and shedding skin the whole time."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "The bed is made. Part 2 is the rest of the room, and whether it lets you sleep. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "🌙",
+      "eyebrow": "Part 2 · The sleeping area",
+      "title": "A bedroom has one job it cannot fail at",
+      "text": "It can be a place to work, game and store things. But if it stops being a place you sleep well, everything else gets harder."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The three levers",
+      "title": "Dark, cool and quiet",
+      "text": "These three do more for sleep than anything you can buy, and all three are free to change.",
+      "points": [
+        "**Dark** — light tells your body it is daytime.",
+        "**Cool** — a slightly cool room helps you fall asleep.",
+        "**Quiet** — or at least consistent, unchanging sound.",
+        "**Your body reads the room** before you decide anything."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "⚡",
+      "eyebrow": "Your body right now",
+      "title": "Screens delay the signal to sleep",
+      "text": "Bright light late in the evening pushes back the hormone that starts sleep. The room decides part of that for you.",
+      "points": [
+        "**Melatonin** is the signal that makes you sleepy.",
+        "**Bright light suppresses it**, so sleep starts later.",
+        "**Charge the phone across the room**, not on the bed.",
+        "**Around nine hours** is normal at your age."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why do screens late at night make it harder to fall asleep?",
+        "options": [
+          "Bright light suppresses melatonin, the signal to sleep",
+          "Screens make the room warmer",
+          "Screens make noise",
+          "They use up your energy"
+        ],
+        "answerIndex": 0,
+        "explain": "Melatonin starts the process. Bright light tells your body it is still daytime and delays it."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The layout",
+      "title": "Keep the bed for sleeping",
+      "text": "If everything happens on the bed, your brain stops treating it as the place sleep happens.",
+      "points": [
+        "**Homework at a desk**, not on the bed.",
+        "**Clear surfaces near the bed.** Nothing to scan.",
+        "**Tomorrow's kit out** before you get in.",
+        "**One job per place** makes both jobs easier."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "A save point is a real place",
+      "text": "Games separate where you fight from where you rest, and you never confuse the two. A bedroom works the same way.",
+      "points": [
+        "**One space, one purpose.**",
+        "**Mixing them makes both worse.**",
+        "**Desk for work. Bed for sleep.**",
+        "**Even a metre of separation** does the job."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "A slightly cool room helps you fall asleep more easily than a warm one.",
+        "answer": true,
+        "explain": "True. Dark, cool and quiet are the three free changes that do the most for sleep."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "fitted sheet", "def": "The sheet with elastic corners that goes directly on the mattress." },
+        { "term": "flat sheet", "def": "The loose sheet above the fitted one, folded back over the blanket at the top." },
+        { "term": "airing", "def": "Leaving bedding open for a few minutes before making the bed." },
+        { "term": "melatonin", "def": "The hormone that signals sleep. Bright light late at night suppresses it." },
+        { "term": "sleep hygiene", "def": "The habits and conditions that make good sleep more likely." },
+        { "term": "one job per place", "def": "Keeping the bed for sleeping so your brain still associates the two." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Fitted, flat, blanket, pillows.** Far corners first.",
+        "**Change sheets about once a week.**",
+        "**Dark, cool and quiet** are the three free levers.",
+        "**Keep the bed for sleeping.** One job per place."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "order",
+      "text": "Put the bedding layers in order, from the mattress upward.",
+      "items": [
+        "Fitted sheet",
+        "Flat sheet",
+        "Blanket",
+        "Pillows"
+      ],
+      "explain": "Fitted first, flat sheet next with the pattern face down, then the blanket, then the pillows.",
+      "objective": "Make a bed correctly, in order"
+    },
+    {
+      "type": "multiple",
+      "text": "Which sheet goes directly onto the mattress?",
+      "options": [
+        "The fitted sheet",
+        "The flat sheet",
+        "The blanket",
+        "The duvet cover"
+      ],
+      "answerIndex": 0,
+      "explain": "The fitted sheet, the one with elastic corners. Do the two far corners first.",
+      "objective": "Name the layers of bedding and what each one does"
+    },
+    {
+      "type": "multiple",
+      "text": "Why is the flat sheet folded back over the blanket at the top?",
+      "options": [
+        "So the blanket does not touch your face",
+        "To make the bed look longer",
+        "To hold the pillows in place",
+        "To keep the fitted sheet tight"
+      ],
+      "answerIndex": 0,
+      "explain": "That fold is the whole reason the flat sheet exists, and it is why the pattern ends up showing.",
+      "objective": "Name the layers of bedding and what each one does"
+    },
+    {
+      "type": "multiple",
+      "text": "Which corners of a fitted sheet should you do first?",
+      "options": [
+        "The two furthest from you",
+        "The two nearest to you",
+        "The two on the left",
+        "It makes no difference"
+      ],
+      "answerIndex": 0,
+      "explain": "Far corners first means you never have to walk round the bed twice.",
+      "objective": "Make a bed correctly, in order"
+    },
+    {
+      "type": "multiple",
+      "text": "How often should bed sheets be changed?",
+      "options": [
+        "About once a week",
+        "About once a month",
+        "Every day",
+        "Only when visibly dirty"
+      ],
+      "answerIndex": 0,
+      "explain": "Weekly, and more often in hot weather or after illness.",
+      "objective": "State how often bedding should be changed and why"
+    },
+    {
+      "type": "multiple",
+      "text": "Why does bedding need changing regularly?",
+      "options": [
+        "You sweat and shed skin in it for about a third of your life",
+        "Sheets shrink if left too long",
+        "It makes the bed easier to make",
+        "It stops the mattress moving"
+      ],
+      "answerIndex": 0,
+      "explain": "A third of your life, every night. Pillowcases matter most because your face is on them.",
+      "objective": "State how often bedding should be changed and why"
+    },
+    {
+      "type": "multiple",
+      "text": "What are the three conditions that most help sleep?",
+      "options": [
+        "Dark, cool and quiet",
+        "Bright, warm and busy",
+        "Dark, warm and noisy",
+        "Bright, cool and quiet"
+      ],
+      "answerIndex": 0,
+      "explain": "All three are free to change, and together they beat anything you could buy.",
+      "objective": "Explain what makes a sleeping area good for sleeping"
+    },
+    {
+      "type": "type",
+      "text": "What is the hormone that signals your body to sleep?",
+      "accept": [
+        "melatonin",
+        "the melatonin"
+      ],
+      "explain": "Melatonin. Bright light late in the evening suppresses it and pushes sleep later.",
+      "objective": "Explain how light, temperature and screens affect sleep"
+    },
+    {
+      "type": "truefalse",
+      "text": "Using a bright screen right before bed makes it harder to fall asleep.",
+      "answer": true,
+      "explain": "True. The light suppresses melatonin, so the signal to sleep arrives later than it should.",
+      "objective": "Explain how light, temperature and screens affect sleep"
+    },
+    {
+      "type": "multiple",
+      "text": "Where is the best place to charge a phone overnight?",
+      "options": [
+        "Across the room, away from the bed",
+        "Under the pillow",
+        "On the bed beside you",
+        "In your hand"
+      ],
+      "answerIndex": 0,
+      "explain": "Out of reach means it is not the last or first thing you look at. That is the point of it.",
+      "objective": "Explain how light, temperature and screens affect sleep"
+    },
+    {
+      "type": "multiple",
+      "text": "Why keep homework off the bed?",
+      "options": [
+        "So your brain still treats the bed as the place sleep happens",
+        "Because beds are uncomfortable to write on",
+        "Because it damages the mattress",
+        "Because it makes the room untidy"
+      ],
+      "answerIndex": 0,
+      "explain": "One job per place. If everything happens on the bed, it stops being a signal for sleep.",
+      "objective": "Explain what makes a sleeping area good for sleeping"
+    },
+    {
+      "type": "truefalse",
+      "text": "Making the bed is mainly about how the room looks to other people.",
+      "answer": false,
+      "explain": "False. Two minutes for one finished thing before the day starts. It changes how the room reads to you.",
+      "objective": "Make a bed correctly, in order"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 4 TLE covers bed and sleeping area organisation, matching the Term 1 weekly scope. The first half is a procedure, and it is taught as one: the bedLayers figure shows the four layers in order because this is a skill nobody is ever actually shown, only told to do. The far-corners-first detail is included because it is the single piece of technique that makes the job quick. The second half is sleep hygiene, framed around three free levers — dark, cool, quiet — and the melatonin mechanism, which gives a reason rather than a rule. The one-job-per-place idea links back to Week 2's blocks and forward to Week 5's storage: a space with one purpose is easier to use than a space with four.",
+    "discussion": [
+      "Ask him to make the bed once while narrating the four layers. Saying them aloud once fixes the order.",
+      "Ask what his room is currently for. Most bedrooms are doing four jobs, and naming them is the start of fixing it.",
+      "Ask where the phone charges. It is the single highest-leverage change in this lesson.",
+      "Ask what a bad night's sleep costs him the next day, specifically. Training and school both have honest answers."
+    ],
+    "extension": "Have him move the phone charger across the room for one week and note how long it takes to fall asleep each night. It is a one-variable experiment with his own data.",
+    "misconceptions": [
+      "'The flat sheet goes pattern side up.' It goes face down, because the top edge folds back over the blanket.",
+      "'Bedding only needs changing when it looks dirty.' About once a week. Most of what accumulates is invisible.",
+      "'A warm room helps you sleep.' A slightly cool room is easier to fall asleep in.",
+      "'Making the bed is about appearances.' It is two minutes for one completed job before the day starts."
+    ]
+  }
+}

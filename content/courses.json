@@ -738,7 +738,8 @@
           "topics": [
             "Firm Foundations"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "tle/w1-firm-foundations.json"
         },
         {
           "week": 2,
@@ -747,7 +748,8 @@
           "topics": [
             "Daily Routine & Scheduling"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "tle/w2-routine-scheduling.json"
         },
         {
           "week": 3,
@@ -756,7 +758,8 @@
           "topics": [
             "Decluttering My Space"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "tle/w3-decluttering.json"
         },
         {
           "week": 4,
@@ -765,7 +768,8 @@
           "topics": [
             "Bed & Sleeping Area Organization"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "tle/w4-bed-sleeping-area.json"
         },
         {
           "week": 5,
@@ -774,7 +778,8 @@
           "topics": [
             "Clothes & Storage Organization"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "tle/w5-clothes-storage.json"
         },
         {
           "week": 6,

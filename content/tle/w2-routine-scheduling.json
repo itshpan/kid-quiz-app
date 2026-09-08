@@ -1,0 +1,372 @@
+{
+  "id": "tle-w2",
+  "courseId": "tle",
+  "courseTitle": "TLE",
+  "week": 2,
+  "title": "Daily Routine & Scheduling",
+  "subtitle": "A day is six blocks, not forty separate jobs.",
+  "estMinutes": 18,
+  "objectives": [
+    "Explain the difference between a routine and a schedule",
+    "Build a day out of blocks rather than a task list",
+    "Identify fixed and flexible time in a day",
+    "Explain why a task needs a time before it gets done",
+    "Explain why a wind-down block matters"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🗓️",
+      "eyebrow": "Part 1 · Blocks",
+      "title": "A to-do list is a list of things you have not done",
+      "text": "It grows all day and never gives you permission to stop. A schedule does the opposite of both."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The two words",
+      "title": "Routine and schedule are not the same",
+      "text": "The exam asks for the difference, and it is worth having straight anyway.",
+      "points": [
+        "**A routine** is a fixed order of actions. Same every time.",
+        "**A schedule** is what happens at what time.",
+        "**A routine has no clock.** A schedule does.",
+        "**You need both.** They solve different problems."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "dayBlocks",
+      "eyebrow": "One weekday",
+      "title": "Six blocks, tapped one at a time",
+      "text": "Not forty jobs. Six. Two quiz questions come from this."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is the difference between a routine and a schedule?",
+        "options": [
+          "A routine is an order of actions; a schedule attaches times",
+          "A routine is written down; a schedule is remembered",
+          "A routine is for adults; a schedule is for students",
+          "There is no real difference"
+        ],
+        "answerIndex": 0,
+        "explain": "A routine is the same order every time, with no clock. A schedule puts it on a clock."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The method",
+      "title": "Start from what you cannot move",
+      "text": "School, meals and sleep are fixed. Building around them is much easier than building from scratch.",
+      "points": [
+        "**Fixed** — school, meals, bedtime, training sessions.",
+        "**Flexible** — homework, chores, free time.",
+        "**Place the fixed ones first.**",
+        "**The gaps are your real day.** There are fewer than you think."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Every training plan is blocks",
+      "text": "Warm-up, technical, rounds, conditioning, stretch. Nobody writes a list of forty exercises and hopes.",
+      "points": [
+        "**Each block has a job** and a length.",
+        "**You know when it ends.** That is why you can push.",
+        "**An open-ended session** gets less work done.",
+        "**Your evening works the same way.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which of these is FIXED time in a school day?",
+        "options": [
+          "School hours",
+          "Homework",
+          "Free time",
+          "Tidying your room"
+        ],
+        "answerIndex": 0,
+        "explain": "School does not move. Build the flexible things around the fixed ones, not the other way round."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Blocks are set. Part 2 is why a job needs a time, and how a day ends properly. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "⏰",
+      "eyebrow": "Part 2 · Making it real",
+      "title": "A task without a time is a wish",
+      "text": "\"I'll do it later\" has no time in it. Later is not a time, and that is exactly why it does not happen."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The fix",
+      "title": "Give every job a when",
+      "text": "Moving a task from a list into a block is the single change that gets it done.",
+      "points": [
+        "**\"Homework\"** is a wish. **\"Homework, 5:30\"** is a plan.",
+        "**A block has an end**, which makes starting easier.",
+        "**Nothing on a list argues with anything else.**",
+        "**Things in a schedule do**, and that is useful."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Games never give you an open-ended task",
+      "text": "There is always a marker, a timer or a distance. You are never told to just make progress at some point.",
+      "points": [
+        "**A clear end** is what makes it possible to start.",
+        "**Progress you can see** is why you keep going.",
+        "**A block is a quest marker** for your evening.",
+        "**Copy the design.** It works on purpose."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why does giving a task a specific time help?",
+        "options": [
+          "A block has an end, which makes it easier to start",
+          "It makes the task shorter",
+          "It means you can skip it if you are busy",
+          "It makes the task more important"
+        ],
+        "answerIndex": 0,
+        "explain": "Later is not a time. A block that ends is much easier to begin than an open-ended job."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The last block",
+      "title": "The wind-down is the one people skip",
+      "text": "It is thirty to sixty minutes and it decides how the next morning goes. Skipping it costs tomorrow, not tonight.",
+      "points": [
+        "**Screens down** before bed, not in bed.",
+        "**Bag packed. Kit out. Tomorrow decided.**",
+        "**Light and screens delay sleep** measurably.",
+        "**A bad morning usually started the night before.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "⚡",
+      "eyebrow": "Your body right now",
+      "title": "Sleep is when you actually grow",
+      "text": "Growth hormone is released in the deepest stage of sleep. Training builds nothing until you sleep on it.",
+      "points": [
+        "**Muscle is repaired during sleep**, not during training.",
+        "**Around nine hours** is normal at your age.",
+        "**A regular bedtime beats a long one.**",
+        "**The wind-down block protects all of it.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "A wind-down block affects the next morning more than the current evening.",
+        "answer": true,
+        "explain": "True. Kit packed, decisions made, sleep protected. A bad morning usually started the night before."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "routine", "def": "A fixed order of actions, done the same way each time. No clock involved." },
+        { "term": "schedule", "def": "What happens at what time. A routine placed on a clock." },
+        { "term": "time block", "def": "A named stretch of time with a start, an end and one job." },
+        { "term": "fixed time", "def": "Parts of the day you cannot move: school, meals, bedtime." },
+        { "term": "flexible time", "def": "The gaps you can decide about: homework, chores, free time." },
+        { "term": "wind-down", "def": "The last block of the day. Screens down, kit ready, tomorrow decided." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**A routine is an order. A schedule has a clock.**",
+        "**Place the fixed things first.** Build round them.",
+        "**A task without a time is a wish.**",
+        "**The wind-down block** pays out tomorrow morning."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "What is a routine?",
+      "options": [
+        "A fixed order of actions, done the same way each time",
+        "A list of times for the day",
+        "A list of jobs to finish",
+        "A plan for the whole week"
+      ],
+      "answerIndex": 0,
+      "explain": "An order with no clock. Add times to it and you have a schedule.",
+      "objective": "Explain the difference between a routine and a schedule"
+    },
+    {
+      "type": "multiple",
+      "text": "What does a schedule add that a routine does not have?",
+      "options": [
+        "Times",
+        "An order",
+        "A purpose",
+        "A written record"
+      ],
+      "answerIndex": 0,
+      "explain": "A routine is the same order every time. A schedule puts that order on a clock.",
+      "objective": "Explain the difference between a routine and a schedule"
+    },
+    {
+      "type": "multiple",
+      "text": "Which of these is FLEXIBLE time?",
+      "options": [
+        "Homework",
+        "School hours",
+        "Dinner with the family",
+        "Bedtime"
+      ],
+      "answerIndex": 0,
+      "explain": "Homework can move. School, meals and bedtime are the fixed points you build around.",
+      "objective": "Identify fixed and flexible time in a day"
+    },
+    {
+      "type": "multiple",
+      "text": "When building a day, what should you place first?",
+      "options": [
+        "The things you cannot move",
+        "The things you enjoy most",
+        "The hardest job",
+        "Free time"
+      ],
+      "answerIndex": 0,
+      "explain": "Fixed points first. The gaps between them are the day you actually get to decide about.",
+      "objective": "Build a day out of blocks rather than a task list"
+    },
+    {
+      "type": "truefalse",
+      "text": "A to-do list tells you when you are finished for the day.",
+      "answer": false,
+      "explain": "False. It grows all day and never gives permission to stop. A block has an end; a list does not.",
+      "objective": "Build a day out of blocks rather than a task list"
+    },
+    {
+      "type": "multiple",
+      "text": "Why is \"I'll do it later\" a problem?",
+      "options": [
+        "Later is not a time, so nothing schedules it",
+        "It sounds rude",
+        "It takes longer to say",
+        "It means the job is unimportant"
+      ],
+      "answerIndex": 0,
+      "explain": "A task without a when is a wish. Moving it into a block is the change that gets it done.",
+      "objective": "Explain why a task needs a time before it gets done"
+    },
+    {
+      "type": "multiple",
+      "text": "Why is a block easier to start than an open-ended job?",
+      "options": [
+        "It has an end you can see",
+        "It is always shorter",
+        "It is always easier work",
+        "Someone else decided it"
+      ],
+      "answerIndex": 0,
+      "explain": "Knowing when it stops is what makes it possible to begin. Games use the same design.",
+      "objective": "Explain why a task needs a time before it gets done"
+    },
+    {
+      "type": "multiple",
+      "text": "What belongs in a wind-down block?",
+      "options": [
+        "Screens down, bag packed, kit laid out",
+        "The hardest homework of the day",
+        "A heavy training session",
+        "Starting a new project"
+      ],
+      "answerIndex": 0,
+      "explain": "It is about removing tomorrow's decisions and protecting sleep, not about getting more done.",
+      "objective": "Explain why a wind-down block matters"
+    },
+    {
+      "type": "truefalse",
+      "text": "Growth hormone is released mainly during deep sleep.",
+      "answer": true,
+      "explain": "True. Training is the signal, sleep is when the building happens. Skipping sleep wastes the session.",
+      "objective": "Explain why a wind-down block matters"
+    },
+    {
+      "type": "order",
+      "text": "Put a normal weekday evening in order.",
+      "items": [
+        "Training",
+        "Homework block",
+        "Dinner and free time",
+        "Wind-down"
+      ],
+      "explain": "Hard physical work first makes sitting still afterwards easier. Wind-down always goes last.",
+      "objective": "Build a day out of blocks rather than a task list"
+    },
+    {
+      "type": "multiple",
+      "text": "Why does free time work better when it is scheduled?",
+      "options": [
+        "Unplanned free time gets eaten by everything else",
+        "It makes free time longer",
+        "It stops you enjoying it too much",
+        "Schools require it"
+      ],
+      "answerIndex": 0,
+      "explain": "If it has no block, other things expand into it. Scheduling it is what protects it.",
+      "objective": "Build a day out of blocks rather than a task list"
+    },
+    {
+      "type": "multiple",
+      "text": "Which is a schedule rather than a routine?",
+      "options": [
+        "Homework at 5:30, dinner at 7:00",
+        "Shower, dress, breakfast, bag",
+        "Always putting keys in the same bowl",
+        "Warm-up, rounds, stretch"
+      ],
+      "answerIndex": 0,
+      "explain": "Times make it a schedule. The other three are orders of actions with no clock attached.",
+      "objective": "Explain the difference between a routine and a schedule"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 2 TLE covers daily routine and scheduling, matching the Term 1 weekly scope. It argues against the to-do list, which is the format most students are handed and the one that works least well for a learner who struggles to start: a list grows all day and never signals completion, while a block has an end. The dayBlocks figure shows a whole weekday as six blocks rather than as a task list, and the ordering in it is deliberate — training before homework, because hard physical work makes sitting still afterwards easier. The wind-down block gets its own section because it is the one that is always dropped first and the one that pays out the following morning.",
+    "discussion": [
+      "Ask him to name the fixed points in his own day. Everything else is negotiable, and seeing that is the point.",
+      "Ask what 'later' actually means. Getting to 'it means no time at all' is the whole second half.",
+      "Compare a training plan to an evening. Both are blocks, and he already trusts one of them.",
+      "Ask what would have to happen for a wind-down block to survive a bad day. That is where it usually breaks."
+    ],
+    "extension": "Have him draw his real Tuesday as six blocks on paper, then run it for one week and mark which blocks held. The blocks that fail tell you more than the ones that work.",
+    "misconceptions": [
+      "'A routine and a schedule are the same thing.' A routine is an order of actions. A schedule attaches times to it.",
+      "'A longer to-do list means a more productive day.' A list has no end, so it never signals that you are finished.",
+      "'Free time does not need scheduling.' Unscheduled free time gets absorbed by everything around it.",
+      "'Sleep is time lost from training.' Growth hormone is released in deep sleep. The session does nothing without it."
+    ]
+  }
+}
