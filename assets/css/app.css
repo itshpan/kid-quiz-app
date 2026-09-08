@@ -945,6 +945,17 @@ strong { font-weight: 700; color: var(--ink); }
 .fig-hatch     { stroke: var(--ink-soft); stroke-width: 1; }
 .fig-neg       { fill: var(--surface-2); stroke: var(--ink-faint); stroke-width: 1.5; }
 
+/* ---------- TLE figures: sorting, bed layers, folding, day blocks ---------- */
+.fig-box    { fill: var(--surface-2); stroke: var(--ink-faint); stroke-width: 1.5; }
+.fig-box-on { fill: var(--accent-soft); stroke: var(--accent); stroke-width: 2; }
+.fig-flow   { fill: none; stroke: var(--ink-faint); stroke-width: 2; }
+.fig-flow.on{ stroke: var(--accent); stroke-width: 3; }
+.fig-sheet  { stroke: var(--ink-faint); stroke-width: 1.5; }
+.fig-cloth  { fill: var(--accent); fill-opacity: .22; stroke: var(--accent); stroke-width: 2; stroke-linejoin: round; }
+.fig-fold   { fill: none; stroke: var(--accent); stroke-width: 2; stroke-dasharray: 5 4; }
+.fig-blk    { stroke: var(--ink-faint); stroke-width: 1; }
+.fig-blk-t  { font-family: var(--font-ui); font-size: 11px; font-weight: 700; fill: var(--ink); }
+
 /* ---------- Sign-in flow ---------- */
 /* Two named steps, so it's always obvious where you are and what's left. */
 .signin-steps {

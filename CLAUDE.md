@@ -33,6 +33,9 @@ build that doesn't. Do not ask whether to include his interests — include them
 
 ```bash
 node tools/check-content.mjs     # writing limits + lens coverage. Must pass.
+node tools/check-figures.mjs     # measures every figure caption in a real
+                                 # browser. SVG text does not wrap and does
+                                 # not warn — it just gets clipped by the card.
 npm run deploy                   # ships to Cloudflare Pages
 ```
 

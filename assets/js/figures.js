@@ -1,3 +1,21 @@
+/* Captions live inside a 400-unit viewBox, so a long one used to run off the
+   right-hand edge and get clipped by the card with no warning. This squeezes
+   anything over the limit instead. Content should still fit on its own —
+   tools/check-figures.mjs measures every caption in every state — but a
+   silent clip is the one failure mode worth engineering out. */
+const CAP_MAX = 374;
+
+function fitText(el) {
+    if (!el || !el.getComputedTextLength) return;
+    el.removeAttribute('textLength');
+    el.removeAttribute('lengthAdjust');
+    const len = el.getComputedTextLength();
+    if (len > CAP_MAX) {
+        el.setAttribute('textLength', CAP_MAX);
+        el.setAttribute('lengthAdjust', 'spacingAndGlyphs');
+    }
+}
+
 /* ==========================================================================
    figures.js — hand-drawn SVG diagrams for lesson cards.
 
@@ -107,7 +125,7 @@ function muscleTypes() {
   <g class="fig-disc"><line x1="382" y1="24" x2="382" y2="46"/><line x1="366" y1="48" x2="366" y2="70"/><line x1="394" y1="72" x2="394" y2="94"/></g>
   <g class="fig-nuc"><circle cx="348" cy="34" r="3"/><circle cx="416" cy="34" r="3"/><circle cx="340" cy="58" r="3"/><circle cx="356" cy="82" r="3"/></g>
   <text class="fig-note" x="320" y="112">Striped · involuntary</text>
-  <text class="fig-note" x="320" y="128">Heart only · it branches</text>
+  <text class="fig-note" x="452" y="128" text-anchor="end">Heart only · it branches</text>
   <text class="fig-note fig-note-key" x="320" y="146">Never tires</text>
 </svg>`
     };
@@ -223,7 +241,7 @@ function boneDensity() {
                 { w: 0.7, drop: 0.62, pct: 'Very low', cap: 'Bed rest, or months in orbit.',   verdict: 'Breaks from a small fall.' },
                 { w: 1.2, drop: 0.42, pct: 'Low',      cap: 'Sitting most days, no loading.',   verdict: 'Fractures come easily later.' },
                 { w: 2.0, drop: 0.22, pct: 'Average',  cap: 'Walking, ordinary activity.',      verdict: 'Ordinary. Declines with age.' },
-                { w: 3.0, drop: 0.06, pct: 'High',     cap: 'Regular running and lifting.',     verdict: 'A real buffer against ageing.' },
+                { w: 3.0, drop: 0.06, pct: 'High',     cap: 'Regular running and lifting.',     verdict: 'A real buffer for later.' },
                 { w: 4.2, drop: 0,    pct: 'Very high', cap: 'Daily impact and resistance work.', verdict: 'This is what you build now.' }
             ];
 
@@ -363,12 +381,12 @@ function angleFit() {
                 fan.innerHTML = out;
 
                 const nm = SHAPES.find(x => x.n === n).name;
-                title.textContent = gap < 0.01 ? 'It tessellates' : "It can't";
+                title.textContent = gap < 0.01 ? 'It fits' : "It can't";
                 title.setAttribute('class', gap < 0.01 ? 'fig-big' : 'fig-big fig-big-no');
-                angle.textContent = `${nm}: each corner is ${A % 1 ? A.toFixed(2) : A}°`;
+                angle.textContent = `${nm}: ${A % 1 ? A.toFixed(2) : A}° per corner`;
                 sum.textContent = `${fit} of them = ${(fit * A) % 1 ? (fit * A).toFixed(2) : fit * A}°`;
                 verdict.textContent = gap < 0.01
-                    ? 'Exactly 360°. No gap, no overlap.'
+                    ? 'Exactly 360°. No gap.'
                     : `${gap}° short of a full turn.`;
             };
 
@@ -433,7 +451,7 @@ function regularTess() {
   <text class="fig-note" x="8"   y="140">6 × 60 = 360</text>
   <text class="fig-note" x="152" y="140">4 × 90 = 360</text>
   <text class="fig-note" x="284" y="140">3 × 120 = 360</text>
-  <text class="fig-note fig-note-key" x="8" y="160">These are the only three regular shapes that work alone.</text>
+  <text class="fig-note fig-note-key" x="8" y="160">The only three regular shapes that work alone.</text>
 </svg>`
     };
 }
@@ -466,8 +484,8 @@ function escherSlide() {
   <title id="esT">A square with a bump cut from one edge and added to the other, still tiling perfectly</title>
   <g id="esGrid"></g>
   <text class="fig-label" x="248" y="30">THE MOVE</text>
-  <text class="fig-note" x="248" y="54">Cut a piece off the left edge.</text>
-  <text class="fig-note" x="248" y="74">Slide it to the right edge.</text>
+  <text class="fig-note" x="248" y="54">Cut a piece off the left.</text>
+  <text class="fig-note" x="248" y="74">Slide it to the right.</text>
   <text class="fig-note fig-note-key" x="248" y="104">It still tiles. Always.</text>
   <text class="fig-note" id="esState" x="248" y="140"> </text>
 </svg>`,
@@ -493,9 +511,7 @@ function escherSlide() {
                     }
                 }
                 grid.innerHTML = out;
-                state.textContent = b === 0
-                    ? 'A plain square. Still a tessellation.'
-                    : 'Not a square any more. Still no gaps.';
+                state.textContent = b === 0 ? 'A plain square. It tiles.' : 'Not a square. Still tiles.';
             };
 
             const range = wrap.querySelector('#esRange');
@@ -637,11 +653,11 @@ function strikingHand() {
                     mc(3).classList.add('load');
                     arrow.setAttribute('x2', '61'); arrow.setAttribute('y2', '132');
                     head.setAttribute('transform', 'translate(61,132) rotate(-25)');
-                    title.textContent = 'Square landing';
+                    title.textContent = 'Square on';
                     title.setAttribute('class', 'fig-big');
                     boneEl.textContent = '2nd and 3rd metacarpals';
                     why.textContent = 'The thickest striking bones.';
-                    why2.textContent = 'Braced straight through the wrist.';
+                    why2.textContent = 'Braced through the wrist.';
                 } else {
                     mc(5).classList.add('risk');
                     arrow.setAttribute('x2', '124'); arrow.setAttribute('y2', '128');
@@ -726,11 +742,11 @@ function brainRotation() {
             root.append(bar, hit);
 
             const setText = () => {
-                title.textContent = tucked ? 'Chin tucked' : 'Chin exposed';
+                title.textContent = tucked ? 'Tucked' : 'Exposed';
                 title.setAttribute('class', tucked ? 'fig-big' : 'fig-big fig-big-no');
                 rotTxt.textContent = tucked ? 'Short lever · small rotation' : 'Long lever · fast rotation';
                 why.textContent = tucked ? 'The head barely turns.' : 'The skull whips round.';
-                why2.textContent = tucked ? 'The brain moves with it.' : 'The brain lags, then catches up.';
+                why2.textContent = tucked ? 'The brain moves with it.' : 'The brain lags behind.';
             };
 
             const play = () => {
@@ -1079,8 +1095,8 @@ function transformLab() {
     const F = 'M0 0 h44 v13 h-31 v11 h27 v13 h-27 v33 h-13 Z';
 
     const MOVES = {
-        none:       { t: '', name: 'Starting position', desc: 'This is the shape before any move.', tag: '' },
-        translate:  { t: 'translate(96,34)', name: 'Translation', desc: 'Slid 96 right and 34 down. Still facing the same way.', tag: 'A slide' },
+        none:       { t: '', name: 'Start', desc: 'This is the shape before any move.', tag: '' },
+        translate:  { t: 'translate(96,34)', name: 'Translation', desc: 'Slid 96 right, 34 down. Same way up.', tag: 'A slide' },
         reflect:    { t: 'translate(230,0) scale(-1,1)', name: 'Reflection', desc: 'Flipped across a vertical mirror line. Left and right have swapped.', tag: 'A flip' },
         rotate:     { t: 'rotate(180 158 60)',           name: 'Rotation', desc: 'Turned 180° about the marked centre point.', tag: 'A turn' }
     };
@@ -1104,10 +1120,10 @@ function transformLab() {
     <path class="fig-shape" d="${F}"/>
   </g>
 
-  <text class="fig-label" x="276" y="30">THE MOVE</text>
-  <text class="fig-big" id="tlName" x="276" y="60">—</text>
-  <text class="fig-note fig-note-key" id="tlTag" x="276" y="82"> </text>
-  <text class="fig-note fig-note-dim" x="276" y="150">Faint outline = where it started</text>
+  <text class="fig-label" x="188" y="30">THE MOVE</text>
+  <text class="fig-big" id="tlName" x="188" y="60">—</text>
+  <text class="fig-note fig-note-key" id="tlTag" x="188" y="82"> </text>
+  <text class="fig-note fig-note-dim" x="188" y="150">Faint outline = the start</text>
 </svg>`,
 
         bind(root) {
@@ -1160,8 +1176,8 @@ function decimalColumns() {
 
     // Right-aligned is what a careless reader does; it silently changes the
     // place value of every digit.
-    const WRONG = { rows: ['12.5', '3.75'], pad: 'right', sum: '(nonsense)', note: 'The 5 tenths is now under 7 hundredths. Every column means something different.' };
-    const RIGHT = { rows: ['12.50', ' 3.75'], pad: 'point', sum: '16.25', note: 'Tenths under tenths, hundredths under hundredths. Add the empty space as a zero.' };
+    const WRONG = { rows: ['12.5', '3.75'], pad: 'right', sum: '(nonsense)', note: 'The 5 tenths sits under 7 hundredths now.' };
+    const RIGHT = { rows: ['12.50', ' 3.75'], pad: 'point', sum: '16.25', note: 'Tenths under tenths. Fill the gap with a zero.' };
 
     const row = (txt, y, cls = '') =>
         `<text class="fig-digit ${cls}" x="150" y="${y}" text-anchor="end">${txt}</text>`;
@@ -1227,8 +1243,8 @@ function possessiveRule() {
         { label: 'boy',      base: 'boy',      out: "the boy's helmet",       rule: 'Singular noun',              why: "Add 's. It doesn't matter what letter it ends in." },
         { label: 'boys',     base: 'boys',     out: "the boys' helmets",      rule: 'Plural ending in s',         why: "Just an apostrophe. There's already an s there." },
         { label: 'children', base: 'children', out: "the children's books",   rule: 'Plural NOT ending in s',     why: "Add 's, same as a singular. Also men, women, people." },
-        { label: 'James',    base: 'James',    out: "James's horse",          rule: 'Singular already ending in s', why: "James's or James' — both accepted. Pick one and be consistent." },
-        { label: 'its',      base: 'its',      out: "the car lost its wheel", rule: 'The trap',                   why: "No apostrophe. it's always means 'it is'. This is the most common error in English." }
+        { label: 'James',    base: 'James',    out: "James's horse",          rule: 'Singular ending in s', why: "James's or James' — both are accepted. Pick one." },
+        { label: 'its',      base: 'its',      out: "the car lost its wheel", rule: 'The trap',                   why: "No apostrophe. it's always means 'it is'." }
     ];
 
     return {
@@ -1309,7 +1325,7 @@ function phMap() {
   <text class="map-label" x="12" y="104">WEST</text>
   <text class="map-label" x="12" y="116">PHILIPPINE</text>
   <text class="map-label" x="12" y="128">SEA</text>
-  <text class="map-label" x="182" y="110">PHILIPPINE</text>
+  <text class="map-label" x="236" y="110" text-anchor="end">PHILIPPINE</text>
   <text class="map-label" x="182" y="122">SEA</text>
   <text class="map-label" x="88" y="22">Taiwan ↑</text>
   <text class="map-label" x="12" y="296">Vietnam ←</text>
@@ -1329,7 +1345,7 @@ function phMap() {
 /** A tappable timeline. Five or so stops on one line; tapping names one. */
 function timeline({ id, label, alt, stops }) {
     // Evenly spaced between x=42 and x=418, whatever the number of stops.
-    const X = stops.map((_, i) => Math.round(42 + i * 376 / (stops.length - 1)));
+    const X = stops.map((_, i) => Math.round(42 + i * 358 / (stops.length - 1)));
 
     return {
         svg: `
@@ -1364,6 +1380,7 @@ function timeline({ id, label, alt, stops }) {
             const show = i => {
                 h.textContent = stops[i].head;
                 b.textContent = stops[i].body;
+                fitText(h); fitText(b);
                 dots.forEach((d, j) => d.setAttribute('r', j === i ? 11 : 6));
                 bar.querySelectorAll('button').forEach((x, j) =>
                     x.setAttribute('aria-pressed', String(j === i)));
@@ -1471,6 +1488,7 @@ function steppedPath({ id, viewBox, scene, segs, steps, labels }) {
             const show = n => {
                 h.textContent = steps[n].head;
                 b.textContent = steps[n].body;
+                fitText(h); fitText(b);
                 // Cumulative: the path so far stays lit, so the sequence is visible
                 // as a route rather than as five unrelated highlights.
                 parts.forEach(p => p.classList.toggle('on', Number(p.dataset.s) <= n));
@@ -1585,7 +1603,7 @@ function decimalPlaces() {
           check: 'A quarter, four times, is 1. Exactly right.' },
         { btn: '3.14 × 2.5', a: '3.14', b: '2.5',
           strip: '314 × 25 = 7850', places: '2 + 1 = 3 places', answer: '7.850',
-          check: 'About 3 × 2.5 = 7.5. Close, so the point is in the right place.' }
+          check: 'About 3 × 2.5 = 7.5. The point looks right.' }
     ];
 
     return {
@@ -1618,6 +1636,7 @@ function decimalPlaces() {
                 el('Places').textContent = c.places;
                 el('Ans').textContent = `= ${c.answer}`;
                 el('Check').textContent = 'Check: ' + c.check;
+                fitText(el('Check'));
                 bar.querySelectorAll('button').forEach((b, j) =>
                     b.setAttribute('aria-pressed', String(j === i)));
             };
@@ -1716,6 +1735,7 @@ function antecedentArrow() {
 
                 note.textContent = c.note;
                 sub.textContent = c.sub;
+                fitText(note); fitText(sub);
                 bar.querySelectorAll('button').forEach((b, j) =>
                     b.setAttribute('aria-pressed', String(j === n)));
             };
@@ -1788,6 +1808,7 @@ function phFlag() {
                 bot.setAttribute('class', c.war ? 'fig-flag-blue' : 'fig-flag-red');
                 head.textContent = c.head;
                 body.textContent = c.body;
+                fitText(head); fitText(body);
                 bar.querySelectorAll('button').forEach((b, j) =>
                     b.setAttribute('aria-pressed', String(j === n)));
             };
@@ -1912,6 +1933,7 @@ function breathingMech() {
                 head.textContent = m.head;
                 a.textContent = m.a;
                 b.textContent = m.b;
+                fitText(head); fitText(a); fitText(b);
                 bar.querySelectorAll('button').forEach(x =>
                     x.setAttribute('aria-pressed', String(x.dataset.k === k)));
             };
@@ -2000,6 +2022,7 @@ function compareDecimals() {
                     el('Verdict').textContent = `${bigger} is the bigger number`;
                 }
                 el('Note').textContent = c.note;
+                fitText(el('Why')); fitText(el('Verdict')); fitText(el('Note'));
 
                 bar.querySelectorAll('button').forEach((b, j) =>
                     b.setAttribute('aria-pressed', String(j === i)));
@@ -2070,6 +2093,7 @@ function possessivePairs() {
                 hi.setAttribute('height', DY);
                 a.textContent = ROWS[i].a;
                 b.textContent = ROWS[i].b;
+                fitText(a); fitText(b);
                 bar.querySelectorAll('button').forEach((x, j) =>
                     x.setAttribute('aria-pressed', String(j === i)));
             };
@@ -2145,6 +2169,7 @@ function listPicker({ id, label, alt, rows, capA = '', capB = '', height = 296, 
                 hi.setAttribute('height', dy);
                 a.textContent = capA + rows[i].a;
                 b.textContent = capB + rows[i].b;
+                fitText(a); fitText(b);
                 bar.querySelectorAll('button').forEach((x, j) =>
                     x.setAttribute('aria-pressed', String(j === i)));
             };
@@ -2171,19 +2196,19 @@ function reformDemands() {
         capA: 'Asked: ', capB: 'Got: ',
         rows: [
             { short: 'A province of Spain',
-              a: 'Make the Philippines a province of Spain, not a colony',
+              a: 'Make the Philippines a province, not a colony',
               b: 'Never granted. It stayed a colony to the end.' },
             { short: 'Seats in the Cortes',
-              a: 'Restore Filipino representation in the Spanish parliament',
-              b: 'It had existed briefly before 1837. It was never restored.' },
+              a: 'Restore Filipino seats in the Spanish parliament',
+              b: 'It existed briefly before 1837. Never restored.' },
             { short: 'Filipino priests',
               a: 'Hand the parishes to Filipino secular priests',
               b: 'Refused. The Spanish friars kept them.' },
             { short: 'Equality in law',
-              a: 'Treat Filipinos and Spaniards equally before the law',
+              a: 'Treat Filipinos and Spaniards equally in law',
               b: 'Refused. The ranking held until 1898.' },
             { short: 'Free speech',
-              a: 'Freedom of speech, of the press and of assembly',
+              a: 'Freedom of speech, press and assembly',
               b: 'Spaniards had these in Spain. The colony never did.' },
             { short: 'End forced labour',
               a: 'Abolish the polo, the forced labour service',
@@ -2225,6 +2250,7 @@ function demoSwitch({ id, label, alt, height, demos, capY }) {
                 groups.forEach((g, j) => g.classList.toggle('show', j === i));
                 a.textContent = demos[i].a;
                 b.textContent = demos[i].b;
+                fitText(a); fitText(b);
                 bar.querySelectorAll('button').forEach((x, j) =>
                     x.setAttribute('aria-pressed', String(j === i)));
             };
@@ -2256,13 +2282,13 @@ function spaceAwareness() {
         demos: [
             { btn: 'Self space',
               svg: arena + `<circle class="fig-bubble" cx="200" cy="118" r="58"/>` + stick(200, 122),
-              a: 'Self space is the bubble you can reach without moving',
+              a: 'Self space is what you can reach without moving',
               b: 'Your own space. Nobody else should be inside it.' },
             { btn: 'General space',
               svg: arena
                  + `<path class="fig-track-d" d="M70 160 C120 60 190 180 250 90 S340 150 350 70"/>`
                  + stick(70, 164, .8) + stick(350, 74, .8),
-              a: 'General space is the whole area you can travel through',
+              a: 'General space is the area you travel through',
               b: 'Shared with everyone. Avoiding collisions happens here.' },
             { btn: 'Levels',
               svg: `<rect class="fig-band" x="24" y="36" width="352" height="50"/>
@@ -2295,7 +2321,7 @@ function spaceAwareness() {
                     <text class="fig-step" x="300" y="122">RIGHT</text>
                     <text class="fig-step" x="200" y="192" text-anchor="middle">DOWN / BACK</text>`
                  + stick(200, 128, .55),
-              a: 'Directions: forward, backward, sideways, up and down',
+              a: 'Directions: forward, back, sideways, up, down',
               b: 'Where you go from where you are standing now.' }
         ]
     });
@@ -2347,7 +2373,7 @@ function artElements() {
                       <path d="M146 158 L174 132 L174 66"/>
                       <circle cx="286" cy="118" r="42"/>
                     </g>
-                    <circle cx="276" cy="106" r="30" fill="var(--ink-soft)" opacity=".18"/>`,
+                    <circle cx="188" cy="106" r="30" fill="var(--ink-soft)" opacity=".18"/>`,
               a: 'Form — shape with depth added',
               b: 'A square becomes a cube. A circle becomes a sphere.' },
             { btn: 'Space',
@@ -2357,7 +2383,7 @@ function artElements() {
                     <text class="fig-step" x="150" y="176" text-anchor="middle">NEAR</text>
                     <text class="fig-step" x="240" y="176" text-anchor="middle">FAR</text>`,
               a: 'Space — the area around and between things',
-              b: 'Bigger and lower reads as nearer. That is depth on flat paper.' },
+              b: 'Bigger and lower reads as nearer. That is depth.' },
             { btn: 'Colour',
               svg: wheel + `<circle cx="200" cy="112" r="52" fill="none" stroke="var(--ink-faint)" stroke-width="1.5"/>`,
               a: 'Colour — hue, and how light or strong it is',
@@ -2427,10 +2453,10 @@ function worldGenres() {
     return listPicker({
         id: 'wg', label: 'SIX GENRES · SIX PLACES',
         alt: 'Six music genres with the country each comes from and what it sounds like',
-        capA: 'From: ', capB: 'Sounds like: ',
+        capA: 'From: ', capB: '',
         rows: [
             { btn: 'Reggae', short: 'Reggae', a: 'Jamaica, from the 1960s',
-              b: 'Guitar chops on the offbeat, and the bass leads the song.' },
+              b: 'Guitar chops on the offbeat; the bass leads.' },
             { btn: 'Samba', short: 'Samba', a: 'Brazil',
               b: 'Layers of percussion over a fast two-beat pulse.' },
             { btn: 'Flamenco', short: 'Flamenco', a: 'Andalusia, in southern Spain',
@@ -2440,7 +2466,7 @@ function worldGenres() {
             { btn: 'K-pop', short: 'K-pop', a: 'South Korea, from the 1990s',
               b: 'Groups, choreography and video, made to travel.' },
             { btn: 'Gamelan', short: 'Gamelan', a: 'Indonesia',
-              b: 'A whole orchestra of tuned bronze gongs and metal keys.' }
+              b: 'An orchestra of tuned bronze gongs and metal keys.' }
         ]
     });
 }
@@ -2453,7 +2479,7 @@ function pinoyMusic() {
         capA: '', capB: '',
         rows: [
             { btn: 'Kundiman', short: 'Kundiman',
-              a: 'A love song that is very often really about the country',
+              a: 'A love song that is often about the country',
               b: 'Usually in three-time, opening minor and turning major.' },
             { btn: 'Harana', short: 'Harana',
               a: 'A serenade, sung outside a window at night',
@@ -2468,8 +2494,283 @@ function pinoyMusic() {
               a: 'A plucked string band, brought in under Spain',
               b: 'Bandurria, laud, octavina, guitar and bass.' },
             { btn: 'Tinikling', short: 'Tinikling',
-              a: 'A dance stepping between two clapping bamboo poles',
+              a: 'A dance stepped between two bamboo poles',
               b: 'From Leyte. Named after the tikling bird.' }
+        ]
+    });
+}
+
+/* ==========================================================================
+   TLE FIGURES.
+   This subject is the one where the lesson has to survive contact with an
+   actual bedroom, so the figures show the physical steps rather than the
+   principle behind them. A folding diagram is worth more than a paragraph
+   about folding.
+   ========================================================================== */
+
+/* ---------- Where does this thing go? ---------- */
+/* The decision, not the tidying, is what stalls people. Four outcomes and
+   one question each. Lighting the path taken is the whole figure. */
+function sortFlow() {
+    const box = (id, x, y, w, t, sub = '') =>
+        `<rect class="fig-box" data-b="${id}" x="${x}" y="${y}" width="${w}" height="34" rx="8"/>
+         <text class="fig-organ-t" data-b="${id}" x="${x + w / 2}" y="${y + (sub ? 16 : 22)}" text-anchor="middle">${t}</text>
+         ${sub ? `<text class="fig-note" data-b="${id}" x="${x + w / 2}" y="${y + 29}" text-anchor="middle">${sub}</text>` : ''}`;
+
+    const scene =
+        box('q', 130, 30, 140, 'PICK IT UP') +
+        `<path class="fig-flow" data-f="q" d="M200 64 L200 84"/>` +
+        box('use', 90, 84, 220, 'Used it in the last year?') +
+        `<path class="fig-flow" data-f="yes" d="M150 118 L150 140 L96 140 L96 158"/>
+         <path class="fig-flow" data-f="no"  d="M250 118 L250 140 L304 140 L304 158"/>
+         <text class="fig-step" x="126" y="136">YES</text>
+         <text class="fig-step" x="258" y="136">NO</text>` +
+        box('home', 22, 158, 148, 'KEEP', 'give it one home') +
+        box('out', 230, 158, 148, 'LET IT GO', 'donate, sell or bin');
+
+    return {
+        svg: `
+<svg viewBox="0 0 400 258" role="img" aria-labelledby="sfT">
+  <title id="sfT">A decision flow for one object: pick it up, ask if you used it, then keep it or let it go</title>
+  <text class="fig-label" x="20" y="18">ONE OBJECT AT A TIME</text>
+  ${scene}
+  <text class="fig-note fig-note-key" id="sfA" x="20" y="222">&#160;</text>
+  <text class="fig-note"              id="sfB" x="20" y="244">&#160;</text>
+</svg>`,
+
+        bind(root) {
+            const STEPS = [
+                { btn: '1 Pick up', on: ['q'], flow: [],
+                  a: 'Pick up one object. Only one.',
+                  b: 'Deciding about a whole pile at once is why people stop.' },
+                { btn: '2 Ask', on: ['q', 'use'], flow: ['q'],
+                  a: 'Have I used this in the last year?',
+                  b: 'One question, and it is not "might I ever need it".' },
+                { btn: '3 Keep', on: ['use', 'home'], flow: ['yes'],
+                  a: 'Yes — give it one home, and always put it back',
+                  b: 'A thing without a home becomes clutter again by Friday.' },
+                { btn: '4 Let go', on: ['use', 'out'], flow: ['no'],
+                  a: 'No — donate it, sell it, or bin it today',
+                  b: 'Out of the room the same day, or it quietly comes back.' }
+            ];
+
+            const bar = document.createElement('div');
+            bar.className = 'fig-switch';
+            bar.innerHTML = STEPS.map((s, i) =>
+                `<button data-i="${i}" aria-pressed="${i === 0}">${s.btn}</button>`).join('');
+            root.appendChild(bar);
+
+            const a = root.querySelector('#sfA');
+            const b = root.querySelector('#sfB');
+
+            const show = n => {
+                const s = STEPS[n];
+                root.querySelectorAll('[data-b]').forEach(el => {
+                    const on = s.on.includes(el.dataset.b);
+                    if (el.tagName === 'rect') el.setAttribute('class', on ? 'fig-box-on' : 'fig-box');
+                    else el.style.opacity = on ? '1' : '.35';
+                });
+                root.querySelectorAll('[data-f]').forEach(el =>
+                    el.setAttribute('class', s.flow.includes(el.dataset.f) ? 'fig-flow on' : 'fig-flow'));
+                a.textContent = s.a;
+                b.textContent = s.b;
+                fitText(a); fitText(b);
+                bar.querySelectorAll('button').forEach((x, j) =>
+                    x.setAttribute('aria-pressed', String(j === n)));
+            };
+            bar.addEventListener('click', e => {
+                const btn = e.target.closest('button');
+                if (btn) show(Number(btn.dataset.i));
+            });
+            show(0);
+        }
+    };
+}
+
+/* ---------- Making a bed, layer by layer ---------- */
+function bedLayers() {
+    const base = `
+      <rect class="fig-box" x="60" y="96" width="280" height="70" rx="6"/>
+      <rect class="fig-box" x="52" y="150" width="296" height="16" rx="4"/>
+      <text class="fig-step" x="200" y="188" text-anchor="middle">MATTRESS ON THE BASE</text>`;
+    const sheet = (y, h, cls, label, ly) =>
+        `<rect class="${cls}" x="58" y="${y}" width="284" height="${h}" rx="5"/>
+         <text class="fig-step" x="200" y="${ly}" text-anchor="middle">${label}</text>`;
+
+    return demoSwitch({
+        id: 'bl', height: 250, capY: 202,
+        label: 'FOUR LAYERS, IN ORDER',
+        alt: 'A bed built up in four steps: fitted sheet, flat sheet, blanket and pillows',
+        demos: [
+            { btn: '1 Fitted',
+              svg: base + sheet(92, 74, 'fig-cloth', 'FITTED SHEET · CORNERS TUCKED', 84),
+              a: 'Fitted sheet first, all four corners pulled on',
+              b: 'Do the two far corners first. Everything else gets easier.' },
+            { btn: '2 Flat',
+              svg: base + sheet(92, 74, 'fig-cloth', '', 84)
+                 + sheet(84, 66, 'fig-cloth', 'FLAT SHEET · WRONG SIDE UP', 76),
+              a: 'Flat sheet next, patterned side facing down',
+              b: 'The top gets folded back, so the pattern shows.' },
+            { btn: '3 Blanket',
+              svg: base + sheet(92, 74, 'fig-cloth', '', 84) + sheet(84, 66, 'fig-cloth', '', 76)
+                 + sheet(78, 62, 'fig-cloth', 'BLANKET · FOLD THE SHEET BACK OVER IT', 70),
+              a: 'Blanket on top, then fold the sheet edge back over it',
+              b: 'That fold is what stops the blanket touching your face.' },
+            { btn: '4 Pillows',
+              svg: base + sheet(92, 74, 'fig-cloth', '', 84) + sheet(84, 66, 'fig-cloth', '', 76)
+                 + sheet(78, 62, 'fig-cloth', '', 70)
+                 + `<rect class="fig-cloth" x="86" y="52" width="98" height="34" rx="14"/>
+                    <rect class="fig-cloth" x="212" y="52" width="98" height="34" rx="14"/>
+                    <text class="fig-step" x="200" y="44" text-anchor="middle">PILLOWS LAST</text>`,
+              a: 'Pillows last, on top of everything else',
+              b: 'Two minutes total. It is the cheapest win in the room.' }
+        ]
+    });
+}
+
+/* ---------- Folding a shirt in four moves ---------- */
+/* Drawn as a folding diagram rather than as a picture of a shirt: each step
+   shows the silhouette you should be looking at, with the next fold line
+   dashed on top of it. That is the only form of this that is followable. */
+function foldSteps() {
+    const G = 'translate(132,46) scale(1.7)';
+    // Local space is 80 wide. Sleeves 0-16 and 64-80; body 16-64; folds at 22 and 58.
+    const SHIRT = 'M16 8 L30 4 Q40 13 50 4 L64 8 L80 22 L70 38 L64 32 L64 76 L16 76 L16 32 L10 38 L0 22 Z';
+
+    return demoSwitch({
+        id: 'fs', height: 252, capY: 204,
+        label: 'ONE SHIRT, FOUR MOVES',
+        alt: 'A t-shirt folded in four steps: laid flat, each side folded in, then folded in half',
+        demos: [
+            { btn: '1 Flat',
+              svg: `<g transform="${G}">
+                      <path class="fig-cloth" d="${SHIRT}"/>
+                      <path class="fig-fold" d="M22 0 L22 80"/>
+                    </g>`,
+              a: 'Lay it flat, face down, and smooth it out',
+              b: 'Creases you leave now are creases you keep.' },
+            { btn: '2 Left in',
+              svg: `<g transform="${G}">
+                      <path class="fig-cloth" d="M22 6 L50 4 L64 8 L80 22 L70 38 L64 32 L64 76 L22 76 Z"/>
+                      <path class="fig-cloth" d="M22 10 L44 18 L44 60 L22 68 Z" opacity=".55"/>
+                      <path class="fig-fold" d="M22 0 L22 80"/>
+                      <path class="fig-fold" d="M58 0 L58 80"/>
+                    </g>`,
+              a: 'Fold one side in, sleeve and all',
+              b: 'The sleeve folds back on itself.' },
+            { btn: '3 Right in',
+              svg: `<g transform="${G}">
+                      <path class="fig-cloth" d="M22 4 L58 4 L58 76 L22 76 Z"/>
+                      <path class="fig-fold" d="M22 40 L58 40"/>
+                    </g>`,
+              a: 'Fold the other side in to match',
+              b: 'You should have a straight rectangle now.' },
+            { btn: '4 In half',
+              svg: `<g transform="${G}">
+                      <path class="fig-cloth" d="M22 4 L58 4 L58 40 L22 40 Z"/>
+                    </g>
+                    <g transform="translate(132,150) scale(1.7)">
+                      <rect class="fig-box" x="18" y="0" width="44" height="14" rx="2"/>
+                      <rect class="fig-box" x="18" y="16" width="44" height="14" rx="2"/>
+                    </g>`,
+              a: 'Fold it in half, bottom up to the collar',
+              b: 'Stand them on edge in the drawer, not stacked.' }
+        ]
+    });
+}
+
+/* ---------- A day in blocks ---------- */
+function dayBlocks() {
+    const BLK = [
+        { t: 'Morning routine', a: 6.5, b: 7.5 },
+        { t: 'School',          a: 7.5, b: 15 },
+        { t: 'Move / train',    a: 15.5, b: 17 },
+        { t: 'Homework',        a: 17.5, b: 19 },
+        { t: 'Dinner + free',   a: 19, b: 21 },
+        { t: 'Wind-down',       a: 21, b: 21.75 }
+    ];
+    const X = h => 40 + (h - 6) * (330 / 16);
+    // Late blocks sit near the right edge, so their label is right-aligned
+    // to the bar rather than running off the frame.
+    const label = b => {
+        const w = b.t.length * 6.4;
+        return X(b.a) + 6 + w < 392
+            ? `x="${X(b.a) + 6}"`
+            : `x="${Math.max(X(b.b) - 6, 26 + w)}" text-anchor="end"`;
+    };
+    return {
+        svg: `
+<svg viewBox="0 0 400 262" role="img" aria-labelledby="dbT">
+  <title id="dbT">A weekday laid out as six blocks of time from six in the morning to ten at night</title>
+  <text class="fig-label" x="20" y="18">A DAY IS SIX BLOCKS, NOT FORTY JOBS</text>
+  <line class="fig-rule" x1="40" y1="40" x2="370" y2="40"/>
+  ${[6, 10, 14, 18, 22].map(h => `<text class="fig-step" x="${X(h)}" y="34" text-anchor="middle">${h}:00</text>`).join('')}
+  ${BLK.map((b, i) => `
+    <rect class="fig-blk" data-i="${i}" x="${X(b.a)}" y="${50 + i * 26}" width="${X(b.b) - X(b.a)}" height="20" rx="5" fill="var(--accent)" fill-opacity="0.25"/>
+    <text class="fig-blk-t" data-i="${i}" ${label(b)} y="${64 + i * 26}">${b.t}</text>`).join('')}
+  <text class="fig-note fig-note-key" id="dbA" x="20" y="228">&#160;</text>
+  <text class="fig-note"              id="dbB" x="20" y="250">&#160;</text>
+</svg>`,
+        bind(root) {
+            const NOTE = [
+                ['The morning block is the one you control least', 'So decide it the night before, not at 6:30 am.'],
+                ['School is fixed. Everything else moves around it', 'Start from the blocks you cannot change.'],
+                ['Training goes before homework on purpose', 'Hard physical work first makes sitting still easier after.'],
+                ['One homework block, not homework all evening', 'A block has an end. "This evening" does not.'],
+                ['Free time is scheduled, which is why it stays free', 'Unplanned free time gets eaten by everything else.'],
+                ['Wind-down is a block too, and the one people skip', 'Screens down, kit laid out, tomorrow already decided.']
+            ];
+            const bar = document.createElement('div');
+            bar.className = 'fig-switch';
+            bar.innerHTML = BLK.map((b, i) =>
+                `<button data-i="${i}" aria-pressed="${i === 0}">${i + 1}</button>`).join('');
+            root.appendChild(bar);
+            const a = root.querySelector('#dbA');
+            const b = root.querySelector('#dbB');
+            const show = n => {
+                root.querySelectorAll('[data-i]').forEach(el => {
+                    const on = Number(el.dataset.i) === n;
+                    if (el.tagName === 'rect') el.setAttribute('fill-opacity', on ? '0.75' : '0.18');
+                    else el.style.opacity = on ? '1' : '.45';
+                });
+                a.textContent = NOTE[n][0];
+                b.textContent = NOTE[n][1];
+                fitText(a); fitText(b);
+                bar.querySelectorAll('button').forEach((x, j) =>
+                    x.setAttribute('aria-pressed', String(j === n)));
+            };
+            const pick = e => {
+                const t = e.target.closest('[data-i]');
+                if (t) show(Number(t.dataset.i));
+            };
+            bar.addEventListener('click', pick);
+            root.querySelector('svg').addEventListener('click', pick);
+            show(0);
+        }
+    };
+}
+
+/* ---------- The five habits an organised room runs on ---------- */
+function homeRules() {
+    return listPicker({
+        id: 'hr', label: 'FIVE HABITS, NOT FIVE CHORES',
+        alt: 'Five household organisation principles, each with what it means and why it works',
+        rows: [
+            { btn: '1', short: 'A home for everything',
+              a: 'Every object has one place it lives',
+              b: 'If you have to think about where it goes, it will not go there.' },
+            { btn: '2', short: 'Put it back, not down',
+              a: 'Handle a thing once, and finish the journey',
+              b: 'Putting it down is a decision you have to make again later.' },
+            { btn: '3', short: 'The two-minute rule',
+              a: 'If it takes under two minutes, do it now',
+              b: 'Small jobs are what pile up into a job you cannot start.' },
+            { btn: '4', short: 'Like with like',
+              a: 'Store things by what they are for, not by size',
+              b: 'You look for things by purpose, so store them that way.' },
+            { btn: '5', short: 'One in, one out',
+              a: 'Something new arrives, something leaves',
+              b: 'Storage is finite. This is the only rule that respects that.' }
         ]
     });
 }
@@ -2510,7 +2811,12 @@ export const FIGURES = {
     artElements,
     artStyles,
     worldGenres,
-    pinoyMusic
+    pinoyMusic,
+    sortFlow,
+    bedLayers,
+    foldSteps,
+    dayBlocks,
+    homeRules
 };
 
 
