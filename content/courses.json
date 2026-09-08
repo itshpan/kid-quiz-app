@@ -414,11 +414,12 @@
         {
           "week": 4,
           "id": "ss-w4",
-          "title": "The Reform Movement (cont.)",
+          "title": "The Reform Movement: Rizal",
           "topics": [
             "The Reform Movement"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "social-studies/w4-rizal-reform.json"
         },
         {
           "week": 5,

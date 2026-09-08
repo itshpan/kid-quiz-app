@@ -142,10 +142,10 @@ shared before the site is deployed anywhere.
 
 | Subject | Weeks mapped | Lessons live |
 |---|---|---|
-| Science | 11 | Weeks 1–3, 5 |
-| Math | 11 | Weeks 1–3, 5 · plus the surface-area trainer |
-| English | 11 | Weeks 1–3, 5 |
-| Social Studies | 11 | Weeks 1–2, 5 |
+| Science | 11 | Weeks 1–5 |
+| Math | 11 | Weeks 1–5 · plus the surface-area trainer |
+| English | 11 | Weeks 1–5 |
+| Social Studies | 11 | Weeks 1–2, 4–5 |
 | Filipino | 11 | — |
 | MAPEH | 11 | — |
 | TLE | 11 | — |

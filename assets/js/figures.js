@@ -2085,6 +2085,31 @@ function possessivePairs() {
     };
 }
 
+/* Week 4: one life, and the five dates the exam wants from it. */
+function rizalLife() {
+    return timeline({
+        id: 'rz', label: 'ONE LIFE, THIRTY-FIVE YEARS',
+        alt: 'A timeline of Jose Rizal from his birth in 1861 to his execution in 1896',
+        stops: [
+            { year: '1861', tag: 'born',
+              head: 'Born in Calamba, Laguna',
+              body: 'The seventh of eleven children.' },
+            { year: '1887', tag: 'Noli',
+              head: 'Noli Me Tangere is published',
+              body: 'Written in Berlin. Banned in the Philippines.' },
+            { year: '1891', tag: 'Fili',
+              head: 'El Filibusterismo is published',
+              body: 'Darker, angrier, and dedicated to GomBurZa.' },
+            { year: '1892', tag: 'Dapitan',
+              head: 'La Liga Filipina, then exile',
+              body: 'Founded 3 July. Arrested 6 July. Four years in Dapitan.' },
+            { year: '1896', tag: 'Bagumbayan',
+              head: 'Executed by firing squad',
+              body: '30 December, aged 35. The revolution had already started.' }
+        ]
+    });
+}
+
 export const FIGURES = {
     crumpleZone,
     muscleTypes,
@@ -2106,6 +2131,7 @@ export const FIGURES = {
     phMap,
     roadTo1872,
     roadToRepublic,
+    rizalLife,
     heartLoop,
     reflexArc,
     decimalPlaces,
