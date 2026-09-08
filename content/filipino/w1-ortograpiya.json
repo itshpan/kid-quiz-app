@@ -1,0 +1,426 @@
+{
+  "id": "fil-w1",
+  "courseId": "filipino",
+  "courseTitle": "Filipino",
+  "week": 1,
+  "title": "Ang Ortograpiyang Filipino",
+  "subtitle": "Ang sistema ng pagsulat — mga letra, pantig at gitling.",
+  "estMinutes": 18,
+  "objectives": [
+    "Mabilang ang mga letra ng Alpabetong Filipino",
+    "Maiba ang patinig sa katinig",
+    "Mahati sa pantig ang isang salita",
+    "Magamit nang wasto ang gitling",
+    "Malaman ang kasaysayan sa likod ng nobelang Supremo"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🔤",
+      "eyebrow": "Bahagi 1 · Ang alpabeto",
+      "title": "Ang ortograpiya ay ang mga tuntunin ng pagsulat",
+      "text": "Hindi ito tungkol sa magandang sulat-kamay. Ito ang sistema: anong letra, anong tunog, at paano isinusulat."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang alpabeto",
+      "title": "Dalawampu't walong letra",
+      "text": "May 28 letra ang Alpabetong Filipino ngayon. Ang lumang Abakada ay 20 letra lamang.",
+      "points": [
+        "**A B C D E F G H I J K L M N**",
+        "**Ñ NG O P Q R S T U V W X Y Z**",
+        "**Ang Ñ at NG** ay mga letra rin, hindi tambalan.",
+        "**Idinagdag ang C, F, J, Ñ, Q, V, X at Z** noong 1987."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Dalawang uri",
+      "title": "Patinig at katinig",
+      "text": "Lahat ng letra ay nahahati sa dalawa. Simple ang panuntunan at kailangan mo ito sa pantig.",
+      "points": [
+        "**Patinig:** a, e, i, o, u. Lima lamang.",
+        "**Katinig:** lahat ng iba, kasama ang Ñ at NG.",
+        "**Walang pantig na walang patinig.**",
+        "**Iyan ang pinakamahalagang tuntunin dito.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Ilang letra ang Alpabetong Filipino?",
+        "options": [
+          "28",
+          "20",
+          "26",
+          "31"
+        ],
+        "answerIndex": 0,
+        "explain": "28 letra. Ang lumang Abakada ay 20 lamang, at walo ang idinagdag noong 1987."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Pantig",
+      "title": "Bawat pantig ay may isang patinig",
+      "text": "Ang pantig ay ang pinakamaliit na yunit ng tunog. Bilangin mo ang patinig at nabilang mo na ang pantig.",
+      "points": [
+        "**ba-hay** — dalawang pantig, dalawang patinig.",
+        "**pa-a-ra-lan** — apat na pantig.",
+        "**Karaniwang anyo:** KP (ba), KPK (bag), P (a), PK (at).",
+        "**K = katinig. P = patinig.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Mode ng laro",
+      "title": "Ang pantig ay parang block sa Minecraft",
+      "text": "May kaunting uri lang ng block, pero walang katapusan ang maaari mong itayo. Ganoon din ang pantig.",
+      "points": [
+        "**Apat na pangunahing anyo** ng pantig lamang.",
+        "**Libu-libong salita** ang nagagawa mula rito.",
+        "**Alamin ang piraso** bago ang buong gusali.",
+        "**Kaunting patakaran, malaking resulta.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Ilang pantig ang salitang \"paaralan\"?",
+        "options": [
+          "Apat",
+          "Tatlo",
+          "Lima",
+          "Dalawa"
+        ],
+        "answerIndex": 0,
+        "explain": "pa-a-ra-lan. Apat na patinig, kaya apat na pantig. Iyan ang pinakamabilis na paraan ng pagbilang."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang gitling",
+      "title": "Kailan ginagamit ang gitling",
+      "text": "Maliit na guhit, malaking pagkakaiba. May apat na pangunahing gamit na hinahanap sa pagsusulit.",
+      "points": [
+        "**Inuulit na salita:** araw-araw, sari-sari.",
+        "**Bilang na may unlapi:** ika-10, ika-2.",
+        "**Unlaping may pangngalang pantangi:** maka-Diyos.",
+        "**Salitang may de-:** de-lata, de-kolor."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🏎️",
+      "eyebrow": "Mode ng sasakyan",
+      "title": "Nasa ika-2 puwesto siya",
+      "text": "Kapag isinulat mo ang puwesto sa karera gamit ang bilang, kailangan mo ng gitling. Wala itong pagbubukod.",
+      "points": [
+        "**ika-2 puwesto**, hindi ika 2 puwesto.",
+        "**ika-10 lap**, ganoon din.",
+        "**Kapag baybay ang bilang:** ikalawa, walang gitling.",
+        "**Bilang at unlapi:** laging may gitling."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Alin ang tamang baybay?",
+        "options": [
+          "ika-5 na palapag",
+          "ika 5 na palapag",
+          "ika5 na palapag",
+          "ika--5 na palapag"
+        ],
+        "answerIndex": 0,
+        "explain": "May gitling sa pagitan ng unlaping ika- at ng bilang. Kung baybay naman: ikalima, walang gitling."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Magandang tigilan",
+      "text": "Tapos na ang ortograpiya. Ang Bahagi 2 ay tungkol sa nobelang Supremo. Nakatala ang puwesto mo."
+    },
+    {
+      "kind": "open",
+      "icon": "📕",
+      "eyebrow": "Bahagi 2 · Pagbasa",
+      "title": "Bago mo buksan ang Supremo",
+      "text": "Mas madaling basahin ang isang nobelang pangkasaysayan kung alam mo na ang panahon. Ito ang kailangan mo."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang tao",
+      "title": "Sino si Andres Bonifacio",
+      "text": "Isinilang sa Tondo, Maynila, noong 30 Nobyembre 1863. Siya ang panganay sa anim na magkakapatid.",
+      "points": [
+        "**Namatay ang mga magulang niya** noong bata pa siya.",
+        "**Siya ang nagpalaki** sa mga kapatid niya.",
+        "**Nagtinda siya ng baston at pamaypay** para mabuhay sila.",
+        "**Nagtrabaho siya sa mga kompanyang dayuhan** sa Maynila."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang panahon",
+      "title": "Ang Maynila ng 1880 at 1890",
+      "text": "Kolonya pa ng Espanya ang Pilipinas. Ito ang mundo ng nobela, at hindi ito payapa.",
+      "points": [
+        "**Indio** ang tawag ng mga Espanyol sa mga Pilipino.",
+        "**Ipinagbawal ang mga nobela ni Rizal.** Binasa pa rin.",
+        "**Itinatag ang Katipunan noong Hulyo 1892.**",
+        "**\"Supremo\"** ang naging titulo ni Bonifacio doon."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Saan isinilang si Andres Bonifacio?",
+        "options": [
+          "Tondo, Maynila",
+          "Cavite",
+          "Bulacan",
+          "Calamba, Laguna"
+        ],
+        "answerIndex": 0,
+        "explain": "Sa Tondo, noong 30 Nobyembre 1863. Sa Calamba naman isinilang si Rizal."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Mode ng boksing",
+      "title": "Siya ang nagturo sa sarili niya",
+      "text": "Walang unibersidad si Bonifacio. Nagbasa siya nang nagbasa habang nagtatrabaho at nag-aalaga ng mga kapatid.",
+      "points": [
+        "**Binasa niya ang mga nobela ni Rizal.**",
+        "**Nagbasa rin siya tungkol sa Rebolusyong Pranses.**",
+        "**Walang shortcut.** Oras lang at pag-uulit.",
+        "**Katulad ng ensayo:** walang nakakakita, pero nangyayari."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Mode ng kuwento",
+      "title": "Ano ang babantayan habang nagbabasa",
+      "text": "May tatlong tanong na sasagutin mo sa dulo ng bawat kabanata. Isulat mo ang sagot habang sariwa pa.",
+      "points": [
+        "**Tauhan** — sino ang lumitaw, at ano ang ginawa niya?",
+        "**Tagpuan** — saan at kailan nangyari ito?",
+        "**Suliranin** — ano ang problemang lumitaw?",
+        "**Isang pangungusap kada tanong.** Sapat na iyon."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Ano ang tawag sa lugar at panahon ng isang kuwento?",
+        "options": [
+          "Tagpuan",
+          "Tauhan",
+          "Banghay",
+          "Suliranin"
+        ],
+        "answerIndex": 0,
+        "explain": "Tagpuan. Ang tauhan ay ang mga karakter, at ang banghay ang daloy ng mga pangyayari."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Mga salitang gagamitin sa pagsusulit",
+      "terms": [
+        { "term": "ortograpiya", "def": "Ang sistema at tuntunin ng pagsulat ng isang wika." },
+        { "term": "Alpabetong Filipino", "def": "Ang 28 letra ng kasalukuyang alpabeto, kasama ang Ñ at NG." },
+        { "term": "Abakada", "def": "Ang lumang alpabeto na may 20 letra lamang." },
+        { "term": "patinig", "def": "a, e, i, o, u. Kailangan ng bawat pantig ng isa." },
+        { "term": "katinig", "def": "Lahat ng letrang hindi patinig, kasama ang Ñ at NG." },
+        { "term": "pantig", "def": "Ang pinakamaliit na yunit ng tunog. Isang patinig kada pantig." },
+        { "term": "gitling", "def": "Ang maliit na guhit sa araw-araw, ika-10, maka-Diyos at de-lata." },
+        { "term": "tagpuan", "def": "Ang lugar at panahon ng isang kuwento." },
+        { "term": "tauhan", "def": "Ang mga karakter sa isang kuwento." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Balik-aral",
+      "title": "Ang apat na mahalaga",
+      "points": [
+        "**28 letra**, kasama ang Ñ at NG.",
+        "**Isang patinig kada pantig.** Bilangin ang patinig.",
+        "**Gitling:** inuulit, ika- + bilang, maka-, de-.",
+        "**Si Bonifacio:** Tondo, 1863, panganay sa anim."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Ilang letra ang Alpabetong Filipino?",
+      "options": [
+        "28",
+        "20",
+        "26",
+        "27"
+      ],
+      "answerIndex": 0,
+      "explain": "28 letra. Ang Abakada noong araw ay 20, at walo ang idinagdag noong 1987.",
+      "objective": "Mabilang ang mga letra ng Alpabetong Filipino"
+    },
+    {
+      "type": "multiple",
+      "text": "Alin sa mga ito ang letra ng Alpabetong Filipino ngunit wala sa Ingles?",
+      "options": [
+        "NG",
+        "K",
+        "W",
+        "Y"
+      ],
+      "answerIndex": 0,
+      "explain": "Ang NG at ang Ñ ay mga letra sa Filipino. Hindi sila tambalan ng dalawang letra.",
+      "objective": "Mabilang ang mga letra ng Alpabetong Filipino"
+    },
+    {
+      "type": "multiple",
+      "text": "Ilan ang patinig sa Filipino?",
+      "options": [
+        "Lima",
+        "Apat",
+        "Anim",
+        "Tatlo"
+      ],
+      "answerIndex": 0,
+      "explain": "a, e, i, o, u. Lahat ng iba ay katinig, kasama ang Ñ at NG.",
+      "objective": "Maiba ang patinig sa katinig"
+    },
+    {
+      "type": "type",
+      "text": "Ilang pantig ang salitang \"kalayaan\"?",
+      "accept": [
+        "4",
+        "apat",
+        "apat na pantig"
+      ],
+      "explain": "ka-la-ya-an. Apat na patinig, kaya apat na pantig.",
+      "objective": "Mahati sa pantig ang isang salita"
+    },
+    {
+      "type": "multiple",
+      "text": "Ilang pantig ang \"bayan\"?",
+      "options": [
+        "Dalawa",
+        "Tatlo",
+        "Isa",
+        "Apat"
+      ],
+      "answerIndex": 0,
+      "explain": "ba-yan. Dalawang patinig, dalawang pantig.",
+      "objective": "Mahati sa pantig ang isang salita"
+    },
+    {
+      "type": "truefalse",
+      "text": "Maaaring magkaroon ng pantig na walang patinig.",
+      "answer": false,
+      "explain": "Hindi. Bawat pantig ay may isang patinig. Iyan ang pinakamatibay na tuntunin dito.",
+      "objective": "Maiba ang patinig sa katinig"
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang tamang baybay?",
+      "options": [
+        "araw-araw",
+        "araw araw",
+        "arawaraw",
+        "araw'araw"
+      ],
+      "answerIndex": 0,
+      "explain": "May gitling ang inuulit na salita: araw-araw, sari-sari, bahay-bahay.",
+      "objective": "Magamit nang wasto ang gitling"
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang tamang baybay?",
+      "options": [
+        "ika-3 palapag",
+        "ika 3 palapag",
+        "ika3 palapag",
+        "ika–3 palapag"
+      ],
+      "answerIndex": 0,
+      "explain": "Gitling sa pagitan ng ika- at ng bilang. Kung baybay: ikatlo, walang gitling.",
+      "objective": "Magamit nang wasto ang gitling"
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang nangangailangan ng gitling?",
+      "options": [
+        "maka-Diyos",
+        "makabayan",
+        "mabuti",
+        "malaki"
+      ],
+      "answerIndex": 0,
+      "explain": "May gitling kapag ang unlapi ay sinundan ng pangngalang pantangi, gaya ng maka-Diyos.",
+      "objective": "Magamit nang wasto ang gitling"
+    },
+    {
+      "type": "multiple",
+      "text": "Saan at kailan isinilang si Andres Bonifacio?",
+      "options": [
+        "Tondo, Maynila, noong 1863",
+        "Calamba, Laguna, noong 1861",
+        "Kawit, Cavite, noong 1869",
+        "Bulacan, noong 1850"
+      ],
+      "answerIndex": 0,
+      "explain": "Tondo, 30 Nobyembre 1863. Sa Calamba noong 1861 isinilang si Rizal.",
+      "objective": "Malaman ang kasaysayan sa likod ng nobelang Supremo"
+    },
+    {
+      "type": "truefalse",
+      "text": "Siya ang panganay at siya ang nagpalaki sa mga kapatid niya.",
+      "answer": true,
+      "explain": "Oo. Namatay ang mga magulang niya noong bata pa siya, at siya ang umako sa anim na magkakapatid.",
+      "objective": "Malaman ang kasaysayan sa likod ng nobelang Supremo"
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang tagpuan ng isang kuwento?",
+      "options": [
+        "Ang lugar at panahon",
+        "Ang mga karakter",
+        "Ang daloy ng pangyayari",
+        "Ang aral"
+      ],
+      "answerIndex": 0,
+      "explain": "Tagpuan ay lugar at panahon. Ang tauhan ay ang karakter, at ang banghay ang daloy.",
+      "objective": "Malaman ang kasaysayan sa likod ng nobelang Supremo"
+    }
+  ],
+  "teacher": {
+    "summary": "Linggo 1 ng Filipino: ang Ortograpiyang Filipino, kasama ang panimula sa nobelang Supremo. Ang unang kalahati ay tuntunin — alpabeto, patinig at katinig, pantig, at gitling — at nakaayos ito nang pasunod-sunod dahil kailangan ng pantig ang patinig, at kailangan ng gitling ang pantig. IMPORTANTE PARA SA GURO O MAGULANG: hindi pa nabasa ng may-akda ng aralin ang partikular na edisyon ng Supremo na ginagamit ng paaralan, kaya walang buod ng Kapitulo 1 at 2 dito. Sa halip, ang ikalawang kalahati ay tunay at matibay na paghahanda: ang kasaysayan ni Andres Bonifacio at ng panahong iyon, at ang tatlong tanong na dapat sagutin pagkatapos ng bawat kabanata. Kapag naibigay na ang aktuwal na teksto, madaling maidaragdag ang mga kard na partikular sa kabanata.",
+    "discussion": [
+      "Pabilangin siya ng pantig sa sarili niyang pangalan at sa pangalan ng tatlong kaibigan. Mabilis at mabisa.",
+      "Itanong kung bakit kailangan ng gitling sa ika-10 pero wala sa ikasampu. Mahusay na tanong ito para sa dahilan, hindi sa pagsasaulo.",
+      "Pag-usapan kung ano ang ibig sabihin ng maging panganay sa anim na magkakapatid sa edad na labing-apat.",
+      "Ipasulat sa kanya ang tauhan, tagpuan at suliranin pagkatapos ng bawat kabanata. Isang pangungusap kada isa."
+    ],
+    "extension": "Pahanapin siya ng sampung salitang may gitling sa isang pahayagan o website, at pauriin kung alin sa apat na tuntunin ang sinusunod ng bawat isa. Ang pag-uuri ang mas mahirap kaysa sa paghahanap.",
+    "misconceptions": [
+      "'Dalawang letra ang NG.' Isa itong letra sa Alpabetong Filipino, gaya rin ng Ñ.",
+      "'Ang ortograpiya ay tungkol sa magandang sulat-kamay.' Ito ang sistema ng pagsulat: letra, tunog at tuntunin.",
+      "'Puwedeng walang patinig ang isang pantig.' Bawat pantig ay may isang patinig.",
+      "'Laging may gitling ang ika-.' Kapag baybay ang bilang, gaya ng ikalima, walang gitling."
+    ]
+  }
+}

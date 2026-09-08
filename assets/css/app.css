@@ -956,6 +956,12 @@ strong { font-weight: 700; color: var(--ink); }
 .fig-blk    { stroke: var(--ink-faint); stroke-width: 1; }
 .fig-blk-t  { font-family: var(--font-ui); font-size: 11px; font-weight: 700; fill: var(--ink); }
 
+/* ---------- Filipino affix figure ---------- */
+/* Two-class selector on purpose: .fig-mono is defined later in this file than
+   .fig-sent-hi, so a single class loses the fill and the root stops standing
+   out from the affix — which is the entire point of the diagram. */
+.fig-mono.fig-sent-hi { fill: var(--accent); font-weight: 700; }
+
 /* ---------- Sign-in flow ---------- */
 /* Two named steps, so it's always obvious where you are and what's left. */
 .signin-steps {

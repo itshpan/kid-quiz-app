@@ -1,0 +1,400 @@
+{
+  "id": "fil-w5",
+  "courseId": "filipino",
+  "courseTitle": "Filipino",
+  "week": 5,
+  "title": "Kayarian ng Pangungusap",
+  "subtitle": "Bilangin ang sugnay, at nasagot mo na ang tanong.",
+  "estMinutes": 18,
+  "objectives": [
+    "Matukoy ang punong sugnay at ang palipong sugnay",
+    "Maiba ang payak, tambalan, hugnayan at langkapan",
+    "Magamit ang tamang pangatnig para sa bawat kayarian",
+    "Mabilang ang sugnay upang mauri ang isang pangungusap",
+    "Maunawaan ang naging wakas ni Andres Bonifacio"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🔗",
+      "eyebrow": "Bahagi 1 · Sugnay",
+      "title": "Bago ang kayarian, ang sugnay",
+      "text": "Hindi mo mauuri ang pangungusap kung hindi mo alam kung ano ang sugnay. Doon tayo magsisimula."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang sugnay",
+      "title": "Dalawang uri ng sugnay",
+      "text": "Ang sugnay ay pangkat ng salitang may simuno at panaguri. May dalawang uri, at ang pagkakaiba ay simple.",
+      "points": [
+        "**Punong sugnay** — kayang tumayong mag-isa.",
+        "**Palipong sugnay** — hindi kayang tumayong mag-isa.",
+        "**\"Naglaro siya\"** — punong sugnay.",
+        "**\"dahil pagod siya\"** — palipong sugnay."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Alin sa mga ito ang palipong sugnay?",
+        "options": [
+          "kapag umulan bukas",
+          "umuulan bukas",
+          "naglalaro ang bata",
+          "natulog siya"
+        ],
+        "answerIndex": 0,
+        "explain": "Ang \"kapag\" ang gumagawa nitong palipon. Hindi ito kayang tumayong mag-isa."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang apat",
+      "title": "Apat na kayarian ng pangungusap",
+      "text": "Nakabatay ang lahat sa bilang at uri ng sugnay. Bilangin mo lamang.",
+      "points": [
+        "**Payak** — isang punong sugnay.",
+        "**Tambalan** — dalawang punong sugnay.",
+        "**Hugnayan** — punong sugnay at palipong sugnay.",
+        "**Langkapan** — pinagsamang tambalan at hugnayan."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "kayarianPangungusap",
+      "eyebrow": "Tingnan mo",
+      "title": "Apat na kayarian, may halimbawa",
+      "text": "Pindutin ang bawat isa. May tanong sa pagsusulit mula sa lahat ng apat."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Anong kayarian ang \"Kumain siya at natulog agad\"?",
+        "options": [
+          "Tambalan",
+          "Payak",
+          "Hugnayan",
+          "Langkapan"
+        ],
+        "answerIndex": 0,
+        "explain": "Dalawang punong sugnay na pinag-ugnay ng \"at\". Pareho silang kayang tumayong mag-isa."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang pangatnig",
+      "title": "Ang pang-ugnay ang nagsasabi sa iyo",
+      "text": "Hindi mo kailangang manghula. Ang salitang nag-uugnay ang nagsasabi kung anong kayarian ito.",
+      "points": [
+        "**Tambalan:** at, ngunit, subalit, o, datapwat.",
+        "**Hugnayan:** dahil, kung, kapag, nang, sapagkat.",
+        "**Tingnan mo ang pang-ugnay muna.**",
+        "**Saka mo bilangin ang sugnay** para makatiyak."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Mode ng laro",
+      "title": "Parang redstone ang pangatnig",
+      "text": "Ang \"at\" ay nag-uugnay ng dalawang bagay na parehong gumagana. Ang \"dahil\" ay nagsasabing may nakadepende.",
+      "points": [
+        "**at** — dalawang bagay, magkapantay.",
+        "**dahil** — isa ang nakabatay sa isa.",
+        "**Ibang koneksiyon, ibang kayarian.**",
+        "**Ang pang-ugnay ang wire.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Anong kayarian ang \"Natulog siya dahil pagod na siya\"?",
+        "options": [
+          "Hugnayan",
+          "Tambalan",
+          "Payak",
+          "Langkapan"
+        ],
+        "answerIndex": 0,
+        "explain": "Ang \"dahil\" ay tanda ng hugnayan. Hindi kayang tumayong mag-isa ang ikalawang sugnay."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Magandang tigilan",
+      "text": "Tapos na ang kayarian. Ang Bahagi 2 ay paghahanda sa Kapitulo 8. Nakatala ang puwesto mo."
+    },
+    {
+      "kind": "open",
+      "icon": "📕",
+      "eyebrow": "Bahagi 2 · Pagbasa",
+      "title": "Ang mahirap na bahagi ng kuwento",
+      "text": "Hindi natapos ang buhay ni Bonifacio sa kamay ng mga Espanyol. Mahalagang malaman mo ito bago mo mabasa."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Marso 1897",
+      "title": "Ang Kumbensiyon sa Tejeros",
+      "text": "Nagkaroon ng halalan sa Cavite. Nanalo si Emilio Aguinaldo bilang pangulo. Nabigyan si Bonifacio ng mas mababang puwesto.",
+      "points": [
+        "**May tumutol** dahil walang titulo sa abogasya si Bonifacio.",
+        "**Ipinawalang-bisa niya ang buong pagpupulong.**",
+        "**Dalawang panig sa iisang himagsikan.**",
+        "**Awtoridad laban sa panalo sa labanan.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Mayo 1897",
+      "title": "Ang wakas",
+      "text": "Inaresto si Bonifacio ng mga kapwa niya rebolusyonaryo, nilitis, at pinatay noong Mayo 1897.",
+      "points": [
+        "**Hindi ng Espanya.** Ng sarili niyang panig.",
+        "**Kasama ang kapatid niyang si Procopio.**",
+        "**Tatlumpu't tatlong taong gulang lamang siya.**",
+        "**Ito ang pinakamabigat na bahagi ng kuwento.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Sino ang pumatay kay Andres Bonifacio?",
+        "options": [
+          "Mga kapwa niya rebolusyonaryo",
+          "Mga sundalong Espanyol",
+          "Mga sundalong Amerikano",
+          "Wala. Nakatakas siya."
+        ],
+        "answerIndex": 0,
+        "explain": "Ang sarili niyang panig, noong Mayo 1897, matapos ang hidwaan sa Tejeros."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Mode ng boksing",
+      "title": "Puwede kang manalo at matalo pa rin",
+      "text": "May mga labang panalo mo sa loob ng ring pero talo ka sa desisyon. Ganoon ang nangyari sa Tejeros.",
+      "points": [
+        "**Siya ang nagtatag ng Katipunan.**",
+        "**Natalo pa rin siya sa halalan.**",
+        "**Ang gulo sa sariling panig** ay mas mapanira.",
+        "**Nangyayari ito sa totoong buhay.** Hindi lang sa kuwento."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Mode ng kuwento",
+      "title": "Hindi lahat ng kuwento ay may masayang wakas",
+      "text": "Kapag pangkasaysayan ang nobela, hindi puwedeng baguhin ng may-akda ang katapusan. Iyon ang tapang nito.",
+      "points": [
+        "**Alam mo na ang wakas** bago mo pa mabasa.",
+        "**Nagbabago iyon ng pagbabasa mo.**",
+        "**Ang tanong ay hindi kung ano**, kundi kung paano.",
+        "**Bantayan mo kung paano ito isinulat.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Si Bonifacio ang nanalo bilang pangulo sa Kumbensiyon sa Tejeros.",
+        "answer": false,
+        "explain": "Hindi. Si Emilio Aguinaldo ang nanalo. Mas mababang puwesto ang ibinigay kay Bonifacio."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Mga salitang gagamitin sa pagsusulit",
+      "terms": [
+        { "term": "sugnay", "def": "Pangkat ng salitang may simuno at panaguri." },
+        { "term": "punong sugnay", "def": "Sugnay na kayang tumayong mag-isa bilang pangungusap." },
+        { "term": "palipong sugnay", "def": "Sugnay na hindi kayang tumayong mag-isa." },
+        { "term": "payak", "def": "Isang punong sugnay lamang." },
+        { "term": "tambalan", "def": "Dalawang punong sugnay. Pang-ugnay: at, ngunit, o." },
+        { "term": "hugnayan", "def": "Punong sugnay at palipong sugnay. Pang-ugnay: dahil, kung, kapag." },
+        { "term": "langkapan", "def": "Pinagsamang tambalan at hugnayan." },
+        { "term": "Kumbensiyon sa Tejeros", "def": "Marso 1897. Nanalo si Aguinaldo; tumutol si Bonifacio." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Balik-aral",
+      "title": "Ang apat na mahalaga",
+      "points": [
+        "**Punong sugnay:** kayang mag-isa. **Palipon:** hindi.",
+        "**Payak 1. Tambalan 2 punong sugnay.**",
+        "**Hugnayan:** punong sugnay at palipon.",
+        "**Tingnan ang pang-ugnay**, saka bilangin ang sugnay."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Ano ang punong sugnay?",
+      "options": [
+        "Sugnay na kayang tumayong mag-isa",
+        "Sugnay na nasa unahan ng pangungusap",
+        "Sugnay na may pang-ugnay",
+        "Ang pinakamahabang sugnay"
+      ],
+      "answerIndex": 0,
+      "explain": "Kayang tumayong mag-isa bilang buong pangungusap. Iyan ang pagsubok.",
+      "objective": "Matukoy ang punong sugnay at ang palipong sugnay"
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang palipong sugnay?",
+      "options": [
+        "dahil maaga siyang gumising",
+        "maaga siyang gumising",
+        "gumising siya",
+        "siya ay gumising"
+      ],
+      "answerIndex": 0,
+      "explain": "Ang \"dahil\" ang gumagawa nitong palipon. Hindi ito buo kung mag-isa.",
+      "objective": "Matukoy ang punong sugnay at ang palipong sugnay"
+    },
+    {
+      "type": "multiple",
+      "text": "Anong kayarian ang \"Naglalaro ang bata sa labas\"?",
+      "options": [
+        "Payak",
+        "Tambalan",
+        "Hugnayan",
+        "Langkapan"
+      ],
+      "answerIndex": 0,
+      "explain": "Isang punong sugnay lamang, kaya payak.",
+      "objective": "Maiba ang payak, tambalan, hugnayan at langkapan"
+    },
+    {
+      "type": "multiple",
+      "text": "Anong kayarian ang \"Nag-aral siya ngunit hindi siya pumasa\"?",
+      "options": [
+        "Tambalan",
+        "Payak",
+        "Hugnayan",
+        "Langkapan"
+      ],
+      "answerIndex": 0,
+      "explain": "Dalawang punong sugnay na pinag-ugnay ng \"ngunit\".",
+      "objective": "Maiba ang payak, tambalan, hugnayan at langkapan"
+    },
+    {
+      "type": "multiple",
+      "text": "Anong kayarian ang \"Uuwi siya kapag tapos na ang klase\"?",
+      "options": [
+        "Hugnayan",
+        "Tambalan",
+        "Payak",
+        "Langkapan"
+      ],
+      "answerIndex": 0,
+      "explain": "Ang \"kapag\" ay tanda ng hugnayan. Palipon ang ikalawang sugnay.",
+      "objective": "Maiba ang payak, tambalan, hugnayan at langkapan"
+    },
+    {
+      "type": "multiple",
+      "text": "Aling pang-ugnay ang ginagamit sa tambalang pangungusap?",
+      "options": [
+        "ngunit",
+        "dahil",
+        "kapag",
+        "sapagkat"
+      ],
+      "answerIndex": 0,
+      "explain": "at, ngunit, subalit at o ay para sa tambalan. Ang tatlong iba ay para sa hugnayan.",
+      "objective": "Magamit ang tamang pangatnig para sa bawat kayarian"
+    },
+    {
+      "type": "multiple",
+      "text": "Aling pang-ugnay ang tanda ng hugnayang pangungusap?",
+      "options": [
+        "sapagkat",
+        "at",
+        "ngunit",
+        "o"
+      ],
+      "answerIndex": 0,
+      "explain": "dahil, kung, kapag, nang at sapagkat ay para sa hugnayan.",
+      "objective": "Magamit ang tamang pangatnig para sa bawat kayarian"
+    },
+    {
+      "type": "order",
+      "text": "Isaayos ang kayarian ayon sa dami ng sugnay, mula sa pinakakaunti.",
+      "items": [
+        "Payak",
+        "Tambalan",
+        "Langkapan"
+      ],
+      "explain": "Isang sugnay, dalawang punong sugnay, at ang langkapan ang may pinakamarami.",
+      "objective": "Mabilang ang sugnay upang mauri ang isang pangungusap"
+    },
+    {
+      "type": "truefalse",
+      "text": "Ang langkapan ay pinagsamang tambalan at hugnayan.",
+      "answer": true,
+      "explain": "Oo. May dalawang punong sugnay at may palipong sugnay din.",
+      "objective": "Maiba ang payak, tambalan, hugnayan at langkapan"
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang nangyari sa Kumbensiyon sa Tejeros noong Marso 1897?",
+      "options": [
+        "Nahalal si Aguinaldo bilang pangulo",
+        "Nahalal si Bonifacio bilang pangulo",
+        "Natapos ang himagsikan",
+        "Sumuko ang Espanya"
+      ],
+      "answerIndex": 0,
+      "explain": "Nanalo si Aguinaldo. Ipinawalang-bisa ni Bonifacio ang pagpupulong at umalis.",
+      "objective": "Maunawaan ang naging wakas ni Andres Bonifacio"
+    },
+    {
+      "type": "multiple",
+      "text": "Paano namatay si Andres Bonifacio?",
+      "options": [
+        "Nilitis at pinatay ng mga kapwa rebolusyonaryo noong Mayo 1897",
+        "Napatay sa labanan laban sa Espanya",
+        "Namatay sa sakit sa Cavite",
+        "Ipinatapon sa Hong Kong"
+      ],
+      "answerIndex": 0,
+      "explain": "Ng sarili niyang panig, matapos ang hidwaan sa Tejeros. Kasama ang kapatid niyang si Procopio.",
+      "objective": "Maunawaan ang naging wakas ni Andres Bonifacio"
+    },
+    {
+      "type": "truefalse",
+      "text": "Napatay si Bonifacio ng mga sundalong Espanyol.",
+      "answer": false,
+      "explain": "Hindi. Ng sarili niyang panig, noong Mayo 1897. Ito ang pinakamabigat na bahagi ng kuwento.",
+      "objective": "Maunawaan ang naging wakas ni Andres Bonifacio"
+    }
+  ],
+  "teacher": {
+    "summary": "Linggo 5 ng Filipino: ang kayarian ng pangungusap. Nagsisimula ito sa sugnay dahil hindi mauuri ang pangungusap kung hindi kilala ang punong sugnay at ang palipong sugnay; ang lahat ng natitira ay pagbibilang. Ang pinakakapaki-pakinabang na bahagi ay ang listahan ng pang-ugnay, dahil ang salitang nag-uugnay ang halos laging nagsasabi ng sagot bago pa magbilang. IMPORTANTE PARA SA GURO O MAGULANG: walang buod ng Kapitulo 8 dito dahil hindi pa nakikita ang partikular na edisyon ng Supremo. Ang ikalawang kalahati ay tumpak na kasaysayan tungkol sa Tejeros at sa naging wakas ni Bonifacio, at hindi ito pinagaan — pinatay siya ng sarili niyang panig, at iyon ang totoo.",
+    "discussion": [
+      "Pabilangin siya ng sugnay bago siya sumagot. Ang pagmamadali ang dahilan ng halos lahat ng mali dito.",
+      "Itanong kung ano ang pagkakaiba ng \"at\" sa \"dahil\". Magkapantay laban sa nakabatay, at iyon ang buong aralin.",
+      "Pag-usapan kung bakit nagkagulo ang magkapanig sa loob ng iisang himagsikan.",
+      "Itanong kung ano ang nagbabago sa pagbabasa kapag alam mo na ang wakas."
+    ],
+    "extension": "Pasulatin siya ng apat na pangungusap tungkol sa iisang paksa, isa sa bawat kayarian. Ang paggawa ng langkapan ang magiging pinakamahirap, at iyon ang punto.",
+    "misconceptions": [
+      "'Ang mahabang pangungusap ay tambalan.' Ang haba ay walang kinalaman. Ang bilang ng sugnay ang mahalaga.",
+      "'Lahat ng may dalawang bahagi ay tambalan.' Kung palipon ang isang bahagi, hugnayan iyon.",
+      "'Napatay si Bonifacio ng mga Espanyol.' Ng sarili niyang panig, noong Mayo 1897.",
+      "'Si Bonifacio ang nanalo sa Tejeros.' Si Aguinaldo ang nahalal na pangulo."
+    ]
+  }
+}

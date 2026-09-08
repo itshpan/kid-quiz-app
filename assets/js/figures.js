@@ -2847,6 +2847,134 @@ function prayerParts() {
     });
 }
 
+/* ==========================================================================
+   FILIPINO FIGURES.
+   Affixation is the whole of Filipino word-building, and it is the one thing
+   a list cannot show: you have to see the root stay put while the affix
+   attaches around it. The infix in particular lands *inside* the root, which
+   is impossible to convey in prose and obvious in one picture.
+   ========================================================================== */
+
+function panlapi() {
+    const CH = 13.2;
+    // Segments are rendered left to right; the root keeps its colour so you
+    // can watch it survive intact inside every built word.
+    const line = (segs, y) => {
+        const total = segs.reduce((n, s) => n + s.t.length, 0);
+        let x = 200 - (total * CH) / 2;
+        return segs.map(s => {
+            const el = `<text class="fig-mono${s.root ? ' fig-sent-hi' : ''}" x="${x.toFixed(1)}" y="${y}">${s.t}</text>`;
+            x += s.t.length * CH;
+            return el;
+        }).join('');
+    };
+
+    const root = t => ({ t, root: true });
+    const fix = t => ({ t });
+
+    return demoSwitch({
+        id: 'pl', height: 232, capY: 178,
+        label: 'ISANG UGAT, APAT NA SALITA',
+        alt: 'The root sulat with a prefix, an infix, a suffix and both, showing the root staying intact',
+        demos: [
+            { btn: 'Unlapi',
+              svg: `<text class="fig-step" x="200" y="52" text-anchor="middle">SALITANG-UGAT: SULAT</text>`
+                 + line([fix('mag'), root('sulat')], 110)
+                 + `<text class="fig-step" x="200" y="140" text-anchor="middle">UNLAPI + UGAT</text>`,
+              a: 'Unlapi — nasa unahan ng salitang-ugat',
+              b: 'mag- + sulat = magsulat. Buo pa rin ang ugat.' },
+            { btn: 'Gitlapi',
+              svg: `<text class="fig-step" x="200" y="52" text-anchor="middle">SALITANG-UGAT: SULAT</text>`
+                 + line([root('s'), fix('um'), root('ulat')], 110)
+                 + `<text class="fig-step" x="200" y="140" text-anchor="middle">UGAT + GITLAPI SA LOOB</text>`,
+              a: 'Gitlapi — pumapasok sa loob ng ugat',
+              b: 's + -um- + ulat = sumulat. Ito ang mahirap makita.' },
+            { btn: 'Hulapi',
+              svg: `<text class="fig-step" x="200" y="52" text-anchor="middle">SALITANG-UGAT: SULAT</text>`
+                 + line([root('sulat'), fix('in')], 110)
+                 + `<text class="fig-step" x="200" y="140" text-anchor="middle">UGAT + HULAPI</text>`,
+              a: 'Hulapi — nasa hulihan ng salitang-ugat',
+              b: 'sulat + -in = sulatin.' },
+            { btn: 'Kabilaan',
+              svg: `<text class="fig-step" x="200" y="52" text-anchor="middle">SALITANG-UGAT: SULAT</text>`
+                 + line([fix('pag'), root('sulat'), fix('an')], 110)
+                 + `<text class="fig-step" x="200" y="140" text-anchor="middle">UNLAPI + UGAT + HULAPI</text>`,
+              a: 'Kabilaan — may panlapi sa unahan at hulihan',
+              b: 'pag- + sulat + -an = pagsulatan.' }
+        ]
+    });
+}
+
+/* ---------- Karaniwan against di-karaniwang ayos ---------- */
+/* The two orders are the same sentence, and "ay" is the visible tell. */
+function ayosPangungusap() {
+    const CH = 8.4;
+    const line = (segs, y) => {
+        const total = segs.reduce((n, s) => n + s.t.length, 0);
+        let x = 200 - (total * CH) / 2;
+        return segs.map(s => {
+            const cls = s.hi ? 'fig-sent fig-sent-hi' : 'fig-sent';
+            const el = `<text class="${cls}" x="${x.toFixed(1)}" y="${y}">${s.t}</text>`;
+            x += s.t.length * CH;
+            return el;
+        }).join('');
+    };
+
+    return demoSwitch({
+        id: 'ay', height: 232, capY: 178,
+        label: 'ISANG PANGUNGUSAP, DALAWANG AYOS',
+        alt: 'One sentence written in the usual order and then in the inverted order with the marker ay',
+        demos: [
+            { btn: 'Karaniwan',
+              svg: `<text class="fig-step" x="200" y="56" text-anchor="middle">PANAGURI MUNA</text>`
+                 + line([{ t: 'Kumakain ng mansanas ' }, { t: 'ang bata.', hi: true }], 104)
+                 + `<text class="fig-step" x="200" y="140" text-anchor="middle">PANAGURI — SIMUNO · WALANG "AY"</text>`,
+              a: 'Karaniwang ayos: panaguri muna, simuno sa huli',
+              b: 'Walang panandang "ay". Ito ang mas madalas sa Filipino.' },
+            { btn: 'Di-karaniwan',
+              svg: `<text class="fig-step" x="200" y="56" text-anchor="middle">SIMUNO MUNA</text>`
+                 + line([{ t: 'Ang bata ', hi: true }, { t: 'ay ' }, { t: 'kumakain ng mansanas.' }], 104)
+                 + `<text class="fig-step" x="200" y="140" text-anchor="middle">SIMUNO — "AY" — PANAGURI</text>`,
+              a: 'Di-karaniwang ayos: simuno muna, may "ay"',
+              b: 'Pareho ang kahulugan. Ang "ay" ang tanda nito.' }
+        ]
+    });
+}
+
+function kayarianSalita() {
+    return listPicker({
+        id: 'ks', label: 'APAT NA KAYARIAN NG SALITA',
+        alt: 'The four Filipino word structures with an example of each',
+        rows: [
+            { btn: 'Payak', short: 'Payak', a: 'Salitang-ugat lamang, walang panlapi',
+              b: 'bahay · laro · sulat · tubig' },
+            { btn: 'Maylapi', short: 'Maylapi', a: 'May panlapi sa ugat',
+              b: 'magbahay · naglaro · sumulat · tubigan' },
+            { btn: 'Inuulit', short: 'Inuulit', a: 'Inuulit ang buo o bahagi ng ugat',
+              b: 'araw-araw · bahay-bahay · sari-sari' },
+            { btn: 'Tambalan', short: 'Tambalan', a: 'Dalawang salitang-ugat na pinagsama',
+              b: 'hampaslupa · bahay-kubo · dalagang-bukid' }
+        ]
+    });
+}
+
+function kayarianPangungusap() {
+    return listPicker({
+        id: 'kp', label: 'APAT NA KAYARIAN NG PANGUNGUSAP',
+        alt: 'The four Filipino sentence structures with an example of each',
+        rows: [
+            { btn: 'Payak', short: 'Payak', a: 'Isang punong sugnay lamang',
+              b: 'Naglalaro ang bata sa labas.' },
+            { btn: 'Tambalan', short: 'Tambalan', a: 'Dalawang punong sugnay',
+              b: 'Naglaro siya at natulog agad. (at, ngunit, o)' },
+            { btn: 'Hugnayan', short: 'Hugnayan', a: 'Punong sugnay at palipong sugnay',
+              b: 'Natulog siya dahil pagod na siya. (dahil, kung, kapag)' },
+            { btn: 'Langkapan', short: 'Langkapan', a: 'Pinagsamang tambalan at hugnayan',
+              b: 'Naglaro siya at natulog dahil pagod na siya.' }
+        ]
+    });
+}
+
 export const FIGURES = {
     crumpleZone,
     muscleTypes,
@@ -2890,7 +3018,11 @@ export const FIGURES = {
     dayBlocks,
     homeRules,
     rockOrSand,
-    prayerParts
+    prayerParts,
+    panlapi,
+    ayosPangungusap,
+    kayarianSalita,
+    kayarianPangungusap
 };
 
 

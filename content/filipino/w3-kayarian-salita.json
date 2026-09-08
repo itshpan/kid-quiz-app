@@ -1,0 +1,399 @@
+{
+  "id": "fil-w3",
+  "courseId": "filipino",
+  "courseTitle": "Filipino",
+  "week": 3,
+  "title": "Kayarian ng Salita",
+  "subtitle": "Apat na uri, at isang tanong lamang ang kailangan mo.",
+  "estMinutes": 18,
+  "objectives": [
+    "Matukoy ang apat na kayarian ng salita",
+    "Maiba ang payak sa maylapi",
+    "Makilala ang inuulit at ang tambalan",
+    "Magamit ang isang tanong upang mauri ang anumang salita",
+    "Maunawaan ang kalagayan ng mga Pilipino noong panahon ng Katipunan"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🏗️",
+      "eyebrow": "Bahagi 1 · Apat na uri",
+      "title": "Noong nakaraang linggo binuo mo. Ngayon uuriin mo",
+      "text": "Alam mo na kung paano nabubuo ang salita. Ang kayarian ay ang pangalan ng resulta."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang apat",
+      "title": "Payak, maylapi, inuulit, tambalan",
+      "text": "Bawat salita sa Filipino ay nasa isa sa apat na ito. Walang ikalima.",
+      "points": [
+        "**Payak** — ugat lamang. *bahay*",
+        "**Maylapi** — may panlapi. *magbahay*",
+        "**Inuulit** — may pag-uulit. *bahay-bahay*",
+        "**Tambalan** — dalawang ugat. *bahay-kubo*"
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "kayarianSalita",
+      "eyebrow": "Tingnan mo",
+      "title": "Apat na kayarian, may halimbawa",
+      "text": "Pindutin ang bawat isa. May tanong sa pagsusulit mula sa lahat ng apat."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Anong kayarian ang salitang \"tubig\"?",
+        "options": [
+          "Payak",
+          "Maylapi",
+          "Inuulit",
+          "Tambalan"
+        ],
+        "answerIndex": 0,
+        "explain": "Payak. Salitang-ugat lamang ito, walang panlapi at walang pag-uulit."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang paraan",
+      "title": "Isang tanong, sunod-sunod",
+      "text": "Huwag mong hulaan. Itanong mo ito sa sarili mo, sa ganitong pagkakasunod-sunod.",
+      "points": [
+        "**May inuulit ba?** Kung oo — inuulit.",
+        "**May dalawang ugat ba?** Kung oo — tambalan.",
+        "**May panlapi ba?** Kung oo — maylapi.",
+        "**Wala sa lahat?** Payak."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🔧",
+      "eyebrow": "Mode ng sasakyan",
+      "title": "Pag-uuri bago pagkumpuni",
+      "text": "Bago hawakan ng mekaniko ang makina, inuuri muna niya kung anong klase ito. Pareho lang dito.",
+      "points": [
+        "**Alamin muna kung ano ang bagay.**",
+        "**Saka mo ito hawakan.**",
+        "**Nagkakamali ang naghuhula.**",
+        "**Ang tanong ang nagbibigay ng sagot**, hindi ang pakiramdam."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Anong kayarian ang \"sari-sari\"?",
+        "options": [
+          "Inuulit",
+          "Payak",
+          "Maylapi",
+          "Tambalan"
+        ],
+        "answerIndex": 0,
+        "explain": "Inuulit. Ang buong salita ay inulit at may gitling sa pagitan."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang mahirap",
+      "title": "Inuulit o tambalan?",
+      "text": "Pareho silang may gitling, kaya madalas silang pinagkakamalian. Isang tanong lamang ang pinagkaiba.",
+      "points": [
+        "**Inuulit:** pareho ang dalawang bahagi. *araw-araw*",
+        "**Tambalan:** magkaiba ang dalawa. *bahay-kubo*",
+        "**Titingnan mo kung magkatulad ba.**",
+        "**Iyan lang.** Wala nang iba."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Anong kayarian ang \"hampaslupa\"?",
+        "options": [
+          "Tambalan",
+          "Inuulit",
+          "Payak",
+          "Maylapi"
+        ],
+        "answerIndex": 0,
+        "explain": "Tambalan. Magkaibang ugat ang hampas at lupa, kaya hindi ito inuulit."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Magandang tigilan",
+      "text": "Tapos na ang kayarian. Ang Bahagi 2 ay paghahanda sa Kapitulo 5 at 6. Nakatala ang puwesto mo."
+    },
+    {
+      "kind": "open",
+      "icon": "📕",
+      "eyebrow": "Bahagi 2 · Pagbasa",
+      "title": "Ang buhay ng karaniwang Pilipino noon",
+      "text": "Para maintindihan kung bakit sumali ang mga tao sa Katipunan, kailangan mong malaman kung ano ang inaalis nila."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang pasanin",
+      "title": "Cedula, polo at tributo",
+      "text": "Tatlong salitang lilitaw sa nobela. Hindi ito mga detalye lamang — ito ang dahilan.",
+      "points": [
+        "**Cedula** — patunay na nagbabayad ka ng buwis.",
+        "**Polo** — sapilitang paggawa para sa gobyerno.",
+        "**Ginawang labinlimang araw ito noong 1884**, mula sa apatnapu.",
+        "**Kailangan mong dalhin ang cedula** kahit saan."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Mode ng kuwento",
+      "title": "Ang pinunit na papel",
+      "text": "Noong Agosto 1896, pinunit ng mga Katipunero ang kanilang cedula. Iyon ang simula ng himagsikan.",
+      "points": [
+        "**Isang resibo lamang ito**, hanggang sa punitin.",
+        "**Ang ibig sabihin:** hindi na ako sakop ng Espanya.",
+        "**Walang salita ang kailangan.**",
+        "**Mas malakas ang sagisag** kaysa sa talumpati."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Ano ang cedula?",
+        "options": [
+          "Patunay na nagbabayad ka ng buwis sa Espanya",
+          "Isang uri ng sandata",
+          "Ang tanda ng pagiging Katipunero",
+          "Isang pahayagan"
+        ],
+        "answerIndex": 0,
+        "explain": "Buwis. Kaya nga makapangyarihan ang pagpunit nito: pagtanggi iyon sa pagiging sakop."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "⚡",
+      "eyebrow": "Ang katawan mo ngayon",
+      "title": "Labinlimang araw ng sapilitang paggawa",
+      "text": "Isipin mo ang bigat ng trabahong iyon, taun-taon, nang walang bayad, bukod pa sa sarili mong hanapbuhay.",
+      "points": [
+        "**Pisikal na trabaho** — daan, tulay, gusali.",
+        "**Walang pahinga at walang pagpipilian.**",
+        "**Nakakapagod ang katawan**, at hindi ito nakakabawi.",
+        "**Kaya ito laging nasa listahan** ng mga hinihinging reporma."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Habang nagbabasa",
+      "title": "Idagdag mo ang ikaapat na tanong",
+      "text": "May tatlong tanong ka na: tauhan, tagpuan, suliranin. May bago ngayong linggo.",
+      "points": [
+        "**Bakit ginawa iyon ng tauhan?**",
+        "**Ang dahilan ang mahirap**, hindi ang pangyayari.",
+        "**Kung hindi malinaw, isulat mo pa rin ang hula mo.**",
+        "**Babalikan mo iyan sa susunod na kabanata.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Inalis ng Espanya ang polo o sapilitang paggawa bago matapos ang panahon nila.",
+        "answer": false,
+        "explain": "Hindi. Ginawa itong labinlimang araw noong 1884 mula sa apatnapu, pero hindi kailanman inalis."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Mga salitang gagamitin sa pagsusulit",
+      "terms": [
+        { "term": "kayarian ng salita", "def": "Ang uri ng salita ayon sa pagkakabuo nito: payak, maylapi, inuulit o tambalan." },
+        { "term": "payak", "def": "Salitang-ugat lamang, walang panlapi at walang pag-uulit." },
+        { "term": "maylapi", "def": "Salitang may panlapi sa ugat." },
+        { "term": "inuulit", "def": "Salitang inulit ang buo o bahagi. Magkatulad ang dalawang bahagi." },
+        { "term": "tambalan", "def": "Dalawang magkaibang salitang-ugat na pinagsama." },
+        { "term": "cedula", "def": "Patunay ng pagbabayad ng buwis. Kailangang dalhin kahit saan." },
+        { "term": "polo", "def": "Sapilitang paggawa para sa gobyernong Espanyol." },
+        { "term": "Sigaw sa Pugad Lawin", "def": "Agosto 1896. Pinunit ng mga Katipunero ang kanilang cedula." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Balik-aral",
+      "title": "Ang apat na mahalaga",
+      "points": [
+        "**Payak, maylapi, inuulit, tambalan.**",
+        "**Sunod-sunod ang tanong.** Huwag manghula.",
+        "**Magkatulad = inuulit. Magkaiba = tambalan.**",
+        "**Cedula at polo:** ang pasaning inaalis nila."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Anong kayarian ang salitang \"laro\"?",
+      "options": [
+        "Payak",
+        "Maylapi",
+        "Inuulit",
+        "Tambalan"
+      ],
+      "answerIndex": 0,
+      "explain": "Payak. Ugat lamang, walang anumang dagdag.",
+      "objective": "Maiba ang payak sa maylapi"
+    },
+    {
+      "type": "multiple",
+      "text": "Anong kayarian ang \"naglalakad\"?",
+      "options": [
+        "Maylapi",
+        "Payak",
+        "Tambalan",
+        "Inuulit"
+      ],
+      "answerIndex": 0,
+      "explain": "Maylapi. May unlaping nag- sa ugat na lakad.",
+      "objective": "Maiba ang payak sa maylapi"
+    },
+    {
+      "type": "multiple",
+      "text": "Anong kayarian ang \"araw-araw\"?",
+      "options": [
+        "Inuulit",
+        "Tambalan",
+        "Payak",
+        "Maylapi"
+      ],
+      "answerIndex": 0,
+      "explain": "Inuulit, dahil magkatulad ang dalawang bahagi.",
+      "objective": "Makilala ang inuulit at ang tambalan"
+    },
+    {
+      "type": "multiple",
+      "text": "Anong kayarian ang \"bahay-kubo\"?",
+      "options": [
+        "Tambalan",
+        "Inuulit",
+        "Payak",
+        "Maylapi"
+      ],
+      "answerIndex": 0,
+      "explain": "Tambalan. Magkaiba ang bahay at kubo, kaya hindi ito inuulit.",
+      "objective": "Makilala ang inuulit at ang tambalan"
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang pinagkaiba ng inuulit at tambalan?",
+      "options": [
+        "Magkatulad ang dalawang bahagi ng inuulit; magkaiba sa tambalan",
+        "May gitling lang ang inuulit",
+        "Mas mahaba ang tambalan",
+        "Walang pinagkaiba"
+      ],
+      "answerIndex": 0,
+      "explain": "Isang tanong lamang: magkatulad ba ang dalawang bahagi o hindi?",
+      "objective": "Makilala ang inuulit at ang tambalan"
+    },
+    {
+      "type": "order",
+      "text": "Isaayos ang mga tanong sa pag-uuri, mula sa una.",
+      "items": [
+        "May inuulit ba?",
+        "May dalawang ugat ba?",
+        "May panlapi ba?",
+        "Wala sa lahat — payak"
+      ],
+      "explain": "Sunod-sunod ang tanong, at ang payak ang natitira kapag wala nang ibang sagot.",
+      "objective": "Magamit ang isang tanong upang mauri ang anumang salita"
+    },
+    {
+      "type": "truefalse",
+      "text": "May ikalimang kayarian ng salita sa Filipino.",
+      "answer": false,
+      "explain": "Wala. Apat lamang: payak, maylapi, inuulit at tambalan.",
+      "objective": "Matukoy ang apat na kayarian ng salita"
+    },
+    {
+      "type": "type",
+      "text": "Anong kayarian ang salitang \"dalagang-bukid\"?",
+      "accept": [
+        "tambalan",
+        "tambalang salita",
+        "salitang tambalan"
+      ],
+      "explain": "Tambalan. Dalaga at bukid, dalawang magkaibang ugat.",
+      "objective": "Makilala ang inuulit at ang tambalan"
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang cedula?",
+      "options": [
+        "Patunay ng pagbabayad ng buwis sa Espanya",
+        "Isang uri ng bahay",
+        "Ang bandila ng Katipunan",
+        "Isang aklat ni Rizal"
+      ],
+      "answerIndex": 0,
+      "explain": "Buwis, at kailangan itong dalhin kahit saan. Kaya makapangyarihan ang pagpunit nito.",
+      "objective": "Maunawaan ang kalagayan ng mga Pilipino noong panahon ng Katipunan"
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang polo?",
+      "options": [
+        "Sapilitang paggawa para sa gobyerno",
+        "Isang uri ng damit",
+        "Ang buwis sa lupa",
+        "Isang laro noong panahong iyon"
+      ],
+      "answerIndex": 0,
+      "explain": "Sapilitang paggawa. Ginawa itong labinlimang araw noong 1884, pero hindi inalis.",
+      "objective": "Maunawaan ang kalagayan ng mga Pilipino noong panahon ng Katipunan"
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang ibig sabihin ng pagpunit ng cedula noong 1896?",
+      "options": [
+        "Pagtanggi sa pagiging sakop ng Espanya",
+        "Pagtanggi sa Katipunan",
+        "Pagtatapos ng pag-aaral",
+        "Pagsali sa hukbong Espanyol"
+      ],
+      "answerIndex": 0,
+      "explain": "Isang resibo lamang ito hanggang sa punitin. Pagkatapos, isa na itong pahayag.",
+      "objective": "Maunawaan ang kalagayan ng mga Pilipino noong panahon ng Katipunan"
+    },
+    {
+      "type": "truefalse",
+      "text": "Inalis ng Espanya ang polo bago matapos ang panahon ng pananakop nila.",
+      "answer": false,
+      "explain": "Hindi. Binawasan lamang ito noong 1884, mula apatnapung araw patungong labinlima.",
+      "objective": "Maunawaan ang kalagayan ng mga Pilipino noong panahon ng Katipunan"
+    }
+  ],
+  "teacher": {
+    "summary": "Linggo 3 ng Filipino: ang kayarian ng salita. Sinusundan nito ang Linggo 2 nang sinadya — noong nakaraan ay pagbuo, ngayon ay pag-uuri ng resulta. Ang pinakamahalagang bahagi ay ang sunod-sunod na tanong, dahil ang pinakamadalas na pagkakamali ay ang panghuhula sa halip na pagsuri; at ang pares na inuulit at tambalan ay binigyan ng sariling kard dahil pareho silang may gitling at doon nagkakamali ang halos lahat. IMPORTANTE PARA SA GURO O MAGULANG: walang buod ng Kapitulo 5 at 6 dito dahil hindi pa nakikita ang partikular na edisyon ng Supremo. Ang ikalawang kalahati ay tumpak na paghahandang pangkasaysayan tungkol sa cedula at polo, na siyang dahilan kung bakit sumali ang mga tao sa Katipunan.",
+    "discussion": [
+      "Bigyan siya ng sampung salita at pauriin nang pasalita, gamit ang sunod-sunod na tanong. Ang pagsasalita ang nagpapatibay ng paraan.",
+      "Itanong kung bakit magkamukha ang araw-araw at ang bahay-kubo sa papel. Ang gitling ang nagpapalito, at ang sagot ay nasa dalawang bahagi.",
+      "Pag-usapan kung ano ang labinlimang araw ng sapilitang paggawa bawat taon, nang walang bayad.",
+      "Itanong kung bakit ang pagpunit ng papel ang naging simula ng himagsikan."
+    ],
+    "extension": "Pahanapin siya ng isang halimbawa ng bawat kayarian sa isang pahina ng aklat na binabasa niya. Mas mahirap sa tunay na teksto kaysa sa listahan, at iyon ang punto.",
+    "misconceptions": [
+      "'Ang lahat ng may gitling ay inuulit.' Ang tambalan ay may gitling din. Tingnan kung magkatulad ang dalawang bahagi.",
+      "'Ang payak ay maikling salita.' Ang payak ay ugat lamang, gaano man kahaba.",
+      "'Ang cedula ay tanda ng pagiging Katipunero.' Buwis ito ng gobyernong Espanyol.",
+      "'Inalis ang polo dahil sa reklamo ng mga Pilipino.' Binawasan lamang noong 1884, at hindi kailanman inalis."
+    ]
+  }
+}

@@ -1,0 +1,400 @@
+{
+  "id": "fil-w4",
+  "courseId": "filipino",
+  "courseTitle": "Filipino",
+  "week": 4,
+  "title": "Bahagi at Ayos ng Pangungusap",
+  "subtitle": "Dalawang bahagi, dalawang ayos, at isang maliit na salitang \"ay\".",
+  "estMinutes": 18,
+  "objectives": [
+    "Matukoy ang simuno at ang panaguri",
+    "Maiba ang karaniwan sa di-karaniwang ayos",
+    "Magamit nang wasto ang panandang ay",
+    "Makapagpalit ng ayos ng isang pangungusap",
+    "Maunawaan ang pagsisimula ng himagsikan noong 1896"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "✂️",
+      "eyebrow": "Bahagi 1 · Dalawang bahagi",
+      "title": "Bawat pangungusap ay may dalawang bahagi",
+      "text": "Isa ang pinag-uusapan. Isa ang sinasabi tungkol dito. Iyon lang, at laging dalawa."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang dalawa",
+      "title": "Simuno at panaguri",
+      "text": "Ang simuno ang paksa. Ang panaguri ang sinasabi tungkol sa paksa.",
+      "points": [
+        "**Simuno** — sino o ano ang pinag-uusapan.",
+        "**Panaguri** — ano ang ginagawa o ano ito.",
+        "**\"Ang bata\"** — simuno. **\"kumakain\"** — panaguri.",
+        "**Hanapin ang \"ang\"** — madalas nasa simuno ito."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Sa \"Tumakbo ang aso sa parke\", ano ang simuno?",
+        "options": [
+          "ang aso",
+          "tumakbo",
+          "sa parke",
+          "tumakbo sa parke"
+        ],
+        "answerIndex": 0,
+        "explain": "Ang aso ang pinag-uusapan. Ang \"tumakbo sa parke\" ang panaguri."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang ayos",
+      "title": "Dalawang paraan ng pagsulat ng iisang pangungusap",
+      "text": "Puwedeng mauna ang panaguri o mauna ang simuno. Pareho ang kahulugan, magkaiba ang tawag.",
+      "points": [
+        "**Karaniwan:** panaguri muna, simuno sa huli.",
+        "**Di-karaniwan:** simuno muna, may \"ay\" sa gitna.",
+        "**Ang \"ay\" ang tanda.** Kapag naroon, di-karaniwan.",
+        "**Baligtad ito sa Ingles.** Bantayan mo."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "ayosPangungusap",
+      "eyebrow": "Tingnan mo",
+      "title": "Isang pangungusap, dalawang ayos",
+      "text": "Pindutin ang dalawa. Bantayan mo kung saan lumilipat ang simuno at kailan lumilitaw ang \"ay\"."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Alin ang nasa KARANIWANG ayos?",
+        "options": [
+          "Naglalaro ang mga bata sa labas.",
+          "Ang mga bata ay naglalaro sa labas.",
+          "Sa labas ay naglalaro ang mga bata.",
+          "Ang mga bata sa labas ay naglalaro."
+        ],
+        "answerIndex": 0,
+        "explain": "Karaniwan kapag panaguri muna at walang \"ay\". Ang tatlong iba ay di-karaniwan."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🏎️",
+      "eyebrow": "Mode ng sasakyan",
+      "title": "Pareho ang ruta, iba ang simula",
+      "text": "Sa isang karera, puwedeng magsimula sa iba't ibang puwesto ang dalawang sasakyan. Pareho pa rin ang ruta.",
+      "points": [
+        "**Pareho ang kahulugan** ng dalawang ayos.",
+        "**Ang pagkakaiba ay kung ano ang unang naririnig.**",
+        "**Ang di-karaniwan ay nagbibigay-diin sa simuno.**",
+        "**Pagpipilian ito**, hindi tama at mali."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang paglipat",
+      "title": "Paano magpalit ng ayos",
+      "text": "Isang paraan lamang ang kailangan mo, at gumagana ito sa alinmang direksiyon.",
+      "points": [
+        "**Karaniwan patungong di-karaniwan:** ilipat ang simuno sa unahan.",
+        "**Idagdag ang \"ay\"** pagkatapos ng simuno.",
+        "**Pabalik:** alisin ang \"ay\", ibalik ang simuno sa dulo.",
+        "**Walang ibang binabago.** Ang salita ay pareho."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Baguhin sa di-karaniwang ayos: \"Umuulan sa Maynila.\"",
+        "options": [
+          "Sa Maynila ay umuulan.",
+          "Umuulan ay sa Maynila.",
+          "Ay umuulan sa Maynila.",
+          "Sa Maynila umuulan ay."
+        ],
+        "answerIndex": 0,
+        "explain": "Iuuna ang bahaging binibigyang-diin, at ilalagay ang \"ay\" pagkatapos nito."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Magandang tigilan",
+      "text": "Tapos na ang ayos. Ang Bahagi 2 ay paghahanda sa Kapitulo 7. Nakatala ang puwesto mo."
+    },
+    {
+      "kind": "open",
+      "icon": "📕",
+      "eyebrow": "Bahagi 2 · Pagbasa",
+      "title": "Agosto 1896: natuklasan ang lihim",
+      "text": "Apat na taon nanatiling lihim ang Katipunan. Sa isang linggo, natapos iyon."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang pagkatuklas",
+      "title": "Paano ito natuklasan",
+      "text": "May nagsalita sa loob ng isang imprentahan sa Maynila. Umabot ito sa mga awtoridad, at nagsimula ang mga pag-aresto.",
+      "points": [
+        "**Natuklasan sa imprentahan ng *Diario de Manila*.**",
+        "**Agad na nagsimula ang panghuhuli.**",
+        "**Wala nang matataguan.**",
+        "**Kaya inilabas ni Bonifacio ang lahat.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Agosto 1896",
+      "title": "Ang Sigaw",
+      "text": "Nagtipon ang mga Katipunero at pinunit ang kanilang cedula. Iyon ang pormal na simula ng himagsikan.",
+      "points": [
+        "**Sigaw sa Pugad Lawin**, Agosto 1896.",
+        "**Pinagtatalunan pa rin ng mga mananalaysay** ang eksaktong petsa.",
+        "**Walong lalawigan** ang inilagay sa batas militar.",
+        "**Iyan ang walong sinag** sa bandila natin."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Ano ang ginawa ng mga Katipunero sa Sigaw?",
+        "options": [
+          "Pinunit nila ang kanilang cedula",
+          "Sinunog nila ang bandila ng Espanya",
+          "Sumuko sila sa mga awtoridad",
+          "Bumoto sila ng bagong pinuno"
+        ],
+        "answerIndex": 0,
+        "explain": "Pinunit ang cedula. Pagtanggi iyon sa pagiging sakop, at nakikita ng lahat."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Mode ng boksing",
+      "title": "Wala nang atrasan",
+      "text": "May sandali sa laban na hindi ka na puwedeng umatras. Ganoon ang Agosto 1896 para sa Katipunan.",
+      "points": [
+        "**Natuklasan na sila.** Wala nang lihim.",
+        "**Ang pagtatago ay hindi na pagpipilian.**",
+        "**Ang desisyon ay ginawa para sa kanila.**",
+        "**Minsan hindi ka na ang pumipili** ng oras."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Mode ng kuwento",
+      "title": "Ang sandali ng pagbabago",
+      "text": "Sa bawat kuwento may sandaling hindi na maibabalik ang mga bagay. Hanapin mo iyon sa Kapitulo 7.",
+      "points": [
+        "**Bago nito, may pagpipilian pa.**",
+        "**Pagkatapos nito, wala na.**",
+        "**Ito ang pinakamahalagang sandali** sa isang kabanata.",
+        "**Isulat mo kung nasaan mo ito nakita.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Nagkakasundo ang mga mananalaysay sa eksaktong petsa at lugar ng Sigaw.",
+        "answer": false,
+        "explain": "Hindi. Pinagtatalunan pa rin ito hanggang ngayon. Malinaw ang nangyari, hindi ang detalye."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Mga salitang gagamitin sa pagsusulit",
+      "terms": [
+        { "term": "simuno", "def": "Ang paksa ng pangungusap. Sino o ano ang pinag-uusapan." },
+        { "term": "panaguri", "def": "Ang sinasabi tungkol sa simuno." },
+        { "term": "karaniwang ayos", "def": "Panaguri muna, simuno sa huli. Walang panandang ay." },
+        { "term": "di-karaniwang ayos", "def": "Simuno muna, may panandang ay bago ang panaguri." },
+        { "term": "panandang ay", "def": "Ang maliit na salitang tanda ng di-karaniwang ayos." },
+        { "term": "Sigaw sa Pugad Lawin", "def": "Agosto 1896. Pinunit ang cedula at nagsimula ang himagsikan." },
+        { "term": "walong sinag", "def": "Ang walong lalawigang unang inilagay sa batas militar noong 1896." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Balik-aral",
+      "title": "Ang apat na mahalaga",
+      "points": [
+        "**Simuno at panaguri.** Laging dalawa.",
+        "**Karaniwan:** panaguri muna, walang \"ay\".",
+        "**Di-karaniwan:** simuno muna, may \"ay\".",
+        "**Agosto 1896:** natuklasan, at nagsimula."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Sa \"Kumakanta ang bata sa entablado\", ano ang simuno?",
+      "options": [
+        "ang bata",
+        "kumakanta",
+        "sa entablado",
+        "kumakanta sa entablado"
+      ],
+      "answerIndex": 0,
+      "explain": "Ang bata ang pinag-uusapan. Ang natitira ay panaguri.",
+      "objective": "Matukoy ang simuno at ang panaguri"
+    },
+    {
+      "type": "multiple",
+      "text": "Sa \"Ang guro ay nagturo ng matematika\", ano ang panaguri?",
+      "options": [
+        "nagturo ng matematika",
+        "ang guro",
+        "ay",
+        "ng matematika"
+      ],
+      "answerIndex": 0,
+      "explain": "Ang sinasabi tungkol sa guro. Ang \"ay\" ay pananda lamang, hindi bahagi ng alinman.",
+      "objective": "Matukoy ang simuno at ang panaguri"
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang nasa karaniwang ayos?",
+      "options": [
+        "Naglilinis ng bahay ang nanay.",
+        "Ang nanay ay naglilinis ng bahay.",
+        "Ang bahay ay nililinis ng nanay.",
+        "Sa bahay ay naglilinis ang nanay."
+      ],
+      "answerIndex": 0,
+      "explain": "Panaguri muna at walang \"ay\". Iyan ang karaniwang ayos.",
+      "objective": "Maiba ang karaniwan sa di-karaniwang ayos"
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang nasa di-karaniwang ayos?",
+      "options": [
+        "Si Ana ay sumayaw sa palaro.",
+        "Sumayaw si Ana sa palaro.",
+        "Sumayaw sa palaro si Ana.",
+        "Sa palaro sumayaw si Ana."
+      ],
+      "answerIndex": 0,
+      "explain": "Simuno muna at may \"ay\". Iyan ang tanda ng di-karaniwang ayos.",
+      "objective": "Maiba ang karaniwan sa di-karaniwang ayos"
+    },
+    {
+      "type": "truefalse",
+      "text": "Sa karaniwang ayos, nauuna ang panaguri.",
+      "answer": true,
+      "explain": "Oo, at ito ang mas madalas sa Filipino. Baligtad ito sa nakasanayan sa Ingles.",
+      "objective": "Maiba ang karaniwan sa di-karaniwang ayos"
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang tanda ng di-karaniwang ayos?",
+      "options": [
+        "Ang panandang ay",
+        "Ang salitang ang",
+        "Ang salitang ng",
+        "Ang bantas sa dulo"
+      ],
+      "answerIndex": 0,
+      "explain": "Ang \"ay\". Kapag naroon ito, di-karaniwan ang ayos.",
+      "objective": "Magamit nang wasto ang panandang ay"
+    },
+    {
+      "type": "type",
+      "text": "Isulat sa di-karaniwang ayos: \"Naglaro ang bata.\"",
+      "accept": [
+        "ang bata ay naglaro",
+        "ang bata ay naglaro.",
+        "Ang bata ay naglaro",
+        "Ang bata ay naglaro."
+      ],
+      "explain": "Iuuna ang simuno, saka ilalagay ang \"ay\" bago ang panaguri.",
+      "objective": "Makapagpalit ng ayos ng isang pangungusap"
+    },
+    {
+      "type": "multiple",
+      "text": "Baguhin sa karaniwang ayos: \"Ang aso ay natulog sa silong.\"",
+      "options": [
+        "Natulog sa silong ang aso.",
+        "Ay natulog sa silong ang aso.",
+        "Sa silong ay natulog ang aso.",
+        "Ang aso natulog sa silong."
+      ],
+      "answerIndex": 0,
+      "explain": "Alisin ang \"ay\" at ibalik ang simuno sa dulo. Wala nang ibang binago.",
+      "objective": "Makapagpalit ng ayos ng isang pangungusap"
+    },
+    {
+      "type": "multiple",
+      "text": "Saan natuklasan ang Katipunan noong Agosto 1896?",
+      "options": [
+        "Sa imprentahan ng Diario de Manila",
+        "Sa Malacañang",
+        "Sa isang simbahan sa Cavite",
+        "Sa Unibersidad ng Santo Tomas"
+      ],
+      "answerIndex": 0,
+      "explain": "Sa imprentahan. Umabot ito sa mga awtoridad at agad nagsimula ang panghuhuli.",
+      "objective": "Maunawaan ang pagsisimula ng himagsikan noong 1896"
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang kinakatawan ng walong sinag sa bandila?",
+      "options": [
+        "Ang walong lalawigang unang inilagay sa batas militar",
+        "Ang walong taon ng himagsikan",
+        "Ang walong tagapagtatag ng Katipunan",
+        "Ang walong pinakamalaking isla"
+      ],
+      "answerIndex": 0,
+      "explain": "Walong lalawigan noong 1896. Ang tatlong bituin naman ay Luzon, Visayas at Mindanao.",
+      "objective": "Maunawaan ang pagsisimula ng himagsikan noong 1896"
+    },
+    {
+      "type": "truefalse",
+      "text": "Malinaw at tiyak ang eksaktong petsa at lugar ng Sigaw.",
+      "answer": false,
+      "explain": "Hindi. Pinagtatalunan pa rin ito. Malinaw ang pangyayari, hindi ang eksaktong detalye.",
+      "objective": "Maunawaan ang pagsisimula ng himagsikan noong 1896"
+    },
+    {
+      "type": "multiple",
+      "text": "Bakit inilabas ni Bonifacio ang Katipunan noong Agosto 1896?",
+      "options": [
+        "Dahil natuklasan na sila at nagsimula na ang mga pag-aresto",
+        "Dahil sapat na ang bilang nila",
+        "Dahil inutusan sila ni Rizal",
+        "Dahil tapos na ang mga sandata nila"
+      ],
+      "answerIndex": 0,
+      "explain": "Wala nang matataguan. Ang desisyon ay ginawa para sa kanila ng pagkatuklas.",
+      "objective": "Maunawaan ang pagsisimula ng himagsikan noong 1896"
+    }
+  ],
+  "teacher": {
+    "summary": "Linggo 4 ng Filipino: ang bahagi at ayos ng pangungusap. Ang pinakamahalagang punto ay ang karaniwang ayos, dahil kabaligtaran ito ng inaasahan ng sinumang sanay sa Ingles: sa Filipino, ang panaguri ang nauuna at ang simuno ang nasa huli, at ang panandang \"ay\" ang tanda ng di-karaniwang ayos. Ang larawang ayosPangungusap ay iisang pangungusap sa dalawang anyo, na may tanda sa simuno at sa \"ay\", dahil ang paghahambing ng magkaibang pangungusap ay walang itinuturo tungkol sa ayos. IMPORTANTE PARA SA GURO O MAGULANG: walang buod ng Kapitulo 7 dito dahil hindi pa nakikita ang partikular na edisyon ng Supremo. Ang ikalawang kalahati ay tumpak na paghahanda tungkol sa Agosto 1896.",
+    "discussion": [
+      "Pabaguhin sa kanya ang isang pangungusap paroo't parito, nang limang beses. Ang paggawa ang nagpapatibay nito, hindi ang pagkilala.",
+      "Itanong kung bakit kabaligtaran ito ng Ingles. Sapat nang mapansin niya ito nang malinaw.",
+      "Pag-usapan kung ano ang nangyayari kapag natuklasan ang isang lihim na samahan.",
+      "Itanong kung saan sa Kapitulo 7 ang sandaling hindi na maibabalik ang mga bagay."
+    ],
+    "extension": "Pumili ng isang talata mula sa binabasa niya at pauriin ang bawat pangungusap: karaniwan o di-karaniwan. Sa tunay na teksto, mas madalas ang karaniwan kaysa sa inaakala niya.",
+    "misconceptions": [
+      "'Ang simuno ang laging nauuna.' Sa karaniwang ayos, ang panaguri ang nauuna. Iyan ang mas madalas sa Filipino.",
+      "'Ang ay ay pandiwa.' Pananda lamang ito ng di-karaniwang ayos.",
+      "'Mali ang di-karaniwang ayos.' Pareho silang tama. Pagpipilian ito, at nagbibigay-diin sa simuno.",
+      "'Tiyak ang petsa ng Sigaw.' Pinagtatalunan pa rin ito ng mga mananalaysay."
+    ]
+  }
+}

@@ -1,0 +1,412 @@
+{
+  "id": "fil-w2",
+  "courseId": "filipino",
+  "courseTitle": "Filipino",
+  "week": 2,
+  "title": "Pagbuo ng Salita",
+  "subtitle": "Isang salitang-ugat, at ang mga paraan ng pagpapalawak nito.",
+  "estMinutes": 18,
+  "objectives": [
+    "Matukoy ang salitang-ugat sa loob ng isang salita",
+    "Maiba ang unlapi, gitlapi, hulapi at kabilaan",
+    "Makabuo ng bagong salita sa pamamagitan ng paglalapi",
+    "Maipaliwanag ang pag-uulit at ang pagtatambal",
+    "Maisulat ang tatlong tanong sa pagbasa ng Supremo"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🧩",
+      "eyebrow": "Bahagi 1 · Paglalapi",
+      "title": "Isang salita, sampung anyo",
+      "text": "Mula sa isang salitang-ugat na \"sulat\", makakabuo ka ng napakaraming salita. Hindi ito pagsasaulo. Sistema ito."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang pundasyon",
+      "title": "Ang salitang-ugat",
+      "text": "Ito ang salitang walang panlapi. Ito ang natitira kapag tinanggal mo ang lahat ng idinagdag.",
+      "points": [
+        "**sulat, laro, kain, ganda** — mga salitang-ugat.",
+        "**Hanapin mo muna ito** bago ang panlapi.",
+        "**Hindi nagbabago ang ugat** kahit anong idagdag.",
+        "**Ito ang nagdadala ng kahulugan.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang panlapi",
+      "title": "Apat na uri ng panlapi",
+      "text": "Nakabatay ang pangalan sa kung saan nakakabit ang panlapi. Iyon lang ang pagkakaiba.",
+      "points": [
+        "**Unlapi** — sa unahan. *mag*-sulat.",
+        "**Gitlapi** — sa loob. s*um*ulat.",
+        "**Hulapi** — sa hulihan. sulat*in*.",
+        "**Kabilaan** — sa unahan at hulihan. *pag*sulat*an*."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "panlapi",
+      "eyebrow": "Tingnan mo",
+      "title": "Isang ugat, apat na salita",
+      "text": "Pindutin ang bawat isa. Bantayan mo ang kulay: iyon ang ugat, at buo pa rin siya."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Anong uri ng panlapi ang -um- sa salitang \"sumulat\"?",
+        "options": [
+          "Gitlapi",
+          "Unlapi",
+          "Hulapi",
+          "Kabilaan"
+        ],
+        "answerIndex": 0,
+        "explain": "Gitlapi, dahil pumapasok ito sa loob ng ugat. Nahati ang \"sulat\" para papasukin ito."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Mode ng laro",
+      "title": "Parang crafting ito",
+      "text": "May base item ka, at may mga bagay kang idinadagdag dito. Nagbabago ang gamit, pero ang base ay base pa rin.",
+      "points": [
+        "**Ang ugat ang base item.**",
+        "**Ang panlapi ang idinagdag.**",
+        "**Ibang gamit, pareho ang pinagmulan.**",
+        "**Kailangan mong makilala ang base** para maintindihan ito."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "Ano ang salitang-ugat ng \"naglalaro\"?",
+        "accept": [
+          "laro",
+          "ang laro",
+          "laro."
+        ],
+        "explain": "Laro. Ang nag- at ang pag-uulit ng la- ay mga dagdag. Ang ugat ay hindi nagbago."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ikalawang paraan",
+      "title": "Pag-uulit",
+      "text": "Maaari mong ulitin ang buong salita o bahagi lamang nito. May gitling kapag buo ang inuulit.",
+      "points": [
+        "**Buong salita:** araw-araw, bahay-bahay.",
+        "**Bahagi lamang:** lalakad, sasayaw, tatakbo.",
+        "**Ang ibig sabihin ay nagbabago**, hindi lang ang tunog.",
+        "**bahay-bahay** ay hindi maraming bahay lamang."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ikatlong paraan",
+      "title": "Pagtatambal",
+      "text": "Dalawang salitang-ugat na pinagsama para gumawa ng bago. Minsan ang kahulugan ay bago rin.",
+      "points": [
+        "**hampas + lupa = hampaslupa**",
+        "**bahay + kubo = bahay-kubo**",
+        "**dalaga + bukid = dalagang-bukid**",
+        "**Hindi laging ang dalawang kahulugan** ang pinagsama."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Alin ang halimbawa ng pagtatambal?",
+        "options": [
+          "hampaslupa",
+          "sumulat",
+          "araw-araw",
+          "bahay"
+        ],
+        "answerIndex": 0,
+        "explain": "Hampaslupa, mula sa hampas at lupa. Ang sumulat ay may gitlapi at ang araw-araw ay inuulit."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Magandang tigilan",
+      "text": "Tapos na ang pagbuo ng salita. Ang Bahagi 2 ay paghahanda sa Kapitulo 3 at 4. Nakatala ang puwesto mo."
+    },
+    {
+      "kind": "open",
+      "icon": "📕",
+      "eyebrow": "Bahagi 2 · Pagbasa",
+      "title": "Ang Katipunan, at bakit ito lihim",
+      "text": "Papasok na sa nobela ang samahang itinatag ni Bonifacio. Ito ang kailangan mong malaman bago iyon."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Hulyo 1892",
+      "title": "Bakit lihim ang Katipunan",
+      "text": "Ipinatapon si Rizal tatlong araw matapos niyang itatag ang isang mapayapang samahan. Malinaw ang aral doon.",
+      "points": [
+        "**Kahit ang mahinahong paghingi** ay ipinagbabawal na.",
+        "**Kaya lihim ang itinatag** noong 7 Hulyo 1892.",
+        "**May tatlong antas:** Katipon, Kawal, Bayani.",
+        "**May sariling hudyat** ang bawat antas."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Mode ng kuwento",
+      "title": "May sagisag-panulat siya",
+      "text": "Sumulat si Bonifacio sa ilalim ng pangalang Agapito Bagumbayan. Hindi ito palamuti — kaligtasan iyon.",
+      "points": [
+        "**Ang tunay na pangalan sa papel** ay ebidensiya.",
+        "**Isinulat niya ang \"Pag-ibig sa Tinubuang Lupa\".**",
+        "**Isinulat din niya ang \"Ang Dapat Mabatid ng mga Tagalog\".**",
+        "**Nagsusulat siya**, hindi lamang nakikipaglaban."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Bakit itinatag nang lihim ang Katipunan?",
+        "options": [
+          "Dahil ipinagbabawal na kahit ang mapayapang paghingi ng reporma",
+          "Dahil kaunti lamang ang miyembro",
+          "Dahil wala silang pera",
+          "Dahil ayaw nilang makilala ng ibang Pilipino"
+        ],
+        "answerIndex": 0,
+        "explain": "Inaresto si Rizal tatlong araw matapos itatag ang La Liga Filipina. Naging lihim ang susunod."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Mode ng boksing",
+      "title": "Tatlong antas, parang belt",
+      "text": "Katipon, Kawal, Bayani. May pag-akyat, may pagsubok, at may sariling hudyat ang bawat antas.",
+      "points": [
+        "**Hindi ka basta pumapasok sa itaas.**",
+        "**Bawat antas ay may sariling tungkulin.**",
+        "**Ganito rin ang sistema ng belt.**",
+        "**May dahilan ang antas:** tiwala."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Habang nagbabasa",
+      "title": "Ang tatlong tanong, muli",
+      "text": "Pareho ng noong nakaraang linggo. Isulat ito pagkatapos ng bawat kabanata, habang sariwa pa.",
+      "points": [
+        "**Tauhan** — sino ang bago sa kabanatang ito?",
+        "**Tagpuan** — nagbago ba ang lugar o panahon?",
+        "**Suliranin** — ano ang bagong problema?",
+        "**Idagdag mo ngayon:** anong salita ang hindi mo naintindihan?"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "order",
+        "text": "Isaayos ang tatlong antas ng Katipunan, mula sa pinakamababa.",
+        "items": [
+          "Katipon",
+          "Kawal",
+          "Bayani"
+        ],
+        "explain": "Katipon, Kawal, Bayani. May sariling hudyat at tungkulin ang bawat antas."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Mga salitang gagamitin sa pagsusulit",
+      "terms": [
+        { "term": "salitang-ugat", "def": "Ang salitang walang panlapi. Ito ang natitira kapag tinanggal ang lahat ng dagdag." },
+        { "term": "panlapi", "def": "Ang idinadagdag sa salitang-ugat para makabuo ng bagong salita." },
+        { "term": "unlapi", "def": "Panlaping nasa unahan ng ugat. Halimbawa: mag-, nag-, ka-." },
+        { "term": "gitlapi", "def": "Panlaping pumapasok sa loob ng ugat. Halimbawa: -um-, -in-." },
+        { "term": "hulapi", "def": "Panlaping nasa hulihan ng ugat. Halimbawa: -an, -in." },
+        { "term": "kabilaan", "def": "May panlapi sa unahan at sa hulihan. Halimbawa: pagsulatan." },
+        { "term": "pag-uulit", "def": "Pag-ulit sa buo o bahagi ng salita. Halimbawa: araw-araw, tatakbo." },
+        { "term": "pagtatambal", "def": "Pagsasama ng dalawang salitang-ugat. Halimbawa: hampaslupa." },
+        { "term": "sagisag-panulat", "def": "Pangalang ginagamit sa pagsulat imbes na ang tunay na pangalan." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Balik-aral",
+      "title": "Ang apat na mahalaga",
+      "points": [
+        "**Hanapin muna ang salitang-ugat.**",
+        "**Unlapi, gitlapi, hulapi, kabilaan.**",
+        "**Tatlong paraan:** paglalapi, pag-uulit, pagtatambal.",
+        "**Katipunan, 1892:** lihim, at may tatlong antas."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "type",
+      "text": "Ano ang salitang-ugat ng \"pinagsulatan\"?",
+      "accept": [
+        "sulat",
+        "ang sulat"
+      ],
+      "explain": "Sulat. Ang pinag- at ang -an ay mga panlapi lamang.",
+      "objective": "Matukoy ang salitang-ugat sa loob ng isang salita"
+    },
+    {
+      "type": "multiple",
+      "text": "Anong uri ng panlapi ang mag- sa \"maglaro\"?",
+      "options": [
+        "Unlapi",
+        "Gitlapi",
+        "Hulapi",
+        "Kabilaan"
+      ],
+      "answerIndex": 0,
+      "explain": "Unlapi, dahil nasa unahan ito ng salitang-ugat na laro.",
+      "objective": "Maiba ang unlapi, gitlapi, hulapi at kabilaan"
+    },
+    {
+      "type": "multiple",
+      "text": "Anong uri ng panlapi ang -in sa \"basahin\"?",
+      "options": [
+        "Hulapi",
+        "Unlapi",
+        "Gitlapi",
+        "Kabilaan"
+      ],
+      "answerIndex": 0,
+      "explain": "Hulapi, dahil nasa hulihan ito ng ugat na basa.",
+      "objective": "Maiba ang unlapi, gitlapi, hulapi at kabilaan"
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang may gitlapi?",
+      "options": [
+        "tumakbo",
+        "magtakbo",
+        "takbuhan",
+        "takbo"
+      ],
+      "answerIndex": 0,
+      "explain": "Tumakbo. Pumasok ang -um- sa loob ng ugat na takbo.",
+      "objective": "Maiba ang unlapi, gitlapi, hulapi at kabilaan"
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang halimbawa ng kabilaang panlapi?",
+      "options": [
+        "pagsulatan",
+        "sumulat",
+        "sulatin",
+        "magsulat"
+      ],
+      "answerIndex": 0,
+      "explain": "Pagsulatan: may pag- sa unahan at -an sa hulihan ng ugat.",
+      "objective": "Maiba ang unlapi, gitlapi, hulapi at kabilaan"
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang halimbawa ng pag-uulit?",
+      "options": [
+        "bahay-bahay",
+        "hampaslupa",
+        "magbahay",
+        "bahay"
+      ],
+      "answerIndex": 0,
+      "explain": "Bahay-bahay. Ang hampaslupa ay tambalan at ang magbahay ay maylapi.",
+      "objective": "Maipaliwanag ang pag-uulit at ang pagtatambal"
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang salitang tambalan?",
+      "options": [
+        "dalagang-bukid",
+        "naglalaro",
+        "sari-sari",
+        "ganda"
+      ],
+      "answerIndex": 0,
+      "explain": "Dalagang-bukid, mula sa dalaga at bukid. Dalawang ugat na pinagsama.",
+      "objective": "Maipaliwanag ang pag-uulit at ang pagtatambal"
+    },
+    {
+      "type": "truefalse",
+      "text": "Nagbabago ang salitang-ugat kapag nilagyan ng panlapi.",
+      "answer": false,
+      "explain": "Hindi. Nananatiling buo ang ugat. Iyan ang nakikita sa larawan ng gitlapi.",
+      "objective": "Matukoy ang salitang-ugat sa loob ng isang salita"
+    },
+    {
+      "type": "multiple",
+      "text": "Kailan itinatag ang Katipunan?",
+      "options": [
+        "Hulyo 1892",
+        "Agosto 1896",
+        "Hunyo 1898",
+        "Enero 1899"
+      ],
+      "answerIndex": 0,
+      "explain": "7 Hulyo 1892, sa Tondo, ilang araw matapos arestuhin si Rizal.",
+      "objective": "Maisulat ang tatlong tanong sa pagbasa ng Supremo"
+    },
+    {
+      "type": "order",
+      "text": "Isaayos ang antas ng Katipunan mula sa pinakamababa.",
+      "items": [
+        "Katipon",
+        "Kawal",
+        "Bayani"
+      ],
+      "explain": "Katipon, Kawal, Bayani. May sariling hudyat ang bawat antas.",
+      "objective": "Maisulat ang tatlong tanong sa pagbasa ng Supremo"
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang sagisag-panulat ni Andres Bonifacio?",
+      "options": [
+        "Agapito Bagumbayan",
+        "Laong Laan",
+        "Plaridel",
+        "Dimasalang"
+      ],
+      "answerIndex": 0,
+      "explain": "Agapito Bagumbayan. Ang Laong Laan at Dimasalang ay kay Rizal, at ang Plaridel ay kay del Pilar.",
+      "objective": "Maisulat ang tatlong tanong sa pagbasa ng Supremo"
+    },
+    {
+      "type": "truefalse",
+      "text": "Sumulat din si Bonifacio, hindi lamang siya nakipaglaban.",
+      "answer": true,
+      "explain": "Oo. Isinulat niya ang \"Pag-ibig sa Tinubuang Lupa\" at \"Ang Dapat Mabatid ng mga Tagalog\".",
+      "objective": "Maisulat ang tatlong tanong sa pagbasa ng Supremo"
+    }
+  ],
+  "teacher": {
+    "summary": "Linggo 2 ng Filipino: ang pagbuo ng salita. Tatlong paraan ang saklaw — paglalapi, pag-uulit at pagtatambal — ngunit ang paglalapi ang binigyan ng pinakamalaking espasyo dahil ito ang pinakamadalas sa pagsusulit at ang pinakamahirap makita. Ang larawang panlapi ay iniwan ang ugat na kulay-accent sa lahat ng apat na anyo, kaya nakikita ng mag-aaral na hindi nasisira ang ugat kahit pumasok ang gitlapi sa loob nito; ito ang tanging paraan para maipakita ang gitlapi nang malinaw. IMPORTANTE PARA SA GURO O MAGULANG: walang buod ng Kapitulo 3 at 4 dito dahil hindi pa nabasa ang partikular na edisyon ng Supremo na ginagamit. Ang ikalawang kalahati ay paghahandang pangkasaysayan tungkol sa Katipunan, na tumpak at kapaki-pakinabang anuman ang edisyon.",
+    "discussion": [
+      "Pabuuin siya ng lima o anim na salita mula sa isang ugat lamang. Mas mahirap ito kaysa sa pagkilala, at mas mabisa.",
+      "Itanong kung bakit mahirap makita ang gitlapi. Dahil nahahati ang ugat, at iyon ang sagot.",
+      "Pag-usapan kung bakit lihim ang Katipunan. Ang pag-aresto kay Rizal ang buong dahilan.",
+      "Itanong kung bakit gumamit ng ibang pangalan si Bonifacio sa pagsulat. Ebidensiya ang tunay na pangalan sa papel."
+    ],
+    "extension": "Pumili ng isang salitang-ugat at pasulatin siya ng walong salitang nabuo mula rito, may tatak kung unlapi, gitlapi, hulapi o kabilaan. Ang pag-uuri ang mahalagang bahagi.",
+    "misconceptions": [
+      "'Nagbabago ang ugat kapag may panlapi.' Buo pa rin ang ugat. Nahahati lamang ito ng gitlapi.",
+      "'Ang gitlapi ay nasa gitna ng salita.' Nasa loob ito ng ugat, at hindi laging nasa gitna ng buong salita.",
+      "'Pareho ang pag-uulit at pagtatambal.' Isang ugat ang inuulit; dalawang magkaibang ugat ang tinatambal.",
+      "'Nakipaglaban lamang si Bonifacio.' Manunulat din siya, at may sagisag-panulat siya."
+    ]
+  }
+}
