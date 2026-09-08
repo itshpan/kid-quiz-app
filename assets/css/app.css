@@ -906,6 +906,17 @@ strong { font-weight: 700; color: var(--ink); }
 .fig-flag-part.dim        { opacity: .28; }
 .fig-flag-part.pick       { stroke: var(--ink); stroke-width: 2.5; }
 
+/* ---------- Breathing mechanism figure ---------- */
+/* Two complete states cross-faded on a tap. Motion here is a response to
+   something he did, which is the only kind this app allows. */
+.fig-breath      { opacity: 0; transition: opacity .28s ease; }
+.fig-breath.show { opacity: 1; }
+.fig-lung  { fill: var(--accent); fill-opacity: .18; stroke: var(--accent); stroke-width: 2.5; }
+.fig-dia   { fill: none; stroke: var(--notyet); stroke-width: 4.5; stroke-linecap: round; }
+.fig-air   { fill: none; stroke: var(--accent); stroke-width: 3.5; stroke-linecap: round; }
+.fig-airh  { fill: var(--accent); }
+@media (prefers-reduced-motion: reduce) { .fig-breath { transition: none; } }
+
 /* ---------- Sign-in flow ---------- */
 /* Two named steps, so it's always obvious where you are and what's left. */
 .signin-steps {

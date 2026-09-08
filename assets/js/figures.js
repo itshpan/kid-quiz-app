@@ -1801,6 +1801,130 @@ function phFlag() {
     };
 }
 
+/* ---------- The airway, nose to alveoli ---------- */
+function airwayPath() {
+    const box = (x, y, w, t) =>
+        `<rect class="fig-organ" x="${x}" y="${y}" width="${w}" height="32" rx="9"/>
+         <text class="fig-organ-t" x="${x + w / 2}" y="${y + 21}" text-anchor="middle">${t}</text>`;
+
+    return steppedPath({
+        id: 'ap',
+        viewBox: '0 0 400 206',
+        labels: {
+            x: 20, y: 18, text: 'ONE ROUTE, SIX STOPS', capY: 170,
+            alt: 'The path air takes from the nose through the pharynx, larynx, trachea and bronchi to the alveoli'
+        },
+        scene: box(20, 34, 86, 'NOSE') + box(140, 34, 104, 'PHARYNX') + box(278, 34, 94, 'LARYNX')
+             + box(278, 106, 94, 'TRACHEA') + box(140, 106, 104, 'BRONCHI') + box(20, 106, 86, 'ALVEOLI'),
+        segs: [
+            { d: 'M108 50 L134 50',   tip: '134,50',  rot: 0 },
+            { d: 'M246 50 L272 50',   tip: '272,50',  rot: 0 },
+            { d: 'M325 68 L325 100',  tip: '325,100', rot: 90 },
+            { d: 'M276 122 L248 122', tip: '248,122', rot: 180 },
+            { d: 'M138 122 L110 122', tip: '110,122', rot: 180 }
+        ],
+        steps: [
+            { btn: '1 Nose',    head: 'Nose and mouth',
+              body: 'Air is warmed, moistened and filtered on the way in.' },
+            { btn: '2 Pharynx', head: 'Pharynx — the throat',
+              body: 'The only part shared by food and air.' },
+            { btn: '3 Larynx',  head: 'Larynx — the voice box',
+              body: 'The epiglottis shuts it every time you swallow.' },
+            { btn: '4 Trachea', head: 'Trachea — the windpipe',
+              body: 'C-shaped cartilage rings stop it collapsing.' },
+            { btn: '5 Bronchi', head: 'Bronchi, then bronchioles',
+              body: 'One tube into each lung, then thousands of branches.' },
+            { btn: '6 Alveoli', head: 'Alveoli — where it actually happens',
+              body: 'Hundreds of millions of tiny sacs. This is the point of all of it.' }
+        ]
+    });
+}
+
+/* ---------- How breathing in actually works ---------- */
+/* The misconception this exists to kill: nobody sucks air in. You make the
+   space bigger, the pressure inside drops, and the atmosphere pushes air in.
+   Seeing the diaphragm flatten while the arrow points inward does the work. */
+function breathingMech() {
+    // Deliberately exaggerated: a flat low diaphragm against a high dome, and
+    // a clear size difference in the lungs. A faithful-but-subtle drawing
+    // teaches nothing, because the whole point is the contrast between states.
+    const lungs = inhale =>
+        `<ellipse class="fig-lung" cx="148" cy="104" rx="${inhale ? 50 : 40}" ry="${inhale ? 60 : 44}"/>
+         <ellipse class="fig-lung" cx="252" cy="104" rx="${inhale ? 50 : 40}" ry="${inhale ? 60 : 44}"/>`;
+
+    return {
+        svg: `
+<svg viewBox="0 0 400 296" role="img" aria-labelledby="bmT">
+  <title id="bmT">The diaphragm flattening to draw air in, and doming upward to push it out</title>
+  <text class="fig-label" x="20" y="20">NOBODY SUCKS AIR IN</text>
+
+  <rect class="fig-pump"  x="70"  y="38" width="260" height="178" rx="20"/>
+  <rect class="fig-organ" x="190" y="4"  width="20"  height="42"  rx="6"/>
+
+  <g id="bmIn" class="fig-breath">
+    ${lungs(true)}
+    <path class="fig-dia" d="M84 208 L316 208"/>
+    <path class="fig-air" d="M200 12 L200 30"/>
+    <path class="fig-airh" d="M-6 -11 L0 0 L6 -11 Z" transform="translate(200,38)"/>
+  </g>
+
+  <g id="bmOut" class="fig-breath">
+    ${lungs(false)}
+    <path class="fig-dia" d="M84 208 Q200 92 316 208"/>
+    <path class="fig-air" d="M200 38 L200 20"/>
+    <path class="fig-airh" d="M-6 11 L0 0 L6 11 Z" transform="translate(200,12)"/>
+  </g>
+
+  <text class="fig-note fig-note-key" id="bmHead" x="20" y="244">&#160;</text>
+  <text class="fig-note" id="bmA" x="20" y="264">&#160;</text>
+  <text class="fig-note" id="bmB" x="20" y="282">&#160;</text>
+</svg>`,
+
+        bind(root) {
+            const bar = document.createElement('div');
+            bar.className = 'fig-switch';
+            bar.innerHTML = `
+                <button data-k="in"  aria-pressed="true">Breathe in</button>
+                <button data-k="out" aria-pressed="false">Breathe out</button>`;
+            root.appendChild(bar);
+
+            const IN = {
+                head: 'Breathing in is muscular work',
+                a: 'Diaphragm contracts and flattens · chest volume rises',
+                b: 'Pressure inside drops, so the air outside pushes in.'
+            };
+            const OUT = {
+                head: 'Breathing out at rest is free',
+                a: 'Diaphragm relaxes and domes up · chest volume falls',
+                b: 'Pressure inside rises, so the air is pushed back out.'
+            };
+
+            const gIn = root.querySelector('#bmIn');
+            const gOut = root.querySelector('#bmOut');
+            const head = root.querySelector('#bmHead');
+            const a = root.querySelector('#bmA');
+            const b = root.querySelector('#bmB');
+
+            const show = k => {
+                const m = k === 'in' ? IN : OUT;
+                gIn.classList.toggle('show', k === 'in');
+                gOut.classList.toggle('show', k === 'out');
+                head.textContent = m.head;
+                a.textContent = m.a;
+                b.textContent = m.b;
+                bar.querySelectorAll('button').forEach(x =>
+                    x.setAttribute('aria-pressed', String(x.dataset.k === k)));
+            };
+
+            bar.addEventListener('click', e => {
+                const btn = e.target.closest('button');
+                if (btn) show(btn.dataset.k);
+            });
+            show('in');
+        }
+    };
+}
+
 export const FIGURES = {
     crumpleZone,
     muscleTypes,
@@ -1826,7 +1950,9 @@ export const FIGURES = {
     reflexArc,
     decimalPlaces,
     antecedentArrow,
-    phFlag
+    phFlag,
+    airwayPath,
+    breathingMech
 };
 
 

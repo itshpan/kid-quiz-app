@@ -1,0 +1,448 @@
+{
+  "id": "sci-w4",
+  "courseId": "science",
+  "courseTitle": "Science",
+  "week": 4,
+  "title": "Respiratory & Urinary Systems",
+  "subtitle": "One system brings air in. The other decides what stays in you.",
+  "estMinutes": 22,
+  "objectives": [
+    "Trace the path of air from the nose to the alveoli",
+    "Explain how the diaphragm changes the pressure inside the chest",
+    "Explain gas exchange in the alveoli",
+    "Name the parts of the urinary system and what each one does",
+    "Explain what the kidneys filter out and what they keep",
+    "Relate hydration and breathing rate to training"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🫁",
+      "eyebrow": "Part 1 · Breathing",
+      "title": "You did it about twenty times while reading this",
+      "text": "Breathing is the one automatic system you can also take over. That makes it worth understanding properly."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The big idea",
+      "title": "Air has one route in and one route out",
+      "text": "Six named parts, in order. The exam asks for them in order more often than it asks what they do.",
+      "points": [
+        "**Nose → pharynx → larynx → trachea → bronchi → alveoli.**",
+        "**Only the pharynx is shared** with food.",
+        "**Everything above the alveoli** is just plumbing.",
+        "**The alveoli are where the job happens.**"
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "airwayPath",
+      "eyebrow": "Follow the air",
+      "title": "Six stops, in order",
+      "text": "Tap each one. Two quiz questions come straight from this."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "order",
+        "text": "Put these in the order air passes through them.",
+        "items": [
+          "Pharynx",
+          "Larynx",
+          "Trachea",
+          "Bronchi"
+        ],
+        "explain": "Throat, voice box, windpipe, then the branch into each lung. Nose first, alveoli last."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "The windpipe is a reinforced hose",
+      "text": "Your trachea has C-shaped rings of cartilage holding it open. An engine's intake hose has exactly the same rings.",
+      "points": [
+        "**Anything you pull air through** can collapse under suction.",
+        "**Rings stop that.** Same engineering problem, same answer.",
+        "**The C is open at the back**, so swallowed food can bulge past.",
+        "**Run your finger down your throat.** You can feel them."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The mechanism",
+      "title": "Nobody sucks air in",
+      "text": "This is the card that matters. You do not pull air down. You make the space bigger and the atmosphere does the rest.",
+      "points": [
+        "**The diaphragm** is a dome of muscle under the lungs.",
+        "**It contracts and flattens**, so the chest gets bigger.",
+        "**Bigger space, lower pressure inside.**",
+        "**Outside air is at higher pressure**, so it pushes in."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "breathingMech",
+      "eyebrow": "Try it",
+      "title": "Watch the diaphragm do the work",
+      "text": "Tap in and out. Put a hand on your stomach and follow along."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What does the diaphragm do when you breathe IN?",
+        "options": [
+          "It contracts and flattens, making the chest bigger",
+          "It relaxes and domes upward",
+          "It squeezes the lungs to push air out",
+          "It closes off the windpipe"
+        ],
+        "answerIndex": 0,
+        "explain": "It flattens. That raises the chest volume, drops the pressure, and air is pushed in from outside."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The point of it all",
+      "title": "Gas exchange in the alveoli",
+      "text": "Hundreds of millions of tiny air sacs, each wrapped in the thinnest blood vessels in your body.",
+      "points": [
+        "**Oxygen crosses in. Carbon dioxide crosses out.**",
+        "**Both walls are one cell thick.** That is what makes it possible.",
+        "**Total surface area is about 70 square metres.**",
+        "**More than your classroom floor**, folded into your chest."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Getting winded is a diaphragm problem",
+      "text": "A clean shot to the solar plexus makes the diaphragm spasm. It stops moving, so you cannot breathe in.",
+      "points": [
+        "**Nothing is damaged.** The muscle has simply locked.",
+        "**It passes in under a minute.**",
+        "**Which is why coaches say breathe out on the punch** — a tensed diaphragm is harder to stop.",
+        "**Knowing that** is the difference between panic and waiting."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Where does oxygen actually enter the blood?",
+        "options": [
+          "In the alveoli",
+          "In the trachea",
+          "In the bronchi",
+          "In the larynx"
+        ],
+        "answerIndex": 0,
+        "explain": "The alveoli. Everything above them is plumbing that gets the air to the right place."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Breathing done. Part 2 is the system that decides what stays in you and what leaves. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "💧",
+      "eyebrow": "Part 2 · The urinary system",
+      "title": "Two filters, working the whole time",
+      "text": "Your kidneys are not a waste bin. They are a filter that decides, all day, what your blood is allowed to contain."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The parts",
+      "title": "Four parts, one direction",
+      "text": "It is the simplest system on the syllabus. Everything flows one way and nothing comes back.",
+      "points": [
+        "**Kidneys** — two of them, either side of the spine.",
+        "**Ureters** — one tube from each kidney to the bladder.",
+        "**Bladder** — stores it until you decide.",
+        "**Urethra** — the way out."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The job",
+      "title": "Three jobs, not one",
+      "text": "Removing waste is only part of it. The other two are why you cannot live without kidneys.",
+      "points": [
+        "**Remove urea**, the waste from breaking down protein.",
+        "**Balance your water and salts.**",
+        "**Help control blood pressure.**",
+        "**Urea is made in the liver**, then handed to the kidneys."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "order",
+        "text": "Put the urinary system in order, from where urine is made to where it leaves.",
+        "items": [
+          "Kidney",
+          "Ureter",
+          "Bladder",
+          "Urethra"
+        ],
+        "explain": "Made in the kidney, down the ureter, stored in the bladder, out through the urethra."
+      }
+    },
+    {
+      "kind": "fact",
+      "eyebrow": "The number to remember",
+      "text": "Your kidneys filter about 180 litres of fluid a day. You pass around 1.5 litres. Almost everything is taken back."
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "⚡",
+      "eyebrow": "Your body right now",
+      "title": "Your urine is a readout you get for free",
+      "text": "Pale means you are hydrated. Dark means your kidneys are holding on to water because you have not drunk enough.",
+      "points": [
+        "**Dark yellow before training** is a bad start.",
+        "**Being 2% dehydrated** already costs you performance.",
+        "**No test kit needed.** You already have the data.",
+        "**A decision you control today.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Roughly how much fluid do the kidneys filter in a day?",
+        "options": [
+          "About 180 litres",
+          "About 2 litres",
+          "About 20 litres",
+          "About 1000 litres"
+        ],
+        "answerIndex": 0,
+        "explain": "About 180 litres filtered, about 1.5 passed. The rest is reabsorbed, which is the clever part."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "space",
+      "icon": "🪐",
+      "eyebrow": "Space mode",
+      "title": "On the space station they drink it again",
+      "text": "There is no water delivery in orbit. The station reclaims almost all of it — sweat, breath moisture and urine included.",
+      "points": [
+        "**Over 90% of water on board is recovered.**",
+        "**The system does the kidney's job**, industrially.",
+        "**Astronauts joke about it** because it is true.",
+        "**Every closed system** ends up solving this."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "The kidneys only remove waste and have nothing to do with water balance.",
+        "answer": false,
+        "explain": "False. Balancing water and salts is one of their three jobs, and it is why dehydration shows up in urine."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "pharynx", "def": "The throat. The only part of the route shared by food and air." },
+        { "term": "larynx", "def": "The voice box. The epiglottis closes it when you swallow." },
+        { "term": "trachea", "def": "The windpipe, held open by C-shaped rings of cartilage." },
+        { "term": "bronchi", "def": "The two tubes branching from the trachea, one into each lung." },
+        { "term": "alveoli", "def": "The tiny air sacs where oxygen and carbon dioxide cross into and out of the blood." },
+        { "term": "diaphragm", "def": "The dome of muscle under the lungs. It flattens to draw air in." },
+        { "term": "gas exchange", "def": "Oxygen moving into the blood and carbon dioxide moving out, through walls one cell thick." },
+        { "term": "kidney", "def": "The filter organ. Two of them, either side of the spine." },
+        { "term": "ureter", "def": "The tube carrying urine from a kidney to the bladder." },
+        { "term": "urethra", "def": "The tube carrying urine out of the body from the bladder." },
+        { "term": "urea", "def": "The waste made in the liver from broken-down protein. The kidneys remove it." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Nose, pharynx, larynx, trachea, bronchi, alveoli.**",
+        "**The diaphragm flattens; the atmosphere pushes air in.**",
+        "**Gas exchange happens only in the alveoli.**",
+        "**Kidney, ureter, bladder, urethra.** One direction, no return."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "order",
+      "text": "Put these in the order air travels through them.",
+      "items": [
+        "Nose",
+        "Pharynx",
+        "Larynx",
+        "Trachea",
+        "Alveoli"
+      ],
+      "explain": "Nose, throat, voice box, windpipe, then eventually the alveoli after the bronchi branch.",
+      "objective": "Trace the path of air from the nose to the alveoli"
+    },
+    {
+      "type": "multiple",
+      "text": "Which part of the airway is shared with food?",
+      "options": [
+        "The pharynx",
+        "The trachea",
+        "The larynx",
+        "The bronchi"
+      ],
+      "answerIndex": 0,
+      "explain": "The pharynx, the throat. Below it the epiglottis keeps food out of the larynx.",
+      "objective": "Trace the path of air from the nose to the alveoli"
+    },
+    {
+      "type": "multiple",
+      "text": "Why does the trachea have C-shaped rings of cartilage?",
+      "options": [
+        "To stop it collapsing when air is pulled through it",
+        "To warm the air as it passes",
+        "To help you speak",
+        "To trap dust before it reaches the lungs"
+      ],
+      "answerIndex": 0,
+      "explain": "Anything you draw air through can collapse. The rings hold it open, and the gap lets food bulge past.",
+      "objective": "Trace the path of air from the nose to the alveoli"
+    },
+    {
+      "type": "multiple",
+      "text": "What happens to the diaphragm when you breathe in?",
+      "options": [
+        "It contracts and flattens",
+        "It relaxes and domes upward",
+        "It stays completely still",
+        "It closes off the trachea"
+      ],
+      "answerIndex": 0,
+      "explain": "It flattens, making the chest bigger. Bigger space means lower pressure inside.",
+      "objective": "Explain how the diaphragm changes the pressure inside the chest"
+    },
+    {
+      "type": "multiple",
+      "text": "Why does air move into your lungs?",
+      "options": [
+        "Pressure inside the chest drops below the pressure outside",
+        "The lungs pull the air in by themselves",
+        "The trachea squeezes air downward",
+        "The heart pumps air into the lungs"
+      ],
+      "answerIndex": 0,
+      "explain": "You make space, the pressure drops, and the atmosphere pushes air in. Nobody sucks air in.",
+      "objective": "Explain how the diaphragm changes the pressure inside the chest"
+    },
+    {
+      "type": "truefalse",
+      "text": "Breathing out while resting takes no muscular effort.",
+      "answer": true,
+      "explain": "True at rest. The diaphragm relaxes and the chest springs back. Hard breathing out does use muscles.",
+      "objective": "Explain how the diaphragm changes the pressure inside the chest"
+    },
+    {
+      "type": "type",
+      "text": "What are the tiny air sacs in the lungs called, where gas exchange happens?",
+      "accept": [
+        "alveoli",
+        "the alveoli",
+        "alveolus"
+      ],
+      "explain": "The alveoli. Their walls and the blood vessel walls are both one cell thick.",
+      "objective": "Explain gas exchange in the alveoli"
+    },
+    {
+      "type": "multiple",
+      "text": "In gas exchange, which way do the gases move?",
+      "options": [
+        "Oxygen into the blood, carbon dioxide out of it",
+        "Oxygen out of the blood, carbon dioxide into it",
+        "Both gases into the blood",
+        "Both gases out of the blood"
+      ],
+      "answerIndex": 0,
+      "explain": "Oxygen in, carbon dioxide out. That single swap is the reason the whole system exists.",
+      "objective": "Explain gas exchange in the alveoli"
+    },
+    {
+      "type": "order",
+      "text": "Put the urinary system in order, from where urine is made to where it leaves.",
+      "items": [
+        "Kidney",
+        "Ureter",
+        "Bladder",
+        "Urethra"
+      ],
+      "explain": "Kidney makes it, ureter carries it, bladder stores it, urethra releases it.",
+      "objective": "Name the parts of the urinary system and what each one does"
+    },
+    {
+      "type": "multiple",
+      "text": "What is urea, and where is it made?",
+      "options": [
+        "Waste from broken-down protein, made in the liver",
+        "Waste from broken-down fat, made in the kidney",
+        "A salt made in the bladder",
+        "A gas made in the lungs"
+      ],
+      "answerIndex": 0,
+      "explain": "The liver makes urea from excess protein. The kidneys then remove it from the blood.",
+      "objective": "Explain what the kidneys filter out and what they keep"
+    },
+    {
+      "type": "multiple",
+      "text": "Which of these is NOT a job of the kidneys?",
+      "options": [
+        "Adding oxygen to the blood",
+        "Removing urea from the blood",
+        "Balancing water and salts",
+        "Helping control blood pressure"
+      ],
+      "answerIndex": 0,
+      "explain": "Oxygen is added in the alveoli, not the kidneys. The other three are all kidney jobs.",
+      "objective": "Explain what the kidneys filter out and what they keep"
+    },
+    {
+      "type": "multiple",
+      "text": "You wake up and your urine is dark yellow. What does that suggest?",
+      "options": [
+        "You are dehydrated and your kidneys are conserving water",
+        "You have drunk far too much water",
+        "Your lungs are not exchanging gas properly",
+        "Nothing at all"
+      ],
+      "answerIndex": 0,
+      "explain": "Dark means concentrated, so the kidneys are holding water back. Pale is the target before training.",
+      "objective": "Relate hydration and breathing rate to training"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 4 Science covers the respiratory and urinary systems, matching the Term 1 weekly scope. The respiratory half is organised around one misconception, because it is the one that costs marks and the one almost every learner holds: air is not sucked in. The breathingMech figure exists to replace that idea with the real one, and the card before it says the same thing in words first, so the figure confirms rather than introduces. The airway is taught as an ordered route because that is how the exam asks for it. The urinary half is deliberately short and concrete: four parts, one direction, three jobs, and one striking number — 180 litres filtered against 1.5 passed — which is what makes reabsorption memorable rather than abstract.",
+    "discussion": [
+      "Have him put a hand on his stomach and breathe. If the hand moves outward on the way in, he has found the diaphragm, and the figure stops being a diagram.",
+      "Ask why the cartilage rings in the windpipe are C-shaped rather than complete circles. The answer is the oesophagus behind it, and he can reason his way there.",
+      "Ask what would happen if the kidneys did no reabsorption at all. The 180-litre number answers it immediately.",
+      "Ask him to check his own urine colour before training for a week. It is the rare biology lesson with a same-day action attached."
+    ],
+    "extension": "Have him count his breaths per minute at rest, then after two minutes of skipping, then once a minute until it returns to baseline. Plotting the recovery alongside the pulse recovery from Week 5 gives him two curves from the same event.",
+    "misconceptions": [
+      "'You suck air into your lungs.' You increase the chest volume, the pressure inside drops, and the atmosphere pushes air in. The lungs are passive.",
+      "'Breathing out takes effort.' At rest it does not. The diaphragm relaxes and the chest recoils on its own.",
+      "'Gas exchange happens all the way down the airway.' It happens only in the alveoli. Everything above them is transport.",
+      "'The kidneys just make urine.' They filter about 180 litres a day and take almost all of it back, while balancing salts and blood pressure."
+    ]
+  }
+}

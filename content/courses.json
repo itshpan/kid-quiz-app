@@ -53,7 +53,8 @@
             "Pharynx, Larynx, Trachea, Lungs, Diaphragm",
             "Kidneys, Ureters, Bladder, Urethra"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "science/w4-respiratory-urinary.json"
         },
         {
           "week": 5,
