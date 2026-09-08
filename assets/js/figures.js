@@ -3220,6 +3220,132 @@ function separationMethods() {
     });
 }
 
+/* ==========================================================================
+   MATHS, WEEKS 6-10 — fractions and ratio.
+   ========================================================================== */
+
+/** A bar cut into n equal pieces with the first k filled. */
+function fracBar(y, n, k, { x = 72, w = 282, h = 38, cls = 'fig-cell-f', cuts = 0 } = {}) {
+    const p = w / n;
+    let out = '';
+    for (let i = 0; i < n; i++) {
+        out += `<rect class="${i < k ? cls : 'fig-cell-e'}" x="${(x + i * p).toFixed(1)}" y="${y}" width="${p.toFixed(1)}" height="${h}"/>`;
+    }
+    if (cuts) {
+        for (let i = 1; i < cuts; i++) {
+            const gx = x + (i * w) / cuts;
+            if (Math.abs((gx - x) % p) > 0.5) out += `<path class="fig-cut" d="M${gx.toFixed(1)} ${y} L${gx.toFixed(1)} ${y + h}"/>`;
+        }
+    }
+    return out;
+}
+
+/* ---------- Why fractions need a common denominator ---------- */
+/* You cannot add halves to thirds for the same reason you cannot add
+   centimetres to inches: the pieces are different sizes. Re-cutting both
+   bars into sixths is the entire method, and it is obvious once drawn. */
+function fractionBars() {
+    const lab = (t, y) => `<text class="fig-frac" x="18" y="${y}">${t}</text>`;
+    return demoSwitch({
+        id: 'fb', height: 262, capY: 212,
+        label: 'WHY THE BOTTOMS HAVE TO MATCH',
+        alt: 'A half and a third drawn as bars, then both re-cut into sixths and added',
+        demos: [
+            { btn: 'The problem',
+              svg: lab('1/2', 88) + fracBar(62, 2, 1) + lab('1/3', 152) + fracBar(126, 3, 1)
+                 + `<text class="fig-step" x="200" y="186" text-anchor="middle">DIFFERENT SIZED PIECES</text>`,
+              a: 'A half and a third are different sized pieces',
+              b: 'You cannot add them while they are different. Nothing lines up.' },
+            { btn: 'Re-cut',
+              svg: lab('3/6', 88) + fracBar(62, 6, 3, { cuts: 6 }) + lab('2/6', 152) + fracBar(126, 6, 2, { cuts: 6 })
+                 + `<text class="fig-step" x="200" y="186" text-anchor="middle">BOTH CUT INTO SIXTHS</text>`,
+              a: 'Cut both into sixths. Same bars, same amounts',
+              b: 'Six is the smallest number both 2 and 3 divide into.' },
+            { btn: 'Add',
+              svg: lab('5/6', 106) + fracBar(80, 6, 5)
+                 + `<text class="fig-step" x="200" y="150" text-anchor="middle">3 SIXTHS + 2 SIXTHS = 5 SIXTHS</text>`,
+              a: 'Now just count the pieces: 3 + 2 = 5',
+              b: 'The bottom number never changes. Only the top is added.' }
+        ]
+    });
+}
+
+/* ---------- Multiplying and dividing fractions ---------- */
+function fractionOps() {
+    const X = 116, Y = 56, S = 168;
+    const grid = (cols, rows) => {
+        let out = '';
+        for (let r = 0; r < rows; r++) {
+            for (let c = 0; c < cols; c++) {
+                const on = c < 2 && r < 3;   // 2/3 across by 3/4 down
+                out += `<rect class="${on ? 'fig-cell-x' : 'fig-cell-e'}" x="${X + (c * S) / cols}" y="${Y + (r * S) / rows}" width="${S / cols}" height="${S / rows}"/>`;
+            }
+        }
+        return out;
+    };
+    return demoSwitch({
+        id: 'fo', height: 322, capY: 272,
+        label: 'TIMES AND DIVIDE',
+        alt: 'An area model for two thirds times three quarters, and halves counted inside three wholes',
+        demos: [
+            { btn: 'Across',
+              svg: `${[...Array(3)].map((_, c) => `<rect class="${c < 2 ? 'fig-cell-f' : 'fig-cell-e'}" x="${X + (c * S) / 3}" y="${Y}" width="${S / 3}" height="${S}"/>`).join('')}
+                    <text class="fig-frac" x="200" y="${Y + S + 24}" text-anchor="middle">2/3 of the width</text>`,
+              a: 'Shade two thirds of the square, going across',
+              b: 'Two strips out of three. Nothing complicated yet.' },
+            { btn: 'Down',
+              svg: `${[...Array(4)].map((_, r) => `<rect class="${r < 3 ? 'fig-cell-g' : 'fig-cell-e'}" x="${X}" y="${Y + (r * S) / 4}" width="${S}" height="${S / 4}"/>`).join('')}
+                    <text class="fig-frac" x="200" y="${Y + S + 24}" text-anchor="middle">3/4 of the height</text>`,
+              a: 'Now shade three quarters of it, going down',
+              b: 'Three strips out of four, the other way.' },
+            { btn: 'Overlap',
+              svg: grid(3, 4)
+                 + `<text class="fig-frac" x="200" y="${Y + S + 24}" text-anchor="middle">6 of 12 = 6/12 = 1/2</text>`,
+              a: 'The overlap is the answer: 2 x 3 = 6, and 3 x 4 = 12',
+              b: 'Multiply the tops, multiply the bottoms. The picture proves it.' },
+            { btn: 'Divide',
+              svg: `${[...Array(6)].map((_, i) => `<rect class="fig-cell-f" x="${44 + i * 52}" y="90" width="50" height="56"/>`).join('')}
+                    <path class="fig-cut" d="M148 84 L148 152 M252 84 L252 152 M356 84 L356 152"/>
+                    <text class="fig-step" x="200" y="176" text-anchor="middle">3 WHOLES, CUT INTO HALVES</text>
+                    <text class="fig-frac" x="200" y="206" text-anchor="middle">3 ÷ 1/2 = 6</text>`,
+              a: 'Dividing asks how many of them fit inside',
+              b: 'Six halves fit into three. That is why the answer got bigger.' }
+        ]
+    });
+}
+
+/* ---------- Ratio as parts of a bar ---------- */
+function ratioBars() {
+    const seg = (x, w, cls) => `<rect class="${cls}" x="${x}" y="86" width="${w}" height="44"/>`;
+    const bar = (a, b) => {
+        const total = a + b, p = 312 / total;
+        let out = '';
+        for (let i = 0; i < total; i++) out += seg(44 + i * p, p, i < a ? 'fig-cell-f' : 'fig-cell-g');
+        return out;
+    };
+    return demoSwitch({
+        id: 'rb', height: 238, capY: 190,
+        label: 'A RATIO IS A BAR SPLIT INTO PARTS',
+        alt: 'Ratios drawn as a bar divided into parts, simplified and then shared out',
+        demos: [
+            { btn: '3 : 4',
+              svg: bar(3, 4) + `<text class="fig-step" x="200" y="152" text-anchor="middle">3 PARTS AND 4 PARTS · 7 IN TOTAL</text>`,
+              a: 'A ratio of 3 : 4 means seven parts, not three or four',
+              b: 'The total is what most people forget. Count all the parts.' },
+            { btn: '6 : 8',
+              svg: bar(6, 8) + `<text class="fig-step" x="200" y="152" text-anchor="middle">SAME BAR, TWICE THE CUTS</text>`,
+              a: '6 : 8 is the same split, cut into smaller pieces',
+              b: 'Equivalent ratios. Divide both sides by 2 and you are back to 3 : 4.' },
+            { btn: 'Share 35',
+              svg: bar(3, 4)
+                 + `<text class="fig-step" x="200" y="152" text-anchor="middle">35 ÷ 7 PARTS = 5 EACH</text>`
+                 + `<text class="fig-frac" x="200" y="178" text-anchor="middle">3 x 5 = 15   ·   4 x 5 = 20</text>`,
+              a: 'Sharing 35 in the ratio 3 : 4',
+              b: 'Find one part first, then multiply. Never guess the halves.' }
+        ]
+    });
+}
+
 export const FIGURES = {
     crumpleZone,
     muscleTypes,
@@ -3273,7 +3399,10 @@ export const FIGURES = {
     flowerParts,
     tyndall,
     dissolveRate,
-    separationMethods
+    separationMethods,
+    fractionBars,
+    fractionOps,
+    ratioBars
 };
 
 

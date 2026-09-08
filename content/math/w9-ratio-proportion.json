@@ -1,0 +1,435 @@
+{
+  "id": "math-w9",
+  "courseId": "math",
+  "courseTitle": "Math",
+  "week": 9,
+  "title": "Ratio and Proportion",
+  "subtitle": "A ratio compares parts. A proportion says two ratios match.",
+  "estMinutes": 20,
+  "objectives": [
+    "Write a ratio in three different ways",
+    "Simplify a ratio to lowest terms",
+    "Find equivalent ratios",
+    "Explain the difference between a ratio and a proportion",
+    "Solve a proportion by cross-multiplication",
+    "Share an amount in a given ratio"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "⚖️",
+      "eyebrow": "Part 1 · Ratios",
+      "title": "A ratio compares parts, not parts to the whole",
+      "text": "Three blue and four red. The ratio of blue to red is 3 : 4. The fraction that is blue is 3/7. Both are right."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The notation",
+      "title": "Three ways to write the same ratio",
+      "text": "All three mean the same thing and the exam uses all three. Recognise them all.",
+      "points": [
+        "**3 : 4** — the colon form.",
+        "**3 to 4** — in words.",
+        "**3/4** — as a fraction, comparing the two parts.",
+        "**Order matters.** 3 : 4 is not 4 : 3."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "ratioBars",
+      "eyebrow": "Look at it",
+      "title": "A ratio is a bar split into parts",
+      "text": "Tap through. The total number of parts is what people forget."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "In a ratio of 3 : 4, how many parts are there in total?",
+        "options": [
+          "7",
+          "3",
+          "4",
+          "12"
+        ],
+        "answerIndex": 0,
+        "explain": "Three parts plus four parts is seven. Missing the total is the commonest mistake in the topic."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Simplifying",
+      "title": "Divide both sides by the same number",
+      "text": "Exactly like a fraction. A ratio is in lowest terms when nothing divides both sides.",
+      "points": [
+        "**6 : 8** — divide both by 2 → **3 : 4**.",
+        "**15 : 25** — divide both by 5 → **3 : 5**.",
+        "**The relationship has not changed.**",
+        "**Only the numbers got smaller.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "Simplify the ratio 12 : 18.",
+        "accept": [
+          "2:3",
+          "2 : 3",
+          "2 to 3"
+        ],
+        "explain": "Divide both by 6. Nothing divides 2 and 3 together, so it is finished."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🏎️",
+      "eyebrow": "Forza mode",
+      "title": "Power-to-weight is a ratio you already read",
+      "text": "500 horsepower in a 1,000 kg car and 250 in a 500 kg car are the same ratio. On a track they behave alike.",
+      "points": [
+        "**500 : 1000 simplifies to 1 : 2.**",
+        "**250 : 500 simplifies to 1 : 2.**",
+        "**Same ratio, very different cars.**",
+        "**That is why the stat exists.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Equivalent",
+      "title": "Ratios that describe the same split",
+      "text": "Multiply or divide both sides by the same number and you get an equivalent ratio.",
+      "points": [
+        "**3 : 4 = 6 : 8 = 9 : 12 = 30 : 40.**",
+        "**Same split, different sized parts.**",
+        "**Like equivalent fractions**, exactly.",
+        "**Useful for scaling a recipe up.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which ratio is equivalent to 2 : 5?",
+        "options": [
+          "8 : 20",
+          "4 : 7",
+          "2 : 10",
+          "5 : 2"
+        ],
+        "answerIndex": 0,
+        "explain": "Multiply both sides by 4. 4 : 7 added 2 to each side, which changes the relationship."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Ratios done. Part 2 is proportions — two ratios that agree. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "🟰",
+      "eyebrow": "Part 2 · Proportions",
+      "title": "A proportion is a statement that two ratios match",
+      "text": "3 : 4 = 6 : 8 is a proportion. It is a claim, and it is either true or false, which means you can test it."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The difference",
+      "title": "Ratio compares. Proportion equates",
+      "text": "One is a comparison of two amounts. The other says two of those comparisons are the same.",
+      "points": [
+        "**A ratio** — 3 : 4. One statement.",
+        "**A proportion** — 3 : 4 = 6 : 8. Two, joined.",
+        "**A proportion is an equation.**",
+        "**That is what lets you solve for a missing term.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The method",
+      "title": "Cross-multiply to find the missing one",
+      "text": "Write the proportion as two fractions. Multiply diagonally. The two products are equal, and that gives you an equation.",
+      "points": [
+        "**3/4 = 12/n** → 3 × n = 4 × 12.",
+        "**3n = 48**, so **n = 16**.",
+        "**Diagonal times diagonal**, both ways.",
+        "**Check it:** 3 : 4 and 12 : 16 both simplify to 3 : 4."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "Solve for n: 2/3 = n/12",
+        "accept": [
+          "8",
+          "n=8",
+          "n = 8"
+        ],
+        "explain": "Cross-multiply: 2 × 12 = 3 × n, so 24 = 3n and n = 8."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "A crafting recipe is a proportion",
+      "text": "If 3 iron makes 1 tool, then 12 iron makes 4. You just solved a proportion without writing anything down.",
+      "points": [
+        "**3 : 1 = 12 : 4.**",
+        "**Scale both sides by the same number.**",
+        "**Every recipe scales this way.**",
+        "**You already do this in your head.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Sharing",
+      "title": "Dividing an amount in a given ratio",
+      "text": "Three steps, in this order, and the first one is the one people skip.",
+      "points": [
+        "**Add the parts.** 3 : 4 → 7 parts.",
+        "**Divide the total by the parts.** One part's worth.",
+        "**Multiply each side** by that value.",
+        "**Check they add back** to the original total."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Work-to-rest ratios are written this way",
+      "text": "Thirty seconds on, fifteen off, is a 2 : 1 work-to-rest ratio. Coaches write it exactly like that.",
+      "points": [
+        "**2 : 1** — twice as long working as resting.",
+        "**30 : 15 simplifies to 2 : 1.**",
+        "**60 : 30 is the same ratio**, longer intervals.",
+        "**The ratio is the training effect.** Not the seconds."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Share ₱120 in the ratio 2 : 3. What are the two amounts?",
+        "options": [
+          "₱48 and ₱72",
+          "₱40 and ₱80",
+          "₱60 and ₱60",
+          "₱24 and ₱36"
+        ],
+        "answerIndex": 0,
+        "explain": "Five parts. 120 ÷ 5 = 24 per part. Then 2 × 24 = 48 and 3 × 24 = 72."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "ratio",
+          "def": "A comparison of two amounts, written 3 : 4, 3 to 4, or 3/4."
+        },
+        {
+          "term": "equivalent ratios",
+          "def": "Ratios describing the same split, such as 3 : 4 and 6 : 8."
+        },
+        {
+          "term": "lowest terms",
+          "def": "A ratio where nothing divides both sides."
+        },
+        {
+          "term": "proportion",
+          "def": "A statement that two ratios are equal. It is an equation."
+        },
+        {
+          "term": "cross-multiplication",
+          "def": "Multiplying diagonally across a proportion to find a missing term."
+        },
+        {
+          "term": "total parts",
+          "def": "The two sides of a ratio added together. Needed before sharing anything."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**3 : 4 means seven parts**, not three or four.",
+        "**Simplify by dividing both sides.**",
+        "**A proportion is two ratios set equal.**",
+        "**To share: add the parts, find one, multiply.**"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Which of these is NOT a way of writing the ratio three to four?",
+      "options": [
+        "3 − 4",
+        "3 : 4",
+        "3 to 4",
+        "3/4"
+      ],
+      "answerIndex": 0,
+      "explain": "A minus sign is subtraction. The other three are all standard ratio notation.",
+      "objective": "Write a ratio in three different ways"
+    },
+    {
+      "type": "multiple",
+      "text": "A bag has 5 red and 3 blue counters. What is the ratio of red to blue?",
+      "options": [
+        "5 : 3",
+        "3 : 5",
+        "5 : 8",
+        "3 : 8"
+      ],
+      "answerIndex": 0,
+      "explain": "Red first, because the question asked red to blue. Order matters in a ratio.",
+      "objective": "Write a ratio in three different ways"
+    },
+    {
+      "type": "type",
+      "text": "Simplify the ratio 20 : 30.",
+      "accept": [
+        "2:3",
+        "2 : 3",
+        "2 to 3"
+      ],
+      "explain": "Divide both sides by 10. Nothing divides 2 and 3 together.",
+      "objective": "Simplify a ratio to lowest terms"
+    },
+    {
+      "type": "multiple",
+      "text": "Simplify 18 : 24.",
+      "options": [
+        "3 : 4",
+        "9 : 12",
+        "6 : 8",
+        "2 : 3"
+      ],
+      "answerIndex": 0,
+      "explain": "Divide both by 6. 9 : 12 and 6 : 8 are equivalent but not in lowest terms.",
+      "objective": "Simplify a ratio to lowest terms"
+    },
+    {
+      "type": "multiple",
+      "text": "Which ratio is equivalent to 4 : 6?",
+      "options": [
+        "10 : 15",
+        "6 : 8",
+        "8 : 10",
+        "4 : 8"
+      ],
+      "answerIndex": 0,
+      "explain": "4 : 6 simplifies to 2 : 3, and so does 10 : 15. The others do not.",
+      "objective": "Find equivalent ratios"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the difference between a ratio and a proportion?",
+      "options": [
+        "A ratio compares two amounts; a proportion says two ratios are equal",
+        "A proportion uses whole numbers only",
+        "A ratio is always simplified",
+        "There is no difference"
+      ],
+      "answerIndex": 0,
+      "explain": "A proportion is an equation, which is exactly what lets you solve for a missing term.",
+      "objective": "Explain the difference between a ratio and a proportion"
+    },
+    {
+      "type": "type",
+      "text": "Solve for n: 3/5 = n/20",
+      "accept": [
+        "12",
+        "n=12",
+        "n = 12"
+      ],
+      "explain": "Cross-multiply: 3 × 20 = 5 × n, so 60 = 5n and n = 12.",
+      "objective": "Solve a proportion by cross-multiplication"
+    },
+    {
+      "type": "multiple",
+      "text": "Solve for n: 4/n = 12/21",
+      "options": [
+        "7",
+        "9",
+        "6",
+        "63"
+      ],
+      "answerIndex": 0,
+      "explain": "Cross-multiply: 4 × 21 = 12 × n, so 84 = 12n and n = 7.",
+      "objective": "Solve a proportion by cross-multiplication"
+    },
+    {
+      "type": "multiple",
+      "text": "If 4 pens cost ₱60, how much do 10 pens cost?",
+      "options": [
+        "₱150",
+        "₱120",
+        "₱240",
+        "₱100"
+      ],
+      "answerIndex": 0,
+      "explain": "4/60 = 10/n, so 4n = 600 and n = 150. Or find one pen: ₱15 each.",
+      "objective": "Solve a proportion by cross-multiplication"
+    },
+    {
+      "type": "multiple",
+      "text": "Share ₱350 in the ratio 3 : 4.",
+      "options": [
+        "₱150 and ₱200",
+        "₱175 and ₱175",
+        "₱140 and ₱210",
+        "₱105 and ₱140"
+      ],
+      "answerIndex": 0,
+      "explain": "Seven parts. 350 ÷ 7 = 50 each. Then 3 × 50 = 150 and 4 × 50 = 200.",
+      "objective": "Share an amount in a given ratio"
+    },
+    {
+      "type": "multiple",
+      "text": "Share 72 sweets in the ratio 5 : 4.",
+      "options": [
+        "40 and 32",
+        "36 and 36",
+        "45 and 27",
+        "50 and 22"
+      ],
+      "answerIndex": 0,
+      "explain": "Nine parts. 72 ÷ 9 = 8 per part. Then 5 × 8 = 40 and 4 × 8 = 32.",
+      "objective": "Share an amount in a given ratio"
+    },
+    {
+      "type": "truefalse",
+      "text": "In a ratio of 2 : 3, there are five parts altogether.",
+      "answer": true,
+      "explain": "True, and finding the total is always the first step in sharing an amount.",
+      "objective": "Share an amount in a given ratio"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 9 Math covers ratio and proportion, matching the Term 1 weekly scope. The most consequential idea in the whole topic is stated on the first checkpoint and repeated in the recap: a ratio of 3 : 4 describes seven parts. Nearly every wrong answer to a sharing question comes from missing that total. The ratioBars figure exists to make it unavoidable, since the bar visibly has seven pieces. Ratio and proportion are separated carefully — one is a comparison and the other is an equation — because cross-multiplication only makes sense once a proportion is understood as something that can be true or false. The power-to-weight card is a real stat he already reads and is the clearest case of why simplifying a ratio is informative.",
+    "discussion": [
+      "Ask how many parts are in a ratio of 3 : 4. If the answer is three or four, the first half is exactly what he needs.",
+      "Ask why 500 hp in a 1000 kg car and 250 hp in a 500 kg car behave similarly. The simplified ratio is the answer.",
+      "Ask him to share an amount without finding one part first, and see what goes wrong.",
+      "Ask what makes a proportion different from a ratio. Equation against comparison is the answer worth reaching."
+    ],
+    "extension": "Have him scale a recipe for three people up to eight. The awkward multiplier forces real proportion work rather than doubling.",
+    "misconceptions": [
+      "'A ratio of 3 : 4 means seven is one of the numbers.' It means three parts and four parts, seven in total.",
+      "'3 : 4 is the same as 4 : 3.' Order matters. The first number belongs to whatever was named first.",
+      "'Equivalent ratios are made by adding the same number to both sides.' They are made by multiplying or dividing.",
+      "'Ratio and proportion mean the same thing.' A ratio compares. A proportion states that two ratios are equal."
+    ]
+  }
+}

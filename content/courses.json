@@ -194,29 +194,32 @@
         {
           "week": 6,
           "id": "math-w6",
-          "title": "Decimals: Multiply & Divide (cont.)",
+          "title": "Decimals: Order of Operations & Rates",
           "topics": [
             "The four operations with decimals: multiplication & division"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "math/w6-decimals-applied.json"
         },
         {
           "week": 7,
           "id": "math-w7",
-          "title": "Fractions & Mixed Numbers",
+          "title": "Fractions: Add & Subtract",
           "topics": [
             "Four operations with combinations of fractions, whole numbers, and mixed numbers"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "math/w7-fractions-add-subtract.json"
         },
         {
           "week": 8,
           "id": "math-w8",
-          "title": "Fractions & Mixed Numbers (cont.)",
+          "title": "Fractions: Multiply & Divide",
           "topics": [
             "Four operations with combinations of fractions, whole numbers, and mixed numbers"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "math/w8-fractions-multiply-divide.json"
         },
         {
           "week": 9,
@@ -225,16 +228,18 @@
           "topics": [
             "Ratio and proportion"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "math/w9-ratio-proportion.json"
         },
         {
           "week": 10,
           "id": "math-w10",
-          "title": "Ratio and Proportion (cont.)",
+          "title": "Ratio & Proportion Applied",
           "topics": [
             "Ratio and proportion"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "math/w10-ratio-applied.json"
         },
         {
           "week": 11,

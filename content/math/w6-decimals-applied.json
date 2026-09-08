@@ -1,0 +1,415 @@
+{
+  "id": "math-w6",
+  "courseId": "math",
+  "courseTitle": "Math",
+  "week": 6,
+  "title": "Decimals: Order of Operations & Rates",
+  "subtitle": "Which operation first, and how much per one.",
+  "estMinutes": 20,
+  "objectives": [
+    "Apply the order of operations to decimal calculations",
+    "Round a decimal to a given place",
+    "Work out a unit rate",
+    "Compare two options using unit rate",
+    "Solve multi-step problems using all four operations"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🔢",
+      "eyebrow": "Part 1 · Which one first",
+      "title": "2 + 3 × 4 has one right answer, and it is not 20",
+      "text": "Two people can do the same calculation and get different results. That is why the order is fixed by rule, not by taste."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The order",
+      "title": "Brackets, then multiply and divide, then add and subtract",
+      "text": "Work left to right inside each level. Multiplying and dividing rank equally, and so do adding and subtracting.",
+      "points": [
+        "**Brackets first**, always.",
+        "**Then × and ÷**, left to right.",
+        "**Then + and −**, left to right.",
+        "**2 + 3 × 4 = 14.** The multiplying happens first."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is 1.5 + 2 × 0.5?",
+        "options": [
+          "2.5",
+          "1.75",
+          "3.5",
+          "2"
+        ],
+        "answerIndex": 0,
+        "explain": "Multiply first: 2 × 0.5 = 1. Then 1.5 + 1 = 2.5."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Rounding",
+      "title": "Look at the digit to the right, and nothing else",
+      "text": "Find the place you are rounding to. Look at the one digit after it. Five or more rounds up.",
+      "points": [
+        "**3.847 to one decimal place** — look at the 4. Stays 3.8.",
+        "**3.867 to one decimal place** — look at the 6. Becomes 3.9.",
+        "**Only the next digit matters.** Ignore the rest.",
+        "**3.8499 to one place is 3.8.** The 99 is irrelevant."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🏎️",
+      "eyebrow": "Forza mode",
+      "title": "A lap time is rounded, and the rounding decides the podium",
+      "text": "Timing runs to thousandths, then gets shown to hundredths. Which way a time rounds has ended real races.",
+      "points": [
+        "**1.2349 shown to two places** is 1.23.",
+        "**1.2350 shown to two places** is 1.24.",
+        "**One ten-thousandth apart.** Different display.",
+        "**That is why timing keeps more digits** than it shows."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "Round 6.472 to one decimal place.",
+        "accept": [
+          "6.5",
+          "6.50"
+        ],
+        "explain": "Look at the second decimal, which is 7. Seven is five or more, so the 4 rounds up to 5."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Order and rounding done. Part 2 is rates — how much for exactly one. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "⚖️",
+      "eyebrow": "Part 2 · Per one",
+      "title": "The only fair way to compare two different sizes",
+      "text": "A 900 g box for ₱225 or a 1.5 kg box for ₱360. You cannot compare those until you work out what one unit costs."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Unit rate",
+      "title": "Divide until you have one of something",
+      "text": "A unit rate is how much of one thing there is for exactly one of another. It is always a division.",
+      "points": [
+        "**₱225 for 0.9 kg** → 225 ÷ 0.9 = ₱250 per kg.",
+        "**₱360 for 1.5 kg** → 360 ÷ 1.5 = ₱240 per kg.",
+        "**The bigger box is cheaper per kilogram.**",
+        "**The total price told you nothing.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "A 2.5 kg bag costs ₱200. What is the price per kilogram?",
+        "options": [
+          "₱80",
+          "₱500",
+          "₱125",
+          "₱50"
+        ],
+        "answerIndex": 0,
+        "explain": "200 ÷ 2.5 = 80. Divide the price by the amount to get the price for one."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Damage per second is a unit rate",
+      "text": "A weapon that hits for 90 every 3 seconds beats one that hits for 40 every 1 second. The raw number lies.",
+      "points": [
+        "**90 ÷ 3 = 30 per second.**",
+        "**40 ÷ 1 = 40 per second.** The smaller hit wins.",
+        "**Big numbers on the card** are not the comparison.",
+        "**Every stat screen** is doing this division for you."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "⚡",
+      "eyebrow": "Your body right now",
+      "title": "Nutrition labels are unit rates",
+      "text": "Every label gives the amount per 100 g so that two different products can be compared honestly.",
+      "points": [
+        "**Per 100 g** is a unit rate somebody calculated for you.",
+        "**Per serving is not**, because servings differ.",
+        "**Always compare on the same base.**",
+        "**That is the entire trick** of reading a label."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "Fuel economy is a rate you already read",
+      "text": "Litres per hundred kilometres, or kilometres per litre. Both are unit rates and they point in opposite directions.",
+      "points": [
+        "**km per litre** — bigger is better.",
+        "**Litres per 100 km** — smaller is better.",
+        "**Same car, same fact, opposite numbers.**",
+        "**Check which way the unit points.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which is better value: 1.5 L for ₱90, or 2.5 L for ₱140?",
+        "options": [
+          "2.5 L for ₱140, at ₱56 per litre",
+          "1.5 L for ₱90, at ₱60 per litre",
+          "They cost the same per litre",
+          "You cannot tell without more information"
+        ],
+        "answerIndex": 0,
+        "explain": "90 ÷ 1.5 = 60 and 140 ÷ 2.5 = 56. The larger one is cheaper per litre."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Multi-step",
+      "title": "Write down what each step means",
+      "text": "When a problem uses three operations, the mistake is almost never the arithmetic. It is losing track of what a number represents.",
+      "points": [
+        "**Label every intermediate answer.**",
+        "**\"That's the total cost\"**, not just 364.25.",
+        "**Estimate before you start.**",
+        "**Check the unit at the end.** Pesos, kilograms, litres."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "You buy 3 items at ₱24.50 each and pay with ₱100. What change?",
+        "options": [
+          "₱26.50",
+          "₱73.50",
+          "₱25.50",
+          "₱76.50"
+        ],
+        "answerIndex": 0,
+        "explain": "3 × 24.50 = 73.50, then 100 − 73.50 = 26.50. Two steps, and the second is the one people skip."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "order of operations",
+          "def": "Brackets, then multiply and divide, then add and subtract."
+        },
+        {
+          "term": "rounding",
+          "def": "Replacing a number with a nearby simpler one, to a stated place."
+        },
+        {
+          "term": "decimal place",
+          "def": "A digit position after the point. 3.14 has two."
+        },
+        {
+          "term": "rate",
+          "def": "A comparison of two quantities with different units, such as pesos per kilogram."
+        },
+        {
+          "term": "unit rate",
+          "def": "A rate for exactly one of something. Always found by dividing."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Brackets, then × and ÷, then + and −.**",
+        "**Rounding looks at one digit only.**",
+        "**Unit rate = divide until you have one.**",
+        "**Label every step.** The unit is the check."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "What is 4 + 2 × 3?",
+      "options": [
+        "10",
+        "18",
+        "9",
+        "12"
+      ],
+      "answerIndex": 0,
+      "explain": "Multiply first: 2 × 3 = 6, then 4 + 6 = 10.",
+      "objective": "Apply the order of operations to decimal calculations"
+    },
+    {
+      "type": "multiple",
+      "text": "What is 2.4 + 1.2 × 0.5?",
+      "options": [
+        "3.0",
+        "1.8",
+        "3.6",
+        "2.4"
+      ],
+      "answerIndex": 0,
+      "explain": "1.2 × 0.5 = 0.6 first. Then 2.4 + 0.6 = 3.0.",
+      "objective": "Apply the order of operations to decimal calculations"
+    },
+    {
+      "type": "multiple",
+      "text": "What is (1.5 + 2.5) × 0.2?",
+      "options": [
+        "0.8",
+        "2.0",
+        "4.2",
+        "1.5"
+      ],
+      "answerIndex": 0,
+      "explain": "Brackets first: 1.5 + 2.5 = 4. Then 4 × 0.2 = 0.8.",
+      "objective": "Apply the order of operations to decimal calculations"
+    },
+    {
+      "type": "type",
+      "text": "Round 5.283 to one decimal place.",
+      "accept": [
+        "5.3",
+        "5.30"
+      ],
+      "explain": "The second decimal is 8, which is five or more, so the 2 rounds up to 3.",
+      "objective": "Round a decimal to a given place"
+    },
+    {
+      "type": "multiple",
+      "text": "Round 12.649 to one decimal place.",
+      "options": [
+        "12.6",
+        "12.7",
+        "12.65",
+        "13.0"
+      ],
+      "answerIndex": 0,
+      "explain": "Look only at the second decimal, which is 4. The 9 after it does not matter.",
+      "objective": "Round a decimal to a given place"
+    },
+    {
+      "type": "multiple",
+      "text": "Round 0.0472 to two decimal places.",
+      "options": [
+        "0.05",
+        "0.04",
+        "0.047",
+        "0.5"
+      ],
+      "answerIndex": 0,
+      "explain": "The third decimal is 7, so the second decimal rounds from 4 up to 5.",
+      "objective": "Round a decimal to a given place"
+    },
+    {
+      "type": "multiple",
+      "text": "A 4 kg bag costs ₱260. What is the price per kilogram?",
+      "options": [
+        "₱65",
+        "₱1040",
+        "₱6.50",
+        "₱256"
+      ],
+      "answerIndex": 0,
+      "explain": "260 ÷ 4 = 65. A unit rate is always a division.",
+      "objective": "Work out a unit rate"
+    },
+    {
+      "type": "multiple",
+      "text": "A car travels 180 km on 12 litres. What is the fuel economy?",
+      "options": [
+        "15 km per litre",
+        "12 km per litre",
+        "2160 km per litre",
+        "0.067 km per litre"
+      ],
+      "answerIndex": 0,
+      "explain": "180 ÷ 12 = 15 km per litre. Distance divided by fuel gives distance for one litre.",
+      "objective": "Work out a unit rate"
+    },
+    {
+      "type": "multiple",
+      "text": "Which is better value: 750 g for ₱150, or 1.2 kg for ₱216?",
+      "options": [
+        "1.2 kg at ₱180 per kg",
+        "750 g at ₱150 per kg",
+        "They are the same",
+        "750 g at ₱120 per kg"
+      ],
+      "answerIndex": 0,
+      "explain": "150 ÷ 0.75 = 200 per kg, and 216 ÷ 1.2 = 180 per kg. The larger one is cheaper.",
+      "objective": "Compare two options using unit rate"
+    },
+    {
+      "type": "truefalse",
+      "text": "The cheaper total price is always the better value.",
+      "answer": false,
+      "explain": "False. Until you work out the price per unit, the total price tells you nothing about value.",
+      "objective": "Compare two options using unit rate"
+    },
+    {
+      "type": "multiple",
+      "text": "You buy 4 drinks at ₱18.75 each and pay ₱100. What change do you get?",
+      "options": [
+        "₱25",
+        "₱75",
+        "₱35",
+        "₱18.75"
+      ],
+      "answerIndex": 0,
+      "explain": "4 × 18.75 = 75, then 100 − 75 = 25. Two steps.",
+      "objective": "Solve multi-step problems using all four operations"
+    },
+    {
+      "type": "multiple",
+      "text": "A 2.4 m plank is cut into 0.4 m pieces. How many pieces?",
+      "options": [
+        "6",
+        "0.6",
+        "2.8",
+        "60"
+      ],
+      "answerIndex": 0,
+      "explain": "2.4 ÷ 0.4 = 6. Move both points one place: 24 ÷ 4 = 6.",
+      "objective": "Solve multi-step problems using all four operations"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 6 Math continues the decimal work and adds the two things Weeks 3 to 5 left out: the order of operations, and rates. The order is presented as a convention that exists because two people doing the same calculation must get the same answer, which is a better reason than an acronym. Rounding is reduced to a single instruction — look at the one digit to the right and nothing else — because looking at the whole tail is the commonest error. The unit rate half is the practically useful part: comparing two prices for different sizes is a real skill, and the nutrition label card points out that per-100 g exists exactly so that comparison is possible while per-serving quietly prevents it.",
+    "discussion": [
+      "Give him two supermarket prices for different pack sizes and ask which is better. He will need the unit rate and there is no way round it.",
+      "Ask why 3.8499 rounds to 3.8 at one decimal place. Only the next digit counts, and that surprises people.",
+      "Ask why the order of operations has to be a rule rather than a preference. Two people, one calculation, two answers is the answer.",
+      "Ask him to check a label for per-100 g against per-serving on something in the cupboard."
+    ],
+    "extension": "Give him a receipt and ask for the unit price of every item, then rank them. Real packaging sizes are deliberately awkward, which is the point.",
+    "misconceptions": [
+      "'Work left to right through everything.' Multiplication and division come before addition and subtraction.",
+      "'Rounding means looking at all the digits after.' Only the single digit to the right of the place matters.",
+      "'The bigger pack is always better value.' Often, but not always. The unit rate is the only way to know.",
+      "'A rate and a unit rate are the same.' A unit rate is specifically for exactly one of something."
+    ]
+  }
+}

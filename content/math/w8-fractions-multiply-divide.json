@@ -1,0 +1,407 @@
+{
+  "id": "math-w8",
+  "courseId": "math",
+  "courseTitle": "Math",
+  "week": 8,
+  "title": "Fractions: Multiply & Divide",
+  "subtitle": "Multiplying is easier than adding. Dividing is a flip away.",
+  "estMinutes": 20,
+  "objectives": [
+    "Multiply two fractions",
+    "Multiply a fraction by a whole number or mixed number",
+    "Explain why multiplying by a fraction makes a number smaller",
+    "Divide by a fraction using the reciprocal",
+    "Explain why dividing by a fraction makes a number bigger",
+    "Cancel before multiplying to keep numbers small"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "✖️",
+      "eyebrow": "Part 1 · Multiplying",
+      "title": "This one is easier than last week",
+      "text": "No common denominator. No re-cutting. Multiply the tops, multiply the bottoms, and you are done."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The rule",
+      "title": "Straight across",
+      "text": "There is no trick and no special case. It works for every pair of fractions.",
+      "points": [
+        "**2/3 × 3/4 = 6/12**, then simplify to 1/2.",
+        "**Tops together, bottoms together.**",
+        "**No common denominator needed.**",
+        "**Simplify at the end**, always."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "fractionOps",
+      "eyebrow": "Look at it",
+      "title": "Why straight across is correct",
+      "text": "Tap through all four. The last one is dividing, and it is the surprising one."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is 1/2 × 2/5?",
+        "options": [
+          "1/5",
+          "3/7",
+          "2/10",
+          "5/4"
+        ],
+        "answerIndex": 0,
+        "explain": "1 × 2 = 2 and 2 × 5 = 10, so 2/10. Simplify to 1/5."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Whole numbers",
+      "title": "A whole number is a fraction with 1 underneath",
+      "text": "That one move turns every mixed problem into the straightforward case.",
+      "points": [
+        "**5 is 5/1.** Always.",
+        "**5 × 2/3 = 5/1 × 2/3 = 10/3 = 3⅓.**",
+        "**Mixed numbers:** convert to improper first.",
+        "**Never multiply the wholes separately.** That fails."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🏎️",
+      "eyebrow": "Forza mode",
+      "title": "Gear ratios multiply, one after another",
+      "text": "The gearbox ratio and the final drive ratio multiply together to give what actually reaches the wheels.",
+      "points": [
+        "**Two ratios, multiplied**, not added.",
+        "**Change either one** and the result changes.",
+        "**Tuning screens do this arithmetic** every time.",
+        "**Fractions are ratios**, which is why it is the same sum."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is 3 × 2/5?",
+        "options": [
+          "6/5",
+          "6/15",
+          "5/6",
+          "3/5"
+        ],
+        "answerIndex": 0,
+        "explain": "3 is 3/1. Then 3 × 2 = 6 and 1 × 5 = 5, so 6/5, or 1⅕."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The trap, again",
+      "title": "Multiplying by less than one makes it smaller",
+      "text": "You met this with decimals in Week 5. It is exactly the same fact, wearing fractions.",
+      "points": [
+        "**8 × 1/2 = 4.** Smaller.",
+        "**\"Of\" means multiply.** Half of eight is four.",
+        "**A fraction under 1** always shrinks it.",
+        "**An improper fraction** grows it, as usual."
+      ]
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Multiplying done. Part 2 is dividing, which is one flip away from what you just learned. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "➗",
+      "eyebrow": "Part 2 · Dividing",
+      "title": "Nobody divides by a fraction. They flip it and multiply",
+      "text": "That sounds like a shortcut that shouldn't work. It works, and the picture in the figure shows why."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Reciprocal",
+      "title": "Flip the second one, then multiply",
+      "text": "The reciprocal of a fraction is that fraction upside down. Dividing by a number is the same as multiplying by its reciprocal.",
+      "points": [
+        "**The reciprocal of 2/3 is 3/2.**",
+        "**3 ÷ 1/2 = 3 × 2/1 = 6.**",
+        "**Only the second fraction flips.** Never the first.",
+        "**Then multiply straight across**, as before."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "What is the reciprocal of 3/4?",
+        "accept": [
+          "4/3",
+          "4 / 3"
+        ],
+        "explain": "Turn it upside down. The reciprocal of 3/4 is 4/3."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Why it grows",
+      "title": "Dividing asks how many fit inside",
+      "text": "3 ÷ 1/2 is asking how many halves fit into three. Six do, so the answer is bigger than what you started with.",
+      "points": [
+        "**Say the question out loud.** It stops being strange.",
+        "**Dividing by something small** gives a lot of them.",
+        "**Dividing by less than 1 always grows the number.**",
+        "**Same fact as Week 5**, with fractions."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "How many stacks is that?",
+      "text": "You have 3 stacks and you want to split them into quarter-stacks. Dividing by a quarter tells you how many you get.",
+      "points": [
+        "**3 ÷ 1/4 = 3 × 4 = 12 quarter-stacks.**",
+        "**Smaller boxes, more boxes.**",
+        "**Nothing was created.** It was just recounted.",
+        "**That is all dividing by a fraction is.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is 2/3 ÷ 1/6?",
+        "options": [
+          "4",
+          "1/9",
+          "2/18",
+          "1/4"
+        ],
+        "answerIndex": 0,
+        "explain": "Flip the second: 2/3 × 6/1 = 12/3 = 4. Four sixths fit into two thirds."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The time saver",
+      "title": "Cancel before you multiply",
+      "text": "If a top and a bottom share a factor, divide both by it first. The numbers stay small and the answer arrives simplified.",
+      "points": [
+        "**4/9 × 3/8** — cancel 4 and 8 to 1 and 2.",
+        "**Cancel 3 and 9** to 1 and 3.",
+        "**Left with 1/3 × 1/2 = 1/6.**",
+        "**Same answer**, without ever writing 12/72."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Splitting a round into working intervals",
+      "text": "A three-minute round divided into thirty-second bursts. That is a division by a fraction of a minute, and coaches do it constantly.",
+      "points": [
+        "**3 minutes ÷ 1/2 minute = 6 intervals.**",
+        "**Smaller intervals, more of them.**",
+        "**The answer got bigger** and nothing was added.",
+        "**You have counted this** without calling it division."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Dividing a number by 1/4 makes it four times bigger.",
+        "answer": true,
+        "explain": "True. You are counting how many quarters fit inside, and four fit into each whole."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "reciprocal", "def": "A fraction turned upside down. The reciprocal of 2/3 is 3/2." },
+        { "term": "cancelling", "def": "Dividing a top and a bottom by a shared factor before multiplying." },
+        { "term": "of", "def": "In fraction problems, 'of' means multiply. Half of eight is 1/2 × 8." },
+        { "term": "improper fraction", "def": "Top bigger than bottom. Convert mixed numbers to these before multiplying." },
+        { "term": "product", "def": "The answer to a multiplication." },
+        { "term": "quotient", "def": "The answer to a division." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Multiply straight across.** No common denominator.",
+        "**A whole number is that number over 1.**",
+        "**Divide: flip the second one, then multiply.**",
+        "**Below 1 shrinks when you multiply, grows when you divide.**"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "What is 2/5 × 3/4?",
+      "options": [
+        "3/10",
+        "6/9",
+        "5/9",
+        "8/15"
+      ],
+      "answerIndex": 0,
+      "explain": "2 × 3 = 6 and 5 × 4 = 20, giving 6/20, which simplifies to 3/10.",
+      "objective": "Multiply two fractions"
+    },
+    {
+      "type": "multiple",
+      "text": "What is 1/3 × 3/5?",
+      "options": [
+        "1/5",
+        "4/8",
+        "3/15",
+        "5/9"
+      ],
+      "answerIndex": 0,
+      "explain": "3/15 straight across, which simplifies to 1/5. Cancelling the 3s first is quicker.",
+      "objective": "Multiply two fractions"
+    },
+    {
+      "type": "multiple",
+      "text": "What is 4 × 3/8?",
+      "options": [
+        "3/2",
+        "12/32",
+        "4/8",
+        "7/8"
+      ],
+      "answerIndex": 0,
+      "explain": "4 is 4/1, so 12/8, which simplifies to 3/2 or 1½.",
+      "objective": "Multiply a fraction by a whole number or mixed number"
+    },
+    {
+      "type": "multiple",
+      "text": "What is 1½ × 2/3?",
+      "options": [
+        "1",
+        "3/5",
+        "2/9",
+        "1½"
+      ],
+      "answerIndex": 0,
+      "explain": "Convert first: 3/2 × 2/3 = 6/6 = 1.",
+      "objective": "Multiply a fraction by a whole number or mixed number"
+    },
+    {
+      "type": "multiple",
+      "text": "What is 1/4 of 20?",
+      "options": [
+        "5",
+        "80",
+        "24",
+        "16"
+      ],
+      "answerIndex": 0,
+      "explain": "'Of' means multiply. 1/4 × 20 = 20/4 = 5.",
+      "objective": "Explain why multiplying by a fraction makes a number smaller"
+    },
+    {
+      "type": "truefalse",
+      "text": "Multiplying a number by 2/3 makes it smaller.",
+      "answer": true,
+      "explain": "True. 2/3 is less than one, so the answer is smaller than what you started with.",
+      "objective": "Explain why multiplying by a fraction makes a number smaller"
+    },
+    {
+      "type": "type",
+      "text": "What is the reciprocal of 5/8?",
+      "accept": [
+        "8/5",
+        "8 / 5"
+      ],
+      "explain": "Turn it upside down. Dividing by 5/8 is the same as multiplying by 8/5.",
+      "objective": "Divide by a fraction using the reciprocal"
+    },
+    {
+      "type": "multiple",
+      "text": "What is 3/4 ÷ 1/2?",
+      "options": [
+        "3/2",
+        "3/8",
+        "2/3",
+        "1/4"
+      ],
+      "answerIndex": 0,
+      "explain": "Flip the second: 3/4 × 2/1 = 6/4 = 3/2, or 1½.",
+      "objective": "Divide by a fraction using the reciprocal"
+    },
+    {
+      "type": "multiple",
+      "text": "What is 4 ÷ 1/3?",
+      "options": [
+        "12",
+        "4/3",
+        "3/4",
+        "1/12"
+      ],
+      "answerIndex": 0,
+      "explain": "Twelve thirds fit into four. 4 × 3/1 = 12.",
+      "objective": "Explain why dividing by a fraction makes a number bigger"
+    },
+    {
+      "type": "truefalse",
+      "text": "Dividing by a fraction smaller than 1 gives a bigger answer.",
+      "answer": true,
+      "explain": "True. You are counting how many small pieces fit inside, so there are a lot of them.",
+      "objective": "Explain why dividing by a fraction makes a number bigger"
+    },
+    {
+      "type": "multiple",
+      "text": "In 5/6 × 3/10, which pair can you cancel first?",
+      "options": [
+        "The 3 and the 6, and the 5 and the 10",
+        "The 5 and the 6",
+        "The 3 and the 10",
+        "Nothing cancels"
+      ],
+      "answerIndex": 0,
+      "explain": "3 and 6 share 3; 5 and 10 share 5. That leaves 1/2 × 1/2 = 1/4.",
+      "objective": "Cancel before multiplying to keep numbers small"
+    },
+    {
+      "type": "multiple",
+      "text": "What is 5/6 × 3/10?",
+      "options": [
+        "1/4",
+        "15/60",
+        "8/16",
+        "2/5"
+      ],
+      "answerIndex": 0,
+      "explain": "15/60 simplifies to 1/4. Cancelling first gets you there without the big numbers.",
+      "objective": "Cancel before multiplying to keep numbers small"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 8 Math covers multiplying and dividing fractions, completing the four operations. It opens by pointing out that this week is easier than last week, which is true and worth saying: multiplication needs no common denominator at all. The fractionOps figure builds the area model in three taps so that 'multiply straight across' is demonstrated rather than asserted, and its fourth state answers the harder question of why dividing by a fraction makes a number bigger. Both traps from the decimals work in Week 5 return here in fraction form and are named as the same fact, so the two topics reinforce rather than compete. Cancelling before multiplying is included because it is the difference between an answer and an arithmetic mess.",
+    "discussion": [
+      "Ask him why multiplying fractions needs no common denominator when adding does. The area model answers it.",
+      "Ask him to say '3 divided by a half' out loud as a question. How many halves fit into three is the whole idea.",
+      "Ask what 'of' means in a maths question. Half of eight is a multiplication, and naming that saves marks.",
+      "Ask him to do 5/6 × 3/10 twice, once with cancelling and once without. The second way is instructive."
+    ],
+    "extension": "Have him scale a recipe by 2/3 and then by 3/2 and check he gets back to the original. Reciprocals become obvious when they undo each other.",
+    "misconceptions": [
+      "'You need a common denominator to multiply.' You do not. That is only for adding and subtracting.",
+      "'Multiplying always makes numbers bigger.' Multiplying by a fraction under 1 makes them smaller.",
+      "'Flip both fractions when dividing.' Only the second one. The first stays as it is.",
+      "'Cancelling changes the answer.' It is simplifying early. The answer is identical, and the numbers stay manageable."
+    ]
+  }
+}

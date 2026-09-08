@@ -977,6 +977,14 @@ strong { font-weight: 700; color: var(--ink); }
 .fig-liquid     { fill: var(--notyet); fill-opacity: .18; }
 .fig-grain      { fill: var(--accent); }
 
+/* ---------- Fraction and ratio figures ---------- */
+.fig-cell-e   { fill: var(--surface-2); stroke: var(--ink-faint); stroke-width: 1.5; }
+.fig-cell-f   { fill: var(--accent); fill-opacity: .55; stroke: var(--accent); stroke-width: 1.5; }
+.fig-cell-g   { fill: var(--notyet); fill-opacity: .45; stroke: var(--notyet); stroke-width: 1.5; }
+.fig-cell-x   { fill: var(--accent); fill-opacity: .85; stroke: var(--accent); stroke-width: 1.5; }
+.fig-cut      { stroke: var(--ink); stroke-width: 1.5; stroke-dasharray: 4 3; }
+.fig-frac     { font-family: var(--font-ui); font-size: 17px; font-weight: 800; fill: var(--ink); }
+
 /* ---------- Sign-in flow ---------- */
 /* Two named steps, so it's always obvious where you are and what's left. */
 .signin-steps {

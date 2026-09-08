@@ -1,0 +1,416 @@
+{
+  "id": "math-w10",
+  "courseId": "math",
+  "courseTitle": "Math",
+  "week": 10,
+  "title": "Ratio & Proportion Applied",
+  "subtitle": "Rates, scale drawings, and the questions the exam actually asks.",
+  "estMinutes": 20,
+  "objectives": [
+    "Distinguish a ratio from a rate",
+    "Use a unit rate to solve a proportion problem",
+    "Read and use a scale on a map or drawing",
+    "Solve direct proportion word problems",
+    "Decide when two quantities are in direct proportion",
+    "Review the whole ratio topic for the exam"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "📐",
+      "eyebrow": "Part 1 · Rates and scale",
+      "title": "A ratio with units attached has its own name",
+      "text": "Three to four is a ratio. Ninety pesos per kilogram is a rate. The difference is whether the two things are measured in the same unit."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The distinction",
+      "title": "Ratio, rate, unit rate",
+      "text": "All three compare two quantities. What changes is whether the units match and whether one side is exactly one.",
+      "points": [
+        "**Ratio** — same units. 3 boys to 4 girls.",
+        "**Rate** — different units. 180 km in 3 hours.",
+        "**Unit rate** — one side is exactly 1. 60 km per hour.",
+        "**A unit rate is always a division.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which of these is a RATE rather than a ratio?",
+        "options": [
+          "240 km in 4 hours",
+          "3 boys to 4 girls",
+          "5 red counters to 2 blue",
+          "2 parts cement to 3 parts sand"
+        ],
+        "answerIndex": 0,
+        "explain": "Different units, kilometres against hours. The other three compare like with like."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The method",
+      "title": "Find one, then multiply",
+      "text": "Almost every proportion word problem can be solved without cross-multiplication if you find the value of one first.",
+      "points": [
+        "**5 books cost ₱400** → one book is ₱80.",
+        "**So 12 books cost 12 × 80 = ₱960.**",
+        "**Divide to find one. Multiply to find many.**",
+        "**Slower to write, much harder to get wrong.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🏎️",
+      "eyebrow": "Forza mode",
+      "title": "Fuel per lap is the unit rate that decides a race",
+      "text": "Work out litres per lap and you know how many laps a tank gives you. Get it wrong and you stop on the last corner.",
+      "points": [
+        "**45 litres over 25 laps** → 1.8 litres per lap.",
+        "**A 60-litre tank** → 60 ÷ 1.8 ≈ 33 laps.",
+        "**One division each way.**",
+        "**Race engineers do this constantly.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "6 identical pens cost ₱90. What do 10 cost?",
+        "options": [
+          "₱150",
+          "₱140",
+          "₱120",
+          "₱900"
+        ],
+        "answerIndex": 0,
+        "explain": "One pen is 90 ÷ 6 = ₱15. Then 10 × 15 = ₱150."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Scale",
+      "title": "A scale is a ratio between drawing and reality",
+      "text": "A scale of 1 : 100 means one centimetre on the paper is one hundred centimetres in real life.",
+      "points": [
+        "**Scale 1 : 100** — the drawing is 100 times smaller.",
+        "**Drawing to real:** multiply by the scale.",
+        "**Real to drawing:** divide by the scale.",
+        "**Keep the units the same** on both sides."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Every map you have ever opened has a scale",
+      "text": "The minimap is the world divided by a fixed number. That number is a ratio, and it never changes as you move.",
+      "points": [
+        "**Zoom changes the scale**, not the world.",
+        "**A scale bar** tells you what one screen unit means.",
+        "**Same maths as a paper map.**",
+        "**A model car at 1 : 64** is the same idea again."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "A map has a scale of 1 : 50000. A road measures 4 cm. How long is it really?",
+        "options": [
+          "2 km",
+          "200 m",
+          "20 km",
+          "500 m"
+        ],
+        "answerIndex": 0,
+        "explain": "4 × 50000 = 200000 cm. That is 2000 m, which is 2 km."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Rates and scale done. Part 2 is when proportion applies, and when it does not. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "📈",
+      "eyebrow": "Part 2 · When it applies",
+      "title": "Not everything scales, and the exam knows it",
+      "text": "Twice the flour makes twice the bread. Twice the workers does not always halve the time, and neither does twice the runners."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Direct proportion",
+      "title": "Double one, double the other",
+      "text": "Two quantities are in direct proportion when multiplying one by any number multiplies the other by the same number.",
+      "points": [
+        "**Cost and quantity** — buy twice as many, pay twice.",
+        "**Distance and time** at a steady speed.",
+        "**Ingredients in a recipe.**",
+        "**Divide one by the other** and you get the same number."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The counter-examples",
+      "title": "Things that look proportional and are not",
+      "text": "The exam sets these deliberately, and they are worth recognising rather than calculating.",
+      "points": [
+        "**Age** — twice as old in ten years is nonsense.",
+        "**A race time** does not halve if you train twice as long.",
+        "**Nine women** cannot make a baby in one month.",
+        "**Ask whether doubling really doubles it.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Training does not scale proportionally",
+      "text": "Doubling the hours does not double the result. Recovery is part of the process, and there is a limit to how much fits in a week.",
+      "points": [
+        "**Some things scale.** Rounds per session, roughly.",
+        "**Most do not.** Progress, recovery, sleep need.",
+        "**Assuming everything is proportional** is the error.",
+        "**It is also a real training mistake.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which pair is in direct proportion?",
+        "options": [
+          "Number of tickets and total cost",
+          "Your age and your height",
+          "Hours studied and marks scored",
+          "Runners in a race and the winning time"
+        ],
+        "answerIndex": 0,
+        "explain": "Twice the tickets is exactly twice the cost. None of the other three scale that cleanly."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Exam review",
+      "title": "The whole topic in four moves",
+      "text": "Every ratio question in the exam is one of these four, or a combination of two.",
+      "points": [
+        "**Simplify** — divide both sides by the same number.",
+        "**Find the missing term** — cross-multiply.",
+        "**Share an amount** — add parts, find one, multiply.",
+        "**Scale up or down** — find the unit rate first."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "A recipe for 4 people uses 300 g of rice. How much for 10 people?",
+        "options": [
+          "750 g",
+          "600 g",
+          "900 g",
+          "1200 g"
+        ],
+        "answerIndex": 0,
+        "explain": "One person needs 300 ÷ 4 = 75 g. Then 10 × 75 = 750 g."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "rate", "def": "A comparison of two quantities with different units, such as km per hour." },
+        { "term": "unit rate", "def": "A rate where one side is exactly one. Always found by dividing." },
+        { "term": "scale", "def": "The ratio between a drawing and the real thing, such as 1 : 50000." },
+        { "term": "direct proportion", "def": "Multiply one quantity by any number and the other multiplies by the same." },
+        { "term": "cross-multiplication", "def": "Multiplying diagonally across a proportion to find a missing term." },
+        { "term": "scale factor", "def": "The number you multiply by to go from the drawing to the real size." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Ratio: same units. Rate: different units.**",
+        "**Find one, then multiply.** It rarely goes wrong.",
+        "**Scale 1 : n means multiply the drawing by n.**",
+        "**Ask whether doubling really doubles it.**"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Which of these is a rate?",
+      "options": [
+        "₱90 per kilogram",
+        "3 boys to 4 girls",
+        "2 parts water to 1 part squash",
+        "5 : 8"
+      ],
+      "answerIndex": 0,
+      "explain": "Pesos and kilograms are different units, which is what makes it a rate rather than a ratio.",
+      "objective": "Distinguish a ratio from a rate"
+    },
+    {
+      "type": "multiple",
+      "text": "A car travels 240 km in 4 hours. What is the unit rate?",
+      "options": [
+        "60 km per hour",
+        "960 km per hour",
+        "4 km per hour",
+        "240 km per hour"
+      ],
+      "answerIndex": 0,
+      "explain": "240 ÷ 4 = 60. A unit rate has exactly one on one side.",
+      "objective": "Distinguish a ratio from a rate"
+    },
+    {
+      "type": "multiple",
+      "text": "8 identical notebooks cost ₱200. What do 14 cost?",
+      "options": [
+        "₱350",
+        "₱280",
+        "₱320",
+        "₱400"
+      ],
+      "answerIndex": 0,
+      "explain": "One notebook is 200 ÷ 8 = ₱25. Then 14 × 25 = ₱350.",
+      "objective": "Use a unit rate to solve a proportion problem"
+    },
+    {
+      "type": "multiple",
+      "text": "A machine makes 150 parts in 5 minutes. How many in 12 minutes?",
+      "options": [
+        "360",
+        "300",
+        "420",
+        "180"
+      ],
+      "answerIndex": 0,
+      "explain": "150 ÷ 5 = 30 per minute. Then 12 × 30 = 360.",
+      "objective": "Use a unit rate to solve a proportion problem"
+    },
+    {
+      "type": "multiple",
+      "text": "A drawing has a scale of 1 : 200. A wall measures 3 cm. How long is the real wall?",
+      "options": [
+        "6 m",
+        "600 m",
+        "60 cm",
+        "200 cm"
+      ],
+      "answerIndex": 0,
+      "explain": "3 × 200 = 600 cm, which is 6 m.",
+      "objective": "Read and use a scale on a map or drawing"
+    },
+    {
+      "type": "multiple",
+      "text": "A map scale is 1 : 25000. Two towns are 8 cm apart on the map. How far apart really?",
+      "options": [
+        "2 km",
+        "200 m",
+        "20 km",
+        "25 km"
+      ],
+      "answerIndex": 0,
+      "explain": "8 × 25000 = 200000 cm = 2000 m = 2 km.",
+      "objective": "Read and use a scale on a map or drawing"
+    },
+    {
+      "type": "multiple",
+      "text": "A real car is 4 m long. A model is 1 : 64 scale. How long is the model?",
+      "options": [
+        "6.25 cm",
+        "64 cm",
+        "25.6 cm",
+        "0.64 cm"
+      ],
+      "answerIndex": 0,
+      "explain": "4 m is 400 cm. 400 ÷ 64 = 6.25 cm. Real to drawing means dividing.",
+      "objective": "Read and use a scale on a map or drawing"
+    },
+    {
+      "type": "multiple",
+      "text": "A recipe for 6 people uses 450 g of flour. How much for 8 people?",
+      "options": [
+        "600 g",
+        "550 g",
+        "675 g",
+        "500 g"
+      ],
+      "answerIndex": 0,
+      "explain": "450 ÷ 6 = 75 g per person. Then 8 × 75 = 600 g.",
+      "objective": "Solve direct proportion word problems"
+    },
+    {
+      "type": "multiple",
+      "text": "Which pair is in direct proportion?",
+      "options": [
+        "Litres of petrol and the cost of filling up",
+        "A person's age and their shoe size",
+        "The number of players and the length of a match",
+        "Hours of sleep and marks in an exam"
+      ],
+      "answerIndex": 0,
+      "explain": "Twice the litres is exactly twice the cost. The other three do not scale cleanly at all.",
+      "objective": "Decide when two quantities are in direct proportion"
+    },
+    {
+      "type": "truefalse",
+      "text": "If one worker builds a wall in 8 hours, two workers will always build it in 4.",
+      "answer": false,
+      "explain": "False. It sounds proportional but real work rarely divides that cleanly. The exam sets this deliberately.",
+      "objective": "Decide when two quantities are in direct proportion"
+    },
+    {
+      "type": "multiple",
+      "text": "Share 96 in the ratio 5 : 3.",
+      "options": [
+        "60 and 36",
+        "48 and 48",
+        "50 and 46",
+        "64 and 32"
+      ],
+      "answerIndex": 0,
+      "explain": "Eight parts. 96 ÷ 8 = 12 per part. Then 5 × 12 = 60 and 3 × 12 = 36.",
+      "objective": "Review the whole ratio topic for the exam"
+    },
+    {
+      "type": "type",
+      "text": "Solve for n: 5/8 = 15/n",
+      "accept": [
+        "24",
+        "n=24",
+        "n = 24"
+      ],
+      "explain": "Cross-multiply: 5 × n = 8 × 15, so 5n = 120 and n = 24.",
+      "objective": "Review the whole ratio topic for the exam"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 10 Math applies ratio and proportion and reviews the topic before the exam. Two things get more weight than usual. The first is the find-one-then-multiply method, which is slower to write than cross-multiplication and far harder to get wrong, and is therefore the better default under exam pressure. The second is the section on quantities that are not in direct proportion: the exam sets those deliberately, and the useful skill is recognising them rather than calculating them. The training card makes the same point in a domain he cares about, where assuming everything scales is a real and common mistake rather than a maths-lesson abstraction.",
+    "discussion": [
+      "Ask him to solve a proportion two ways, by cross-multiplying and by finding one. Both work; one is easier to check.",
+      "Ask what scale his model cars are and what that number means. 1 : 64 stops being decoration.",
+      "Ask him to name three things that are not in direct proportion. It is harder than it sounds.",
+      "Ask whether training twice as long makes you twice as good. He already knows the answer, and now it has a name."
+    ],
+    "extension": "Give him a floor plan or a map with a scale and have him work out two real distances. Then have him measure one of them and check.",
+    "misconceptions": [
+      "'Ratio and rate are the same word.' A rate compares different units. A ratio compares like with like.",
+      "'A scale of 1 : 100 means the drawing is 100 times bigger.' It is 100 times smaller. The real thing is bigger.",
+      "'Everything scales in proportion.' Age, race times and workers per job do not. The exam relies on that error.",
+      "'Cross-multiplication is the only method.' Finding the unit rate first works for nearly every word problem and is easier to check."
+    ]
+  }
+}
