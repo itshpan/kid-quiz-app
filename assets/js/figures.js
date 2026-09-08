@@ -3595,6 +3595,152 @@ function americanChanges() {
     });
 }
 
+
+/* ---- MAPEH weeks 6-10 ------------------------------------------------ */
+
+/* Week 6: colour relationships, shown in actual colour. */
+function colorSchemes() {
+    const dot = (x, fill, label) => `
+        <circle cx="${x}" cy="112" r="30" fill="${fill}" stroke="#2a2a2e" stroke-width="1.5"/>
+        <text class="fig-mono" x="${x}" y="162" text-anchor="middle">${label}</text>`;
+    const row = arr => arr.map(([f, l], i) =>
+        dot(Math.round(200 - (arr.length - 1) * 45 + i * 90), f, l)).join('');
+    return demoSwitch({
+        id: 'cs', label: 'COLOUR RELATIONSHIPS', height: 250, capY: 200,
+        alt: 'Six colour relationships shown as coloured circles with names',
+        demos: [
+            { btn: 'Primary', svg: row([['#d94a3d', 'red'], ['#e8c33a', 'yellow'], ['#3f6fd1', 'blue']]),
+              a: 'Primary: red, yellow, blue',
+              b: 'You cannot mix these from anything else.' },
+            { btn: 'Secondary', svg: row([['#e08a30', 'orange'], ['#4a9e5c', 'green'], ['#7d5aa8', 'violet']]),
+              a: 'Secondary: orange, green, violet',
+              b: 'Each one is two primaries mixed together.' },
+            { btn: 'Warm', svg: row([['#d94a3d', 'red'], ['#e08a30', 'orange'], ['#e8c33a', 'yellow']]),
+              a: 'Warm colours come forward',
+              b: 'Fire and sunlight. They look closer than they are.' },
+            { btn: 'Cool', svg: row([['#3f6fd1', 'blue'], ['#4a9e5c', 'green'], ['#7d5aa8', 'violet']]),
+              a: 'Cool colours fall back',
+              b: 'Water and shade. They look further away.' },
+            { btn: 'Opposite', svg: row([['#d94a3d', 'red'], ['#4a9e5c', 'green']]),
+              a: 'Complementary: opposite on the wheel',
+              b: 'Side by side they both look brighter.' },
+            { btn: 'Neutral', svg: row([['#2a2a2e', 'dark'], ['#8a8a90', 'grey'], ['#f2f0ec', 'light']]),
+              a: 'Neutrals let a colour breathe',
+              b: 'Used around a bright colour, not instead of it.' }
+        ]
+    });
+}
+
+/* Week 7: how sports are grouped, by what the game asks of you. */
+function sportCategories() {
+    return listPicker({
+        id: 'sp7', label: 'HOW SPORTS ARE GROUPED',
+        alt: 'Six categories of sport with an example and what each one demands',
+        capA: 'Means: ', capB: 'Example: ',
+        rows: [
+            { btn: 'Solo', short: 'Individual',
+              a: 'One person, one result', b: 'Sprinting, swimming, gymnastics.' },
+            { btn: 'Dual', short: 'Dual',
+              a: 'One against one, or two against two', b: 'Boxing, badminton, table tennis.' },
+            { btn: 'Team', short: 'Team',
+              a: 'A group with a shared score', b: 'Basketball, volleyball, football.' },
+            { btn: 'Invade', short: 'Invasion game',
+              a: 'You enter their territory to score', b: 'Basketball, football, rugby.' },
+            { btn: 'Net', short: 'Net or wall game',
+              a: 'A barrier separates the two sides', b: 'Volleyball, badminton, tennis.' },
+            { btn: 'Target', short: 'Target game',
+              a: 'You aim at something that does not move', b: 'Archery, bowling, darts.' }
+        ]
+    });
+}
+
+/* Week 8: the daily habits, and what each one actually does. */
+function healthHabits() {
+    return listPicker({
+        id: 'hh', label: 'SIX HABITS, SIX EFFECTS',
+        alt: 'Six daily health habits with the effect each one has on the body',
+        capA: 'Does: ', capB: 'Note: ',
+        rows: [
+            { btn: 'Sleep', short: 'Sleep',
+              a: 'Repairs muscle and files the day into memory',
+              b: 'Age 11 to 13 needs about nine hours.' },
+            { btn: 'Water', short: 'Water',
+              a: 'Carries nutrients and cools you down',
+              b: 'Thirst arrives after you are already low.' },
+            { btn: 'Food', short: 'Balanced food',
+              a: 'Fuel, building material and repair kit',
+              b: 'Go, grow and glow is the same idea.' },
+            { btn: 'Move', short: 'Daily movement',
+              a: 'Strengthens the heart and the bones',
+              b: 'Sixty minutes a day is the usual target.' },
+            { btn: 'Screen', short: 'Screen limits',
+              a: 'Protects sleep and protects your eyes',
+              b: 'Blue light late tells the brain it is morning.' },
+            { btn: 'Clean', short: 'Hygiene',
+              a: 'Keeps germs off your hands and out of you',
+              b: 'Handwashing is still the biggest single win.' }
+        ]
+    });
+}
+
+/* Week 9: the five parts of health-related fitness. */
+function fitnessParts() {
+    return listPicker({
+        id: 'fp9', label: 'FIVE PARTS OF FITNESS',
+        alt: 'The five components of health-related fitness with a test for each',
+        capA: 'Is: ', capB: 'Tested by: ',
+        rows: [
+            { btn: '1', short: 'Heart endurance',
+              a: 'How long you keep going without stopping',
+              b: 'A timed run, or a step test.' },
+            { btn: '2', short: 'Muscular strength',
+              a: 'How much force you can produce once',
+              b: 'One heavy push, pull or lift.' },
+            { btn: '3', short: 'Muscular endurance',
+              a: 'How many times you can repeat that force',
+              b: 'Push-ups or sit-ups to failure.' },
+            { btn: '4', short: 'Flexibility',
+              a: 'How far a joint can move safely',
+              b: 'The sit-and-reach test.' },
+            { btn: '5', short: 'Body composition',
+              a: 'How much of you is muscle, bone and fat',
+              b: 'It is one number among five, not a verdict.' },
+            { btn: 'Skill', short: 'Skill-related',
+              a: 'Speed, power, balance, agility, coordination',
+              b: 'These help you play. The five above keep you well.' }
+        ]
+    });
+}
+
+/* Week 10: a hygiene routine in the order it actually happens. */
+function hygieneRoutine() {
+    return listPicker({
+        id: 'hr10', label: 'SELF-CARE, AND THE REASON',
+        alt: 'Six self-care tasks with the reason each one matters',
+        capA: 'Why: ', capB: 'Note: ',
+        rows: [
+            { btn: 'Teeth', short: 'Brush twice daily',
+              a: 'Plaque hardens within about two days',
+              b: 'Two minutes, morning and last thing at night.' },
+            { btn: 'Hands', short: 'Wash hands',
+              a: 'Hands move germs to your face and food',
+              b: 'Twenty seconds with soap beats a quick rinse.' },
+            { btn: 'Shower', short: 'Shower daily',
+              a: 'Sweat itself is odourless until bacteria feed on it',
+              b: 'This is why puberty changes how you smell.' },
+            { btn: 'Hair', short: 'Hair and nails',
+              a: 'Dirt collects under nails and in scalp oil',
+              b: 'Cut nails straight across to avoid ingrowth.' },
+            { btn: 'Clothes', short: 'Clean clothes',
+              a: 'Worn clothes hold sweat and bacteria',
+              b: 'Socks and underwear are a daily change.' },
+            { btn: 'Sleep', short: 'Rest and recovery',
+              a: 'Skin and muscle repair mostly while you sleep',
+              b: 'Self-care is not only what you wash.' }
+        ]
+    });
+}
+
 export const FIGURES = {
     crumpleZone,
     muscleTypes,
@@ -3659,7 +3805,12 @@ export const FIGURES = {
     warTimeline,
     colonialGov,
     schurmanReport,
-    americanChanges
+    americanChanges,
+    colorSchemes,
+    sportCategories,
+    healthHabits,
+    fitnessParts,
+    hygieneRoutine
 };
 
 

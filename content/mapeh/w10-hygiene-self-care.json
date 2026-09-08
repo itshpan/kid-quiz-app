@@ -1,0 +1,397 @@
+{
+  "id": "mapeh-w10",
+  "courseId": "mapeh",
+  "courseTitle": "MAPEH",
+  "week": 10,
+  "title": "Personal Hygiene & Self-Care",
+  "subtitle": "Puberty changes the rules. Nobody usually explains why.",
+  "estMinutes": 18,
+  "objectives": [
+    "Explain why body odour appears at puberty",
+    "Describe correct handwashing and why it works",
+    "Explain how tooth decay happens and how brushing stops it",
+    "Describe basic skin, hair and nail care",
+    "Explain self-care as more than washing"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🚿",
+      "eyebrow": "Part 1 · Why it changed",
+      "title": "Sweat has no smell",
+      "text": "That is a real fact, not a comforting one. Fresh sweat is almost odourless. Bacteria on your skin do the rest."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Two kinds of sweat gland",
+      "title": "One switches on at puberty",
+      "text": "Eccrine glands cover most of your body and produce watery sweat. Apocrine glands are different, and they start working at puberty.",
+      "points": [
+        "**Eccrine:** everywhere, watery, for cooling.",
+        "**Apocrine:** armpits and groin, thicker fluid.",
+        "**Bacteria feed on apocrine sweat.**",
+        "**The smell is the bacteria**, not you."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "📈",
+      "eyebrow": "Your body mode",
+      "title": "This is why the routine has to change",
+      "text": "The washing that was enough at nine is not enough at twelve. The glands doing the work are different ones.",
+      "points": [
+        "**Nothing went wrong.** A system switched on.",
+        "**Daily showering** becomes necessary, not optional.",
+        "**Clean clothes matter** as much as clean skin.",
+        "**Deodorant masks. Antiperspirant reduces.**"
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "hygieneRoutine",
+      "eyebrow": "Six tasks",
+      "title": "Each one, and the reason behind it",
+      "text": "Tap through. Every item has a mechanism, not just a rule."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What actually causes body odour?",
+        "options": [
+          "Bacteria feeding on sweat from apocrine glands",
+          "Sweat itself, which has a strong smell",
+          "Drinking too little water",
+          "Wearing cotton clothing"
+        ],
+        "answerIndex": 0,
+        "explain": "Fresh sweat is nearly odourless. Apocrine glands switch on at puberty and bacteria do the rest."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Handwashing",
+      "title": "Soap does something specific",
+      "text": "Soap molecules pull apart the fatty outer layer of many germs. They also lift the rest off so water carries it away.",
+      "points": [
+        "**Twenty seconds** is the usual guidance.",
+        "**Backs of hands and between fingers** get missed.",
+        "**Under the nails** is the most missed spot.",
+        "**Rinsing alone** leaves most of it behind."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Rinsing your hands with water alone removes germs about as well as using soap.",
+        "answer": false,
+        "explain": "Soap breaks up the fatty outer layer of many germs and lifts the rest off. Water alone leaves most behind."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Halfway",
+      "text": "Part 2 is teeth, skin and what self-care actually covers. Take a breath."
+    },
+    {
+      "kind": "open",
+      "icon": "🦷",
+      "eyebrow": "Part 2 · Teeth and skin",
+      "title": "A cavity is bacteria producing acid",
+      "text": "Bacteria in your mouth eat sugar and release acid. The acid dissolves enamel. That is the whole process."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Teeth",
+      "title": "Plaque is the film they live in",
+      "text": "Plaque is a soft layer of bacteria. Left alone it hardens into tartar, which a brush can no longer remove.",
+      "points": [
+        "**Brush twice a day**, two minutes each.",
+        "**Enamel does not grow back.**",
+        "**Snacking often** keeps the acid attack running.",
+        "**Flossing reaches** where the brush cannot."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Enamel has no respawn",
+      "text": "Almost everything in your body repairs itself. Tooth enamel is one of the few things that genuinely does not.",
+      "points": [
+        "**Bone heals. Skin heals. Enamel does not.**",
+        "**A filling is a patch**, not a repair.",
+        "**Damage here is permanent.**",
+        "**That is why the routine is non-negotiable.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why can't a toothbrush remove tartar?",
+        "options": [
+          "Tartar is hardened plaque and needs a dentist to remove",
+          "Tartar is inside the tooth",
+          "Toothbrushes are too soft by law",
+          "Tartar only forms on the tongue"
+        ],
+        "answerIndex": 0,
+        "explain": "Plaque is soft and brushable. Once it hardens into tartar, brushing no longer shifts it."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Skin, hair, nails",
+      "title": "Oil production rises at puberty too",
+      "text": "The same hormones that start apocrine sweat also increase skin oil, which is why acne is common at your age.",
+      "points": [
+        "**Acne is not caused by being dirty.**",
+        "**Scrubbing harder makes it worse.**",
+        "**Cut nails straight across** to avoid ingrowth.",
+        "**Wash hair** as often as it gets oily."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Training mode",
+      "title": "Gear is part of hygiene",
+      "text": "Wraps, gloves and kit hold sweat and bacteria. Damp gear in a closed bag is how skin infections spread in a gym.",
+      "points": [
+        "**Dry wraps between sessions.**",
+        "**Air the gloves**, do not seal them in.",
+        "**Shower soon after training**, not hours later.",
+        "**Never share** wraps, towels or a mouthguard."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The wider meaning",
+      "title": "Self-care includes rest and asking",
+      "text": "Washing is the visible part. Sleep, food, rest days and saying when something is wrong are the same job.",
+      "points": [
+        "**Looking after yourself** is a skill, not vanity.",
+        "**Telling an adult early** is part of it.",
+        "**A routine removes the decision.**",
+        "**Same order, same time, every day.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Acne is caused by not washing your face enough.",
+        "answer": false,
+        "explain": "It is driven by hormones raising oil production. Scrubbing harder irritates skin and makes it worse."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "eccrine gland",
+          "def": "Sweat gland found all over the body. Watery sweat, for cooling."
+        },
+        {
+          "term": "apocrine gland",
+          "def": "Sweat gland in the armpits and groin that switches on at puberty."
+        },
+        {
+          "term": "plaque",
+          "def": "A soft film of bacteria on teeth. Brushing removes it."
+        },
+        {
+          "term": "tartar",
+          "def": "Hardened plaque. Only a dentist can remove it."
+        },
+        {
+          "term": "enamel",
+          "def": "The hard outer layer of a tooth. It does not grow back."
+        },
+        {
+          "term": "deodorant",
+          "def": "Masks or slows odour. Antiperspirant reduces the sweat itself."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Sweat is odourless.** Bacteria make the smell.",
+        "**Soap breaks germs apart.** Water alone does not.",
+        "**Enamel does not grow back.**",
+        "**Acne is hormones**, not dirt."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Which sweat glands start working at puberty?",
+      "options": [
+        "Apocrine glands",
+        "Eccrine glands",
+        "Salivary glands",
+        "Sebaceous glands only"
+      ],
+      "answerIndex": 0,
+      "explain": "Apocrine glands sit in the armpits and groin and produce a thicker fluid bacteria feed on.",
+      "objective": "Explain why body odour appears at puberty"
+    },
+    {
+      "type": "truefalse",
+      "text": "Fresh sweat has a strong smell of its own.",
+      "answer": false,
+      "explain": "False. Fresh sweat is nearly odourless. The smell comes from bacteria feeding on it.",
+      "objective": "Explain why body odour appears at puberty"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the difference between deodorant and antiperspirant?",
+      "options": [
+        "Deodorant masks odour; antiperspirant reduces sweating",
+        "They are two words for the same product",
+        "Antiperspirant only works on hands",
+        "Deodorant kills all skin bacteria permanently"
+      ],
+      "answerIndex": 0,
+      "explain": "One addresses the smell, the other addresses the sweat itself.",
+      "objective": "Explain why body odour appears at puberty"
+    },
+    {
+      "type": "multiple",
+      "text": "How does soap help remove germs?",
+      "options": [
+        "It breaks apart their fatty outer layer and lifts them off the skin",
+        "It makes water hotter",
+        "It dries the skin completely",
+        "It changes the colour of germs"
+      ],
+      "answerIndex": 0,
+      "explain": "That is why soap and twenty seconds beat a quick rinse every time.",
+      "objective": "Describe correct handwashing and why it works"
+    },
+    {
+      "type": "multiple",
+      "text": "Which part of the hands is most often missed when washing?",
+      "options": [
+        "Under the fingernails",
+        "The palms",
+        "The wrists",
+        "The thumbs only"
+      ],
+      "answerIndex": 0,
+      "explain": "Under the nails, then between the fingers and the backs of the hands.",
+      "objective": "Describe correct handwashing and why it works"
+    },
+    {
+      "type": "multiple",
+      "text": "What causes tooth decay?",
+      "options": [
+        "Bacteria producing acid that dissolves enamel",
+        "Brushing too hard",
+        "Cold water on the teeth",
+        "Eating any food at all"
+      ],
+      "answerIndex": 0,
+      "explain": "Bacteria eat sugar and release acid. The acid dissolves enamel, and enamel does not grow back.",
+      "objective": "Explain how tooth decay happens and how brushing stops it"
+    },
+    {
+      "type": "multiple",
+      "text": "What is plaque?",
+      "options": [
+        "A soft film of bacteria on the teeth",
+        "The hard outer layer of a tooth",
+        "A kind of toothpaste",
+        "A gum disease"
+      ],
+      "answerIndex": 0,
+      "explain": "Brushing removes plaque. Once it hardens into tartar, only a dentist can.",
+      "objective": "Explain how tooth decay happens and how brushing stops it"
+    },
+    {
+      "type": "truefalse",
+      "text": "Tooth enamel grows back once damage stops.",
+      "answer": false,
+      "explain": "False. Bone and skin heal; enamel does not. A filling is a patch, not a repair.",
+      "objective": "Explain how tooth decay happens and how brushing stops it"
+    },
+    {
+      "type": "multiple",
+      "text": "Why does acne become common at puberty?",
+      "options": [
+        "Hormones increase the skin's oil production",
+        "Teenagers wash less than children",
+        "Skin becomes thinner with age",
+        "It is caused by eating chocolate"
+      ],
+      "answerIndex": 0,
+      "explain": "The same hormones that start apocrine sweat raise skin oil. Scrubbing harder makes it worse.",
+      "objective": "Describe basic skin, hair and nail care"
+    },
+    {
+      "type": "multiple",
+      "text": "How should nails be cut to avoid ingrowth?",
+      "options": [
+        "Straight across",
+        "Curved deeply at the corners",
+        "As short as possible",
+        "Only on the left hand"
+      ],
+      "answerIndex": 0,
+      "explain": "Cutting down into the corners is what lets a nail grow into the skin.",
+      "objective": "Describe basic skin, hair and nail care"
+    },
+    {
+      "type": "multiple",
+      "text": "Why should training gear be dried between sessions?",
+      "options": [
+        "Damp gear holds bacteria and spreads skin infections",
+        "It makes the gear lighter",
+        "Wet gear is against the rules",
+        "It improves punching power"
+      ],
+      "answerIndex": 0,
+      "explain": "Damp wraps sealed in a bag are how skin infections move around a gym.",
+      "objective": "Explain self-care as more than washing"
+    },
+    {
+      "type": "multiple",
+      "text": "What else counts as self-care besides washing?",
+      "options": [
+        "Sleep, food, rest and telling someone when something is wrong",
+        "Only exercise",
+        "Only diet",
+        "Nothing else; self-care means hygiene"
+      ],
+      "answerIndex": 0,
+      "explain": "Washing is the visible part. The rest of it is the same job.",
+      "objective": "Explain self-care as more than washing"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 10 closes the MAPEH Health strand with personal hygiene and self-care. It is written to be read by a boy going through puberty without embarrassment, by giving mechanisms instead of instructions: apocrine glands rather than 'you smell now', hormones rather than 'wash your face'. The two claims most worth him keeping are that fresh sweat is odourless and that acne is not caused by being dirty, because both replace shame with a cause. The gym-gear card is included because he trains, and damp wraps are the most likely route to a real skin infection at his age. Self-care is explicitly widened at the end to include rest and speaking up.",
+    "discussion": [
+      "Ask him to explain in his own words why the routine had to change this year.",
+      "Ask what soap does that water alone cannot.",
+      "Ask which body tissues repair themselves and which do not.",
+      "Ask what part of self-care has nothing to do with washing."
+    ],
+    "extension": "Have him write his own morning and evening routine as a short checklist, in order, with a one-line reason next to each item. If he cannot give a reason, the item comes off the list.",
+    "misconceptions": [
+      "'Sweat smells.' Fresh sweat is nearly odourless; bacteria feeding on it produce the smell.",
+      "'Acne means you are dirty.' It is hormonal, and scrubbing harder irritates the skin.",
+      "'A quick rinse is enough.' Soap breaks up the fatty coat of many germs; water alone does not.",
+      "'Damaged enamel will heal.' It does not regrow. That is why the brushing routine matters so much."
+    ]
+  }
+}

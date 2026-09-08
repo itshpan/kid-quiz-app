@@ -1,0 +1,403 @@
+{
+  "id": "mapeh-w8",
+  "courseId": "mapeh",
+  "courseTitle": "MAPEH",
+  "week": 8,
+  "title": "Healthy Habits & Wellness",
+  "subtitle": "Six things, done most days. That is the whole method.",
+  "estMinutes": 18,
+  "objectives": [
+    "Name the main dimensions of wellness",
+    "Explain what sleep does for the body and the brain",
+    "Explain hydration and why thirst is a late signal",
+    "Describe the go, grow and glow food groups",
+    "Explain why a habit beats a burst of effort"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "💪",
+      "eyebrow": "Part 1 · What wellness means",
+      "title": "Health is not only whether you are ill",
+      "text": "The usual definition has several parts, and most of them have nothing to do with disease at all."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The dimensions",
+      "title": "Four you will be asked about",
+      "text": "Wellness is usually split into physical, mental, social and spiritual. They pull on each other constantly.",
+      "points": [
+        "**Physical:** how your body works.",
+        "**Mental:** how you think and feel.",
+        "**Social:** the people around you.",
+        "**Spiritual:** what you believe matters."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "healthHabits",
+      "eyebrow": "Six habits",
+      "title": "What each one actually does",
+      "text": "Tap through. Every one of these appears somewhere in the quiz."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which is a dimension of wellness?",
+        "options": [
+          "Social",
+          "Financial",
+          "Digital",
+          "Academic"
+        ],
+        "answerIndex": 0,
+        "explain": "Physical, mental, social and spiritual are the four the syllabus uses."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Sleep",
+      "title": "The body does its repairs at night",
+      "text": "Growth hormone is released mostly during deep sleep. Muscle repair and memory filing both happen while you are unconscious.",
+      "points": [
+        "**Age 11 to 13** needs about nine hours.",
+        "**Deep sleep** is when repair peaks.",
+        "**Memory is sorted overnight**, not during the day.",
+        "**Missing sleep is not something you catch up.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "📈",
+      "eyebrow": "Your body mode",
+      "title": "You grow while you are asleep",
+      "text": "That is not a figure of speech. The hormone that drives growth is released in pulses, and the biggest one is at night.",
+      "points": [
+        "**Training breaks muscle down.**",
+        "**Sleep is when it is rebuilt stronger.**",
+        "**Skip the sleep and you keep the damage.**",
+        "**The session is only half the work.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "About how much sleep does an eleven to thirteen year old need?",
+        "options": [
+          "About nine hours",
+          "About five hours",
+          "About twelve hours",
+          "It does not matter"
+        ],
+        "answerIndex": 0,
+        "explain": "Nine to eleven hours is the usual range. Repair and memory filing both happen in that window."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Halfway",
+      "text": "Part 2 is water, food and how habits actually form. Get up for a second."
+    },
+    {
+      "kind": "open",
+      "icon": "💧",
+      "eyebrow": "Part 2 · Fuel",
+      "title": "Thirst arrives late",
+      "text": "By the time you feel thirsty, you have usually already lost enough water to slow you down."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Water",
+      "title": "What it is actually for",
+      "text": "Water carries nutrients, removes waste and cools you by evaporating off your skin as sweat.",
+      "points": [
+        "**Sweating is a cooling system**, not a fault.",
+        "**A humid day** makes sweat evaporate slower.",
+        "**That is why humid heat** is more dangerous.",
+        "**Drink before training**, not only after."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Training mode",
+      "title": "Dehydration costs you rounds, not comfort",
+      "text": "Losing even a small percentage of body water measurably reduces endurance and reaction time before you feel unwell.",
+      "points": [
+        "**Reaction time slows first.**",
+        "**Then endurance.**",
+        "**Then you notice.** In that order.",
+        "**Fighters drink to a schedule**, not to thirst."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Feeling thirsty is an early warning that you need water.",
+        "answer": false,
+        "explain": "It is a late signal. Performance drops before thirst arrives, which is why athletes drink on a schedule."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Food",
+      "title": "Go, grow and glow",
+      "text": "The three groups are a simple way to check a plate. Most meals should have something from each.",
+      "points": [
+        "**Go:** energy. Rice, bread, root crops.",
+        "**Grow:** building. Fish, meat, eggs, beans.",
+        "**Glow:** protection. Fruit and vegetables.",
+        "**A plate missing one group** is missing a job."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "A late session costs you twice",
+      "text": "Bright light in the evening delays the hormone that makes you sleepy. The game ends and the brain stays switched on.",
+      "points": [
+        "**Melatonin rises** as light drops.",
+        "**A bright screen tells your brain** it is still daytime.",
+        "**Sleep then starts later**, not shorter by choice.",
+        "**Stopping earlier is the cheapest win** on this list."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Habits",
+      "title": "Small and repeated beats big and rare",
+      "text": "A habit works because it costs you almost no decision. That is the actual mechanism, not willpower.",
+      "points": [
+        "**Attach a new habit** to an existing one.",
+        "**Same time, same place**, every day.",
+        "**Missing one day is fine.**",
+        "**Missing three starts to undo it.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which foods are 'grow' foods?",
+        "options": [
+          "Fish, meat, eggs and beans",
+          "Rice, bread and root crops",
+          "Fruit and vegetables",
+          "Sweets and soft drinks"
+        ],
+        "answerIndex": 0,
+        "explain": "Grow foods are the building materials. Go foods are energy and glow foods are protection."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "wellness",
+          "def": "Health across physical, mental, social and spiritual dimensions."
+        },
+        {
+          "term": "deep sleep",
+          "def": "The stage where repair peaks and growth hormone is released."
+        },
+        {
+          "term": "dehydration",
+          "def": "Losing more water than you take in. Performance drops before thirst."
+        },
+        {
+          "term": "go foods",
+          "def": "Energy foods: rice, bread, root crops."
+        },
+        {
+          "term": "grow foods",
+          "def": "Body-building foods: fish, meat, eggs, beans."
+        },
+        {
+          "term": "glow foods",
+          "def": "Protective foods: fruit and vegetables."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Physical, mental, social, spiritual.**",
+        "**About nine hours** of sleep at your age.",
+        "**Thirst is a late signal.** Drink earlier.",
+        "**Go, grow, glow** on every plate."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Which four dimensions of wellness does the syllabus use?",
+      "options": [
+        "Physical, mental, social, spiritual",
+        "Physical, financial, digital, social",
+        "Mental, academic, physical, legal",
+        "Social, athletic, dietary, spiritual"
+      ],
+      "answerIndex": 0,
+      "explain": "They pull on each other constantly, which is why health is not only about illness.",
+      "objective": "Name the main dimensions of wellness"
+    },
+    {
+      "type": "truefalse",
+      "text": "Being free of illness is the same as being well.",
+      "answer": false,
+      "explain": "False. Wellness includes mental, social and spiritual dimensions as well as physical health.",
+      "objective": "Name the main dimensions of wellness"
+    },
+    {
+      "type": "multiple",
+      "text": "When is growth hormone mostly released?",
+      "options": [
+        "During deep sleep",
+        "During exercise only",
+        "Immediately after eating",
+        "In the early afternoon"
+      ],
+      "answerIndex": 0,
+      "explain": "The largest pulse comes at night. Growing while asleep is literally true.",
+      "objective": "Explain what sleep does for the body and the brain"
+    },
+    {
+      "type": "multiple",
+      "text": "What else happens to the brain during sleep?",
+      "options": [
+        "The day's memories are sorted and stored",
+        "Nothing at all; the brain shuts off",
+        "New muscles are grown in the brain",
+        "The brain empties completely"
+      ],
+      "answerIndex": 0,
+      "explain": "Memory filing happens overnight, which is why sleep before a test beats late revision.",
+      "objective": "Explain what sleep does for the body and the brain"
+    },
+    {
+      "type": "multiple",
+      "text": "How much sleep does someone aged eleven to thirteen usually need?",
+      "options": [
+        "Around nine hours",
+        "Around four hours",
+        "Around fourteen hours",
+        "It varies with the weather"
+      ],
+      "answerIndex": 0,
+      "explain": "Nine to eleven hours is the usual guidance for that age.",
+      "objective": "Explain what sleep does for the body and the brain"
+    },
+    {
+      "type": "multiple",
+      "text": "Why is thirst a poor guide to hydration?",
+      "options": [
+        "Performance already drops before thirst is felt",
+        "Thirst only happens in hot weather",
+        "Thirst means you have drunk too much",
+        "Thirst is not a real sensation"
+      ],
+      "answerIndex": 0,
+      "explain": "Reaction time slows first, then endurance, and only then do you notice.",
+      "objective": "Explain hydration and why thirst is a late signal"
+    },
+    {
+      "type": "multiple",
+      "text": "How does sweating cool the body?",
+      "options": [
+        "It evaporates off the skin and carries heat away",
+        "It makes the skin thicker",
+        "It lowers the heart rate directly",
+        "It replaces lost salt"
+      ],
+      "answerIndex": 0,
+      "explain": "This is why humid heat is more dangerous: sweat evaporates more slowly.",
+      "objective": "Explain hydration and why thirst is a late signal"
+    },
+    {
+      "type": "multiple",
+      "text": "Which group are 'go' foods?",
+      "options": [
+        "Rice, bread and root crops",
+        "Fish, meat and eggs",
+        "Fruit and vegetables",
+        "Water and juice"
+      ],
+      "answerIndex": 0,
+      "explain": "Go foods provide energy. Grow foods build and glow foods protect.",
+      "objective": "Describe the go, grow and glow food groups"
+    },
+    {
+      "type": "multiple",
+      "text": "Which group are 'glow' foods?",
+      "options": [
+        "Fruit and vegetables",
+        "Rice and bread",
+        "Fish and eggs",
+        "Oil and butter"
+      ],
+      "answerIndex": 0,
+      "explain": "They protect the body, mostly through vitamins and minerals.",
+      "objective": "Describe the go, grow and glow food groups"
+    },
+    {
+      "type": "truefalse",
+      "text": "A balanced meal should include something from all three food groups.",
+      "answer": true,
+      "explain": "True. A plate missing a group is missing a job that group does.",
+      "objective": "Describe the go, grow and glow food groups"
+    },
+    {
+      "type": "multiple",
+      "text": "Why does a habit work better than occasional big effort?",
+      "options": [
+        "It costs almost no decision each time",
+        "It is more exciting",
+        "It uses more willpower",
+        "It takes longer overall"
+      ],
+      "answerIndex": 0,
+      "explain": "Removing the decision is the mechanism. Willpower is what habits let you stop spending.",
+      "objective": "Explain why a habit beats a burst of effort"
+    },
+    {
+      "type": "multiple",
+      "text": "What is a good way to start a new habit?",
+      "options": [
+        "Attach it to something you already do daily",
+        "Do it at a different time each day",
+        "Start with the hardest possible version",
+        "Wait until you feel motivated"
+      ],
+      "answerIndex": 0,
+      "explain": "Same time, same place, attached to an existing routine. Missing one day is fine.",
+      "objective": "Explain why a habit beats a burst of effort"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 8 covers the Health strand on habits and wellness. The lesson deliberately explains mechanisms rather than issuing instructions: sleep is taught through growth hormone and memory consolidation, hydration through evaporative cooling and the order in which performance degrades. That framing matters for a child who trains — 'drink water' is advice he has heard and ignored, while 'reaction time drops before you feel thirsty' is a reason. The habit card describes habit formation as decision cost rather than willpower, which is both accurate and kinder.",
+    "discussion": [
+      "Ask him what time he would have to be asleep to get nine hours before school.",
+      "Ask why humid heat is harder on the body than dry heat at the same temperature.",
+      "Ask him to check one recent meal against go, grow and glow, and say what was missing.",
+      "Ask which existing daily habit a new one could be attached to."
+    ],
+    "extension": "Have him track sleep and water for five days on paper, then say which day he trained best and whether the numbers explain it. One page, no app.",
+    "misconceptions": [
+      "'Health means not being sick.' Wellness has mental, social and spiritual dimensions too.",
+      "'You can catch up on sleep at the weekend.' Some recovery happens, but the repair missed on the night is not simply repaid.",
+      "'Drink when you are thirsty.' Thirst is a late signal; performance drops before it arrives.",
+      "'Habits are about willpower.' They work by removing the decision, which is why the timing and place matter."
+    ]
+  }
+}

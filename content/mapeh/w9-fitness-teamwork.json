@@ -1,0 +1,355 @@
+{
+  "id": "mapeh-w9",
+  "courseId": "mapeh",
+  "courseTitle": "MAPEH",
+  "week": 9,
+  "title": "Fitness & Teamwork",
+  "subtitle": "Five parts of fitness, and the reason a good team beats five good players.",
+  "estMinutes": 18,
+  "objectives": [
+    "Name the five components of health-related fitness",
+    "Tell health-related and skill-related fitness apart",
+    "Explain the FITT principle",
+    "Explain progressive overload and why rest is part of training",
+    "Explain what a role is in a team and why it matters"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🏋️",
+      "eyebrow": "Part 1 · What fitness is made of",
+      "title": "'Fit' is not one thing",
+      "text": "A marathon runner and a powerlifter are both extremely fit, and neither could do the other's job."
+    },
+    {
+      "kind": "figure",
+      "figure": "fitnessParts",
+      "eyebrow": "Five parts",
+      "title": "Health-related fitness, and how each is tested",
+      "text": "Tap through. The last button shows the skill-related group, which is different."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The five",
+      "title": "Health-related fitness",
+      "text": "These five keep you well. Everyone needs them, whether or not they play a sport.",
+      "points": [
+        "**Cardiovascular endurance:** keeping going.",
+        "**Muscular strength:** one maximum effort.",
+        "**Muscular endurance:** repeating that effort.",
+        "**Flexibility** and **body composition** complete the five."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Doing as many push-ups as you can tests which component?",
+        "options": [
+          "Muscular endurance",
+          "Muscular strength",
+          "Flexibility",
+          "Cardiovascular endurance"
+        ],
+        "answerIndex": 0,
+        "explain": "Strength is one maximum effort. Endurance is repeating a sub-maximal one many times."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The other group",
+      "title": "Skill-related fitness",
+      "text": "Speed, power, agility, balance, coordination and reaction time. These help you play well rather than keep you healthy.",
+      "points": [
+        "**Six components**, all trainable.",
+        "**Power** is strength applied fast.",
+        "**Agility** is changing direction under control.",
+        "**You can be healthy** without any of them."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "A boxer trains from both lists",
+      "text": "Rounds need cardiovascular endurance. The punch needs power. Slipping a shot needs reaction time and agility.",
+      "points": [
+        "**Roadwork** builds the health-related side.",
+        "**Pad work and sparring** build the skill side.",
+        "**Neither replaces the other.**",
+        "**That is why training has different days.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Agility is one of the five health-related components of fitness.",
+        "answer": false,
+        "explain": "It is skill-related. The health-related five are endurance, strength, muscular endurance, flexibility and body composition."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good place to pause",
+      "text": "Part 2 is how training is planned, and how teams work. Stand up for a moment."
+    },
+    {
+      "kind": "open",
+      "icon": "📋",
+      "eyebrow": "Part 2 · Planning it",
+      "title": "FITT: four dials on the same machine",
+      "text": "Frequency, Intensity, Time and Type. Every training plan you will ever see is these four settings."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "FITT",
+      "title": "What each letter is",
+      "text": "Change one dial at a time. Changing all four at once is how people get injured.",
+      "points": [
+        "**Frequency:** how often, per week.",
+        "**Intensity:** how hard each session is.",
+        "**Time:** how long the session lasts.",
+        "**Type:** what the activity actually is."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Overload",
+      "title": "You adapt to what you survive",
+      "text": "Training works by asking slightly more than the body can currently do. The improvement happens afterwards, during rest.",
+      "points": [
+        "**Progressive overload:** a little more, over time.",
+        "**The gain is built during recovery**, not during work.",
+        "**No rest means no adaptation.**",
+        "**Rest days are part of the plan.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "📈",
+      "eyebrow": "Your body mode",
+      "title": "Sore is not the same as progress",
+      "text": "Muscle soreness peaks a day or two after hard work. It tells you what you did, not how much you gained.",
+      "points": [
+        "**Soreness is not a score.**",
+        "**Adding load steadily** is the score.",
+        "**Track the numbers**, not the ache.",
+        "**Pain in a joint is a stop sign**, not a badge."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What does the second T in FITT stand for?",
+        "options": ["Type", "Target", "Total", "Tempo"],
+        "answerIndex": 0,
+        "explain": "Frequency, Intensity, Time, Type. Change one dial at a time."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Teams",
+      "title": "A role is a promise about space",
+      "text": "In a team sport, your role tells everyone else where you will be. That is what lets them plan without talking.",
+      "points": [
+        "**A team of five stars** with no roles collides.",
+        "**Roles create predictability.**",
+        "**Predictability creates speed.**",
+        "**Communication fills the rest of the gaps.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Everyone chasing the objective loses",
+      "text": "In any team game, five players doing the same job leave four jobs undone. Sport works exactly the same way.",
+      "points": [
+        "**Roles are not a limit on you.**",
+        "**They are a promise to the others.**",
+        "**Sportsmanship is part of it**, not extra.",
+        "**Losing well is a skill** you can practise."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why do defined roles make a team faster?",
+        "options": [
+          "Teammates can predict each other without talking",
+          "Fewer players have to move",
+          "It reduces the number of rules",
+          "It makes the game shorter"
+        ],
+        "answerIndex": 0,
+        "explain": "Predictability is the whole point. Communication then fills whatever the roles do not cover."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "cardiovascular endurance", "def": "How long the heart and lungs can keep you going." },
+        { "term": "muscular strength", "def": "The force you can produce in one maximum effort." },
+        { "term": "muscular endurance", "def": "How many times you can repeat a sub-maximal effort." },
+        { "term": "skill-related fitness", "def": "Speed, power, agility, balance, coordination, reaction time." },
+        { "term": "FITT", "def": "Frequency, Intensity, Time, Type. The four dials of a training plan." },
+        { "term": "progressive overload", "def": "Asking slightly more over time, so the body adapts." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Five health-related components.** Learn them in order.",
+        "**Skill-related is a separate list of six.**",
+        "**FITT:** Frequency, Intensity, Time, Type.",
+        "**You adapt during rest**, not during work."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Which is a health-related component of fitness?",
+      "options": ["Flexibility", "Agility", "Reaction time", "Coordination"],
+      "answerIndex": 0,
+      "explain": "The other three are skill-related. Health-related fitness is the list of five.",
+      "objective": "Name the five components of health-related fitness"
+    },
+    {
+      "type": "multiple",
+      "text": "A timed run mainly tests which component?",
+      "options": ["Cardiovascular endurance", "Muscular strength", "Flexibility", "Body composition"],
+      "answerIndex": 0,
+      "explain": "It measures how long the heart and lungs can keep you going.",
+      "objective": "Name the five components of health-related fitness"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the difference between muscular strength and muscular endurance?",
+      "options": [
+        "Strength is one maximum effort; endurance is repeating a lighter one",
+        "They are the same thing",
+        "Strength is for the legs and endurance for the arms",
+        "Endurance is measured in kilograms"
+      ],
+      "answerIndex": 0,
+      "explain": "One heavy lift tests strength. Push-ups to failure test endurance.",
+      "objective": "Name the five components of health-related fitness"
+    },
+    {
+      "type": "multiple",
+      "text": "Which of these is skill-related fitness?",
+      "options": ["Power", "Body composition", "Flexibility", "Cardiovascular endurance"],
+      "answerIndex": 0,
+      "explain": "Power is strength applied fast. It helps you play rather than keeping you well.",
+      "objective": "Tell health-related and skill-related fitness apart"
+    },
+    {
+      "type": "truefalse",
+      "text": "You can be in good health without strong skill-related fitness.",
+      "answer": true,
+      "explain": "True. Skill-related fitness helps performance. The health-related five are what keep you well.",
+      "objective": "Tell health-related and skill-related fitness apart"
+    },
+    {
+      "type": "multiple",
+      "text": "What does FITT stand for?",
+      "options": [
+        "Frequency, Intensity, Time, Type",
+        "Fitness, Injury, Training, Test",
+        "Form, Interval, Tempo, Target",
+        "Focus, Impact, Timing, Technique"
+      ],
+      "answerIndex": 0,
+      "explain": "Four dials on the same machine. Change one at a time.",
+      "objective": "Explain the FITT principle"
+    },
+    {
+      "type": "multiple",
+      "text": "Adding a fourth session a week changes which FITT dial?",
+      "options": ["Frequency", "Intensity", "Time", "Type"],
+      "answerIndex": 0,
+      "explain": "Frequency is how often. Intensity is how hard and Time is how long.",
+      "objective": "Explain the FITT principle"
+    },
+    {
+      "type": "multiple",
+      "text": "Switching from running to swimming changes which dial?",
+      "options": ["Type", "Frequency", "Intensity", "Time"],
+      "answerIndex": 0,
+      "explain": "Type is what the activity actually is.",
+      "objective": "Explain the FITT principle"
+    },
+    {
+      "type": "multiple",
+      "text": "What is progressive overload?",
+      "options": [
+        "Gradually asking slightly more than the body can currently do",
+        "Training as hard as possible every session",
+        "Repeating the same workout forever",
+        "Lifting the heaviest weight on day one"
+      ],
+      "answerIndex": 0,
+      "explain": "A little more, over time. The adaptation itself happens during recovery.",
+      "objective": "Explain progressive overload and why rest is part of training"
+    },
+    {
+      "type": "truefalse",
+      "text": "The body gets stronger during the training session itself.",
+      "answer": false,
+      "explain": "False. Training causes the stress; the adaptation is built afterwards, during rest.",
+      "objective": "Explain progressive overload and why rest is part of training"
+    },
+    {
+      "type": "multiple",
+      "text": "What does muscle soreness tell you?",
+      "options": [
+        "What you did, not how much you gained",
+        "Exactly how much stronger you got",
+        "That you trained correctly",
+        "That you should train harder tomorrow"
+      ],
+      "answerIndex": 0,
+      "explain": "Soreness is not a score. Steadily added load is the score.",
+      "objective": "Explain progressive overload and why rest is part of training"
+    },
+    {
+      "type": "multiple",
+      "text": "Why does a team need defined roles?",
+      "options": [
+        "So teammates can predict each other without talking",
+        "So fewer people have to run",
+        "So the coach has less to do",
+        "So the rules are simpler"
+      ],
+      "answerIndex": 0,
+      "explain": "Roles create predictability, and predictability creates speed.",
+      "objective": "Explain what a role is in a team and why it matters"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 9 covers the PE strand on fitness and teamwork. The two fitness lists are kept strictly apart, because the exam tends to test exactly that boundary — agility and reaction time are skill-related, not health-related. FITT is taught as four independent dials, with the practical warning to change one at a time. The overload card makes the point that adaptation happens during rest, which is the single most useful thing a training child can know, and the soreness card actively pushes back on 'sore means it worked'. The teamwork section defines a role as a promise about space rather than a restriction, which is the framing most likely to land with him.",
+    "discussion": [
+      "Ask him to name which FITT dial his own training changed most recently.",
+      "Ask which of the five health-related components his sport neglects.",
+      "Ask why soreness is a bad measure of progress and what a better one would be.",
+      "Ask what happens in a game when two players take the same role."
+    ],
+    "extension": "Have him write a one-week training plan for himself using FITT explicitly, with one rest day marked and a reason for it.",
+    "misconceptions": [
+      "'Agility is health-related fitness.' It is skill-related. The health list is the five.",
+      "'Rest days are wasted days.' Adaptation happens during rest; without it, training only accumulates damage.",
+      "'Sore muscles mean a good session.' Soreness reflects novelty and damage, not gains.",
+      "'A team of the best players is the best team.' Without roles, five strong players duplicate each other's work."
+    ]
+  }
+}

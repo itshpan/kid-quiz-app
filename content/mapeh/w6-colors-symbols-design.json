@@ -1,0 +1,380 @@
+{
+  "id": "mapeh-w6",
+  "courseId": "mapeh",
+  "courseTitle": "MAPEH",
+  "week": 6,
+  "title": "Colors, Symbols & Visual Design",
+  "subtitle": "Colour is not decoration. It is the fastest instruction a picture can give you.",
+  "estMinutes": 18,
+  "objectives": [
+    "Name the primary, secondary and tertiary colours",
+    "Explain warm and cool colours and what each one does",
+    "Explain complementary colours and why they intensify each other",
+    "Explain what a symbol is and how it differs from a picture",
+    "Read the symbolism of the Philippine flag"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🎨",
+      "eyebrow": "Part 1 · The wheel",
+      "title": "You see colour before you read anything",
+      "text": "Colour reaches the brain in a fraction of a second. Words take longer. That is why every warning sign is red first."
+    },
+    {
+      "kind": "figure",
+      "figure": "colorSchemes",
+      "eyebrow": "Six relationships",
+      "title": "How colours sit against each other",
+      "text": "Tap each one. The circles are the actual colours, not descriptions of them."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The three levels",
+      "title": "Primary, secondary, tertiary",
+      "text": "Primaries cannot be mixed from anything else. Everything else on the wheel comes from them.",
+      "points": [
+        "**Primary:** red, yellow, blue.",
+        "**Secondary:** orange, green, violet.",
+        "**Tertiary:** a primary mixed with its neighbour.",
+        "**Red-orange and blue-green** are tertiary."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which set is the primary colours?",
+        "options": [
+          "Red, yellow, blue",
+          "Orange, green, violet",
+          "Red, green, blue",
+          "Black, white, grey"
+        ],
+        "answerIndex": 0,
+        "explain": "In paint, red, yellow and blue cannot be mixed from anything else. Everything else comes from them."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Cyberpunk's yellow is a job, not a mood",
+      "text": "Night City uses hot yellow for anything you can interact with. You learn to scan for it without being told.",
+      "points": [
+        "**Colour teaches you the controls** silently.",
+        "**Red still means damage** in almost every game.",
+        "**Health bars are green** for the same reason.",
+        "**A designer chose all of that.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Temperature",
+      "title": "Warm comes forward, cool falls back",
+      "text": "Warm colours look closer than they are. Cool colours look further away. Painters use this to build depth on a flat surface.",
+      "points": [
+        "**Warm:** red, orange, yellow. Fire and sun.",
+        "**Cool:** blue, green, violet. Water and shade.",
+        "**Distant hills are painted bluer** on purpose.",
+        "**Nothing moves.** Your eye is being steered."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Cool colours make an object look closer to the viewer.",
+        "answer": false,
+        "explain": "The opposite. Cool colours recede and warm colours advance. Painters use it to fake distance."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Halfway",
+      "text": "Part 2 is symbols and the flag. Look away from the screen for a moment first."
+    },
+    {
+      "kind": "open",
+      "icon": "🔶",
+      "eyebrow": "Part 2 · Symbols",
+      "title": "A symbol is a deal between people",
+      "text": "A picture of a heart looks nothing like the organ. It means love because enough people agreed it does."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Two kinds",
+      "title": "Resemblance or agreement",
+      "text": "Some signs look like the thing they stand for. Others only work because you were taught them.",
+      "points": [
+        "**A drawn aeroplane** on a sign resembles a plane.",
+        "**A red octagon** resembles nothing. It means stop.",
+        "**Learned symbols are stronger** and faster.",
+        "**They also stop working** outside their culture."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "Every badge is a compressed story",
+      "text": "The Ferrari horse came from an Italian fighter pilot's plane in the First World War. It says nothing about cars.",
+      "points": [
+        "**A badge carries history** you cannot see.",
+        "**BMW's roundel** uses Bavarian blue and white.",
+        "**Nothing in either shape** looks like an engine.",
+        "**Agreement did all the work.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why does a red octagon mean stop?",
+        "options": [
+          "Because people agreed on it and learned it",
+          "Because the shape looks like stopping",
+          "Because red is the brightest colour",
+          "Because octagons are easy to cut"
+        ],
+        "answerIndex": 0,
+        "explain": "Nothing about the shape resembles stopping. Agreement makes the symbol work, and it works fast."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The flag",
+      "title": "Everything on it means something",
+      "text": "The Philippine flag is a design brief, not a decoration. Each element was chosen to say a specific thing.",
+      "points": [
+        "**Blue** for peace, truth and justice.",
+        "**Red** for patriotism and courage.",
+        "**White triangle** for equality and fraternity.",
+        "**Eight rays** for the first eight provinces to revolt."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The one that changes",
+      "title": "The flag can be flown upside down",
+      "text": "Red on top means the country is at war. It is the only national flag in the world designed to be flown two ways.",
+      "points": [
+        "**Blue on top:** peace.",
+        "**Red on top:** a state of war.",
+        "**The three stars** are Luzon, Visayas and Mindanao.",
+        "**The sun** stands for freedom."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What do the eight rays of the sun on the flag stand for?",
+        "options": [
+          "The first eight provinces to revolt against Spain",
+          "Eight national heroes",
+          "Eight islands",
+          "Eight years of revolution"
+        ],
+        "answerIndex": 0,
+        "explain": "The three stars are Luzon, Visayas and Mindanao. The eight rays are the first provinces to rise."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Design is deciding what to leave out",
+      "text": "The flag has four elements and no words. A design that tries to say everything ends up saying nothing.",
+      "points": [
+        "**Few elements, each one loaded.**",
+        "**It reads at any size**, on any screen.",
+        "**It works in one colour** if it has to.",
+        "**Those three tests** are what design means."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "primary colours", "def": "Red, yellow and blue. They cannot be mixed from other colours." },
+        { "term": "secondary colours", "def": "Orange, green and violet. Each is two primaries mixed." },
+        { "term": "tertiary colour", "def": "A primary mixed with the secondary beside it, like red-orange." },
+        { "term": "complementary", "def": "Opposite on the wheel. Side by side, both look brighter." },
+        { "term": "warm and cool", "def": "Warm colours advance towards the viewer. Cool colours recede." },
+        { "term": "symbol", "def": "A mark that stands for an idea because people agreed it does." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Red, yellow, blue** make everything else.",
+        "**Warm advances. Cool recedes.**",
+        "**A symbol works by agreement**, not resemblance.",
+        "**The flag flies red-up** when the country is at war."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Which of these is a secondary colour?",
+      "options": ["Green", "Blue", "Red", "Yellow"],
+      "answerIndex": 0,
+      "explain": "Green is blue and yellow mixed. Orange and violet are the other two secondaries.",
+      "objective": "Name the primary, secondary and tertiary colours"
+    },
+    {
+      "type": "multiple",
+      "text": "How is a tertiary colour made?",
+      "options": [
+        "By mixing a primary with the secondary next to it",
+        "By mixing all three primaries",
+        "By adding white to a primary",
+        "By adding black to a secondary"
+      ],
+      "answerIndex": 0,
+      "explain": "Red-orange and blue-green are tertiary colours made this way.",
+      "objective": "Name the primary, secondary and tertiary colours"
+    },
+    {
+      "type": "multiple",
+      "text": "Which group is warm?",
+      "options": [
+        "Red, orange, yellow",
+        "Blue, green, violet",
+        "Grey, black, white",
+        "Green, violet, blue"
+      ],
+      "answerIndex": 0,
+      "explain": "Warm colours are the fire and sunlight colours. They appear to come forward.",
+      "objective": "Explain warm and cool colours and what each one does"
+    },
+    {
+      "type": "multiple",
+      "text": "Why do painters use cool colours for distant hills?",
+      "options": [
+        "Cool colours appear to recede, which fakes distance",
+        "Hills are actually blue",
+        "Cool paint is cheaper",
+        "Warm paint dries too fast"
+      ],
+      "answerIndex": 0,
+      "explain": "It builds depth on a flat surface. Nothing moves; your eye is being steered.",
+      "objective": "Explain warm and cool colours and what each one does"
+    },
+    {
+      "type": "multiple",
+      "text": "What are complementary colours?",
+      "options": [
+        "Colours opposite each other on the wheel",
+        "Colours next to each other on the wheel",
+        "Colours mixed with white",
+        "Colours with no name"
+      ],
+      "answerIndex": 0,
+      "explain": "Red and green, blue and orange, yellow and violet. Side by side, each looks brighter.",
+      "objective": "Explain complementary colours and why they intensify each other"
+    },
+    {
+      "type": "truefalse",
+      "text": "Complementary colours make each other look duller when placed side by side.",
+      "answer": false,
+      "explain": "False. They intensify each other. Mixed together is what makes them dull.",
+      "objective": "Explain complementary colours and why they intensify each other"
+    },
+    {
+      "type": "multiple",
+      "text": "What makes a symbol work?",
+      "options": [
+        "People agreeing on what it means",
+        "Looking exactly like the thing it stands for",
+        "Being drawn in red",
+        "Being very complicated"
+      ],
+      "answerIndex": 0,
+      "explain": "Learned symbols are faster than pictures, and they stop working outside their culture.",
+      "objective": "Explain what a symbol is and how it differs from a picture"
+    },
+    {
+      "type": "multiple",
+      "text": "What do the three stars on the Philippine flag represent?",
+      "options": [
+        "Luzon, Visayas and Mindanao",
+        "Three heroes",
+        "Three revolutions",
+        "Three colours"
+      ],
+      "answerIndex": 0,
+      "explain": "The three main island groups. The eight rays are the first provinces to revolt.",
+      "objective": "Read the symbolism of the Philippine flag"
+    },
+    {
+      "type": "multiple",
+      "text": "What does the white triangle stand for?",
+      "options": [
+        "Equality and fraternity",
+        "Peace and truth",
+        "Courage in battle",
+        "The eight provinces"
+      ],
+      "answerIndex": 0,
+      "explain": "Blue is peace, truth and justice. Red is patriotism and courage.",
+      "objective": "Read the symbolism of the Philippine flag"
+    },
+    {
+      "type": "multiple",
+      "text": "What does it mean when the flag is flown with red on top?",
+      "options": [
+        "The country is in a state of war",
+        "The flag was hung wrongly",
+        "It is a national holiday",
+        "There is a typhoon warning"
+      ],
+      "answerIndex": 0,
+      "explain": "It is the only national flag designed to be flown two ways, and it is deliberate.",
+      "objective": "Read the symbolism of the Philippine flag"
+    },
+    {
+      "type": "truefalse",
+      "text": "The eight rays of the sun stand for eight national heroes.",
+      "answer": false,
+      "explain": "False. They stand for the first eight provinces that rose against Spain.",
+      "objective": "Read the symbolism of the Philippine flag"
+    },
+    {
+      "type": "multiple",
+      "text": "What does good visual design usually do with elements?",
+      "options": [
+        "Uses few, each carrying a clear meaning",
+        "Uses as many as will fit",
+        "Avoids colour entirely",
+        "Always includes words"
+      ],
+      "answerIndex": 0,
+      "explain": "The flag has four elements and no words. It reads at any size and in one colour.",
+      "objective": "Explain what a symbol is and how it differs from a picture"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 6 covers colour theory, symbolism and visual design, matching the MAPEH Arts scope. The colour wheel is taught with the actual colours on screen rather than named in text, which is the only honest way to teach it. The symbolism half is built on one distinction that generalises well beyond art: a sign that resembles its meaning versus one that works purely by agreement. The flag is the worked example, and the red-up convention is included because it is genuinely unusual and he is likely to remember it.",
+    "discussion": [
+      "Ask him to find three symbols in the room that work by agreement rather than resemblance.",
+      "Ask why warning signs are red almost everywhere in the world.",
+      "Ask what would be lost if the flag had five more elements on it.",
+      "Ask him to name a game that teaches its controls through colour alone."
+    ],
+    "extension": "Have him design a badge for something he cares about, using no more than three elements and two colours, then explain each choice in one sentence.",
+    "misconceptions": [
+      "'Red, green and blue are the primary colours.' That is for light on a screen. In paint it is red, yellow and blue.",
+      "'Warm and cool are just moods.' They change apparent distance, which is a measurable effect painters rely on.",
+      "'Complementary colours clash.' Side by side they intensify. It is mixing them that dulls both.",
+      "'The eight rays are eight islands.' They are the first eight provinces to revolt against Spain."
+    ]
+  }
+}

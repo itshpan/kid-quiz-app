@@ -694,7 +694,8 @@
           "topics": [
             "Colors, Symbols & Visual Design"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "mapeh/w6-colors-symbols-design.json"
         },
         {
           "week": 7,
@@ -703,7 +704,8 @@
           "topics": [
             "Sports & Movement Categories"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "mapeh/w7-sports-movement.json"
         },
         {
           "week": 8,
@@ -712,7 +714,8 @@
           "topics": [
             "Healthy Habits & Wellness"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "mapeh/w8-healthy-habits.json"
         },
         {
           "week": 9,
@@ -721,7 +724,8 @@
           "topics": [
             "Introduction to Fitness & Teamwork"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "mapeh/w9-fitness-teamwork.json"
         },
         {
           "week": 10,
@@ -730,7 +734,8 @@
           "topics": [
             "Personal Hygiene & Self-Care"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "mapeh/w10-hygiene-self-care.json"
         },
         {
           "week": 11,
