@@ -1,0 +1,343 @@
+{
+  "id": "fil-w10",
+  "courseId": "filipino",
+  "courseTitle": "Filipino",
+  "week": 10,
+  "title": "Kailanan ng Pangngalan",
+  "subtitle": "Tatlo lamang ang kailanan, at isang salita ang karaniwang senyas.",
+  "estMinutes": 18,
+  "objectives": [
+    "Matukoy ang isahan, dalawahan at maramihan",
+    "Magamit nang tama ang \"mga\"",
+    "Maunawaan ang pag-uulit ng salita",
+    "Maiwasan ang pagdodoble ng senyas ng maramihan",
+    "Maunawaan kung bakit binabasa pa rin natin si Bonifacio"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🔢",
+      "eyebrow": "Bahagi 1 · Tatlo",
+      "title": "Ilan ang tinutukoy?",
+      "text": "Iyon lamang ang tanong. Isa, dalawa, o marami. Tatlong sagot lamang ang posible."
+    },
+    {
+      "kind": "figure",
+      "figure": "kailananPangngalan",
+      "eyebrow": "Anim na pindutan",
+      "title": "Ang tatlong kailanan, at tatlong babala",
+      "text": "Pindutin ang bawat isa. Ang huling pindutan ang pinakamadalas na mali sa pagsusulit."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang tatlo",
+      "title": "Isahan, dalawahan, maramihan",
+      "text": "Karamihan ng wika ay may dalawa lamang. May pangatlo ang Filipino para sa tiyak na dalawa.",
+      "points": [
+        "**Isahan:** aklat, bata, bayani.",
+        "**Dalawahan:** magkapatid, magkaibigan.",
+        "**Maramihan:** mga aklat, mga bata.",
+        "**Ang \"mag-\"** ang senyas ng dalawahan."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Anong kailanan ang \"magkaibigan\"?",
+        "options": ["Dalawahan", "Isahan", "Maramihan", "Palansak"],
+        "answerIndex": 0,
+        "explain": "Tiyak na dalawa. Ang \"mag-\" ang senyas nito sa Filipino."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang \"mga\"",
+      "title": "Isang salita ang nagpapalit ng lahat",
+      "text": "Hindi nagbabago ang pangngalan mismo. Isang maliit na salita lamang ang idinadagdag sa harap nito.",
+      "points": [
+        "**\"aklat\"** ay isahan.",
+        "**\"mga aklat\"** ay maramihan.",
+        "**Hindi tulad ng Ingles**, walang dagdag na letra.",
+        "**Ang \"mga\"** ang buong trabaho."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Sa laro",
+      "title": "Isang toggle, hindi bagong item",
+      "text": "May setting na binubuksan mo lamang, hindi bagong bagay na binibili. Ganoon ang \"mga\" sa isang pangngalan.",
+      "points": [
+        "**Hindi nagbabago ang salita.**",
+        "**Nadadagdagan lamang ito.**",
+        "**Isang senyas** para sa lahat ng pangngalan.",
+        "**Mas simple ito** kaysa sa Ingles."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Nagbabago ang anyo ng pangngalang Filipino kapag naging maramihan ito.",
+        "answer": false,
+        "explain": "Hindi. Ang \"mga\" lamang ang idinadagdag sa harap. Pareho pa rin ang salita."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Magandang tigilan muna",
+      "text": "Sa Bahagi 2 ay ang pag-uulit at ang dulo ng buong yunit. Magpahinga ka muna."
+    },
+    {
+      "kind": "open",
+      "icon": "🔁",
+      "eyebrow": "Bahagi 2 · Pag-uulit",
+      "title": "May pag-uulit na hindi maramihan",
+      "text": "Ang \"bahay-bahay\" ay hindi ibig sabihing maraming bahay. Iba ang ginagawa ng pag-uulit."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Mag-ingat",
+      "title": "Ang pag-uulit ay nagbibigay ng ibang kahulugan",
+      "text": "Minsan ay nagpapakita ito ng pagkalat o pag-ulit ng kilos, hindi ng dami ng bagay.",
+      "points": [
+        "**\"bahay-bahay\"** ay pupunta sa maraming bahay.",
+        "**\"araw-araw\"** ay tuwing araw.",
+        "**\"halo-halo\"** ay pinaghalo-halo.",
+        "**Hindi ito maramihan.** Basahin ang kahulugan."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang pinakamadalas na mali",
+      "title": "Huwag doblehin ang senyas",
+      "text": "Kung nasa harap na ang \"mga\", hindi na kailangan ng pag-uulit. Isang senyas lamang ang tama.",
+      "points": [
+        "**Tama:** mga aklat.",
+        "**Mali:** mga aklat-aklat.",
+        "**Tama:** mga bahay.",
+        "**Pumili ng isa**, hindi pareho."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Alin ang tamang maramihan?",
+        "options": ["mga bata", "mga bata-bata", "bata-bata mga", "mga mga bata"],
+        "answerIndex": 0,
+        "explain": "Isang senyas lamang. Ang \"mga\" ang gumagawa ng buong trabaho."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Sa boksing",
+      "title": "Hindi mo dinodoble ang bendahe sa isang kamay",
+      "text": "Sapat na ang isang tamang bendahe. Kapag dinoble mo, hindi ito mas ligtas. Nagiging masikip lamang.",
+      "points": [
+        "**Isang senyas ang sapat.**",
+        "**Ang dagdag ay hindi tumutulong.**",
+        "**Ginagawa lang nitong mali** ang tama.",
+        "**Ganoon ang \"mga aklat-aklat\".**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Dulo ng yunit",
+      "title": "Bakit binabasa pa rin natin si Bonifacio",
+      "text": "Namatay siya sa kamay ng sariling panig, at nanatili pa rin ang kanyang tanong. Sino ang kabilang sa bayan?",
+      "points": [
+        "**Hindi siya galing sa mayayaman.**",
+        "**Hindi siya nag-aral sa Europa.**",
+        "**Sinimulan niya ang himagsikan**, hindi ang reporma.",
+        "**Iyan ang tanong** ng buong nobela."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Sa kuwento",
+      "title": "Ang mabuting nobela ay nag-iiwan ng tanong",
+      "text": "Hindi lahat ng kuwento ay may malinis na wakas. Ang naiiwan sa iyo pagkatapos ng huling pahina ang totoong sukatan.",
+      "points": [
+        "**Ano ang naisip mo** pagkatapos?",
+        "**Sino ang tama** sa Tejeros?",
+        "**Wala itong madaling sagot.**",
+        "**Iyon ang dahilan** kung bakit ito binabasa."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Maramihan ang ibig sabihin ng \"araw-araw\".",
+        "answer": false,
+        "explain": "Hindi. Ibig sabihin nito ay tuwing araw. Ang pag-uulit ay nagbibigay ng ibang kahulugan."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Mga salitang lalabas sa pagsusulit",
+      "terms": [
+        { "term": "isahan", "def": "Iisa lamang ang tinutukoy." },
+        { "term": "dalawahan", "def": "Tiyak na dalawa. Madalas may \"mag-\"." },
+        { "term": "maramihan", "def": "Tatlo o higit pa. Ginagamitan ng \"mga\"." },
+        { "term": "pag-uulit", "def": "Pag-uulit ng salita na nagbibigay ng ibang kahulugan." },
+        { "term": "mga", "def": "Ang pangunahing senyas ng maramihan sa Filipino." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Balik-aral",
+      "title": "Ang apat na mahalaga",
+      "points": [
+        "**Tatlong kailanan** lamang ang posible.",
+        "**Ang \"mga\"** ang gumagawa ng buong trabaho.",
+        "**Ang pag-uulit** ay hindi maramihan.",
+        "**Huwag doblehin** ang senyas."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Anong kailanan ang \"mga bayani\"?",
+      "options": ["Maramihan", "Isahan", "Dalawahan", "Palansak"],
+      "answerIndex": 0,
+      "explain": "Ang \"mga\" ang senyas ng maramihan sa Filipino.",
+      "objective": "Matukoy ang isahan, dalawahan at maramihan"
+    },
+    {
+      "type": "multiple",
+      "text": "Anong kailanan ang \"magkapatid\"?",
+      "options": ["Dalawahan", "Isahan", "Maramihan", "Walang kailanan"],
+      "answerIndex": 0,
+      "explain": "Tiyak na dalawa. Ang \"mag-\" ang senyas ng dalawahan.",
+      "objective": "Matukoy ang isahan, dalawahan at maramihan"
+    },
+    {
+      "type": "multiple",
+      "text": "Ilan ang kailanan ng pangngalan sa Filipino?",
+      "options": ["Tatlo", "Dalawa", "Apat", "Lima"],
+      "answerIndex": 0,
+      "explain": "Isahan, dalawahan at maramihan. May dalawa lamang ang karamihan ng wika.",
+      "objective": "Matukoy ang isahan, dalawahan at maramihan"
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang ginagawa ng \"mga\"?",
+      "options": [
+        "Ginagawang maramihan ang pangngalan",
+        "Ginagawang pantangi ang pangngalan",
+        "Ginagawang basal ang pangngalan",
+        "Binabago ang kasarian"
+      ],
+      "answerIndex": 0,
+      "explain": "Hindi nagbabago ang salita mismo. Idinadagdag lamang ang \"mga\" sa harap.",
+      "objective": "Magamit nang tama ang \"mga\""
+    },
+    {
+      "type": "truefalse",
+      "text": "Nagdaragdag ng letra ang pangngalang Filipino kapag naging maramihan.",
+      "answer": false,
+      "explain": "Hindi, hindi tulad ng Ingles. Ang \"mga\" sa harap ang gumagawa ng lahat.",
+      "objective": "Magamit nang tama ang \"mga\""
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang tamang sulat?",
+      "options": ["mga aklat", "mga aklat-aklat", "aklat mga", "mga mga aklat"],
+      "answerIndex": 0,
+      "explain": "Isang senyas lamang ang kailangan.",
+      "objective": "Maiwasan ang pagdodoble ng senyas ng maramihan"
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang ibig sabihin ng \"bahay-bahay\"?",
+      "options": [
+        "Pupunta sa maraming bahay",
+        "Maraming bahay",
+        "Malaking bahay",
+        "Dalawang bahay"
+      ],
+      "answerIndex": 0,
+      "explain": "Ang pag-uulit ay nagpapakita ng pagkalat ng kilos, hindi ng dami ng bagay.",
+      "objective": "Maunawaan ang pag-uulit ng salita"
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang ibig sabihin ng \"araw-araw\"?",
+      "options": ["Tuwing araw", "Maraming araw", "Dalawang araw", "Mahabang araw"],
+      "answerIndex": 0,
+      "explain": "Pag-ulit ng pangyayari ito, hindi bilang ng mga araw.",
+      "objective": "Maunawaan ang pag-uulit ng salita"
+    },
+    {
+      "type": "truefalse",
+      "text": "Palaging maramihan ang ibig sabihin ng pag-uulit ng salita.",
+      "answer": false,
+      "explain": "Hindi. Madalas ay nagbibigay ito ng ibang kahulugan, tulad ng \"araw-araw\".",
+      "objective": "Maunawaan ang pag-uulit ng salita"
+    },
+    {
+      "type": "multiple",
+      "text": "Bakit mali ang \"mga bata-bata\"?",
+      "options": [
+        "Nadoble ang senyas ng maramihan",
+        "Mali ang baybay ng \"bata\"",
+        "Kailangan ng malaking titik",
+        "Kailangang alisin ang gitling"
+      ],
+      "answerIndex": 0,
+      "explain": "Pumili ng isang senyas. Sapat na ang \"mga\".",
+      "objective": "Maiwasan ang pagdodoble ng senyas ng maramihan"
+    },
+    {
+      "type": "multiple",
+      "text": "Bakit naiiba si Bonifacio sa mga repormista?",
+      "options": [
+        "Himagsikan ang sinimulan niya, hindi reporma",
+        "Nag-aral siya sa Europa",
+        "Galing siya sa mayamang pamilya",
+        "Hindi siya naniwala sa kalayaan"
+      ],
+      "answerIndex": 0,
+      "explain": "Hindi siya galing sa mayayaman at hindi siya nag-aral sa Europa.",
+      "objective": "Maunawaan kung bakit binabasa pa rin natin si Bonifacio"
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang tanong na iniiwan ng kanyang kuwento?",
+      "options": [
+        "Sino ang kabilang sa bayan?",
+        "Sino ang pinakamayamang Pilipino?",
+        "Ilan ang lalawigan sa Pilipinas?",
+        "Kailan natapos ang himagsikan?"
+      ],
+      "answerIndex": 0,
+      "explain": "Wala itong madaling sagot, at iyon ang dahilan kung bakit binabasa pa rin ito.",
+      "objective": "Maunawaan kung bakit binabasa pa rin natin si Bonifacio"
+    }
+  ],
+  "teacher": {
+    "summary": "Linggo 10 ng Filipino: ang kailanan ng pangngalan, at ang pagtatapos ng yunit ng pagbasa. Dalawa ang tunay na balakid dito. Una, ang pag-uulit ng salita ay hindi maramihan: ang \"araw-araw\" ay tuwing araw. Ikalawa, ang pagdodoble ng senyas, na siyang pinakamadalas na mali sa pagsusulit. IMPORTANTE PARA SA GURO O MAGULANG: walang buod ng Kapitulo 13 dito dahil hindi pa nakikita ang partikular na edisyon ng Supremo. Ang huling bahagi ay tungkol sa kung bakit mahalaga pa rin ang kuwento ni Bonifacio, at hindi ito sinasagot para sa kanya.",
+    "discussion": [
+      "Pabilangin siya bago sumagot: isa, dalawa, o marami?",
+      "Itanong kung ano ang ibig sabihin ng \"bahay-bahay\", at bakit hindi ito maramihan.",
+      "Pahanapin siya ng maling \"mga\" sa isang pahina ng anumang teksto.",
+      "Itanong kung ano ang tanong na iniwan sa kanya ng buong yunit."
+    ],
+    "extension": "Pasulatin siya ng isang talata tungkol sa nobela na may tamang gamit ng \"mga\" nang hindi bababa sa apat na beses, at walang doble.",
+    "misconceptions": [
+      "\"Maramihan ang lahat ng pag-uulit.\" Ang \"araw-araw\" ay tuwing araw, hindi maraming araw.",
+      "\"Mas malinaw ang mga aklat-aklat.\" Mali ito. Isang senyas lamang ang tama.",
+      "\"Nagbabago ang pangngalan kapag maramihan.\" Hindi, hindi tulad ng Ingles. Ang \"mga\" ang gumagawa nito.",
+      "\"Dalawa lang ang kailanan.\" Tatlo sa Filipino, dahil may hiwalay na dalawahan."
+    ]
+  }
+}

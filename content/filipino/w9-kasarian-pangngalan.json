@@ -1,0 +1,331 @@
+{
+  "id": "fil-w9",
+  "courseId": "filipino",
+  "courseTitle": "Filipino",
+  "week": 9,
+  "title": "Kasarian ng Pangngalan",
+  "subtitle": "Apat na kasarian, at ang pinakamadalas na mali ay ang di-tiyak.",
+  "estMinutes": 18,
+  "objectives": [
+    "Matukoy ang apat na kasarian ng pangngalan",
+    "Maunawaan ang kasariang di-tiyak",
+    "Maiba ang walang kasarian sa di-tiyak",
+    "Matukoy ang mga hiram na salitang may kasarian",
+    "Malaman ang debate kung sino ang pambansang bayani"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "⚧",
+      "eyebrow": "Bahagi 1 · Apat",
+      "title": "Sa Filipino, kaunti lamang ang salitang may kasarian",
+      "text": "Sa Espanyol, halos lahat ng pangngalan ay may kasarian. Sa Filipino, ang karamihan ay di-tiyak o wala."
+    },
+    {
+      "kind": "figure",
+      "figure": "kasarianPangngalan",
+      "eyebrow": "Anim na pindutan",
+      "title": "Ang apat na kasarian, at dalawang babala",
+      "text": "Pindutin ang bawat isa. Ang ikalimang pindutan ang pinakamadalas na pagkakamali."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang apat",
+      "title": "Panlalaki, pambabae, di-tiyak, walang kasarian",
+      "text": "Dalawang tanong lamang: may buhay ba, at kung mayroon, tiyak ba ang kasarian?",
+      "points": [
+        "**Panlalaki:** ama, hari, tandang.",
+        "**Pambabae:** ina, reyna, inahin.",
+        "**Di-tiyak:** guro, doktor, bata.",
+        "**Walang kasarian:** bato, mesa, aklat."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Anong kasarian ang \"kapatid\"?",
+        "options": ["Di-tiyak", "Panlalaki", "Pambabae", "Walang kasarian"],
+        "answerIndex": 0,
+        "explain": "Maaaring lalaki o babae. Kailangan mong idagdag ang \"na lalaki\" o \"na babae\" upang maging tiyak."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang pinakamadalas na mali",
+      "title": "Di-tiyak, hindi pambabae",
+      "text": "Maraming nagkakamali sa mga salitang tulad ng guro at nars, at inaakalang pambabae ang mga ito.",
+      "points": [
+        "**\"Guro\" ay di-tiyak.**",
+        "**\"Nars\" ay di-tiyak din.**",
+        "**Ang inaasahan ay hindi gramatika.**",
+        "**Ang salita mismo** ang suriin mo."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Sa boksing",
+      "title": "\"Boksingero\" ay di-tiyak",
+      "text": "May kampeong pambabae sa boksing sa buong mundo. Ang salitang \"boksingero\" ay hindi nagsasabi kung sino.",
+      "points": [
+        "**Di-tiyak** ang kasarian nito.",
+        "**Hindi ito nagsasabi** kung lalaki o babae.",
+        "**Kailangan mong idagdag** kung gusto mong maging tiyak.",
+        "**Ganoon din ang manlalaro at atleta.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Pambabae ang kasarian ng salitang \"guro\".",
+        "answer": false,
+        "explain": "Di-tiyak ito. Maaaring lalaki o babae. Ang inaasahan ay hindi gramatika."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Magandang tigilan muna",
+      "text": "Sa Bahagi 2 ay ang mga hiram na salita at ang debate tungkol sa bayani. Magpahinga ka muna."
+    },
+    {
+      "kind": "open",
+      "icon": "🇪🇸",
+      "eyebrow": "Bahagi 2 · Mga hiram",
+      "title": "May mga salitang may kasarian dahil hiram sila",
+      "text": "Halos lahat ng pares na may -o at -a sa dulo ay galing sa Espanyol. Doon may kasarian ang bawat pangngalan."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Mga pares",
+      "title": "Ang -o at -a mula sa Espanyol",
+      "text": "Ang -o ay panlalaki at ang -a ay pambabae sa Espanyol. Dala nila ang tuntuning iyon nang pumasok sila sa Filipino.",
+      "points": [
+        "**aktor at aktres.**",
+        "**tiyo at tiya.**",
+        "**abogado at abogada.**",
+        "**Hiram ang kasarian**, hindi katutubo."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Sa kuwento",
+      "title": "May dalang kasaysayan ang bawat hiram na salita",
+      "text": "Kapag may kasarian ang salitang Filipino, madalas ay may Espanyol sa likod nito. Ang wika ay tala rin ng nangyari.",
+      "points": [
+        "**Tatlong daang taon** ng pananakop.",
+        "**Nasa bokabularyo pa rin** ito.",
+        "**Hindi ito masama o mabuti.**",
+        "**Ito ay kasaysayang naririnig mo** araw-araw."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Bakit may kasarian ang \"aktor\" at \"aktres\"?",
+        "options": [
+          "Hiram sila sa Espanyol, kung saan may kasarian ang pangngalan",
+          "Katutubong Filipino ang mga ito",
+          "Bago lang silang mga salita",
+          "May panlaping Filipino sila"
+        ],
+        "answerIndex": 0,
+        "explain": "Ang -o at -a ay tuntunin ng Espanyol na dala ng mga salitang hiram."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Kasaysayan",
+      "title": "Sino ang pambansang bayani?",
+      "text": "Karaniwang sinasagot ito ng \"Rizal\", ngunit walang batas na nagdedeklara ng isang pambansang bayani.",
+      "points": [
+        "**Walang batas** na pumipili ng isa.",
+        "**Nagmungkahi ng siyam** ang isang komite noong 1995.",
+        "**Hindi ito naging batas.**",
+        "**Ugali at kaugalian** ang nagbigay ng sagot."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "📈",
+      "eyebrow": "Sa pag-iisip",
+      "title": "Alamin kung saan galing ang isang sagot",
+      "text": "May sagot na batas, may sagot na ugali, at may sagot na palagay lamang. Magkakaiba ang bigat ng mga ito.",
+      "points": [
+        "**Itanong:** sino ang nagsabi nito?",
+        "**Itanong:** may batas ba o wala?",
+        "**Hindi mali** ang sagot na \"Rizal\".",
+        "**Ang mahalaga** ay alam mo kung bakit."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "May batas na nagdedeklara kay Rizal bilang pambansang bayani.",
+        "answer": false,
+        "explain": "Wala. Nagmungkahi ng siyam na pangalan ang isang komite noong 1995, ngunit hindi ito naging batas."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Mga salitang lalabas sa pagsusulit",
+      "terms": [
+        { "term": "panlalaki", "def": "Tumutukoy sa lalaki: ama, hari, tandang." },
+        { "term": "pambabae", "def": "Tumutukoy sa babae: ina, reyna, inahin." },
+        { "term": "di-tiyak", "def": "Maaaring lalaki o babae: guro, doktor, kapatid." },
+        { "term": "walang kasarian", "def": "Bagay na walang buhay: bato, mesa, aklat." },
+        { "term": "hiram na salita", "def": "Salitang galing sa ibang wika, tulad ng aktor at aktres." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Balik-aral",
+      "title": "Ang apat na mahalaga",
+      "points": [
+        "**Apat na kasarian**, dalawang tanong lamang.",
+        "**Di-tiyak** ang pinakamadalas na mali.",
+        "**Hiram sa Espanyol** ang -o at -a.",
+        "**Walang batas** na pumipili ng pambansang bayani."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Anong kasarian ang \"inahin\"?",
+      "options": ["Pambabae", "Panlalaki", "Di-tiyak", "Walang kasarian"],
+      "answerIndex": 0,
+      "explain": "Ang katapat nito ay \"tandang\", na panlalaki.",
+      "objective": "Matukoy ang apat na kasarian ng pangngalan"
+    },
+    {
+      "type": "multiple",
+      "text": "Anong kasarian ang \"mesa\"?",
+      "options": ["Walang kasarian", "Pambabae", "Di-tiyak", "Panlalaki"],
+      "answerIndex": 0,
+      "explain": "Bagay ito na walang buhay, kaya walang kasarian.",
+      "objective": "Matukoy ang apat na kasarian ng pangngalan"
+    },
+    {
+      "type": "multiple",
+      "text": "Anong kasarian ang \"doktor\"?",
+      "options": ["Di-tiyak", "Panlalaki", "Pambabae", "Walang kasarian"],
+      "answerIndex": 0,
+      "explain": "Maaaring lalaki o babae. Hindi sinasabi ng salita kung sino.",
+      "objective": "Maunawaan ang kasariang di-tiyak"
+    },
+    {
+      "type": "truefalse",
+      "text": "Panlalaki ang kasarian ng \"boksingero\".",
+      "answer": false,
+      "explain": "Di-tiyak ito. May mga kampeong pambabae sa boksing sa buong mundo.",
+      "objective": "Maunawaan ang kasariang di-tiyak"
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang pagkakaiba ng di-tiyak at walang kasarian?",
+      "options": [
+        "May buhay ang di-tiyak; walang buhay ang walang kasarian",
+        "Wala silang pagkakaiba",
+        "Mas maikli ang di-tiyak",
+        "Laging hiram ang walang kasarian"
+      ],
+      "answerIndex": 0,
+      "explain": "Ang \"bata\" ay di-tiyak. Ang \"bato\" ay walang kasarian.",
+      "objective": "Maiba ang walang kasarian sa di-tiyak"
+    },
+    {
+      "type": "multiple",
+      "text": "Alin sa mga ito ang walang kasarian?",
+      "options": ["aklat", "kaibigan", "guro", "kapatid"],
+      "answerIndex": 0,
+      "explain": "Bagay ito. Ang tatlo pa ay tumutukoy sa tao at di-tiyak.",
+      "objective": "Maiba ang walang kasarian sa di-tiyak"
+    },
+    {
+      "type": "multiple",
+      "text": "Saan galing ang mga pares na tulad ng \"tiyo\" at \"tiya\"?",
+      "options": ["Espanyol", "Ingles", "Tsino", "Malay"],
+      "answerIndex": 0,
+      "explain": "Ang -o ay panlalaki at ang -a ay pambabae sa Espanyol.",
+      "objective": "Matukoy ang mga hiram na salitang may kasarian"
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang pares na hiram na may kasarian?",
+      "options": [
+        "abogado at abogada",
+        "guro at guro",
+        "bata at bata",
+        "aklat at aklat"
+      ],
+      "answerIndex": 0,
+      "explain": "Dala ng mga salitang hiram ang tuntunin ng Espanyol.",
+      "objective": "Matukoy ang mga hiram na salitang may kasarian"
+    },
+    {
+      "type": "truefalse",
+      "text": "Katutubo sa Filipino ang pagbibigay ng kasarian sa halos lahat ng pangngalan.",
+      "answer": false,
+      "explain": "Hindi. Karamihan sa Filipino ay di-tiyak o walang kasarian. Hiram ang mga pares na -o at -a.",
+      "objective": "Matukoy ang mga hiram na salitang may kasarian"
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang totoo tungkol sa pambansang bayani ng Pilipinas?",
+      "options": [
+        "Walang batas na nagdedeklara ng isa",
+        "Si Rizal ang idineklara ng batas",
+        "Si Bonifacio ang idineklara ng batas",
+        "Dalawa ang idineklara ng batas"
+      ],
+      "answerIndex": 0,
+      "explain": "Nagmungkahi ng siyam na pangalan ang isang komite noong 1995, ngunit hindi ito naging batas.",
+      "objective": "Malaman ang debate kung sino ang pambansang bayani"
+    },
+    {
+      "type": "multiple",
+      "text": "Ilan ang imumungkahing pangalan ng komite noong 1995?",
+      "options": ["Siyam", "Isa", "Tatlo", "Labindalawa"],
+      "answerIndex": 0,
+      "explain": "Hindi ito naging batas, kaya nanatiling ugali at kaugalian ang nagbibigay ng sagot.",
+      "objective": "Malaman ang debate kung sino ang pambansang bayani"
+    },
+    {
+      "type": "multiple",
+      "text": "Bakit mahalagang tanungin kung saan galing ang isang sagot?",
+      "options": [
+        "Magkaiba ang bigat ng batas, ng ugali at ng palagay",
+        "Palaging mali ang karaniwang sagot",
+        "Walang tamang sagot sa kasaysayan",
+        "Mas mabilis mag-aral nang ganoon"
+      ],
+      "answerIndex": 0,
+      "explain": "Hindi mali ang sagot na \"Rizal\". Ang mahalaga ay alam mo kung bakit iyon ang sagot.",
+      "objective": "Malaman ang debate kung sino ang pambansang bayani"
+    }
+  ],
+  "teacher": {
+    "summary": "Linggo 9 ng Filipino: ang kasarian ng pangngalan. Ang pangunahing punto ay ang di-tiyak, dahil doon nagkakamali ang halos lahat: ang \"guro\" at ang \"nars\" ay di-tiyak, at ang inaasahan ay hindi gramatika. Ipinapaliwanag din ng aralin kung bakit may kasarian ang ilang salita: hiram sila sa Espanyol. IMPORTANTE PARA SA GURO O MAGULANG: walang buod ng Kapitulo 12 dito dahil hindi pa nakikita ang partikular na edisyon ng Supremo. Ang ikalawang kalahati ay tumpak: walang batas na nagdedeklara ng pambansang bayani, at ang mungkahi ng komite noong 1995 ay hindi naging batas.",
+    "discussion": [
+      "Itanong kung anong kasarian ang \"guro\", at pag-usapan kung bakit iba ang unang sagot ng marami.",
+      "Pahanapin siya ng tatlong pares na hiram sa Espanyol.",
+      "Itanong kung ano ang pagkakaiba ng di-tiyak at walang kasarian.",
+      "Itanong kung saan niya narinig na si Rizal ang pambansang bayani, at ano ang batayan noon."
+    ],
+    "extension": "Pasulatin siya ng sampung pangngalan mula sa isang pahina at markahan ang kasarian ng bawat isa. Bilangin kung ilan ang di-tiyak.",
+    "misconceptions": [
+      "\"Pambabae ang guro at ang nars.\" Di-tiyak silang dalawa.",
+      "\"Walang kasarian at di-tiyak ay pareho.\" May buhay ang di-tiyak; wala ang walang kasarian.",
+      "\"Lahat ng salitang Filipino ay may kasarian.\" Karamihan ay wala. Hiram ang mga may kasarian.",
+      "\"May batas na nagsasabing si Rizal ang pambansang bayani.\" Wala. Ugali at kaugalian ang nagbigay ng sagot."
+    ]
+  }
+}

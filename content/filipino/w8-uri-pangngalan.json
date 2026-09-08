@@ -1,0 +1,403 @@
+{
+  "id": "fil-w8",
+  "courseId": "filipino",
+  "courseTitle": "Filipino",
+  "week": 8,
+  "title": "Uri ng Pangngalan",
+  "subtitle": "Isang salita, maaaring maraming uri nang sabay-sabay.",
+  "estMinutes": 18,
+  "objectives": [
+    "Maiba ang pantangi sa pambalana",
+    "Maiba ang tahas sa basal",
+    "Matukoy ang pangngalang palansak",
+    "Maunawaan na maaaring maraming uri ang isang pangngalan",
+    "Malaman kung paano inalala si Bonifacio pagkalipas ng mga taon"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🏷️",
+      "eyebrow": "Bahagi 1 · Dalawang tanong",
+      "title": "Hindi isa, kundi tatlong tanong sa bawat pangngalan",
+      "text": "Tiyak ba o pangkalahatan? Nahahawakan ba o hindi? At pangkat ba ito o isa lamang?"
+    },
+    {
+      "kind": "figure",
+      "figure": "uriPangngalan",
+      "eyebrow": "Anim na pindutan",
+      "title": "Ang uri, ang kahulugan at ang halimbawa",
+      "text": "Pindutin ang bawat isa. Ang huling pindutan ang pinakamahalaga."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Unang tanong",
+      "title": "Pantangi at pambalana",
+      "text": "Ang pantangi ay tiyak na ngalan ng tao, lugar o bagay. Ang pambalana ay pangkalahatan.",
+      "points": [
+        "**Pantangi:** Bonifacio, Maynila, Supremo.",
+        "**Pambalana:** bayani, lungsod, aklat.",
+        "**Malaking titik** ang senyas ng pantangi.",
+        "**Isang bagay lamang** ang tinutukoy nito."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Alin sa mga ito ang pantangi?",
+        "options": [
+          "Katipunan",
+          "samahan",
+          "pinuno",
+          "himagsikan"
+        ],
+        "answerIndex": 0,
+        "explain": "Tiyak na pangalan ito ng isang samahan, kaya malaking titik ang gamit."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ikalawang tanong",
+      "title": "Tahas at basal",
+      "text": "Ang tahas ay nahahawakan o nakikita. Ang basal ay ideya, damdamin o katangian.",
+      "points": [
+        "**Tahas:** bato, guwantes, tubig, bandila.",
+        "**Basal:** katapangan, pag-asa, kalayaan.",
+        "**Subukan mong hawakan ito.**",
+        "**Kung hindi kaya**, basal ito."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Sa boksing",
+      "title": "Nahahawakan ang guwantes. Hindi ang tapang.",
+      "text": "Nasa bag ang guwantes at ang bendahe. Ang tapang at ang disiplina ay wala sa anumang bag.",
+      "points": [
+        "**Guwantes, ring, kampana:** tahas.",
+        "**Tapang, tiyaga, takot:** basal.",
+        "**Pareho silang totoo.**",
+        "**Isa lang ang nahahawakan.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Alin sa mga ito ang pangngalang basal?",
+        "options": [
+          "kalayaan",
+          "bandila",
+          "papel",
+          "bahay"
+        ],
+        "answerIndex": 0,
+        "explain": "Ideya ito, hindi bagay. Hindi mo kayang hawakan ang kalayaan."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Magandang tigilan muna",
+      "text": "Sa Bahagi 2 ay ang palansak at ang alaala kay Bonifacio. Magpahinga ka muna."
+    },
+    {
+      "kind": "open",
+      "icon": "👥",
+      "eyebrow": "Bahagi 2 · Palansak",
+      "title": "Isang salita para sa maraming bagay",
+      "text": "Ang pangngalang palansak ay tumutukoy sa isang pangkat gamit ang isang salita lamang."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Palansak",
+      "title": "Isahan ang anyo, marami ang laman",
+      "text": "Isahan ang salita, ngunit pangkat ang tinutukoy. Iyan ang bumubuo sa palansak.",
+      "points": [
+        "**kawan** ng tupa o ibon.",
+        "**pulutong** ng tao.",
+        "**samahan**, **kaban**, **bungkos**.",
+        "**Isang salita**, maraming bagay."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Sa laro",
+      "title": "May inventory ka nang puno ng tahas",
+      "text": "Ang mga bagay sa inventory ay tahas: sandata, gamot, kahoy. Ang skill at ang reputation ay basal.",
+      "points": [
+        "**Nahahawakan** ang bawat item.",
+        "**Hindi nahahawakan** ang husay.",
+        "**Pareho silang nasa laro.**",
+        "**Isa lang ang may bigat** sa bag."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang mahalaga",
+      "title": "Maaaring maraming uri ang isang pangngalan",
+      "text": "Hindi ka pumipili ng isang sagot lamang. Sinasagot mo ang tatlong tanong nang magkahiwalay.",
+      "points": [
+        "**\"Katipunan\":** pantangi at palansak.",
+        "**\"kawan\":** pambalana at palansak.",
+        "**\"tapang\":** pambalana at basal.",
+        "**Sagutin ang bawat tanong** nang mag-isa."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Anong uri ang \"Katipunan\"?",
+        "options": [
+          "Pantangi at palansak",
+          "Pambalana at basal",
+          "Pantangi at basal",
+          "Pambalana at tahas"
+        ],
+        "answerIndex": 0,
+        "explain": "Tiyak na pangalan ito, at pangkat ng tao ang tinutukoy."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Kasaysayan",
+      "title": "Paano inalala si Bonifacio",
+      "text": "Matagal bago siya binigyan ng pagkilala. Ngayon ay may monumento siya at may sariling araw sa kalendaryo.",
+      "points": [
+        "**Araw ng Bonifacio:** ika-30 ng Nobyembre.",
+        "**Kaarawan niya ito**, hindi araw ng kamatayan.",
+        "**Ginawa itong pista opisyal** noong 1921.",
+        "**Iba ito kay Rizal**, na ginugunita sa Disyembre 30."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Sa kuwento",
+      "title": "Ang monumento sa Caloocan",
+      "text": "Ginawa ito ni Guillermo Tolentino at binuksan noong 1933. Hindi lamang si Bonifacio ang nakatayo roon.",
+      "points": [
+        "**May dalawampu't tatlong pigura** sa monumento.",
+        "**May itak siyang hawak**, hindi baril.",
+        "**Nakatingin siya pasulong.**",
+        "**Bawat detalye ay pinili.** Basahin mo ito."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Ang Araw ng Bonifacio ay ang araw ng kanyang kamatayan.",
+        "answer": false,
+        "explain": "Hindi. Ika-30 ng Nobyembre ang kaarawan niya. Iba ito sa Araw ni Rizal."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Mga salitang lalabas sa pagsusulit",
+      "terms": [
+        {
+          "term": "pantangi",
+          "def": "Tiyak na ngalan. Malaking titik ang gamit."
+        },
+        {
+          "term": "pambalana",
+          "def": "Pangkalahatang ngalan. Maliit na titik."
+        },
+        {
+          "term": "tahas",
+          "def": "Nahahawakan o nakikita."
+        },
+        {
+          "term": "basal",
+          "def": "Ideya, damdamin o katangian. Hindi nahahawakan."
+        },
+        {
+          "term": "palansak",
+          "def": "Isang salita para sa isang pangkat, tulad ng kawan."
+        },
+        {
+          "term": "Araw ng Bonifacio",
+          "def": "Ika-30 ng Nobyembre, ang kaarawan niya."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Balik-aral",
+      "title": "Ang apat na mahalaga",
+      "points": [
+        "**Pantangi:** tiyak. **Pambalana:** pangkalahatan.",
+        "**Tahas:** nahahawakan. **Basal:** ideya.",
+        "**Palansak:** isang salita, maraming laman.",
+        "**Maaaring maraming uri** ang isang pangngalan."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Alin ang pangngalang pantangi?",
+      "options": [
+        "Maynila",
+        "lungsod",
+        "bayan",
+        "kalye"
+      ],
+      "answerIndex": 0,
+      "explain": "Tiyak na pangalan ng isang lugar. Malaking titik ang senyas.",
+      "objective": "Maiba ang pantangi sa pambalana"
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang pangngalang pambalana?",
+      "options": [
+        "bayani",
+        "Bonifacio",
+        "Rizal",
+        "Cavite"
+      ],
+      "answerIndex": 0,
+      "explain": "Pangkalahatan ito. Hindi tiyak kung sino ang tinutukoy.",
+      "objective": "Maiba ang pantangi sa pambalana"
+    },
+    {
+      "type": "truefalse",
+      "text": "Malaking titik ang panimula ng pangngalang pantangi.",
+      "answer": true,
+      "explain": "Iyon ang unang senyas. Tiyak na ngalan ito ng tao, lugar o bagay.",
+      "objective": "Maiba ang pantangi sa pambalana"
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang pangngalang tahas?",
+      "options": [
+        "bandila",
+        "katapangan",
+        "pag-asa",
+        "kalungkutan"
+      ],
+      "answerIndex": 0,
+      "explain": "Nahahawakan mo ito. Ang tatlo pa ay ideya o damdamin.",
+      "objective": "Maiba ang tahas sa basal"
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang pangngalang basal?",
+      "options": [
+        "katarungan",
+        "itak",
+        "papel",
+        "bato"
+      ],
+      "answerIndex": 0,
+      "explain": "Ideya ito. Ang mabuting pagsubok: kaya mo bang hawakan?",
+      "objective": "Maiba ang tahas sa basal"
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang mabuting paraan upang malaman kung basal ang pangngalan?",
+      "options": [
+        "Tanungin kung nahahawakan ito",
+        "Bilangin ang mga pantig",
+        "Tingnan kung malaking titik",
+        "Tingnan kung may \"mga\""
+      ],
+      "answerIndex": 0,
+      "explain": "Kung hindi mo kayang hawakan o makita, basal ito.",
+      "objective": "Maiba ang tahas sa basal"
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang pangngalang palansak?",
+      "options": [
+        "kawan",
+        "tupa",
+        "damo",
+        "bukid"
+      ],
+      "answerIndex": 0,
+      "explain": "Isang salita para sa isang pangkat ng hayop.",
+      "objective": "Matukoy ang pangngalang palansak"
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang katangian ng pangngalang palansak?",
+      "options": [
+        "Isahan ang anyo ngunit pangkat ang tinutukoy",
+        "Laging maramihan ang anyo",
+        "Laging may \"mga\"",
+        "Laging pantangi"
+      ],
+      "answerIndex": 0,
+      "explain": "Isang salita, maraming laman. Iyan ang bumubuo sa palansak.",
+      "objective": "Matukoy ang pangngalang palansak"
+    },
+    {
+      "type": "multiple",
+      "text": "Anong uri ang \"Katipunan\"?",
+      "options": [
+        "Pantangi at palansak",
+        "Pambalana at tahas",
+        "Pantangi at basal",
+        "Pambalana lamang"
+      ],
+      "answerIndex": 0,
+      "explain": "Sagutin ang bawat tanong nang magkahiwalay. Maaaring maraming uri ang isang salita.",
+      "objective": "Maunawaan na maaaring maraming uri ang isang pangngalan"
+    },
+    {
+      "type": "truefalse",
+      "text": "Isang uri lamang ang maaaring taglayin ng isang pangngalan.",
+      "answer": false,
+      "explain": "Hindi. Ang \"tapang\" ay pambalana at basal nang sabay. Tatlong magkahiwalay na tanong ito.",
+      "objective": "Maunawaan na maaaring maraming uri ang isang pangngalan"
+    },
+    {
+      "type": "multiple",
+      "text": "Kailan ang Araw ng Bonifacio?",
+      "options": [
+        "Ika-30 ng Nobyembre",
+        "Ika-30 ng Disyembre",
+        "Ika-12 ng Hunyo",
+        "Ika-10 ng Mayo"
+      ],
+      "answerIndex": 0,
+      "explain": "Kaarawan niya ito. Ang Araw ni Rizal ay ika-30 ng Disyembre.",
+      "objective": "Malaman kung paano inalala si Bonifacio pagkalipas ng mga taon"
+    },
+    {
+      "type": "multiple",
+      "text": "Sino ang gumawa ng monumento ni Bonifacio sa Caloocan?",
+      "options": [
+        "Guillermo Tolentino",
+        "Juan Luna",
+        "Fernando Amorsolo",
+        "Felix Hidalgo"
+      ],
+      "answerIndex": 0,
+      "explain": "Binuksan ito noong 1933, at may dalawampu't tatlong pigura sa monumento.",
+      "objective": "Malaman kung paano inalala si Bonifacio pagkalipas ng mga taon"
+    }
+  ],
+  "teacher": {
+    "summary": "Linggo 8 ng Filipino: ang uri ng pangngalan. Ang pinakamahalagang kaisipan dito ay hindi ang listahan kundi ang paraan ng pagsagot: tatlong magkahiwalay na tanong, hindi isang pagpili. Karaniwang pagkakamali ang isipin na kailangang isang uri lamang ang isang salita. IMPORTANTE PARA SA GURO O MAGULANG: walang buod ng Kapitulo 11 dito dahil hindi pa nakikita ang partikular na edisyon ng Supremo. Ang ikalawang kalahati ay tumpak na kasaysayan tungkol sa paggunita kay Bonifacio: ang Araw ng Bonifacio at ang monumento ni Guillermo Tolentino sa Caloocan.",
+    "discussion": [
+      "Pasagutin siya ng tatlong tanong sa isang salita: tiyak ba, nahahawakan ba, pangkat ba?",
+      "Itanong kung bakit basal ang \"kalayaan\" gayong napakatotoo nito.",
+      "Pahanapin siya ng tatlong palansak sa isang pahina ng aklat.",
+      "Itanong kung bakit kaarawan, at hindi araw ng kamatayan, ang Araw ng Bonifacio."
+    ],
+    "extension": "Pasulatin siya ng sampung pangngalan mula sa isang kabanata, at markahan ang lahat ng uri ng bawat isa. Hindi isa lamang.",
+    "misconceptions": [
+      "\"Isang uri lamang ang bawat pangngalan.\" Tatlong magkahiwalay na tanong ito.",
+      "\"Basal ang lahat ng mahirap hawakan.\" Ang hangin ay tahas kahit hindi nakikita ang hugis nito.",
+      "\"Palansak ang lahat ng may maraming bagay.\" Isahan ang anyo ng palansak; hindi ito \"mga\".",
+      "\"Ang Araw ng Bonifacio ay araw ng kamatayan niya.\" Kaarawan niya ito, ika-30 ng Nobyembre."
+    ]
+  }
+}

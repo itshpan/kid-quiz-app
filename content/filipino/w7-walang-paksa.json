@@ -1,0 +1,357 @@
+{
+  "id": "fil-w7",
+  "courseId": "filipino",
+  "courseTitle": "Filipino",
+  "week": 7,
+  "title": "Mga Pangungusap na Walang Paksa",
+  "subtitle": "May pangungusap na buo at tama kahit walang sinasabing sino.",
+  "estMinutes": 18,
+  "objectives": [
+    "Maunawaan kung bakit may pangungusap na walang paksa",
+    "Matukoy ang mga uri nito",
+    "Maiba ang walang paksa sa may paksang hindi binanggit",
+    "Makabuo ng pangungusap na walang paksa",
+    "Malaman ang nangyari sa pagitan ng 1897 at 1898"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🌧️",
+      "eyebrow": "Bahagi 1 · Walang sino",
+      "title": "\"Umuulan.\" Sino ang umuulan?",
+      "text": "Walang sagot ang tanong na iyon, at buo pa rin ang pangungusap. May mga pangungusap na talagang walang paksa."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang dahilan",
+      "title": "May pangyayaring walang gumagawa",
+      "text": "Kapag ang sinasabi ay pangyayari lamang, hindi kailangan ng paksa. Hindi ito kulang. Ganito talaga ang ayos.",
+      "points": [
+        "**\"Umuulan.\"** Walang paksa.",
+        "**\"Umuulan ang langit.\"** Mali ito.",
+        "**Walang gumagawa** ng ulan sa gramatika.",
+        "**Panaguri lamang** ang buong pangungusap."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "walangPaksa",
+      "eyebrow": "Anim na uri",
+      "title": "Kailan nangyayari ito",
+      "text": "Pindutin ang bawat isa. Karamihan sa mga ito ay tungkol sa panahon at sa katawan."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Alin sa mga ito ang walang paksa?",
+        "options": [
+          "Lumindol kagabi.",
+          "Natulog ang bata.",
+          "Naglaro sila sa labas.",
+          "Malakas ang ulan sa Maynila."
+        ],
+        "answerIndex": 0,
+        "explain": "Pangyayari sa kalikasan ito. Walang gumagawa ng lindol sa gramatika."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Mag-ingat",
+      "title": "Iba ang walang paksa sa hindi binanggit na paksa",
+      "text": "Sa pautos, may paksa: ikaw. Hindi lang ito binabanggit. Sa walang paksa, wala talaga.",
+      "points": [
+        "**\"Tumakbo ka!\"** May paksa: ikaw.",
+        "**\"Tumakbo!\"** Nandoon pa rin ang ikaw.",
+        "**\"Umuulan.\"** Wala talagang sino.",
+        "**Itanong:** may maaari bang ilagay?"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Sa laro",
+      "title": "\"Lag na naman.\" Sino ang naglalag?",
+      "text": "Kapag sinabi mong lumalag ang laro, walang taong ginagawa iyon. Pangyayari lamang, at buo na ang sinabi mo.",
+      "points": [
+        "**\"Nag-crash.\"** Walang paksa.",
+        "**\"Nag-crash ang laro.\"** May paksa na.",
+        "**Pareho silang tama.**",
+        "**Magkaiba lang ang ayos.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Kulang o mali ang isang pangungusap na walang paksa.",
+        "answer": false,
+        "explain": "Hindi. Buo at tama ito. May mga pangyayaring talagang walang gumagawa."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Magpahinga muna",
+      "text": "Sa Bahagi 2 ay ang pagbabalik ni Aguinaldo at ang Hunyo 1898. Bumalik ka kapag handa ka na."
+    },
+    {
+      "kind": "open",
+      "icon": "🚢",
+      "eyebrow": "Bahagi 2 · Kasaysayan",
+      "title": "Bumalik sila makalipas ang limang buwan",
+      "text": "Ipinatapon sa Hong Kong noong Disyembre 1897. Bumalik si Aguinaldo sa Pilipinas noong Mayo 1898."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Mayo 1898",
+      "title": "Nagbago ang lahat dahil sa ibang digmaan",
+      "text": "Nagdigmaan ang Estados Unidos at Espanya. Tinalo ni Komodoro Dewey ang hukbong-dagat ng Espanya sa Look ng Maynila.",
+      "points": [
+        "**Ika-1 ng Mayo 1898** ang labanan sa look.",
+        "**Bumalik si Aguinaldo** makalipas ang labing-siyam na araw.",
+        "**Sumibol muli ang himagsikan** sa buong bansa.",
+        "**Iba ang layunin** ng bawat panig."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Hunyo 1898",
+      "title": "Ang deklarasyon sa Kawit",
+      "text": "Ipinahayag ang kalayaan ng Pilipinas noong ika-12 ng Hunyo 1898, sa bahay ni Aguinaldo sa Kawit, Cavite.",
+      "points": [
+        "**Itinaas ang bandila** sa unang pagkakataon.",
+        "**Tinugtog ang pambansang awit.**",
+        "**Walang ibang bansang kumilala** noon.",
+        "**Ito pa rin ang Araw ng Kalayaan** ngayon."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Kailan ipinahayag ang kalayaan sa Kawit?",
+        "options": [
+          "Ika-12 ng Hunyo 1898",
+          "Ika-1 ng Mayo 1898",
+          "Nobyembre 1897",
+          "Hulyo 1902"
+        ],
+        "answerIndex": 0,
+        "explain": "Sa bahay ni Aguinaldo sa Kawit, Cavite. Ito pa rin ang Araw ng Kalayaan."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Sa kuwento",
+      "title": "May sandaling parang tapos na, at hindi pa pala",
+      "text": "Malapit sa dulo ng maraming kuwento, may pahinang mukhang wakas. Kadalasan, hindi pa iyon ang wakas.",
+      "points": [
+        "**Nakataas na ang bandila.**",
+        "**Tumutugtog na ang awit.**",
+        "**Wala pang kumikilala** sa labas.",
+        "**Bantayan mo ang senyas** na ganito sa nobela."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang hindi nakita",
+      "title": "May kasunduang hindi nila alam",
+      "text": "Habang ipinapahayag ang kalayaan, pinag-uusapan na ng Espanya at ng Estados Unidos ang kapalaran ng mga isla.",
+      "points": [
+        "**Kasunduan sa Paris**, Disyembre 1898.",
+        "**Ibinenta ang Pilipinas** sa halagang bente milyong dolyar.",
+        "**Walang Pilipinong nasa mesa.**",
+        "**Anim na buwan** pagkatapos ng Kawit."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Sa sasakyan",
+      "title": "Hindi mo pag-aari ang kotse hangga't wala ang papeles",
+      "text": "Maaari mong hawak ang susi at maaari kang makapagmaneho. Kung ang papeles ay nasa pangalan ng iba, hindi pa rin sa iyo.",
+      "points": [
+        "**Totoo ang deklarasyon** para sa mga Pilipino.",
+        "**Hindi ito kinilala** ng ibang bansa.",
+        "**Dalawang magkaibang katotohanan.**",
+        "**Pareho silang mahalaga.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Kinilala ng ibang bansa ang deklarasyon ng kalayaan noong 1898.",
+        "answer": false,
+        "explain": "Hindi. Ibinenta pa nga ang mga isla sa Kasunduan sa Paris makalipas ang anim na buwan."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Mga salitang lalabas sa pagsusulit",
+      "terms": [
+        { "term": "pangungusap na walang paksa", "def": "Buong pangungusap na walang sinasabing gumagawa." },
+        { "term": "panaguri", "def": "Ang bahaging nagsasabi ng ginagawa o nangyayari." },
+        { "term": "Kawit", "def": "Bayan sa Cavite kung saan ipinahayag ang kalayaan noong 1898." },
+        { "term": "Kasunduan sa Paris", "def": "Disyembre 1898. Ibinenta ang Pilipinas sa halagang bente milyong dolyar." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Balik-aral",
+      "title": "Ang apat na mahalaga",
+      "points": [
+        "**Walang paksa** ay buo at tama.",
+        "**Itanong:** may maaari bang ilagay na paksa?",
+        "**Ika-12 ng Hunyo 1898**, sa Kawit.",
+        "**Hindi ito kinilala** ng ibang bansa."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Alin ang pangungusap na walang paksa?",
+      "options": [
+        "Umuulan sa labas.",
+        "Umuulan ang langit.",
+        "Basang-basa ang bata.",
+        "Malakas ang hangin sa bundok."
+      ],
+      "answerIndex": 0,
+      "explain": "Walang gumagawa ng ulan sa gramatika. Panaguri lamang ang buong pangungusap.",
+      "objective": "Matukoy ang mga uri nito"
+    },
+    {
+      "type": "truefalse",
+      "text": "Kulang ang pangungusap na walang paksa.",
+      "answer": false,
+      "explain": "Buo at tama ito. May mga pangyayaring talagang walang gumagawa.",
+      "objective": "Maunawaan kung bakit may pangungusap na walang paksa"
+    },
+    {
+      "type": "multiple",
+      "text": "Anong uri ng walang paksa ang \"Masakit ang tiyan ko\"?",
+      "options": ["Karamdaman", "Panahon", "Kalikasan", "Padamdam"],
+      "answerIndex": 0,
+      "explain": "Damdaming pisikal ng katawan ito, na isa sa mga karaniwang uri.",
+      "objective": "Matukoy ang mga uri nito"
+    },
+    {
+      "type": "multiple",
+      "text": "Anong uri ang \"Lumindol kaninang umaga\"?",
+      "options": ["Kalikasan", "Oras", "Karamdaman", "Pautos"],
+      "answerIndex": 0,
+      "explain": "Pangyayari sa kalikasan. Walang taong ginagawa ito.",
+      "objective": "Matukoy ang mga uri nito"
+    },
+    {
+      "type": "multiple",
+      "text": "Bakit may paksa pa rin ang \"Tumakbo ka!\"?",
+      "options": [
+        "Nandoon ang \"ikaw\" kahit hindi binabanggit",
+        "Dahil may tandang padamdam",
+        "Dahil pautos ito",
+        "Wala talaga itong paksa"
+      ],
+      "answerIndex": 0,
+      "explain": "Sa pautos, may paksa: ikaw. Hindi lang ito binabanggit.",
+      "objective": "Maiba ang walang paksa sa may paksang hindi binanggit"
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang mabuting tanong upang masuri kung walang paksa?",
+      "options": [
+        "May maaari bang ilagay na paksa?",
+        "Gaano kahaba ang pangungusap?",
+        "May tuldok ba sa dulo?",
+        "May pandiwa ba?"
+      ],
+      "answerIndex": 0,
+      "explain": "Kung wala kang maaaring ilagay, walang paksa talaga ang pangungusap.",
+      "objective": "Maiba ang walang paksa sa may paksang hindi binanggit"
+    },
+    {
+      "type": "multiple",
+      "text": "Kailan bumalik si Aguinaldo mula sa Hong Kong?",
+      "options": ["Mayo 1898", "Disyembre 1897", "Hunyo 1898", "Enero 1899"],
+      "answerIndex": 0,
+      "explain": "Makalipas ang labing-siyam na araw mula sa labanan sa Look ng Maynila.",
+      "objective": "Malaman ang nangyari sa pagitan ng 1897 at 1898"
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang nangyari noong ika-1 ng Mayo 1898?",
+      "options": [
+        "Tinalo ni Dewey ang hukbong-dagat ng Espanya sa Look ng Maynila",
+        "Ipinahayag ang kalayaan",
+        "Pumirma ang Espanya sa Biak-na-Bato",
+        "Namatay si Bonifacio"
+      ],
+      "answerIndex": 0,
+      "explain": "Iyon ang nagbukas ng pinto para sa pagbabalik ng himagsikan.",
+      "objective": "Malaman ang nangyari sa pagitan ng 1897 at 1898"
+    },
+    {
+      "type": "multiple",
+      "text": "Saan ipinahayag ang kalayaan noong 1898?",
+      "options": ["Kawit, Cavite", "Malolos, Bulacan", "Maynila", "Biak-na-Bato"],
+      "answerIndex": 0,
+      "explain": "Sa bahay ni Aguinaldo. Doon unang itinaas ang bandila.",
+      "objective": "Malaman ang nangyari sa pagitan ng 1897 at 1898"
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang nangyari sa Kasunduan sa Paris noong Disyembre 1898?",
+      "options": [
+        "Ibinenta ng Espanya ang Pilipinas sa Estados Unidos",
+        "Kinilala ang kalayaan ng Pilipinas",
+        "Bumalik ang Espanya sa bansa",
+        "Nagtapos ang Digmaang Pilipino-Amerikano"
+      ],
+      "answerIndex": 0,
+      "explain": "Sa halagang bente milyong dolyar, at walang Pilipinong nasa mesa.",
+      "objective": "Malaman ang nangyari sa pagitan ng 1897 at 1898"
+    },
+    {
+      "type": "truefalse",
+      "text": "May Pilipinong kinatawan sa usapan sa Paris.",
+      "answer": false,
+      "explain": "Wala. Pinag-usapan ang kapalaran ng bansa nang walang sinuman mula rito.",
+      "objective": "Malaman ang nangyari sa pagitan ng 1897 at 1898"
+    },
+    {
+      "type": "multiple",
+      "text": "Ipinagdiriwang pa rin ba ang ika-12 ng Hunyo?",
+      "options": [
+        "Oo, ito ang Araw ng Kalayaan",
+        "Hindi na ito ginugunita",
+        "Oo, ngunit tinatawag itong Araw ng Katipunan",
+        "Hindi, dahil hindi ito kinilala noon"
+      ],
+      "answerIndex": 0,
+      "explain": "Ito pa rin ang Araw ng Kalayaan ng Pilipinas hanggang ngayon.",
+      "objective": "Malaman ang nangyari sa pagitan ng 1897 at 1898"
+    }
+  ],
+  "teacher": {
+    "summary": "Linggo 7 ng Filipino: ang mga pangungusap na walang paksa. Ang pangunahing balakid ay ang palagay na kulang ang ganitong pangungusap, kaya sinasabi ng aralin nang tuwiran na buo at tama ito. Ang pagkakaiba ng walang paksa at ng paksang hindi binabanggit ay ang pinakamadalas na pagkakamali, kaya may hiwalay na kard at pagsusuri para dito. IMPORTANTE PARA SA GURO O MAGULANG: walang buod ng Kapitulo 10 dito dahil hindi pa nakikita ang partikular na edisyon ng Supremo. Ang ikalawang kalahati ay tumpak na kasaysayan tungkol sa Mayo at Hunyo 1898 at sa Kasunduan sa Paris.",
+    "discussion": [
+      "Pasubukan siyang maglagay ng paksa sa \"Umuulan.\" Ang hirap noon ang aral mismo.",
+      "Itanong kung saan nagmumula ang \"ikaw\" sa \"Tumakbo!\"",
+      "Pahanapin siya ng tatlong pangungusap na walang paksa sa isang araw ng pakikipag-usap.",
+      "Itanong kung bakit totoo at hindi kinilala ang deklarasyon noong 1898."
+    ],
+    "extension": "Pasulatin siya ng maikling ulat ng panahon na may apat na pangungusap na walang paksa. Doon talaga ginagamit ang ayos na ito.",
+    "misconceptions": [
+      "\"Kulang ang pangungusap kapag walang paksa.\" Buo ito at tama.",
+      "\"Ang langit ang paksa ng umuulan.\" Mali ang \"Umuulan ang langit\".",
+      "\"Walang paksa ang lahat ng pautos.\" May paksa ang pautos: ikaw, na hindi lang binabanggit.",
+      "\"Kinilala agad ng mundo ang kalayaan noong 1898.\" Ibinenta ang mga isla anim na buwan pagkatapos."
+    ]
+  }
+}

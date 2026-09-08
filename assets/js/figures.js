@@ -4037,6 +4037,154 @@ function courageStands() {
     });
 }
 
+
+/* ---- Filipino weeks 6-10 --------------------------------------------- */
+
+/* Linggo 6: uri ng pangungusap ayon sa gamit. */
+function uriPangungusap() {
+    return listPicker({
+        id: 'up6', label: 'APAT NA URI AYON SA GAMIT',
+        alt: 'Apat na uri ng pangungusap ayon sa gamit, may halimbawa at bantas',
+        capA: 'Gamit: ', capB: 'Halimbawa: ',
+        rows: [
+            { btn: '1', short: 'Pasalaysay',
+              a: 'Nagsasabi ng impormasyon. Tuldok ang bantas',
+              b: 'Naglalaro ng basketbol ang mga bata.' },
+            { btn: '2', short: 'Patanong',
+              a: 'Nagtatanong. Tandang pananong ang bantas',
+              b: 'Saan kayo naglaro kahapon?' },
+            { btn: '3', short: 'Pautos',
+              a: 'Nag-uutos. Malakas ang tono',
+              b: 'Ibalik mo ang bola sa kahon.' },
+            { btn: '4', short: 'Pakiusap',
+              a: 'Humihiling nang magalang. May "paki" o "nga"',
+              b: 'Pakiabot nga ng tubig.' },
+            { btn: '5', short: 'Padamdam',
+              a: 'Nagpapahayag ng matinding damdamin',
+              b: 'Ang ganda ng laro!' },
+            { btn: '6', short: 'Bantas',
+              a: 'Ang bantas ang unang senyas',
+              b: 'Tuldok, pananong, o padamdam. Tingnan ang dulo.' }
+        ]
+    });
+}
+
+/* Linggo 7: pangungusap na walang paksa. */
+function walangPaksa() {
+    return listPicker({
+        id: 'wp', label: 'PANGUNGUSAP NA WALANG PAKSA',
+        alt: 'Anim na uri ng pangungusap na walang paksa na may halimbawa',
+        capA: 'Uri: ', capB: 'Halimbawa: ',
+        rows: [
+            { btn: '1', short: 'Panahon',
+              a: 'Tungkol sa lagay ng panahon',
+              b: 'Umuulan nang malakas.' },
+            { btn: '2', short: 'Kalikasan',
+              a: 'Pangyayari sa kalikasan',
+              b: 'Lumindol kaninang umaga.' },
+            { btn: '3', short: 'Karamdaman',
+              a: 'Damdaming pisikal ng katawan',
+              b: 'Masakit ang ulo.' },
+            { btn: '4', short: 'Oras',
+              a: 'Tungkol sa oras o panahon ng araw',
+              b: 'Tanghali na pala.' },
+            { btn: '5', short: 'Pautos',
+              a: 'Ang inuutusan ay hindi binabanggit',
+              b: 'Tumahimik!' },
+            { btn: '6', short: 'Padamdam',
+              a: 'Bulalas na walang tinutukoy na paksa',
+              b: 'Aray!' }
+        ]
+    });
+}
+
+/* Linggo 8: uri ng pangngalan. */
+function uriPangngalan() {
+    return listPicker({
+        id: 'upn', label: 'URI NG PANGNGALAN',
+        alt: 'Anim na uri ng pangngalan na may kahulugan at halimbawa',
+        capA: 'Ibig sabihin: ', capB: 'Halimbawa: ',
+        rows: [
+            { btn: '1', short: 'Pambalana',
+              a: 'Pangkalahatan. Maliit na titik',
+              b: 'bayani, lungsod, aklat, bata.' },
+            { btn: '2', short: 'Pantangi',
+              a: 'Tiyak na ngalan. Malaking titik',
+              b: 'Bonifacio, Maynila, Supremo.' },
+            { btn: '3', short: 'Tahas',
+              a: 'Nahahawakan o nakikita',
+              b: 'mesa, bato, guwantes, tubig.' },
+            { btn: '4', short: 'Basal',
+              a: 'Hindi nahahawakan. Ideya o damdamin',
+              b: 'katapangan, pag-asa, kalayaan.' },
+            { btn: '5', short: 'Palansak',
+              a: 'Isang salita para sa isang pangkat',
+              b: 'kawan, pulutong, samahan, kaban.' },
+            { btn: '6', short: 'Suriin',
+              a: 'Isang pangngalan ay maaaring maraming uri',
+              b: '"Katipunan" ay pantangi at palansak.' }
+        ]
+    });
+}
+
+/* Linggo 9: kasarian ng pangngalan. */
+function kasarianPangngalan() {
+    return listPicker({
+        id: 'kpn', label: 'APAT NA KASARIAN',
+        alt: 'Apat na kasarian ng pangngalan na may kahulugan at halimbawa',
+        capA: 'Ibig sabihin: ', capB: 'Halimbawa: ',
+        rows: [
+            { btn: '1', short: 'Panlalaki',
+              a: 'Tumutukoy sa lalaki',
+              b: 'ama, kapatid na lalaki, hari, tandang.' },
+            { btn: '2', short: 'Pambabae',
+              a: 'Tumutukoy sa babae',
+              b: 'ina, reyna, tiya, inahin.' },
+            { btn: '3', short: 'Di-tiyak',
+              a: 'Maaaring lalaki o babae. Hindi tiyak',
+              b: 'guro, doktor, bata, kaibigan.' },
+            { btn: '4', short: 'Walang kasarian',
+              a: 'Bagay na walang buhay o kasarian',
+              b: 'bato, mesa, aklat, bahay.' },
+            { btn: '5', short: 'Mag-ingat',
+              a: 'Ang di-tiyak ang madalas na mali',
+              b: '"Guro" ay di-tiyak, hindi pambabae.' },
+            { btn: '6', short: 'Panlapi',
+              a: 'May hiram na salitang may kasarian',
+              b: 'aktor at aktres, mula sa Espanyol.' }
+        ]
+    });
+}
+
+/* Linggo 10: kailanan ng pangngalan. */
+function kailananPangngalan() {
+    return listPicker({
+        id: 'kln', label: 'TATLONG KAILANAN',
+        alt: 'Tatlong kailanan ng pangngalan na may panuntunan at halimbawa',
+        capA: 'Ibig sabihin: ', capB: 'Halimbawa: ',
+        rows: [
+            { btn: '1', short: 'Isahan',
+              a: 'Iisa lamang',
+              b: 'aklat, bata, bahay, bayani.' },
+            { btn: '2', short: 'Dalawahan',
+              a: 'Tiyak na dalawa. Inuulit ang unang pantig',
+              b: 'magkapatid, magkaibigan, magkabila.' },
+            { btn: '3', short: 'Maramihan',
+              a: 'Tatlo o higit pa. Ginagamitan ng "mga"',
+              b: 'mga aklat, mga bata, mga bayani.' },
+            { btn: '4', short: 'Ang "mga"',
+              a: 'Ito ang pinakakaraniwang senyas',
+              b: 'Isang salita lamang ang nagpapalit ng kailanan.' },
+            { btn: '5', short: 'Pag-uulit',
+              a: 'May pag-uulit din ng salita',
+              b: 'bahay-bahay, araw-araw. Iba ang kahulugan.' },
+            { btn: '6', short: 'Mag-ingat',
+              a: 'Huwag doblehin ang senyas',
+              b: 'Mali ang "mga aklat-aklat". Pumili ng isa.' }
+        ]
+    });
+}
+
 export const FIGURES = {
     crumpleZone,
     muscleTypes,
@@ -4116,7 +4264,12 @@ export const FIGURES = {
     perseverChain,
     honestyCases,
     serviceActs,
-    courageStands
+    courageStands,
+    uriPangungusap,
+    walangPaksa,
+    uriPangngalan,
+    kasarianPangngalan,
+    kailananPangngalan
 };
 
 

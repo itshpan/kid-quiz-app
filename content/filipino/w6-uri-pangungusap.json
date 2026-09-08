@@ -1,0 +1,333 @@
+{
+  "id": "fil-w6",
+  "courseId": "filipino",
+  "courseTitle": "Filipino",
+  "week": 6,
+  "title": "Uri ng Pangungusap ayon sa Gamit",
+  "subtitle": "Tingnan mo ang dulo. Halos palaging nandoon na ang sagot.",
+  "estMinutes": 18,
+  "objectives": [
+    "Matukoy ang pasalaysay, patanong, pautos, pakiusap at padamdam",
+    "Magamit ang tamang bantas sa bawat uri",
+    "Maiba ang pautos sa pakiusap",
+    "Makabuo ng pangungusap sa bawat uri",
+    "Malaman kung ano ang nangyari sa Katipunan pagkamatay ni Bonifacio"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "❓",
+      "eyebrow": "Bahagi 1 · Ang gamit",
+      "title": "Hindi ang haba ang tinatanong, kundi ang layunin",
+      "text": "Anumang haba ng pangungusap, iisa ang tanong: ano ang ginagawa nito? Nagsasabi, nagtatanong, nag-uutos o bumubulalas."
+    },
+    {
+      "kind": "figure",
+      "figure": "uriPangungusap",
+      "eyebrow": "Anim na pindutan",
+      "title": "Ang uri, ang gamit at ang bantas",
+      "text": "Pindutin ang bawat isa. May tanong sa pagsusulit mula sa lahat ng uri."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang bantas",
+      "title": "Ang dulo ang unang senyas",
+      "text": "Bago mo pa basahin ang buong pangungusap, sinasabi na ng bantas ang malaking bahagi ng sagot.",
+      "points": [
+        "**Tuldok (.)** — pasalaysay o pautos.",
+        "**Tandang pananong (?)** — patanong.",
+        "**Tandang padamdam (!)** — padamdam.",
+        "**Kung tuldok**, saka mo tingnan ang tono."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Anong uri ito: \"Saan galing ang bola?\"",
+        "options": ["Patanong", "Pasalaysay", "Pautos", "Padamdam"],
+        "answerIndex": 0,
+        "explain": "Nagtatanong ito at may tandang pananong sa dulo. Iyon ang dalawang senyas."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Pautos at pakiusap",
+      "title": "Magkapareho ang layunin, magkaiba ang paraan",
+      "text": "Pareho silang humihingi ng gawain. Ang pagkakaiba ay nasa tono at sa maliliit na salita.",
+      "points": [
+        "**Pautos:** \"Isara mo ang pinto.\"",
+        "**Pakiusap:** \"Pakisara nga ang pinto.\"",
+        "**Ang \"paki-\" at \"nga\"** ang nagpapalambot.",
+        "**Magalang ang pakiusap.** Iyon ang pagkakaiba."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Sa laro",
+      "title": "Iba ang tawag sa laro kaysa sa pakiusap",
+      "text": "Sa isang laro, may pagkakaiba ang \"Bantayan mo ang kaliwa\" at \"Pakibantay nga ang kaliwa.\" Pareho ang hiling.",
+      "points": [
+        "**Utos** kapag mabilis at kailangan agad.",
+        "**Pakiusap** kapag may panahon.",
+        "**Pareho ang gustong mangyari.**",
+        "**Iba ang pakiramdam ng nakarinig.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Alin ang pakiusap?",
+        "options": [
+          "Pakikuha nga ng tubig.",
+          "Kumuha ka ng tubig.",
+          "Kumuha siya ng tubig.",
+          "Ang init ng tubig!"
+        ],
+        "answerIndex": 0,
+        "explain": "Ang \"paki-\" at \"nga\" ang senyas ng pakiusap. Magalang ang tono."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Magandang tigilan muna",
+      "text": "Sa Bahagi 2 ay ang kasaysayan pagkatapos ni Bonifacio. Bumalik ka kapag handa ka na."
+    },
+    {
+      "kind": "open",
+      "icon": "📖",
+      "eyebrow": "Bahagi 2 · Kasaysayan",
+      "title": "Ano ang nangyari pagkamatay ni Bonifacio?",
+      "text": "Hindi natapos ang himagsikan noong Mayo 1897. Nagpatuloy ito nang apat pang taon sa ilalim ng ibang pamunuan."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Pagkatapos ng Tejeros",
+      "title": "Si Aguinaldo na ang pinuno",
+      "text": "Napunta kay Emilio Aguinaldo ang pamumuno. Nagpatuloy ang laban, ngunit nagbago ang hugis nito.",
+      "points": [
+        "**Nabuo ang Republika ng Biak-na-Bato**, Nobyembre 1897.",
+        "**May sariling konstitusyon** ito.",
+        "**Malakas pa rin ang Espanyol.**",
+        "**Naubos ang bala at pagkain** ng mga Pilipino."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Sa kuwento",
+      "title": "Hindi nagtatapos ang kuwento kapag namatay ang bida",
+      "text": "May mga nobelang nagpapatuloy pagkamatay ng pangunahing tauhan. Nagbabago ang tanong: hindi na ano ang gagawin niya, kundi ano ang naiwan niya.",
+      "points": [
+        "**Bagong tanong**, hindi bagong kuwento.",
+        "**Ano ang natira** sa mga naiwan?",
+        "**Sino ang nagpatuloy**, at paano?",
+        "**Iyan ang basahin mo** sa susunod na kabanata."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Disyembre 1897",
+      "title": "Ang Kasunduan sa Biak-na-Bato",
+      "text": "Pumirma ng kasunduan sina Aguinaldo at ang Espanyol. Titigil ang laban at aalis ang mga pinuno patungong Hong Kong.",
+      "points": [
+        "**May bayad na pera** sa kasunduan.",
+        "**Ipinatapon sila** sa Hong Kong.",
+        "**Hindi tumigil ang laban** sa ibang lalawigan.",
+        "**Panandalian lamang ito.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Ano ang nangyari sa Kasunduan sa Biak-na-Bato?",
+        "options": [
+          "Umalis patungong Hong Kong ang mga pinuno ng himagsikan",
+          "Nagkamit agad ng kalayaan ang Pilipinas",
+          "Bumalik ang Katipunan kay Bonifacio",
+          "Umalis ang mga Espanyol sa bansa"
+        ],
+        "answerIndex": 0,
+        "explain": "Disyembre 1897. May bayad, at ipinatapon sila sa Hong Kong. Panandalian lamang ang katahimikan."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Sa boksing",
+      "title": "May kaibahan ang pahinga sa pagsuko",
+      "text": "Hindi lahat ng pagtigil ay katapusan. Minsan, ang pagtigil ay paghahanda para sa susunod na round.",
+      "points": [
+        "**Hindi nawala ang himagsikan.**",
+        "**Nagbago lamang ang lugar at panahon.**",
+        "**Bumalik si Aguinaldo** noong Mayo 1898.",
+        "**Tumagal ang himagsikan** hanggang 1902."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Natapos ang himagsikan nang mamatay si Bonifacio noong Mayo 1897.",
+        "answer": false,
+        "explain": "Hindi. Nagpatuloy ito hanggang 1902, sa ilalim ni Aguinaldo at ng mga sumunod sa kanya."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Mga salitang lalabas sa pagsusulit",
+      "terms": [
+        { "term": "pasalaysay", "def": "Nagsasabi ng impormasyon. Tuldok ang bantas." },
+        { "term": "patanong", "def": "Nagtatanong. Tandang pananong ang bantas." },
+        { "term": "pautos", "def": "Nag-uutos. Malakas ang tono." },
+        { "term": "pakiusap", "def": "Magalang na hiling. May \"paki-\" o \"nga\"." },
+        { "term": "padamdam", "def": "Bulalas ng matinding damdamin. Tandang padamdam." },
+        { "term": "Biak-na-Bato", "def": "Kasunduan noong Disyembre 1897. Ipinatapon ang mga pinuno sa Hong Kong." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Balik-aral",
+      "title": "Ang apat na mahalaga",
+      "points": [
+        "**Tingnan mo ang bantas** bago ang iba.",
+        "**Pautos at pakiusap:** \"paki-\" at \"nga\".",
+        "**Si Aguinaldo** ang sumunod na pinuno.",
+        "**Biak-na-Bato, Disyembre 1897.**"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Anong uri ito: \"Naglalakad ang mga bata papuntang paaralan.\"",
+      "options": ["Pasalaysay", "Patanong", "Pautos", "Padamdam"],
+      "answerIndex": 0,
+      "explain": "Nagsasabi ito ng impormasyon at may tuldok sa dulo.",
+      "objective": "Matukoy ang pasalaysay, patanong, pautos, pakiusap at padamdam"
+    },
+    {
+      "type": "multiple",
+      "text": "Anong bantas ang ginagamit sa patanong?",
+      "options": ["Tandang pananong", "Tuldok", "Kuwit", "Tutuldok"],
+      "answerIndex": 0,
+      "explain": "Ang bantas sa dulo ang unang senyas ng uri ng pangungusap.",
+      "objective": "Magamit ang tamang bantas sa bawat uri"
+    },
+    {
+      "type": "multiple",
+      "text": "Anong uri ito: \"Ang ganda ng laro kagabi!\"",
+      "options": ["Padamdam", "Pasalaysay", "Pautos", "Pakiusap"],
+      "answerIndex": 0,
+      "explain": "Nagpapahayag ito ng matinding damdamin, at tandang padamdam ang bantas.",
+      "objective": "Matukoy ang pasalaysay, patanong, pautos, pakiusap at padamdam"
+    },
+    {
+      "type": "multiple",
+      "text": "Alin sa mga ito ang pautos?",
+      "options": [
+        "Ayusin mo ang kwarto mo.",
+        "Pakiayos nga ang kwarto.",
+        "Inayos niya ang kwarto.",
+        "Ang linis ng kwarto!"
+      ],
+      "answerIndex": 0,
+      "explain": "Direktang utos ito, walang \"paki-\" at walang \"nga\".",
+      "objective": "Maiba ang pautos sa pakiusap"
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang senyas ng pakiusap?",
+      "options": [
+        "Ang \"paki-\" at ang \"nga\"",
+        "Ang tandang padamdam",
+        "Ang malaking titik",
+        "Ang haba ng pangungusap"
+      ],
+      "answerIndex": 0,
+      "explain": "Pinapalambot nila ang hiling. Magalang ang pakiusap; direkta ang pautos.",
+      "objective": "Maiba ang pautos sa pakiusap"
+    },
+    {
+      "type": "truefalse",
+      "text": "Magkaiba ang layunin ng pautos at ng pakiusap.",
+      "answer": false,
+      "explain": "Pareho ang layunin: may gustong ipagawa. Ang tono at ang paggalang ang magkaiba.",
+      "objective": "Maiba ang pautos sa pakiusap"
+    },
+    {
+      "type": "multiple",
+      "text": "Anong uri ito: \"Pakisara nga ang bintana.\"",
+      "options": ["Pakiusap", "Pautos", "Patanong", "Pasalaysay"],
+      "answerIndex": 0,
+      "explain": "May \"paki-\" at may \"nga\". Magalang na hiling ito.",
+      "objective": "Makabuo ng pangungusap sa bawat uri"
+    },
+    {
+      "type": "multiple",
+      "text": "Sino ang namuno sa himagsikan pagkamatay ni Bonifacio?",
+      "options": ["Emilio Aguinaldo", "Apolinario Mabini", "Antonio Luna", "Jose Rizal"],
+      "answerIndex": 0,
+      "explain": "Napunta sa kanya ang pamumuno pagkatapos ng Tejeros.",
+      "objective": "Malaman kung ano ang nangyari sa Katipunan pagkamatay ni Bonifacio"
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang Republika ng Biak-na-Bato?",
+      "options": [
+        "Isang pamahalaang itinatag noong Nobyembre 1897 na may konstitusyon",
+        "Isang bayan sa Cavite",
+        "Ang unang paaralan ng Katipunan",
+        "Ang bahay ni Bonifacio"
+      ],
+      "answerIndex": 0,
+      "explain": "May sarili itong konstitusyon, ngunit panandalian lamang ito.",
+      "objective": "Malaman kung ano ang nangyari sa Katipunan pagkamatay ni Bonifacio"
+    },
+    {
+      "type": "multiple",
+      "text": "Saan ipinatapon ang mga pinuno matapos ang Kasunduan sa Biak-na-Bato?",
+      "options": ["Hong Kong", "Espanya", "Mindanao", "Amerika"],
+      "answerIndex": 0,
+      "explain": "Disyembre 1897, at may kasamang bayad na pera sa kasunduan.",
+      "objective": "Malaman kung ano ang nangyari sa Katipunan pagkamatay ni Bonifacio"
+    },
+    {
+      "type": "truefalse",
+      "text": "Tuluyang tumigil ang laban matapos ang Kasunduan sa Biak-na-Bato.",
+      "answer": false,
+      "explain": "Hindi. Nagpatuloy ang laban sa ilang lalawigan, at bumalik si Aguinaldo noong Mayo 1898.",
+      "objective": "Malaman kung ano ang nangyari sa Katipunan pagkamatay ni Bonifacio"
+    },
+    {
+      "type": "multiple",
+      "text": "Hanggang kailan tumagal ang mga labanan ng himagsikan at ng digmaan pagkatapos nito?",
+      "options": ["Hanggang 1902", "Hanggang 1897", "Hanggang 1898", "Hanggang 1946"],
+      "answerIndex": 0,
+      "explain": "Sumunod ang Digmaang Pilipino-Amerikano, na ipinahayag na tapos noong Hulyo 1902.",
+      "objective": "Malaman kung ano ang nangyari sa Katipunan pagkamatay ni Bonifacio"
+    }
+  ],
+  "teacher": {
+    "summary": "Linggo 6 ng Filipino: ang uri ng pangungusap ayon sa gamit. Ang pinakamabilis na paraan ay ang bantas sa dulo, at doon nagsisimula ang aralin. Ang pinakamadalas na pagkakamali ay ang pagkakaiba ng pautos at pakiusap, kaya may hiwalay na kard at dalawang tanong para dito. IMPORTANTE PARA SA GURO O MAGULANG: walang buod ng Kapitulo 9 dito dahil hindi pa nakikita ang partikular na edisyon ng Supremo. Ang ikalawang kalahati ay tumpak na kasaysayan tungkol sa pamumuno ni Aguinaldo at sa Kasunduan sa Biak-na-Bato, na kailangan niya anuman ang nilalaman ng kabanata.",
+    "discussion": [
+      "Pabasahin siya ng pangungusap nang malakas. Madalas, ang tono ang nagsasabi ng uri bago pa ang bantas.",
+      "Itanong kung ano ang pagkakaiba ng \"Isara mo\" at \"Pakisara nga\". Pareho ang hiling, iba ang paggalang.",
+      "Pagawa ng limang pangungusap tungkol sa isang larawan, isa sa bawat uri.",
+      "Itanong kung bakit hindi natapos ang himagsikan noong namatay si Bonifacio."
+    ],
+    "extension": "Pasulatin siya ng maikling usapan na may lima o anim na linya, at markahan ang uri ng bawat pangungusap sa gilid.",
+    "misconceptions": [
+      "\"Ang haba ang nagsasabi ng uri.\" Ang gamit at ang bantas ang nagsasabi, hindi ang haba.",
+      "\"Iisa lang ang pautos at pakiusap.\" Pareho ang layunin, ngunit iba ang tono at ang paggalang.",
+      "\"Lahat ng may tandang padamdam ay padamdam.\" May pautos ding may tandang padamdam. Tingnan ang layunin.",
+      "\"Natapos ang himagsikan noong 1897.\" Nagpatuloy ito hanggang 1902."
+    ]
+  }
+}
