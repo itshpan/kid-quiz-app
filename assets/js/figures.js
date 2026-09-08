@@ -1319,6 +1319,84 @@ function phMap() {
     };
 }
 
+/* ==========================================================================
+   SOCIAL STUDIES — the road to 1872.
+   A causal chain, not a list of dates. The whole point of the topic is that
+   each event made the next one possible, and a timeline shows that in a way
+   four paragraphs cannot. Tapping a year is the only motion here.
+   ========================================================================== */
+function roadTo1872() {
+    const STOPS = [
+        { key: '1834', year: '1834',     tag: 'ports open',
+          head: 'Manila opens to world trade',
+          body: 'Filipino families grow rich selling to the world.' },
+        { key: '1863', year: '1863',     tag: 'schools',
+          head: 'Free primary school, taught in Spanish',
+          body: 'More Filipinos can read what European liberals write.' },
+        { key: '1869', year: '1869',     tag: 'the shortcut',
+          head: 'Suez Canal opens · de la Torre arrives',
+          body: 'Spain is now a month away, not three.' },
+        { key: '1872a', year: 'Jan 1872', tag: 'mutiny',
+          head: 'The Cavite Mutiny',
+          body: 'Arsenal workers revolt over a lost exemption.' },
+        { key: '1872b', year: 'Feb 1872', tag: 'GomBurZa',
+          head: 'Three priests executed at Bagumbayan',
+          body: 'No real evidence was ever shown against them.' }
+    ];
+    const X = [42, 136, 230, 324, 418];
+
+    return {
+        svg: `
+<svg viewBox="0 0 460 214" role="img" aria-labelledby="r72T">
+  <title id="r72T">A timeline from 1834 to February 1872, where each event makes the next one possible</title>
+  <text class="fig-label" x="20" y="26">THE ROAD TO 1872</text>
+  <path class="fig-chain" d="M42 112 L418 112"/>
+  <g id="r72Nodes" class="fig-node">
+    ${X.map((x, i) => `<circle data-i="${i}" cx="${x}" cy="112" r="6"/>`).join('')}
+  </g>
+  <g class="fig-step">
+    ${STOPS.map((s, i) => `<text x="${X[i]}" y="96" text-anchor="middle">${s.year}</text>`).join('')}
+  </g>
+  <g class="fig-note">
+    ${STOPS.map((s, i) => `<text x="${X[i]}" y="136" text-anchor="middle">${s.tag}</text>`).join('')}
+  </g>
+  <text class="fig-note fig-note-key" id="r72Head" x="20" y="178">&#160;</text>
+  <text class="fig-note"              id="r72Body" x="20" y="198">&#160;</text>
+</svg>`,
+
+        bind(root) {
+            const bar = document.createElement('div');
+            bar.className = 'fig-switch';
+            bar.innerHTML = STOPS.map((s, i) =>
+                `<button data-i="${i}" aria-pressed="${i === 0}">${s.year}</button>`).join('');
+            root.appendChild(bar);
+
+            const head = root.querySelector('#r72Head');
+            const body = root.querySelector('#r72Body');
+            const dots = [...root.querySelectorAll('#r72Nodes circle')];
+
+            const show = i => {
+                head.textContent = STOPS[i].head;
+                body.textContent = STOPS[i].body;
+                dots.forEach((d, j) => d.setAttribute('r', j === i ? 11 : 6));
+                bar.querySelectorAll('button').forEach((b, j) =>
+                    b.setAttribute('aria-pressed', String(j === i)));
+            };
+
+            bar.addEventListener('click', e => {
+                const b = e.target.closest('button');
+                if (b) show(Number(b.dataset.i));
+            });
+            root.querySelector('#r72Nodes').addEventListener('click', e => {
+                const c = e.target.closest('circle');
+                if (c) show(Number(c.dataset.i));
+            });
+
+            show(0);
+        }
+    };
+}
+
 export const FIGURES = {
     crumpleZone,
     muscleTypes,
@@ -1337,7 +1415,8 @@ export const FIGURES = {
     transformLab,
     decimalColumns,
     possessiveRule,
-    phMap
+    phMap,
+    roadTo1872
 };
 
 

@@ -5,22 +5,15 @@ pages_build_output_dir = "."
 # ---------------------------------------------------------------------------
 # Progress syncing (Cloudflare D1).
 #
-# Commented out until the database exists, because Pages refuses to deploy a
-# Function with an unresolvable binding — it fails the whole deploy rather
-# than degrading. With this off, /api/* returns "not-configured" and the app
-# falls back to local storage cleanly.
+# The binding lives here rather than in the dashboard: this project deploys
+# with `wrangler pages deploy`, and once a wrangler.toml is present Cloudflare
+# manages the project's bindings from it and greys out the dashboard control.
 #
-# To switch it on:
-#   1. Give the API token  Account · D1 · Edit  (dash.cloudflare.com → My
-#      Profile → API Tokens → edit the token used here)
-#   2. npm run db:create          — prints the database_id
-#   3. paste that id below and uncomment these three lines
-#   4. npm run db:init            — creates the tables
-#   5. npm run db:class -- "Ezra Grade 6" | npx wrangler d1 execute \
-#        learning-lab --remote --file=-      — prints the two codes
-#   6. npm run deploy
+# Database and schema were created in the D1 console; db/setup.sql is the
+# copy of record. If the binding is ever removed, /api/* returns
+# "not-configured" and the app falls back to local storage cleanly.
 # ---------------------------------------------------------------------------
-# [[d1_databases]]
-# binding = "DB"
-# database_name = "learning-lab"
-# database_id = "PASTE_ID_HERE"
+[[d1_databases]]
+binding = "DB"
+database_name = "learning-lab"
+database_id = "a874fd40-c274-43fc-82f4-2b58baa0bd5a"

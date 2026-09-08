@@ -1,0 +1,486 @@
+{
+  "id": "ss-w2",
+  "courseId": "social-studies",
+  "courseTitle": "Social Studies",
+  "week": 2,
+  "title": "The Emergence of Filipino Nationalism",
+  "subtitle": "How thousands of islands started thinking of themselves as one country.",
+  "estMinutes": 20,
+  "objectives": [
+    "Explain what nationalism means and how a nation differs from a state",
+    "Identify the economic and educational causes of Filipino nationalism",
+    "Explain how the opening of the Suez Canal sped up the spread of ideas",
+    "Describe the colonial social classes and the place of the indio",
+    "Explain the secularisation controversy and the role of Father Jose Burgos",
+    "Describe the Cavite Mutiny of 1872 and the execution of GomBurZa"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🇵🇭",
+      "eyebrow": "Part 1 · Becoming one country",
+      "title": "Nobody is born knowing they are Filipino",
+      "text": "In 1800 these islands held dozens of peoples speaking different languages. Nothing made them one nation yet. This week is how that changed."
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "You have already felt this",
+      "text": "When Pacquiao fought, police reported the streets going quiet. Strangers with nothing else in common became one thing for an hour.",
+      "points": [
+        "**That feeling has a name.** It is nationalism.",
+        "**It is loyalty to your own nation**, not to a ruler.",
+        "**In 1800 nobody here had felt it yet.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The word",
+      "title": "What nationalism actually means",
+      "text": "Nationalism is the belief that you belong to a nation, and that the nation should govern itself.",
+      "points": [
+        "**A nation** is a people who share a history and an identity.",
+        "**A state** is the government that rules a territory.",
+        "**Spain ruled the state.** Filipinos began to feel like a nation.",
+        "**Nationalism grows when those two stop matching.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Death Stranding is a game about this problem",
+      "text": "The whole game is linking isolated places into one network. Before you connect them they are separate shelters. Afterwards they are a country.",
+      "points": [
+        "**7,641 islands, dozens of languages** — separate shelters.",
+        "**Ships, schools and newspapers** were the connection.",
+        "**A nation is a network** before it is ever a flag."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What does nationalism mean?",
+        "options": [
+          "Believing your people are a nation that should govern itself",
+          "Believing your country should have the strongest army",
+          "Believing every country should be ruled by a king"
+        ],
+        "answerIndex": 0,
+        "explain": "It is the belief that you belong to a nation, and that the nation should govern itself."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Cause 1",
+      "title": "The ports opened, and money changed everything",
+      "text": "Manila was opened to world trade in 1834. Sugar, hemp and tobacco poured out, and a new kind of Filipino got rich.",
+      "points": [
+        "**Before that**, Spain controlled who was allowed to trade here.",
+        "**After 1834** Filipino farmers and traders sold to the world.",
+        "**That money bought something dangerous to Spain:** education."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Cause 2",
+      "title": "The ilustrados — the enlightened ones",
+      "text": "Wealthy Filipino families sent their sons to university in Manila, then in Europe. They came home with law degrees and dangerous ideas.",
+      "points": [
+        "***Ilustrado*** is Spanish for *enlightened*.",
+        "**The 1863 education decree** made primary school free and compulsory.",
+        "**More Filipinos could read Spanish** — and read what liberals wrote.",
+        "**Spain had trained its own opposition.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚢",
+      "eyebrow": "Transport mode",
+      "title": "A shortcut that carried ideas",
+      "text": "The Suez Canal opened in 1869. It cut a new route through Egypt, and Spain suddenly got much closer.",
+      "points": [
+        "**Roughly three months by sea became roughly one.**",
+        "**Students, newspapers and books** moved at the new speed.",
+        "**Change the route and you change who arrives.**",
+        "**Same reason a new rail line decides which towns matter.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why did the Suez Canal matter to Filipino nationalism?",
+        "options": [
+          "It made travel and news between Europe and the Philippines far faster",
+          "It let Spain send soldiers overland instead of by sea",
+          "It gave the Philippines its own trade route to America"
+        ],
+        "answerIndex": 0,
+        "explain": "It cut the journey from about three months to about one. Liberal ideas arrived far faster."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Cause 3",
+      "title": "Educated, and still called indio",
+      "text": "A Filipino could earn a law degree and still be treated as lesser. Spaniards used *indio* for anyone born here.",
+      "points": [
+        "**Peninsulares** — Spaniards born in Spain. Top of everything.",
+        "**Insulares** — Spaniards born here. A step below them.",
+        "**Indios** — native Filipinos. Bottom, whatever they achieved.",
+        "**Nothing sharpens an identity** like being told it is lesser."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "They took the word",
+      "text": "*Filipino* first meant a Spaniard born in the islands. The ilustrados took the word and used it for everyone born here.",
+      "points": [
+        "**A word can be captured** and turned around.",
+        "**Rizal and his friends called themselves Filipinos** deliberately.",
+        "**Naming yourself** is the oldest move in storytelling."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Who did the word Filipino originally refer to?",
+        "options": [
+          "Spaniards born in the Philippines",
+          "Native Filipinos only",
+          "Spanish priests sent out from Spain"
+        ],
+        "answerIndex": 0,
+        "explain": "Spaniards born in the islands. The ilustrados claimed the word for everyone born here instead."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Causes done. Part 2 is 1872 — one year, two events, and the moment this stopped being an argument. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "🕯️",
+      "eyebrow": "Part 2 · 1872",
+      "title": "The year that made it personal",
+      "text": "Ideas move slowly. Then something happens that people refuse to forget, and it moves fast. For Filipino nationalism, that year was 1872."
+    },
+    {
+      "kind": "figure",
+      "figure": "roadTo1872",
+      "eyebrow": "The chain",
+      "title": "Tap through the road to 1872",
+      "text": "Five events, in order. Each one made the next one possible."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Two years of hope",
+      "title": "One fair governor, then the opposite",
+      "text": "Governor-General Carlos Maria de la Torre arrived in 1869 and treated Filipinos as equals. He lasted two years.",
+      "points": [
+        "**De la Torre** ended flogging and welcomed Filipinos to his palace.",
+        "**Rafael de Izquierdo** replaced him in 1871 and undid all of it.",
+        "**He promised to rule** with a crucifix in one hand and a sword in the other.",
+        "**Losing a freedom** angers people more than never having had it."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What changed when Izquierdo replaced de la Torre in 1871?",
+        "options": [
+          "The liberal reforms were reversed and rule became harsher",
+          "Filipinos were given seats in the Spanish parliament",
+          "The Spanish friars lost control of the parishes"
+        ],
+        "answerIndex": 0,
+        "explain": "He reversed the reforms. Losing freedoms you have already tasted is what pushed people over."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The church fight",
+      "title": "Who gets to run a parish?",
+      "text": "Spanish friars held the wealthy parishes. Filipino priests were trained and ordained, then handed nothing. They asked, and were refused.",
+      "points": [
+        "**Regular priests** belong to Spanish religious orders — the friars.",
+        "**Secular priests** answer to the local bishop. Many were Filipino.",
+        "**Father Jose Burgos** led the campaign to hand the parishes over.",
+        "**The friars argued Filipinos were unfit.** That was the real fight."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "20 January 1872",
+      "title": "The Cavite Mutiny",
+      "text": "Izquierdo cancelled the arsenal workers' exemption from tribute and forced labour. About two hundred soldiers and workers at Fort San Felipe revolted.",
+      "points": [
+        "**It was over in two days.**",
+        "**A pay dispute**, not a revolution. That is the point.",
+        "**Spain called it a nationwide plot** anyway.",
+        "**That gave them the excuse** to arrest the priests."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "17 February 1872",
+      "title": "GomBurZa",
+      "text": "Three priests were executed by garrote at Bagumbayan. Mariano Gomez, Jose Burgos and Jacinto Zamora had no part in the mutiny.",
+      "points": [
+        "**Gomez was in his seventies.** The other two were in their thirties.",
+        "**No real evidence** was ever produced against them.",
+        "**Thousands watched.** It was meant to be watched.",
+        "**Spain meant it as a warning.** It worked as a beginning."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "The three priests executed in 1872 were proven to have led the Cavite Mutiny.",
+        "answer": false,
+        "explain": "False. No real evidence was shown. A pay dispute was used as the excuse to remove them."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "A writer made sure nobody forgot",
+      "text": "Rizal was a boy of ten when it happened. Nineteen years later he dedicated *El Filibusterismo* to the three priests.",
+      "points": [
+        "**He wrote that their guilt was never made clear.**",
+        "**A dedication is a small thing** that outlived an empire.",
+        "**Naming the dead** is how you keep them arguing."
+      ]
+    },
+    {
+      "kind": "fact",
+      "eyebrow": "One line to keep",
+      "text": "Spain wanted the executions to end the argument. Instead they handed Filipinos three names, one date, and a reason to stop asking politely."
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "nationalism",
+          "def": "Loyalty to your own nation, and the belief that it should govern itself."
+        },
+        {
+          "term": "nation vs state",
+          "def": "A nation is a people with a shared identity. A state is the government that rules a territory."
+        },
+        {
+          "term": "ilustrado",
+          "def": "An educated Filipino of the late 1800s, often schooled in Europe. Spanish for 'enlightened'."
+        },
+        {
+          "term": "indio",
+          "def": "The Spanish term for a native-born Filipino. It was used as an insult."
+        },
+        {
+          "term": "peninsular / insular",
+          "def": "A Spaniard born in Spain / a Spaniard born in the Philippines."
+        },
+        {
+          "term": "secularisation",
+          "def": "The campaign to hand parishes from the Spanish friars to Filipino secular priests."
+        },
+        {
+          "term": "GomBurZa",
+          "def": "Fathers Mariano Gomez, Jose Burgos and Jacinto Zamora, executed on 17 February 1872."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Nationalism** = one people, one nation, governing itself.",
+        "**Trade, schools and the Suez Canal** built the middle class.",
+        "**January 1872: the Cavite Mutiny.** February: GomBurZa.",
+        "**Spain's warning became the starting gun.**"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "What does nationalism mean?",
+      "options": [
+        "Believing your people are a nation that should govern itself",
+        "Believing your ruler should be obeyed without question",
+        "Believing your country should trade only with its neighbours",
+        "Believing every country should have the same religion"
+      ],
+      "answerIndex": 0,
+      "explain": "It is loyalty to your own nation, plus the belief that the nation should rule itself.",
+      "objective": "Explain what nationalism means and how a nation differs from a state"
+    },
+    {
+      "type": "multiple",
+      "text": "What did opening Manila to world trade in 1834 lead to?",
+      "options": [
+        "A wealthy Filipino middle class who could pay for education",
+        "The immediate end of Spanish rule",
+        "The closing of all the other Philippine ports",
+        "A ban on Filipinos owning land"
+      ],
+      "answerIndex": 0,
+      "explain": "Trade made Filipino families rich. Rich families sent their sons to university, and that produced the ilustrados.",
+      "objective": "Identify the economic and educational causes of Filipino nationalism"
+    },
+    {
+      "type": "type",
+      "text": "What word describes the educated Filipinos of the late 1800s?",
+      "accept": [
+        "ilustrado",
+        "ilustrados",
+        "the ilustrados",
+        "ilustrado class"
+      ],
+      "explain": "The ilustrados. The word is Spanish for 'enlightened', and most were schooled in Manila or Europe.",
+      "objective": "Identify the economic and educational causes of Filipino nationalism"
+    },
+    {
+      "type": "multiple",
+      "text": "How did the Suez Canal help Filipino nationalism?",
+      "options": [
+        "It cut the journey to Spain from about three months to about one",
+        "It let Filipino ships reach America without Spanish permission",
+        "It moved the Philippines closer to the equator",
+        "It ended Spain's control of Philippine trade"
+      ],
+      "answerIndex": 0,
+      "explain": "Faster ships meant faster ideas. Students, letters, books and newspapers all arrived far sooner.",
+      "objective": "Explain how the opening of the Suez Canal sped up the spread of ideas"
+    },
+    {
+      "type": "multiple",
+      "text": "Who did the word Filipino originally refer to?",
+      "options": [
+        "Spaniards born in the Philippines",
+        "Native Filipinos born in the islands",
+        "Spaniards born in Spain",
+        "Chinese traders living in Manila"
+      ],
+      "answerIndex": 0,
+      "explain": "Spaniards born here, the insulares. The ilustrados took the word and claimed it for everyone.",
+      "objective": "Describe the colonial social classes and the place of the indio"
+    },
+    {
+      "type": "multiple",
+      "text": "What was the secularisation controversy about?",
+      "options": [
+        "Whether Filipino priests could run parishes instead of Spanish friars",
+        "Whether the Philippines should have any religion at all",
+        "Whether Mass could be said in Tagalog",
+        "Whether priests should be allowed to marry"
+      ],
+      "answerIndex": 0,
+      "explain": "Filipino secular priests wanted the parishes held by Spanish friars. Father Jose Burgos led that campaign.",
+      "objective": "Explain the secularisation controversy and the role of Father Jose Burgos"
+    },
+    {
+      "type": "truefalse",
+      "text": "The Cavite Mutiny of 1872 began as a protest over lost pay and work exemptions.",
+      "answer": true,
+      "explain": "True. Izquierdo removed the arsenal workers' exemption from tribute and forced labour, and they revolted.",
+      "objective": "Describe the Cavite Mutiny of 1872 and the execution of GomBurZa"
+    },
+    {
+      "type": "order",
+      "text": "Put these four events in the order they happened.",
+      "items": [
+        "Manila opens to world trade",
+        "The Suez Canal opens",
+        "The Cavite Mutiny",
+        "GomBurZa are executed"
+      ],
+      "explain": "1834, then 1869, then January 1872, then February 1872. Each one made the next possible.",
+      "objective": "Describe the Cavite Mutiny of 1872 and the execution of GomBurZa"
+    },
+    {
+      "type": "multiple",
+      "text": "Why were the executions of GomBurZa so important?",
+      "options": [
+        "They convinced educated Filipinos that Spain would never treat them fairly",
+        "They started a war that Spain lost within a year",
+        "They forced Spain to give the parishes to Filipino priests",
+        "They ended the Spanish practice of using the word indio"
+      ],
+      "answerIndex": 0,
+      "explain": "Spain executed three respected priests without real evidence. Reform through loyalty stopped looking possible.",
+      "objective": "Describe the Cavite Mutiny of 1872 and the execution of GomBurZa"
+    },
+    {
+      "type": "type",
+      "text": "What single name is given to the three priests executed on 17 February 1872?",
+      "accept": [
+        "gomburza",
+        "gom bur za",
+        "gomburza priests",
+        "the gomburza"
+      ],
+      "explain": "GomBurZa, from Gomez, Burgos and Zamora. The name itself is how Filipinos kept them together.",
+      "objective": "Describe the Cavite Mutiny of 1872 and the execution of GomBurZa"
+    },
+    {
+      "type": "multiple",
+      "text": "What was a Spaniard born in the Philippines called?",
+      "options": [
+        "An insular",
+        "A peninsular",
+        "An indio",
+        "An ilustrado"
+      ],
+      "answerIndex": 0,
+      "explain": "An insular. A peninsular was born in Spain, and an indio was a native-born Filipino.",
+      "objective": "Describe the colonial social classes and the place of the indio"
+    },
+    {
+      "type": "multiple",
+      "text": "Which sentence describes the difference between a nation and a state?",
+      "options": [
+        "A nation is a people with a shared identity; a state is a government ruling a territory",
+        "A nation is smaller than a state, and always part of one",
+        "A nation has a king; a state has a president",
+        "They mean the same thing in every case"
+      ],
+      "answerIndex": 0,
+      "explain": "Spain ruled the state. Filipinos were starting to feel like a nation. Nationalism grew in that gap.",
+      "objective": "Explain what nationalism means and how a nation differs from a state"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 2 covers the emergence of Filipino nationalism, matching the Term 1 weekly scope. It is built as one causal chain rather than a list of dates: trade money produced an educated class, the Suez Canal accelerated the ideas that class was reading, racial ranking gave them a grievance, and 1872 turned that grievance into a cause. The interactive timeline card carries the chain visually, so the sequence can be recovered without re-reading the text. GomBurZa is handled plainly and without gore; the emphasis is on the absence of evidence, not on the method of execution.",
+    "discussion": [
+      "Ask him to explain the difference between a nation and a state using the Philippines in 1872. If he can do that, the rest of the term gets easier.",
+      "Ask what Spain could have done differently in February 1872. It tests whether he understood that the executions backfired.",
+      "Ask why faster ships mattered so much. The point is that ideas travelled at the speed of the fastest transport available.",
+      "Ask who benefited from calling educated Filipinos 'indios'. It moves him from remembering the word to seeing what it was for."
+    ],
+    "extension": "Have him draw the road to 1872 as a five-step chain from memory, writing one sentence under each step explaining what it made possible. Insisting on the 'made possible' sentence is what turns a memorised timeline into an argument.",
+    "misconceptions": [
+      "'The Cavite Mutiny was a revolution.' It was a workplace protest of about two hundred men, put down in two days. Spain chose to describe it as a plot.",
+      "'GomBurZa were executed for leading the mutiny.' No real evidence was ever produced. They were prominent in the secularisation campaign, which is the likelier reason.",
+      "'Filipino always meant native Filipinos.' It first meant Spaniards born in the islands. The ilustrados deliberately took the word.",
+      "'Nationalism means hating other countries.' It means believing your nation should govern itself. That is what the Term 1 topics are about."
+    ]
+  }
+}
