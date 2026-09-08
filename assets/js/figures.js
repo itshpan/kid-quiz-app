@@ -2975,6 +2975,251 @@ function kayarianPangungusap() {
     });
 }
 
+/* ==========================================================================
+   SCIENCE, WEEKS 6-10.
+   ========================================================================== */
+
+/** One drawn scene, several named parts, one lit at a time. Selection is by
+    dimming the rest, never by colour alone — the caption names the part. */
+function partPicker({ id, label, alt, height, scene, parts, capY }) {
+    return {
+        svg: `
+<svg viewBox="0 0 400 ${height}" role="img" aria-labelledby="${id}T">
+  <title id="${id}T">${alt}</title>
+  <text class="fig-label" x="20" y="20">${label}</text>
+  ${scene}
+  <text class="fig-note fig-note-key" id="${id}A" x="20" y="${capY}">&#160;</text>
+  <text class="fig-note"              id="${id}B" x="20" y="${capY + 22}">&#160;</text>
+</svg>`,
+        bind(root) {
+            const bar = document.createElement('div');
+            bar.className = 'fig-switch';
+            bar.innerHTML = parts.map((p, i) =>
+                `<button data-i="${i}" aria-pressed="${i === 0}">${p.btn}</button>`).join('');
+            root.appendChild(bar);
+
+            const els = [...root.querySelectorAll('[data-p]')];
+            const a = root.querySelector(`#${id}A`);
+            const b = root.querySelector(`#${id}B`);
+
+            const show = i => {
+                els.forEach(el => el.classList.toggle('dim', !parts[i].pick.includes(el.dataset.p)));
+                a.textContent = parts[i].a;
+                b.textContent = parts[i].b;
+                fitText(a); fitText(b);
+                bar.querySelectorAll('button').forEach((x, j) =>
+                    x.setAttribute('aria-pressed', String(j === i)));
+            };
+            bar.addEventListener('click', e => {
+                const btn = e.target.closest('button');
+                if (btn) show(Number(btn.dataset.i));
+            });
+            show(0);
+        }
+    };
+}
+
+/* ---------- The five vertebrate classes ---------- */
+function vertebrates() {
+    return listPicker({
+        id: 'vt', label: 'FIVE CLASSES WITH A BACKBONE',
+        alt: 'The five vertebrate classes with the feature that identifies each',
+        rows: [
+            { btn: 'Fish', short: 'Fishes',
+              a: 'Gills, scales and fins. Cold-blooded.',
+              b: 'Most lay eggs in water. They never leave it.' },
+            { btn: 'Amphib', short: 'Amphibians',
+              a: 'Moist skin, no scales. Cold-blooded.',
+              b: 'Start in water with gills, then grow lungs. Frogs, toads.' },
+            { btn: 'Reptile', short: 'Reptiles',
+              a: 'Dry scaly skin, lungs from birth. Cold-blooded.',
+              b: 'Leathery eggs laid on land. Snakes, lizards, turtles.' },
+            { btn: 'Bird', short: 'Birds',
+              a: 'Feathers and a beak. Warm-blooded.',
+              b: 'Hard-shelled eggs. Hollow bones to save weight.' },
+            { btn: 'Mammal', short: 'Mammals',
+              a: 'Hair or fur, and milk for the young. Warm-blooded.',
+              b: 'Mostly live young. The platypus lays eggs and still counts.' }
+        ]
+    });
+}
+
+/* ---------- The six invertebrate groups ---------- */
+function invertebrates() {
+    return listPicker({
+        id: 'iv', label: 'SIX GROUPS WITHOUT ONE',
+        alt: 'Six invertebrate groups with an identifying feature and an example of each',
+        rows: [
+            { btn: 'Sponges', short: 'Sponges',
+              a: 'Full of holes, and fixed in one place',
+              b: 'No organs at all. Water carries the food to them.' },
+            { btn: 'Cnidarians', short: 'Cnidarians',
+              a: 'Stinging cells and a body like a bag',
+              b: 'Jellyfish, corals, sea anemones.' },
+            { btn: 'Worms', short: 'Worms',
+              a: 'Long soft body, no legs',
+              b: 'Flatworms, roundworms and segmented worms.' },
+            { btn: 'Molluscs', short: 'Molluscs',
+              a: 'Soft body, very often inside a shell',
+              b: 'Snails, clams, squid and octopus.' },
+            { btn: 'Echinoderms', short: 'Echinoderms',
+              a: 'Spiny skin, and built around a circle',
+              b: 'Starfish and sea urchins. All of them live in the sea.' },
+            { btn: 'Arthropods', short: 'Arthropods',
+              a: 'Jointed legs and an exoskeleton',
+              b: 'Insects, spiders, crabs. Most animal species are here.' }
+        ]
+    });
+}
+
+/* ---------- A flower, cut in half ---------- */
+/* Every exam question about plant reproduction needs this diagram, and no
+   photograph shows the inside. Cutting it open is the only way. */
+function flowerParts() {
+    const scene = `
+  <g data-p="stem"><path class="fig-stalk" d="M200 200 L200 256"/>
+    <path class="fig-green" d="M200 226 q28 -14 34 8 q-24 12 -34 -8 Z"/></g>
+  <g data-p="sepal">
+    <path class="fig-green" d="M176 196 q-34 4 -40 20 q30 8 42 -12 Z"/>
+    <path class="fig-green" d="M224 196 q34 4 40 20 q-30 8 -42 -12 Z"/></g>
+  <g data-p="petal">
+    <path class="fig-petal" d="M178 188 C120 178 92 140 104 106 C142 108 176 140 180 184 Z"/>
+    <path class="fig-petal" d="M222 188 C280 178 308 140 296 106 C258 108 224 140 220 184 Z"/></g>
+  <g data-p="stamen">
+    <path class="fig-stalk" d="M186 190 C168 156 158 132 152 116"/>
+    <ellipse class="fig-petal" cx="150" cy="110" rx="13" ry="8"/>
+    <path class="fig-stalk" d="M214 190 C232 156 242 132 248 116"/>
+    <ellipse class="fig-petal" cx="250" cy="110" rx="13" ry="8"/></g>
+  <g data-p="ovary">
+    <ellipse class="fig-green" cx="200" cy="176" rx="26" ry="22"/>
+    <circle class="fig-seed" cx="192" cy="176" r="4"/>
+    <circle class="fig-seed" cx="208" cy="176" r="4"/>
+    <circle class="fig-seed" cx="200" cy="186" r="4"/></g>
+  <g data-p="style"><rect class="fig-green" x="196" y="104" width="8" height="52" rx="4"/></g>
+  <g data-p="stigma"><ellipse class="fig-green" cx="200" cy="98" rx="19" ry="9"/></g>`;
+
+    return partPicker({
+        id: 'fp', height: 320, capY: 282,
+        label: 'A FLOWER, CUT IN HALF',
+        alt: 'A flower in cross section with the sepal, petal, stamen, stigma, style and ovary',
+        scene,
+        parts: [
+            { btn: 'Sepal', pick: ['sepal'],
+              a: 'Sepal — the green flaps under the petals',
+              b: 'They protected the whole flower while it was a bud.' },
+            { btn: 'Petal', pick: ['petal'],
+              a: 'Petal — colour and scent, for advertising',
+              b: 'They exist to bring insects and birds in. Nothing else.' },
+            { btn: 'Stamen', pick: ['stamen'],
+              a: 'Stamen — the male part. Filament plus anther',
+              b: 'The anther on top is where the pollen is made.' },
+            { btn: 'Stigma', pick: ['stigma'],
+              a: 'Stigma — the sticky landing pad on top',
+              b: 'Pollen has to land here for anything to happen.' },
+            { btn: 'Style', pick: ['style'],
+              a: 'Style — the tube from the stigma down',
+              b: 'The pollen tube grows down through this to the ovary.' },
+            { btn: 'Ovary', pick: ['ovary'],
+              a: 'Ovary — holds the ovules, at the base',
+              b: 'Ovules become seeds. The ovary becomes the fruit.' }
+        ]
+    });
+}
+
+/* ---------- The Tyndall effect ---------- */
+/* The single test that separates a solution from a colloid, and it is
+   entirely visual: you either see the beam or you do not. */
+function tyndall() {
+    const jar = `<rect class="fig-jar" x="120" y="60" width="160" height="110" rx="8"/>
+                 <rect class="fig-liquid" x="124" y="86" width="152" height="80"/>`;
+    const torch = `<path class="fig-ink" stroke-width="2.5" d="M40 100 L74 100 L74 130 L40 130 Z"/>
+                   <path class="fig-ink" stroke-width="2.5" d="M74 106 L88 100 L88 130 L74 124 Z"/>
+                   <text class="fig-step" x="56" y="150" text-anchor="middle">TORCH</text>`;
+    return demoSwitch({
+        id: 'ty', height: 254, capY: 202,
+        label: 'CAN YOU SEE THE BEAM?',
+        alt: 'A torch beam passing through a solution and then through a colloid',
+        demos: [
+            { btn: 'Solution',
+              svg: jar + torch
+                 + `<path class="fig-beam" d="M90 115 L120 115"/>
+                    <path class="fig-beam-off" d="M124 115 L276 115"/>
+                    <path class="fig-beam" d="M280 115 L330 115"/>
+                    <text class="fig-step" x="200" y="188" text-anchor="middle">SALT IN WATER</text>`,
+              a: 'A solution: the beam goes straight through, unseen',
+              b: 'The particles are too small to bounce light back at you.' },
+            { btn: 'Colloid',
+              svg: jar + torch
+                 + `<path class="fig-beam" d="M90 115 L330 115"/>
+                    ${[...Array(9)].map((_, i) => `<circle class="fig-grain" cx="${132 + i * 17}" cy="${107 + (i % 3) * 8}" r="2.6"/>`).join('')}
+                    <text class="fig-step" x="200" y="188" text-anchor="middle">MILK IN WATER</text>`,
+              a: 'A colloid: the beam lights up inside the liquid',
+              b: 'Bigger particles scatter the light. This is the Tyndall effect.' }
+        ]
+    });
+}
+
+/* ---------- Three ways to make something dissolve faster ---------- */
+function dissolveRate() {
+    const jar = `<path class="fig-jar" d="M130 66 L270 66 L262 176 L138 176 Z"/>
+                 <path class="fig-liquid" d="M133 92 L267 92 L262 173 L138 173 Z"/>`;
+    const grains = (n, r, y0) => [...Array(n)].map((_, i) =>
+        `<circle class="fig-grain" cx="${150 + (i * 37) % 100}" cy="${y0 + (i % 3) * 14}" r="${r}"/>`).join('');
+    return demoSwitch({
+        id: 'dr', height: 250, capY: 200,
+        label: 'THREE WAYS TO SPEED IT UP',
+        alt: 'Three ways to dissolve a solid faster: heat, stirring and grinding',
+        demos: [
+            { btn: 'Heat',
+              svg: jar + grains(4, 7, 130)
+                 + `<path class="fig-track" d="M170 60 q8 -14 0 -26 M200 60 q8 -14 0 -26 M230 60 q8 -14 0 -26"/>
+                    <text class="fig-step" x="200" y="196" text-anchor="middle">HOT WATER</text>`,
+              a: 'Heat — the particles move faster and hit harder',
+              b: 'Warmer water dissolves most solids more quickly.' },
+            { btn: 'Stirring',
+              svg: jar + grains(4, 7, 130)
+                 + `<path class="fig-stalk" d="M200 50 L200 150"/>
+                    <path class="fig-track" d="M150 118 q50 -26 100 0" />
+                    <text class="fig-step" x="200" y="196" text-anchor="middle">STIRRED</text>`,
+              a: 'Stirring — fresh water keeps reaching the solid',
+              b: 'Without it, the water right next to the grain gets saturated.' },
+            { btn: 'Grinding',
+              svg: jar + grains(12, 3.4, 126)
+                 + `<text class="fig-step" x="200" y="196" text-anchor="middle">GROUND SMALL</text>`,
+              a: 'Grinding — smaller pieces mean far more surface',
+              b: 'Water can only attack the outside, so more outside is faster.' }
+        ]
+    });
+}
+
+/* ---------- How to get the parts of a mixture back ---------- */
+function separationMethods() {
+    return listPicker({
+        id: 'sm', label: 'SIX WAYS TO SEPARATE A MIXTURE',
+        alt: 'Six separation methods with what each one separates and an example',
+        rows: [
+            { btn: 'Picking', short: 'Picking',
+              a: 'By hand, when the pieces are big enough to see',
+              b: 'Stones out of rice. The simplest method there is.' },
+            { btn: 'Sieving', short: 'Sieving',
+              a: 'Separates by size of particle',
+              b: 'Flour from lumps. Sand from gravel.' },
+            { btn: 'Magnet', short: 'Magnet',
+              a: 'Pulls out anything magnetic',
+              b: 'Iron filings out of sand. Nothing else moves.' },
+            { btn: 'Filtering', short: 'Filtering',
+              a: 'Separates an undissolved solid from a liquid',
+              b: 'Sand from water. The sand stays on the paper.' },
+            { btn: 'Evaporation', short: 'Evaporation',
+              a: 'Boils the solvent away and leaves the solute',
+              b: 'Salt from seawater. You keep the solid.' },
+            { btn: 'Distillation', short: 'Distillation',
+              a: 'Boils, then catches and cools the vapour',
+              b: 'Pure water from seawater. You keep the liquid.' }
+        ]
+    });
+}
+
 export const FIGURES = {
     crumpleZone,
     muscleTypes,
@@ -3022,7 +3267,13 @@ export const FIGURES = {
     panlapi,
     ayosPangungusap,
     kayarianSalita,
-    kayarianPangungusap
+    kayarianPangungusap,
+    vertebrates,
+    invertebrates,
+    flowerParts,
+    tyndall,
+    dissolveRate,
+    separationMethods
 };
 
 

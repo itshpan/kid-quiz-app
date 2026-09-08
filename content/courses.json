@@ -75,7 +75,8 @@
             "Fishes, Amphibians, Reptiles, Birds, Mammals",
             "Sponges, Cnidarians, Worms, Molluscs, Echinoderms, Arthropods"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "science/w6-vertebrates-invertebrates.json"
         },
         {
           "week": 7,
@@ -86,7 +87,8 @@
             "Sexual reproduction of animals and plants",
             "Modes of reproduction of animals"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "science/w7-reproduction.json"
         },
         {
           "week": 8,
@@ -95,7 +97,8 @@
           "topics": [
             "In nature, human-made, and medicinal"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "science/w8-heterogeneous-mixtures.json"
         },
         {
           "week": 9,
@@ -106,16 +109,18 @@
             "Solubility & Concentration",
             "Miscible & Immiscible"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "science/w9-homogeneous-mixtures.json"
         },
         {
           "week": 10,
           "id": "sci-w10",
-          "title": "Homogeneous Mixtures (cont.)",
+          "title": "Solutions in the Real World",
           "topics": [
             "Solutions review and application"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "science/w10-solutions-applied.json"
         },
         {
           "week": 11,

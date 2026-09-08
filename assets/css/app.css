@@ -962,6 +962,21 @@ strong { font-weight: 700; color: var(--ink); }
    out from the affix — which is the entire point of the diagram. */
 .fig-mono.fig-sent-hi { fill: var(--accent); font-weight: 700; }
 
+/* ---------- Science W6-W10 figures ---------- */
+/* Scoped to the attribute rather than a class, so any partPicker scene gets
+   the dimming without every group having to remember to carry a class. */
+[data-p]      { opacity: 1; }
+[data-p].dim  { opacity: .2; }
+.fig-petal { fill: var(--accent); fill-opacity: .28; stroke: var(--accent); stroke-width: 2; }
+.fig-green { fill: var(--notyet); fill-opacity: .3; stroke: var(--notyet); stroke-width: 2; }
+.fig-stalk { fill: none; stroke: var(--ink-faint); stroke-width: 3; stroke-linecap: round; }
+.fig-seed  { fill: var(--ink-soft); }
+.fig-beam       { stroke: var(--accent); stroke-width: 5; stroke-linecap: round; opacity: .9; }
+.fig-beam-off   { stroke: var(--ink-faint); stroke-width: 5; stroke-linecap: round; opacity: .25; }
+.fig-jar        { fill: var(--surface); stroke: var(--ink-faint); stroke-width: 2; }
+.fig-liquid     { fill: var(--notyet); fill-opacity: .18; }
+.fig-grain      { fill: var(--accent); }
+
 /* ---------- Sign-in flow ---------- */
 /* Two named steps, so it's always obvious where you are and what's left. */
 .signin-steps {

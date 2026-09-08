@@ -1,0 +1,406 @@
+{
+  "id": "sci-w10",
+  "courseId": "science",
+  "courseTitle": "Science",
+  "week": 10,
+  "title": "Solutions in the Real World",
+  "subtitle": "Getting the parts back out, and where this matters outside a lab.",
+  "estMinutes": 20,
+  "objectives": [
+    "Choose the right separation method for a given solution",
+    "Explain the difference between evaporation and distillation",
+    "Explain how chromatography separates dissolved substances",
+    "Work out a simple concentration as a percentage",
+    "Explain how drinking water is made safe",
+    "Review the whole mixtures topic for the exam"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🔬",
+      "eyebrow": "Part 1 · Getting it back",
+      "title": "Filtering a solution does nothing at all",
+      "text": "The solute went through the paper with the water. To separate a solution you have to change a state, not catch a solid."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The rule",
+      "title": "Which method depends on what you want to keep",
+      "text": "Two methods use exactly the same boiling step. What separates them is which part you collect at the end.",
+      "points": [
+        "**Evaporation** — boil the solvent off. You keep the solid.",
+        "**Distillation** — boil, then catch and cool the vapour.",
+        "**Distillation keeps the liquid.**",
+        "**Same first step. Opposite thing kept.**"
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "separationMethods",
+      "eyebrow": "All six",
+      "title": "One more pass through the methods",
+      "text": "Tap through. The last two are the ones for solutions."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "You want pure water from seawater. Which method?",
+        "options": [
+          "Distillation",
+          "Evaporation",
+          "Filtration",
+          "Sieving"
+        ],
+        "answerIndex": 0,
+        "explain": "You want the liquid, so you have to catch and cool the vapour. Evaporation would leave you the salt."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "space",
+      "icon": "🪐",
+      "eyebrow": "Space mode",
+      "title": "The space station distils everything",
+      "text": "There is no water delivery in orbit, so the station recovers it from sweat, breath and urine. That process is distillation.",
+      "points": [
+        "**Over 90% of water on board** is recovered.",
+        "**Boil, catch the vapour, cool it.**",
+        "**Exactly the method on the last card.**",
+        "**Week 4 said the kidneys do this.** Now the hardware."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The third method",
+      "title": "Chromatography separates by how far things travel",
+      "text": "Put a spot of ink on paper and let a solvent creep up it. The dyes move at different speeds and pull apart.",
+      "points": [
+        "**Each dye is carried a different distance.**",
+        "**A black ink spot becomes several colours.**",
+        "**It separates dissolved things** that boil at similar points.",
+        "**It is used to test food, medicine and blood.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is the difference between evaporation and distillation?",
+        "options": [
+          "Evaporation keeps the solid; distillation catches and keeps the liquid",
+          "Distillation does not need heat",
+          "Evaporation works only on colloids",
+          "They are two words for the same process"
+        ],
+        "answerIndex": 0,
+        "explain": "Same boiling step. The difference is entirely which part you collect at the end."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Methods done. Part 2 is concentration and the water that comes out of a tap. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "🚰",
+      "eyebrow": "Part 2 · Out in the world",
+      "title": "Everything you drink is a solution",
+      "text": "Tap water, juice, seawater, blood plasma. None of them is pure water, and in most cases that is on purpose."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Concentration",
+      "title": "Putting a number on how strong it is",
+      "text": "Concentration as a percentage is mass of solute divided by total mass, times one hundred.",
+      "points": [
+        "**5 g of salt in 95 g of water** = 100 g of solution.",
+        "**5 ÷ 100 × 100 = 5%.**",
+        "**The bottom number is the whole solution.**",
+        "**Not just the solvent.** That is the usual slip."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "You dissolve 10 g of sugar in 90 g of water. What is the concentration?",
+        "options": [
+          "10%",
+          "11%",
+          "9%",
+          "90%"
+        ],
+        "answerIndex": 0,
+        "explain": "10 g in a total of 100 g. Divide by the whole solution, not by the water alone."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Drinking water",
+      "title": "Four steps from river to tap",
+      "text": "Water treatment uses the separation methods from this topic, in order, at enormous scale.",
+      "points": [
+        "**Screening** — big objects removed. Sieving.",
+        "**Sedimentation** — solids settle out. Decantation.",
+        "**Filtration** — sand and gravel beds catch the rest.",
+        "**Disinfection** — chlorine kills what is left."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🏎️",
+      "eyebrow": "Car mode",
+      "title": "Petrol is made by distillation",
+      "text": "Crude oil is a mixture of many liquids. A refinery boils it and collects each one as it condenses at a different temperature.",
+      "points": [
+        "**Different liquids boil at different temperatures.**",
+        "**Petrol, diesel and jet fuel** come out of one barrel.",
+        "**That is fractional distillation.**",
+        "**Same method as the space station**, bigger tower."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "order",
+        "text": "Put the water treatment steps in order.",
+        "items": [
+          "Screening",
+          "Sedimentation",
+          "Filtration",
+          "Disinfection"
+        ],
+        "explain": "Biggest things first, smallest last. Chlorine deals with what no filter can catch."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Sweat is a solution, and it leaves the solute behind",
+      "text": "The water evaporates and the salt stays on your skin. That white mark on a training shirt is evaporation, finished.",
+      "points": [
+        "**Sweat is salt dissolved in water.**",
+        "**Only the water leaves.**",
+        "**The salt ring is the solute.**",
+        "**That is why you replace salts**, not just water."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Exam review",
+      "title": "The whole topic in four questions",
+      "text": "If you can answer these four about any mixture, you can answer anything the exam asks.",
+      "points": [
+        "**Can I see the parts?** Heterogeneous or homogeneous.",
+        "**Does it settle?** Suspension or colloid.",
+        "**Does a beam show?** Colloid or solution.",
+        "**Which part do I want back?** That picks the method."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Filtering will separate salt from salt water.",
+        "answer": false,
+        "explain": "False. Dissolved salt passes straight through the paper. You need evaporation or distillation."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "evaporation", "def": "Boiling the solvent away and keeping the solid that is left." },
+        { "term": "distillation", "def": "Boiling, then catching and cooling the vapour. You keep the liquid." },
+        { "term": "fractional distillation", "def": "Separating several liquids that boil at different temperatures." },
+        { "term": "chromatography", "def": "Separating dissolved substances by how far a solvent carries each one." },
+        { "term": "concentration", "def": "Mass of solute divided by mass of the whole solution, as a percentage." },
+        { "term": "sedimentation", "def": "Letting suspended solids settle to the bottom." },
+        { "term": "disinfection", "def": "Killing remaining microbes, usually with chlorine." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Filtering does nothing to a solution.**",
+        "**Evaporation keeps the solid. Distillation keeps the liquid.**",
+        "**Concentration divides by the whole solution.**",
+        "**Screening, sedimentation, filtration, disinfection.**"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Why can you not separate salt water by filtering?",
+      "options": [
+        "The dissolved salt passes through the paper with the water",
+        "The paper dissolves",
+        "Salt water is too heavy",
+        "Filtering only works on gases"
+      ],
+      "answerIndex": 0,
+      "explain": "Filtering catches undissolved solids. Dissolved particles are far too small.",
+      "objective": "Choose the right separation method for a given solution"
+    },
+    {
+      "type": "multiple",
+      "text": "You want to keep the salt from seawater. Which method?",
+      "options": [
+        "Evaporation",
+        "Distillation",
+        "Filtration",
+        "Chromatography"
+      ],
+      "answerIndex": 0,
+      "explain": "Boil the water off and the salt is left behind. If you wanted the water, you would distil.",
+      "objective": "Explain the difference between evaporation and distillation"
+    },
+    {
+      "type": "multiple",
+      "text": "You want to keep the water from seawater. Which method?",
+      "options": [
+        "Distillation",
+        "Evaporation",
+        "Sieving",
+        "Decantation"
+      ],
+      "answerIndex": 0,
+      "explain": "Distillation catches and cools the vapour, so you end up with the liquid rather than the solid.",
+      "objective": "Explain the difference between evaporation and distillation"
+    },
+    {
+      "type": "multiple",
+      "text": "How does chromatography separate substances?",
+      "options": [
+        "A solvent carries each one a different distance",
+        "It boils them at different temperatures",
+        "It uses a magnet",
+        "It filters them by size"
+      ],
+      "answerIndex": 0,
+      "explain": "The dyes travel at different speeds up the paper, so they pull apart into separate bands.",
+      "objective": "Explain how chromatography separates dissolved substances"
+    },
+    {
+      "type": "multiple",
+      "text": "You dissolve 20 g of salt in 80 g of water. What is the concentration?",
+      "options": [
+        "20%",
+        "25%",
+        "80%",
+        "4%"
+      ],
+      "answerIndex": 0,
+      "explain": "20 g of solute in 100 g of solution. Divide by the total, not by the water alone.",
+      "objective": "Work out a simple concentration as a percentage"
+    },
+    {
+      "type": "multiple",
+      "text": "A 200 g solution contains 30 g of solute. What is the concentration?",
+      "options": [
+        "15%",
+        "30%",
+        "6.7%",
+        "170%"
+      ],
+      "answerIndex": 0,
+      "explain": "30 ÷ 200 × 100 = 15%. The 200 g is already the whole solution.",
+      "objective": "Work out a simple concentration as a percentage"
+    },
+    {
+      "type": "order",
+      "text": "Put the water treatment steps in order.",
+      "items": [
+        "Screening",
+        "Sedimentation",
+        "Filtration",
+        "Disinfection"
+      ],
+      "explain": "Largest things first. Chlorine at the end deals with what no filter can remove.",
+      "objective": "Explain how drinking water is made safe"
+    },
+    {
+      "type": "multiple",
+      "text": "What does disinfection remove that filtration cannot?",
+      "options": [
+        "Microbes",
+        "Sand",
+        "Leaves",
+        "Gravel"
+      ],
+      "answerIndex": 0,
+      "explain": "Microbes are far too small for a sand bed. Chlorine deals with them chemically instead.",
+      "objective": "Explain how drinking water is made safe"
+    },
+    {
+      "type": "multiple",
+      "text": "Petrol and diesel are separated from crude oil by which process?",
+      "options": [
+        "Fractional distillation",
+        "Filtration",
+        "Chromatography",
+        "Sieving"
+      ],
+      "answerIndex": 0,
+      "explain": "They boil at different temperatures, so each one is collected as it condenses.",
+      "objective": "Choose the right separation method for a given solution"
+    },
+    {
+      "type": "multiple",
+      "text": "A light beam is visible inside a liquid. What is it?",
+      "options": [
+        "A colloid",
+        "A solution",
+        "A pure substance",
+        "A suspension that has settled"
+      ],
+      "answerIndex": 0,
+      "explain": "The Tyndall effect from Week 8. Solutions let the beam through unseen.",
+      "objective": "Review the whole mixtures topic for the exam"
+    },
+    {
+      "type": "multiple",
+      "text": "Which question tells you whether a mixture is heterogeneous?",
+      "options": [
+        "Can I see the separate parts?",
+        "Does it taste salty?",
+        "Is it a liquid?",
+        "Can it be poured?"
+      ],
+      "answerIndex": 0,
+      "explain": "Visible parts means heterogeneous. Uniform throughout means homogeneous.",
+      "objective": "Review the whole mixtures topic for the exam"
+    },
+    {
+      "type": "truefalse",
+      "text": "The white marks left on a shirt after sweating are the solute from a solution.",
+      "answer": true,
+      "explain": "True. The water evaporates and the salts stay behind. It is evaporation, finished.",
+      "objective": "Review the whole mixtures topic for the exam"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 10 Science applies the mixtures work from Weeks 8 and 9 and reviews the whole topic before the exam. It opens on the fact that catches most students out — filtering a solution achieves nothing, because the solute went through with the solvent — and uses that to introduce the two methods that do work. Evaporation and distillation are taught as one process with two different things kept, which is the honest description and easier to remember than two separate procedures. The four-question review card at the end is the transferable part: those four questions answer any mixtures question the exam can pose. The space station and the oil refinery are the same method at two very different scales, and both are real.",
+    "discussion": [
+      "Ask him what he would do to get drinking water from seawater on a desert island. Distillation is reachable from first principles.",
+      "Run a paper chromatography test with a felt-tip pen and a strip of kitchen roll. Black pens are the most surprising.",
+      "Ask why the concentration calculation divides by the whole solution rather than the solvent. It is the commonest arithmetic slip in the topic.",
+      "Ask him to run the four review questions on three things in the kitchen. That is the exam technique in five minutes."
+    ],
+    "extension": "Have him leave a shallow dish of salt water on a windowsill for a few days and collect the crystals. It is evaporation on a real timescale, and the crystals are the proof that nothing had disappeared.",
+    "misconceptions": [
+      "'Filtering separates any mixture.' It only catches undissolved solids. A solution passes straight through.",
+      "'Evaporation and distillation are the same.' Same boiling step, opposite thing kept.",
+      "'Concentration is solute divided by solvent.' It is solute divided by the whole solution.",
+      "'Boiling water makes it safe by removing chemicals.' Boiling kills microbes. Dissolved substances stay behind."
+    ]
+  }
+}

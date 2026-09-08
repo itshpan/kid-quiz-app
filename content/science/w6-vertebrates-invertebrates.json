@@ -1,0 +1,382 @@
+{
+  "id": "sci-w6",
+  "courseId": "science",
+  "courseTitle": "Science",
+  "week": 6,
+  "title": "Vertebrates & Invertebrates",
+  "subtitle": "One bone decides which of the two halves an animal is in.",
+  "estMinutes": 20,
+  "objectives": [
+    "Explain what makes an animal a vertebrate",
+    "Name the five vertebrate classes and one feature of each",
+    "Name six invertebrate groups and give an example of each",
+    "Explain the difference between an exoskeleton and an endoskeleton",
+    "Explain why arthropods are the largest animal group"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🦴",
+      "eyebrow": "Part 1 · With a backbone",
+      "title": "The whole animal kingdom splits on one question",
+      "text": "Does it have a backbone? That single answer sorts every animal on earth into one of two piles."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The split",
+      "title": "Vertebrate or invertebrate",
+      "text": "It is not an even split. One side is vastly bigger than the other, and it is not the side you would guess.",
+      "points": [
+        "**Vertebrate** — has a backbone. Five classes.",
+        "**Invertebrate** — no backbone. Many more groups.",
+        "**About 95% of animal species** are invertebrates.",
+        "**Week 1 called it the vertebral column.** Same bone."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "vertebrates",
+      "eyebrow": "The five",
+      "title": "One feature identifies each class",
+      "text": "Tap through. Several quiz questions come from this."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which feature identifies a mammal?",
+        "options": [
+          "Hair or fur, and milk for the young",
+          "Scales and gills",
+          "Laying hard-shelled eggs",
+          "Being cold-blooded"
+        ],
+        "answerIndex": 0,
+        "explain": "Hair and milk. Birds lay hard-shelled eggs, and fish have the gills and scales."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The other test",
+      "title": "Warm-blooded or cold-blooded",
+      "text": "Only two of the five classes hold their own temperature. The other three take whatever the surroundings give them.",
+      "points": [
+        "**Warm-blooded:** birds and mammals only.",
+        "**Cold-blooded:** fish, amphibians, reptiles.",
+        "**Cold-blooded means the outside decides**, not that they are cold.",
+        "**A lizard on a hot rock** is warmer than you are."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "⚡",
+      "eyebrow": "Your body right now",
+      "title": "Holding your temperature costs food",
+      "text": "Staying at 37 °C all day and night is expensive. That is why warm-blooded animals eat far more than cold-blooded ones their size.",
+      "points": [
+        "**A snake can eat once a month.**",
+        "**You cannot go a day without noticing.**",
+        "**You are paying for the temperature.**",
+        "**Both work.** They are different strategies."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which two classes are warm-blooded?",
+        "options": [
+          "Birds and mammals",
+          "Reptiles and mammals",
+          "Fish and amphibians",
+          "Amphibians and reptiles"
+        ],
+        "answerIndex": 0,
+        "explain": "Birds and mammals. The other three take their temperature from their surroundings."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Five classes done. Part 2 is the other 95% of the animal kingdom. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "🦑",
+      "eyebrow": "Part 2 · Without a backbone",
+      "title": "Almost every animal is in this half",
+      "text": "Vertebrates get the attention because we are one. By number of species, they are a rounding error."
+    },
+    {
+      "kind": "figure",
+      "figure": "invertebrates",
+      "eyebrow": "The six",
+      "title": "Six groups you have to know",
+      "text": "Tap through each one. Two quiz questions come from this."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which group do jellyfish and corals belong to?",
+        "options": [
+          "Cnidarians",
+          "Molluscs",
+          "Echinoderms",
+          "Sponges"
+        ],
+        "answerIndex": 0,
+        "explain": "Cnidarians. The giveaway is the stinging cells, which is what the group is named for."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The biggest group",
+      "title": "Arthropods outnumber everything else",
+      "text": "Insects, spiders, crabs, centipedes. More than three-quarters of all known animal species sit in this one group.",
+      "points": [
+        "**Jointed legs** — that is what the name means.",
+        "**Exoskeleton** — the skeleton is on the outside.",
+        "**They have to moult** to grow, which is the cost.",
+        "**Small size** is a large part of why there are so many."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "Cars are built both ways too",
+      "text": "This is not a loose comparison. It is the same engineering choice, made for the same reasons.",
+      "points": [
+        "**Body-on-frame** — an inner chassis carries the load. Endoskeleton.",
+        "**Monocoque** — the outer shell carries it. Exoskeleton.",
+        "**The shell is lighter and stiffer** at small sizes.",
+        "**It is harder to make big.** Same as an insect."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is an exoskeleton?",
+        "options": [
+          "A skeleton on the outside of the body",
+          "A skeleton made of cartilage",
+          "A skeleton that never stops growing",
+          "A backbone made of many parts"
+        ],
+        "answerIndex": 0,
+        "explain": "Outside. That is why arthropods have to moult: the armour cannot grow with them."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Death Stranding wears its skeleton outside",
+      "text": "That game uses the real word correctly. An exoskeleton is a frame worn outside that carries load for you.",
+      "points": [
+        "**Your skeleton is inside**, holding you up.",
+        "**A crab's is outside**, doing the same job.",
+        "**Wearing one** is borrowing the arthropod design.",
+        "**The game named it right.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Most animal species on earth are vertebrates.",
+        "answer": false,
+        "explain": "False. Around 95% are invertebrates, and most of those are arthropods."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "vertebrate", "def": "An animal with a backbone. Five classes." },
+        { "term": "invertebrate", "def": "An animal with no backbone. About 95% of all animal species." },
+        { "term": "cold-blooded", "def": "Body temperature follows the surroundings. Fish, amphibians, reptiles." },
+        { "term": "warm-blooded", "def": "Body temperature held steady from inside. Birds and mammals only." },
+        { "term": "exoskeleton", "def": "A skeleton on the outside of the body, as in arthropods." },
+        { "term": "endoskeleton", "def": "A skeleton inside the body, as in all vertebrates." },
+        { "term": "moulting", "def": "Shedding an outgrown exoskeleton so a bigger one can form." },
+        { "term": "arthropod", "def": "Jointed legs and an exoskeleton. Insects, spiders, crabs." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Backbone or no backbone.** That is the split.",
+        "**Fish, amphibians, reptiles, birds, mammals.**",
+        "**Only birds and mammals are warm-blooded.**",
+        "**Arthropods are most of the animal kingdom.**"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "What makes an animal a vertebrate?",
+      "options": [
+        "It has a backbone",
+        "It has four legs",
+        "It is warm-blooded",
+        "It gives birth to live young"
+      ],
+      "answerIndex": 0,
+      "explain": "The backbone, and nothing else. Fish and mammals are both vertebrates and share almost nothing else.",
+      "objective": "Explain what makes an animal a vertebrate"
+    },
+    {
+      "type": "multiple",
+      "text": "Which class has moist skin and starts life in water with gills?",
+      "options": [
+        "Amphibians",
+        "Reptiles",
+        "Fish",
+        "Mammals"
+      ],
+      "answerIndex": 0,
+      "explain": "Amphibians. Tadpoles have gills and grow lungs later, which is why the group is named for two lives.",
+      "objective": "Name the five vertebrate classes and one feature of each"
+    },
+    {
+      "type": "multiple",
+      "text": "Which class has feathers and hollow bones?",
+      "options": [
+        "Birds",
+        "Reptiles",
+        "Mammals",
+        "Amphibians"
+      ],
+      "answerIndex": 0,
+      "explain": "Birds. Hollow bones save weight, which matters a great deal if you fly.",
+      "objective": "Name the five vertebrate classes and one feature of each"
+    },
+    {
+      "type": "truefalse",
+      "text": "All mammals give birth to live young.",
+      "answer": false,
+      "explain": "False. The platypus and the echidna lay eggs and are still mammals, because they have hair and produce milk.",
+      "objective": "Name the five vertebrate classes and one feature of each"
+    },
+    {
+      "type": "multiple",
+      "text": "Which two classes are warm-blooded?",
+      "options": [
+        "Birds and mammals",
+        "Fish and reptiles",
+        "Reptiles and birds",
+        "Amphibians and mammals"
+      ],
+      "answerIndex": 0,
+      "explain": "Only those two hold their own temperature. The other three take it from the surroundings.",
+      "objective": "Name the five vertebrate classes and one feature of each"
+    },
+    {
+      "type": "multiple",
+      "text": "Snails, clams and octopuses belong to which group?",
+      "options": [
+        "Molluscs",
+        "Cnidarians",
+        "Echinoderms",
+        "Arthropods"
+      ],
+      "answerIndex": 0,
+      "explain": "Molluscs. Soft body, very often with a shell — though the octopus has given its shell up.",
+      "objective": "Name six invertebrate groups and give an example of each"
+    },
+    {
+      "type": "multiple",
+      "text": "Starfish and sea urchins belong to which group?",
+      "options": [
+        "Echinoderms",
+        "Molluscs",
+        "Sponges",
+        "Worms"
+      ],
+      "answerIndex": 0,
+      "explain": "Echinoderms — spiny skin, built around a circle, and every one of them lives in the sea.",
+      "objective": "Name six invertebrate groups and give an example of each"
+    },
+    {
+      "type": "multiple",
+      "text": "Which group has stinging cells?",
+      "options": [
+        "Cnidarians",
+        "Arthropods",
+        "Molluscs",
+        "Sponges"
+      ],
+      "answerIndex": 0,
+      "explain": "Cnidarians: jellyfish, corals and sea anemones. The stinging cells are what define the group.",
+      "objective": "Name six invertebrate groups and give an example of each"
+    },
+    {
+      "type": "type",
+      "text": "What is the name for a skeleton on the OUTSIDE of the body?",
+      "accept": [
+        "exoskeleton",
+        "an exoskeleton"
+      ],
+      "explain": "An exoskeleton. Exo- means outside, which is the whole word.",
+      "objective": "Explain the difference between an exoskeleton and an endoskeleton"
+    },
+    {
+      "type": "multiple",
+      "text": "Why does an arthropod have to moult?",
+      "options": [
+        "Its exoskeleton cannot grow with it",
+        "It gets too heavy to move",
+        "The old skeleton loses its colour",
+        "It needs to change species"
+      ],
+      "answerIndex": 0,
+      "explain": "The armour is rigid, so growing means leaving it behind and making a bigger one.",
+      "objective": "Explain the difference between an exoskeleton and an endoskeleton"
+    },
+    {
+      "type": "multiple",
+      "text": "Which is the largest animal group by number of species?",
+      "options": [
+        "Arthropods",
+        "Mammals",
+        "Fish",
+        "Molluscs"
+      ],
+      "answerIndex": 0,
+      "explain": "Arthropods, by a very long way. More than three-quarters of all known animal species.",
+      "objective": "Explain why arthropods are the largest animal group"
+    },
+    {
+      "type": "truefalse",
+      "text": "About 95% of animal species have no backbone.",
+      "answer": true,
+      "explain": "True. Vertebrates get the attention because we are one, but by species count they are tiny.",
+      "objective": "Explain why arthropods are the largest animal group"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 6 Science covers vertebrates and invertebrates, matching the Term 1 weekly scope. It is a classification topic, so it is taught as a set of decisions rather than a set of lists: one question for the top-level split, one identifying feature per class, and one group that accounts for most of the answer. The two figures carry the two lists so the cards can spend their space on the reasoning. The car card is not an analogy for its own sake — body-on-frame against monocoque is the same engineering trade-off as endoskeleton against exoskeleton, including the reason both shells struggle at large sizes.",
+    "discussion": [
+      "Ask him to name an animal and work out its class out loud. Doing five in a row fixes the features better than reading them.",
+      "Ask why a snake can eat once a month and he cannot. Holding your own temperature is expensive, and that is the answer.",
+      "Ask why there are no insects the size of a dog. The exoskeleton and moulting between them explain it.",
+      "Ask which half of the animal kingdom he would have guessed was bigger before the lesson."
+    ],
+    "extension": "Have him classify every animal he can see in one photograph or one aquarium visit, down to group. The invertebrates are the harder half and there will be more of them.",
+    "misconceptions": [
+      "'Cold-blooded means the animal is cold.' It means its temperature follows the surroundings. A lizard on a hot rock is warmer than you.",
+      "'All mammals give birth to live young.' The platypus and echidna lay eggs and are still mammals.",
+      "'Most animals are vertebrates.' Around 95% of animal species have no backbone at all.",
+      "'An exoskeleton is just armour.' It is the skeleton. Everything attaches to it, which is why moulting is so risky."
+    ]
+  }
+}
