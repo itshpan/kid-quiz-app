@@ -1,0 +1,390 @@
+{
+  "id": "eng-w7",
+  "courseId": "english",
+  "courseTitle": "English",
+  "week": 7,
+  "title": "Reflexive Pronouns",
+  "subtitle": "When the person doing it and the person it happens to are the same.",
+  "estMinutes": 20,
+  "objectives": [
+    "Define a reflexive pronoun",
+    "Explain how a reflexive pronoun differs from an intensive one",
+    "Use reflexive pronouns correctly as objects",
+    "Recognise verbs that do not take a reflexive pronoun in English",
+    "Retell the windmills episode and explain what Don Quixote concludes"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🔁",
+      "eyebrow": "Part 1 · Pointing back",
+      "title": "Same eight words. Completely different job",
+      "text": "Last week they added emphasis. This week they are doing real work, and taking them out breaks the sentence."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The definition",
+      "title": "The subject and the object are the same person",
+      "text": "A reflexive pronoun is used when whoever does the action is also on the receiving end of it.",
+      "points": [
+        "**\"He hurt *himself*.\"** He is both doer and receiver.",
+        "**\"She taught *herself*.\"** Same person, both ends.",
+        "**Without it the verb has no object.**",
+        "**Taught who? Hurt who?** The sentence needs an answer."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "selfPronouns",
+      "eyebrow": "The test",
+      "title": "Cross it out and see what survives",
+      "text": "Compare the first two tabs. One sentence survives the deletion and one does not."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which sentence uses a REFLEXIVE pronoun?",
+        "options": [
+          "She cut herself on the tin",
+          "She herself opened the tin",
+          "The tin itself was rusty",
+          "They fixed it themselves"
+        ],
+        "answerIndex": 0,
+        "explain": "Cut who? Herself is the object. In the other three the word could be removed."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The test again",
+      "title": "One question tells you which it is",
+      "text": "Take the -self word out. If the sentence still makes sense, it was intensive. If it breaks, it was reflexive.",
+      "points": [
+        "**\"He hurt.\"** Broken. So it was reflexive.",
+        "**\"The captain apologised.\"** Fine. So it was intensive.",
+        "**Ten seconds**, and it works every time.",
+        "**Same eight words.** Only the job changes."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "⚡",
+      "eyebrow": "Your body right now",
+      "title": "Most of what you learn, you teach yourself",
+      "text": "A coach shows you once. The thousand repetitions afterwards are you doing it to yourself, which is exactly the grammar.",
+      "points": [
+        "**\"He trained *himself*\"** — doer and receiver.",
+        "**\"He trained\"** on its own means something looser.",
+        "**The reflexive makes it deliberate.**",
+        "**A small word, and it changes the claim.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "Complete it: \"The cat washed ___.\"",
+        "accept": [
+          "itself",
+          "it self"
+        ],
+        "explain": "Itself. Washed who? The cat. Doer and receiver are the same, so it is reflexive."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The English quirk",
+      "title": "Some verbs do not take one, and it sounds wrong if you add it",
+      "text": "Many languages use a reflexive where English does not. These are the ones that catch people out.",
+      "points": [
+        "**\"I feel tired.\"** Not *I feel myself tired*.",
+        "**\"He got up.\"** Not *he got himself up*.",
+        "**\"She concentrated.\"** Not *concentrated herself*.",
+        "**English drops it** where other languages keep it."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Self-damage is the clearest case in English",
+      "text": "Every game distinguishes damage you take from an enemy and damage you did to yourself. So does the grammar.",
+      "points": [
+        "**\"He healed himself.\"** Target and caster are one.",
+        "**\"He healed the team.\"** Different target.",
+        "**Same verb, different object.**",
+        "**The -self word is the target.**"
+      ]
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Grammar done. Part 2 is the windmills — the most famous thing in the book. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "🌬️",
+      "eyebrow": "Part 2 · Don Quixote",
+      "title": "The Adventure with the Windmills",
+      "text": "Thirty or forty windmills on a plain. This is the scene everybody knows even if they have never opened the book."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "What he sees",
+      "title": "Giants with enormous arms",
+      "text": "He tells Sancho that fortune is guiding them, and that he intends to fight and kill every one of them.",
+      "points": [
+        "**Sancho says plainly: they are windmills.**",
+        "**Those are the sails**, not arms.",
+        "**Don Quixote rides at them anyway.**",
+        "**Sancho warns him again.** He does not stop."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "What happens",
+      "title": "The sail lifts him and drops him",
+      "text": "The wind rises. A sail catches his lance, shatters it, and drags horse and rider across the field.",
+      "points": [
+        "**The lance is destroyed.**",
+        "**Rocinante and Don Quixote both go down hard.**",
+        "**Sancho arrives and finds him unable to move.**",
+        "**It is a total, uncomplicated defeat.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What does Don Quixote take the windmills to be?",
+        "options": [
+          "Giants",
+          "Enchanters",
+          "An enemy army",
+          "A castle"
+        ],
+        "answerIndex": 0,
+        "explain": "Giants with long arms. Sancho tells him they are windmills before he charges, and he charges anyway."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The excuse",
+      "title": "He blames the enchanter Freston",
+      "text": "He says the wizard turned the giants into windmills at the last moment. It was done to rob him of the glory.",
+      "points": [
+        "**Not \"I was wrong.\"**",
+        "**\"Somebody changed them to spite me.\"**",
+        "**This is the enchanter excuse from Week 5**, again.",
+        "**Nothing that happens can reach him.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "This is why the phrase exists",
+      "text": "\"Tilting at windmills\" means attacking an imaginary enemy. One scene in one book, and four hundred years later it is a common phrase.",
+      "points": [
+        "**A picture people remember** beats an argument.",
+        "**Sancho was right and it changed nothing.**",
+        "**Being told the truth** is not the same as accepting it.",
+        "**The scene works because we can see both versions.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "After being knocked down, Don Quixote admits the giants were windmills.",
+        "answer": false,
+        "explain": "False. He says an enchanter turned them into windmills to steal his glory."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "reflexive pronoun", "def": "A -self word acting as the object, where the subject and object are the same." },
+        { "term": "intensive pronoun", "def": "The same word used only for emphasis. It can be removed." },
+        { "term": "the deletion test", "def": "Take the -self word out. If the sentence breaks, it was reflexive." },
+        { "term": "object", "def": "The person or thing the verb acts on." },
+        { "term": "tilting at windmills", "def": "Attacking an imaginary enemy. The phrase comes from this chapter." },
+        { "term": "Freston", "def": "The enchanter Don Quixote blames for turning the giants into windmills." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Reflexive: subject and object are the same person.**",
+        "**Delete it. If the sentence breaks, it was reflexive.**",
+        "**English drops it** where other languages keep it.",
+        "**Sancho was right, and it changed nothing.**"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "What is a reflexive pronoun?",
+      "options": [
+        "A -self word acting as the object, where subject and object are the same",
+        "A -self word used only for emphasis",
+        "A word showing possession",
+        "A word that replaces a noun in any position"
+      ],
+      "answerIndex": 0,
+      "explain": "Doer and receiver are the same person, and the -self word is doing real work as the object.",
+      "objective": "Define a reflexive pronoun"
+    },
+    {
+      "type": "multiple",
+      "text": "Which sentence uses a reflexive pronoun?",
+      "options": [
+        "He taught himself to swim",
+        "He himself taught the class",
+        "The class itself was small",
+        "They painted it themselves"
+      ],
+      "answerIndex": 0,
+      "explain": "Taught who? Himself is the object. In the other three the word can be removed.",
+      "objective": "Define a reflexive pronoun"
+    },
+    {
+      "type": "multiple",
+      "text": "How do you tell a reflexive pronoun from an intensive one?",
+      "options": [
+        "Delete it. If the sentence breaks, it was reflexive",
+        "Check whether it is singular or plural",
+        "Look at where it appears in the sentence",
+        "See whether it ends in -self or -selves"
+      ],
+      "answerIndex": 0,
+      "explain": "An intensive pronoun is removable. A reflexive one is the object, so removing it leaves a gap.",
+      "objective": "Explain how a reflexive pronoun differs from an intensive one"
+    },
+    {
+      "type": "type",
+      "text": "Complete it: \"The children helped ___ to more rice.\"",
+      "accept": [
+        "themselves"
+      ],
+      "explain": "Themselves. The children are both doing the helping and receiving it.",
+      "objective": "Use reflexive pronouns correctly as objects"
+    },
+    {
+      "type": "multiple",
+      "text": "Complete it: \"I made ___ a promise.\"",
+      "options": [
+        "myself",
+        "me",
+        "mine",
+        "my"
+      ],
+      "answerIndex": 0,
+      "explain": "I is the subject and the promise was made to the same person, so it is myself.",
+      "objective": "Use reflexive pronouns correctly as objects"
+    },
+    {
+      "type": "multiple",
+      "text": "Which sentence is wrong in English?",
+      "options": [
+        "I feel myself tired",
+        "I feel tired",
+        "He got up early",
+        "She concentrated hard"
+      ],
+      "answerIndex": 0,
+      "explain": "English does not use a reflexive with feel. Many other languages do, which is why this is a common error.",
+      "objective": "Recognise verbs that do not take a reflexive pronoun in English"
+    },
+    {
+      "type": "truefalse",
+      "text": "\"He got himself up early\" is standard English.",
+      "answer": false,
+      "explain": "False. \"He got up early\" is the natural form. English drops the reflexive with this verb.",
+      "objective": "Recognise verbs that do not take a reflexive pronoun in English"
+    },
+    {
+      "type": "multiple",
+      "text": "What does Don Quixote believe the windmills are?",
+      "options": [
+        "Giants",
+        "Enchanted castles",
+        "An army of knights",
+        "A herd of animals"
+      ],
+      "answerIndex": 0,
+      "explain": "Giants with long arms. The arms are the sails, as Sancho tells him before the charge.",
+      "objective": "Retell the windmills episode and explain what Don Quixote concludes"
+    },
+    {
+      "type": "multiple",
+      "text": "What happens when he charges?",
+      "options": [
+        "A sail shatters his lance and drags him down",
+        "He defeats several of them",
+        "The windmills stop turning",
+        "Sancho pulls him back in time"
+      ],
+      "answerIndex": 0,
+      "explain": "The wind rises, the sail catches the lance, and both horse and rider are thrown across the field.",
+      "objective": "Retell the windmills episode and explain what Don Quixote concludes"
+    },
+    {
+      "type": "multiple",
+      "text": "How does Don Quixote explain his defeat?",
+      "options": [
+        "An enchanter turned the giants into windmills",
+        "He admits he was mistaken",
+        "He blames Rocinante",
+        "He says the wind was unfair"
+      ],
+      "answerIndex": 0,
+      "explain": "He names the enchanter Freston, who he says did it to rob him of the glory.",
+      "objective": "Retell the windmills episode and explain what Don Quixote concludes"
+    },
+    {
+      "type": "truefalse",
+      "text": "Sancho warns him that they are windmills before he charges.",
+      "answer": true,
+      "explain": "True, and more than once. Being told the truth is not the same as accepting it.",
+      "objective": "Retell the windmills episode and explain what Don Quixote concludes"
+    },
+    {
+      "type": "multiple",
+      "text": "What does the phrase \"tilting at windmills\" mean?",
+      "options": [
+        "Attacking an imaginary enemy",
+        "Working very hard",
+        "Travelling a long way",
+        "Losing a fair fight"
+      ],
+      "answerIndex": 0,
+      "explain": "It comes straight from this chapter, and it has outlasted almost everything else in the book.",
+      "objective": "Retell the windmills episode and explain what Don Quixote concludes"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 7 English covers reflexive pronouns alongside the windmills episode, matching the Term 1 weekly scope. It is deliberately the other half of Week 6: same eight words, different job, and the selfPronouns figure is reused so the contrast is made with the identical diagram rather than a new one. The deletion test is the whole method and is stated three times on purpose. The section on verbs that take no reflexive in English is included because it is where speakers of most other languages go wrong, and it is worth naming rather than leaving to instinct. NOTE ON THE TEXT: the school's edition is abridged and does not match Cervantes' chapter numbering, so this lesson follows the episode named in the title.",
+    "discussion": [
+      "Ask him to run the deletion test on five sentences from anything he is reading. It takes two minutes and settles the topic.",
+      "Ask what changes between 'he trained' and 'he trained himself'. The reflexive makes it deliberate.",
+      "Ask why Sancho telling the truth made no difference. That question is most of what the book is about.",
+      "Ask him where he has heard 'tilting at windmills'. It is one of the few phrases from a novel that everyone uses."
+    ],
+    "extension": "Have him write the windmill scene twice, once from Don Quixote's point of view and once from Sancho's, using reflexive pronouns in both. Two accounts of one event is the whole technique of the chapter.",
+    "misconceptions": [
+      "'Reflexive and intensive pronouns are different words.' They are the same eight words doing two different jobs.",
+      "'If it ends in -self it is reflexive.' Only if it is the object. Delete it and see whether the sentence survives.",
+      "'I feel myself tired is more emphatic.' It is not English. Feel takes no reflexive here.",
+      "'Don Quixote realises his mistake after the windmills.' He blames an enchanter. Nothing that happens reaches him."
+    ]
+  }
+}

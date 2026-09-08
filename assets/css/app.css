@@ -985,6 +985,12 @@ strong { font-weight: 700; color: var(--ink); }
 .fig-cut      { stroke: var(--ink); stroke-width: 1.5; stroke-dasharray: 4 3; }
 .fig-frac     { font-family: var(--font-ui); font-size: 17px; font-weight: 800; fill: var(--ink); }
 
+/* ---------- Reflexive / intensive pronoun figure ---------- */
+.fig-strike { stroke: var(--notyet); stroke-width: 2.5; stroke-linecap: round; }
+.fig-sent-dim { fill: var(--ink-faint); }
+.fig-verdict-ok  { font-family: var(--font-ui); font-size: 13px; font-weight: 800; fill: var(--accent); }
+.fig-verdict-no  { font-family: var(--font-ui); font-size: 13px; font-weight: 800; fill: var(--notyet); }
+
 /* ---------- Sign-in flow ---------- */
 /* Two named steps, so it's always obvious where you are and what's left. */
 .signin-steps {

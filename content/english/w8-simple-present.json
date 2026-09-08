@@ -1,0 +1,445 @@
+{
+  "id": "eng-w8",
+  "courseId": "english",
+  "courseTitle": "English",
+  "week": 8,
+  "title": "Simple Present Tense",
+  "subtitle": "The tense for habits, facts and things happening right now on screen.",
+  "estMinutes": 20,
+  "objectives": [
+    "Form the simple present tense, including the third person singular",
+    "Apply the spelling rules for adding -s or -es",
+    "Explain the four main uses of the simple present",
+    "Form negatives and questions using do and does",
+    "Retell the episode with the monks and the coach"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🕐",
+      "eyebrow": "Part 1 · Forming it",
+      "title": "The tense you use most and think about least",
+      "text": "It is the base form of the verb, with one change for he, she and it. That one change is where all the marks are."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The pattern",
+      "title": "Only the third person singular changes",
+      "text": "Five of the six forms are just the plain verb. The odd one out is he, she or it.",
+      "points": [
+        "**I walk · you walk · we walk · they walk.**",
+        "**He walks · she walks · it walks.**",
+        "**One ending, one place.**",
+        "**Forgetting the -s** is the most marked error at this level."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "verbEndings",
+      "eyebrow": "The spelling",
+      "title": "When it is -s and when it is -es",
+      "text": "Six rules. Tap through — two quiz questions come from these."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is the correct third person form of \"watch\"?",
+        "options": [
+          "watches",
+          "watchs",
+          "watchies",
+          "watch"
+        ],
+        "answerIndex": 0,
+        "explain": "Verbs ending in -ch take -es, because -s alone would be unsayable."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The y rule",
+      "title": "It depends on the letter before the y",
+      "text": "This is the rule that separates the people who learned it from the people who guessed.",
+      "points": [
+        "**Consonant + y:** change y to i, add -es. *carry → carries*",
+        "**Vowel + y:** keep the y, add -s. *play → plays*",
+        "**Look at the letter before the y.**",
+        "**Never *playies*.** The a protects the y."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "Write the third person singular of \"study\".",
+        "accept": [
+          "studies",
+          "he studies",
+          "she studies"
+        ],
+        "explain": "Consonant before the y, so the y becomes i and -es is added: studies."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Forming it is done. Part 2 is what it is for, and the monks. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "🎙️",
+      "eyebrow": "Part 2 · Using it",
+      "title": "Four jobs, and one of them surprises people",
+      "text": "Habits and facts are the obvious two. The other two are why sports commentary and stage directions sound the way they do."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The four uses",
+      "title": "What the simple present is for",
+      "text": "These are the four the exam asks about. The last two are the ones students never think of.",
+      "points": [
+        "**Habits:** \"He trains every morning.\"",
+        "**General truths:** \"Water boils at 100 °C.\"",
+        "**Timetables:** \"The bus leaves at six.\"",
+        "**Commentary:** \"He passes, he shoots, he scores.\""
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🏎️",
+      "eyebrow": "Forza mode",
+      "title": "Every race commentary is in the present tense",
+      "text": "\"He goes wide, he takes the inside line, he holds it.\" All happening now, all in the simple present.",
+      "points": [
+        "**Not \"he went wide.\"** That is a report afterwards.",
+        "**The present makes it live.**",
+        "**Same in football, boxing and gaming.**",
+        "**It is a deliberate choice**, not an accident."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "\"The train leaves at 7:15.\" Which use is this?",
+        "options": [
+          "A timetable or schedule",
+          "A habit",
+          "A general truth",
+          "Commentary"
+        ],
+        "answerIndex": 0,
+        "explain": "A fixed schedule. English uses the simple present for these even though the event is in the future."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "A training plan is written in the present tense",
+      "text": "Not \"you will warm up\" but \"you warm up, you shadow box, you spar\". It reads as what happens, not what might.",
+      "points": [
+        "**A habit is stated as a fact.**",
+        "**\"He trains every morning\"** — simple present.",
+        "**\"He is training\"** means right this second.",
+        "**Different tense, different claim.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Negatives and questions",
+      "title": "Do and does take the -s so the main verb does not",
+      "text": "Once you add do or does, the main verb goes back to its plain form. This is where the double -s error happens.",
+      "points": [
+        "**\"She *doesn't* play.\"** Not *doesn't plays*.",
+        "**\"*Does* he play?\"** Not *does he plays*.",
+        "**The -s moved to the helper.**",
+        "**Only one word carries it.** Ever."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Every tooltip is in the simple present",
+      "text": "\"This weapon deals extra damage. The potion restores health.\" Nothing is being described as happening once.",
+      "points": [
+        "**A tooltip states a general truth.**",
+        "**\"Restores\"**, not restored or is restoring.",
+        "**That is why they read as rules.**",
+        "**You have read thousands of these.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which sentence is correct?",
+        "options": [
+          "She doesn't like coffee",
+          "She doesn't likes coffee",
+          "She don't likes coffee",
+          "She not like coffee"
+        ],
+        "answerIndex": 0,
+        "explain": "Does carries the -s, so like goes back to its plain form. Only one word takes the ending."
+      }
+    },
+    {
+      "kind": "open",
+      "icon": "⛪",
+      "eyebrow": "Don Quixote",
+      "title": "The Adventure with the Monks",
+      "text": "Two monks on mules come down the road, and behind them a coach carrying a lady. Don Quixote reads the scene instantly and wrongly."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "What he decides",
+      "title": "Enchanters carrying off a princess",
+      "text": "The monks are travellers minding their own business. The lady in the coach is not connected to them at all.",
+      "points": [
+        "**He announces it to Sancho as fact.**",
+        "**Sancho warns him**, exactly as before.",
+        "**He attacks anyway** and knocks a monk off his mule.",
+        "**The monks are wearing travelling masks** against the dust."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "What Sancho does",
+      "title": "The squire helps himself to the spoils",
+      "text": "Sancho begins stripping the fallen monk of his clothes, on the grounds that spoils belong to the victor.",
+      "points": [
+        "**He has learned the rules of chivalry** selectively.",
+        "**The monks' servants beat him for it.**",
+        "**Nobody in this scene** comes out well.",
+        "**Cervantes is laughing at both of them.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What does Don Quixote believe the monks are doing?",
+        "options": [
+          "Carrying off a princess by force",
+          "Robbing the coach",
+          "Guarding a treasure",
+          "Racing him to the next town"
+        ],
+        "answerIndex": 0,
+        "explain": "He decides they are enchanters abducting a princess. They are two travellers on mules."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "simple present",
+          "def": "The base form of the verb, with -s or -es for he, she and it."
+        },
+        {
+          "term": "third person singular",
+          "def": "He, she or it. The only form that changes in the simple present."
+        },
+        {
+          "term": "general truth",
+          "def": "Something always true. Water boils at 100 °C."
+        },
+        {
+          "term": "habitual action",
+          "def": "Something done regularly. He trains every morning."
+        },
+        {
+          "term": "auxiliary verb",
+          "def": "A helper verb. Do and does form negatives and questions."
+        },
+        {
+          "term": "spoils",
+          "def": "Goods taken from a defeated enemy. Sancho claims the monk's clothes as these."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Only he, she and it take -s or -es.**",
+        "**Consonant + y → -ies. Vowel + y → -s.**",
+        "**After do or does**, the main verb loses the -s.",
+        "**Habits, truths, timetables, commentary.**"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Which form is correct?",
+      "options": [
+        "She goes to school by bus",
+        "She go to school by bus",
+        "She gos to school by bus",
+        "She going to school by bus"
+      ],
+      "answerIndex": 0,
+      "explain": "Go ends in -o, so it takes -es. She, he and it are the only forms that change.",
+      "objective": "Form the simple present tense, including the third person singular"
+    },
+    {
+      "type": "type",
+      "text": "Write the third person singular of \"fix\".",
+      "accept": [
+        "fixes",
+        "he fixes",
+        "she fixes"
+      ],
+      "explain": "Verbs ending in -x take -es. Fixes.",
+      "objective": "Apply the spelling rules for adding -s or -es"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the third person singular of \"carry\"?",
+      "options": [
+        "carries",
+        "carrys",
+        "carryes",
+        "carry"
+      ],
+      "answerIndex": 0,
+      "explain": "There is a consonant before the y, so the y becomes i and -es is added.",
+      "objective": "Apply the spelling rules for adding -s or -es"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the third person singular of \"enjoy\"?",
+      "options": [
+        "enjoys",
+        "enjoies",
+        "enjoyes",
+        "enjoy"
+      ],
+      "answerIndex": 0,
+      "explain": "There is a vowel before the y, so the y stays and you just add -s.",
+      "objective": "Apply the spelling rules for adding -s or -es"
+    },
+    {
+      "type": "multiple",
+      "text": "\"Water freezes at 0 °C.\" Which use of the simple present is this?",
+      "options": [
+        "A general truth",
+        "A habit",
+        "A timetable",
+        "Commentary"
+      ],
+      "answerIndex": 0,
+      "explain": "Always true, regardless of when you say it. That is a general truth.",
+      "objective": "Explain the four main uses of the simple present"
+    },
+    {
+      "type": "multiple",
+      "text": "\"He shoots, he scores!\" Which use is this?",
+      "options": [
+        "Commentary on something happening now",
+        "A habit",
+        "A general truth",
+        "A timetable"
+      ],
+      "answerIndex": 0,
+      "explain": "Live commentary uses the simple present, which is why it feels immediate.",
+      "objective": "Explain the four main uses of the simple present"
+    },
+    {
+      "type": "multiple",
+      "text": "\"The film starts at eight.\" Which use is this?",
+      "options": [
+        "A schedule",
+        "A habit",
+        "Commentary",
+        "A general truth"
+      ],
+      "answerIndex": 0,
+      "explain": "English uses the simple present for fixed timetables, even for a future event.",
+      "objective": "Explain the four main uses of the simple present"
+    },
+    {
+      "type": "multiple",
+      "text": "Which sentence is correct?",
+      "options": [
+        "He doesn't want to go",
+        "He doesn't wants to go",
+        "He don't wants to go",
+        "He not want to go"
+      ],
+      "answerIndex": 0,
+      "explain": "Does carries the ending, so want returns to its plain form.",
+      "objective": "Form negatives and questions using do and does"
+    },
+    {
+      "type": "multiple",
+      "text": "Which question is correct?",
+      "options": [
+        "Does she play the guitar?",
+        "Does she plays the guitar?",
+        "Do she plays the guitar?",
+        "She does play guitar?"
+      ],
+      "answerIndex": 0,
+      "explain": "Does takes the -s, so the main verb stays plain. Only one word carries the ending.",
+      "objective": "Form negatives and questions using do and does"
+    },
+    {
+      "type": "multiple",
+      "text": "What does Don Quixote take the two monks to be?",
+      "options": [
+        "Enchanters carrying off a princess",
+        "Thieves escaping with treasure",
+        "Knights looking for a duel",
+        "Merchants from Toledo"
+      ],
+      "answerIndex": 0,
+      "explain": "They are travellers on mules. The lady in the coach behind them is nothing to do with them.",
+      "objective": "Retell the episode with the monks and the coach"
+    },
+    {
+      "type": "multiple",
+      "text": "What does Sancho do after the monk falls?",
+      "options": [
+        "He starts taking the monk's clothes as spoils",
+        "He apologises to the monks",
+        "He rides away",
+        "He helps the monk back onto his mule"
+      ],
+      "answerIndex": 0,
+      "explain": "He has picked up the rules of chivalry selectively. The monks' servants beat him for it.",
+      "objective": "Retell the episode with the monks and the coach"
+    },
+    {
+      "type": "truefalse",
+      "text": "Sancho warns Don Quixote before he attacks the monks.",
+      "answer": true,
+      "explain": "True, as he did at the windmills. It makes no difference either time.",
+      "objective": "Retell the episode with the monks and the coach"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 8 English covers the simple present alongside the episode with the monks, matching the Term 1 weekly scope. The forming half is a spelling topic more than a grammar one, and the verbEndings figure carries the six rules so the cards can spend their space on the y rule, which is the one that separates learning from guessing. The four uses are given equal weight because students reliably know two of them and have never noticed the other two — commentary and timetables — even though they meet both daily. The do/does card targets the double-ending error, which survives well past this age group. NOTE ON THE TEXT: the school's edition is abridged and does not follow Cervantes' chapter numbering, so this lesson follows the episode named in the title.",
+    "discussion": [
+      "Put a match on mute and have him commentate for thirty seconds. Every verb will come out in the simple present without being told.",
+      "Ask why 'she doesn't likes' is wrong. One word carries the ending, and naming that fixes it permanently.",
+      "Ask him to read a game tooltip aloud and name the tense. Tooltips are general truths, and that is why they read as rules.",
+      "Ask whether anybody in the monks episode behaves well. Sancho is as ridiculous as his master here, on purpose."
+    ],
+    "extension": "Have him write six tooltips for imaginary items, all in the simple present. Getting the third person -s right six times in a row is the exercise.",
+    "misconceptions": [
+      "'All verbs add -s in the present tense.' Only he, she and it change at all.",
+      "'Every -y becomes -ies.' Only after a consonant. Play becomes plays, not playies.",
+      "'Doesn't likes is more emphatic.' It is wrong. Does already carries the ending.",
+      "'The simple present is only for now.' It also covers habits, general truths and fixed timetables."
+    ]
+  }
+}

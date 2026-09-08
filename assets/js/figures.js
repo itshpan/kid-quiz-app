@@ -3346,6 +3346,116 @@ function ratioBars() {
     });
 }
 
+/* ==========================================================================
+   ENGLISH, WEEKS 6-10.
+   ========================================================================== */
+
+/* ---------- Take the -self word out and see what happens ---------- */
+/* Intensive and reflexive pronouns look identical. The only reliable test is
+   deletion: an intensive one can be removed and the sentence survives, and a
+   reflexive one cannot. Striking the word out on screen is that test, done. */
+function selfPronouns() {
+    const CH = 8.4;
+    const line = (segs, y) => {
+        const total = segs.reduce((n, s) => n + s.t.length, 0);
+        let x = 200 - (total * CH) / 2;
+        let out = '';
+        for (const s of segs) {
+            const w = s.t.length * CH;
+            const cls = s.cut ? 'fig-sent fig-sent-dim' : s.hi ? 'fig-sent fig-sent-hi' : 'fig-sent';
+            out += `<text class="${cls}" x="${x.toFixed(1)}" y="${y}">${s.t}</text>`;
+            if (s.cut) out += `<path class="fig-strike" d="M${(x + 1).toFixed(1)} ${y - 5} L${(x + w - 4).toFixed(1)} ${y - 5}"/>`;
+            x += w;
+        }
+        return out;
+    };
+
+    return demoSwitch({
+        id: 'sp', height: 246, capY: 196,
+        label: 'CROSS IT OUT AND SEE',
+        alt: 'An intensive pronoun struck out leaving a working sentence, and a reflexive one leaving a broken sentence',
+        demos: [
+            { btn: 'Intensive',
+              svg: line([{ t: 'I ' }, { t: 'myself ', hi: true }, { t: 'saw the whole thing.' }], 92)
+                 + line([{ t: 'I ' }, { t: 'myself ', cut: true }, { t: 'saw the whole thing.' }], 132)
+                 + `<text class="fig-verdict-ok" x="200" y="166" text-anchor="middle">STILL A SENTENCE · INTENSIVE</text>`,
+              a: 'Intensive: it only adds emphasis',
+              b: 'Take it out and the sentence still works. That is the test.' },
+            { btn: 'Reflexive',
+              svg: line([{ t: 'She taught ' }, { t: 'herself ', hi: true }, { t: 'to code.' }], 92)
+                 + line([{ t: 'She taught ' }, { t: 'herself ', cut: true }, { t: 'to code.' }], 132)
+                 + `<text class="fig-verdict-no" x="200" y="166" text-anchor="middle">TAUGHT WHO? · REFLEXIVE</text>`,
+              a: 'Reflexive: it is the object of the verb',
+              b: 'Take it out and the sentence breaks. It was doing real work.' },
+            { btn: 'The eight',
+              svg: `<text class="fig-step" x="112" y="70" text-anchor="middle">SINGULAR</text>
+                    <text class="fig-step" x="288" y="70" text-anchor="middle">PLURAL</text>
+                    <line class="fig-rule" x1="24" y1="78" x2="376" y2="78"/>
+                    ${['myself', 'yourself', 'himself', 'herself', 'itself'].map((w, i) =>
+                        `<text class="fig-cell" x="112" y="${100 + i * 22}" text-anchor="middle">${w}</text>`).join('')}
+                    ${['ourselves', 'yourselves', 'themselves'].map((w, i) =>
+                        `<text class="fig-cell" x="288" y="${100 + i * 22}" text-anchor="middle">${w}</text>`).join('')}
+                    <text class="fig-verdict-no" x="288" y="176" text-anchor="middle">NOT hisself · NOT theirselves</text>`,
+              a: 'Eight forms. Singular ends -self, plural ends -selves',
+              b: 'Hisself and theirselves are not words. They never have been.' }
+        ]
+    });
+}
+
+/* ---------- Adding -s or -es in the present tense ---------- */
+function verbEndings() {
+    return listPicker({
+        id: 've', label: 'HE, SHE, IT — ADD SOMETHING',
+        alt: 'Spelling rules for the third person singular in the simple present tense',
+        rows: [
+            { btn: 'Most', short: 'Most verbs',
+              a: 'Just add -s', b: 'run → runs · eat → eats · play → plays' },
+            { btn: '-s -sh -ch', short: 'Ends -s, -sh, -ch, -x, -z',
+              a: 'Add -es, because -s alone would be unsayable',
+              b: 'watch → watches · fix → fixes · pass → passes' },
+            { btn: '-o', short: 'Ends in -o',
+              a: 'Add -es', b: 'go → goes · do → does' },
+            { btn: 'Consonant + y', short: 'Consonant then -y',
+              a: 'Change the y to i and add -es',
+              b: 'carry → carries · study → studies · fly → flies' },
+            { btn: 'Vowel + y', short: 'Vowel then -y',
+              a: 'Keep the y and just add -s',
+              b: 'play → plays · enjoy → enjoys. Not playies.' },
+            { btn: 'Odd ones', short: 'have and be',
+              a: 'These two do not follow any rule',
+              b: 'have → has · be → is. Learn them separately.' }
+        ]
+    });
+}
+
+/* ---------- The subject-verb agreement traps ---------- */
+function agreementTraps() {
+    return listPicker({
+        id: 'at', label: 'SIX PLACES AGREEMENT GOES WRONG',
+        alt: 'Six subject-verb agreement traps, each with the rule and a correct example',
+        rows: [
+            { btn: 'Phrase', short: 'A phrase in the way',
+              a: 'Ignore everything between the subject and the verb',
+              b: 'The box of chocolates IS on the table. Box is the subject.' },
+            { btn: 'Each', short: 'each, every, -one, -body',
+              a: 'All singular, however plural they sound',
+              b: 'Everyone HAS a partner. Each of the boys IS ready.' },
+            { btn: 'and / or', short: 'Joined by and, or, nor',
+              a: 'And makes it plural. Or and nor match the nearer one',
+              b: 'Neither the boys nor the coach WAS late.' },
+            { btn: 'Group', short: 'Collective nouns',
+              a: 'A team, class or family is one group',
+              b: 'The team IS winning. The team members ARE winning.' },
+            { btn: 'There', short: 'there is / there are',
+              a: 'The real subject comes after the verb',
+              b: 'There ARE three reasons. There IS one reason.' },
+            { btn: 'Amounts', short: 'Amounts and titles',
+              a: 'A quantity acting as one thing takes a singular verb',
+              b: 'Ten pesos IS enough. Five kilometres IS a long way.' }
+        ]
+    });
+}
+
 export const FIGURES = {
     crumpleZone,
     muscleTypes,
@@ -3402,7 +3512,10 @@ export const FIGURES = {
     separationMethods,
     fractionBars,
     fractionOps,
-    ratioBars
+    ratioBars,
+    selfPronouns,
+    verbEndings,
+    agreementTraps
 };
 
 

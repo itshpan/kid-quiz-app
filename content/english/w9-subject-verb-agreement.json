@@ -1,0 +1,426 @@
+{
+  "id": "eng-w9",
+  "courseId": "english",
+  "courseTitle": "English",
+  "week": 9,
+  "title": "Subject-Verb Agreement",
+  "subtitle": "Find the subject first. Everything else is a distraction.",
+  "estMinutes": 20,
+  "objectives": [
+    "State the basic rule of subject-verb agreement",
+    "Find the subject when a phrase separates it from the verb",
+    "Use singular verbs with indefinite pronouns",
+    "Handle subjects joined by and, or and nor",
+    "Use the correct verb with collective nouns and with there is or there are",
+    "Retell the episode of the helmet"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🔗",
+      "eyebrow": "Part 1 · The rule",
+      "title": "One rule, and then a list of things that hide the subject",
+      "text": "Singular subject, singular verb. That takes ten seconds to learn. The rest of the topic is finding the subject at all."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The rule",
+      "title": "The verb matches the subject in number",
+      "text": "There is a useful oddity in English: usually only one of the two words carries an -s.",
+      "points": [
+        "**The dog runs.** Verb has the -s.",
+        "**The dogs run.** Noun has the -s.",
+        "**Rarely both. Rarely neither.**",
+        "**A rough check**, not a law. But it catches a lot."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "agreementTraps",
+      "eyebrow": "The six traps",
+      "title": "Where agreement goes wrong",
+      "text": "Tap through all six. Several quiz questions come from these."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which is correct?",
+        "options": [
+          "The box of chocolates is on the table",
+          "The box of chocolates are on the table",
+          "The box of chocolate are on the table",
+          "The boxes of chocolates is on the table"
+        ],
+        "answerIndex": 0,
+        "explain": "The subject is box, which is singular. \"Of chocolates\" is a phrase in the way."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Trap one",
+      "title": "Cross out everything between the subject and the verb",
+      "text": "Prepositional phrases sit between the two and pull your ear toward the wrong noun. Delete them and the answer is obvious.",
+      "points": [
+        "**The *list* of names *is* long.** Not are.",
+        "**The *cost* of the tickets *was* high.**",
+        "**Cross out \"of the tickets\"** and it is clear.",
+        "**The noun nearest the verb** is usually a trap."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🏎️",
+      "eyebrow": "Forza mode",
+      "title": "\"The set of tyres is ready\"",
+      "text": "Four tyres, one set. The word doing the work is set, and set is singular however many tyres are involved.",
+      "points": [
+        "**A *set* of tyres *is* ready.**",
+        "**The *tyres* *are* ready.** Different subject.",
+        "**Both correct**, describing the same rubber.",
+        "**The subject decides**, not the picture in your head."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which is correct?",
+        "options": [
+          "Each of the players has a locker",
+          "Each of the players have a locker",
+          "Each of the player have a locker",
+          "Each of the players are having a locker"
+        ],
+        "answerIndex": 0,
+        "explain": "Each is singular. \"Of the players\" is the trap, and it is not the subject."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Trap two",
+      "title": "The words that sound plural and are not",
+      "text": "You met these in Week 5 with pronoun agreement. The same list applies to verbs, for the same reason.",
+      "points": [
+        "**everyone, everybody, someone, somebody**",
+        "**anyone, anybody, no one, nobody**",
+        "**each, either, neither, one**",
+        "**All singular.** All take a singular verb."
+      ]
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Three traps down. Part 2 is joined subjects and the helmet. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "➕",
+      "eyebrow": "Part 2 · Joined subjects",
+      "title": "Two nouns, one verb, and it depends on the joining word",
+      "text": "This is the same rule you learned for pronouns in Week 5, applied to verbs. Knowing that saves learning it twice."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Trap three",
+      "title": "And makes it plural. Or and nor look at the nearer one",
+      "text": "The joining word decides everything, and swapping the order of the two nouns can change the verb.",
+      "points": [
+        "**Ana *and* Ben *are* here.** Two people.",
+        "**Neither the boys *nor* the coach *was* late.**",
+        "**Neither the coach *nor* the boys *were* late.**",
+        "**Same people. Different verb.** The nearer one wins."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Complete it: \"Either the teachers or the principal ___ the letter.\"",
+        "options": [
+          "signs",
+          "sign",
+          "are signing",
+          "have signed"
+        ],
+        "answerIndex": 0,
+        "explain": "The nearer subject is principal, which is singular. Reverse the order and it becomes sign."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Traps four and five",
+      "title": "Groups, and sentences that start with there",
+      "text": "A collective noun is one group. And in a \"there is\" sentence, the subject has not arrived yet when you choose the verb.",
+      "points": [
+        "**The *team is* winning.** One group.",
+        "**The team *members are* winning.** Different subject.",
+        "**\"There *are* three reasons.\"** Reasons is the subject.",
+        "**Read past the verb** to find what it agrees with."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "\"There are two players online\"",
+      "text": "The word \"there\" is not the subject and never has been. Whatever comes after the verb is what the verb has to match.",
+      "points": [
+        "**\"There *is* one player.\"** Singular.",
+        "**\"There *are* two players.\"** Plural.",
+        "**The verb comes before the subject** here.",
+        "**Read ahead**, then choose."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which is correct?",
+        "options": [
+          "There are several reasons for this",
+          "There is several reasons for this",
+          "There be several reasons for this",
+          "There am several reasons for this"
+        ],
+        "answerIndex": 0,
+        "explain": "Reasons is the subject, and it is plural. There is never the subject."
+      }
+    },
+    {
+      "kind": "open",
+      "icon": "🪖",
+      "eyebrow": "Don Quixote",
+      "title": "The Lost Helmet",
+      "text": "It is raining. A barber rides past with his brass shaving basin upturned on his head, to keep his hat dry."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "What he sees",
+      "title": "The golden helmet of Mambrino",
+      "text": "In the books he has read, a famous knight owned a helmet of pure gold. He decides that this is it, and rides at the barber.",
+      "points": [
+        "**The barber flees** and leaves the basin behind.",
+        "**Don Quixote puts it on** and wears it for chapters.",
+        "**Sancho says plainly** that it is a barber's basin.",
+        "**Don Quixote agrees it looks like one.** Then keeps it."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "A joke that gets better every time it appears",
+      "text": "The basin comes back again and again, and each time somebody has to decide what to call it. That running argument is the joke.",
+      "points": [
+        "**Sancho calls it a basin.**",
+        "**Don Quixote calls it a helmet.**",
+        "**Later characters split the difference on purpose.**",
+        "**An object nobody agrees on** is a very good device."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is the helmet actually?",
+        "options": [
+          "A barber's brass shaving basin",
+          "A cooking pot",
+          "A soldier's old helmet",
+          "A church bell"
+        ],
+        "answerIndex": 0,
+        "explain": "A shaving basin, worn upside down in the rain to protect a hat. Sancho says so and is ignored."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "subject-verb agreement", "def": "The verb must match the subject in number." },
+        { "term": "prepositional phrase", "def": "A phrase like 'of the tickets' that sits between subject and verb." },
+        { "term": "indefinite pronoun", "def": "Everyone, each, nobody and the rest. Nearly all singular." },
+        { "term": "compound subject", "def": "Two subjects joined. And makes it plural; or and nor take the nearer one." },
+        { "term": "collective noun", "def": "One word for a group: team, class, family. Takes a singular verb." },
+        { "term": "expletive there", "def": "The 'there' in 'there is'. Never the subject of the sentence." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Find the subject.** Cross out what sits in between.",
+        "**Each, everyone, nobody** — all singular.",
+        "**And = plural. Or and nor = the nearer one.**",
+        "**In \"there is\", read past the verb.**"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Which is correct?",
+      "options": [
+        "The list of names is on the desk",
+        "The list of names are on the desk",
+        "The lists of name is on the desk",
+        "The list of name are on the desk"
+      ],
+      "answerIndex": 0,
+      "explain": "The subject is list, which is singular. \"Of names\" is a phrase in the way.",
+      "objective": "Find the subject when a phrase separates it from the verb"
+    },
+    {
+      "type": "multiple",
+      "text": "Which is correct?",
+      "options": [
+        "The cost of the repairs was high",
+        "The cost of the repairs were high",
+        "The costs of the repair was high",
+        "The cost of the repair are high"
+      ],
+      "answerIndex": 0,
+      "explain": "Cost is the subject. Cross out \"of the repairs\" and it becomes obvious.",
+      "objective": "Find the subject when a phrase separates it from the verb"
+    },
+    {
+      "type": "multiple",
+      "text": "Complete it: \"Everybody ___ finished the test.\"",
+      "options": [
+        "has",
+        "have",
+        "are",
+        "were"
+      ],
+      "answerIndex": 0,
+      "explain": "Everybody is singular, however plural it sounds. It takes has.",
+      "objective": "Use singular verbs with indefinite pronouns"
+    },
+    {
+      "type": "multiple",
+      "text": "Complete it: \"Each of the students ___ a book.\"",
+      "options": [
+        "needs",
+        "need",
+        "are needing",
+        "have need"
+      ],
+      "answerIndex": 0,
+      "explain": "Each is the subject and it is singular. \"Of the students\" is the trap.",
+      "objective": "Use singular verbs with indefinite pronouns"
+    },
+    {
+      "type": "multiple",
+      "text": "Complete it: \"Maya and Ravi ___ in the same class.\"",
+      "options": [
+        "are",
+        "is",
+        "was",
+        "has been"
+      ],
+      "answerIndex": 0,
+      "explain": "Two subjects joined by and make a plural subject.",
+      "objective": "Handle subjects joined by and, or and nor"
+    },
+    {
+      "type": "multiple",
+      "text": "Complete it: \"Neither the players nor the referee ___ ready.\"",
+      "options": [
+        "was",
+        "were",
+        "are",
+        "have been"
+      ],
+      "answerIndex": 0,
+      "explain": "With nor, the verb matches the nearer subject. Referee is singular.",
+      "objective": "Handle subjects joined by and, or and nor"
+    },
+    {
+      "type": "multiple",
+      "text": "Complete it: \"Neither the referee nor the players ___ ready.\"",
+      "options": [
+        "were",
+        "was",
+        "is",
+        "has been"
+      ],
+      "answerIndex": 0,
+      "explain": "Same people, reversed order. Now the nearer subject is players, which is plural.",
+      "objective": "Handle subjects joined by and, or and nor"
+    },
+    {
+      "type": "multiple",
+      "text": "Which is correct?",
+      "options": [
+        "The team is playing well",
+        "The team are plays well",
+        "The team were play well",
+        "The teams is playing well"
+      ],
+      "answerIndex": 0,
+      "explain": "A team is one group, so it takes a singular verb. The team members would take are.",
+      "objective": "Use the correct verb with collective nouns and with there is or there are"
+    },
+    {
+      "type": "multiple",
+      "text": "Which is correct?",
+      "options": [
+        "There are two questions left",
+        "There is two questions left",
+        "There were a question left",
+        "There am two questions left"
+      ],
+      "answerIndex": 0,
+      "explain": "Questions is the subject and it is plural. There is never the subject.",
+      "objective": "Use the correct verb with collective nouns and with there is or there are"
+    },
+    {
+      "type": "truefalse",
+      "text": "In \"There is a problem\", the word there is the subject.",
+      "answer": false,
+      "explain": "False. Problem is the subject. The verb comes first, so you have to read ahead.",
+      "objective": "Use the correct verb with collective nouns and with there is or there are"
+    },
+    {
+      "type": "multiple",
+      "text": "What is Don Quixote's golden helmet really?",
+      "options": [
+        "A barber's brass shaving basin",
+        "A dented war helmet",
+        "A cooking pot from an inn",
+        "A church bell"
+      ],
+      "answerIndex": 0,
+      "explain": "Worn upside down in the rain to keep a hat dry. The barber runs off and leaves it.",
+      "objective": "Retell the episode of the helmet"
+    },
+    {
+      "type": "truefalse",
+      "text": "Sancho tells Don Quixote that the helmet is a barber's basin.",
+      "answer": true,
+      "explain": "True. Don Quixote even agrees that it looks like one, and then goes on wearing it.",
+      "objective": "Retell the episode of the helmet"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 9 English covers subject-verb agreement alongside the helmet episode, matching the Term 1 weekly scope. The lesson is honest about the shape of the topic: the rule takes ten seconds and the whole difficulty is finding the subject, so five of the six sections are about things that hide it. The agreementTraps figure carries all six cases so the cards can spend space on the two hardest — the prepositional phrase and the or/nor pair — and the or/nor rule is deliberately shown twice with the nouns reversed, because seeing the verb change is what makes the rule stick. Everything here about indefinite pronouns and compound subjects repeats Week 5's pronoun work by design; saying so saves learning it twice. NOTE ON THE TEXT: the school's edition is abridged and does not follow Cervantes' chapter numbering, so this lesson follows the episode named in the title.",
+    "discussion": [
+      "Have him cross out the middle of five sentences with his finger before choosing the verb. It is a physical habit worth building.",
+      "Give him a neither/nor sentence and ask him to reverse the two nouns. Watching the verb change is the whole rule.",
+      "Ask why 'the team is' and 'the team members are' are both right. One group against several people.",
+      "Ask what the basin-helmet argument is for. An object nobody agrees on is a very efficient way to show two world views."
+    ],
+    "extension": "Have him find five sentences in a newspaper where a phrase sits between the subject and the verb, and mark the real subject in each. Real prose is far messier than exercise sentences.",
+    "misconceptions": [
+      "'The verb agrees with the closest noun.' It agrees with the subject, which is often not the closest noun.",
+      "'Everybody is plural because it means many people.' It is grammatically singular and takes a singular verb.",
+      "'With or and nor, always use a plural verb.' The verb matches whichever subject is nearer.",
+      "'There is the subject in there is and there are.' It never is. The subject follows the verb."
+    ]
+  }
+}

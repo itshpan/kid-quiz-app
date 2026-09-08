@@ -331,7 +331,8 @@
             "Compound personal pronouns",
             "Don Quixote Ch. 6: The Choosing of a Squire"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "english/w6-compound-personal-pronouns.json"
         },
         {
           "week": 7,
@@ -341,7 +342,8 @@
             "Reflexive pronouns",
             "Don Quixote Ch. 7: The Adventure with the Windmills"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "english/w7-reflexive-pronouns.json"
         },
         {
           "week": 8,
@@ -351,7 +353,8 @@
             "Simple present tense",
             "Don Quixote Ch. 8: The Adventure with the Monks"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "english/w8-simple-present.json"
         },
         {
           "week": 9,
@@ -361,17 +364,19 @@
             "Subject-verb agreement",
             "Don Quixote Ch. 9: The Lost Helmet"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "english/w9-subject-verb-agreement.json"
         },
         {
           "week": 10,
           "id": "eng-w10",
-          "title": "Subject-Verb Agreement (cont.)",
+          "title": "Subject-Verb Agreement Applied",
           "topics": [
             "Subject-verb agreement",
             "Don Quixote Ch. 10: The Adventure with the Sheep"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "english/w10-agreement-applied.json"
         },
         {
           "week": 11,
