@@ -1,0 +1,354 @@
+{
+  "id": "dev-w2",
+  "courseId": "devotion",
+  "courseTitle": "Devotion",
+  "week": 2,
+  "title": "Trust & Obedience",
+  "subtitle": "Two words that get used together, and are not the same thing.",
+  "estMinutes": 15,
+  "objectives": [
+    "State Proverbs 3:5-6 and explain what it asks",
+    "Explain the difference between trust and obedience",
+    "Explain 1 Samuel 15:22 in your own words",
+    "Give an example of obedience that came before understanding",
+    "Explain why trust is easier to give to someone you know"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🤝",
+      "eyebrow": "Part 1 · Trust",
+      "title": "Trust is not the same as being certain",
+      "text": "If you were certain, you would not need to trust anybody. Trust is what you do when you can only see part of it."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The verse",
+      "title": "Proverbs 3:5-6",
+      "text": "Trust in the Lord with all your heart, and lean not on your own understanding. It is one of the best-known verses in the book.",
+      "points": [
+        "**\"With all your heart\"** — not partly, and not as a backup.",
+        "**\"Lean not on your own understanding\"** is the hard half.",
+        "**It does not say your understanding is useless.**",
+        "**It says do not put your weight on it alone.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The distinction",
+      "title": "Trust is inward. Obedience is what you do",
+      "text": "You can obey without trusting, and it feels like being pushed. You can trust without obeying, and nothing changes.",
+      "points": [
+        "**Trust** — believing someone is worth listening to.",
+        "**Obedience** — actually doing what they said.",
+        "**Trust without obedience** is just an opinion.",
+        "**Obedience without trust** does not last."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is the difference between trust and obedience?",
+        "options": [
+          "Trust is what you believe; obedience is what you do",
+          "They mean exactly the same thing",
+          "Trust is for adults, obedience is for children",
+          "Obedience comes first, then trust"
+        ],
+        "answerIndex": 0,
+        "explain": "Trust is inward and obedience is action. Proverbs 3 asks for both, in that order."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "The corner can see what you cannot",
+      "text": "Between rounds a coach tells you something that contradicts what you feel. You have about fifty seconds to decide.",
+      "points": [
+        "**They have the angle you do not have.**",
+        "**Arguing costs the round.**",
+        "**You obey first and understand later**, or not at all.",
+        "**That trust was built** long before the fight."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "Complete it: \"Trust in the Lord with all your ___.\"",
+        "accept": [
+          "heart",
+          "your heart"
+        ],
+        "explain": "Heart. Proverbs 3:5. The next line is the harder one: lean not on your own understanding."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Trust is set out. Part 2 is obedience, and why it is measured by action. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "👂",
+      "eyebrow": "Part 2 · Obedience",
+      "title": "A hard verse about doing the right thing wrongly",
+      "text": "In 1 Samuel 15, Saul is given an instruction. He does most of it, and keeps back the best of the rest."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "1 Samuel 15:22",
+      "title": "To obey is better than sacrifice",
+      "text": "Saul's plan was to offer the animals to God. Samuel's answer is that obeying was what had been asked for.",
+      "points": [
+        "**Saul substituted something impressive** for what was asked.",
+        "**Partial obedience** is treated as disobedience here.",
+        "**\"To obey is better than sacrifice.\"**",
+        "**Doing a different good thing** is not the same as obeying."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Almost following the instruction fails the objective",
+      "text": "A quest says reach the point unseen. Fighting your way there brilliantly does not complete it.",
+      "points": [
+        "**The objective was the objective.**",
+        "**Doing something harder instead** is not credit.",
+        "**That is exactly Saul's argument**, and it fails.",
+        "**Partial does not round up.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What does 1 Samuel 15:22 mean by \"to obey is better than sacrifice\"?",
+        "options": [
+          "Doing what was asked matters more than offering something impressive instead",
+          "Sacrifices are always wrong",
+          "Obedience is easier than sacrifice",
+          "Only priests should make sacrifices"
+        ],
+        "answerIndex": 0,
+        "explain": "Saul substituted an offering for the instruction. Samuel says the instruction was the point."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The pattern",
+      "title": "Obedience usually comes before understanding",
+      "text": "In most of the examples, the reason arrives afterwards, and sometimes it does not arrive at all.",
+      "points": [
+        "**Noah built a boat** a long way from any water.",
+        "**Abraham left home** without being told the destination.",
+        "**Neither had the full picture.**",
+        "**Hebrews 11** collects these as examples of faith."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "⚡",
+      "eyebrow": "Your body right now",
+      "title": "You already do this with training",
+      "text": "Nobody feels stronger during a session. The results arrive weeks later, which means the work is always done on trust.",
+      "points": [
+        "**You cannot feel adaptation happening.**",
+        "**You do the work before the evidence.**",
+        "**Stopping to wait for proof** means it never comes.",
+        "**Same shape**, in something you already accept."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "In the Bible's examples, people are usually given the full reason before they are asked to obey.",
+        "answer": false,
+        "explain": "False. Noah and Abraham both act first. Hebrews 11 lists that pattern as what faith looks like."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "trust", "def": "Believing someone is worth listening to, when you cannot see the whole picture." },
+        { "term": "obedience", "def": "Actually doing what was asked. The action, not the feeling." },
+        { "term": "Proverbs 3:5-6", "def": "Trust in the Lord with all your heart, and lean not on your own understanding." },
+        { "term": "1 Samuel 15:22", "def": "To obey is better than sacrifice. Doing what was asked beats offering something else." },
+        { "term": "partial obedience", "def": "Doing most of what was asked. In 1 Samuel 15 it is treated as disobedience." },
+        { "term": "Hebrews 11", "def": "The chapter that lists people who acted before they could see the outcome." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Trust is inward. Obedience is action.**",
+        "**Proverbs 3:5-6** — with all your heart.",
+        "**To obey is better than sacrifice.** 1 Samuel 15:22.",
+        "**Understanding usually arrives afterwards.**"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "type",
+      "text": "Complete it: \"Trust in the Lord with all your ___.\"",
+      "accept": [
+        "heart",
+        "your heart"
+      ],
+      "explain": "Heart. Proverbs 3:5, followed by lean not on your own understanding.",
+      "objective": "State Proverbs 3:5-6 and explain what it asks"
+    },
+    {
+      "type": "multiple",
+      "text": "Where is \"lean not on your own understanding\" found?",
+      "options": [
+        "Proverbs 3:5-6",
+        "Matthew 7:24",
+        "1 Samuel 15:22",
+        "Hebrews 11:1"
+      ],
+      "answerIndex": 0,
+      "explain": "Proverbs 3, one of the best-known passages in the book.",
+      "objective": "State Proverbs 3:5-6 and explain what it asks"
+    },
+    {
+      "type": "multiple",
+      "text": "What does \"lean not on your own understanding\" ask for?",
+      "options": [
+        "Not to put all your weight on your own view alone",
+        "Never to think for yourself",
+        "To stop studying",
+        "To ignore advice from anyone"
+      ],
+      "answerIndex": 0,
+      "explain": "It does not say your understanding is useless. It says do not rest everything on it.",
+      "objective": "State Proverbs 3:5-6 and explain what it asks"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the difference between trust and obedience?",
+      "options": [
+        "Trust is inward belief; obedience is the action that follows",
+        "They are two words for the same thing",
+        "Trust is harder than obedience",
+        "Obedience always comes first"
+      ],
+      "answerIndex": 0,
+      "explain": "Trust without obedience is only an opinion. Obedience without trust does not last.",
+      "objective": "Explain the difference between trust and obedience"
+    },
+    {
+      "type": "truefalse",
+      "text": "You can obey someone without trusting them.",
+      "answer": true,
+      "explain": "True, but it feels like being pushed and it rarely lasts. Both are asked for together.",
+      "objective": "Explain the difference between trust and obedience"
+    },
+    {
+      "type": "multiple",
+      "text": "In 1 Samuel 15, what did Saul do wrong?",
+      "options": [
+        "He kept back part of what he was told to destroy",
+        "He refused to fight at all",
+        "He made no sacrifice",
+        "He gave the wrong orders to his army"
+      ],
+      "answerIndex": 0,
+      "explain": "He did most of it and substituted an offering for the rest. Samuel treats that as disobedience.",
+      "objective": "Explain 1 Samuel 15:22 in your own words"
+    },
+    {
+      "type": "multiple",
+      "text": "What does \"to obey is better than sacrifice\" mean?",
+      "options": [
+        "Doing what was asked matters more than offering something impressive instead",
+        "Sacrifices were never required",
+        "Obedience is the easier option",
+        "God prefers gifts to actions"
+      ],
+      "answerIndex": 0,
+      "explain": "Saul offered a substitute. Samuel's point is that the instruction was the thing.",
+      "objective": "Explain 1 Samuel 15:22 in your own words"
+    },
+    {
+      "type": "truefalse",
+      "text": "In 1 Samuel 15, doing most of what was asked counted as obeying.",
+      "answer": false,
+      "explain": "False. Partial obedience is treated as disobedience in that passage.",
+      "objective": "Explain 1 Samuel 15:22 in your own words"
+    },
+    {
+      "type": "multiple",
+      "text": "Which is an example of obedience before understanding?",
+      "options": [
+        "Abraham leaving home without being told where he was going",
+        "Solomon asking for wisdom",
+        "David writing psalms",
+        "Paul writing letters to churches"
+      ],
+      "answerIndex": 0,
+      "explain": "Abraham and Noah both act without the full picture. Hebrews 11 collects those examples.",
+      "objective": "Give an example of obedience that came before understanding"
+    },
+    {
+      "type": "multiple",
+      "text": "Which chapter lists people who acted before they could see the outcome?",
+      "options": [
+        "Hebrews 11",
+        "Psalm 23",
+        "Genesis 1",
+        "Revelation 21"
+      ],
+      "answerIndex": 0,
+      "explain": "Hebrews 11, often called the faith chapter for exactly that reason.",
+      "objective": "Give an example of obedience that came before understanding"
+    },
+    {
+      "type": "multiple",
+      "text": "Why is trust easier to give to someone you know well?",
+      "options": [
+        "You already have evidence of how they have behaved before",
+        "Because they are always right",
+        "Because you have no choice",
+        "Because it takes less time"
+      ],
+      "answerIndex": 0,
+      "explain": "Trust is built before it is needed, which is why a fighter can take a coach's word in fifty seconds.",
+      "objective": "Explain why trust is easier to give to someone you know"
+    },
+    {
+      "type": "truefalse",
+      "text": "Trust means being certain about the outcome.",
+      "answer": false,
+      "explain": "False. If you were certain you would not need trust. Trust is for when you can see only part of it.",
+      "objective": "Explain the difference between trust and obedience"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 2 Devotion covers trust and obedience, matching the Term 1 theme. The two words are usually treated as one idea, so the lesson separates them early: trust is inward and obedience is action, and the passages ask for both. 1 Samuel 15 is handled carefully — it is a hard chapter, and this lesson stays on the part that is actually being taught, which is that substituting an impressive alternative for the instruction is not obedience. The boxing card is the load-bearing analogy: a fighter takes a corner's word in fifty seconds because the trust was built long beforehand, which is the clearest available illustration of why trust precedes obedience rather than following it.",
+    "discussion": [
+      "Ask him for a time he did what he was told without understanding why, and whether the reason ever arrived.",
+      "Ask what Saul thought he was doing. He believed he was doing something good, which is what makes the chapter difficult.",
+      "Ask why trust is easier to give to a coach he has known for two years than to a stranger.",
+      "Ask whether obeying without trusting is worth anything. There is a real argument on both sides."
+    ],
+    "extension": "Have him write Proverbs 3:5-6 out and then write, underneath, one decision this week where leaning on his own understanding alone would be the easy option. The specific case is the exercise.",
+    "misconceptions": [
+      "'Trust and obedience are the same word.' Trust is what you believe. Obedience is what you do about it.",
+      "'Lean not on your own understanding means stop thinking.' It means do not rest your whole weight on your own view alone.",
+      "'Doing most of what was asked counts.' In 1 Samuel 15 partial obedience is treated as disobedience.",
+      "'Trust means being sure.' If you were sure, no trust would be needed."
+    ]
+  }
+}

@@ -2775,6 +2775,78 @@ function homeRules() {
     });
 }
 
+/* ---------- The two builders ---------- */
+/* Matthew 7:24-27 is a parable about construction, and it is one of the rare
+   cases where the literal engineering and the point being made are the same
+   thing. Both houses stand under the same storm until the last panel, which
+   is where the whole argument of the passage sits. */
+function rockOrSand() {
+    const house = (x, tilt = 0) => `
+      <g transform="translate(${x},70) rotate(${tilt} 40 84)">
+        <path class="fig-ink" stroke-width="2.5" d="M6 34 L40 6 L74 34"/>
+        <rect class="fig-box" x="14" y="34" width="52" height="50"/>
+        <rect class="fig-box" x="32" y="56" width="16" height="28"/>
+      </g>`;
+
+    // A collapsed house has to look collapsed: the roof slides off and lands
+    // on its side, and the walls go over. Drawn with explicit coordinates
+    // rather than rotations, so nothing can reach down into the labels.
+    const ruin = x => `
+      <g opacity=".7">
+        <path class="fig-box" d="M${x + 2} 156 L${x + 2} 120 L${x + 44} 156 Z"/>
+        <path class="fig-box" d="M${x + 40} 156 L${x + 54} 112 L${x + 88} 124 L${x + 74} 156 Z"/>
+        <path class="fig-hatch" d="M${x - 4} 150 L${x + 6} 143 M${x + 94} 150 L${x + 104} 143"/>
+      </g>`;
+
+    const ground = `
+      <rect class="fig-arena" x="20" y="156" width="168" height="12"/>
+      <rect class="fig-arena" x="212" y="156" width="168" height="12"/>
+      <text class="fig-step" x="104" y="198" text-anchor="middle">BUILT ON ROCK</text>
+      <text class="fig-step" x="296" y="198" text-anchor="middle">BUILT ON SAND</text>`;
+
+    const rain = [...Array(12)].map((_, i) =>
+        `<path class="fig-hatch" d="M${22 + i * 32} 26 L${14 + i * 32} 50"/>`).join('');
+
+    return demoSwitch({
+        id: 'rs', height: 268, capY: 226,
+        label: 'MATTHEW 7:24-27',
+        alt: 'Two identical houses in the same storm, one built on rock and one on sand',
+        demos: [
+            { btn: 'Two houses', svg: house(58) + house(250) + ground,
+              a: 'Two houses. From outside they look the same',
+              b: 'Same size, same effort. The difference is underneath.' },
+            { btn: 'The storm', svg: rain + house(58) + house(250, 3) + ground,
+              a: 'The rain falls on both of them equally',
+              b: 'Nobody is promised no storm. That is not the offer.' },
+            { btn: 'After', svg: house(58) + ruin(250) + ground,
+              a: 'One stands. One does not',
+              b: 'The foundation was invisible until it mattered.' }
+        ]
+    });
+}
+
+/* ---------- Four parts of prayer ---------- */
+function prayerParts() {
+    return listPicker({
+        id: 'pp2', label: 'A · C · T · S',
+        alt: 'Four parts of prayer: adoration, confession, thanksgiving and supplication',
+        rows: [
+            { btn: 'A', short: 'Adoration',
+              a: 'Saying who God is, before asking for anything',
+              b: 'The Lord’s Prayer opens this way. Matthew 6:9.' },
+            { btn: 'C', short: 'Confession',
+              a: 'Being honest about what you got wrong',
+              b: 'Not a performance. 1 John 1:9.' },
+            { btn: 'T', short: 'Thanksgiving',
+              a: 'Naming what has already been given',
+              b: 'Specific things, not a general thank you. Philippians 4:6.' },
+            { btn: 'S', short: 'Supplication',
+              a: 'Asking — for yourself and for other people',
+              b: 'It comes last on purpose, not because it matters least.' }
+        ]
+    });
+}
+
 export const FIGURES = {
     crumpleZone,
     muscleTypes,
@@ -2816,7 +2888,9 @@ export const FIGURES = {
     bedLayers,
     foldSteps,
     dayBlocks,
-    homeRules
+    homeRules,
+    rockOrSand,
+    prayerParts
 };
 
 

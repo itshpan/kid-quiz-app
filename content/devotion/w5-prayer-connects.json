@@ -1,0 +1,372 @@
+{
+  "id": "dev-w5",
+  "courseId": "devotion",
+  "courseTitle": "Devotion",
+  "week": 5,
+  "title": "Prayer That Connects",
+  "subtitle": "A pattern that was given on purpose, because people asked how.",
+  "estMinutes": 15,
+  "objectives": [
+    "Explain why the disciples asked to be taught to pray",
+    "Name the parts of the Lord's Prayer pattern",
+    "Use the ACTS structure for prayer",
+    "Explain Philippians 4:6-7 in your own words",
+    "Explain what praying continually means in practice"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🙏",
+      "eyebrow": "Part 1 · The pattern",
+      "title": "They asked how, not whether",
+      "text": "In Luke 11 the disciples ask to be taught to pray. Nobody asks that unless it is a skill, and they were treating it as one."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Matthew 6:9-13",
+      "title": "He gave them a shape, not a script",
+      "text": "\"This, then, is how you should pray.\" It is short, and every line does a different job.",
+      "points": [
+        "**Who God is** — before anything is asked for.",
+        "**What is wanted** — your kingdom come.",
+        "**Today's needs** — daily bread, not a year's.",
+        "**Forgiveness**, both directions, then help."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "prayerParts",
+      "eyebrow": "A · C · T · S",
+      "title": "Four parts, in order",
+      "text": "A common way to remember the same shape. Tap through each one."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why did the disciples ask to be taught to pray?",
+        "options": [
+          "They were treating prayer as a skill that could be learned",
+          "They had never heard of prayer",
+          "They wanted a magic formula",
+          "They were told to ask"
+        ],
+        "answerIndex": 0,
+        "explain": "Nobody asks to be taught something unless it is learnable. The answer given is a pattern, not a script."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The order",
+      "title": "Asking comes last, and that is deliberate",
+      "text": "Most people start with what they want. The pattern puts three things before it, and none of them is a delay tactic.",
+      "points": [
+        "**Adoration** — who you are talking to.",
+        "**Confession** — being honest first.",
+        "**Thanksgiving** — what has already come.",
+        "**Supplication** — asking. Last, not least."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Nobody skips straight to the hard rounds",
+      "text": "Every session has an order, and the order is not decoration. Skipping to the part you want makes that part worse.",
+      "points": [
+        "**Warm-up before rounds**, every time.",
+        "**A pattern removes the decision** each session.",
+        "**You do not renegotiate it** when tired.",
+        "**Same reason** the prayer has a shape."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "order",
+        "text": "Put the ACTS pattern in order.",
+        "items": [
+          "Adoration",
+          "Confession",
+          "Thanksgiving",
+          "Supplication"
+        ],
+        "explain": "Who God is, then honesty, then thanks, then asking. Asking comes last on purpose."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Part 2 is what prayer is for, and what praying continually actually means. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "📡",
+      "eyebrow": "Part 2 · Connecting",
+      "title": "It is called connecting for a reason",
+      "text": "The word in the title is not decoration. Every passage about prayer treats it as a relationship rather than a request form."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Philippians 4:6-7",
+      "title": "Do not be anxious. Ask instead",
+      "text": "In everything, by prayer and thanksgiving, present your requests. The promise that follows is peace, not always the thing asked for.",
+      "points": [
+        "**\"In everything\"** — nothing is too small.",
+        "**\"With thanksgiving\"** is in the instruction.",
+        "**The promise is peace**, which is worth noticing.",
+        "**It does not promise the outcome you asked for.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "space",
+      "icon": "🪐",
+      "eyebrow": "Space mode",
+      "title": "Scale is part of the point",
+      "text": "Psalm 19 opens with the heavens declaring the glory of God. Looking up is a very old way of putting a problem in proportion.",
+      "points": [
+        "**The universe is genuinely enormous.**",
+        "**A problem does not shrink**, but you see it differently.",
+        "**Adoration is that**, deliberately.",
+        "**It is why it comes first.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What does Philippians 4:6-7 promise will follow prayer?",
+        "options": [
+          "Peace",
+          "Whatever you asked for",
+          "An immediate answer",
+          "Wealth"
+        ],
+        "answerIndex": 0,
+        "explain": "Peace, described as guarding your heart and mind. The passage does not promise the outcome you requested."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "1 Thessalonians 5:16-18",
+      "title": "What \"pray continually\" actually means",
+      "text": "It cannot mean speaking non-stop, because nobody could. It means keeping the line open rather than only opening it in emergencies.",
+      "points": [
+        "**Short and often** beats long and rare.",
+        "**On the walk, before the test, after training.**",
+        "**A conversation you never quite end.**",
+        "**\"Give thanks in all circumstances\"** is the same passage."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "⚡",
+      "eyebrow": "Your body right now",
+      "title": "Frequency beats duration in almost everything",
+      "text": "Ten minutes daily builds more than seventy minutes on a Sunday. That is true of language, of training, and of this.",
+      "points": [
+        "**Little and often** is how habits set.",
+        "**A long gap** is what breaks a routine.",
+        "**Same finding across every skill.**",
+        "**Which is what \"continually\" is describing.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "\"Pray continually\" means you should be speaking prayers non-stop all day.",
+        "answer": false,
+        "explain": "False. Nobody could. It describes keeping the line open rather than only opening it in emergencies."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "the Lord's Prayer", "def": "The pattern given in Matthew 6:9-13. A shape to follow, not a script to recite." },
+        { "term": "adoration", "def": "Saying who God is, before asking for anything." },
+        { "term": "confession", "def": "Being honest about what you got wrong." },
+        { "term": "thanksgiving", "def": "Naming specific things already given." },
+        { "term": "supplication", "def": "Asking, for yourself and for others. It comes last in the pattern." },
+        { "term": "Philippians 4:6-7", "def": "Do not be anxious; pray with thanksgiving. The promise that follows is peace." },
+        { "term": "1 Thessalonians 5:17", "def": "Pray continually. Short and often rather than long and rare." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**They asked to be taught.** It is a skill.",
+        "**Adoration, confession, thanksgiving, supplication.**",
+        "**Philippians 4 promises peace**, not the outcome.",
+        "**Continually means short and often**, not non-stop."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "What did the disciples ask Jesus in Luke 11?",
+      "options": [
+        "To teach them to pray",
+        "Whether they should pray at all",
+        "How long to pray for",
+        "Where they should pray"
+      ],
+      "answerIndex": 0,
+      "explain": "They treated prayer as a skill to be learned, and the answer they got was a pattern.",
+      "objective": "Explain why the disciples asked to be taught to pray"
+    },
+    {
+      "type": "multiple",
+      "text": "Where is the Lord's Prayer found?",
+      "options": [
+        "Matthew 6:9-13",
+        "Psalm 23",
+        "Proverbs 3:5",
+        "John 13:34"
+      ],
+      "answerIndex": 0,
+      "explain": "Matthew 6:9-13, introduced with 'this, then, is how you should pray'.",
+      "objective": "Name the parts of the Lord's Prayer pattern"
+    },
+    {
+      "type": "multiple",
+      "text": "What comes FIRST in the ACTS pattern?",
+      "options": [
+        "Adoration",
+        "Supplication",
+        "Confession",
+        "Thanksgiving"
+      ],
+      "answerIndex": 0,
+      "explain": "Adoration — saying who God is, before anything is asked for.",
+      "objective": "Use the ACTS structure for prayer"
+    },
+    {
+      "type": "order",
+      "text": "Put the ACTS pattern in the right order.",
+      "items": [
+        "Adoration",
+        "Confession",
+        "Thanksgiving",
+        "Supplication"
+      ],
+      "explain": "Adoration, confession, thanksgiving, supplication. Asking is last, and that is deliberate.",
+      "objective": "Use the ACTS structure for prayer"
+    },
+    {
+      "type": "multiple",
+      "text": "What does supplication mean?",
+      "options": [
+        "Asking, for yourself and for other people",
+        "Saying who God is",
+        "Admitting what you got wrong",
+        "Listing what you are thankful for"
+      ],
+      "answerIndex": 0,
+      "explain": "Asking. It comes last in the pattern, which is not the same as mattering least.",
+      "objective": "Use the ACTS structure for prayer"
+    },
+    {
+      "type": "multiple",
+      "text": "In the Lord's Prayer, what is asked for in terms of food?",
+      "options": [
+        "Daily bread",
+        "A year's supply",
+        "A great feast",
+        "Nothing at all"
+      ],
+      "answerIndex": 0,
+      "explain": "Daily bread. Today's needs, not next year's, which is part of the shape of the prayer.",
+      "objective": "Name the parts of the Lord's Prayer pattern"
+    },
+    {
+      "type": "multiple",
+      "text": "What does Philippians 4:6-7 promise will follow prayer?",
+      "options": [
+        "Peace that guards your heart and mind",
+        "Exactly what you asked for",
+        "An instant answer",
+        "Success in everything"
+      ],
+      "answerIndex": 0,
+      "explain": "Peace. The passage is careful, and it does not promise the outcome you requested.",
+      "objective": "Explain Philippians 4:6-7 in your own words"
+    },
+    {
+      "type": "multiple",
+      "text": "What does Philippians 4:6 say should go with your requests?",
+      "options": [
+        "Thanksgiving",
+        "Fasting",
+        "Silence",
+        "A written list"
+      ],
+      "answerIndex": 0,
+      "explain": "With thanksgiving. It is part of the instruction, not an optional extra.",
+      "objective": "Explain Philippians 4:6-7 in your own words"
+    },
+    {
+      "type": "truefalse",
+      "text": "Philippians 4:6-7 promises that you will get whatever you ask for.",
+      "answer": false,
+      "explain": "False. What is promised is peace guarding your heart and mind, which is a different promise.",
+      "objective": "Explain Philippians 4:6-7 in your own words"
+    },
+    {
+      "type": "multiple",
+      "text": "What does \"pray continually\" mean in practice?",
+      "options": [
+        "Short and often, keeping the line open",
+        "Speaking prayers non-stop all day",
+        "Praying for at least an hour daily",
+        "Praying only in church"
+      ],
+      "answerIndex": 0,
+      "explain": "Nobody could speak non-stop. It describes frequency, not duration. 1 Thessalonians 5:17.",
+      "objective": "Explain what praying continually means in practice"
+    },
+    {
+      "type": "multiple",
+      "text": "Which passage says \"give thanks in all circumstances\"?",
+      "options": [
+        "1 Thessalonians 5:16-18",
+        "Matthew 6:9-13",
+        "Hebrews 11:1",
+        "James 2:17"
+      ],
+      "answerIndex": 0,
+      "explain": "The same short passage that says pray continually. The three instructions sit together.",
+      "objective": "Explain what praying continually means in practice"
+    },
+    {
+      "type": "truefalse",
+      "text": "The Lord's Prayer was given as a pattern to follow rather than only as words to recite.",
+      "answer": true,
+      "explain": "True. 'This, then, is how you should pray.' Every line in it does a different job.",
+      "objective": "Name the parts of the Lord's Prayer pattern"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 5 Devotion covers prayer, matching the Term 1 theme and completing the subject. It opens on a detail that reframes the topic: the disciples asked to be taught, which means they were treating prayer as a learnable skill, and the answer they were given was a shape rather than a script. ACTS is used as the memorable form of that shape, with the ordering explained rather than asserted — asking comes last, and the three things before it are not delays. Philippians 4:6-7 is handled precisely, because the promise in it is peace rather than the requested outcome, and reading it as a guarantee of results sets a student up for disappointment. 'Pray continually' is explained as frequency rather than duration, which is both the honest reading and the practical one.",
+    "discussion": [
+      "Ask him why the disciples asked to be taught. Treating it as a skill is a more useful starting point than treating it as a mood.",
+      "Ask what changes if you put thanksgiving before asking. He can test that in one sitting.",
+      "Ask what Philippians 4 actually promises. Noticing that it says peace rather than results is the most important thing in the lesson.",
+      "Ask what 'continually' can possibly mean if nobody can speak non-stop."
+    ],
+    "extension": "Have him try the four-part shape once a day for a week, keeping each part to a sentence. Four sentences is short enough to actually repeat, which is the whole argument of the second half.",
+    "misconceptions": [
+      "'The Lord's Prayer is only words to recite.' It is introduced as a pattern: this is how you should pray.",
+      "'Philippians 4 promises you get what you ask for.' What it promises is peace guarding your heart and mind.",
+      "'Pray continually means non-stop talking.' Nobody could. It is about frequency, not duration.",
+      "'Asking comes last because it matters least.' It comes last because the three parts before it change how you ask."
+    ]
+  }
+}

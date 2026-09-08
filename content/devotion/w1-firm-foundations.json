@@ -1,0 +1,351 @@
+{
+  "id": "dev-w1",
+  "courseId": "devotion",
+  "courseTitle": "Devotion",
+  "week": 1,
+  "title": "Firm Foundations",
+  "subtitle": "Two builders, one storm, and the part nobody can see.",
+  "estMinutes": 15,
+  "objectives": [
+    "Retell the parable of the wise and foolish builders",
+    "Explain what the rock and the sand stand for",
+    "Explain why both houses face the same storm",
+    "Explain the difference between hearing and doing",
+    "Identify one foundation habit to build this week"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🧱",
+      "eyebrow": "Part 1 · The parable",
+      "title": "Two builders who did almost everything the same",
+      "text": "Jesus ends the Sermon on the Mount with a short story about construction. Matthew 7, verses 24 to 27."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The story",
+      "title": "What actually happens in it",
+      "text": "Two men build houses. The story spends no time on the houses at all, which is the first clue.",
+      "points": [
+        "**One builds on rock.** One builds on sand.",
+        "**Rain, floods and wind** hit both houses.",
+        "**One stands. One falls**, and falls hard.",
+        "**The only difference mentioned** is the foundation."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "rockOrSand",
+      "eyebrow": "Look at it",
+      "title": "Same houses, same storm",
+      "text": "Tap through the three stages. The difference is invisible until the last one."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "In the parable, what is the only stated difference between the two houses?",
+        "options": [
+          "What they were built on",
+          "How big they were",
+          "How long they took to build",
+          "Who they belonged to"
+        ],
+        "answerIndex": 0,
+        "explain": "The foundation. The story never describes the houses themselves, and that is deliberate."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The meaning",
+      "title": "Hearing is not the same as doing",
+      "text": "Jesus says the wise builder is the one who hears his words *and puts them into practice*. Both builders heard.",
+      "points": [
+        "**Both men had the same information.**",
+        "**One acted on it. One did not.**",
+        "**James 1:22** says the same thing plainly.",
+        "**Knowing something** is not yet a foundation."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🔧",
+      "eyebrow": "Car mode",
+      "title": "This one is literally true in engineering",
+      "text": "Sand shifts under load and water. Rock does not. Every building code in the world starts with the ground.",
+      "points": [
+        "**Foundations are the part nobody photographs.**",
+        "**They are also what everything else rests on.**",
+        "**A crack at the bottom** shows up at the top.",
+        "**The parable is not stretching anything.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "In the parable, only one of the two houses is hit by the storm.",
+        "answer": false,
+        "explain": "False. The rain, floods and wind come to both. The story is not about avoiding storms."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "The story is clear. Part 2 is what a foundation looks like in an actual week. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "⛰️",
+      "eyebrow": "Part 2 · Building",
+      "title": "Nobody builds a foundation in one afternoon",
+      "text": "It is poured slowly, before anything visible exists, and while it is happening it looks like nothing is happening."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The pattern",
+      "title": "Foundations are boring on purpose",
+      "text": "Anything that holds weight later is built early, repeatedly, and without an audience.",
+      "points": [
+        "**Small and repeated** beats large and occasional.",
+        "**Nobody sees it** while it is being done.",
+        "**You find out whether it worked** under load.",
+        "**By then it is too late to start.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "⚡",
+      "eyebrow": "Your body right now",
+      "title": "Your bones are doing this literally",
+      "text": "Bone density is built through your teens and locks in around your twenties. Nothing about it is visible while it happens.",
+      "points": [
+        "**Built early, used for sixty years.**",
+        "**You cannot see it working.**",
+        "**The window does close.**",
+        "**Same shape as the parable**, in a body."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What does the wise builder do that the foolish one does not?",
+        "options": [
+          "He puts what he heard into practice",
+          "He builds a bigger house",
+          "He builds somewhere the storm cannot reach",
+          "He asks for help"
+        ],
+        "answerIndex": 0,
+        "explain": "Both heard the same words. Only one acted on them, and that is the whole difference."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Why he told it as a story at all",
+      "text": "He could have said \"do what I said\". Instead he built a picture you cannot argue with and will not forget.",
+      "points": [
+        "**A rule gets debated.** A picture gets remembered.",
+        "**You can see both houses** without being told which is which.",
+        "**That is what a parable is for.**",
+        "**Worth knowing** when you write your own."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "This week",
+      "title": "One foundation, chosen on purpose",
+      "text": "The point of the parable is action, so the lesson ends with one. Pick something small enough to actually repeat.",
+      "points": [
+        "**One habit, done daily**, beats five done once.",
+        "**Small enough that a bad day** does not break it.",
+        "**Write it down** where you will see it.",
+        "**Check it on Sunday.** Not before."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "parable", "def": "A short story that teaches one point through a picture rather than a rule." },
+        { "term": "foundation", "def": "What everything else rests on. Built first, seen last." },
+        { "term": "the rock", "def": "In the parable, hearing Jesus' words and putting them into practice." },
+        { "term": "the sand", "def": "Hearing the same words and not acting on them." },
+        { "term": "Matthew 7:24-27", "def": "The passage this parable comes from, at the end of the Sermon on the Mount." },
+        { "term": "James 1:22", "def": "Be doers of the word, and not hearers only. The same idea, stated plainly." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Two builders. One storm. One difference.**",
+        "**Both of them heard.** Only one acted.",
+        "**The storm comes either way.**",
+        "**Foundations are built before you need them.**"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Where in the Bible is the parable of the two builders found?",
+      "options": [
+        "Matthew 7:24-27",
+        "Genesis 7:1-5",
+        "Psalm 23",
+        "John 3:16"
+      ],
+      "answerIndex": 0,
+      "explain": "Matthew 7, at the very end of the Sermon on the Mount. Luke 6 tells it too.",
+      "objective": "Retell the parable of the wise and foolish builders"
+    },
+    {
+      "type": "multiple",
+      "text": "What does the rock stand for in the parable?",
+      "options": [
+        "Hearing Jesus' words and putting them into practice",
+        "Being wealthy enough to build well",
+        "Living in a safe place",
+        "Working harder than other people"
+      ],
+      "answerIndex": 0,
+      "explain": "Hearing and doing. The foolish builder heard exactly the same words.",
+      "objective": "Explain what the rock and the sand stand for"
+    },
+    {
+      "type": "multiple",
+      "text": "What does the sand stand for?",
+      "options": [
+        "Hearing the words and not acting on them",
+        "Never having heard the words",
+        "Building too quickly",
+        "Choosing the wrong materials"
+      ],
+      "answerIndex": 0,
+      "explain": "Both builders heard. The difference is only what they did afterwards.",
+      "objective": "Explain what the rock and the sand stand for"
+    },
+    {
+      "type": "truefalse",
+      "text": "In the parable, both houses face the same storm.",
+      "answer": true,
+      "explain": "True. Rain, floods and wind come to both. The story is not a promise of no storms.",
+      "objective": "Explain why both houses face the same storm"
+    },
+    {
+      "type": "multiple",
+      "text": "Why does the story spend no time describing the houses?",
+      "options": [
+        "Because the foundation is the only thing that matters to the point",
+        "Because they were identical",
+        "Because Jesus was in a hurry",
+        "Because houses were all the same then"
+      ],
+      "answerIndex": 0,
+      "explain": "Everything visible is left out. That is how the parable points at what is underneath.",
+      "objective": "Retell the parable of the wise and foolish builders"
+    },
+    {
+      "type": "multiple",
+      "text": "Which verse states the hearing-and-doing idea plainly?",
+      "options": [
+        "James 1:22",
+        "Psalm 119:1",
+        "Romans 8:28",
+        "Genesis 1:1"
+      ],
+      "answerIndex": 0,
+      "explain": "James 1:22 — be doers of the word, and not hearers only.",
+      "objective": "Explain the difference between hearing and doing"
+    },
+    {
+      "type": "truefalse",
+      "text": "Knowing what is right is the same as having a firm foundation.",
+      "answer": false,
+      "explain": "False. Both builders knew. The parable is about the gap between knowing and doing.",
+      "objective": "Explain the difference between hearing and doing"
+    },
+    {
+      "type": "multiple",
+      "text": "Why are foundations described as invisible until they matter?",
+      "options": [
+        "They are built underground, before anything visible exists",
+        "They are painted the same colour as the ground",
+        "They are added at the end of building",
+        "They are only in old buildings"
+      ],
+      "answerIndex": 0,
+      "explain": "Poured first, covered up, and tested only under load. By then it is too late to start.",
+      "objective": "Identify one foundation habit to build this week"
+    },
+    {
+      "type": "multiple",
+      "text": "What kind of habit makes the best foundation?",
+      "options": [
+        "Small enough to repeat even on a bad day",
+        "Large enough to see progress immediately",
+        "One that other people notice",
+        "One that only takes a single afternoon"
+      ],
+      "answerIndex": 0,
+      "explain": "Small and repeated beats large and occasional. A bad day should not be able to break it.",
+      "objective": "Identify one foundation habit to build this week"
+    },
+    {
+      "type": "multiple",
+      "text": "What is a parable?",
+      "options": [
+        "A short story that teaches one point through a picture",
+        "A law given to Moses",
+        "A song of praise",
+        "A letter to a church"
+      ],
+      "answerIndex": 0,
+      "explain": "A picture rather than a rule. A rule gets debated, a picture gets remembered.",
+      "objective": "Retell the parable of the wise and foolish builders"
+    },
+    {
+      "type": "order",
+      "text": "Put the parable in order.",
+      "items": [
+        "Two men build houses",
+        "One builds on rock, one on sand",
+        "The storm hits both houses",
+        "One house stands and one falls"
+      ],
+      "explain": "Build, choose, storm, result. The choice is made long before the storm arrives.",
+      "objective": "Retell the parable of the wise and foolish builders"
+    },
+    {
+      "type": "truefalse",
+      "text": "The parable promises that a wise builder will not face storms.",
+      "answer": false,
+      "explain": "False. Both houses face the same weather. What differs is what happens next.",
+      "objective": "Explain why both houses face the same storm"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 1 Devotion covers the parable of the wise and foolish builders, matching the Term 1 theme. The lesson is built around the two details students usually miss: both builders heard the same words, and both houses face the same storm. Without those, the parable gets read as a promise of protection rather than as a claim about the gap between hearing and doing. The rockOrSand figure shows both houses under one storm for exactly that reason. The engineering is not a stretch here — sand really does shift under load and water — so the car lens is used to make the parable concrete rather than to decorate it. The lesson ends on an action, because the parable does.",
+    "discussion": [
+      "Ask him what the story would mean if only one house had been hit by the storm. It is the fastest way to the actual point.",
+      "Ask why Jesus told it as a story rather than as an instruction. A rule gets argued with; a picture does not.",
+      "Ask what a foundation habit would look like in his own week. Small enough to survive a bad day is the test.",
+      "Ask what other foundations he can think of that are invisible until they are tested."
+    ],
+    "extension": "Have him choose one small daily habit, write it somewhere visible, and check it at the end of the week. The point of the parable is action, so the follow-through is the assignment rather than the reflection.",
+    "misconceptions": [
+      "'The wise builder avoided the storm.' Both houses face the same rain, floods and wind. That is stated in the passage.",
+      "'The foolish builder had never heard the words.' He heard exactly the same words. He did not act on them.",
+      "'A parable is a true story about real people.' It is a short story told to make one point through a picture.",
+      "'A foundation is something you can put in later.' It is built first and tested last, which is the whole warning."
+    ]
+  }
+}

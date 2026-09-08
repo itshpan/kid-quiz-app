@@ -1,0 +1,365 @@
+{
+  "id": "dev-w3",
+  "courseId": "devotion",
+  "courseTitle": "Devotion",
+  "week": 3,
+  "title": "Faith That Moves Mountains",
+  "subtitle": "The smallest seed in the story is the point of the story.",
+  "estMinutes": 15,
+  "objectives": [
+    "State Hebrews 11:1 and explain what it defines",
+    "Explain the mustard seed image in Matthew 17:20",
+    "Explain why the size of the faith is not the point",
+    "Distinguish faith from wishing",
+    "Give an example of faith shown by action"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🌱",
+      "eyebrow": "Part 1 · What faith is",
+      "title": "The verse everybody quotes is about size",
+      "text": "Faith the size of a mustard seed, and you could tell this mountain to move. Matthew 17, verse 20."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Hebrews 11:1",
+      "title": "The definition the Bible gives",
+      "text": "Faith is confidence in what is hoped for, and assurance about what is not seen. It is a definition, not a feeling.",
+      "points": [
+        "**\"What is hoped for\"** — it points forward.",
+        "**\"Not seen\"** — evidence has not arrived yet.",
+        "**It is about acting** before the proof does.",
+        "**Hebrews 11 then lists people** who did exactly that."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The seed",
+      "title": "Why a mustard seed",
+      "text": "It was the smallest seed anyone in that audience planted. The comparison is deliberate and it is about size.",
+      "points": [
+        "**About a millimetre across.**",
+        "**Everybody listening had seen one.**",
+        "**The point is that a small amount is enough.**",
+        "**Not that you need more of it.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What does Hebrews 11:1 say faith is?",
+        "options": [
+          "Confidence in what is hoped for and assurance about what is not seen",
+          "A strong feeling of certainty",
+          "Believing something without a reason",
+          "Obeying every rule perfectly"
+        ],
+        "answerIndex": 0,
+        "explain": "It is given as a definition. Faith points forward, before the evidence has arrived."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "⚡",
+      "eyebrow": "Your body right now",
+      "title": "Small and repeated is how anything grows",
+      "text": "A seed does nothing visible for days. Then it does everything. That is not a metaphor about seeds; it is how seeds work.",
+      "points": [
+        "**Nothing happens, and then a lot happens.**",
+        "**Bone, muscle and skill** all behave this way.",
+        "**Most people quit** during the invisible part.",
+        "**Small is not the same as weak.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why is a mustard seed used in the comparison?",
+        "options": [
+          "It was the smallest seed the audience knew",
+          "It grows the fastest",
+          "It was the most expensive seed",
+          "It was the only seed grown there"
+        ],
+        "answerIndex": 0,
+        "explain": "The smallness is the whole point. A small amount is enough, and more is not the requirement."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Part 2 is the difference between faith and wishing, which is where the passage gets misread. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "⛰️",
+      "eyebrow": "Part 2 · What faith is not",
+      "title": "Faith is not the same as wanting something badly",
+      "text": "This is the misreading the verse gets most often, and it turns a promise into a test you cannot pass."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The difference",
+      "title": "Wishing sits still. Faith moves",
+      "text": "Every example in Hebrews 11 is someone doing something. None of them is someone hoping harder.",
+      "points": [
+        "**Noah built.** Abraham left. Moses went back.",
+        "**Wishing is a feeling you hold.**",
+        "**Faith is a thing you then do.**",
+        "**James 2:17** — faith without action is dead."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Every character is judged on what they do",
+      "text": "In a story, someone who says they are brave and never acts is not brave. Nobody has to explain that rule to a reader.",
+      "points": [
+        "**Action reveals what a character actually believes.**",
+        "**That is why Hebrews 11 is a list of deeds.**",
+        "**Not a list of feelings.**",
+        "**Same rule** in anything you write."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is the difference between faith and wishing?",
+        "options": [
+          "Faith results in action; wishing stays a feeling",
+          "Faith is stronger wishing",
+          "Wishing is for children",
+          "There is no real difference"
+        ],
+        "answerIndex": 0,
+        "explain": "Every example in Hebrews 11 is someone who did something. James 2:17 says the same plainly."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The mountain",
+      "title": "What the mountain stands for",
+      "text": "Nobody in the passage relocates a physical mountain. It is the standard image for something immovable.",
+      "points": [
+        "**Something too big to shift** by ordinary effort.",
+        "**The claim is about what becomes possible**, not geology.",
+        "**Read it as an exam, a habit, a fear.**",
+        "**Those are the mountains you actually have.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Nobody talks themselves into being ready",
+      "text": "Confidence before a fight does not come from wanting it. It comes from the rounds already done, weeks earlier.",
+      "points": [
+        "**Belief follows the work.** Not the other way round.",
+        "**Small sessions, repeated**, become certainty.",
+        "**The seed, again.**",
+        "**You cannot feel your way to prepared.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Matthew 17:20 says you need a large amount of faith to see anything happen.",
+        "answer": false,
+        "explain": "False. It says the opposite. A mustard seed's worth is enough, and its smallness is the point."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "faith", "def": "Confidence in what is hoped for, assurance about what is not seen. Hebrews 11:1." },
+        { "term": "Hebrews 11", "def": "The chapter that defines faith and then lists people who acted on it." },
+        { "term": "mustard seed", "def": "The smallest seed the original audience knew. Used to say a small amount is enough." },
+        { "term": "Matthew 17:20", "def": "Faith the size of a mustard seed could tell a mountain to move." },
+        { "term": "James 2:17", "def": "Faith without action is dead. The clearest statement of the difference from wishing." },
+        { "term": "mountain", "def": "In this image, anything too big to move by ordinary effort." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Hebrews 11:1** — confidence in what is not yet seen.",
+        "**A mustard seed is enough.** Smallness is the point.",
+        "**Faith acts. Wishing sits still.**",
+        "**The mountain is whatever will not move for you.**"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "How does Hebrews 11:1 define faith?",
+      "options": [
+        "Confidence in what is hoped for, assurance about what is not seen",
+        "Certainty that nothing bad will happen",
+        "Believing without any reason at all",
+        "Following every religious rule"
+      ],
+      "answerIndex": 0,
+      "explain": "It is a definition, and it points forward — before the evidence has arrived.",
+      "objective": "State Hebrews 11:1 and explain what it defines"
+    },
+    {
+      "type": "multiple",
+      "text": "Which chapter is often called the faith chapter?",
+      "options": [
+        "Hebrews 11",
+        "Psalm 119",
+        "Matthew 5",
+        "Genesis 3"
+      ],
+      "answerIndex": 0,
+      "explain": "Hebrews 11 defines faith and then lists people who acted on it before they could see the outcome.",
+      "objective": "State Hebrews 11:1 and explain what it defines"
+    },
+    {
+      "type": "multiple",
+      "text": "Where does the mustard seed image appear?",
+      "options": [
+        "Matthew 17:20",
+        "Proverbs 3:5",
+        "James 1:22",
+        "1 Samuel 15:22"
+      ],
+      "answerIndex": 0,
+      "explain": "Matthew 17:20 — faith the size of a mustard seed could tell a mountain to move.",
+      "objective": "Explain the mustard seed image in Matthew 17:20"
+    },
+    {
+      "type": "multiple",
+      "text": "Why is a mustard seed chosen for the comparison?",
+      "options": [
+        "It was the smallest seed the audience would have known",
+        "It was the most valuable crop",
+        "It grew into the tallest tree",
+        "It was the only seed mentioned in the Bible"
+      ],
+      "answerIndex": 0,
+      "explain": "About a millimetre across, and everyone listening had handled one. The smallness is the argument.",
+      "objective": "Explain the mustard seed image in Matthew 17:20"
+    },
+    {
+      "type": "truefalse",
+      "text": "Matthew 17:20 teaches that you need a large amount of faith.",
+      "answer": false,
+      "explain": "False. It teaches the opposite. A very small amount is described as enough.",
+      "objective": "Explain why the size of the faith is not the point"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the difference between faith and wishing?",
+      "options": [
+        "Faith produces action; wishing stays a feeling",
+        "Faith is a stronger version of wishing",
+        "Wishing is quicker",
+        "They are the same thing"
+      ],
+      "answerIndex": 0,
+      "explain": "Every example in Hebrews 11 is someone doing something, not someone hoping harder.",
+      "objective": "Distinguish faith from wishing"
+    },
+    {
+      "type": "multiple",
+      "text": "Which verse says faith without action is dead?",
+      "options": [
+        "James 2:17",
+        "Hebrews 11:1",
+        "Proverbs 3:5",
+        "Matthew 6:9"
+      ],
+      "answerIndex": 0,
+      "explain": "James 2:17. It is the plainest statement of the difference between faith and wishing.",
+      "objective": "Distinguish faith from wishing"
+    },
+    {
+      "type": "multiple",
+      "text": "Which is an example of faith shown by action?",
+      "options": [
+        "Noah building a boat before there was any flood",
+        "Hoping very strongly that it will rain",
+        "Reading about faith in a book",
+        "Agreeing that faith is important"
+      ],
+      "answerIndex": 0,
+      "explain": "He built. Hebrews 11 is a list of things people did, not of things they felt.",
+      "objective": "Give an example of faith shown by action"
+    },
+    {
+      "type": "multiple",
+      "text": "What does the mountain stand for in the image?",
+      "options": [
+        "Anything too big to move by ordinary effort",
+        "An actual mountain in Israel",
+        "A long journey",
+        "A difficult person"
+      ],
+      "answerIndex": 0,
+      "explain": "Nobody in the passage relocates a physical mountain. It is the standard image for the immovable.",
+      "objective": "Explain why the size of the faith is not the point"
+    },
+    {
+      "type": "truefalse",
+      "text": "Faith, as Hebrews 11 describes it, means having the evidence in front of you.",
+      "answer": false,
+      "explain": "False. It is assurance about what is not seen. The evidence has not arrived yet.",
+      "objective": "State Hebrews 11:1 and explain what it defines"
+    },
+    {
+      "type": "multiple",
+      "text": "Why does a seed make a good picture for this?",
+      "options": [
+        "Nothing visible happens for a long time, and then a lot does",
+        "Seeds are cheap",
+        "Seeds are easy to lose",
+        "Seeds only grow in good soil"
+      ],
+      "answerIndex": 0,
+      "explain": "The invisible stretch is where most people give up. Small is not the same as weak.",
+      "objective": "Explain why the size of the faith is not the point"
+    },
+    {
+      "type": "order",
+      "text": "Put the argument of the lesson in order.",
+      "items": [
+        "Faith is assurance about what is not seen",
+        "A mustard seed's worth is enough",
+        "Faith shows itself in action, not feeling",
+        "The mountain is whatever will not move for you"
+      ],
+      "explain": "Definition, then size, then action, then application. That is the shape of the whole lesson.",
+      "objective": "Distinguish faith from wishing"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 3 Devotion covers faith, matching the Term 1 theme. The lesson is organised around two corrections, because both misreadings are common and both are discouraging. The first is that the mustard seed verse is about needing more faith, when the passage says a very small amount is enough — the smallness is the argument. The second is that faith means wanting something strongly, which turns the verse into a test nobody can pass; the lesson answers it with Hebrews 11, which is a list of things people did, and James 2:17. The mountain is explained as the standard image for the immovable rather than as geology, so that the promise can be applied to an exam or a habit rather than dismissed.",
+    "discussion": [
+      "Ask him what his mountain is at the moment. The answer makes the passage concrete rather than abstract.",
+      "Ask why the seed is small rather than large in the comparison. Getting to 'a small amount is enough' is the whole first half.",
+      "Ask what the difference is between believing you can do something and doing it. James 2:17 is the short version.",
+      "Ask what happens during the part of growth where nothing is visible. It is the same question for a seed, a skill and a habit."
+    ],
+    "extension": "Have him write down one thing he has been hoping about, and one action that would count as faith rather than wishing about it. Two lines, and the second one is the point.",
+    "misconceptions": [
+      "'The verse means you need a lot of faith.' It says a mustard seed's worth is enough. The smallness is the argument.",
+      "'Faith means wanting something badly.' Hebrews 11 is a list of things people did, not of feelings they had.",
+      "'Moving mountains means literal mountains.' It is the standard image for something that will not shift by ordinary effort.",
+      "'Faith means being certain.' Hebrews 11:1 describes assurance about what is not seen. Certainty would need no faith."
+    ]
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "id": "dev-w4",
+  "courseId": "devotion",
+  "courseTitle": "Devotion",
+  "week": 4,
+  "title": "Loving By God's Word",
+  "subtitle": "1 Corinthians 13 is a definition, and every item on it is something you do.",
+  "estMinutes": 15,
+  "objectives": [
+    "State the greatest commandment from Matthew 22:37-39",
+    "List what 1 Corinthians 13 says love is and is not",
+    "Explain why love is described in verbs rather than feelings",
+    "Explain the new command in John 13:34-35",
+    "Apply one of the descriptions to a real situation"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "❤️",
+      "eyebrow": "Part 1 · The command",
+      "title": "Somebody asked which rule was the biggest",
+      "text": "Jesus answers with two, and says everything else hangs on them. Matthew 22, verses 37 to 39."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Matthew 22:37-39",
+      "title": "Two commands, in that order",
+      "text": "Love God with all your heart, soul and mind. And love your neighbour as yourself.",
+      "points": [
+        "**The first is about direction.**",
+        "**The second is about everyone in front of you.**",
+        "**\"As yourself\"** is the measure given.",
+        "**Everything else** is said to hang on these two."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What are the two greatest commandments?",
+        "options": [
+          "Love God, and love your neighbour as yourself",
+          "Do not steal, and do not lie",
+          "Pray daily, and read the Bible",
+          "Honour your parents, and tell the truth"
+        ],
+        "answerIndex": 0,
+        "explain": "Matthew 22:37-39. Jesus says everything else in the law hangs on those two."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "1 Corinthians 13",
+      "title": "The definition nobody expects",
+      "text": "It is read at weddings, but it was written to a church that was arguing. Every item in it is a behaviour.",
+      "points": [
+        "**Love is patient. Love is kind.**",
+        "**It does not envy or boast.** It is not proud.",
+        "**It keeps no record of wrongs.**",
+        "**Not one of those is a feeling.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "It is written entirely in verbs",
+      "text": "Paul could have described a feeling. He lists actions instead, which means the passage can be checked against a real day.",
+      "points": [
+        "**A feeling cannot be measured.** A behaviour can.",
+        "**\"Keeps no record of wrongs\"** is testable.",
+        "**Verbs are why the chapter is useful.**",
+        "**Same reason a character is judged on deeds.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which of these does 1 Corinthians 13 say about love?",
+        "options": [
+          "It keeps no record of wrongs",
+          "It is always easy",
+          "It never disagrees",
+          "It only applies to family"
+        ],
+        "answerIndex": 0,
+        "explain": "It is a list of behaviours: patient, kind, not envious, not proud, keeping no record of wrongs."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Part 2 is the new command, and what makes it new. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "🕯️",
+      "eyebrow": "Part 2 · The new command",
+      "title": "Why call it new when it was already there?",
+      "text": "Loving your neighbour was in the law already. In John 13 Jesus adds something to it, and that addition is the change."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "John 13:34-35",
+      "title": "As I have loved you",
+      "text": "The old measure was \"as yourself\". The new one is \"as I have loved you\", which is a much harder standard.",
+      "points": [
+        "**\"As yourself\"** — a measure you already know.",
+        "**\"As I have loved you\"** — an example instead.",
+        "**And people will know you by it**, he says.",
+        "**Not by what you say you believe.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "A standard you can see beats a rule you are told",
+      "text": "A coach who shows you the movement teaches faster than a coach who describes it. That is the difference between the two versions.",
+      "points": [
+        "**\"As yourself\"** is a rule you have to interpret.",
+        "**\"As I have loved you\"** is a demonstration.",
+        "**You can copy a demonstration.**",
+        "**That is why it is called new.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What makes the command in John 13:34 new?",
+        "options": [
+          "The measure changes from \"as yourself\" to \"as I have loved you\"",
+          "It is the first time love is mentioned",
+          "It only applies to disciples",
+          "It replaces the greatest commandment"
+        ],
+        "answerIndex": 0,
+        "explain": "Loving your neighbour was already in the law. The standard is what changes."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Patience is the stat nobody levels up",
+      "text": "Patient is the first word on the list. It gets tested by ordinary annoying things, not by big events.",
+      "points": [
+        "**Small, repeated, unglamorous.**",
+        "**Nobody notices it working.**",
+        "**Everybody notices it missing.**",
+        "**It is trainable.** That is the useful part."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The test",
+      "title": "Pick one and check it against today",
+      "text": "The chapter is only useful if you hold it against something real, which is uncomfortable and is the point.",
+      "points": [
+        "**Was I patient with the person who annoyed me?**",
+        "**Did I keep a record of a wrong?**",
+        "**Did I boast about something small?**",
+        "**One item, honestly**, beats all fifteen vaguely."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "1 Corinthians 13 describes love mainly as a feeling.",
+        "answer": false,
+        "explain": "False. Every item on the list is a behaviour, which is exactly what makes it checkable."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "Matthew 22:37-39", "def": "Love God with all your heart, soul and mind; love your neighbour as yourself." },
+        { "term": "1 Corinthians 13", "def": "The chapter defining love as a list of behaviours: patient, kind, not proud." },
+        { "term": "John 13:34-35", "def": "The new command: love one another as I have loved you." },
+        { "term": "\"as yourself\"", "def": "The older measure of loving a neighbour, from the law." },
+        { "term": "\"as I have loved you\"", "def": "The new measure. An example to copy rather than a rule to interpret." },
+        { "term": "keeps no record of wrongs", "def": "One item from 1 Corinthians 13, and the most testable one." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Love God, love your neighbour.** Matthew 22:37-39.",
+        "**1 Corinthians 13 is a list of behaviours**, not feelings.",
+        "**The new command changes the measure**, not the rule.",
+        "**Check one item against one real day.**"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "What are the two greatest commandments, according to Matthew 22?",
+      "options": [
+        "Love God with everything, and love your neighbour as yourself",
+        "Do not steal, and do not lie",
+        "Keep the Sabbath, and honour your parents",
+        "Pray daily, and give to the poor"
+      ],
+      "answerIndex": 0,
+      "explain": "Matthew 22:37-39, and Jesus adds that everything else hangs on those two.",
+      "objective": "State the greatest commandment from Matthew 22:37-39"
+    },
+    {
+      "type": "multiple",
+      "text": "What measure does Matthew 22:39 give for loving a neighbour?",
+      "options": [
+        "As yourself",
+        "As much as you can",
+        "More than yourself",
+        "As your family"
+      ],
+      "answerIndex": 0,
+      "explain": "As yourself. John 13 later raises that standard to 'as I have loved you'.",
+      "objective": "State the greatest commandment from Matthew 22:37-39"
+    },
+    {
+      "type": "multiple",
+      "text": "Which of these does 1 Corinthians 13 say love is?",
+      "options": [
+        "Patient and kind",
+        "Always easy",
+        "Never disappointed",
+        "Only for friends"
+      ],
+      "answerIndex": 0,
+      "explain": "Patient and kind are the first two words of the list, and both are things you do.",
+      "objective": "List what 1 Corinthians 13 says love is and is not"
+    },
+    {
+      "type": "multiple",
+      "text": "Which of these does 1 Corinthians 13 say love does NOT do?",
+      "options": [
+        "Keep a record of wrongs",
+        "Wait for people",
+        "Tell the truth",
+        "Hope for good things"
+      ],
+      "answerIndex": 0,
+      "explain": "It keeps no record of wrongs. That is the most checkable item on the whole list.",
+      "objective": "List what 1 Corinthians 13 says love is and is not"
+    },
+    {
+      "type": "truefalse",
+      "text": "1 Corinthians 13 describes love mostly as a feeling.",
+      "answer": false,
+      "explain": "False. Every item is a behaviour, which is what makes the chapter usable rather than decorative.",
+      "objective": "Explain why love is described in verbs rather than feelings"
+    },
+    {
+      "type": "multiple",
+      "text": "Why does it matter that the chapter is written in verbs?",
+      "options": [
+        "A behaviour can be checked against a real day; a feeling cannot",
+        "Verbs are easier to memorise",
+        "It makes the passage shorter",
+        "It was the style of the time"
+      ],
+      "answerIndex": 0,
+      "explain": "You can ask whether you were patient today. You cannot audit a feeling the same way.",
+      "objective": "Explain why love is described in verbs rather than feelings"
+    },
+    {
+      "type": "multiple",
+      "text": "Who was 1 Corinthians written to?",
+      "options": [
+        "A church that was arguing",
+        "A couple getting married",
+        "A group of soldiers",
+        "A single family"
+      ],
+      "answerIndex": 0,
+      "explain": "It is read at weddings, but it was addressed to a divided church. That is why it is so practical.",
+      "objective": "List what 1 Corinthians 13 says love is and is not"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the new command in John 13:34?",
+      "options": [
+        "Love one another as I have loved you",
+        "Love only those who love you",
+        "Love your enemies",
+        "Love God above all"
+      ],
+      "answerIndex": 0,
+      "explain": "The command was already there. The measure is what changes.",
+      "objective": "Explain the new command in John 13:34-35"
+    },
+    {
+      "type": "multiple",
+      "text": "Why is it called a NEW command if loving your neighbour was already in the law?",
+      "options": [
+        "The standard changes from \"as yourself\" to \"as I have loved you\"",
+        "It was written in a different language",
+        "It applies to a different group of people",
+        "It cancels the older command"
+      ],
+      "answerIndex": 0,
+      "explain": "A rule you interpret is replaced by an example you can copy. That is the change.",
+      "objective": "Explain the new command in John 13:34-35"
+    },
+    {
+      "type": "multiple",
+      "text": "According to John 13:35, what will people recognise disciples by?",
+      "options": [
+        "How they love one another",
+        "What they say they believe",
+        "How often they pray",
+        "Where they worship"
+      ],
+      "answerIndex": 0,
+      "explain": "By the behaviour, not the statement. That is consistent with the whole lesson.",
+      "objective": "Explain the new command in John 13:34-35"
+    },
+    {
+      "type": "multiple",
+      "text": "Which is the most useful way to apply 1 Corinthians 13?",
+      "options": [
+        "Take one item and check it honestly against today",
+        "Memorise the whole chapter",
+        "Read it once a year",
+        "Agree that it is a good passage"
+      ],
+      "answerIndex": 0,
+      "explain": "One item honestly beats all fifteen vaguely. The chapter is a checklist, not a poem.",
+      "objective": "Apply one of the descriptions to a real situation"
+    },
+    {
+      "type": "truefalse",
+      "text": "\"Patient\" is the first word on the 1 Corinthians 13 list.",
+      "answer": true,
+      "explain": "True, and it is the item tested by ordinary annoying things rather than by big events.",
+      "objective": "Apply one of the descriptions to a real situation"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 4 Devotion covers love as the Bible describes it, matching the Term 1 theme. The organising observation is that 1 Corinthians 13 is written almost entirely in verbs, which is what makes it usable: a behaviour can be checked against a real day and a feeling cannot. Noting that the chapter was written to a church that was arguing, rather than for a wedding, does most of the work of resetting how it is read. John 13:34 is handled as a change of measure rather than a new rule — 'as yourself' is something you interpret, 'as I have loved you' is something you copy — which is also why the boxing analogy about demonstration versus instruction fits without being forced. The lesson ends on one honest self-check rather than on all fifteen items.",
+    "discussion": [
+      "Ask him which item on the 1 Corinthians 13 list is hardest for him. The specific answer matters more than the list.",
+      "Ask what 'keeps no record of wrongs' would actually look like this week. It is the most testable line in the chapter.",
+      "Ask why the passage is written in verbs. Getting to 'because you can check a behaviour' is the point of the first half.",
+      "Ask what changes when the measure moves from 'as yourself' to 'as I have loved you'."
+    ],
+    "extension": "Have him pick one item from the chapter and track it for three days with a simple yes or no each evening. Three days of honest marks teaches more than reading the chapter ten times.",
+    "misconceptions": [
+      "'1 Corinthians 13 is a wedding reading.' It was written to a church that was arguing, which is why it is so practical.",
+      "'Love in the Bible means a feeling.' The chapter is a list of behaviours. Not one item is an emotion.",
+      "'The new command replaces loving your neighbour.' It changes the measure of it, from 'as yourself' to 'as I have loved you'.",
+      "'Being patient is a personality trait you either have or do not.' It is listed first precisely because it is practised."
+    ]
+  }
+}

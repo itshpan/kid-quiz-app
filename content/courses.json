@@ -854,7 +854,8 @@
           "topics": [
             "Firm Foundations"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "devotion/w1-firm-foundations.json"
         },
         {
           "week": 2,
@@ -863,7 +864,8 @@
           "topics": [
             "Trust & Obedience"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "devotion/w2-trust-obedience.json"
         },
         {
           "week": 3,
@@ -872,7 +874,8 @@
           "topics": [
             "Faith That Moves Mountains"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "devotion/w3-faith-mountains.json"
         },
         {
           "week": 4,
@@ -881,7 +884,8 @@
           "topics": [
             "Loving By God's Word"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "devotion/w4-loving-by-word.json"
         },
         {
           "week": 5,
@@ -890,7 +894,8 @@
           "topics": [
             "Prayer That Connects"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "devotion/w5-prayer-connects.json"
         },
         {
           "week": 6,
