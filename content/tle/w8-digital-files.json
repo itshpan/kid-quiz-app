@@ -1,0 +1,399 @@
+{
+  "id": "tle-w8",
+  "courseId": "tle",
+  "courseTitle": "TLE",
+  "week": 8,
+  "title": "Organizing Digital Files",
+  "subtitle": "A file you cannot find is a file you do not have.",
+  "estMinutes": 18,
+  "objectives": [
+    "Build a folder structure from widest to narrowest",
+    "Name a file so it says what it is",
+    "Explain why dates go at the front of a filename",
+    "Explain the difference between deleting and archiving",
+    "Explain why one copy is not a backup"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "💾",
+      "eyebrow": "Part 1 · Naming",
+      "title": "Untitled document (3)",
+      "text": "Everyone has these. The file is not lost, and you still cannot find it, which comes to the same thing."
+    },
+    {
+      "kind": "figure",
+      "figure": "fileTree",
+      "eyebrow": "Four screens",
+      "title": "Messy, sorted, named, backed up",
+      "text": "Tap through all four. The naming screen is the one worth copying exactly."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Filenames",
+      "title": "A good name answers three questions",
+      "text": "When was it, what subject is it, and what is it. In that order, every time.",
+      "points": [
+        "**Date first:** 2026-09-04.",
+        "**Then subject:** science.",
+        "**Then what it is:** w6-notes.",
+        "**No spaces. Hyphens instead.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which is the better filename?",
+        "options": [
+          "2026-09-04-science-w6-notes.docx",
+          "science notes FINAL v2 (1).docx",
+          "Untitled document (3).docx",
+          "notes.docx"
+        ],
+        "answerIndex": 0,
+        "explain": "Date, subject, then what it is. It tells you everything without opening it."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Why the date first",
+      "title": "Because the computer sorts alphabetically",
+      "text": "Written as year, then month, then day, an alphabetical sort is also a date sort. That is the whole trick.",
+      "points": [
+        "**2026-09-04 sorts** before 2026-09-11.",
+        "**04-09-2026 does not.**",
+        "**Every file lands in order** with no effort.",
+        "**This is why the format looks backwards.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Your saves already do this",
+      "text": "Every game names its saves with a slot and a timestamp, because a list of files called 'save' is useless.",
+      "points": [
+        "**Screenshots do it too.**",
+        "**The camera writes the date into the name.**",
+        "**Somebody solved this already.**",
+        "**Copy what they did.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Writing a date as year-month-day makes an alphabetical sort work as a date sort.",
+        "answer": true,
+        "explain": "That is exactly why the format looks backwards. 2026-09-04 sorts before 2026-09-11."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Halfway",
+      "text": "Part 2 is folders, archiving and backups. Look away from the screen for a bit."
+    },
+    {
+      "kind": "open",
+      "icon": "📁",
+      "eyebrow": "Part 2 · Structure",
+      "title": "Widest first, narrowest last",
+      "text": "School, then the year, then the subject. Three levels is almost always enough."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Folders",
+      "title": "Too many levels is its own problem",
+      "text": "Every extra level is another decision when you save, and another guess when you look.",
+      "points": [
+        "**Three levels deep**, as a rule.",
+        "**Same names as your paper folders.**",
+        "**A folder with one file** should not exist.",
+        "**A folder with ninety** needs splitting."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Deleting",
+      "title": "Archive is not the same as delete",
+      "text": "Archiving moves something out of the way and keeps it. Deleting means it is gone.",
+      "points": [
+        "**Old term's work:** archive it.",
+        "**Duplicate of a duplicate:** delete it.",
+        "**When unsure**, archive.",
+        "**Never delete somebody else's file.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What should you do with last term's finished work?",
+        "options": [
+          "Archive it into a folder for that term",
+          "Delete it to save space",
+          "Leave it in Downloads",
+          "Rename it to Untitled"
+        ],
+        "answerIndex": 0,
+        "explain": "Archiving moves it out of the way but keeps it. When unsure, archive rather than delete."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "The worst version of this is losing a draft",
+      "text": "Writers lose work to a dead laptop, not to bad writing. One copy in one place is one accident from nothing.",
+      "points": [
+        "**Two places, minimum.**",
+        "**One of them not the laptop.**",
+        "**Cloud storage counts** as a second place.",
+        "**A folder on the same computer does not.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Backups",
+      "title": "One copy is not a copy",
+      "text": "A backup only counts if it survives whatever kills the original. Same machine means same accident.",
+      "points": [
+        "**Laptop plus cloud** is the easy version.",
+        "**Add a USB drive** for anything important.",
+        "**Check it opens.** An unreadable backup is none.",
+        "**Do it before you need it.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "space",
+      "icon": "🚀",
+      "eyebrow": "Space mode",
+      "title": "The Space Shuttle flew with five computers",
+      "text": "Four ran the same program and voted. A fifth ran different software, in case a bug broke the other four.",
+      "points": [
+        "**Four identical machines** agreeing was the check.",
+        "**The fifth was deliberately different.**",
+        "**Same design fails the same way.**",
+        "**A backup must fail differently** to count."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why is a second folder on the same laptop not a backup?",
+        "options": [
+          "The same accident destroys both copies",
+          "Folders cannot hold copies",
+          "It uses too much space",
+          "The file changes name"
+        ],
+        "answerIndex": 0,
+        "explain": "A backup has to survive whatever kills the original. Same machine, same accident."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "file naming convention",
+          "def": "An agreed pattern for names: date, subject, what it is."
+        },
+        {
+          "term": "folder hierarchy",
+          "def": "Folders inside folders, arranged widest first."
+        },
+        {
+          "term": "archive",
+          "def": "Move something out of the way but keep it."
+        },
+        {
+          "term": "backup",
+          "def": "A second copy stored somewhere the first accident cannot reach."
+        },
+        {
+          "term": "cloud storage",
+          "def": "Files kept on a service's computers, reachable from anywhere."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Date, subject, what it is.** No spaces.",
+        "**Year-month-day** so sorting works.",
+        "**Three folder levels** is enough.",
+        "**Two places**, one of them not the laptop."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "What order should a filename use?",
+      "options": [
+        "Date, then subject, then what it is",
+        "What it is, then the date",
+        "Subject only",
+        "Whatever is quickest to type"
+      ],
+      "answerIndex": 0,
+      "explain": "It answers when, what subject and what it is, without you opening the file.",
+      "objective": "Name a file so it says what it is"
+    },
+    {
+      "type": "multiple",
+      "text": "Why is 2026-09-04 better than 04-09-2026 in a filename?",
+      "options": [
+        "An alphabetical sort then puts the files in date order",
+        "It is shorter",
+        "Computers cannot read the other format",
+        "It looks more professional"
+      ],
+      "answerIndex": 0,
+      "explain": "Year first, then month, then day. That is why the format looks backwards.",
+      "objective": "Explain why dates go at the front of a filename"
+    },
+    {
+      "type": "multiple",
+      "text": "What should you use instead of spaces in a filename?",
+      "options": [
+        "Hyphens",
+        "Full stops",
+        "Nothing at all",
+        "Commas"
+      ],
+      "answerIndex": 0,
+      "explain": "Hyphens keep the name readable and avoid problems in links and older systems.",
+      "objective": "Name a file so it says what it is"
+    },
+    {
+      "type": "multiple",
+      "text": "How should a folder structure be arranged?",
+      "options": [
+        "Widest category first, narrowest last",
+        "Narrowest first",
+        "Alphabetically with no nesting",
+        "One folder for everything"
+      ],
+      "answerIndex": 0,
+      "explain": "School, then year, then subject. Three levels is almost always enough.",
+      "objective": "Build a folder structure from widest to narrowest"
+    },
+    {
+      "type": "truefalse",
+      "text": "More folder levels always makes files easier to find.",
+      "answer": false,
+      "explain": "False. Every extra level is another decision when saving and another guess when looking.",
+      "objective": "Build a folder structure from widest to narrowest"
+    },
+    {
+      "type": "multiple",
+      "text": "A folder containing a single file usually means what?",
+      "options": [
+        "The folder is unnecessary",
+        "The file is important",
+        "The folder needs splitting",
+        "The file should be deleted"
+      ],
+      "answerIndex": 0,
+      "explain": "A folder with one file adds a level for nothing. A folder with ninety needs splitting.",
+      "objective": "Build a folder structure from widest to narrowest"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the difference between archiving and deleting?",
+      "options": [
+        "Archiving keeps the file but moves it out of the way",
+        "They are the same action",
+        "Archiving destroys the file permanently",
+        "Deleting compresses the file"
+      ],
+      "answerIndex": 0,
+      "explain": "When you are unsure which one to do, archive.",
+      "objective": "Explain the difference between deleting and archiving"
+    },
+    {
+      "type": "multiple",
+      "text": "What should you do with last term's completed work?",
+      "options": [
+        "Archive it",
+        "Delete it",
+        "Leave it in Downloads",
+        "Print it and delete the file"
+      ],
+      "answerIndex": 0,
+      "explain": "It is finished but not worthless. Archiving keeps it without cluttering this term.",
+      "objective": "Explain the difference between deleting and archiving"
+    },
+    {
+      "type": "truefalse",
+      "text": "A copy in a second folder on the same laptop counts as a backup.",
+      "answer": false,
+      "explain": "False. A backup has to survive whatever kills the original. Same machine means same accident.",
+      "objective": "Explain why one copy is not a backup"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the simplest workable backup setup?",
+      "options": [
+        "The laptop plus cloud storage",
+        "Two folders on the laptop",
+        "One folder, carefully named",
+        "Printing everything"
+      ],
+      "answerIndex": 0,
+      "explain": "Two places at least, and one of them not the laptop. A USB drive can be a third.",
+      "objective": "Explain why one copy is not a backup"
+    },
+    {
+      "type": "multiple",
+      "text": "Why should you open a backup occasionally?",
+      "options": [
+        "An unreadable backup is not a backup",
+        "It keeps the file from expiring",
+        "It makes the file smaller",
+        "It renames the file automatically"
+      ],
+      "answerIndex": 0,
+      "explain": "Checking it opens is part of having one. Do it before you need it.",
+      "objective": "Explain why one copy is not a backup"
+    },
+    {
+      "type": "multiple",
+      "text": "Why does a badly named file cause a problem later?",
+      "options": [
+        "You have to open several files to find the right one",
+        "The computer runs slower",
+        "The file becomes corrupted",
+        "It cannot be shared"
+      ],
+      "answerIndex": 0,
+      "explain": "The file is not lost, and you still cannot find it. That comes to the same thing.",
+      "objective": "Name a file so it says what it is"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 8 covers digital file organisation, and it is one of the few genuinely transferable skills in the whole TLE strand — the naming convention taught here is the one used professionally. The ISO-style date is explained by its mechanism rather than asserted, which is what makes it stick: alphabetical sorting becomes date sorting for free. The archive-versus-delete distinction and the definition of a backup as 'a copy that survives what kills the original' are both worth him keeping well past Grade 6.",
+    "discussion": [
+      "Ask him to open his Downloads folder and read out three filenames. The lesson usually makes itself.",
+      "Ask why the date format looks backwards and what it buys.",
+      "Ask what would be lost right now if his laptop stopped working today.",
+      "Ask him to name where his second copy of anything actually lives."
+    ],
+    "extension": "Have him build the three-level folder structure for this term and rename ten real files into the convention. Ten is enough to make the pattern automatic.",
+    "misconceptions": [
+      "'The file is not lost, so it is fine.' A file you cannot find is a file you do not have.",
+      "'Deeper folders are more organised.' Every level adds a decision and a guess.",
+      "'A second copy on the same computer is a backup.' One accident takes both.",
+      "'Archiving and deleting are the same.' Archiving keeps the file; deleting ends it."
+    ]
+  }
+}

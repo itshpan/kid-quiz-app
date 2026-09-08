@@ -1,0 +1,368 @@
+{
+  "id": "tle-w7",
+  "courseId": "tle",
+  "courseTitle": "TLE",
+  "week": 7,
+  "title": "Organizing School Materials",
+  "subtitle": "The problem is never carrying it. The problem is finding it.",
+  "estMinutes": 18,
+  "objectives": [
+    "Set up one folder per subject and keep them separate",
+    "File a sheet the day it arrives",
+    "Pack the bag the night before",
+    "Run a weekly clear-out",
+    "Explain why searching costs more than carrying"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🎒",
+      "eyebrow": "Part 1 · The real cost",
+      "title": "Nobody loses marks for a heavy bag",
+      "text": "They lose them for a sheet that was in the bag the whole time and could not be found."
+    },
+    {
+      "kind": "figure",
+      "figure": "schoolKit",
+      "eyebrow": "Six rules",
+      "title": "A bag that packs itself",
+      "text": "Tap through. Rules three and four are the ones that change your mornings."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Rule one",
+      "title": "One folder per subject, never shared",
+      "text": "Two subjects in one folder means every search goes through twice as much paper. Colour them if that helps.",
+      "points": [
+        "**One subject, one folder.**",
+        "**Label the outside**, not the inside.",
+        "**Same order in the bag** every day.",
+        "**Loose paper is not a system.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why keep one folder per subject?",
+        "options": [
+          "Every search then goes through less paper",
+          "Folders are cheaper in bulk",
+          "It makes the bag lighter",
+          "Teachers require it"
+        ],
+        "answerIndex": 0,
+        "explain": "Searching is the cost you are trying to cut. Separating subjects halves it immediately."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Rule two",
+      "title": "File it the day it arrives",
+      "text": "An unfiled sheet in a bag gets handled three more times. Then it is lost.",
+      "points": [
+        "**Handle paper once.**",
+        "**Into the right folder** on the same day.",
+        "**Two seconds now**, ten minutes later.",
+        "**This is the rule people skip.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Inventory management is a real skill",
+      "text": "In any survival game, the players who die are the ones sorting their inventory at the wrong moment.",
+      "points": [
+        "**Sort when nothing is happening.**",
+        "**Never sort under pressure.**",
+        "**A full bag is not the problem.**",
+        "**An unsorted bag is.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "A loose sheet in the bottom of a bag is fine as long as you know it is there.",
+        "answer": false,
+        "explain": "You will handle it several more times and then lose it. File it the day it arrives."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Halfway",
+      "text": "Part 2 is the night-before pack and the weekly reset. Take a break."
+    },
+    {
+      "kind": "open",
+      "icon": "🌙",
+      "eyebrow": "Part 2 · The reset",
+      "title": "Morning you is not the person to trust with this",
+      "text": "Everything about a school morning is rushed. Every decision you can move to the night before is a decision you win."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The launch spot",
+      "title": "One place, by the door",
+      "text": "Bag, shoes and water bottle live in the same spot every night. Nothing is searched for at 6:40 in the morning.",
+      "points": [
+        "**Pick the spot once.**",
+        "**Everything school-related goes there.**",
+        "**Packed and closed** before you sleep.",
+        "**Check tomorrow's timetable** while you pack."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "A pit crew rehearses the boring part",
+      "text": "Everything is laid out before the car arrives. Nobody is looking for a wheel gun while the clock runs.",
+      "points": [
+        "**The speed comes from the preparation.**",
+        "**Not from moving faster.**",
+        "**Same tools, same place, every time.**",
+        "**That is the whole trick.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Weekly",
+      "title": "Empty it completely, once a week",
+      "text": "Take everything out. Bin the rubbish, file the paper, put back only what belongs.",
+      "points": [
+        "**About four minutes**, once a week.",
+        "**Sunday evening** works for most people.",
+        "**Anything unfiled** gets filed now.",
+        "**A bag that is never emptied** fills with sediment."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What should a weekly clear-out involve?",
+        "options": [
+          "Emptying the bag completely, then putting back only what belongs",
+          "Adding a folder each week",
+          "Buying new stationery",
+          "Moving everything to a bigger bag"
+        ],
+        "answerIndex": 0,
+        "explain": "Complete emptying is the point. Otherwise old paper settles at the bottom and stays."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "📈",
+      "eyebrow": "Your brain mode",
+      "title": "This is not about being tidy",
+      "text": "Some brains find it hard to hold several things at once. That system belongs outside your head.",
+      "points": [
+        "**Written down beats remembered.**",
+        "**One place beats several.**",
+        "**Fewer decisions beats more discipline.**",
+        "**Build the system, then trust it.**"
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "filing",
+          "def": "Putting a sheet in its folder the day it arrives."
+        },
+        {
+          "term": "launch spot",
+          "def": "The one place bag, shoes and bottle live overnight."
+        },
+        {
+          "term": "weekly reset",
+          "def": "Emptying the bag completely and putting back only what belongs."
+        },
+        {
+          "term": "handle once",
+          "def": "Deal with a piece of paper the first time you touch it."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**One folder per subject.**",
+        "**File it the day it arrives.**",
+        "**Pack the night before**, at one spot.",
+        "**Empty the bag once a week.**"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "What is the main cost of a disorganised bag?",
+      "options": [
+        "Time spent searching",
+        "Weight on your shoulders",
+        "The price of folders",
+        "Wear on the zip"
+      ],
+      "answerIndex": 0,
+      "explain": "Nobody loses marks for a heavy bag. They lose them for a sheet they could not find.",
+      "objective": "Explain why searching costs more than carrying"
+    },
+    {
+      "type": "multiple",
+      "text": "How many subjects should share one folder?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "As many as fit"
+      ],
+      "answerIndex": 0,
+      "explain": "Two subjects in one folder doubles the paper every search has to go through.",
+      "objective": "Set up one folder per subject and keep them separate"
+    },
+    {
+      "type": "multiple",
+      "text": "Where should a folder be labelled?",
+      "options": [
+        "On the outside",
+        "On the inside cover",
+        "On the first sheet",
+        "It does not need a label"
+      ],
+      "answerIndex": 0,
+      "explain": "A label you have to open the folder to read does not save you a search.",
+      "objective": "Set up one folder per subject and keep them separate"
+    },
+    {
+      "type": "multiple",
+      "text": "When should a new sheet be filed?",
+      "options": [
+        "The day it arrives",
+        "At the end of the term",
+        "When the bag gets full",
+        "When a teacher asks for it"
+      ],
+      "answerIndex": 0,
+      "explain": "Handle paper once. Unfiled paper gets handled several more times and then lost.",
+      "objective": "File a sheet the day it arrives"
+    },
+    {
+      "type": "truefalse",
+      "text": "Handling a piece of paper once is faster overall than dealing with it later.",
+      "answer": true,
+      "explain": "True. Two seconds now saves the several handlings and the eventual search.",
+      "objective": "File a sheet the day it arrives"
+    },
+    {
+      "type": "multiple",
+      "text": "When should the bag be packed?",
+      "options": [
+        "The night before",
+        "In the morning before school",
+        "On the way to school",
+        "During the first lesson"
+      ],
+      "answerIndex": 0,
+      "explain": "Prepare when it is cheap. A school morning is the expensive part of the day.",
+      "objective": "Pack the bag the night before"
+    },
+    {
+      "type": "multiple",
+      "text": "What is a launch spot?",
+      "options": [
+        "The one place bag, shoes and bottle live overnight",
+        "The first classroom of the day",
+        "A shelf for finished work",
+        "Where you do homework"
+      ],
+      "answerIndex": 0,
+      "explain": "One place, chosen once, so nothing is searched for at 6:40 in the morning.",
+      "objective": "Pack the bag the night before"
+    },
+    {
+      "type": "multiple",
+      "text": "What should you check while packing the night before?",
+      "options": [
+        "Tomorrow's timetable",
+        "Last week's marks",
+        "The weather for the weekend",
+        "Nothing; just pack everything"
+      ],
+      "answerIndex": 0,
+      "explain": "Packing to the actual timetable is what keeps the bag from becoming everything you own.",
+      "objective": "Pack the bag the night before"
+    },
+    {
+      "type": "multiple",
+      "text": "What does a weekly reset involve?",
+      "options": [
+        "Emptying the bag completely and refilling it deliberately",
+        "Wiping the outside of the bag",
+        "Buying replacement folders",
+        "Rewriting all your notes"
+      ],
+      "answerIndex": 0,
+      "explain": "Complete emptying is the point, and it takes about four minutes.",
+      "objective": "Run a weekly clear-out"
+    },
+    {
+      "type": "multiple",
+      "text": "How many spare pens is the rule suggesting?",
+      "options": [
+        "One",
+        "Five",
+        "None",
+        "As many as possible"
+      ],
+      "answerIndex": 0,
+      "explain": "One spare, kept separately. A drawer of spares is just more clutter.",
+      "objective": "Run a weekly clear-out"
+    },
+    {
+      "type": "truefalse",
+      "text": "Organising your materials is mostly about willpower and being naturally tidy.",
+      "answer": false,
+      "explain": "False. It is about building a system outside your head so you need less discipline, not more.",
+      "objective": "Explain why searching costs more than carrying"
+    },
+    {
+      "type": "multiple",
+      "text": "Why sort your bag when nothing urgent is happening?",
+      "options": [
+        "Sorting under pressure is when things go wrong",
+        "It is quieter then",
+        "You have more space",
+        "It is a school rule"
+      ],
+      "answerIndex": 0,
+      "explain": "Same principle as inventory management in a game: prepare when it is cheap.",
+      "objective": "Explain why searching costs more than carrying"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 7 is the school-materials half of the TLE organisation strand, and it deliberately does not moralise about tidiness. The framing throughout is cost: searching is expensive, carrying is not, and every rule here reduces search. The last lens card names the ADHD reality directly and reframes the whole week as building an external system rather than trying harder — which is both true and the only version of this advice that tends to stick. The weekly reset is the single highest-value habit in the lesson and is deliberately given a duration, because 'four minutes' is startable and 'sort your bag' is not.",
+    "discussion": [
+      "Ask him to time one actual search for a specific sheet. The number usually makes the argument.",
+      "Ask which of the six rules he already does without thinking about it.",
+      "Ask where the launch spot should be, and let him choose it.",
+      "Ask what would have to be true for the weekly reset to actually happen every week."
+    ],
+    "extension": "Have him set up the folders and run the night-before pack for five school days, then report what broke. Something always does, and fixing it is the real lesson.",
+    "misconceptions": [
+      "'A big bag solves it.' More space just means more unsorted material.",
+      "'I will file it later.' Later means handling the same sheet several more times before losing it.",
+      "'Being organised means being naturally tidy.' It means having a system that needs no memory.",
+      "'One clear-out fixes it.' Without the weekly reset, the bag refills with sediment in a fortnight."
+    ]
+  }
+}

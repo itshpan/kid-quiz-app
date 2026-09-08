@@ -1,0 +1,352 @@
+{
+  "id": "tle-w10",
+  "courseId": "tle",
+  "courseTitle": "TLE",
+  "week": 10,
+  "title": "Digital Portfolio & Integration Project",
+  "subtitle": "Everything from this term, gathered, named and captioned. This is the assembly job.",
+  "estMinutes": 18,
+  "objectives": [
+    "Explain what a portfolio is and what it is for",
+    "Choose which pieces to include and why",
+    "Apply the naming and folder rules to real work",
+    "Write a caption that says what you would change",
+    "Plan a project in stages instead of all at once"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🗂️",
+      "eyebrow": "Part 1 · What it is",
+      "title": "A portfolio is evidence, not a scrapbook",
+      "text": "It shows what you can do and how you got there. Everything in it should be there for a reason."
+    },
+    {
+      "kind": "figure",
+      "figure": "portfolioSteps",
+      "eyebrow": "Six steps",
+      "title": "The order to build it in",
+      "text": "Tap through. Gathering and choosing are separate steps on purpose."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Gather first",
+      "title": "Do not judge while you collect",
+      "text": "Collect everything first. Deciding what is good while you are still hunting slows both jobs down.",
+      "points": [
+        "**One folder**, everything in it.",
+        "**No sorting yet.**",
+        "**Then stop, and choose.**",
+        "**Two passes beat one careful pass.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why gather everything before choosing?",
+        "options": [
+          "Judging while hunting slows both jobs down",
+          "You will forget what you have",
+          "It uses less storage",
+          "Teachers require it"
+        ],
+        "answerIndex": 0,
+        "explain": "Two fast passes beat one slow careful one. Gather, then stop, then choose."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Choosing",
+      "title": "Three kinds of piece",
+      "text": "Your best work, your hardest work, and one you improved after feedback. The third one is the most interesting.",
+      "points": [
+        "**Best:** what you can do at your peak.",
+        "**Hardest:** what you pushed through.",
+        "**Improved:** shows you can take a correction.",
+        "**Not everything.** Choosing is the skill."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "The draft you fixed is better evidence than the one that was fine",
+      "text": "Anyone can show a good piece. Showing a bad first attempt and what you did about it is much harder and says more.",
+      "points": [
+        "**Keep the first version.**",
+        "**Show both, side by side.**",
+        "**Say what changed** and why.",
+        "**That is a portfolio doing its job.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "A portfolio should include every piece of work from the term.",
+        "answer": false,
+        "explain": "Choosing is the skill. Best, hardest and improved is enough to show what you can do."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Halfway",
+      "text": "Part 2 is naming, captioning and planning the build. Take a break first."
+    },
+    {
+      "kind": "open",
+      "icon": "🏷️",
+      "eyebrow": "Part 2 · Assembly",
+      "title": "Now use everything from week 8",
+      "text": "Rename every file to the convention, put them in subject folders, and back the whole thing up."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Captions",
+      "title": "Two lines per piece",
+      "text": "What it was, and what you would change now. The second line is the one a reader actually learns from.",
+      "points": [
+        "**Line one:** what the task was.",
+        "**Line two:** what you would do differently.",
+        "**No apologising.** State it plainly.",
+        "**'Nothing' is a valid answer** if it is true."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "This is a build log",
+      "text": "Players who post a base tour explain why each part is there. That explanation is what makes it worth watching.",
+      "points": [
+        "**Showing the thing** is half of it.",
+        "**Explaining the choices** is the other half.",
+        "**Without the why**, it is just screenshots.",
+        "**Captions are the why.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Planning",
+      "title": "A project is stages, not one big push",
+      "text": "Break it into named stages with a stopping point in each. A stage you can finish is a stage you will start.",
+      "points": [
+        "**Gather** in one sitting.",
+        "**Choose and rename** in another.",
+        "**Caption** in a third.",
+        "**Back up last.** Then it is done."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What should the second line of a caption say?",
+        "options": [
+          "What you would change now",
+          "What mark you got",
+          "How long it took",
+          "Who helped you"
+        ],
+        "answerIndex": 0,
+        "explain": "What it was, then what you would change. The second line is what a reader learns from."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "A build is photographed at every stage",
+      "text": "Anyone restoring a car documents the rust before the paint. The before is what makes the after mean anything.",
+      "points": [
+        "**Keep the early version.**",
+        "**Photograph the mess**, not only the result.",
+        "**Progress needs a starting point.**",
+        "**No before, no story.**"
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "portfolio", "def": "A chosen collection of work that shows what you can do." },
+        { "term": "curation", "def": "Choosing what goes in and leaving the rest out." },
+        { "term": "caption", "def": "Two lines: what the piece was, and what you would change." },
+        { "term": "stage", "def": "A part of a project with its own stopping point." },
+        { "term": "revision", "def": "A later version made after feedback." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Gather first, choose second.**",
+        "**Best, hardest, improved.**",
+        "**Two-line captions**, second line matters most.",
+        "**Stages with stopping points**, then back it up."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "What is a portfolio for?",
+      "options": [
+        "Showing what you can do and how you got there",
+        "Storing every file you own",
+        "Replacing exams",
+        "Keeping teachers busy"
+      ],
+      "answerIndex": 0,
+      "explain": "It is evidence, not a scrapbook. Everything in it should be there for a reason.",
+      "objective": "Explain what a portfolio is and what it is for"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the first step in building one?",
+      "options": [
+        "Gather everything without judging it",
+        "Choose your best piece",
+        "Write the captions",
+        "Set up the backup"
+      ],
+      "answerIndex": 0,
+      "explain": "Gathering and choosing are separate steps. Two fast passes beat one slow one.",
+      "objective": "Plan a project in stages instead of all at once"
+    },
+    {
+      "type": "multiple",
+      "text": "Which three kinds of piece should a portfolio include?",
+      "options": [
+        "Best, hardest, and one you improved",
+        "Longest, shortest, and newest",
+        "Three from the same subject",
+        "Only pieces with high marks"
+      ],
+      "answerIndex": 0,
+      "explain": "The improved one is the most interesting, because it shows you can take a correction.",
+      "objective": "Choose which pieces to include and why"
+    },
+    {
+      "type": "truefalse",
+      "text": "Including a weaker first draft alongside the fixed version is a mistake.",
+      "answer": false,
+      "explain": "False. The before is what makes the after mean anything. It is stronger evidence, not weaker.",
+      "objective": "Choose which pieces to include and why"
+    },
+    {
+      "type": "multiple",
+      "text": "How should portfolio files be named?",
+      "options": [
+        "Date, then subject, then what it is",
+        "By mark received",
+        "Numbered one to twenty",
+        "However they were saved originally"
+      ],
+      "answerIndex": 0,
+      "explain": "The same convention from week 8. The names are what make it findable later.",
+      "objective": "Apply the naming and folder rules to real work"
+    },
+    {
+      "type": "multiple",
+      "text": "How should the portfolio folders be arranged?",
+      "options": [
+        "One folder per subject, same as your school structure",
+        "One folder for everything",
+        "Alphabetically by filename",
+        "One folder per week"
+      ],
+      "answerIndex": 0,
+      "explain": "Reusing the structure you already know means no new decisions.",
+      "objective": "Apply the naming and folder rules to real work"
+    },
+    {
+      "type": "multiple",
+      "text": "What does the first line of a caption say?",
+      "options": ["What the task was", "What mark it got", "Who set it", "How long it took"],
+      "answerIndex": 0,
+      "explain": "What it was, then what you would change now.",
+      "objective": "Write a caption that says what you would change"
+    },
+    {
+      "type": "multiple",
+      "text": "What does the second line of a caption say?",
+      "options": [
+        "What you would change now",
+        "An apology for the work",
+        "The date it was finished",
+        "A summary of the subject"
+      ],
+      "answerIndex": 0,
+      "explain": "It is the line a reader actually learns from. 'Nothing' is valid if it is true.",
+      "objective": "Write a caption that says what you would change"
+    },
+    {
+      "type": "truefalse",
+      "text": "A caption should apologise for weaknesses in the work.",
+      "answer": false,
+      "explain": "False. State plainly what you would change. Apologising adds nothing a reader can use.",
+      "objective": "Write a caption that says what you would change"
+    },
+    {
+      "type": "multiple",
+      "text": "Why break a project into stages?",
+      "options": [
+        "A stage you can finish is a stage you will start",
+        "It takes less total time",
+        "It looks more organised",
+        "Teachers mark stages separately"
+      ],
+      "answerIndex": 0,
+      "explain": "Each stage needs its own stopping point. That is what makes it startable.",
+      "objective": "Plan a project in stages instead of all at once"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the last stage of building the portfolio?",
+      "options": [
+        "Backing it up somewhere else",
+        "Writing the captions",
+        "Choosing the pieces",
+        "Renaming the files"
+      ],
+      "answerIndex": 0,
+      "explain": "A portfolio kept in one place is a portfolio you can lose in one accident.",
+      "objective": "Plan a project in stages instead of all at once"
+    },
+    {
+      "type": "multiple",
+      "text": "What does curation mean?",
+      "options": [
+        "Choosing what goes in and leaving the rest out",
+        "Fixing errors in old work",
+        "Copying files to a new folder",
+        "Writing a summary of the term"
+      ],
+      "answerIndex": 0,
+      "explain": "Choosing is the actual skill the project is testing.",
+      "objective": "Explain what a portfolio is and what it is for"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 10 is the integration project and it deliberately reuses week 8's naming and folder rules on real work, so the convention is practised rather than memorised. Two ideas carry the lesson. First, gathering and judging are separate passes — a genuinely useful work habit and one that helps a distractible student finish. Second, the improved piece is the most valuable thing in a portfolio, because it is evidence of taking a correction rather than evidence of already being good. The captions are kept to two lines on purpose; longer ones do not get written.",
+    "discussion": [
+      "Ask him which piece from this term he would show first, and why that one.",
+      "Ask him to find a piece he improved after feedback, and keep both versions.",
+      "Ask what he would change about his best piece, and see whether he can answer without apologising.",
+      "Ask him to name the four stages and where he would stop in each."
+    ],
+    "extension": "Have him actually build it: gather in one sitting, choose and rename in another, caption in a third, back up last. Four short sessions beat one long one that never starts.",
+    "misconceptions": [
+      "'A portfolio holds everything.' Choosing what to leave out is the skill being assessed.",
+      "'Only your best work belongs in it.' The hardest piece and the improved piece say more about you.",
+      "'Captions should explain the whole task.' Two lines: what it was, what you would change.",
+      "'Do the whole project in one sitting.' Stages with stopping points are what make it startable."
+    ]
+  }
+}

@@ -1,0 +1,346 @@
+{
+  "id": "tle-w6",
+  "courseId": "tle",
+  "courseTitle": "TLE",
+  "week": 6,
+  "title": "Personal Hygiene & Self-Care",
+  "subtitle": "Not why you wash. How you run it yourself without being reminded.",
+  "estMinutes": 18,
+  "objectives": [
+    "Build a morning and evening routine in a fixed order",
+    "List what a personal care kit contains",
+    "Know when each supply needs restocking",
+    "Explain why a routine beats a reminder",
+    "Take over the job of asking for what you need"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🧴",
+      "eyebrow": "Part 1 · The system",
+      "title": "You already know what to do. This is about who runs it.",
+      "text": "Health class covers why. This is the part where the job moves from your parents to you."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Order",
+      "title": "A routine is a fixed order, not a list",
+      "text": "A list needs a decision at every line. An order runs itself, because each step tells you the next one.",
+      "points": [
+        "**Same steps, same sequence**, every day.",
+        "**The last step is the cue** for the next.",
+        "**You stop having to remember.**",
+        "**That is the entire benefit.**"
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "careKit",
+      "eyebrow": "The kit",
+      "title": "Six things, and when each runs out",
+      "text": "Tap through. The second line is the signal to say something before it is empty."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why does a fixed order work better than a checklist?",
+        "options": [
+          "Each step cues the next, so you stop deciding",
+          "It takes less time in total",
+          "It uses fewer supplies",
+          "Checklists are not allowed"
+        ],
+        "answerIndex": 0,
+        "explain": "Removing the decision is the whole mechanism. That is why the order has to stay the same."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Your loadout is checked before the match, not during",
+      "text": "Nobody sorts their gear mid-fight. Everything is prepared while there is time, so the run needs no decisions.",
+      "points": [
+        "**Prepare when it is cheap.**",
+        "**Execute when it is expensive.**",
+        "**A morning is the expensive part of the day.**",
+        "**So the preparing happens the night before.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Morning",
+      "title": "A morning order that fits in ten minutes",
+      "text": "Write yours once, in the order you actually do it. Then stop rewriting it.",
+      "points": [
+        "**Shower, then dry properly.**",
+        "**Deodorant on clean, dry skin.**",
+        "**Teeth, two minutes.**",
+        "**Dress, then hair, then out.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Deodorant works best applied to skin that is still damp.",
+        "answer": false,
+        "explain": "Clean and dry. On damp skin it slides off and does far less."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Halfway",
+      "text": "Part 2 is restocking and taking the job over. Stretch first."
+    },
+    {
+      "kind": "open",
+      "icon": "📦",
+      "eyebrow": "Part 2 · Running out",
+      "title": "The skill is noticing before it is empty",
+      "text": "Anyone can notice an empty tube. The useful skill is saying something while there is still a week left."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Restocking",
+      "title": "Open the spare, then say so",
+      "text": "The moment you start the last one is the moment to tell someone. Not the moment it runs out.",
+      "points": [
+        "**Toothbrush:** every three months.",
+        "**Toothpaste:** roughly monthly.",
+        "**Check the whole kit** on the same day each month.",
+        "**One message is enough.** You have done your part."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "The fuel light is not the plan",
+      "text": "A warning light means you have already left it late. Drivers who never run dry are watching the gauge, not the light.",
+      "points": [
+        "**Servicing happens on a schedule.**",
+        "**Not when something starts making a noise.**",
+        "**Same idea, smaller scale.**",
+        "**Maintenance beats rescue every time.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Evening",
+      "title": "The evening order does tomorrow's work",
+      "text": "Everything you do at night is a decision your morning self does not have to make.",
+      "points": [
+        "**Shower after training**, not hours later.",
+        "**Teeth last**, after any late snack.",
+        "**Clothes out**, bag by the door.",
+        "**Towel hung spread out**, so it dries."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "When should you tell someone a supply is running low?",
+        "options": [
+          "When you open the last one",
+          "When it is completely empty",
+          "Only if asked",
+          "At the end of the month"
+        ],
+        "answerIndex": 0,
+        "explain": "Starting the last one is the signal. Empty means somebody has to fix it today."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "📈",
+      "eyebrow": "Your body mode",
+      "title": "This is the year the routine has to change",
+      "text": "Your body started making demands it did not make two years ago. The routine has to grow with it.",
+      "points": [
+        "**Daily showering** is now the baseline.",
+        "**Clothes change daily**, not when they look dirty.",
+        "**Kit is bigger than it was.**",
+        "**Changing the routine is not a failure.**"
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "routine", "def": "A fixed order of steps where each one cues the next." },
+        { "term": "personal care kit", "def": "The supplies and tools you need to run your own routine." },
+        { "term": "restocking", "def": "Replacing a supply before it runs out, not after." },
+        { "term": "maintenance", "def": "Doing a small job on a schedule so a big one never arrives." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**A fixed order** removes the decision.",
+        "**Deodorant on clean, dry skin.**",
+        "**Open the last one, then say so.**",
+        "**Evening you** does the morning's work."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "What makes a routine work?",
+      "options": [
+        "A fixed order where each step cues the next",
+        "Doing it at a different time each day",
+        "Having a very long list",
+        "Being reminded by someone else"
+      ],
+      "answerIndex": 0,
+      "explain": "It removes the decision. That is why the order must not change.",
+      "objective": "Build a morning and evening routine in a fixed order"
+    },
+    {
+      "type": "multiple",
+      "text": "Why is the evening the right time to pack a bag?",
+      "options": [
+        "It removes a decision from the busiest part of the day",
+        "Bags are lighter at night",
+        "It is a school rule",
+        "Mornings have more time"
+      ],
+      "answerIndex": 0,
+      "explain": "Prepare when it is cheap; execute when it is expensive. Mornings are expensive.",
+      "objective": "Build a morning and evening routine in a fixed order"
+    },
+    {
+      "type": "multiple",
+      "text": "Which belongs in a personal care kit?",
+      "options": [
+        "Toothbrush, toothpaste, soap, deodorant",
+        "Notebooks and pens",
+        "Sports trophies",
+        "Spare phone chargers"
+      ],
+      "answerIndex": 0,
+      "explain": "Supplies that run out, plus tools like nail clippers and a comb that do not.",
+      "objective": "List what a personal care kit contains"
+    },
+    {
+      "type": "multiple",
+      "text": "Which of these is a tool rather than a supply?",
+      "options": ["Nail clippers", "Toothpaste", "Shampoo", "Soap"],
+      "answerIndex": 0,
+      "explain": "Tools do not run out. They only get lost, which is why they need one home.",
+      "objective": "List what a personal care kit contains"
+    },
+    {
+      "type": "multiple",
+      "text": "How often should a toothbrush be replaced?",
+      "options": [
+        "About every three months, or when the bristles splay",
+        "Once a year",
+        "Every week",
+        "Only when it breaks"
+      ],
+      "answerIndex": 0,
+      "explain": "Splayed bristles stop reaching the gum line, which is where plaque builds.",
+      "objective": "Know when each supply needs restocking"
+    },
+    {
+      "type": "multiple",
+      "text": "When is the right moment to say a supply is running low?",
+      "options": [
+        "When you open the last one",
+        "When it is empty",
+        "Two weeks after it runs out",
+        "Never; someone else checks"
+      ],
+      "answerIndex": 0,
+      "explain": "Opening the last one leaves time. Empty means someone has to solve it today.",
+      "objective": "Know when each supply needs restocking"
+    },
+    {
+      "type": "truefalse",
+      "text": "Checking your whole kit on the same day each month is a useful habit.",
+      "answer": true,
+      "explain": "True. A fixed check date means nothing depends on you happening to notice.",
+      "objective": "Know when each supply needs restocking"
+    },
+    {
+      "type": "multiple",
+      "text": "Deodorant should be applied to skin that is:",
+      "options": ["Clean and dry", "Damp from the shower", "Sweaty from training", "Freshly moisturised"],
+      "answerIndex": 0,
+      "explain": "On damp skin it slides off and does much less than it should.",
+      "objective": "Build a morning and evening routine in a fixed order"
+    },
+    {
+      "type": "multiple",
+      "text": "How should a towel be hung after use?",
+      "options": [
+        "Spread out so it dries",
+        "Folded in half on a hook",
+        "In a laundry basket",
+        "On the floor"
+      ],
+      "answerIndex": 0,
+      "explain": "A damp bunched towel grows bacteria quickly. Spread out, and changed weekly.",
+      "objective": "List what a personal care kit contains"
+    },
+    {
+      "type": "multiple",
+      "text": "What does maintenance mean here?",
+      "options": [
+        "Small jobs on a schedule so a big one never arrives",
+        "Fixing things after they break",
+        "Cleaning only when asked",
+        "Buying new items regularly"
+      ],
+      "answerIndex": 0,
+      "explain": "It is the same idea as servicing a car rather than waiting for a noise.",
+      "objective": "Explain why a routine beats a reminder"
+    },
+    {
+      "type": "truefalse",
+      "text": "Needing to change your routine as you grow means the old one failed.",
+      "answer": false,
+      "explain": "False. Your body's demands changed, so the routine changes with it.",
+      "objective": "Take over the job of asking for what you need"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the point of taking over your own care routine?",
+      "options": [
+        "It stops depending on someone else remembering for you",
+        "It saves money",
+        "It is faster",
+        "It means fewer showers"
+      ],
+      "answerIndex": 0,
+      "explain": "The job moves from being managed to being yours. That is the skill this week teaches.",
+      "objective": "Take over the job of asking for what you need"
+    }
+  ],
+  "teacher": {
+    "summary": "The TLE strand handles the same topic as MAPEH Health week 10 from a completely different angle, and the two are written not to overlap. Health explains why the body changed; this one is about ownership: a fixed routine order, a kit he is responsible for, and the specific skill of flagging a supply while there is still a week of it left. The restocking rule — say something when you open the last one — is the concrete thing to hold him to, because it converts a vague expectation into a checkable action.",
+    "discussion": [
+      "Ask him to say his morning routine in order, out loud, and see whether it is actually fixed.",
+      "Ask what happens to a morning when one item cannot be found.",
+      "Ask him which supply in his kit is closest to running out right now.",
+      "Ask what he would put in an evening routine to make a school morning easier."
+    ],
+    "extension": "Have him write his morning and evening routines on one card each and put them where he can see them. Then let him run both for a week and change one thing.",
+    "misconceptions": [
+      "'A routine is just a list.' A list needs a decision at every line; a routine is an order that cues itself.",
+      "'You restock when something runs out.' Opening the last one is the signal, not the empty container.",
+      "'Deodorant works better on damp skin.' Clean and dry, or most of it slides off.",
+      "'Changing your routine means the old one was wrong.' Your body changed, so the routine has to."
+    ]
+  }
+}

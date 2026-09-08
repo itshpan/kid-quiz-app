@@ -3741,6 +3741,179 @@ function hygieneRoutine() {
     });
 }
 
+
+/* ---- TLE weeks 6-10 -------------------------------------------------- */
+
+/* Week 6: the kit, and the cue that tells you to restock it. */
+function careKit() {
+    return listPicker({
+        id: 'ck', label: 'YOUR OWN KIT, YOUR OWN JOB',
+        alt: 'Six personal care supplies with how often each runs out',
+        capA: 'Item: ', capB: 'Restock when: ',
+        rows: [
+            { btn: '1', short: 'Toothbrush',
+              a: 'One brush, replaced on a schedule',
+              b: 'The bristles splay, or three months pass.' },
+            { btn: '2', short: 'Toothpaste',
+              a: 'A tube lasts roughly a month',
+              b: 'You can feel the tube going light. Say so then.' },
+            { btn: '3', short: 'Soap and shampoo',
+              a: 'Body wash or soap, plus shampoo',
+              b: 'Open the spare before the old one runs out.' },
+            { btn: '4', short: 'Deodorant',
+              a: 'Applied to clean, dry skin',
+              b: 'Check it on the same day each month.' },
+            { btn: '5', short: 'Nail clippers, comb',
+              a: 'Tools, not supplies. They do not run out',
+              b: 'They only get lost. Give them one home.' },
+            { btn: '6', short: 'Clean towel',
+              a: 'A damp towel grows bacteria fast',
+              b: 'Hang it spread out, and change it weekly.' }
+        ]
+    });
+}
+
+/* Week 7: the school kit as a system with a nightly reset. */
+function schoolKit() {
+    return listPicker({
+        id: 'sk', label: 'A BAG THAT PACKS ITSELF',
+        alt: 'Six rules for organising school materials, each with the reason it works',
+        rows: [
+            { btn: '1', short: 'One folder per subject',
+              a: 'Colour or label it, and never mix two subjects',
+              b: 'Searching is what kills you, not carrying.' },
+            { btn: '2', short: 'Paper in, paper out',
+              a: 'Every sheet is filed the day it arrives',
+              b: 'A loose sheet in a bag is a lost sheet.' },
+            { btn: '3', short: 'Pack the night before',
+              a: 'The bag is packed before you sleep',
+              b: 'Morning you is not the person to trust with this.' },
+            { btn: '4', short: 'One launch spot',
+              a: 'Bag, shoes and water bottle live in one place',
+              b: 'No searching at 6:40 in the morning.' },
+            { btn: '5', short: 'Weekly clear-out',
+              a: 'Empty the bag completely once a week',
+              b: 'Sunday works. It takes about four minutes.' },
+            { btn: '6', short: 'A spare of one thing',
+              a: 'One spare pen, kept somewhere separate',
+              b: 'One spare. A drawer of spares is clutter.' }
+        ]
+    });
+}
+
+/* Week 8: folders, names and backups, shown as actual screens. */
+function fileTree() {
+    const mono = (x, y, t, cls = 'fig-mono') =>
+        `<text class="${cls}" x="${x}" y="${y}">${t}</text>`;
+    const messy = [
+        'Untitled document (3).docx',
+        'IMG_20260904_113402.jpg',
+        'sci final FINAL v2.docx',
+        'aaaa.pdf',
+        'Screenshot 2026-09-01.png'
+    ].map((t, i) => mono(40, 76 + i * 24, t)).join('');
+
+    const tree =
+        mono(34, 76, 'School/') +
+        mono(52, 100, 'Grade-6/') +
+        mono(70, 124, 'Science/') +
+        mono(70, 148, 'Math/') +
+        mono(70, 172, 'Filipino/') +
+        `<path class="fig-flow on" d="M40 82 L40 96 L50 96"/>
+         <path class="fig-flow on" d="M58 106 L58 168"/>
+         <path class="fig-flow on" d="M58 120 L68 120"/>
+         <path class="fig-flow on" d="M58 144 L68 144"/>
+         <path class="fig-flow on" d="M58 168 L68 168"/>`;
+
+    const naming = [
+        ['2026-09-04-science-w6.docx', 'fig-mono'],
+        ['date first, then subject', 'fig-note'],
+        ['sorts itself by date', 'fig-note'],
+        ['no spaces, no capitals', 'fig-note']
+    ].map(([t, c], i) => mono(34, 80 + i * 28, t, c)).join('');
+
+    const backup = ['On the laptop', 'In cloud storage', 'On a USB drive']
+        .map((t, i) => `<rect class="fig-box" x="34" y="${60 + i * 46}" width="330" height="34" rx="8"/>` +
+                       mono(48, 82 + i * 46, t, 'fig-cell')).join('');
+
+    return demoSwitch({
+        id: 'ft', label: 'FILES YOU CAN FIND AGAIN', height: 268, capY: 220,
+        alt: 'Four screens: a messy folder, a folder tree, a file naming rule, and three backup places',
+        demos: [
+            { btn: 'Messy', svg: messy,
+              a: 'None of these names says what is inside',
+              b: 'In a year you will open all five to find one.' },
+            { btn: 'Folders', svg: tree,
+              a: 'Folders inside folders, widest first',
+              b: 'School, then year, then subject. Three levels is plenty.' },
+            { btn: 'Naming', svg: naming,
+              a: 'A name is a search you do not have to run',
+              b: 'Date first means the list sorts itself.' },
+            { btn: 'Backup', svg: backup,
+              a: 'One copy is not a copy',
+              b: 'Two places at least, and one of them not the laptop.' }
+        ]
+    });
+}
+
+/* Week 9: the jobs that keep a house running, and who they belong to. */
+function homeJobs() {
+    return listPicker({
+        id: 'hj', label: 'JOBS, AND WHY THEY ARE YOURS',
+        alt: 'Six household responsibilities with the skill each one builds',
+        capA: 'Job: ', capB: 'Builds: ',
+        rows: [
+            { btn: '1', short: 'Your own laundry',
+              a: 'Sort, wash, dry, fold and put away',
+              b: 'Sequencing a task that has waiting built into it.' },
+            { btn: '2', short: 'Washing up',
+              a: 'Clear, wash, dry and reset the kitchen',
+              b: 'Finishing. A half-done kitchen is not done.' },
+            { btn: '3', short: 'Simple cooking',
+              a: 'One meal you can make without help',
+              b: 'Reading a process and following it in order.' },
+            { btn: '4', short: 'Rubbish and recycling',
+              a: 'Sorted, bagged and out on the right day',
+              b: 'Working to a deadline somebody else set.' },
+            { btn: '5', short: 'Your own room',
+              a: 'Reset it daily, deep clean it weekly',
+              b: 'Maintenance instead of rescue.' },
+            { btn: '6', short: 'Noticing',
+              a: 'Doing a job nobody assigned you',
+              b: 'This is the one that turns chores into independence.' }
+        ]
+    });
+}
+
+/* Week 10: assembling a portfolio, in the order it is built. */
+function portfolioSteps() {
+    return listPicker({
+        id: 'ps', label: 'BUILDING THE PORTFOLIO',
+        alt: 'Six steps for assembling a digital portfolio of term work',
+        capA: 'Step: ', capB: 'Why: ',
+        rows: [
+            { btn: '1', short: 'Gather',
+              a: 'Collect every piece of work from the term',
+              b: 'Gather first. Judging while you gather is slow.' },
+            { btn: '2', short: 'Choose',
+              a: 'Pick the pieces that show the most',
+              b: 'Best work, hardest work, and one you improved.' },
+            { btn: '3', short: 'Name',
+              a: 'Rename each file by date and subject',
+              b: 'The names are what make it findable later.' },
+            { btn: '4', short: 'Arrange',
+              a: 'Put them in folders, one per subject',
+              b: 'The same structure you already use for school.' },
+            { btn: '5', short: 'Caption',
+              a: 'One or two lines on each piece',
+              b: 'What it was, and what you would change now.' },
+            { btn: '6', short: 'Back up',
+              a: 'Store a second copy somewhere else',
+              b: 'A portfolio in one place is a portfolio you can lose.' }
+        ]
+    });
+}
+
 export const FIGURES = {
     crumpleZone,
     muscleTypes,
@@ -3810,7 +3983,12 @@ export const FIGURES = {
     sportCategories,
     healthHabits,
     fitnessParts,
-    hygieneRoutine
+    hygieneRoutine,
+    careKit,
+    schoolKit,
+    fileTree,
+    homeJobs,
+    portfolioSteps
 };
 
 
