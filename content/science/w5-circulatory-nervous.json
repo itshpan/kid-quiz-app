@@ -1,0 +1,536 @@
+{
+  "id": "sci-w5",
+  "courseId": "science",
+  "courseTitle": "Science",
+  "week": 5,
+  "title": "Circulatory & Nervous Systems",
+  "subtitle": "Two delivery networks. One moves oxygen, the other moves information.",
+  "estMinutes": 22,
+  "objectives": [
+    "Name the four chambers of the heart and trace blood through both circuits",
+    "Distinguish arteries, veins and capillaries by structure and job",
+    "Name the four parts of blood and what each one does",
+    "Name the parts of the central nervous system and what each does",
+    "Describe how a neuron carries a signal",
+    "Explain a reflex arc and why it does not go through the brain"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🫀",
+      "eyebrow": "Part 1 · The delivery network",
+      "title": "Two systems whose whole job is delivery",
+      "text": "One moves oxygen and fuel. The other moves information. Both are networks, and both fail the same way — a blocked route."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The big idea",
+      "title": "Your heart is two pumps in one case",
+      "text": "The right side and the left side never mix. Each one drives a different loop.",
+      "points": [
+        "**Right side** → the lungs. A short, gentle loop.",
+        "**Left side** → the whole body. A long, hard one.",
+        "**Four chambers:** two atria on top, two ventricles below.",
+        "**Atria receive. Ventricles pump.**"
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "heartLoop",
+      "eyebrow": "Follow the blood",
+      "title": "Trace one drop all the way round",
+      "text": "Four steps. Tap each one and watch the route build. Two quiz questions come from this."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which side of the heart pumps blood to the lungs?",
+        "options": [
+          "The right side",
+          "The left side",
+          "Both sides together"
+        ],
+        "answerIndex": 0,
+        "explain": "The right side, on a short loop. The left side does the long push to the whole body."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The pipes",
+      "title": "Arteries, veins and capillaries",
+      "text": "Three kinds of vessel. The difference is the pressure each one has to survive.",
+      "points": [
+        "**Arteries** carry blood *away* from the heart. Thick and elastic.",
+        "**Veins** carry it back. Thinner, with valves stopping backflow.",
+        "**Capillaries** are one cell thick. That is where exchange happens.",
+        "**A for away** is the whole memory trick."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "It is a pumped circuit, not a bucket",
+      "text": "A car's cooling system is a closed loop: a pump, hoses out to the radiator, hoses back. Sound familiar?",
+      "points": [
+        "**The water pump** is the heart.",
+        "**The radiator** is the lungs — where the exchange happens.",
+        "**Stop the pump** and nothing else in the loop matters.",
+        "**A closed loop** means the same fluid goes round again."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is the difference between an artery and a vein?",
+        "options": [
+          "Arteries carry blood away from the heart; veins carry it back",
+          "Arteries carry oxygen; veins carry carbon dioxide",
+          "Arteries are in the arms; veins are in the legs"
+        ],
+        "answerIndex": 0,
+        "explain": "Direction, not contents. A for artery, A for away. There is one famous exception coming."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The exception",
+      "title": "The one the test always asks",
+      "text": "Almost every artery carries oxygen-rich blood. Two vessels break that pattern, and examiners love them.",
+      "points": [
+        "**Pulmonary artery:** an artery carrying oxygen-*poor* blood.",
+        "**Pulmonary vein:** a vein carrying oxygen-*rich* blood.",
+        "**Because it is going to the lungs**, not coming from them.",
+        "**Artery is about direction.** Never about oxygen."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "What blood is",
+      "title": "Four things in one liquid",
+      "text": "Blood is not one substance. It is cells and fragments floating in a straw-coloured liquid.",
+      "points": [
+        "**Plasma** — the liquid, a bit over half of it.",
+        "**Red cells** carry oxygen using haemoglobin.",
+        "**White cells** fight infection.",
+        "**Platelets** clot a cut and stop the bleeding."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "A trained heart beats fewer times, not more",
+      "text": "This surprises people. Training makes the left ventricle stronger, so each single beat moves more blood.",
+      "points": [
+        "**Fewer beats** are needed for the same delivery.",
+        "**A trained resting rate** can sit in the forties or fifties.",
+        "**Same adaptation as bone in Week 1.** Load it, it responds."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which part of the blood carries oxygen?",
+        "options": [
+          "Red blood cells",
+          "White blood cells",
+          "Platelets",
+          "Plasma"
+        ],
+        "answerIndex": 0,
+        "explain": "Red cells, using haemoglobin. White cells fight infection and platelets do the clotting."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "space",
+      "icon": "🪐",
+      "eyebrow": "Space mode",
+      "title": "In orbit the heart gets lazy",
+      "text": "On Earth your heart works against gravity to push blood upward. In orbit it does not have to.",
+      "points": [
+        "**The heart muscle weakens** over a long mission.",
+        "**Exactly like bone density**, and for the same reason.",
+        "**Astronauts train daily** to stop it happening."
+      ]
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Delivery system done. Part 2 is the other network — the one that carries information. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "🧠",
+      "eyebrow": "Part 2 · The signal network",
+      "title": "The other network moves information",
+      "text": "Blood takes about a minute to go all the way round. A nerve signal crosses your body in a fraction of a second."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The two halves",
+      "title": "Central and peripheral",
+      "text": "The nervous system splits in two. One half decides, the other reports and carries out.",
+      "points": [
+        "**Central nervous system:** the brain and the spinal cord.",
+        "**Peripheral nervous system:** every nerve outside those two.",
+        "**Both are protected by bone** — skull and vertebrae.",
+        "**Week 1 said the skeleton protects.** This is what it protects."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The wiring",
+      "title": "One neuron, four parts",
+      "text": "A neuron is a cell built to carry a signal in one direction only.",
+      "points": [
+        "**Dendrites** receive the incoming signal.",
+        "**The axon** carries it away, sometimes a metre long.",
+        "**Myelin** wraps the axon and makes the signal much faster.",
+        "**The synapse** is the gap where one neuron passes to the next."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What makes up the central nervous system?",
+        "options": [
+          "The brain and the spinal cord",
+          "The brain and all the nerves",
+          "The spinal cord and the muscles"
+        ],
+        "answerIndex": 0,
+        "explain": "Brain and spinal cord. Everything else is the peripheral nervous system."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🏎️",
+      "eyebrow": "Car mode",
+      "title": "Your nerves outrun the car",
+      "text": "A myelinated motor nerve can carry a signal at around 120 metres per second.",
+      "points": [
+        "**That is over 400 kilometres an hour.**",
+        "**Faster than a Formula 1 car flat out.**",
+        "**Strip the myelin off** and the signal crawls.",
+        "**Insulation is the speed.** Same as a good cable."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The brain",
+      "title": "Three parts, three jobs",
+      "text": "The brain is not one lump. The exam wants three regions and what each one runs.",
+      "points": [
+        "**Cerebrum** — thinking, memory, decisions, voluntary movement.",
+        "**Cerebellum** — balance, coordination, timing.",
+        "**Brain stem** — breathing and heart rate, without asking you.",
+        "**You cannot decide to stop your brain stem.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Death Stranding put the cerebellum on screen",
+      "text": "That game makes you feel every shift in the load. Your cerebellum does the same job constantly, for free.",
+      "points": [
+        "**Carrying a heavy pack** shifts your centre of gravity.",
+        "**The cerebellum corrects it** before you notice.",
+        "**Damage it** and walking becomes a conscious task."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which part of the brain controls balance and coordination?",
+        "options": [
+          "The cerebellum",
+          "The cerebrum",
+          "The brain stem"
+        ],
+        "answerIndex": 0,
+        "explain": "The cerebellum. The cerebrum thinks, and the brain stem runs breathing and heart rate."
+      }
+    },
+    {
+      "kind": "figure",
+      "figure": "reflexArc",
+      "eyebrow": "The shortcut",
+      "title": "Tap through a reflex",
+      "text": "Hand on a hot pan. Four steps, and the last one is the surprise."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Why it exists",
+      "title": "The brain is told afterwards",
+      "text": "A reflex skips the brain because the brain is too slow for this. Damage happens in milliseconds.",
+      "points": [
+        "**Sensory neuron in, motor neuron out.**",
+        "**One relay in the spinal cord** connects them.",
+        "**You feel the pain** after your hand has already moved.",
+        "**That gap is the reflex doing its job.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Slipping a punch is not a reflex",
+      "text": "People call it one, but it goes through the brain. That is exactly why it takes years of practice.",
+      "points": [
+        "**A true reflex** is wired in. You are born with it.",
+        "**A trained reaction** is learned, and it gets faster.",
+        "**Which is why sparring works** and reading about it does not."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "In a reflex, the signal reaches your brain before your muscle moves.",
+        "answer": false,
+        "explain": "False. The spinal cord handles it. You feel the pain after your hand has already gone."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "atrium",
+          "def": "An upper chamber of the heart. It receives blood. Two of them: right and left."
+        },
+        {
+          "term": "ventricle",
+          "def": "A lower chamber of the heart. It pumps blood out. The left one has the thickest wall."
+        },
+        {
+          "term": "artery",
+          "def": "A vessel carrying blood away from the heart. Thick and elastic."
+        },
+        {
+          "term": "vein",
+          "def": "A vessel carrying blood back to the heart. Thinner, with valves."
+        },
+        {
+          "term": "capillary",
+          "def": "The smallest vessel, one cell thick. Where oxygen and waste are exchanged."
+        },
+        {
+          "term": "haemoglobin",
+          "def": "The substance in red blood cells that oxygen attaches to."
+        },
+        {
+          "term": "plasma",
+          "def": "The straw-coloured liquid the blood cells float in. A bit over half of blood."
+        },
+        {
+          "term": "central nervous system",
+          "def": "The brain and the spinal cord. Everything else is peripheral."
+        },
+        {
+          "term": "neuron",
+          "def": "A nerve cell. Dendrites in, axon out, synapse at the far end."
+        },
+        {
+          "term": "myelin",
+          "def": "The insulating sheath around an axon. It makes the signal far faster."
+        },
+        {
+          "term": "reflex arc",
+          "def": "Sensory neuron, spinal relay, motor neuron. It does not go via the brain."
+        },
+        {
+          "term": "cerebellum",
+          "def": "The part of the brain that handles balance, coordination and timing."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Right side to the lungs. Left side to the body.**",
+        "**Arteries away, veins back, capillaries exchange.**",
+        "**Central nervous system = brain plus spinal cord.**",
+        "**A reflex skips the brain.** That is the whole point."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "order",
+      "text": "Put these in the order blood travels through them.",
+      "items": [
+        "Right side of the heart",
+        "Lungs",
+        "Left side of the heart",
+        "The body"
+      ],
+      "explain": "Body in on the right, out to the lungs, back in on the left, out to the body again.",
+      "objective": "Name the four chambers of the heart and trace blood through both circuits"
+    },
+    {
+      "type": "multiple",
+      "text": "Which chamber has the thickest muscular wall, and why?",
+      "options": [
+        "The left ventricle, because it pumps to the whole body",
+        "The right ventricle, because it pumps to the lungs",
+        "The left atrium, because it receives from the lungs",
+        "The right atrium, because it receives from the body"
+      ],
+      "answerIndex": 0,
+      "explain": "The left ventricle. It is the longest, hardest push in the system, so it needs the most muscle.",
+      "objective": "Name the four chambers of the heart and trace blood through both circuits"
+    },
+    {
+      "type": "multiple",
+      "text": "What defines an artery?",
+      "options": [
+        "It carries blood away from the heart",
+        "It always carries oxygen-rich blood",
+        "It is always found close to the skin",
+        "It has valves inside it"
+      ],
+      "answerIndex": 0,
+      "explain": "Direction, not contents. The pulmonary artery carries oxygen-poor blood and is still an artery.",
+      "objective": "Distinguish arteries, veins and capillaries by structure and job"
+    },
+    {
+      "type": "multiple",
+      "text": "Where does the exchange of oxygen and waste actually happen?",
+      "options": [
+        "In the capillaries",
+        "In the arteries",
+        "In the veins",
+        "In the left ventricle"
+      ],
+      "answerIndex": 0,
+      "explain": "Capillaries. Their walls are one cell thick, which is what makes exchange possible.",
+      "objective": "Distinguish arteries, veins and capillaries by structure and job"
+    },
+    {
+      "type": "truefalse",
+      "text": "The pulmonary artery carries oxygen-poor blood.",
+      "answer": true,
+      "explain": "True. It is heading to the lungs to collect oxygen, so it has not picked any up yet.",
+      "objective": "Distinguish arteries, veins and capillaries by structure and job"
+    },
+    {
+      "type": "type",
+      "text": "What substance in red blood cells does oxygen attach to?",
+      "accept": [
+        "haemoglobin",
+        "hemoglobin"
+      ],
+      "explain": "Haemoglobin. It is what makes red blood cells red, and what lets them carry oxygen.",
+      "objective": "Name the four parts of blood and what each one does"
+    },
+    {
+      "type": "multiple",
+      "text": "Which part of the blood stops a cut from bleeding?",
+      "options": [
+        "Platelets",
+        "Plasma",
+        "Red blood cells",
+        "White blood cells"
+      ],
+      "answerIndex": 0,
+      "explain": "Platelets. They clump together and form the clot. White cells fight infection instead.",
+      "objective": "Name the four parts of blood and what each one does"
+    },
+    {
+      "type": "multiple",
+      "text": "What are the two parts of the central nervous system?",
+      "options": [
+        "The brain and the spinal cord",
+        "The brain and the nerves",
+        "The spinal cord and the nerves",
+        "The brain and the sense organs"
+      ],
+      "answerIndex": 0,
+      "explain": "Brain and spinal cord, both protected by bone. Every other nerve is peripheral.",
+      "objective": "Name the parts of the central nervous system and what each does"
+    },
+    {
+      "type": "multiple",
+      "text": "Which brain part keeps you breathing without you thinking about it?",
+      "options": [
+        "The brain stem",
+        "The cerebellum",
+        "The cerebrum",
+        "The spinal cord"
+      ],
+      "answerIndex": 0,
+      "explain": "The brain stem. It runs breathing and heart rate, and you cannot switch it off on purpose.",
+      "objective": "Name the parts of the central nervous system and what each does"
+    },
+    {
+      "type": "multiple",
+      "text": "What does myelin do?",
+      "options": [
+        "It insulates the axon so the signal travels much faster",
+        "It receives signals from other neurons",
+        "It is the gap between two neurons",
+        "It carries oxygen to the nerve cell"
+      ],
+      "answerIndex": 0,
+      "explain": "It insulates. A myelinated nerve can carry a signal at about 120 metres per second.",
+      "objective": "Describe how a neuron carries a signal"
+    },
+    {
+      "type": "order",
+      "text": "Put a reflex in order, from touching a hot pan onward.",
+      "items": [
+        "Sensory neuron carries the signal in",
+        "The spinal cord relays it",
+        "Motor neuron makes the muscle move",
+        "The brain registers the pain"
+      ],
+      "explain": "The brain is last. Your hand has already moved by the time you feel anything.",
+      "objective": "Explain a reflex arc and why it does not go through the brain"
+    },
+    {
+      "type": "multiple",
+      "text": "Why does a reflex not go through the brain first?",
+      "options": [
+        "Going via the brain would be too slow to prevent damage",
+        "The brain cannot control muscles at all",
+        "The brain is asleep most of the time",
+        "Reflexes only happen in the legs"
+      ],
+      "answerIndex": 0,
+      "explain": "Speed. Damage happens in milliseconds, so the spinal cord decides and tells the brain afterwards.",
+      "objective": "Explain a reflex arc and why it does not go through the brain"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 5 Science covers the circulatory and nervous systems together, matching the Term 1 weekly scope. The two are taught as the same kind of thing — a delivery network — so the second half has a structure to hang on rather than starting from nothing. Two interactive figures carry the parts that a paragraph handles badly: the double circulation loop, and the reflex arc where the ordering is the whole lesson. The reflex figure deliberately ends on the brain being informed last, because that is the point students most often get backwards. Two callbacks to Week 1 are built in: bone as protection for the central nervous system, and training adaptation applied to the heart.",
+    "discussion": [
+      "Ask him why the left ventricle is thicker than the right. If he can answer from the loop lengths rather than from memory, he has understood the double circuit.",
+      "Ask him to explain the pulmonary artery to you. It is the fastest way to find out whether 'artery' means direction or oxygen in his head.",
+      "Ask what would happen if the reflex arc did go through the brain. It turns a memorised sequence into a reason.",
+      "Ask him to name something his cerebellum did in the last minute. Sitting upright counts, and that is the surprise."
+    ],
+    "extension": "Have him take his own resting pulse for one minute, then again after twenty burpees, then once a minute until it comes back down. The recovery curve is the interesting part, and it is his own data rather than a textbook's.",
+    "misconceptions": [
+      "'Arteries carry oxygen, veins carry carbon dioxide.' Arteries carry blood away from the heart. The pulmonary artery is oxygen-poor and the pulmonary vein is oxygen-rich.",
+      "'The heart pumps blood around one big circle.' There are two circuits, and the two sides of the heart never mix.",
+      "'A reflex is a fast decision by the brain.' The brain is not involved in making it. The spinal cord relays it and the brain is told afterwards.",
+      "'Slipping a punch is a reflex.' It is a trained response that goes through the brain, which is why it takes years to learn."
+    ]
+  }
+}

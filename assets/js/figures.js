@@ -1397,6 +1397,143 @@ function roadTo1872() {
     };
 }
 
+/* ==========================================================================
+   SCIENCE — circulation and the reflex arc.
+   Both are sequences, and a sequence is the case where a diagram genuinely
+   beats prose: you can see where you are in the loop. They share one small
+   engine below — light the segments up to step n, and caption the current one.
+   Nothing is distinguished by colour alone; the caption always names it.
+   ========================================================================== */
+
+/** Shared: a stepped path diagram. STEPS carry the caption for each segment. */
+function steppedPath({ id, viewBox, scene, segs, steps, labels }) {
+    const head = 'M-11 -5 L0 0 L-11 5 Z';
+    return {
+        svg: `
+<svg viewBox="${viewBox}" role="img" aria-labelledby="${id}T">
+  <title id="${id}T">${labels.alt}</title>
+  <text class="fig-label" x="${labels.x}" y="${labels.y}">${labels.text}</text>
+  ${scene}
+  ${segs.map((g, i) => `
+  <path class="fig-seg"     data-s="${i}" d="${g.d}"/>
+  <path class="fig-seghead" data-s="${i}" d="${head}" transform="translate(${g.tip}) rotate(${g.rot})"/>`).join('')}
+  <text class="fig-note fig-note-key" id="${id}Head" x="16" y="${labels.capY}">&#160;</text>
+  <text class="fig-note"              id="${id}Body" x="16" y="${labels.capY + 18}">&#160;</text>
+</svg>`,
+
+        bind(root) {
+            const bar = document.createElement('div');
+            bar.className = 'fig-switch';
+            bar.innerHTML = steps.map((s, i) =>
+                `<button data-i="${i}" aria-pressed="${i === 0}">${s.btn}</button>`).join('');
+            root.appendChild(bar);
+
+            const h = root.querySelector(`#${id}Head`);
+            const b = root.querySelector(`#${id}Body`);
+            const parts = [...root.querySelectorAll('[data-s]')];
+
+            const show = n => {
+                h.textContent = steps[n].head;
+                b.textContent = steps[n].body;
+                // Cumulative: the path so far stays lit, so the sequence is visible
+                // as a route rather than as five unrelated highlights.
+                parts.forEach(p => p.classList.toggle('on', Number(p.dataset.s) <= n));
+                bar.querySelectorAll('button').forEach((x, j) =>
+                    x.setAttribute('aria-pressed', String(j === n)));
+            };
+
+            bar.addEventListener('click', e => {
+                const btn = e.target.closest('button');
+                if (btn) show(Number(btn.dataset.i));
+            });
+            show(0);
+        }
+    };
+}
+
+/* ---------- Double circulation: two loops, one pump ---------- */
+/* Drawn as a figure of eight because that is what double circulation is.
+   Right side of the heart is on the viewer's left, as on every diagram he
+   will meet in an exam — the card says so, because it catches people out. */
+function heartLoop() {
+    return steppedPath({
+        id: 'hl',
+        viewBox: '0 0 400 332',
+        labels: {
+            x: 146, y: 20, text: 'TWO LOOPS, ONE PUMP', capY: 300,
+            alt: 'A figure-of-eight showing blood going body, right heart, lungs, left heart, body'
+        },
+        scene: `
+  <rect class="fig-organ" x="28"  y="26"  width="104" height="46" rx="10"/>
+  <text class="fig-organ-t" x="80"  y="55"  text-anchor="middle">LUNGS</text>
+  <rect class="fig-organ" x="268" y="228" width="104" height="46" rx="10"/>
+  <text class="fig-organ-t" x="320" y="257" text-anchor="middle">BODY</text>
+  <rect class="fig-pump"  x="140" y="108" width="120" height="88" rx="12"/>
+  <line class="fig-divide" x1="200" y1="110" x2="200" y2="194"/>
+  <text class="fig-chamber fig-chamber-strong" x="170" y="128" text-anchor="middle">RIGHT</text>
+  <text class="fig-chamber" x="170" y="150" text-anchor="middle">atrium</text>
+  <text class="fig-chamber" x="170" y="172" text-anchor="middle">ventricle</text>
+  <text class="fig-chamber fig-chamber-strong" x="231" y="128" text-anchor="middle">LEFT</text>
+  <text class="fig-chamber" x="231" y="150" text-anchor="middle">atrium</text>
+  <text class="fig-chamber" x="231" y="172" text-anchor="middle">ventricle</text>`,
+        segs: [
+            { d: 'M268 252 C220 262 172 236 166 200', tip: '166,200', rot: 261 },
+            { d: 'M168 108 C150 92 110 88 84 77',     tip: '84,77',   rot: 203 },
+            { d: 'M112 74 C160 96 200 84 230 106',    tip: '230,106', rot: 36  },
+            { d: 'M232 196 C252 214 268 220 286 229', tip: '286,229', rot: 27  }
+        ],
+        steps: [
+            { btn: '1 Body in',  head: 'Body to the right side of the heart',
+              body: 'Oxygen-poor blood comes back in the veins.' },
+            { btn: '2 To lungs', head: 'Right side pumps it to the lungs',
+              body: 'It picks up oxygen and drops carbon dioxide.' },
+            { btn: '3 Lungs in', head: 'Lungs back to the left side',
+              body: 'Oxygen-rich blood returns to the heart.' },
+            { btn: '4 To body',  head: 'Left side pumps it to the whole body',
+              body: 'The hardest push. That is why its wall is thickest.' }
+        ]
+    });
+}
+
+/* ---------- The reflex arc ---------- */
+/* The point of the figure is the last step: the brain is told afterwards.
+   That ordering is impossible to show convincingly in a paragraph. */
+function reflexArc() {
+    return steppedPath({
+        id: 'ra',
+        viewBox: '0 0 400 314',
+        labels: {
+            x: 16, y: 20, text: 'REFLEX ARC', capY: 278,
+            alt: 'A hand, the spinal cord, an arm muscle and the brain, with the reflex path between them'
+        },
+        scene: `
+  <circle class="fig-organ" cx="56" cy="196" r="26"/>
+  <text class="fig-organ-t" x="56" y="240" text-anchor="middle">HAND</text>
+  <rect class="fig-organ" x="20" y="72" width="76" height="38" rx="16"/>
+  <text class="fig-organ-t" x="58" y="62" text-anchor="middle">ARM MUSCLE</text>
+  <rect class="fig-pump" x="186" y="50" width="28" height="184" rx="13"/>
+  <text class="fig-organ-t" x="200" y="252" text-anchor="middle">SPINAL CORD</text>
+  <rect class="fig-organ" x="256" y="30" width="88" height="46" rx="22"/>
+  <text class="fig-organ-t" x="300" y="59" text-anchor="middle">BRAIN</text>`,
+        segs: [
+            { d: 'M80 188 C120 180 150 172 182 163', tip: '182,163', rot: 344 },
+            { d: 'M200 158 L200 130',                tip: '200,130', rot: 270 },
+            { d: 'M184 118 C150 110 120 100 94 95',  tip: '94,95',   rot: 192 },
+            { d: 'M213 80 C234 68 242 60 254 54',    tip: '254,54',  rot: 329 }
+        ],
+        steps: [
+            { btn: '1 Sensory', head: 'Sensory neuron: hand to spinal cord',
+              body: 'The message goes in. It does not visit the brain first.' },
+            { btn: '2 Cord',    head: 'The spinal cord makes the decision',
+              body: 'One relay neuron, and that is the whole shortcut.' },
+            { btn: '3 Motor',   head: 'Motor neuron: cord to the arm muscle',
+              body: 'Your hand is already moving away from the pan.' },
+            { btn: '4 Brain',   head: 'Only now is the brain told',
+              body: 'You feel the pain after your hand has gone. That is the point.' }
+        ]
+    });
+}
+
 export const FIGURES = {
     crumpleZone,
     muscleTypes,
@@ -1416,7 +1553,9 @@ export const FIGURES = {
     decimalColumns,
     possessiveRule,
     phMap,
-    roadTo1872
+    roadTo1872,
+    heartLoop,
+    reflexArc
 };
 
 

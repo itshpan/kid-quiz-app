@@ -63,7 +63,8 @@
             "Heart, Blood Vessels, Blood",
             "Brain, Spinal Cord"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "science/w5-circulatory-nervous.json"
         },
         {
           "week": 6,

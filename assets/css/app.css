@@ -869,6 +869,20 @@ strong { font-weight: 700; color: var(--ink); }
 #brHead, #brBrain, #brFist { transition: transform .26s cubic-bezier(.3,.8,.4,1); }
 @media (prefers-reduced-motion: reduce) { #brHead, #brBrain, #brFist { transition: none; } }
 
+/* ---------- Circulation loop + reflex arc figures ---------- */
+/* Both figures light one segment at a time. The active segment is never
+   distinguished by colour alone — the caption underneath always names it. */
+.fig-organ  { fill: var(--surface-2); stroke: var(--ink-faint); stroke-width: 2; }
+.fig-organ-t{ font-family: var(--font-ui); font-size: 12px; font-weight: 800; fill: var(--ink-soft); }
+.fig-pump   { fill: var(--surface-2); stroke: var(--ink-faint); stroke-width: 2.5; }
+.fig-divide { stroke: var(--ink-faint); stroke-width: 1.5; stroke-dasharray: 4 3; }
+.fig-seg      { fill: none; stroke: var(--ink-faint); stroke-width: 3.5; stroke-linecap: round; }
+.fig-seg.on   { stroke: var(--accent); stroke-width: 5.5; }
+.fig-seghead    { fill: var(--ink-faint); }
+.fig-seghead.on { fill: var(--accent); }
+.fig-chamber { font-family: var(--font-ui); font-size: 11px; fill: var(--ink-soft); }
+.fig-chamber-strong { font-weight: 800; fill: var(--ink); }
+
 /* ---------- Sign-in flow ---------- */
 /* Two named steps, so it's always obvious where you are and what's left. */
 .signin-steps {
