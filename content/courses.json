@@ -409,7 +409,8 @@
           "topics": [
             "The Reform Movement"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "social-studies/w3-reform-movement.json"
         },
         {
           "week": 4,

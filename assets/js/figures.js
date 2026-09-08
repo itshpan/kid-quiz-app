@@ -2110,6 +2110,79 @@ function rizalLife() {
     });
 }
 
+/* ---------- What the reformers asked for, and what they got ---------- */
+/* The list of demands is easy to memorise and easy to misread as a list of
+   things that happened. Pairing each one with the outcome is the argument of
+   the whole topic: twenty years of asking, and the column on the right never
+   changes. */
+function reformDemands() {
+    const ROWS = [
+        { short: 'A province of Spain',
+          ask: 'Make the Philippines a province of Spain, not a colony',
+          got: 'Never granted. It stayed a colony to the end.' },
+        { short: 'Seats in the Cortes',
+          ask: 'Restore Filipino representation in the Spanish parliament',
+          got: 'It had existed briefly before 1837. It was never restored.' },
+        { short: 'Filipino priests',
+          ask: 'Hand the parishes to Filipino secular priests',
+          got: 'Refused. The Spanish friars kept them.' },
+        { short: 'Equality in law',
+          ask: 'Treat Filipinos and Spaniards equally before the law',
+          got: 'Refused. The ranking held until 1898.' },
+        { short: 'Free speech',
+          ask: 'Freedom of speech, of the press and of assembly',
+          got: 'Spaniards had these in Spain. The colony never did.' },
+        { short: 'End forced labour',
+          ask: 'Abolish the polo, the forced labour service',
+          got: 'Cut from forty days to fifteen. Never abolished.' }
+    ];
+    const Y0 = 60, DY = 26;
+
+    return {
+        svg: `
+<svg viewBox="0 0 400 296" role="img" aria-labelledby="rdT">
+  <title id="rdT">The six reform demands, each paired with what Spain actually did about it</title>
+  <text class="fig-label" x="20" y="20">SIX DEMANDS · TWENTY YEARS</text>
+  <line class="fig-rule" x1="20" y1="38" x2="380" y2="38"/>
+  <rect class="fig-row-hi" id="rdHi" x="24" y="0" width="352" height="0" rx="6"/>
+  ${ROWS.map((r, i) => `
+  <text class="fig-cell" x="54" y="${Y0 + i * DY}">${i + 1}. ${r.short}</text>
+  <rect class="fig-row" data-i="${i}" x="24" y="${Y0 + i * DY - 18}" width="352" height="${DY}"/>`).join('')}
+  <text class="fig-note fig-note-key" id="rdAsk" x="20" y="248">&#160;</text>
+  <text class="fig-note"              id="rdGot" x="20" y="272">&#160;</text>
+</svg>`,
+
+        bind(root) {
+            const bar = document.createElement('div');
+            bar.className = 'fig-switch';
+            bar.innerHTML = ROWS.map((r, i) =>
+                `<button data-i="${i}" aria-pressed="${i === 0}">${i + 1}</button>`).join('');
+            root.appendChild(bar);
+
+            const hi = root.querySelector('#rdHi');
+            const ask = root.querySelector('#rdAsk');
+            const got = root.querySelector('#rdGot');
+
+            const show = i => {
+                hi.setAttribute('y', Y0 + i * DY - 19);
+                hi.setAttribute('height', DY);
+                ask.textContent = 'Asked: ' + ROWS[i].ask;
+                got.textContent = 'Got: ' + ROWS[i].got;
+                bar.querySelectorAll('button').forEach((b, j) =>
+                    b.setAttribute('aria-pressed', String(j === i)));
+            };
+
+            const pick = e => {
+                const t = e.target.closest('[data-i]');
+                if (t) show(Number(t.dataset.i));
+            };
+            bar.addEventListener('click', pick);
+            root.querySelector('svg').addEventListener('click', pick);
+            show(0);
+        }
+    };
+}
+
 export const FIGURES = {
     crumpleZone,
     muscleTypes,
@@ -2140,7 +2213,8 @@ export const FIGURES = {
     airwayPath,
     breathingMech,
     compareDecimals,
-    possessivePairs
+    possessivePairs,
+    reformDemands
 };
 
 
