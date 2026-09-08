@@ -3914,6 +3914,129 @@ function portfolioSteps() {
     });
 }
 
+
+/* ---- Devotion weeks 6-10 --------------------------------------------- */
+
+/* Week 6: worship is wider than singing. */
+function worshipForms() {
+    return listPicker({
+        id: 'wf', label: 'SIX FORMS OF WORSHIP',
+        alt: 'Six forms worship takes, each with a verse and what it looks like',
+        capA: 'Verse: ', capB: 'Looks like: ',
+        rows: [
+            { btn: '1', short: 'Singing',
+              a: 'Ephesians 5:19', b: 'The part most people picture first.' },
+            { btn: '2', short: 'Your whole life',
+              a: 'Romans 12:1', b: 'Offering your body as a living sacrifice.' },
+            { btn: '3', short: 'Obedience',
+              a: '1 Samuel 15:22', b: 'To obey is better than sacrifice.' },
+            { btn: '4', short: 'Giving',
+              a: '2 Corinthians 9:7', b: 'God loves a cheerful giver.' },
+            { btn: '5', short: 'Serving others',
+              a: 'Matthew 25:40', b: 'Done for the least of these, done for him.' },
+            { btn: '6', short: 'Thankfulness',
+              a: '1 Thessalonians 5:18', b: 'Give thanks in all circumstances.' }
+        ]
+    });
+}
+
+/* Week 7: the chain in Romans 5:3-5. */
+function perseverChain() {
+    return timeline({
+        id: 'pc', label: 'ROMANS 5:3-5, IN ORDER',
+        alt: 'The chain from suffering to hope described in Romans 5 verses 3 to 5',
+        stops: [
+            { year: 'Suffering', tag: 'the trial',
+              head: 'It starts with something you did not choose',
+              body: 'Paul does not pretend the suffering is good in itself.' },
+            { year: 'Perseverance', tag: 'staying',
+              head: 'Suffering produces perseverance',
+              body: 'Perseverance means staying when leaving is available.' },
+            { year: 'Character', tag: 'proven',
+              head: 'Perseverance produces character',
+              body: 'The word means tested and found genuine.' },
+            { year: 'Hope', tag: 'the end',
+              head: 'Character produces hope',
+              body: 'Hope built this way does not put us to shame.' }
+        ]
+    });
+}
+
+/* Week 8: what honesty costs in the moment, and what it saves. */
+function honestyCases() {
+    return listPicker({
+        id: 'hc', label: 'SIX MOMENTS, SIX CHOICES',
+        alt: 'Six everyday situations where honesty costs something, with what it saves',
+        capA: 'Costs: ', capB: 'Saves: ',
+        rows: [
+            { btn: '1', short: 'You broke it',
+              a: 'Admitting it before anyone asks',
+              b: 'The far worse conversation two days later.' },
+            { btn: '2', short: 'The half-truth',
+              a: 'Saying the part you left out',
+              b: 'Being someone whose words need checking.' },
+            { btn: '3', short: 'Copied work',
+              a: 'Handing in less than you wanted to',
+              b: 'A mark that was never actually yours.' },
+            { btn: '4', short: 'A friend asks',
+              a: 'Telling a friend something true and unwelcome',
+              b: 'A friendship built on agreeing with everything.' },
+            { btn: '5', short: 'The exaggeration',
+              a: 'Telling the story smaller than it could be',
+              b: 'Having to remember which version you told.' },
+            { btn: '6', short: 'Found money',
+              a: 'Handing back what nobody saw you take',
+              b: 'The thing honesty is actually testing.' }
+        ]
+    });
+}
+
+/* Week 9: what serving looked like in practice. */
+function serviceActs() {
+    return listPicker({
+        id: 'sa', label: 'SERVICE, WITH THE PASSAGE',
+        alt: 'Six examples of humility and service in scripture with their references',
+        capA: 'Where: ', capB: 'What: ',
+        rows: [
+            { btn: '1', short: 'Washing feet',
+              a: 'John 13:1-17', b: 'The teacher does the lowest job in the room.' },
+            { btn: '2', short: 'Not to be served',
+              a: 'Mark 10:45', b: 'He came to serve, and to give his life.' },
+            { btn: '3', short: 'Others first',
+              a: 'Philippians 2:3-4', b: 'Value others above yourselves.' },
+            { btn: '4', short: 'The lowest seat',
+              a: 'Luke 14:7-11', b: 'Take the lowest place, not the highest.' },
+            { btn: '5', short: 'Quiet giving',
+              a: 'Matthew 6:1-4', b: 'Do not announce it. That is the point.' },
+            { btn: '6', short: 'The widow',
+              a: 'Mark 12:41-44', b: 'She gave less, and it counted for more.' }
+        ]
+    });
+}
+
+/* Week 10: people who stood, and what it cost them. */
+function courageStands() {
+    return listPicker({
+        id: 'cst', label: 'SIX PEOPLE WHO STOOD',
+        alt: 'Six people in scripture who stood for truth, with what each of them risked',
+        capA: 'Where: ', capB: 'Risked: ',
+        rows: [
+            { btn: '1', short: 'Daniel',
+              a: 'Daniel 6', b: 'Kept praying at the window. Faced the lions.' },
+            { btn: '2', short: 'Three friends',
+              a: 'Daniel 3', b: 'Would not bow. Said "even if he does not".' },
+            { btn: '3', short: 'Esther',
+              a: 'Esther 4', b: 'Went to the king uninvited. "If I perish, I perish."' },
+            { btn: '4', short: 'Peter and John',
+              a: 'Acts 4:19-20', b: 'Told to stop speaking. Said they could not.' },
+            { btn: '5', short: 'Stephen',
+              a: 'Acts 7', b: 'Spoke the truth to the council. It cost his life.' },
+            { btn: '6', short: 'Nathan',
+              a: '2 Samuel 12', b: 'Told a king to his face that he was wrong.' }
+        ]
+    });
+}
+
 export const FIGURES = {
     crumpleZone,
     muscleTypes,
@@ -3988,7 +4111,12 @@ export const FIGURES = {
     schoolKit,
     fileTree,
     homeJobs,
-    portfolioSteps
+    portfolioSteps,
+    worshipForms,
+    perseverChain,
+    honestyCases,
+    serviceActs,
+    courageStands
 };
 
 

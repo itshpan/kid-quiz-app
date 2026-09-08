@@ -934,7 +934,8 @@
           "topics": [
             "Worship from the Heart"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "devotion/w6-worship-heart.json"
         },
         {
           "week": 7,
@@ -943,7 +944,8 @@
           "topics": [
             "Persevering in Trials"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "devotion/w7-persevering-trials.json"
         },
         {
           "week": 8,
@@ -952,7 +954,8 @@
           "topics": [
             "Honesty in All Things"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "devotion/w8-honesty.json"
         },
         {
           "week": 9,
@@ -961,7 +964,8 @@
           "topics": [
             "Humility & Service"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "devotion/w9-humility-service.json"
         },
         {
           "week": 10,
@@ -970,7 +974,8 @@
           "topics": [
             "Courage to Stand for Truth"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "devotion/w10-courage-truth.json"
         },
         {
           "week": 11,

@@ -1,0 +1,372 @@
+{
+  "id": "dev-w9",
+  "courseId": "devotion",
+  "courseTitle": "Devotion",
+  "week": 9,
+  "title": "Humility & Service",
+  "subtitle": "Humility is not thinking less of yourself. It is thinking about yourself less.",
+  "estMinutes": 15,
+  "objectives": [
+    "Explain what happened in John 13 and why it was shocking",
+    "Explain Philippians 2:3-7 and what Jesus gave up",
+    "Explain Mark 10:45 in your own words",
+    "Explain why Matthew 6 tells you not to announce it",
+    "Explain the widow's offering in Mark 12"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🫱",
+      "eyebrow": "Part 1 · The basin",
+      "title": "The lowest job in the room",
+      "text": "Washing feet was the work of the least important servant in a household. In John 13 the teacher does it."
+    },
+    {
+      "kind": "figure",
+      "figure": "serviceActs",
+      "eyebrow": "Six passages",
+      "title": "Service, with the reference",
+      "text": "Tap through. You will be asked for at least two of these references."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "John 13:1-17",
+      "title": "Why Peter objected",
+      "text": "Peter refuses at first, and his refusal makes sense. The order of the room had just been broken in front of everybody.",
+      "points": [
+        "**Roads were dirt.** Feet were filthy.",
+        "**A household servant did this**, not the host.",
+        "**'You will never wash my feet.'**",
+        "**'Unless I wash you, you have no part with me.'**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why was washing feet shocking when Jesus did it?",
+        "options": [
+          "It was the job of the lowest servant in the household",
+          "Water was expensive",
+          "It was forbidden by law",
+          "Nobody had ever done it before"
+        ],
+        "answerIndex": 0,
+        "explain": "That is why Peter objected. The order of the room had been broken in front of everyone."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Philippians 2:3-7",
+      "title": "'Value others above yourselves'",
+      "text": "Paul then describes Jesus refusing to cling to equality with God. He took the nature of a servant instead.",
+      "points": [
+        "**Do nothing out of selfish ambition.**",
+        "**Or vain conceit.**",
+        "**He made himself nothing.**",
+        "**The example is a downward move**, on purpose."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "The best fighter in a gym carries the pads",
+      "text": "In a good gym, the person with the record still sets out the equipment. Nobody has to ask, and everybody notices.",
+      "points": [
+        "**Rank does not exempt you** from the work.",
+        "**A gym where it does** is a bad gym.",
+        "**Doing the small job** is the demonstration.",
+        "**It is louder than saying it.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Philippians 2 describes Jesus holding on to his status.",
+        "answer": false,
+        "explain": "The opposite. He did not use equality with God to his own advantage, and took the nature of a servant."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Halfway",
+      "text": "Part 2 is quiet giving and the widow's offering. Take a moment."
+    },
+    {
+      "kind": "open",
+      "icon": "🤫",
+      "eyebrow": "Part 2 · Quietly",
+      "title": "Do not let your left hand know",
+      "text": "Matthew 6 says to give without announcing it. The instruction is odd until you ask what announcing it does."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Matthew 6:1-4",
+      "title": "Announcing it changes what it was",
+      "text": "If you tell everyone, you have already been paid. The verse says exactly that: they have received their reward in full.",
+      "points": [
+        "**The act stays the same.**",
+        "**What it was for has changed.**",
+        "**'They have received their reward in full.'**",
+        "**Quiet is not modesty.** It is keeping the point."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Helping a new player is not a highlight clip",
+      "text": "Somebody who stops to teach a beginner is doing something that will never appear in a montage. That is the whole reason it counts.",
+      "points": [
+        "**Nothing to post afterwards.**",
+        "**No score attached.**",
+        "**The new player remembers it** for months.",
+        "**That was the point all along.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Mark 12:41-44",
+      "title": "The widow gave two very small coins",
+      "text": "Wealthy people put in large amounts. Jesus says she gave more than all of them, because she gave everything she had.",
+      "points": [
+        "**They gave out of their surplus.**",
+        "**She gave out of her poverty.**",
+        "**The measure is what it cost**, not the total.",
+        "**Nobody but him noticed her.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why did Jesus say the widow gave more than the wealthy givers?",
+        "options": [
+          "She gave everything she had, out of her poverty",
+          "Her coins were rare",
+          "She gave more often",
+          "She gave in public"
+        ],
+        "answerIndex": 0,
+        "explain": "The measure is what it cost the giver, not the size of the amount."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "📈",
+      "eyebrow": "Your life mode",
+      "title": "Humility is not thinking badly of yourself",
+      "text": "Someone who insults himself constantly is still talking about himself. Humility takes your attention off you entirely.",
+      "points": [
+        "**Not pretending you are bad at something.**",
+        "**Being accurate**, then looking elsewhere.",
+        "**Mark 10:45:** he came to serve.",
+        "**That is the definition** worth keeping."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "John 13",
+          "def": "Jesus washes the disciples' feet, the lowest servant's job."
+        },
+        {
+          "term": "Philippians 2:3-7",
+          "def": "Value others above yourselves. He made himself nothing."
+        },
+        {
+          "term": "Mark 10:45",
+          "def": "He came not to be served but to serve."
+        },
+        {
+          "term": "Matthew 6:1-4",
+          "def": "Give quietly. Announcing it means the reward is already received."
+        },
+        {
+          "term": "Mark 12:41-44",
+          "def": "The widow's two coins. The measure is what it cost her."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**John 13:** the teacher takes the servant's job.",
+        "**Philippians 2:** value others above yourselves.",
+        "**Matthew 6:** announcing it collects the reward.",
+        "**Mark 12:** the measure is the cost, not the amount."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Whose job was foot washing in a household?",
+      "options": [
+        "The lowest servant",
+        "The host",
+        "The oldest guest",
+        "The teacher"
+      ],
+      "answerIndex": 0,
+      "explain": "That is why the room went quiet and why Peter objected.",
+      "objective": "Explain what happened in John 13 and why it was shocking"
+    },
+    {
+      "type": "multiple",
+      "text": "What did Peter say when Jesus came to wash his feet?",
+      "options": [
+        "You will never wash my feet",
+        "Wash the others first",
+        "Nothing at all",
+        "Let me do it instead"
+      ],
+      "answerIndex": 0,
+      "explain": "The answer was: unless I wash you, you have no part with me.",
+      "objective": "Explain what happened in John 13 and why it was shocking"
+    },
+    {
+      "type": "multiple",
+      "text": "What does Philippians 2:3 tell you to do?",
+      "options": [
+        "Value others above yourselves",
+        "Compete honestly",
+        "Speak the truth quietly",
+        "Give a tenth of what you have"
+      ],
+      "answerIndex": 0,
+      "explain": "And to do nothing out of selfish ambition or vain conceit.",
+      "objective": "Explain Philippians 2:3-7 and what Jesus gave up"
+    },
+    {
+      "type": "multiple",
+      "text": "According to Philippians 2, what did Jesus do with his status?",
+      "options": [
+        "He did not use it to his own advantage, and took a servant's nature",
+        "He defended it publicly",
+        "He passed it to the disciples",
+        "He kept it hidden until the end"
+      ],
+      "answerIndex": 0,
+      "explain": "The example is a deliberate downward move. He made himself nothing.",
+      "objective": "Explain Philippians 2:3-7 and what Jesus gave up"
+    },
+    {
+      "type": "multiple",
+      "text": "What does Mark 10:45 say?",
+      "options": [
+        "He came not to be served but to serve",
+        "He came to teach only",
+        "He came to judge the nations",
+        "He came to build a temple"
+      ],
+      "answerIndex": 0,
+      "explain": "And to give his life as a ransom for many.",
+      "objective": "Explain Mark 10:45 in your own words"
+    },
+    {
+      "type": "truefalse",
+      "text": "Mark 10:45 presents serving as beneath someone with authority.",
+      "answer": false,
+      "explain": "False. It presents serving as what the person with the most authority came to do.",
+      "objective": "Explain Mark 10:45 in your own words"
+    },
+    {
+      "type": "multiple",
+      "text": "What does Matthew 6:1-4 warn about?",
+      "options": [
+        "Doing good deeds in order to be seen",
+        "Giving too little",
+        "Praying in a group",
+        "Fasting on the wrong day"
+      ],
+      "answerIndex": 0,
+      "explain": "If you announce it, you have already received your reward in full.",
+      "objective": "Explain why Matthew 6 tells you not to announce it"
+    },
+    {
+      "type": "multiple",
+      "text": "What changes when you announce a good deed?",
+      "options": [
+        "What the act was for",
+        "Whether the act happened",
+        "Who benefited from it",
+        "How much it cost you"
+      ],
+      "answerIndex": 0,
+      "explain": "The act stays the same. Its purpose is what changes.",
+      "objective": "Explain why Matthew 6 tells you not to announce it"
+    },
+    {
+      "type": "multiple",
+      "text": "What did the widow in Mark 12 put into the treasury?",
+      "options": [
+        "Two very small coins",
+        "A large sum",
+        "A gold ring",
+        "Nothing at all"
+      ],
+      "answerIndex": 0,
+      "explain": "And Jesus said she had given more than all the others.",
+      "objective": "Explain the widow's offering in Mark 12"
+    },
+    {
+      "type": "multiple",
+      "text": "Why did her gift count for more?",
+      "options": [
+        "The others gave from surplus; she gave everything she had",
+        "She gave more often than they did",
+        "The coins were valuable",
+        "She gave publicly"
+      ],
+      "answerIndex": 0,
+      "explain": "The measure is what it cost the giver, not the total handed over.",
+      "objective": "Explain the widow's offering in Mark 12"
+    },
+    {
+      "type": "multiple",
+      "text": "What is humility, according to this lesson?",
+      "options": [
+        "Thinking about yourself less, rather than thinking badly of yourself",
+        "Insulting your own abilities",
+        "Refusing all praise",
+        "Never leading anything"
+      ],
+      "answerIndex": 0,
+      "explain": "Someone who insults himself constantly is still talking about himself.",
+      "objective": "Explain Mark 10:45 in your own words"
+    },
+    {
+      "type": "truefalse",
+      "text": "Pretending to be bad at something is a form of humility.",
+      "answer": false,
+      "explain": "False. Humility is being accurate about yourself and then giving your attention to someone else.",
+      "objective": "Explain Mark 10:45 in your own words"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 9 covers humility and service. The definition offered — thinking about yourself less rather than thinking less of yourself — is the one worth him carrying, because the alternative encourages a kind of performed self-deprecation that is still self-focused. John 13 is explained with the social detail that makes it land: foot washing was the lowest servant's job, which is why Peter objected rather than being merely embarrassed. Matthew 6 is handled as a question of purpose rather than of modesty, and the widow's offering supplies the measure: cost to the giver, not size of the gift.",
+    "discussion": [
+      "Ask why Peter's objection makes sense once you know whose job foot washing was.",
+      "Ask what changes about a good deed when it is announced, and what does not.",
+      "Ask him to name a job at home nobody wants, and who usually does it.",
+      "Ask what the widow's story says about comparing gifts by size."
+    ],
+    "extension": "Have him do one useful thing this week that nobody will find out about, and not tell anyone including you. The lesson is in whether he can leave it alone.",
+    "misconceptions": [
+      "'Humility means thinking you are bad at things.' It means being accurate and then looking outward.",
+      "'Jesus washing feet was just a kind gesture.' It broke the room's social order, which is why Peter objected.",
+      "'Matthew 6 forbids anyone knowing.' It addresses purpose: doing it to be seen collects the reward immediately.",
+      "'The biggest gift helps most.' Mark 12 measures the cost to the giver, not the total."
+    ]
+  }
+}

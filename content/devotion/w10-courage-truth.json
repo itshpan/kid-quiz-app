@@ -1,0 +1,366 @@
+{
+  "id": "dev-w10",
+  "courseId": "devotion",
+  "courseTitle": "Devotion",
+  "week": 10,
+  "title": "Courage to Stand for Truth",
+  "subtitle": "Every one of these people knew what it might cost before they answered.",
+  "estMinutes": 15,
+  "objectives": [
+    "Describe what Daniel did and what it risked",
+    "Explain the 'even if he does not' answer in Daniel 3",
+    "Explain Esther's decision in Esther 4",
+    "Explain what Peter and John said in Acts 4",
+    "Explain how courage differs from not being afraid"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🦁",
+      "eyebrow": "Part 1 · The window",
+      "title": "Daniel opened the window anyway",
+      "text": "A law was passed making his prayers illegal for thirty days. He went home, opened the window and prayed as usual."
+    },
+    {
+      "kind": "figure",
+      "figure": "courageStands",
+      "eyebrow": "Six people",
+      "title": "What each of them risked",
+      "text": "Tap through. At least three of these will come up in the quiz."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Daniel 6",
+      "title": "He did not hide, and he did not protest",
+      "text": "He could have prayed quietly with the shutters closed. He also did not make a speech about it. He just carried on.",
+      "points": [
+        "**Three times a day**, as he had always done.",
+        "**Windows open** towards Jerusalem.",
+        "**No announcement.** No argument.",
+        "**Consistency was the whole statement.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What did Daniel do when praying became illegal?",
+        "options": [
+          "Carried on exactly as before, with the window open",
+          "Prayed secretly instead",
+          "Left the country",
+          "Argued with the king"
+        ],
+        "answerIndex": 0,
+        "explain": "No announcement and no hiding. The consistency was the statement."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Daniel 3",
+      "title": "'But even if he does not'",
+      "text": "Three men refuse to bow to a statue. They say God is able to rescue them, and then add the hardest sentence in the chapter.",
+      "points": [
+        "**'The God we serve is able.'**",
+        "**'But even if he does not**, we will not bow.'",
+        "**Their answer did not depend** on the outcome.",
+        "**That is what makes it courage.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "You do not know you will win when you walk out",
+      "text": "Every fighter walks to the ring without a guarantee. Deciding beforehand what you will do either way is the actual preparation.",
+      "points": [
+        "**Courage is not certainty.**",
+        "**It is deciding before you know.**",
+        "**'Even if he does not'** is that decision.",
+        "**Made in advance**, not in the moment."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "The three men in Daniel 3 said they would obey only if God rescued them.",
+        "answer": false,
+        "explain": "The opposite. 'Even if he does not, we will not bow.' Their answer did not depend on the outcome."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good place to pause",
+      "text": "Part 2 is Esther, Peter and John, and what fear actually is. Take a breath."
+    },
+    {
+      "kind": "open",
+      "icon": "👑",
+      "eyebrow": "Part 2 · The uninvited",
+      "title": "Going to the king without being called",
+      "text": "In Esther 4 the law says approaching the king uninvited carries a death sentence, unless he chooses to spare you."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Esther 4",
+      "title": "'If I perish, I perish'",
+      "text": "Mordecai tells her she may have come to her position for exactly this moment. She fasts for three days and then goes.",
+      "points": [
+        "**'For such a time as this.'**",
+        "**She asks others to fast** with her.",
+        "**She does not pretend** it is safe.",
+        "**Then she goes anyway.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Courage in a story always has a sentence like that",
+      "text": "'If I perish, I perish.' 'Even if he does not.' 'We cannot help speaking.' Each line names the cost first.",
+      "points": [
+        "**Look for the sentence** where they count the cost.",
+        "**It comes before the action**, every time.",
+        "**A character who never counts it** is not brave.",
+        "**They are just unaware.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Acts 4:19-20",
+      "title": "Peter and John are ordered to stop",
+      "text": "The council tells them not to speak in that name again. Their answer is a question and a statement.",
+      "points": [
+        "**'Judge for yourselves** what is right.'",
+        "**'We cannot help speaking** about what we have seen.'",
+        "**Respectful, and completely immovable.**",
+        "**Both at once**, which is the hard part."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What did Esther say before going to the king?",
+        "options": [
+          "If I perish, I perish",
+          "The king will listen to me",
+          "Someone else should go",
+          "I will wait for a safer time"
+        ],
+        "answerIndex": 0,
+        "explain": "She fasted for three days first. She never pretended it was safe."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "📈",
+      "eyebrow": "Your life mode",
+      "title": "Courage requires fear to exist",
+      "text": "If you are not afraid, doing the thing is not brave. It is easy. Fear is a requirement, not a disqualification.",
+      "points": [
+        "**Being afraid is not failing.**",
+        "**Acting while afraid** is the whole thing.",
+        "**Your version is smaller**, and it is the same shape.",
+        "**Speaking up in a room** counts."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Daniel 6",
+          "def": "Daniel keeps praying at an open window after prayer is banned."
+        },
+        {
+          "term": "Daniel 3",
+          "def": "Three men refuse to bow: 'but even if he does not'."
+        },
+        {
+          "term": "Esther 4",
+          "def": "'For such a time as this.' 'If I perish, I perish.'"
+        },
+        {
+          "term": "Acts 4:19-20",
+          "def": "'We cannot help speaking about what we have seen and heard.'"
+        },
+        {
+          "term": "courage",
+          "def": "Acting while afraid. Without the fear it is not courage."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Daniel:** consistency, with the window open.",
+        "**Daniel 3:** 'even if he does not'.",
+        "**Esther:** 'if I perish, I perish'.",
+        "**Courage needs fear** to be courage."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "What law was passed in Daniel 6?",
+      "options": [
+        "A thirty-day ban on praying to anyone but the king",
+        "A ban on leaving the city",
+        "A ban on reading",
+        "A ban on foreign officials"
+      ],
+      "answerIndex": 0,
+      "explain": "Daniel went home, opened the window and prayed exactly as he always had.",
+      "objective": "Describe what Daniel did and what it risked"
+    },
+    {
+      "type": "multiple",
+      "text": "How often did Daniel pray?",
+      "options": [
+        "Three times a day",
+        "Once a week",
+        "Only at night",
+        "Only in the temple"
+      ],
+      "answerIndex": 0,
+      "explain": "Three times a day, as he had always done. The consistency was the statement.",
+      "objective": "Describe what Daniel did and what it risked"
+    },
+    {
+      "type": "truefalse",
+      "text": "Daniel made a public speech objecting to the new law.",
+      "answer": false,
+      "explain": "False. He did not hide and he did not protest. He simply carried on.",
+      "objective": "Describe what Daniel did and what it risked"
+    },
+    {
+      "type": "multiple",
+      "text": "What did the three men in Daniel 3 refuse to do?",
+      "options": [
+        "Bow to a statue",
+        "Serve in the king's court",
+        "Eat the king's food",
+        "Speak to the king"
+      ],
+      "answerIndex": 0,
+      "explain": "And they said their answer would be the same either way.",
+      "objective": "Explain the 'even if he does not' answer in Daniel 3"
+    },
+    {
+      "type": "multiple",
+      "text": "What makes 'but even if he does not' so striking?",
+      "options": [
+        "Their obedience did not depend on being rescued",
+        "They expected to be rescued",
+        "They were unafraid",
+        "They had permission"
+      ],
+      "answerIndex": 0,
+      "explain": "The decision was made before the outcome was known. That is what makes it courage.",
+      "objective": "Explain the 'even if he does not' answer in Daniel 3"
+    },
+    {
+      "type": "multiple",
+      "text": "What risk did Esther take in Esther 4?",
+      "options": [
+        "Approaching the king uninvited, which carried a death sentence",
+        "Leaving the palace at night",
+        "Refusing to marry",
+        "Writing a letter to a foreign king"
+      ],
+      "answerIndex": 0,
+      "explain": "Unless the king chose to spare her. She fasted three days first.",
+      "objective": "Explain Esther's decision in Esther 4"
+    },
+    {
+      "type": "multiple",
+      "text": "What did Mordecai tell Esther?",
+      "options": [
+        "She may have come to her position for such a time as this",
+        "That she should stay quiet",
+        "That the king would listen",
+        "That someone else would act"
+      ],
+      "answerIndex": 0,
+      "explain": "Her answer was 'if I perish, I perish'.",
+      "objective": "Explain Esther's decision in Esther 4"
+    },
+    {
+      "type": "truefalse",
+      "text": "Esther claimed that going to the king was not dangerous.",
+      "answer": false,
+      "explain": "False. She never pretended it was safe. She counted the cost out loud and went anyway.",
+      "objective": "Explain Esther's decision in Esther 4"
+    },
+    {
+      "type": "multiple",
+      "text": "What did Peter and John say when ordered to stop speaking?",
+      "options": [
+        "We cannot help speaking about what we have seen and heard",
+        "We will obey the council",
+        "We will speak only in private",
+        "We need more time to decide"
+      ],
+      "answerIndex": 0,
+      "explain": "Respectful and completely immovable at the same time, which is the hard combination.",
+      "objective": "Explain what Peter and John said in Acts 4"
+    },
+    {
+      "type": "multiple",
+      "text": "How did Peter and John begin their answer?",
+      "options": [
+        "By asking the council to judge for themselves what was right",
+        "By accusing the council",
+        "By apologising",
+        "By quoting the law"
+      ],
+      "answerIndex": 0,
+      "explain": "A question, then a statement. Respect and refusal together.",
+      "objective": "Explain what Peter and John said in Acts 4"
+    },
+    {
+      "type": "multiple",
+      "text": "What does courage require?",
+      "options": [
+        "Fear, and acting anyway",
+        "The absence of fear",
+        "Certainty of success",
+        "An audience"
+      ],
+      "answerIndex": 0,
+      "explain": "If you are not afraid, doing the thing is easy rather than brave.",
+      "objective": "Explain how courage differs from not being afraid"
+    },
+    {
+      "type": "truefalse",
+      "text": "Feeling afraid means you have already failed to be courageous.",
+      "answer": false,
+      "explain": "False. Fear is a requirement for courage, not a disqualification from it.",
+      "objective": "Explain how courage differs from not being afraid"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 10 closes the Term 1 devotion arc on courage, and it is built around one definition: courage requires fear, so being afraid is not a failure. Each example is chosen because the person names the cost before acting — 'even if he does not', 'if I perish, I perish', 'we cannot help speaking' — and the story-mode card makes that pattern explicit so he can spot it elsewhere. Daniel is included specifically for the version of courage that is neither hiding nor protesting: he simply continued, and the consistency was the whole statement. That is the most achievable model of the five for a Grade 6 student.",
+    "discussion": [
+      "Ask why Daniel neither hid nor made a speech, and what that choice communicated.",
+      "Ask what 'but even if he does not' would mean applied to something he is worried about.",
+      "Ask what Esther did in the three days before she went.",
+      "Ask whether he can be brave and frightened at the same time, and why the answer is yes."
+    ],
+    "extension": "Have him write the sentence he would need to say in a situation he is currently avoiding. Just the sentence, on paper. Saying it is a separate decision.",
+    "misconceptions": [
+      "'Courage means not being afraid.' Without fear, the action is easy rather than brave.",
+      "'Daniel protested against the law.' He neither hid nor argued; he continued exactly as before.",
+      "'The three men expected to be rescued.' They said their answer stood either way.",
+      "'Esther was confident it would work.' She said 'if I perish, I perish', which is the opposite of confidence."
+    ]
+  }
+}

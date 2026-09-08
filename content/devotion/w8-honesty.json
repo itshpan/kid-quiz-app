@@ -1,0 +1,366 @@
+{
+  "id": "dev-w8",
+  "courseId": "devotion",
+  "courseTitle": "Devotion",
+  "week": 8,
+  "title": "Honesty in All Things",
+  "subtitle": "The hard cases are not the big lies. They are the small useful ones.",
+  "estMinutes": 15,
+  "objectives": [
+    "Explain what Proverbs 12:22 says about lying",
+    "Explain Ephesians 4:25 and why it gives a reason",
+    "Explain why a half-truth is still a lie",
+    "Describe what Ananias and Sapphira were judged for",
+    "Explain honesty when nobody would find out"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "⚖️",
+      "eyebrow": "Part 1 · The small ones",
+      "title": "Almost nobody decides to become a liar",
+      "text": "It happens one convenient sentence at a time, and each one seemed too small to count."
+    },
+    {
+      "kind": "figure",
+      "figure": "honestyCases",
+      "eyebrow": "Six moments",
+      "title": "What honesty costs, and what it saves",
+      "text": "Tap through. Number six is the one that actually tests you."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Proverbs 12:22",
+      "title": "Lying lips are detestable to the Lord",
+      "text": "It is strong language and it is not softened. The second half of the verse is the part people forget.",
+      "points": [
+        "**'But he delights** in people who are trustworthy.'",
+        "**Not just a warning.** A description of what pleases him.",
+        "**Trustworthy** is a whole-person word.",
+        "**It is built** one true sentence at a time."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What does the second half of Proverbs 12:22 say?",
+        "options": [
+          "God delights in people who are trustworthy",
+          "Liars will be punished immediately",
+          "Everyone lies sometimes",
+          "Silence is better than speech"
+        ],
+        "answerIndex": 0,
+        "explain": "It is not only a warning. It describes what actually pleases him."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ephesians 4:25",
+      "title": "It gives a reason, which is unusual",
+      "text": "Put off falsehood and speak truthfully, 'for we are all members of one body'. The reason is that lying damages something shared.",
+      "points": [
+        "**A lie is not private.**",
+        "**It costs the person you told.**",
+        "**And everyone who has to work with them.**",
+        "**A body cannot run on bad information.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "A gauge that lies is worse than no gauge",
+      "text": "A broken fuel gauge you know about is an inconvenience. One that reads full when it is empty will strand you.",
+      "points": [
+        "**No information** makes you careful.",
+        "**Wrong information** makes you confident.",
+        "**Confident and wrong** is the dangerous one.",
+        "**That is what a lie does** to the people around you."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Ephesians 4:25 gives a reason for honesty as well as an instruction.",
+        "answer": true,
+        "explain": "'For we are all members of one body.' A lie damages something shared, not just the liar."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good place to pause",
+      "text": "Part 2 is half-truths and a hard story from Acts. Come back when you are ready."
+    },
+    {
+      "kind": "open",
+      "icon": "🪞",
+      "eyebrow": "Part 2 · The half-truth",
+      "title": "The most useful lie is the one that is technically true",
+      "text": "Every word checks out and the person you told now believes something false. That was the intention."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Why it counts",
+      "title": "Honesty is measured by what the other person ends up believing",
+      "text": "If they walk away with a false picture and you meant them to, the individual words do not rescue it.",
+      "points": [
+        "**Leaving out the key fact** is a choice.",
+        "**Technically true is a defence**, not a standard.",
+        "**Ask what they now think.**",
+        "**Then ask whether that is true.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Acts 5",
+      "title": "Ananias and Sapphira",
+      "text": "They sold land, gave part of the money and said it was all of it. Peter's point is that nobody had asked them to give any of it.",
+      "points": [
+        "**The money was theirs** to keep or give.",
+        "**Nobody required the whole amount.**",
+        "**The lie was the offence**, not the withholding.",
+        "**'You have not lied to men but to God.'**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What were Ananias and Sapphira judged for?",
+        "options": [
+          "Lying about how much they had given",
+          "Keeping some of the money",
+          "Selling their land",
+          "Refusing to join the church"
+        ],
+        "answerIndex": 0,
+        "explain": "Peter says the money was theirs. It was the claim, not the amount, that was the offence."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Everyone knows what a cheated score is worth",
+      "text": "A time set with a glitch goes on a leaderboard and means nothing. The person who set it knows that.",
+      "points": [
+        "**It is not the getting caught** that ruins it.",
+        "**You already know** whether it was real.",
+        "**Nobody else has to find out.**",
+        "**That is the whole test.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "📈",
+      "eyebrow": "Your life mode",
+      "title": "Admitting it early is always the cheaper version",
+      "text": "The conversation you are avoiding gets harder every day you avoid it. That is the one rule that never breaks.",
+      "points": [
+        "**Today's version is the smallest** it will ever be.",
+        "**Tomorrow it includes the delay.**",
+        "**And whatever you said in the meantime.**",
+        "**Go early. It never gets cheaper.**"
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Proverbs 12:22",
+          "def": "Lying lips are detestable; he delights in trustworthy people."
+        },
+        {
+          "term": "Ephesians 4:25",
+          "def": "Speak truthfully, for we are all members of one body."
+        },
+        {
+          "term": "half-truth",
+          "def": "Words that are all true and leave a false impression on purpose."
+        },
+        {
+          "term": "integrity",
+          "def": "Being the same person when it costs you as when it does not."
+        },
+        {
+          "term": "Acts 5",
+          "def": "Ananias and Sapphira, judged for the claim rather than the amount."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Proverbs 12:22** ends with what he delights in.",
+        "**Ephesians 4:25** gives the reason: one body.",
+        "**A half-truth counts** by what they end up believing.",
+        "**Acts 5:** the lie, not the amount."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "What does Proverbs 12:22 say God delights in?",
+      "options": [
+        "People who are trustworthy",
+        "People who give generously",
+        "People who stay silent",
+        "People who never make mistakes"
+      ],
+      "answerIndex": 0,
+      "explain": "The verse is not only a warning. The second half describes what pleases him.",
+      "objective": "Explain what Proverbs 12:22 says about lying"
+    },
+    {
+      "type": "truefalse",
+      "text": "Proverbs 12:22 uses mild language about lying.",
+      "answer": false,
+      "explain": "False. 'Detestable' is strong, and the verse does not soften it.",
+      "objective": "Explain what Proverbs 12:22 says about lying"
+    },
+    {
+      "type": "multiple",
+      "text": "What reason does Ephesians 4:25 give for honesty?",
+      "options": [
+        "We are all members of one body",
+        "Lying is against the law",
+        "You will be found out",
+        "It is easier to remember"
+      ],
+      "answerIndex": 0,
+      "explain": "A lie damages something shared. It is not a private act.",
+      "objective": "Explain Ephesians 4:25 and why it gives a reason"
+    },
+    {
+      "type": "multiple",
+      "text": "Why is wrong information worse than no information?",
+      "options": [
+        "It makes people confident as well as wrong",
+        "It is harder to write down",
+        "It takes longer to explain",
+        "It is always deliberate"
+      ],
+      "answerIndex": 0,
+      "explain": "No gauge makes you careful. A gauge reading full when empty will strand you.",
+      "objective": "Explain Ephesians 4:25 and why it gives a reason"
+    },
+    {
+      "type": "multiple",
+      "text": "What makes a half-truth still a lie?",
+      "options": [
+        "The other person ends up believing something false, on purpose",
+        "It uses too few words",
+        "It is spoken quietly",
+        "It is written down"
+      ],
+      "answerIndex": 0,
+      "explain": "Honesty is measured by what they walk away believing, not by the individual words.",
+      "objective": "Explain why a half-truth is still a lie"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the useful test for a half-truth?",
+      "options": [
+        "Ask what the other person now believes, then ask if that is true",
+        "Ask whether every word was accurate",
+        "Ask whether anyone objected",
+        "Ask how long the conversation was"
+      ],
+      "answerIndex": 0,
+      "explain": "'Technically true' is a defence, not a standard.",
+      "objective": "Explain why a half-truth is still a lie"
+    },
+    {
+      "type": "multiple",
+      "text": "What did Ananias and Sapphira do?",
+      "options": [
+        "Gave part of the money and said it was all of it",
+        "Refused to sell their land",
+        "Stole from the church",
+        "Left the church quietly"
+      ],
+      "answerIndex": 0,
+      "explain": "Peter's point is that nobody had required them to give any of it.",
+      "objective": "Describe what Ananias and Sapphira were judged for"
+    },
+    {
+      "type": "multiple",
+      "text": "According to Peter, what was the offence?",
+      "options": [
+        "The lie, not the amount kept",
+        "Keeping any money at all",
+        "Selling property",
+        "Speaking in public"
+      ],
+      "answerIndex": 0,
+      "explain": "'You have not lied to men but to God.' The money was theirs to keep or give.",
+      "objective": "Describe what Ananias and Sapphira were judged for"
+    },
+    {
+      "type": "truefalse",
+      "text": "Ananias and Sapphira were required to give the full price of the land.",
+      "answer": false,
+      "explain": "False. Peter says explicitly that it was theirs. The claim was the problem.",
+      "objective": "Describe what Ananias and Sapphira were judged for"
+    },
+    {
+      "type": "multiple",
+      "text": "Why does honesty when nobody would find out matter most?",
+      "options": [
+        "It is the only situation that tests whether it is real",
+        "It is easier that way",
+        "Someone always finds out eventually",
+        "It is required by school rules"
+      ],
+      "answerIndex": 0,
+      "explain": "You already know whether it was real, whatever anyone else knows.",
+      "objective": "Explain honesty when nobody would find out"
+    },
+    {
+      "type": "multiple",
+      "text": "What does integrity mean?",
+      "options": [
+        "Being the same person when it costs you as when it does not",
+        "Never making a mistake",
+        "Always saying everything you think",
+        "Keeping your promises to friends only"
+      ],
+      "answerIndex": 0,
+      "explain": "The cost is what makes it measurable. Honesty that costs nothing tests nothing.",
+      "objective": "Explain honesty when nobody would find out"
+    },
+    {
+      "type": "truefalse",
+      "text": "Admitting something later is usually easier than admitting it straight away.",
+      "answer": false,
+      "explain": "False. Tomorrow's version includes the delay and everything you said in the meantime.",
+      "objective": "Explain honesty when nobody would find out"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 8 concentrates on the honesty cases that are actually difficult: the half-truth, the exaggeration, and the moment nobody would ever find out. Acts 5 is handled carefully — the passage is often misread as punishment for withholding money, and Peter says plainly that the money was theirs, so the lesson makes the offence the claim rather than the amount. The 'technically true' card gives him a usable test he can apply in the moment: ask what the other person now believes, then ask whether that is true. The final card's argument is practical rather than moral, and it is the one most likely to change behaviour.",
+    "discussion": [
+      "Ask him for an example of something all-true that leaves a false impression.",
+      "Ask why the reason in Ephesians 4:25 is about other people rather than about him.",
+      "Ask what Peter says the money belonged to, and what that does to the usual reading of Acts 5.",
+      "Ask what makes admitting something today cheaper than admitting it on Friday."
+    ],
+    "extension": "Have him rewrite three half-true sentences into fully true ones, and notice what each rewrite costs. The cost is the honest part of the exercise.",
+    "misconceptions": [
+      "'If every word is true, it is not a lie.' Honesty is measured by what the other person ends up believing.",
+      "'Ananias and Sapphira were judged for keeping money.' Peter says the money was theirs. The lie was the offence.",
+      "'Small lies do not count.' Nobody decides to become a liar; it happens one convenient sentence at a time.",
+      "'Honesty only matters when you might be caught.' Being caught is not what makes it true or false."
+    ]
+  }
+}

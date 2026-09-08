@@ -1,0 +1,366 @@
+{
+  "id": "dev-w7",
+  "courseId": "devotion",
+  "courseTitle": "Devotion",
+  "week": 7,
+  "title": "Persevering in Trials",
+  "subtitle": "The Bible never says the hard thing is good. It says something comes out of it.",
+  "estMinutes": 15,
+  "objectives": [
+    "Explain the chain in Romans 5:3-5",
+    "Explain James 1:2-4 without pretending trials are pleasant",
+    "Explain what perseverance actually means",
+    "Describe how Joseph's story runs over years, not days",
+    "Explain the promise in 1 Corinthians 10:13"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "⛰️",
+      "eyebrow": "Part 1 · The chain",
+      "title": "Nobody is asked to enjoy the hard part",
+      "text": "Read Romans 5 carefully. Paul does not say suffering is good. He says something is produced by it."
+    },
+    {
+      "kind": "figure",
+      "figure": "perseverChain",
+      "eyebrow": "Romans 5:3-5",
+      "title": "Four links, in order",
+      "text": "Tap each one. The order matters, and none of the links can be skipped."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Definitions",
+      "title": "Perseverance means staying when leaving is available",
+      "text": "If you cannot leave, staying is not perseverance. It only counts when there is a door and you do not take it.",
+      "points": [
+        "**A choice has to exist.**",
+        "**Otherwise it is just endurance.**",
+        "**Character** means tested and found genuine.",
+        "**Hope** here is confidence, not a wish."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is the order in Romans 5:3-5?",
+        "options": [
+          "Suffering, perseverance, character, hope",
+          "Hope, character, suffering, perseverance",
+          "Character, hope, suffering, perseverance",
+          "Perseverance, suffering, hope, character"
+        ],
+        "answerIndex": 0,
+        "explain": "Each one produces the next. None of the links can be skipped."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Nobody gets tougher in an easy round",
+      "text": "Fighters do not improve in the rounds they win comfortably. They improve in the ones they nearly lose and finish anyway.",
+      "points": [
+        "**The hard round is not enjoyable.**",
+        "**It is still where the change happens.**",
+        "**Two different claims.** Hold both.",
+        "**That is exactly what Paul is saying.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "James 1:2-4",
+      "title": "'Consider it pure joy' is not 'feel happy'",
+      "text": "James says to consider it joy, which is a decision about how you read a situation. It is not an instruction to feel a feeling.",
+      "points": [
+        "**Consider** is a thinking word.",
+        "**The testing of your faith** produces perseverance.",
+        "**Let perseverance finish its work.**",
+        "**Nowhere does it say the trial is nice.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "James 1:2 instructs you to feel happy about difficulties.",
+        "answer": false,
+        "explain": "'Consider' is a thinking word. It is a decision about how to read a situation, not a feeling to manufacture."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Halfway",
+      "text": "Part 2 is Joseph and a promise about limits. Take a moment first."
+    },
+    {
+      "kind": "open",
+      "icon": "🕰️",
+      "eyebrow": "Part 2 · The long version",
+      "title": "Joseph's story takes about twenty-two years",
+      "text": "Told quickly it sounds like a series of scenes. Lived, it was most of his young adult life."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Genesis 37 to 45",
+      "title": "The gaps are the story",
+      "text": "Sold by his brothers. Sold again into Potiphar's house. Imprisoned on a false charge. Then forgotten by a man who promised to help.",
+      "points": [
+        "**Two full years** after the cupbearer forgets him.",
+        "**No sign anything is working.**",
+        "**Genesis 50:20:** intended for harm, used for good.",
+        "**He says that at the end**, not during."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "You are living inside a chapter, not reading one",
+      "text": "A reader can see the next page. Joseph could not. That is why patience in a story is easier to admire than to do.",
+      "points": [
+        "**Every hard chapter** looks final from inside it.",
+        "**A summary hides the waiting.**",
+        "**Two years is a long time** in the actual living.",
+        "**Read slowly** and the point lands harder."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "How long was Joseph in prison after the cupbearer forgot him?",
+        "options": [
+          "Two full years",
+          "Two months",
+          "Two weeks",
+          "Twenty years"
+        ],
+        "answerIndex": 0,
+        "explain": "Genesis 41:1. The gap is written into the text on purpose."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "1 Corinthians 10:13",
+      "title": "A limit, and a way through",
+      "text": "You will not be tested beyond what you can bear. A way out will be provided so you can endure it.",
+      "points": [
+        "**Not a promise of no testing.**",
+        "**A promise of a limit.**",
+        "**And a way to endure it.**",
+        "**Read what it actually says.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "📈",
+      "eyebrow": "Your life mode",
+      "title": "Adaptation happens after the hard part, not during it",
+      "text": "Your body gets stronger in the rest that follows a session. The same shape shows up in every part of this week.",
+      "points": [
+        "**Stress, then recovery, then change.**",
+        "**Nothing improves during the stress.**",
+        "**Quitting mid-session** loses the adaptation.",
+        "**Same pattern, different subject.**"
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "perseverance",
+          "def": "Staying when leaving is available. A door has to exist."
+        },
+        {
+          "term": "character",
+          "def": "In Romans 5, the sense is tested and found genuine."
+        },
+        {
+          "term": "consider",
+          "def": "A thinking word. James 1:2 asks for a judgement, not a feeling."
+        },
+        {
+          "term": "Genesis 50:20",
+          "def": "'You intended to harm me, but God intended it for good.'"
+        },
+        {
+          "term": "1 Corinthians 10:13",
+          "def": "A limit on testing, and a way provided to endure it."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Suffering, perseverance, character, hope.**",
+        "**'Consider it joy'** is a decision, not a feeling.",
+        "**Joseph waited years**, not scenes.",
+        "**A limit is promised**, not an absence of testing."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "What does suffering produce, according to Romans 5:3?",
+      "options": [
+        "Perseverance",
+        "Hope",
+        "Character",
+        "Joy"
+      ],
+      "answerIndex": 0,
+      "explain": "Then perseverance produces character, and character produces hope.",
+      "objective": "Explain the chain in Romans 5:3-5"
+    },
+    {
+      "type": "multiple",
+      "text": "What comes last in the Romans 5 chain?",
+      "options": [
+        "Hope",
+        "Character",
+        "Perseverance",
+        "Suffering"
+      ],
+      "answerIndex": 0,
+      "explain": "And hope built this way does not put us to shame.",
+      "objective": "Explain the chain in Romans 5:3-5"
+    },
+    {
+      "type": "truefalse",
+      "text": "Romans 5 says that suffering itself is good.",
+      "answer": false,
+      "explain": "False. It says something is produced by it. Those are different claims.",
+      "objective": "Explain the chain in Romans 5:3-5"
+    },
+    {
+      "type": "multiple",
+      "text": "What does 'consider it pure joy' ask you to do?",
+      "options": [
+        "Make a judgement about how to read the situation",
+        "Feel happy about the trouble",
+        "Pretend nothing is wrong",
+        "Avoid the difficulty"
+      ],
+      "answerIndex": 0,
+      "explain": "'Consider' is a thinking word, not a feeling to manufacture.",
+      "objective": "Explain James 1:2-4 without pretending trials are pleasant"
+    },
+    {
+      "type": "multiple",
+      "text": "According to James 1, what does the testing of faith produce?",
+      "options": [
+        "Perseverance",
+        "Wealth",
+        "Popularity",
+        "Silence"
+      ],
+      "answerIndex": 0,
+      "explain": "And perseverance must finish its work, so that you are mature and complete.",
+      "objective": "Explain James 1:2-4 without pretending trials are pleasant"
+    },
+    {
+      "type": "multiple",
+      "text": "What does perseverance require to count as perseverance?",
+      "options": [
+        "The option of leaving",
+        "A large audience",
+        "A short duration",
+        "An easy task"
+      ],
+      "answerIndex": 0,
+      "explain": "If you cannot leave, staying is endurance rather than perseverance.",
+      "objective": "Explain what perseverance actually means"
+    },
+    {
+      "type": "multiple",
+      "text": "What does 'character' mean in Romans 5?",
+      "options": [
+        "Tested and found genuine",
+        "Naturally kind",
+        "Well known",
+        "Confident"
+      ],
+      "answerIndex": 0,
+      "explain": "The sense is proven under test, which is why it comes after perseverance.",
+      "objective": "Explain what perseverance actually means"
+    },
+    {
+      "type": "multiple",
+      "text": "What happened to Joseph after the cupbearer promised to speak for him?",
+      "options": [
+        "He stayed in prison two more full years",
+        "He was released the next day",
+        "He was sent home",
+        "He was made a governor immediately"
+      ],
+      "answerIndex": 0,
+      "explain": "Genesis 41:1. The gap is written into the text deliberately.",
+      "objective": "Describe how Joseph's story runs over years, not days"
+    },
+    {
+      "type": "multiple",
+      "text": "What does Joseph say to his brothers in Genesis 50:20?",
+      "options": [
+        "You intended to harm me, but God intended it for good",
+        "I have forgotten what you did",
+        "You were right all along",
+        "I will do the same to you"
+      ],
+      "answerIndex": 0,
+      "explain": "He says it at the end of the story, not during the years of waiting.",
+      "objective": "Describe how Joseph's story runs over years, not days"
+    },
+    {
+      "type": "truefalse",
+      "text": "Joseph could see how his story would end while he was in prison.",
+      "answer": false,
+      "explain": "False. A reader can see the next page; he could not. That is what makes it perseverance.",
+      "objective": "Describe how Joseph's story runs over years, not days"
+    },
+    {
+      "type": "multiple",
+      "text": "What does 1 Corinthians 10:13 promise?",
+      "options": [
+        "A limit on testing and a way to endure it",
+        "That you will never be tested",
+        "That trials will be short",
+        "That others will help you"
+      ],
+      "answerIndex": 0,
+      "explain": "Not an absence of testing. A limit, and a way provided.",
+      "objective": "Explain the promise in 1 Corinthians 10:13"
+    },
+    {
+      "type": "truefalse",
+      "text": "1 Corinthians 10:13 promises that Christians will not face difficulties.",
+      "answer": false,
+      "explain": "False. It promises a limit and a way through, which is a different promise entirely.",
+      "objective": "Explain the promise in 1 Corinthians 10:13"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 7 handles perseverance without the usual flattening. Three careful readings carry it: Romans 5 says something is produced by suffering rather than that suffering is good; James 1 says 'consider', which is a judgement rather than a feeling; and 1 Corinthians 10:13 promises a limit rather than an absence. Each of those is a real distinction and each is commonly taught wrongly. Joseph is used for length rather than for the happy ending — the two years after the cupbearer forgets him is the detail worth holding onto, because it is the part that resembles actual waiting.",
+    "discussion": [
+      "Ask him what the difference is between saying suffering is good and saying something comes out of it.",
+      "Ask why 'consider' is a different instruction from 'feel'.",
+      "Ask what two years of waiting would actually be like at his age.",
+      "Ask what 1 Corinthians 10:13 does and does not promise."
+    ],
+    "extension": "Have him find something he stuck with when he could have stopped, and write four sentences on it using the Romans 5 chain as the structure.",
+    "misconceptions": [
+      "'The Bible says suffering is good.' It says something is produced by it. Those are different claims.",
+      "'Consider it pure joy means be happy about it.' Consider is a thinking word, not a feeling.",
+      "'Joseph's story happened quickly.' It runs across about twenty-two years, including two in prison after being forgotten.",
+      "'God promises you will not face trials.' The promise is a limit and a way to endure, not an exemption."
+    ]
+  }
+}
