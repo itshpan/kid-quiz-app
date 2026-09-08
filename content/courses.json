@@ -424,7 +424,8 @@
           "topics": [
             "Filipino Revolution and First Philippine Republic"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "social-studies/w5-revolution-republic.json"
         },
         {
           "week": 6,

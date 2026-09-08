@@ -1,0 +1,487 @@
+{
+  "id": "ss-w5",
+  "courseId": "social-studies",
+  "courseTitle": "Social Studies",
+  "week": 5,
+  "title": "Revolution & the First Philippine Republic",
+  "subtitle": "Asking stopped working. Seven years later there was a republic.",
+  "estMinutes": 22,
+  "objectives": [
+    "Explain what the Reform Movement wanted and why it failed",
+    "Describe the founding, aims and structure of the Katipunan",
+    "Describe the Cry of Pugad Lawin and the outbreak of the revolution",
+    "Explain the split between Bonifacio and Aguinaldo at Tejeros",
+    "Describe the declaration of independence at Kawit on 12 June 1898",
+    "Explain what the Malolos Republic was and why the Treaty of Paris undid it",
+    "Read the symbols on the Philippine flag"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🇵🇭",
+      "eyebrow": "Part 1 · From asking to fighting",
+      "title": "For twenty years they asked politely",
+      "text": "After 1872 educated Filipinos campaigned for reform inside Spanish law. They wanted rights, not separation. It did not work."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The background",
+      "title": "The Reform Movement, in one card",
+      "text": "Filipinos studying in Spain campaigned by writing. Their weapon was a newspaper and two novels, not a gun.",
+      "points": [
+        "**Rizal, Marcelo del Pilar and Graciano Lopez Jaena** led it.",
+        "***La Solidaridad***, from 1889, was their newspaper.",
+        "**They asked to be a province of Spain** with real representation.",
+        "**Twenty years of asking.** Spain conceded almost nothing."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "You can win every round and still lose",
+      "text": "The reformers fought on points, inside rules written by the other side. The judges were never going to score it for them.",
+      "points": [
+        "**Reform** = win it on points, under their rules.",
+        "**Revolution** = stop fighting under their rules.",
+        "**Nobody switches** until the first way is proven hopeless.",
+        "**1892 is the year it was proven.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What did the Reform Movement actually ask Spain for?",
+        "options": [
+          "Equal rights and representation as a province of Spain",
+          "Immediate independence",
+          "A Filipino king",
+          "The return of the Spanish friars"
+        ],
+        "answerIndex": 0,
+        "explain": "Rights inside the empire, not separation from it. That is exactly what makes it reform and not revolution."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "July 1892",
+      "title": "The week everything changed",
+      "text": "Rizal came home and founded La Liga Filipina, a peaceful civic group. Spain arrested him within days and exiled him.",
+      "points": [
+        "**La Liga Filipina** — founded 3 July 1892, in Tondo.",
+        "**Rizal was arrested on 6 July** and deported to Dapitan.",
+        "**Even asking peacefully was now illegal.**",
+        "**That answered the question** for a lot of people."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "7 July 1892",
+      "title": "The Katipunan",
+      "text": "The night after the news of Rizal's arrest, a group met in Tondo. They founded a secret society with a different aim.",
+      "points": [
+        "**Andres Bonifacio** was among its founders.",
+        "**The aim was independence**, by revolution, not reform.",
+        "**New members signed in their own blood.**",
+        "**Emilio Jacinto** wrote its code, the *Kartilya*."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "It was built with ranks and passwords",
+      "text": "The Katipunan had three grades of membership. Each had its own password, and members knew only the people they needed to know.",
+      "points": [
+        "**Katipon, Kawal, Bayani** — three tiers you moved up.",
+        "**A cell structure** means one arrest cannot unravel it.",
+        "**That is why it survived four years** in secret.",
+        "**Real secret societies** work the way the games copy."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "How was the Katipunan's aim different from the Reform Movement's?",
+        "options": [
+          "It wanted full independence, won by armed revolution",
+          "It wanted Filipino seats in the Spanish parliament",
+          "It wanted the friars replaced by Filipino priests",
+          "It wanted free schools in every province"
+        ],
+        "answerIndex": 0,
+        "explain": "Independence, by force. The reformers wanted rights inside Spain. That is the whole difference."
+      }
+    },
+    {
+      "kind": "figure",
+      "figure": "roadToRepublic",
+      "eyebrow": "The chain",
+      "title": "Seven years, five stops",
+      "text": "Tap each one. From a secret meeting in Tondo to a republic. Quiz questions come from this."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "August 1896",
+      "title": "The secret gets out",
+      "text": "A printing-press worker told his sister. She told a Spanish friar. Within days the arrests began and there was nothing left to lose.",
+      "points": [
+        "**Discovered at the *Diario de Manila* press.**",
+        "**Spain started rounding up suspects immediately.**",
+        "**Hiding was no longer an option.**",
+        "**So Bonifacio called them out into the open.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "They started a war by tearing up paperwork",
+      "text": "The cedula was the tax certificate every Filipino had to carry. Tearing it up said one thing: I am no longer Spain's subject.",
+      "points": [
+        "**The Cry of Pugad Lawin**, 23 August 1896.",
+        "**A receipt becomes a declaration** when enough people tear it.",
+        "**Historians still argue the exact date and place.**",
+        "**A good symbol beats a good speech.** Every time."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What did the Katipuneros tear up at the Cry of Pugad Lawin?",
+        "options": [
+          "Their cedulas, the Spanish tax certificates",
+          "Their Katipunan membership cards",
+          "Spanish flags",
+          "Copies of La Solidaridad"
+        ],
+        "answerIndex": 0,
+        "explain": "The cedula proved you were a Spanish subject who paid tribute. Tearing it was the refusal, made visible."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Revolution started. Part 2 is what it cost, and the republic it built. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "⚔️",
+      "eyebrow": "Part 2 · Revolution to republic",
+      "title": "Winning outside, fighting inside",
+      "text": "The revolution went best in Cavite. It also split there, and the split cost the man who started it his life."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The two councils",
+      "title": "Magdiwang and Magdalo",
+      "text": "Cavite had two rival Katipunan councils. They were on the same side and could not agree who was in charge.",
+      "points": [
+        "**Magdiwang** backed Bonifacio, the founder.",
+        "**Magdalo** backed Emilio Aguinaldo, who was winning battles.",
+        "**Authority versus results.** Both had a real claim.",
+        "**A meeting was called** to settle it."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "22 March 1897",
+      "title": "The Tejeros Convention",
+      "text": "They held an election. Aguinaldo was chosen president. Bonifacio was elected to a lesser post, and then insulted over it.",
+      "points": [
+        "**Bonifacio got Director of the Interior.**",
+        "**A delegate objected** that he had no law degree.",
+        "**Bonifacio declared the whole meeting void** and walked out.",
+        "**He was arrested, tried, and executed in May 1897.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What happened to Andres Bonifacio after the Tejeros Convention?",
+        "options": [
+          "He was arrested by fellow revolutionaries and executed",
+          "He was captured and executed by the Spanish",
+          "He was exiled to Hong Kong",
+          "He became vice-president under Aguinaldo"
+        ],
+        "answerIndex": 0,
+        "explain": "By his own side, in May 1897. The revolution turned on its founder before Spain ever caught him."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Late 1897",
+      "title": "Biak-na-Bato: a republic, then a deal",
+      "text": "Aguinaldo set up a republic in the mountains, then agreed a truce. He accepted money and exile in Hong Kong.",
+      "points": [
+        "**The Republic of Biak-na-Bato**, November 1897.",
+        "**The pact** sent Aguinaldo abroad in December.",
+        "**Neither side kept its promises.**",
+        "**The fighting never really stopped.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "12 June 1898",
+      "title": "Kawit",
+      "text": "Spain was now at war with the United States. Aguinaldo came home, and from a window in Kawit, Cavite, declared independence.",
+      "points": [
+        "**The flag was unfurled for the first time.**",
+        "**The national march was played**, written by Julian Felipe.",
+        "**Ambrosio Rianzares Bautista** wrote and read the declaration.",
+        "**Spain was not the only country listening.**"
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "phFlag",
+      "eyebrow": "The flag",
+      "title": "Everything on it means something",
+      "text": "Tap each part. The last one is the fact nobody forgets."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What do the eight rays of the sun on the flag stand for?",
+        "options": [
+          "The eight provinces placed under martial law in 1896",
+          "The eight founders of the Katipunan",
+          "Eight years of revolution",
+          "The eight largest islands"
+        ],
+        "answerIndex": 0,
+        "explain": "The eight provinces that rose first, including Manila, Cavite and Bulacan. The three stars are the island groups."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚢",
+      "eyebrow": "Transport mode",
+      "title": "The country was sold with nobody in it asked",
+      "text": "In December 1898 Spain signed the Philippines over to the United States for twenty million dollars. No Filipino was at the table.",
+      "points": [
+        "**The Treaty of Paris**, 10 December 1898.",
+        "**Like selling a car with the family still inside it.**",
+        "**Independence had already been declared** in June.",
+        "**Spain sold something** it no longer controlled."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "23 January 1899",
+      "title": "The First Philippine Republic",
+      "text": "A congress met at Barasoain Church in Malolos, wrote a constitution, and inaugurated a republic with Aguinaldo as president.",
+      "points": [
+        "**The Malolos Constitution** was approved that January.",
+        "**The first constitutional republic in Asia.**",
+        "**It lasted weeks** before war with America began.",
+        "**It existed.** That is what Week 7 argues about."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Filipino representatives took part in the Treaty of Paris that handed the islands to the United States.",
+        "answer": false,
+        "explain": "False. Spain and the United States negotiated it alone. No Filipino was present or consulted."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "Reform Movement", "def": "The campaign by educated Filipinos for rights within Spain, roughly 1872-1892." },
+        { "term": "La Solidaridad", "def": "The reformers' newspaper, published from 1889, mostly in Spain." },
+        { "term": "La Liga Filipina", "def": "Rizal's peaceful civic group, founded 3 July 1892. He was arrested days later." },
+        { "term": "Katipunan", "def": "The secret society founded 7 July 1892 that aimed at independence by revolution." },
+        { "term": "Kartilya", "def": "The Katipunan's code of conduct, written by Emilio Jacinto." },
+        { "term": "cedula", "def": "The tax certificate every Filipino had to carry. Tearing it up was an act of revolt." },
+        { "term": "Cry of Pugad Lawin", "def": "August 1896. The Katipuneros tore their cedulas and the revolution began." },
+        { "term": "Tejeros Convention", "def": "March 1897. Aguinaldo was elected president and Bonifacio walked out." },
+        { "term": "Malolos Republic", "def": "The First Philippine Republic, inaugurated 23 January 1899 at Barasoain Church." },
+        { "term": "Treaty of Paris", "def": "December 1898. Spain sold the Philippines to the United States for $20 million." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Reform asked. The Katipunan stopped asking.**",
+        "**1896 the Cry, 1897 Tejeros, 1898 Kawit, 1899 Malolos.**",
+        "**Bonifacio was executed by his own side.**",
+        "**Spain sold a country it had already lost.**"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "What did the Reform Movement want?",
+      "options": [
+        "Equal rights and representation as a province of Spain",
+        "An armed revolution against Spain",
+        "A separate Filipino monarchy",
+        "More power for the Spanish friars"
+      ],
+      "answerIndex": 0,
+      "explain": "Rights inside the empire. They campaigned by writing, mostly from Spain, for about twenty years.",
+      "objective": "Explain what the Reform Movement wanted and why it failed"
+    },
+    {
+      "type": "multiple",
+      "text": "What convinced many Filipinos that peaceful reform had failed?",
+      "options": [
+        "Rizal was arrested days after founding a peaceful group",
+        "La Solidaridad ran out of money",
+        "Spain granted every reform at once",
+        "The friars left the country"
+      ],
+      "answerIndex": 0,
+      "explain": "La Liga Filipina was founded on 3 July 1892. Rizal was arrested on 6 July and exiled.",
+      "objective": "Explain what the Reform Movement wanted and why it failed"
+    },
+    {
+      "type": "type",
+      "text": "What was the name of the secret society founded in Tondo in July 1892?",
+      "accept": [
+        "katipunan",
+        "the katipunan",
+        "kkk"
+      ],
+      "explain": "The Katipunan. It was founded the night after news of Rizal's arrest, and aimed at independence.",
+      "objective": "Describe the founding, aims and structure of the Katipunan"
+    },
+    {
+      "type": "multiple",
+      "text": "Who wrote the Kartilya, the Katipunan's code of conduct?",
+      "options": [
+        "Emilio Jacinto",
+        "Andres Bonifacio",
+        "Jose Rizal",
+        "Emilio Aguinaldo"
+      ],
+      "answerIndex": 0,
+      "explain": "Emilio Jacinto, often called the brains of the Katipunan. Bonifacio was its Supremo.",
+      "objective": "Describe the founding, aims and structure of the Katipunan"
+    },
+    {
+      "type": "multiple",
+      "text": "What did tearing the cedula mean?",
+      "options": [
+        "Refusing to be a Spanish subject any longer",
+        "Refusing to join the Katipunan",
+        "Giving up your land",
+        "Swearing loyalty to Rizal"
+      ],
+      "answerIndex": 0,
+      "explain": "The cedula was proof you were a Spanish subject who paid tribute. Tearing it was the refusal made visible.",
+      "objective": "Describe the Cry of Pugad Lawin and the outbreak of the revolution"
+    },
+    {
+      "type": "multiple",
+      "text": "What was decided at the Tejeros Convention in March 1897?",
+      "options": [
+        "Aguinaldo was elected president of the revolutionary government",
+        "The revolution was called off",
+        "Bonifacio was elected president",
+        "The Philippines rejoined Spain"
+      ],
+      "answerIndex": 0,
+      "explain": "Aguinaldo won the presidency. Bonifacio rejected the result and was executed weeks later.",
+      "objective": "Explain the split between Bonifacio and Aguinaldo at Tejeros"
+    },
+    {
+      "type": "truefalse",
+      "text": "Andres Bonifacio was executed by Spanish soldiers.",
+      "answer": false,
+      "explain": "False. He was tried and executed by fellow revolutionaries in May 1897, after the split at Tejeros.",
+      "objective": "Explain the split between Bonifacio and Aguinaldo at Tejeros"
+    },
+    {
+      "type": "multiple",
+      "text": "What happened at Kawit, Cavite on 12 June 1898?",
+      "options": [
+        "Philippine independence was declared and the flag first flown",
+        "The Katipunan was founded",
+        "The Malolos Constitution was signed",
+        "Spain surrendered to Aguinaldo"
+      ],
+      "answerIndex": 0,
+      "explain": "Aguinaldo declared independence from a window of his house. The flag and the national march were used first that day.",
+      "objective": "Describe the declaration of independence at Kawit on 12 June 1898"
+    },
+    {
+      "type": "multiple",
+      "text": "What do the three stars on the Philippine flag stand for?",
+      "options": [
+        "Luzon, the Visayas and Mindanao",
+        "The three founders of the Katipunan",
+        "The three priests of GomBurZa",
+        "Three years of revolution"
+      ],
+      "answerIndex": 0,
+      "explain": "The three main island groups. The eight rays are the eight provinces that rose in 1896.",
+      "objective": "Read the symbols on the Philippine flag"
+    },
+    {
+      "type": "truefalse",
+      "text": "The Philippine flag is flown with the red band on top when the country is at war.",
+      "answer": true,
+      "explain": "True. Blue on top in peacetime, red on top in war. Very few national flags carry two meanings.",
+      "objective": "Read the symbols on the Philippine flag"
+    },
+    {
+      "type": "multiple",
+      "text": "What did the Treaty of Paris of December 1898 do?",
+      "options": [
+        "Spain handed the Philippines to the United States for $20 million",
+        "Spain recognised Philippine independence",
+        "The United States promised immediate independence",
+        "The Katipunan was formally dissolved"
+      ],
+      "answerIndex": 0,
+      "explain": "Spain sold a colony it had already lost, and no Filipino was at the negotiating table.",
+      "objective": "Explain what the Malolos Republic was and why the Treaty of Paris undid it"
+    },
+    {
+      "type": "order",
+      "text": "Put these events in the order they happened.",
+      "items": [
+        "The Katipunan is founded",
+        "The Cry of Pugad Lawin",
+        "Independence is declared at Kawit",
+        "The First Philippine Republic is inaugurated"
+      ],
+      "explain": "1892, then 1896, then June 1898, then January 1899. Seven years from a secret meeting to a republic.",
+      "objective": "Explain what the Malolos Republic was and why the Treaty of Paris undid it"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 5 Social Studies covers the revolution and the First Philippine Republic, matching the Term 1 weekly scope. Because Weeks 3 and 4 on the Reform Movement are not yet written, the lesson carries its own bridge: the second card and the boxing card together give the reform context the topic needs, so it can be taken on its own. The organising argument is that the switch from reform to revolution was a decision people were pushed into, not a mood — which is why Rizal's arrest in July 1892 and the founding of the Katipunan days later are taught as one event. Two interactive figures: a timeline of the seven years, and the flag, whose symbols are all examinable and whose inversion in wartime is the detail that sticks. Bonifacio's execution is not softened; it is treated as the revolution's own doing, because that is what it was.",
+    "discussion": [
+      "Ask him what would have had to happen for the Reform Movement to succeed. It forces him to say what Spain was unwilling to give.",
+      "Ask whether Aguinaldo or Bonifacio had the better claim to lead. There is a genuine argument on both sides and no answer key.",
+      "Ask why tearing up a tax certificate was such a powerful act. He can reason his way to it, and it is the best single image in the topic.",
+      "Ask what the Treaty of Paris says about how the world saw the Philippines in 1898. The answer is uncomfortable and worth reaching."
+    ],
+    "extension": "Have him draw the flag from memory and label every element with what it stands for, then write one sentence on why a flag that changes meaning when inverted is unusual. Combining the symbols with the reason fixes both.",
+    "misconceptions": [
+      "'The Reform Movement wanted independence.' It wanted rights and representation within Spain. Wanting independence is what made the Katipunan different.",
+      "'Bonifacio was killed by the Spanish.' He was executed in May 1897 by fellow revolutionaries after the Tejeros Convention.",
+      "'Independence in June 1898 was recognised by other countries.' It was not. Spain sold the islands to the United States six months later.",
+      "'The three stars stand for three heroes.' They stand for Luzon, the Visayas and Mindanao. The original 1898 text named Panay rather than the Visayas as a whole."
+    ]
+  }
+}

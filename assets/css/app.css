@@ -893,6 +893,19 @@ strong { font-weight: 700; color: var(--ink); }
 .fig-point.faint   { stroke: var(--ink-faint); stroke-dasharray: 4 3; }
 .fig-point-h.faint { fill: var(--ink-faint); }
 
+/* ---------- Philippine flag figure ---------- */
+/* Real flag colours, because it is a depiction of an object rather than a
+   UI surface — but the white field is nudged off pure white, like everything
+   else here. Dimming, never colour alone, marks what is not selected. */
+.fig-flag-blue  { fill: #0038A8; }
+.fig-flag-red   { fill: #CE1126; }
+.fig-flag-white { fill: #FAFAF7; }
+.fig-flag-gold  { fill: #FCD116; }
+.fig-flag-edge  { fill: none; stroke: var(--line-strong); stroke-width: 1.5; }
+.fig-flag-part            { opacity: 1; }
+.fig-flag-part.dim        { opacity: .28; }
+.fig-flag-part.pick       { stroke: var(--ink); stroke-width: 2.5; }
+
 /* ---------- Sign-in flow ---------- */
 /* Two named steps, so it's always obvious where you are and what's left. */
 .signin-steps {

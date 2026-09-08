@@ -1320,74 +1320,60 @@ function phMap() {
 }
 
 /* ==========================================================================
-   SOCIAL STUDIES — the road to 1872.
-   A causal chain, not a list of dates. The whole point of the topic is that
-   each event made the next one possible, and a timeline shows that in a way
-   four paragraphs cannot. Tapping a year is the only motion here.
+   SOCIAL STUDIES — timelines.
+   These topics are causal chains, not lists of dates: each event made the
+   next one possible. A timeline shows that in a way four paragraphs cannot,
+   and it lets the sequence be recovered without re-reading the cards.
    ========================================================================== */
-function roadTo1872() {
-    const STOPS = [
-        { key: '1834', year: '1834',     tag: 'ports open',
-          head: 'Manila opens to world trade',
-          body: 'Filipino families grow rich selling to the world.' },
-        { key: '1863', year: '1863',     tag: 'schools',
-          head: 'Free primary school, taught in Spanish',
-          body: 'More Filipinos can read what European liberals write.' },
-        { key: '1869', year: '1869',     tag: 'the shortcut',
-          head: 'Suez Canal opens · de la Torre arrives',
-          body: 'Spain is now a month away, not three.' },
-        { key: '1872a', year: 'Jan 1872', tag: 'mutiny',
-          head: 'The Cavite Mutiny',
-          body: 'Arsenal workers revolt over a lost exemption.' },
-        { key: '1872b', year: 'Feb 1872', tag: 'GomBurZa',
-          head: 'Three priests executed at Bagumbayan',
-          body: 'No real evidence was ever shown against them.' }
-    ];
-    const X = [42, 136, 230, 324, 418];
+
+/** A tappable timeline. Five or so stops on one line; tapping names one. */
+function timeline({ id, label, alt, stops }) {
+    // Evenly spaced between x=42 and x=418, whatever the number of stops.
+    const X = stops.map((_, i) => Math.round(42 + i * 376 / (stops.length - 1)));
 
     return {
         svg: `
-<svg viewBox="0 0 460 214" role="img" aria-labelledby="r72T">
-  <title id="r72T">A timeline from 1834 to February 1872, where each event makes the next one possible</title>
-  <text class="fig-label" x="20" y="26">THE ROAD TO 1872</text>
-  <path class="fig-chain" d="M42 112 L418 112"/>
-  <g id="r72Nodes" class="fig-node">
+<svg viewBox="0 0 460 214" role="img" aria-labelledby="${id}T">
+  <title id="${id}T">${alt}</title>
+  <text class="fig-label" x="20" y="26">${label}</text>
+  <path class="fig-chain" d="M${X[0]} 112 L${X[X.length - 1]} 112"/>
+  <g id="${id}Nodes" class="fig-node">
     ${X.map((x, i) => `<circle data-i="${i}" cx="${x}" cy="112" r="6"/>`).join('')}
   </g>
   <g class="fig-step">
-    ${STOPS.map((s, i) => `<text x="${X[i]}" y="96" text-anchor="middle">${s.year}</text>`).join('')}
+    ${stops.map((s, i) => `<text x="${X[i]}" y="96" text-anchor="middle">${s.year}</text>`).join('')}
   </g>
   <g class="fig-note">
-    ${STOPS.map((s, i) => `<text x="${X[i]}" y="136" text-anchor="middle">${s.tag}</text>`).join('')}
+    ${stops.map((s, i) => `<text x="${X[i]}" y="136" text-anchor="middle">${s.tag}</text>`).join('')}
   </g>
-  <text class="fig-note fig-note-key" id="r72Head" x="20" y="178">&#160;</text>
-  <text class="fig-note"              id="r72Body" x="20" y="198">&#160;</text>
+  <text class="fig-note fig-note-key" id="${id}Head" x="20" y="178">&#160;</text>
+  <text class="fig-note"              id="${id}Body" x="20" y="198">&#160;</text>
 </svg>`,
 
         bind(root) {
             const bar = document.createElement('div');
             bar.className = 'fig-switch';
-            bar.innerHTML = STOPS.map((s, i) =>
+            bar.innerHTML = stops.map((s, i) =>
                 `<button data-i="${i}" aria-pressed="${i === 0}">${s.year}</button>`).join('');
             root.appendChild(bar);
 
-            const head = root.querySelector('#r72Head');
-            const body = root.querySelector('#r72Body');
-            const dots = [...root.querySelectorAll('#r72Nodes circle')];
+            const h = root.querySelector(`#${id}Head`);
+            const b = root.querySelector(`#${id}Body`);
+            const dots = [...root.querySelectorAll(`#${id}Nodes circle`)];
 
             const show = i => {
-                head.textContent = STOPS[i].head;
-                body.textContent = STOPS[i].body;
+                h.textContent = stops[i].head;
+                b.textContent = stops[i].body;
                 dots.forEach((d, j) => d.setAttribute('r', j === i ? 11 : 6));
-                bar.querySelectorAll('button').forEach((b, j) =>
-                    b.setAttribute('aria-pressed', String(j === i)));
+                bar.querySelectorAll('button').forEach((x, j) =>
+                    x.setAttribute('aria-pressed', String(j === i)));
             };
 
             bar.addEventListener('click', e => {
-                const b = e.target.closest('button');
-                if (b) show(Number(b.dataset.i));
+                const btn = e.target.closest('button');
+                if (btn) show(Number(btn.dataset.i));
             });
-            root.querySelector('#r72Nodes').addEventListener('click', e => {
+            root.querySelector(`#${id}Nodes`).addEventListener('click', e => {
                 const c = e.target.closest('circle');
                 if (c) show(Number(c.dataset.i));
             });
@@ -1395,6 +1381,56 @@ function roadTo1872() {
             show(0);
         }
     };
+}
+
+/* Week 2: how the colony arrived at 1872. */
+function roadTo1872() {
+    return timeline({
+        id: 'r72', label: 'THE ROAD TO 1872',
+        alt: 'A timeline from 1834 to February 1872, where each event makes the next one possible',
+        stops: [
+            { year: '1834', tag: 'ports open',
+              head: 'Manila opens to world trade',
+              body: 'Filipino families grow rich selling to the world.' },
+            { year: '1863', tag: 'schools',
+              head: 'Free primary school, taught in Spanish',
+              body: 'More Filipinos can read what European liberals write.' },
+            { year: '1869', tag: 'the shortcut',
+              head: 'Suez Canal opens · de la Torre arrives',
+              body: 'Spain is now a month away, not three.' },
+            { year: 'Jan 1872', tag: 'mutiny',
+              head: 'The Cavite Mutiny',
+              body: 'Arsenal workers revolt over a lost exemption.' },
+            { year: 'Feb 1872', tag: 'GomBurZa',
+              head: 'Three priests executed at Bagumbayan',
+              body: 'No real evidence was ever shown against them.' }
+        ]
+    });
+}
+
+/* Week 5: from a secret society to a republic, in seven years. */
+function roadToRepublic() {
+    return timeline({
+        id: 'rep', label: 'SEVEN YEARS',
+        alt: 'A timeline from the founding of the Katipunan in 1892 to the First Philippine Republic in 1899',
+        stops: [
+            { year: '1892', tag: 'Katipunan',
+              head: 'The Katipunan is founded in Tondo',
+              body: 'Days after Rizal is arrested. Reform is over.' },
+            { year: '1896', tag: 'the Cry',
+              head: 'The Cry of Pugad Lawin',
+              body: 'Members tear their cedulas. The revolution begins.' },
+            { year: '1897', tag: 'the split',
+              head: 'Tejeros, then Biak-na-Bato',
+              body: 'Aguinaldo elected. Bonifacio executed in May.' },
+            { year: '1898', tag: 'Kawit',
+              head: 'Independence declared at Kawit',
+              body: '12 June. The flag is unfurled for the first time.' },
+            { year: '1899', tag: 'Malolos',
+              head: 'The First Philippine Republic',
+              body: '23 January, at Barasoain Church in Malolos.' }
+        ]
+    });
 }
 
 /* ==========================================================================
@@ -1693,6 +1729,78 @@ function antecedentArrow() {
     };
 }
 
+/* ---------- The flag, part by part ---------- */
+/* He sees this every school morning. Every element on it is an exam answer,
+   and the last case is the one nobody forgets: the flag means something
+   different upside down, which almost no other national flag does. */
+function phFlag() {
+    const CASES = [
+        { btn: 'Triangle', pick: ['tri'],
+          head: 'The white triangle is the Katipunan',
+          body: 'The secret society that started the revolution in 1892.' },
+        { btn: 'Eight rays', pick: ['rays', 'sun'],
+          head: 'Eight rays for eight provinces',
+          body: 'The eight Spain placed under martial law in August 1896.' },
+        { btn: 'Three stars', pick: ['stars'],
+          head: 'Three stars for the three island groups',
+          body: 'Luzon, the Visayas and Mindanao. Week 1, back again.' },
+        { btn: 'Turn it over', pick: null, war: true,
+          head: 'Red on top means the country is at war',
+          body: 'Blue on top in peacetime. Almost no other flag does this.' }
+    ];
+
+    return {
+        svg: `
+<svg viewBox="0 0 400 262" role="img" aria-labelledby="pfT">
+  <title id="pfT">The flag of the Philippines, with its triangle, sun, eight rays and three stars</title>
+  <g data-p="bands" class="fig-flag-part">
+    <rect id="pfTop" class="fig-flag-blue" x="20" y="22" width="360" height="90"/>
+    <rect id="pfBot" class="fig-flag-red"  x="20" y="112" width="360" height="90"/>
+  </g>
+  <path data-p="tri"   class="fig-flag-white fig-flag-part" d="M20 22 L20 202 L175.9 112.0 Z"/>
+  <g    data-p="rays"  class="fig-flag-gold fig-flag-part"><path d="M117.0 112.0 L93.0 119.0 L93.0 105.0 Z"/><path d="M103.8 143.8 L81.9 131.8 L91.8 121.9 Z"/><path d="M72.0 157.0 L65.0 133.0 L79.0 133.0 Z"/><path d="M40.1 143.8 L52.2 121.9 L62.1 131.8 Z"/><path d="M27.0 112.0 L51.0 105.0 L51.0 119.0 Z"/><path d="M40.1 80.2 L62.1 92.2 L52.2 102.1 Z"/><path d="M72.0 67.0 L79.0 91.0 L65.0 91.0 Z"/><path d="M103.8 80.2 L91.8 102.1 L81.9 92.2 Z"/></g>
+  <circle data-p="sun" class="fig-flag-gold fig-flag-part" cx="72.0" cy="112.0" r="21"/>
+  <g    data-p="stars" class="fig-flag-gold fig-flag-part"><path d="M46.0 39.0 L48.2 44.9 L54.6 45.2 L49.6 49.2 L51.3 55.3 L46.0 51.8 L40.7 55.3 L42.4 49.2 L37.4 45.2 L43.8 44.9 Z"/><path d="M46.0 167.0 L48.2 172.9 L54.6 173.2 L49.6 177.2 L51.3 183.3 L46.0 179.8 L40.7 183.3 L42.4 177.2 L37.4 173.2 L43.8 172.9 Z"/><path d="M145.9 103.0 L148.1 108.9 L154.4 109.2 L149.5 113.2 L151.2 119.3 L145.9 115.8 L140.6 119.3 L142.3 113.2 L137.3 109.2 L143.7 108.9 Z"/></g>
+  <rect class="fig-flag-edge" x="20" y="22" width="360" height="180"/>
+  <text class="fig-note fig-note-key" id="pfHead" x="20" y="228">&#160;</text>
+  <text class="fig-note"              id="pfBody" x="20" y="248">&#160;</text>
+</svg>`,
+
+        bind(root) {
+            const bar = document.createElement('div');
+            bar.className = 'fig-switch';
+            bar.innerHTML = CASES.map((c, i) =>
+                `<button data-i="${i}" aria-pressed="${i === 0}">${c.btn}</button>`).join('');
+            root.appendChild(bar);
+
+            const head = root.querySelector('#pfHead');
+            const body = root.querySelector('#pfBody');
+            const parts = [...root.querySelectorAll('[data-p]')];
+            const top = root.querySelector('#pfTop');
+            const bot = root.querySelector('#pfBot');
+
+            const show = n => {
+                const c = CASES[n];
+                // pick: null means the whole flag stays lit — the last case is
+                // about the flag as a whole, not about one piece of it.
+                parts.forEach(p => p.classList.toggle('dim', !!c.pick && !c.pick.includes(p.dataset.p)));
+                top.setAttribute('class', c.war ? 'fig-flag-red' : 'fig-flag-blue');
+                bot.setAttribute('class', c.war ? 'fig-flag-blue' : 'fig-flag-red');
+                head.textContent = c.head;
+                body.textContent = c.body;
+                bar.querySelectorAll('button').forEach((b, j) =>
+                    b.setAttribute('aria-pressed', String(j === n)));
+            };
+
+            bar.addEventListener('click', e => {
+                const b = e.target.closest('button');
+                if (b) show(Number(b.dataset.i));
+            });
+            show(0);
+        }
+    };
+}
+
 export const FIGURES = {
     crumpleZone,
     muscleTypes,
@@ -1713,10 +1821,12 @@ export const FIGURES = {
     possessiveRule,
     phMap,
     roadTo1872,
+    roadToRepublic,
     heartLoop,
     reflexArc,
     decimalPlaces,
-    antecedentArrow
+    antecedentArrow,
+    phFlag
 };
 
 
