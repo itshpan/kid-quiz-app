@@ -181,7 +181,8 @@
           "topics": [
             "The four operations with decimals: multiplication & division"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "math/w5-decimals-multiply-divide.json"
         },
         {
           "week": 6,

@@ -1534,6 +1534,66 @@ function reflexArc() {
     });
 }
 
+/* ---------- Multiplying decimals: count, don't align ---------- */
+/* The companion to decimalColumns. Addition says "line up the points";
+   multiplication says the opposite, and that contradiction is where the
+   marks go. Showing the two rules as two figures makes them separate
+   things in his head rather than one rule he half-remembers. */
+function decimalPlaces() {
+    const CASES = [
+        { btn: '1.2 × 0.3', a: '1.2', b: '0.3',
+          strip: '12 × 3 = 36', places: '1 + 1 = 2 places', answer: '0.36',
+          check: 'About 1 lot of 0.3, so about 0.3. It fits.' },
+        { btn: '0.25 × 4', a: '0.25', b: '4',
+          strip: '25 × 4 = 100', places: '2 + 0 = 2 places', answer: '1.00',
+          check: 'A quarter, four times, is 1. Exactly right.' },
+        { btn: '3.14 × 2.5', a: '3.14', b: '2.5',
+          strip: '314 × 25 = 7850', places: '2 + 1 = 3 places', answer: '7.850',
+          check: 'About 3 × 2.5 = 7.5. Close, so the point is in the right place.' }
+    ];
+
+    return {
+        svg: `
+<svg viewBox="0 0 400 232" role="img" aria-labelledby="dpT">
+  <title id="dpT">Multiplying two decimals by ignoring the points, then counting the decimal places</title>
+  <text class="fig-label" x="16" y="20">MULTIPLY: COUNT, DO NOT ALIGN</text>
+  <text class="fig-digit" id="dpSum"    x="16" y="58">&#160;</text>
+  <text class="fig-step"  x="16" y="86">STEP 1 — IGNORE THE POINTS</text>
+  <text class="fig-note fig-note-key" id="dpStrip"  x="16" y="106">&#160;</text>
+  <text class="fig-step"  x="16" y="134">STEP 2 — COUNT THE PLACES IN BOTH NUMBERS</text>
+  <text class="fig-note fig-note-key" id="dpPlaces" x="16" y="154">&#160;</text>
+  <line class="fig-rule" x1="16" y1="170" x2="384" y2="170"/>
+  <text class="fig-digit fig-digit-sum" id="dpAns" x="16" y="200">&#160;</text>
+  <text class="fig-note" id="dpCheck" x="16" y="222">&#160;</text>
+</svg>`,
+
+        bind(root) {
+            const bar = document.createElement('div');
+            bar.className = 'fig-switch';
+            bar.innerHTML = CASES.map((c, i) =>
+                `<button data-i="${i}" aria-pressed="${i === 0}">${c.btn}</button>`).join('');
+            root.appendChild(bar);
+
+            const el = k => root.querySelector('#dp' + k);
+            const show = i => {
+                const c = CASES[i];
+                el('Sum').textContent = `${c.a} × ${c.b}`;
+                el('Strip').textContent = c.strip;
+                el('Places').textContent = c.places;
+                el('Ans').textContent = `= ${c.answer}`;
+                el('Check').textContent = 'Check: ' + c.check;
+                bar.querySelectorAll('button').forEach((b, j) =>
+                    b.setAttribute('aria-pressed', String(j === i)));
+            };
+            bar.addEventListener('click', e => {
+                const b = e.target.closest('button');
+                if (b) show(Number(b.dataset.i));
+            });
+            show(0);
+        }
+    };
+}
+
 export const FIGURES = {
     crumpleZone,
     muscleTypes,
@@ -1555,7 +1615,8 @@ export const FIGURES = {
     phMap,
     roadTo1872,
     heartLoop,
-    reflexArc
+    reflexArc,
+    decimalPlaces
 };
 
 
