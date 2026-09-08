@@ -894,6 +894,50 @@ const EXPLORER_DATA = {
         }
     },
 
+    phMap: {
+        luzon: {
+            name: 'Luzon', sub: 'the largest island group',
+            job: 'The biggest island and the northern group. Manila, the capital, is here.',
+            car: 'Most of the country\'s roads, rail and ports are concentrated on this island.',
+            you: 'Roughly half the population of the Philippines lives in this group.'
+        },
+        visayas: {
+            name: 'The Visayas', sub: 'the central group',
+            job: 'A cluster of islands in the middle, including Cebu, Bohol, Leyte, Samar and Negros.',
+            car: 'Ferries do the work roads do elsewhere. Sea lanes are the highways here.',
+            you: 'Being scattered is why the country has so many languages.'
+        },
+        mindanao: {
+            name: 'Mindanao', sub: 'the southern group',
+            job: 'The second largest island, in the south. Davao is its biggest city.',
+            car: 'Closest group to Indonesia and Malaysia, so trade has always flowed south.',
+            you: 'Sits furthest from the typhoon belt, so it is hit far less often.'
+        },
+        palawan: {
+            name: 'Palawan', sub: 'the long western island',
+            job: 'A long thin island stretching south-west, counted with the Luzon group.',
+            car: 'It points straight at the disputed waters of the West Philippine Sea.',
+            you: 'One of the least densely populated parts of the country.'
+        },
+        westsea: {
+            name: 'West Philippine Sea', sub: 'to the west',
+            job: 'The eastern part of the South China Sea, which the Philippines calls the West Philippine Sea.',
+            car: 'One of the busiest shipping routes on Earth passes through here.',
+            you: 'Parts of it are claimed by several countries at once.'
+        },
+        philsea: {
+            name: 'Philippine Sea', sub: 'to the east',
+            job: 'Open Pacific to the east, and where most typhoons arrive from.',
+            car: 'It contains the Philippine Trench, one of the deepest places in any ocean.',
+            you: 'Storms crossing it are what make the eastern coast the wettest.'
+        },
+        neighbours: {
+            name: 'The neighbours', sub: 'who is nearby',
+            job: 'Taiwan to the north, Vietnam west, Malaysia and Indonesia south, Palau east.',
+            car: 'Every neighbour is reached by sea or air. The Philippines shares no land border.',
+            you: 'Being on the route between China, India and the Pacific shaped its whole history.'
+        }
+    },
     skinLayers: {
         epidermis: {
             name: 'Epidermis', sub: 'the outer layer',
@@ -1227,6 +1271,54 @@ function possessiveRule() {
     };
 }
 
+/* ---------- 18. The Philippines in its region (explorer) ---------- */
+/* A deliberately schematic map. An accurate coastline drawn by hand would be
+   worse than useless — this shows the three island groups, the seas that
+   bound them and the neighbours, which is exactly what Week 1 assesses. */
+function phMap() {
+    return {
+        svg: `<svg viewBox="0 0 240 320" role="img" aria-labelledby="phT">
+  <title id="phT">A simplified map of the Philippines showing Luzon, the Visayas and Mindanao, the surrounding seas and neighbouring countries</title>
+
+  <rect class="map-sea" x="0" y="0" width="240" height="320" rx="6"/>
+
+  <g class="organ" data-part="luzon" role="button" tabindex="0" aria-label="Luzon"><title>Luzon</title>
+    <path d="M96 42 Q126 38 134 66 Q140 96 126 116 Q118 132 122 146 Q112 154 104 142 Q92 122 90 96 Q86 66 96 42 Z"/>
+    <path d="M138 150 q10 6 6 18 q-8 8 -14 -2 Z"/></g>
+
+  <g class="organ" data-part="visayas" role="button" tabindex="0" aria-label="The Visayas"><title>The Visayas</title>
+    <ellipse cx="104" cy="176" rx="15" ry="8"/>
+    <ellipse cx="132" cy="186" rx="11" ry="7"/>
+    <ellipse cx="96" cy="196" rx="12" ry="7"/>
+    <ellipse cx="126" cy="206" rx="14" ry="7"/>
+    <ellipse cx="150" cy="196" rx="9" ry="6"/></g>
+
+  <g class="organ" data-part="mindanao" role="button" tabindex="0" aria-label="Mindanao"><title>Mindanao</title>
+    <path d="M92 226 Q126 218 152 232 Q166 248 154 266 Q130 280 106 272 Q86 258 92 226 Z"/></g>
+
+  <g class="organ" data-part="palawan" role="button" tabindex="0" aria-label="Palawan"><title>Palawan</title>
+    <path d="M42 196 L78 168 l8 9 l-36 28 Z"/></g>
+
+  <g class="organ" data-part="westsea" role="button" tabindex="0" aria-label="West Philippine Sea"><title>West Philippine Sea</title>
+    <rect x="6" y="60" width="56" height="90" rx="6" fill="transparent"/></g>
+  <g class="organ" data-part="philsea" role="button" tabindex="0" aria-label="Philippine Sea"><title>Philippine Sea</title>
+    <rect x="176" y="60" width="58" height="110" rx="6" fill="transparent"/></g>
+  <g class="organ" data-part="neighbours" role="button" tabindex="0" aria-label="Neighbouring countries"><title>Neighbouring countries</title>
+    <rect x="6" y="272" width="228" height="42" rx="6" fill="transparent"/></g>
+
+  <text class="map-label" x="12" y="104">WEST</text>
+  <text class="map-label" x="12" y="116">PHILIPPINE</text>
+  <text class="map-label" x="12" y="128">SEA</text>
+  <text class="map-label" x="182" y="110">PHILIPPINE</text>
+  <text class="map-label" x="182" y="122">SEA</text>
+  <text class="map-label" x="88" y="22">Taiwan ↑</text>
+  <text class="map-label" x="12" y="296">Vietnam ←</text>
+  <text class="map-label" x="150" y="296">→ Palau</text>
+  <text class="map-label" x="72" y="310">Malaysia · Indonesia ↓</text>
+</svg>`
+    };
+}
+
 export const FIGURES = {
     crumpleZone,
     muscleTypes,
@@ -1244,7 +1336,8 @@ export const FIGURES = {
     skinLayers,
     transformLab,
     decimalColumns,
-    possessiveRule
+    possessiveRule,
+    phMap
 };
 
 

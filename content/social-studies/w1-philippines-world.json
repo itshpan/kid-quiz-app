@@ -1,0 +1,384 @@
+{
+  "id": "ss-w1",
+  "courseId": "social-studies",
+  "courseTitle": "Social Studies",
+  "week": 1,
+  "title": "The Philippines as Part of the World",
+  "subtitle": "Where your country sits, and why that position decided its history.",
+  "estMinutes": 20,
+  "objectives": [
+    "Describe the absolute and relative location of the Philippines",
+    "Name the three main island groups and locate them",
+    "Identify the seas and countries that surround the Philippines",
+    "Explain how being an archipelago shapes life and travel",
+    "Explain how location put the Philippines on world trade routes"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🌏",
+      "eyebrow": "Part 1 · Where you are",
+      "title": "Your country has coordinates",
+      "text": "The Philippines sits in Southeast Asia, on the western edge of the Pacific Ocean. Almost everything about its history comes from that one fact."
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "You already know how coordinates work",
+      "text": "Minecraft gives you X, Y and Z. Earth gives you latitude and longitude. Same idea, older system.",
+      "points": [
+        "**Latitude** = how far north or south. Like Z.",
+        "**Longitude** = how far east or west. Like X.",
+        "**Two numbers pin any point on the planet.**",
+        "**Nobody needs a landmark** if they have the numbers."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Absolute location",
+      "title": "The exact numbers",
+      "text": "Absolute location is the coordinates. It never changes and it doesn't depend on anything else.",
+      "points": [
+        "**Latitude: about 4°N to 21°N.**",
+        "**Longitude: about 116°E to 127°E.**",
+        "**All north of the equator, all east of the Prime Meridian.**",
+        "**Being close to the equator** is why it's hot all year."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Relative location",
+      "title": "The other way to say where you are",
+      "text": "Relative location describes a place by what's around it. It's how people actually talk.",
+      "points": [
+        "**\"South of Taiwan, east of Vietnam.\"** That's relative.",
+        "**\"14°N, 121°E.\"** That's absolute.",
+        "**Both are correct.** They answer different questions."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which of these is an ABSOLUTE location?",
+        "options": [
+          "14°N latitude, 121°E longitude",
+          "North of Indonesia",
+          "Near the South China Sea",
+          "Beside the Pacific Ocean"
+        ],
+        "answerIndex": 0,
+        "explain": "The coordinates. The others all describe the Philippines by what's around it, which makes them relative."
+      }
+    },
+    {
+      "kind": "explorer",
+      "figure": "phMap",
+      "title": "Tap the island groups and the seas",
+      "text": "Three island groups, the waters on each side, and the neighbours. Two quiz questions come from this map."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The shape of it",
+      "title": "An archipelago of 7,641 islands",
+      "text": "The Philippines isn't one landmass. It's thousands of islands, and only about 2,000 of them have people living on them.",
+      "points": [
+        "**Luzon** in the north — the largest, and the capital.",
+        "**The Visayas** in the middle — a scatter of islands.",
+        "**Mindanao** in the south — the second largest.",
+        "**The official count rose to 7,641** in 2016 after new surveys."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "order",
+        "text": "Put the three island groups in order, from north to south.",
+        "items": ["Luzon", "The Visayas", "Mindanao"],
+        "explain": "Luzon north, Visayas in the middle, Mindanao south. It's the single most useful thing to know about the map."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The water",
+      "title": "Surrounded on every side",
+      "text": "The Philippines shares no land border with any country. Everything arrives by sea or air.",
+      "points": [
+        "**East:** the Philippine Sea, open Pacific.",
+        "**West:** the West Philippine Sea.",
+        "**South:** the Celebes Sea.",
+        "**North:** the Luzon Strait, then Taiwan."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚢",
+      "eyebrow": "Transport mode",
+      "title": "No land border changes everything",
+      "text": "You can drive from France to China. You cannot drive out of the Philippines at all.",
+      "points": [
+        "**Ferries and planes do the work** roads do elsewhere.",
+        "**Between islands**, a ferry is the bus.",
+        "**Goods arrive by ship**, which is why ports matter so much."
+      ]
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "You've got the map. Part 2 is why this position mattered to the rest of the world. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "⛵",
+      "eyebrow": "Part 2 · Why the position mattered",
+      "title": "Sitting on the route everyone wanted",
+      "text": "The Philippines lies between mainland Asia and the Pacific. For centuries, that made it a place ships passed through — and then a place they stopped."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Trade",
+      "title": "A crossroads before it was a country",
+      "text": "Long before Spain arrived, traders from China, India and across Southeast Asia were already coming.",
+      "points": [
+        "**Chinese porcelain and silk** arrived by sea.",
+        "**Islam reached Mindanao** through trade routes from the south.",
+        "**Goods, religions and words** travelled the same paths.",
+        "**Position, not size**, is what made it matter."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Colonisation",
+      "title": "The same position brought Spain",
+      "text": "Magellan reached the islands in 1521 while looking for a westward route to the Spice Islands. The Philippines was on the way.",
+      "points": [
+        "**Spain ruled for over 300 years.**",
+        "**The country is named after King Philip II** of Spain.",
+        "**Manila became the Pacific end** of a trade route to Mexico.",
+        "**That route ran for 250 years.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why did the Philippines become important to traders and colonisers?",
+        "options": [
+          "Its position on the sea routes between Asia and the Pacific",
+          "It was the largest country in Asia",
+          "It had the biggest population in the region",
+          "It was the only place with fresh water"
+        ],
+        "answerIndex": 0,
+        "explain": "Location, not size. It sat on the route between mainland Asia and the Pacific, so ships passed through it."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The cost of the position",
+      "title": "Typhoons and the Ring of Fire",
+      "text": "The same location that brought trade also brings the weather and the earthquakes.",
+      "points": [
+        "**Typhoons form over the warm Pacific** and travel west into the islands.",
+        "**Around twenty a year** enter Philippine waters.",
+        "**It sits on the Pacific Ring of Fire**, so earthquakes and volcanoes are common.",
+        "**Same position. Both consequences.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "space",
+      "icon": "🪐",
+      "eyebrow": "Space mode",
+      "title": "You can see all of this from orbit",
+      "text": "From the ISS the archipelago is unmistakable — a scatter of green between two very different blues.",
+      "points": [
+        "**Typhoons are visible as spirals** moving west across the Pacific.",
+        "**Satellites track them days ahead**, which is why warnings work.",
+        "**Being near the equator** also makes it useful for launching satellites."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Today",
+      "title": "Still defined by the map",
+      "text": "The Philippines is part of ASEAN and the United Nations, and its position still shapes its relationships.",
+      "points": [
+        "**ASEAN** links it to its Southeast Asian neighbours.",
+        "**Its time zone is UTC+8**, shared with China and Singapore.",
+        "**Disputes in the West Philippine Sea** are about that same position."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "The Philippines shares a land border with Malaysia.",
+        "answer": false,
+        "explain": "False. It shares no land border with any country. Every neighbour is across water, which is why sea travel matters so much."
+      }
+    },
+    {
+      "kind": "fact",
+      "eyebrow": "Did you know",
+      "text": "The Philippine Trench, east of Mindanao, is over 10,000 metres deep. Drop Mount Everest into it and the peak would still be more than a kilometre underwater."
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "Archipelago", "def": "A country or region made up of many islands." },
+        { "term": "Absolute location", "def": "An exact position given as latitude and longitude." },
+        { "term": "Relative location", "def": "A position described by what is around it." },
+        { "term": "Latitude", "def": "How far north or south of the equator a place is." },
+        { "term": "Longitude", "def": "How far east or west of the Prime Meridian a place is." },
+        { "term": "Equator", "def": "The imaginary line around the middle of the Earth, at 0° latitude." },
+        { "term": "Ring of Fire", "def": "The belt around the Pacific where most earthquakes and volcanoes occur." },
+        { "term": "ASEAN", "def": "The Association of Southeast Asian Nations." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Ready for the quiz",
+      "title": "The four that matter",
+      "points": [
+        "**Absolute** = coordinates. **Relative** = what's around it.",
+        "**Three groups, north to south:** Luzon, Visayas, Mindanao.",
+        "**7,641 islands and no land border.** Everything arrives by sea or air.",
+        "**Position brought the trade** — and the typhoons."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "order",
+      "text": "Put the three main island groups in order from north to south.",
+      "items": ["Luzon", "The Visayas", "Mindanao"],
+      "explain": "Luzon in the north with the capital, the Visayas scattered through the middle, Mindanao in the south.",
+      "objective": "Name the three main island groups and locate them"
+    },
+    {
+      "type": "multiple",
+      "text": "Which is an example of ABSOLUTE location?",
+      "options": [
+        "14°N, 121°E",
+        "South of Taiwan",
+        "In Southeast Asia",
+        "Next to the Pacific Ocean"
+      ],
+      "answerIndex": 0,
+      "explain": "Coordinates are absolute. Everything else describes the Philippines by reference to something nearby, which is relative.",
+      "objective": "Describe the absolute and relative location of the Philippines"
+    },
+    {
+      "type": "type",
+      "text": "What word describes a country made up of many islands?",
+      "accept": ["archipelago", "an archipelago"],
+      "explain": "An archipelago. The Philippines has 7,641 islands, of which around 2,000 are inhabited.",
+      "objective": "Explain how being an archipelago shapes life and travel"
+    },
+    {
+      "type": "truefalse",
+      "text": "The Philippines shares a land border with at least one other country.",
+      "answer": false,
+      "explain": "False. It has no land border at all. Taiwan, Vietnam, Malaysia, Indonesia and Palau are all across water.",
+      "objective": "Identify the seas and countries that surround the Philippines"
+    },
+    {
+      "type": "multiple",
+      "text": "Which sea lies to the EAST of the Philippines?",
+      "options": ["The Philippine Sea", "The West Philippine Sea", "The Celebes Sea", "The Luzon Strait"],
+      "answerIndex": 0,
+      "explain": "The Philippine Sea, open Pacific. The West Philippine Sea is on the other side, to the west.",
+      "objective": "Identify the seas and countries that surround the Philippines"
+    },
+    {
+      "type": "multiple",
+      "text": "Why did the Philippines end up on world trade routes?",
+      "options": [
+        "It lay between mainland Asia and the Pacific",
+        "It was the richest country in Asia",
+        "It had the largest ports already built",
+        "It was the only land in the region"
+      ],
+      "answerIndex": 0,
+      "explain": "Position. Ships travelling between Asia and the Pacific passed through, so traders stopped — and later, so did colonisers.",
+      "objective": "Explain how location put the Philippines on world trade routes"
+    },
+    {
+      "type": "multiple",
+      "text": "Roughly how many islands does the Philippines have?",
+      "options": ["About 7,600", "About 700", "About 76,000", "About 100"],
+      "answerIndex": 0,
+      "explain": "7,641 as of the 2016 survey, up from the long-quoted 7,107. Only around 2,000 are inhabited.",
+      "objective": "Explain how being an archipelago shapes life and travel"
+    },
+    {
+      "type": "truefalse",
+      "text": "The Philippines lies on the Pacific Ring of Fire, so earthquakes and volcanoes are common.",
+      "answer": true,
+      "explain": "True. The same Pacific position that brought trade also brings the earthquakes, the volcanoes and around twenty typhoons a year.",
+      "objective": "Explain how location put the Philippines on world trade routes"
+    },
+    {
+      "type": "multiple",
+      "text": "Which island group contains the capital, Manila?",
+      "options": ["Luzon", "The Visayas", "Mindanao", "Palawan"],
+      "answerIndex": 0,
+      "explain": "Luzon, the largest island and the northern group. Roughly half the country's population lives there.",
+      "objective": "Name the three main island groups and locate them"
+    },
+    {
+      "type": "multiple",
+      "text": "What does latitude measure?",
+      "options": [
+        "How far north or south of the equator a place is",
+        "How far east or west a place is",
+        "How high above sea level a place is",
+        "How far from the nearest ocean a place is"
+      ],
+      "answerIndex": 0,
+      "explain": "North–south. Longitude is the east–west one. Two numbers together pin any point on Earth.",
+      "objective": "Describe the absolute and relative location of the Philippines"
+    },
+    {
+      "type": "multiple",
+      "text": "Being an archipelago with no land border means that…",
+      "options": [
+        "Almost everything and everyone arrives by sea or air",
+        "The country cannot trade with anyone",
+        "There are no roads anywhere",
+        "The islands all share one language"
+      ],
+      "answerIndex": 0,
+      "explain": "Ferries and planes do the work roads do elsewhere, and ports matter enormously. It also helps explain the number of languages.",
+      "objective": "Explain how being an archipelago shapes life and travel"
+    },
+    {
+      "type": "truefalse",
+      "text": "Relative location means describing a place using its exact coordinates.",
+      "answer": false,
+      "explain": "False — that's absolute location. Relative location describes a place by what's around it, like 'south of Taiwan'.",
+      "objective": "Describe the absolute and relative location of the Philippines"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 1 Social Studies covers the Philippines as part of the world, matching the Term 1 weekly scope. It is organised around a single argument — that position explains the country's trade history, its colonisation, its weather and its present-day disputes — rather than as a list of facts to memorise. The interactive map reuses the explorer component from the Science lessons, so no new interface has to be learned. The map is deliberately schematic; it teaches relative position and the island groups, not coastline detail.",
+    "discussion": [
+      "Ask him to give both an absolute and a relative location for your own town. Doing both for one place makes the distinction stick.",
+      "Ask why the Philippines has so many languages. The archipelago structure is most of the answer, and he can reason his way there.",
+      "Ask what the Philippines and Japan have in common. Both are archipelagos on the Ring of Fire, and both were shaped by sea trade.",
+      "Ask what would be different if the Philippines had a land border with China. It tests whether he understood why the water matters."
+    ],
+    "extension": "Have him mark the three island groups and the four surrounding seas on a blank map from memory, then add one arrow showing the direction typhoons arrive from. It combines the location facts with the consequence in a single diagram.",
+    "misconceptions": [
+      "'The Philippines is one island.' It is an archipelago of 7,641 islands in three main groups.",
+      "'Absolute and relative location are the same.' Absolute is coordinates and never changes. Relative depends on what you compare it to.",
+      "'The Philippines borders Malaysia by land.' It has no land border with anyone. Every neighbour is across water.",
+      "'The country was named after a Filipino leader.' It was named after King Philip II of Spain."
+    ]
+  }
+}

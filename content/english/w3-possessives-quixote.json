@@ -1,0 +1,401 @@
+{
+  "id": "eng-w3",
+  "courseId": "english",
+  "courseTitle": "English",
+  "week": 3,
+  "title": "Possessive Nouns",
+  "subtitle": "Where the apostrophe goes — and a rescue that makes things worse.",
+  "estMinutes": 20,
+  "objectives": [
+    "Form the possessive of singular and plural nouns",
+    "Place the apostrophe correctly for plurals ending in s",
+    "Distinguish its from it's",
+    "Distinguish a possessive from a plural",
+    "Retell Don Quixote Chapter 3 and explain why the rescue fails"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🔑",
+      "eyebrow": "Part 1 · Possessives",
+      "title": "One mark. Two sides. Completely different meanings.",
+      "text": "The boy's helmet. The boys' helmets. Move the apostrophe one letter and you've changed how many boys there are."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Rule 1",
+      "title": "Singular noun: add 's",
+      "text": "It doesn't matter what letter the word ends in. If it's one thing, add apostrophe then s.",
+      "points": [
+        "**the driver's helmet** — one driver.",
+        "**the dog's lead**, **the car's engine**.",
+        "**Works for names too:** Maria's book."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Rule 2",
+      "title": "Plural ending in s: apostrophe only",
+      "text": "There's already an s on the end. Don't add another — just put the apostrophe after it.",
+      "points": [
+        "**the drivers' helmets** — several drivers.",
+        "**the boys' room**, **the students' work**.",
+        "**Two steps:** make it plural first, then add the apostrophe."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "possessiveRule",
+      "eyebrow": "Try it",
+      "title": "Tap each case and see where the mark goes",
+      "text": "Five situations, including the one almost everybody gets wrong. Two quiz questions come from this."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Several players share a changing room. How do you write it?",
+        "options": ["the players' changing room", "the player's changing room", "the players changing room"],
+        "answerIndex": 0,
+        "explain": "players' — plural first (players), then the apostrophe goes after the s. One player would be player's."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Rule 3",
+      "title": "Irregular plurals: add 's",
+      "text": "Some plurals don't end in s at all. Those go back to the singular rule.",
+      "points": [
+        "**the children's books** — not childrens'.",
+        "**the men's team**, **the women's race**, **the people's choice**.",
+        "**Rule of thumb:** no s on the end? Then add 's."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The trap",
+      "title": "its and it's are not the same word",
+      "text": "This is the single most common apostrophe error in English, and the rule has no exceptions.",
+      "points": [
+        "**it's** always means **it is** or **it has**.",
+        "**its** shows possession: *the car lost its wheel*.",
+        "**The test:** read it as *it is*. If that's nonsense, drop the apostrophe.",
+        "**Possessive pronouns never take one:** his, hers, ours, theirs, its."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which is correct?",
+        "options": [
+          "The engine lost its power because it's overheating",
+          "The engine lost it's power because its overheating",
+          "The engine lost it's power because it's overheating"
+        ],
+        "answerIndex": 0,
+        "explain": "its power (possession), it's overheating (it is overheating). Read each one as 'it is' and only the second survives."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Don't confuse these",
+      "title": "Possessive versus plural",
+      "text": "Back to Week 1: a plural never takes an apostrophe. Only possession does.",
+      "points": [
+        "**three cars** — plural. No apostrophe.",
+        "**the car's engine** — one car owns it.",
+        "**the cars' engines** — several cars own them.",
+        "**Ask: does something belong to it?** If not, no apostrophe."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🏎️",
+      "eyebrow": "Forza mode",
+      "title": "Read a leaderboard carefully",
+      "text": "The difference between one driver and a whole team is one apostrophe in the right place.",
+      "points": [
+        "**the driver's time** — one person's lap.",
+        "**the drivers' times** — everyone's laps.",
+        "**the team's car** — one team owns it.",
+        "**Same letters. The mark decides.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "Write the possessive: books belonging to the children. Two words.",
+        "accept": ["children's books", "the children's books", "childrens books"],
+        "explain": "children's books. Children is already plural and doesn't end in s, so it takes 's — never childrens'."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Grammar done. Part 2 is Chapter 3, and it's the one where being rescued makes things worse. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "🌳",
+      "eyebrow": "Part 2 · Don Quixote",
+      "title": "Chapter 3: The Adventure with the Farmer",
+      "text": "Newly knighted and riding home for money and a squire, Don Quixote hears someone crying in a thicket. This is his first real chance to help."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The scene",
+      "title": "A boy tied to a tree",
+      "text": "A farmer named Juan Haldudo is whipping his servant boy, Andrés, who is tied to an oak.",
+      "points": [
+        "**The farmer says** the boy is careless and loses sheep.",
+        "**The boy says** the farmer owes him nine months' wages.",
+        "**Quixote hears both** and takes the boy's side."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Notice this",
+      "title": "\"Nine months' wages\" — that's this week's grammar",
+      "text": "The apostrophe sits after the s because months is plural. Wages belonging to nine months.",
+      "points": [
+        "**one month's wages** — singular.",
+        "**nine months' wages** — plural, apostrophe after.",
+        "**Same rule** as the drivers' helmets."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The rescue",
+      "title": "He orders the farmer to pay",
+      "text": "Don Quixote points his lance and commands the farmer to untie the boy and settle the debt. The farmer swears he will.",
+      "points": [
+        "**He swears by all the orders of knighthood.**",
+        "**Quixote is completely satisfied.**",
+        "**He rides away without checking.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What does Don Quixote do after the farmer promises to pay?",
+        "options": [
+          "He rides away, satisfied by the promise",
+          "He waits until the money is handed over",
+          "He takes the boy with him"
+        ],
+        "answerIndex": 0,
+        "explain": "He takes the promise as done and leaves. That decision is the whole point of the chapter."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "What actually happens",
+      "title": "The moment he's out of sight",
+      "text": "The farmer ties Andrés back to the tree and beats him harder than before.",
+      "points": [
+        "**The boy shouts** that he'll tell Don Quixote.",
+        "**The farmer tells him to go ahead.**",
+        "**The rescue left him worse off** than if nobody had come."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "The hero can be the problem",
+      "text": "Most adventure stories end when the hero wins. This one keeps the camera rolling after he leaves.",
+      "points": [
+        "**Good intentions aren't the same as a good outcome.**",
+        "**He never checks whether it worked.**",
+        "**That's a real ending** most stories won't give you.",
+        "**Steal it.** A story where the rescue fails is more interesting."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "A promise isn't a result",
+      "text": "Saying you'll train and training are different things, and only one of them changes anything.",
+      "points": [
+        "**Quixote accepted the promise** as if it were the result.",
+        "**Your coach doesn't do that.** He watches the session.",
+        "**Follow-through is the whole job.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Don Quixote's rescue leaves Andrés better off than before.",
+        "answer": false,
+        "explain": "False. The farmer beats him harder once Quixote has gone. Meaning well but not following through made it worse."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "Possessive", "def": "A form showing that something belongs to someone." },
+        { "term": "Apostrophe", "def": "The mark ' used for possession or a missing letter." },
+        { "term": "Singular possessive", "def": "One owner: add 's. The boy's helmet." },
+        { "term": "Plural possessive", "def": "Several owners ending in s: apostrophe only. The boys' helmets." },
+        { "term": "its", "def": "Belonging to it. No apostrophe, ever." },
+        { "term": "it's", "def": "Short for it is or it has." },
+        { "term": "Squire", "def": "A knight's assistant, who carries equipment and helps him." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Ready for the quiz",
+      "title": "The four that matter",
+      "points": [
+        "**Singular: add 's.** The driver's helmet.",
+        "**Plural ending in s: apostrophe only.** The drivers' helmets.",
+        "**Irregular plural: add 's.** The children's books.",
+        "**it's = it is.** Everything else is **its**."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "A helmet belonging to one driver. How is it written?",
+      "options": ["the driver's helmet", "the drivers' helmet", "the drivers helmet", "the driver helmet's"],
+      "answerIndex": 0,
+      "explain": "driver's — one owner, so apostrophe then s.",
+      "objective": "Form the possessive of singular and plural nouns"
+    },
+    {
+      "type": "multiple",
+      "text": "Helmets belonging to several drivers. How is it written?",
+      "options": ["the drivers' helmets", "the driver's helmets", "the drivers's helmets", "the drivers helmets"],
+      "answerIndex": 0,
+      "explain": "drivers' — make it plural first, then put the apostrophe after the s. Never add a second s.",
+      "objective": "Place the apostrophe correctly for plurals ending in s"
+    },
+    {
+      "type": "type",
+      "text": "Write the possessive form: toys belonging to the children. Two words.",
+      "accept": ["children's toys", "the children's toys"],
+      "explain": "children's toys. Children is plural but doesn't end in s, so it takes 's — never childrens'.",
+      "objective": "Form the possessive of singular and plural nouns"
+    },
+    {
+      "type": "multiple",
+      "text": "Which sentence is correct?",
+      "options": [
+        "The team lost its captain, and it's a serious problem",
+        "The team lost it's captain, and its a serious problem",
+        "The team lost it's captain, and it's a serious problem",
+        "The team lost its captain, and its a serious problem"
+      ],
+      "answerIndex": 0,
+      "explain": "its captain (belonging to the team), it's a problem (it is a problem). Read each as 'it is' to test it.",
+      "objective": "Distinguish its from it's"
+    },
+    {
+      "type": "truefalse",
+      "text": "To write about more than one car, you write 'car's'.",
+      "answer": false,
+      "explain": "False. Plurals never take an apostrophe — it's just 'cars'. 'Car's' means something belongs to one car.",
+      "objective": "Distinguish a possessive from a plural"
+    },
+    {
+      "type": "multiple",
+      "text": "Which one contains a possessive rather than a plural?",
+      "options": ["the dog's bowl", "three dogs", "the dogs ran", "many dogs"],
+      "answerIndex": 0,
+      "explain": "the dog's bowl — the bowl belongs to the dog. The others are just plurals, so no apostrophe.",
+      "objective": "Distinguish a possessive from a plural"
+    },
+    {
+      "type": "type",
+      "text": "Wages for nine months. Write the two words as they appear in Chapter 3.",
+      "accept": ["months' wages", "nine months' wages", "months wages"],
+      "explain": "months' wages. Months is plural and ends in s, so the apostrophe goes after it.",
+      "objective": "Place the apostrophe correctly for plurals ending in s"
+    },
+    {
+      "type": "multiple",
+      "text": "Why is the farmer whipping Andrés?",
+      "options": [
+        "He says the boy is careless and loses sheep",
+        "The boy stole from him",
+        "The boy insulted Don Quixote",
+        "The boy ran away from the farm"
+      ],
+      "answerIndex": 0,
+      "explain": "The farmer claims carelessness with the sheep. Andrés says the real issue is nine months' unpaid wages.",
+      "objective": "Retell Don Quixote Chapter 3 and explain why the rescue fails"
+    },
+    {
+      "type": "multiple",
+      "text": "What happens to Andrés after Don Quixote rides away?",
+      "options": [
+        "The farmer ties him up again and beats him harder",
+        "The farmer pays him in full",
+        "He escapes and follows Don Quixote",
+        "The farmer sets him free and apologises"
+      ],
+      "answerIndex": 0,
+      "explain": "He's beaten worse than before. Quixote accepted a promise as though it were a result, and never checked.",
+      "objective": "Retell Don Quixote Chapter 3 and explain why the rescue fails"
+    },
+    {
+      "type": "truefalse",
+      "text": "Don Quixote deliberately made things worse for Andrés.",
+      "answer": false,
+      "explain": "False. His intentions were good. He simply left before making sure, and that gap between meaning well and doing good is the chapter's point.",
+      "objective": "Retell Don Quixote Chapter 3 and explain why the rescue fails"
+    },
+    {
+      "type": "order",
+      "text": "Put Chapter 3 in order.",
+      "items": [
+        "Don Quixote hears cries from a thicket",
+        "He finds a farmer whipping a boy tied to a tree",
+        "He orders the farmer to untie the boy and pay him",
+        "The farmer swears he will, and Quixote rides away",
+        "The farmer ties the boy up and beats him harder"
+      ],
+      "explain": "Cries, discovery, command, promise, betrayal. The final step happens only because Quixote didn't stay to check.",
+      "objective": "Retell Don Quixote Chapter 3 and explain why the rescue fails"
+    },
+    {
+      "type": "multiple",
+      "text": "Which is written correctly?",
+      "options": [
+        "the women's race",
+        "the womens' race",
+        "the womens race",
+        "the woman's race, meaning many women"
+      ],
+      "answerIndex": 0,
+      "explain": "women's. Women is already plural and doesn't end in s, so it takes 's — the same as children's and men's.",
+      "objective": "Form the possessive of singular and plural nouns"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 3 English covers possessive noun forms plus Chapter 3 of Stories of Don Quixote Written Anew for Children. The grammar is taught as a decision tree — singular, plural ending in s, plural not ending in s — with its/it's treated separately as the trap it is. The two halves connect directly: the phrase 'nine months' wages' from the chapter is a plural possessive, so the literature supplies a live example of the week's rule. Chapter 3 is also the first place the novel shows Quixote's help causing harm, which is worth sitting with rather than rushing past.",
+    "discussion": [
+      "Ask him to explain the difference between the driver's helmet and the drivers' helmets. If he says how many drivers there are, he has it.",
+      "Ask him to test its and it's by reading them as 'it is'. Making it a mechanical check beats trying to remember a rule.",
+      "Ask whether Don Quixote did the right thing. He acted bravely and left a boy worse off — both are true, and holding both is the skill.",
+      "Ask what he should have done instead. Staying to see the money handed over is the answer, and it generalises well beyond the story."
+    ],
+    "extension": "Have him write the same scene from Andrés's point of view, ending after Don Quixote leaves. It forces the possessive forms into use naturally and makes the failure of the rescue impossible to skim past.",
+    "misconceptions": [
+      "'Add an apostrophe to make a plural.' Never. This is the error the whole topic guards against.",
+      "'Plural possessives take s apostrophe s.' Not when the plural already ends in s. Drivers' has one s, not two.",
+      "'Childrens' is the plural possessive of child.' It is children's. The plural does not end in s, so it follows the singular rule.",
+      "'Its takes an apostrophe because it shows possession.' Possessive pronouns never take one: his, hers, ours, theirs, its."
+    ]
+  }
+}

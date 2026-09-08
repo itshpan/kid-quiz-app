@@ -939,3 +939,7 @@ svg .hidden { display: none; }
 .fig-digit-bad   { fill: var(--notyet); font-size: 20px; }
 .fig-label-bad   { fill: var(--notyet); }
 .fig-rule-strong { stroke: var(--ink-faint); stroke-width: 2; }
+
+/* ---------- Schematic map ---------- */
+.map-sea   { fill: var(--surface-2); }
+.map-label { font-family: var(--font-ui); font-size: 9px; font-weight: 700; fill: var(--ink-faint); }

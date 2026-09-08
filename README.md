@@ -131,9 +131,9 @@ shared before the site is deployed anywhere.
 | Subject | Weeks mapped | Lessons live |
 |---|---|---|
 | Science | 11 | Weeks 1–3 |
-| Math | 11 | Weeks 1–2 · plus the surface-area trainer |
-| English | 11 | Week 1 |
-| Social Studies | 11 | — |
+| Math | 11 | Weeks 1–3 · plus the surface-area trainer |
+| English | 11 | Weeks 1–3 |
+| Social Studies | 11 | Week 1 |
 | Filipino | 11 | — |
 | MAPEH | 11 | — |
 | TLE | 11 | — |

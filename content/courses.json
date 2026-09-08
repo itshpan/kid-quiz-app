@@ -284,7 +284,8 @@
             "Possessive form of nouns ('s and ')",
             "Don Quixote Ch. 3: The Adventure with the Farmer"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "english/w3-possessives-quixote.json"
         },
         {
           "week": 4,
@@ -382,7 +383,8 @@
           "topics": [
             "The Philippines as Part of the World"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "social-studies/w1-philippines-world.json"
         },
         {
           "week": 2,
