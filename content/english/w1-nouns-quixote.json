@@ -1,0 +1,481 @@
+{
+  "id": "eng-w1",
+  "courseId": "english",
+  "courseTitle": "English",
+  "week": 1,
+  "title": "Singular & Plural Nouns",
+  "subtitle": "The rules for making one into many — and a man who decided to become a knight.",
+  "estMinutes": 22,
+  "objectives": [
+    "Form regular plurals using -s and -es",
+    "Apply the y, f and o plural rules correctly",
+    "Recognise irregular plurals and nouns that do not change",
+    "Retell the opening of Don Quixote and explain what drives him"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🎮",
+      "eyebrow": "Part 1 · Nouns",
+      "title": "Every game has an inventory",
+      "text": "One sword. Two swords. One knife. Two… knifes? No. English changes the rules on you, and there's a reason it does."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The default",
+      "title": "Most nouns just take -s",
+      "text": "This is the rule that covers the vast majority of English nouns. Learn the exceptions and you've learned the whole topic.",
+      "points": [
+        "**car → cars**, **helmet → helmets**, **bone → bones**",
+        "**No apostrophe. Ever.** Plurals never use one.",
+        "**car's** means something belongs to the car. Different job."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Rule 1",
+      "title": "Hissing sounds take -es",
+      "text": "If the word already ends in a hissing or buzzing sound, plain -s won't come out of your mouth. Say it aloud and you'll hear why.",
+      "points": [
+        "**Ends in s, sh, ch, x or z** → add **-es**",
+        "**bus → buses**, **crash → crashes**, **punch → punches**",
+        "**box → boxes**, **buzz → buzzes**",
+        "**The test is your ear.** \"Crashs\" is unsayable."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "What is the plural of **match**?",
+        "accept": [
+          "matches"
+        ],
+        "explain": "matches. It ends in -ch, so it takes -es. Try saying \"matchs\" — your mouth refuses."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Rule 2",
+      "title": "The y rule depends on what's before it",
+      "text": "Look at the letter immediately before the y. That single letter decides everything.",
+      "points": [
+        "**Consonant + y** → drop the y, add **-ies**",
+        "**city → cities**, **story → stories**, **enemy → enemies**",
+        "**Vowel + y** → just add **-s**",
+        "**boy → boys**, **key → keys**, **day → days**"
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "pluralMachine",
+      "eyebrow": "Try it",
+      "title": "Feed it a word and watch the rule fire",
+      "text": "Tap any word. The machine shows which rule caught it and why."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which of these is spelled correctly?",
+        "options": [
+          "journeys",
+          "journies",
+          "journeyes"
+        ],
+        "answerIndex": 0,
+        "explain": "journeys. The letter before the y is **e**, a vowel — so it just takes -s. Only a consonant before the y triggers -ies."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Rule 3",
+      "title": "Some f words turn into v",
+      "text": "Words ending in -f or -fe often swap to -ves. Say them aloud and you'll hear the f soften.",
+      "points": [
+        "**leaf → leaves**, **knife → knives**, **wolf → wolves**",
+        "**half → halves**, **life → lives**, **thief → thieves**",
+        "**But not always:** roof → roofs, chief → chiefs, belief → beliefs",
+        "**This one you memorise.** There's no trick."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Rule 4",
+      "title": "Words ending in o split two ways",
+      "text": "There's no rule you can reason out. Food words tend to take -es; music and shortened words take -s.",
+      "points": [
+        "**-es:** potato → potatoes, tomato → tomatoes, hero → heroes",
+        "**-s:** photo → photos, piano → pianos, radio → radios",
+        "**Rough guide:** things you eat take -es."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "What is the plural of **knife**?",
+        "accept": [
+          "knives"
+        ],
+        "explain": "knives. The -fe becomes -ves. Same family as life → lives and wife → wives."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Rule 5",
+      "title": "The ones that ignore every rule",
+      "text": "These are older than the rules. English kept them because people used them too often to change.",
+      "points": [
+        "**man → men**, **woman → women**, **child → children**",
+        "**foot → feet**, **tooth → teeth**, **mouse → mice**",
+        "**person → people**, **goose → geese**",
+        "**No pattern.** These are pure memory."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Rule 6",
+      "title": "Some never change at all",
+      "text": "One sheep, ten sheep. The word does the work and the number comes from context.",
+      "points": [
+        "**sheep, deer, fish, aircraft, series, species**",
+        "**\"Three fish\"** is correct. So is \"one fish\".",
+        "**Watch the verb:** *the sheep **is** here* vs *the sheep **are** here*."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "order",
+        "text": "Put these plural rules in the order you'd check them for a new word.",
+        "items": [
+          "Is it irregular? (child, foot, mouse)",
+          "Does it end in s, sh, ch, x or z?",
+          "Does it end in consonant + y?",
+          "Otherwise, just add -s"
+        ],
+        "explain": "Check the odd ones first. Irregulars beat every rule, then the hissing sounds, then the y rule. Everything left over just takes -s."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Noun",
+          "def": "A word for a person, place, thing or idea."
+        },
+        {
+          "term": "Singular",
+          "def": "One of something."
+        },
+        {
+          "term": "Plural",
+          "def": "More than one."
+        },
+        {
+          "term": "Regular plural",
+          "def": "One that follows a rule, like -s or -es."
+        },
+        {
+          "term": "Irregular plural",
+          "def": "One that ignores the rules, like child → children."
+        },
+        {
+          "term": "Vowel",
+          "def": "a, e, i, o, u."
+        },
+        {
+          "term": "Consonant",
+          "def": "Every other letter."
+        }
+      ]
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Grammar done. Part 2 is the story. It's about a man who read too many books and decided to become the main character. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "🐴",
+      "eyebrow": "Part 2 · Don Quixote",
+      "title": "Chapter 1: Getting Ready for Adventures",
+      "text": "A quiet gentleman in Spain owns a small farm, a skinny horse and a wall of books about knights. Then he makes a decision."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The setup",
+      "title": "He read himself out of reality",
+      "text": "Alonso Quixano read books about knights all day and most of the night. He sold farmland to buy more of them.",
+      "points": [
+        "**He stopped sleeping** and stopped farming.",
+        "**He came to believe the books were history**, not stories.",
+        "**Then he decided** the world needed one more knight."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "This chapter is a character creation screen",
+      "text": "Every single thing he does in Chapter 1 is something you do before a playthrough starts.",
+      "points": [
+        "**Picks a class:** knight-errant.",
+        "**Renames himself:** Don Quixote de la Mancha.",
+        "**Names his mount:** Rocinante.",
+        "**Chooses a lady to fight for:** Dulcinea del Toboso."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The gear",
+      "title": "The helmet he didn't test twice",
+      "text": "He built a helmet from pasteboard, tested it with his sword, and destroyed it in one blow. So he rebuilt it — and this time didn't test it.",
+      "points": [
+        "**Rebuilt it with iron bars** inside.",
+        "**Then decided not to swing at it**, in case it broke again.",
+        "**He calls it perfect** and rides off wearing it."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why doesn't Don Quixote test his second helmet?",
+        "options": [
+          "He doesn't want to find out it's weak",
+          "He has run out of pasteboard",
+          "A knight told him not to"
+        ],
+        "answerIndex": 0,
+        "explain": "He'd rather believe it works than know it doesn't. That choice tells you almost everything about him."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "Rocinante is a project car",
+      "text": "His horse is old, bony and slow. He spends four days deciding what to call it, and settles on Rocinante.",
+      "points": [
+        "**He names it before he fixes it.** Sound familiar?",
+        "**The name has to sound grand.** That matters more to him than the horse.",
+        "**Then he spends eight more days** naming himself."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The lady",
+      "title": "Dulcinea doesn't know he exists",
+      "text": "A knight needs a lady to fight for. So he picks a farm girl from a nearby village, Aldonza Lorenzo, and gives her a nobler name.",
+      "points": [
+        "**He renames her** Dulcinea del Toboso.",
+        "**They have never spoken.**",
+        "**He is not lying.** He genuinely sees her that way."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "This is how you start your own stories",
+      "text": "Your adventures always begin the same way: someone in a car, heading somewhere strange, about to meet something.",
+      "points": [
+        "**Don Quixote does setup first.** Name, gear, mount, mission.",
+        "**Then he leaves.** The weird part starts after the setup, not before.",
+        "**Steal the structure.** It's four hundred years old and it still works."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The big idea",
+      "title": "He isn't stupid. He's committed.",
+      "text": "Don Quixote isn't confused about what things look like. He decides what they mean, and then acts as if he's right.",
+      "points": [
+        "**An inn becomes a castle.** A farm girl becomes a princess.",
+        "**He is the only one playing.** Everyone else sees an old man.",
+        "**Ask yourself all term:** is that madness, or is it courage?"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Don Quixote gives new names to himself, his horse, and the woman he chooses.",
+        "answer": true,
+        "explain": "True. Alonso Quixano becomes Don Quixote, his horse becomes Rocinante, and Aldonza Lorenzo becomes Dulcinea. Naming is how he makes it real."
+      }
+    },
+    {
+      "kind": "fact",
+      "eyebrow": "Did you know",
+      "text": "Don Quixote was published in 1605 and is often called the first modern novel. The word quixotic — chasing something impossible because it's right — comes straight from him."
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Ready for the quiz",
+      "title": "The four that matter",
+      "points": [
+        "**Default is -s.** Hissing sounds take **-es**.",
+        "**Consonant + y → -ies.** Vowel + y → just -s.",
+        "**Irregulars beat every rule:** child, foot, mouse, person.",
+        "**Don Quixote renames everything** — himself, his horse, his lady — to make the story real."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "type",
+      "text": "What is the plural of **box**?",
+      "accept": [
+        "boxes"
+      ],
+      "explain": "boxes. It ends in -x, so it takes -es.",
+      "objective": "Form regular plurals using -s and -es"
+    },
+    {
+      "type": "multiple",
+      "text": "Which one is correct?",
+      "options": [
+        "babies",
+        "babys",
+        "babyes",
+        "babie"
+      ],
+      "answerIndex": 0,
+      "explain": "babies. The letter before the y is **b**, a consonant, so the y becomes -ies.",
+      "objective": "Apply the y, f and o plural rules correctly"
+    },
+    {
+      "type": "multiple",
+      "text": "Which one is correct?",
+      "options": [
+        "monkeys",
+        "monkies",
+        "monkeyes",
+        "monkys"
+      ],
+      "answerIndex": 0,
+      "explain": "monkeys. The letter before the y is **e**, a vowel — so it just takes -s.",
+      "objective": "Apply the y, f and o plural rules correctly"
+    },
+    {
+      "type": "type",
+      "text": "What is the plural of **leaf**?",
+      "accept": [
+        "leaves"
+      ],
+      "explain": "leaves. The -f becomes -ves, like wolf → wolves and half → halves.",
+      "objective": "Apply the y, f and o plural rules correctly"
+    },
+    {
+      "type": "multiple",
+      "text": "Which of these is an IRREGULAR plural?",
+      "options": [
+        "teeth",
+        "buses",
+        "cities",
+        "helmets"
+      ],
+      "answerIndex": 0,
+      "explain": "teeth. The others all follow a rule. Tooth → teeth follows nothing — you just have to know it.",
+      "objective": "Recognise irregular plurals and nouns that do not change"
+    },
+    {
+      "type": "truefalse",
+      "text": "The plural of **sheep** is **sheeps**.",
+      "answer": false,
+      "explain": "False. Sheep doesn't change. One sheep, ten sheep — same word. So do deer, fish and aircraft.",
+      "objective": "Recognise irregular plurals and nouns that do not change"
+    },
+    {
+      "type": "multiple",
+      "text": "Which one is correct?",
+      "options": [
+        "potatoes",
+        "potatos",
+        "potatoies",
+        "potatoe"
+      ],
+      "answerIndex": 0,
+      "explain": "potatoes. Food words ending in -o usually take -es. Photos and pianos take just -s.",
+      "objective": "Apply the y, f and o plural rules correctly"
+    },
+    {
+      "type": "truefalse",
+      "text": "You use an apostrophe to make a noun plural, like **car's** for more than one car.",
+      "answer": false,
+      "explain": "False, and this is the most common mistake in English. Plurals never take an apostrophe. **car's** means something belongs to the car.",
+      "objective": "Form regular plurals using -s and -es"
+    },
+    {
+      "type": "multiple",
+      "text": "What was Don Quixote's real name before he renamed himself?",
+      "options": [
+        "Alonso Quixano",
+        "Rocinante",
+        "Sancho Panza",
+        "Aldonza Lorenzo"
+      ],
+      "answerIndex": 0,
+      "explain": "Alonso Quixano, a quiet country gentleman. Rocinante is his horse and Aldonza Lorenzo is the woman he renames Dulcinea.",
+      "objective": "Retell the opening of Don Quixote and explain what drives him"
+    },
+    {
+      "type": "multiple",
+      "text": "Why does Don Quixote decide to become a knight?",
+      "options": [
+        "He read so many books about knights that he believed they were true",
+        "A king ordered him to",
+        "He wanted to become rich",
+        "His family asked him to defend their land"
+      ],
+      "answerIndex": 0,
+      "explain": "He read about knights day and night, and sold land to buy more books. Eventually he believed the stories were history.",
+      "objective": "Retell the opening of Don Quixote and explain what drives him"
+    },
+    {
+      "type": "type",
+      "text": "What does Don Quixote name his horse?",
+      "accept": [
+        "rocinante"
+      ],
+      "explain": "Rocinante. He spends four days choosing it, because the name has to sound worthy of a knight.",
+      "objective": "Retell the opening of Don Quixote and explain what drives him"
+    },
+    {
+      "type": "order",
+      "text": "Put Chapter 1 in order.",
+      "items": [
+        "He reads books about knights until he believes them",
+        "He repairs old armour and makes a helmet",
+        "He names his horse Rocinante",
+        "He chooses Dulcinea as his lady",
+        "He rides out at dawn"
+      ],
+      "explain": "Books, then gear, then the horse, then the lady, then the road. He prepares his identity before he ever leaves the house.",
+      "objective": "Retell the opening of Don Quixote and explain what drives him"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 1 English covers singular and plural noun forms plus Chapter 1 of Stories of Don Quixote Written Anew for Children by James Baldwin. The grammar half is ordered by which rule to check first, rather than as a flat list, so the learner has a procedure rather than seven things to remember. The literature half frames Chapter 1 as character creation, which is a genuine structural reading of the chapter and not only a hook.",
+    "discussion": [
+      "Ask him to explain why 'monkeys' and 'babies' end differently. If he points at the letter before the y, he has the rule rather than the two examples.",
+      "Ask why Don Quixote doesn't test his second helmet. There is no wrong answer, and it is the question the whole novel is built on.",
+      "Ask whether Don Quixote is mad or brave. Keep the question open — it comes back every chapter this term.",
+      "Ask him to rename three ordinary things in the room the way Don Quixote would. It tests whether he understood that naming is how the character makes his world real."
+    ],
+    "extension": "Have him write the opening of his own adventure using the same four moves: pick a name, pick a mount, pick something worth fighting for, and set off. Two hundred words. It rehearses Chapter 1's structure and it is the kind of writing he already does for fun.",
+    "misconceptions": [
+      "'Add an apostrophe to make a plural.' Never. Apostrophes mark possession or a missing letter, never number.",
+      "'All words ending in y take -ies.' Only after a consonant. Vowel + y takes a plain -s: boys, keys, journeys.",
+      "'All f words become -ves.' Many do, but roofs, chiefs and beliefs do not. These have to be learned individually.",
+      "'Don Quixote is simply stupid.' He is not confused about appearances — he decides what things mean and commits. That distinction is the point of the book."
+    ]
+  }
+}

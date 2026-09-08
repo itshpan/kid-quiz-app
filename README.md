@@ -5,6 +5,13 @@ weekly scope from school. Each lesson teaches the curriculum topic through the t
 is already interested in (cars, boxing, gaming, training), then tests retention with a
 multi-format quiz.
 
+**Everything is taught through the learner's interests** — cars and trains,
+boxing, gaming (Cyberpunk, Death Stranding, Pacific Drive, Minecraft, Forza),
+his own training, space and story writing. The roster and its concrete hooks
+live in [`content/interests.json`](content/interests.json), and the checker
+**fails any lesson using fewer than three lenses**. See
+[`CLAUDE.md`](CLAUDE.md).
+
 **It is designed for a reader with ADHD.** That is not a coat of paint — it determines the shape
 of the whole thing:
 
@@ -123,9 +130,9 @@ shared before the site is deployed anywhere.
 
 | Subject | Weeks mapped | Lessons live |
 |---|---|---|
-| Science | 11 | Week 1 — 73 cards, 15 checkpoints, 19 quiz items |
-| Math | 11 | Week 1 — 39 cards, 8 checkpoints, 12 quiz items · plus the surface-area trainer |
-| English | 11 | — |
+| Science | 11 | Weeks 1–3 |
+| Math | 11 | Weeks 1–2 · plus the surface-area trainer |
+| English | 11 | Week 1 |
 | Social Studies | 11 | — |
 | Filipino | 11 | — |
 | MAPEH | 11 | — |

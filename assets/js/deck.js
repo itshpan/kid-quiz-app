@@ -11,7 +11,7 @@
 import { escapeHtml, md } from './ui.js';
 import { skeletonSVG, bindSkeleton, boneInfoHTML } from './skeleton.js';
 import { renderQuestion } from './question.js';
-import { mountFigure } from './figures.js';
+import { mountFigure, explorerInfoHTML, bindExplorer, FIGURES } from './figures.js';
 
 const points = list => `<ul class="points">${list.map(p => `<li>${md(escapeHtml(p))}</li>`).join('')}</ul>`;
 
@@ -44,6 +44,14 @@ const KIND = {
         <div class="skel" id="skelBlock">
             <div class="skel-stage">${skeletonSVG()}</div>
             <div class="bone-info">${boneInfoHTML(null)}</div>
+        </div>`,
+
+    /* A tappable diagram with an info panel — the skeleton pattern, reused. */
+    explorer: c => `${eyebrow(c)}<h2>${escapeHtml(c.title)}</h2>
+        <p class="small">${md(escapeHtml(c.text))}</p>
+        <div class="skel" id="explorerBlock">
+            <div class="skel-stage">${FIGURES[c.figure]().svg}</div>
+            <div class="bone-info">${explorerInfoHTML(c.figure, null)}</div>
         </div>`,
 
     /* A diagram card: figure first, words second. */
@@ -160,6 +168,12 @@ export function mountDeck(host, cards, { startAt = 0, onMove = () => {}, onFinis
 
         if (c.kind === 'figure') mountFigure(card.querySelector('#figHost'), c.figure);
 
+        if (c.kind === 'explorer') {
+            const block = card.querySelector('#explorerBlock');
+            const info = block.querySelector('.bone-info');
+            bindExplorer(block, c.figure, id => { info.innerHTML = explorerInfoHTML(c.figure, id); });
+        }
+
         card.focus?.();
     }
 
@@ -201,7 +215,7 @@ export function deckAsPage(cards) {
         }
         const card = `<section class="card ${c.kind}"${c.lens ? ` data-lens="${c.lens}"` : ''}>${(KIND[c.kind] || KIND.idea)(c)}</section>`;
         // The interactive diagram is meaningless in a flat print view.
-        const placeholder = { diagram: 'Interactive skeleton diagram.', figure: 'Diagram.', video: 'Embedded video.' }[c.kind];
+        const placeholder = { diagram: 'Interactive skeleton diagram.', explorer: 'Interactive diagram.', figure: 'Diagram.', video: 'Embedded video.' }[c.kind];
         return placeholder
             ? `<section class="card"><h2>${escapeHtml(c.title)}</h2><p class="small">${placeholder}</p></section>`
             : card;

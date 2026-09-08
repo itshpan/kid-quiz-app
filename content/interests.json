@@ -1,0 +1,109 @@
+{
+  "_note": "The canonical roster of the learner's interests. Every lesson must be written through at least three of these — the checker enforces it. Add to this file rather than remembering things in your head. Each entry carries hooks: concrete, factual angles that connect a curriculum topic to the interest without being decorative.",
+
+  "learner": {
+    "name": "Grade 6, age ~12",
+    "notes": "ADHD. Bright, not a weak reader. Interest-driven attention. Trains daily. Never talk down — simplify the sentence, not the idea."
+  },
+
+  "lenses": {
+    "cars": {
+      "label": "Car mode",
+      "icon": "🚗",
+      "colour": "--lens-car",
+      "covers": ["Forza", "motorsport", "classic cars", "car mechanics", "crash safety", "trains", "railways"],
+      "hooks": [
+        "Crumple zones and safety cells — structures designed to deform vs structures designed to stay rigid",
+        "Seatbelt load paths — force routed onto bone, away from soft tissue",
+        "Forza livery editor — mirror, duplicate and rotate are literally the three transformations",
+        "Power-to-weight ratio — a stat he already reads, applicable to materials and biology",
+        "Honeycomb crash structure — hexagons for stiffness per gram",
+        "Suspension absorbing a landing — deformation as energy management",
+        "Trains: rails as a fixed track, couplings, braking distance, load distribution over bogies",
+        "Tyre tread and carbon weave as repeating patterns"
+      ]
+    },
+    "boxing": {
+      "label": "Boxing mode",
+      "icon": "🥊",
+      "colour": "--lens-box",
+      "covers": ["boxing", "combat sports", "training", "football", "basketball", "athletics"],
+      "hooks": [
+        "The kinetic chain — power starts at the floor, the fist only delivers it",
+        "Boxer's fracture as a technique problem, not a strength problem",
+        "Hand wraps compressing 27 bones into one block",
+        "Chin tuck and rotational forces on the brain",
+        "Antagonistic muscle pairs — why 'stay loose' is mechanics, not mindset",
+        "Trained athletes sweat sooner — adaptation, not weakness",
+        "Meal timing around sessions, and blood flow competition",
+        "Filipino athletes: Manny Pacquiao, Hidilyn Diaz"
+      ]
+    },
+    "gaming": {
+      "label": "Game mode",
+      "icon": "🎮",
+      "colour": "--lens-game",
+      "covers": ["Cyberpunk 2077", "Death Stranding", "Pacific Drive", "Minecraft", "Forza", "strategy games", "tilesets"],
+      "hooks": [
+        "Death Stranding — equippable exoskeletons; load-bearing, balance and centre of gravity as core mechanics; cargo weight vs stamina",
+        "Cyberpunk 2077 — the Skeleton cyberware slot; titanium bone lacing; subdermal armour sitting below the dermis",
+        "Pacific Drive — armour the panels that keep getting wrecked, which is Wolff's Law as a game loop; fuel carried vs fuel burned",
+        "Minecraft — cubes tessellating 3D space; crafting as chemical combination; redstone as circuits",
+        "Forza — livery transformations, tuning as system trade-offs",
+        "Tilesets and hex grids — why game worlds are built on shapes that tessellate",
+        "Upgrade trees and stats as a model for adaptation over time",
+        "Terrain tiles translate rather than rotate, because it is computationally cheaper"
+      ]
+    },
+    "growth": {
+      "label": "Your body right now",
+      "icon": "⚡",
+      "colour": "--lens-body",
+      "covers": ["puberty", "training adaptation", "sleep", "nutrition", "long-term health"],
+      "hooks": [
+        "The bone-density window closing around 18–20",
+        "Growth hormone released in deep sleep and after hard training",
+        "Wolff's Law — bone reinforces where it is loaded",
+        "Muscle is built during recovery, not during the session",
+        "Puberty hormones driving sebum production, and what acne actually is",
+        "Consequences framing — osteoporosis, sarcopenia, fragility fractures",
+        "Always connect to a decision he controls this week"
+      ]
+    },
+    "space": {
+      "label": "Space mode",
+      "icon": "🪐",
+      "colour": "--lens-space",
+      "covers": ["planets", "stars", "astronomy", "spaceflight"],
+      "hooks": [
+        "Astronauts lose 1–2% bone density per month — Wolff's Law running backwards",
+        "Scale comparisons — distances, sizes, orders of magnitude",
+        "Why the Moon has no weather and Earth does",
+        "Gravity as a load, and what happens when you remove it",
+        "Light taking time to arrive — looking at a star is looking at the past"
+      ]
+    },
+    "story": {
+      "label": "Story mode",
+      "icon": "✍️",
+      "colour": "--lens-story",
+      "covers": ["writing", "AI-assisted stories", "adventure plots", "aliens", "Slenderman", "Don Quixote", "memes", "wordplay"],
+      "hooks": [
+        "He writes adventure stories where someone drives into a strange scenario and faces aliens or Slenderman",
+        "Don Quixote — a man who decided to become the main character; Chapter 1 is a character-creation screen",
+        "Naming things as a way of making them real",
+        "Structure of an adventure: setup, gear, companion, the road",
+        "Wordplay and absurd comparisons land well — one dry joke per section, no more",
+        "Unreliable perception — a windmill seen as a giant"
+      ]
+    }
+  },
+
+  "rules": [
+    "Every lesson uses at least three different lenses. The checker enforces this.",
+    "A lens card must teach the curriculum content, not just mention the interest. If you delete the game reference and the card still teaches something, it is a good lens card.",
+    "Prefer a hook that is structurally true over one that is merely thematic. Death Stranding's exoskeletons genuinely are exoskeletons.",
+    "Rotate the lenses across a lesson. Four car cards in a row is worse than one of each.",
+    "Never invent a fact about a game or sport to make a hook work. If it is not true, find another hook."
+  ]
+}

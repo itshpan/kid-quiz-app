@@ -768,6 +768,345 @@ function brainRotation() {
     };
 }
 
+/* ---------- 12. The plural machine (interactive) ---------- */
+/* Seven rules is too many to hold at once. Tapping a word and seeing which
+   rule caught it turns a list to memorise into a procedure to follow. */
+function pluralMachine() {
+    const WORDS = [
+        { one: 'helmet', many: 'helmets',  rule: 'Default',        why: 'Nothing special. Just add -s.' },
+        { one: 'punch',  many: 'punches',  rule: 'Hissing sound',  why: 'Ends in -ch, so it takes -es.' },
+        { one: 'box',    many: 'boxes',    rule: 'Hissing sound',  why: 'Ends in -x, so it takes -es.' },
+        { one: 'city',   many: 'cities',   rule: 'Consonant + y',  why: 'A consonant before the y: drop it, add -ies.' },
+        { one: 'monkey', many: 'monkeys',  rule: 'Vowel + y',      why: 'A vowel before the y: just add -s.' },
+        { one: 'knife',  many: 'knives',   rule: 'f becomes v',    why: 'The -fe turns into -ves.' },
+        { one: 'roof',   many: 'roofs',    rule: 'f stays f',      why: 'An exception. Roofs, chiefs and beliefs keep the f.' },
+        { one: 'potato', many: 'potatoes', rule: 'o takes -es',    why: 'Food words ending in -o usually take -es.' },
+        { one: 'photo',  many: 'photos',   rule: 'o takes -s',     why: 'Shortened words ending in -o just take -s.' },
+        { one: 'child',  many: 'children', rule: 'Irregular',      why: 'No rule at all. Older than the rules.' },
+        { one: 'foot',   many: 'feet',     rule: 'Irregular',      why: 'Pure memory. So are tooth, mouse and person.' },
+        { one: 'sheep',  many: 'sheep',    rule: 'No change',      why: 'One sheep, ten sheep. Deer and fish do this too.' }
+    ];
+
+    return {
+        svg: `
+<svg viewBox="0 0 400 150" role="img" aria-labelledby="pmT">
+  <title id="pmT">A singular noun and its plural, with the rule that produced it</title>
+  <rect class="fig-chip" x="6"   y="26" width="150" height="52" rx="10"/>
+  <rect class="fig-chip" x="212" y="26" width="182" height="52" rx="10"/>
+  <text class="fig-label" x="6"   y="18">SINGULAR</text>
+  <text class="fig-label" x="212" y="18">PLURAL</text>
+  <text class="fig-word" id="pmOne"  x="20"  y="60">—</text>
+  <text class="fig-word fig-word-out" id="pmMany" x="226" y="60">—</text>
+  <path class="fig-chain" d="M166 52 H202"/>
+  <polygon class="fig-node" points="202,52 192,46 192,58"/>
+  <text class="fig-label" x="6" y="104">RULE THAT FIRED</text>
+  <text class="fig-big" id="pmRule" x="6" y="128">—</text>
+  <text class="fig-note" id="pmWhy" x="6" y="146"> </text>
+</svg>`,
+
+        bind(root) {
+            const bar = document.createElement('div');
+            bar.className = 'fig-switch fig-switch-wrap';
+            bar.innerHTML = WORDS.map((w, i) =>
+                `<button data-i="${i}" aria-pressed="${i === 0}">${w.one}</button>`).join('');
+            root.appendChild(bar);
+
+            const one = root.querySelector('#pmOne');
+            const many = root.querySelector('#pmMany');
+            const rule = root.querySelector('#pmRule');
+            const why = root.querySelector('#pmWhy');
+
+            const show = i => {
+                const w = WORDS[i];
+                one.textContent = w.one;
+                many.textContent = w.many;
+                rule.textContent = w.rule;
+                why.textContent = w.why;
+            };
+            bar.addEventListener('click', e => {
+                const b = e.target.closest('button');
+                if (!b) return;
+                bar.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+                show(+b.dataset.i);
+            });
+            show(0);
+        }
+    };
+}
+
+/* ==========================================================================
+   EXPLORERS — tappable anatomical diagrams with an info panel beside them.
+
+   The Week 1 skeleton proved the interaction, so every body system reuses it
+   rather than inventing a new one. Each explorer supplies its own artwork and
+   its own part data; bindExplorer and explorerInfoHTML are shared.
+   ========================================================================== */
+
+const EXPLORER_DATA = {
+    digestiveTract: {
+        mouth: {
+            name: 'Mouth', sub: 'os',
+            job: 'Two jobs at once: teeth grind the food, saliva starts dissolving it.',
+            car: 'The filler neck and the first filter. Nothing gets in unbroken.',
+            you: 'Chew properly and everything downstream has less work to do.'
+        },
+        esophagus: {
+            name: 'Oesophagus', sub: 'about 25 cm',
+            job: 'A muscular tube that squeezes food down. It does not drop it.',
+            car: 'The fuel line. It pumps rather than relying on gravity.',
+            you: 'That squeeze is peristalsis — smooth muscle, from Week 1.'
+        },
+        stomach: {
+            name: 'Stomach', sub: 'gaster',
+            job: 'A muscular bag of acid. Food sits here two to four hours becoming chyme.',
+            car: 'The mixing chamber. Harsh enough to damage metal, lined so it survives itself.',
+            you: 'It rebuilds its own mucus lining constantly, or it would digest itself.'
+        },
+        liver: {
+            name: 'Liver', sub: 'hepar',
+            job: 'Makes bile, which breaks fat into droplets small enough to absorb.',
+            car: 'The additive and filtration system.',
+            you: 'It also stores glucose and releases it when you train.'
+        },
+        pancreas: {
+            name: 'Pancreas', sub: 'pancreas',
+            job: 'Pumps enzymes into the small intestine for carbs, fats and proteins.',
+            car: 'The chemistry set — a different enzyme for each kind of fuel.',
+            you: 'It also makes insulin, which decides what happens to sugar.'
+        },
+        smallint: {
+            name: 'Small intestine', sub: 'six to seven metres',
+            job: 'Almost every nutrient you will ever use is absorbed here.',
+            car: 'The injector rail. This is where fuel actually enters the system.',
+            you: 'Its villi, folded flat, would cover a tennis court.'
+        },
+        largeint: {
+            name: 'Large intestine', sub: 'about 1.5 metres',
+            job: 'Shorter but wider. Reclaims water and salts from what is left.',
+            car: 'The recovery loop. Nothing usable is thrown away.',
+            you: 'Trillions of bacteria live here and make vitamins for you.'
+        },
+        rectum: {
+            name: 'Rectum & anus', sub: 'the exit',
+            job: 'Stores waste until you decide. The final muscle is one you control.',
+            car: 'The exhaust.',
+            you: 'The whole trip takes roughly 24 to 72 hours.'
+        }
+    },
+
+    skinLayers: {
+        epidermis: {
+            name: 'Epidermis', sub: 'the outer layer',
+            job: 'The barrier. Its outermost cells are already dead and flake away constantly.',
+            car: 'The clear coat. Thin, sacrificial, and replaced rather than repaired.',
+            you: 'You replace this whole layer roughly every four weeks.'
+        },
+        melanocyte: {
+            name: 'Melanocytes', sub: 'pigment cells',
+            job: 'Make melanin, the pigment that absorbs ultraviolet light before it reaches your DNA.',
+            car: 'UV-blocking tint. It is protection, not decoration.',
+            you: 'A tan is these cells responding to damage that already happened.'
+        },
+        dermis: {
+            name: 'Dermis', sub: 'the working layer',
+            job: 'Where the blood vessels, nerves, glands and hair roots all live.',
+            car: 'The wiring loom and plumbing under the panel.',
+            you: 'Every touch, temperature and pain signal starts here.'
+        },
+        sweat: {
+            name: 'Sweat gland', sub: 'two to four million of them',
+            job: 'Pushes water onto the skin. Evaporating water carries heat away.',
+            car: 'The radiator. This is your entire cooling system.',
+            you: 'Training makes these start earlier and work better. That is an adaptation.'
+        },
+        oil: {
+            name: 'Oil gland', sub: 'sebaceous gland',
+            job: 'Makes sebum, which waterproofs skin and hair and keeps them flexible.',
+            car: 'The wax layer. It sheds water and stops drying out.',
+            you: 'Puberty hormones make these far more active. That is what acne is.'
+        },
+        hair: {
+            name: 'Hair & follicle', sub: 'with arrector pili muscle',
+            job: 'Grows from a root in the dermis. A tiny muscle can stand it upright.',
+            car: 'Surface texture that traps a thin layer of still air.',
+            you: 'That muscle is smooth muscle — goosebumps are it contracting.'
+        },
+        subcut: {
+            name: 'Subcutaneous layer', sub: 'hypodermis',
+            job: 'Fat and connective tissue. Insulates, stores energy, and cushions impact.',
+            car: 'The padding behind the panel.',
+            you: 'This is the layer that absorbs a body shot before it reaches anything solid.'
+        }
+    }
+};
+
+function digestiveTract() {
+    return {
+        svg: `<svg viewBox="0 0 200 306" role="img" aria-labelledby="dtT">
+  <title id="dtT">The digestive tract from mouth to anus, drawn as one continuous tube</title>
+  <g class="organ" data-part="mouth" role="button" tabindex="0" aria-label="Mouth"><title>Mouth</title>
+    <ellipse cx="100" cy="26" rx="24" ry="15"/></g>
+  <g class="organ" data-part="esophagus" role="button" tabindex="0" aria-label="Oesophagus"><title>Oesophagus</title>
+    <rect x="92" y="40" width="16" height="60" rx="8"/></g>
+  <g class="organ" data-part="stomach" role="button" tabindex="0" aria-label="Stomach"><title>Stomach</title>
+    <path d="M100 100 Q70 106 66 132 Q64 158 92 162 Q116 162 118 140 Q120 118 108 102 Z"/></g>
+  <g class="organ" data-part="liver" role="button" tabindex="0" aria-label="Liver"><title>Liver</title>
+    <path d="M122 104 Q160 100 166 122 Q164 140 138 140 Q122 132 122 104 Z"/></g>
+  <g class="organ" data-part="pancreas" role="button" tabindex="0" aria-label="Pancreas"><title>Pancreas</title>
+    <path d="M118 150 Q142 146 156 154 Q140 162 118 158 Z"/></g>
+  <g class="organ tube" data-part="smallint" role="button" tabindex="0" aria-label="Small intestine"><title>Small intestine</title>
+    <path d="M92 172 q28 -6 30 14 q-2 18 -28 14 q-26 -4 -26 16 q0 20 28 16 q28 -4 28 16 q0 18 -26 14" fill="none" stroke-width="11" stroke-linecap="round"/></g>
+  <g class="organ tube" data-part="largeint" role="button" tabindex="0" aria-label="Large intestine"><title>Large intestine</title>
+    <path d="M56 176 v76 q0 14 14 14 h60 q14 0 14 -14 v-76" fill="none" stroke-width="14" stroke-linecap="round"/></g>
+  <g class="organ" data-part="rectum" role="button" tabindex="0" aria-label="Rectum and anus"><title>Rectum and anus</title>
+    <rect x="94" y="268" width="14" height="26" rx="6"/></g>
+</svg>`
+    };
+}
+
+function skinLayers() {
+    return {
+        svg: `<svg viewBox="0 0 220 300" role="img" aria-labelledby="slT">
+  <title id="slT">A cross-section of skin showing the epidermis, dermis and subcutaneous layer with a hair, an oil gland and a sweat gland</title>
+
+  <g class="organ" data-part="epidermis" role="button" tabindex="0" aria-label="Epidermis"><title>Epidermis</title>
+    <rect x="10" y="16" width="200" height="46" rx="4"/></g>
+  <g class="organ" data-part="dermis" role="button" tabindex="0" aria-label="Dermis"><title>Dermis</title>
+    <rect x="10" y="62" width="200" height="118" rx="4"/></g>
+  <g class="organ" data-part="subcut" role="button" tabindex="0" aria-label="Subcutaneous layer"><title>Subcutaneous layer</title>
+    <rect x="10" y="180" width="200" height="76" rx="4"/></g>
+
+  <g class="organ" data-part="melanocyte" role="button" tabindex="0" aria-label="Melanocytes"><title>Melanocytes</title>
+    <circle cx="40" cy="55" r="5"/><circle cx="70" cy="57" r="5"/><circle cx="100" cy="55" r="5"/></g>
+
+  <g class="organ tube" data-part="hair" role="button" tabindex="0" aria-label="Hair and follicle"><title>Hair and follicle</title>
+    <path d="M150 4 v152" fill="none" stroke-width="7" stroke-linecap="round"/>
+    <ellipse cx="150" cy="160" rx="13" ry="11"/></g>
+
+  <g class="organ tube" data-part="oil" role="button" tabindex="0" aria-label="Oil gland"><title>Oil gland</title>
+    <path d="M150 96 h-22" fill="none" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="118" cy="96" r="13"/></g>
+
+  <g class="organ tube" data-part="sweat" role="button" tabindex="0" aria-label="Sweat gland"><title>Sweat gland</title>
+    <path d="M54 16 v58 q0 12 -10 14" fill="none" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="40" cy="96" r="15"/></g>
+
+  <text class="fig-label" x="14" y="34">EPIDERMIS</text>
+  <text class="fig-label" x="14" y="128">DERMIS</text>
+  <text class="fig-label" x="14" y="200">SUBCUTANEOUS</text>
+  <text class="fig-note fig-note-dim" x="10" y="276">Tap any layer or structure</text>
+</svg>`
+    };
+}
+
+/** Info panel for a tapped part of any explorer. */
+export function explorerInfoHTML(figure, id) {
+    const part = EXPLORER_DATA[figure]?.[id];
+    if (!part) return '<p class="placeholder">Tap any part of the diagram to see what it does.</p>';
+    return `<h3>${part.name}</h3><div class="latin">${part.sub}</div>
+        <div class="bone-fact"><span class="ico">🔬</span><span>${part.job}</span></div>
+        <div class="bone-fact"><span class="ico">🚗</span><span>${part.car}</span></div>
+        <div class="bone-fact"><span class="ico">⚡</span><span>${part.you}</span></div>`;
+}
+
+/** Click and keyboard selection for any explorer diagram. */
+export function bindExplorer(root, figure, onSelect) {
+    const groups = root.querySelectorAll('.organ');
+    const select = id => {
+        if (!EXPLORER_DATA[figure]?.[id]) return;
+        groups.forEach(g => g.classList.toggle('active', g.dataset.part === id));
+        onSelect(id);
+    };
+    root.addEventListener('click', e => {
+        const t = e.target.closest('[data-part]');
+        if (t) select(t.dataset.part);
+    });
+    groups.forEach(g => g.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); select(g.dataset.part); }
+    }));
+}
+
+/* ---------- 15. Transformation lab (interactive) ---------- */
+/* The shape is deliberately asymmetric — an F — because a symmetrical one
+   hides the difference between a flip and a turn, which is the exact thing
+   the exam asks him to tell apart. The ghost shows where it started, so what
+   is preserved is as visible as what moved. */
+function transformLab() {
+    const F = 'M0 0 h44 v13 h-31 v11 h27 v13 h-27 v33 h-13 Z';
+
+    const MOVES = {
+        none:       { t: '', name: 'Starting position', desc: 'This is the shape before any move.', tag: '' },
+        translate:  { t: 'translate(96,34)', name: 'Translation', desc: 'Slid 96 right and 34 down. Still facing the same way.', tag: 'A slide' },
+        reflect:    { t: 'translate(230,0) scale(-1,1)', name: 'Reflection', desc: 'Flipped across a vertical mirror line. Left and right have swapped.', tag: 'A flip' },
+        rotate:     { t: 'rotate(180 158 60)',           name: 'Rotation', desc: 'Turned 180° about the marked centre point.', tag: 'A turn' }
+    };
+
+    return {
+        svg: `
+<svg viewBox="0 0 400 210" role="img" aria-labelledby="tlT">
+  <title id="tlT">An F-shaped figure shown in its original position and after a translation, reflection or rotation</title>
+
+  <g class="fig-grid">
+    ${Array.from({ length: 9 }, (_, i) => `<line x1="${20 + i * 30}" y1="14" x2="${20 + i * 30}" y2="164"/>`).join('')}
+    ${Array.from({ length: 6 }, (_, i) => `<line x1="20" y1="${14 + i * 30}" x2="260" y2="${14 + i * 30}"/>`).join('')}
+  </g>
+
+  <!-- mirror line and rotation centre, shown only for the relevant move -->
+  <line class="fig-mirror hidden" id="tlMirror" x1="115" y1="10" x2="115" y2="168"/>
+  <circle class="fig-vertex hidden" id="tlCentre" cx="158" cy="60" r="5"/>
+
+  <path class="fig-ghost" d="${F}" transform="translate(30,30)"/>
+  <g id="tlMoved" transform="translate(30,30)">
+    <path class="fig-shape" d="${F}"/>
+  </g>
+
+  <text class="fig-label" x="276" y="30">THE MOVE</text>
+  <text class="fig-big" id="tlName" x="276" y="60">—</text>
+  <text class="fig-note fig-note-key" id="tlTag" x="276" y="82"> </text>
+  <text class="fig-note fig-note-dim" x="276" y="150">Faint outline = where it started</text>
+</svg>`,
+
+        bind(root) {
+            const bar = document.createElement('div');
+            bar.className = 'fig-switch';
+            bar.innerHTML = `
+                <button data-m="none" aria-pressed="true">Start</button>
+                <button data-m="translate" aria-pressed="false">Slide</button>
+                <button data-m="reflect" aria-pressed="false">Flip</button>
+                <button data-m="rotate" aria-pressed="false">Turn</button>`;
+            root.appendChild(bar);
+
+            const caption = document.createElement('p');
+            caption.className = 'fig-caption';
+            root.appendChild(caption);
+
+            const moved = root.querySelector('#tlMoved');
+            const name = root.querySelector('#tlName');
+            const tag = root.querySelector('#tlTag');
+            const mirror = root.querySelector('#tlMirror');
+            const centre = root.querySelector('#tlCentre');
+
+            const show = key => {
+                const m = MOVES[key];
+                moved.setAttribute('transform', `translate(30,30) ${m.t}`);
+                name.textContent = m.name;
+                tag.textContent = m.tag;
+                caption.textContent = m.desc;
+                mirror.classList.toggle('hidden', key !== 'reflect');
+                centre.classList.toggle('hidden', key !== 'rotate');
+            };
+
+            bar.addEventListener('click', e => {
+                const b = e.target.closest('button');
+                if (!b) return;
+                bar.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+                show(b.dataset.m);
+            });
+            show('none');
+        }
+    };
+}
+
 export const FIGURES = {
     crumpleZone,
     muscleTypes,
@@ -779,7 +1118,11 @@ export const FIGURES = {
     escherSlide,
     semiRegular,
     strikingHand,
-    brainRotation
+    brainRotation,
+    pluralMachine,
+    digestiveTract,
+    skinLayers,
+    transformLab
 };
 
 

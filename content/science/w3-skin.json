@@ -1,0 +1,434 @@
+{
+  "id": "sci-w3",
+  "courseId": "science",
+  "courseTitle": "Science",
+  "week": 3,
+  "title": "The Integumentary System",
+  "subtitle": "Your largest organ is the one you're wearing.",
+  "estMinutes": 20,
+  "objectives": [
+    "Name the three layers of skin and what each one does",
+    "Explain how skin regulates body temperature",
+    "Describe the roles of sweat glands, oil glands and hair",
+    "Explain what melanin does and why it matters",
+    "Relate skin changes at puberty to hormone activity"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🛡️",
+      "eyebrow": "Part 1 · The layers",
+      "title": "Your biggest organ isn't inside you",
+      "text": "Skin covers about two square metres and makes up roughly a sixth of your body weight. It is an organ, and it is doing several jobs right now."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The big idea",
+      "title": "Five jobs, one surface",
+      "text": "Like the skeleton, skin gets thought of as one thing. It's doing five.",
+      "points": [
+        "**Barrier** — keeps water and heat in, germs out.",
+        "**Temperature control** — sweating and blood flow.",
+        "**Sensation** — touch, pressure, pain, temperature.",
+        "**Vitamin D** — your skin makes it from sunlight."
+      ]
+    },
+    {
+      "kind": "explorer",
+      "figure": "skinLayers",
+      "title": "Tap any layer or structure",
+      "text": "Three layers plus the things buried in them. Two quiz questions come from this diagram."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Layer 1",
+      "title": "Epidermis — the part you can see",
+      "text": "The outer layer, and its surface cells are already dead. You are wearing a coat of your own dead cells right now.",
+      "points": [
+        "**No blood vessels at all.** It's fed from below.",
+        "**New cells push up from underneath** and flatten as they go.",
+        "**Fully replaced about every four weeks.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "It's paint, primer and padding",
+      "text": "Car bodywork is layered for exactly the same reason skin is: different jobs need different materials.",
+      "points": [
+        "**Epidermis** = clear coat. Thin, sacrificial, replaced not repaired.",
+        "**Dermis** = the panel with the wiring behind it.",
+        "**Subcutaneous fat** = the padding that absorbs a knock."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Cyberpunk's subdermal armour is in the right layer",
+      "text": "The game installs armour *under* the skin, not on top of it. Whoever designed that knew the anatomy.",
+      "points": [
+        "**Sub-dermal means below the dermis.** That's the padding layer.",
+        "**It's exactly where your own cushioning sits.**",
+        "**You already have version one installed.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which skin layer has no blood vessels in it?",
+        "options": [
+          "The epidermis",
+          "The dermis",
+          "The subcutaneous layer"
+        ],
+        "answerIndex": 0,
+        "explain": "The epidermis. It's fed by the dermis below, which is why a shallow scrape doesn't bleed."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Layer 2",
+      "title": "Dermis — where everything actually happens",
+      "text": "The thick working layer. Blood vessels, nerve endings, sweat glands, oil glands and hair roots all live here.",
+      "points": [
+        "**Every touch you feel** starts with a nerve ending in here.",
+        "**Collagen fibres** make it tough and stretchy.",
+        "**Cut this deep and you bleed**, because this is where the vessels are."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Layer 3",
+      "title": "Subcutaneous — the padding",
+      "text": "Fat and connective tissue underneath. It insulates you, stores energy, and cushions impact.",
+      "points": [
+        "**Insulation.** Fat is a poor conductor of heat, which is useful.",
+        "**Shock absorption.** It spreads a blow before it reaches anything solid.",
+        "**Energy store** your body draws on between meals."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "order",
+        "text": "Put the skin layers in order, from outside to inside.",
+        "items": [
+          "Epidermis",
+          "Dermis",
+          "Subcutaneous layer"
+        ],
+        "explain": "Outside in: epidermis, dermis, subcutaneous. Epi- means 'upon', so the epidermis sits upon the dermis."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Layers done. Part 2 is cooling, pigment and what puberty is doing to your skin. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "🌡️",
+      "eyebrow": "Part 2 · Keeping you alive",
+      "title": "Your skin is your radiator",
+      "text": "Your body has to stay near 37 °C. Too far either way and things stop working. Skin is how it holds the line."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Cooling down",
+      "title": "Sweating, and why it only works if it evaporates",
+      "text": "Sweat doesn't cool you by being wet. It cools you when it turns to vapour and carries heat away.",
+      "points": [
+        "**Two to four million sweat glands** across your body.",
+        "**Evaporation is the cooling.** Wiping sweat off cancels it.",
+        "**Blood vessels widen too**, dumping heat through the skin."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Trained people sweat sooner",
+      "text": "This surprises people. Fitness doesn't stop you sweating — it makes you start earlier.",
+      "points": [
+        "**Your body learns to cool before it overheats**, not after.",
+        "**That's an adaptation**, the same as bone getting denser.",
+        "**Humid air blocks evaporation**, which is why it feels far worse."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Sweat cools you down by evaporating, not simply by being wet on your skin.",
+        "answer": true,
+        "explain": "True. Turning from liquid to vapour takes energy, and it takes that heat from you. Wiping it off throws away the cooling."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Pigment",
+      "title": "Melanin is sun armour",
+      "text": "Melanocytes in the epidermis make melanin. It absorbs ultraviolet light before it can damage the DNA in your cells.",
+      "points": [
+        "**Everyone has roughly the same number** of melanocytes.",
+        "**Skin colour comes from how much melanin they make.**",
+        "**A tan is a damage response**, not a sign of health."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Hair",
+      "title": "Goosebumps are Week 1 coming back",
+      "text": "Each hair grows from a follicle in the dermis, and a tiny muscle can pull it upright.",
+      "points": [
+        "**That muscle is called arrector pili.**",
+        "**It's smooth muscle** — involuntary, from Week 1.",
+        "**In furrier animals it traps warm air.** On you it does almost nothing."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What does melanin actually do?",
+        "options": [
+          "Absorbs ultraviolet light before it damages DNA",
+          "Keeps the skin waterproof",
+          "Helps the skin sweat more easily"
+        ],
+        "answerIndex": 0,
+        "explain": "It's protection from UV. Sebum from oil glands is what waterproofs skin — different job entirely."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "⚡",
+      "eyebrow": "Your body right now",
+      "title": "Why puberty changes your skin",
+      "text": "Hormone levels rise and your oil glands respond by producing far more sebum than before.",
+      "points": [
+        "**Sebum plus dead skin cells** can block a follicle.",
+        "**A blocked follicle is a spot.** That's the whole mechanism.",
+        "**It's hormones, not hygiene.** Scrubbing harder makes it worse.",
+        "**Sweat glands ramp up too**, which is where body odour starts."
+      ]
+    },
+    {
+      "kind": "fact",
+      "eyebrow": "Did you know",
+      "text": "Most household dust is dead skin cells. You shed around 30,000 to 40,000 of them every minute."
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Integumentary system",
+          "def": "Skin, hair and nails — your body's outer covering."
+        },
+        {
+          "term": "Epidermis",
+          "def": "The outer layer of skin. No blood vessels."
+        },
+        {
+          "term": "Dermis",
+          "def": "The thick layer below, holding vessels, nerves and glands."
+        },
+        {
+          "term": "Subcutaneous layer",
+          "def": "Fat and connective tissue under the dermis. Also called hypodermis."
+        },
+        {
+          "term": "Melanin",
+          "def": "The pigment that absorbs ultraviolet light."
+        },
+        {
+          "term": "Melanocyte",
+          "def": "The cell that makes melanin."
+        },
+        {
+          "term": "Sebum",
+          "def": "Oil that waterproofs skin and hair."
+        },
+        {
+          "term": "Sebaceous gland",
+          "def": "The gland that produces sebum."
+        },
+        {
+          "term": "Follicle",
+          "def": "The pocket in the skin that a hair grows from."
+        },
+        {
+          "term": "Arrector pili",
+          "def": "The small muscle that stands a hair up. Goosebumps."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Ready for the quiz",
+      "title": "The four that matter",
+      "points": [
+        "**Three layers:** epidermis, dermis, subcutaneous — outside in.",
+        "**The epidermis has no blood vessels;** the dermis holds everything.",
+        "**Sweat cools by evaporating**, not by being wet.",
+        "**Melanin blocks UV.** Sebum waterproofs. Different jobs."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "order",
+      "text": "Put the layers of skin in order, from the outside inwards.",
+      "items": [
+        "Epidermis",
+        "Dermis",
+        "Subcutaneous layer"
+      ],
+      "explain": "Epi- means 'upon'. The epidermis sits upon the dermis, and the subcutaneous layer is under both.",
+      "objective": "Name the three layers of skin and what each one does"
+    },
+    {
+      "type": "multiple",
+      "text": "Which layer contains the blood vessels, nerves and glands?",
+      "options": [
+        "The dermis",
+        "The epidermis",
+        "The subcutaneous layer",
+        "All three equally"
+      ],
+      "answerIndex": 0,
+      "explain": "The dermis is the working layer. The epidermis above it has no blood supply of its own.",
+      "objective": "Name the three layers of skin and what each one does"
+    },
+    {
+      "type": "truefalse",
+      "text": "The outermost cells of your epidermis are dead.",
+      "answer": true,
+      "explain": "True. New cells push up from below, flatten and die, forming a tough barrier before flaking away.",
+      "objective": "Name the three layers of skin and what each one does"
+    },
+    {
+      "type": "multiple",
+      "text": "How does sweating cool you down?",
+      "options": [
+        "Evaporating sweat carries heat away from the skin",
+        "Wet skin is naturally colder than dry skin",
+        "Sweat contains a cooling chemical",
+        "Sweat blocks heat from reaching the body"
+      ],
+      "answerIndex": 0,
+      "explain": "Evaporation is the cooling step. That's why humid weather feels so much worse — sweat can't evaporate.",
+      "objective": "Explain how skin regulates body temperature"
+    },
+    {
+      "type": "type",
+      "text": "What is the name of the pigment that protects your skin from ultraviolet light?",
+      "accept": [
+        "melanin"
+      ],
+      "explain": "Melanin, made by melanocytes in the epidermis. It absorbs UV before it can damage DNA.",
+      "objective": "Explain what melanin does and why it matters"
+    },
+    {
+      "type": "multiple",
+      "text": "What causes spots during puberty?",
+      "options": [
+        "Hormones make oil glands produce more sebum, which blocks follicles",
+        "Not washing your face often enough",
+        "Eating too much sugar",
+        "Sweat glands becoming blocked with salt"
+      ],
+      "answerIndex": 0,
+      "explain": "It's hormonal. Extra sebum plus dead skin cells blocks a follicle. Scrubbing harder irritates skin and makes it worse.",
+      "objective": "Relate skin changes at puberty to hormone activity"
+    },
+    {
+      "type": "multiple",
+      "text": "What does sebum do?",
+      "options": [
+        "Waterproofs skin and hair and keeps them flexible",
+        "Blocks ultraviolet light",
+        "Cools the body by evaporating",
+        "Carries oxygen to skin cells"
+      ],
+      "answerIndex": 0,
+      "explain": "Sebum is the waterproofing oil. Melanin is the UV blocker — a common mix-up in exams.",
+      "objective": "Describe the roles of sweat glands, oil glands and hair"
+    },
+    {
+      "type": "type",
+      "text": "What kind of muscle makes your hair stand up in goosebumps?",
+      "accept": [
+        "smooth",
+        "smooth muscle",
+        "involuntary"
+      ],
+      "explain": "Smooth muscle — the involuntary type from Week 1. The muscle is called arrector pili.",
+      "objective": "Describe the roles of sweat glands, oil glands and hair"
+    },
+    {
+      "type": "truefalse",
+      "text": "People with darker skin have many more melanocytes than people with lighter skin.",
+      "answer": false,
+      "explain": "False. Almost everyone has a similar number of melanocytes. What differs is how much melanin those cells produce.",
+      "objective": "Explain what melanin does and why it matters"
+    },
+    {
+      "type": "multiple",
+      "text": "Which job does the subcutaneous layer do?",
+      "options": [
+        "Insulates, stores energy and cushions impact",
+        "Detects touch and pain",
+        "Produces melanin",
+        "Forms the waterproof outer barrier"
+      ],
+      "answerIndex": 0,
+      "explain": "It's the padding. Fat insulates, stores energy, and spreads a blow before it reaches anything solid.",
+      "objective": "Name the three layers of skin and what each one does"
+    },
+    {
+      "type": "truefalse",
+      "text": "Someone who trains regularly starts sweating sooner than someone who doesn't.",
+      "answer": true,
+      "explain": "True. The body adapts to cool before it overheats rather than after. It's the same principle as bone getting denser.",
+      "objective": "Explain how skin regulates body temperature"
+    },
+    {
+      "type": "multiple",
+      "text": "Your skin makes one vitamin using sunlight. Which one?",
+      "options": [
+        "Vitamin D",
+        "Vitamin C",
+        "Vitamin A",
+        "Vitamin K"
+      ],
+      "answerIndex": 0,
+      "explain": "Vitamin D, and it matters for this course — your body needs it to absorb the calcium that builds bone.",
+      "objective": "Name the three layers of skin and what each one does"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 3 Science covers the integumentary system, matching the Term 1 weekly scope. It reuses the tappable-diagram interaction from Weeks 1 and 2, and deliberately connects back to both: goosebumps are smooth muscle from Week 1, and vitamin D links to the calcium absorption covered in Week 2. The puberty section treats acne mechanically rather than as a hygiene failing, which is both accurate and kinder to a Grade 6 reader living through it.",
+    "discussion": [
+      "Ask why a shallow graze stings but does not bleed. The answer — no blood vessels in the epidermis — shows he has the layer structure.",
+      "Ask why a hot humid day feels worse than a hot dry one at the same temperature. It tests whether he understood that evaporation is the cooling step.",
+      "Ask what melanin and sebum each do. These two are the most commonly swapped answers on this topic.",
+      "Ask what goosebumps have to do with Week 1. Smooth muscle turning up in an unexpected place is worth noticing."
+    ],
+    "extension": "Have him label a cross-section of skin from memory, then add one arrow showing where heat leaves the body and one showing where a hair grows from. Five minutes, and it tests structure and function together.",
+    "misconceptions": [
+      "'Acne is caused by being dirty.' It is caused by hormones increasing sebum production. Over-washing irritates skin and can worsen it.",
+      "'A tan is healthy.' A tan is the skin's response to UV damage that has already occurred.",
+      "'Sweat cools you because it is wet.' It cools you as it evaporates. Wiping it away removes the cooling.",
+      "'Skin is just a covering.' It is the body's largest organ and regulates temperature, senses the world, and manufactures vitamin D."
+    ]
+  }
+}

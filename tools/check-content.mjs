@@ -10,12 +10,20 @@ import { join, relative } from 'node:path';
 
 const ROOT = new URL('..', import.meta.url).pathname;
 
+/* The learner's interests are not a nice-to-have — the whole app exists to
+   teach through them. Loading the roster here means a lesson that forgets
+   them fails the build rather than quietly shipping as a wall of text. */
+const INTERESTS = JSON.parse(await readFile(join(ROOT, 'content/interests.json'), 'utf8'));
+const KNOWN_LENSES = Object.keys(INTERESTS.lenses);
+
 const LIMITS = {
     sentenceWords: 20,
     cardWords: 40,
     pointWords: 18,
     pointsPerCard: 4,
     cardsBetweenCheckpoints: 6,
+    minLensesPerLesson: 3,
+    maxSameLensInARow: 2,
     cardsPerVideo: 15,            // a 60-card lesson may carry 4 videos, a 30-card one 3
     minVideosPerLesson: 3,
     highStimVideosPerLesson: 1
@@ -99,6 +107,32 @@ for (const file of files) {
             if (words(s) > LIMITS.sentenceWords) {
                 warn(file, at, `sentence is ${words(s)} words (max ${LIMITS.sentenceWords}): "${s.slice(0, 70)}…"`);
             }
+        }
+    });
+
+    // Interest coverage. Every lesson teaches through at least three different
+    // lenses, and never stacks the same one up in a run — four car cards in a
+    // row is worse than one of each.
+    const lensCards = lesson.cards.filter(c => c.kind === 'lens');
+    const used = new Set(lensCards.map(c => c.lens));
+
+    for (const c of lensCards) {
+        if (!KNOWN_LENSES.includes(c.lens)) {
+            warn(file, `lens "${c.lens}"`, `unknown lens — use one of: ${KNOWN_LENSES.join(', ')} (see content/interests.json)`);
+        }
+    }
+    if (used.size < LIMITS.minLensesPerLesson) {
+        warn(file, 'interests', `only ${used.size} lens${used.size === 1 ? '' : 'es'} used (${[...used].join(', ') || 'none'}) — need at least ${LIMITS.minLensesPerLesson}. See content/interests.json`);
+    }
+
+    let run = 0, prev = null;
+    lesson.cards.forEach((c, i) => {
+        if (c.kind !== 'lens') { run = 0; prev = null; return; }
+        run = c.lens === prev ? run + 1 : 1;
+        prev = c.lens;
+        if (run > LIMITS.maxSameLensInARow) {
+            warn(file, `card ${i + 1}`, `${run} "${c.lens}" lens cards in a row (max ${LIMITS.maxSameLensInARow}) — rotate the lenses`);
+            run = 0;
         }
     });
 

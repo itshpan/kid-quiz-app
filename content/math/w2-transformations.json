@@ -1,0 +1,454 @@
+{
+  "id": "math-w2",
+  "courseId": "math",
+  "courseTitle": "Math",
+  "week": 2,
+  "title": "Translation, Reflection & Rotation",
+  "subtitle": "Three ways to move a shape without changing it.",
+  "estMinutes": 20,
+  "objectives": [
+    "Define translation, reflection and rotation",
+    "Identify which transformation has been applied to a shape",
+    "Describe a translation using direction and distance",
+    "Explain what stays the same under every transformation",
+    "Connect transformations to how tessellations are built"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🎮",
+      "eyebrow": "Part 1 · Three moves",
+      "title": "You already did one of these last week",
+      "text": "Cut a piece off a square and slide it to the other edge. That slide has a name, and it's one of only three moves in this topic."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The big idea",
+      "title": "Move it without changing it",
+      "text": "All three transformations do the same thing: they move a shape without altering its size or its angles.",
+      "points": [
+        "**Translation** — slide it.",
+        "**Reflection** — flip it.",
+        "**Rotation** — turn it.",
+        "**The shape stays congruent.** Same size, same angles, every time."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "transformLab",
+      "eyebrow": "Try it",
+      "title": "Apply each move and watch what happens",
+      "text": "Tap through the three. The faint shape is where it started. Watch what changes and, more importantly, what doesn't."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What do all three transformations have in common?",
+        "options": [
+          "The shape keeps its size and angles",
+          "The shape always gets bigger",
+          "The shape ends up upside down"
+        ],
+        "answerIndex": 0,
+        "explain": "They move a shape without changing it. Same size, same angles — mathematicians call that congruent."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Move 1",
+      "title": "Translation — a straight slide",
+      "text": "Every point moves the same distance in the same direction. Nothing turns, nothing flips.",
+      "points": [
+        "**Describe it with two numbers:** how far across, how far up or down.",
+        "**\"4 right and 2 down\"** is a complete description.",
+        "**The shape stays facing the same way.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Pacific Drive never rotates the road",
+      "text": "In a driving game the world slides past you. The car turns; the terrain tiles only ever translate.",
+      "points": [
+        "**Terrain tiles slide into place.** Cheapest possible move.",
+        "**Rotating every tile** would cost far more to compute.",
+        "**That's why game worlds are built on grids.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Translation is just movement",
+      "text": "When you walk a character across a map, the game is translating them. Nothing about them rotates or flips.",
+      "points": [
+        "**Every tile in a tileset** is placed by translation.",
+        "**Camera panning** is translating the whole world.",
+        "**That's why it's the cheapest move** for a computer to do."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Move 2",
+      "title": "Reflection — a flip over a line",
+      "text": "The shape becomes a mirror image. Every point ends up the same distance from the mirror line, on the other side.",
+      "points": [
+        "**The mirror line is called the axis of reflection.**",
+        "**Anything touching the line doesn't move.**",
+        "**Left and right swap.** That's the giveaway."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🏎️",
+      "eyebrow": "Forza mode",
+      "title": "The livery editor is this whole lesson",
+      "text": "Place one decal on the left door, then mirror it to the right. That button is a reflection.",
+      "points": [
+        "**Mirror to other side** = reflection across the car's centre line.",
+        "**Duplicate and move** = translation.",
+        "**Spin the decal** = rotation about its own centre.",
+        "**Three buttons, three transformations.** That's the entire toolbar."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "A shape is flipped so it becomes a mirror image. Which transformation is that?",
+        "options": [
+          "Reflection",
+          "Translation",
+          "Rotation"
+        ],
+        "answerIndex": 0,
+        "explain": "Reflection. The tell is that left and right swap over — a slide or a turn never does that."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Move 3",
+      "title": "Rotation — a turn about a point",
+      "text": "The shape pivots around a fixed point, called the centre of rotation. You need three things to describe it fully.",
+      "points": [
+        "**The centre** — what it turns around.",
+        "**The angle** — 90°, 180°, 270°.",
+        "**The direction** — clockwise or anticlockwise.",
+        "**Miss one and the description is incomplete.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "A wheel is rotation with a fixed centre",
+      "text": "The axle is the centre of rotation. Every point on the tyre stays exactly the same distance from it.",
+      "points": [
+        "**That constant distance** is what makes a wheel round.",
+        "**A car driving forward** is doing both at once.",
+        "**Wheels rotate; the car translates.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "A pivot is a rotation you do with your foot",
+      "text": "Turning on the ball of your foot is a rotation. The foot is the centre and the rest of you swings around it.",
+      "points": [
+        "**The centre stays put.** That's what makes it a pivot, not a step.",
+        "**Step across instead** and you've translated, not rotated.",
+        "**Coaches care about the difference** for exactly the reason this lesson does."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "What do we call the fixed point a shape turns around in a rotation?",
+        "accept": [
+          "centre of rotation",
+          "center of rotation",
+          "centre",
+          "center"
+        ],
+        "explain": "The centre of rotation. Without naming it, a rotation isn't fully described."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Three moves learned. Part 2 is telling them apart and using them. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "🔍",
+      "eyebrow": "Part 2 · Telling them apart",
+      "title": "One question sorts all three",
+      "text": "In an exam you get a before and an after picture and have to name the move. There's a reliable way to do it."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The method",
+      "title": "Check in this order",
+      "text": "Work through these three questions and the answer falls out every time.",
+      "points": [
+        "**Is it a mirror image?** If yes, it's a **reflection**.",
+        "**Is it facing a different way but not mirrored?** That's a **rotation**.",
+        "**Is it facing exactly the same way?** That's a **translation**.",
+        "**Mirror first.** It's the easiest one to spot."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "order",
+        "text": "Put the identification method in the right order.",
+        "items": [
+          "Is it a mirror image? → reflection",
+          "Is it turned but not mirrored? → rotation",
+          "Is it facing the same way? → translation"
+        ],
+        "explain": "Check for the mirror first, because it's unmistakable. Then turning. Anything left over is a slide."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Back to last week",
+      "title": "Tessellations are built from these three",
+      "text": "Every tiling you saw last week is one shape, repeated using these moves and nothing else.",
+      "points": [
+        "**Squares and hexagons** tile by translation alone.",
+        "**Triangles** need a 180° rotation to fit together in rows.",
+        "**Escher's tiles** use all three, which is why they look alive.",
+        "**Cut-and-slide was a translation.** You did this before you had the word."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "regularTess",
+      "eyebrow": "Look again",
+      "title": "The same tilings, seen as moves",
+      "text": "Squares slide. Triangles alternate by turning 180°. Hexagons slide in two directions at once."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "A shape gets smaller when you translate it a long distance.",
+        "answer": false,
+        "explain": "False. Distance doesn't matter. Translation never changes size — the shape stays congruent no matter how far it moves."
+      }
+    },
+    {
+      "kind": "fact",
+      "eyebrow": "Did you know",
+      "text": "There's a fourth move called a glide reflection — a flip and a slide together. Escher used it constantly to make his lizards face alternate ways."
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Transformation",
+          "def": "Any move that changes a shape's position or orientation."
+        },
+        {
+          "term": "Translation",
+          "def": "A slide. Every point moves the same distance, same direction."
+        },
+        {
+          "term": "Reflection",
+          "def": "A flip across a line, producing a mirror image."
+        },
+        {
+          "term": "Rotation",
+          "def": "A turn about a fixed point."
+        },
+        {
+          "term": "Axis of reflection",
+          "def": "The mirror line a shape is flipped across."
+        },
+        {
+          "term": "Centre of rotation",
+          "def": "The fixed point a shape turns around."
+        },
+        {
+          "term": "Congruent",
+          "def": "Same size and same shape, even if moved or turned."
+        },
+        {
+          "term": "Image",
+          "def": "The shape after the transformation has been applied."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Ready for the quiz",
+      "title": "The four that matter",
+      "points": [
+        "**Translation slides, reflection flips, rotation turns.**",
+        "**All three keep size and angles.** The shape stays congruent.",
+        "**Rotation needs three things:** centre, angle, direction.",
+        "**Check for the mirror first** when identifying a move."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "A shape is moved 5 squares right and 3 squares down, still facing the same way. What is this?",
+      "options": [
+        "A translation",
+        "A reflection",
+        "A rotation",
+        "A resize"
+      ],
+      "answerIndex": 0,
+      "explain": "A translation — a straight slide. Every point moved the same distance in the same direction.",
+      "objective": "Define translation, reflection and rotation"
+    },
+    {
+      "type": "multiple",
+      "text": "Which transformation produces a mirror image?",
+      "options": [
+        "Reflection",
+        "Translation",
+        "Rotation",
+        "None of them"
+      ],
+      "answerIndex": 0,
+      "explain": "Reflection. Left and right swap over, which no other transformation does.",
+      "objective": "Identify which transformation has been applied to a shape"
+    },
+    {
+      "type": "type",
+      "text": "What is the fixed point that a shape turns around in a rotation called?",
+      "accept": [
+        "centre of rotation",
+        "center of rotation",
+        "centre",
+        "center"
+      ],
+      "explain": "The centre of rotation. A rotation needs a centre, an angle and a direction to be fully described.",
+      "objective": "Define translation, reflection and rotation"
+    },
+    {
+      "type": "truefalse",
+      "text": "Translation, reflection and rotation all keep the shape the same size.",
+      "answer": true,
+      "explain": "True. All three keep size and angles identical. The shape stays congruent — only its position or orientation changes.",
+      "objective": "Explain what stays the same under every transformation"
+    },
+    {
+      "type": "multiple",
+      "text": "Which three pieces of information fully describe a rotation?",
+      "options": [
+        "Centre, angle and direction",
+        "Distance, direction and speed",
+        "Axis, angle and size",
+        "Centre, size and colour"
+      ],
+      "answerIndex": 0,
+      "explain": "Centre, angle, direction. Leave any one out and someone else can't reproduce the move.",
+      "objective": "Define translation, reflection and rotation"
+    },
+    {
+      "type": "type",
+      "text": "What is the mathematical word for two shapes that are the same size and shape?",
+      "accept": [
+        "congruent"
+      ],
+      "explain": "Congruent. Every transformation in this topic produces a congruent image.",
+      "objective": "Explain what stays the same under every transformation"
+    },
+    {
+      "type": "multiple",
+      "text": "A triangle is flipped across a vertical line. What is the line called?",
+      "options": [
+        "The axis of reflection",
+        "The centre of rotation",
+        "The translation vector",
+        "The vertex"
+      ],
+      "answerIndex": 0,
+      "explain": "The axis of reflection — the mirror line. Anything sitting on it doesn't move at all.",
+      "objective": "Define translation, reflection and rotation"
+    },
+    {
+      "type": "order",
+      "text": "Put the steps for identifying a transformation in the best order.",
+      "items": [
+        "Is it a mirror image? → reflection",
+        "Is it turned but not mirrored? → rotation",
+        "Is it facing the same way? → translation"
+      ],
+      "explain": "Look for the mirror first, since it's unmistakable. Then turning. Whatever's left is a slide.",
+      "objective": "Identify which transformation has been applied to a shape"
+    },
+    {
+      "type": "multiple",
+      "text": "Last week you cut a piece off one edge of a square and slid it to the opposite edge. Which transformation was that?",
+      "options": [
+        "Translation",
+        "Reflection",
+        "Rotation",
+        "Glide reflection"
+      ],
+      "answerIndex": 0,
+      "explain": "A translation. Cut-and-slide is a slide — you were using this topic before you had the word for it.",
+      "objective": "Connect transformations to how tessellations are built"
+    },
+    {
+      "type": "truefalse",
+      "text": "Identical triangles need to be rotated 180° to tessellate together in rows.",
+      "answer": true,
+      "explain": "True. Alternate triangles point the opposite way. Two of them together form a parallelogram, which then tiles by translation.",
+      "objective": "Connect transformations to how tessellations are built"
+    },
+    {
+      "type": "multiple",
+      "text": "A car drives in a straight line down a road. What are the wheels and the car body doing?",
+      "options": [
+        "The wheels rotate while the car translates",
+        "Both rotate",
+        "Both translate",
+        "The wheels translate while the car rotates"
+      ],
+      "answerIndex": 0,
+      "explain": "Wheels turn about their axles — rotation. The car itself slides down the road — translation. Two transformations at once.",
+      "objective": "Identify which transformation has been applied to a shape"
+    },
+    {
+      "type": "truefalse",
+      "text": "A point sitting exactly on the mirror line stays where it is during a reflection.",
+      "answer": true,
+      "explain": "True. Every point moves to the same distance on the other side. If that distance is zero, it doesn't move at all.",
+      "objective": "Define translation, reflection and rotation"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 2 Maths covers translation, reflection and rotation, matching the Term 1 weekly scope. It is built to follow directly from Week 1: the cut-and-slide used to make an Escher tile is named retrospectively as a translation, and the three regular tilings are revisited as the moves that generate them. The interactive transformation lab shows the original shape in outline alongside the image, so what is preserved is as visible as what changed.",
+    "discussion": [
+      "Give him a before-and-after pair and ask him to name the move and justify it. The justification matters more than the name.",
+      "Ask what stays the same in all three transformations. If he says size and angles, he has the concept of congruence without needing the word.",
+      "Ask why a rotation needs three pieces of information but a translation needs two. It tests whether he can reason about a definition rather than recall it.",
+      "Ask which moves are needed to tile with triangles. It links this week to last week directly."
+    ],
+    "extension": "Have him take one simple shape on squared paper and produce all three transformations of it, labelling each with a full description. A translation needs two numbers, a reflection needs a line, a rotation needs centre, angle and direction. It exposes incomplete descriptions immediately.",
+    "misconceptions": [
+      "'Transformations change the size of a shape.' None of these three do. Size and angles are always preserved.",
+      "'A rotation is fully described by its angle.' It also needs a centre and a direction, or it cannot be reproduced.",
+      "'Reflection and rotation look the same.' A reflection swaps left and right; a rotation never does. That is the reliable test.",
+      "'A 180° rotation is the same as a reflection.' They can look alike for symmetrical shapes, but for an asymmetric shape the results differ."
+    ]
+  }
+}

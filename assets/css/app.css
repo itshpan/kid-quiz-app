@@ -34,6 +34,8 @@
     --lens-box:    #A8446B;
     --lens-body:   #9A6B12;
     --lens-game:   #5B4BB8;
+    --lens-space:  #3C6E9F;
+    --lens-story:  #A8446B;
 
     /* Reading measure. The single most important number in this file. */
     --measure: 53ch;
@@ -74,6 +76,8 @@
         --lens-box:    #F58BB0;
         --lens-body:   #F0C060;
         --lens-game:   #A99BF0;
+        --lens-space:  #7FB6E8;
+        --lens-story:  #F58BB0;
     }
 }
 
@@ -101,6 +105,8 @@
     --lens-box:    #F58BB0;
     --lens-body:   #F0C060;
     --lens-game:   #A99BF0;
+    --lens-space:  #7FB6E8;
+    --lens-story:  #F58BB0;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -343,6 +349,8 @@ strong { font-weight: 700; color: var(--ink); }
 .card[data-lens="boxing"] { --lens: var(--lens-box); }
 .card[data-lens="growth"] { --lens: var(--lens-body); }
 .card[data-lens="gaming"] { --lens: var(--lens-game); }
+.card[data-lens="space"]  { --lens: var(--lens-space); }
+.card[data-lens="story"]  { --lens: var(--lens-story); }
 
 /* Points: at most four, each one line of thought. */
 .points { list-style: none; display: grid; gap: 12px; margin-top: 14px; max-width: var(--measure); }
@@ -896,3 +904,31 @@ strong { font-weight: 700; color: var(--ink); }
     border-radius: 5px;
     font-size: .92em;
 }
+
+/* ---------- Plural machine ---------- */
+.fig-word     { font-family: var(--font-ui); font-size: 22px; font-weight: 800; fill: var(--ink); }
+.fig-word-out { fill: var(--accent); }
+/* Twelve word buttons need to wrap rather than squeeze to nothing. */
+.fig-switch-wrap button { flex: 0 1 auto; }
+
+/* ---------- Digestive tract ---------- */
+.organ { fill: var(--surface-2); stroke: var(--ink-faint); stroke-width: 2; cursor: pointer; transition: fill .15s, stroke .15s; }
+.organ.tube path { stroke: var(--ink-faint); }
+.organ:hover, .organ.active { fill: var(--accent); stroke: var(--accent); }
+.organ.tube:hover path, .organ.tube.active path { stroke: var(--accent); }
+.organ:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* ---------- Transformation lab ---------- */
+.fig-grid line { stroke: var(--line); stroke-width: 1; }
+.fig-ghost  { fill: var(--ink-faint); opacity: .22; }
+.fig-shape  { fill: var(--accent); }
+.fig-mirror { stroke: var(--notyet); stroke-width: 2; stroke-dasharray: 5 4; }
+#tlMoved    { transition: transform .4s cubic-bezier(.3,.8,.3,1); }
+.fig-caption {
+    margin-top: 10px;
+    font-size: calc(15px * var(--scale));
+    color: var(--ink-soft);
+    max-width: var(--measure);
+}
+svg .hidden { display: none; }
+@media (prefers-reduced-motion: reduce) { #tlMoved { transition: none; } }

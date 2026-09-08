@@ -1,0 +1,423 @@
+{
+  "id": "sci-w2",
+  "courseId": "science",
+  "courseTitle": "Science",
+  "week": 2,
+  "title": "The Digestive System",
+  "subtitle": "One tube, nine metres long, that turns food into you.",
+  "estMinutes": 20,
+  "objectives": [
+    "Name the organs of the digestive tract in order",
+    "Distinguish mechanical from chemical digestion",
+    "Explain where nutrients are absorbed and why the small intestine is built for it",
+    "Describe the roles of the liver and pancreas in digestion",
+    "Explain how food becomes the material your body is built from"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🔋",
+      "eyebrow": "Part 1 · The tube",
+      "title": "Last week you built the frame. This week you fuel it.",
+      "text": "Bone and muscle are made of something. Every atom of it came through the tube we're about to follow."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The big idea",
+      "title": "You are a tube with a body around it",
+      "text": "Your digestive tract is one continuous pipe from mouth to anus, about nine metres long.",
+      "points": [
+        "**Technically the inside is outside.** Food isn't 'in you' until it's absorbed.",
+        "**Nothing counts until it crosses the wall** into your blood.",
+        "**Everything else** passes straight through."
+      ]
+    },
+    {
+      "kind": "explorer",
+      "figure": "digestiveTract",
+      "title": "Tap any part of the tube",
+      "text": "Each organ has a car fact and a fact about you. Two quiz questions come from this."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Two kinds of breaking",
+      "title": "Mechanical and chemical digestion",
+      "text": "Your body attacks food two completely different ways, and it uses both at once.",
+      "points": [
+        "**Mechanical** is physical: teeth grinding, the stomach churning.",
+        "**Chemical** is enzymes and acid taking molecules apart.",
+        "**Your mouth does both** — teeth grind while saliva starts dissolving."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Chewing a piece of bread is which kind of digestion?",
+        "options": [
+          "Mechanical",
+          "Chemical",
+          "Neither"
+        ],
+        "answerIndex": 0,
+        "explain": "Mechanical — you're physically breaking it apart. The saliva mixing in at the same time is the chemical half."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "It's a fuel system, stage by stage",
+      "text": "Every part of the tract maps onto something in the car you'd build in a game.",
+      "points": [
+        "**Mouth** = filler neck and first filter.",
+        "**Oesophagus** = fuel line, pumping not dropping.",
+        "**Stomach** = mixing chamber.",
+        "**Small intestine** = the injectors, where fuel finally enters."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Death Stranding makes you eat on the move",
+      "text": "Sam's stamina drains as he carries cargo, and he tops it up from what he's eaten.",
+      "points": [
+        "**The game separates having food from using it.**",
+        "**That gap is digestion.** It isn't instant in real life either.",
+        "**Pacific Drive does the same** with fuel: carrying it isn't burning it."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The stomach",
+      "title": "A bag of acid that doesn't dissolve itself",
+      "text": "Your stomach makes hydrochloric acid strong enough to damage metal. It survives by rebuilding its own lining constantly.",
+      "points": [
+        "**Food stays two to four hours** and becomes a paste called chyme.",
+        "**Acid kills most bacteria** that arrive with your food.",
+        "**Fresh mucus every few days.** Stop making it and you get an ulcer."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "What is the name of the paste that food becomes in the stomach?",
+        "accept": [
+          "chyme"
+        ],
+        "explain": "Chyme. Acid and churning turn a meal into a soup before it moves on."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The small intestine",
+      "title": "Where the actual absorbing happens",
+      "text": "Six to seven metres long, and almost every nutrient you'll ever use crosses its wall.",
+      "points": [
+        "**Covered in villi** — millions of tiny finger-shaped folds.",
+        "**Folded flat it would cover a tennis court.**",
+        "**Surface area is the whole design.** More wall, more absorbing."
+      ]
+    },
+    {
+      "kind": "fact",
+      "eyebrow": "Did you know",
+      "text": "Your small intestine is longer than your large intestine. It's called small because it is narrower, not shorter."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The helpers",
+      "title": "Two organs that never touch the food",
+      "text": "The liver and pancreas sit off to the side and pump chemicals in. Food never passes through either.",
+      "points": [
+        "**The liver makes bile**, which splits fat into droplets.",
+        "**The pancreas makes enzymes** for carbs, fats and proteins.",
+        "**Both empty into the small intestine**, right where it matters."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which organ makes bile to break up fats?",
+        "options": [
+          "The liver",
+          "The stomach",
+          "The large intestine"
+        ],
+        "answerIndex": 0,
+        "explain": "The liver. Food never passes through it — bile is delivered into the small intestine instead."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The large intestine",
+      "title": "The recovery stage",
+      "text": "Shorter and wider than the small intestine. Its job is reclaiming what would otherwise be wasted.",
+      "points": [
+        "**Pulls back water and salts.**",
+        "**Trillions of bacteria live here**, making vitamins you can't make yourself.",
+        "**They are not passengers.** You need them."
+      ]
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "You've followed the whole tube. Part 2 is the part about your training. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "💪",
+      "eyebrow": "Part 2 · Why it matters to you",
+      "title": "Food is the raw material for last week's lesson",
+      "text": "Training tells your body to build. Digestion decides whether there's anything to build with."
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "⚡",
+      "eyebrow": "Your body right now",
+      "title": "Where your bones and muscle come from",
+      "text": "Every mineral in your skeleton and every fibre in your muscle was absorbed through the small intestine.",
+      "points": [
+        "**Calcium and phosphorus** become bone.",
+        "**Protein** is broken to amino acids, then rebuilt as muscle.",
+        "**No absorption, no building.** Training alone isn't enough."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Why fighters plan meals around sessions",
+      "text": "Digestion takes hours, and it competes with training for blood flow.",
+      "points": [
+        "**Blood goes to your gut** after a big meal, not your muscles.",
+        "**That's why hard training on a full stomach feels awful.**",
+        "**After training** your body is primed to absorb and rebuild."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Training hard is enough to build muscle, even without absorbing nutrients.",
+        "answer": false,
+        "explain": "False. Training is the signal. Food is the material. You need both, and digestion is how the material arrives."
+      }
+    },
+    {
+      "kind": "fact",
+      "eyebrow": "Did you know",
+      "text": "You carry roughly as many bacterial cells as human cells. Most live in your large intestine, and you would be far less healthy without them."
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Digestion",
+          "def": "Breaking food into pieces small enough to absorb."
+        },
+        {
+          "term": "Mechanical digestion",
+          "def": "Physically breaking food apart — chewing, churning."
+        },
+        {
+          "term": "Chemical digestion",
+          "def": "Enzymes and acid taking molecules apart."
+        },
+        {
+          "term": "Saliva",
+          "def": "Fluid in the mouth that starts breaking down starch."
+        },
+        {
+          "term": "Peristalsis",
+          "def": "Waves of muscle squeezing food along the tube."
+        },
+        {
+          "term": "Chyme",
+          "def": "The paste food becomes in the stomach."
+        },
+        {
+          "term": "Villi",
+          "def": "Tiny folds lining the small intestine that increase surface area."
+        },
+        {
+          "term": "Bile",
+          "def": "Liver fluid that breaks fat into small droplets."
+        },
+        {
+          "term": "Enzyme",
+          "def": "A substance that speeds up a chemical breakdown."
+        },
+        {
+          "term": "Absorption",
+          "def": "Nutrients crossing the gut wall into the blood."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Ready for the quiz",
+      "title": "The four that matter",
+      "points": [
+        "**Order:** mouth, oesophagus, stomach, small intestine, large intestine, rectum.",
+        "**Mechanical** breaks it up; **chemical** takes it apart.",
+        "**Absorption happens in the small intestine**, thanks to villi.",
+        "**Liver makes bile, pancreas makes enzymes.** Food passes through neither."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "order",
+      "text": "Put the digestive tract in the order food travels through it.",
+      "items": [
+        "Mouth",
+        "Oesophagus",
+        "Stomach",
+        "Small intestine",
+        "Large intestine",
+        "Rectum"
+      ],
+      "explain": "One continuous tube, mouth to anus. The liver and pancreas sit off to the side and never carry food.",
+      "objective": "Name the organs of the digestive tract in order"
+    },
+    {
+      "type": "multiple",
+      "text": "Where are most nutrients absorbed into the blood?",
+      "options": [
+        "The small intestine",
+        "The stomach",
+        "The large intestine",
+        "The oesophagus"
+      ],
+      "answerIndex": 0,
+      "explain": "The small intestine. Its villi give it enormous surface area — folded flat it would cover a tennis court.",
+      "objective": "Explain where nutrients are absorbed and why the small intestine is built for it"
+    },
+    {
+      "type": "truefalse",
+      "text": "Chewing food is an example of chemical digestion.",
+      "answer": false,
+      "explain": "False. Chewing is mechanical — physically breaking food apart. The saliva mixing in is the chemical half.",
+      "objective": "Distinguish mechanical from chemical digestion"
+    },
+    {
+      "type": "type",
+      "text": "What is the paste that food becomes in the stomach called?",
+      "accept": [
+        "chyme"
+      ],
+      "explain": "Chyme. Acid plus churning turns a meal into a soup before it moves into the small intestine.",
+      "objective": "Name the organs of the digestive tract in order"
+    },
+    {
+      "type": "multiple",
+      "text": "What does bile do, and which organ makes it?",
+      "options": [
+        "Breaks fat into droplets; made by the liver",
+        "Breaks protein apart; made by the stomach",
+        "Absorbs water; made by the large intestine",
+        "Kills bacteria; made by the pancreas"
+      ],
+      "answerIndex": 0,
+      "explain": "The liver makes bile, which splits fat into droplets small enough for enzymes to work on.",
+      "objective": "Describe the roles of the liver and pancreas in digestion"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the main job of the large intestine?",
+      "options": [
+        "Reclaiming water and salts",
+        "Absorbing most nutrients",
+        "Making acid to kill bacteria",
+        "Producing enzymes for fat"
+      ],
+      "answerIndex": 0,
+      "explain": "It reclaims water and salts from what's left, and hosts the bacteria that make vitamins for you.",
+      "objective": "Name the organs of the digestive tract in order"
+    },
+    {
+      "type": "type",
+      "text": "What are the tiny folds lining the small intestine called?",
+      "accept": [
+        "villi",
+        "villus"
+      ],
+      "explain": "Villi. They multiply the surface area available for absorption enormously.",
+      "objective": "Explain where nutrients are absorbed and why the small intestine is built for it"
+    },
+    {
+      "type": "truefalse",
+      "text": "Food passes directly through the liver on its way through the body.",
+      "answer": false,
+      "explain": "False. The liver sits off to the side and delivers bile into the small intestine. Food never enters it.",
+      "objective": "Describe the roles of the liver and pancreas in digestion"
+    },
+    {
+      "type": "multiple",
+      "text": "Why does the small intestine have such a folded lining?",
+      "options": [
+        "To increase the surface area for absorbing nutrients",
+        "To slow food down so it stays warm",
+        "To store waste before it leaves",
+        "To make acid more concentrated"
+      ],
+      "answerIndex": 0,
+      "explain": "Surface area is the whole design. More wall in contact with food means more absorption.",
+      "objective": "Explain where nutrients are absorbed and why the small intestine is built for it"
+    },
+    {
+      "type": "multiple",
+      "text": "You train hard but absorb very few nutrients. What happens to muscle growth?",
+      "options": [
+        "It stalls — training is the signal, food is the material",
+        "It continues normally",
+        "It speeds up because the body works harder",
+        "Nothing changes; muscle comes only from exercise"
+      ],
+      "answerIndex": 0,
+      "explain": "Training tells the body to build. Digestion supplies what it builds with. You need both.",
+      "objective": "Explain how food becomes the material your body is built from"
+    },
+    {
+      "type": "type",
+      "text": "What is the name for the muscular waves that push food along the tube?",
+      "accept": [
+        "peristalsis"
+      ],
+      "explain": "Peristalsis — and it's smooth muscle doing it, the involuntary type from Week 1.",
+      "objective": "Name the organs of the digestive tract in order"
+    },
+    {
+      "type": "truefalse",
+      "text": "The small intestine is longer than the large intestine.",
+      "answer": true,
+      "explain": "True. It's called 'small' because it's narrower, not shorter — six to seven metres against about one and a half.",
+      "objective": "Explain where nutrients are absorbed and why the small intestine is built for it"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 2 Science covers the digestive system, matching the Term 1 weekly scope. It opens by connecting back to Week 1 — bone and muscle are made of material that arrived through this tube — which gives the topic a reason to matter rather than a list to memorise. The interactive tract diagram is the same interaction pattern as the Week 1 skeleton, so no new interface has to be learned.",
+    "discussion": [
+      "Ask him to name the organs in order without looking. Order is the most commonly assessed part of this topic.",
+      "Ask why the small intestine is folded. If he says surface area, he understands the design principle rather than the fact.",
+      "Ask what the liver and pancreas have in common. Both deliver chemicals in without food ever passing through them.",
+      "Ask why hard training right after a big meal feels bad. It links this week to last week through blood flow."
+    ],
+    "extension": "Have him draw the tract from memory and label where mechanical digestion happens, where chemical digestion happens, and where absorption happens. Three colours, five minutes, and it exposes any gap immediately.",
+    "misconceptions": [
+      "'Food is inside your body once you swallow it.' The tract is a tube open at both ends. Nothing is truly inside until it is absorbed across the wall.",
+      "'The stomach absorbs nutrients.' Very little is absorbed there. The stomach breaks food down; the small intestine absorbs it.",
+      "'The large intestine is bigger overall.' It is wider but much shorter. Small refers to diameter.",
+      "'Gut bacteria are harmful.' Most are essential, and they produce vitamins the body cannot make on its own."
+    ]
+  }
+}

@@ -32,7 +32,8 @@
           "topics": [
             "Mouth, Esophagus, Stomach, Small & Large Intestines, Rectum & Anus"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "science/w2-digestive.json"
         },
         {
           "week": 3,
@@ -41,7 +42,8 @@
           "topics": [
             "Hair, Oil Gland, Sweat Gland, Epidermis, Dermis, Subcutaneous"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "science/w3-skin.json"
         },
         {
           "week": 4,
@@ -149,7 +151,8 @@
           "topics": [
             "Translation, reflection, and rotation with shapes"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "math/w2-transformations.json"
         },
         {
           "week": 3,
@@ -257,7 +260,8 @@
             "Singular and Plural Forms of Nouns",
             "Don Quixote Ch. 1: Getting Ready for Adventures"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "english/w1-nouns-quixote.json"
         },
         {
           "week": 2,

@@ -184,6 +184,20 @@
       "text": "Hexagons, no gaps, no wasted wall. Bees got here before mathematicians did."
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why do bees build hexagonal cells rather than square ones?",
+        "options": [
+          "Hexagons hold the most space for the least wall material",
+          "Hexagons are easier for bees to see",
+          "Squares leave gaps between cells"
+        ],
+        "answerIndex": 0,
+        "explain": "Squares tessellate perfectly well. Hexagons just do it with less wax for the same storage."
+      }
+    },
+    {
       "kind": "lens",
       "lens": "gaming",
       "icon": "🎮",
@@ -197,17 +211,30 @@
       ]
     },
     {
+      "kind": "lens",
+      "lens": "space",
+      "icon": "🪐",
+      "eyebrow": "Space mode",
+      "title": "You can't tile a sphere with hexagons alone",
+      "text": "Flat surfaces let hexagons tile forever. Curve the surface and it stops working.",
+      "points": [
+        "**A football is hexagons plus pentagons.** The pentagons force the curve.",
+        "**Exactly twelve pentagons**, no matter how big you make it.",
+        "**Geodesic domes and virus shells** obey the same rule."
+      ]
+    },
+    {
       "kind": "checkpoint",
       "question": {
         "type": "multiple",
-        "text": "Why do bees build hexagonal cells rather than square ones?",
+        "text": "Why does a football need pentagons as well as hexagons?",
         "options": [
-          "Hexagons hold the most space for the least wall material",
-          "Hexagons are easier for bees to see",
-          "Squares leave gaps between cells"
+          "Hexagons alone stay flat — pentagons force the curve",
+          "Pentagons are stronger than hexagons",
+          "It makes the ball easier to see"
         ],
         "answerIndex": 0,
-        "explain": "Squares tessellate perfectly well. Hexagons just do it with less wax for the same storage."
+        "explain": "Hexagons tile a flat plane perfectly, which is the problem. The twelve pentagons are what bend it into a sphere."
       }
     },
     {
