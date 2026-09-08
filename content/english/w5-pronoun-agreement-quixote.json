@@ -1,0 +1,477 @@
+{
+  "id": "eng-w5",
+  "courseId": "english",
+  "courseTitle": "English",
+  "week": 5,
+  "title": "Pronoun-Antecedent Agreement",
+  "subtitle": "Every pronoun points backwards. Make sure it points at one thing.",
+  "estMinutes": 20,
+  "objectives": [
+    "Define an antecedent and find it in a sentence",
+    "Match a pronoun to its antecedent in number",
+    "Use singular pronouns with indefinite pronouns like everyone and each",
+    "Handle compound antecedents joined by and, or and nor",
+    "Spot and repair an ambiguous antecedent",
+    "Retell Don Quixote Chapter 5 and explain the trick played on him"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🎯",
+      "eyebrow": "Part 1 · Agreement",
+      "title": "A pronoun is a word that points backwards",
+      "text": "Every *he*, *she*, *it*, *they* and *their* is pointing at a noun you already used. This week is about making sure it points cleanly."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The word",
+      "title": "The antecedent",
+      "text": "The noun a pronoun stands for is called its antecedent. *Ante* means before, which tells you where to look.",
+      "points": [
+        "**\"The car lost its grip.\"** *Car* is the antecedent of *its*.",
+        "**Find the pronoun, then look back.**",
+        "**If you cannot find it**, the sentence is broken.",
+        "**Ante = before.** The word carries its own instruction."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "antecedentArrow",
+      "eyebrow": "Try it",
+      "title": "Watch the arrow find the noun",
+      "text": "Four sentences. The last one is the problem you have to learn to spot."
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "A game cannot cope with a vague pronoun either",
+      "text": "Tell a game to \"move it\" and it needs to know exactly which thing *it* is. So does a reader.",
+      "points": [
+        "**A pronoun is a pointer** to something you already named.",
+        "**Point at two things** and nothing happens.",
+        "**Point at nothing** and it breaks.",
+        "**English has the same problem**, just quieter about it."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "What do we call the noun that a pronoun stands for?",
+        "accept": [
+          "antecedent",
+          "the antecedent",
+          "its antecedent"
+        ],
+        "explain": "The antecedent. Ante means before, so it is the noun that came earlier."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Rule 1",
+      "title": "Match the number",
+      "text": "One thing takes a singular pronoun. More than one takes a plural. That is the whole first rule.",
+      "points": [
+        "**The runner tied *his* laces.** One runner.",
+        "**The runners tied *their* laces.** More than one.",
+        "**Find the antecedent first.** Then count it.",
+        "**Most mistakes** are made by not looking back at all."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The trap",
+      "title": "Words that sound plural but are not",
+      "text": "These are the ones the exam uses. Every single one of them is grammatically singular.",
+      "points": [
+        "**everyone, everybody, someone, somebody**",
+        "**anyone, anybody, no one, nobody**",
+        "**each, either, neither, one**",
+        "**All singular.** Look at the *-one* and *-body* endings."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which sentence follows the traditional agreement rule?",
+        "options": [
+          "Everyone must bring his or her own equipment",
+          "Everyone must bring their own equipment",
+          "Everyone must bring our own equipment"
+        ],
+        "answerIndex": 0,
+        "explain": "Everyone is singular, so the strict rule wants a singular pronoun. Your exam will test this version."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Everybody in the gym is still singular",
+      "text": "A room full of people, and the grammar still counts it as one. That is what makes it a trap.",
+      "points": [
+        "**\"Everybody brought *his* own wraps.\"** Correct, strictly.",
+        "**\"Everybody brought *their* own wraps\"** is normal speech.",
+        "**Both are heard.** Only one gets the mark.",
+        "**Know the rule**, then choose to break it."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Rule 2",
+      "title": "Collective nouns are one thing",
+      "text": "A team, a class, a family, a crowd. Many people, but one group, so a singular pronoun.",
+      "points": [
+        "**The team celebrated *its* win.**",
+        "**The class finished *its* project.**",
+        "**Think of the group, not the members.**",
+        "**Say \"the team members\"** if you really need *their*."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which is correct?",
+        "options": [
+          "The class chose its captain",
+          "The class chose their captain",
+          "The class chose our captain"
+        ],
+        "answerIndex": 0,
+        "explain": "A class is one group, so it takes a singular pronoun. Same for team, family and crowd."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Rule 3",
+      "title": "Two nouns joined together",
+      "text": "It depends entirely on the joining word, and *or* behaves differently from *and*.",
+      "points": [
+        "**Joined by *and* → plural.** \"Ana and Ben packed *their* bags.\"",
+        "**Joined by *or* or *nor* → match the nearer one.**",
+        "**\"Neither the boys nor Ana brought *her* kit.\"**",
+        "**Nearest noun wins.** Reorder if it sounds odd."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🏎️",
+      "eyebrow": "Forza mode",
+      "title": "The pit wall gets this right by instinct",
+      "text": "Swap the order of two nouns and the pronoun has to change with it. Nothing else in the sentence moves.",
+      "points": [
+        "**\"Neither the driver nor the mechanics knew what *they* were doing.\"**",
+        "**\"Neither the mechanics nor the driver knew what *he* was doing.\"**",
+        "**Same people. Different pronoun.**",
+        "**Only the nearest noun matters.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Complete it: \"Neither the coaches nor the captain brought ___ notes.\"",
+        "options": [
+          "his",
+          "their",
+          "our"
+        ],
+        "answerIndex": 0,
+        "explain": "The nearer noun is captain, which is singular. Swap the order and it would become their."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Rule 4",
+      "title": "When the pronoun could mean either",
+      "text": "This one is not about number. It is about a sentence that has two possible antecedents and picks neither.",
+      "points": [
+        "**\"When Mario met Luis, *he* was tired.\"** Who was?",
+        "**Nothing in the sentence decides it.**",
+        "**Do not guess. Rewrite.**",
+        "**\"Mario was tired when he met Luis.\"** Fixed."
+      ]
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Grammar done. Part 2 is Chapter 5, where they burn his books and blame a wizard. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "📚",
+      "eyebrow": "Part 2 · Don Quixote",
+      "title": "Chapter 5: The Library",
+      "text": "He is carried home beaten. While he sleeps, the people who love him decide the books are to blame — and they act on it."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "What happens",
+      "title": "They put the books on trial",
+      "text": "The priest and the barber go through the library shelf by shelf. The housekeeper and the niece wait to carry them out.",
+      "points": [
+        "**The housekeeper sprinkles holy water first**, in case of enchanters.",
+        "**Each book is judged one at a time.**",
+        "**Most are thrown out of the window and burned.**",
+        "**They are trying to cure him** by removing the cause."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The detail everyone misses",
+      "title": "Some books are saved",
+      "text": "It is not a mindless bonfire. The priest argues for particular books and spares them, which tells you he has read them too.",
+      "points": [
+        "***Amadis of Gaul*** is kept — the first and best of its kind.",
+        "**Others are rescued for their language**, not their story.",
+        "**Cervantes even has the priest discuss his own novel.**",
+        "**The judges are fans.** That is the joke."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why do the priest and the barber burn most of the books?",
+        "options": [
+          "They believe the books caused Don Quixote's madness",
+          "They want to sell the shelves",
+          "The books belong to someone else",
+          "Don Quixote asked them to"
+        ],
+        "answerIndex": 0,
+        "explain": "They think the books are the disease. Removing them is meant to be the cure."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Then they brick up the door and blame a wizard",
+      "text": "They wall the library off and tell him an enchanter flew away with the whole room. He accepts it instantly.",
+      "points": [
+        "**The truth would have broken him.** The lie does not.",
+        "**It fits the story he is already living in.**",
+        "**Give a character an explanation that suits them** and they will take it.",
+        "**Useful when you write your own.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Why it matters",
+      "title": "The enchanter becomes his excuse for everything",
+      "text": "From here on, whenever reality disagrees with him, he has a ready answer. Enchanters did it.",
+      "points": [
+        "**An unbeatable explanation** cannot be argued with.",
+        "**That is exactly why it is a problem.**",
+        "**Nothing can ever prove him wrong now.**",
+        "**Cervantes hands him the tool** that keeps him mad."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Don Quixote is told the truth about what happened to his library.",
+        "answer": false,
+        "explain": "False. They wall the room up and tell him an enchanter carried it off. He believes it at once."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "antecedent", "def": "The noun a pronoun stands for. Ante means before, so look back for it." },
+        { "term": "agreement", "def": "A pronoun matching its antecedent in number and person." },
+        { "term": "indefinite pronoun", "def": "Words like everyone, each, somebody, nobody. Nearly all are singular." },
+        { "term": "collective noun", "def": "One word for a group: team, class, family, crowd. It takes a singular pronoun." },
+        { "term": "compound antecedent", "def": "Two nouns joined. And makes it plural; or and nor match the nearer one." },
+        { "term": "ambiguous antecedent", "def": "A pronoun that could point at two different nouns. Rewrite the sentence." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Find the antecedent first.** Then count it.",
+        "**Everyone, each, nobody** — all singular, however they sound.",
+        "**And = plural. Or and nor = the nearer noun wins.**",
+        "**Two possible antecedents?** Rewrite, never guess."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "type",
+      "text": "What is the name for the noun that a pronoun refers back to?",
+      "accept": [
+        "antecedent",
+        "the antecedent",
+        "its antecedent"
+      ],
+      "explain": "The antecedent. It comes before the pronoun, which is exactly what the word means.",
+      "objective": "Define an antecedent and find it in a sentence"
+    },
+    {
+      "type": "multiple",
+      "text": "In \"The engine lost its power\", what is the antecedent of \"its\"?",
+      "options": [
+        "engine",
+        "power",
+        "lost",
+        "The"
+      ],
+      "answerIndex": 0,
+      "explain": "Engine. It is the noun that its stands for, and it comes before the pronoun.",
+      "objective": "Define an antecedent and find it in a sentence"
+    },
+    {
+      "type": "multiple",
+      "text": "Which sentence agrees correctly?",
+      "options": [
+        "The players collected their medals",
+        "The players collected its medals",
+        "The player collected their medal",
+        "The players collected his medals"
+      ],
+      "answerIndex": 0,
+      "explain": "Players is plural, so the pronoun must be plural too. Their is the match.",
+      "objective": "Match a pronoun to its antecedent in number"
+    },
+    {
+      "type": "multiple",
+      "text": "Which of these is grammatically SINGULAR?",
+      "options": [
+        "everybody",
+        "both",
+        "many",
+        "several"
+      ],
+      "answerIndex": 0,
+      "explain": "Everybody, despite meaning a lot of people. Both, many and several are all plural.",
+      "objective": "Use singular pronouns with indefinite pronouns like everyone and each"
+    },
+    {
+      "type": "multiple",
+      "text": "Complete it: \"Each of the boys brought ___ own gloves.\"",
+      "options": [
+        "his",
+        "their",
+        "our",
+        "its"
+      ],
+      "answerIndex": 0,
+      "explain": "Each is singular, so it takes a singular pronoun. The phrase of the boys does not change that.",
+      "objective": "Use singular pronouns with indefinite pronouns like everyone and each"
+    },
+    {
+      "type": "multiple",
+      "text": "Which is correct?",
+      "options": [
+        "The team lost its opening match",
+        "The team lost their opening match",
+        "The team lost our opening match",
+        "The team lost his opening match"
+      ],
+      "answerIndex": 0,
+      "explain": "A team is one group, so it takes its. Say the team members if you want their.",
+      "objective": "Match a pronoun to its antecedent in number"
+    },
+    {
+      "type": "multiple",
+      "text": "Complete it: \"Maya and Kiko finished ___ project early.\"",
+      "options": [
+        "their",
+        "her",
+        "his",
+        "its"
+      ],
+      "answerIndex": 0,
+      "explain": "Two nouns joined by and make a plural antecedent, so the pronoun is their.",
+      "objective": "Handle compound antecedents joined by and, or and nor"
+    },
+    {
+      "type": "multiple",
+      "text": "Complete it: \"Neither the students nor the teacher had ___ book.\"",
+      "options": [
+        "her",
+        "their",
+        "our",
+        "its"
+      ],
+      "answerIndex": 0,
+      "explain": "With nor, the pronoun matches the nearer noun. Teacher is singular and sits closest.",
+      "objective": "Handle compound antecedents joined by and, or and nor"
+    },
+    {
+      "type": "multiple",
+      "text": "Why is \"When Ravi called Dan, he was angry\" a problem?",
+      "options": [
+        "He could mean either Ravi or Dan",
+        "He should be plural",
+        "Called is the wrong tense",
+        "There is no antecedent at all"
+      ],
+      "answerIndex": 0,
+      "explain": "Two possible antecedents and nothing to choose between them. Rewrite it rather than guessing.",
+      "objective": "Spot and repair an ambiguous antecedent"
+    },
+    {
+      "type": "multiple",
+      "text": "Who goes through Don Quixote's library and burns most of it?",
+      "options": [
+        "The priest and the barber",
+        "Sancho Panza and the innkeeper",
+        "The merchants from Chapter 4",
+        "Don Quixote himself"
+      ],
+      "answerIndex": 0,
+      "explain": "The priest and the barber, with the housekeeper and the niece carrying the books out.",
+      "objective": "Retell Don Quixote Chapter 5 and explain the trick played on him"
+    },
+    {
+      "type": "multiple",
+      "text": "What is Don Quixote told happened to his library?",
+      "options": [
+        "An enchanter carried the whole room away",
+        "It burned down by accident",
+        "He sold it before he left",
+        "Thieves took the books in the night"
+      ],
+      "answerIndex": 0,
+      "explain": "They brick up the doorway and blame an enchanter. He accepts it immediately.",
+      "objective": "Retell Don Quixote Chapter 5 and explain the trick played on him"
+    },
+    {
+      "type": "truefalse",
+      "text": "Every single book in Don Quixote's library is burned.",
+      "answer": false,
+      "explain": "False. The priest argues for several and saves them, including Amadis of Gaul.",
+      "objective": "Retell Don Quixote Chapter 5 and explain the trick played on him"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 5 English covers pronoun-antecedent agreement alongside Don Quixote Chapter 5, matching the Term 1 weekly scope. The grammar half is sequenced by difficulty: find the antecedent, match the number, then the three cases that break a learner's instincts — indefinite pronouns, collective nouns, and compound antecedents joined by or and nor. The antecedentArrow figure exists for the ambiguous case: two arrows leaving one pronoun makes the fault visible in a way that the phrase 'unclear antecedent' does not. The literature half is chosen to link back: the chapter turns on who 'they' refers to, and on a lie that Don Quixote accepts because it suits the story he is already in.",
+    "discussion": [
+      "Ask him to find every pronoun in one paragraph of his own writing and name each antecedent. Ambiguous ones surface immediately.",
+      "Note that 'everyone brought their own kit' is what everybody actually says. The exam wants the strict rule; knowing both is the useful position.",
+      "Ask why the priest saves some books. It moves the chapter from 'they burned his books' to something more interesting.",
+      "Ask whether the enchanter lie was kind. There is a real argument on both sides and no answer key."
+    ],
+    "extension": "Give him four sentences with ambiguous pronouns and ask him to rewrite each one two ways, so that it means something different each time. Producing both readings proves he can see the ambiguity rather than just being told it is there.",
+    "misconceptions": [
+      "'Everyone is plural because it means lots of people.' It is grammatically singular. So are each, either, neither, somebody and nobody.",
+      "'A team takes their.' A collective noun is one group and takes a singular pronoun. The team members takes their.",
+      "'With or and nor, just use plural.' The pronoun matches whichever noun is nearer, so the order of the sentence changes the answer.",
+      "'They burned all his books.' The priest saves several by name, which is part of the joke."
+    ]
+  }
+}

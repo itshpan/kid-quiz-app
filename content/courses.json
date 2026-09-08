@@ -307,7 +307,8 @@
             "Pronoun antecedent agreement",
             "Don Quixote Ch. 5: The Library"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "english/w5-pronoun-agreement-quixote.json"
         },
         {
           "week": 6,

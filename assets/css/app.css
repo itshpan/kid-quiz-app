@@ -883,6 +883,16 @@ strong { font-weight: 700; color: var(--ink); }
 .fig-chamber { font-family: var(--font-ui); font-size: 11px; fill: var(--ink-soft); }
 .fig-chamber-strong { font-weight: 800; fill: var(--ink); }
 
+/* ---------- Antecedent arrow figure ---------- */
+/* Monospace so word positions can be computed rather than measured, which is
+   what lets the arrows land on the right words at any text size. */
+.fig-sent    { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 15px; fill: var(--ink); }
+.fig-sent-hi { font-weight: 700; fill: var(--accent); }
+.fig-point   { fill: none; stroke: var(--accent); stroke-width: 2.2; }
+.fig-point-h { fill: var(--accent); }
+.fig-point.faint   { stroke: var(--ink-faint); stroke-dasharray: 4 3; }
+.fig-point-h.faint { fill: var(--ink-faint); }
+
 /* ---------- Sign-in flow ---------- */
 /* Two named steps, so it's always obvious where you are and what's left. */
 .signin-steps {

@@ -1594,6 +1594,105 @@ function decimalPlaces() {
     };
 }
 
+/* ---------- Antecedent arrows ---------- */
+/* Agreement is a relationship between two words, and a relationship is the
+   thing prose describes worst. The ambiguous case is the reason the figure
+   exists: two arrows leaving one pronoun is instantly wrong in a way that
+   "the antecedent is unclear" never is. */
+function antecedentArrow() {
+    const CH = 9;      // width of one character at 15px in this monospace stack
+    const X0 = 16, BASE = 74, TOP = 52;
+
+    const CASES = [
+        { btn: 'Singular', words: ['The', 'team', 'celebrated', 'its', 'win.'],
+          ant: [1], pro: 3,
+          note: 'Singular noun, singular pronoun.',
+          sub: 'A team is one thing, so it takes "its", not "their".' },
+        { btn: 'Plural', words: ['The', 'fighters', 'tightened', 'their', 'wraps.'],
+          ant: [1], pro: 3,
+          note: 'Plural noun, plural pronoun.',
+          sub: 'Two or more, so "their". This one is easy.' },
+        { btn: 'The trap', words: ['Everybody', 'brought', 'his', 'own', 'wraps.'],
+          ant: [0], pro: 2,
+          note: 'Everybody is singular. It only sounds plural.',
+          sub: 'Every-, any-, some- and no- words are all singular.' },
+        { btn: 'Ambiguous', words: ['When', 'Mario', 'met', 'Luis,', 'he', 'was', 'tired.'],
+          ant: [1, 3], pro: 4,
+          note: 'Two possible antecedents. Who is "he"?',
+          sub: 'Nothing in the sentence decides it. Rewrite, do not guess.' }
+    ];
+
+    // Word positions come from character counts, so the arrows land correctly
+    // without having to measure rendered text.
+    const layout = words => {
+        const out = [];
+        let x = X0;
+        for (const w of words) {
+            out.push({ w, x, mid: x + (w.length * CH) / 2 });
+            x += (w.length + 1) * CH;
+        }
+        return out;
+    };
+
+    return {
+        svg: `
+<svg viewBox="0 0 400 146" role="img" aria-labelledby="aaT">
+  <title id="aaT">A sentence with an arrow drawn from each pronoun back to the noun it stands for</title>
+  <text class="fig-label" x="16" y="20">A PRONOUN POINTS BACKWARDS</text>
+  <g id="aaScene"></g>
+  <text class="fig-note fig-note-key" id="aaNote" x="16" y="112">&#160;</text>
+  <text class="fig-note"              id="aaSub"  x="16" y="132">&#160;</text>
+</svg>`,
+
+        bind(root) {
+            const bar = document.createElement('div');
+            bar.className = 'fig-switch';
+            bar.innerHTML = CASES.map((c, i) =>
+                `<button data-i="${i}" aria-pressed="${i === 0}">${c.btn}</button>`).join('');
+            root.appendChild(bar);
+
+            const scene = root.querySelector('#aaScene');
+            const note = root.querySelector('#aaNote');
+            const sub = root.querySelector('#aaSub');
+
+            const show = n => {
+                const c = CASES[n];
+                const pos = layout(c.words);
+                const hi = new Set([...c.ant, c.pro]);
+                // Two arrows off one pronoun is the ambiguous case: draw both
+                // faint and dashed, because neither of them is the answer.
+                const unsure = c.ant.length > 1;
+                const px = pos[c.pro].mid;
+
+                const arcs = c.ant.map(i => {
+                    const ax = pos[i].mid;
+                    const h = Math.min(34, Math.abs(px - ax) / 2 + 12);
+                    const k = unsure ? ' faint' : '';
+                    return `<path class="fig-point${k}" d="M${px} ${TOP} C${px} ${TOP - h} ${ax} ${TOP - h} ${ax} ${TOP}"/>
+                            <path class="fig-point-h${k}" d="M-5 -9 L0 0 L5 -9 Z" transform="translate(${ax},${TOP + 1})"/>`;
+                }).join('');
+
+                scene.innerHTML = arcs
+                    + pos.map((p, i) => `<text class="fig-sent${hi.has(i) ? ' fig-sent-hi' : ''}" x="${p.x}" y="${BASE}">${p.w}</text>`).join('')
+                    // Under the pronoun, not above it: the arcs and the figure
+                    // label both live in the space overhead.
+                    + (unsure ? `<text class="fig-sent fig-sent-hi" x="${px - 4}" y="${BASE + 18}">?</text>` : '');
+
+                note.textContent = c.note;
+                sub.textContent = c.sub;
+                bar.querySelectorAll('button').forEach((b, j) =>
+                    b.setAttribute('aria-pressed', String(j === n)));
+            };
+
+            bar.addEventListener('click', e => {
+                const b = e.target.closest('button');
+                if (b) show(Number(b.dataset.i));
+            });
+            show(0);
+        }
+    };
+}
+
 export const FIGURES = {
     crumpleZone,
     muscleTypes,
@@ -1616,7 +1715,8 @@ export const FIGURES = {
     roadTo1872,
     heartLoop,
     reflexArc,
-    decimalPlaces
+    decimalPlaces,
+    antecedentArrow
 };
 
 
