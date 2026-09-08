@@ -1,0 +1,369 @@
+{
+  "id": "ss-w10",
+  "courseId": "social-studies",
+  "courseTitle": "Social Studies",
+  "week": 10,
+  "title": "Social Changes Under American Rule",
+  "subtitle": "Schools, English, basketball, hospitals. Some of it you are still living inside.",
+  "estMinutes": 20,
+  "objectives": [
+    "Describe the public school system set up in 1901",
+    "Explain who the Thomasites were",
+    "Explain how English became a language of the Philippines",
+    "Describe changes in public health and in the position of the Church",
+    "Weigh benefits against costs without flattening either"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🏫",
+      "eyebrow": "Part 1 · The school system",
+      "title": "The change you can still see from your desk",
+      "text": "Act No. 74, passed in January 1901, created free primary schools across the islands. It is why school looks the way it does."
+    },
+    {
+      "kind": "figure",
+      "figure": "americanChanges",
+      "eyebrow": "Six changes",
+      "title": "What changed in daily life",
+      "text": "Tap each one. Every item here appears somewhere in the quiz."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Why schools first",
+      "title": "It was policy, not generosity",
+      "text": "The Americans believed a colony that could read English would be easier to govern and easier to trade with.",
+      "points": [
+        "**Free primary education** for every child.",
+        "**Teachers were needed** in enormous numbers.",
+        "**Soldiers taught first**, before the teachers arrived.",
+        "**A real benefit** with a clear purpose behind it."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What did Act No. 74 of 1901 create?",
+        "options": [
+          "A free public primary school system",
+          "The Philippine Assembly",
+          "A national army",
+          "The Philippine Independent Church"
+        ],
+        "answerIndex": 0,
+        "explain": "Free primary education across the islands. The largest and most lasting change of the period."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "August 1901",
+      "title": "The Thomasites",
+      "text": "About five hundred American teachers sailed to Manila on a ship called the USS Thomas. The name stuck to them.",
+      "points": [
+        "**They were teachers**, not soldiers.",
+        "**They were sent to towns** all over the country.",
+        "**Many died** of disease within a few years.",
+        "**They trained Filipino teachers** who then taught."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "A group named after a boat",
+      "text": "Nobody chose the name Thomasites. It came from the ship, the way a nickname comes from something that happened once.",
+      "points": [
+        "**The USS Thomas** carried the first big group.",
+        "**The name outlived the ship** by a century.",
+        "**Names in history stick by accident** all the time.",
+        "**Katipunan, Thomasite, Propaganda** — all borrowed."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Who were the Thomasites?",
+        "options": [
+          "American teachers who arrived in 1901 on the USS Thomas",
+          "American soldiers who fought at Tirad Pass",
+          "Filipino priests who left the Catholic Church",
+          "Members of the Philippine Commission"
+        ],
+        "answerIndex": 0,
+        "explain": "About five hundred teachers, named after the ship that brought them."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Halfway",
+      "text": "Part 2 is language, health, church and sport. Get a drink first."
+    },
+    {
+      "kind": "open",
+      "icon": "🗣️",
+      "eyebrow": "Part 2 · Language and everything else",
+      "title": "English replaced Spanish in the classroom",
+      "text": "Within a generation, the language of school, government and courts had changed. That decision reaches into your life directly."
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "You are reading this because of 1901",
+      "text": "Filipino gamers play, stream and argue in English with almost no friction. That is a direct result of the school policy.",
+      "points": [
+        "**English became the language of instruction.**",
+        "**It is still an official language today.**",
+        "**It opened work**, from call centres to shipping.",
+        "**It also pushed Spanish out** almost completely."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Public health",
+      "title": "Hospitals, vaccines, and a very bad year",
+      "text": "The Americans built hospitals, ran vaccination drives and set up sanitation systems. They also arrived with new diseases.",
+      "points": [
+        "**Smallpox vaccination** reached most provinces.",
+        "**The cholera epidemic of 1902** killed tens of thousands.",
+        "**Quarantine was often enforced** by force.",
+        "**Health improved overall** across the period."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Public health under American rule improved steadily with no serious setbacks.",
+        "answer": false,
+        "explain": "False. Hospitals and vaccination helped, but the 1902 cholera epidemic killed tens of thousands."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The Church",
+      "title": "Separation of church and state",
+      "text": "Spanish friars had held land and political power for centuries. Under American rule they lost both.",
+      "points": [
+        "**The friar lands were bought** and resold.",
+        "**Priests no longer ran local government.**",
+        "**The Philippine Independent Church** was founded in 1902.",
+        "**Aglipay led it.** It still exists today."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Sport mode",
+      "title": "Basketball arrived with the teachers",
+      "text": "American teachers and soldiers brought the game as school PE. It became the most popular sport in the country and stayed.",
+      "points": [
+        "**Introduced through schools**, not through clubs.",
+        "**The Philippines has played it** for over a century.",
+        "**Boxing grew in the same period** through the US bases.",
+        "**Colonies leave sport behind** long after they leave."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "How to hold it",
+      "title": "Both columns are real",
+      "text": "You do not have to choose between 'the Americans built schools' and 'the Americans took the country'. Both happened.",
+      "points": [
+        "**Free schools reached millions.**",
+        "**The war before them killed far more.**",
+        "**A benefit does not cancel a cost.**",
+        "**Say both, in that order, and you are right.**"
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "Act No. 74", "def": "The 1901 law creating free public primary schools." },
+        { "term": "Thomasites", "def": "About 500 American teachers who arrived in August 1901 on the USS Thomas." },
+        { "term": "language of instruction", "def": "The language school is taught in. It changed from Spanish to English." },
+        { "term": "friar lands", "def": "Estates held by Spanish religious orders, bought and resold under American rule." },
+        { "term": "Philippine Independent Church", "def": "Founded in 1902 under Gregorio Aglipay. Also called the Aglipayan Church." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Act No. 74, 1901:** free public schools.",
+        "**Thomasites, August 1901**, named after their ship.",
+        "**English became the school language** and stayed.",
+        "**Benefits and costs are both real.** Hold both."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "What did Act No. 74 of 1901 establish?",
+      "options": [
+        "A free public primary school system",
+        "An elected assembly",
+        "A national police force",
+        "The Philippine Independent Church"
+      ],
+      "answerIndex": 0,
+      "explain": "Free primary education across the islands, and the most lasting change of the period.",
+      "objective": "Describe the public school system set up in 1901"
+    },
+    {
+      "type": "multiple",
+      "text": "Why did the Americans prioritise schools?",
+      "options": [
+        "They believed an English-reading colony would be easier to govern and trade with",
+        "Filipinos had never had schools before",
+        "Congress ordered it as a punishment",
+        "It was cheaper than any other policy"
+      ],
+      "answerIndex": 0,
+      "explain": "It was a real benefit with a clear political purpose behind it. Both things are true.",
+      "objective": "Describe the public school system set up in 1901"
+    },
+    {
+      "type": "multiple",
+      "text": "Who were the Thomasites?",
+      "options": [
+        "American teachers who arrived in August 1901",
+        "American generals in the war",
+        "Filipino members of the Assembly",
+        "Spanish friars who stayed"
+      ],
+      "answerIndex": 0,
+      "explain": "About five hundred teachers, sent to towns across the country.",
+      "objective": "Explain who the Thomasites were"
+    },
+    {
+      "type": "multiple",
+      "text": "Where does the name Thomasite come from?",
+      "options": [
+        "The USS Thomas, the ship that carried them",
+        "Their leader, Thomas Taft",
+        "A town called Thomas",
+        "Saint Thomas University"
+      ],
+      "answerIndex": 0,
+      "explain": "The name came from the ship and outlived it by more than a century.",
+      "objective": "Explain who the Thomasites were"
+    },
+    {
+      "type": "truefalse",
+      "text": "American soldiers taught in Philippine schools before the Thomasites arrived.",
+      "answer": true,
+      "explain": "True. Soldiers were the first teachers, until trained teachers could be brought over.",
+      "objective": "Explain who the Thomasites were"
+    },
+    {
+      "type": "multiple",
+      "text": "Which language replaced Spanish as the language of instruction?",
+      "options": [
+        "English",
+        "Tagalog",
+        "Latin",
+        "Cebuano"
+      ],
+      "answerIndex": 0,
+      "explain": "Within a generation the language of school, government and the courts had changed.",
+      "objective": "Explain how English became a language of the Philippines"
+    },
+    {
+      "type": "multiple",
+      "text": "What is one lasting effect of the language policy?",
+      "options": [
+        "English is still an official language of the Philippines",
+        "Spanish is still spoken by most Filipinos",
+        "Filipino was banned permanently",
+        "Schools stopped teaching local languages entirely"
+      ],
+      "answerIndex": 0,
+      "explain": "It also pushed Spanish out almost completely, which was not an accident.",
+      "objective": "Explain how English became a language of the Philippines"
+    },
+    {
+      "type": "multiple",
+      "text": "What happened to public health under American rule?",
+      "options": [
+        "It improved overall, but a cholera epidemic in 1902 killed tens of thousands",
+        "It got worse every single year",
+        "Nothing changed at all",
+        "All disease was eliminated"
+      ],
+      "answerIndex": 0,
+      "explain": "Hospitals, sanitation and vaccination helped. The 1902 epidemic was still devastating.",
+      "objective": "Describe changes in public health and in the position of the Church"
+    },
+    {
+      "type": "multiple",
+      "text": "What happened to the Spanish friars' land?",
+      "options": [
+        "It was bought by the government and resold",
+        "It was returned to Spain",
+        "It was left untouched",
+        "It was given to the American army"
+      ],
+      "answerIndex": 0,
+      "explain": "The friars lost their estates and their political role in local government.",
+      "objective": "Describe changes in public health and in the position of the Church"
+    },
+    {
+      "type": "multiple",
+      "text": "What was founded in 1902 under Gregorio Aglipay?",
+      "options": [
+        "The Philippine Independent Church",
+        "The Philippine Assembly",
+        "The Katipunan",
+        "The Thomasites"
+      ],
+      "answerIndex": 0,
+      "explain": "The Aglipayan Church, a Filipino church separate from Rome. It still exists.",
+      "objective": "Describe changes in public health and in the position of the Church"
+    },
+    {
+      "type": "multiple",
+      "text": "How did basketball reach the Philippines?",
+      "options": [
+        "American teachers and soldiers introduced it through schools",
+        "Spanish friars brought it in the 1800s",
+        "It was invented in Manila",
+        "It arrived after independence in 1946"
+      ],
+      "answerIndex": 0,
+      "explain": "It came in as school PE and became the most popular sport in the country.",
+      "objective": "Weigh benefits against costs without flattening either"
+    },
+    {
+      "type": "truefalse",
+      "text": "Because the Americans built schools, the costs of the colonial period cancel out.",
+      "answer": false,
+      "explain": "False. A benefit does not cancel a cost. Both are real and both belong in the answer.",
+      "objective": "Weigh benefits against costs without flattening either"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 10 closes the Term 1 Social Studies arc with the social changes of American rule, matching the weekly scope. The hard part of this topic is not the facts, which are straightforward, but the judgement: the schools were a genuine and enormous benefit, and they followed a war with a civilian death toll in the hundreds of thousands. The lesson refuses to resolve that for him. The final idea card gives him an explicit sentence pattern — both, in that order — so that he has something to actually write in an exam rather than a mood. The language card ties the policy directly to his own daily life, which is the fastest way to make 1901 feel present.",
+    "discussion": [
+      "Ask what changes in his own week if English had not become the school language.",
+      "Ask why a colonial government would want its subjects literate.",
+      "Ask him to name one benefit and one cost of the period and say both in one sentence.",
+      "Ask which of the six changes he thinks is most visible in the Philippines today."
+    ],
+    "extension": "Have him find three things in his own day — a sport, a word, a school habit — that trace back to this period, and write one line on each. He should be able to defend the link.",
+    "misconceptions": [
+      "'Filipinos had no schools before 1901.' There were Spanish-era schools, but they were not free and not universal.",
+      "'The Thomasites were soldiers.' They were civilian teachers, named after the ship that carried them.",
+      "'American rule was purely beneficial.' The schools followed a war with an enormous civilian death toll.",
+      "'American rule was purely destructive.' The school system reached millions and still shapes the country."
+    ]
+  }
+}

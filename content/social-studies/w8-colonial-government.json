@@ -1,0 +1,376 @@
+{
+  "id": "ss-w8",
+  "courseId": "social-studies",
+  "courseTitle": "Social Studies",
+  "week": 8,
+  "title": "American Colonial Government",
+  "subtitle": "Soldiers first, then civilians, then a legislature. Each step was smaller than it sounds.",
+  "estMinutes": 20,
+  "objectives": [
+    "Describe the stages from military to civil government",
+    "Explain what the Taft Commission could do that the first one could not",
+    "Describe the Philippine Bill of 1902",
+    "Explain what the Philippine Assembly was and what limited it",
+    "Explain the idea of a government that trains its own replacement"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🏛️",
+      "eyebrow": "Part 1 · Who was in charge",
+      "title": "For three years, the answer was generals",
+      "text": "From August 1898 the Philippines was run by the US Army. Three military governors, one after another, with no elections at all."
+    },
+    {
+      "kind": "figure",
+      "figure": "colonialGov",
+      "eyebrow": "Six stages",
+      "title": "1898 to 1907",
+      "text": "Tap each year. The dates and the order are both examinable."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The two commissions",
+      "title": "One could talk. One could legislate.",
+      "text": "The Schurman Commission of 1899 could investigate and report. The Taft Commission of 1900 could actually make law.",
+      "points": [
+        "**Advisory** means you write a recommendation.",
+        "**Legislative** means you write the rule itself.",
+        "**Taft got law-making power** in September 1900.",
+        "**That is the whole difference** between the two."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What could the Taft Commission do that the Schurman Commission could not?",
+        "options": [
+          "Make laws",
+          "Travel to the provinces",
+          "Write a report",
+          "Speak to Filipinos"
+        ],
+        "answerIndex": 0,
+        "explain": "Schurman was advisory. Taft held actual legislative power from September 1900."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Permissions, not job titles",
+      "text": "A moderator can mute you. A player can only report you. Same server, completely different power.",
+      "points": [
+        "**Always ask what a body can actually do.**",
+        "**Not what it is called.**",
+        "**Advisory bodies look important** and change nothing.",
+        "**Follow the permissions.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "4 July 1901",
+      "title": "Civil government begins",
+      "text": "William Howard Taft became the first Civil Governor. The date was chosen deliberately: American Independence Day.",
+      "points": [
+        "**The army stopped governing** the pacified areas.",
+        "**Fighting continued** in provinces that were not pacified.",
+        "**Taft called Filipinos his 'little brown brothers'.**",
+        "**He meant it kindly.** Look at what it assumes."
+      ]
+    },
+    {
+      "kind": "break",
+      "title": "Halfway",
+      "text": "Part 2 is the 1902 Bill and the elected Assembly. Stretch first if you need it."
+    },
+    {
+      "kind": "open",
+      "icon": "📜",
+      "eyebrow": "Part 2 · Filipinos in government",
+      "title": "The Philippine Bill of 1902",
+      "text": "The US Congress passed a law setting out how the colony would be run. It also said what Filipinos would eventually be allowed."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "What it promised",
+      "title": "Three things, all conditional",
+      "text": "The bill offered a bill of rights, an elected assembly and two Filipino representatives in Washington.",
+      "points": [
+        "**A bill of rights**, but no jury trial.",
+        "**An elected assembly**, once a census was taken.",
+        "**Two resident commissioners** who could speak, not vote.",
+        "**The Assembly waited five years** for those conditions."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What could the two Filipino resident commissioners in Washington do?",
+        "options": [
+          "Speak in Congress but not vote",
+          "Vote on any American law",
+          "Veto American decisions",
+          "Nothing at all"
+        ],
+        "answerIndex": 0,
+        "explain": "They had a voice and no vote. That distinction is the point of the whole week."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "16 October 1907",
+      "title": "The Philippine Assembly opens",
+      "text": "It was the first elected Filipino legislative body. Sergio Osmena was its Speaker, at twenty-nine years old.",
+      "points": [
+        "**Filipinos made law** for the first time under the Americans.",
+        "**The Philippine Commission** was the upper house.",
+        "**The Commission could block anything** the Assembly passed.",
+        "**Only about 1.4 percent** of Filipinos could vote."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "You can win rounds and still lose the fight",
+      "text": "The Assembly could pass whatever it liked. The American-controlled upper house could refuse it, and did.",
+      "points": [
+        "**Real elections. Real debates. Real speeches.**",
+        "**A veto above all of it.**",
+        "**Both things are true at once.**",
+        "**That is what limited self-government means.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "The Philippine Assembly could pass laws without American approval.",
+        "answer": false,
+        "explain": "False. The American-controlled Philippine Commission sat above it and could block any bill."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "The phrase they used was 'benevolent assimilation'",
+      "text": "It meant: we are here for your own good, and we will hand it back when you are ready. Somebody else decided when ready was.",
+      "points": [
+        "**Every stage was real** and every stage was granted.",
+        "**Nothing was taken.** Everything was given.",
+        "**Whoever grants a right** can also delay it.",
+        "**Notice who holds the timetable.**"
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "military government",
+          "def": "August 1898 to July 1901. Three American generals governed in turn."
+        },
+        {
+          "term": "Taft Commission",
+          "def": "The Second Philippine Commission, 1900. It held law-making power."
+        },
+        {
+          "term": "Civil Governor",
+          "def": "The head of civil government from 4 July 1901. Taft was the first."
+        },
+        {
+          "term": "Philippine Bill of 1902",
+          "def": "Promised a bill of rights, an elected assembly and two resident commissioners."
+        },
+        {
+          "term": "resident commissioner",
+          "def": "A Filipino delegate in the US Congress. Could speak, could not vote."
+        },
+        {
+          "term": "Philippine Assembly",
+          "def": "The first elected Filipino legislature, opened 16 October 1907."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Military 1898, civil 1901, Assembly 1907.**",
+        "**Schurman advised. Taft legislated.**",
+        "**The 1902 Bill** promised rights with conditions attached.",
+        "**The Assembly was real** and it could be overruled."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Who governed the Philippines from August 1898 to July 1901?",
+      "options": [
+        "American military governors",
+        "An elected Filipino assembly",
+        "The Spanish Governor-General",
+        "The Schurman Commission"
+      ],
+      "answerIndex": 0,
+      "explain": "Three military governors in turn: Merritt, Otis, then Arthur MacArthur.",
+      "objective": "Describe the stages from military to civil government"
+    },
+    {
+      "type": "multiple",
+      "text": "When did civil government begin?",
+      "options": [
+        "4 July 1901",
+        "16 October 1907",
+        "1 September 1900",
+        "1 July 1902"
+      ],
+      "answerIndex": 0,
+      "explain": "American Independence Day, chosen deliberately. Taft became the first Civil Governor.",
+      "objective": "Describe the stages from military to civil government"
+    },
+    {
+      "type": "multiple",
+      "text": "Who was the first Civil Governor of the Philippines?",
+      "options": [
+        "William Howard Taft",
+        "Jacob Schurman",
+        "Arthur MacArthur",
+        "Sergio Osmena"
+      ],
+      "answerIndex": 0,
+      "explain": "Taft, from 4 July 1901. He later became President of the United States.",
+      "objective": "Describe the stages from military to civil government"
+    },
+    {
+      "type": "multiple",
+      "text": "What power did the Taft Commission hold from September 1900?",
+      "options": [
+        "Legislative power to make laws",
+        "Advisory power only",
+        "Command of the army",
+        "The power to grant independence"
+      ],
+      "answerIndex": 0,
+      "explain": "That is the difference between it and the Schurman Commission, which could only report.",
+      "objective": "Explain what the Taft Commission could do that the first one could not"
+    },
+    {
+      "type": "truefalse",
+      "text": "The Schurman Commission could pass laws for the Philippines.",
+      "answer": false,
+      "explain": "False. It was advisory. It investigated and reported, and that was all.",
+      "objective": "Explain what the Taft Commission could do that the first one could not"
+    },
+    {
+      "type": "multiple",
+      "text": "Which of these did the Philippine Bill of 1902 promise?",
+      "options": [
+        "An elected assembly once a census was taken",
+        "Immediate independence",
+        "A Filipino president",
+        "The removal of all American troops"
+      ],
+      "answerIndex": 0,
+      "explain": "It promised a bill of rights, an elected assembly with conditions, and two resident commissioners.",
+      "objective": "Describe the Philippine Bill of 1902"
+    },
+    {
+      "type": "multiple",
+      "text": "What could the resident commissioners do in the US Congress?",
+      "options": [
+        "Speak but not vote",
+        "Vote on all bills",
+        "Veto laws about the Philippines",
+        "Elect the Civil Governor"
+      ],
+      "answerIndex": 0,
+      "explain": "A voice without a vote. It is the pattern of the whole period.",
+      "objective": "Describe the Philippine Bill of 1902"
+    },
+    {
+      "type": "multiple",
+      "text": "When did the Philippine Assembly open?",
+      "options": [
+        "16 October 1907",
+        "4 July 1901",
+        "1 July 1902",
+        "23 March 1901"
+      ],
+      "answerIndex": 0,
+      "explain": "Five years after the 1902 Bill promised it. The census had to come first.",
+      "objective": "Explain what the Philippine Assembly was and what limited it"
+    },
+    {
+      "type": "multiple",
+      "text": "Who was Speaker of the first Philippine Assembly?",
+      "options": [
+        "Sergio Osmena",
+        "Manuel Quezon",
+        "Emilio Aguinaldo",
+        "Apolinario Mabini"
+      ],
+      "answerIndex": 0,
+      "explain": "Osmena, at twenty-nine. He later became President of the Commonwealth.",
+      "objective": "Explain what the Philippine Assembly was and what limited it"
+    },
+    {
+      "type": "multiple",
+      "text": "What limited the Philippine Assembly's power?",
+      "options": [
+        "The American-controlled Commission sat above it as an upper house",
+        "It was not allowed to meet",
+        "Its members were appointed, not elected",
+        "It had no Speaker"
+      ],
+      "answerIndex": 0,
+      "explain": "It was genuinely elected and genuinely legislative, and any bill could be blocked above it.",
+      "objective": "Explain what the Philippine Assembly was and what limited it"
+    },
+    {
+      "type": "truefalse",
+      "text": "Most Filipino adults could vote in the 1907 Assembly election.",
+      "answer": false,
+      "explain": "False. Property, literacy and language requirements left roughly 1.4 percent eligible.",
+      "objective": "Explain what the Philippine Assembly was and what limited it"
+    },
+    {
+      "type": "multiple",
+      "text": "What did 'benevolent assimilation' claim?",
+      "options": [
+        "That American rule was for the Filipinos' own good until they were ready",
+        "That the Philippines was already independent",
+        "That Spain still governed",
+        "That Filipinos would never govern themselves"
+      ],
+      "answerIndex": 0,
+      "explain": "The catch is in the word 'until'. The Americans decided when ready arrived.",
+      "objective": "Explain the idea of a government that trains its own replacement"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 8 follows the Term 1 scope on American colonial government. The organising idea is the difference between what a body is called and what it can actually do — advisory versus legislative, a voice versus a vote, an elected chamber under an appointed one. That distinction is what the exam tends to test and it is also a genuinely useful civic habit. The lesson does not present the stages as either a gift or a fraud; it presents each one as real and each one as bounded, and lets him hold both.",
+    "discussion": [
+      "Ask what the difference is between advising and legislating, in his own words.",
+      "Ask why 4 July was chosen as the date civil government began.",
+      "Ask what a representative who can speak but not vote is actually for.",
+      "Ask who decided when Filipinos were 'ready'. That question is the whole period."
+    ],
+    "extension": "Have him draw the 1907 setup as a two-box diagram: elected Assembly below, appointed Commission above, with an arrow showing where a bill can be stopped. One page.",
+    "misconceptions": [
+      "'The Philippine Assembly governed the country.' It was one chamber of two, and the other could block it.",
+      "'The Schurman and Taft Commissions were the same thing.' One advised; the other made law.",
+      "'The 1902 Bill gave Filipinos full rights.' It came with conditions, and there was no trial by jury.",
+      "'Civil government meant the fighting was over.' It began in pacified areas while war continued elsewhere."
+    ]
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "id": "ss-w7",
+  "courseId": "social-studies",
+  "courseTitle": "Social Studies",
+  "week": 7,
+  "title": "The Filipino-American War",
+  "subtitle": "It started two days before the treaty was ratified, and lasted three years.",
+  "estMinutes": 20,
+  "objectives": [
+    "Describe how the war began in February 1899",
+    "Explain why Aguinaldo switched to guerrilla warfare",
+    "Describe the stand at Tirad Pass",
+    "Describe the capture of Aguinaldo and the end of the war",
+    "Explain the human cost of the war"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "⚔️",
+      "eyebrow": "Part 1 · How it started",
+      "title": "One shot on a bridge, and everything followed",
+      "text": "On the evening of 4 February 1899, an American sentry shot a Filipino soldier at San Juan. By morning it was a war."
+    },
+    {
+      "kind": "figure",
+      "figure": "warTimeline",
+      "eyebrow": "Three years",
+      "title": "February 1899 to July 1902",
+      "text": "Tap through. Several quiz questions come from these dates."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The timing",
+      "title": "Two days later the treaty was ratified",
+      "text": "The US Senate had been arguing about whether to keep the Philippines at all. The vote came on 6 February, two days after the shooting.",
+      "points": [
+        "**It passed by one vote** more than the required margin.",
+        "**News of fighting** reached Washington first.",
+        "**Historians still argue** about how much that mattered.",
+        "**The timing is a fact.** The cause is a debate."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "When did the Filipino-American War begin?",
+        "options": [
+          "4 February 1899",
+          "12 June 1898",
+          "23 January 1899",
+          "10 December 1898"
+        ],
+        "answerIndex": 0,
+        "explain": "4 February 1899, at San Juan bridge. The Senate ratified the treaty two days later."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The first phase",
+      "title": "A conventional war they could not win",
+      "text": "For nine months the Filipino army fought in the open, in lines, against better-armed and better-supplied troops. It went badly.",
+      "points": [
+        "**They lost Manila within days.**",
+        "**They lost Malolos in March 1899.**",
+        "**Standing and fighting** played to American strengths.",
+        "**By November the regular army was finished.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "You do not keep boxing somebody who is bigger",
+      "text": "If the straight fight is going badly, you change the fight. Aguinaldo dissolved the regular army and switched to guerrilla warfare.",
+      "points": [
+        "**November 1899**, at Bayambang in Pangasinan.",
+        "**Small units, ambushes, no fixed lines.**",
+        "**It cost the Americans far more** and lasted years.",
+        "**Changing style** is not the same as giving up."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why did Aguinaldo switch to guerrilla warfare?",
+        "options": [
+          "Conventional battles played to American strengths",
+          "He had run out of soldiers entirely",
+          "The Americans asked for it",
+          "It was the only style Filipinos knew"
+        ],
+        "answerIndex": 0,
+        "explain": "Better-armed troops win open battles. Ambush and dispersal took away that advantage."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Part 2 is Tirad Pass, the capture, and the cost. Some of it is hard. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "⛰️",
+      "eyebrow": "Part 2 · The long retreat",
+      "title": "A narrow pass in the mountains of Ilocos Sur",
+      "text": "By December 1899 Aguinaldo was being hunted north. Sixty men stayed behind at Tirad Pass to buy him time."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "2 December 1899",
+      "title": "Gregorio del Pilar",
+      "text": "He was twenty-four years old and already a general. He chose the pass because it was narrow enough for sixty men to hold.",
+      "points": [
+        "**They held it for around five hours.**",
+        "**An American unit found a way round** the side.",
+        "**Del Pilar was killed** in the fighting.",
+        "**Aguinaldo escaped.** The delay worked."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "A chokepoint is a real military idea",
+      "text": "Narrow ground cancels a numbers advantage, because only so many people can come through at once. That is why he chose the pass.",
+      "points": [
+        "**Sixty men cannot beat an army in the open.**",
+        "**In a gap two metres wide**, numbers matter less.",
+        "**It works until somebody finds a flank.**",
+        "**Somebody did.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why did Gregorio del Pilar make his stand at Tirad Pass?",
+        "options": [
+          "It was narrow enough that a small force could hold it",
+          "It was the only road in the country",
+          "He had been ordered to attack there",
+          "The Americans were trapped there"
+        ],
+        "answerIndex": 0,
+        "explain": "Narrow ground cancels a numbers advantage. Sixty men held it for hours, and Aguinaldo got away."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "March 1901",
+      "title": "The capture at Palanan",
+      "text": "American officers reached Aguinaldo's camp in Isabela by disguising themselves as prisoners of a friendly Filipino unit.",
+      "points": [
+        "**Palanan, Isabela**, 23 March 1901.",
+        "**He swore allegiance to the United States** days later.",
+        "**He called on others to stop fighting.**",
+        "**Many of them did not.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The cost",
+      "title": "The part the dates do not show",
+      "text": "Around 4,200 American soldiers died. Around 20,000 Filipino fighters died. Far more civilians died than either.",
+      "points": [
+        "**Estimates of civilian deaths start at 200,000.**",
+        "**Most were from famine and disease**, not battle.",
+        "**Whole areas were emptied** and villages burned.",
+        "**Samar in 1901** was the worst of it."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "For a long time it was not called a war",
+      "text": "In American writing it was the Philippine Insurrection for most of a century. An insurrection is a rebellion against a legitimate government.",
+      "points": [
+        "**Calling it that settles the argument** in advance.",
+        "**A war is between two sides.**",
+        "**An insurrection has only one legitimate side.**",
+        "**One word, and the whole story changes.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "More civilians died in the war than soldiers on either side.",
+        "answer": true,
+        "explain": "True, by a very long way. Most died of famine and disease rather than in fighting."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "San Juan bridge", "def": "Where the first shot was fired, on 4 February 1899." },
+        { "term": "guerrilla warfare", "def": "Small units, ambushes and no fixed lines. Adopted in November 1899." },
+        { "term": "Tirad Pass", "def": "2 December 1899. Del Pilar and 60 men held it so Aguinaldo could escape." },
+        { "term": "Gregorio del Pilar", "def": "The general who died at Tirad Pass, aged 24." },
+        { "term": "Palanan", "def": "The town in Isabela where Aguinaldo was captured in March 1901." },
+        { "term": "Philippine Insurrection", "def": "The old American name for the war. The word chooses a side." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**4 February 1899.** The treaty was ratified two days later.",
+        "**November 1899:** the war goes guerrilla.",
+        "**Tirad Pass, December 1899.** Del Pilar was 24.",
+        "**The civilian cost** was greater than both armies combined."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Where and when did the war begin?",
+      "options": [
+        "San Juan bridge, 4 February 1899",
+        "Manila Bay, 1 May 1898",
+        "Malolos, January 1899",
+        "Palanan, March 1901"
+      ],
+      "answerIndex": 0,
+      "explain": "An American sentry shot a Filipino soldier on the evening of 4 February 1899.",
+      "objective": "Describe how the war began in February 1899"
+    },
+    {
+      "type": "multiple",
+      "text": "What happened two days after the first shot?",
+      "options": [
+        "The US Senate ratified the Treaty of Paris",
+        "Aguinaldo surrendered",
+        "The Malolos Republic was founded",
+        "Spain declared war on America"
+      ],
+      "answerIndex": 0,
+      "explain": "6 February 1899. Historians still argue about how much the fighting influenced that vote.",
+      "objective": "Describe how the war began in February 1899"
+    },
+    {
+      "type": "multiple",
+      "text": "Why did conventional battles go badly for the Filipino army?",
+      "options": [
+        "Open battle favoured the better-armed and better-supplied side",
+        "They had no soldiers",
+        "They refused to fight",
+        "They had no leadership"
+      ],
+      "answerIndex": 0,
+      "explain": "Standing and fighting in lines played directly to American strengths.",
+      "objective": "Explain why Aguinaldo switched to guerrilla warfare"
+    },
+    {
+      "type": "multiple",
+      "text": "When did Aguinaldo switch to guerrilla warfare?",
+      "options": [
+        "November 1899",
+        "February 1899",
+        "March 1901",
+        "July 1902"
+      ],
+      "answerIndex": 0,
+      "explain": "At Bayambang in Pangasinan, he dissolved the regular army. The war then lasted years longer.",
+      "objective": "Explain why Aguinaldo switched to guerrilla warfare"
+    },
+    {
+      "type": "multiple",
+      "text": "Who commanded the stand at Tirad Pass?",
+      "options": [
+        "Gregorio del Pilar",
+        "Emilio Aguinaldo",
+        "Miguel Malvar",
+        "Antonio Luna"
+      ],
+      "answerIndex": 0,
+      "explain": "Del Pilar, aged 24. He was killed holding the pass so Aguinaldo could escape north.",
+      "objective": "Describe the stand at Tirad Pass"
+    },
+    {
+      "type": "multiple",
+      "text": "What was the purpose of the stand at Tirad Pass?",
+      "options": [
+        "To delay the Americans so Aguinaldo could escape",
+        "To capture an American general",
+        "To recapture Manila",
+        "To defend Malolos"
+      ],
+      "answerIndex": 0,
+      "explain": "Sixty men on narrow ground, holding for hours. The delay worked and Aguinaldo got away.",
+      "objective": "Describe the stand at Tirad Pass"
+    },
+    {
+      "type": "truefalse",
+      "text": "Gregorio del Pilar survived Tirad Pass.",
+      "answer": false,
+      "explain": "False. He was killed in the fighting, at twenty-four years old.",
+      "objective": "Describe the stand at Tirad Pass"
+    },
+    {
+      "type": "multiple",
+      "text": "Where was Aguinaldo captured?",
+      "options": [
+        "Palanan, Isabela",
+        "Malolos, Bulacan",
+        "Tirad Pass, Ilocos Sur",
+        "Hong Kong"
+      ],
+      "answerIndex": 0,
+      "explain": "23 March 1901. American officers reached his camp disguised as prisoners.",
+      "objective": "Describe the capture of Aguinaldo and the end of the war"
+    },
+    {
+      "type": "multiple",
+      "text": "What did Aguinaldo do after his capture?",
+      "options": [
+        "He swore allegiance to the United States and called for an end to fighting",
+        "He escaped and continued the war",
+        "He was executed",
+        "He was sent to Spain"
+      ],
+      "answerIndex": 0,
+      "explain": "He swore allegiance within days. Many commanders kept fighting regardless.",
+      "objective": "Describe the capture of Aguinaldo and the end of the war"
+    },
+    {
+      "type": "multiple",
+      "text": "When was the war officially declared over?",
+      "options": [
+        "July 1902",
+        "March 1901",
+        "December 1899",
+        "February 1899"
+      ],
+      "answerIndex": 0,
+      "explain": "4 July 1902, though Malvar had surrendered in April and fighting continued in some regions.",
+      "objective": "Describe the capture of Aguinaldo and the end of the war"
+    },
+    {
+      "type": "truefalse",
+      "text": "Most of the Filipino deaths in the war were soldiers killed in battle.",
+      "answer": false,
+      "explain": "False. Civilian deaths, mostly from famine and disease, far outnumbered combatant deaths.",
+      "objective": "Explain the human cost of the war"
+    },
+    {
+      "type": "multiple",
+      "text": "Why does it matter that Americans long called it the Philippine Insurrection?",
+      "options": [
+        "An insurrection has only one legitimate side, so the word settles the argument",
+        "It was shorter to say",
+        "It was the official Filipino name too",
+        "It made the war sound longer"
+      ],
+      "answerIndex": 0,
+      "explain": "A war is between two sides. An insurrection is a rebellion against a legitimate government.",
+      "objective": "Explain the human cost of the war"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 7 Social Studies covers the Filipino-American War, matching the Term 1 weekly scope. It is the hardest topic of the term and the lesson does not soften it: the civilian death toll is stated, it is put alongside the military figures so the scale is visible, and the causes are named as famine and disease rather than battle. The naming card is deliberately included — 'Philippine Insurrection' was the standard American term for most of a century, and noticing that one word decides who is legitimate is a transferable historical skill. The chokepoint card explains why sixty men at Tirad Pass was a rational military decision rather than a suicidal gesture, which is how it is usually told.",
+    "discussion": [
+      "Ask why the timing of the Senate vote matters. Two days is a fact; the causal link is a real historical argument.",
+      "Ask why changing to guerrilla war was a strategic decision rather than a retreat.",
+      "Ask what narrow ground does to a numbers advantage. Tirad Pass makes sense once that lands.",
+      "Ask what changes when you call something an insurrection rather than a war."
+    ],
+    "extension": "Have him write two one-paragraph accounts of February 1899, one for an American newspaper and one for a Malolos one. Neither has to lie for them to be irreconcilable.",
+    "misconceptions": [
+      "'The war started because of the Treaty of Paris.' The first shot came two days before the Senate ratified it.",
+      "'Guerrilla war was a sign of collapse.' It was a deliberate change of strategy, and it made the war last years longer.",
+      "'The war ended when Aguinaldo was captured.' Fighting continued. It was declared over in July 1902 and went on in places after that.",
+      "'Most deaths were soldiers.' Civilian deaths from famine and disease were many times higher."
+    ]
+  }
+}

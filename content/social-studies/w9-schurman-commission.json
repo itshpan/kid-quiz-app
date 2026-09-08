@@ -1,0 +1,372 @@
+{
+  "id": "ss-w9",
+  "courseId": "social-studies",
+  "courseTitle": "Social Studies",
+  "week": 9,
+  "title": "The Schurman Commission",
+  "subtitle": "Five men, five months, one report that shaped the next fifty years.",
+  "estMinutes": 20,
+  "objectives": [
+    "Explain who the Schurman Commission were and why they came",
+    "List the main recommendations of the report",
+    "Explain the claim that Filipinos were 'not ready'",
+    "Compare what was recommended with what actually happened",
+    "Explain why the school recommendation mattered most"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "📋",
+      "eyebrow": "Part 1 · Who they were",
+      "title": "President McKinley sent five men to find out",
+      "text": "They arrived in March 1899, one month after the war began. They were told to investigate and to recommend."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The five",
+      "title": "A university president in charge",
+      "text": "Jacob Gould Schurman ran Cornell University. Admiral Dewey and General Otis were already in Manila and joined him.",
+      "points": [
+        "**Schurman**, chairman, a university president.",
+        "**Dewey and Otis**, the navy and the army.",
+        "**Charles Denby**, a diplomat from China.",
+        "**Dean Worcester**, a zoologist who knew the islands."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Two of the five were fighting the people they were studying",
+      "text": "Dewey and Otis were commanders in the war going on around them. They were also asked to judge fairly.",
+      "points": [
+        "**A commission is only as neutral** as the people on it.",
+        "**Nobody hid this.** It was normal at the time.",
+        "**Ask who wrote a source** before you trust it.",
+        "**That is a history skill**, not an insult."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What was the Schurman Commission asked to do?",
+        "options": [
+          "Investigate conditions and recommend a policy",
+          "Make laws for the Philippines",
+          "Command the American army",
+          "Negotiate with Spain"
+        ],
+        "answerIndex": 0,
+        "explain": "It was advisory. It gathered evidence and wrote a report, and could not legislate."
+      }
+    },
+    {
+      "kind": "figure",
+      "figure": "schurmanReport",
+      "eyebrow": "Six recommendations",
+      "title": "What they said, and what followed",
+      "text": "Tap each number. The second line is what actually happened afterwards."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The report",
+      "title": "January 1900",
+      "text": "They interviewed Filipinos, Spaniards and Americans, and produced a report the American government then used for years.",
+      "points": [
+        "**Independence eventually**, but not now.",
+        "**Civil government** instead of army rule.",
+        "**A partly elected legislature.**",
+        "**Free public schools for everyone.**"
+      ]
+    },
+    {
+      "kind": "break",
+      "title": "Pause here",
+      "text": "Part 2 looks hard at the 'not ready' claim. Come back when you are set."
+    },
+    {
+      "kind": "open",
+      "icon": "⏳",
+      "eyebrow": "Part 2 · The claim at the centre",
+      "title": "'Filipinos are not yet ready to govern themselves'",
+      "text": "This one sentence justified everything else in the report. It is worth testing against what was already happening."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The evidence against it",
+      "title": "The republic already existed",
+      "text": "The Malolos Constitution had been in force since January 1899. There was a congress, a cabinet and a court system.",
+      "points": [
+        "**A written constitution**, debated and passed.",
+        "**An elected congress** already sitting.",
+        "**Filipino judges** and Filipino governors.",
+        "**All of it running** while the report was written."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "'Not ready' is never a measurement",
+      "text": "A fighter is told he is not ready. Who decided, what was the test, and does that person gain if he waits?",
+      "points": [
+        "**No test was ever specified.**",
+        "**No date was ever set.**",
+        "**The people judging** were the people staying.",
+        "**Ask those three questions** of any 'not ready'."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "There was no functioning Filipino government when the Commission called Filipinos unready.",
+        "answer": false,
+        "explain": "False. The Malolos Republic had a constitution, a congress and courts, all running at the time."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Recommended, delivered",
+      "title": "Most of it did happen",
+      "text": "This is the awkward part. The civil government came, the legislature came, and the schools came.",
+      "points": [
+        "**Civil government:** July 1901.",
+        "**Elected Assembly:** October 1907.",
+        "**Free public schools:** Act No. 74, 1901.",
+        "**Independence:** 1946, forty-six years after the report."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "📈",
+      "eyebrow": "Your body mode",
+      "title": "'Eventually' with no date is not a promise",
+      "text": "A training plan says what you do and when it ends. A plan with no end date is not a plan.",
+      "points": [
+        "**Every other recommendation had a timetable.**",
+        "**Independence did not.**",
+        "**Forty-seven years passed.**",
+        "**Notice which promises come with dates.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which recommendation had the biggest effect on ordinary Filipino life?",
+        "options": [
+          "Free public schools",
+          "Two resident commissioners",
+          "Local autonomy",
+          "A two-chamber legislature"
+        ],
+        "answerIndex": 0,
+        "explain": "Act No. 74 in 1901 built a free school system. It reached more people than any other change."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Schurman Commission",
+          "def": "The First Philippine Commission, 1899. Advisory only."
+        },
+        {
+          "term": "Jacob Gould Schurman",
+          "def": "Its chairman, and president of Cornell University."
+        },
+        {
+          "term": "advisory",
+          "def": "Able to recommend, not able to decide or make law."
+        },
+        {
+          "term": "Act No. 74",
+          "def": "The 1901 law that created the free public school system."
+        },
+        {
+          "term": "eventual independence",
+          "def": "Independence promised with no date attached. It came in 1946."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Sent by McKinley in 1899**, reported in January 1900.",
+        "**Advisory only.** It recommended; Taft legislated.",
+        "**'Not ready'** was a claim, not a measurement.",
+        "**Free public schools** was the recommendation that landed hardest."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Who sent the Schurman Commission to the Philippines?",
+      "options": [
+        "President William McKinley",
+        "Governor Taft",
+        "The Malolos Congress",
+        "Admiral Dewey"
+      ],
+      "answerIndex": 0,
+      "explain": "McKinley sent it in 1899 to investigate conditions and recommend a policy.",
+      "objective": "Explain who the Schurman Commission were and why they came"
+    },
+    {
+      "type": "multiple",
+      "text": "Who chaired the Commission?",
+      "options": [
+        "Jacob Gould Schurman",
+        "Dean Worcester",
+        "Elwell Otis",
+        "Charles Denby"
+      ],
+      "answerIndex": 0,
+      "explain": "Schurman was president of Cornell University. The commission carries his name.",
+      "objective": "Explain who the Schurman Commission were and why they came"
+    },
+    {
+      "type": "truefalse",
+      "text": "Two members of the Commission were American commanders in the ongoing war.",
+      "answer": true,
+      "explain": "True. Admiral Dewey and General Otis were both serving commanders in the Philippines.",
+      "objective": "Explain who the Schurman Commission were and why they came"
+    },
+    {
+      "type": "multiple",
+      "text": "What kind of power did the Commission have?",
+      "options": [
+        "Advisory only",
+        "Full legislative power",
+        "Command of the army",
+        "Judicial power"
+      ],
+      "answerIndex": 0,
+      "explain": "It could investigate and recommend. The Taft Commission of 1900 got the law-making power.",
+      "objective": "Explain who the Schurman Commission were and why they came"
+    },
+    {
+      "type": "multiple",
+      "text": "Which of these did the report recommend?",
+      "options": [
+        "Replacing military rule with a civil government",
+        "Returning the islands to Spain",
+        "Immediate full independence",
+        "Ending public education"
+      ],
+      "answerIndex": 0,
+      "explain": "Civil government, a partly elected legislature, local autonomy and free public schools.",
+      "objective": "List the main recommendations of the report"
+    },
+    {
+      "type": "multiple",
+      "text": "What did the report say about independence?",
+      "options": [
+        "It should come eventually, but not yet",
+        "It should come immediately",
+        "It should never come",
+        "It was not mentioned"
+      ],
+      "answerIndex": 0,
+      "explain": "Eventually, with no date attached. It arrived in 1946.",
+      "objective": "List the main recommendations of the report"
+    },
+    {
+      "type": "multiple",
+      "text": "What reason did the Commission give for delaying independence?",
+      "options": [
+        "That Filipinos were not yet ready to govern themselves",
+        "That Spain still had a legal claim",
+        "That Filipinos had asked for a delay",
+        "That the islands were too small"
+      ],
+      "answerIndex": 0,
+      "explain": "That single claim justified the rest of the report.",
+      "objective": "Explain the claim that Filipinos were 'not ready'"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the strongest evidence against the 'not ready' claim?",
+      "options": [
+        "The Malolos Republic already had a constitution, congress and courts",
+        "Spain had already left",
+        "The Americans said so themselves",
+        "The Katipunan was still fighting"
+      ],
+      "answerIndex": 0,
+      "explain": "The republic had been running since January 1899, while the report was being written.",
+      "objective": "Explain the claim that Filipinos were 'not ready'"
+    },
+    {
+      "type": "multiple",
+      "text": "When was the civil government recommendation carried out?",
+      "options": [
+        "July 1901",
+        "January 1900",
+        "October 1907",
+        "July 1946"
+      ],
+      "answerIndex": 0,
+      "explain": "4 July 1901, with Taft as the first Civil Governor.",
+      "objective": "Compare what was recommended with what actually happened"
+    },
+    {
+      "type": "multiple",
+      "text": "How long after the report did independence actually arrive?",
+      "options": [
+        "Forty-six years, in 1946",
+        "Two years, in 1902",
+        "Seven years, in 1907",
+        "It never arrived"
+      ],
+      "answerIndex": 0,
+      "explain": "The report was published in January 1900. Independence came on 4 July 1946.",
+      "objective": "Compare what was recommended with what actually happened"
+    },
+    {
+      "type": "multiple",
+      "text": "Which law created the free public school system?",
+      "options": [
+        "Act No. 74 of 1901",
+        "The Philippine Bill of 1902",
+        "The Malolos Constitution",
+        "The Treaty of Paris"
+      ],
+      "answerIndex": 0,
+      "explain": "Act No. 74, passed in 1901, set up free primary education across the islands.",
+      "objective": "Explain why the school recommendation mattered most"
+    },
+    {
+      "type": "truefalse",
+      "text": "The school recommendation reached more Filipinos than any other part of the report.",
+      "answer": true,
+      "explain": "True. Legislatures affected a small elite. Schools reached ordinary children everywhere.",
+      "objective": "Explain why the school recommendation mattered most"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 9 follows the Term 1 scope on the Schurman Commission. The lesson does two things at once: it teaches the report's contents accurately, since that is what the exam asks for, and it models how to interrogate a source — who wrote it, what were they doing at the time, and what claim is doing the load-bearing work. The 'not ready' card is the centre. It is tested against a specific verifiable fact, the Malolos Republic's existence at the time, rather than against an opinion. The lesson also credits the schools recommendation honestly; the period is not made simpler by pretending nothing good came from it.",
+    "discussion": [
+      "Ask what changes about a report when two of its five authors are commanding the war it studies.",
+      "Ask him to state the 'not ready' claim, then say what evidence would settle it either way.",
+      "Ask why 'eventually' with no date is different from a promise.",
+      "Ask which recommendation he would have argued hardest for, and why."
+    ],
+    "extension": "Have him write the one-paragraph dissent a Filipino member of the Commission might have filed, if there had been one. There was not, which is itself worth noticing.",
+    "misconceptions": [
+      "'The Schurman Commission governed the Philippines.' It was advisory. Taft's commission held the legislative power.",
+      "'The report was ignored.' Most of it was implemented, some of it within two years.",
+      "'There was no Filipino government at the time.' The Malolos Republic was functioning while the report was written.",
+      "'Independence was promised for a set date.' No date was ever given. It came in 1946."
+    ]
+  }
+}

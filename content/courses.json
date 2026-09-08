@@ -450,11 +450,12 @@
         {
           "week": 6,
           "id": "ss-w6",
-          "title": "Revolution & First Republic (cont.)",
+          "title": "The Malolos Republic",
           "topics": [
             "Filipino Revolution and First Philippine Republic"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "social-studies/w6-malolos-republic.json"
         },
         {
           "week": 7,
@@ -463,7 +464,8 @@
           "topics": [
             "Filipino-American War"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "social-studies/w7-filipino-american-war.json"
         },
         {
           "week": 8,
@@ -472,7 +474,8 @@
           "topics": [
             "Establishment of Military and Civil Governments"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "social-studies/w8-colonial-government.json"
         },
         {
           "week": 9,
@@ -481,7 +484,8 @@
           "topics": [
             "American Colonial Government: The Schurman Commission"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "social-studies/w9-schurman-commission.json"
         },
         {
           "week": 10,
@@ -490,7 +494,8 @@
           "topics": [
             "Social Changes During the American Colonization"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "social-studies/w10-social-changes.json"
         },
         {
           "week": 11,

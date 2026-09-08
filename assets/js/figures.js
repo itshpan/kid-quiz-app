@@ -3456,6 +3456,145 @@ function agreementTraps() {
     });
 }
 
+/* ==========================================================================
+   SOCIAL STUDIES, WEEKS 6-10.
+   ========================================================================== */
+
+/* Week 6: the republic, from declaration to inauguration. */
+function roadToMalolos() {
+    return timeline({
+        id: 'ml', label: 'FIVE MONTHS, ONE REPUBLIC',
+        alt: 'A timeline from the declaration of independence in June 1898 to the republic in January 1899',
+        stops: [
+            { year: 'Jun 1898', tag: 'Kawit',
+              head: 'Independence declared at Kawit',
+              body: '12 June. The flag is unfurled for the first time.' },
+            { year: 'Aug 1898', tag: 'mock battle',
+              head: 'The staged Battle of Manila',
+              body: 'Spain surrenders to the Americans. Filipinos are kept out.' },
+            { year: 'Sep 1898', tag: 'Congress',
+              head: 'The Malolos Congress opens',
+              body: '15 September, at Barasoain Church in Bulacan.' },
+            { year: 'Dec 1898', tag: 'Paris',
+              head: 'The Treaty of Paris',
+              body: 'Spain sells the islands to the United States for $20 million.' },
+            { year: 'Jan 1899', tag: 'Republic',
+              head: 'The First Philippine Republic',
+              body: '23 January. The first constitutional republic in Asia.' }
+        ]
+    });
+}
+
+/* Week 7: the war, from the first shot to the last surrender. */
+function warTimeline() {
+    return timeline({
+        id: 'wt', label: 'THREE YEARS OF WAR',
+        alt: 'A timeline of the Filipino-American War from February 1899 to July 1902',
+        stops: [
+            { year: 'Feb 1899', tag: 'first shot',
+              head: 'The first shot, at San Juan bridge',
+              body: '4 February. The US Senate ratifies the treaty two days later.' },
+            { year: 'Nov 1899', tag: 'guerrilla',
+              head: 'Aguinaldo dissolves the regular army',
+              body: 'The war becomes a guerrilla war. It lasts far longer.' },
+            { year: 'Dec 1899', tag: 'Tirad Pass',
+              head: 'Tirad Pass',
+              body: 'Gregorio del Pilar and 60 men hold the pass. He is 24.' },
+            { year: 'Mar 1901', tag: 'captured',
+              head: 'Aguinaldo captured at Palanan',
+              body: 'Taken in Isabela. He swears allegiance days later.' },
+            { year: 'Jul 1902', tag: 'declared over',
+              head: 'The war is declared over',
+              body: 'Malvar had surrendered in April. Fighting went on elsewhere.' }
+        ]
+    });
+}
+
+/* Week 8: the two governments and the laws that shaped them. */
+function colonialGov() {
+    return listPicker({
+        id: 'cg', label: 'HOW THE AMERICANS GOVERNED',
+        alt: 'The stages of American colonial government in the Philippines with dates',
+        rows: [
+            { btn: '1898', short: 'Military government',
+              a: 'August 1898 to July 1901. Run by generals',
+              b: 'Three military governors: Merritt, Otis, then Arthur MacArthur.' },
+            { btn: '1899', short: 'Schurman Commission',
+              a: 'The First Philippine Commission. Advisory only',
+              b: 'It investigated and reported. It could not make law.' },
+            { btn: '1900', short: 'Taft Commission',
+              a: 'The Second Commission, and it could legislate',
+              b: 'From September 1900 it held law-making power.' },
+            { btn: '1901', short: 'Civil government',
+              a: '4 July 1901. William Howard Taft becomes Civil Governor',
+              b: 'Government passes from soldiers to civilians.' },
+            { btn: '1902', short: 'Philippine Bill',
+              a: 'Promised an elected assembly and a bill of rights',
+              b: 'Also sent two Filipino commissioners to the US Congress.' },
+            { btn: '1907', short: 'Philippine Assembly',
+              a: 'The first elected Filipino legislative body',
+              b: 'Opened 16 October 1907. Osmena was its Speaker.' }
+        ]
+    });
+}
+
+/* Week 9: what the commission recommended, and what happened. */
+function schurmanReport() {
+    return listPicker({
+        id: 'sr', label: 'RECOMMENDED · DELIVERED',
+        alt: 'The Schurman Commission recommendations paired with what actually happened',
+        capA: 'Said: ', capB: 'Result: ',
+        rows: [
+            { btn: '1', short: 'Eventual independence',
+              a: 'Independence one day, but not yet',
+              b: 'It came in 1946, forty-six years after the report.' },
+            { btn: '2', short: 'Filipinos not ready',
+              a: 'Filipinos were not ready to govern themselves',
+              b: 'A republic had already existed for months by then.' },
+            { btn: '3', short: 'Civil government',
+              a: 'Replace military rule with a civil government',
+              b: 'Done in July 1901, with Taft as Civil Governor.' },
+            { btn: '4', short: 'A legislature',
+              a: 'A two-chamber legislature, partly elected',
+              b: 'The elected Assembly came in 1907.' },
+            { btn: '5', short: 'Local autonomy',
+              a: 'Let towns and provinces run their own affairs',
+              b: 'Partly done, under American supervision.' },
+            { btn: '6', short: 'Free public schools',
+              a: 'A free public school system for everyone',
+              b: 'Act No. 74 in 1901. The biggest change of all.' }
+        ]
+    });
+}
+
+/* Week 10: what actually changed in ordinary life. */
+function americanChanges() {
+    return listPicker({
+        id: 'ac', label: 'WHAT CHANGED IN DAILY LIFE',
+        alt: 'Six social changes under American rule, each with what it meant',
+        rows: [
+            { btn: 'Schools', short: 'Free public schools',
+              a: 'Act No. 74, 1901. Free primary education for all',
+              b: 'The single largest change, and the most lasting.' },
+            { btn: 'English', short: 'English in class',
+              a: 'English replaced Spanish as the language of school',
+              b: 'It is why the Philippines is an English-speaking country.' },
+            { btn: 'Thomasites', short: 'The Thomasites',
+              a: 'About 500 American teachers arrived in August 1901',
+              b: 'Named after their ship, the USS Thomas.' },
+            { btn: 'Health', short: 'Public health',
+              a: 'Sanitation campaigns, hospitals and vaccination',
+              b: 'A cholera epidemic in 1902 killed tens of thousands.' },
+            { btn: 'Church', short: 'Church and state',
+              a: 'The friars lost their land and their political power',
+              b: 'The Philippine Independent Church was founded in 1902.' },
+            { btn: 'Sport', short: 'Basketball',
+              a: 'American teachers and soldiers brought the game',
+              b: 'It stayed. It is now the most popular sport in the country.' }
+        ]
+    });
+}
+
 export const FIGURES = {
     crumpleZone,
     muscleTypes,
@@ -3515,7 +3654,12 @@ export const FIGURES = {
     ratioBars,
     selfPronouns,
     verbEndings,
-    agreementTraps
+    agreementTraps,
+    roadToMalolos,
+    warTimeline,
+    colonialGov,
+    schurmanReport,
+    americanChanges
 };
 
 
