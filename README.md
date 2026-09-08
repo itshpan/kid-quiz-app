@@ -131,9 +131,16 @@ See [`docs/CONTENT-GUIDE.md`](docs/CONTENT-GUIDE.md) for the full schema.
 
 ```bash
 node tools/check-content.mjs     # enforce the ADHD writing limits; exits non-zero on failure
+node tools/check-figures.mjs     # measure every figure caption in a real browser
 node tools/fetch-images.mjs      # download lesson photos from Wikimedia into assets/img/
 node tools/build-preview.mjs content/science/w1-skeleton.json dist/preview.html
 ```
+
+`check-figures` exists because SVG text does not wrap and does not warn — a
+caption three words too long is silently clipped by the edge of the card and
+looks fine in the source. It mounts every figure, walks every state, and fails
+if any text runs outside its viewBox. It found 31 real problems the first time
+it ran.
 
 `build-preview` flattens one lesson into a single self-contained HTML file, so a lesson can be
 shared before the site is deployed anywhere.
@@ -145,11 +152,11 @@ shared before the site is deployed anywhere.
 | Science | 11 | Weeks 1–5 |
 | Math | 11 | Weeks 1–5 · plus the surface-area trainer |
 | English | 11 | Weeks 1–5 |
-| Social Studies | 11 | Weeks 1–2, 4–5 |
-| Filipino | 11 | — |
-| MAPEH | 11 | — |
-| TLE | 11 | — |
-| Devotion | 11 | — |
+| Social Studies | 11 | Weeks 1–5 |
+| MAPEH | 11 | Weeks 1–5 |
+| TLE | 11 | Weeks 1–5 |
+| Devotion | 11 | Weeks 1–5 |
+| Filipino | 11 | Weeks 1–5 written, [held for review](content/filipino/README.md) |
 
 Every subject shows its real weekly scope; weeks that aren't written yet show as *Coming soon*.
 
