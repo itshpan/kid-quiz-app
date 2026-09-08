@@ -169,11 +169,12 @@
         {
           "week": 4,
           "id": "math-w4",
-          "title": "Decimals: Add & Subtract (cont.)",
+          "title": "Comparing & Solving with Decimals",
           "topics": [
             "The four operations with decimals: addition & subtraction"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "math/w4-decimals-compare-solve.json"
         },
         {
           "week": 5,

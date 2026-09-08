@@ -1,0 +1,408 @@
+{
+  "id": "math-w4",
+  "courseId": "math",
+  "courseTitle": "Math",
+  "week": 4,
+  "title": "Comparing & Solving with Decimals",
+  "subtitle": "Week 3 taught the method. This week is deciding which one to use.",
+  "estMinutes": 20,
+  "objectives": [
+    "Compare two decimals by working from the left",
+    "Order a set of decimals from smallest to largest",
+    "Choose between addition and subtraction from the wording of a problem",
+    "Solve multi-step decimal problems involving money and measurement",
+    "Find a missing number in a decimal addition or subtraction",
+    "Use estimation to reject an answer that cannot be right"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "⚖️",
+      "eyebrow": "Part 1 · Comparing",
+      "title": "Which is bigger: 0.5 or 0.45?",
+      "text": "Most people say 0.45, because 45 is bigger than 5. It is the most common decimal mistake there is, and it is worth ten seconds to kill."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The rule",
+      "title": "Compare from the left, and stop at the first difference",
+      "text": "You never compare the whole number. You compare one column at a time until they stop matching.",
+      "points": [
+        "**Pad both to the same length** with zeros first.",
+        "**0.5 becomes 0.50.** Now compare it to 0.45.",
+        "**Tenths: 5 against 4.** Done. Stop there.",
+        "**How many digits a number has** tells you nothing."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "compareDecimals",
+      "eyebrow": "Try it",
+      "title": "Watch the first difference decide it",
+      "text": "Three pairs. The highlighted column is the only one that mattered."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which of these is the largest?",
+        "options": [
+          "0.6",
+          "0.59",
+          "0.514",
+          "0.4999"
+        ],
+        "answerIndex": 0,
+        "explain": "Pad them all to four places and compare tenths first: 6 beats 5 and 4. Extra digits do not help."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🏎️",
+      "eyebrow": "Forza mode",
+      "title": "A leaderboard is this rule, all day",
+      "text": "Lap times are decimals and the gaps are tiny. Reading the column order wrong puts you on the wrong step of the podium.",
+      "points": [
+        "**1:32.4 is slower than 1:32.39.**",
+        "**Pad it: 1:32.40 against 1:32.39.**",
+        "**One hundredth of a second** is a real result.",
+        "**Faster means a smaller number here.** Watch that."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "order",
+        "text": "Put these in order, smallest first.",
+        "items": [
+          "2.089",
+          "2.11",
+          "2.4",
+          "2.45"
+        ],
+        "explain": "Compare tenths first: 0, 1, 4, 4. Only the last two need the hundredths column."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Comparing done. Part 2 is word problems — deciding which operation, then doing it. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "🧩",
+      "eyebrow": "Part 2 · Solving",
+      "title": "The hard part is not the arithmetic",
+      "text": "You can already add and subtract decimals. What costs marks now is choosing the wrong operation, or stopping after one step."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Step 1",
+      "title": "The words tell you the operation",
+      "text": "Certain phrases point one way every time. Underline them before you write anything down.",
+      "points": [
+        "**altogether, in total, combined** → add.",
+        "**how much more, difference, left, change** → subtract.",
+        "**Two amounts and a total given?** Subtract to find the missing one.",
+        "**Underline the question first.** Then work."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Step 2",
+      "title": "Multi-step problems need a plan, not speed",
+      "text": "If a question gives you three numbers, one calculation is almost never the answer.",
+      "points": [
+        "**Write what you are looking for** at the top.",
+        "**Do one step. Write down what it means.**",
+        "**Then do the next one.**",
+        "**Most lost marks** are a right first step and no second one."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "You pay ₱200 for items costing ₱45.75 and ₱88.50. What is your change?",
+        "options": [
+          "₱65.75",
+          "₱134.25",
+          "₱155.75",
+          "₱111.50"
+        ],
+        "answerIndex": 0,
+        "explain": "Two steps. Add: 45.75 + 88.50 = 134.25. Then subtract: 200 − 134.25 = 65.75."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Making weight is a two-step problem",
+      "text": "You know the limit and you know today's weight. The gap is one subtraction. How long you have is the second step.",
+      "points": [
+        "**Limit 63.5 kg, you weigh 65.2 kg.**",
+        "**Step 1:** 65.2 − 63.5 = 1.7 kg to lose.",
+        "**Step 2:** over 4 days, that is 0.425 kg a day.",
+        "**One step answers nothing useful.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Step 3",
+      "title": "Missing-number problems",
+      "text": "When the gap is in the middle, work backwards. The two operations undo each other, and that is the whole trick.",
+      "points": [
+        "**12.5 − ? = 3.75** becomes **12.5 − 3.75 = ?**",
+        "**? + 4.6 = 10.2** becomes **10.2 − 4.6 = ?**",
+        "**Adding undoes subtracting.** And the reverse.",
+        "**Always check** by putting your answer back in."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "Find the missing number: 9.4 − ___ = 5.65",
+        "accept": [
+          "3.75",
+          "3.750"
+        ],
+        "explain": "Work backwards: 9.4 − 5.65 = 3.75. Check it by putting 3.75 back into the original."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Step 4",
+      "title": "Estimate, then reject",
+      "text": "An estimate does not give you the answer. It tells you which answers are impossible, which is faster and just as useful.",
+      "points": [
+        "**19.87 + 4.2** is about 20 + 4 = 24.",
+        "**So 6.07 is impossible.** So is 240.7.",
+        "**Ten seconds** to rule out a whole category of error.",
+        "**Do it before you look at the options.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Pacific Drive is a running subtraction",
+      "text": "Fuel in the tank, fuel to get back. The whole tension of that game is one number going down against another one.",
+      "points": [
+        "**14.5 litres in the tank, 9.8 to reach the garage.**",
+        "**4.7 spare.** That is a subtraction, and it is the decision.",
+        "**Estimate first:** about 15 minus 10, so about 5.",
+        "**If your answer says 24.3**, you added by mistake."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "A plank is 2.4 m. You cut off 0.85 m, then another 0.6 m. What is left?",
+        "options": [
+          "0.95 m",
+          "1.55 m",
+          "1.8 m",
+          "3.85 m"
+        ],
+        "answerIndex": 0,
+        "explain": "Two steps: 2.4 − 0.85 = 1.55, then 1.55 − 0.6 = 0.95. Estimate: about 2.4 − 1.5, so about 1."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The checklist",
+      "title": "Four things before you hand it in",
+      "text": "These take under a minute between them and they catch nearly every avoidable mistake.",
+      "points": [
+        "**Did I answer the question that was asked?**",
+        "**Did the decimal points line up?**",
+        "**Is my answer near my estimate?**",
+        "**Does the unit make sense?** Metres, pesos, kilograms."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "compare", "def": "Decide which of two numbers is larger. Work from the left, column by column." },
+        { "term": "order / ascending", "def": "Arrange from smallest to largest. Descending is the other way." },
+        { "term": "difference", "def": "The result of a subtraction. The word tells you which operation to use." },
+        { "term": "sum / total", "def": "The result of an addition. Altogether and combined mean the same thing." },
+        { "term": "estimate", "def": "A rough answer from rounded numbers, used to reject impossible results." },
+        { "term": "inverse operation", "def": "The operation that undoes another. Subtraction undoes addition." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Compare from the left.** Stop at the first difference.",
+        "**More digits does not mean bigger.**",
+        "**Underline the question** before you calculate anything.",
+        "**Estimate to reject**, then check your answer against it."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Which is the largest number?",
+      "options": [
+        "0.8",
+        "0.79",
+        "0.712",
+        "0.6999"
+      ],
+      "answerIndex": 0,
+      "explain": "Compare tenths first: 8 beats 7 and 6. Nothing after the tenths column matters here.",
+      "objective": "Compare two decimals by working from the left"
+    },
+    {
+      "type": "truefalse",
+      "text": "3.5 and 3.50 are the same number.",
+      "answer": true,
+      "explain": "True. A zero on the end adds no value. It only pads the number so columns line up.",
+      "objective": "Compare two decimals by working from the left"
+    },
+    {
+      "type": "order",
+      "text": "Put these in order, smallest first.",
+      "items": [
+        "5.09",
+        "5.2",
+        "5.25",
+        "5.3"
+      ],
+      "explain": "Tenths first: 0, 2, 2, 3. Only 5.2 and 5.25 need the hundredths column to separate them.",
+      "objective": "Order a set of decimals from smallest to largest"
+    },
+    {
+      "type": "multiple",
+      "text": "Which phrase tells you to SUBTRACT?",
+      "options": [
+        "How much more",
+        "Altogether",
+        "In total",
+        "Combined"
+      ],
+      "answerIndex": 0,
+      "explain": "How much more asks for a difference. The other three all point to addition.",
+      "objective": "Choose between addition and subtraction from the wording of a problem"
+    },
+    {
+      "type": "multiple",
+      "text": "You pay ₱500 for items costing ₱126.40 and ₱237.85. What change do you get?",
+      "options": [
+        "₱135.75",
+        "₱364.25",
+        "₱136.25",
+        "₱111.45"
+      ],
+      "answerIndex": 0,
+      "explain": "Add first: 126.40 + 237.85 = 364.25. Then 500 − 364.25 = 135.75.",
+      "objective": "Solve multi-step decimal problems involving money and measurement"
+    },
+    {
+      "type": "multiple",
+      "text": "A bottle holds 1.5 L. You drink 0.35 L, then 0.4 L. How much is left?",
+      "options": [
+        "0.75 L",
+        "0.85 L",
+        "1.15 L",
+        "0.65 L"
+      ],
+      "answerIndex": 0,
+      "explain": "1.5 − 0.35 = 1.15, then 1.15 − 0.4 = 0.75. Estimate: about 1.5 minus 0.75, so about 0.75.",
+      "objective": "Solve multi-step decimal problems involving money and measurement"
+    },
+    {
+      "type": "type",
+      "text": "Find the missing number: 8.2 − ___ = 3.45",
+      "accept": [
+        "4.75",
+        "4.750"
+      ],
+      "explain": "Work backwards: 8.2 − 3.45 = 4.75. Subtraction undoes subtraction here.",
+      "objective": "Find a missing number in a decimal addition or subtraction"
+    },
+    {
+      "type": "type",
+      "text": "Find the missing number: ___ + 6.75 = 12.4",
+      "accept": [
+        "5.65",
+        "5.650"
+      ],
+      "explain": "Subtract to undo the addition: 12.4 − 6.75 = 5.65.",
+      "objective": "Find a missing number in a decimal addition or subtraction"
+    },
+    {
+      "type": "multiple",
+      "text": "Estimate 29.6 + 8.45. Which answer is impossible?",
+      "options": [
+        "3.805",
+        "38.05",
+        "38.1",
+        "38"
+      ],
+      "answerIndex": 0,
+      "explain": "About 30 + 8 = 38. An answer near 3.8 is out by a factor of ten.",
+      "objective": "Use estimation to reject an answer that cannot be right"
+    },
+    {
+      "type": "multiple",
+      "text": "Two runners finish in 11.42 s and 11.4 s. Who was faster, and by how much?",
+      "options": [
+        "The 11.4 s runner, by 0.02 s",
+        "The 11.42 s runner, by 0.02 s",
+        "The 11.4 s runner, by 0.2 s",
+        "They tied"
+      ],
+      "answerIndex": 0,
+      "explain": "Pad it: 11.40 against 11.42. Smaller time is faster, and the gap is two hundredths.",
+      "objective": "Compare two decimals by working from the left"
+    },
+    {
+      "type": "multiple",
+      "text": "A fighter weighs 66.3 kg. The limit is 63.5 kg. She has 4 days. How much per day?",
+      "options": [
+        "0.7 kg",
+        "2.8 kg",
+        "1.4 kg",
+        "0.28 kg"
+      ],
+      "answerIndex": 0,
+      "explain": "Step 1: 66.3 − 63.5 = 2.8 kg. Step 2: 2.8 ÷ 4 = 0.7 kg a day.",
+      "objective": "Solve multi-step decimal problems involving money and measurement"
+    },
+    {
+      "type": "truefalse",
+      "text": "A number with more digits after the decimal point is always larger.",
+      "answer": false,
+      "explain": "False. 0.45 has more digits than 0.5 and is smaller. Compare from the left, column by column.",
+      "objective": "Compare two decimals by working from the left"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 4 Math continues the decimal work from Week 3, which already covered adding and subtracting with the points aligned. Rather than repeat that method, this lesson covers the two things Week 3 left: comparing and ordering decimals, and applying the operations to multi-step problems. The whole first half exists to kill one error — reading 0.45 as larger than 0.5 — and the compareDecimals figure pads both numbers and lights up the single column that actually decides it. The second half treats choosing the operation as the real skill, because by this point the arithmetic is not what costs the marks. Estimation is framed as a way of rejecting impossible answers rather than of producing right ones, which is both more honest and faster.",
+    "discussion": [
+      "Ask him which is bigger, 0.5 or 0.45, before he starts the lesson. If he hesitates, the first half is exactly what he needs.",
+      "Ask him to underline the question in a word problem before doing anything. Most lost marks are a correct calculation that answers a different question.",
+      "Give him a three-number problem and ask what the first step tells him, before he does the second. Naming the intermediate result is the habit that carries.",
+      "Ask why a lower lap time is a better result. Mixing up 'bigger number' with 'better' is a real source of error in timed sports."
+    ],
+    "extension": "Give him a supermarket receipt and ask three questions from it: the total of two items, the change from a round amount, and which of two items cost more per unit. Real numbers arrive untidy, which is exactly the point.",
+    "misconceptions": [
+      "'More digits after the point means a bigger number.' 0.45 is smaller than 0.5. Pad both to the same length and compare from the left.",
+      "'A trailing zero changes the value.' 3.5 and 3.50 are the same number. The zero only helps the columns line up.",
+      "'One calculation is the answer.' A problem with three numbers in it almost always needs two steps, and stopping after one loses the mark.",
+      "'Estimating is a waste of time.' It cannot give the answer, but it rules out answers that are out by a factor of ten, which is the most common error."
+    ]
+  }
+}

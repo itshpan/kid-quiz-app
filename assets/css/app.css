@@ -917,6 +917,11 @@ strong { font-weight: 700; color: var(--ink); }
 .fig-airh  { fill: var(--accent); }
 @media (prefers-reduced-motion: reduce) { .fig-breath { transition: none; } }
 
+/* ---------- Decimal comparison figure ---------- */
+.fig-col   { fill: var(--accent-soft); stroke: var(--accent); stroke-width: 1.5; rx: 4; }
+.fig-mono  { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 22px; fill: var(--ink); }
+.fig-mono-pad { fill: var(--ink-faint); }
+
 /* ---------- Sign-in flow ---------- */
 /* Two named steps, so it's always obvious where you are and what's left. */
 .signin-steps {

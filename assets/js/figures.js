@@ -1925,6 +1925,95 @@ function breathingMech() {
     };
 }
 
+/* ---------- Comparing decimals, column by column ---------- */
+/* One error accounts for most lost marks here: reading 0.45 as bigger than
+   0.5 because 45 is bigger than 5. Padding both numbers to the same length
+   and lighting up the first column that differs makes the real rule visible
+   — you compare from the left, and you stop at the first difference. */
+function compareDecimals() {
+    const CH = 13, X0 = 46, R1 = 78, R2 = 114;
+
+    const CASES = [
+        { btn: '0.5 vs 0.45',   a: '0.5',    b: '0.45',
+          note: 'More digits does not mean bigger.' },
+        { btn: '3.07 vs 3.7',   a: '3.07',   b: '3.7',
+          note: 'The tenths column settles it before you reach the rest.' },
+        { btn: '12.48 vs 12.480', a: '12.48', b: '12.480',
+          note: 'A zero on the end changes nothing at all.' }
+    ];
+
+    // Pad both numbers to the same number of decimal places, so the columns
+    // line up and can honestly be compared one at a time.
+    const pad = (a, b) => {
+        const dp = x => (x.split('.')[1] || '').length;
+        const n = Math.max(dp(a), dp(b));
+        const fix = x => {
+            const [i, d = ''] = x.split('.');
+            return n ? `${i}.${d.padEnd(n, '0')}` : i;
+        };
+        return [fix(a), fix(b)];
+    };
+
+    return {
+        svg: `
+<svg viewBox="0 0 400 216" role="img" aria-labelledby="cdT">
+  <title id="cdT">Two decimals padded to the same length, with the first column that differs highlighted</title>
+  <text class="fig-label" x="20" y="20">COMPARE FROM THE LEFT</text>
+  <rect class="fig-col" id="cdCol" x="0" y="0" width="0" height="0"/>
+  <text class="fig-mono" id="cdA" x="${X0}" y="${R1}">&#160;</text>
+  <text class="fig-mono" id="cdB" x="${X0}" y="${R2}">&#160;</text>
+  <text class="fig-step" id="cdWhy"  x="20" y="150">&#160;</text>
+  <text class="fig-note fig-note-key" id="cdVerdict" x="20" y="176">&#160;</text>
+  <text class="fig-note" id="cdNote" x="20" y="198">&#160;</text>
+</svg>`,
+
+        bind(root) {
+            const bar = document.createElement('div');
+            bar.className = 'fig-switch';
+            bar.innerHTML = CASES.map((c, i) =>
+                `<button data-i="${i}" aria-pressed="${i === 0}">${c.btn}</button>`).join('');
+            root.appendChild(bar);
+
+            const el = k => root.querySelector('#cd' + k);
+            const col = el('Col');
+
+            const show = i => {
+                const c = CASES[i];
+                const [A, B] = pad(c.a, c.b);
+                el('A').textContent = A;
+                el('B').textContent = B;
+
+                let k = 0;
+                while (k < A.length && A[k] === B[k]) k++;
+
+                if (k === A.length) {
+                    col.setAttribute('width', '0');
+                    el('Why').textContent = 'EVERY COLUMN MATCHES';
+                    el('Verdict').textContent = `${c.a} and ${c.b} are the same number`;
+                } else {
+                    col.setAttribute('x', X0 + k * CH - 3);
+                    col.setAttribute('y', R1 - 24);
+                    col.setAttribute('width', CH + 6);
+                    col.setAttribute('height', R2 - R1 + 32);
+                    const bigger = Number(A) > Number(B) ? c.a : c.b;
+                    el('Why').textContent = 'FIRST COLUMN THAT DIFFERS — STOP HERE';
+                    el('Verdict').textContent = `${bigger} is the bigger number`;
+                }
+                el('Note').textContent = c.note;
+
+                bar.querySelectorAll('button').forEach((b, j) =>
+                    b.setAttribute('aria-pressed', String(j === i)));
+            };
+
+            bar.addEventListener('click', e => {
+                const b = e.target.closest('button');
+                if (b) show(Number(b.dataset.i));
+            });
+            show(0);
+        }
+    };
+}
+
 export const FIGURES = {
     crumpleZone,
     muscleTypes,
@@ -1952,7 +2041,8 @@ export const FIGURES = {
     antecedentArrow,
     phFlag,
     airwayPath,
-    breathingMech
+    breathingMech,
+    compareDecimals
 };
 
 
