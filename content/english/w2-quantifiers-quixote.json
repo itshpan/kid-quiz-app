@@ -1,0 +1,462 @@
+{
+  "id": "eng-w2",
+  "courseId": "english",
+  "courseTitle": "English",
+  "week": 2,
+  "title": "Quantifiers",
+  "subtitle": "How much, how many — and a night in a castle that isn't one.",
+  "estMinutes": 20,
+  "objectives": [
+    "Tell count nouns from noncount nouns",
+    "Choose quantifiers correctly for count and noncount nouns",
+    "Use fewer and less correctly",
+    "Retell Don Quixote Chapter 2 and explain how he reads the world"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🎒",
+      "eyebrow": "Part 1 · Quantifiers",
+      "title": "Some things you count. Some things you measure.",
+      "text": "You can have three sandwiches. You cannot have three bread. English treats those two kinds of noun completely differently, and this is the week you learn how."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The split",
+      "title": "Count nouns and noncount nouns",
+      "text": "Every noun sits in one of these two boxes. Work out which box, and the right word follows automatically.",
+      "points": [
+        "**Count nouns** can be counted one by one: *car, helmet, punch, coin*.",
+        "**They have plurals:** two cars, five helmets.",
+        "**Noncount nouns** are measured, not counted: *water, rice, money, advice*.",
+        "**They have no plural.** You never say *informations*."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The test",
+      "title": "Can you put a number in front of it?",
+      "text": "That's the whole check. If \"three ___\" sounds right, it's a count noun.",
+      "points": [
+        "**Three coins** ✓ — count noun.",
+        "**Three money** ✗ — noncount. You'd say *three pesos*.",
+        "**Noncount nouns get a container:** a glass of water, a bag of rice."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which of these is a NONCOUNT noun?",
+        "options": [
+          "furniture",
+          "chair",
+          "table",
+          "shelf"
+        ],
+        "answerIndex": 0,
+        "explain": "furniture. You can count chairs and tables, but not 'three furnitures'. You'd say three pieces of furniture."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Rule 1",
+      "title": "Many for count, much for noncount",
+      "text": "This is the pair the exam asks about most. Match the word to the box the noun sits in.",
+      "points": [
+        "**many** cars, **many** punches — countable.",
+        "**much** water, **much** advice — noncountable.",
+        "**How many** laps? **How much** fuel?",
+        "**Say it aloud.** *Much cars* sounds wrong because it is."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Your inventory is already sorted this way",
+      "text": "Look at a Minecraft inventory. Some things stack as numbers; some show a bar.",
+      "points": [
+        "**64 blocks, 12 arrows** — count nouns with a number.",
+        "**A health bar or a fuel gauge** — noncount, shown as an amount.",
+        "**The game made the same decision English did**, for the same reason."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which is correct?",
+        "options": [
+          "How much water do you need?",
+          "How many water do you need?",
+          "How much bottles do you need?"
+        ],
+        "answerIndex": 0,
+        "explain": "much water. Water is noncount, so it takes much. Bottles are countable, so they'd take many."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Rule 2",
+      "title": "Few for count, little for noncount",
+      "text": "The same split again, this time for small amounts. And a small word changes the whole meaning.",
+      "points": [
+        "**a few** coins · **a little** money",
+        "**few** and **little** without 'a' mean *not enough*.",
+        "**\"A few friends\"** is positive. **\"Few friends\"** is sad.",
+        "**One tiny word**, opposite feeling."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🏎️",
+      "eyebrow": "Car mode",
+      "title": "A race engineer never mixes these up",
+      "text": "On the radio you hear both kinds of noun in the same sentence, and each one takes its own word.",
+      "points": [
+        "**\"How many laps left?\"** — laps are countable.",
+        "**\"How much fuel left?\"** — fuel is measured.",
+        "**Swap them and it sounds broken.** Your ear already knows."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Rule 3",
+      "title": "Fewer and less",
+      "text": "Adults get this wrong constantly, including on shop signs. Now you'll notice it everywhere.",
+      "points": [
+        "**fewer** things you can count: *fewer mistakes, fewer laps*.",
+        "**less** things you measure: *less time, less water*.",
+        "**\"10 items or less\"** on a supermarket sign is wrong.",
+        "**It should say fewer.** Items are countable."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which is correct?",
+        "options": [
+          "I made fewer mistakes and took less time",
+          "I made less mistakes and took fewer time",
+          "I made fewer mistakes and took fewer time"
+        ],
+        "answerIndex": 0,
+        "explain": "fewer mistakes (countable), less time (measured). Getting this right will make you sound more precise than most adults."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The easy ones",
+      "title": "Some words work with both",
+      "text": "Not everything is a trap. These go with either kind of noun, so you can lean on them when unsure.",
+      "points": [
+        "**some, any, a lot of, lots of, plenty of, most, all, no**",
+        "**a lot of cars** ✓ and **a lot of water** ✓",
+        "**When in doubt, 'a lot of' is always safe.**"
+      ]
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Grammar done. Part 2 is Chapter 2, where Don Quixote spends the night in a castle. It's an inn. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "🏰",
+      "eyebrow": "Part 2 · Don Quixote",
+      "title": "Chapter 2: The Adventure at the Inn",
+      "text": "He rides all day and finds a roadside inn. He sees a castle with towers and a moat. Everything that follows comes from that one decision."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "What he sees",
+      "title": "He upgrades everything in sight",
+      "text": "Don Quixote doesn't misread one thing. He rebuilds the entire scene into the story he's living in.",
+      "points": [
+        "**The inn** becomes a castle.",
+        "**The innkeeper** becomes the lord of the castle.",
+        "**Two ordinary women** become noble ladies.",
+        "**A swineherd's horn** becomes a dwarf announcing his arrival."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The funny part",
+      "title": "He can't get his helmet off",
+      "text": "He tied his homemade helmet on so well that he can't remove it. He refuses to cut the ribbons, so he keeps it on to eat.",
+      "points": [
+        "**They feed him through the visor.**",
+        "**He drinks wine through a hollow reed.**",
+        "**He will not take it off.** A knight doesn't.",
+        "**Nobody says a word.** They just play along."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Everyone else becomes an NPC",
+      "text": "The innkeeper realises this man is serious. Instead of arguing, he plays the part he's been assigned.",
+      "points": [
+        "**Quixote hands out roles** and people accept them.",
+        "**The innkeeper knights him** with a ledger book and a straight face.",
+        "**That's a quest giver going along with the player.**",
+        "**Nobody in the room believes it except him.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why does the innkeeper agree to knight Don Quixote?",
+        "options": [
+          "To humour him and get him out of the inn",
+          "Because he really is the lord of a castle",
+          "Because Don Quixote threatens him with a sword"
+        ],
+        "answerIndex": 0,
+        "explain": "He plays along to keep the peace and move him on. It's easier than arguing with someone who's certain."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The vigil",
+      "title": "Guarding armour in a horse trough",
+      "text": "Before being knighted, a knight must keep watch over his armour all night. Quixote lays his out on the water trough in the yard.",
+      "points": [
+        "**A muleteer comes to water his animals** and moves the armour.",
+        "**Quixote attacks him** for touching a knight's arms.",
+        "**Then a second muleteer tries the same thing.**",
+        "**That's when the innkeeper decides to knight him immediately.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The big idea",
+      "title": "He is completely consistent",
+      "text": "Nothing Quixote does in this chapter is random. Given his belief that he's a knight in a castle, every single action is logical.",
+      "points": [
+        "**Wrong premise, perfect reasoning.**",
+        "**That's what makes him funny** rather than just confused.",
+        "**Ask yourself:** what would he look like if the world *did* work that way?"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Don Quixote knows the inn is really an inn, but pretends it is a castle for fun.",
+        "answer": false,
+        "explain": "False, and it matters. He genuinely sees a castle. He isn't pretending — that's the difference between him and someone playing a game."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Quantifier",
+          "def": "A word telling you how much or how many: many, much, few, some."
+        },
+        {
+          "term": "Count noun",
+          "def": "A noun you can count one by one. It has a plural."
+        },
+        {
+          "term": "Noncount noun",
+          "def": "A noun measured rather than counted. It has no plural."
+        },
+        {
+          "term": "many / much",
+          "def": "many for count nouns, much for noncount."
+        },
+        {
+          "term": "few / little",
+          "def": "few for count nouns, little for noncount."
+        },
+        {
+          "term": "fewer / less",
+          "def": "fewer for count nouns, less for noncount."
+        },
+        {
+          "term": "Vigil",
+          "def": "A night spent keeping watch, part of becoming a knight."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Ready for the quiz",
+      "title": "The four that matter",
+      "points": [
+        "**Can you put a number in front of it?** Then it's a count noun.",
+        "**many / few / fewer** for count. **much / little / less** for noncount.",
+        "**\"A lot of\" works for both** when you're unsure.",
+        "**Quixote isn't pretending.** He genuinely sees a castle, and everyone plays along."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Which of these is a noncount noun?",
+      "options": [
+        "advice",
+        "suggestion",
+        "idea",
+        "tip"
+      ],
+      "answerIndex": 0,
+      "explain": "advice. You can have three suggestions or three tips, but never 'three advices'. You'd say three pieces of advice.",
+      "objective": "Tell count nouns from noncount nouns"
+    },
+    {
+      "type": "multiple",
+      "text": "Which is correct?",
+      "options": [
+        "There isn't much water left",
+        "There aren't many water left",
+        "There isn't many water left",
+        "There aren't much water left"
+      ],
+      "answerIndex": 0,
+      "explain": "much water. Water is noncount, so it takes much and a singular verb — isn't, not aren't.",
+      "objective": "Choose quantifiers correctly for count and noncount nouns"
+    },
+    {
+      "type": "multiple",
+      "text": "A supermarket sign reads '10 items or less'. What's wrong with it?",
+      "options": [
+        "It should say fewer, because items can be counted",
+        "It should say much, because items are measured",
+        "Nothing is wrong with it",
+        "It should say little"
+      ],
+      "answerIndex": 0,
+      "explain": "It should be 'fewer'. Items are countable. This is one of the most common errors in written English.",
+      "objective": "Use fewer and less correctly"
+    },
+    {
+      "type": "type",
+      "text": "Fill the gap: I have very ____ time before the test. (one word)",
+      "accept": [
+        "little"
+      ],
+      "explain": "little. Time is noncount, so it takes little rather than few.",
+      "objective": "Choose quantifiers correctly for count and noncount nouns"
+    },
+    {
+      "type": "multiple",
+      "text": "What's the difference between 'a few friends' and 'few friends'?",
+      "options": [
+        "'A few' means some; 'few' means not many, and sounds negative",
+        "There is no difference",
+        "'Few' means more than 'a few'",
+        "'A few' is for noncount nouns"
+      ],
+      "answerIndex": 0,
+      "explain": "Dropping the 'a' flips the feeling. 'I have a few friends' is fine. 'I have few friends' is sad.",
+      "objective": "Choose quantifiers correctly for count and noncount nouns"
+    },
+    {
+      "type": "truefalse",
+      "text": "'A lot of' can be used with both count and noncount nouns.",
+      "answer": true,
+      "explain": "True — a lot of cars, a lot of water. It's the safe choice when you're not sure which kind of noun you have.",
+      "objective": "Choose quantifiers correctly for count and noncount nouns"
+    },
+    {
+      "type": "multiple",
+      "text": "Which sentence is correct?",
+      "options": [
+        "I made fewer errors and used less paper",
+        "I made less errors and used fewer paper",
+        "I made fewer errors and used fewer paper",
+        "I made less errors and used less paper"
+      ],
+      "answerIndex": 0,
+      "explain": "fewer errors (countable), less paper (measured). Both halves have to match their noun type.",
+      "objective": "Use fewer and less correctly"
+    },
+    {
+      "type": "multiple",
+      "text": "What does Don Quixote believe the inn is?",
+      "options": [
+        "A castle",
+        "A monastery",
+        "A stable",
+        "A prison"
+      ],
+      "answerIndex": 0,
+      "explain": "A castle, complete with towers and a moat. Every other mistake in the chapter follows from that first one.",
+      "objective": "Retell Don Quixote Chapter 2 and explain how he reads the world"
+    },
+    {
+      "type": "multiple",
+      "text": "Why can't Don Quixote take his helmet off to eat?",
+      "options": [
+        "He tied it on so tightly he can't undo it, and won't cut the ribbons",
+        "It is welded shut",
+        "A knight has ordered him to keep it on",
+        "He has lost the key to it"
+      ],
+      "answerIndex": 0,
+      "explain": "He tied it on too well and refuses to cut the ribbons. They feed him through the visor and he drinks through a reed.",
+      "objective": "Retell Don Quixote Chapter 2 and explain how he reads the world"
+    },
+    {
+      "type": "truefalse",
+      "text": "Don Quixote is pretending the inn is a castle as a joke.",
+      "answer": false,
+      "explain": "False. He genuinely sees a castle. That's what separates him from someone playing along — and it's why the book is more than a joke.",
+      "objective": "Retell Don Quixote Chapter 2 and explain how he reads the world"
+    },
+    {
+      "type": "multiple",
+      "text": "What happens when the muleteer moves Don Quixote's armour from the trough?",
+      "options": [
+        "Quixote attacks him for touching a knight's arms",
+        "Quixote thanks him for looking after it",
+        "Quixote does not notice",
+        "The innkeeper throws Quixote out"
+      ],
+      "answerIndex": 0,
+      "explain": "He attacks him. He's keeping vigil over his armour, and interfering with it is an insult to a knight.",
+      "objective": "Retell Don Quixote Chapter 2 and explain how he reads the world"
+    },
+    {
+      "type": "order",
+      "text": "Put Chapter 2 in order.",
+      "items": [
+        "He arrives and sees the inn as a castle",
+        "He eats without removing his helmet",
+        "He keeps watch over his armour in the yard",
+        "He fights the muleteers",
+        "The innkeeper knights him"
+      ],
+      "explain": "Arrival, dinner, vigil, fight, knighting. The innkeeper speeds the ceremony up specifically to get rid of him.",
+      "objective": "Retell Don Quixote Chapter 2 and explain how he reads the world"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 2 English covers quantifiers for count and noncount nouns plus Chapter 2 of Stories of Don Quixote Written Anew for Children. The grammar half gives one diagnostic test — can a number go in front of it — and then hangs every quantifier pair off that single decision, so the learner has one thing to remember rather than six. The literature half focuses on the distinction between believing and pretending, which is the load-bearing idea of the whole novel.",
+    "discussion": [
+      "Ask him to sort ten random nouns into count and noncount using the 'three ___' test. Speed matters more than accuracy at first.",
+      "Ask him to find a 'less' that should be 'fewer' in the real world. Supermarket signs and packaging are full of them.",
+      "Ask whether Don Quixote is pretending or believing. The distinction is the whole point, and Chapter 2 is where it becomes unmistakable.",
+      "Ask why the innkeeper plays along rather than arguing. It opens a genuinely interesting question about how people handle certainty in others."
+    ],
+    "extension": "Have him rewrite one paragraph of Chapter 2 from the innkeeper's point of view. It forces him to hold both readings of the scene at once — what is really there, and what Quixote sees.",
+    "misconceptions": [
+      "'Noncount nouns can be made plural by adding -s.' They cannot. Use a container or unit instead: a piece of advice, a glass of water.",
+      "'Less and fewer are interchangeable.' Fewer is for things you count; less is for things you measure.",
+      "'A few and few mean the same thing.' Dropping the article reverses the tone from positive to negative.",
+      "'Don Quixote knows the truth and is playing a game.' He does not. He genuinely perceives a castle, and that is what makes him a tragic figure rather than a clown."
+    ]
+  }
+}

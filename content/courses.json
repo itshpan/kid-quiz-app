@@ -161,7 +161,8 @@
           "topics": [
             "The four operations with decimals: addition & subtraction"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "math/w3-decimals-add.json"
         },
         {
           "week": 4,
@@ -272,7 +273,8 @@
             "Quantifiers for noncount nouns",
             "Don Quixote Ch. 2: The Adventure at the Inn"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "english/w2-quantifiers-quixote.json"
         },
         {
           "week": 3,

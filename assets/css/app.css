@@ -932,3 +932,10 @@ strong { font-weight: 700; color: var(--ink); }
 }
 svg .hidden { display: none; }
 @media (prefers-reduced-motion: reduce) { #tlMoved { transition: none; } }
+
+/* ---------- Decimal + possessive figures ---------- */
+.fig-digit       { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 26px; fill: var(--ink); }
+.fig-digit-sum   { fill: var(--accent); font-weight: 700; }
+.fig-digit-bad   { fill: var(--notyet); font-size: 20px; }
+.fig-label-bad   { fill: var(--notyet); }
+.fig-rule-strong { stroke: var(--ink-faint); stroke-width: 2; }

@@ -1107,6 +1107,126 @@ function transformLab() {
     };
 }
 
+/* ---------- 16. Decimal alignment (interactive) ---------- */
+/* Nearly every decimal addition error is the same error: lining the digits up
+   on the right instead of on the decimal point. Showing both side by side,
+   with both answers, makes the mistake visible rather than described. */
+function decimalColumns() {
+    const A = '12.5', B = '3.75';
+
+    // Right-aligned is what a careless reader does; it silently changes the
+    // place value of every digit.
+    const WRONG = { rows: ['12.5', '3.75'], pad: 'right', sum: '(nonsense)', note: 'The 5 tenths is now under 7 hundredths. Every column means something different.' };
+    const RIGHT = { rows: ['12.50', ' 3.75'], pad: 'point', sum: '16.25', note: 'Tenths under tenths, hundredths under hundredths. Add the empty space as a zero.' };
+
+    const row = (txt, y, cls = '') =>
+        `<text class="fig-digit ${cls}" x="150" y="${y}" text-anchor="end">${txt}</text>`;
+
+    return {
+        svg: `
+<svg viewBox="0 0 400 190" role="img" aria-labelledby="dcT">
+  <title id="dcT">Two decimal numbers stacked, aligned on the right and then aligned on the decimal point</title>
+  <text class="fig-label" x="20" y="24" id="dcMode">—</text>
+  <g id="dcRows"></g>
+  <line class="fig-rule-strong" x1="60" y1="112" x2="152" y2="112"/>
+  <text class="fig-digit fig-digit-sum" id="dcSum" x="150" y="142" text-anchor="end">—</text>
+  <line class="fig-mirror hidden" id="dcPoint" x1="121" y1="34" x2="121" y2="150"/>
+  <text class="fig-note" id="dcNote" x="176" y="72"> </text>
+  <text class="fig-note" id="dcNote2" x="176" y="92"> </text>
+</svg>`,
+
+        bind(root) {
+            const bar = document.createElement('div');
+            bar.className = 'fig-switch';
+            bar.innerHTML = `
+                <button data-m="wrong" aria-pressed="true">Line up the right edge</button>
+                <button data-m="right" aria-pressed="false">Line up the point</button>`;
+            root.appendChild(bar);
+
+            const rows = root.querySelector('#dcRows');
+            const sum = root.querySelector('#dcSum');
+            const mode = root.querySelector('#dcMode');
+            const note = root.querySelector('#dcNote');
+            const note2 = root.querySelector('#dcNote2');
+            const point = root.querySelector('#dcPoint');
+
+            const show = key => {
+                const m = key === 'wrong' ? WRONG : RIGHT;
+                rows.innerHTML = row(m.rows[0], 60) + row('+ ' + m.rows[1].trim(), 96);
+                sum.textContent = m.sum;
+                sum.setAttribute('class', key === 'wrong' ? 'fig-digit fig-digit-bad' : 'fig-digit fig-digit-sum');
+                mode.textContent = key === 'wrong' ? 'WRONG — RIGHT-ALIGNED' : 'RIGHT — POINT-ALIGNED';
+                mode.setAttribute('class', key === 'wrong' ? 'fig-label fig-label-bad' : 'fig-label');
+                const words = m.note.split(' ');
+                const half = Math.ceil(words.length / 2);
+                note.textContent = words.slice(0, half).join(' ');
+                note2.textContent = words.slice(half).join(' ');
+                point.classList.toggle('hidden', key === 'wrong');
+            };
+
+            bar.addEventListener('click', e => {
+                const b = e.target.closest('button');
+                if (!b) return;
+                bar.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+                show(b.dataset.m);
+            });
+            show('wrong');
+        }
+    };
+}
+
+/* ---------- 17. Possessive apostrophes (interactive) ---------- */
+/* Four cases and one notorious trap. Tapping through them puts the rule and
+   the example on screen together, which a list of rules does not. */
+function possessiveRule() {
+    const CASES = [
+        { label: 'boy',      base: 'boy',      out: "the boy's helmet",       rule: 'Singular noun',              why: "Add 's. It doesn't matter what letter it ends in." },
+        { label: 'boys',     base: 'boys',     out: "the boys' helmets",      rule: 'Plural ending in s',         why: "Just an apostrophe. There's already an s there." },
+        { label: 'children', base: 'children', out: "the children's books",   rule: 'Plural NOT ending in s',     why: "Add 's, same as a singular. Also men, women, people." },
+        { label: 'James',    base: 'James',    out: "James's horse",          rule: 'Singular already ending in s', why: "James's or James' — both accepted. Pick one and be consistent." },
+        { label: 'its',      base: 'its',      out: "the car lost its wheel", rule: 'The trap',                   why: "No apostrophe. it's always means 'it is'. This is the most common error in English." }
+    ];
+
+    return {
+        svg: `
+<svg viewBox="0 0 400 150" role="img" aria-labelledby="prT">
+  <title id="prT">A possessive form with the rule that produced it</title>
+  <text class="fig-label" x="10" y="20">THE RULE</text>
+  <text class="fig-big" id="prRule" x="10" y="48">—</text>
+  <rect class="fig-chip" x="6" y="64" width="388" height="44" rx="10"/>
+  <text class="fig-word fig-word-out" id="prOut" x="20" y="93">—</text>
+  <text class="fig-note" id="prWhy" x="10" y="132"> </text>
+</svg>`,
+
+        bind(root) {
+            const bar = document.createElement('div');
+            bar.className = 'fig-switch fig-switch-wrap';
+            bar.innerHTML = CASES.map((c, i) =>
+                `<button data-i="${i}" aria-pressed="${i === 0}">${c.label}</button>`).join('');
+            root.appendChild(bar);
+
+            const out = root.querySelector('#prOut');
+            const rule = root.querySelector('#prRule');
+            const why = root.querySelector('#prWhy');
+
+            const show = i => {
+                const c = CASES[i];
+                out.textContent = c.out;
+                rule.textContent = c.rule;
+                rule.setAttribute('class', c.rule === 'The trap' ? 'fig-big fig-big-no' : 'fig-big');
+                why.textContent = c.why;
+            };
+            bar.addEventListener('click', e => {
+                const b = e.target.closest('button');
+                if (!b) return;
+                bar.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+                show(+b.dataset.i);
+            });
+            show(0);
+        }
+    };
+}
+
 export const FIGURES = {
     crumpleZone,
     muscleTypes,
@@ -1122,7 +1242,9 @@ export const FIGURES = {
     pluralMachine,
     digestiveTract,
     skinLayers,
-    transformLab
+    transformLab,
+    decimalColumns,
+    possessiveRule
 };
 
 

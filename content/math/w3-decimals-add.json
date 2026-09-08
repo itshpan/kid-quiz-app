@@ -1,0 +1,359 @@
+{
+  "id": "math-w3",
+  "courseId": "math",
+  "courseTitle": "Math",
+  "week": 3,
+  "title": "Adding & Subtracting Decimals",
+  "subtitle": "One rule, and one mistake almost everybody makes.",
+  "estMinutes": 20,
+  "objectives": [
+    "Identify the place value of each digit after a decimal point",
+    "Add and subtract decimals by aligning the decimal points",
+    "Use zeros to fill empty place values",
+    "Estimate an answer to check whether a result is sensible",
+    "Solve word problems involving money and measurement"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🏎️",
+      "eyebrow": "Part 1 · Place value",
+      "title": "A race is won by two hundredths of a second",
+      "text": "Lap times look like 1:23.456. Those digits after the point are the whole sport. Get them wrong and you're not close — you're nowhere."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The foundation",
+      "title": "Each place is ten times smaller",
+      "text": "Going right from the decimal point, every column is worth a tenth of the one before it.",
+      "points": [
+        "**First place = tenths.** 0.4 is four tenths.",
+        "**Second place = hundredths.** 0.04 is four hundredths.",
+        "**Third place = thousandths.** 0.004.",
+        "**0.4 is ten times bigger than 0.04.** Same digit, different worth."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🏎️",
+      "eyebrow": "Forza mode",
+      "title": "Split times are decimal subtraction",
+      "text": "That −0.284 flashing on screen is your time minus the record. The game is doing this lesson every lap.",
+      "points": [
+        "**Your lap: 1:23.456. Record: 1:23.740.**",
+        "**The delta is a subtraction**, done to the thousandth.",
+        "**Round it to 1:23 and the delta vanishes.** Precision is the point."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which is bigger, 0.7 or 0.65?",
+        "options": ["0.7", "0.65", "They're equal"],
+        "answerIndex": 0,
+        "explain": "0.7 — that's seven tenths, which is 0.70. More digits doesn't mean a bigger number. Compare place by place, starting at the left."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The one rule",
+      "title": "Line up the decimal points",
+      "text": "That's it. That's the whole method for adding and subtracting decimals. Everything else you already know from whole numbers.",
+      "points": [
+        "**Stack the numbers with the points in one column.**",
+        "**Fill any gaps with zeros.**",
+        "**Bring the point straight down** into the answer.",
+        "**Then add or subtract exactly as normal.**"
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "decimalColumns",
+      "eyebrow": "Try it",
+      "title": "The mistake, and the fix",
+      "text": "Tap between the two. Lining up the right-hand edge is what most people do wrong, and you can see why it breaks."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "What is 12.5 + 3.75? Digits only.",
+        "accept": ["16.25", "16.250"],
+        "explain": "16.25. Write 12.5 as 12.50 first so both have two decimal places, then add straight down."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The trick",
+      "title": "Adding zeros changes nothing",
+      "text": "12.5 and 12.50 and 12.500 are the same number. Zeros on the end of a decimal are free.",
+      "points": [
+        "**Use them to make both numbers the same length.**",
+        "**It makes the columns line up** without you having to think.",
+        "**Careful:** 12.05 is not 12.5. A zero in the middle changes everything."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Minecraft coordinates work the same way",
+      "text": "Your position reads something like X: 128.50, Y: 64.00, Z: −310.25. Those are decimals, and moving is adding to them.",
+      "points": [
+        "**Y: 64.00 is exactly sea level.** The zeros are placeholders.",
+        "**Distance travelled** is one coordinate minus another.",
+        "**Negative coordinates** work the same — the point stays put."
+      ]
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "You've got the rule. Part 2 is subtraction, checking your work, and money. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "➖",
+      "eyebrow": "Part 2 · Subtracting",
+      "title": "Same rule, one extra danger",
+      "text": "Subtraction uses the identical method. The only new problem is borrowing across a gap you forgot to fill."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Subtracting",
+      "title": "Fill the gaps before you start",
+      "text": "For 8.4 − 2.65, write the 8.4 as 8.40 first. Now there's something in the hundredths column to borrow from.",
+      "points": [
+        "**8.4 − 2.65** becomes **8.40 − 2.65**",
+        "**Without the zero** you have nothing to take 5 from.",
+        "**The answer is 5.75.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "What is 8.4 − 2.65? Digits only.",
+        "accept": ["5.75"],
+        "explain": "5.75. Writing 8.4 as 8.40 first gives you a hundredths digit to borrow from."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The safety net",
+      "title": "Estimate first, then check",
+      "text": "Round both numbers to whole numbers and add them in your head. Your real answer should land near that.",
+      "points": [
+        "**12.5 + 3.75** is roughly **13 + 4 = 17**.",
+        "**You got 16.25.** Close to 17, so it's sensible.",
+        "**If you'd got 162.5**, the estimate would have caught it."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Making weight is decimal subtraction",
+      "text": "A weight limit is exact. 62.5 kg means 62.5, and 62.6 means you don't fight.",
+      "points": [
+        "**Weigh 64.3 kg with a 62.5 limit?** You need to lose 1.8 kg.",
+        "**That's a subtraction** you'd better get right.",
+        "**Rounding to whole kilos** would hide the whole problem."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Money",
+      "title": "Every price you've ever seen is this",
+      "text": "Money is decimals with exactly two places. Pesos before the point, centavos after.",
+      "points": [
+        "**₱125.50 + ₱48.75** — same rule, line up the points.",
+        "**Always write two decimal places** for money. ₱7.5 should be ₱7.50.",
+        "**Change from a note** is a subtraction."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "You pay ₱200 for something costing ₱147.25. How much change? Digits only.",
+        "accept": ["52.75"],
+        "explain": "₱52.75. Write ₱200 as 200.00 first, then subtract. The zeros give you something to borrow from."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Watch out",
+      "title": "The three mistakes to avoid",
+      "text": "Almost every wrong answer in this topic is one of these three.",
+      "points": [
+        "**Lining up the right edge** instead of the decimal point.",
+        "**Forgetting to fill gaps with zeros** before subtracting.",
+        "**Losing the point in the answer.** Bring it straight down."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "order",
+        "text": "Put the method for adding decimals in order.",
+        "items": [
+          "Stack the numbers with the decimal points in line",
+          "Fill any empty places with zeros",
+          "Add each column as normal",
+          "Bring the decimal point straight down"
+        ],
+        "explain": "Align, fill, add, bring the point down. Do it in that order and the arithmetic takes care of itself."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "Decimal point", "def": "The dot separating whole numbers from parts of a whole." },
+        { "term": "Tenths", "def": "The first place after the point. 0.4 is four tenths." },
+        { "term": "Hundredths", "def": "The second place after the point. 0.04." },
+        { "term": "Thousandths", "def": "The third place after the point. 0.004." },
+        { "term": "Place value", "def": "What a digit is worth because of where it sits." },
+        { "term": "Estimate", "def": "A rough answer used to check a real one is sensible." },
+        { "term": "Regrouping", "def": "Borrowing from the column to the left when subtracting." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Ready for the quiz",
+      "title": "The four that matter",
+      "points": [
+        "**Line up the decimal points.** That's the whole rule.",
+        "**Fill gaps with zeros.** 8.4 becomes 8.40.",
+        "**Bring the point straight down** into the answer.",
+        "**Estimate first** so a wrong answer can't slip past you."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "In the number 45.376, what is the digit 7 worth?",
+      "options": ["Seven hundredths", "Seven tenths", "Seven thousandths", "Seven units"],
+      "answerIndex": 0,
+      "explain": "Seven hundredths. Counting right from the point: 3 is tenths, 7 is hundredths, 6 is thousandths.",
+      "objective": "Identify the place value of each digit after a decimal point"
+    },
+    {
+      "type": "type",
+      "text": "What is 15.6 + 4.85? Digits only.",
+      "accept": ["20.45"],
+      "explain": "20.45. Write 15.6 as 15.60 first, then add straight down with the points in line.",
+      "objective": "Add and subtract decimals by aligning the decimal points"
+    },
+    {
+      "type": "type",
+      "text": "What is 9.2 − 3.47? Digits only.",
+      "accept": ["5.73"],
+      "explain": "5.73. Write 9.2 as 9.20 so there's a hundredths digit to borrow from.",
+      "objective": "Use zeros to fill empty place values"
+    },
+    {
+      "type": "multiple",
+      "text": "Which is the largest number?",
+      "options": ["0.8", "0.75", "0.109", "0.6999"],
+      "answerIndex": 0,
+      "explain": "0.8. Compare from the left: 8 tenths beats 7, 1 and 6 tenths. More digits does not mean a bigger number.",
+      "objective": "Identify the place value of each digit after a decimal point"
+    },
+    {
+      "type": "truefalse",
+      "text": "12.5 and 12.50 are the same number.",
+      "answer": true,
+      "explain": "True. A zero on the end of a decimal adds nothing. But 12.05 is different — a zero in the middle changes the place values.",
+      "objective": "Use zeros to fill empty place values"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the most common mistake when adding decimals?",
+      "options": [
+        "Lining the numbers up on the right edge instead of the decimal point",
+        "Adding from left to right",
+        "Using too many zeros",
+        "Forgetting to estimate"
+      ],
+      "answerIndex": 0,
+      "explain": "Right-aligning changes what every digit is worth. Line up the points, not the edges.",
+      "objective": "Add and subtract decimals by aligning the decimal points"
+    },
+    {
+      "type": "type",
+      "text": "You pay ₱500 for goods costing ₱237.60. How much change do you get? Digits only.",
+      "accept": ["262.40", "262.4"],
+      "explain": "₱262.40. Write ₱500 as 500.00 first so the columns line up and you have digits to borrow from.",
+      "objective": "Solve word problems involving money and measurement"
+    },
+    {
+      "type": "multiple",
+      "text": "A lap takes 1:23.456. The record is 1:23.740. By how much did you beat it?",
+      "options": ["0.284 seconds", "0.384 seconds", "0.716 seconds", "1.284 seconds"],
+      "answerIndex": 0,
+      "explain": "0.284 seconds. 23.740 − 23.456 = 0.284. That's exactly what a split time on screen is showing you.",
+      "objective": "Solve word problems involving money and measurement"
+    },
+    {
+      "type": "order",
+      "text": "Put the steps for adding decimals in the right order.",
+      "items": [
+        "Stack the numbers with the decimal points in line",
+        "Fill any empty places with zeros",
+        "Add each column as normal",
+        "Bring the decimal point straight down"
+      ],
+      "explain": "Align, fill, add, bring down. In that order the arithmetic is just whole-number addition.",
+      "objective": "Add and subtract decimals by aligning the decimal points"
+    },
+    {
+      "type": "multiple",
+      "text": "You calculate 24.6 + 7.8 and get 103.4. What does estimating tell you?",
+      "options": [
+        "It's wrong — 25 + 8 is about 33",
+        "It's right — the numbers are large",
+        "Estimating can't help here",
+        "It's wrong — it should be about 300"
+      ],
+      "answerIndex": 0,
+      "explain": "Rounding gives about 33, and the real answer is 32.4. An answer of 103.4 means the columns weren't aligned.",
+      "objective": "Estimate an answer to check whether a result is sensible"
+    },
+    {
+      "type": "type",
+      "text": "A fighter weighs 64.3 kg. The limit is 62.5 kg. How much must they lose? Digits only.",
+      "accept": ["1.8"],
+      "explain": "1.8 kg. Rounding to whole kilos would have hidden the problem entirely — this is why precision matters.",
+      "objective": "Solve word problems involving money and measurement"
+    },
+    {
+      "type": "truefalse",
+      "text": "When subtracting 7.5 − 2.38, you should first write 7.5 as 7.50.",
+      "answer": true,
+      "explain": "True. Without the zero there's no hundredths digit to take the 8 from. The answer is 5.12.",
+      "objective": "Use zeros to fill empty place values"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 3 Maths covers addition and subtraction of decimals, matching the Term 1 weekly scope. The lesson is deliberately built around one rule and one error: align the decimal points, and the mistake is aligning the right-hand edge instead. The interactive figure shows both stackings side by side with both answers, so the error is visible rather than merely described. Week 4 continues the same topic, so this can be taught and then practised.",
+    "discussion": [
+      "Ask which is bigger, 0.7 or 0.65, and why. If he says 0.7 is 0.70, he has place value rather than a rule about counting digits.",
+      "Ask him to explain why we add zeros before subtracting. The answer — so there is something to borrow from — shows he understands regrouping.",
+      "Ask him to estimate before every answer for a week. It is the single habit that catches misaligned columns.",
+      "Ask where he already sees decimals outside maths class. Lap times, prices and weights all count, and noticing them is the point."
+    ],
+    "extension": "Give him a receipt or a set of lap times and ask for the total and the differences. Real data has awkward numbers of decimal places, which is exactly where the zero-filling habit gets tested.",
+    "misconceptions": [
+      "'More digits means a bigger number.' 0.109 has more digits than 0.8 but is far smaller. Compare place by place from the left.",
+      "'Line up the last digits.' This is the central error of the topic. Align the decimal points; the edges are irrelevant.",
+      "'Adding a zero changes the number.' Zeros on the end of a decimal change nothing. Zeros in the middle change everything.",
+      "'The decimal point moves during addition.' It stays in its column and comes straight down into the answer."
+    ]
+  }
+}
