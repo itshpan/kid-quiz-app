@@ -1,0 +1,421 @@
+{
+  "id": "mapeh-w4",
+  "courseId": "mapeh",
+  "courseTitle": "MAPEH",
+  "week": 4,
+  "title": "Elements of Art Around Us",
+  "subtitle": "Seven things every picture is made of, including the ones you never look at.",
+  "estMinutes": 18,
+  "objectives": [
+    "Name the seven elements of art",
+    "Tell shape from form",
+    "Explain positive and negative space",
+    "Describe colour using hue, value and intensity",
+    "Tell the elements of art from the principles of design",
+    "Use the elements to describe an image instead of judging it"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🎨",
+      "eyebrow": "Part 1 · The seven",
+      "title": "Everything you have ever looked at is made of seven things",
+      "text": "A photograph, a livery, a game menu, a poster. Same seven ingredients, mixed differently."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The list",
+      "title": "The elements of art",
+      "text": "Learn them as a list first. The rest of the lesson is what each one actually means.",
+      "points": [
+        "**Line · Shape · Form**",
+        "**Space · Colour**",
+        "**Value · Texture**",
+        "**Seven.** Some books say eight and add pattern."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "artElements",
+      "eyebrow": "Look at them",
+      "title": "Each one, drawn",
+      "text": "Tap through all seven. This is a subject you cannot learn from a list."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which of these is NOT an element of art?",
+        "options": [
+          "Balance",
+          "Texture",
+          "Value",
+          "Space"
+        ],
+        "answerIndex": 0,
+        "explain": "Balance is a principle of design — a way of arranging elements. The other three are elements."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The pair people mix up",
+      "title": "Shape is flat. Form has depth",
+      "text": "This is the single most common mistake in the topic, and it is settled by counting dimensions.",
+      "points": [
+        "**Shape** — two dimensions. Height and width.",
+        "**Form** — three. Height, width and depth.",
+        "**A circle is a shape. A sphere is a form.**",
+        "**Shading is how you fake form** on flat paper."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🏎️",
+      "eyebrow": "Forza mode",
+      "title": "A livery editor is a box of elements",
+      "text": "Every tool in it is one of the seven. Nobody labels them, but that is what you are moving around.",
+      "points": [
+        "**Stripes and pinstripes** — line.",
+        "**Decals** — shape, arranged in space.",
+        "**The paint picker** — hue, value and intensity.",
+        "**Carbon weave** — texture, faked convincingly."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "A cube is an example of which element?",
+        "options": [
+          "Form",
+          "Shape",
+          "Space",
+          "Value"
+        ],
+        "answerIndex": 0,
+        "explain": "Form. It has depth as well as height and width. A square is the flat version, and that is a shape."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The invisible one",
+      "title": "Space, positive and negative",
+      "text": "Space is the element nobody looks at, which is exactly why artists use it.",
+      "points": [
+        "**Positive space** — the object itself.",
+        "**Negative space** — everything around it.",
+        "**Both are designed.** The gap is not left over.",
+        "**Empty space directs your eye** more than the object does."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is negative space?",
+        "options": [
+          "The empty area around and between objects",
+          "A mistake in a drawing",
+          "A dark shadow under an object",
+          "The background colour only"
+        ],
+        "answerIndex": 0,
+        "explain": "The space around the subject. It is designed on purpose, not left over by accident."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Four elements covered. Part 2 is colour, value and texture, then how to use the whole set. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "🌈",
+      "eyebrow": "Part 2 · Colour and surface",
+      "title": "Colour is three questions, not one",
+      "text": "Saying a thing is blue answers only the first of them. The other two are where the skill is."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Colour",
+      "title": "Hue, value and intensity",
+      "text": "Three separate controls. You can change any one and leave the other two alone.",
+      "points": [
+        "**Hue** — which colour it is. Red, blue, green.",
+        "**Value** — how light or dark. Add white or black.",
+        "**Intensity** — how strong or dull it is.",
+        "**Primaries: red, yellow, blue.** Mixing them gives the rest."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Value",
+      "title": "Value is the one that does the work",
+      "text": "Take a picture, remove all the colour, and whatever still reads clearly is doing it with value.",
+      "points": [
+        "**Value makes something look solid.**",
+        "**A drawing with no value range looks flat.**",
+        "**Squint at any image** and you see value only.",
+        "**Colour gets the attention. Value carries it.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Cyberpunk is a value problem before a colour one",
+      "text": "A night city works because dark areas sit next to bright ones. The neon is only readable because of what surrounds it.",
+      "points": [
+        "**High contrast in value** is what makes it legible.",
+        "**Turn the picture greyscale** and it still reads.",
+        "**Artists check that on purpose.**",
+        "**That check has a name:** a value study."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What does value mean in art?",
+        "options": [
+          "How light or dark something is",
+          "How much a painting is worth",
+          "Which colour has been used",
+          "How rough a surface feels"
+        ],
+        "answerIndex": 0,
+        "explain": "Lightness and darkness. Squint at any picture and value is what you are left seeing."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The other list",
+      "title": "Elements are ingredients. Principles are recipes",
+      "text": "The exam will try to mix these two lists up. The distinction is simple once you have it.",
+      "points": [
+        "**Elements** — line, shape, form, space, colour, value, texture.",
+        "**Principles** — balance, contrast, emphasis, rhythm, unity.",
+        "**Elements are what is there.**",
+        "**Principles are how it is arranged.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Describing beats judging, every time",
+      "text": "\"It looks cool\" ends the conversation. \"Dark values, one bright hue, lots of negative space\" starts one.",
+      "points": [
+        "**Name three elements** and you have said something real.",
+        "**Anyone can then disagree with you.** That is good.",
+        "**Same skill as describing a scene** in writing.",
+        "**Vocabulary is what turns looking into seeing.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which list are contrast and emphasis on?",
+        "options": [
+          "The principles of design",
+          "The elements of art",
+          "The primary colours",
+          "The kinds of texture"
+        ],
+        "answerIndex": 0,
+        "explain": "Principles. They describe how elements are arranged, not what the elements are."
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "line", "def": "The path a point takes. The first and simplest element." },
+        { "term": "shape", "def": "A flat area with height and width only. Two dimensions." },
+        { "term": "form", "def": "Shape with depth added. Three dimensions, real or suggested." },
+        { "term": "positive space", "def": "The object itself." },
+        { "term": "negative space", "def": "The area around and between objects, designed on purpose." },
+        { "term": "hue", "def": "Which colour something is: red, blue, green." },
+        { "term": "value", "def": "How light or dark something is." },
+        { "term": "intensity", "def": "How strong or dull a colour is." },
+        { "term": "texture", "def": "How a surface feels, or how it looks as though it would feel." },
+        { "term": "principles of design", "def": "Balance, contrast, emphasis, rhythm, unity. How elements are arranged." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Line, shape, form, space, colour, value, texture.**",
+        "**Shape is flat. Form has depth.**",
+        "**Negative space is designed**, not left over.",
+        "**Elements are ingredients. Principles are the recipe.**"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Which of these is an element of art?",
+      "options": [
+        "Texture",
+        "Balance",
+        "Emphasis",
+        "Unity"
+      ],
+      "answerIndex": 0,
+      "explain": "Texture is an element. Balance, emphasis and unity are principles of design.",
+      "objective": "Name the seven elements of art"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the difference between shape and form?",
+      "options": [
+        "Shape is flat; form has depth",
+        "Shape is coloured; form is not",
+        "Shape is small; form is large",
+        "There is no difference"
+      ],
+      "answerIndex": 0,
+      "explain": "Two dimensions against three. A square is a shape, a cube is a form.",
+      "objective": "Tell shape from form"
+    },
+    {
+      "type": "multiple",
+      "text": "A sphere is an example of which element?",
+      "options": [
+        "Form",
+        "Shape",
+        "Value",
+        "Line"
+      ],
+      "answerIndex": 0,
+      "explain": "Form. A circle is the flat version, and that would be a shape.",
+      "objective": "Tell shape from form"
+    },
+    {
+      "type": "type",
+      "text": "What do we call the empty area around and between objects in a picture?",
+      "accept": [
+        "negative space",
+        "the negative space",
+        "negative"
+      ],
+      "explain": "Negative space. It is designed deliberately, not left over.",
+      "objective": "Explain positive and negative space"
+    },
+    {
+      "type": "truefalse",
+      "text": "Negative space is a mistake that artists try to avoid.",
+      "answer": false,
+      "explain": "False. It is planned as carefully as the subject, and it is often what directs your eye.",
+      "objective": "Explain positive and negative space"
+    },
+    {
+      "type": "multiple",
+      "text": "Which word means which colour something is?",
+      "options": [
+        "Hue",
+        "Value",
+        "Intensity",
+        "Texture"
+      ],
+      "answerIndex": 0,
+      "explain": "Hue. Value is lightness or darkness, and intensity is how strong or dull the colour is.",
+      "objective": "Describe colour using hue, value and intensity"
+    },
+    {
+      "type": "multiple",
+      "text": "What are the three primary colours?",
+      "options": [
+        "Red, yellow, blue",
+        "Red, green, blue",
+        "Orange, green, violet",
+        "Black, white, grey"
+      ],
+      "answerIndex": 0,
+      "explain": "Red, yellow and blue in paint. Mixing pairs of them gives orange, green and violet.",
+      "objective": "Describe colour using hue, value and intensity"
+    },
+    {
+      "type": "multiple",
+      "text": "What does value describe?",
+      "options": [
+        "How light or dark something is",
+        "How expensive the artwork is",
+        "How rough the surface is",
+        "How large the picture is"
+      ],
+      "answerIndex": 0,
+      "explain": "Lightness and darkness. Turn any image greyscale and value is all that is left.",
+      "objective": "Describe colour using hue, value and intensity"
+    },
+    {
+      "type": "multiple",
+      "text": "Which list do balance, contrast and rhythm belong to?",
+      "options": [
+        "The principles of design",
+        "The elements of art",
+        "The primary colours",
+        "The kinds of line"
+      ],
+      "answerIndex": 0,
+      "explain": "Principles. Elements are what is in the picture; principles are how it has been arranged.",
+      "objective": "Tell the elements of art from the principles of design"
+    },
+    {
+      "type": "truefalse",
+      "text": "Elements of art are what is in a picture; principles of design are how it is arranged.",
+      "answer": true,
+      "explain": "True. Ingredients against recipe. Keeping the two lists separate is most of the topic.",
+      "objective": "Tell the elements of art from the principles of design"
+    },
+    {
+      "type": "multiple",
+      "text": "Which of these describes an image rather than judging it?",
+      "options": [
+        "Dark values, one bright hue, a lot of negative space",
+        "It looks really cool",
+        "I would put it on my wall",
+        "Better than the last one"
+      ],
+      "answerIndex": 0,
+      "explain": "Naming elements is description. Everything else is a verdict, which ends the conversation.",
+      "objective": "Use the elements to describe an image instead of judging it"
+    },
+    {
+      "type": "multiple",
+      "text": "What is texture, as an element of art?",
+      "options": [
+        "How a surface feels, or looks as though it would feel",
+        "The overall colour scheme",
+        "The size of the artwork",
+        "The frame around a picture"
+      ],
+      "answerIndex": 0,
+      "explain": "Both real texture and the illusion of it. Hatching and stippling are two ways to fake it.",
+      "objective": "Name the seven elements of art"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 4 MAPEH covers the elements of art, matching the Term 1 weekly scope. It is the lesson in this subject that most needed a figure rather than a list, and the artElements figure draws each of the seven rather than naming it: a card about texture that shows no texture teaches nothing. Two specific confusions are targeted directly because they account for most lost marks — shape against form, which is settled by counting dimensions, and the elements list against the principles list, which is settled by asking whether the word describes what is there or how it is arranged. The closing argument is transferable beyond art: naming three elements says something a listener can disagree with, and 'it looks cool' does not.",
+    "discussion": [
+      "Hand him any photograph and ask for three elements he can name in it. Doing it once out loud is what makes the vocabulary usable.",
+      "Ask him to squint at a picture on a screen. What survives is value, and that is easier to feel than to explain.",
+      "Ask why negative space is designed rather than left over. A logo with an arrow hidden in the gap answers it instantly.",
+      "Ask him to describe a game's look without saying whether he likes it. It is harder than it sounds and it is the whole skill."
+    ],
+    "extension": "Have him take one photo on a phone and write seven sentences about it, one per element. The texture and space sentences will be the hardest, which is the useful part.",
+    "misconceptions": [
+      "'Shape and form are the same word.' Shape is two-dimensional, form is three. A square against a cube.",
+      "'Balance and contrast are elements.' They are principles of design. Elements are what is in the picture.",
+      "'Value means how much a painting is worth.' In art it means how light or dark something is.",
+      "'Negative space is empty and therefore unimportant.' It is designed on purpose and often does more work than the subject."
+    ]
+  }
+}

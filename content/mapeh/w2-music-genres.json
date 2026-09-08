@@ -1,0 +1,396 @@
+{
+  "id": "mapeh-w2",
+  "courseId": "mapeh",
+  "courseTitle": "MAPEH",
+  "week": 2,
+  "title": "Music Genres Around the World",
+  "subtitle": "Every genre is a place, a history and a rhythm you can name.",
+  "estMinutes": 18,
+  "objectives": [
+    "Define what a music genre is",
+    "Match six major genres to the countries they came from",
+    "Describe the characteristic rhythm or instruments of each",
+    "Explain how migration and trade spread musical styles",
+    "Use the elements of music to describe a genre"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🌍",
+      "eyebrow": "Part 1 · What a genre is",
+      "title": "A genre is a place with a beat attached",
+      "text": "Nobody sat down and invented reggae. It grew in one place, out of what was already there, and then it travelled."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The word",
+      "title": "What makes a genre a genre",
+      "text": "A genre is a family of music that shares habits. Recognising one is the same skill as recognising a car by its shape.",
+      "points": [
+        "**A typical rhythm** you could clap without the record.",
+        "**A typical set of instruments.**",
+        "**A place and a time** it came from.",
+        "**Rules you can break** once everyone knows them."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "worldGenres",
+      "eyebrow": "Six of them",
+      "title": "Where each one is from",
+      "text": "Tap through. Several quiz questions come from this."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which country did reggae come from?",
+        "options": [
+          "Jamaica",
+          "Brazil",
+          "Indonesia",
+          "South Korea"
+        ],
+        "answerIndex": 0,
+        "explain": "Jamaica, from the 1960s. The giveaway is the guitar chopping on the offbeat."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The tell",
+      "title": "Rhythm gives it away before anything else",
+      "text": "You usually know the genre within two bars, and it is almost never the melody that told you.",
+      "points": [
+        "**Reggae** puts the guitar on the *offbeat*.",
+        "**Samba** stacks percussion over a fast two-beat pulse.",
+        "**Flamenco** counts in cycles, with handclaps holding it.",
+        "**Hip hop** is built on a looped drum break."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🏎️",
+      "eyebrow": "Forza mode",
+      "title": "Racing games sort their radio by genre",
+      "text": "Different stations, different feel, same road. That is a genre doing its job: setting an expectation in seconds.",
+      "points": [
+        "**You pick a station** for the drive you want.",
+        "**Two bars in**, you know if it fits.",
+        "**Tempo and texture** are doing that, not the words.",
+        "**Genre is a shortcut** to a mood."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Hip hop grew out of DJs doing what?",
+        "options": [
+          "Looping the drum break in a record",
+          "Playing two melodies at once",
+          "Recording with no instruments",
+          "Singing without amplification"
+        ],
+        "answerIndex": 0,
+        "explain": "The break is the part where the drums play alone. Looping it made a new music out of old records."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Six genres named. Part 2 is how they moved, and how to describe one properly. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "🚢",
+      "eyebrow": "Part 2 · How music travels",
+      "title": "Genres move the way people move",
+      "text": "Almost every genre on that list is a record of somebody's journey, forced or chosen."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The routes",
+      "title": "Trade, migration and empire",
+      "text": "Three forces spread music around the world, and none of them were about music.",
+      "points": [
+        "**Samba** carries West African rhythm into Brazil.",
+        "**Reggae** grew where Caribbean and American radio met.",
+        "**Flamenco** blends Roma, Andalusian and North African roots.",
+        "**Music remembers the route** long after the map changes."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "A genre is evidence",
+      "text": "If you can hear West African drumming in Brazilian music, you have found a fact about history in a sound.",
+      "points": [
+        "**Nobody wrote it down.** It survived by being played.",
+        "**Instruments travel** even when people cannot.",
+        "**A rhythm outlasts an empire.**",
+        "**That is worth knowing** before you dismiss any of it."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which genre uses a full orchestra of tuned bronze gongs?",
+        "options": [
+          "Gamelan",
+          "Flamenco",
+          "Samba",
+          "K-pop"
+        ],
+        "answerIndex": 0,
+        "explain": "Gamelan, from Indonesia. Whole ensembles of gongs and metal keys, tuned to each other."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The method",
+      "title": "How to describe a genre properly",
+      "text": "Use the elements from Week 1. Four sentences will do it, and they beat saying it slaps.",
+      "points": [
+        "**Tempo** — roughly how fast?",
+        "**Rhythm** — where do the strong beats land?",
+        "**Timbre** — which instruments carry it?",
+        "**Form** — does it repeat, build, or wander?"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Game soundtracks borrow genres on purpose",
+      "text": "A game set in a city sounds nothing like one set in a wasteland. That difference is a genre choice, made by a person.",
+      "points": [
+        "**Genre tells you where you are** before the art does.",
+        "**Change the score, change the place.**",
+        "**Same map can feel like two games.**",
+        "**Somebody chose that.** It is a job."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which of these is NOT part of describing a genre?",
+        "options": [
+          "How much you personally like it",
+          "The typical tempo",
+          "The instruments usually used",
+          "Where and when it started"
+        ],
+        "answerIndex": 0,
+        "explain": "Liking it is a review, not a description. The other three are what actually define a genre."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "A walkout song is a genre decision",
+      "text": "Fighters pick the music the whole arena hears them arrive to. Nobody picks it by accident.",
+      "points": [
+        "**It says where you are from**, often literally.",
+        "**Tempo sets the room's pulse.**",
+        "**A whole country's music** can walk out with one person.",
+        "**That is genre used as a flag.**"
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "genre", "def": "A family of music sharing a typical rhythm, instruments, place and time." },
+        { "term": "offbeat", "def": "The weak beat between the strong ones. Reggae puts the guitar there." },
+        { "term": "break", "def": "The part of a record where the drums play alone. Hip hop was built on looping it." },
+        { "term": "compás", "def": "The repeating rhythmic cycle that flamenco is counted in." },
+        { "term": "gamelan", "def": "An Indonesian ensemble of tuned bronze gongs and metal keys." },
+        { "term": "percussion", "def": "Instruments played by striking or shaking. Samba is carried by them." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**A genre = rhythm, instruments, place and time.**",
+        "**Reggae Jamaica · samba Brazil · flamenco Spain.**",
+        "**Hip hop the Bronx · K-pop Korea · gamelan Indonesia.**",
+        "**Genres travel** because people do."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "What makes a group of songs a genre?",
+      "options": [
+        "A shared rhythm, set of instruments, place and time",
+        "Being released in the same year",
+        "Having the same singer",
+        "Being the same length"
+      ],
+      "answerIndex": 0,
+      "explain": "Shared habits. That is why you can recognise one within a couple of bars.",
+      "objective": "Define what a music genre is"
+    },
+    {
+      "type": "multiple",
+      "text": "Where did samba come from?",
+      "options": [
+        "Brazil",
+        "Jamaica",
+        "Spain",
+        "Indonesia"
+      ],
+      "answerIndex": 0,
+      "explain": "Brazil, carrying West African rhythm with it. Layers of percussion over a fast two-beat pulse.",
+      "objective": "Match six major genres to the countries they came from"
+    },
+    {
+      "type": "multiple",
+      "text": "Flamenco comes from which part of which country?",
+      "options": [
+        "Andalusia, in southern Spain",
+        "Catalonia, in northern Spain",
+        "Sicily, in southern Italy",
+        "Provence, in southern France"
+      ],
+      "answerIndex": 0,
+      "explain": "Andalusia. Guitar, handclaps and a singer, counted in repeating cycles called compás.",
+      "objective": "Match six major genres to the countries they came from"
+    },
+    {
+      "type": "multiple",
+      "text": "Where and when did hip hop begin?",
+      "options": [
+        "The Bronx, New York, in the 1970s",
+        "Los Angeles in the 1990s",
+        "London in the 1980s",
+        "Kingston, Jamaica, in the 1960s"
+      ],
+      "answerIndex": 0,
+      "explain": "The Bronx in the 1970s, out of DJs looping the drum break in existing records.",
+      "objective": "Match six major genres to the countries they came from"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the giveaway sound of reggae?",
+      "options": [
+        "Guitar chopping on the offbeat",
+        "A row of tuned gongs",
+        "Handclaps in a repeating cycle",
+        "A looped drum break"
+      ],
+      "answerIndex": 0,
+      "explain": "The offbeat chop, with the bass leading the song. The other three belong to gamelan, flamenco and hip hop.",
+      "objective": "Describe the characteristic rhythm or instruments of each"
+    },
+    {
+      "type": "type",
+      "text": "Which country is gamelan music from?",
+      "accept": [
+        "indonesia",
+        "from indonesia"
+      ],
+      "explain": "Indonesia. A gamelan is a whole ensemble of tuned bronze gongs and metal keys.",
+      "objective": "Match six major genres to the countries they came from"
+    },
+    {
+      "type": "multiple",
+      "text": "What is a break, in the hip hop sense?",
+      "options": [
+        "The part of a record where the drums play alone",
+        "A pause between two songs",
+        "The chorus of a song",
+        "A change of key"
+      ],
+      "answerIndex": 0,
+      "explain": "The drum-only section. DJs looped it, and a whole genre grew out of that one idea.",
+      "objective": "Describe the characteristic rhythm or instruments of each"
+    },
+    {
+      "type": "multiple",
+      "text": "How did West African rhythm end up in Brazilian music?",
+      "options": [
+        "Through the movement of people across the Atlantic",
+        "Through Brazilian radio in the 1980s",
+        "It was invented separately in both places",
+        "It arrived with Portuguese classical music"
+      ],
+      "answerIndex": 0,
+      "explain": "Music travels the way people do. The rhythm survived the crossing even where nothing was written down.",
+      "objective": "Explain how migration and trade spread musical styles"
+    },
+    {
+      "type": "truefalse",
+      "text": "Music can be evidence of historical movement between countries.",
+      "answer": true,
+      "explain": "True. Hearing West African drumming in Brazilian music is a fact about history preserved in sound.",
+      "objective": "Explain how migration and trade spread musical styles"
+    },
+    {
+      "type": "multiple",
+      "text": "Which of these describes a genre rather than reviewing it?",
+      "options": [
+        "Fast tempo, percussion-led, from Brazil",
+        "Really good to run to",
+        "My favourite kind of music",
+        "Better than the other stuff"
+      ],
+      "answerIndex": 0,
+      "explain": "Tempo, instruments and origin are description. The rest is opinion, which is a different job.",
+      "objective": "Use the elements of music to describe a genre"
+    },
+    {
+      "type": "multiple",
+      "text": "Which element of music tells you which instruments are carrying a genre?",
+      "options": [
+        "Timbre",
+        "Tempo",
+        "Dynamics",
+        "Form"
+      ],
+      "answerIndex": 0,
+      "explain": "Timbre, the colour of the sound. It is how you tell a gamelan from a rondalla instantly.",
+      "objective": "Use the elements of music to describe a genre"
+    },
+    {
+      "type": "multiple",
+      "text": "K-pop developed in which country, and from roughly when?",
+      "options": [
+        "South Korea, from the 1990s",
+        "Japan, from the 1970s",
+        "China, from the 2000s",
+        "South Korea, from the 1950s"
+      ],
+      "answerIndex": 0,
+      "explain": "South Korea, from the 1990s, built around groups, choreography and video from the start.",
+      "objective": "Match six major genres to the countries they came from"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 2 MAPEH covers music genres around the world, matching the Term 1 weekly scope. It is built so that the genres are never just a list to memorise: each one is tied to a place, a rhythm and a route, and the second half makes the argument that a genre is historical evidence rather than a label. The worldGenres figure carries the six place-and-sound pairs so the cards can spend their space on why rather than what. The method card near the end is the transferable part — describing any genre with tempo, rhythm, timbre and form uses the Week 1 vocabulary and gives him something to say about music that is not an opinion.",
+    "discussion": [
+      "Play thirty seconds of two of the six and ask him to name the difference using the elements. Tempo and timbre will get him most of the way.",
+      "Ask him what a genre tells you about a place. Samba and reggae both have honest answers.",
+      "Ask him to pick a walkout song and justify it with tempo and instruments rather than with liking it.",
+      "Ask why hip hop needed the turntable to exist. It is the clearest case of a technology creating a genre."
+    ],
+    "extension": "Have him build a six-track playlist, one per genre, and write one sentence per track using only tempo, rhythm, timbre and form. Banning the word 'good' is the whole exercise.",
+    "misconceptions": [
+      "'A genre is decided by who sings it.' It is decided by shared rhythm, instruments, place and time.",
+      "'Genres were invented by record companies.' Most grew in a place first and were labelled afterwards.",
+      "'Describing music means saying whether it is good.' Description uses the elements. Liking it is a separate question.",
+      "'Reggae and samba are basically the same because both use drums.' The rhythms are completely different, and that is what a genre is."
+    ]
+  }
+}

@@ -928,6 +928,23 @@ strong { font-weight: 700; color: var(--ink); }
 .fig-cell     { font-family: var(--font-ui); font-size: 15px; font-weight: 700; fill: var(--ink); }
 .fig-cell.off { font-weight: 400; fill: var(--ink-faint); }
 
+/* ---------- MAPEH figures: space awareness, art elements, art styles ---------- */
+/* The art figures use real hues, because a lesson about colour cannot be
+   drawn in the interface palette. Everything else follows the theme. */
+.fig-demo      { opacity: 0; transition: opacity .22s ease; }
+.fig-demo.show { opacity: 1; }
+@media (prefers-reduced-motion: reduce) { .fig-demo { transition: none; } }
+.fig-body   { fill: var(--accent); }
+.fig-bubble { fill: var(--accent); fill-opacity: .12; stroke: var(--accent); stroke-width: 2; stroke-dasharray: 6 4; }
+.fig-arena  { fill: var(--surface-2); stroke: var(--ink-faint); stroke-width: 1.5; }
+.fig-track  { fill: none; stroke: var(--accent); stroke-width: 2.5; stroke-linecap: round; }
+.fig-track-d{ fill: none; stroke: var(--accent); stroke-width: 2.5; stroke-dasharray: 5 5; stroke-linecap: round; }
+.fig-band   { fill: var(--surface-2); stroke: var(--ink-faint); stroke-width: 1; }
+.fig-ink       { fill: none; stroke: var(--ink); stroke-linecap: round; }
+.fig-ink-fill  { fill: var(--ink-soft); stroke: none; }
+.fig-hatch     { stroke: var(--ink-soft); stroke-width: 1; }
+.fig-neg       { fill: var(--surface-2); stroke: var(--ink-faint); stroke-width: 1.5; }
+
 /* ---------- Sign-in flow ---------- */
 /* Two named steps, so it's always obvious where you are and what's left. */
 .signin-steps {

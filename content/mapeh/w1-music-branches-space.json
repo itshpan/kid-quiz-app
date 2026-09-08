@@ -1,0 +1,416 @@
+{
+  "id": "mapeh-w1",
+  "courseId": "mapeh",
+  "courseTitle": "MAPEH",
+  "week": 1,
+  "title": "Branches of Music · Personal Space",
+  "subtitle": "What music divides into, and the space your body owns.",
+  "estMinutes": 18,
+  "objectives": [
+    "Name the main branches of music and what each one studies",
+    "Tell vocal music from instrumental music",
+    "Name the elements of music and use them to describe a piece",
+    "Define self-space and general space",
+    "Identify levels, pathways and directions in movement",
+    "Explain why space awareness matters in sport"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🎵",
+      "eyebrow": "Part 1 · Music",
+      "title": "Music is a subject, not just a thing you listen to",
+      "text": "People spend whole careers on one corner of it. This half of the lesson is a map of those corners."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The branches",
+      "title": "Five ways to work in music",
+      "text": "Each of these is a real job, and each one asks a different question about the same sound.",
+      "points": [
+        "**Composition** — writing new music.",
+        "**Performance** — playing or singing it.",
+        "**Music theory** — how it is built and why it works.",
+        "**Music history and musicology** — where it came from."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The oldest split",
+      "title": "Vocal and instrumental",
+      "text": "The first division anyone makes. Either the sound comes from a body, or it comes from an object.",
+      "points": [
+        "**Vocal** — solo, duet or choir. *A cappella* means no instruments.",
+        "**Instrumental** — strings, woodwind, brass, percussion, keyboard.",
+        "**Most songs are both**, which is the point of the split.",
+        "**Your voice is the only instrument** you were issued with."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What does a cappella mean?",
+        "options": [
+          "Singing with no instruments at all",
+          "Singing very quietly",
+          "A choir of more than twenty people",
+          "Music played without singing"
+        ],
+        "answerIndex": 0,
+        "explain": "Voices only. The word is Italian and originally meant 'in the manner of the chapel'."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The vocabulary",
+      "title": "The elements of music",
+      "text": "These are the words that let you say what a piece is doing, instead of saying you liked it.",
+      "points": [
+        "**Rhythm** — the pattern in time. **Tempo** — how fast.",
+        "**Melody** — the tune. **Harmony** — notes stacked under it.",
+        "**Dynamics** — loud and soft. **Timbre** — the colour of the sound.",
+        "**Form** — the shape of the whole piece."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Game music is written in layers",
+      "text": "A game score cannot be a fixed recording, because nobody knows how long you will take. So it is built to be reassembled.",
+      "points": [
+        "**Layers get added** as danger rises, and removed when it drops.",
+        "**Same melody, different texture.** That is the trick.",
+        "**Texture is one of the elements** on the last card.",
+        "**You have felt this** without ever naming it."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Form is a plot for sound",
+      "text": "A song has a shape. Verse, chorus, verse, chorus, bridge, chorus. That is structure, and you already expect it.",
+      "points": [
+        "**The bridge exists** so the last chorus lands harder.",
+        "**Break the pattern on purpose** and people notice.",
+        "**A story does the same job** with scenes.",
+        "**Form is the element** you feel most and name least."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which element of music describes how LOUD or SOFT it is?",
+        "options": [
+          "Dynamics",
+          "Tempo",
+          "Timbre",
+          "Harmony"
+        ],
+        "answerIndex": 0,
+        "explain": "Dynamics. Tempo is speed, timbre is the colour of the sound, and harmony is the notes underneath."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🏎️",
+      "eyebrow": "Car mode",
+      "title": "Tempo is measured the same way as a heartbeat",
+      "text": "Beats per minute. Your resting heart sits somewhere around sixty to eighty. Most pop songs sit above a hundred.",
+      "points": [
+        "**Training playlists** are often chosen at 150 to 180 BPM.",
+        "**Faster tempo pulls your pace up** without you deciding.",
+        "**A racing game's music** is doing that to you deliberately.",
+        "**Tempo is a number**, not a feeling."
+      ]
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Music done. Part 2 is PE — the space your body owns and the space you share. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "🤸",
+      "eyebrow": "Part 2 · Personal space",
+      "title": "You carry a bubble around with you",
+      "text": "Every sport, every crowded corridor, every sparring round is about managing one thing: the distance between you and everyone else."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The two spaces",
+      "title": "Self space and general space",
+      "text": "PE splits space into two, and almost every instruction you get uses one of the two words.",
+      "points": [
+        "**Self space** — everything you can reach without moving your feet.",
+        "**General space** — the whole area you can travel through.",
+        "**Self space moves with you.** It is yours.",
+        "**General space is shared.** That is where collisions happen."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "spaceAwareness",
+      "eyebrow": "Try it",
+      "title": "Five ways to describe where you are",
+      "text": "Tap through. Two quiz questions come from this."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is self space?",
+        "options": [
+          "Everything you can reach without moving from your spot",
+          "The whole gym or field",
+          "The space directly in front of you",
+          "A space nobody is allowed to enter"
+        ],
+        "answerIndex": 0,
+        "explain": "Your own bubble. It travels with you. General space is the whole area you move through."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The three describers",
+      "title": "Levels, pathways and directions",
+      "text": "Once you know where you are, these three words say how you are moving through it.",
+      "points": [
+        "**Levels** — high, medium, low.",
+        "**Pathways** — straight, curved, zigzag.",
+        "**Directions** — forward, backward, sideways, up, down.",
+        "**Extensions** — near or far from your body, big or small."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Range is personal space with a name",
+      "text": "Every coach in every gym teaches this, and none of them call it space awareness. It is the same idea exactly.",
+      "points": [
+        "**Long range** — only the jab reaches.",
+        "**Mid range** — everything reaches, from both sides.",
+        "**Close range** — hooks and uppercuts, no room for the jab.",
+        "**Controlling the distance** is most of the sport."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which of these is a PATHWAY?",
+        "options": [
+          "Zigzag",
+          "High",
+          "Backward",
+          "Far"
+        ],
+        "answerIndex": 0,
+        "explain": "Zigzag is a pathway. High is a level, backward is a direction, and far is an extension."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Why it matters",
+      "title": "It is the skill under all the other skills",
+      "text": "Nobody gets marked on space awareness directly. It shows up as everything else looking easy.",
+      "points": [
+        "**Fewer collisions**, which means fewer injuries.",
+        "**Better positioning** in any team sport.",
+        "**You can react sooner** if you saw the gap earlier.",
+        "**Coaches call it \"vision\".** This is what it is made of."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "a cappella", "def": "Singing with no instrumental accompaniment at all." },
+        { "term": "tempo", "def": "How fast the music goes, measured in beats per minute." },
+        { "term": "dynamics", "def": "How loud or soft the music is." },
+        { "term": "timbre", "def": "The colour of a sound. Why a guitar and a piano playing the same note differ." },
+        { "term": "form", "def": "The shape of a whole piece, such as verse-chorus-verse." },
+        { "term": "self space", "def": "Everything you can reach without moving from where you stand." },
+        { "term": "general space", "def": "The whole area available to travel through, shared with everyone else." },
+        { "term": "pathway", "def": "The shape of the line you travel along: straight, curved or zigzag." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Composition, performance, theory, history.** Four branches.",
+        "**Rhythm, melody, harmony, dynamics, timbre, form.**",
+        "**Self space moves with you. General space is shared.**",
+        "**Levels, pathways, directions.** Three ways to say how."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Which branch of music is about how music is built and why it works?",
+      "options": [
+        "Music theory",
+        "Performance",
+        "Composition",
+        "Musicology"
+      ],
+      "answerIndex": 0,
+      "explain": "Theory. Composition writes new music, performance plays it, and musicology studies where it came from.",
+      "objective": "Name the main branches of music and what each one studies"
+    },
+    {
+      "type": "multiple",
+      "text": "What does a cappella mean?",
+      "options": [
+        "Voices only, with no instruments",
+        "A very fast tempo",
+        "A song with no words",
+        "Music for a full orchestra"
+      ],
+      "answerIndex": 0,
+      "explain": "Voices alone. It is the clearest case of vocal music with no instrumental part.",
+      "objective": "Tell vocal music from instrumental music"
+    },
+    {
+      "type": "multiple",
+      "text": "Which element of music means the speed of the beat?",
+      "options": [
+        "Tempo",
+        "Dynamics",
+        "Timbre",
+        "Form"
+      ],
+      "answerIndex": 0,
+      "explain": "Tempo, measured in beats per minute. Dynamics is loudness and timbre is the colour of the sound.",
+      "objective": "Name the elements of music and use them to describe a piece"
+    },
+    {
+      "type": "multiple",
+      "text": "A guitar and a piano play exactly the same note. What makes them sound different?",
+      "options": [
+        "Timbre",
+        "Tempo",
+        "Dynamics",
+        "Rhythm"
+      ],
+      "answerIndex": 0,
+      "explain": "Timbre, the colour of a sound. Same pitch, same loudness, completely different character.",
+      "objective": "Name the elements of music and use them to describe a piece"
+    },
+    {
+      "type": "type",
+      "text": "What is the element of music that describes the shape of a whole piece?",
+      "accept": [
+        "form",
+        "the form",
+        "musical form"
+      ],
+      "explain": "Form. Verse, chorus, verse, chorus, bridge, chorus is one of the commonest.",
+      "objective": "Name the elements of music and use them to describe a piece"
+    },
+    {
+      "type": "multiple",
+      "text": "What is general space?",
+      "options": [
+        "The whole area available to move through, shared with others",
+        "The bubble around your own body",
+        "The space above your head",
+        "The space you are not allowed to enter"
+      ],
+      "answerIndex": 0,
+      "explain": "The whole area. Self space is your own bubble and travels with you.",
+      "objective": "Define self-space and general space"
+    },
+    {
+      "type": "truefalse",
+      "text": "Your self space stays in one place while you move around it.",
+      "answer": false,
+      "explain": "False. Self space travels with you. It is everything you can reach from wherever you are standing.",
+      "objective": "Define self-space and general space"
+    },
+    {
+      "type": "multiple",
+      "text": "Which of these is a LEVEL?",
+      "options": [
+        "Low",
+        "Curved",
+        "Sideways",
+        "Near"
+      ],
+      "answerIndex": 0,
+      "explain": "Low is a level. Curved is a pathway, sideways is a direction and near is an extension.",
+      "objective": "Identify levels, pathways and directions in movement"
+    },
+    {
+      "type": "multiple",
+      "text": "Which of these is a DIRECTION?",
+      "options": [
+        "Backward",
+        "Zigzag",
+        "High",
+        "Large"
+      ],
+      "answerIndex": 0,
+      "explain": "Backward is a direction. Zigzag is a pathway, high is a level and large is an extension.",
+      "objective": "Identify levels, pathways and directions in movement"
+    },
+    {
+      "type": "order",
+      "text": "Put these boxing ranges in order, from furthest apart to closest.",
+      "items": [
+        "Long range",
+        "Mid range",
+        "Close range"
+      ],
+      "explain": "Long range is jab distance, mid range is where everything reaches, close range is hooks and uppercuts.",
+      "objective": "Explain why space awareness matters in sport"
+    },
+    {
+      "type": "multiple",
+      "text": "Why does space awareness matter in team sports?",
+      "options": [
+        "Better positioning and fewer collisions",
+        "It makes you run faster",
+        "It increases your strength",
+        "It is only useful in gymnastics"
+      ],
+      "answerIndex": 0,
+      "explain": "Coaches call it vision. Seeing the gap earlier is what lets you react sooner.",
+      "objective": "Explain why space awareness matters in sport"
+    },
+    {
+      "type": "truefalse",
+      "text": "Tempo is measured in beats per minute, the same unit as a heart rate.",
+      "answer": true,
+      "explain": "True. That is why a fast playlist can pull your training pace up without you deciding to go faster.",
+      "objective": "Name the elements of music and use them to describe a piece"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 1 MAPEH pairs the branches of music with personal space awareness, matching the Term 1 weekly scope. The music half is deliberately vocabulary-first: the elements are what let a student say what a piece is doing rather than whether they liked it, and every later MAPEH lesson leans on them. The PE half is built around one reframing that lands with anyone who trains — range in combat sport is space awareness under a different name, and the levels, pathways and directions vocabulary describes something he already does. The spaceAwareness figure exists because these five concepts are spatial, and a list of five words on a card teaches almost none of it.",
+    "discussion": [
+      "Play him thirty seconds of anything and ask him to describe it using three of the elements. Doing it aloud once makes the vocabulary stick.",
+      "Ask him to find the bridge in a song he already knows. Naming the part he has always felt is the point of teaching form.",
+      "Ask what happens in a gym when someone does not respect self space. He will have a real answer.",
+      "Ask him to name the three ranges and give one punch that works at each. It converts the PE vocabulary into something he owns."
+    ],
+    "extension": "Have him check the BPM of three songs he likes, then take his resting pulse. Comparing his own number against the songs turns tempo from a definition into a measurement.",
+    "misconceptions": [
+      "'Dynamics means the speed.' Dynamics is loud and soft. Tempo is the speed.",
+      "'Timbre is the same as pitch.' Two instruments can play the identical pitch and still sound nothing alike. That difference is timbre.",
+      "'Self space is a fixed spot on the floor.' It travels with you. It is everything within reach from wherever you are.",
+      "'Space awareness only matters in team sports.' It is the whole basis of distance management in combat sport."
+    ]
+  }
+}

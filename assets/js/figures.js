@@ -2110,66 +2110,43 @@ function rizalLife() {
     });
 }
 
-/* ---------- What the reformers asked for, and what they got ---------- */
-/* The list of demands is easy to memorise and easy to misread as a list of
-   things that happened. Pairing each one with the outcome is the argument of
-   the whole topic: twenty years of asking, and the column on the right never
-   changes. */
-function reformDemands() {
-    const ROWS = [
-        { short: 'A province of Spain',
-          ask: 'Make the Philippines a province of Spain, not a colony',
-          got: 'Never granted. It stayed a colony to the end.' },
-        { short: 'Seats in the Cortes',
-          ask: 'Restore Filipino representation in the Spanish parliament',
-          got: 'It had existed briefly before 1837. It was never restored.' },
-        { short: 'Filipino priests',
-          ask: 'Hand the parishes to Filipino secular priests',
-          got: 'Refused. The Spanish friars kept them.' },
-        { short: 'Equality in law',
-          ask: 'Treat Filipinos and Spaniards equally before the law',
-          got: 'Refused. The ranking held until 1898.' },
-        { short: 'Free speech',
-          ask: 'Freedom of speech, of the press and of assembly',
-          got: 'Spaniards had these in Spain. The colony never did.' },
-        { short: 'End forced labour',
-          ask: 'Abolish the polo, the forced labour service',
-          got: 'Cut from forty days to fifteen. Never abolished.' }
-    ];
-    const Y0 = 60, DY = 26;
-
+/* ---------- A picked list with two caption lines ---------- */
+/* Used wherever the content is "here are N things, and each one has a fact
+   and a consequence". One row lit at a time; the rows are tappable as well
+   as the buttons, because a row is the bigger target on a phone. */
+function listPicker({ id, label, alt, rows, capA = '', capB = '', height = 296, y0 = 60, dy = 26 }) {
     return {
         svg: `
-<svg viewBox="0 0 400 296" role="img" aria-labelledby="rdT">
-  <title id="rdT">The six reform demands, each paired with what Spain actually did about it</title>
-  <text class="fig-label" x="20" y="20">SIX DEMANDS · TWENTY YEARS</text>
+<svg viewBox="0 0 400 ${height}" role="img" aria-labelledby="${id}T">
+  <title id="${id}T">${alt}</title>
+  <text class="fig-label" x="20" y="20">${label}</text>
   <line class="fig-rule" x1="20" y1="38" x2="380" y2="38"/>
-  <rect class="fig-row-hi" id="rdHi" x="24" y="0" width="352" height="0" rx="6"/>
-  ${ROWS.map((r, i) => `
-  <text class="fig-cell" x="54" y="${Y0 + i * DY}">${i + 1}. ${r.short}</text>
-  <rect class="fig-row" data-i="${i}" x="24" y="${Y0 + i * DY - 18}" width="352" height="${DY}"/>`).join('')}
-  <text class="fig-note fig-note-key" id="rdAsk" x="20" y="248">&#160;</text>
-  <text class="fig-note"              id="rdGot" x="20" y="272">&#160;</text>
+  <rect class="fig-row-hi" id="${id}Hi" x="24" y="0" width="352" height="0" rx="6"/>
+  ${rows.map((r, i) => `
+  <text class="fig-cell" x="54" y="${y0 + i * dy}">${i + 1}. ${r.short}</text>
+  <rect class="fig-row" data-i="${i}" x="24" y="${y0 + i * dy - 18}" width="352" height="${dy}"/>`).join('')}
+  <text class="fig-note fig-note-key" id="${id}A" x="20" y="${height - 48}">&#160;</text>
+  <text class="fig-note"              id="${id}B" x="20" y="${height - 24}">&#160;</text>
 </svg>`,
 
         bind(root) {
             const bar = document.createElement('div');
             bar.className = 'fig-switch';
-            bar.innerHTML = ROWS.map((r, i) =>
-                `<button data-i="${i}" aria-pressed="${i === 0}">${i + 1}</button>`).join('');
+            bar.innerHTML = rows.map((r, i) =>
+                `<button data-i="${i}" aria-pressed="${i === 0}">${r.btn ?? i + 1}</button>`).join('');
             root.appendChild(bar);
 
-            const hi = root.querySelector('#rdHi');
-            const ask = root.querySelector('#rdAsk');
-            const got = root.querySelector('#rdGot');
+            const hi = root.querySelector(`#${id}Hi`);
+            const a = root.querySelector(`#${id}A`);
+            const b = root.querySelector(`#${id}B`);
 
             const show = i => {
-                hi.setAttribute('y', Y0 + i * DY - 19);
-                hi.setAttribute('height', DY);
-                ask.textContent = 'Asked: ' + ROWS[i].ask;
-                got.textContent = 'Got: ' + ROWS[i].got;
-                bar.querySelectorAll('button').forEach((b, j) =>
-                    b.setAttribute('aria-pressed', String(j === i)));
+                hi.setAttribute('y', y0 + i * dy - 19);
+                hi.setAttribute('height', dy);
+                a.textContent = capA + rows[i].a;
+                b.textContent = capB + rows[i].b;
+                bar.querySelectorAll('button').forEach((x, j) =>
+                    x.setAttribute('aria-pressed', String(j === i)));
             };
 
             const pick = e => {
@@ -2181,6 +2158,320 @@ function reformDemands() {
             show(0);
         }
     };
+}
+
+/* ---------- What the reformers asked for, and what they got ---------- */
+/* The list of demands is easy to memorise and easy to misread as a list of
+   things that happened. Pairing each one with the outcome is the argument of
+   the whole topic: twenty years of asking, and the second line never changes. */
+function reformDemands() {
+    return listPicker({
+        id: 'rd', label: 'SIX DEMANDS · TWENTY YEARS',
+        alt: 'The six reform demands, each paired with what Spain actually did about it',
+        capA: 'Asked: ', capB: 'Got: ',
+        rows: [
+            { short: 'A province of Spain',
+              a: 'Make the Philippines a province of Spain, not a colony',
+              b: 'Never granted. It stayed a colony to the end.' },
+            { short: 'Seats in the Cortes',
+              a: 'Restore Filipino representation in the Spanish parliament',
+              b: 'It had existed briefly before 1837. It was never restored.' },
+            { short: 'Filipino priests',
+              a: 'Hand the parishes to Filipino secular priests',
+              b: 'Refused. The Spanish friars kept them.' },
+            { short: 'Equality in law',
+              a: 'Treat Filipinos and Spaniards equally before the law',
+              b: 'Refused. The ranking held until 1898.' },
+            { short: 'Free speech',
+              a: 'Freedom of speech, of the press and of assembly',
+              b: 'Spaniards had these in Spain. The colony never did.' },
+            { short: 'End forced labour',
+              a: 'Abolish the polo, the forced labour service',
+              b: 'Cut from forty days to fifteen. Never abolished.' }
+        ]
+    });
+}
+
+/* ==========================================================================
+   MAPEH FIGURES.
+   Two of these are about seeing rather than reading — the elements of art
+   and the styles — so they draw the thing instead of naming it. A lesson
+   about texture that shows no texture is not a lesson about texture.
+   ========================================================================== */
+
+/** One demo group at a time, cross-faded. Shared by the three below. */
+function demoSwitch({ id, label, alt, height, demos, capY }) {
+    return {
+        svg: `
+<svg viewBox="0 0 400 ${height}" role="img" aria-labelledby="${id}T">
+  <title id="${id}T">${alt}</title>
+  <text class="fig-label" x="20" y="20">${label}</text>
+  ${demos.map((d, i) => `<g class="fig-demo" data-d="${i}">${d.svg}</g>`).join('')}
+  <text class="fig-note fig-note-key" id="${id}A" x="20" y="${capY}">&#160;</text>
+  <text class="fig-note"              id="${id}B" x="20" y="${capY + 22}">&#160;</text>
+</svg>`,
+        bind(root) {
+            const bar = document.createElement('div');
+            bar.className = 'fig-switch';
+            bar.innerHTML = demos.map((d, i) =>
+                `<button data-i="${i}" aria-pressed="${i === 0}">${d.btn}</button>`).join('');
+            root.appendChild(bar);
+
+            const groups = [...root.querySelectorAll('[data-d]')];
+            const a = root.querySelector(`#${id}A`);
+            const b = root.querySelector(`#${id}B`);
+
+            const show = i => {
+                groups.forEach((g, j) => g.classList.toggle('show', j === i));
+                a.textContent = demos[i].a;
+                b.textContent = demos[i].b;
+                bar.querySelectorAll('button').forEach((x, j) =>
+                    x.setAttribute('aria-pressed', String(j === i)));
+            };
+            bar.addEventListener('click', e => {
+                const btn = e.target.closest('button');
+                if (btn) show(Number(btn.dataset.i));
+            });
+            show(0);
+        }
+    };
+}
+
+/* ---------- PE: self-space, general space, levels, pathways ---------- */
+const stick = (x, y, s = 1) => `
+  <g class="fig-body" transform="translate(${x},${y}) scale(${s})">
+    <circle cx="0" cy="-26" r="7"/>
+    <rect x="-3" y="-19" width="6" height="20" rx="3"/>
+    <rect x="-14" y="-16" width="28" height="5" rx="2.5"/>
+    <rect x="-9" y="0" width="6" height="18" rx="3"/>
+    <rect x="3" y="0" width="6" height="18" rx="3"/>
+  </g>`;
+
+function spaceAwareness() {
+    const arena = '<rect class="fig-arena" x="24" y="36" width="352" height="150" rx="10"/>';
+    return demoSwitch({
+        id: 'sa', height: 268, capY: 214,
+        label: 'WHERE THE BODY MOVES',
+        alt: 'Self space, general space, levels, pathways and directions, shown one at a time',
+        demos: [
+            { btn: 'Self space',
+              svg: arena + `<circle class="fig-bubble" cx="200" cy="118" r="58"/>` + stick(200, 122),
+              a: 'Self space is the bubble you can reach without moving',
+              b: 'Your own space. Nobody else should be inside it.' },
+            { btn: 'General space',
+              svg: arena
+                 + `<path class="fig-track-d" d="M70 160 C120 60 190 180 250 90 S340 150 350 70"/>`
+                 + stick(70, 164, .8) + stick(350, 74, .8),
+              a: 'General space is the whole area you can travel through',
+              b: 'Shared with everyone. Avoiding collisions happens here.' },
+            { btn: 'Levels',
+              svg: `<rect class="fig-band" x="24" y="36" width="352" height="50"/>
+                    <rect class="fig-band" x="24" y="86" width="352" height="50"/>
+                    <rect class="fig-band" x="24" y="136" width="352" height="50"/>
+                    <text class="fig-step" x="34" y="60">HIGH</text>
+                    <text class="fig-step" x="34" y="110">MEDIUM</text>
+                    <text class="fig-step" x="34" y="160">LOW</text>`
+                 + stick(160, 78, .7) + stick(230, 128, .7) + stick(300, 178, .7),
+              a: 'Three levels: high, medium and low',
+              b: 'Reaching up, standing, and crouching or lying down.' },
+            { btn: 'Pathways',
+              svg: arena
+                 + `<path class="fig-track" d="M60 66 L340 66"/>
+                    <path class="fig-track" d="M60 118 C130 78 250 158 340 118"/>
+                    <path class="fig-track" d="M60 170 L120 142 L180 170 L240 142 L300 170 L340 150"/>
+                    <text class="fig-step" x="60" y="56">STRAIGHT</text>
+                    <text class="fig-step" x="60" y="108">CURVED</text>
+                    <text class="fig-step" x="60" y="134">ZIGZAG</text>`,
+              a: 'Pathways: straight, curved and zigzag',
+              b: 'The shape of the line you travel along.' },
+            { btn: 'Directions',
+              svg: arena
+                 + `<g class="fig-track">
+                      <path d="M200 110 L200 60"/><path d="M200 126 L200 176"/>
+                      <path d="M192 118 L110 118"/><path d="M208 118 L290 118"/>
+                    </g>
+                    <text class="fig-step" x="200" y="52" text-anchor="middle">UP / FORWARD</text>
+                    <text class="fig-step" x="90"  y="122" text-anchor="end">LEFT</text>
+                    <text class="fig-step" x="300" y="122">RIGHT</text>
+                    <text class="fig-step" x="200" y="192" text-anchor="middle">DOWN / BACK</text>`
+                 + stick(200, 128, .55),
+              a: 'Directions: forward, backward, sideways, up and down',
+              b: 'Where you go from where you are standing now.' }
+        ]
+    });
+}
+
+/* ---------- Art: the seven elements, each one drawn ---------- */
+function artElements() {
+    const HUES = ['#C0392B', '#E08A1E', '#E3C020', '#3F8F4A', '#2E6DA4', '#6B4A9B'];
+    const wheel = HUES.map((h, i) => {
+        const a0 = (i * 60 - 90) * Math.PI / 180, a1 = ((i + 1) * 60 - 90) * Math.PI / 180;
+        const R = 52, cx = 200, cy = 112;
+        return `<path fill="${h}" d="M${cx} ${cy} L${cx + R * Math.cos(a0)} ${cy + R * Math.sin(a0)} A${R} ${R} 0 0 1 ${cx + R * Math.cos(a1)} ${cy + R * Math.sin(a1)} Z"/>`;
+    }).join('');
+
+    const steps = [...Array(6)].map((_, i) =>
+        `<rect x="${86 + i * 38}" y="88" width="38" height="48" fill="hsl(30 8% ${92 - i * 15}%)"/>`).join('');
+
+    const hatch = [...Array(14)].map((_, i) =>
+        `<path class="fig-hatch" d="M${96 + i * 8} 84 L${80 + i * 8} 140"/>`).join('');
+    const dots = [...Array(5)].flatMap((_, r) => [...Array(6)].map((_, c) =>
+        `<circle class="fig-ink-fill" cx="${232 + c * 15}" cy="${88 + r * 13}" r="${1.4 + (r % 3)}"/>`)).join('');
+
+    return demoSwitch({
+        id: 'ae', height: 250, capY: 196,
+        label: 'THE SEVEN ELEMENTS OF ART',
+        alt: 'Line, shape, form, space, colour, value and texture, each one drawn as an example',
+        demos: [
+            { btn: 'Line',
+              svg: `<g class="fig-ink">
+                      <path d="M70 70 L330 70" stroke-width="1"/>
+                      <path d="M70 92 L330 92" stroke-width="4"/>
+                      <path d="M70 116 C140 86 260 146 330 116" stroke-width="2.5"/>
+                      <path d="M70 142 L110 158 L150 138 L190 158 L230 138 L270 158 L310 138" stroke-width="2.5"/>
+                    </g>`,
+              a: 'Line — the path a point takes',
+              b: 'Thin or thick, straight or curved. Everything starts here.' },
+            { btn: 'Shape',
+              svg: `<g class="fig-ink" stroke-width="2.5">
+                      <circle cx="110" cy="114" r="38"/>
+                      <rect x="172" y="76" width="76" height="76"/>
+                      <path d="M290 76 L332 152 L248 152 Z"/>
+                    </g>`,
+              a: 'Shape — flat, and measured two ways',
+              b: 'Height and width only. No thickness at all.' },
+            { btn: 'Form',
+              svg: `<g class="fig-ink" stroke-width="2.5">
+                      <rect x="80" y="92" width="66" height="66"/>
+                      <path d="M80 92 L108 66 L174 66 L146 92"/>
+                      <path d="M146 158 L174 132 L174 66"/>
+                      <circle cx="286" cy="118" r="42"/>
+                    </g>
+                    <circle cx="276" cy="106" r="30" fill="var(--ink-soft)" opacity=".18"/>`,
+              a: 'Form — shape with depth added',
+              b: 'A square becomes a cube. A circle becomes a sphere.' },
+            { btn: 'Space',
+              svg: `<rect class="fig-neg" x="70" y="70" width="260" height="90"/>
+                    <circle class="fig-ink-fill" cx="150" cy="130" r="34"/>
+                    <circle class="fig-ink-fill" cx="240" cy="102" r="18" opacity=".55"/>
+                    <text class="fig-step" x="150" y="176" text-anchor="middle">NEAR</text>
+                    <text class="fig-step" x="240" y="176" text-anchor="middle">FAR</text>`,
+              a: 'Space — the area around and between things',
+              b: 'Bigger and lower reads as nearer. That is depth on flat paper.' },
+            { btn: 'Colour',
+              svg: wheel + `<circle cx="200" cy="112" r="52" fill="none" stroke="var(--ink-faint)" stroke-width="1.5"/>`,
+              a: 'Colour — hue, and how light or strong it is',
+              b: 'Red, orange, yellow, green, blue, violet. Then all the mixes.' },
+            { btn: 'Value',
+              svg: steps + `<rect x="86" y="88" width="228" height="48" fill="none" stroke="var(--ink-faint)" stroke-width="1.5"/>
+                    <text class="fig-step" x="86" y="154">LIGHT</text>
+                    <text class="fig-step" x="314" y="154" text-anchor="end">DARK</text>`,
+              a: 'Value — how light or dark something is',
+              b: 'Take the colour away and this is what is left.' },
+            { btn: 'Texture',
+              svg: hatch + dots + `<text class="fig-step" x="88" y="158">HATCHED</text>
+                    <text class="fig-step" x="232" y="158">STIPPLED</text>`,
+              a: 'Texture — how a surface would feel',
+              b: 'Or how it looks as if it would feel, which is the artist trick.' }
+        ]
+    });
+}
+
+/* ---------- Art: one subject, three styles ---------- */
+/* The same bahay kubo three times. Comparing styles across three different
+   subjects teaches nothing; holding the subject still is the whole method. */
+function artStyles() {
+    return demoSwitch({
+        id: 'as', height: 250, capY: 196,
+        label: 'ONE SUBJECT, THREE STYLES',
+        alt: 'A nipa hut drawn realistically, then stylised, then abstracted',
+        demos: [
+            { btn: 'Realistic',
+              svg: `<g class="fig-ink" stroke-width="2">
+                      <path d="M130 96 L200 54 L270 96"/>
+                      <path d="M136 96 L264 96"/>
+                      <path d="M146 96 L146 158 M254 96 L254 158 M146 158 L254 158"/>
+                      <path d="M186 158 L186 122 L214 122 L214 158"/>
+                      <path d="M120 158 L280 158"/>
+                      <path d="M158 168 L158 158 M242 168 L242 158"/>
+                    </g>
+                    <g class="fig-hatch">
+                      <path d="M150 92 L186 66"/><path d="M162 92 L198 66"/><path d="M174 92 L210 66"/>
+                      <path d="M186 92 L222 66"/><path d="M198 92 L234 66"/><path d="M210 92 L246 66"/>
+                      <path d="M222 96 L250 76"/><path d="M234 96 L256 82"/>
+                      <path d="M152 110 L152 150"/><path d="M160 110 L160 150"/><path d="M168 110 L168 150"/>
+                    </g>`,
+              a: 'Realistic — drawn as the eye would see it',
+              b: 'Proportions, shading and detail all kept.' },
+            { btn: 'Stylised',
+              svg: `<path fill="var(--accent)" fill-opacity=".85" d="M124 98 L200 50 L276 98 Z"/>
+                    <rect x="148" y="98" width="104" height="62" fill="var(--accent)" fill-opacity=".35"/>
+                    <rect x="186" y="122" width="28" height="38" fill="var(--surface)"/>
+                    <rect x="120" y="160" width="160" height="6" rx="3" fill="var(--ink-faint)"/>`,
+              a: 'Stylised — simplified on purpose',
+              b: 'Still clearly a house. Detail dropped, not lost.' },
+            { btn: 'Abstract',
+              svg: `<path fill="var(--accent)" fill-opacity=".8" d="M96 76 L172 40 L188 104 Z"/>
+                    <rect x="196" y="58" width="70" height="70" transform="rotate(14 231 93)" fill="var(--notyet)" fill-opacity=".5"/>
+                    <circle cx="150" cy="140" r="30" fill="var(--accent)" fill-opacity=".3"/>
+                    <path class="fig-ink" stroke-width="3" d="M244 126 L318 166"/>
+                    <rect x="272" y="72" width="18" height="76" fill="var(--ink-soft)" opacity=".5"/>`,
+              a: 'Abstract — the shapes kept, the subject let go',
+              b: 'Triangle, square, circle. You are meant to feel it, not name it.' }
+        ]
+    });
+}
+
+/* ---------- Six genres, and where each one is from ---------- */
+function worldGenres() {
+    return listPicker({
+        id: 'wg', label: 'SIX GENRES · SIX PLACES',
+        alt: 'Six music genres with the country each comes from and what it sounds like',
+        capA: 'From: ', capB: 'Sounds like: ',
+        rows: [
+            { btn: 'Reggae', short: 'Reggae', a: 'Jamaica, from the 1960s',
+              b: 'Guitar chops on the offbeat, and the bass leads the song.' },
+            { btn: 'Samba', short: 'Samba', a: 'Brazil',
+              b: 'Layers of percussion over a fast two-beat pulse.' },
+            { btn: 'Flamenco', short: 'Flamenco', a: 'Andalusia, in southern Spain',
+              b: 'Guitar, handclaps and a singer, counted in cycles.' },
+            { btn: 'Hip hop', short: 'Hip hop', a: 'The Bronx, New York, in the 1970s',
+              b: 'Built from DJs looping the drum break in a record.' },
+            { btn: 'K-pop', short: 'K-pop', a: 'South Korea, from the 1990s',
+              b: 'Groups, choreography and video, made to travel.' },
+            { btn: 'Gamelan', short: 'Gamelan', a: 'Indonesia',
+              b: 'A whole orchestra of tuned bronze gongs and metal keys.' }
+        ]
+    });
+}
+
+/* ---------- Filipino folk forms and instruments ---------- */
+function pinoyMusic() {
+    return listPicker({
+        id: 'pm', label: 'SIX FILIPINO FORMS',
+        alt: 'Six Filipino folk music forms and instruments, with what each one is',
+        capA: '', capB: '',
+        rows: [
+            { btn: 'Kundiman', short: 'Kundiman',
+              a: 'A love song that is very often really about the country',
+              b: 'Usually in three-time, opening minor and turning major.' },
+            { btn: 'Harana', short: 'Harana',
+              a: 'A serenade, sung outside a window at night',
+              b: 'One singer, one guitar, and a set of polite rules.' },
+            { btn: 'Balitaw', short: 'Balitaw',
+              a: 'A Visayan song and dance for two singers',
+              b: 'Often improvised on the spot, as a courtship argument.' },
+            { btn: 'Kulintang', short: 'Kulintang',
+              a: 'A row of small bronze gongs, from Mindanao',
+              b: 'Played with two sticks, inside an ensemble of larger gongs.' },
+            { btn: 'Rondalla', short: 'Rondalla',
+              a: 'A plucked string band, brought in under Spain',
+              b: 'Bandurria, laud, octavina, guitar and bass.' },
+            { btn: 'Tinikling', short: 'Tinikling',
+              a: 'A dance stepping between two clapping bamboo poles',
+              b: 'From Leyte. Named after the tikling bird.' }
+        ]
+    });
 }
 
 export const FIGURES = {
@@ -2214,7 +2505,12 @@ export const FIGURES = {
     breathingMech,
     compareDecimals,
     possessivePairs,
-    reformDemands
+    reformDemands,
+    spaceAwareness,
+    artElements,
+    artStyles,
+    worldGenres,
+    pinoyMusic
 };
 
 

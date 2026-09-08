@@ -1,0 +1,9 @@
+<!doctype html><meta charset="utf-8">
+<link rel="stylesheet" href="/assets/css/app.css">
+<div id="h" style="padding:10px"></div>
+<script type="module">
+import { mountFigure } from '/assets/js/figures.js';
+const which = new URLSearchParams(location.search).get('f');
+mountFigure(document.getElementById('h'), which);
+window.__r = 1;
+</script>
