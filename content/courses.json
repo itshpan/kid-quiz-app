@@ -299,7 +299,8 @@
             "Possessive determiners and possessive pronouns",
             "Don Quixote Ch. 4: The Adventure with the Merchants"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "english/w4-possessive-pronouns-quixote.json"
         },
         {
           "week": 5,

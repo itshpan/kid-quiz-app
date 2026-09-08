@@ -2014,6 +2014,77 @@ function compareDecimals() {
     };
 }
 
+/* ---------- Possessive determiners against possessive pronouns ---------- */
+/* Seven pairs he has to know cold, and two facts that hide inside the table:
+   "his" is the same word twice, and "its" has no pronoun form at all. A table
+   shows both of those at a glance; a list of rules does not. */
+function possessivePairs() {
+    const ROWS = [
+        { det: 'my',    pro: 'mine',
+          a: 'That is my helmet.',        b: 'That helmet is mine.' },
+        { det: 'your',  pro: 'yours',
+          a: 'Is this your seat?',        b: 'Is this seat yours?' },
+        { det: 'his',   pro: 'his',
+          a: 'His gloves are new.',       b: 'The new gloves are his.' },
+        { det: 'her',   pro: 'hers',
+          a: 'Her lap time was faster.',  b: 'The faster time was hers.' },
+        { det: 'its',   pro: '—',
+          a: 'The car lost its grip.',    b: 'There is no pronoun form. And never it’s.' },
+        { det: 'our',   pro: 'ours',
+          a: 'Our team won.',             b: 'The win was ours.' },
+        { det: 'their', pro: 'theirs',
+          a: 'Their car broke down.',     b: 'The broken car was theirs.' }
+    ];
+    const Y0 = 76, DY = 25, XD = 54, XP = 214;
+
+    return {
+        svg: `
+<svg viewBox="0 0 400 322" role="img" aria-labelledby="ppT">
+  <title id="ppT">A table of possessive determiners beside the matching possessive pronouns</title>
+  <text class="fig-label" x="20" y="20">NONE OF THESE TAKE AN APOSTROPHE</text>
+  <text class="fig-step" x="${XD}" y="52">BEFORE A NOUN</text>
+  <text class="fig-step" x="${XP}" y="52">STANDS ALONE</text>
+  <line class="fig-rule" x1="20" y1="60" x2="380" y2="60"/>
+  <rect class="fig-row-hi" id="ppHi" x="24" y="0" width="352" height="0" rx="6"/>
+  ${ROWS.map((r, i) => `
+  <text class="fig-cell" x="${XD}" y="${Y0 + i * DY}">${r.det}</text>
+  <text class="fig-cell${r.pro === '—' ? ' off' : ''}" x="${XP}" y="${Y0 + i * DY}">${r.pro}</text>
+  <rect class="fig-row" data-i="${i}" x="24" y="${Y0 + i * DY - 18}" width="352" height="${DY}"/>`).join('')}
+  <text class="fig-note fig-note-key" id="ppA" x="20" y="278">&#160;</text>
+  <text class="fig-note"              id="ppB" x="20" y="300">&#160;</text>
+</svg>`,
+
+        bind(root) {
+            const bar = document.createElement('div');
+            bar.className = 'fig-switch';
+            bar.innerHTML = ROWS.map((r, i) =>
+                `<button data-i="${i}" aria-pressed="${i === 0}">${r.det}</button>`).join('');
+            root.appendChild(bar);
+
+            const hi = root.querySelector('#ppHi');
+            const a = root.querySelector('#ppA');
+            const b = root.querySelector('#ppB');
+
+            const show = i => {
+                hi.setAttribute('y', Y0 + i * DY - 19);
+                hi.setAttribute('height', DY);
+                a.textContent = ROWS[i].a;
+                b.textContent = ROWS[i].b;
+                bar.querySelectorAll('button').forEach((x, j) =>
+                    x.setAttribute('aria-pressed', String(j === i)));
+            };
+
+            const pick = e => {
+                const t = e.target.closest('[data-i]');
+                if (t) show(Number(t.dataset.i));
+            };
+            bar.addEventListener('click', pick);
+            root.querySelector('svg').addEventListener('click', pick);
+            show(0);
+        }
+    };
+}
+
 export const FIGURES = {
     crumpleZone,
     muscleTypes,
@@ -2042,7 +2113,8 @@ export const FIGURES = {
     phFlag,
     airwayPath,
     breathingMech,
-    compareDecimals
+    compareDecimals,
+    possessivePairs
 };
 
 

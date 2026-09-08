@@ -1,0 +1,448 @@
+{
+  "id": "eng-w4",
+  "courseId": "english",
+  "courseTitle": "English",
+  "week": 4,
+  "title": "Possessive Determiners & Pronouns",
+  "subtitle": "Same idea as last week, no apostrophes anywhere in sight.",
+  "estMinutes": 20,
+  "objectives": [
+    "Tell a possessive determiner from a possessive pronoun",
+    "Use my, your, his, her, its, our and their before a noun",
+    "Use mine, yours, his, hers, ours and theirs on their own",
+    "Explain why possessive pronouns never take an apostrophe",
+    "Distinguish whose from who's",
+    "Retell Don Quixote Chapter 4 and explain what he demands of the merchants"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🎽",
+      "eyebrow": "Part 1 · Two jobs, one idea",
+      "title": "Last week you added apostrophes. This week you add none",
+      "text": "Possessive nouns needed an apostrophe. Possessive determiners and pronouns never take one. Not once, not ever."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Job 1",
+      "title": "A determiner sits in front of a noun",
+      "text": "It cannot stand on its own. It is always holding the door open for the noun that follows.",
+      "points": [
+        "**my, your, his, her, its, our, their**",
+        "**\"That is *my* helmet.\"** The noun follows straight after.",
+        "**Take the noun away** and the sentence collapses.",
+        "**Determiner = it needs a noun.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Job 2",
+      "title": "A pronoun stands completely alone",
+      "text": "It replaces the determiner *and* the noun together, which is why nothing follows it.",
+      "points": [
+        "**mine, yours, his, hers, ours, theirs**",
+        "**\"That helmet is *mine*.\"** Nothing comes after.",
+        "***Mine* is doing the work of *my helmet*.**",
+        "**Pronoun = it replaces a whole phrase.**"
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "possessivePairs",
+      "eyebrow": "The whole set",
+      "title": "Seven pairs, and two surprises",
+      "text": "Tap any row. Watch what happens on the *his* row and the *its* row."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which sentence uses a possessive PRONOUN?",
+        "options": [
+          "The blue gloves are hers",
+          "Her gloves are blue",
+          "She lost her gloves",
+          "Her team won"
+        ],
+        "answerIndex": 0,
+        "explain": "Hers stands alone with no noun after it. In the others, her sits in front of a noun."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The rule that gets marked",
+      "title": "No apostrophes. Any of them. Ever",
+      "text": "These words are already possessive. The apostrophe would be doing a job that is already done.",
+      "points": [
+        "**yours, hers, ours, theirs, its** — never *your's*.",
+        "**An apostrophe here is always wrong.**",
+        "**It is the single most marked error in this topic.**",
+        "**Already possessive** means nothing to add."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🏎️",
+      "eyebrow": "Forza mode",
+      "title": "Whose car is it? It's theirs",
+      "text": "That short answer contains both traps in the topic. One word needs an apostrophe and the other must never have one.",
+      "points": [
+        "***Whose*** asks who owns it. No apostrophe.",
+        "***Who's*** is short for *who is*. Apostrophe.",
+        "***Theirs*** is possessive already. Never *their's*.",
+        "**Say \"who is\" in your head.** If it fits, use *who's*."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which is spelled correctly?",
+        "options": [
+          "The medals are theirs",
+          "The medals are their's",
+          "The medals are theirs'",
+          "The medals are theres"
+        ],
+        "answerIndex": 0,
+        "explain": "Theirs. It is already possessive, so it takes no apostrophe. Same for yours, hers and ours."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The two odd ones",
+      "title": "His does both jobs. Its does not",
+      "text": "Six of the seven change shape when they stand alone. Two of them break the pattern, and both are examined.",
+      "points": [
+        "***His*** is the same word before a noun and alone.",
+        "***Its*** has no standing-alone form at all.",
+        "**You would rewrite the sentence** instead.",
+        "**And *it's* always means *it is*.** Never possession."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "A trade screen is labelled with both",
+      "text": "One side says *your items*. The other side says *theirs*. Two different jobs, and the interface gets it right.",
+      "points": [
+        "**\"Your offer\"** — determiner, noun follows.",
+        "**\"Accept theirs\"** — pronoun, nothing follows.",
+        "**Neither one has an apostrophe.**",
+        "**You read these correctly** without being taught."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "Complete it with one word: \"This is my bag and that one is ___.\"",
+        "accept": [
+          "yours",
+          "hers",
+          "his",
+          "theirs",
+          "ours"
+        ],
+        "explain": "Any possessive pronoun works, as long as it has no apostrophe. Yours, hers, his, ours, theirs."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Everything in a gym belongs to someone",
+      "text": "Wraps, gloves, a corner, a locker. It is the one room where you use every word on that table in ten minutes.",
+      "points": [
+        "**\"Those are *my* wraps.\"** Determiner.",
+        "**\"Those wraps are *mine*.\"** Pronoun.",
+        "**Same fact, two shapes.**",
+        "**Which one you need** depends on where the noun is."
+      ]
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Grammar done. Part 2 is Chapter 4, where he demands strangers agree with him about someone they have never met. Your place is saved."
+    },
+    {
+      "kind": "open",
+      "icon": "🐴",
+      "eyebrow": "Part 2 · Don Quixote",
+      "title": "Chapter 4: The Adventure with the Merchants",
+      "text": "Still sore from the last chapter, he rides on and meets six silk merchants from Toledo coming the other way."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The demand",
+      "title": "Agree with me about someone you have never seen",
+      "text": "He blocks the road. They must declare that no woman on earth is more beautiful than Dulcinea del Toboso.",
+      "points": [
+        "**They have never met her.**",
+        "**They are not allowed to see a picture first.**",
+        "**That is the whole point**, he says.",
+        "**Believing without evidence** is what makes it noble."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The reply",
+      "title": "One merchant is far too clever",
+      "text": "He asks, very politely, to be shown a portrait first. Even a tiny one. Even if she turned out to be nothing like the description.",
+      "points": [
+        "**It is a reasonable request**, which is the insult.",
+        "**He is treating a demand as a negotiation.**",
+        "**Don Quixote hears mockery.** He is right.",
+        "**Then he charges.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What does Don Quixote demand of the merchants?",
+        "options": [
+          "That they declare Dulcinea the most beautiful woman alive, unseen",
+          "That they hand over their silk",
+          "That they take him to Toledo",
+          "That they free a servant boy"
+        ],
+        "answerIndex": 0,
+        "explain": "Unseen is the crucial word. Being shown proof first would ruin it, as far as he is concerned."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "He is asking for faith, not agreement",
+      "text": "The merchant wants evidence. Don Quixote wants belief without it. Neither of them is having the same conversation.",
+      "points": [
+        "**A demand nobody can meet** is a good engine for a story.",
+        "**Two characters, two rulebooks.**",
+        "**Cervantes gets the comedy from the gap**, not from the fall.",
+        "**Useful when you write** two people arguing."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "What actually happens",
+      "title": "Rocinante trips before he arrives",
+      "text": "The charge ends before it starts. The horse stumbles, Don Quixote goes down, and his armour is too heavy for him to get up.",
+      "points": [
+        "**A mule driver takes his lance** and breaks it.",
+        "**Then beats him with the pieces.**",
+        "**The merchants ride on.**",
+        "**A neighbour finds him** and carries him home."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Don Quixote defeats the merchants in the fight.",
+        "answer": false,
+        "explain": "False. His horse stumbles before he reaches them and he is beaten with his own broken lance."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Why it matters",
+      "title": "Losing does not count as evidence",
+      "text": "Flat on his back, he does not conclude that he was wrong. He recites a ballad instead, and blames his horse.",
+      "points": [
+        "**Nothing that happens can change his mind.**",
+        "**The story always has an explanation ready.**",
+        "**That is what the whole book is about.**",
+        "**Watch for it in every chapter from here.**"
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        { "term": "possessive determiner", "def": "my, your, his, her, its, our, their. Always sits in front of a noun." },
+        { "term": "possessive pronoun", "def": "mine, yours, his, hers, ours, theirs. Stands alone with no noun after it." },
+        { "term": "its", "def": "The possessive determiner. No apostrophe, and there is no pronoun form of it." },
+        { "term": "it's", "def": "Short for it is or it has. Never possessive." },
+        { "term": "whose", "def": "Asks or states who something belongs to. No apostrophe." },
+        { "term": "who's", "def": "Short for who is or who has. Apostrophe." }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Determiner needs a noun. Pronoun replaces one.**",
+        "**No possessive pronoun ever takes an apostrophe.**",
+        "***His* does both jobs. *Its* has no pronoun form.**",
+        "**Say \"who is\" in your head** to choose *whose* or *who's*."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Which sentence contains a possessive DETERMINER?",
+      "options": [
+        "Our car is in the garage",
+        "The car in the garage is ours",
+        "That one is mine",
+        "The last word was theirs"
+      ],
+      "answerIndex": 0,
+      "explain": "Our sits in front of the noun car. The other three all stand alone, so they are pronouns.",
+      "objective": "Tell a possessive determiner from a possessive pronoun"
+    },
+    {
+      "type": "multiple",
+      "text": "Which sentence contains a possessive PRONOUN?",
+      "options": [
+        "The fastest lap was hers",
+        "Her lap was the fastest",
+        "She beat her own record",
+        "Her coach was pleased"
+      ],
+      "answerIndex": 0,
+      "explain": "Hers stands alone with nothing after it. In the others, her is followed by a noun.",
+      "objective": "Tell a possessive determiner from a possessive pronoun"
+    },
+    {
+      "type": "multiple",
+      "text": "Complete it: \"That kit is not mine, it is ___.\"",
+      "options": [
+        "yours",
+        "your",
+        "your's",
+        "yours'"
+      ],
+      "answerIndex": 0,
+      "explain": "Yours. It stands alone, so it is the pronoun, and it never takes an apostrophe.",
+      "objective": "Use mine, yours, his, hers, ours and theirs on their own"
+    },
+    {
+      "type": "multiple",
+      "text": "Which one is spelled correctly?",
+      "options": [
+        "The victory was ours",
+        "The victory was our's",
+        "The victory was ours'",
+        "The victory was our"
+      ],
+      "answerIndex": 0,
+      "explain": "Ours. No apostrophe on any possessive pronoun, because the word is already possessive.",
+      "objective": "Explain why possessive pronouns never take an apostrophe"
+    },
+    {
+      "type": "truefalse",
+      "text": "The word \"his\" is used both before a noun and on its own.",
+      "answer": true,
+      "explain": "True. His gloves are new, and the new gloves are his. It is the only one that does not change.",
+      "objective": "Use my, your, his, her, its, our and their before a noun"
+    },
+    {
+      "type": "multiple",
+      "text": "Which sentence is correct?",
+      "options": [
+        "The engine lost its power",
+        "The engine lost it's power",
+        "The engine lost its' power",
+        "The engine lost his power"
+      ],
+      "answerIndex": 0,
+      "explain": "Its, no apostrophe. It's always means it is, and it is power makes no sense here.",
+      "objective": "Use my, your, his, her, its, our and their before a noun"
+    },
+    {
+      "type": "multiple",
+      "text": "Complete it: \"___ bag is this?\"",
+      "options": [
+        "Whose",
+        "Who's",
+        "Whos",
+        "Whose'"
+      ],
+      "answerIndex": 0,
+      "explain": "Whose asks who owns it. Who is bag is this makes no sense, so who's is wrong.",
+      "objective": "Distinguish whose from who's"
+    },
+    {
+      "type": "multiple",
+      "text": "Complete it: \"___ coming to training tonight?\"",
+      "options": [
+        "Who's",
+        "Whose",
+        "Whos",
+        "Whose'"
+      ],
+      "answerIndex": 0,
+      "explain": "Who is coming fits, so it is who's with the apostrophe.",
+      "objective": "Distinguish whose from who's"
+    },
+    {
+      "type": "type",
+      "text": "Rewrite using a possessive pronoun: \"This is my helmet.\" → \"This helmet is ___.\"",
+      "accept": [
+        "mine",
+        "mine."
+      ],
+      "explain": "Mine. It replaces my helmet, which is why nothing follows it.",
+      "objective": "Use mine, yours, his, hers, ours and theirs on their own"
+    },
+    {
+      "type": "multiple",
+      "text": "What does Don Quixote demand of the merchants?",
+      "options": [
+        "That they declare Dulcinea the most beautiful woman alive, without seeing her",
+        "That they give him food and water",
+        "That they release a boy tied to a tree",
+        "That they carry him back to his village"
+      ],
+      "answerIndex": 0,
+      "explain": "Without seeing her is the point. Asking for proof first is exactly what enrages him.",
+      "objective": "Retell Don Quixote Chapter 4 and explain what he demands of the merchants"
+    },
+    {
+      "type": "multiple",
+      "text": "How does the fight with the merchants end?",
+      "options": [
+        "His horse stumbles and he is beaten with his own broken lance",
+        "He defeats all six merchants",
+        "The merchants agree and ride away",
+        "He is arrested by the Spanish authorities"
+      ],
+      "answerIndex": 0,
+      "explain": "Rocinante trips before he arrives. His armour is too heavy for him to get back up.",
+      "objective": "Retell Don Quixote Chapter 4 and explain what he demands of the merchants"
+    },
+    {
+      "type": "truefalse",
+      "text": "After being beaten, Don Quixote decides that his beliefs were mistaken.",
+      "answer": false,
+      "explain": "False. He recites a ballad and blames his horse. Nothing that happens to him counts as evidence.",
+      "objective": "Retell Don Quixote Chapter 4 and explain what he demands of the merchants"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 4 English covers possessive determiners and possessive pronouns alongside Don Quixote Chapter 4, matching the Term 1 weekly scope. It is written as the deliberate opposite of Week 3: possessive nouns take an apostrophe, and none of this week's words ever do. The possessivePairs figure is a table rather than a list because two of the seven rows are the examinable exceptions — his is the same word twice, and its has no standing-alone form — and a table shows both at a glance. Whose and who's are included here rather than with the apostrophe work, because the its and it's pair from Week 3 makes the same test available: say the long form in your head and see whether it fits. The chapter pairs with the grammar loosely but earns its place on its own: it is the clearest example in the early book of a character who cannot be argued out of anything.",
+    "discussion": [
+      "Ask him to say the same fact twice, once with a determiner and once with a pronoun. Doing both for one object is what fixes the difference.",
+      "Ask why yours cannot take an apostrophe. If he can say the word is already possessive, the rule will hold.",
+      "Ask what the merchant actually did wrong. He was polite and reasonable, which is worth noticing.",
+      "Ask whether anything could change Don Quixote's mind. The honest answer sets up the rest of the book."
+    ],
+    "extension": "Have him write six sentences about things in his room, three with determiners and three with pronouns, then swap each one to the other form. Producing both shapes for the same fact is harder and more useful than identifying them.",
+    "misconceptions": [
+      "'Yours and theirs need apostrophes because they show possession.' They are already possessive. No possessive pronoun takes an apostrophe.",
+      "'Its and it's are interchangeable.' It's always means it is or it has. Its is the possessive.",
+      "'Every determiner has a matching pronoun.' Its has no standing-alone form, and his is the same word in both jobs.",
+      "'Don Quixote wins some of his fights.' He does not win this one, and losing does not change his mind."
+    ]
+  }
+}

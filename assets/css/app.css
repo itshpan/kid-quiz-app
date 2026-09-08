@@ -922,6 +922,12 @@ strong { font-weight: 700; color: var(--ink); }
 .fig-mono  { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 22px; fill: var(--ink); }
 .fig-mono-pad { fill: var(--ink-faint); }
 
+/* ---------- Possessive pairs table ---------- */
+.fig-row      { fill: transparent; cursor: pointer; }
+.fig-row-hi   { fill: var(--accent-soft); stroke: var(--accent); stroke-width: 1.5; }
+.fig-cell     { font-family: var(--font-ui); font-size: 15px; font-weight: 700; fill: var(--ink); }
+.fig-cell.off { font-weight: 400; fill: var(--ink-faint); }
+
 /* ---------- Sign-in flow ---------- */
 /* Two named steps, so it's always obvious where you are and what's left. */
 .signin-steps {
