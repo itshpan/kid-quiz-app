@@ -104,9 +104,21 @@ assets/js/
 
 content/
   courses.json      Every subject and all 11 weeks of Term 1
-  science/
-    w1-skeleton.json   Week 1 — Skeletal & Muscular Systems
+  interests.json    The canonical roster of lenses, with concrete hooks
+  science/ math/ english/ social-studies/
+                    One JSON file per week
 ```
+
+## Progress sync
+
+Cloudflare D1 is live. `localStorage` is the working copy; D1 is the sync layer,
+so a quiz taken on a phone shows up on a laptop. Access is by class code — one
+for learners, one for teachers — with no passwords and no email addresses. The
+binding lives in `wrangler.toml`, not the dashboard: once a `wrangler.toml`
+exists, Cloudflare manages the project's bindings from it.
+
+If the binding is ever removed, `/api/*` returns `not-configured` and the app
+falls back to local storage cleanly. `db/setup.sql` is the schema of record.
 
 **Content is data, not code.** Lessons are JSON files. Adding a week means writing one JSON file
 and flipping its `status` to `"live"` in `courses.json` — no JavaScript changes. That's deliberate:
@@ -130,10 +142,10 @@ shared before the site is deployed anywhere.
 
 | Subject | Weeks mapped | Lessons live |
 |---|---|---|
-| Science | 11 | Weeks 1–3 |
-| Math | 11 | Weeks 1–3 · plus the surface-area trainer |
-| English | 11 | Weeks 1–3 |
-| Social Studies | 11 | Week 1 |
+| Science | 11 | Weeks 1–3, 5 |
+| Math | 11 | Weeks 1–3, 5 · plus the surface-area trainer |
+| English | 11 | Weeks 1–3, 5 |
+| Social Studies | 11 | Weeks 1–2, 5 |
 | Filipino | 11 | — |
 | MAPEH | 11 | — |
 | TLE | 11 | — |
