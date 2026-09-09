@@ -29,6 +29,15 @@ you never have to invent one.
 **Every lesson must use at least three different lenses.** The checker fails a
 build that doesn't. Do not ask whether to include his interests — include them.
 
+**The lens cards are not enough.** The checker counts lens cards; it cannot see
+the worked examples, and that is where this has gone wrong before. Whenever an
+example is *freely chosen* — a sentence to parse, a word problem, a noun to
+classify — it comes from his world: the boxer wrapping his hands, the car in
+the pit, the lap time, the inventory. "Ang bata ay naglalaro sa parke" and "a
+plank is cut into 0.4 m pieces" are the failure. Where the example is fixed by
+the subject — a Bible passage, the Treaty of Paris, the plural of *roof* — the
+lens cards carry the interest instead, and that is correct.
+
 ## Before you commit
 
 ```bash

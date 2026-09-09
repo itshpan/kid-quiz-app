@@ -34,9 +34,9 @@
       "title": "Isahan, dalawahan, maramihan",
       "text": "Karamihan ng wika ay may dalawa lamang. May pangatlo ang Filipino para sa tiyak na dalawa.",
       "points": [
-        "**Isahan:** aklat, bata, bayani.",
+        "**Isahan:** guwantes, bola, bayani.",
         "**Dalawahan:** magkapatid, magkaibigan.",
-        "**Maramihan:** mga aklat, mga bata.",
+        "**Maramihan:** mga guwantes, mga bola.",
         "**Ang \"mag-\"** ang senyas ng dalawahan."
       ]
     },
@@ -45,7 +45,12 @@
       "question": {
         "type": "multiple",
         "text": "Anong kailanan ang \"magkaibigan\"?",
-        "options": ["Dalawahan", "Isahan", "Maramihan", "Palansak"],
+        "options": [
+          "Dalawahan",
+          "Isahan",
+          "Maramihan",
+          "Palansak"
+        ],
         "answerIndex": 0,
         "explain": "Tiyak na dalawa. Ang \"mag-\" ang senyas nito sa Filipino."
       }
@@ -56,8 +61,8 @@
       "title": "Isang salita ang nagpapalit ng lahat",
       "text": "Hindi nagbabago ang pangngalan mismo. Isang maliit na salita lamang ang idinadagdag sa harap nito.",
       "points": [
-        "**\"aklat\"** ay isahan.",
-        "**\"mga aklat\"** ay maramihan.",
+        "**\"guwantes\"** ay isahan.",
+        "**\"mga guwantes\"** ay maramihan.",
         "**Hindi tulad ng Ingles**, walang dagdag na letra.",
         "**Ang \"mga\"** ang buong trabaho."
       ]
@@ -115,9 +120,9 @@
       "title": "Huwag doblehin ang senyas",
       "text": "Kung nasa harap na ang \"mga\", hindi na kailangan ng pag-uulit. Isang senyas lamang ang tama.",
       "points": [
-        "**Tama:** mga aklat.",
-        "**Mali:** mga aklat-aklat.",
-        "**Tama:** mga bahay.",
+        "**Tama:** mga guwantes.",
+        "**Mali:** mga guwantes-guwantes.",
+        "**Tama:** mga sasakyan.",
         "**Pumili ng isa**, hindi pareho."
       ]
     },
@@ -126,7 +131,12 @@
       "question": {
         "type": "multiple",
         "text": "Alin ang tamang maramihan?",
-        "options": ["mga bata", "mga bata-bata", "bata-bata mga", "mga mga bata"],
+        "options": [
+          "mga guwantes",
+          "mga guwantes-guwantes",
+          "guwantes-guwantes mga",
+          "mga mga guwantes"
+        ],
         "answerIndex": 0,
         "explain": "Isang senyas lamang. Ang \"mga\" ang gumagawa ng buong trabaho."
       }
@@ -184,11 +194,26 @@
       "kind": "terms",
       "title": "Mga salitang lalabas sa pagsusulit",
       "terms": [
-        { "term": "isahan", "def": "Iisa lamang ang tinutukoy." },
-        { "term": "dalawahan", "def": "Tiyak na dalawa. Madalas may \"mag-\"." },
-        { "term": "maramihan", "def": "Tatlo o higit pa. Ginagamitan ng \"mga\"." },
-        { "term": "pag-uulit", "def": "Pag-uulit ng salita na nagbibigay ng ibang kahulugan." },
-        { "term": "mga", "def": "Ang pangunahing senyas ng maramihan sa Filipino." }
+        {
+          "term": "isahan",
+          "def": "Iisa lamang ang tinutukoy."
+        },
+        {
+          "term": "dalawahan",
+          "def": "Tiyak na dalawa. Madalas may \"mag-\"."
+        },
+        {
+          "term": "maramihan",
+          "def": "Tatlo o higit pa. Ginagamitan ng \"mga\"."
+        },
+        {
+          "term": "pag-uulit",
+          "def": "Pag-uulit ng salita na nagbibigay ng ibang kahulugan."
+        },
+        {
+          "term": "mga",
+          "def": "Ang pangunahing senyas ng maramihan sa Filipino."
+        }
       ]
     },
     {
@@ -207,7 +232,12 @@
     {
       "type": "multiple",
       "text": "Anong kailanan ang \"mga bayani\"?",
-      "options": ["Maramihan", "Isahan", "Dalawahan", "Palansak"],
+      "options": [
+        "Maramihan",
+        "Isahan",
+        "Dalawahan",
+        "Palansak"
+      ],
       "answerIndex": 0,
       "explain": "Ang \"mga\" ang senyas ng maramihan sa Filipino.",
       "objective": "Matukoy ang isahan, dalawahan at maramihan"
@@ -215,7 +245,12 @@
     {
       "type": "multiple",
       "text": "Anong kailanan ang \"magkapatid\"?",
-      "options": ["Dalawahan", "Isahan", "Maramihan", "Walang kailanan"],
+      "options": [
+        "Dalawahan",
+        "Isahan",
+        "Maramihan",
+        "Walang kailanan"
+      ],
       "answerIndex": 0,
       "explain": "Tiyak na dalawa. Ang \"mag-\" ang senyas ng dalawahan.",
       "objective": "Matukoy ang isahan, dalawahan at maramihan"
@@ -223,7 +258,12 @@
     {
       "type": "multiple",
       "text": "Ilan ang kailanan ng pangngalan sa Filipino?",
-      "options": ["Tatlo", "Dalawa", "Apat", "Lima"],
+      "options": [
+        "Tatlo",
+        "Dalawa",
+        "Apat",
+        "Lima"
+      ],
       "answerIndex": 0,
       "explain": "Isahan, dalawahan at maramihan. May dalawa lamang ang karamihan ng wika.",
       "objective": "Matukoy ang isahan, dalawahan at maramihan"
@@ -251,7 +291,12 @@
     {
       "type": "multiple",
       "text": "Alin ang tamang sulat?",
-      "options": ["mga aklat", "mga aklat-aklat", "aklat mga", "mga mga aklat"],
+      "options": [
+        "mga guwantes",
+        "mga guwantes-guwantes",
+        "guwantes mga",
+        "mga mga guwantes"
+      ],
       "answerIndex": 0,
       "explain": "Isang senyas lamang ang kailangan.",
       "objective": "Maiwasan ang pagdodoble ng senyas ng maramihan"
@@ -272,7 +317,12 @@
     {
       "type": "multiple",
       "text": "Ano ang ibig sabihin ng \"araw-araw\"?",
-      "options": ["Tuwing araw", "Maraming araw", "Dalawang araw", "Mahabang araw"],
+      "options": [
+        "Tuwing araw",
+        "Maraming araw",
+        "Dalawang araw",
+        "Mahabang araw"
+      ],
       "answerIndex": 0,
       "explain": "Pag-ulit ng pangyayari ito, hindi bilang ng mga araw.",
       "objective": "Maunawaan ang pag-uulit ng salita"
@@ -286,10 +336,10 @@
     },
     {
       "type": "multiple",
-      "text": "Bakit mali ang \"mga bata-bata\"?",
+      "text": "Bakit mali ang \"mga guwantes-guwantes\"?",
       "options": [
         "Nadoble ang senyas ng maramihan",
-        "Mali ang baybay ng \"bata\"",
+        "Mali ang baybay ng \"guwantes\"",
         "Kailangan ng malaking titik",
         "Kailangang alisin ang gitling"
       ],

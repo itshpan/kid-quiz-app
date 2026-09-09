@@ -35,7 +35,7 @@
       "text": "Ang pantangi ay tiyak na ngalan ng tao, lugar o bagay. Ang pambalana ay pangkalahatan.",
       "points": [
         "**Pantangi:** Bonifacio, Maynila, Supremo.",
-        "**Pambalana:** bayani, lungsod, aklat.",
+        "**Pambalana:** bayani, lungsod, guwantes.",
         "**Malaking titik** ang senyas ng pantangi.",
         "**Isang bagay lamang** ang tinutukoy nito."
       ]
@@ -61,7 +61,7 @@
       "title": "Tahas at basal",
       "text": "Ang tahas ay nahahawakan o nakikita. Ang basal ay ideya, damdamin o katangian.",
       "points": [
-        "**Tahas:** bato, guwantes, tubig, bandila.",
+        "**Tahas:** guwantes, bendahe, timbangan, bandila.",
         "**Basal:** katapangan, pag-asa, kalayaan.",
         "**Subukan mong hawakan ito.**",
         "**Kung hindi kaya**, basal ito."
@@ -89,8 +89,8 @@
         "options": [
           "kalayaan",
           "bandila",
-          "papel",
-          "bahay"
+          "guwantes",
+          "timbangan"
         ],
         "answerIndex": 0,
         "explain": "Ideya ito, hindi bagay. Hindi mo kayang hawakan ang kalayaan."
@@ -290,8 +290,8 @@
       "text": "Alin ang pangngalang basal?",
       "options": [
         "katarungan",
-        "itak",
-        "papel",
+        "guwantes",
+        "bola",
         "bato"
       ],
       "answerIndex": 0,

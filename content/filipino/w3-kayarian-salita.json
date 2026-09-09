@@ -27,9 +27,9 @@
       "title": "Payak, maylapi, inuulit, tambalan",
       "text": "Bawat salita sa Filipino ay nasa isa sa apat na ito. Walang ikalima.",
       "points": [
-        "**Payak** — ugat lamang. *bahay*",
-        "**Maylapi** — may panlapi. *magbahay*",
-        "**Inuulit** — may pag-uulit. *bahay-bahay*",
+        "**Payak** — ugat lamang. *takbo*",
+        "**Maylapi** — may panlapi. *tumakbo*",
+        "**Inuulit** — may pag-uulit. *dahan-dahan*",
         "**Tambalan** — dalawang ugat. *bahay-kubo*"
       ]
     },
@@ -44,7 +44,7 @@
       "kind": "checkpoint",
       "question": {
         "type": "multiple",
-        "text": "Anong kayarian ang salitang \"tubig\"?",
+        "text": "Anong kayarian ang salitang \"suntok\"?",
         "options": [
           "Payak",
           "Maylapi",
@@ -85,7 +85,7 @@
       "kind": "checkpoint",
       "question": {
         "type": "multiple",
-        "text": "Anong kayarian ang \"sari-sari\"?",
+        "text": "Anong kayarian ang \"dahan-dahan\"?",
         "options": [
           "Inuulit",
           "Payak",
@@ -277,7 +277,7 @@
     },
     {
       "type": "multiple",
-      "text": "Anong kayarian ang \"naglalakad\"?",
+      "text": "Anong kayarian ang \"tumakbo\"?",
       "options": [
         "Maylapi",
         "Payak",
@@ -285,7 +285,7 @@
         "Inuulit"
       ],
       "answerIndex": 0,
-      "explain": "Maylapi. May unlaping nag- sa ugat na lakad.",
+      "explain": "Maylapi. May gitlaping -um- sa ugat na takbo.",
       "objective": "Maiba ang payak sa maylapi"
     },
     {

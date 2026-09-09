@@ -29,7 +29,7 @@
       "points": [
         "**Simuno** — sino o ano ang pinag-uusapan.",
         "**Panaguri** — ano ang ginagawa o ano ito.",
-        "**\"Ang bata\"** — simuno. **\"kumakain\"** — panaguri.",
+        "**\"Ang boksingero\"** — simuno. **\"nagsanay\"** — panaguri.",
         "**Hanapin ang \"ang\"** — madalas nasa simuno ito."
       ]
     },
@@ -37,15 +37,15 @@
       "kind": "checkpoint",
       "question": {
         "type": "multiple",
-        "text": "Sa \"Tumakbo ang aso sa parke\", ano ang simuno?",
+        "text": "Sa \"Tumakbo ang manlalaro sa oval\", ano ang simuno?",
         "options": [
-          "ang aso",
+          "ang manlalaro",
           "tumakbo",
-          "sa parke",
-          "tumakbo sa parke"
+          "sa oval",
+          "tumakbo sa oval"
         ],
         "answerIndex": 0,
-        "explain": "Ang aso ang pinag-uusapan. Ang \"tumakbo sa parke\" ang panaguri."
+        "explain": "Ang manlalaro ang pinag-uusapan. Ang \"tumakbo sa oval\" ang panaguri."
       }
     },
     {
@@ -73,10 +73,10 @@
         "type": "multiple",
         "text": "Alin ang nasa KARANIWANG ayos?",
         "options": [
-          "Naglalaro ang mga bata sa labas.",
-          "Ang mga bata ay naglalaro sa labas.",
-          "Sa labas ay naglalaro ang mga bata.",
-          "Ang mga bata sa labas ay naglalaro."
+          "Nagsasanay ang boksingero sa umaga.",
+          "Ang boksingero ay nagsasanay sa umaga.",
+          "Sa umaga ay nagsasanay ang boksingero.",
+          "Ang boksingero sa umaga ay nagsasanay."
         ],
         "answerIndex": 0,
         "explain": "Karaniwan kapag panaguri muna at walang \"ay\". Ang tatlong iba ay di-karaniwan."
@@ -112,12 +112,12 @@
       "kind": "checkpoint",
       "question": {
         "type": "multiple",
-        "text": "Baguhin sa di-karaniwang ayos: \"Naglalaro ang bata sa parke.\"",
+        "text": "Baguhin sa di-karaniwang ayos: \"Tumakbo ang manlalaro sa oval.\"",
         "options": [
-          "Ang bata ay naglalaro sa parke.",
-          "Naglalaro ay ang bata sa parke.",
-          "Ay naglalaro ang bata sa parke.",
-          "Sa parke ang bata ay naglalaro."
+          "Ang manlalaro ay tumakbo sa oval.",
+          "Tumakbo ay ang manlalaro sa oval.",
+          "Ay tumakbo ang manlalaro sa oval.",
+          "Sa oval ang manlalaro ay tumakbo."
         ],
         "answerIndex": 0,
         "explain": "Iuuna ang simuno, at ilalagay ang \"ay\" pagkatapos nito. Walang ibang binabago."
@@ -260,38 +260,38 @@
   "quiz": [
     {
       "type": "multiple",
-      "text": "Sa \"Kumakanta ang bata sa entablado\", ano ang simuno?",
+      "text": "Sa \"Sumuntok ang boksingero sa pad\", ano ang simuno?",
       "options": [
-        "ang bata",
-        "kumakanta",
-        "sa entablado",
-        "kumakanta sa entablado"
+        "ang boksingero",
+        "sumuntok",
+        "sa pad",
+        "sumuntok sa pad"
       ],
       "answerIndex": 0,
-      "explain": "Ang bata ang pinag-uusapan. Ang natitira ay panaguri.",
+      "explain": "Ang boksingero ang pinag-uusapan. Ang natitira ay panaguri.",
       "objective": "Matukoy ang simuno at ang panaguri"
     },
     {
       "type": "multiple",
-      "text": "Sa \"Ang guro ay nagturo ng matematika\", ano ang panaguri?",
+      "text": "Sa \"Ang mekaniko ay nag-ayos ng makina\", ano ang panaguri?",
       "options": [
-        "nagturo ng matematika",
-        "ang guro",
+        "nag-ayos ng makina",
+        "ang mekaniko",
         "ay",
-        "ng matematika"
+        "ng makina"
       ],
       "answerIndex": 0,
-      "explain": "Ang sinasabi tungkol sa guro. Ang \"ay\" ay pananda lamang, hindi bahagi ng alinman.",
+      "explain": "Ang sinasabi tungkol sa mekaniko. Ang \"ay\" ay pananda lamang, hindi bahagi ng alinman.",
       "objective": "Matukoy ang simuno at ang panaguri"
     },
     {
       "type": "multiple",
       "text": "Alin ang nasa karaniwang ayos?",
       "options": [
-        "Naglilinis ng bahay ang nanay.",
-        "Ang nanay ay naglilinis ng bahay.",
-        "Ang bahay ay nililinis ng nanay.",
-        "Sa bahay ay naglilinis ang nanay."
+        "Nag-aayos ng sasakyan ang mekaniko.",
+        "Ang mekaniko ay nag-aayos ng sasakyan.",
+        "Ang sasakyan ay inaayos ng mekaniko.",
+        "Sa garahe ay nag-aayos ang mekaniko."
       ],
       "answerIndex": 0,
       "explain": "Panaguri muna at walang \"ay\". Iyan ang karaniwang ayos.",
@@ -301,10 +301,10 @@
       "type": "multiple",
       "text": "Alin ang nasa di-karaniwang ayos?",
       "options": [
-        "Si Ana ay sumayaw sa palaro.",
-        "Sumayaw si Ana sa palaro.",
-        "Sumayaw sa palaro si Ana.",
-        "Sa palaro sumayaw si Ana."
+        "Si Migs ay tumakbo sa karera.",
+        "Tumakbo si Migs sa karera.",
+        "Tumakbo sa karera si Migs.",
+        "Sa karera tumakbo si Migs."
       ],
       "answerIndex": 0,
       "explain": "Simuno muna at may \"ay\". Iyan ang tanda ng di-karaniwang ayos.",
@@ -332,24 +332,24 @@
     },
     {
       "type": "type",
-      "text": "Isulat sa di-karaniwang ayos: \"Naglaro ang bata.\"",
+      "text": "Isulat sa di-karaniwang ayos: \"Tumakbo ang manlalaro.\"",
       "accept": [
-        "ang bata ay naglaro",
-        "ang bata ay naglaro.",
-        "Ang bata ay naglaro",
-        "Ang bata ay naglaro."
+        "ang manlalaro ay tumakbo",
+        "ang manlalaro ay tumakbo.",
+        "Ang manlalaro ay tumakbo",
+        "Ang manlalaro ay tumakbo."
       ],
       "explain": "Iuuna ang simuno, saka ilalagay ang \"ay\" bago ang panaguri.",
       "objective": "Makapagpalit ng ayos ng isang pangungusap"
     },
     {
       "type": "multiple",
-      "text": "Baguhin sa karaniwang ayos: \"Ang aso ay natulog sa silong.\"",
+      "text": "Baguhin sa karaniwang ayos: \"Ang sasakyan ay huminto sa pit.\"",
       "options": [
-        "Natulog sa silong ang aso.",
-        "Ay natulog sa silong ang aso.",
-        "Sa silong ay natulog ang aso.",
-        "Ang aso natulog sa silong."
+        "Huminto sa pit ang sasakyan.",
+        "Ay huminto sa pit ang sasakyan.",
+        "Sa pit ay huminto ang sasakyan.",
+        "Ang sasakyan huminto sa pit."
       ],
       "answerIndex": 0,
       "explain": "Alisin ang \"ay\" at ibalik ang simuno sa dulo. Wala nang ibang binago.",

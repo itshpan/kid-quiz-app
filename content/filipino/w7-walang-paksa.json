@@ -47,8 +47,8 @@
         "text": "Alin sa mga ito ang walang paksa?",
         "options": [
           "Lumindol kagabi.",
-          "Natulog ang bata.",
-          "Naglaro sila sa labas.",
+          "Nagsanay ang boksingero.",
+          "Tumakbo sila sa oval.",
           "Malakas ang ulan sa Maynila."
         ],
         "answerIndex": 0,
@@ -231,7 +231,7 @@
       "options": [
         "Umuulan sa labas.",
         "Umuulan ang langit.",
-        "Basang-basa ang bata.",
+        "Basang-basa ang guwantes.",
         "Malakas ang hangin sa bundok."
       ],
       "answerIndex": 0,
@@ -289,9 +289,9 @@
       "text": "Alin ang talagang walang maaaring ipasok na paksa?",
       "options": [
         "Umuulan.",
-        "Tumakbo!",
+        "Magsanay na!",
         "Tumahimik!",
-        "Ibalik mo iyan."
+        "Itali mo iyan."
       ],
       "answerIndex": 0,
       "explain": "Sa pautos may kausap ka. Sa panahon at kalikasan, wala talagang gumagawa.",

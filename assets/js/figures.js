@@ -2856,7 +2856,8 @@ function prayerParts() {
    ========================================================================== */
 
 function panlapi() {
-    const CH = 13.2;
+    // .fig-mono is the same family at 22px: 9.211 * 22 / 15.
+    const CH = 13.51;
     // Segments are rendered left to right; the root keeps its colour so you
     // can watch it survive intact inside every built word.
     const line = (segs, y) => {
@@ -2908,7 +2909,9 @@ function panlapi() {
 /* ---------- Karaniwan against di-karaniwang ayos ---------- */
 /* The two orders are the same sentence, and "ay" is the visible tell. */
 function ayosPangungusap() {
-    const CH = 8.4;
+    // Measured advance of .fig-sent (15px monospace) in the browser. The old
+    // 8.4 was short enough to overlap once a segment ran past ~12 characters.
+    const CH = 9.211;
     const line = (segs, y) => {
         const total = segs.reduce((n, s) => n + s.t.length, 0);
         let x = 200 - (total * CH) / 2;
@@ -2927,13 +2930,13 @@ function ayosPangungusap() {
         demos: [
             { btn: 'Karaniwan',
               svg: `<text class="fig-step" x="200" y="56" text-anchor="middle">PANAGURI MUNA</text>`
-                 + line([{ t: 'Kumakain ng mansanas ' }, { t: 'ang bata.', hi: true }], 104)
+                 + line([{ t: 'Nagsanay ng suntok ' }, { t: 'ang boksingero.', hi: true }], 104)
                  + `<text class="fig-step" x="200" y="140" text-anchor="middle">PANAGURI — SIMUNO · WALANG "AY"</text>`,
               a: 'Karaniwang ayos: panaguri muna, simuno sa huli',
               b: 'Walang panandang "ay". Ito ang mas madalas sa Filipino.' },
             { btn: 'Di-karaniwan',
               svg: `<text class="fig-step" x="200" y="56" text-anchor="middle">SIMUNO MUNA</text>`
-                 + line([{ t: 'Ang bata ', hi: true }, { t: 'ay ' }, { t: 'kumakain ng mansanas.' }], 104)
+                 + line([{ t: 'Ang boksingero ', hi: true }, { t: 'ay ' }, { t: 'nagsanay ng suntok.' }], 104)
                  + `<text class="fig-step" x="200" y="140" text-anchor="middle">SIMUNO — "AY" — PANAGURI</text>`,
               a: 'Di-karaniwang ayos: simuno muna, may "ay"',
               b: 'Pareho ang kahulugan. Ang "ay" ang tanda nito.' }
@@ -2947,11 +2950,11 @@ function kayarianSalita() {
         alt: 'The four Filipino word structures with an example of each',
         rows: [
             { btn: 'Payak', short: 'Payak', a: 'Salitang-ugat lamang, walang panlapi',
-              b: 'bahay · laro · sulat · tubig' },
+              b: 'takbo · suntok · bilis · laro' },
             { btn: 'Maylapi', short: 'Maylapi', a: 'May panlapi sa ugat',
-              b: 'magbahay · naglaro · sumulat · tubigan' },
+              b: 'tumakbo · sumuntok · naglaro · bilisan' },
             { btn: 'Inuulit', short: 'Inuulit', a: 'Inuulit ang buo o bahagi ng ugat',
-              b: 'araw-araw · bahay-bahay · sari-sari' },
+              b: 'araw-araw · dahan-dahan · unti-unti' },
             { btn: 'Tambalan', short: 'Tambalan', a: 'Dalawang salitang-ugat na pinagsama',
               b: 'hampaslupa · bahay-kubo · dalagang-bukid' }
         ]
@@ -2964,13 +2967,13 @@ function kayarianPangungusap() {
         alt: 'The four Filipino sentence structures with an example of each',
         rows: [
             { btn: 'Payak', short: 'Payak', a: 'Isang punong sugnay lamang',
-              b: 'Naglalaro ang bata sa labas.' },
+              b: 'Nagsasanay ang boksingero tuwing umaga.' },
             { btn: 'Tambalan', short: 'Tambalan', a: 'Dalawang punong sugnay',
-              b: 'Naglaro siya at natulog agad. (at, ngunit, o)' },
+              b: 'Tumakbo siya at nag-ensayo agad. (at, ngunit, o)' },
             { btn: 'Hugnayan', short: 'Hugnayan', a: 'Punong sugnay at palipong sugnay',
-              b: 'Natulog siya dahil pagod na siya. (dahil, kung, kapag)' },
+              b: 'Huminto siya dahil pagod na siya. (dahil, kung, kapag)' },
             { btn: 'Langkapan', short: 'Langkapan', a: 'Pinagsamang tambalan at hugnayan',
-              b: 'Naglaro siya at natulog dahil pagod na siya.' }
+              b: 'Tumakbo siya at huminto dahil pagod na siya.' }
         ]
     });
 }
@@ -4049,19 +4052,19 @@ function uriPangungusap() {
         rows: [
             { btn: '1', short: 'Pasalaysay',
               a: 'Nagsasabi ng impormasyon. Tuldok ang bantas',
-              b: 'Naglalaro ng basketbol ang mga bata.' },
+              b: 'Tumatakbo ang sasakyan sa karera.' },
             { btn: '2', short: 'Patanong',
               a: 'Nagtatanong. Tandang pananong ang bantas',
-              b: 'Saan kayo naglaro kahapon?' },
+              b: 'Ilang round ang ginawa mo kahapon?' },
             { btn: '3', short: 'Pautos',
               a: 'Nag-uutos. Malakas ang tono',
-              b: 'Ibalik mo ang bola sa kahon.' },
+              b: 'Itali mo nang mahigpit ang bendahe.' },
             { btn: '4', short: 'Pakiusap',
               a: 'Humihiling nang magalang. May "paki" o "nga"',
-              b: 'Pakiabot nga ng tubig.' },
+              b: 'Pakiabot nga ng guwantes.' },
             { btn: '5', short: 'Padamdam',
               a: 'Nagpapahayag ng matinding damdamin',
-              b: 'Ang ganda ng laro!' },
+              b: 'Ang bilis ng lap na iyon!' },
             { btn: '6', short: 'Bantas',
               a: 'Ang bantas ang unang senyas',
               b: 'Tuldok, pananong, o padamdam. Tingnan ang dulo.' }
@@ -4087,10 +4090,10 @@ function walangPaksa() {
               b: 'Nilalagnat mula kagabi.' },
             { btn: '4', short: 'Oras',
               a: 'Tungkol sa oras o panahon ng araw',
-              b: 'Tanghali na pala.' },
+              b: 'Alas-singko na pala.' },
             { btn: '5', short: 'Pautos',
               a: 'Ang inuutusan ay hindi binabanggit',
-              b: 'Tumahimik!' },
+              b: 'Magsanay na!' },
             { btn: '6', short: 'Padamdam',
               a: 'Bulalas na walang tinutukoy na paksa',
               b: 'Aray!' }
@@ -4107,13 +4110,13 @@ function uriPangngalan() {
         rows: [
             { btn: '1', short: 'Pambalana',
               a: 'Pangkalahatan. Maliit na titik',
-              b: 'bayani, lungsod, aklat, bata.' },
+              b: 'bayani, lungsod, guwantes, manlalaro.' },
             { btn: '2', short: 'Pantangi',
               a: 'Tiyak na ngalan. Malaking titik',
               b: 'Bonifacio, Maynila, Supremo.' },
             { btn: '3', short: 'Tahas',
               a: 'Nahahawakan o nakikita',
-              b: 'mesa, bato, guwantes, tubig.' },
+              b: 'guwantes, bendahe, timbangan, bola.' },
             { btn: '4', short: 'Basal',
               a: 'Hindi nahahawakan. Ideya o damdamin',
               b: 'katapangan, pag-asa, kalayaan.' },
@@ -4142,7 +4145,7 @@ function kasarianPangngalan() {
               b: 'ina, reyna, tiya, inahin.' },
             { btn: '3', short: 'Di-tiyak',
               a: 'Maaaring lalaki o babae. Hindi tiyak',
-              b: 'guro, doktor, bata, kaibigan.' },
+              b: 'guro, boksingero, manlalaro, kaibigan.' },
             { btn: '4', short: 'Walang kasarian',
               a: 'Bagay na walang buhay o kasarian',
               b: 'bato, mesa, aklat, bahay.' },
@@ -4165,13 +4168,13 @@ function kailananPangngalan() {
         rows: [
             { btn: '1', short: 'Isahan',
               a: 'Iisa lamang',
-              b: 'aklat, bata, bahay, bayani.' },
+              b: 'guwantes, bola, sasakyan, bayani.' },
             { btn: '2', short: 'Dalawahan',
               a: 'Tiyak na dalawa. Karaniwang nagsisimula sa "mag-"',
               b: 'magkapatid, magkaibigan, mag-ama.' },
             { btn: '3', short: 'Maramihan',
               a: 'Tatlo o higit pa. Ginagamitan ng "mga"',
-              b: 'mga aklat, mga bata, mga bayani.' },
+              b: 'mga guwantes, mga bola, mga bayani.' },
             { btn: '4', short: 'Ang "mga"',
               a: 'Ito ang pinakakaraniwang senyas',
               b: 'Isang salita lamang ang nagpapalit ng kailanan.' },

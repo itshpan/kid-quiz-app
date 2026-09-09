@@ -61,8 +61,8 @@
       "title": "Magkapareho ang layunin, magkaiba ang paraan",
       "text": "Pareho silang humihingi ng gawain. Ang pagkakaiba ay nasa tono at sa maliliit na salita.",
       "points": [
-        "**Pautos:** \"Isara mo ang pinto.\"",
-        "**Pakiusap:** \"Pakisara nga ang pinto.\"",
+        "**Pautos:** \"Itali mo ang bendahe.\"",
+        "**Pakiusap:** \"Pakitali nga ang bendahe.\"",
         "**Ang \"paki-\" at \"nga\"** ang nagpapalambot.",
         "**Magalang ang pakiusap.** Iyon ang pagkakaiba."
       ]
@@ -87,10 +87,10 @@
         "type": "multiple",
         "text": "Alin ang pakiusap?",
         "options": [
-          "Pakikuha nga ng tubig.",
-          "Kumuha ka ng tubig.",
-          "Kumuha siya ng tubig.",
-          "Ang init ng tubig!"
+          "Pakiabot nga ng guwantes.",
+          "Iabot mo ang guwantes.",
+          "Inabot niya ang guwantes.",
+          "Ang bigat ng guwantes!"
         ],
         "answerIndex": 0,
         "explain": "Ang \"paki-\" at \"nga\" ang senyas ng pakiusap. Magalang ang tono."
@@ -229,7 +229,7 @@
   "quiz": [
     {
       "type": "multiple",
-      "text": "Anong uri ito: \"Naglalakad ang mga bata papuntang paaralan.\"",
+      "text": "Anong uri ito: \"Tumatakbo ang sasakyan sa karera.\"",
       "options": [
         "Pasalaysay",
         "Patanong",
@@ -270,10 +270,10 @@
       "type": "multiple",
       "text": "Alin sa mga ito ang pautos?",
       "options": [
-        "Ayusin mo ang kwarto mo.",
-        "Pakiayos nga ang kwarto.",
-        "Inayos niya ang kwarto.",
-        "Ang linis ng kwarto!"
+        "Itali mo ang bendahe mo.",
+        "Pakitali nga ang bendahe.",
+        "Itinali niya ang bendahe.",
+        "Ang higpit ng bendahe!"
       ],
       "answerIndex": 0,
       "explain": "Direktang utos ito, walang \"paki-\" at walang \"nga\".",
@@ -301,7 +301,7 @@
     },
     {
       "type": "multiple",
-      "text": "Anong uri ito: \"Pakisara nga ang bintana.\"",
+      "text": "Anong uri ito: \"Pakitali nga ang bendahe.\"",
       "options": [
         "Pakiusap",
         "Pautos",

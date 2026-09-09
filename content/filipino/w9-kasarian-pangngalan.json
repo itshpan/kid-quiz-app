@@ -36,7 +36,7 @@
       "points": [
         "**Panlalaki:** ama, hari, tandang.",
         "**Pambabae:** ina, reyna, inahin.",
-        "**Di-tiyak:** guro, doktor, bata.",
+        "**Di-tiyak:** guro, boksingero, manlalaro.",
         "**Walang kasarian:** bato, mesa, aklat."
       ]
     },
@@ -45,7 +45,12 @@
       "question": {
         "type": "multiple",
         "text": "Anong kasarian ang \"kapatid\"?",
-        "options": ["Di-tiyak", "Panlalaki", "Pambabae", "Walang kasarian"],
+        "options": [
+          "Di-tiyak",
+          "Panlalaki",
+          "Pambabae",
+          "Walang kasarian"
+        ],
         "answerIndex": 0,
         "explain": "Maaaring lalaki o babae. Kailangan mong idagdag ang \"na lalaki\" o \"na babae\" upang maging tiyak."
       }
@@ -177,11 +182,26 @@
       "kind": "terms",
       "title": "Mga salitang lalabas sa pagsusulit",
       "terms": [
-        { "term": "panlalaki", "def": "Tumutukoy sa lalaki: ama, hari, tandang." },
-        { "term": "pambabae", "def": "Tumutukoy sa babae: ina, reyna, inahin." },
-        { "term": "di-tiyak", "def": "Maaaring lalaki o babae: guro, doktor, kapatid." },
-        { "term": "walang kasarian", "def": "Bagay na walang buhay: bato, mesa, aklat." },
-        { "term": "hiram na salita", "def": "Salitang galing sa ibang wika, tulad ng aktor at aktres." }
+        {
+          "term": "panlalaki",
+          "def": "Tumutukoy sa lalaki: ama, hari, tandang."
+        },
+        {
+          "term": "pambabae",
+          "def": "Tumutukoy sa babae: ina, reyna, inahin."
+        },
+        {
+          "term": "di-tiyak",
+          "def": "Maaaring lalaki o babae: guro, doktor, kapatid."
+        },
+        {
+          "term": "walang kasarian",
+          "def": "Bagay na walang buhay: bato, mesa, aklat."
+        },
+        {
+          "term": "hiram na salita",
+          "def": "Salitang galing sa ibang wika, tulad ng aktor at aktres."
+        }
       ]
     },
     {
@@ -200,7 +220,12 @@
     {
       "type": "multiple",
       "text": "Anong kasarian ang \"inahin\"?",
-      "options": ["Pambabae", "Panlalaki", "Di-tiyak", "Walang kasarian"],
+      "options": [
+        "Pambabae",
+        "Panlalaki",
+        "Di-tiyak",
+        "Walang kasarian"
+      ],
       "answerIndex": 0,
       "explain": "Ang katapat nito ay \"tandang\", na panlalaki.",
       "objective": "Matukoy ang apat na kasarian ng pangngalan"
@@ -208,15 +233,25 @@
     {
       "type": "multiple",
       "text": "Anong kasarian ang \"mesa\"?",
-      "options": ["Walang kasarian", "Pambabae", "Di-tiyak", "Panlalaki"],
+      "options": [
+        "Walang kasarian",
+        "Pambabae",
+        "Di-tiyak",
+        "Panlalaki"
+      ],
       "answerIndex": 0,
       "explain": "Bagay ito na walang buhay, kaya walang kasarian.",
       "objective": "Matukoy ang apat na kasarian ng pangngalan"
     },
     {
       "type": "multiple",
-      "text": "Anong kasarian ang \"doktor\"?",
-      "options": ["Di-tiyak", "Panlalaki", "Pambabae", "Walang kasarian"],
+      "text": "Anong kasarian ang \"atleta\"?",
+      "options": [
+        "Di-tiyak",
+        "Panlalaki",
+        "Pambabae",
+        "Walang kasarian"
+      ],
       "answerIndex": 0,
       "explain": "Maaaring lalaki o babae. Hindi sinasabi ng salita kung sino.",
       "objective": "Maunawaan ang kasariang di-tiyak"
@@ -244,7 +279,12 @@
     {
       "type": "multiple",
       "text": "Alin sa mga ito ang walang kasarian?",
-      "options": ["aklat", "kaibigan", "guro", "kapatid"],
+      "options": [
+        "guwantes",
+        "kaibigan",
+        "guro",
+        "kapatid"
+      ],
       "answerIndex": 0,
       "explain": "Bagay ito. Ang tatlo pa ay tumutukoy sa tao at di-tiyak.",
       "objective": "Maiba ang walang kasarian sa di-tiyak"
@@ -252,7 +292,12 @@
     {
       "type": "multiple",
       "text": "Saan galing ang mga pares na tulad ng \"tiyo\" at \"tiya\"?",
-      "options": ["Espanyol", "Ingles", "Tsino", "Malay"],
+      "options": [
+        "Espanyol",
+        "Ingles",
+        "Tsino",
+        "Malay"
+      ],
       "answerIndex": 0,
       "explain": "Ang -o ay panlalaki at ang -a ay pambabae sa Espanyol.",
       "objective": "Matukoy ang mga hiram na salitang may kasarian"
@@ -293,7 +338,12 @@
     {
       "type": "multiple",
       "text": "Ilan ang imumungkahing pangalan ng komite noong 1995?",
-      "options": ["Siyam", "Isa", "Tatlo", "Labindalawa"],
+      "options": [
+        "Siyam",
+        "Isa",
+        "Tatlo",
+        "Labindalawa"
+      ],
       "answerIndex": 0,
       "explain": "Hindi ito naging batas, kaya nanatiling ugali at kaugalian ang nagbibigay ng sagot.",
       "objective": "Malaman ang debate kung sino ang pambansang bayani"

@@ -327,7 +327,7 @@
       "options": [
         "Umuulan nang malakas.",
         "Umuulan ang langit.",
-        "Basang-basa ang bata.",
+        "Basang-basa ang guwantes.",
         "Malakas ang hangin."
       ],
       "answerIndex": 0,
@@ -342,8 +342,8 @@
       "options": [
         "Masakit ang ulo ko.",
         "Umuulan.",
-        "Tumahimik!",
-        "Tanghali na."
+        "Magsanay na!",
+        "Alas-singko na."
       ],
       "answerIndex": 0
     },
@@ -403,10 +403,10 @@
       "type": "multiple",
       "text": "Alin ang tamang maramihan?",
       "options": [
-        "mga aklat",
-        "mga aklat-aklat",
-        "aklat mga",
-        "mga mga aklat"
+        "mga guwantes",
+        "mga guwantes-guwantes",
+        "guwantes mga",
+        "mga mga guwantes"
       ],
       "answerIndex": 0,
       "explain": "Linggo 10. Isang senyas lamang. Huwag doblehin.",
