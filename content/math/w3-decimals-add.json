@@ -51,7 +51,11 @@
       "question": {
         "type": "multiple",
         "text": "Which is bigger, 0.7 or 0.65?",
-        "options": ["0.7", "0.65", "They're equal"],
+        "options": [
+          "0.7",
+          "0.65",
+          "They're equal"
+        ],
         "answerIndex": 0,
         "explain": "0.7 — that's seven tenths, which is 0.70. More digits doesn't mean a bigger number. Compare place by place, starting at the left."
       }
@@ -80,7 +84,10 @@
       "question": {
         "type": "type",
         "text": "What is 12.5 + 3.75? Digits only.",
-        "accept": ["16.25", "16.250"],
+        "accept": [
+          "16.25",
+          "16.250"
+        ],
         "explain": "16.25. Write 12.5 as 12.50 first so both have two decimal places, then add straight down."
       }
     },
@@ -136,7 +143,9 @@
       "question": {
         "type": "type",
         "text": "What is 8.4 − 2.65? Digits only.",
-        "accept": ["5.75"],
+        "accept": [
+          "5.75"
+        ],
         "explain": "5.75. Writing 8.4 as 8.40 first gives you a hundredths digit to borrow from."
       }
     },
@@ -180,7 +189,9 @@
       "question": {
         "type": "type",
         "text": "You pay ₱200 for something costing ₱147.25. How much change? Digits only.",
-        "accept": ["52.75"],
+        "accept": [
+          "52.75"
+        ],
         "explain": "₱52.75. Write ₱200 as 200.00 first, then subtract. The zeros give you something to borrow from."
       }
     },
@@ -213,13 +224,34 @@
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "Decimal point", "def": "The dot separating whole numbers from parts of a whole." },
-        { "term": "Tenths", "def": "The first place after the point. 0.4 is four tenths." },
-        { "term": "Hundredths", "def": "The second place after the point. 0.04." },
-        { "term": "Thousandths", "def": "The third place after the point. 0.004." },
-        { "term": "Place value", "def": "What a digit is worth because of where it sits." },
-        { "term": "Estimate", "def": "A rough answer used to check a real one is sensible." },
-        { "term": "Regrouping", "def": "Borrowing from the column to the left when subtracting." }
+        {
+          "term": "Decimal point",
+          "def": "The dot separating whole numbers from parts of a whole."
+        },
+        {
+          "term": "Tenths",
+          "def": "The first place after the point. 0.4 is four tenths."
+        },
+        {
+          "term": "Hundredths",
+          "def": "The second place after the point. 0.04."
+        },
+        {
+          "term": "Thousandths",
+          "def": "The third place after the point. 0.004."
+        },
+        {
+          "term": "Place value",
+          "def": "What a digit is worth because of where it sits."
+        },
+        {
+          "term": "Estimate",
+          "def": "A rough answer used to check a real one is sensible."
+        },
+        {
+          "term": "Regrouping",
+          "def": "Borrowing from the column to the left when subtracting."
+        }
       ]
     },
     {
@@ -238,7 +270,12 @@
     {
       "type": "multiple",
       "text": "In the number 45.376, what is the digit 7 worth?",
-      "options": ["Seven hundredths", "Seven tenths", "Seven thousandths", "Seven units"],
+      "options": [
+        "Seven hundredths",
+        "Seven tenths",
+        "Seven thousandths",
+        "Seven units"
+      ],
       "answerIndex": 0,
       "explain": "Seven hundredths. Counting right from the point: 3 is tenths, 7 is hundredths, 6 is thousandths.",
       "objective": "Identify the place value of each digit after a decimal point"
@@ -246,21 +283,30 @@
     {
       "type": "type",
       "text": "What is 15.6 + 4.85? Digits only.",
-      "accept": ["20.45"],
+      "accept": [
+        "20.45"
+      ],
       "explain": "20.45. Write 15.6 as 15.60 first, then add straight down with the points in line.",
       "objective": "Add and subtract decimals by aligning the decimal points"
     },
     {
       "type": "type",
       "text": "What is 9.2 − 3.47? Digits only.",
-      "accept": ["5.73"],
+      "accept": [
+        "5.73"
+      ],
       "explain": "5.73. Write 9.2 as 9.20 so there's a hundredths digit to borrow from.",
       "objective": "Use zeros to fill empty place values"
     },
     {
       "type": "multiple",
       "text": "Which is the largest number?",
-      "options": ["0.8", "0.75", "0.109", "0.6999"],
+      "options": [
+        "0.8",
+        "0.75",
+        "0.109",
+        "0.6999"
+      ],
       "answerIndex": 0,
       "explain": "0.8. Compare from the left: 8 tenths beats 7, 1 and 6 tenths. More digits does not mean a bigger number.",
       "objective": "Identify the place value of each digit after a decimal point"
@@ -287,15 +333,23 @@
     },
     {
       "type": "type",
-      "text": "You pay ₱500 for goods costing ₱237.60. How much change do you get? Digits only.",
-      "accept": ["262.40", "262.4"],
+      "text": "A 1:24 model of a V8 engine costs ₱237.60. You pay ₱500. What change? Digits only.",
+      "accept": [
+        "262.40",
+        "262.4"
+      ],
       "explain": "₱262.40. Write ₱500 as 500.00 first so the columns line up and you have digits to borrow from.",
       "objective": "Solve word problems involving money and measurement"
     },
     {
       "type": "multiple",
       "text": "A lap takes 1:23.456. The record is 1:23.740. By how much did you beat it?",
-      "options": ["0.284 seconds", "0.384 seconds", "0.716 seconds", "1.284 seconds"],
+      "options": [
+        "0.284 seconds",
+        "0.384 seconds",
+        "0.716 seconds",
+        "1.284 seconds"
+      ],
       "answerIndex": 0,
       "explain": "0.284 seconds. 23.740 − 23.456 = 0.284. That's exactly what a split time on screen is showing you.",
       "objective": "Solve word problems involving money and measurement"
@@ -328,7 +382,9 @@
     {
       "type": "type",
       "text": "A fighter weighs 64.3 kg. The limit is 62.5 kg. How much must they lose? Digits only.",
-      "accept": ["1.8"],
+      "accept": [
+        "1.8"
+      ],
       "explain": "1.8 kg. Rounding to whole kilos would have hidden the problem entirely — this is why precision matters.",
       "objective": "Solve word problems involving money and measurement"
     },

@@ -403,10 +403,10 @@
       "type": "multiple",
       "text": "Alin ang tamang maramihan?",
       "options": [
-        "mga guwantes",
-        "mga guwantes-guwantes",
-        "guwantes mga",
-        "mga mga guwantes"
+        "mga makina",
+        "mga makina-makina",
+        "makina mga",
+        "mga mga makina"
       ],
       "answerIndex": 0,
       "explain": "Linggo 10. Isang senyas lamang. Huwag doblehin.",

@@ -100,7 +100,7 @@
       "points": [
         "**Habits:** \"He trains every morning.\"",
         "**General truths:** \"Water boils at 100 °C.\"",
-        "**Timetables:** \"The bus leaves at six.\"",
+        "**Timetables:** \"The flight leaves at six.\"",
         "**Commentary:** \"He passes, he shoots, he scores.\""
       ]
     },
@@ -383,10 +383,10 @@
       "type": "multiple",
       "text": "Which question is correct?",
       "options": [
-        "Does she play the guitar?",
-        "Does she plays the guitar?",
-        "Do she plays the guitar?",
-        "She does play guitar?"
+        "Does she start the engine?",
+        "Does she starts the engine?",
+        "Do she starts the engine?",
+        "She does start engine?"
       ],
       "answerIndex": 0,
       "explain": "Does takes the -s, so the main verb stays plain. Only one word carries the ending.",

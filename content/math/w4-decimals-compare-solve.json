@@ -230,12 +230,30 @@
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "compare", "def": "Decide which of two numbers is larger. Work from the left, column by column." },
-        { "term": "order / ascending", "def": "Arrange from smallest to largest. Descending is the other way." },
-        { "term": "difference", "def": "The result of a subtraction. The word tells you which operation to use." },
-        { "term": "sum / total", "def": "The result of an addition. Altogether and combined mean the same thing." },
-        { "term": "estimate", "def": "A rough answer from rounded numbers, used to reject impossible results." },
-        { "term": "inverse operation", "def": "The operation that undoes another. Subtraction undoes addition." }
+        {
+          "term": "compare",
+          "def": "Decide which of two numbers is larger. Work from the left, column by column."
+        },
+        {
+          "term": "order / ascending",
+          "def": "Arrange from smallest to largest. Descending is the other way."
+        },
+        {
+          "term": "difference",
+          "def": "The result of a subtraction. The word tells you which operation to use."
+        },
+        {
+          "term": "sum / total",
+          "def": "The result of an addition. Altogether and combined mean the same thing."
+        },
+        {
+          "term": "estimate",
+          "def": "A rough answer from rounded numbers, used to reject impossible results."
+        },
+        {
+          "term": "inverse operation",
+          "def": "The operation that undoes another. Subtraction undoes addition."
+        }
       ]
     },
     {
@@ -298,7 +316,7 @@
     },
     {
       "type": "multiple",
-      "text": "You pay ₱500 for items costing ₱126.40 and ₱237.85. What change do you get?",
+      "text": "A go-bag needs items costing ₱126.40 and ₱237.85. You pay ₱500. What change?",
       "options": [
         "₱135.75",
         "₱364.25",
@@ -311,7 +329,7 @@
     },
     {
       "type": "multiple",
-      "text": "A bottle holds 1.5 L. You drink 0.35 L, then 0.4 L. How much is left?",
+      "text": "A can holds 1.5 L of fuel. One lap burns 0.35 L, the next 0.4 L. How much is left?",
       "options": [
         "0.75 L",
         "0.85 L",
@@ -357,11 +375,11 @@
     },
     {
       "type": "multiple",
-      "text": "Two runners finish in 11.42 s and 11.4 s. Who was faster, and by how much?",
+      "text": "Two laps are timed at 11.42 s and 11.4 s. Which was faster, and by how much?",
       "options": [
-        "The 11.4 s runner, by 0.02 s",
-        "The 11.42 s runner, by 0.02 s",
-        "The 11.4 s runner, by 0.2 s",
+        "The 11.4 s lap, by 0.02 s",
+        "The 11.42 s lap, by 0.02 s",
+        "The 11.4 s lap, by 0.2 s",
         "They tied"
       ],
       "answerIndex": 0,

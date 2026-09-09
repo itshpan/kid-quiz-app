@@ -29,8 +29,8 @@
       "points": [
         "**Punong sugnay** — kayang tumayong mag-isa.",
         "**Palipong sugnay** — hindi kayang tumayong mag-isa.",
-        "**\"Tumakbo siya\"** — punong sugnay.",
-        "**\"dahil pagod na siya\"** — palipong sugnay."
+        "**\"Nanalo siya\"** — punong sugnay.",
+        "**\"dahil nagsanay siya\"** — palipong sugnay."
       ]
     },
     {
@@ -39,10 +39,10 @@
         "type": "multiple",
         "text": "Alin sa mga ito ang palipong sugnay?",
         "options": [
-          "kapag tapos na ang ensayo",
-          "tapos na ang ensayo",
-          "nagsasanay ang boksingero",
-          "huminto siya"
+          "dahil hindi siya nagsanay",
+          "hindi siya nagsanay",
+          "lumindol kagabi",
+          "umaandar ang makina"
         ],
         "answerIndex": 0,
         "explain": "Ang \"kapag\" ang gumagawa nitong palipon. Hindi ito kayang tumayong mag-isa."
@@ -71,7 +71,7 @@
       "kind": "checkpoint",
       "question": {
         "type": "multiple",
-        "text": "Anong kayarian ang \"Tumakbo siya at nag-ensayo agad\"?",
+        "text": "Anong kayarian ang \"Lumindol kagabi at bumaha kaninang umaga\"?",
         "options": [
           "Tambalan",
           "Payak",
@@ -112,7 +112,7 @@
       "kind": "checkpoint",
       "question": {
         "type": "multiple",
-        "text": "Anong kayarian ang \"Huminto siya dahil pagod na siya\"?",
+        "text": "Anong kayarian ang \"Natalo siya dahil hindi siya nagsanay\"?",
         "options": [
           "Hugnayan",
           "Tambalan",
@@ -281,8 +281,8 @@
       "options": [
         "dahil maaga siyang gumising",
         "maaga siyang gumising",
-        "tumakbo siya",
-        "nag-ensayo siya"
+        "umaandar ang makina",
+        "bumaha kagabi"
       ],
       "answerIndex": 0,
       "explain": "Ang \"dahil\" ang gumagawa nitong palipon. Hindi ito buo kung mag-isa.",
@@ -290,7 +290,7 @@
     },
     {
       "type": "multiple",
-      "text": "Anong kayarian ang \"Nagsasanay ang boksingero tuwing umaga\"?",
+      "text": "Anong kayarian ang \"Umaandar ang makina ng sasakyan\"?",
       "options": [
         "Payak",
         "Tambalan",
@@ -303,7 +303,7 @@
     },
     {
       "type": "multiple",
-      "text": "Anong kayarian ang \"Nagsanay siya ngunit hindi siya nanalo\"?",
+      "text": "Anong kayarian ang \"Nagsanay siya ngunit hindi pa rin siya nanalo\"?",
       "options": [
         "Tambalan",
         "Payak",
@@ -316,7 +316,7 @@
     },
     {
       "type": "multiple",
-      "text": "Anong kayarian ang \"Titigil siya kapag tapos na ang round\"?",
+      "text": "Anong kayarian ang \"Aalis sila kapag lumakas ang bagyo\"?",
       "options": [
         "Hugnayan",
         "Tambalan",

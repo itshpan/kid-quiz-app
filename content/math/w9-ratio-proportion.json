@@ -84,15 +84,15 @@
     {
       "kind": "lens",
       "lens": "cars",
-      "icon": "🏎️",
+      "icon": "🚗",
       "eyebrow": "Forza mode",
-      "title": "Power-to-weight is a ratio you already read",
-      "text": "500 horsepower in a 1,000 kg car and 250 in a 500 kg car are the same ratio. On a track they behave alike.",
+      "title": "A V8 is a note, not just a noise",
+      "text": "An engine's note is how often it fires. Count the cylinders and you have the ratio.",
       "points": [
-        "**500 : 1000 simplifies to 1 : 2.**",
-        "**250 : 500 simplifies to 1 : 2.**",
-        "**Same ratio, very different cars.**",
-        "**That is why the stat exists.**"
+        "**At 3000 rpm** a four fires 100 times a second.",
+        "**A V6 fires 150.** A V8 fires 200.",
+        "**That is 4 : 6 : 8**, which is 2 : 3 : 4.",
+        "**An octave, a fifth, a fourth.** Actual music."
       ]
     },
     {
@@ -284,7 +284,7 @@
     },
     {
       "type": "multiple",
-      "text": "A bag has 5 red and 3 blue counters. What is the ratio of red to blue?",
+      "text": "A garage holds 5 petrol cars and 3 electric. What is the ratio of petrol to electric?",
       "options": [
         "5 : 3",
         "3 : 5",
@@ -321,15 +321,15 @@
     },
     {
       "type": "multiple",
-      "text": "Which ratio is equivalent to 4 : 6?",
+      "text": "At the same revs a four, a V6 and a V8 fire in the ratio 4 : 6 : 8. In lowest terms?",
       "options": [
-        "10 : 15",
-        "6 : 8",
-        "8 : 10",
-        "4 : 8"
+        "2 : 3 : 4",
+        "1 : 2 : 3",
+        "4 : 6 : 8",
+        "2 : 4 : 6"
       ],
       "answerIndex": 0,
-      "explain": "4 : 6 simplifies to 2 : 3, and so does 10 : 15. The others do not.",
+      "explain": "Divide all three by 2. Those are the ratios of an octave, a fifth and a fourth in music.",
       "objective": "Find equivalent ratios"
     },
     {
@@ -371,7 +371,7 @@
     },
     {
       "type": "multiple",
-      "text": "If 4 pens cost ₱60, how much do 10 pens cost?",
+      "text": "If 4 spark plugs cost ₱60, how much do 10 cost?",
       "options": [
         "₱150",
         "₱120",
@@ -379,7 +379,7 @@
         "₱100"
       ],
       "answerIndex": 0,
-      "explain": "4/60 = 10/n, so 4n = 600 and n = 150. Or find one pen: ₱15 each.",
+      "explain": "4/60 = 10/n, so 4n = 600 and n = 150. Or find one plug: ₱15 each.",
       "objective": "Solve a proportion by cross-multiplication"
     },
     {
@@ -397,7 +397,7 @@
     },
     {
       "type": "multiple",
-      "text": "Share 72 sweets in the ratio 5 : 4.",
+      "text": "Share 72 blocks between two builds in the ratio 5 : 4.",
       "options": [
         "40 and 32",
         "36 and 36",

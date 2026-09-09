@@ -200,7 +200,12 @@
     {
       "type": "multiple",
       "text": "What is the plural of 'key'?",
-      "options": ["keys", "keies", "key's", "kies"],
+      "options": [
+        "keys",
+        "keies",
+        "key's",
+        "kies"
+      ],
       "answerIndex": 0,
       "explain": "Week 1. The -ies rule applies only after a consonant. Vowel plus y takes a plain -s.",
       "objective": "Recall the ten English topics of the term"
@@ -208,7 +213,12 @@
     {
       "type": "multiple",
       "text": "What is the plural of 'roof'?",
-      "options": ["roofs", "rooves", "roof's", "roofes"],
+      "options": [
+        "roofs",
+        "rooves",
+        "roof's",
+        "roofes"
+      ],
       "answerIndex": 0,
       "explain": "Week 1. Many f words become -ves, but roofs, chiefs and beliefs do not.",
       "objective": "Recall the ten English topics of the term"
@@ -242,7 +252,12 @@
     {
       "type": "multiple",
       "text": "What is the plural possessive of 'child'?",
-      "options": ["children's", "childrens'", "childs'", "children"],
+      "options": [
+        "children's",
+        "childrens'",
+        "childs'",
+        "children"
+      ],
       "answerIndex": 0,
       "explain": "Week 3. The plural does not end in s, so it takes apostrophe then s.",
       "objective": "Recall the ten English topics of the term"
@@ -252,9 +267,9 @@
       "text": "Which sentence uses it's correctly?",
       "options": [
         "It's raining again.",
-        "The dog wagged it's tail.",
+        "The plane lowered it's gear.",
         "The car lost it's mirror.",
-        "Every book has it's cover."
+        "Every engine has it's own note."
       ],
       "answerIndex": 0,
       "explain": "Week 3. It's always means it is or it has. Expand it to check.",
@@ -263,7 +278,12 @@
     {
       "type": "multiple",
       "text": "Which word is a possessive pronoun rather than a determiner?",
-      "options": ["theirs", "their", "her", "our"],
+      "options": [
+        "theirs",
+        "their",
+        "her",
+        "our"
+      ],
       "answerIndex": 0,
       "explain": "Week 4. A pronoun stands alone; a determiner sits in front of a noun.",
       "objective": "Recall the ten English topics of the term"
@@ -279,10 +299,10 @@
       "type": "multiple",
       "text": "Which is correct?",
       "options": [
-        "Everyone has his or her own locker.",
-        "Everyone have their own locker.",
-        "Everyone are bringing his locker.",
-        "Everyone were given a locker."
+        "Everyone has his or her own go-bag.",
+        "Everyone have their own go-bag.",
+        "Everyone are bringing his go-bag.",
+        "Everyone were given a go-bag."
       ],
       "answerIndex": 0,
       "explain": "Week 5. Everyone is grammatically singular, along with each, either and neither.",
@@ -291,7 +311,12 @@
     {
       "type": "multiple",
       "text": "How many compound personal pronouns are there?",
-      "options": ["Eight", "Six", "Ten", "Four"],
+      "options": [
+        "Eight",
+        "Six",
+        "Ten",
+        "Four"
+      ],
       "answerIndex": 0,
       "explain": "Week 6. The same eight words serve as both reflexive and intensive pronouns.",
       "objective": "Recall the ten English topics of the term"
@@ -299,14 +324,19 @@
     {
       "type": "multiple",
       "text": "Which of these is not a word?",
-      "options": ["theirselves", "themselves", "yourselves", "ourselves"],
+      "options": [
+        "theirselves",
+        "themselves",
+        "yourselves",
+        "ourselves"
+      ],
       "answerIndex": 0,
       "explain": "Week 6. Hisself and theirselves are not informal forms. They are not words at all.",
       "objective": "Recall the ten English topics of the term"
     },
     {
       "type": "multiple",
-      "text": "In 'She fixed the bike herself', what is 'herself' doing?",
+      "text": "In 'She fixed the engine herself', what is 'herself' doing?",
       "options": [
         "Adding emphasis; the sentence works without it",
         "Acting as the object of the verb",
@@ -321,10 +351,10 @@
       "type": "multiple",
       "text": "Which is correct?",
       "options": [
-        "He doesn't like the rain.",
-        "He doesn't likes the rain.",
-        "He don't likes the rain.",
-        "He do not likes the rain."
+        "He doesn't train on Sundays.",
+        "He doesn't trains on Sundays.",
+        "He don't trains on Sundays.",
+        "He do not trains on Sundays."
       ],
       "answerIndex": 0,
       "explain": "Week 8. Does already carries the ending, so the main verb stays plain.",
@@ -373,10 +403,10 @@
       "type": "multiple",
       "text": "Which is correct?",
       "options": [
-        "A number of students are waiting.",
-        "A number of students is waiting.",
-        "The number of students are waiting.",
-        "A number of student is waiting."
+        "A number of drivers are waiting.",
+        "A number of drivers is waiting.",
+        "The number of drivers are waiting.",
+        "A number of driver is waiting."
       ],
       "answerIndex": 0,
       "explain": "Week 10. 'A number of' takes a plural verb; 'the number of' takes a singular one.",

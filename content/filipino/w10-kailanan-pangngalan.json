@@ -34,9 +34,9 @@
       "title": "Isahan, dalawahan, maramihan",
       "text": "Karamihan ng wika ay may dalawa lamang. May pangatlo ang Filipino para sa tiyak na dalawa.",
       "points": [
-        "**Isahan:** guwantes, bola, bayani.",
+        "**Isahan:** makina, bagyo, bayani.",
         "**Dalawahan:** magkapatid, magkaibigan.",
-        "**Maramihan:** mga guwantes, mga bola.",
+        "**Maramihan:** mga makina, mga bagyo.",
         "**Ang \"mag-\"** ang senyas ng dalawahan."
       ]
     },
@@ -61,8 +61,8 @@
       "title": "Isang salita ang nagpapalit ng lahat",
       "text": "Hindi nagbabago ang pangngalan mismo. Isang maliit na salita lamang ang idinadagdag sa harap nito.",
       "points": [
-        "**\"guwantes\"** ay isahan.",
-        "**\"mga guwantes\"** ay maramihan.",
+        "**\"makina\"** ay isahan.",
+        "**\"mga makina\"** ay maramihan.",
         "**Hindi tulad ng Ingles**, walang dagdag na letra.",
         "**Ang \"mga\"** ang buong trabaho."
       ]
@@ -120,8 +120,8 @@
       "title": "Huwag doblehin ang senyas",
       "text": "Kung nasa harap na ang \"mga\", hindi na kailangan ng pag-uulit. Isang senyas lamang ang tama.",
       "points": [
-        "**Tama:** mga guwantes.",
-        "**Mali:** mga guwantes-guwantes.",
+        "**Tama:** mga makina.",
+        "**Mali:** mga makina-makina.",
         "**Tama:** mga sasakyan.",
         "**Pumili ng isa**, hindi pareho."
       ]
@@ -132,10 +132,10 @@
         "type": "multiple",
         "text": "Alin ang tamang maramihan?",
         "options": [
-          "mga guwantes",
-          "mga guwantes-guwantes",
-          "guwantes-guwantes mga",
-          "mga mga guwantes"
+          "mga makina",
+          "mga makina-makina",
+          "makina-makina mga",
+          "mga mga makina"
         ],
         "answerIndex": 0,
         "explain": "Isang senyas lamang. Ang \"mga\" ang gumagawa ng buong trabaho."
@@ -152,7 +152,7 @@
         "**Isang senyas ang sapat.**",
         "**Ang dagdag ay hindi tumutulong.**",
         "**Ginagawa lang nitong mali** ang tama.",
-        "**Ganoon ang \"mga aklat-aklat\".**"
+        "**Ganoon ang \"mga makina-makina\".**"
       ]
     },
     {
@@ -292,10 +292,10 @@
       "type": "multiple",
       "text": "Alin ang tamang sulat?",
       "options": [
-        "mga guwantes",
-        "mga guwantes-guwantes",
-        "guwantes mga",
-        "mga mga guwantes"
+        "mga makina",
+        "mga makina-makina",
+        "makina mga",
+        "mga mga makina"
       ],
       "answerIndex": 0,
       "explain": "Isang senyas lamang ang kailangan.",
@@ -336,10 +336,10 @@
     },
     {
       "type": "multiple",
-      "text": "Bakit mali ang \"mga guwantes-guwantes\"?",
+      "text": "Bakit mali ang \"mga makina-makina\"?",
       "options": [
         "Nadoble ang senyas ng maramihan",
-        "Mali ang baybay ng \"guwantes\"",
+        "Mali ang baybay ng \"makina\"",
         "Kailangan ng malaking titik",
         "Kailangang alisin ang gitling"
       ],

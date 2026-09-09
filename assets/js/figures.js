@@ -2967,13 +2967,13 @@ function kayarianPangungusap() {
         alt: 'The four Filipino sentence structures with an example of each',
         rows: [
             { btn: 'Payak', short: 'Payak', a: 'Isang punong sugnay lamang',
-              b: 'Nagsasanay ang boksingero tuwing umaga.' },
+              b: 'Umaandar ang makina ng sasakyan.' },
             { btn: 'Tambalan', short: 'Tambalan', a: 'Dalawang punong sugnay',
-              b: 'Tumakbo siya at nag-ensayo agad. (at, ngunit, o)' },
+              b: 'Lumindol kagabi at bumaha kaninang umaga. (at, ngunit, o)' },
             { btn: 'Hugnayan', short: 'Hugnayan', a: 'Punong sugnay at palipong sugnay',
-              b: 'Huminto siya dahil pagod na siya. (dahil, kung, kapag)' },
+              b: 'Natalo siya dahil hindi siya nagsanay. (dahil, kung, kapag)' },
             { btn: 'Langkapan', short: 'Langkapan', a: 'Pinagsamang tambalan at hugnayan',
-              b: 'Tumakbo siya at huminto dahil pagod na siya.' }
+              b: 'Nagsanay siya at nanalo dahil handa na siya.' }
         ]
     });
 }
@@ -4081,10 +4081,10 @@ function walangPaksa() {
         rows: [
             { btn: '1', short: 'Panahon',
               a: 'Tungkol sa lagay ng panahon',
-              b: 'Umuulan nang malakas.' },
+              b: 'Bumabagyo mula kahapon.' },
             { btn: '2', short: 'Kalikasan',
               a: 'Pangyayari sa kalikasan',
-              b: 'Lumindol kaninang umaga.' },
+              b: 'Bumaha sa buong kalye.' },
             { btn: '3', short: 'Karamdaman',
               a: 'Damdaming pisikal, walang binabanggit na paksa',
               b: 'Nilalagnat mula kagabi.' },
@@ -4110,16 +4110,16 @@ function uriPangngalan() {
         rows: [
             { btn: '1', short: 'Pambalana',
               a: 'Pangkalahatan. Maliit na titik',
-              b: 'bayani, lungsod, guwantes, manlalaro.' },
+              b: 'bayani, lungsod, makina, eroplano.' },
             { btn: '2', short: 'Pantangi',
               a: 'Tiyak na ngalan. Malaking titik',
               b: 'Bonifacio, Maynila, Supremo.' },
             { btn: '3', short: 'Tahas',
               a: 'Nahahawakan o nakikita',
-              b: 'guwantes, bendahe, timbangan, bola.' },
+              b: 'makina, guwantes, eroplano, bato.' },
             { btn: '4', short: 'Basal',
               a: 'Hindi nahahawakan. Ideya o damdamin',
-              b: 'katapangan, pag-asa, kalayaan.' },
+              b: 'katapangan, pag-asa, takot, tiyaga.' },
             { btn: '5', short: 'Palansak',
               a: 'Isang salita para sa isang pangkat',
               b: 'kawan, pulutong, samahan, bungkos.' },
@@ -4168,13 +4168,13 @@ function kailananPangngalan() {
         rows: [
             { btn: '1', short: 'Isahan',
               a: 'Iisa lamang',
-              b: 'guwantes, bola, sasakyan, bayani.' },
+              b: 'makina, bagyo, sasakyan, bayani.' },
             { btn: '2', short: 'Dalawahan',
               a: 'Tiyak na dalawa. Karaniwang nagsisimula sa "mag-"',
               b: 'magkapatid, magkaibigan, mag-ama.' },
             { btn: '3', short: 'Maramihan',
               a: 'Tatlo o higit pa. Ginagamitan ng "mga"',
-              b: 'mga guwantes, mga bola, mga bayani.' },
+              b: 'mga makina, mga bagyo, mga bayani.' },
             { btn: '4', short: 'Ang "mga"',
               a: 'Ito ang pinakakaraniwang senyas',
               b: 'Isang salita lamang ang nagpapalit ng kailanan.' },

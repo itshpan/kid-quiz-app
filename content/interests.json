@@ -1,17 +1,29 @@
 {
   "_note": "The canonical roster of the learner's interests. Every lesson must be written through at least three of these — the checker enforces it. Add to this file rather than remembering things in your head. Each entry carries hooks: concrete, factual angles that connect a curriculum topic to the interest without being decorative.",
-
   "learner": {
     "name": "Grade 6, age ~12",
     "notes": "ADHD. Bright, not a weak reader. Interest-driven attention. Trains daily. Never talk down — simplify the sentence, not the idea."
   },
-
   "lenses": {
     "cars": {
       "label": "Car mode",
       "icon": "🚗",
       "colour": "--lens-car",
-      "covers": ["Forza", "motorsport", "classic cars", "car mechanics", "crash safety", "trains", "railways"],
+      "covers": [
+        "Forza",
+        "motorsport",
+        "classic cars",
+        "car mechanics",
+        "crash safety",
+        "trains",
+        "railways",
+        "engines",
+        "V8",
+        "V6",
+        "engine note",
+        "exhaust sound",
+        "car types"
+      ],
       "hooks": [
         "Crumple zones and safety cells — structures designed to deform vs structures designed to stay rigid",
         "Seatbelt load paths — force routed onto bone, away from soft tissue",
@@ -20,14 +32,26 @@
         "Honeycomb crash structure — hexagons for stiffness per gram",
         "Suspension absorbing a landing — deformation as energy management",
         "Trains: rails as a fixed track, couplings, braking distance, load distribution over bogies",
-        "Tyre tread and carbon weave as repeating patterns"
+        "Tyre tread and carbon weave as repeating patterns",
+        "Engine firing frequency = rpm x cylinders / 120. At 3000 rpm a four fires at 100 Hz, a V6 at 150, a V8 at 200",
+        "So at the same revs I4 : V6 : V8 = 4 : 6 : 8 = 2 : 3 : 4 — an octave, a fifth and a fourth. Real ratio work",
+        "Double the revs and the note goes up exactly one octave, because you doubled the frequency",
+        "Crossplane V8 (muscle car) burbles because its banks fire unevenly; flatplane V8 (Ferrari) fires evenly and wails higher",
+        "A bigger, slower engine is a lower note. Pitch is just how often something repeats"
       ]
     },
     "boxing": {
       "label": "Boxing mode",
       "icon": "🥊",
       "colour": "--lens-box",
-      "covers": ["boxing", "combat sports", "training", "football", "basketball", "athletics"],
+      "covers": [
+        "boxing",
+        "combat sports",
+        "training",
+        "football",
+        "basketball",
+        "athletics"
+      ],
       "hooks": [
         "The kinetic chain — power starts at the floor, the fist only delivers it",
         "Boxer's fracture as a technique problem, not a strength problem",
@@ -43,7 +67,17 @@
       "label": "Game mode",
       "icon": "🎮",
       "colour": "--lens-game",
-      "covers": ["Cyberpunk 2077", "Death Stranding", "Pacific Drive", "Minecraft", "Forza", "strategy games", "tilesets"],
+      "covers": [
+        "Cyberpunk 2077",
+        "Death Stranding",
+        "Pacific Drive",
+        "Minecraft",
+        "Forza",
+        "strategy games",
+        "tilesets",
+        "Solar Smash",
+        "axolotls"
+      ],
       "hooks": [
         "Death Stranding — equippable exoskeletons; load-bearing, balance and centre of gravity as core mechanics; cargo weight vs stamina",
         "Cyberpunk 2077 — the Skeleton cyberware slot; titanium bone lacing; subdermal armour sitting below the dermis",
@@ -52,14 +86,22 @@
         "Forza — livery transformations, tuning as system trade-offs",
         "Tilesets and hex grids — why game worlds are built on shapes that tessellate",
         "Upgrade trees and stats as a model for adaptation over time",
-        "Terrain tiles translate rather than rotate, because it is computationally cheaper"
+        "Terrain tiles translate rather than rotate, because it is computationally cheaper",
+        "Solar Smash — he fires weapons and meteors at planets. Mass and speed as inputs, damage as output",
+        "Minecraft axolotls: real ones are neotenic, regrow limbs, and are critically endangered in Lake Xochimilco"
       ]
     },
     "growth": {
       "label": "Your body right now",
       "icon": "⚡",
       "colour": "--lens-body",
-      "covers": ["puberty", "training adaptation", "sleep", "nutrition", "long-term health"],
+      "covers": [
+        "puberty",
+        "training adaptation",
+        "sleep",
+        "nutrition",
+        "long-term health"
+      ],
       "hooks": [
         "The bone-density window closing around 18–20",
         "Growth hormone released in deep sleep and after hard training",
@@ -74,7 +116,12 @@
       "label": "Space mode",
       "icon": "🪐",
       "colour": "--lens-space",
-      "covers": ["planets", "stars", "astronomy", "spaceflight"],
+      "covers": [
+        "planets",
+        "stars",
+        "astronomy",
+        "spaceflight"
+      ],
       "hooks": [
         "Astronauts lose 1–2% bone density per month — Wolff's Law running backwards",
         "Scale comparisons — distances, sizes, orders of magnitude",
@@ -87,23 +134,93 @@
       "label": "Story mode",
       "icon": "✍️",
       "colour": "--lens-story",
-      "covers": ["writing", "AI-assisted stories", "adventure plots", "aliens", "Slenderman", "Don Quixote", "memes", "wordplay"],
+      "covers": [
+        "writing",
+        "AI-assisted stories",
+        "adventure plots",
+        "aliens",
+        "Slenderman",
+        "Don Quixote",
+        "memes",
+        "wordplay",
+        "creepypasta",
+        "uncanny horror"
+      ],
       "hooks": [
         "He writes adventure stories where someone drives into a strange scenario and faces aliens or Slenderman",
         "Don Quixote — a man who decided to become the main character; Chapter 1 is a character-creation screen",
         "Naming things as a way of making them real",
         "Structure of an adventure: setup, gear, companion, the road",
         "Wordplay and absurd comparisons land well — one dry joke per section, no more",
-        "Unreliable perception — a windmill seen as a giant"
+        "Unreliable perception — a windmill seen as a giant",
+        "Creepypasta — uncanny rather than gory. The dread comes from something being almost right",
+        "The unreliable narrator is the engine of every creepypasta, and of Don Quixote"
+      ]
+    },
+    "disasters": {
+      "label": "Disaster mode",
+      "icon": "🌋",
+      "colour": "--lens-disaster",
+      "covers": [
+        "earthquakes",
+        "typhoons",
+        "floods",
+        "volcanoes",
+        "meteor impacts",
+        "the Ring of Fire"
+      ],
+      "hooks": [
+        "Magnitude is not linear: one step is 10x the shaking and about 32x the energy. Two steps is 1000x the energy",
+        "The Philippines sits on the Ring of Fire and takes about 20 tropical cyclones a year, 8 or 9 making landfall",
+        "Typhoon Haiyan (Yolanda), November 2013: winds around 315 km/h and a storm surge up to about 7 m in Tacloban",
+        "1990 Luzon earthquake: magnitude 7.7, about 1,600 dead. 2013 Bohol: magnitude 7.2",
+        "Meteor energy is half m v squared. Double the mass and energy doubles; double the speed and it quadruples",
+        "Chelyabinsk 2013: a rock about 20 m across, entering near 19 km/s, injured around 1,500 people mostly by broken glass",
+        "Tunguska 1908: an object maybe 50-60 m across flattened roughly 2,000 square km of forest without leaving a crater"
+      ]
+    },
+    "aviation": {
+      "label": "Black box mode",
+      "icon": "✈️",
+      "colour": "--lens-air",
+      "covers": [
+        "plane crashes",
+        "crash investigation",
+        "how aircraft work",
+        "air safety"
+      ],
+      "hooks": [
+        "The black box is two recorders and it is painted bright orange, so searchers can see it",
+        "Almost no crash has one cause. It is a chain, and removing any one link stops it",
+        "United 232, 1989: all three hydraulic systems severed, the crew steered on engine thrust alone; 185 of 296 lived",
+        "Tenerife 1977, the worst accident: two radio calls overlapped. It is why pilot phrasing is standardised now",
+        "Flying is the safest way to travel per kilometre precisely because every crash is investigated and published"
+      ]
+    },
+    "memes": {
+      "label": "Meme mode",
+      "icon": "🗿",
+      "colour": "--lens-meme",
+      "covers": [
+        "Back In My Day",
+        "Storm Area 51",
+        "internet culture",
+        "absurd exaggeration"
+      ],
+      "hooks": [
+        "Back In My Day is hyperbole with a straight face: uphill both ways, 300 miles, one shoe. Great for tense and for exaggeration",
+        "Storm Area 51, September 2019: about 2 million people clicked going and roughly 150 turned up. A ratio joke that writes itself",
+        "The comedy is in the mismatch between the claim and the reality. That is a real rhetorical device, not just a joke"
       ]
     }
   },
-
   "rules": [
     "Every lesson uses at least three different lenses. The checker enforces this.",
     "A lens card must teach the curriculum content, not just mention the interest. If you delete the game reference and the card still teaches something, it is a good lens card.",
     "Prefer a hook that is structurally true over one that is merely thematic. Death Stranding's exoskeletons genuinely are exoskeletons.",
     "Rotate the lenses across a lesson. Four car cards in a row is worse than one of each.",
-    "Never invent a fact about a game or sport to make a hook work. If it is not true, find another hook."
+    "Never invent a fact about a game or sport to make a hook work. If it is not true, find another hook.",
+    "Vary the lens. Boxing every time is as generic as no lens at all.",
+    "Where a sentence has to be invented anyway, make it carry a consequence he would recognise: he did not train, so he lost."
   ]
 }

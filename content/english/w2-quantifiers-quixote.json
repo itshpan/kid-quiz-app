@@ -89,12 +89,12 @@
         "type": "multiple",
         "text": "Which is correct?",
         "options": [
-          "How much water do you need?",
-          "How many water do you need?",
-          "How much bottles do you need?"
+          "How much fuel do you need?",
+          "How many fuel do you need?",
+          "How much cans do you need?"
         ],
         "answerIndex": 0,
-        "explain": "much water. Water is noncount, so it takes much. Bottles are countable, so they'd take many."
+        "explain": "much fuel. Water is noncount, so it takes much. Bottles are countable, so they'd take many."
       }
     },
     {

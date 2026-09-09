@@ -19,7 +19,7 @@
       "icon": "🌧️",
       "eyebrow": "Bahagi 1 · Walang sino",
       "title": "\"Umuulan.\" Sino ang umuulan?",
-      "text": "Walang sagot ang tanong na iyon, at buo pa rin ang pangungusap. May mga pangungusap na talagang walang paksa."
+      "text": "Walang sagot ang tanong na iyon, at buo pa rin ang pangungusap. Ganito ang wika ng bagyo at lindol."
     },
     {
       "kind": "idea",
@@ -48,7 +48,7 @@
         "options": [
           "Lumindol kagabi.",
           "Nagsanay ang boksingero.",
-          "Tumakbo sila sa oval.",
+          "Umaandar ang makina.",
           "Malakas ang ulan sa Maynila."
         ],
         "answerIndex": 0,
@@ -229,13 +229,13 @@
       "type": "multiple",
       "text": "Alin ang pangungusap na walang paksa?",
       "options": [
-        "Umuulan sa labas.",
+        "Bumabagyo mula kahapon.",
         "Umuulan ang langit.",
         "Basang-basa ang guwantes.",
         "Malakas ang hangin sa bundok."
       ],
       "answerIndex": 0,
-      "explain": "Walang gumagawa ng ulan sa gramatika. Panaguri lamang ang buong pangungusap.",
+      "explain": "Walang gumagawa ng bagyo sa gramatika. Panaguri lamang ang buong pangungusap.",
       "objective": "Matukoy ang mga uri nito"
     },
     {

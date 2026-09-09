@@ -36,6 +36,9 @@
     --lens-game:   #5B4BB8;
     --lens-space:  #3C6E9F;
     --lens-story:  #A8446B;
+    --lens-disaster: #B4552A;
+    --lens-air:      #3F7A5E;
+    --lens-meme:     #6E7A21;
 
     /* Reading measure. The single most important number in this file. */
     --measure: 53ch;
@@ -78,6 +81,12 @@
         --lens-game:   #A99BF0;
         --lens-space:  #7FB6E8;
         --lens-story:  #F58BB0;
+    --lens-disaster: #F2996B;
+    --lens-air:      #6FC79A;
+    --lens-meme:     #C3D45C;
+        --lens-disaster: #F2996B;
+        --lens-air:      #6FC79A;
+        --lens-meme:     #C3D45C;
     }
 }
 
@@ -351,6 +360,9 @@ strong { font-weight: 700; color: var(--ink); }
 .card[data-lens="gaming"] { --lens: var(--lens-game); }
 .card[data-lens="space"]  { --lens: var(--lens-space); }
 .card[data-lens="story"]  { --lens: var(--lens-story); }
+.card[data-lens="disasters"] { --lens: var(--lens-disaster); }
+.card[data-lens="aviation"]  { --lens: var(--lens-air); }
+.card[data-lens="memes"]     { --lens: var(--lens-meme); }
 
 /* Points: at most four, each one line of thought. */
 .points { list-style: none; display: grid; gap: 12px; margin-top: 14px; max-width: var(--measure); }

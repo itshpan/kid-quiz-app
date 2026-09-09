@@ -325,7 +325,7 @@
     },
     {
       "type": "multiple",
-      "text": "A 4 kg bag costs ₱260. What is the price per kilogram?",
+      "text": "A 4 L can of engine oil costs ₱260. What is the price per litre?",
       "options": [
         "₱65",
         "₱1040",
@@ -351,7 +351,7 @@
     },
     {
       "type": "multiple",
-      "text": "Which is better value: 750 g for ₱150, or 1.2 kg for ₱216?",
+      "text": "Relief rice: 750 g for ₱150, or 1.2 kg for ₱216. Which is better value?",
       "options": [
         "1.2 kg at ₱180 per kg",
         "750 g at ₱150 per kg",
@@ -371,7 +371,7 @@
     },
     {
       "type": "multiple",
-      "text": "You buy 4 drinks at ₱18.75 each and pay ₱100. What change do you get?",
+      "text": "You buy 4 water bottles for a go-bag at ₱18.75 each and pay ₱100. What change?",
       "options": [
         "₱25",
         "₱75",
@@ -384,7 +384,7 @@
     },
     {
       "type": "multiple",
-      "text": "A 2.4 m plank is cut into 0.4 m pieces. How many pieces?",
+      "text": "A 2.4 m roll of hazard tape is cut into 0.4 m strips. How many strips?",
       "options": [
         "6",
         "0.6",

@@ -227,12 +227,30 @@
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "rate", "def": "A comparison of two quantities with different units, such as km per hour." },
-        { "term": "unit rate", "def": "A rate where one side is exactly one. Always found by dividing." },
-        { "term": "scale", "def": "The ratio between a drawing and the real thing, such as 1 : 50000." },
-        { "term": "direct proportion", "def": "Multiply one quantity by any number and the other multiplies by the same." },
-        { "term": "cross-multiplication", "def": "Multiplying diagonally across a proportion to find a missing term." },
-        { "term": "scale factor", "def": "The number you multiply by to go from the drawing to the real size." }
+        {
+          "term": "rate",
+          "def": "A comparison of two quantities with different units, such as km per hour."
+        },
+        {
+          "term": "unit rate",
+          "def": "A rate where one side is exactly one. Always found by dividing."
+        },
+        {
+          "term": "scale",
+          "def": "The ratio between a drawing and the real thing, such as 1 : 50000."
+        },
+        {
+          "term": "direct proportion",
+          "def": "Multiply one quantity by any number and the other multiplies by the same."
+        },
+        {
+          "term": "cross-multiplication",
+          "def": "Multiplying diagonally across a proportion to find a missing term."
+        },
+        {
+          "term": "scale factor",
+          "def": "The number you multiply by to go from the drawing to the real size."
+        }
       ]
     },
     {
@@ -276,7 +294,7 @@
     },
     {
       "type": "multiple",
-      "text": "8 identical notebooks cost ₱200. What do 14 cost?",
+      "text": "8 identical sandbags cost ₱200. What do 14 cost?",
       "options": [
         "₱350",
         "₱280",
@@ -284,7 +302,7 @@
         "₱400"
       ],
       "answerIndex": 0,
-      "explain": "One notebook is 200 ÷ 8 = ₱25. Then 14 × 25 = ₱350.",
+      "explain": "One sandbag is 200 ÷ 8 = ₱25. Then 14 × 25 = ₱350.",
       "objective": "Use a unit rate to solve a proportion problem"
     },
     {
@@ -302,20 +320,20 @@
     },
     {
       "type": "multiple",
-      "text": "A drawing has a scale of 1 : 200. A wall measures 3 cm. How long is the real wall?",
+      "text": "A model car is built at 1 : 24 and measures 18 cm. How long is the real car?",
       "options": [
-        "6 m",
-        "600 m",
-        "60 cm",
-        "200 cm"
+        "4.32 m",
+        "432 m",
+        "1.8 m",
+        "43.2 cm"
       ],
       "answerIndex": 0,
-      "explain": "3 × 200 = 600 cm, which is 6 m.",
+      "explain": "18 x 24 = 432 cm, which is 4.32 m. About the length of a real car, so the answer is sane.",
       "objective": "Read and use a scale on a map or drawing"
     },
     {
       "type": "multiple",
-      "text": "A map scale is 1 : 25000. Two towns are 8 cm apart on the map. How far apart really?",
+      "text": "On an evacuation map at 1 : 25 000, the shelter is 8 cm away. How far is that really?",
       "options": [
         "2 km",
         "200 m",
@@ -341,7 +359,7 @@
     },
     {
       "type": "multiple",
-      "text": "A recipe for 6 people uses 450 g of flour. How much for 8 people?",
+      "text": "A relief pack for 6 people uses 450 g of rice. How much for 8 people?",
       "options": [
         "600 g",
         "550 g",
@@ -367,9 +385,9 @@
     },
     {
       "type": "truefalse",
-      "text": "If one worker builds a wall in 8 hours, two workers will always build it in 4.",
+      "text": "Double a meteor’s speed and its energy doubles.",
       "answer": false,
-      "explain": "False. It sounds proportional but real work rarely divides that cleanly. The exam sets this deliberately.",
+      "explain": "Energy is half m v squared. Double the mass and energy doubles; double the speed and it quadruples.",
       "objective": "Decide when two quantities are in direct proportion"
     },
     {
