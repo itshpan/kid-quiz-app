@@ -1,0 +1,420 @@
+{
+  "id": "math-w11",
+  "courseId": "math",
+  "courseTitle": "Math",
+  "week": 11,
+  "title": "Exam Week",
+  "subtitle": "Shapes, decimals, fractions, ratio. One paper, and an estimate before every answer.",
+  "estMinutes": 25,
+  "objectives": [
+    "Recall the ten Math topics of the term",
+    "Estimate first to reject an impossible answer",
+    "Show working so a slip does not cost everything",
+    "Name the traps that cost the most marks",
+    "Sit a full-length mixed paper"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🧮",
+      "eyebrow": "Part 1 · Getting ready",
+      "title": "Four topics, ten weeks, one paper",
+      "text": "Shapes and transformations, decimals, fractions, and ratio. Every one of them is still examinable."
+    },
+    {
+      "kind": "figure",
+      "figure": "mathExam",
+      "eyebrow": "The whole term",
+      "title": "Ten weeks, one tap each",
+      "text": "This is your revision sheet. The second line of each is the mistake that costs the mark."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The one habit",
+      "title": "Estimate before you calculate",
+      "text": "An estimate cannot give you the answer. It can tell you instantly that an answer is impossible.",
+      "points": [
+        "**Round both numbers.** Do it in your head.",
+        "**0.48 × 51** is about 25.",
+        "**An answer of 250** is now obviously wrong.",
+        "**Five seconds** catches a misplaced decimal point."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "You estimate 0.48 × 51 as about 25. Your working gives 244.8. What has happened?",
+        "options": [
+          "The decimal point is in the wrong place",
+          "The estimate was wrong",
+          "The answer is correct",
+          "The question cannot be done"
+        ],
+        "answerIndex": 0,
+        "explain": "Estimating cannot give the answer, but it catches an answer that is out by a factor of ten."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "Nobody checks a lap time against nothing",
+      "text": "A driver knows roughly what a lap should take. A reading two seconds out means the timing is wrong, not the car.",
+      "points": [
+        "**You need a rough expectation** to spot an error.",
+        "**Without one**, any number looks fine.",
+        "**The estimate is the expectation.**",
+        "**Make it before you start**, not after."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Working",
+      "title": "Write the steps down, even when you can see it",
+      "text": "A wrong answer with visible working can still earn method marks. A wrong answer on its own earns nothing.",
+      "points": [
+        "**One line per step.**",
+        "**Keep the decimal points in a column.**",
+        "**Do not rub out** a step you replaced.",
+        "**Working is evidence**, not decoration."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Showing your working can earn marks even when the final answer is wrong.",
+        "answer": true,
+        "explain": "Method marks are real. An answer alone is all or nothing."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good place to pause",
+      "text": "Part 2 is the traps and the exam room. The paper after it is 24 questions."
+    },
+    {
+      "kind": "open",
+      "icon": "⚠️",
+      "eyebrow": "Part 2 · The traps",
+      "title": "Three errors account for most lost marks",
+      "text": "They are not hard ideas. They are habits from an earlier topic being used in the wrong one."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The big three",
+      "title": "Right method, wrong topic",
+      "text": "Each of these is correct somewhere else in the course, which is exactly why it is easy to reach for.",
+      "points": [
+        "**Lining up points** is adding, not multiplying.",
+        "**A common denominator** is adding, not multiplying.",
+        "**Flipping** is only the second fraction.",
+        "**Ask which topic** the question is in."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "The right move in the wrong situation still loses",
+      "text": "A block is correct against one attack and useless against another. Knowing the move is not the same as reading the moment.",
+      "points": [
+        "**You know all four methods already.**",
+        "**Choosing is the tested skill.**",
+        "**Name the topic first**, then start.",
+        "**Most errors are a choice error.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Units",
+      "title": "A number with no unit is half an answer",
+      "text": "Pesos, centimetres, kilograms. If the question had units, the answer needs them too.",
+      "points": [
+        "**Copy the unit** from the question.",
+        "**Check it makes sense.** Money to two places.",
+        "**Metres and centimetres** are a common trap.",
+        "**Write it every time.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which method belongs to multiplying fractions?",
+        "options": [
+          "Multiply straight across, no common denominator needed",
+          "Find a common denominator first",
+          "Flip both fractions",
+          "Line up the decimal points"
+        ],
+        "answerIndex": 0,
+        "explain": "A common denominator is for adding and subtracting. Flipping is for dividing, and only the second fraction."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "📈",
+      "eyebrow": "Your body mode",
+      "title": "The last ten minutes are for checking",
+      "text": "Finishing early is not the goal. Going back through with fresh eyes catches the slips your first pass made.",
+      "points": [
+        "**Recheck the estimates first.**",
+        "**Then the units.**",
+        "**Then anything you marked** to come back to.",
+        "**Never hand it in early.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Finishing a maths paper early and handing it in is a good use of the time.",
+        "answer": false,
+        "explain": "The spare time is for checking estimates, units and the questions you skipped."
+      }
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Estimate first.** It catches the decimal point.",
+        "**Show the working.** Method marks are real.",
+        "**Name the topic** before choosing a method.",
+        "**Write the unit** on every answer."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Which three regular polygons tessellate on their own?",
+      "options": [
+        "Triangle, square, hexagon",
+        "Square, pentagon, hexagon",
+        "Triangle, square, pentagon",
+        "Triangle, hexagon, octagon"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 1. Their interior angles divide exactly into 360 degrees.",
+      "objective": "Recall the ten Math topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the interior angle of a regular hexagon?",
+      "options": ["120 degrees", "108 degrees", "135 degrees", "90 degrees"],
+      "answerIndex": 0,
+      "explain": "Week 1. Three of them meet at a vertex, because 3 times 120 is exactly 360.",
+      "objective": "Recall the ten Math topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Why does a regular pentagon not tessellate?",
+      "options": [
+        "Its 108 degree angle does not divide into 360",
+        "It has too many sides",
+        "Its sides are unequal",
+        "It is not a convex shape"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 1. Three pentagons give 324 degrees and leave a gap; four would overlap.",
+      "objective": "Recall the ten Math topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is needed to describe a rotation fully?",
+      "options": [
+        "The angle, the centre and the direction",
+        "The angle only",
+        "The distance and direction",
+        "The line of symmetry"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 2. Without a centre and a direction it cannot be reproduced.",
+      "objective": "Recall the ten Math topics of the term"
+    },
+    {
+      "type": "truefalse",
+      "text": "Translation, reflection and rotation all keep the shape the same size.",
+      "answer": true,
+      "explain": "Week 2. Size and angles are preserved by all three. Only the position or orientation changes.",
+      "objective": "Recall the ten Math topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is 3.7 + 0.45?",
+      "options": ["4.15", "4.42", "3.115", "8.2"],
+      "answerIndex": 0,
+      "explain": "Week 3. Align the decimal points and pad 3.7 to 3.70.",
+      "objective": "Recall the ten Math topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is 5 − 2.35?",
+      "options": ["2.65", "2.75", "3.65", "2.35"],
+      "answerIndex": 0,
+      "explain": "Week 3. Write 5 as 5.00 first, then subtract in columns.",
+      "objective": "Recall the ten Math topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Which is larger, 0.45 or 0.5?",
+      "options": ["0.5", "0.45", "They are equal", "It cannot be decided"],
+      "answerIndex": 0,
+      "explain": "Week 4. Pad to 0.45 and 0.50, then compare from the left. More digits does not mean bigger.",
+      "objective": "Recall the ten Math topics of the term"
+    },
+    {
+      "type": "truefalse",
+      "text": "3.5 and 3.50 are the same number.",
+      "answer": true,
+      "explain": "Week 4. A trailing zero changes nothing. It only helps the columns line up.",
+      "objective": "Recall the ten Math topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is 0.4 × 0.3?",
+      "options": ["0.12", "1.2", "0.7", "12"],
+      "answerIndex": 0,
+      "explain": "Week 5. Multiply 4 by 3, then count two decimal places across both factors.",
+      "objective": "Recall the ten Math topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is 6 ÷ 0.5?",
+      "options": ["12", "3", "0.12", "1.2"],
+      "answerIndex": 0,
+      "explain": "Week 5. How many halves fit into six? Dividing by less than one makes a number bigger.",
+      "objective": "Recall the ten Math topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is 2.6 × 100?",
+      "options": ["260", "26", "2600", "0.026"],
+      "answerIndex": 0,
+      "explain": "Week 5. The digits move two places to the left when multiplying by 100.",
+      "objective": "Recall the ten Math topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is 2 + 3 × 4?",
+      "options": ["14", "20", "24", "9"],
+      "answerIndex": 0,
+      "explain": "Week 6. Multiplication comes before addition, so it is 2 + 12.",
+      "objective": "Recall the ten Math topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Which is better value: 250 g for ₱75, or 400 g for ₱116?",
+      "options": [
+        "400 g for ₱116",
+        "250 g for ₱75",
+        "They cost the same per gram",
+        "There is not enough information"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 6. ₱0.30 per gram against ₱0.29 per gram. Only the unit rate can tell you.",
+      "objective": "Recall the ten Math topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is 4.687 rounded to two decimal places?",
+      "options": ["4.69", "4.68", "4.7", "4.6"],
+      "answerIndex": 0,
+      "explain": "Week 6. Only the digit immediately to the right of the place matters, and 7 rounds up.",
+      "objective": "Recall the ten Math topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is 1/2 + 1/3?",
+      "options": ["5/6", "2/5", "1/6", "2/6"],
+      "answerIndex": 0,
+      "explain": "Week 7. Common denominator 6 gives 3/6 + 2/6. Never add the bottoms.",
+      "objective": "Recall the ten Math topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is 3/4 − 1/6?",
+      "options": ["7/12", "2/2", "1/2", "5/12"],
+      "answerIndex": 0,
+      "explain": "Week 7. Common denominator 12 gives 9/12 − 2/12.",
+      "objective": "Recall the ten Math topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is 8/12 in its lowest terms?",
+      "options": ["2/3", "4/6", "8/12", "3/4"],
+      "answerIndex": 0,
+      "explain": "Week 7. Both divide by 4. Keep going until nothing divides both.",
+      "objective": "Recall the ten Math topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is 2/3 × 3/4?",
+      "options": ["1/2", "6/7", "8/9", "5/12"],
+      "answerIndex": 0,
+      "explain": "Week 8. Multiply straight across for 6/12, which simplifies to 1/2. No common denominator needed.",
+      "objective": "Recall the ten Math topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is 1/2 ÷ 1/4?",
+      "options": ["2", "1/8", "1/2", "8"],
+      "answerIndex": 0,
+      "explain": "Week 8. Flip the second fraction only: 1/2 × 4/1. Dividing by a fraction makes it bigger.",
+      "objective": "Recall the ten Math topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "In a ratio of 3 : 4, how many parts are there in total?",
+      "options": ["7", "12", "4", "3"],
+      "answerIndex": 0,
+      "explain": "Week 9. Three parts and four parts. Seven is the total, not one of the numbers.",
+      "objective": "Recall the ten Math topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Share ₱350 in the ratio 3 : 4. What are the two amounts?",
+      "options": ["₱150 and ₱200", "₱175 and ₱175", "₱140 and ₱210", "₱100 and ₱250"],
+      "answerIndex": 0,
+      "explain": "Week 9. Seven parts, so one part is ₱50. Then 3 × 50 and 4 × 50.",
+      "objective": "Recall the ten Math topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "On a 1 : 100 scale drawing, a wall measures 4 cm. How long is the real wall?",
+      "options": ["4 m", "40 cm", "400 m", "4 cm"],
+      "answerIndex": 0,
+      "explain": "Week 10. 4 × 100 is 400 cm, which is 4 m. The real thing is bigger than the drawing.",
+      "objective": "Recall the ten Math topics of the term"
+    },
+    {
+      "type": "truefalse",
+      "text": "If one worker builds a wall in 6 days, two workers always build it in 3.",
+      "answer": false,
+      "explain": "Week 10. Not everything scales in proportion, and the exam relies on that assumption being made.",
+      "objective": "Recall the ten Math topics of the term"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 11 is exam week for Math and teaches no new content. The deck is built around the three things that actually move a Grade 6 maths mark: estimating before calculating, writing working down so method marks survive a slip, and naming the topic before choosing a method. That last one matters most here, because almost every error in this term's material is a correct method borrowed from the wrong topic — lining up decimal points when multiplying, finding a common denominator when multiplying fractions, flipping both fractions when dividing. Every number in the 24-question paper has been checked programmatically.",
+    "discussion": [
+      "Ask him to estimate before every answer for the whole paper, out loud. It is the single highest-value habit here.",
+      "Ask which topic a question belongs to before he starts it.",
+      "Ask what a common denominator is actually for, and where it is not needed.",
+      "After the paper, sort the misses into 'did not know' and 'knew but slipped'. They need different fixes."
+    ],
+    "extension": "Give him five answers that are wrong only by a factor of ten and ask him to catch them by estimating alone. It builds the habit faster than doing the questions properly.",
+    "misconceptions": [
+      "'Working is only for hard questions.' Method marks are real, and an answer alone is all or nothing.",
+      "'Line up the decimal points' applied to multiplication. That rule belongs to addition and subtraction.",
+      "'Multiplying fractions needs a common denominator.' It does not. That is only for adding and subtracting.",
+      "'Finishing early is good.' The spare minutes are for checking estimates, units and skipped questions."
+    ]
+  }
+}

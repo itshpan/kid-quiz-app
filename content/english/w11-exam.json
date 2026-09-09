@@ -1,0 +1,487 @@
+{
+  "id": "eng-w11",
+  "courseId": "english",
+  "courseTitle": "English",
+  "week": 11,
+  "title": "Exam Week",
+  "subtitle": "Ten weeks of grammar and one very determined knight. One paper for both.",
+  "estMinutes": 25,
+  "objectives": [
+    "Recall the ten English topics of the term",
+    "Use the delete-it test on a pronoun",
+    "Find the subject before choosing the verb",
+    "Recall the episodes of Don Quixote covered this term",
+    "Sit a full-length mixed paper"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "📚",
+      "eyebrow": "Part 1 · Getting ready",
+      "title": "Two strands, one paper",
+      "text": "Nouns, pronouns, tense and agreement on one side. Don Quixote on the other. Both are examinable."
+    },
+    {
+      "kind": "figure",
+      "figure": "engExam",
+      "eyebrow": "The whole term",
+      "title": "Ten weeks, one tap each",
+      "text": "This is your revision sheet. The second line of each is the mistake that costs the mark."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The apostrophe",
+      "title": "One rule settles most of the marks",
+      "text": "An apostrophe never makes a plural. It marks possession, or a letter that has been removed.",
+      "points": [
+        "**Its** is possessive. **It's** means it is.",
+        "**Whose** is possessive. **Who's** means who is.",
+        "**Yours, hers, theirs** never take one.",
+        "**Expand it.** If 'it is' fits, use it's."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which sentence is correct?",
+        "options": [
+          "The horse lost its shoe.",
+          "The horse lost it's shoe.",
+          "The horse lost its' shoe.",
+          "The horse lost its's shoe."
+        ],
+        "answerIndex": 0,
+        "explain": "Expand it: 'the horse lost it is shoe' is nonsense, so it takes no apostrophe."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "The delete-it test takes two seconds",
+      "text": "For any -self word, take it out and read the sentence again. If it still works, it was only emphasis.",
+      "points": [
+        "**'I did it myself'** still works without it.",
+        "**That one is intensive.**",
+        "**'He hurt himself'** breaks without it.",
+        "**That one is reflexive.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Agreement",
+      "title": "Find the subject, then ignore everything else",
+      "text": "The verb agrees with the subject. Exam questions bury the subject behind a phrase on purpose.",
+      "points": [
+        "**'The box of nails is heavy.'** Box is the subject.",
+        "**Cross out the phrase** between them.",
+        "**Everyone, each, either** are all singular.",
+        "**In there is and there are**, there is never the subject."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which is correct?",
+        "options": [
+          "The list of names is on the desk.",
+          "The list of names are on the desk.",
+          "The list of names were on the desk.",
+          "The list of names have been on the desk."
+        ],
+        "answerIndex": 0,
+        "explain": "The subject is list, not names. Cross out the phrase between them and it becomes obvious."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good place to pause",
+      "text": "Part 2 is the novel and exam technique. The paper after it is 24 questions."
+    },
+    {
+      "kind": "open",
+      "icon": "🐴",
+      "eyebrow": "Part 2 · The novel",
+      "title": "One idea runs through every chapter",
+      "text": "He decides what things mean before he looks at them, and nothing that happens afterwards can change it."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The pattern",
+      "title": "The enchanter explains away everything",
+      "text": "From the library onwards, whenever the world disagrees with him, a wizard did it. It is an argument nothing can beat.",
+      "points": [
+        "**Windmills were giants**, changed by Freston.",
+        "**A barber's basin** is Mambrino's helmet.",
+        "**A flock of sheep** is two armies.",
+        "**Losing never counts** as being wrong."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "An unbeatable explanation is a warning sign",
+      "text": "If nothing could ever prove an idea wrong, that is not its strength. It is the problem with it.",
+      "points": [
+        "**Cervantes hands him the excuse** deliberately.",
+        "**It is what keeps the book going.**",
+        "**Ask of any claim:** what would disprove this?",
+        "**No answer means** it is not really a claim."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Writing answers",
+      "title": "Retell means what happened, in order",
+      "text": "Name who, where and what changed. Do not judge the character unless the question asks you to.",
+      "points": [
+        "**Who is in the scene.**",
+        "**What he believes** is happening.",
+        "**What actually happens.**",
+        "**How it ends.** Four sentences is plenty."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What does Don Quixote blame after the windmills?",
+        "options": [
+          "The enchanter Freston, for changing the giants",
+          "Sancho, for not helping",
+          "His horse",
+          "Himself, for misreading the scene"
+        ],
+        "answerIndex": 0,
+        "explain": "Never 'I was wrong'. Always 'somebody changed them to spite me'."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "📈",
+      "eyebrow": "Your life mode",
+      "title": "Proofread backwards",
+      "text": "Reading your own writing forwards, you see what you meant. Read the last sentence first and you see what you wrote.",
+      "points": [
+        "**Sentence by sentence, from the end.**",
+        "**Check every apostrophe** on its own.",
+        "**Check every verb** against its subject.",
+        "**Two minutes** at the end of the paper."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "An apostrophe can be used to make a word plural.",
+        "answer": false,
+        "explain": "Never. It marks possession or a missing letter. This is the single most common error in the topic."
+      }
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**No apostrophe** ever makes a plural.",
+        "**Delete the -self word** to test it.",
+        "**Find the subject**, ignore the phrase between.",
+        "**Quixote blames the enchanter**, every time."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "What is the plural of 'key'?",
+      "options": ["keys", "keies", "key's", "kies"],
+      "answerIndex": 0,
+      "explain": "Week 1. The -ies rule applies only after a consonant. Vowel plus y takes a plain -s.",
+      "objective": "Recall the ten English topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the plural of 'roof'?",
+      "options": ["roofs", "rooves", "roof's", "roofes"],
+      "answerIndex": 0,
+      "explain": "Week 1. Many f words become -ves, but roofs, chiefs and beliefs do not.",
+      "objective": "Recall the ten English topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Which is correct?",
+      "options": [
+        "There were fewer cars on the road.",
+        "There were less cars on the road.",
+        "There were fewer traffic on the road.",
+        "There were less car on the road."
+      ],
+      "answerIndex": 0,
+      "explain": "Week 2. Fewer is for things you count; less is for things you measure.",
+      "objective": "Recall the ten English topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Which is the correct plural possessive?",
+      "options": [
+        "the drivers' helmets",
+        "the driver's helmets",
+        "the drivers's helmets",
+        "the drivers helmets'"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 3. The plural already ends in s, so it takes the apostrophe only.",
+      "objective": "Recall the ten English topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the plural possessive of 'child'?",
+      "options": ["children's", "childrens'", "childs'", "children"],
+      "answerIndex": 0,
+      "explain": "Week 3. The plural does not end in s, so it takes apostrophe then s.",
+      "objective": "Recall the ten English topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Which sentence uses it's correctly?",
+      "options": [
+        "It's raining again.",
+        "The dog wagged it's tail.",
+        "The car lost it's mirror.",
+        "Every book has it's cover."
+      ],
+      "answerIndex": 0,
+      "explain": "Week 3. It's always means it is or it has. Expand it to check.",
+      "objective": "Recall the ten English topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Which word is a possessive pronoun rather than a determiner?",
+      "options": ["theirs", "their", "her", "our"],
+      "answerIndex": 0,
+      "explain": "Week 4. A pronoun stands alone; a determiner sits in front of a noun.",
+      "objective": "Recall the ten English topics of the term"
+    },
+    {
+      "type": "truefalse",
+      "text": "Possessive pronouns like yours and theirs take an apostrophe.",
+      "answer": false,
+      "explain": "Week 4. They are already possessive, so no apostrophe is ever needed.",
+      "objective": "Recall the ten English topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Which is correct?",
+      "options": [
+        "Everyone has his or her own locker.",
+        "Everyone have their own locker.",
+        "Everyone are bringing his locker.",
+        "Everyone were given a locker."
+      ],
+      "answerIndex": 0,
+      "explain": "Week 5. Everyone is grammatically singular, along with each, either and neither.",
+      "objective": "Recall the ten English topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "How many compound personal pronouns are there?",
+      "options": ["Eight", "Six", "Ten", "Four"],
+      "answerIndex": 0,
+      "explain": "Week 6. The same eight words serve as both reflexive and intensive pronouns.",
+      "objective": "Recall the ten English topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Which of these is not a word?",
+      "options": ["theirselves", "themselves", "yourselves", "ourselves"],
+      "answerIndex": 0,
+      "explain": "Week 6. Hisself and theirselves are not informal forms. They are not words at all.",
+      "objective": "Recall the ten English topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "In 'She fixed the bike herself', what is 'herself' doing?",
+      "options": [
+        "Adding emphasis; the sentence works without it",
+        "Acting as the object of the verb",
+        "Replacing the subject",
+        "Making the verb plural"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 7. Delete it and the sentence still works, so it is intensive rather than reflexive.",
+      "objective": "Recall the ten English topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Which is correct?",
+      "options": [
+        "He doesn't like the rain.",
+        "He doesn't likes the rain.",
+        "He don't likes the rain.",
+        "He do not likes the rain."
+      ],
+      "answerIndex": 0,
+      "explain": "Week 8. Does already carries the ending, so the main verb stays plain.",
+      "objective": "Recall the ten English topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Which verbs change in the simple present tense?",
+      "options": [
+        "Only he, she and it",
+        "All of them",
+        "Only I and we",
+        "Only you and they"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 8. Third person singular is the only form that takes -s or -es.",
+      "objective": "Recall the ten English topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Which is correct?",
+      "options": [
+        "Neither the coach nor the players were ready.",
+        "Neither the coach nor the players was ready.",
+        "Neither the coach nor the players is ready.",
+        "Neither the coach nor the players has ready."
+      ],
+      "answerIndex": 0,
+      "explain": "Week 9. With or and nor, the verb matches whichever subject is nearer. Players is nearer.",
+      "objective": "Recall the ten English topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Which is correct?",
+      "options": [
+        "Mathematics is his best subject.",
+        "Mathematics are his best subject.",
+        "Mathematics were his best subject.",
+        "Mathematics have been his best subjects."
+      ],
+      "answerIndex": 0,
+      "explain": "Week 10. News, mathematics and physics all end in -s and are singular.",
+      "objective": "Recall the ten English topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Which is correct?",
+      "options": [
+        "A number of students are waiting.",
+        "A number of students is waiting.",
+        "The number of students are waiting.",
+        "A number of student is waiting."
+      ],
+      "answerIndex": 0,
+      "explain": "Week 10. 'A number of' takes a plural verb; 'the number of' takes a singular one.",
+      "objective": "Recall the ten English topics of the term"
+    },
+    {
+      "type": "truefalse",
+      "text": "In 'There are three books on the shelf', 'there' is the subject.",
+      "answer": false,
+      "explain": "Week 9. 'There' is never the subject. Books is, and it follows the verb.",
+      "objective": "Recall the ten English topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What makes Don Quixote set out as a knight?",
+      "options": [
+        "He has read so many books about knights that he believes them",
+        "He is ordered to by a king",
+        "He is running from the law",
+        "He inherits a suit of armour"
+      ],
+      "answerIndex": 0,
+      "explain": "Chapter 1. A quiet gentleman, a skinny horse and a wall of books about chivalry.",
+      "objective": "Recall the episodes of Don Quixote covered this term"
+    },
+    {
+      "type": "multiple",
+      "text": "What happens to Andrés, the boy tied to the tree?",
+      "options": [
+        "The farmer beats him harder once Don Quixote has gone",
+        "He is freed and paid his wages",
+        "He becomes Don Quixote's squire",
+        "He runs away to the city"
+      ],
+      "answerIndex": 0,
+      "explain": "Chapter 3. The rescue leaves him worse off than if nobody had come at all.",
+      "objective": "Recall the episodes of Don Quixote covered this term"
+    },
+    {
+      "type": "multiple",
+      "text": "What do the priest and the barber do in the library?",
+      "options": [
+        "Judge the books one by one and burn most of them",
+        "Burn every book without looking",
+        "Sell the whole collection",
+        "Lock the books away and say nothing"
+      ],
+      "answerIndex": 0,
+      "explain": "Chapter 5. The priest argues for particular books and saves them, which is the joke.",
+      "objective": "Recall the episodes of Don Quixote covered this term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is Sancho Panza promised?",
+      "options": [
+        "The governorship of an island",
+        "A share of the farm",
+        "A horse of his own",
+        "A place at court"
+      ],
+      "answerIndex": 0,
+      "explain": "Chapter 6. He is practical and sceptical about knights, but he believes this.",
+      "objective": "Recall the episodes of Don Quixote covered this term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the golden helmet of Mambrino actually?",
+      "options": [
+        "A barber's brass shaving basin",
+        "A cooking pot",
+        "A real helmet",
+        "A shield"
+      ],
+      "answerIndex": 0,
+      "explain": "The barber is wearing it upside down in the rain to keep his hat dry.",
+      "objective": "Recall the episodes of Don Quixote covered this term"
+    },
+    {
+      "type": "multiple",
+      "text": "What does Don Quixote charge at, believing it to be two armies?",
+      "options": [
+        "A flock of sheep",
+        "A line of windmills",
+        "A group of monks",
+        "A herd of cattle"
+      ],
+      "answerIndex": 0,
+      "explain": "The shepherds bring him down with stones from their slings, and he blames the enchanter again.",
+      "objective": "Recall the episodes of Don Quixote covered this term"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 11 is exam week for English and covers both strands. The grammar half of the deck is reduced to the three tests that carry the most marks: expand it's to check the apostrophe, delete the -self word to tell reflexive from intensive, and cross out the phrase between subject and verb before choosing agreement. The novel half names the pattern that runs through every chapter — the enchanter excuse — and turns it into a transferable question: what would disprove this? That is worth more than the plot recall, though the paper tests both. Every Don Quixote detail in the quiz was checked against the lesson it came from.",
+    "discussion": [
+      "Ask him to expand every it's and who's he writes for a week. The error disappears fast.",
+      "Ask him to delete the -self word from three sentences and say which ones break.",
+      "Ask what the enchanter excuse lets Don Quixote avoid, every single time.",
+      "Ask what would have to happen for Don Quixote to admit he was wrong. Nothing would, and that is the point."
+    ],
+    "extension": "Have him retell one episode in exactly four sentences: who, what he believes, what actually happens, how it ends. Four is the constraint that makes it a skill.",
+    "misconceptions": [
+      "'An apostrophe can make a plural.' Never. It marks possession or a missing letter.",
+      "'The verb agrees with the closest noun.' It agrees with the subject, which is often not the closest.",
+      "'Any word ending in -self is reflexive.' Only if it is the object. Delete it and see.",
+      "'Don Quixote is simply stupid.' He decides what things mean in advance, which is a different problem."
+    ]
+  }
+}

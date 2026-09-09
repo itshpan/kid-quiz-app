@@ -1,0 +1,486 @@
+{
+  "id": "ss-w11",
+  "courseId": "social-studies",
+  "courseTitle": "Social Studies",
+  "week": 11,
+  "title": "Exam Week",
+  "subtitle": "1872 to 1907. Thirty-five years, and the order of them is half the marks.",
+  "estMinutes": 25,
+  "objectives": [
+    "Recall the ten Social Studies topics of the term",
+    "Put the events of the term in order",
+    "Tell a cause from an event",
+    "Ask who wrote a source before trusting it",
+    "Sit a full-length mixed paper"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🗺️",
+      "eyebrow": "Part 1 · Getting ready",
+      "title": "One long story, told in ten weeks",
+      "text": "Geography first, then a chain of events from the Cavite Mutiny to the Philippine Assembly. It runs in order."
+    },
+    {
+      "kind": "figure",
+      "figure": "ssExam",
+      "eyebrow": "The whole term",
+      "title": "Ten weeks, one tap each",
+      "text": "This is your revision sheet. The second line of each is the mistake that costs the mark."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Chronology",
+      "title": "Learn the spine, not forty dates",
+      "text": "Six dates hold the whole term together. Everything else can be placed between them once you have these.",
+      "points": [
+        "**1872:** Cavite Mutiny and GomBurZa.",
+        "**1896:** revolution begins; Rizal executed.",
+        "**1898:** Kawit, then the Treaty of Paris.",
+        "**1899, 1901, 1907:** war, civil rule, Assembly."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which came first?",
+        "options": [
+          "The Cavite Mutiny",
+          "The founding of the Katipunan",
+          "The Treaty of Paris",
+          "The Malolos Congress"
+        ],
+        "answerIndex": 0,
+        "explain": "1872. The Katipunan is 1892, and the other two are 1898."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Every chapter starts where the last one failed",
+      "text": "Reform failed, so the Katipunan formed. The revolution stalled, so Biak-na-Bato happened. The chain is the memory aid.",
+      "points": [
+        "**Ask what failed** just before each event.",
+        "**The answer is usually** the cause.",
+        "**A list of dates** is hard to hold.",
+        "**A chain of consequences** is not."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Cause or event",
+      "title": "Two different questions",
+      "text": "'What happened' and 'why did it happen' want different answers. The command word tells you which.",
+      "points": [
+        "**Describe:** what took place, in order.",
+        "**Explain:** the reason. Use because.",
+        "**Assess:** both sides, then a judgement.",
+        "**Answering the wrong one** loses the mark."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "The Reform Movement wanted independence from Spain.",
+        "answer": false,
+        "explain": "It wanted rights and representation inside Spain. Independence is the Katipunan, and it came later."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good place to pause",
+      "text": "Part 2 is sources and exam technique. The paper after it is 24 questions."
+    },
+    {
+      "kind": "open",
+      "icon": "🔎",
+      "eyebrow": "Part 2 · Reading a source",
+      "title": "Who wrote it, and what were they doing at the time?",
+      "text": "This ran through the whole second half of the term, and it is the one skill that outlasts the exam."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Three questions",
+      "title": "Ask them of anything",
+      "text": "The Schurman Commission had two serving commanders on it. Nobody hid that. It still changes how you read the report.",
+      "points": [
+        "**Who wrote this?**",
+        "**What did they gain** from it being believed?",
+        "**What is missing** that should be there?",
+        "**Not an insult.** A history skill."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Patch notes are written by the people who made the patch",
+      "text": "They are accurate and they are not neutral. What is left out of a changelog tells you as much as what is in it.",
+      "points": [
+        "**True and incomplete** are compatible.",
+        "**Read what was not mentioned.**",
+        "**Same skill, different century.**",
+        "**'Insurrection' was one word doing this.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Judgement questions",
+      "title": "Both columns, then the sentence",
+      "text": "Questions about American rule want both the benefit and the cost. Give both, then say which weighs more and why.",
+      "points": [
+        "**Free schools reached millions.**",
+        "**A war came first**, with a huge civilian toll.",
+        "**A benefit does not cancel a cost.**",
+        "**Say both, in that order.** That is the answer."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "A question asks you to assess American colonial rule. What does a full answer need?",
+        "options": [
+          "Both the benefits and the costs, then a judgement",
+          "Only the benefits",
+          "Only the costs",
+          "A list of dates"
+        ],
+        "answerIndex": 0,
+        "explain": "Assess means weigh. Giving one side only answers half the question."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Points questions are worth their marks",
+      "text": "A four-mark question wants four things. Count the marks, then count what you have written before moving on.",
+      "points": [
+        "**Marks tell you the length.**",
+        "**Four marks, four points.**",
+        "**Not one long paragraph** about the first.",
+        "**Check the number** before you leave it."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Bonifacio was executed by the Spanish.",
+        "answer": false,
+        "explain": "He was executed in May 1897 by fellow revolutionaries, after the split at Tejeros."
+      }
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**1872, 1896, 1898, 1899, 1901, 1907.**",
+        "**Each event follows** the failure before it.",
+        "**Ask who wrote a source** and what they gained.",
+        "**Assess means both columns**, then a judgement."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "How many islands make up the Philippines?",
+      "options": ["7,641", "7,107", "1,000", "12,500"],
+      "answerIndex": 0,
+      "explain": "Week 1. An archipelago in three main groups: Luzon, the Visayas and Mindanao.",
+      "objective": "Recall the ten Social Studies topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Who was the country named after?",
+      "options": [
+        "King Philip II of Spain",
+        "A Filipino leader",
+        "Ferdinand Magellan",
+        "A Spanish saint"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 1. The name came from the coloniser, not from anyone born in the islands.",
+      "objective": "Recall the ten Social Studies topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What happened in 1872?",
+      "options": [
+        "The Cavite Mutiny and the execution of GomBurZa",
+        "The founding of the Katipunan",
+        "The execution of Rizal",
+        "The Treaty of Paris"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 2. A workplace protest of about two hundred men, used as grounds to execute three priests.",
+      "objective": "Recall the ten Social Studies topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "How did the Suez Canal affect Filipino nationalism?",
+      "options": [
+        "It shortened the journey to Europe, so ideas spread faster",
+        "It made Spain richer",
+        "It brought more soldiers",
+        "It closed the trade routes"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 2. Opened in 1869. Students, books and newspapers all moved more quickly.",
+      "objective": "Recall the ten Social Studies topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What did the Propaganda Movement want?",
+      "options": [
+        "Reform and representation within Spain",
+        "Immediate independence",
+        "A return to pre-colonial rule",
+        "An alliance with America"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 3. Independence is the Katipunan. Wanting reform is not the same as wanting separation.",
+      "objective": "Recall the ten Social Studies topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What was La Solidaridad?",
+      "options": [
+        "The newspaper of the Propaganda Movement",
+        "A secret revolutionary society",
+        "A Spanish law",
+        "A school in Manila"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 3. Lopez Jaena founded it; del Pilar edited it for most of its life.",
+      "objective": "Recall the ten Social Studies topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Why was Rizal arrested in July 1892?",
+      "options": [
+        "For founding La Liga Filipina",
+        "For writing Noli Me Tangere",
+        "For leading the revolution",
+        "For joining the Katipunan"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 4. La Liga was a legal civic group. He was exiled to Dapitan days after founding it.",
+      "objective": "Recall the ten Social Studies topics of the term"
+    },
+    {
+      "type": "truefalse",
+      "text": "Rizal led the revolution against Spain.",
+      "answer": false,
+      "explain": "Week 4. He argued against it and said the country was not ready. He was executed for it anyway.",
+      "objective": "Recall the ten Social Studies topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "When was Rizal executed?",
+      "options": ["December 1896", "December 1898", "May 1897", "July 1892"],
+      "answerIndex": 0,
+      "explain": "Week 4. The revolution had already begun in August of that year.",
+      "objective": "Recall the ten Social Studies topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What was the Katipunan?",
+      "options": [
+        "A secret society organised for armed revolution",
+        "A newspaper published in Spain",
+        "A Spanish government body",
+        "A school for reformers"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 5. Founded in 1892, the year La Liga was shut down.",
+      "objective": "Recall the ten Social Studies topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What happened at Tejeros in March 1897?",
+      "options": [
+        "An election that split Bonifacio and Aguinaldo",
+        "A battle against the Spanish",
+        "The declaration of independence",
+        "The signing of a treaty"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 5. Bonifacio was executed by fellow revolutionaries two months later.",
+      "objective": "Recall the ten Social Studies topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What do the three stars on the flag stand for?",
+      "options": [
+        "Luzon, the Visayas and Mindanao",
+        "Three national heroes",
+        "Three revolutions",
+        "Three Spanish provinces"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 5. The eight rays stand for the first eight provinces to revolt.",
+      "objective": "Recall the ten Social Studies topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "When was the Malolos Constitution approved?",
+      "options": ["January 1899", "June 1898", "December 1898", "September 1900"],
+      "answerIndex": 0,
+      "explain": "Week 6. It made the First Republic the first constitutional republic in Asia.",
+      "objective": "Recall the ten Social Studies topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Why was the Battle of Manila in August 1898 staged?",
+      "options": [
+        "So Spain could surrender to Americans rather than to Filipinos",
+        "To test new weapons",
+        "To end the revolution quickly",
+        "Because Spain had already left"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 6. Filipino forces were kept out of the city afterwards.",
+      "objective": "Recall the ten Social Studies topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What did the Treaty of Paris do?",
+      "options": [
+        "Spain sold the Philippines to the United States for twenty million dollars",
+        "It recognised Philippine independence",
+        "It ended American rule",
+        "It returned the islands to Spain"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 6. December 1898, and no Filipino was present at the negotiations.",
+      "objective": "Recall the ten Social Studies topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "When and where did the Filipino-American War begin?",
+      "options": [
+        "San Juan bridge, 4 February 1899",
+        "Manila Bay, 1 May 1898",
+        "Malolos, January 1899",
+        "Palanan, March 1901"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 7. The Senate ratified the Treaty of Paris two days later.",
+      "objective": "Recall the ten Social Studies topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Who died holding Tirad Pass in December 1899?",
+      "options": [
+        "Gregorio del Pilar",
+        "Antonio Luna",
+        "Emilio Aguinaldo",
+        "Miguel Malvar"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 7. He was twenty-four. Sixty men held the pass so Aguinaldo could escape north.",
+      "objective": "Recall the ten Social Studies topics of the term"
+    },
+    {
+      "type": "truefalse",
+      "text": "More civilians died in the Filipino-American War than soldiers on either side.",
+      "answer": true,
+      "explain": "Week 7. Most died of famine and disease rather than in fighting.",
+      "objective": "Recall the ten Social Studies topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "When did civil government begin in the Philippines?",
+      "options": ["4 July 1901", "16 October 1907", "1 September 1900", "23 March 1901"],
+      "answerIndex": 0,
+      "explain": "Week 8. William Howard Taft became the first Civil Governor.",
+      "objective": "Recall the ten Social Studies topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What could the Taft Commission do that the Schurman Commission could not?",
+      "options": ["Make laws", "Write a report", "Travel freely", "Speak to Filipinos"],
+      "answerIndex": 0,
+      "explain": "Weeks 8 and 9. Schurman was advisory. Taft held legislative power from September 1900.",
+      "objective": "Recall the ten Social Studies topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What limited the Philippine Assembly of 1907?",
+      "options": [
+        "An American-controlled upper house could block its bills",
+        "Its members were appointed, not elected",
+        "It was never allowed to meet",
+        "It had no Speaker"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 8. It was genuinely elected and genuinely legislative, and it could still be overruled.",
+      "objective": "Recall the ten Social Studies topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the strongest evidence against the claim that Filipinos were 'not ready'?",
+      "options": [
+        "The Malolos Republic already had a constitution, congress and courts",
+        "Spain had already left",
+        "The Americans admitted it",
+        "The Katipunan was still fighting"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 9. It had been running since January 1899, while the report was being written.",
+      "objective": "Recall the ten Social Studies topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What did Act No. 74 of 1901 create?",
+      "options": [
+        "A free public primary school system",
+        "The Philippine Assembly",
+        "The Philippine Independent Church",
+        "A national army"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 10. The largest and most lasting change of the American period.",
+      "objective": "Recall the ten Social Studies topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Who were the Thomasites?",
+      "options": [
+        "American teachers who arrived in August 1901",
+        "American soldiers at Tirad Pass",
+        "Filipino priests who left the Catholic Church",
+        "Members of the Philippine Commission"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 10. About five hundred civilian teachers, named after the ship that carried them.",
+      "objective": "Recall the ten Social Studies topics of the term"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 11 is exam week for Social Studies. The deck teaches no new history: it gives him a six-date spine to hang the term on, the difference between describe, explain and assess, and the source-criticism habit that ran through weeks 9 and 10. The chain framing is the memory aid worth pressing — each event in this term follows directly from the failure of the one before it, which is far easier to hold than forty separate dates. The assess card matters for the American-rule questions, where a one-sided answer is only half an answer however well written. The paper covers all ten weeks at roughly two to three questions each.",
+    "discussion": [
+      "Ask him to say the six spine dates from memory, then place three other events between them.",
+      "Ask what failed immediately before the Katipunan was founded, and before Biak-na-Bato.",
+      "Ask the three source questions about the Schurman report.",
+      "Ask him to answer 'assess American colonial rule' in three sentences: benefit, cost, judgement."
+    ],
+    "extension": "Give him ten events on slips of paper and have him order them without dates, using only cause and consequence. Then check against the dates.",
+    "misconceptions": [
+      "'The reformers wanted independence.' They wanted rights and representation inside Spain.",
+      "'Bonifacio was killed by the Spanish.' He was executed by fellow revolutionaries in May 1897.",
+      "'Independence in 1898 was recognised.' No other country recognised it, and Spain sold the islands months later.",
+      "'Assess means give your opinion.' It means weigh both sides, then judge."
+    ]
+  }
+}

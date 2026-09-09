@@ -1,0 +1,447 @@
+{
+  "id": "fil-w11",
+  "courseId": "filipino",
+  "courseTitle": "Filipino",
+  "week": 11,
+  "title": "Linggo ng Pagsusulit",
+  "subtitle": "Sampung linggo ng gramatika, at ang kuwento ni Bonifacio. Isang papel para sa dalawa.",
+  "estMinutes": 25,
+  "objectives": [
+    "Maalala ang sampung paksa sa Filipino ngayong termino",
+    "Magamit ang pagsusuri sa halip na panghuhula",
+    "Matukoy ang mga karaniwang pagkakamali",
+    "Maalala ang kasaysayang tinalakay sa strand ng pagbasa",
+    "Makasagot sa isang buong papel ng pagsusulit"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "📝",
+      "eyebrow": "Bahagi 1 · Paghahanda",
+      "title": "Dalawang bahagi, isang papel",
+      "text": "Ang gramatika mula Linggo 1 hanggang 10, at ang kasaysayang binasa mo kasabay nito. Pareho silang lalabas."
+    },
+    {
+      "kind": "figure",
+      "figure": "filExam",
+      "eyebrow": "Ang buong termino",
+      "title": "Sampung linggo, tig-isang pindot",
+      "text": "Ito ang iyong reviewer. Ang ikalawang linya ng bawat isa ay ang karaniwang pagkakamali."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Paano mag-aral",
+      "title": "Isara ang papel, saka sagutin",
+      "text": "Ang muling pagbabasa ay parang produktibo dahil pamilyar na ang pahina. Iba ang pamilyar sa natatandaan.",
+      "points": [
+        "**Isara ang notes.** Sabihin ang sagot.",
+        "**Saka tingnan** kung tama.",
+        "**Mas mahirap ito** kaysa magbasa lang.",
+        "**Ang hirap mismo** ang gumagawa ng trabaho."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Alin ang paraan ng pag-aaral na talagang nagpapatibay ng memorya?",
+        "options": [
+          "Pagsagot nang nakasara ang aklat",
+          "Pagbabasa nang dalawang beses",
+          "Pagsalungguhit sa mahahalagang linya",
+          "Pagkopya ng notes nang malinis"
+        ],
+        "answerIndex": 0,
+        "explain": "Mas mahirap ito kaysa magbasa muli, at iyon mismo ang dahilan kung bakit ito umuubra."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Sa laro",
+      "title": "Ang panonood ay hindi pagsasanay",
+      "text": "Puwede mong panoorin ang isang tao na talunin ang boss nang sampung beses at matalo ka pa rin. Kailangang nasa iyo ang controller.",
+      "points": [
+        "**Ang panonood** ay pagkilala lamang.",
+        "**Ang paglalaro** ang bumubuo ng kakayahan.",
+        "**Ang pagbabasa ng notes** ay panonood.",
+        "**Ang pagsagot ng tanong** ay paglalaro."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang paraan",
+      "title": "Suriin, huwag manghula",
+      "text": "May sunod-sunod na tanong sa halos bawat paksa sa Filipino. Kapag sinunod mo ito, hindi na kailangan ng hula.",
+      "points": [
+        "**Pangungusap:** bilangin ang sugnay.",
+        "**Uri ayon sa gamit:** tingnan ang bantas.",
+        "**Pangngalan:** tatlong magkahiwalay na tanong.",
+        "**Kailanan:** bilangin. Isa, dalawa, marami."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Isang uri lamang ang maaaring taglayin ng isang pangngalan.",
+        "answer": false,
+        "explain": "Ang \"Katipunan\" ay pantangi at palansak nang sabay. Tatlong magkahiwalay na tanong ito."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Magandang tigilan muna",
+      "text": "Sa Bahagi 2 ay ang kasaysayan at ang paraan sa pagsusulit. May 24 na tanong pagkatapos."
+    },
+    {
+      "kind": "open",
+      "icon": "📖",
+      "eyebrow": "Bahagi 2 · Ang kuwento",
+      "title": "Isang kadena, hindi sampung magkakahiwalay na pangyayari",
+      "text": "Mula Tondo hanggang sa monumento sa Caloocan. Bawat bahagi ay bunga ng nauna rito."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang mga petsa",
+      "title": "Anim na petsa ang bumubuhat sa lahat",
+      "text": "Kapag natandaan mo ang anim na ito, mailalagay mo na ang lahat ng iba sa pagitan nila.",
+      "points": [
+        "**1863:** isinilang si Bonifacio sa Tondo.",
+        "**1892:** itinatag ang Katipunan.",
+        "**1896:** ang Sigaw at ang himagsikan.",
+        "**1897, 1898, 1933:** Tejeros, Kawit, monumento."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Sa kuwento",
+      "title": "Bawat kabanata ay nagsisimula kung saan nabigo ang nauna",
+      "text": "Ipinatapon si Rizal, kaya lihim ang Katipunan. Natuklasan ito, kaya nagsimula ang himagsikan.",
+      "points": [
+        "**Itanong:** ano ang nabigo bago ito?",
+        "**Iyon kadalasan ang sanhi.**",
+        "**Mahirap tandaan ang listahan ng petsa.**",
+        "**Madali ang kadena ng bunga.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Sa pagsusulit",
+      "title": "Basahin ang pautos na salita",
+      "text": "Iba ang tanong na \"tukuyin\" sa \"ipaliwanag\". Mawawala ang puntos kahit tama ang alam mo.",
+      "points": [
+        "**Tukuyin:** isang salita o parirala.",
+        "**Ilarawan:** ang nangyari, sunod-sunod.",
+        "**Ipaliwanag:** ang dahilan. Gamitin ang \"dahil\".",
+        "**Ihambing:** pareho, sa isang pangungusap."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Sino ang pumatay kay Andres Bonifacio?",
+        "options": [
+          "Ang mga kapwa niya rebolusyonaryo",
+          "Ang mga Espanyol",
+          "Ang mga Amerikano",
+          "Namatay siya sa labanan"
+        ],
+        "answerIndex": 0,
+        "explain": "Mayo 1897, matapos ang Tejeros. Hindi ng Espanya kundi ng sarili niyang panig."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Sa boksing",
+      "title": "Huwag mag-iwan ng blangko",
+      "text": "Ang blangko ay tiyak na zero. Ang hula matapos alisin ang dalawang maling sagot ay mas mabuti kaysa roon.",
+      "points": [
+        "**Alisin ang tiyak na mali.**",
+        "**Pumili mula sa natira.**",
+        "**Markahan at lumipat** kung mabagal.",
+        "**Balikan sa dulo**, hindi ngayon."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Mas mabuting iwanang blangko ang tanong kaysa manghula.",
+        "answer": false,
+        "explain": "Tiyak na zero ang blangko. Palaging mas mabuti ang hula matapos alisin ang mga maling pagpipilian."
+      }
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Balik-aral",
+      "title": "Ang apat na mahalaga",
+      "points": [
+        "**Isara ang notes**, saka sagutin.",
+        "**Suriin nang sunod-sunod.** Huwag manghula.",
+        "**Anim na petsa** ang bumubuhat sa kuwento.",
+        "**Walang blangko** sa multiple choice."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Ilan ang letra sa alpabetong Filipino?",
+      "options": ["28", "26", "20", "31"],
+      "answerIndex": 0,
+      "explain": "Linggo 1. Kasama ang Ñ at ang NG.",
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+    },
+    {
+      "type": "multiple",
+      "text": "Ilang patinig ang nasa isang pantig?",
+      "options": ["Isa lamang", "Dalawa", "Tatlo", "Nagbabago-bago"],
+      "answerIndex": 0,
+      "explain": "Linggo 1. Kaya kapag bumibilang ka ng pantig, ang patinig ang bilangin mo.",
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+    },
+    {
+      "type": "multiple",
+      "text": "Saan inilalagay ang unlapi?",
+      "options": [
+        "Sa unahan ng salitang-ugat",
+        "Sa gitna ng salitang-ugat",
+        "Sa hulihan ng salitang-ugat",
+        "Kahit saan"
+      ],
+      "answerIndex": 0,
+      "explain": "Linggo 2. Ang gitlapi ay nasa gitna at ang hulapi ay nasa dulo.",
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+    },
+    {
+      "type": "multiple",
+      "text": "Anong kayarian ang salitang \"bahay-bahay\"?",
+      "options": ["Inuulit", "Payak", "Maylapi", "Tambalan"],
+      "answerIndex": 0,
+      "explain": "Linggo 3. Magkatulad ang dalawang bahagi, kaya inuulit ito at hindi tambalan.",
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+    },
+    {
+      "type": "multiple",
+      "text": "Anong kayarian ang \"hampaslupa\"?",
+      "options": ["Tambalan", "Inuulit", "Payak", "Maylapi"],
+      "answerIndex": 0,
+      "explain": "Linggo 3. Magkaiba ang dalawang salitang pinagsama, kaya tambalan ito.",
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang senyas ng karaniwang ayos ng pangungusap?",
+      "options": [
+        "Nauuna ang panaguri, at walang \"ay\"",
+        "Nauuna ang simuno, at may \"ay\"",
+        "May tandang pananong",
+        "Mahaba ang pangungusap"
+      ],
+      "answerIndex": 0,
+      "explain": "Linggo 4. Sa di-karaniwang ayos, nauuna ang simuno at ginagamit ang \"ay\".",
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+    },
+    {
+      "type": "multiple",
+      "text": "Anong kayarian ang pangungusap na may isang punong sugnay lamang?",
+      "options": ["Payak", "Tambalan", "Hugnayan", "Langkapan"],
+      "answerIndex": 0,
+      "explain": "Linggo 5. Bilangin ang sugnay bago sumagot. Iyon ang buong paraan.",
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+    },
+    {
+      "type": "multiple",
+      "text": "Anong kayarian ang may punong sugnay at palipong sugnay?",
+      "options": ["Hugnayan", "Payak", "Tambalan", "Langkapan"],
+      "answerIndex": 0,
+      "explain": "Linggo 5. Ang tambalan ay dalawang punong sugnay; ang langkapan ay pinagsama ang dalawa.",
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+    },
+    {
+      "type": "multiple",
+      "text": "Anong uri ito: \"Pakikuha nga ng tubig.\"",
+      "options": ["Pakiusap", "Pautos", "Patanong", "Padamdam"],
+      "answerIndex": 0,
+      "explain": "Linggo 6. Ang \"paki-\" at ang \"nga\" ang senyas ng pakiusap.",
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+    },
+    {
+      "type": "multiple",
+      "text": "Anong bantas ang ginagamit sa pangungusap na patanong?",
+      "options": ["Tandang pananong", "Tuldok", "Kuwit", "Tandang padamdam"],
+      "answerIndex": 0,
+      "explain": "Linggo 6. Ang bantas sa dulo ang unang senyas ng uri ng pangungusap.",
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang pangungusap na walang paksa?",
+      "options": [
+        "Umuulan nang malakas.",
+        "Umuulan ang langit.",
+        "Basang-basa ang bata.",
+        "Malakas ang hangin."
+      ],
+      "answerIndex": 0,
+      "explain": "Linggo 7. Walang gumagawa ng ulan sa gramatika. Panaguri lamang ang buong pangungusap.",
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+    },
+    {
+      "type": "truefalse",
+      "text": "Walang paksa ang pangungusap na \"Tumakbo ka!\"",
+      "answer": false,
+      "explain": "Linggo 7. May paksa ang pautos: ikaw. Hindi lamang ito binabanggit.",
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+    },
+    {
+      "type": "multiple",
+      "text": "Anong uri ng pangngalan ang \"katapangan\"?",
+      "options": ["Basal", "Tahas", "Pantangi", "Palansak"],
+      "answerIndex": 0,
+      "explain": "Linggo 8. Hindi mo ito kayang hawakan. Ideya ito.",
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+    },
+    {
+      "type": "multiple",
+      "text": "Anong uri ang \"kawan\"?",
+      "options": ["Palansak", "Pantangi", "Basal", "Maramihan"],
+      "answerIndex": 0,
+      "explain": "Linggo 8. Isahan ang anyo ngunit pangkat ang tinutukoy.",
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+    },
+    {
+      "type": "multiple",
+      "text": "Anong kasarian ang \"guro\"?",
+      "options": ["Di-tiyak", "Pambabae", "Panlalaki", "Walang kasarian"],
+      "answerIndex": 0,
+      "explain": "Linggo 9. Maaaring lalaki o babae. Ang inaasahan ay hindi gramatika.",
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+    },
+    {
+      "type": "multiple",
+      "text": "Saan galing ang mga pares na tulad ng \"aktor\" at \"aktres\"?",
+      "options": ["Espanyol", "Ingles", "Tsino", "Malay"],
+      "answerIndex": 0,
+      "explain": "Linggo 9. Ang -o ay panlalaki at ang -a ay pambabae sa Espanyol.",
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang tamang maramihan?",
+      "options": ["mga aklat", "mga aklat-aklat", "aklat mga", "mga mga aklat"],
+      "answerIndex": 0,
+      "explain": "Linggo 10. Isang senyas lamang. Huwag doblehin.",
+      "objective": "Matukoy ang mga karaniwang pagkakamali"
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang ibig sabihin ng \"araw-araw\"?",
+      "options": ["Tuwing araw", "Maraming araw", "Dalawang araw", "Mahabang araw"],
+      "answerIndex": 0,
+      "explain": "Linggo 10. Ang pag-uulit ay nagbibigay ng ibang kahulugan, hindi ng dami.",
+      "objective": "Matukoy ang mga karaniwang pagkakamali"
+    },
+    {
+      "type": "multiple",
+      "text": "Saan at kailan isinilang si Andres Bonifacio?",
+      "options": [
+        "Tondo, Maynila, noong 1863",
+        "Cavite, noong 1869",
+        "Kalookan, noong 1875",
+        "Bulacan, noong 1863"
+      ],
+      "answerIndex": 0,
+      "explain": "Linggo 1. Siya ang panganay sa anim na magkakapatid.",
+      "objective": "Maalala ang kasaysayang tinalakay sa strand ng pagbasa"
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang tatlong antas sa Katipunan?",
+      "options": [
+        "Katipon, Kawal, Bayani",
+        "Katipon, Supremo, Bayani",
+        "Kawal, Heneral, Supremo",
+        "Bayani, Kawal, Pangulo"
+      ],
+      "answerIndex": 0,
+      "explain": "Linggo 2. May sariling hudyat ang bawat antas, at may dahilan ito: tiwala.",
+      "objective": "Maalala ang kasaysayang tinalakay sa strand ng pagbasa"
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang sagisag-panulat ni Bonifacio?",
+      "options": [
+        "Agapito Bagumbayan",
+        "Laong Laan",
+        "Dimasalang",
+        "Plaridel"
+      ],
+      "answerIndex": 0,
+      "explain": "Linggo 2. Ang tunay na pangalan sa papel ay ebidensiya. Kaligtasan ang sagisag, hindi palamuti.",
+      "objective": "Maalala ang kasaysayang tinalakay sa strand ng pagbasa"
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang cedula?",
+      "options": [
+        "Patunay na nagbabayad ka ng buwis",
+        "Isang uri ng sandata",
+        "Isang pahayagan",
+        "Isang uri ng paaralan"
+      ],
+      "answerIndex": 0,
+      "explain": "Linggo 3. Kailangan mo itong dalhin kahit saan, at ito ang pinunit noong Agosto 1896.",
+      "objective": "Maalala ang kasaysayang tinalakay sa strand ng pagbasa"
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang ibig sabihin ng pagpunit ng cedula noong 1896?",
+      "options": [
+        "Hindi na sila sakop ng Espanya",
+        "Nawala ang kanilang trabaho",
+        "Tapos na ang buwis nila",
+        "Hindi na sila magbabayad ng utang"
+      ],
+      "answerIndex": 0,
+      "explain": "Linggo 3 at 4. Walang salitang kailangan. Mas malakas ang sagisag kaysa sa talumpati.",
+      "objective": "Maalala ang kasaysayang tinalakay sa strand ng pagbasa"
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang nangyari sa Kumbensiyon sa Tejeros noong 1897?",
+      "options": [
+        "Nanalo si Aguinaldo bilang pangulo at ipinawalang-bisa ni Bonifacio ang pagpupulong",
+        "Nanalo si Bonifacio bilang pangulo",
+        "Nagtapos ang himagsikan",
+        "Ipinahayag ang kalayaan"
+      ],
+      "answerIndex": 0,
+      "explain": "Linggo 5. May tumutol dahil walang titulo sa abogasya si Bonifacio.",
+      "objective": "Maalala ang kasaysayang tinalakay sa strand ng pagbasa"
+    }
+  ],
+  "teacher": {
+    "summary": "Linggo 11 ng Filipino: ang pagsusulit. Walang bagong nilalaman dito. Ang deck ay tungkol sa paraan ng pag-aaral at sa paraan ng pagsagot: isara ang notes bago sumagot, suriin nang sunod-sunod sa halip na manghula, at basahin ang pautos na salita bago magsulat. Ang pigura ang tunay na kapaki-pakinabang na bahagi — sampung pindot, at ang ikalawang linya ng bawat isa ay ang karaniwang pagkakamali. MAHALAGA PARA SA GURO O MAGULANG: gaya ng Linggo 1 hanggang 10, walang buod ng anumang kabanata ng Supremo dito. Ang mga tanong sa kasaysayan ay mula lamang sa tumpak na kasaysayang itinuro sa mga aralin mismo.",
+    "discussion": [
+      "Pasabihin siya ng sampung paksa bago niya buksan ang pigura. Ang nawawala ang listahan ng aaralin.",
+      "Itanong kung ano ang pagkakaiba ng \"tukuyin\" at \"ipaliwanag\".",
+      "Pabilangin siya ng sugnay bago sumagot sa anumang tanong tungkol sa kayarian.",
+      "Pagkatapos ng papel, tingnan lamang ang mga namali. Hindi ang iskor ang mahalaga."
+    ],
+    "extension": "Pasagutan siyang muli ng papel makalipas ang dalawang araw, nang walang pag-aaral sa pagitan. Ang puwang ang punto, at ang ikalawang iskor ang tapat.",
+    "misconceptions": [
+      "\"Pag-aaral na ang muling pagbabasa.\" Pamilyar ang nabubuo nito, hindi memorya.",
+      "\"Isang uri lamang ang bawat pangngalan.\" Tatlong magkahiwalay na tanong ito.",
+      "\"Mas mabuti ang blangko kaysa hula.\" Tiyak na zero ang blangko.",
+      "\"Pinatay ng mga Espanyol si Bonifacio.\" Ng sarili niyang panig, noong Mayo 1897."
+    ]
+  }
+}

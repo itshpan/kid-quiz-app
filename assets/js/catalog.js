@@ -2,7 +2,7 @@
    catalog.js — home page. Every subject in the term.
    ========================================================================== */
 
-import { escapeHtml, loadJSON, mountHeader, requireProfile } from './ui.js';
+import { escapeHtml, loadJSON, mountHeader, requireProfile, weekIsOpen } from './ui.js';
 import { getProgress, levelFor, getActiveProfile } from './store.js';
 
 async function main() {
@@ -21,7 +21,7 @@ async function main() {
     const progress = getProgress();
     const lv = levelFor(progress.xp);
     const profile = getActiveProfile();
-    const ready = data.courses.flatMap(c => (c.weeks || []).filter(w => w.status === 'live'));
+    const ready = data.courses.flatMap(c => (c.weeks || []).filter(weekIsOpen));
 
     page.innerHTML = `
         <div class="eyebrow">${escapeHtml(data.term.label)}</div>
@@ -45,7 +45,7 @@ async function main() {
         <div class="grid">
             ${data.courses.map(c => {
                 const weeks = c.weeks || [];
-                const live = weeks.filter(w => w.status === 'live').length;
+                const live = weeks.filter(weekIsOpen).length;
                 const done = weeks.filter(w => progress.lessonsCompleted.includes(w.id)).length;
                 return `<a class="subject" href="course.html?c=${encodeURIComponent(c.id)}" style="--sub:${c.accent}">
                     <span class="ico">${c.icon}</span>

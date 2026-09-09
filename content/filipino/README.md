@@ -1,6 +1,6 @@
 # Filipino — awaiting review before going live
 
-These ten lessons are written and pass `tools/check-content.mjs`, but they are
+These eleven lessons are written and pass `tools/check-content.mjs`, but they are
 deliberately **not** switched on in `content/courses.json`. Their weeks are
 still `"status": "soon"` and carry no `file`, so nothing links to them from the
 course page. They are reachable by direct URL for review:
@@ -15,6 +15,7 @@ course page. They are reachable by direct URL for review:
     /lesson.html?file=filipino/w8-uri-pangngalan.json
     /lesson.html?file=filipino/w9-kasarian-pangngalan.json
     /lesson.html?file=filipino/w10-kailanan-pangngalan.json
+    /lesson.html?file=filipino/w11-pagsusulit.json
 
 Two things need a human before these ship.
 
@@ -48,6 +49,7 @@ Bonifacio, and the comprehension questions to answer after each chapter.
 | 8 | Kabanata 11 | How Bonifacio was remembered: Bonifacio Day, the Caloocan monument |
 | 9 | Kabanata 12 | The national hero question — no law names one |
 | 10 | Kabanata 13 | Why the story is still read, and the question it leaves open |
+| 11 | Exam week | Revision + a 24-question paper. No chapter content, only the history above |
 
 Weeks 6–10 need a second look in particular. Bonifacio dies in the week 5
 material, so the later chapters could be almost anything: an aftermath, a

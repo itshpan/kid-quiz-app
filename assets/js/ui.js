@@ -18,6 +18,13 @@ export function md(s) {
         .replace(/(^|[^*])\*([^*]+?)\*/g, '$1<em>$2</em>');
 }
 
+/* A week is openable when it has something to open and is not still "soon".
+   Exam weeks count: week 11 is a mock paper, not a locked placeholder. Filipino
+   is the case this guards — its weeks carry a status but no file yet. */
+export function weekIsOpen(w) {
+    return (w.status === 'live' || w.status === 'exam') && Boolean(w.file || w.external);
+}
+
 export function param(key) {
     return new URLSearchParams(location.search).get(key);
 }

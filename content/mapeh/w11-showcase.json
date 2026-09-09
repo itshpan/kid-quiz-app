@@ -1,0 +1,463 @@
+{
+  "id": "mapeh-w11",
+  "courseId": "mapeh",
+  "courseTitle": "MAPEH",
+  "week": 11,
+  "title": "Performance Assessment & Showcase",
+  "subtitle": "Four strands, one showing. You are marked on preparation as much as on talent.",
+  "estMinutes": 22,
+  "objectives": [
+    "Explain what a performance assessment measures",
+    "Choose a showcase piece for each of the four strands",
+    "Self-mark against a rubric before the day",
+    "Rehearse in the conditions you will perform in",
+    "Recall the ten MAPEH topics of the term"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🎭",
+      "eyebrow": "Part 1 · What is being marked",
+      "title": "This week you show it, you do not write it",
+      "text": "Your teacher sets the exact task. What follows is the shape almost every performance assessment takes."
+    },
+    {
+      "kind": "figure",
+      "figure": "mapehExam",
+      "eyebrow": "The whole term",
+      "title": "Ten weeks, one tap each",
+      "text": "There is still a written half. This is your revision sheet for it."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The four strands",
+      "title": "Music, Art, PE, Health",
+      "text": "A showcase usually asks for something from each. Knowing that in advance is most of the preparation.",
+      "points": [
+        "**Music:** perform, or describe using the elements.",
+        "**Art:** a finished piece plus your choices.",
+        "**PE:** a skill demonstrated properly.",
+        "**Health:** a habit, explained and evidenced."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What does a performance assessment measure that a written test does not?",
+        "options": [
+          "Whether you can actually do the thing",
+          "How fast you write",
+          "How much you remember",
+          "How neat your work is"
+        ],
+        "answerIndex": 0,
+        "explain": "Knowing the five components of fitness and demonstrating one are different skills. This week tests the second."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The rubric",
+      "title": "Four things get marked, almost always",
+      "text": "Find out the real rubric from your teacher. If you cannot, prepare against these four and you will be close.",
+      "points": [
+        "**Preparation:** did you bring what you needed?",
+        "**Technique:** is it done correctly?",
+        "**Expression:** are choices visible in it?",
+        "**Presentation:** can it be seen and heard?"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Judges score what they can see",
+      "text": "A clean landed shot scores. A brilliant idea that never lands does not. Performance assessment works the same way.",
+      "points": [
+        "**Do the visible version** of the skill.",
+        "**Slow and correct** beats fast and messy.",
+        "**Finish the movement.** Do not trail off.",
+        "**Unfinished reads as unprepared.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Performing a skill slowly but correctly usually scores better than rushing it.",
+        "answer": true,
+        "explain": "Technique is what is being marked. Speed without control shows less, not more."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good place to pause",
+      "text": "Part 2 is rehearsal and nerves. Then a review quiz on the whole term."
+    },
+    {
+      "kind": "open",
+      "icon": "🔁",
+      "eyebrow": "Part 2 · Rehearsal",
+      "title": "Practise in the conditions you will perform in",
+      "text": "Practising a song sitting down and performing it standing up are two different tasks. Your body notices."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "How to rehearse",
+      "title": "Run it whole, not in pieces",
+      "text": "Practising the hard bit over and over is useful early. Close to the day, run the whole thing without stopping.",
+      "points": [
+        "**Full run-throughs**, mistakes included.",
+        "**Do not restart** when something goes wrong.",
+        "**Recovering is the skill** being tested.",
+        "**Three full runs** beat thirty partial ones."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "No save points in a performance",
+      "text": "You cannot reload from the last checkpoint. Practising only in sections trains you to stop when something goes wrong.",
+      "points": [
+        "**A run is one attempt**, start to finish.",
+        "**Practise the recovery**, not just the part.",
+        "**Everybody slips.**",
+        "**Carrying on is what gets marked.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Nerves",
+      "title": "Nervous and ready are the same feeling",
+      "text": "A faster heart and shallow breathing are your body preparing. The same signals arrive before something you want.",
+      "points": [
+        "**Name it:** this is my body getting ready.",
+        "**Breathe out longer than you breathe in.**",
+        "**Look at one friendly face**, not the room.",
+        "**Start slightly slower** than you want to."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is the best way to rehearse in the last few days?",
+        "options": [
+          "Full run-throughs without stopping for mistakes",
+          "Repeating only the difficult section",
+          "Reading through it in your head",
+          "Watching someone else do it"
+        ],
+        "answerIndex": 0,
+        "explain": "Stopping at every slip trains you to stop. On the day you have to carry on."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "📈",
+      "eyebrow": "Your body mode",
+      "title": "Warm up before you are marked",
+      "text": "Cold muscles move worse and cold voices crack. Five minutes of movement changes what your body can do.",
+      "points": [
+        "**Move before a PE demonstration.**",
+        "**Warm the voice** before singing.",
+        "**Sleep the night before** still applies.",
+        "**None of this is superstition.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Feeling nervous before performing means you are not ready.",
+        "answer": false,
+        "explain": "The signals are your body preparing. They arrive before things you want as well as things you fear."
+      }
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Preparation, technique, expression, presentation.**",
+        "**Slow and correct** beats fast and messy.",
+        "**Run it whole.** Practise the recovery.",
+        "**Nervous and ready** feel the same."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "What is the difference between dynamics and tempo?",
+      "options": [
+        "Dynamics is loud and soft; tempo is the speed",
+        "They are the same thing",
+        "Dynamics is the speed; tempo is loud and soft",
+        "Both describe pitch"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 1. Both are elements of music, and the exam swaps them regularly.",
+      "objective": "Recall the ten MAPEH topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is self space?",
+      "options": [
+        "Everything within reach from where you stand, and it travels with you",
+        "A fixed spot marked on the floor",
+        "The whole playing area",
+        "The space behind you only"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 1. General space is the whole area you can travel through.",
+      "objective": "Recall the ten MAPEH topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What decides a music genre?",
+      "options": [
+        "Shared rhythm, instruments, place and time",
+        "Who is singing it",
+        "The record company",
+        "The language of the lyrics"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 2. Most genres grew in a place first and were labelled afterwards.",
+      "objective": "Recall the ten MAPEH topics of the term"
+    },
+    {
+      "type": "truefalse",
+      "text": "OPM is a single music genre.",
+      "answer": false,
+      "explain": "Week 3. It is a statement about who made the music. OPM includes rock, rap, ballads and folk.",
+      "objective": "Recall the ten MAPEH topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Which instrument ensemble came to the Philippines through Spanish influence?",
+      "options": ["The rondalla", "The kulintang", "Neither", "Both"],
+      "answerIndex": 0,
+      "explain": "Week 3. The kulintang is indigenous; the rondalla arrived with Spanish contact.",
+      "objective": "Recall the ten MAPEH topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the difference between shape and form?",
+      "options": [
+        "Shape is two-dimensional; form is three-dimensional",
+        "They mean the same thing",
+        "Shape is coloured; form is not",
+        "Form is flat; shape is solid"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 4. A square against a cube. Both are elements of art.",
+      "objective": "Recall the ten MAPEH topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Which of these is a principle of design rather than an element of art?",
+      "options": ["Balance", "Line", "Colour", "Texture"],
+      "answerIndex": 0,
+      "explain": "Week 4. Elements are what is in the picture. Principles are how they are arranged.",
+      "objective": "Recall the ten MAPEH topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Who painted the Spoliarium?",
+      "options": [
+        "Juan Luna",
+        "Fernando Amorsolo",
+        "Victorio Edades",
+        "Felix Resurreccion Hidalgo"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 5. Amorsolo painted sunlit rural scenes. Luna's Spoliarium shows a Roman arena.",
+      "objective": "Recall the ten MAPEH topics of the term"
+    },
+    {
+      "type": "truefalse",
+      "text": "Victorio Edades was admired immediately for his modern work.",
+      "answer": false,
+      "explain": "Week 5. His 1928 exhibition was widely disliked. The title came much later.",
+      "objective": "Recall the ten MAPEH topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Which set is the primary colours in paint?",
+      "options": [
+        "Red, yellow, blue",
+        "Red, green, blue",
+        "Orange, green, violet",
+        "Black, white, grey"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 6. Red, green and blue is light on a screen, not pigment.",
+      "objective": "Recall the ten MAPEH topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What do the eight rays on the Philippine flag stand for?",
+      "options": [
+        "The first eight provinces to revolt",
+        "Eight national heroes",
+        "Eight island groups",
+        "Eight years of revolution"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 6. The three stars are Luzon, the Visayas and Mindanao.",
+      "objective": "Recall the ten MAPEH topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Volleyball belongs to which category of game?",
+      "options": ["Net or wall", "Invasion", "Target", "Striking and fielding"],
+      "answerIndex": 0,
+      "explain": "Week 7. A barrier separates the two sides, which changes every tactic.",
+      "objective": "Recall the ten MAPEH topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the national martial art and sport of the Philippines?",
+      "options": ["Arnis", "Basketball", "Boxing", "Sepak takraw"],
+      "answerIndex": 0,
+      "explain": "Week 7. Basketball is far more popular, but arnis holds the official status.",
+      "objective": "Recall the ten MAPEH topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Which is a manipulative movement skill?",
+      "options": ["Catching", "Skipping", "Twisting", "Balancing"],
+      "answerIndex": 0,
+      "explain": "Week 7. Manipulative skills involve handling an object.",
+      "objective": "Recall the ten MAPEH topics of the term"
+    },
+    {
+      "type": "truefalse",
+      "text": "Thirst is an early warning that you need water.",
+      "answer": false,
+      "explain": "Week 8. Reaction time and endurance drop before thirst arrives.",
+      "objective": "Recall the ten MAPEH topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Which are 'grow' foods?",
+      "options": [
+        "Fish, meat, eggs and beans",
+        "Rice, bread and root crops",
+        "Fruit and vegetables",
+        "Oil and butter"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 8. Go foods give energy and glow foods protect.",
+      "objective": "Recall the ten MAPEH topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Which is a health-related component of fitness?",
+      "options": ["Flexibility", "Agility", "Reaction time", "Coordination"],
+      "answerIndex": 0,
+      "explain": "Week 9. The other three are skill-related. The exam tests exactly this boundary.",
+      "objective": "Recall the ten MAPEH topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What does FITT stand for?",
+      "options": [
+        "Frequency, Intensity, Time, Type",
+        "Fitness, Injury, Training, Test",
+        "Form, Interval, Tempo, Target",
+        "Focus, Impact, Timing, Technique"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 9. Four dials on the same machine, and you change one at a time.",
+      "objective": "Recall the ten MAPEH topics of the term"
+    },
+    {
+      "type": "truefalse",
+      "text": "The body adapts and gets stronger during the training session itself.",
+      "answer": false,
+      "explain": "Week 9. The session is the stress. The adaptation is built afterwards, during rest.",
+      "objective": "Recall the ten MAPEH topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What causes body odour?",
+      "options": [
+        "Bacteria feeding on sweat from apocrine glands",
+        "Sweat, which has a strong smell of its own",
+        "Drinking too little water",
+        "Wearing cotton"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 10. Fresh sweat is nearly odourless. Apocrine glands switch on at puberty.",
+      "objective": "Recall the ten MAPEH topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Why does acne become common at puberty?",
+      "options": [
+        "Hormones increase the skin's oil production",
+        "Teenagers wash less",
+        "Skin gets thinner",
+        "It comes from eating chocolate"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 10. Scrubbing harder irritates the skin and makes it worse.",
+      "objective": "Recall the ten MAPEH topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What gets marked in a performance assessment?",
+      "options": [
+        "Preparation, technique, expression and presentation",
+        "Natural talent only",
+        "How long the performance lasts",
+        "How many people watch"
+      ],
+      "answerIndex": 0,
+      "explain": "Preparation is a mark you can secure entirely in advance.",
+      "objective": "Self-mark against a rubric before the day"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the best way to rehearse close to the day?",
+      "options": [
+        "Full run-throughs without stopping",
+        "Repeating the hardest section only",
+        "Reading it through silently",
+        "Watching a recording of someone else"
+      ],
+      "answerIndex": 0,
+      "explain": "Stopping at every mistake trains you to stop. Recovery is what is being marked.",
+      "objective": "Rehearse in the conditions you will perform in"
+    },
+    {
+      "type": "truefalse",
+      "text": "Warming up before a physical demonstration changes what your body can do.",
+      "answer": true,
+      "explain": "Cold muscles move worse and cold voices crack. Five minutes genuinely changes the result.",
+      "objective": "Rehearse in the conditions you will perform in"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 11 in MAPEH is a performance assessment rather than a written exam, and the deck is honest that the exact task comes from his teacher — it gives the shape almost every such assessment takes rather than inventing a brief. The most useful content here is the rubric, because preparation is the one criterion a student can secure completely in advance, and the rehearsal card, which argues for full run-throughs on the grounds that stopping at every slip trains you to stop. The nerves card reframes the physical signals accurately: the same arousal arrives before something wanted as before something feared. The 24-question review covers all ten weeks plus the showcase material.",
+    "discussion": [
+      "Ask him to find out the real rubric from his teacher, then compare it with the four here.",
+      "Ask which of the four criteria he can secure completely before the day.",
+      "Ask what happens in a run-through when he makes a mistake, and whether he stops.",
+      "Ask him to name the four MAPEH strands and what he would show for each."
+    ],
+    "extension": "Have him do three full run-throughs and note only what he did after each mistake. The recovery is the thing worth practising.",
+    "misconceptions": [
+      "'Performance assessment measures natural talent.' Preparation and technique carry most of the marks.",
+      "'Faster looks better.' Slow and correct shows technique. Rushing hides it.",
+      "'Practise the hard part until it is perfect.' Useful early, but close to the day the whole run matters more.",
+      "'Nerves mean you are not ready.' The signals are your body preparing, and they come with wanting it too."
+    ]
+  }
+}

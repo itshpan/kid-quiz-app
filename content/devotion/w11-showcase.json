@@ -1,0 +1,505 @@
+{
+  "id": "dev-w11",
+  "courseId": "devotion",
+  "courseTitle": "Devotion",
+  "week": 11,
+  "title": "Showcase",
+  "subtitle": "Ten weeks that were not ten separate topics. Here is the shape they made.",
+  "estMinutes": 22,
+  "objectives": [
+    "Trace the arc across the ten themes of the term",
+    "Choose a passage and say why it mattered",
+    "Explain a belief without performing it",
+    "Name one habit that changed this term",
+    "Recall the ten Devotion topics of the term"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🕯️",
+      "eyebrow": "Part 1 · The shape of it",
+      "title": "Ten weeks, and they were in an order",
+      "text": "Foundations first, then trust, faith, love, prayer. Then worship, perseverance, honesty, humility, courage."
+    },
+    {
+      "kind": "figure",
+      "figure": "devExam",
+      "eyebrow": "The whole term",
+      "title": "Ten weeks, one tap each",
+      "text": "This is your revision sheet. The second line of each is the thing most often got wrong."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The arc",
+      "title": "Belief first, then what it costs",
+      "text": "The first half was about what you hold. The second half was about what holding it asks of you when it is expensive.",
+      "points": [
+        "**Weeks 1 to 5:** foundation, trust, faith, love, prayer.",
+        "**Weeks 6 to 10:** worship, trials, honesty, humility, courage.",
+        "**The second half is the first half tested.**",
+        "**That order is not an accident.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What did the second half of the term mostly deal with?",
+        "options": [
+          "What belief costs when it is tested",
+          "The history of the Bible",
+          "Church buildings",
+          "Memorising verses"
+        ],
+        "answerIndex": 0,
+        "explain": "Worship, perseverance, honesty, humility and courage are all the first half under pressure."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Everything gets tested eventually",
+      "text": "You can drill a combination perfectly on pads and lose it in the first round. Nobody knows it holds until it is under pressure.",
+      "points": [
+        "**Weeks 1 to 5** are the pad work.",
+        "**Weeks 6 to 10** are the rounds.",
+        "**The pattern repeats** all term.",
+        "**Untested is not the same as strong.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Your passage",
+      "title": "Pick one and be able to say why",
+      "text": "A showcase usually asks you to choose. The choice matters less than being able to explain it clearly.",
+      "points": [
+        "**Name the passage** and roughly where it is.",
+        "**Say what it actually claims.**",
+        "**Say why it stayed with you.**",
+        "**Three sentences.** Not a speech."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "James 1:2 asks you to feel happy about difficulties.",
+        "answer": false,
+        "explain": "'Consider' is a thinking word. It asks for a judgement about how to read a situation, not a feeling."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good place to pause",
+      "text": "Part 2 is how to talk about it, and one habit. Then a review of the whole term."
+    },
+    {
+      "kind": "open",
+      "icon": "🗣️",
+      "eyebrow": "Part 2 · Saying it",
+      "title": "The week 9 problem, in a showcase",
+      "text": "Matthew 6 warns about doing things to be seen. A showcase asks you to be seen. Both of those are true at once."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "How to hold it",
+      "title": "Explaining is not announcing",
+      "text": "Saying what a passage means and saying how well you follow it are different things. The first is the task here.",
+      "points": [
+        "**Explain the text**, not your record with it.",
+        "**Say what you found difficult.**",
+        "**Do not claim what you have not done.**",
+        "**Accuracy is the honest version.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Every good example this term named the cost",
+      "text": "'Even if he does not.' 'If I perish, I perish.' 'We cannot help speaking.' The line comes first, every time.",
+      "points": [
+        "**They counted it out loud.**",
+        "**Then they went anyway.**",
+        "**A character who never counts it** is not brave.",
+        "**Look for the sentence.** It is always there."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "One habit",
+      "title": "Name the thing that actually changed",
+      "text": "Not what you agree with. What is different in an ordinary week because of something in these ten lessons.",
+      "points": [
+        "**Small and real** beats large and stated.",
+        "**One is enough.**",
+        "**'Nothing yet' is an honest answer.**",
+        "**It is a better one than an invented change.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is the honest thing to do in a showcase if nothing has changed yet?",
+        "options": [
+          "Say so, and say what you found hardest",
+          "Describe a change you have not made",
+          "Say nothing at all",
+          "Choose an easier passage"
+        ],
+        "answerIndex": 0,
+        "explain": "Week 8's whole argument. An invented answer is the one thing the term argued against."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "📈",
+      "eyebrow": "Your life mode",
+      "title": "Ten weeks is a short time",
+      "text": "Joseph waited years. Nobody is expecting a finished person at the end of a term. The direction is the point.",
+      "points": [
+        "**Perseverance took years** in every example.",
+        "**Character is built slowly**, by definition.",
+        "**Ten weeks is a start.**",
+        "**A start is not nothing.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Courage, as this term defined it, means not feeling afraid.",
+        "answer": false,
+        "explain": "It means acting while afraid. Without the fear, the action is easy rather than brave."
+      }
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**The second half tests the first.**",
+        "**Explain the passage**, not your record.",
+        "**Every example named the cost** first.",
+        "**One real change** beats a stated one."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "In the parable of the builders, what happens to the two houses?",
+      "options": [
+        "Both face the same storm; only one stands",
+        "Only the foolish builder's house is rained on",
+        "Both houses fall",
+        "Neither house is tested"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 1. That both face the same weather is stated, not implied.",
+      "objective": "Recall the ten Devotion topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the difference between the two builders?",
+      "options": [
+        "One acted on the words; the other only heard them",
+        "One had never heard the words",
+        "One built more quickly",
+        "One had better materials"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 1. Hearing and doing is the whole distinction.",
+      "objective": "Recall the ten Devotion topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the difference between trust and obedience?",
+      "options": [
+        "Trust is what you believe; obedience is what you do about it",
+        "They are the same word",
+        "Obedience comes only after certainty",
+        "Trust is for adults and obedience for children"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 2. Proverbs 3:5-6 asks for one and 1 Samuel 15:22 for the other.",
+      "objective": "Recall the ten Devotion topics of the term"
+    },
+    {
+      "type": "truefalse",
+      "text": "In 1 Samuel 15, doing most of what was asked was treated as obedience.",
+      "answer": false,
+      "explain": "Week 2. Partial obedience is treated as disobedience, and the offering did not make up for it.",
+      "objective": "Recall the ten Devotion topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What does Hebrews 11:1 define?",
+      "options": [
+        "Faith",
+        "Love",
+        "Hope",
+        "Prayer"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 3. Confidence in what is hoped for and assurance about what is not seen.",
+      "objective": "Recall the ten Devotion topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the point of the mustard seed image?",
+      "options": [
+        "A very small amount of faith is enough",
+        "Faith grows only if you feed it",
+        "Mountains are hard to move",
+        "You need a great deal of faith"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 3. The smallness is deliberate. Size is not what the verse is about.",
+      "objective": "Recall the ten Devotion topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "How does 1 Corinthians 13 describe love?",
+      "options": [
+        "As a list of behaviours rather than feelings",
+        "As a feeling you either have or do not",
+        "As a wedding tradition",
+        "As a rule for priests only"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 4. It was written to a church that was arguing, which is why it reads as a checklist.",
+      "objective": "Recall the ten Devotion topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What does the new command in John 13:34-35 change?",
+      "options": [
+        "The measure of love, from 'as yourself' to 'as I have loved you'",
+        "Who you have to love",
+        "How often you should pray",
+        "Which day is set aside for worship"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 4. It does not replace loving your neighbour; it raises the standard.",
+      "objective": "Recall the ten Devotion topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What does ACTS stand for in prayer?",
+      "options": [
+        "Adoration, Confession, Thanksgiving, Supplication",
+        "Ask, Confess, Trust, Sing",
+        "Adoration, Confidence, Thanks, Silence",
+        "Attention, Care, Truth, Service"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 5. Asking comes last, and the three before it change what you ask for.",
+      "objective": "Recall the ten Devotion topics of the term"
+    },
+    {
+      "type": "truefalse",
+      "text": "Philippians 4:6-7 promises that you will get what you ask for.",
+      "answer": false,
+      "explain": "Week 5. What it promises is peace guarding your heart and mind. That is a different promise.",
+      "objective": "Recall the ten Devotion topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What does Romans 12:1 call true and proper worship?",
+      "options": [
+        "Offering your body as a living sacrifice",
+        "Singing in a service",
+        "Giving a tenth of your income",
+        "Attending every week"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 6. A living sacrifice can walk away, so it has to be offered again.",
+      "objective": "Recall the ten Devotion topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What does John 4:24 require of worship?",
+      "options": [
+        "Spirit and truth together",
+        "A particular mountain",
+        "Silence",
+        "Music"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 6. Spirit without truth is feeling with no content; truth without spirit is facts with no heart.",
+      "objective": "Recall the ten Devotion topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the order of the chain in Romans 5:3-5?",
+      "options": [
+        "Suffering, perseverance, character, hope",
+        "Hope, character, perseverance, suffering",
+        "Character, suffering, hope, perseverance",
+        "Perseverance, hope, character, suffering"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 7. Each one produces the next, and none of the links can be skipped.",
+      "objective": "Recall the ten Devotion topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What does perseverance require to count as perseverance?",
+      "options": [
+        "The option of leaving",
+        "A long time",
+        "An audience",
+        "A guarantee of success"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 7. If you cannot leave, staying is endurance rather than perseverance.",
+      "objective": "Recall the ten Devotion topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "How long did Joseph stay in prison after the cupbearer forgot him?",
+      "options": [
+        "Two full years",
+        "Two months",
+        "Two weeks",
+        "Twenty years"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 7. Genesis 41:1. The gap is written into the text deliberately.",
+      "objective": "Recall the ten Devotion topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What reason does Ephesians 4:25 give for honesty?",
+      "options": [
+        "We are all members of one body",
+        "You will be found out",
+        "It is easier to remember",
+        "Lying is against the law"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 8. A lie damages something shared, so it is not a private act.",
+      "objective": "Recall the ten Devotion topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What were Ananias and Sapphira judged for?",
+      "options": [
+        "Lying about how much they had given",
+        "Keeping some of the money",
+        "Selling their land",
+        "Refusing to give anything"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 8. Peter says the money was theirs. The claim was the offence, not the amount.",
+      "objective": "Recall the ten Devotion topics of the term"
+    },
+    {
+      "type": "truefalse",
+      "text": "If every word you say is true, it cannot be a lie.",
+      "answer": false,
+      "explain": "Week 8. Honesty is measured by what the other person ends up believing.",
+      "objective": "Recall the ten Devotion topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Whose job was foot washing in a household?",
+      "options": [
+        "The lowest servant",
+        "The host",
+        "The oldest guest",
+        "The teacher"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 9. That is why Peter objected rather than being merely embarrassed.",
+      "objective": "Recall the ten Devotion topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Why did the widow's two coins count for more?",
+      "options": [
+        "She gave everything she had, out of her poverty",
+        "The coins were rare",
+        "She gave publicly",
+        "She gave more often"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 9. The measure is what it cost the giver, not the size of the gift.",
+      "objective": "Recall the ten Devotion topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is humility, as this term defined it?",
+      "options": [
+        "Thinking about yourself less, rather than thinking badly of yourself",
+        "Insulting your own abilities",
+        "Refusing every compliment",
+        "Never leading anything"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 9. Someone who insults himself constantly is still talking about himself.",
+      "objective": "Recall the ten Devotion topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What did the three men in Daniel 3 say?",
+      "options": [
+        "God is able to rescue us, but even if he does not, we will not bow",
+        "We will bow if we are not rescued",
+        "We will decide once we see what happens",
+        "We refuse to answer"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 10. Their answer did not depend on the outcome, which is what makes it courage.",
+      "objective": "Recall the ten Devotion topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What did Daniel do when praying was made illegal?",
+      "options": [
+        "Carried on exactly as before, with the window open",
+        "Prayed in secret",
+        "Left the country",
+        "Argued with the king"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 10. He neither hid nor protested. The consistency was the statement.",
+      "objective": "Recall the ten Devotion topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What does courage require?",
+      "options": [
+        "Fear, and acting anyway",
+        "The absence of fear",
+        "Certainty of success",
+        "Someone watching"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 10. Without the fear, the action is easy rather than brave.",
+      "objective": "Recall the ten Devotion topics of the term"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 11 is the devotion showcase. The deck's main contribution is the arc: these were not ten unrelated themes, and naming the split — weeks 1 to 5 are what you hold, weeks 6 to 10 are what holding it costs — makes the term memorable as one shape rather than a list. The showcase itself raises a genuine tension the term already handled, since Matthew 6 warns about doing things to be seen and a showcase asks exactly that; the lesson resolves it by distinguishing explaining a passage from advertising your record with it. 'Nothing has changed yet' is explicitly offered as an honest answer, which is consistent with week 8 and matters more than a tidy one.",
+    "discussion": [
+      "Ask him to describe the shape of the term in two sentences before looking at the figure.",
+      "Ask which passage he would choose, and make him give the reason in three sentences.",
+      "Ask what the difference is between explaining a text and advertising how well you follow it.",
+      "Ask what actually changed in an ordinary week. Accept 'nothing yet' without argument."
+    ],
+    "extension": "Have him write the one sentence that names the cost, for a decision he is facing. Every example this term had one.",
+    "misconceptions": [
+      "'The ten weeks were separate topics.' The second half is the first half under pressure.",
+      "'A showcase means saying how well you are doing.' The task is explaining the text, not your record.",
+      "'Consider it pure joy means feel happy.' It is a judgement, not a feeling.",
+      "'Courage means not being afraid.' It means acting while afraid."
+    ]
+  }
+}

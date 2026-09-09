@@ -127,9 +127,11 @@
           "id": "sci-w11",
           "title": "Exam Week",
           "topics": [
-            "Term 1 examination"
+            "Term 1 examination",
+            "Revision + full mock paper"
           ],
-          "status": "exam"
+          "status": "exam",
+          "file": "science/w11-exam.json"
         }
       ]
     },
@@ -246,9 +248,11 @@
           "id": "math-w11",
           "title": "Exam Week",
           "topics": [
-            "Term 1 examination"
+            "Term 1 examination",
+            "Revision + full mock paper"
           ],
-          "status": "exam"
+          "status": "exam",
+          "file": "math/w11-exam.json"
         }
       ],
       "bonus": {
@@ -383,9 +387,11 @@
           "id": "eng-w11",
           "title": "Exam Week",
           "topics": [
-            "Term 1 examination"
+            "Term 1 examination",
+            "Revision + full mock paper"
           ],
-          "status": "exam"
+          "status": "exam",
+          "file": "english/w11-exam.json"
         }
       ]
     },
@@ -502,9 +508,11 @@
           "id": "ss-w11",
           "title": "Exam Week",
           "topics": [
-            "Term 1 examination"
+            "Term 1 examination",
+            "Revision + full mock paper"
           ],
-          "status": "exam"
+          "status": "exam",
+          "file": "social-studies/w11-exam.json"
         }
       ]
     },
@@ -742,9 +750,11 @@
           "id": "mapeh-w11",
           "title": "Performance Assessment & Showcase",
           "topics": [
-            "Performance assessment and showcase"
+            "Performance assessment and showcase",
+            "Rubric + term review"
           ],
-          "status": "exam"
+          "status": "exam",
+          "file": "mapeh/w11-showcase.json"
         }
       ]
     },
@@ -862,9 +872,11 @@
           "id": "tle-w11",
           "title": "Performance Assessment & Showcase",
           "topics": [
-            "Performance assessment and showcase"
+            "Performance assessment and showcase",
+            "Rubric + term review"
           ],
-          "status": "exam"
+          "status": "exam",
+          "file": "tle/w11-showcase.json"
         }
       ]
     },
@@ -982,9 +994,11 @@
           "id": "dev-w11",
           "title": "Showcase",
           "topics": [
-            "Term showcase"
+            "Term showcase",
+            "Looking back over the term"
           ],
-          "status": "exam"
+          "status": "exam",
+          "file": "devotion/w11-showcase.json"
         }
       ]
     }

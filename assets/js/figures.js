@@ -4185,6 +4185,330 @@ function kailananPangngalan() {
     });
 }
 
+
+/* ---- Week 11: one revision map per subject --------------------------- */
+
+/* Ten weeks, one tap each: what to know, and the mistake that costs the mark.
+   Taller than the usual picker because ten rows do not fit the default. */
+function examMap({ id, label, alt, rows }) {
+    return listPicker({
+        id, label, alt, rows, height: 384,
+        capA: 'Know: ', capB: 'Trap: '
+    });
+}
+
+function sciExam() {
+    return examMap({
+        id: 'sx', label: 'SCIENCE · TEN WEEKS',
+        alt: 'The ten Science topics of the term, each with what to know and the usual trap',
+        rows: [
+            { btn: '1', short: 'Skeleton & muscles',
+              a: 'Muscles work in pairs and only ever pull',
+              b: 'Nothing pushes. The opposite muscle pulls instead.' },
+            { btn: '2', short: 'Digestion',
+              a: 'The order of the tract, and where absorption happens',
+              b: 'The stomach breaks down. The small intestine absorbs.' },
+            { btn: '3', short: 'Skin',
+              a: 'Three layers, and sweat cooling by evaporation',
+              b: 'A tan is damage already done, not health.' },
+            { btn: '4', short: 'Breathing & kidneys',
+              a: 'The diaphragm drops, pressure falls, air is pushed in',
+              b: 'You do not suck air in. Pressure does the work.' },
+            { btn: '5', short: 'Heart & nerves',
+              a: 'Four chambers, two circuits, and the reflex arc',
+              b: 'A reflex does not go through the brain at all.' },
+            { btn: '6', short: 'Animal groups',
+              a: 'Backbone or none. Five vertebrate classes',
+              b: 'About 95 percent of species have no backbone.' },
+            { btn: '7', short: 'Reproduction',
+              a: 'Asexual and sexual, and the parts of a flower',
+              b: 'Pollination is arrival. Fertilisation is joining.' },
+            { btn: '8', short: 'Heterogeneous',
+              a: 'Suspensions settle, colloids do not, Tyndall tells them apart',
+              b: 'Cloudiness is not the test. Settling is.' },
+            { btn: '9', short: 'Solutions',
+              a: 'Solute, solvent, solubility, and what saturated means',
+              b: 'Saturated is a limit, not a strength.' },
+            { btn: '10', short: 'Separating',
+              a: 'Filtering, evaporation, distillation, chromatography',
+              b: 'Distillation keeps the liquid. Evaporation loses it.' }
+        ]
+    });
+}
+
+function mathExam() {
+    return examMap({
+        id: 'mx', label: 'MATH · TEN WEEKS',
+        alt: 'The ten Math topics of the term, each with what to know and the usual trap',
+        rows: [
+            { btn: '1', short: 'Tessellation',
+              a: 'The angles at a vertex must total exactly 360 degrees',
+              b: 'Only three regular polygons tile on their own.' },
+            { btn: '2', short: 'Transformations',
+              a: 'Translation, reflection and rotation keep size and angles',
+              b: 'A rotation needs a centre and a direction too.' },
+            { btn: '3', short: 'Add & subtract decimals',
+              a: 'Line up the decimal points, not the last digits',
+              b: 'Zeros on the end change nothing at all.' },
+            { btn: '4', short: 'Compare decimals',
+              a: 'Compare from the left, padding to the same length',
+              b: 'More digits does not mean a bigger number.' },
+            { btn: '5', short: 'Multiply & divide',
+              a: 'Count the decimal places in both factors',
+              b: 'Times by under 1 gets smaller. Divide gets bigger.' },
+            { btn: '6', short: 'Order & rates',
+              a: 'Multiply and divide before add and subtract',
+              b: 'The bigger pack is not always better value.' },
+            { btn: '7', short: 'Add & subtract fractions',
+              a: 'A common denominator first, then add the tops only',
+              b: 'Never add the bottoms. They name the piece size.' },
+            { btn: '8', short: 'Multiply & divide fractions',
+              a: 'Multiply straight across. Divide by flipping the second',
+              b: 'No common denominator is needed to multiply.' },
+            { btn: '9', short: 'Ratio',
+              a: 'Three parts to four means seven in total',
+              b: 'Order matters. 3 to 4 is not 4 to 3.' },
+            { btn: '10', short: 'Proportion & scale',
+              a: 'Unit rate first solves nearly every word problem',
+              b: 'A scale of 1 to 100 means the drawing is smaller.' }
+        ]
+    });
+}
+
+function engExam() {
+    return examMap({
+        id: 'ex', label: 'ENGLISH · TEN WEEKS',
+        alt: 'The ten English topics of the term, each with what to know and the usual trap',
+        rows: [
+            { btn: '1', short: 'Plurals',
+              a: 'The y, f and o rules, and the irregulars',
+              b: 'An apostrophe never makes a plural. Never.' },
+            { btn: '2', short: 'Quantifiers',
+              a: 'Count nouns take fewer, noncount take less',
+              b: 'Noncount nouns cannot simply take an -s.' },
+            { btn: '3', short: 'Possessive nouns',
+              a: 'Apostrophe placement for singular and plural',
+              b: 'Plurals already ending in s take only an apostrophe.' },
+            { btn: '4', short: 'Possessive pronouns',
+              a: 'Determiners sit before a noun, pronouns stand alone',
+              b: 'Its, hers, yours and theirs take no apostrophe.' },
+            { btn: '5', short: 'Pronoun agreement',
+              a: 'A pronoun matches its antecedent in number',
+              b: 'Everyone, each and either are all singular.' },
+            { btn: '6', short: 'Compound pronouns',
+              a: 'The eight -self and -selves forms',
+              b: 'Hisself and theirselves are not words.' },
+            { btn: '7', short: 'Reflexive pronouns',
+              a: 'Reflexive is the object; intensive only emphasises',
+              b: 'Delete it. If the sentence breaks, it was reflexive.' },
+            { btn: '8', short: 'Simple present',
+              a: 'Only he, she and it change in the present tense',
+              b: 'Does already carries the ending. Not doesn’t likes.' },
+            { btn: '9', short: 'Subject-verb agreement',
+              a: 'The verb agrees with the subject, not the nearest noun',
+              b: 'In there is and there are, there is never the subject.' },
+            { btn: '10', short: 'Agreement applied',
+              a: 'Amounts and titles are treated as one unit',
+              b: 'News, mathematics and physics are all singular.' }
+        ]
+    });
+}
+
+function ssExam() {
+    return examMap({
+        id: 'sse', label: 'SOCIAL STUDIES · TEN WEEKS',
+        alt: 'The ten Social Studies topics of the term, each with what to know and the usual trap',
+        rows: [
+            { btn: '1', short: 'The Philippines',
+              a: 'An archipelago of 7,641 islands in three groups',
+              b: 'It has no land border with any country.' },
+            { btn: '2', short: 'Nationalism',
+              a: 'The Cavite Mutiny and GomBurZa, 1872',
+              b: 'The mutiny was a protest, not a revolution.' },
+            { btn: '3', short: 'The reformers',
+              a: 'La Solidaridad, and the six demands',
+              b: 'They wanted reform inside Spain, not independence.' },
+            { btn: '4', short: 'Rizal',
+              a: 'The novels, La Liga, Dapitan, December 1896',
+              b: 'He argued against the revolution and was executed for it.' },
+            { btn: '5', short: 'Revolution',
+              a: 'The Katipunan, Pugad Lawin, Tejeros, Kawit',
+              b: 'Bonifacio was executed by his own side, not by Spain.' },
+            { btn: '6', short: 'Malolos',
+              a: 'A written constitution, approved January 1899',
+              b: 'The Battle of Manila was arranged in advance.' },
+            { btn: '7', short: 'The war',
+              a: 'February 1899 to July 1902, and the civilian cost',
+              b: 'The first shot came before the treaty was ratified.' },
+            { btn: '8', short: 'Colonial government',
+              a: 'Military 1898, civil 1901, Assembly 1907',
+              b: 'Schurman only advised. Taft could make law.' },
+            { btn: '9', short: 'Schurman',
+              a: 'Advisory, and most of it was carried out',
+              b: 'A republic was already running when it said "not ready".' },
+            { btn: '10', short: 'American rule',
+              a: 'Act No. 74, the Thomasites, English in school',
+              b: 'A benefit does not cancel a cost. Say both.' }
+        ]
+    });
+}
+
+function filExam() {
+    return examMap({
+        id: 'fx', label: 'FILIPINO · SAMPUNG LINGGO',
+        alt: 'Ang sampung paksa sa Filipino ngayong termino, may dapat tandaan at karaniwang mali',
+        rows: [
+            { btn: '1', short: 'Ortograpiya',
+              a: 'Ang alpabetong Filipino at ang tamang baybay',
+              b: 'Hindi lahat ng hiram na salita ay binabaybay muli.' },
+            { btn: '2', short: 'Pagbuo ng salita',
+              a: 'Panlapi, salitang-ugat at pag-uulit',
+              b: 'Ang unlapi ay nasa unahan, hindi sa gitna.' },
+            { btn: '3', short: 'Kayarian ng salita',
+              a: 'Payak, maylapi, inuulit at tambalan',
+              b: 'May salitang tambalan na iisa na ang kahulugan.' },
+            { btn: '4', short: 'Bahagi at ayos',
+              a: 'Simuno at panaguri; karaniwan at di-karaniwan',
+              b: 'Ang "ay" ang senyas ng karaniwang ayos.' },
+            { btn: '5', short: 'Kayarian ng pangungusap',
+              a: 'Payak, tambalan, hugnayan at langkapan',
+              b: 'Bilangin ang sugnay bago sumagot.' },
+            { btn: '6', short: 'Uri ayon sa gamit',
+              a: 'Pasalaysay, patanong, pautos, pakiusap, padamdam',
+              b: 'Ang "paki-" at "nga" ang senyas ng pakiusap.' },
+            { btn: '7', short: 'Walang paksa',
+              a: 'Panahon, kalikasan, karamdaman at oras',
+              b: 'May paksa ang pautos: ikaw, hindi lang binabanggit.' },
+            { btn: '8', short: 'Uri ng pangngalan',
+              a: 'Pantangi, pambalana, tahas, basal, palansak',
+              b: 'Maaaring maraming uri ang isang pangngalan.' },
+            { btn: '9', short: 'Kasarian',
+              a: 'Panlalaki, pambabae, di-tiyak, walang kasarian',
+              b: 'Ang "guro" ay di-tiyak, hindi pambabae.' },
+            { btn: '10', short: 'Kailanan',
+              a: 'Isahan, dalawahan at maramihan',
+              b: 'Huwag doblehin: mali ang "mga aklat-aklat".' }
+        ]
+    });
+}
+
+function mapehExam() {
+    return examMap({
+        id: 'mpx', label: 'MAPEH · TEN WEEKS',
+        alt: 'The ten MAPEH topics of the term, each with what to know and the usual trap',
+        rows: [
+            { btn: '1', short: 'Music & space',
+              a: 'The elements of music; self space and general space',
+              b: 'Dynamics is loud and soft. Tempo is the speed.' },
+            { btn: '2', short: 'World genres',
+              a: 'Six genres and where each came from',
+              b: 'A genre is shared rhythm and place, not who sings.' },
+            { btn: '3', short: 'Folk & OPM',
+              a: 'Kundiman, harana, balitaw, kulintang, rondalla',
+              b: 'OPM is who made it, not a single genre.' },
+            { btn: '4', short: 'Elements of art',
+              a: 'The seven elements, and shape against form',
+              b: 'Balance and contrast are principles, not elements.' },
+            { btn: '5', short: 'Art styles',
+              a: 'Realistic, stylised, abstract; Luna, Amorsolo, Edades',
+              b: 'Luna painted the Spoliarium. Amorsolo painted fields.' },
+            { btn: '6', short: 'Colour & symbols',
+              a: 'Primary, secondary, warm, cool, complementary',
+              b: 'Red, yellow, blue in paint. Not red, green, blue.' },
+            { btn: '7', short: 'Sport categories',
+              a: 'Individual, dual, team; invasion, net, target',
+              b: 'Arnis is the national sport. Basketball is popular.' },
+            { btn: '8', short: 'Health habits',
+              a: 'Sleep, water, go-grow-glow, and how habits form',
+              b: 'Thirst is a late signal, not an early one.' },
+            { btn: '9', short: 'Fitness & teams',
+              a: 'Five health-related components, and FITT',
+              b: 'Agility is skill-related, not health-related.' },
+            { btn: '10', short: 'Hygiene',
+              a: 'Apocrine glands, soap, enamel, skin care',
+              b: 'Acne is hormones. It is not caused by dirt.' }
+        ]
+    });
+}
+
+function tleExam() {
+    return examMap({
+        id: 'tx', label: 'TLE · TEN WEEKS',
+        alt: 'The ten TLE topics of the term, each with what to know and the usual trap',
+        rows: [
+            { btn: '1', short: 'Foundations',
+              a: 'A home for everything; the two-minute rule',
+              b: 'Putting it down is not putting it away.' },
+            { btn: '2', short: 'Routine & schedule',
+              a: 'A routine is an order; a schedule adds times',
+              b: 'A task without a time does not get done.' },
+            { btn: '3', short: 'Decluttering',
+              a: 'Decide per object, then get it out the same day',
+              b: 'Declutter before organising. Tidy junk is junk.' },
+            { btn: '4', short: 'Bed & sleep',
+              a: 'The bedding layers, changed about weekly',
+              b: 'A slightly cool room is easier to sleep in.' },
+            { btn: '5', short: 'Clothes',
+              a: 'Hang or fold, care symbols, sorting by colour',
+              b: 'Knitwear stretches on a hanger. Fold it.' },
+            { btn: '6', short: 'Self-care system',
+              a: 'A fixed order, and a kit you restock yourself',
+              b: 'Say something when you open the last one.' },
+            { btn: '7', short: 'School materials',
+              a: 'One folder per subject; pack the night before',
+              b: 'Searching is the cost, not carrying.' },
+            { btn: '8', short: 'Digital files',
+              a: 'Date, subject, what it is. Three folder levels',
+              b: 'A copy on the same laptop is not a backup.' },
+            { btn: '9', short: 'Home responsibility',
+              a: 'A job is done when the space is reset',
+              b: 'No reminders needed is what makes it yours.' },
+            { btn: '10', short: 'Portfolio',
+              a: 'Gather, choose, name, arrange, caption, back up',
+              b: 'Gather first. Judging while hunting is slow.' }
+        ]
+    });
+}
+
+function devExam() {
+    return examMap({
+        id: 'dx', label: 'DEVOTION · TEN WEEKS',
+        alt: 'The ten Devotion topics of the term, each with what to know and the usual trap',
+        rows: [
+            { btn: '1', short: 'Foundations',
+              a: 'The wise and foolish builders, Matthew 7',
+              b: 'Both houses face the same storm.' },
+            { btn: '2', short: 'Trust & obedience',
+              a: 'Proverbs 3:5-6; 1 Samuel 15:22',
+              b: 'Trust is belief. Obedience is what you do.' },
+            { btn: '3', short: 'Faith',
+              a: 'Hebrews 11:1 and the mustard seed',
+              b: 'The size of the faith is not the point.' },
+            { btn: '4', short: 'Love',
+              a: 'Matthew 22:37-39 and 1 Corinthians 13',
+              b: 'Love there is a list of verbs, not feelings.' },
+            { btn: '5', short: 'Prayer',
+              a: 'The Lord’s Prayer pattern and ACTS',
+              b: 'Asking comes last, and that is deliberate.' },
+            { btn: '6', short: 'Worship',
+              a: 'Romans 12:1 and John 4:23-24',
+              b: 'Obedience cannot be replaced by an offering.' },
+            { btn: '7', short: 'Perseverance',
+              a: 'Romans 5:3-5 and James 1:2-4',
+              b: '"Consider" is a judgement, not a feeling.' },
+            { btn: '8', short: 'Honesty',
+              a: 'Proverbs 12:22, Ephesians 4:25, Acts 5',
+              b: 'Ananias lied about the amount. The money was his.' },
+            { btn: '9', short: 'Humility',
+              a: 'John 13, Philippians 2, Mark 10:45',
+              b: 'Thinking of yourself less, not thinking less of you.' },
+            { btn: '10', short: 'Courage',
+              a: 'Daniel 6, Daniel 3, Esther 4, Acts 4',
+              b: 'Courage needs fear. Without it, it is just easy.' }
+        ]
+    });
+}
+
 export const FIGURES = {
     crumpleZone,
     muscleTypes,
@@ -4269,7 +4593,15 @@ export const FIGURES = {
     walangPaksa,
     uriPangngalan,
     kasarianPangngalan,
-    kailananPangngalan
+    kailananPangngalan,
+    sciExam,
+    mathExam,
+    engExam,
+    ssExam,
+    filExam,
+    mapehExam,
+    tleExam,
+    devExam
 };
 
 

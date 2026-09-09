@@ -2,13 +2,13 @@
    course.js — one subject, all the weeks of the term.
    ========================================================================== */
 
-import { escapeHtml, param, loadJSON, mountHeader, requireProfile } from './ui.js';
+import { escapeHtml, param, loadJSON, mountHeader, requireProfile, weekIsOpen } from './ui.js';
 import { getProgress } from './store.js';
 
 const CHIP = {
     live: '<span class="chip ready">Ready</span>',
     soon: '<span class="chip">Soon</span>',
-    exam: '<span class="chip">Exam</span>'
+    exam: '<span class="chip exam">Exam</span>'
 };
 
 async function main() {
@@ -31,7 +31,7 @@ async function main() {
     const progress = getProgress();
     const weeks = course.weeks || [];
     const done = weeks.filter(w => progress.lessonsCompleted.includes(w.id)).length;
-    const live = weeks.filter(w => w.status === 'live').length;
+    const live = weeks.filter(weekIsOpen).length;
 
     page.innerHTML = `
         <a class="crumb" href="index.html">← All subjects</a>
@@ -64,7 +64,7 @@ async function main() {
         <div class="stack">
             ${weeks.map(w => {
                 const finished = progress.lessonsCompleted.includes(w.id);
-                const open = w.status === 'live';
+                const open = weekIsOpen(w);
                 const href = w.external || (w.file ? `lesson.html?file=${encodeURIComponent(w.file)}` : '#');
                 return `<a class="week ${open ? '' : 'locked'} ${finished ? 'done' : ''}" href="${open ? href : '#'}">
                     <span class="week-num">${finished ? '✓' : w.week}</span>

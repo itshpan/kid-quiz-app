@@ -605,6 +605,7 @@ strong { font-weight: 700; color: var(--ink); }
     border: none;
 }
 .chip.ready { background: var(--yes-soft); color: var(--yes); }
+.chip.exam  { background: var(--accent-soft); color: var(--accent); }
 
 .stack { display: grid; gap: 10px; }
 .row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }

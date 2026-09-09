@@ -1,0 +1,499 @@
+{
+  "id": "tle-w11",
+  "courseId": "tle",
+  "courseTitle": "TLE",
+  "week": 11,
+  "title": "Performance Assessment & Showcase",
+  "subtitle": "Show the skills, show the portfolio, and say why you did it that way.",
+  "estMinutes": 22,
+  "objectives": [
+    "Explain what the TLE showcase asks for",
+    "Demonstrate a practical skill so it can be marked",
+    "Present the portfolio built in week 10",
+    "Explain a choice instead of only showing the result",
+    "Recall the ten TLE topics of the term"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🧰",
+      "eyebrow": "Part 1 · What you show",
+      "title": "Two halves: the skills and the portfolio",
+      "text": "One half is doing something with your hands. The other is the folder of work from week 10."
+    },
+    {
+      "kind": "figure",
+      "figure": "tleExam",
+      "eyebrow": "The whole term",
+      "title": "Ten weeks, one tap each",
+      "text": "There is still a written half. This is your revision sheet for it."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The practical",
+      "title": "Every skill this term is demonstrable",
+      "text": "Making a bed, folding a shirt, sorting laundry, filing a sheet, naming a file. Any of them could be asked for.",
+      "points": [
+        "**Bed:** the layers, in order.",
+        "**Shirt:** the four folds.",
+        "**Laundry:** sorted before washing, and why.",
+        "**Files:** date, subject, what it is."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is the first step when demonstrating a practical skill?",
+        "options": [
+          "Lay out everything you need before starting",
+          "Start immediately to save time",
+          "Explain the whole thing first",
+          "Ask what the marks are for"
+        ],
+        "answerIndex": 0,
+        "explain": "Preparation is visible and it is marked. Hunting for something mid-task is not."
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "How to demonstrate",
+      "title": "Slow enough to be seen",
+      "text": "An assessor has to watch each step happen. Doing it at your normal speed hides the steps you are being marked on.",
+      "points": [
+        "**Say the step**, then do the step.",
+        "**Finish it properly.** Reset the space.",
+        "**Do not skip the boring end.**",
+        "**Unfinished reads as not knowing.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "A mechanic talks through the job",
+      "text": "Watch anyone good work on a car and they narrate it. Not for show — it is how you prove you knew the order.",
+      "points": [
+        "**Naming the step** shows it was a decision.",
+        "**Silence looks like copying.**",
+        "**Say why**, not only what.",
+        "**Ten extra words** per step is enough."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Finishing a demonstration means completing the task and resetting the space.",
+        "answer": true,
+        "explain": "The reset is part of finishing, in TLE as at home. Leaving it moves the job to someone else."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good place to pause",
+      "text": "Part 2 is the portfolio and talking about your work. Then a review of the whole term."
+    },
+    {
+      "kind": "open",
+      "icon": "🗂️",
+      "eyebrow": "Part 2 · The portfolio",
+      "title": "You built this in week 10",
+      "text": "Gathered, chosen, renamed, arranged, captioned, backed up. This week you hand it over and talk about it."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Check it",
+      "title": "Six things before you submit",
+      "text": "Run this list once. Every item is something you can fix in ten minutes and cannot fix afterwards.",
+      "points": [
+        "**Every file renamed** to the convention.",
+        "**One folder per subject.**",
+        "**A caption on every piece.**",
+        "**A second copy** somewhere else."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "The build tour, not the screenshot",
+      "text": "Anyone can show a finished base. What makes it worth watching is the person saying why each part is where it is.",
+      "points": [
+        "**Showing is half.**",
+        "**Explaining the choice is the other half.**",
+        "**Without the why**, it is just files.",
+        "**Your captions are the why.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Talking about it",
+      "title": "Name the piece you improved",
+      "text": "If you are asked one question about the portfolio, this is the answer that shows the most about you.",
+      "points": [
+        "**Show the first version.**",
+        "**Say what was wrong with it.**",
+        "**Say what you changed.**",
+        "**No apologising.** State it plainly."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which portfolio piece says the most about you?",
+        "options": [
+          "The one you improved after feedback",
+          "The one with the highest mark",
+          "The longest one",
+          "The most recent one"
+        ],
+        "answerIndex": 0,
+        "explain": "Anyone can show a good piece. Showing a weak first attempt and what you did about it is harder."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "📈",
+      "eyebrow": "Your life mode",
+      "title": "This is the subject you will actually use",
+      "text": "Folding, filing, naming, backing up, finishing a job. None of it stops being useful when the term ends.",
+      "points": [
+        "**The exam is one afternoon.**",
+        "**The habits are the point.**",
+        "**Keep the folder structure** after this.",
+        "**Keep the night-before pack** too."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "A portfolio stored in one place only is finished and ready to submit.",
+        "answer": false,
+        "explain": "One copy is not a copy. A second copy somewhere else is the last step of building it."
+      }
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Lay everything out** before you start.",
+        "**Say the step, then do the step.**",
+        "**Finishing includes the reset.**",
+        "**Name the piece you improved.**"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "What does it mean to give something a home?",
+      "options": [
+        "It has one place it always lives",
+        "It is stored out of sight",
+        "It is used every day",
+        "It belongs to you"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 1. If you have to think about where it goes, it will not go there.",
+      "objective": "Recall the ten TLE topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the two-minute rule?",
+      "options": [
+        "If it takes under two minutes, do it now",
+        "Spend two minutes tidying each day",
+        "Wait two minutes before deciding",
+        "Give every job two minutes"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 1. Small jobs are what pile up into a job you cannot start.",
+      "objective": "Recall the ten TLE topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the difference between a routine and a schedule?",
+      "options": [
+        "A routine is an order of actions; a schedule attaches times",
+        "They are the same thing",
+        "A routine is written down; a schedule is not",
+        "A schedule is only for work"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 2. A task without a time attached tends not to get done.",
+      "objective": "Recall the ten TLE topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is clutter?",
+      "options": [
+        "A stack of undecided objects",
+        "Anything dirty",
+        "Too much furniture",
+        "Things you do not like"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 3. A pile can be perfectly clean and still be clutter.",
+      "objective": "Recall the ten TLE topics of the term"
+    },
+    {
+      "type": "truefalse",
+      "text": "You should organise a room first and declutter it afterwards.",
+      "answer": false,
+      "explain": "Week 3. The other way round. Tidy junk is still junk.",
+      "objective": "Recall the ten TLE topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "How often should bedding be changed?",
+      "options": [
+        "About once a week",
+        "When it looks dirty",
+        "Once a month",
+        "Every day"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 4. Most of what accumulates is invisible, so appearance is a poor guide.",
+      "objective": "Recall the ten TLE topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What kind of room is easiest to fall asleep in?",
+      "options": [
+        "A slightly cool one",
+        "A warm one",
+        "A brightly lit one",
+        "One with a screen on"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 4. Light, temperature and screens all change how quickly sleep arrives.",
+      "objective": "Recall the ten TLE topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Why should knitwear be folded rather than hung?",
+      "options": [
+        "It stretches out of shape on a hanger",
+        "It takes less space folded",
+        "It creases on a hanger",
+        "Hangers damage the colour"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 5. What to hang and what to fold is decided by the fabric, not by space.",
+      "objective": "Recall the ten TLE topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Why is laundry sorted before washing?",
+      "options": [
+        "To stop dye transferring between items",
+        "To make it look tidier",
+        "To save water",
+        "To make folding easier"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 5. One new red item can change the colour of a whole load.",
+      "objective": "Recall the ten TLE topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "When should you say a supply is running low?",
+      "options": [
+        "When you open the last one",
+        "When it is completely empty",
+        "At the end of the month",
+        "Only if someone asks"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 6. Opening the last one leaves time. Empty means someone has to fix it today.",
+      "objective": "Recall the ten TLE topics of the term"
+    },
+    {
+      "type": "truefalse",
+      "text": "A routine works because each step cues the next one.",
+      "answer": true,
+      "explain": "Week 6. That is why the order has to stay the same. It removes the decision.",
+      "objective": "Recall the ten TLE topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the main cost of a disorganised bag?",
+      "options": [
+        "Time spent searching",
+        "The weight of it",
+        "The price of folders",
+        "Wear on the zip"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 7. Nobody loses marks for a heavy bag.",
+      "objective": "Recall the ten TLE topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "When should the school bag be packed?",
+      "options": [
+        "The night before",
+        "In the morning",
+        "On the way to school",
+        "During the first lesson"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 7. Prepare when it is cheap. A school morning is the expensive part of the day.",
+      "objective": "Recall the ten TLE topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What order should a filename use?",
+      "options": [
+        "Date, then subject, then what it is",
+        "What it is, then the date",
+        "Subject only",
+        "Whatever is quickest"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 8. Written year-month-day, an alphabetical sort becomes a date sort.",
+      "objective": "Recall the ten TLE topics of the term"
+    },
+    {
+      "type": "truefalse",
+      "text": "A copy in a second folder on the same laptop counts as a backup.",
+      "answer": false,
+      "explain": "Week 8. A backup has to survive whatever kills the original. Same machine, same accident.",
+      "objective": "Recall the ten TLE topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the difference between archiving and deleting?",
+      "options": [
+        "Archiving keeps the file but moves it out of the way",
+        "They are the same",
+        "Archiving destroys the file",
+        "Deleting compresses the file"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 8. When you are unsure which to do, archive.",
+      "objective": "Recall the ten TLE topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "When is a cooking job actually finished?",
+      "options": [
+        "When the kitchen has been reset",
+        "When the food is served",
+        "When the pan is off the heat",
+        "When you have eaten"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 9. Leaving the mess moves the rest of the job to someone else.",
+      "objective": "Recall the ten TLE topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What turns a chore into a responsibility?",
+      "options": [
+        "It stops needing reminders",
+        "It gets harder",
+        "It takes longer",
+        "Someone pays you"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 9. Reminders mean the job is still theirs.",
+      "objective": "Recall the ten TLE topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Which part of doing laundry do people most often fail?",
+      "options": [
+        "The waiting between steps",
+        "Sorting the colours",
+        "Loading the machine",
+        "Choosing detergent"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 9. Wet clothes left in the drum start to smell. The work is easy; the timing is the skill.",
+      "objective": "Recall the ten TLE topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the first step in building a portfolio?",
+      "options": [
+        "Gather everything without judging it",
+        "Choose your best piece",
+        "Write the captions",
+        "Set up the backup"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 10. Two fast passes beat one slow careful one.",
+      "objective": "Recall the ten TLE topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Which three kinds of piece should a portfolio include?",
+      "options": [
+        "Best, hardest, and one you improved",
+        "Longest, shortest, newest",
+        "Three from one subject",
+        "Only high-scoring work"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 10. The improved one shows you can take a correction.",
+      "objective": "Recall the ten TLE topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What should the second line of a caption say?",
+      "options": [
+        "What you would change now",
+        "What mark it got",
+        "How long it took",
+        "Who helped you"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 10. It is the line a reader actually learns from.",
+      "objective": "Present the portfolio built in week 10"
+    },
+    {
+      "type": "multiple",
+      "text": "Why demonstrate a practical skill slowly?",
+      "options": [
+        "The assessor has to see each step happen",
+        "It is less tiring",
+        "It looks more careful",
+        "It uses less equipment"
+      ],
+      "answerIndex": 0,
+      "explain": "Normal speed hides the steps you are being marked on.",
+      "objective": "Demonstrate a practical skill so it can be marked"
+    },
+    {
+      "type": "truefalse",
+      "text": "Narrating each step while you demonstrate is worth doing.",
+      "answer": true,
+      "explain": "Naming the step shows it was a decision rather than something copied.",
+      "objective": "Explain a choice instead of only showing the result"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 11 in TLE is a performance assessment and showcase rather than a written paper, and it has two halves: demonstrating a practical skill from the term, and handing over the portfolio built in week 10. The deck's most useful idea is that a demonstration has to be slow enough to be watched and narrated enough to show the order was a decision — most students lose marks by working at their normal speed in silence. The submission checklist is deliberately made of things fixable in ten minutes. The closing card makes the honest case that this is the subject whose content he will still be using in ten years.",
+    "discussion": [
+      "Ask him to demonstrate one skill while narrating it, and time how much slower it is.",
+      "Ask him to run the six-item portfolio check before he submits anything.",
+      "Ask which piece he improved this term and what he changed.",
+      "Ask which habits from this term he intends to keep after the exam."
+    ],
+    "extension": "Have him teach one of the skills to someone else, start to finish. Teaching it exposes every step he was skipping.",
+    "misconceptions": [
+      "'Doing it fast shows you know it.' Speed hides the steps being marked.",
+      "'The demonstration ends when the task is done.' Finishing includes resetting the space.",
+      "'A portfolio is a folder of files.' Without captions it is just files; the captions are the reasoning.",
+      "'One copy is enough.' A second copy elsewhere is the final step of building it."
+    ]
+  }
+}

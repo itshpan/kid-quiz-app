@@ -1,0 +1,459 @@
+{
+  "id": "sci-w11",
+  "courseId": "science",
+  "courseTitle": "Science",
+  "week": 11,
+  "title": "Exam Week",
+  "subtitle": "Ten weeks, one paper. This is the practice run, and it is meant to be long.",
+  "estMinutes": 25,
+  "objectives": [
+    "Recall the ten Science topics of the term",
+    "Use retrieval practice instead of re-reading",
+    "Name the traps that cost the most marks",
+    "Read an exam question properly before answering",
+    "Sit a full-length mixed paper"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "📝",
+      "eyebrow": "Part 1 · Getting ready",
+      "title": "Everything from week 1 is back on the table",
+      "text": "Ten weeks, from the skeleton to distillation. The good news is that you have already learned all of it once."
+    },
+    {
+      "kind": "figure",
+      "figure": "sciExam",
+      "eyebrow": "The whole term",
+      "title": "Ten weeks, one tap each",
+      "text": "This is your revision sheet. The second line of each is the mistake that costs the mark."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "How to revise",
+      "title": "Testing yourself beats reading it again",
+      "text": "Re-reading feels productive because the page looks familiar. Familiar is not the same as remembered.",
+      "points": [
+        "**Close the notes.** Say the answer out loud.",
+        "**Then check.** That is retrieval practice.",
+        "**It feels harder** than reading, and it works better.",
+        "**The struggle is the part** that does the work."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which revision method actually builds memory?",
+        "options": [
+          "Closing the book and trying to recall the answer",
+          "Reading the notes through twice",
+          "Highlighting the important lines",
+          "Copying the notes out neatly"
+        ],
+        "answerIndex": 0,
+        "explain": "Retrieval practice. It feels harder than re-reading, and that difficulty is what makes it work."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Watching a playthrough is not practice",
+      "text": "You can watch someone clear a boss ten times and still lose to it. The controller has to be in your hands.",
+      "points": [
+        "**Watching builds recognition.**",
+        "**Playing builds the actual skill.**",
+        "**Reading notes is watching.**",
+        "**Answering questions is playing.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Spacing",
+      "title": "Four short sessions beat one long one",
+      "text": "The same total time, split across four days, produces more memory than one block the night before.",
+      "points": [
+        "**Twenty minutes, four times.**",
+        "**Forgetting a little between sessions** helps.",
+        "**Reloading it is the exercise.**",
+        "**Cramming works for a day**, then goes."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "One long revision session is better than the same time split across several days.",
+        "answer": false,
+        "explain": "Spacing wins. Forgetting a little between sessions is what makes reloading it strengthen the memory."
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good place to pause",
+      "text": "Part 2 is exam-room technique. The paper itself comes after that, and it is 24 questions."
+    },
+    {
+      "kind": "open",
+      "icon": "🔍",
+      "eyebrow": "Part 2 · In the exam",
+      "title": "Most lost marks are not lost to not knowing",
+      "text": "They are lost to answering a question that was not asked. The reading is a skill of its own."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Reading it",
+      "title": "Find the command word first",
+      "text": "Name, describe and explain want three different things. Answering the wrong one loses the mark even when the science is right.",
+      "points": [
+        "**Name:** one word or phrase.",
+        "**Describe:** what happens, in order.",
+        "**Explain:** why it happens. Use because.",
+        "**Compare:** both things, in one sentence."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Answering the wrong question is swinging at nothing",
+      "text": "The effort is real and it lands nowhere. Reading the question twice costs five seconds and saves the mark.",
+      "points": [
+        "**Read it once for the topic.**",
+        "**Read it again for the command word.**",
+        "**Then start writing.**",
+        "**Five seconds.** It is the cheapest habit here."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Stuck",
+      "title": "Never leave a multiple choice blank",
+      "text": "A blank scores zero for certain. A guess after crossing out two wrong options is far better than that.",
+      "points": [
+        "**Cross out what is definitely wrong.**",
+        "**Then choose from what is left.**",
+        "**Mark it and move on** if it is slow.",
+        "**Come back at the end**, not now."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What should you do with a question you cannot answer straight away?",
+        "options": [
+          "Mark it, move on, and come back at the end",
+          "Stay on it until it comes to you",
+          "Leave it blank and forget it",
+          "Answer a different question instead"
+        ],
+        "answerIndex": 0,
+        "explain": "Time spent stuck is time taken from questions you can do. Come back with whatever is left."
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "📈",
+      "eyebrow": "Your body mode",
+      "title": "Sleep is revision, not time off it",
+      "text": "Memory is filed overnight. An hour of sleep before the exam is usually worth more than an hour of cramming.",
+      "points": [
+        "**Nine hours** the night before.",
+        "**Eat something.** The brain runs on glucose.",
+        "**Water too.** Dehydration slows thinking.",
+        "**None of this is optional extra.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Staying up late to revise is a good trade the night before an exam.",
+        "answer": false,
+        "explain": "Memories are consolidated during sleep. Losing that usually costs more than the extra hour gains."
+      }
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Recap",
+      "title": "The four that matter",
+      "points": [
+        "**Test yourself.** Re-reading only feels like work.",
+        "**Space it out.** Four short beats one long.",
+        "**Find the command word** before answering.",
+        "**Never leave a multiple choice blank.**"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "How do muscles move a bone?",
+      "options": [
+        "They pull in pairs; one pulls while the other relaxes",
+        "One pushes and the other pulls",
+        "They inflate to change shape",
+        "They twist the bone directly"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 1. Muscles only pull. Straightening your arm is the triceps pulling, not the biceps pushing.",
+      "objective": "Recall the ten Science topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Which connects a muscle to a bone?",
+      "options": ["A tendon", "A ligament", "Cartilage", "A joint capsule"],
+      "answerIndex": 0,
+      "explain": "Week 1. A ligament connects bone to bone; a tendon connects muscle to bone.",
+      "objective": "Recall the ten Science topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Where are most nutrients absorbed?",
+      "options": ["The small intestine", "The stomach", "The large intestine", "The oesophagus"],
+      "answerIndex": 0,
+      "explain": "Week 2. The stomach breaks food down. Absorption happens in the small intestine.",
+      "objective": "Recall the ten Science topics of the term"
+    },
+    {
+      "type": "truefalse",
+      "text": "The large intestine is called large because it is longer than the small intestine.",
+      "answer": false,
+      "explain": "Week 2. It is wider but much shorter. The names refer to diameter.",
+      "objective": "Recall the ten Science topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "How does sweating cool the body?",
+      "options": [
+        "It evaporates from the skin and carries heat away",
+        "It is cold when it leaves the body",
+        "It makes the skin thicker",
+        "It slows the heart rate"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 3. Wiping sweat away removes the cooling before it can happen.",
+      "objective": "Recall the ten Science topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What happens to the diaphragm when you breathe in?",
+      "options": [
+        "It flattens and moves down, so chest pressure drops",
+        "It rises into a dome and pushes air in",
+        "It stays still while the ribs do the work",
+        "It seals the airway"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 4. You do not suck air in. Pressure falls and the atmosphere pushes air down.",
+      "objective": "Recall the ten Science topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Where does gas exchange happen?",
+      "options": ["In the alveoli only", "All the way down the airway", "In the bronchi", "In the trachea"],
+      "answerIndex": 0,
+      "explain": "Week 4. Everything above the alveoli is plumbing that carries air.",
+      "objective": "Recall the ten Science topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What do arteries have in common?",
+      "options": [
+        "They carry blood away from the heart",
+        "They always carry oxygen-rich blood",
+        "They always carry oxygen-poor blood",
+        "They have valves along their length"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 5. The pulmonary artery carries oxygen-poor blood, which is why the definition is direction.",
+      "objective": "Recall the ten Science topics of the term"
+    },
+    {
+      "type": "truefalse",
+      "text": "A reflex is a very fast decision made by the brain.",
+      "answer": false,
+      "explain": "Week 5. The spinal cord handles it. The brain finds out afterwards.",
+      "objective": "Recall the ten Science topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Roughly what share of animal species have no backbone?",
+      "options": ["About 95 percent", "About 50 percent", "About 20 percent", "About 5 percent"],
+      "answerIndex": 0,
+      "explain": "Week 6. Vertebrates are the small minority, and arthropods alone outnumber them many times over.",
+      "objective": "Recall the ten Science topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Which mammals lay eggs?",
+      "options": [
+        "The platypus and the echidna",
+        "No mammals lay eggs",
+        "All marsupials",
+        "Bats and whales"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 6. They are still mammals, which is why the class is not defined by live birth.",
+      "objective": "Recall the ten Science topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the difference between pollination and fertilisation?",
+      "options": [
+        "Pollination is pollen arriving; fertilisation is the cells joining",
+        "They are two words for the same event",
+        "Pollination happens only in animals",
+        "Fertilisation happens before pollination"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 7. Arrival then joining. The exam separates them almost every year.",
+      "objective": "Recall the ten Science topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What does the ovary of a flower become?",
+      "options": ["The fruit", "The seed", "The petal", "The stigma"],
+      "answerIndex": 0,
+      "explain": "Week 7. The ovules become the seeds; the ovary around them becomes the fruit.",
+      "objective": "Recall the ten Science topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Why does variation matter?",
+      "options": [
+        "Identical offspring share every weakness",
+        "It makes organisms larger",
+        "It speeds up reproduction",
+        "It removes the need for parents"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 7. Clones are not stronger for being identical. One threat can take all of them.",
+      "objective": "Recall the ten Science topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What separates a suspension from a colloid?",
+      "options": [
+        "A suspension settles on standing; a colloid does not",
+        "A suspension is cloudy and a colloid is clear",
+        "A colloid is a pure substance",
+        "A suspension passes through filter paper"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 8. Cloudiness is not the test. Milk is cloudy and does not settle, so it is a colloid.",
+      "objective": "Recall the ten Science topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What does the Tyndall effect show?",
+      "options": [
+        "A beam scatters in a colloid but passes through a solution",
+        "A liquid is boiling",
+        "A solid has dissolved completely",
+        "A mixture is a pure substance"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 8. It tells colloids and solutions apart in seconds.",
+      "objective": "Recall the ten Science topics of the term"
+    },
+    {
+      "type": "truefalse",
+      "text": "Nothing has chemically reacted in a mixture.",
+      "answer": true,
+      "explain": "Week 8. Each part keeps its own properties, which is why mixtures can be separated physically.",
+      "objective": "Recall the ten Science topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "In salt water, which is the solvent?",
+      "options": ["The water", "The salt", "Both equally", "Neither"],
+      "answerIndex": 0,
+      "explain": "Week 9. The solute dissolves; the solvent does the dissolving.",
+      "objective": "Recall the ten Science topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What does saturated mean?",
+      "options": [
+        "No more will dissolve at that temperature",
+        "The solution is very strong",
+        "The solution is cloudy",
+        "The solute has reacted"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 9. It is a limit, not a strength. Concentrated is the word for strong.",
+      "objective": "Recall the ten Science topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "Why do warm fizzy drinks go flat faster?",
+      "options": [
+        "Gases become less soluble as temperature rises",
+        "Gases become more soluble as temperature rises",
+        "Warm liquids are denser",
+        "The sugar dissolves faster"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 9. Heating dissolves more of most solids but less gas. That exception is examinable.",
+      "objective": "Recall the ten Science topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "How would you get pure water out of salt water?",
+      "options": ["Distillation", "Filtration", "Evaporation", "Decanting"],
+      "answerIndex": 0,
+      "explain": "Week 10. Distillation keeps the liquid. Evaporation would leave the salt and lose the water.",
+      "objective": "Recall the ten Science topics of the term"
+    },
+    {
+      "type": "truefalse",
+      "text": "Filtering can separate salt from a salt solution.",
+      "answer": false,
+      "explain": "Week 10. Filtering only catches undissolved solids. A solution passes straight through.",
+      "objective": "Recall the ten Science topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "A solution has 5 g of solute in 100 g of solution. What is the concentration?",
+      "options": ["5 percent", "20 percent", "0.5 percent", "95 percent"],
+      "answerIndex": 0,
+      "explain": "Week 10. Concentration is solute divided by the whole solution, not by the solvent.",
+      "objective": "Recall the ten Science topics of the term"
+    },
+    {
+      "type": "multiple",
+      "text": "What does boiling water actually do to make it safe?",
+      "options": [
+        "Kills microbes; dissolved substances stay behind",
+        "Removes dissolved chemicals",
+        "Filters out solids",
+        "Adds oxygen to the water"
+      ],
+      "answerIndex": 0,
+      "explain": "Week 10. Boiling is a biological fix, not a chemical one.",
+      "objective": "Recall the ten Science topics of the term"
+    }
+  ],
+  "teacher": {
+    "summary": "Week 11 is exam week. The deck deliberately teaches no new Science: it is half revision method and half exam technique, both of which are the actual bottleneck at this stage. The two study claims are the best-evidenced findings in the field — retrieval practice beats re-reading, and spaced sessions beat one block — and they are given with the reason rather than as instructions. The figure is the real artifact here: ten taps, each giving the week's core fact and the specific error that loses the mark, mined from the misconception list of every lesson this term. The quiz is a full 24-question mixed paper covering all ten weeks, and the deck warns him of its length in advance rather than surprising him with it.",
+    "discussion": [
+      "Ask him to say what each of the ten weeks covered before he opens the figure. What is missing is the revision list.",
+      "Ask what the difference is between name, describe and explain in a question.",
+      "Ask him which three traps on the map he would most likely fall for.",
+      "After the paper, look only at the missed questions. The score is not the useful part."
+    ],
+    "extension": "Have him re-sit the paper two days later without revising in between. The gap is the point, and the second score is usually the honest one.",
+    "misconceptions": [
+      "'Re-reading notes is revising.' It builds familiarity, not recall. Closing the book is what works.",
+      "'Cramming the night before is efficient.' It holds for about a day. Spaced sessions hold for the exam.",
+      "'A blank answer is safer than a guess.' A blank scores zero for certain.",
+      "'Sleep is time taken away from revision.' Memory is consolidated overnight, so the trade usually loses."
+    ]
+  }
+}
