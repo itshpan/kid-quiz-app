@@ -112,15 +112,15 @@
       "kind": "checkpoint",
       "question": {
         "type": "multiple",
-        "text": "Baguhin sa di-karaniwang ayos: \"Umuulan sa Maynila.\"",
+        "text": "Baguhin sa di-karaniwang ayos: \"Naglalaro ang bata sa parke.\"",
         "options": [
-          "Sa Maynila ay umuulan.",
-          "Umuulan ay sa Maynila.",
-          "Ay umuulan sa Maynila.",
-          "Sa Maynila umuulan ay."
+          "Ang bata ay naglalaro sa parke.",
+          "Naglalaro ay ang bata sa parke.",
+          "Ay naglalaro ang bata sa parke.",
+          "Sa parke ang bata ay naglalaro."
         ],
         "answerIndex": 0,
-        "explain": "Iuuna ang bahaging binibigyang-diin, at ilalagay ang \"ay\" pagkatapos nito."
+        "explain": "Iuuna ang simuno, at ilalagay ang \"ay\" pagkatapos nito. Walang ibang binabago."
       }
     },
     {
@@ -215,13 +215,34 @@
       "kind": "terms",
       "title": "Mga salitang gagamitin sa pagsusulit",
       "terms": [
-        { "term": "simuno", "def": "Ang paksa ng pangungusap. Sino o ano ang pinag-uusapan." },
-        { "term": "panaguri", "def": "Ang sinasabi tungkol sa simuno." },
-        { "term": "karaniwang ayos", "def": "Panaguri muna, simuno sa huli. Walang panandang ay." },
-        { "term": "di-karaniwang ayos", "def": "Simuno muna, may panandang ay bago ang panaguri." },
-        { "term": "panandang ay", "def": "Ang maliit na salitang tanda ng di-karaniwang ayos." },
-        { "term": "Sigaw sa Pugad Lawin", "def": "Agosto 1896. Pinunit ang cedula at nagsimula ang himagsikan." },
-        { "term": "walong sinag", "def": "Ang walong lalawigang unang inilagay sa batas militar noong 1896." }
+        {
+          "term": "simuno",
+          "def": "Ang paksa ng pangungusap. Sino o ano ang pinag-uusapan."
+        },
+        {
+          "term": "panaguri",
+          "def": "Ang sinasabi tungkol sa simuno."
+        },
+        {
+          "term": "karaniwang ayos",
+          "def": "Panaguri muna, simuno sa huli. Walang panandang ay."
+        },
+        {
+          "term": "di-karaniwang ayos",
+          "def": "Simuno muna, may panandang ay bago ang panaguri."
+        },
+        {
+          "term": "panandang ay",
+          "def": "Ang maliit na salitang tanda ng di-karaniwang ayos."
+        },
+        {
+          "term": "Sigaw sa Pugad Lawin",
+          "def": "Agosto 1896. Pinunit ang cedula at nagsimula ang himagsikan."
+        },
+        {
+          "term": "walong sinag",
+          "def": "Ang walong lalawigang unang inilagay sa batas militar noong 1896."
+        }
       ]
     },
     {

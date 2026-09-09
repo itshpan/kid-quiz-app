@@ -61,9 +61,9 @@
       "title": "Isang tanong, sunod-sunod",
       "text": "Huwag mong hulaan. Itanong mo ito sa sarili mo, sa ganitong pagkakasunod-sunod.",
       "points": [
-        "**May inuulit ba?** Kung oo — inuulit.",
-        "**May dalawang ugat ba?** Kung oo — tambalan.",
+        "**May dalawang magkaibang ugat ba?** Kung oo — tambalan.",
         "**May panlapi ba?** Kung oo — maylapi.",
+        "**May pag-uulit ba?** Kung oo — inuulit.",
         "**Wala sa lahat?** Payak."
       ]
     },
@@ -215,14 +215,38 @@
       "kind": "terms",
       "title": "Mga salitang gagamitin sa pagsusulit",
       "terms": [
-        { "term": "kayarian ng salita", "def": "Ang uri ng salita ayon sa pagkakabuo nito: payak, maylapi, inuulit o tambalan." },
-        { "term": "payak", "def": "Salitang-ugat lamang, walang panlapi at walang pag-uulit." },
-        { "term": "maylapi", "def": "Salitang may panlapi sa ugat." },
-        { "term": "inuulit", "def": "Salitang inulit ang buo o bahagi. Magkatulad ang dalawang bahagi." },
-        { "term": "tambalan", "def": "Dalawang magkaibang salitang-ugat na pinagsama." },
-        { "term": "cedula", "def": "Patunay ng pagbabayad ng buwis. Kailangang dalhin kahit saan." },
-        { "term": "polo", "def": "Sapilitang paggawa para sa gobyernong Espanyol." },
-        { "term": "Sigaw sa Pugad Lawin", "def": "Agosto 1896. Pinunit ng mga Katipunero ang kanilang cedula." }
+        {
+          "term": "kayarian ng salita",
+          "def": "Ang uri ng salita ayon sa pagkakabuo nito: payak, maylapi, inuulit o tambalan."
+        },
+        {
+          "term": "payak",
+          "def": "Salitang-ugat lamang, walang panlapi at walang pag-uulit."
+        },
+        {
+          "term": "maylapi",
+          "def": "Salitang may panlapi sa ugat."
+        },
+        {
+          "term": "inuulit",
+          "def": "Salitang inulit ang buo o bahagi. Magkatulad ang dalawang bahagi."
+        },
+        {
+          "term": "tambalan",
+          "def": "Dalawang magkaibang salitang-ugat na pinagsama."
+        },
+        {
+          "term": "cedula",
+          "def": "Patunay ng pagbabayad ng buwis. Kailangang dalhin kahit saan."
+        },
+        {
+          "term": "polo",
+          "def": "Sapilitang paggawa para sa gobyernong Espanyol."
+        },
+        {
+          "term": "Sigaw sa Pugad Lawin",
+          "def": "Agosto 1896. Pinunit ng mga Katipunero ang kanilang cedula."
+        }
       ]
     },
     {
@@ -307,12 +331,12 @@
       "type": "order",
       "text": "Isaayos ang mga tanong sa pag-uuri, mula sa una.",
       "items": [
-        "May inuulit ba?",
-        "May dalawang ugat ba?",
+        "May dalawang magkaibang ugat ba?",
         "May panlapi ba?",
+        "May pag-uulit ba?",
         "Wala sa lahat — payak"
       ],
-      "explain": "Sunod-sunod ang tanong, at ang payak ang natitira kapag wala nang ibang sagot.",
+      "explain": "Panlapi bago pag-uulit, kaya ang \"naglalaro\" ay maylapi at hindi inuulit.",
       "objective": "Magamit ang isang tanong upang mauri ang anumang salita"
     },
     {

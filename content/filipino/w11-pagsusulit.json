@@ -194,7 +194,12 @@
     {
       "type": "multiple",
       "text": "Ilan ang letra sa alpabetong Filipino?",
-      "options": ["28", "26", "20", "31"],
+      "options": [
+        "28",
+        "26",
+        "20",
+        "31"
+      ],
       "answerIndex": 0,
       "explain": "Linggo 1. Kasama ang Ñ at ang NG.",
       "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
@@ -202,7 +207,12 @@
     {
       "type": "multiple",
       "text": "Ilang patinig ang nasa isang pantig?",
-      "options": ["Isa lamang", "Dalawa", "Tatlo", "Nagbabago-bago"],
+      "options": [
+        "Isa lamang",
+        "Dalawa",
+        "Tatlo",
+        "Nagbabago-bago"
+      ],
       "answerIndex": 0,
       "explain": "Linggo 1. Kaya kapag bumibilang ka ng pantig, ang patinig ang bilangin mo.",
       "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
@@ -223,7 +233,12 @@
     {
       "type": "multiple",
       "text": "Anong kayarian ang salitang \"bahay-bahay\"?",
-      "options": ["Inuulit", "Payak", "Maylapi", "Tambalan"],
+      "options": [
+        "Inuulit",
+        "Payak",
+        "Maylapi",
+        "Tambalan"
+      ],
       "answerIndex": 0,
       "explain": "Linggo 3. Magkatulad ang dalawang bahagi, kaya inuulit ito at hindi tambalan.",
       "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
@@ -231,7 +246,12 @@
     {
       "type": "multiple",
       "text": "Anong kayarian ang \"hampaslupa\"?",
-      "options": ["Tambalan", "Inuulit", "Payak", "Maylapi"],
+      "options": [
+        "Tambalan",
+        "Inuulit",
+        "Payak",
+        "Maylapi"
+      ],
       "answerIndex": 0,
       "explain": "Linggo 3. Magkaiba ang dalawang salitang pinagsama, kaya tambalan ito.",
       "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
@@ -252,7 +272,12 @@
     {
       "type": "multiple",
       "text": "Anong kayarian ang pangungusap na may isang punong sugnay lamang?",
-      "options": ["Payak", "Tambalan", "Hugnayan", "Langkapan"],
+      "options": [
+        "Payak",
+        "Tambalan",
+        "Hugnayan",
+        "Langkapan"
+      ],
       "answerIndex": 0,
       "explain": "Linggo 5. Bilangin ang sugnay bago sumagot. Iyon ang buong paraan.",
       "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
@@ -260,7 +285,12 @@
     {
       "type": "multiple",
       "text": "Anong kayarian ang may punong sugnay at palipong sugnay?",
-      "options": ["Hugnayan", "Payak", "Tambalan", "Langkapan"],
+      "options": [
+        "Hugnayan",
+        "Payak",
+        "Tambalan",
+        "Langkapan"
+      ],
       "answerIndex": 0,
       "explain": "Linggo 5. Ang tambalan ay dalawang punong sugnay; ang langkapan ay pinagsama ang dalawa.",
       "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
@@ -268,7 +298,12 @@
     {
       "type": "multiple",
       "text": "Anong uri ito: \"Pakikuha nga ng tubig.\"",
-      "options": ["Pakiusap", "Pautos", "Patanong", "Padamdam"],
+      "options": [
+        "Pakiusap",
+        "Pautos",
+        "Patanong",
+        "Padamdam"
+      ],
       "answerIndex": 0,
       "explain": "Linggo 6. Ang \"paki-\" at ang \"nga\" ang senyas ng pakiusap.",
       "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
@@ -276,7 +311,12 @@
     {
       "type": "multiple",
       "text": "Anong bantas ang ginagamit sa pangungusap na patanong?",
-      "options": ["Tandang pananong", "Tuldok", "Kuwit", "Tandang padamdam"],
+      "options": [
+        "Tandang pananong",
+        "Tuldok",
+        "Kuwit",
+        "Tandang padamdam"
+      ],
       "answerIndex": 0,
       "explain": "Linggo 6. Ang bantas sa dulo ang unang senyas ng uri ng pangungusap.",
       "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
@@ -295,16 +335,27 @@
       "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
     },
     {
-      "type": "truefalse",
-      "text": "Walang paksa ang pangungusap na \"Tumakbo ka!\"",
-      "answer": false,
-      "explain": "Linggo 7. May paksa ang pautos: ikaw. Hindi lamang ito binabanggit.",
-      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+      "type": "multiple",
+      "text": "Alin ang HINDI pangungusap na walang paksa?",
+      "explain": "Linggo 7. May paksa ito: ang ulo ko. Ang tatlong iba ay walang paksa.",
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino",
+      "options": [
+        "Masakit ang ulo ko.",
+        "Umuulan.",
+        "Tumahimik!",
+        "Tanghali na."
+      ],
+      "answerIndex": 0
     },
     {
       "type": "multiple",
       "text": "Anong uri ng pangngalan ang \"katapangan\"?",
-      "options": ["Basal", "Tahas", "Pantangi", "Palansak"],
+      "options": [
+        "Basal",
+        "Tahas",
+        "Pantangi",
+        "Palansak"
+      ],
       "answerIndex": 0,
       "explain": "Linggo 8. Hindi mo ito kayang hawakan. Ideya ito.",
       "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
@@ -312,7 +363,12 @@
     {
       "type": "multiple",
       "text": "Anong uri ang \"kawan\"?",
-      "options": ["Palansak", "Pantangi", "Basal", "Maramihan"],
+      "options": [
+        "Palansak",
+        "Pantangi",
+        "Basal",
+        "Maramihan"
+      ],
       "answerIndex": 0,
       "explain": "Linggo 8. Isahan ang anyo ngunit pangkat ang tinutukoy.",
       "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
@@ -320,7 +376,12 @@
     {
       "type": "multiple",
       "text": "Anong kasarian ang \"guro\"?",
-      "options": ["Di-tiyak", "Pambabae", "Panlalaki", "Walang kasarian"],
+      "options": [
+        "Di-tiyak",
+        "Pambabae",
+        "Panlalaki",
+        "Walang kasarian"
+      ],
       "answerIndex": 0,
       "explain": "Linggo 9. Maaaring lalaki o babae. Ang inaasahan ay hindi gramatika.",
       "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
@@ -328,7 +389,12 @@
     {
       "type": "multiple",
       "text": "Saan galing ang mga pares na tulad ng \"aktor\" at \"aktres\"?",
-      "options": ["Espanyol", "Ingles", "Tsino", "Malay"],
+      "options": [
+        "Espanyol",
+        "Ingles",
+        "Tsino",
+        "Malay"
+      ],
       "answerIndex": 0,
       "explain": "Linggo 9. Ang -o ay panlalaki at ang -a ay pambabae sa Espanyol.",
       "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
@@ -336,7 +402,12 @@
     {
       "type": "multiple",
       "text": "Alin ang tamang maramihan?",
-      "options": ["mga aklat", "mga aklat-aklat", "aklat mga", "mga mga aklat"],
+      "options": [
+        "mga aklat",
+        "mga aklat-aklat",
+        "aklat mga",
+        "mga mga aklat"
+      ],
       "answerIndex": 0,
       "explain": "Linggo 10. Isang senyas lamang. Huwag doblehin.",
       "objective": "Matukoy ang mga karaniwang pagkakamali"
@@ -344,7 +415,12 @@
     {
       "type": "multiple",
       "text": "Ano ang ibig sabihin ng \"araw-araw\"?",
-      "options": ["Tuwing araw", "Maraming araw", "Dalawang araw", "Mahabang araw"],
+      "options": [
+        "Tuwing araw",
+        "Maraming araw",
+        "Dalawang araw",
+        "Mahabang araw"
+      ],
       "answerIndex": 0,
       "explain": "Linggo 10. Ang pag-uulit ay nagbibigay ng ibang kahulugan, hindi ng dami.",
       "objective": "Matukoy ang mga karaniwang pagkakamali"

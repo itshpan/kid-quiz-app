@@ -29,7 +29,7 @@
       "points": [
         "**A B C D E F G H I J K L M N**",
         "**Ñ NG O P Q R S T U V W X Y Z**",
-        "**Ang Ñ at NG** ay mga letra rin, hindi tambalan.",
+        "**Isang letra** ang Ñ, at isang letra rin ang NG.",
         "**Idinagdag ang C, F, J, Ñ, Q, V, X at Z** noong 1987."
       ]
     },
@@ -133,10 +133,10 @@
         "type": "multiple",
         "text": "Alin ang tamang baybay?",
         "options": [
-          "ika-5 na palapag",
-          "ika 5 na palapag",
-          "ika5 na palapag",
-          "ika--5 na palapag"
+          "ika-5 palapag",
+          "ika 5 palapag",
+          "ika5 palapag",
+          "ika--5 palapag"
         ],
         "answerIndex": 0,
         "explain": "May gitling sa pagitan ng unlaping ika- at ng bilang. Kung baybay naman: ikalima, walang gitling."
@@ -240,15 +240,42 @@
       "kind": "terms",
       "title": "Mga salitang gagamitin sa pagsusulit",
       "terms": [
-        { "term": "ortograpiya", "def": "Ang sistema at tuntunin ng pagsulat ng isang wika." },
-        { "term": "Alpabetong Filipino", "def": "Ang 28 letra ng kasalukuyang alpabeto, kasama ang Ñ at NG." },
-        { "term": "Abakada", "def": "Ang lumang alpabeto na may 20 letra lamang." },
-        { "term": "patinig", "def": "a, e, i, o, u. Kailangan ng bawat pantig ng isa." },
-        { "term": "katinig", "def": "Lahat ng letrang hindi patinig, kasama ang Ñ at NG." },
-        { "term": "pantig", "def": "Ang pinakamaliit na yunit ng tunog. Isang patinig kada pantig." },
-        { "term": "gitling", "def": "Ang maliit na guhit sa araw-araw, ika-10, maka-Diyos at de-lata." },
-        { "term": "tagpuan", "def": "Ang lugar at panahon ng isang kuwento." },
-        { "term": "tauhan", "def": "Ang mga karakter sa isang kuwento." }
+        {
+          "term": "ortograpiya",
+          "def": "Ang sistema at tuntunin ng pagsulat ng isang wika."
+        },
+        {
+          "term": "Alpabetong Filipino",
+          "def": "Ang 28 letra ng kasalukuyang alpabeto, kasama ang Ñ at NG."
+        },
+        {
+          "term": "Abakada",
+          "def": "Ang lumang alpabeto na may 20 letra lamang."
+        },
+        {
+          "term": "patinig",
+          "def": "a, e, i, o, u. Kailangan ng bawat pantig ng isa."
+        },
+        {
+          "term": "katinig",
+          "def": "Lahat ng letrang hindi patinig, kasama ang Ñ at NG."
+        },
+        {
+          "term": "pantig",
+          "def": "Ang pinakamaliit na yunit ng tunog. Isang patinig kada pantig."
+        },
+        {
+          "term": "gitling",
+          "def": "Ang maliit na guhit sa araw-araw, ika-10, maka-Diyos at de-lata."
+        },
+        {
+          "term": "tagpuan",
+          "def": "Ang lugar at panahon ng isang kuwento."
+        },
+        {
+          "term": "tauhan",
+          "def": "Ang mga karakter sa isang kuwento."
+        }
       ]
     },
     {
@@ -287,7 +314,7 @@
         "Y"
       ],
       "answerIndex": 0,
-      "explain": "Ang NG at ang Ñ ay mga letra sa Filipino. Hindi sila tambalan ng dalawang letra.",
+      "explain": "Ang NG at ang Ñ ay mga letra sa Filipino. Bawat isa sa kanila ay isang letra.",
       "objective": "Mabilang ang mga letra ng Alpabetong Filipino"
     },
     {

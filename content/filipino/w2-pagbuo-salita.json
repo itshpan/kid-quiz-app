@@ -149,7 +149,7 @@
       "kind": "idea",
       "eyebrow": "Hulyo 1892",
       "title": "Bakit lihim ang Katipunan",
-      "text": "Ipinatapon si Rizal tatlong araw matapos niyang itatag ang isang mapayapang samahan. Malinaw ang aral doon.",
+      "text": "Inaresto si Rizal tatlong araw matapos niyang itatag ang isang mapayapang samahan. Malinaw ang aral doon.",
       "points": [
         "**Kahit ang mahinahong paghingi** ay ipinagbabawal na.",
         "**Kaya lihim ang itinatag** noong 7 Hulyo 1892.",
@@ -229,15 +229,42 @@
       "kind": "terms",
       "title": "Mga salitang gagamitin sa pagsusulit",
       "terms": [
-        { "term": "salitang-ugat", "def": "Ang salitang walang panlapi. Ito ang natitira kapag tinanggal ang lahat ng dagdag." },
-        { "term": "panlapi", "def": "Ang idinadagdag sa salitang-ugat para makabuo ng bagong salita." },
-        { "term": "unlapi", "def": "Panlaping nasa unahan ng ugat. Halimbawa: mag-, nag-, ka-." },
-        { "term": "gitlapi", "def": "Panlaping pumapasok sa loob ng ugat. Halimbawa: -um-, -in-." },
-        { "term": "hulapi", "def": "Panlaping nasa hulihan ng ugat. Halimbawa: -an, -in." },
-        { "term": "kabilaan", "def": "May panlapi sa unahan at sa hulihan. Halimbawa: pagsulatan." },
-        { "term": "pag-uulit", "def": "Pag-ulit sa buo o bahagi ng salita. Halimbawa: araw-araw, tatakbo." },
-        { "term": "pagtatambal", "def": "Pagsasama ng dalawang salitang-ugat. Halimbawa: hampaslupa." },
-        { "term": "sagisag-panulat", "def": "Pangalang ginagamit sa pagsulat imbes na ang tunay na pangalan." }
+        {
+          "term": "salitang-ugat",
+          "def": "Ang salitang walang panlapi. Ito ang natitira kapag tinanggal ang lahat ng dagdag."
+        },
+        {
+          "term": "panlapi",
+          "def": "Ang idinadagdag sa salitang-ugat para makabuo ng bagong salita."
+        },
+        {
+          "term": "unlapi",
+          "def": "Panlaping nasa unahan ng ugat. Halimbawa: mag-, nag-, ka-."
+        },
+        {
+          "term": "gitlapi",
+          "def": "Panlaping pumapasok sa loob ng ugat. Halimbawa: -um-, -in-."
+        },
+        {
+          "term": "hulapi",
+          "def": "Panlaping nasa hulihan ng ugat. Halimbawa: -an, -in."
+        },
+        {
+          "term": "kabilaan",
+          "def": "May panlapi sa unahan at sa hulihan. Halimbawa: pagsulatan."
+        },
+        {
+          "term": "pag-uulit",
+          "def": "Pag-ulit sa buo o bahagi ng salita. Halimbawa: araw-araw, tatakbo."
+        },
+        {
+          "term": "pagtatambal",
+          "def": "Pagsasama ng dalawang salitang-ugat. Halimbawa: hampaslupa."
+        },
+        {
+          "term": "sagisag-panulat",
+          "def": "Pangalang ginagamit sa pagsulat imbes na ang tunay na pangalan."
+        }
       ]
     },
     {
@@ -358,7 +385,7 @@
         "Enero 1899"
       ],
       "answerIndex": 0,
-      "explain": "7 Hulyo 1892, sa Tondo, ilang araw matapos arestuhin si Rizal.",
+      "explain": "7 Hulyo 1892, sa Tondo, kinabukasan matapos arestuhin si Rizal.",
       "objective": "Maisulat ang tatlong tanong sa pagbasa ng Supremo"
     },
     {

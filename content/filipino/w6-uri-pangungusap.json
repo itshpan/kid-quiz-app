@@ -45,7 +45,12 @@
       "question": {
         "type": "multiple",
         "text": "Anong uri ito: \"Saan galing ang bola?\"",
-        "options": ["Patanong", "Pasalaysay", "Pautos", "Padamdam"],
+        "options": [
+          "Patanong",
+          "Pasalaysay",
+          "Pautos",
+          "Padamdam"
+        ],
         "answerIndex": 0,
         "explain": "Nagtatanong ito at may tandang pananong sa dulo. Iyon ang dalawang senyas."
       }
@@ -101,7 +106,7 @@
       "icon": "📖",
       "eyebrow": "Bahagi 2 · Kasaysayan",
       "title": "Ano ang nangyari pagkamatay ni Bonifacio?",
-      "text": "Hindi natapos ang himagsikan noong Mayo 1897. Nagpatuloy ito nang apat pang taon sa ilalim ng ibang pamunuan."
+      "text": "Hindi natapos ang himagsikan noong Mayo 1897. Nagpatuloy ang laban nang limang taon pa sa ilalim ng ibang pamunuan."
     },
     {
       "kind": "idea",
@@ -183,12 +188,30 @@
       "kind": "terms",
       "title": "Mga salitang lalabas sa pagsusulit",
       "terms": [
-        { "term": "pasalaysay", "def": "Nagsasabi ng impormasyon. Tuldok ang bantas." },
-        { "term": "patanong", "def": "Nagtatanong. Tandang pananong ang bantas." },
-        { "term": "pautos", "def": "Nag-uutos. Malakas ang tono." },
-        { "term": "pakiusap", "def": "Magalang na hiling. May \"paki-\" o \"nga\"." },
-        { "term": "padamdam", "def": "Bulalas ng matinding damdamin. Tandang padamdam." },
-        { "term": "Biak-na-Bato", "def": "Kasunduan noong Disyembre 1897. Ipinatapon ang mga pinuno sa Hong Kong." }
+        {
+          "term": "pasalaysay",
+          "def": "Nagsasabi ng impormasyon. Tuldok ang bantas."
+        },
+        {
+          "term": "patanong",
+          "def": "Nagtatanong. Tandang pananong ang bantas."
+        },
+        {
+          "term": "pautos",
+          "def": "Nag-uutos. Malakas ang tono."
+        },
+        {
+          "term": "pakiusap",
+          "def": "Magalang na hiling. May \"paki-\" o \"nga\"."
+        },
+        {
+          "term": "padamdam",
+          "def": "Bulalas ng matinding damdamin. Tandang padamdam."
+        },
+        {
+          "term": "Biak-na-Bato",
+          "def": "Kasunduan noong Disyembre 1897. Ipinatapon ang mga pinuno sa Hong Kong."
+        }
       ]
     },
     {
@@ -199,7 +222,7 @@
         "**Tingnan mo ang bantas** bago ang iba.",
         "**Pautos at pakiusap:** \"paki-\" at \"nga\".",
         "**Si Aguinaldo** ang sumunod na pinuno.",
-        "**Biak-na-Bato, Disyembre 1897.**"
+        "**Kasunduan sa Biak-na-Bato**, Disyembre 1897."
       ]
     }
   ],
@@ -207,7 +230,12 @@
     {
       "type": "multiple",
       "text": "Anong uri ito: \"Naglalakad ang mga bata papuntang paaralan.\"",
-      "options": ["Pasalaysay", "Patanong", "Pautos", "Padamdam"],
+      "options": [
+        "Pasalaysay",
+        "Patanong",
+        "Pautos",
+        "Padamdam"
+      ],
       "answerIndex": 0,
       "explain": "Nagsasabi ito ng impormasyon at may tuldok sa dulo.",
       "objective": "Matukoy ang pasalaysay, patanong, pautos, pakiusap at padamdam"
@@ -215,7 +243,12 @@
     {
       "type": "multiple",
       "text": "Anong bantas ang ginagamit sa patanong?",
-      "options": ["Tandang pananong", "Tuldok", "Kuwit", "Tutuldok"],
+      "options": [
+        "Tandang pananong",
+        "Tuldok",
+        "Kuwit",
+        "Tutuldok"
+      ],
       "answerIndex": 0,
       "explain": "Ang bantas sa dulo ang unang senyas ng uri ng pangungusap.",
       "objective": "Magamit ang tamang bantas sa bawat uri"
@@ -223,7 +256,12 @@
     {
       "type": "multiple",
       "text": "Anong uri ito: \"Ang ganda ng laro kagabi!\"",
-      "options": ["Padamdam", "Pasalaysay", "Pautos", "Pakiusap"],
+      "options": [
+        "Padamdam",
+        "Pasalaysay",
+        "Pautos",
+        "Pakiusap"
+      ],
       "answerIndex": 0,
       "explain": "Nagpapahayag ito ng matinding damdamin, at tandang padamdam ang bantas.",
       "objective": "Matukoy ang pasalaysay, patanong, pautos, pakiusap at padamdam"
@@ -264,7 +302,12 @@
     {
       "type": "multiple",
       "text": "Anong uri ito: \"Pakisara nga ang bintana.\"",
-      "options": ["Pakiusap", "Pautos", "Patanong", "Pasalaysay"],
+      "options": [
+        "Pakiusap",
+        "Pautos",
+        "Patanong",
+        "Pasalaysay"
+      ],
       "answerIndex": 0,
       "explain": "May \"paki-\" at may \"nga\". Magalang na hiling ito.",
       "objective": "Makabuo ng pangungusap sa bawat uri"
@@ -272,7 +315,12 @@
     {
       "type": "multiple",
       "text": "Sino ang namuno sa himagsikan pagkamatay ni Bonifacio?",
-      "options": ["Emilio Aguinaldo", "Apolinario Mabini", "Antonio Luna", "Jose Rizal"],
+      "options": [
+        "Emilio Aguinaldo",
+        "Apolinario Mabini",
+        "Antonio Luna",
+        "Jose Rizal"
+      ],
       "answerIndex": 0,
       "explain": "Napunta sa kanya ang pamumuno pagkatapos ng Tejeros.",
       "objective": "Malaman kung ano ang nangyari sa Katipunan pagkamatay ni Bonifacio"
@@ -293,7 +341,12 @@
     {
       "type": "multiple",
       "text": "Saan ipinatapon ang mga pinuno matapos ang Kasunduan sa Biak-na-Bato?",
-      "options": ["Hong Kong", "Espanya", "Mindanao", "Amerika"],
+      "options": [
+        "Hong Kong",
+        "Espanya",
+        "Mindanao",
+        "Amerika"
+      ],
       "answerIndex": 0,
       "explain": "Disyembre 1897, at may kasamang bayad na pera sa kasunduan.",
       "objective": "Malaman kung ano ang nangyari sa Katipunan pagkamatay ni Bonifacio"
@@ -308,7 +361,12 @@
     {
       "type": "multiple",
       "text": "Hanggang kailan tumagal ang mga labanan ng himagsikan at ng digmaan pagkatapos nito?",
-      "options": ["Hanggang 1902", "Hanggang 1897", "Hanggang 1898", "Hanggang 1946"],
+      "options": [
+        "Hanggang 1902",
+        "Hanggang 1897",
+        "Hanggang 1898",
+        "Hanggang 1946"
+      ],
       "answerIndex": 0,
       "explain": "Sumunod ang Digmaang Pilipino-Amerikano, na ipinahayag na tapos noong Hulyo 1902.",
       "objective": "Malaman kung ano ang nangyari sa Katipunan pagkamatay ni Bonifacio"

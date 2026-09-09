@@ -58,13 +58,13 @@
     {
       "kind": "idea",
       "eyebrow": "Mag-ingat",
-      "title": "Iba ang walang paksa sa hindi binanggit na paksa",
-      "text": "Sa pautos, may paksa: ikaw. Hindi lang ito binabanggit. Sa walang paksa, wala talaga.",
+      "title": "Dalawang paraan ng pagiging walang paksa",
+      "text": "Pareho silang walang paksa sa papel. Magkaiba lamang kung may maaari bang ipasok na paksa.",
       "points": [
-        "**\"Tumakbo ka!\"** May paksa: ikaw.",
-        "**\"Tumakbo!\"** Nandoon pa rin ang ikaw.",
-        "**\"Umuulan.\"** Wala talagang sino.",
-        "**Itanong:** may maaari bang ilagay?"
+        "**\"Tumakbo!\"** May kausap ka. Hindi lang binabanggit.",
+        "**\"Umuulan.\"** Wala talagang maaaring ipasok.",
+        "**Pareho silang walang paksa** sa pag-uuri.",
+        "**Alam mo lang** kung bakit magkaiba sila."
       ]
     },
     {
@@ -109,7 +109,7 @@
       "text": "Nagdigmaan ang Estados Unidos at Espanya. Tinalo ni Komodoro Dewey ang hukbong-dagat ng Espanya sa Look ng Maynila.",
       "points": [
         "**Ika-1 ng Mayo 1898** ang labanan sa look.",
-        "**Bumalik si Aguinaldo** makalipas ang labing-siyam na araw.",
+        "**Bumalik si Aguinaldo** noong ika-19 ng Mayo 1898.",
         "**Sumibol muli ang himagsikan** sa buong bansa.",
         "**Iba ang layunin** ng bawat panig."
       ]
@@ -173,7 +173,7 @@
       "icon": "🚗",
       "eyebrow": "Sa sasakyan",
       "title": "Hindi mo pag-aari ang kotse hangga't wala ang papeles",
-      "text": "Maaari mong hawak ang susi at maaari kang makapagmaneho. Kung ang papeles ay nasa pangalan ng iba, hindi pa rin sa iyo.",
+      "text": "Maaaring nasa iyo ang susi at maaari kang makapagmaneho. Kung nasa pangalan ng iba ang papeles, hindi pa rin ito sa iyo.",
       "points": [
         "**Totoo ang deklarasyon** para sa mga Pilipino.",
         "**Hindi ito kinilala** ng ibang bansa.",
@@ -194,10 +194,22 @@
       "kind": "terms",
       "title": "Mga salitang lalabas sa pagsusulit",
       "terms": [
-        { "term": "pangungusap na walang paksa", "def": "Buong pangungusap na walang sinasabing gumagawa." },
-        { "term": "panaguri", "def": "Ang bahaging nagsasabi ng ginagawa o nangyayari." },
-        { "term": "Kawit", "def": "Bayan sa Cavite kung saan ipinahayag ang kalayaan noong 1898." },
-        { "term": "Kasunduan sa Paris", "def": "Disyembre 1898. Ibinenta ang Pilipinas sa halagang bente milyong dolyar." }
+        {
+          "term": "pangungusap na walang paksa",
+          "def": "Buong pangungusap na walang sinasabing gumagawa."
+        },
+        {
+          "term": "panaguri",
+          "def": "Ang bahaging nagsasabi ng ginagawa o nangyayari."
+        },
+        {
+          "term": "Kawit",
+          "def": "Bayan sa Cavite kung saan ipinahayag ang kalayaan noong 1898."
+        },
+        {
+          "term": "Kasunduan sa Paris",
+          "def": "Disyembre 1898. Ibinenta ang Pilipinas sa halagang bente milyong dolyar."
+        }
       ]
     },
     {
@@ -206,7 +218,7 @@
       "title": "Ang apat na mahalaga",
       "points": [
         "**Walang paksa** ay buo at tama.",
-        "**Itanong:** may maaari bang ilagay na paksa?",
+        "**Pautos man o panahon**, walang paksa pa rin.",
         "**Ika-12 ng Hunyo 1898**, sa Kawit.",
         "**Hindi ito kinilala** ng ibang bansa."
       ]
@@ -235,52 +247,67 @@
     },
     {
       "type": "multiple",
-      "text": "Anong uri ng walang paksa ang \"Masakit ang tiyan ko\"?",
-      "options": ["Karamdaman", "Panahon", "Kalikasan", "Padamdam"],
+      "text": "Anong uri ng walang paksa ang \"Nilalagnat mula kagabi\"?",
+      "options": [
+        "Karamdaman",
+        "Panahon",
+        "Kalikasan",
+        "Padamdam"
+      ],
       "answerIndex": 0,
-      "explain": "Damdaming pisikal ng katawan ito, na isa sa mga karaniwang uri.",
+      "explain": "Karamdaman, at walang binabanggit na paksa. Sa \"Masakit ang tiyan ko\", ang tiyan ang paksa.",
       "objective": "Matukoy ang mga uri nito"
     },
     {
       "type": "multiple",
       "text": "Anong uri ang \"Lumindol kaninang umaga\"?",
-      "options": ["Kalikasan", "Oras", "Karamdaman", "Pautos"],
+      "options": [
+        "Kalikasan",
+        "Oras",
+        "Karamdaman",
+        "Pautos"
+      ],
       "answerIndex": 0,
       "explain": "Pangyayari sa kalikasan. Walang taong ginagawa ito.",
       "objective": "Matukoy ang mga uri nito"
     },
     {
       "type": "multiple",
-      "text": "Bakit may paksa pa rin ang \"Tumakbo ka!\"?",
+      "text": "Ano ang pagkakaiba ng \"Tumakbo!\" at ng \"Umuulan.\"?",
       "options": [
-        "Nandoon ang \"ikaw\" kahit hindi binabanggit",
-        "Dahil may tandang padamdam",
-        "Dahil pautos ito",
-        "Wala talaga itong paksa"
+        "May kausap ang \"Tumakbo!\"; walang maaaring ipasok sa \"Umuulan.\"",
+        "Walang pagkakaiba ang dalawa",
+        "Ang \"Umuulan.\" ay may paksa",
+        "Ang \"Tumakbo!\" ay hindi pangungusap"
       ],
       "answerIndex": 0,
-      "explain": "Sa pautos, may paksa: ikaw. Hindi lang ito binabanggit.",
+      "explain": "Pareho silang walang paksa sa pag-uuri. Magkaiba lamang kung may maaaring ipasok.",
       "objective": "Maiba ang walang paksa sa may paksang hindi binanggit"
     },
     {
       "type": "multiple",
-      "text": "Ano ang mabuting tanong upang masuri kung walang paksa?",
+      "text": "Alin ang talagang walang maaaring ipasok na paksa?",
       "options": [
-        "May maaari bang ilagay na paksa?",
-        "Gaano kahaba ang pangungusap?",
-        "May tuldok ba sa dulo?",
-        "May pandiwa ba?"
+        "Umuulan.",
+        "Tumakbo!",
+        "Tumahimik!",
+        "Ibalik mo iyan."
       ],
       "answerIndex": 0,
-      "explain": "Kung wala kang maaaring ilagay, walang paksa talaga ang pangungusap.",
+      "explain": "Sa pautos may kausap ka. Sa panahon at kalikasan, wala talagang gumagawa.",
       "objective": "Maiba ang walang paksa sa may paksang hindi binanggit"
     },
     {
       "type": "multiple",
       "text": "Kailan bumalik si Aguinaldo mula sa Hong Kong?",
-      "options": ["Mayo 1898", "Disyembre 1897", "Hunyo 1898", "Enero 1899"],
+      "options": [
+        "Mayo 1898",
+        "Disyembre 1897",
+        "Hunyo 1898",
+        "Enero 1899"
+      ],
       "answerIndex": 0,
-      "explain": "Makalipas ang labing-siyam na araw mula sa labanan sa Look ng Maynila.",
+      "explain": "Noong ika-19 ng Mayo 1898, mahigit dalawang linggo matapos ang labanan sa look.",
       "objective": "Malaman ang nangyari sa pagitan ng 1897 at 1898"
     },
     {
@@ -299,7 +326,12 @@
     {
       "type": "multiple",
       "text": "Saan ipinahayag ang kalayaan noong 1898?",
-      "options": ["Kawit, Cavite", "Malolos, Bulacan", "Maynila", "Biak-na-Bato"],
+      "options": [
+        "Kawit, Cavite",
+        "Malolos, Bulacan",
+        "Maynila",
+        "Biak-na-Bato"
+      ],
       "answerIndex": 0,
       "explain": "Sa bahay ni Aguinaldo. Doon unang itinaas ang bandila.",
       "objective": "Malaman ang nangyari sa pagitan ng 1897 at 1898"

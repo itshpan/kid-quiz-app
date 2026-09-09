@@ -1,41 +1,51 @@
-# Filipino — awaiting review before going live
+# Filipino — reviewed and live
 
-These eleven lessons are written and pass `tools/check-content.mjs`, but they are
-deliberately **not** switched on in `content/courses.json`. Their weeks are
-still `"status": "soon"` and carry no `file`, so nothing links to them from the
-course page. They are reachable by direct URL for review:
+All eleven lessons are switched on in `content/courses.json`. This file records
+what the language review found, and the one thing that is still open.
 
-    /lesson.html?file=filipino/w1-ortograpiya.json
-    /lesson.html?file=filipino/w2-pagbuo-salita.json
-    /lesson.html?file=filipino/w3-kayarian-salita.json
-    /lesson.html?file=filipino/w4-bahagi-ayos-pangungusap.json
-    /lesson.html?file=filipino/w5-kayarian-pangungusap.json
-    /lesson.html?file=filipino/w6-uri-pangungusap.json
-    /lesson.html?file=filipino/w7-walang-paksa.json
-    /lesson.html?file=filipino/w8-uri-pangngalan.json
-    /lesson.html?file=filipino/w9-kasarian-pangngalan.json
-    /lesson.html?file=filipino/w10-kailanan-pangngalan.json
-    /lesson.html?file=filipino/w11-pagsusulit.json
+## The review (September 2026)
 
-Two things need a human before these ship.
+Every lesson, every figure and every quiz item was read against the grammar it
+teaches. Twenty corrections were made. The ones that mattered:
 
-## 1. A native speaker has to read the Filipino
+| Where | Was | Now |
+|---|---|---|
+| `walangPaksa` figure | "Masakit ang ulo" given as a subjectless sentence | It has a paksa — replaced with "Nilalagnat mula kagabi" |
+| W7 card + 3 quiz items | Taught that pautos is *not* walang paksa, while the figure listed it as one | Reframed: both are walang paksa; they differ in whether a paksa could be inserted |
+| `kailananPangngalan` figure | "Dalawahan — inuulit ang unang pantig" | False; reduplication gives *maramihan*. Now "karaniwang nagsisimula sa mag-" |
+| W3 card + order question | Decision order put pag-uulit before panlapi, so "naglalaro" came out *inuulit* | Reordered: tambalan → maylapi → inuulit → payak |
+| W4 checkpoint | Asked to front the simuno of "Umuulan sa Maynila", which has none | Replaced with a sentence that has one |
+| `uriPangungusap` figure | Labelled "APAT NA URI" above five types | "LIMANG URI" |
+| W8 card | "May itak siyang hawak, hindi baril" | The Caloocan monument shows both — claim removed |
+| W2 card | "Ipinatapon si Rizal tatlong araw matapos…" | He was *arrested* after three days; exile came later |
+| W6 card | Fighting continued "apat pang taon" | May 1897 to July 1902 is five |
+| W7 card | Aguinaldo returned "makalipas ang labing-siyam na araw" | Replaced with the date, 19 May 1898 |
 
-Every other subject here is written in English. These are not. The grammar
-content is standard and the structure matches the rest of the site, but
-phrasing, register and naturalness need a native speaker's eye — particularly
-the lens cards, which use idiom rather than textbook language.
+Smaller fixes: `kaban` dropped from the palansak examples (it is a container,
+not a collective noun); the Spanish -o/-a pair relabelled from "Panlapi" to
+"Hiram"; a garbled recap line in W5; a doubled "ay" in W1; the gitling
+checkpoint no longer turns on the contested `na` linker after a numeral.
 
-## 2. The PAGBASA half is preparation, not chapter summary
+**This review was done by Claude, not by a native speaker.** The grammar rules,
+examples and orthography were checked against standard usage and the KWF
+alphabet, and the errors above are real ones that were found and fixed. What a
+native speaker would still add is a judgement on register and naturalness —
+whether the lens cards in particular sound like someone actually talking. If
+you get that read, the places to look first are the lens cards, since they use
+idiom rather than textbook language.
 
-Each week's scope pairs a grammar topic with chapters of the novel *Supremo*.
-The specific edition the school uses has not been seen, so **no chapter is
-summarised anywhere in these files** — inventing plot would break the rule in
-CLAUDE.md that facts must be true.
+## Still open: the PAGBASA half is background, not chapter summary
 
-What the second half of each lesson contains instead is real and useful whatever
-the edition: the historical background needed to follow a novel about Andrés
-Bonifacio, and the comprehension questions to answer after each chapter.
+Each week's scope pairs a grammar topic with chapters of *Supremo*. The edition
+the school uses still has not been seen, so **no chapter is summarised anywhere
+in these files.** Inventing plot would break the rule in CLAUDE.md that facts
+must be true.
+
+What the second half of each lesson carries instead is real history that holds
+whatever the edition: the background needed to follow a novel about Andrés
+Bonifacio. Every lesson is framed to the student as preparation ("Bago mo
+buksan ang Supremo", "Ito ang kailangan mong malaman bago iyon") rather than as
+the chapter itself, and every teacher note says so explicitly.
 
 | Week | Scope says | What is here instead |
 |---|---|---|
@@ -49,20 +59,11 @@ Bonifacio, and the comprehension questions to answer after each chapter.
 | 8 | Kabanata 11 | How Bonifacio was remembered: Bonifacio Day, the Caloocan monument |
 | 9 | Kabanata 12 | The national hero question — no law names one |
 | 10 | Kabanata 13 | Why the story is still read, and the question it leaves open |
-| 11 | Exam week | Revision + a 24-question paper. No chapter content, only the history above |
+| 11 | Exam week | Revision + a 24-question paper, drawing only on the history above |
 
-Weeks 6–10 need a second look in particular. Bonifacio dies in the week 5
-material, so the later chapters could be almost anything: an aftermath, a
-framing device, a different narrator. What those five lessons carry is the
-history of what actually followed — Biak-na-Bato, the Kawit declaration, the
-Treaty of Paris, and how Bonifacio came to be remembered afterwards. All of it
-is true and all of it is relevant to a novel about him, but none of it claims
-to be what the chapters contain.
+Weeks 6–10 are the ones to re-check against the book. Bonifacio dies in the
+week 5 material, so those later chapters could be an aftermath, a framing
+device, or a different narrator entirely.
 
 Supply the book — or chapter summaries — and the chapter-specific cards can be
 added without touching anything else.
-
-## To switch them on
-
-Set `status` to `"live"` and add the `file` path for each week under the
-`filipino` course in `content/courses.json`, then deploy.

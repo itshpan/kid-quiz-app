@@ -533,7 +533,8 @@
             "Ang Ortograpiyang Filipino",
             "PAGBASA: Supremo (Kapitulo 1 at 2)"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "filipino/w1-ortograpiya.json"
         },
         {
           "week": 2,
@@ -543,7 +544,8 @@
             "Pagbuo ng Salita",
             "PAGBASA: Supremo (Kapitulo 3 at 4)"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "filipino/w2-pagbuo-salita.json"
         },
         {
           "week": 3,
@@ -553,7 +555,8 @@
             "Kayarian ng Salita",
             "PAGBASA: Supremo (Kapitulo 5 at 6)"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "filipino/w3-kayarian-salita.json"
         },
         {
           "week": 4,
@@ -563,7 +566,8 @@
             "Bahagi at ayos ng pangungusap",
             "PAGBASA: Supremo (Kapitulo 7)"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "filipino/w4-bahagi-ayos-pangungusap.json"
         },
         {
           "week": 5,
@@ -573,7 +577,8 @@
             "Kayarian ng Pangungusap",
             "PAGBASA: Supremo (Kapitulo 8)"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "filipino/w5-kayarian-pangungusap.json"
         },
         {
           "week": 6,
@@ -583,7 +588,8 @@
             "Uri ng Pangungusap ayon sa Gamit",
             "PAGBASA: Supremo (Kapitulo 9)"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "filipino/w6-uri-pangungusap.json"
         },
         {
           "week": 7,
@@ -593,7 +599,8 @@
             "Mga pangungusap na walang paksa",
             "PAGBASA: Supremo (Kapitulo 10)"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "filipino/w7-walang-paksa.json"
         },
         {
           "week": 8,
@@ -603,7 +610,8 @@
             "Uri ng Pangngalan",
             "PAGBASA: Supremo (Kapitulo 11)"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "filipino/w8-uri-pangngalan.json"
         },
         {
           "week": 9,
@@ -613,7 +621,8 @@
             "Kasarian ng Pangngalan",
             "PAGBASA: Supremo (Kapitulo 12)"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "filipino/w9-kasarian-pangngalan.json"
         },
         {
           "week": 10,
@@ -623,16 +632,19 @@
             "Kailanan ng Pangngalan",
             "PAGBASA: Supremo (Kapitulo 13)"
           ],
-          "status": "soon"
+          "status": "live",
+          "file": "filipino/w10-kailanan-pangngalan.json"
         },
         {
           "week": 11,
           "id": "fil-w11",
           "title": "Exam Week",
           "topics": [
-            "Term 1 examination"
+            "Pagsusulit sa Unang Markahan",
+            "Reviewer + 24 na tanong"
           ],
-          "status": "exam"
+          "status": "exam",
+          "file": "filipino/w11-pagsusulit.json"
         }
       ]
     },

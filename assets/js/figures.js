@@ -4043,7 +4043,7 @@ function courageStands() {
 /* Linggo 6: uri ng pangungusap ayon sa gamit. */
 function uriPangungusap() {
     return listPicker({
-        id: 'up6', label: 'APAT NA URI AYON SA GAMIT',
+        id: 'up6', label: 'LIMANG URI AYON SA GAMIT',
         alt: 'Apat na uri ng pangungusap ayon sa gamit, may halimbawa at bantas',
         capA: 'Gamit: ', capB: 'Halimbawa: ',
         rows: [
@@ -4083,8 +4083,8 @@ function walangPaksa() {
               a: 'Pangyayari sa kalikasan',
               b: 'Lumindol kaninang umaga.' },
             { btn: '3', short: 'Karamdaman',
-              a: 'Damdaming pisikal ng katawan',
-              b: 'Masakit ang ulo.' },
+              a: 'Damdaming pisikal, walang binabanggit na paksa',
+              b: 'Nilalagnat mula kagabi.' },
             { btn: '4', short: 'Oras',
               a: 'Tungkol sa oras o panahon ng araw',
               b: 'Tanghali na pala.' },
@@ -4119,7 +4119,7 @@ function uriPangngalan() {
               b: 'katapangan, pag-asa, kalayaan.' },
             { btn: '5', short: 'Palansak',
               a: 'Isang salita para sa isang pangkat',
-              b: 'kawan, pulutong, samahan, kaban.' },
+              b: 'kawan, pulutong, samahan, bungkos.' },
             { btn: '6', short: 'Suriin',
               a: 'Isang pangngalan ay maaaring maraming uri',
               b: '"Katipunan" ay pantangi at palansak.' }
@@ -4149,7 +4149,7 @@ function kasarianPangngalan() {
             { btn: '5', short: 'Mag-ingat',
               a: 'Ang di-tiyak ang madalas na mali',
               b: '"Guro" ay di-tiyak, hindi pambabae.' },
-            { btn: '6', short: 'Panlapi',
+            { btn: '6', short: 'Hiram',
               a: 'May hiram na salitang may kasarian',
               b: 'aktor at aktres, mula sa Espanyol.' }
         ]
@@ -4167,8 +4167,8 @@ function kailananPangngalan() {
               a: 'Iisa lamang',
               b: 'aklat, bata, bahay, bayani.' },
             { btn: '2', short: 'Dalawahan',
-              a: 'Tiyak na dalawa. Inuulit ang unang pantig',
-              b: 'magkapatid, magkaibigan, magkabila.' },
+              a: 'Tiyak na dalawa. Karaniwang nagsisimula sa "mag-"',
+              b: 'magkapatid, magkaibigan, mag-ama.' },
             { btn: '3', short: 'Maramihan',
               a: 'Tatlo o higit pa. Ginagamitan ng "mga"',
               b: 'mga aklat, mga bata, mga bayani.' },
@@ -4378,7 +4378,7 @@ function filExam() {
               b: 'Ang "paki-" at "nga" ang senyas ng pakiusap.' },
             { btn: '7', short: 'Walang paksa',
               a: 'Panahon, kalikasan, karamdaman at oras',
-              b: 'May paksa ang pautos: ikaw, hindi lang binabanggit.' },
+              b: 'May paksa ang "Masakit ang ulo". Hindi ito kasama.' },
             { btn: '8', short: 'Uri ng pangngalan',
               a: 'Pantangi, pambalana, tahas, basal, palansak',
               b: 'Maaaring maraming uri ang isang pangngalan.' },

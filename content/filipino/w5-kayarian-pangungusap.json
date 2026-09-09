@@ -215,14 +215,38 @@
       "kind": "terms",
       "title": "Mga salitang gagamitin sa pagsusulit",
       "terms": [
-        { "term": "sugnay", "def": "Pangkat ng salitang may simuno at panaguri." },
-        { "term": "punong sugnay", "def": "Sugnay na kayang tumayong mag-isa bilang pangungusap." },
-        { "term": "palipong sugnay", "def": "Sugnay na hindi kayang tumayong mag-isa." },
-        { "term": "payak", "def": "Isang punong sugnay lamang." },
-        { "term": "tambalan", "def": "Dalawang punong sugnay. Pang-ugnay: at, ngunit, o." },
-        { "term": "hugnayan", "def": "Punong sugnay at palipong sugnay. Pang-ugnay: dahil, kung, kapag." },
-        { "term": "langkapan", "def": "Pinagsamang tambalan at hugnayan." },
-        { "term": "Kumbensiyon sa Tejeros", "def": "Marso 1897. Nanalo si Aguinaldo; tumutol si Bonifacio." }
+        {
+          "term": "sugnay",
+          "def": "Pangkat ng salitang may simuno at panaguri."
+        },
+        {
+          "term": "punong sugnay",
+          "def": "Sugnay na kayang tumayong mag-isa bilang pangungusap."
+        },
+        {
+          "term": "palipong sugnay",
+          "def": "Sugnay na hindi kayang tumayong mag-isa."
+        },
+        {
+          "term": "payak",
+          "def": "Isang punong sugnay lamang."
+        },
+        {
+          "term": "tambalan",
+          "def": "Dalawang punong sugnay. Pang-ugnay: at, ngunit, o."
+        },
+        {
+          "term": "hugnayan",
+          "def": "Punong sugnay at palipong sugnay. Pang-ugnay: dahil, kung, kapag."
+        },
+        {
+          "term": "langkapan",
+          "def": "Pinagsamang tambalan at hugnayan."
+        },
+        {
+          "term": "Kumbensiyon sa Tejeros",
+          "def": "Marso 1897. Nanalo si Aguinaldo; tumutol si Bonifacio."
+        }
       ]
     },
     {
@@ -231,7 +255,7 @@
       "title": "Ang apat na mahalaga",
       "points": [
         "**Punong sugnay:** kayang mag-isa. **Palipon:** hindi.",
-        "**Payak 1. Tambalan 2 punong sugnay.**",
+        "**Payak:** isang punong sugnay. **Tambalan:** dalawa.",
         "**Hugnayan:** punong sugnay at palipon.",
         "**Tingnan ang pang-ugnay**, saka bilangin ang sugnay."
       ]
