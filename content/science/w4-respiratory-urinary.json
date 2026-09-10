@@ -117,6 +117,20 @@
     },
     {
       "kind": "lens",
+      "lens": "aviation",
+      "icon": "✈️",
+      "eyebrow": "Black box mode",
+      "title": "Why a cabin has to be pressurised",
+      "text": "Gas exchange needs enough pressure to push oxygen across. At 35,000 feet the outside air is about a quarter of sea level.",
+      "points": [
+        "**The alveoli still work.** There is just not enough push.",
+        "**Cabins are held at about 8,000 feet.**",
+        "**Useful consciousness up there:** under a minute.",
+        "**That is why the masks drop first.**"
+      ]
+    },
+    {
+      "kind": "lens",
       "lens": "boxing",
       "icon": "🥊",
       "eyebrow": "Boxing mode",
@@ -255,17 +269,50 @@
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "pharynx", "def": "The throat. The only part of the route shared by food and air." },
-        { "term": "larynx", "def": "The voice box. The epiglottis closes it when you swallow." },
-        { "term": "trachea", "def": "The windpipe, held open by C-shaped rings of cartilage." },
-        { "term": "bronchi", "def": "The two tubes branching from the trachea, one into each lung." },
-        { "term": "alveoli", "def": "The tiny air sacs where oxygen and carbon dioxide cross into and out of the blood." },
-        { "term": "diaphragm", "def": "The dome of muscle under the lungs. It flattens to draw air in." },
-        { "term": "gas exchange", "def": "Oxygen moving into the blood and carbon dioxide moving out, through walls one cell thick." },
-        { "term": "kidney", "def": "The filter organ. Two of them, either side of the spine." },
-        { "term": "ureter", "def": "The tube carrying urine from a kidney to the bladder." },
-        { "term": "urethra", "def": "The tube carrying urine out of the body from the bladder." },
-        { "term": "urea", "def": "The waste made in the liver from broken-down protein. The kidneys remove it." }
+        {
+          "term": "pharynx",
+          "def": "The throat. The only part of the route shared by food and air."
+        },
+        {
+          "term": "larynx",
+          "def": "The voice box. The epiglottis closes it when you swallow."
+        },
+        {
+          "term": "trachea",
+          "def": "The windpipe, held open by C-shaped rings of cartilage."
+        },
+        {
+          "term": "bronchi",
+          "def": "The two tubes branching from the trachea, one into each lung."
+        },
+        {
+          "term": "alveoli",
+          "def": "The tiny air sacs where oxygen and carbon dioxide cross into and out of the blood."
+        },
+        {
+          "term": "diaphragm",
+          "def": "The dome of muscle under the lungs. It flattens to draw air in."
+        },
+        {
+          "term": "gas exchange",
+          "def": "Oxygen moving into the blood and carbon dioxide moving out, through walls one cell thick."
+        },
+        {
+          "term": "kidney",
+          "def": "The filter organ. Two of them, either side of the spine."
+        },
+        {
+          "term": "ureter",
+          "def": "The tube carrying urine from a kidney to the bladder."
+        },
+        {
+          "term": "urethra",
+          "def": "The tube carrying urine out of the body from the bladder."
+        },
+        {
+          "term": "urea",
+          "def": "The waste made in the liver from broken-down protein. The kidneys remove it."
+        }
       ]
     },
     {

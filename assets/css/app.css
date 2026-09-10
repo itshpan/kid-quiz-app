@@ -39,6 +39,7 @@
     --lens-disaster: #B4552A;
     --lens-air:      #3F7A5E;
     --lens-meme:     #6E7A21;
+    --lens-phys:     #7A4FA3;
 
     /* Reading measure. The single most important number in this file. */
     --measure: 53ch;
@@ -84,9 +85,11 @@
     --lens-disaster: #F2996B;
     --lens-air:      #6FC79A;
     --lens-meme:     #C3D45C;
+    --lens-phys:     #C9A6EC;
         --lens-disaster: #F2996B;
         --lens-air:      #6FC79A;
         --lens-meme:     #C3D45C;
+        --lens-phys:     #C9A6EC;
     }
 }
 
@@ -363,6 +366,7 @@ strong { font-weight: 700; color: var(--ink); }
 .card[data-lens="disasters"] { --lens: var(--lens-disaster); }
 .card[data-lens="aviation"]  { --lens: var(--lens-air); }
 .card[data-lens="memes"]     { --lens: var(--lens-meme); }
+.card[data-lens="physics"]   { --lens: var(--lens-phys); }
 
 /* Points: at most four, each one line of thought. */
 .points { list-style: none; display: grid; gap: 12px; margin-top: 14px; max-width: var(--measure); }

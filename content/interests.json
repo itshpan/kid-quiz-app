@@ -212,6 +212,26 @@
         "Storm Area 51, September 2019: about 2 million people clicked going and roughly 150 turned up. A ratio joke that writes itself",
         "The comedy is in the mismatch between the claim and the reality. That is a real rhetorical device, not just a joke"
       ]
+    },
+    "physics": {
+      "label": "Physics mode",
+      "icon": "⚛️",
+      "colour": "--lens-phys",
+      "covers": [
+        "forces",
+        "energy",
+        "pressure",
+        "motion",
+        "why things break"
+      ],
+      "hooks": [
+        "The square law is everywhere: energy, wind force, wing lift and braking distance all go as speed squared",
+        "Double the speed and all four quadruple. Double the mass and energy only doubles — mass is proportional, speed is not",
+        "Pressure is force spread over area. Same force, smaller area, more damage",
+        "Water is about 800 times denser than air, which is why a storm surge does what wind cannot",
+        "A wing works by throwing air downward; the air pushes back. Not the equal-transit-time story, which is wrong",
+        "At 35,000 ft the air is about a quarter of sea-level pressure — too little to push oxygen into your blood"
+      ]
     }
   },
   "rules": [
@@ -221,6 +241,7 @@
     "Rotate the lenses across a lesson. Four car cards in a row is worse than one of each.",
     "Never invent a fact about a game or sport to make a hook work. If it is not true, find another hook.",
     "Vary the lens. Boxing every time is as generic as no lens at all.",
-    "Where a sentence has to be invented anyway, make it carry a consequence he would recognise: he did not train, so he lost."
+    "Where a sentence has to be invented anyway, make it carry a consequence he would recognise: he did not train, so he lost.",
+    "Two angles on a hard idea beat one. Add a second lens where the concept is abstract, not where it is already easy."
   ]
 }

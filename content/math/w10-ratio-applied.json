@@ -169,6 +169,20 @@
     },
     {
       "kind": "lens",
+      "lens": "physics",
+      "icon": "⚛️",
+      "eyebrow": "Physics mode",
+      "title": "Four things that all go as speed squared",
+      "text": "Double the speed and every one of these quadruples. Double the mass instead and the energy only doubles.",
+      "points": [
+        "**A meteor's energy.** Twice as fast, four times the punch.",
+        "**A typhoon's wind force.** 100 to 200 km/h is four times.",
+        "**A wing's lift**, and a car's braking distance.",
+        "**Mass is proportional. Speed is not.**"
+      ]
+    },
+    {
+      "kind": "lens",
       "lens": "boxing",
       "icon": "🥊",
       "eyebrow": "Boxing mode",

@@ -150,6 +150,20 @@
     },
     {
       "kind": "lens",
+      "lens": "disasters",
+      "icon": "🌋",
+      "eyebrow": "Disaster mode",
+      "title": "Flood water is this whole topic, live",
+      "text": "Boiling kills what is alive in flood water. Anything dissolved in it is still there afterwards.",
+      "points": [
+        "**Filtering catches the mud**, not the dissolved salt.",
+        "**Boiling kills microbes.** It removes nothing dissolved.",
+        "**Distillation would work.** It is slow and needs fuel.",
+        "**That is why bottled water** arrives after a typhoon."
+      ]
+    },
+    {
+      "kind": "lens",
       "lens": "cars",
       "icon": "🏎️",
       "eyebrow": "Car mode",
@@ -215,13 +229,34 @@
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "evaporation", "def": "Boiling the solvent away and keeping the solid that is left." },
-        { "term": "distillation", "def": "Boiling, then catching and cooling the vapour. You keep the liquid." },
-        { "term": "fractional distillation", "def": "Separating several liquids that boil at different temperatures." },
-        { "term": "chromatography", "def": "Separating dissolved substances by how far a solvent carries each one." },
-        { "term": "concentration", "def": "Mass of solute divided by mass of the whole solution, as a percentage." },
-        { "term": "sedimentation", "def": "Letting suspended solids settle to the bottom." },
-        { "term": "disinfection", "def": "Killing remaining microbes, usually with chlorine." }
+        {
+          "term": "evaporation",
+          "def": "Boiling the solvent away and keeping the solid that is left."
+        },
+        {
+          "term": "distillation",
+          "def": "Boiling, then catching and cooling the vapour. You keep the liquid."
+        },
+        {
+          "term": "fractional distillation",
+          "def": "Separating several liquids that boil at different temperatures."
+        },
+        {
+          "term": "chromatography",
+          "def": "Separating dissolved substances by how far a solvent carries each one."
+        },
+        {
+          "term": "concentration",
+          "def": "Mass of solute divided by mass of the whole solution, as a percentage."
+        },
+        {
+          "term": "sedimentation",
+          "def": "Letting suspended solids settle to the bottom."
+        },
+        {
+          "term": "disinfection",
+          "def": "Killing remaining microbes, usually with chlorine."
+        }
       ]
     },
     {
