@@ -41,6 +41,20 @@
       ]
     },
     {
+      "kind": "lens",
+      "lens": "aviation",
+      "icon": "✈️",
+      "eyebrow": "Black box mode",
+      "title": "Crash investigators never look for one cause",
+      "text": "Almost no accident has a single cause. It is a chain, and removing any one link stops it.",
+      "points": [
+        "**Tenerife, 1977:** two radio calls overlapped.",
+        "**Fog, a delay, a full fuel load**, all at once.",
+        "**Pull out any one link** and 583 people live.",
+        "**Ask the same of February 1899.**"
+      ]
+    },
+    {
       "kind": "checkpoint",
       "question": {
         "type": "multiple",
@@ -200,12 +214,30 @@
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "San Juan bridge", "def": "Where the first shot was fired, on 4 February 1899." },
-        { "term": "guerrilla warfare", "def": "Small units, ambushes and no fixed lines. Adopted in November 1899." },
-        { "term": "Tirad Pass", "def": "2 December 1899. Del Pilar and 60 men held it so Aguinaldo could escape." },
-        { "term": "Gregorio del Pilar", "def": "The general who died at Tirad Pass, aged 24." },
-        { "term": "Palanan", "def": "The town in Isabela where Aguinaldo was captured in March 1901." },
-        { "term": "Philippine Insurrection", "def": "The old American name for the war. The word chooses a side." }
+        {
+          "term": "San Juan bridge",
+          "def": "Where the first shot was fired, on 4 February 1899."
+        },
+        {
+          "term": "guerrilla warfare",
+          "def": "Small units, ambushes and no fixed lines. Adopted in November 1899."
+        },
+        {
+          "term": "Tirad Pass",
+          "def": "2 December 1899. Del Pilar and 60 men held it so Aguinaldo could escape."
+        },
+        {
+          "term": "Gregorio del Pilar",
+          "def": "The general who died at Tirad Pass, aged 24."
+        },
+        {
+          "term": "Palanan",
+          "def": "The town in Isabela where Aguinaldo was captured in March 1901."
+        },
+        {
+          "term": "Philippine Insurrection",
+          "def": "The old American name for the war. The word chooses a side."
+        }
       ]
     },
     {

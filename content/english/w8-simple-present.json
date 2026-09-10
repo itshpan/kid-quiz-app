@@ -135,16 +135,16 @@
     },
     {
       "kind": "lens",
-      "lens": "boxing",
-      "icon": "🥊",
-      "eyebrow": "Boxing mode",
-      "title": "A training plan is written in the present tense",
-      "text": "Not \"you will warm up\" but \"you warm up, you shadow box, you spar\". It reads as what happens, not what might.",
+      "lens": "memes",
+      "icon": "🗿",
+      "eyebrow": "Meme mode",
+      "title": "Back in my day we walked 300 miles",
+      "text": "The setup is simple present, because it states a habit as though it were a fact. The punchline exaggerates.",
       "points": [
-        "**A habit is stated as a fact.**",
-        "**\"He trains every morning\"** — simple present.",
-        "**\"He is training\"** means right this second.",
-        "**Different tense, different claim.**"
+        "**\"Kids these days have it easy.\"** Simple present.",
+        "**Then the past tense goes absurd:** uphill both ways.",
+        "**Hyperbole** is exaggeration nobody is meant to believe.",
+        "**The tense is what makes it land** as fact."
       ]
     },
     {

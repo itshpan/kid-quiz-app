@@ -110,16 +110,16 @@
     },
     {
       "kind": "lens",
-      "lens": "cars",
-      "icon": "🏎️",
-      "eyebrow": "Forza mode",
-      "title": "Race engineers do this every lap",
-      "text": "Fuel is worked out in litres per lap, and litres per lap are never a whole number.",
+      "lens": "disasters",
+      "icon": "🌋",
+      "eyebrow": "Disaster mode",
+      "title": "A 7 is not a bit worse than a 6",
+      "text": "Earthquake magnitude is a powers-of-ten scale. One step up is ten times the shaking, not one more unit.",
       "points": [
-        "**1.8 litres a lap × 14 laps** = 25.2 litres.",
-        "**Carry more and you are heavier**, so you go slower.",
-        "**Carry less and you do not finish.**",
-        "**The decimal point decides the race.** Genuinely."
+        "**6 to 7:** ten times the shaking.",
+        "**6 to 8:** a hundred times.",
+        "**Energy goes up about 32 times** per step.",
+        "**Luzon 1990 was 7.7.** Bohol 2013 was 7.2."
       ]
     },
     {
@@ -280,13 +280,34 @@
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "factor", "def": "One of the numbers being multiplied. 1.2 and 0.3 are both factors." },
-        { "term": "product", "def": "The answer to a multiplication." },
-        { "term": "dividend", "def": "The number being divided. In 4.8 ÷ 0.4, it is 4.8." },
-        { "term": "divisor", "def": "The number you are dividing by. In 4.8 ÷ 0.4, it is 0.4." },
-        { "term": "quotient", "def": "The answer to a division." },
-        { "term": "decimal place", "def": "A digit after the point. 3.14 has two decimal places." },
-        { "term": "estimate", "def": "A rough answer from rounded numbers, used to check the point is right." }
+        {
+          "term": "factor",
+          "def": "One of the numbers being multiplied. 1.2 and 0.3 are both factors."
+        },
+        {
+          "term": "product",
+          "def": "The answer to a multiplication."
+        },
+        {
+          "term": "dividend",
+          "def": "The number being divided. In 4.8 ÷ 0.4, it is 4.8."
+        },
+        {
+          "term": "divisor",
+          "def": "The number you are dividing by. In 4.8 ÷ 0.4, it is 0.4."
+        },
+        {
+          "term": "quotient",
+          "def": "The answer to a division."
+        },
+        {
+          "term": "decimal place",
+          "def": "A digit after the point. 3.14 has two decimal places."
+        },
+        {
+          "term": "estimate",
+          "def": "A rough answer from rounded numbers, used to check the point is right."
+        }
       ]
     },
     {
