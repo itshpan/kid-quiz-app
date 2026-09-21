@@ -46,13 +46,14 @@
         "type": "multiple",
         "text": "Which feature identifies a mammal?",
         "options": [
-          "Hair or fur, and milk for the young",
-          "Scales and gills",
+          "Being cold-blooded",
           "Laying hard-shelled eggs",
-          "Being cold-blooded"
+          "Scales and gills",
+          "Hair or fur, and milk for the young"
         ],
-        "answerIndex": 0,
-        "explain": "Hair and milk. Birds lay hard-shelled eggs, and fish have the gills and scales."
+        "answerIndex": 3,
+        "explain": "Hair and milk. Birds lay hard-shelled eggs, and fish have the gills and scales.",
+        "seconds": 20
       }
     },
     {
@@ -87,13 +88,14 @@
         "type": "multiple",
         "text": "Which two classes are warm-blooded?",
         "options": [
+          "Amphibians and reptiles",
           "Birds and mammals",
-          "Reptiles and mammals",
           "Fish and amphibians",
-          "Amphibians and reptiles"
+          "Reptiles and mammals"
         ],
-        "answerIndex": 0,
-        "explain": "Birds and mammals. The other three take their temperature from their surroundings."
+        "answerIndex": 1,
+        "explain": "Birds and mammals. The other three take their temperature from their surroundings.",
+        "seconds": 15
       }
     },
     {
@@ -121,13 +123,14 @@
         "type": "multiple",
         "text": "Which group do jellyfish and corals belong to?",
         "options": [
-          "Cnidarians",
           "Molluscs",
           "Echinoderms",
+          "Cnidarians",
           "Sponges"
         ],
-        "answerIndex": 0,
-        "explain": "Cnidarians. The giveaway is the stinging cells, which is what the group is named for."
+        "answerIndex": 2,
+        "explain": "Cnidarians. The giveaway is the stinging cells, which is what the group is named for.",
+        "seconds": 15
       }
     },
     {
@@ -163,12 +166,13 @@
         "text": "What is an exoskeleton?",
         "options": [
           "A skeleton on the outside of the body",
-          "A skeleton made of cartilage",
           "A skeleton that never stops growing",
-          "A backbone made of many parts"
+          "A backbone made of many parts",
+          "A skeleton made of cartilage"
         ],
         "answerIndex": 0,
-        "explain": "Outside. That is why arthropods have to moult: the armour cannot grow with them."
+        "explain": "Outside. That is why arthropods have to moult: the armour cannot grow with them.",
+        "seconds": 20
       }
     },
     {
@@ -191,21 +195,46 @@
         "type": "truefalse",
         "text": "Most animal species on earth are vertebrates.",
         "answer": false,
-        "explain": "False. Around 95% are invertebrates, and most of those are arthropods."
+        "explain": "False. Around 95% are invertebrates, and most of those are arthropods.",
+        "seconds": 12
       }
     },
     {
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "vertebrate", "def": "An animal with a backbone. Five classes." },
-        { "term": "invertebrate", "def": "An animal with no backbone. About 95% of all animal species." },
-        { "term": "cold-blooded", "def": "Body temperature follows the surroundings. Fish, amphibians, reptiles." },
-        { "term": "warm-blooded", "def": "Body temperature held steady from inside. Birds and mammals only." },
-        { "term": "exoskeleton", "def": "A skeleton on the outside of the body, as in arthropods." },
-        { "term": "endoskeleton", "def": "A skeleton inside the body, as in all vertebrates." },
-        { "term": "moulting", "def": "Shedding an outgrown exoskeleton so a bigger one can form." },
-        { "term": "arthropod", "def": "Jointed legs and an exoskeleton. Insects, spiders, crabs." }
+        {
+          "term": "vertebrate",
+          "def": "An animal with a backbone. Five classes."
+        },
+        {
+          "term": "invertebrate",
+          "def": "An animal with no backbone. About 95% of all animal species."
+        },
+        {
+          "term": "cold-blooded",
+          "def": "Body temperature follows the surroundings. Fish, amphibians, reptiles."
+        },
+        {
+          "term": "warm-blooded",
+          "def": "Body temperature held steady from inside. Birds and mammals only."
+        },
+        {
+          "term": "exoskeleton",
+          "def": "A skeleton on the outside of the body, as in arthropods."
+        },
+        {
+          "term": "endoskeleton",
+          "def": "A skeleton inside the body, as in all vertebrates."
+        },
+        {
+          "term": "moulting",
+          "def": "Shedding an outgrown exoskeleton so a bigger one can form."
+        },
+        {
+          "term": "arthropod",
+          "def": "Jointed legs and an exoskeleton. Insects, spiders, crabs."
+        }
       ]
     },
     {
@@ -225,27 +254,29 @@
       "type": "multiple",
       "text": "What makes an animal a vertebrate?",
       "options": [
-        "It has a backbone",
-        "It has four legs",
+        "It gives birth to live young",
         "It is warm-blooded",
-        "It gives birth to live young"
+        "It has four legs",
+        "It has a backbone"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "The backbone, and nothing else. Fish and mammals are both vertebrates and share almost nothing else.",
-      "objective": "Explain what makes an animal a vertebrate"
+      "objective": "Explain what makes an animal a vertebrate",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Which class has moist skin and starts life in water with gills?",
       "options": [
-        "Amphibians",
-        "Reptiles",
         "Fish",
-        "Mammals"
+        "Mammals",
+        "Amphibians",
+        "Reptiles"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Amphibians. Tadpoles have gills and grow lungs later, which is why the group is named for two lives.",
-      "objective": "Name the five vertebrate classes and one feature of each"
+      "objective": "Name the five vertebrate classes and one feature of each",
+      "seconds": 15
     },
     {
       "type": "multiple",
@@ -258,53 +289,58 @@
       ],
       "answerIndex": 0,
       "explain": "Birds. Hollow bones save weight, which matters a great deal if you fly.",
-      "objective": "Name the five vertebrate classes and one feature of each"
+      "objective": "Name the five vertebrate classes and one feature of each",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "All mammals give birth to live young.",
       "answer": false,
       "explain": "False. The platypus and the echidna lay eggs and are still mammals, because they have hair and produce milk.",
-      "objective": "Name the five vertebrate classes and one feature of each"
+      "objective": "Name the five vertebrate classes and one feature of each",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Which two classes are warm-blooded?",
       "options": [
+        "Amphibians and mammals",
         "Birds and mammals",
-        "Fish and reptiles",
         "Reptiles and birds",
-        "Amphibians and mammals"
+        "Fish and reptiles"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Only those two hold their own temperature. The other three take it from the surroundings.",
-      "objective": "Name the five vertebrate classes and one feature of each"
+      "objective": "Name the five vertebrate classes and one feature of each",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Snails, clams and octopuses belong to which group?",
       "options": [
-        "Molluscs",
-        "Cnidarians",
         "Echinoderms",
-        "Arthropods"
+        "Cnidarians",
+        "Arthropods",
+        "Molluscs"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Molluscs. Soft body, very often with a shell — though the octopus has given its shell up.",
-      "objective": "Name six invertebrate groups and give an example of each"
+      "objective": "Name six invertebrate groups and give an example of each",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Starfish and sea urchins belong to which group?",
       "options": [
-        "Echinoderms",
-        "Molluscs",
         "Sponges",
-        "Worms"
+        "Worms",
+        "Echinoderms",
+        "Molluscs"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Echinoderms — spiny skin, built around a circle, and every one of them lives in the sea.",
-      "objective": "Name six invertebrate groups and give an example of each"
+      "objective": "Name six invertebrate groups and give an example of each",
+      "seconds": 15
     },
     {
       "type": "multiple",
@@ -317,7 +353,8 @@
       ],
       "answerIndex": 0,
       "explain": "Cnidarians: jellyfish, corals and sea anemones. The stinging cells are what define the group.",
-      "objective": "Name six invertebrate groups and give an example of each"
+      "objective": "Name six invertebrate groups and give an example of each",
+      "seconds": 15
     },
     {
       "type": "type",
@@ -327,40 +364,44 @@
         "an exoskeleton"
       ],
       "explain": "An exoskeleton. Exo- means outside, which is the whole word.",
-      "objective": "Explain the difference between an exoskeleton and an endoskeleton"
+      "objective": "Explain the difference between an exoskeleton and an endoskeleton",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Why does an arthropod have to moult?",
       "options": [
-        "Its exoskeleton cannot grow with it",
-        "It gets too heavy to move",
         "The old skeleton loses its colour",
-        "It needs to change species"
+        "Its exoskeleton cannot grow with it",
+        "It needs to change species",
+        "It gets too heavy to move"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "The armour is rigid, so growing means leaving it behind and making a bigger one.",
-      "objective": "Explain the difference between an exoskeleton and an endoskeleton"
+      "objective": "Explain the difference between an exoskeleton and an endoskeleton",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Which is the largest animal group by number of species?",
       "options": [
         "Arthropods",
-        "Mammals",
         "Fish",
-        "Molluscs"
+        "Molluscs",
+        "Mammals"
       ],
       "answerIndex": 0,
       "explain": "Arthropods, by a very long way. More than three-quarters of all known animal species.",
-      "objective": "Explain why arthropods are the largest animal group"
+      "objective": "Explain why arthropods are the largest animal group",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "About 95% of animal species have no backbone.",
       "answer": true,
       "explain": "True. Vertebrates get the attention because we are one, but by species count they are tiny.",
-      "objective": "Explain why arthropods are the largest animal group"
+      "objective": "Explain why arthropods are the largest animal group",
+      "seconds": 12
     }
   ],
   "teacher": {

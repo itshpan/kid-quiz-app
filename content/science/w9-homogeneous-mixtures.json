@@ -52,13 +52,14 @@
         "type": "multiple",
         "text": "In salt water, which is the solvent?",
         "options": [
-          "The water",
-          "The salt",
           "Both",
-          "Neither"
+          "The water",
+          "Neither",
+          "The salt"
         ],
-        "answerIndex": 0,
-        "explain": "The solvent does the dissolving. The solute is what gets dissolved, which here is the salt."
+        "answerIndex": 1,
+        "explain": "The solvent does the dissolving. The solute is what gets dissolved, which here is the salt.",
+        "seconds": 15
       }
     },
     {
@@ -87,12 +88,13 @@
         "text": "Which of these does NOT make a solid dissolve faster?",
         "options": [
           "Using a larger, single lump",
-          "Heating the water",
           "Stirring",
-          "Grinding it into powder"
+          "Grinding it into powder",
+          "Heating the water"
         ],
         "answerIndex": 0,
-        "explain": "A bigger lump has less surface area, so it dissolves more slowly. Grinding does the opposite."
+        "explain": "A bigger lump has less surface area, so it dissolves more slowly. Grinding does the opposite.",
+        "seconds": 20
       }
     },
     {
@@ -153,13 +155,14 @@
         "type": "multiple",
         "text": "What does saturated mean?",
         "options": [
-          "No more solute will dissolve at that temperature",
-          "The solution is very strong",
           "The solution is very weak",
-          "The solvent has evaporated"
+          "The solution is very strong",
+          "The solvent has evaporated",
+          "No more solute will dissolve at that temperature"
         ],
-        "answerIndex": 0,
-        "explain": "A real limit, not a comparison. Heat it up and more will dissolve, so the limit moves."
+        "answerIndex": 3,
+        "explain": "A real limit, not a comparison. Heat it up and more will dissolve, so the limit moves.",
+        "seconds": 20
       }
     },
     {
@@ -194,13 +197,14 @@
         "type": "multiple",
         "text": "Oil and water are described as which of these?",
         "options": [
-          "Immiscible",
           "Miscible",
           "Saturated",
+          "Immiscible",
           "Dilute"
         ],
-        "answerIndex": 0,
-        "explain": "Immiscible. They separate into layers, with the less dense oil on top."
+        "answerIndex": 2,
+        "explain": "Immiscible. They separate into layers, with the less dense oil on top.",
+        "seconds": 15
       }
     },
     {
@@ -209,23 +213,54 @@
         "type": "truefalse",
         "text": "Warming water usually lets it dissolve more of a solid.",
         "answer": true,
-        "explain": "True for most solids. Gases behave the opposite way, which is why warm fizzy drinks go flat."
+        "explain": "True for most solids. Gases behave the opposite way, which is why warm fizzy drinks go flat.",
+        "seconds": 12
       }
     },
     {
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "solution", "def": "A homogeneous mixture. Uniform throughout, and nothing settles out." },
-        { "term": "solute", "def": "The substance that dissolves. Usually the smaller amount." },
-        { "term": "solvent", "def": "The substance that does the dissolving. Usually the larger amount." },
-        { "term": "solubility", "def": "How much solute will dissolve in a given solvent at a given temperature." },
-        { "term": "saturated", "def": "No more solute will dissolve at that temperature." },
-        { "term": "dilute", "def": "A small amount of solute in a lot of solvent." },
-        { "term": "concentrated", "def": "A large amount of solute for the amount of solvent." },
-        { "term": "miscible", "def": "Two liquids that mix completely, such as water and vinegar." },
-        { "term": "immiscible", "def": "Two liquids that separate into layers, such as oil and water." },
-        { "term": "universal solvent", "def": "Water. It dissolves more substances than any other liquid." }
+        {
+          "term": "solution",
+          "def": "A homogeneous mixture. Uniform throughout, and nothing settles out."
+        },
+        {
+          "term": "solute",
+          "def": "The substance that dissolves. Usually the smaller amount."
+        },
+        {
+          "term": "solvent",
+          "def": "The substance that does the dissolving. Usually the larger amount."
+        },
+        {
+          "term": "solubility",
+          "def": "How much solute will dissolve in a given solvent at a given temperature."
+        },
+        {
+          "term": "saturated",
+          "def": "No more solute will dissolve at that temperature."
+        },
+        {
+          "term": "dilute",
+          "def": "A small amount of solute in a lot of solvent."
+        },
+        {
+          "term": "concentrated",
+          "def": "A large amount of solute for the amount of solvent."
+        },
+        {
+          "term": "miscible",
+          "def": "Two liquids that mix completely, such as water and vinegar."
+        },
+        {
+          "term": "immiscible",
+          "def": "Two liquids that separate into layers, such as oil and water."
+        },
+        {
+          "term": "universal solvent",
+          "def": "Water. It dissolves more substances than any other liquid."
+        }
       ]
     },
     {
@@ -245,53 +280,57 @@
       "type": "multiple",
       "text": "In sugar dissolved in tea, what is the solute?",
       "options": [
-        "The sugar",
-        "The tea",
         "Both",
-        "Neither"
+        "Neither",
+        "The tea",
+        "The sugar"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "The solute is what dissolves. The solvent, here the tea, does the dissolving.",
-      "objective": "Define a solution, a solute and a solvent"
+      "objective": "Define a solution, a solute and a solvent",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Why is a solution called homogeneous?",
       "options": [
-        "It is uniform throughout and nothing settles out",
         "It contains only one substance",
+        "It is uniform throughout and nothing settles out",
         "It cannot be separated at all",
         "It always looks cloudy"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Every spoonful is identical. The parts are still there, just too small to see or settle.",
-      "objective": "Define a solution, a solute and a solvent"
+      "objective": "Define a solution, a solute and a solvent",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What does solubility mean?",
       "options": [
-        "How much solute dissolves in a solvent at a given temperature",
-        "How quickly a solid disappears",
         "How strong a solution tastes",
+        "How quickly a solid disappears",
+        "How much solute dissolves in a solvent at a given temperature",
         "Whether a liquid is pure"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "It is an amount, and it changes with temperature. Speed is a different question.",
-      "objective": "Explain what solubility means"
+      "objective": "Explain what solubility means",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Which of these speeds up dissolving?",
       "options": [
         "Grinding the solid into powder",
-        "Using one large lump",
+        "Leaving it perfectly still",
         "Cooling the water",
-        "Leaving it perfectly still"
+        "Using one large lump"
       ],
       "answerIndex": 0,
       "explain": "More surface area means more of the solid is in contact with the solvent at once.",
-      "objective": "Name the three things that make a solid dissolve faster"
+      "objective": "Name the three things that make a solid dissolve faster",
+      "seconds": 20
     },
     {
       "type": "order",
@@ -302,53 +341,58 @@
         "Saturated"
       ],
       "explain": "Dilute, then concentrated, then saturated — where no more will dissolve at that temperature.",
-      "objective": "Distinguish dilute, concentrated and saturated"
+      "objective": "Distinguish dilute, concentrated and saturated",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "What does saturated mean?",
       "options": [
         "No more solute will dissolve at that temperature",
+        "The solvent has boiled away",
         "The solution is cloudy",
-        "There is very little solute",
-        "The solvent has boiled away"
+        "There is very little solute"
       ],
       "answerIndex": 0,
       "explain": "It is a limit that has actually been reached. Heating moves the limit.",
-      "objective": "Distinguish dilute, concentrated and saturated"
+      "objective": "Distinguish dilute, concentrated and saturated",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Concentrated and saturated mean the same thing.",
       "answer": false,
       "explain": "False. Concentrated is a comparison. Saturated means the limit has been reached.",
-      "objective": "Distinguish dilute, concentrated and saturated"
+      "objective": "Distinguish dilute, concentrated and saturated",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Water and vinegar mix completely. What word describes this?",
       "options": [
-        "Miscible",
-        "Immiscible",
         "Saturated",
+        "Immiscible",
+        "Miscible",
         "Suspended"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Miscible. Immiscible liquids, such as oil and water, form separate layers instead.",
-      "objective": "Distinguish miscible from immiscible liquids"
+      "objective": "Distinguish miscible from immiscible liquids",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Why does oil float on water?",
       "options": [
+        "It dissolves slowly",
         "It is less dense than water",
         "It is lighter in colour",
-        "It dissolves slowly",
         "It is warmer"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Density. They are immiscible, so they layer, and the less dense one ends up on top.",
-      "objective": "Distinguish miscible from immiscible liquids"
+      "objective": "Distinguish miscible from immiscible liquids",
+      "seconds": 20
     },
     {
       "type": "type",
@@ -359,27 +403,30 @@
         "h2o"
       ],
       "explain": "Water. It dissolves more substances than any other liquid, which is why life runs on it.",
-      "objective": "Explain why water is called the universal solvent"
+      "objective": "Explain why water is called the universal solvent",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Why is water called the universal solvent?",
       "options": [
-        "It dissolves more substances than any other liquid",
-        "It dissolves absolutely everything",
         "It is found everywhere on earth",
-        "It has no taste"
+        "It has no taste",
+        "It dissolves absolutely everything",
+        "It dissolves more substances than any other liquid"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "More than any other liquid, not everything. Oil and sand are two things it will not dissolve.",
-      "objective": "Explain why water is called the universal solvent"
+      "objective": "Explain why water is called the universal solvent",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "A warm fizzy drink goes flat faster than a cold one.",
       "answer": true,
       "explain": "True. Gases dissolve less in warm liquids, which is the opposite of how most solids behave.",
-      "objective": "Explain what solubility means"
+      "objective": "Explain what solubility means",
+      "seconds": 12
     }
   ],
   "teacher": {

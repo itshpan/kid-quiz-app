@@ -46,13 +46,14 @@
         "type": "multiple",
         "text": "Anong uri ito: \"Saan galing ang bola?\"",
         "options": [
-          "Patanong",
-          "Pasalaysay",
           "Pautos",
+          "Pasalaysay",
+          "Patanong",
           "Padamdam"
         ],
-        "answerIndex": 0,
-        "explain": "Nagtatanong ito at may tandang pananong sa dulo. Iyon ang dalawang senyas."
+        "answerIndex": 2,
+        "explain": "Nagtatanong ito at may tandang pananong sa dulo. Iyon ang dalawang senyas.",
+        "seconds": 15
       }
     },
     {
@@ -88,12 +89,13 @@
         "text": "Alin ang pakiusap?",
         "options": [
           "Pakiabot nga ng guwantes.",
-          "Iabot mo ang guwantes.",
           "Inabot niya ang guwantes.",
+          "Iabot mo ang guwantes.",
           "Ang bigat ng guwantes!"
         ],
         "answerIndex": 0,
-        "explain": "Ang \"paki-\" at \"nga\" ang senyas ng pakiusap. Magalang ang tono."
+        "explain": "Ang \"paki-\" at \"nga\" ang senyas ng pakiusap. Magalang ang tono.",
+        "seconds": 15
       }
     },
     {
@@ -152,13 +154,14 @@
         "type": "multiple",
         "text": "Ano ang nangyari sa Kasunduan sa Biak-na-Bato?",
         "options": [
+          "Bumalik ang Katipunan kay Bonifacio",
           "Umalis patungong Hong Kong ang mga pinuno ng himagsikan",
           "Nagkamit agad ng kalayaan ang Pilipinas",
-          "Bumalik ang Katipunan kay Bonifacio",
           "Umalis ang mga Espanyol sa bansa"
         ],
-        "answerIndex": 0,
-        "explain": "Disyembre 1897. May bayad, at ipinatapon sila sa Hong Kong. Panandalian lamang ang katahimikan."
+        "answerIndex": 1,
+        "explain": "Disyembre 1897. May bayad, at ipinatapon sila sa Hong Kong. Panandalian lamang ang katahimikan.",
+        "seconds": 25
       }
     },
     {
@@ -181,7 +184,8 @@
         "type": "truefalse",
         "text": "Natapos ang himagsikan nang mamatay si Bonifacio noong Mayo 1897.",
         "answer": false,
-        "explain": "Hindi. Nagpatuloy ito hanggang 1902, sa ilalim ni Aguinaldo at ng mga sumunod sa kanya."
+        "explain": "Hindi. Nagpatuloy ito hanggang 1902, sa ilalim ni Aguinaldo at ng mga sumunod sa kanya.",
+        "seconds": 12
       }
     },
     {
@@ -238,125 +242,136 @@
       ],
       "answerIndex": 0,
       "explain": "Nagsasabi ito ng impormasyon at may tuldok sa dulo.",
-      "objective": "Matukoy ang pasalaysay, patanong, pautos, pakiusap at padamdam"
+      "objective": "Matukoy ang pasalaysay, patanong, pautos, pakiusap at padamdam",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Anong bantas ang ginagamit sa patanong?",
       "options": [
+        "Kuwit",
         "Tandang pananong",
         "Tuldok",
-        "Kuwit",
         "Tutuldok"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Ang bantas sa dulo ang unang senyas ng uri ng pangungusap.",
-      "objective": "Magamit ang tamang bantas sa bawat uri"
+      "objective": "Magamit ang tamang bantas sa bawat uri",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Anong uri ito: \"Ang lakas ng bagyo kagabi!\"",
       "options": [
-        "Padamdam",
         "Pasalaysay",
+        "Padamdam",
         "Pautos",
         "Pakiusap"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Nagpapahayag ito ng matinding damdamin, at tandang padamdam ang bantas.",
-      "objective": "Matukoy ang pasalaysay, patanong, pautos, pakiusap at padamdam"
+      "objective": "Matukoy ang pasalaysay, patanong, pautos, pakiusap at padamdam",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Alin sa mga ito ang pautos?",
       "options": [
-        "Itali mo ang bendahe mo.",
-        "Pakitali nga ang bendahe.",
         "Itinali niya ang bendahe.",
-        "Ang higpit ng bendahe!"
+        "Ang higpit ng bendahe!",
+        "Pakitali nga ang bendahe.",
+        "Itali mo ang bendahe mo."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Direktang utos ito, walang \"paki-\" at walang \"nga\".",
-      "objective": "Maiba ang pautos sa pakiusap"
+      "objective": "Maiba ang pautos sa pakiusap",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Ano ang senyas ng pakiusap?",
       "options": [
-        "Ang \"paki-\" at ang \"nga\"",
         "Ang tandang padamdam",
         "Ang malaking titik",
-        "Ang haba ng pangungusap"
+        "Ang haba ng pangungusap",
+        "Ang \"paki-\" at ang \"nga\""
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Pinapalambot nila ang hiling. Magalang ang pakiusap; direkta ang pautos.",
-      "objective": "Maiba ang pautos sa pakiusap"
+      "objective": "Maiba ang pautos sa pakiusap",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Magkaiba ang layunin ng pautos at ng pakiusap.",
       "answer": false,
       "explain": "Pareho ang layunin: may gustong ipagawa. Ang tono at ang paggalang ang magkaiba.",
-      "objective": "Maiba ang pautos sa pakiusap"
+      "objective": "Maiba ang pautos sa pakiusap",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Anong uri ito: \"Pakitali nga ang bendahe.\"",
       "options": [
-        "Pakiusap",
+        "Pasalaysay",
         "Pautos",
-        "Patanong",
-        "Pasalaysay"
+        "Pakiusap",
+        "Patanong"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "May \"paki-\" at may \"nga\". Magalang na hiling ito.",
-      "objective": "Makabuo ng pangungusap sa bawat uri"
+      "objective": "Makabuo ng pangungusap sa bawat uri",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Sino ang namuno sa himagsikan pagkamatay ni Bonifacio?",
       "options": [
         "Emilio Aguinaldo",
-        "Apolinario Mabini",
+        "Jose Rizal",
         "Antonio Luna",
-        "Jose Rizal"
+        "Apolinario Mabini"
       ],
       "answerIndex": 0,
       "explain": "Napunta sa kanya ang pamumuno pagkatapos ng Tejeros.",
-      "objective": "Malaman kung ano ang nangyari sa Katipunan pagkamatay ni Bonifacio"
+      "objective": "Malaman kung ano ang nangyari sa Katipunan pagkamatay ni Bonifacio",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Ano ang Republika ng Biak-na-Bato?",
       "options": [
-        "Isang pamahalaang itinatag noong Nobyembre 1897 na may konstitusyon",
-        "Isang bayan sa Cavite",
         "Ang unang paaralan ng Katipunan",
-        "Ang bahay ni Bonifacio"
+        "Isang pamahalaang itinatag noong Nobyembre 1897 na may konstitusyon",
+        "Ang bahay ni Bonifacio",
+        "Isang bayan sa Cavite"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "May sarili itong konstitusyon, ngunit panandalian lamang ito.",
-      "objective": "Malaman kung ano ang nangyari sa Katipunan pagkamatay ni Bonifacio"
+      "objective": "Malaman kung ano ang nangyari sa Katipunan pagkamatay ni Bonifacio",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Saan ipinatapon ang mga pinuno matapos ang Kasunduan sa Biak-na-Bato?",
       "options": [
-        "Hong Kong",
-        "Espanya",
         "Mindanao",
+        "Espanya",
+        "Hong Kong",
         "Amerika"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Disyembre 1897, at may kasamang bayad na pera sa kasunduan.",
-      "objective": "Malaman kung ano ang nangyari sa Katipunan pagkamatay ni Bonifacio"
+      "objective": "Malaman kung ano ang nangyari sa Katipunan pagkamatay ni Bonifacio",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "Tuluyang tumigil ang laban matapos ang Kasunduan sa Biak-na-Bato.",
       "answer": false,
       "explain": "Hindi. Nagpatuloy ang laban sa ilang lalawigan, at bumalik si Aguinaldo noong Mayo 1898.",
-      "objective": "Malaman kung ano ang nangyari sa Katipunan pagkamatay ni Bonifacio"
+      "objective": "Malaman kung ano ang nangyari sa Katipunan pagkamatay ni Bonifacio",
+      "seconds": 12
     },
     {
       "type": "multiple",
@@ -369,7 +384,8 @@
       ],
       "answerIndex": 0,
       "explain": "Sumunod ang Digmaang Pilipino-Amerikano, na ipinahayag na tapos noong Hulyo 1902.",
-      "objective": "Malaman kung ano ang nangyari sa Katipunan pagkamatay ni Bonifacio"
+      "objective": "Malaman kung ano ang nangyari sa Katipunan pagkamatay ni Bonifacio",
+      "seconds": 20
     }
   ],
   "teacher": {

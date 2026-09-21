@@ -55,9 +55,14 @@
       "question": {
         "type": "multiple",
         "text": "Several players share a changing room. How do you write it?",
-        "options": ["the players' changing room", "the player's changing room", "the players changing room"],
-        "answerIndex": 0,
-        "explain": "players' — plural first (players), then the apostrophe goes after the s. One player would be player's."
+        "options": [
+          "the players changing room",
+          "the players' changing room",
+          "the player's changing room"
+        ],
+        "answerIndex": 1,
+        "explain": "players' — plural first (players), then the apostrophe goes after the s. One player would be player's.",
+        "seconds": 20
       }
     },
     {
@@ -90,11 +95,12 @@
         "text": "Which is correct?",
         "options": [
           "The engine lost its power because it's overheating",
-          "The engine lost it's power because its overheating",
-          "The engine lost it's power because it's overheating"
+          "The engine lost it's power because it's overheating",
+          "The engine lost it's power because its overheating"
         ],
         "answerIndex": 0,
-        "explain": "its power (possession), it's overheating (it is overheating). Read each one as 'it is' and only the second survives."
+        "explain": "its power (possession), it's overheating (it is overheating). Read each one as 'it is' and only the second survives.",
+        "seconds": 20
       }
     },
     {
@@ -128,8 +134,13 @@
       "question": {
         "type": "type",
         "text": "Write the possessive: books belonging to the children. Two words.",
-        "accept": ["children's books", "the children's books", "childrens books"],
-        "explain": "children's books. Children is already plural and doesn't end in s, so it takes 's — never childrens'."
+        "accept": [
+          "children's books",
+          "the children's books",
+          "childrens books"
+        ],
+        "explain": "children's books. Children is already plural and doesn't end in s, so it takes 's — never childrens'.",
+        "seconds": 15
       }
     },
     {
@@ -183,12 +194,13 @@
         "type": "multiple",
         "text": "What does Don Quixote do after the farmer promises to pay?",
         "options": [
-          "He rides away, satisfied by the promise",
+          "He takes the boy with him",
           "He waits until the money is handed over",
-          "He takes the boy with him"
+          "He rides away, satisfied by the promise"
         ],
-        "answerIndex": 0,
-        "explain": "He takes the promise as done and leaves. That decision is the whole point of the chapter."
+        "answerIndex": 2,
+        "explain": "He takes the promise as done and leaves. That decision is the whole point of the chapter.",
+        "seconds": 25
       }
     },
     {
@@ -235,20 +247,42 @@
         "type": "truefalse",
         "text": "Don Quixote's rescue leaves Andrés better off than before.",
         "answer": false,
-        "explain": "False. The farmer beats him harder once Quixote has gone. Meaning well but not following through made it worse."
+        "explain": "False. The farmer beats him harder once Quixote has gone. Meaning well but not following through made it worse.",
+        "seconds": 12
       }
     },
     {
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "Possessive", "def": "A form showing that something belongs to someone." },
-        { "term": "Apostrophe", "def": "The mark ' used for possession or a missing letter." },
-        { "term": "Singular possessive", "def": "One owner: add 's. The boy's helmet." },
-        { "term": "Plural possessive", "def": "Several owners ending in s: apostrophe only. The boys' helmets." },
-        { "term": "its", "def": "Belonging to it. No apostrophe, ever." },
-        { "term": "it's", "def": "Short for it is or it has." },
-        { "term": "Squire", "def": "A knight's assistant, who carries equipment and helps him." }
+        {
+          "term": "Possessive",
+          "def": "A form showing that something belongs to someone."
+        },
+        {
+          "term": "Apostrophe",
+          "def": "The mark ' used for possession or a missing letter."
+        },
+        {
+          "term": "Singular possessive",
+          "def": "One owner: add 's. The boy's helmet."
+        },
+        {
+          "term": "Plural possessive",
+          "def": "Several owners ending in s: apostrophe only. The boys' helmets."
+        },
+        {
+          "term": "its",
+          "def": "Belonging to it. No apostrophe, ever."
+        },
+        {
+          "term": "it's",
+          "def": "Short for it is or it has."
+        },
+        {
+          "term": "Squire",
+          "def": "A knight's assistant, who carries equipment and helps him."
+        }
       ]
     },
     {
@@ -267,93 +301,125 @@
     {
       "type": "multiple",
       "text": "A helmet belonging to one driver. How is it written?",
-      "options": ["the driver's helmet", "the drivers' helmet", "the drivers helmet", "the driver helmet's"],
-      "answerIndex": 0,
+      "options": [
+        "the drivers helmet",
+        "the driver's helmet",
+        "the driver helmet's",
+        "the drivers' helmet"
+      ],
+      "answerIndex": 1,
       "explain": "driver's — one owner, so apostrophe then s.",
-      "objective": "Form the possessive of singular and plural nouns"
+      "objective": "Form the possessive of singular and plural nouns",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Helmets belonging to several drivers. How is it written?",
-      "options": ["the drivers' helmets", "the driver's helmets", "the drivers's helmets", "the drivers helmets"],
-      "answerIndex": 0,
+      "options": [
+        "the drivers helmets",
+        "the drivers' helmets",
+        "the driver's helmets",
+        "the drivers's helmets"
+      ],
+      "answerIndex": 1,
       "explain": "drivers' — make it plural first, then put the apostrophe after the s. Never add a second s.",
-      "objective": "Place the apostrophe correctly for plurals ending in s"
+      "objective": "Place the apostrophe correctly for plurals ending in s",
+      "seconds": 20
     },
     {
       "type": "type",
       "text": "Write the possessive form: toys belonging to the children. Two words.",
-      "accept": ["children's toys", "the children's toys"],
+      "accept": [
+        "children's toys",
+        "the children's toys"
+      ],
       "explain": "children's toys. Children is plural but doesn't end in s, so it takes 's — never childrens'.",
-      "objective": "Form the possessive of singular and plural nouns"
+      "objective": "Form the possessive of singular and plural nouns",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Which sentence is correct?",
       "options": [
-        "The team lost its captain, and it's a serious problem",
         "The team lost it's captain, and its a serious problem",
         "The team lost it's captain, and it's a serious problem",
+        "The team lost its captain, and it's a serious problem",
         "The team lost its captain, and its a serious problem"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "its captain (belonging to the team), it's a problem (it is a problem). Read each as 'it is' to test it.",
-      "objective": "Distinguish its from it's"
+      "objective": "Distinguish its from it's",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "To write about more than one car, you write 'car's'.",
       "answer": false,
       "explain": "False. Plurals never take an apostrophe — it's just 'cars'. 'Car's' means something belongs to one car.",
-      "objective": "Distinguish a possessive from a plural"
+      "objective": "Distinguish a possessive from a plural",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Which one contains a possessive rather than a plural?",
-      "options": ["the dog's bowl", "three dogs", "the dogs ran", "many dogs"],
+      "options": [
+        "the dog's bowl",
+        "the dogs ran",
+        "three dogs",
+        "many dogs"
+      ],
       "answerIndex": 0,
       "explain": "the dog's bowl — the bowl belongs to the dog. The others are just plurals, so no apostrophe.",
-      "objective": "Distinguish a possessive from a plural"
+      "objective": "Distinguish a possessive from a plural",
+      "seconds": 15
     },
     {
       "type": "type",
       "text": "Wages for nine months. Write the two words as they appear in Chapter 3.",
-      "accept": ["months' wages", "nine months' wages", "months wages"],
+      "accept": [
+        "months' wages",
+        "nine months' wages",
+        "months wages"
+      ],
       "explain": "months' wages. Months is plural and ends in s, so the apostrophe goes after it.",
-      "objective": "Place the apostrophe correctly for plurals ending in s"
+      "objective": "Place the apostrophe correctly for plurals ending in s",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Why is the farmer whipping Andrés?",
       "options": [
         "He says the boy is careless and loses sheep",
-        "The boy stole from him",
         "The boy insulted Don Quixote",
+        "The boy stole from him",
         "The boy ran away from the farm"
       ],
       "answerIndex": 0,
       "explain": "The farmer claims carelessness with the sheep. Andrés says the real issue is nine months' unpaid wages.",
-      "objective": "Retell Don Quixote Chapter 3 and explain why the rescue fails"
+      "objective": "Retell Don Quixote Chapter 3 and explain why the rescue fails",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "What happens to Andrés after Don Quixote rides away?",
       "options": [
-        "The farmer ties him up again and beats him harder",
-        "The farmer pays him in full",
         "He escapes and follows Don Quixote",
-        "The farmer sets him free and apologises"
+        "The farmer sets him free and apologises",
+        "The farmer ties him up again and beats him harder",
+        "The farmer pays him in full"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "He's beaten worse than before. Quixote accepted a promise as though it were a result, and never checked.",
-      "objective": "Retell Don Quixote Chapter 3 and explain why the rescue fails"
+      "objective": "Retell Don Quixote Chapter 3 and explain why the rescue fails",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "Don Quixote deliberately made things worse for Andrés.",
       "answer": false,
       "explain": "False. His intentions were good. He simply left before making sure, and that gap between meaning well and doing good is the chapter's point.",
-      "objective": "Retell Don Quixote Chapter 3 and explain why the rescue fails"
+      "objective": "Retell Don Quixote Chapter 3 and explain why the rescue fails",
+      "seconds": 12
     },
     {
       "type": "order",
@@ -366,20 +432,22 @@
         "The farmer ties the boy up and beats him harder"
       ],
       "explain": "Cries, discovery, command, promise, betrayal. The final step happens only because Quixote didn't stay to check.",
-      "objective": "Retell Don Quixote Chapter 3 and explain why the rescue fails"
+      "objective": "Retell Don Quixote Chapter 3 and explain why the rescue fails",
+      "seconds": 40
     },
     {
       "type": "multiple",
       "text": "Which is written correctly?",
       "options": [
-        "the women's race",
         "the womens' race",
+        "the woman's race, meaning many women",
         "the womens race",
-        "the woman's race, meaning many women"
+        "the women's race"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "women's. Women is already plural and doesn't end in s, so it takes 's — the same as children's and men's.",
-      "objective": "Form the possessive of singular and plural nouns"
+      "objective": "Form the possessive of singular and plural nouns",
+      "seconds": 15
     }
   ],
   "teacher": {

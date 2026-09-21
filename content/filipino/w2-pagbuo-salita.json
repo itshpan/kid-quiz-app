@@ -60,11 +60,12 @@
         "options": [
           "Gitlapi",
           "Unlapi",
-          "Hulapi",
-          "Kabilaan"
+          "Kabilaan",
+          "Hulapi"
         ],
         "answerIndex": 0,
-        "explain": "Gitlapi, dahil pumapasok ito sa loob ng ugat. Nahati ang \"sulat\" para papasukin ito."
+        "explain": "Gitlapi, dahil pumapasok ito sa loob ng ugat. Nahati ang \"sulat\" para papasukin ito.",
+        "seconds": 15
       }
     },
     {
@@ -91,7 +92,8 @@
           "ang laro",
           "laro."
         ],
-        "explain": "Laro. Ang nag- at ang pag-uulit ng la- ay mga dagdag. Ang ugat ay hindi nagbago."
+        "explain": "Laro. Ang nag- at ang pag-uulit ng la- ay mga dagdag. Ang ugat ay hindi nagbago.",
+        "seconds": 15
       }
     },
     {
@@ -124,13 +126,14 @@
         "type": "multiple",
         "text": "Alin ang halimbawa ng pagtatambal?",
         "options": [
-          "hampaslupa",
           "sumulat",
           "araw-araw",
+          "hampaslupa",
           "bahay"
         ],
-        "answerIndex": 0,
-        "explain": "Hampaslupa, mula sa hampas at lupa. Ang sumulat ay may gitlapi at ang araw-araw ay inuulit."
+        "answerIndex": 2,
+        "explain": "Hampaslupa, mula sa hampas at lupa. Ang sumulat ay may gitlapi at ang araw-araw ay inuulit.",
+        "seconds": 15
       }
     },
     {
@@ -177,13 +180,14 @@
         "type": "multiple",
         "text": "Bakit itinatag nang lihim ang Katipunan?",
         "options": [
-          "Dahil ipinagbabawal na kahit ang mapayapang paghingi ng reporma",
           "Dahil kaunti lamang ang miyembro",
+          "Dahil ipinagbabawal na kahit ang mapayapang paghingi ng reporma",
           "Dahil wala silang pera",
           "Dahil ayaw nilang makilala ng ibang Pilipino"
         ],
-        "answerIndex": 0,
-        "explain": "Inaresto si Rizal tatlong araw matapos itatag ang La Liga Filipina. Naging lihim ang susunod."
+        "answerIndex": 1,
+        "explain": "Inaresto si Rizal tatlong araw matapos itatag ang La Liga Filipina. Naging lihim ang susunod.",
+        "seconds": 20
       }
     },
     {
@@ -222,7 +226,8 @@
           "Kawal",
           "Bayani"
         ],
-        "explain": "Katipon, Kawal, Bayani. May sariling hudyat at tungkulin ang bawat antas."
+        "explain": "Katipon, Kawal, Bayani. May sariling hudyat at tungkulin ang bawat antas.",
+        "seconds": 20
       }
     },
     {
@@ -288,105 +293,114 @@
         "ang sulat"
       ],
       "explain": "Sulat. Ang pinag- at ang -an ay mga panlapi lamang.",
-      "objective": "Matukoy ang salitang-ugat sa loob ng isang salita"
+      "objective": "Matukoy ang salitang-ugat sa loob ng isang salita",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Anong uri ng panlapi ang mag- sa \"maglaro\"?",
       "options": [
+        "Kabilaan",
         "Unlapi",
         "Gitlapi",
-        "Hulapi",
-        "Kabilaan"
+        "Hulapi"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Unlapi, dahil nasa unahan ito ng salitang-ugat na laro.",
-      "objective": "Maiba ang unlapi, gitlapi, hulapi at kabilaan"
+      "objective": "Maiba ang unlapi, gitlapi, hulapi at kabilaan",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Anong uri ng panlapi ang -in sa \"basahin\"?",
       "options": [
         "Hulapi",
-        "Unlapi",
+        "Kabilaan",
         "Gitlapi",
-        "Kabilaan"
+        "Unlapi"
       ],
       "answerIndex": 0,
       "explain": "Hulapi, dahil nasa hulihan ito ng ugat na basa.",
-      "objective": "Maiba ang unlapi, gitlapi, hulapi at kabilaan"
+      "objective": "Maiba ang unlapi, gitlapi, hulapi at kabilaan",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Alin ang may gitlapi?",
       "options": [
-        "tumakbo",
         "magtakbo",
         "takbuhan",
-        "takbo"
+        "takbo",
+        "tumakbo"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Tumakbo. Pumasok ang -um- sa loob ng ugat na takbo.",
-      "objective": "Maiba ang unlapi, gitlapi, hulapi at kabilaan"
+      "objective": "Maiba ang unlapi, gitlapi, hulapi at kabilaan",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Alin ang halimbawa ng kabilaang panlapi?",
       "options": [
-        "pagsulatan",
-        "sumulat",
         "sulatin",
+        "sumulat",
+        "pagsulatan",
         "magsulat"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Pagsulatan: may pag- sa unahan at -an sa hulihan ng ugat.",
-      "objective": "Maiba ang unlapi, gitlapi, hulapi at kabilaan"
+      "objective": "Maiba ang unlapi, gitlapi, hulapi at kabilaan",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Alin ang halimbawa ng pag-uulit?",
       "options": [
-        "bahay-bahay",
-        "hampaslupa",
         "magbahay",
-        "bahay"
+        "bahay",
+        "bahay-bahay",
+        "hampaslupa"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Bahay-bahay. Ang hampaslupa ay tambalan at ang magbahay ay maylapi.",
-      "objective": "Maipaliwanag ang pag-uulit at ang pagtatambal"
+      "objective": "Maipaliwanag ang pag-uulit at ang pagtatambal",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Alin ang salitang tambalan?",
       "options": [
-        "dalagang-bukid",
         "naglalaro",
-        "sari-sari",
-        "ganda"
+        "dalagang-bukid",
+        "ganda",
+        "sari-sari"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Dalagang-bukid, mula sa dalaga at bukid. Dalawang ugat na pinagsama.",
-      "objective": "Maipaliwanag ang pag-uulit at ang pagtatambal"
+      "objective": "Maipaliwanag ang pag-uulit at ang pagtatambal",
+      "seconds": 12
     },
     {
       "type": "truefalse",
       "text": "Nagbabago ang salitang-ugat kapag nilagyan ng panlapi.",
       "answer": false,
       "explain": "Hindi. Nananatiling buo ang ugat. Iyan ang nakikita sa larawan ng gitlapi.",
-      "objective": "Matukoy ang salitang-ugat sa loob ng isang salita"
+      "objective": "Matukoy ang salitang-ugat sa loob ng isang salita",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Kailan itinatag ang Katipunan?",
       "options": [
         "Hulyo 1892",
-        "Agosto 1896",
         "Hunyo 1898",
+        "Agosto 1896",
         "Enero 1899"
       ],
       "answerIndex": 0,
       "explain": "7 Hulyo 1892, sa Tondo, kinabukasan matapos arestuhin si Rizal.",
-      "objective": "Maisulat ang tatlong tanong sa pagbasa ng Supremo"
+      "objective": "Maisulat ang tatlong tanong sa pagbasa ng Supremo",
+      "seconds": 15
     },
     {
       "type": "order",
@@ -397,27 +411,30 @@
         "Bayani"
       ],
       "explain": "Katipon, Kawal, Bayani. May sariling hudyat ang bawat antas.",
-      "objective": "Maisulat ang tatlong tanong sa pagbasa ng Supremo"
+      "objective": "Maisulat ang tatlong tanong sa pagbasa ng Supremo",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Ano ang sagisag-panulat ni Andres Bonifacio?",
       "options": [
-        "Agapito Bagumbayan",
-        "Laong Laan",
         "Plaridel",
-        "Dimasalang"
+        "Dimasalang",
+        "Laong Laan",
+        "Agapito Bagumbayan"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Agapito Bagumbayan. Ang Laong Laan at Dimasalang ay kay Rizal, at ang Plaridel ay kay del Pilar.",
-      "objective": "Maisulat ang tatlong tanong sa pagbasa ng Supremo"
+      "objective": "Maisulat ang tatlong tanong sa pagbasa ng Supremo",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "Sumulat din si Bonifacio, hindi lamang siya nakipaglaban.",
       "answer": true,
       "explain": "Oo. Isinulat niya ang \"Pag-ibig sa Tinubuang Lupa\" at \"Ang Dapat Mabatid ng mga Tagalog\".",
-      "objective": "Maisulat ang tatlong tanong sa pagbasa ng Supremo"
+      "objective": "Maisulat ang tatlong tanong sa pagbasa ng Supremo",
+      "seconds": 12
     }
   ],
   "teacher": {

@@ -47,12 +47,13 @@
         "text": "Why was washing feet shocking when Jesus did it?",
         "options": [
           "It was the job of the lowest servant in the household",
+          "Nobody had ever done it before",
           "Water was expensive",
-          "It was forbidden by law",
-          "Nobody had ever done it before"
+          "It was forbidden by law"
         ],
         "answerIndex": 0,
-        "explain": "That is why Peter objected. The order of the room had been broken in front of everyone."
+        "explain": "That is why Peter objected. The order of the room had been broken in front of everyone.",
+        "seconds": 25
       }
     },
     {
@@ -87,7 +88,8 @@
         "type": "truefalse",
         "text": "Philippians 2 describes Jesus holding on to his status.",
         "answer": false,
-        "explain": "The opposite. He did not use equality with God to his own advantage, and took the nature of a servant."
+        "explain": "The opposite. He did not use equality with God to his own advantage, and took the nature of a servant.",
+        "seconds": 12
       }
     },
     {
@@ -146,13 +148,14 @@
         "type": "multiple",
         "text": "Why did Jesus say the widow gave more than the wealthy givers?",
         "options": [
-          "She gave everything she had, out of her poverty",
           "Her coins were rare",
+          "She gave everything she had, out of her poverty",
           "She gave more often",
           "She gave in public"
         ],
-        "answerIndex": 0,
-        "explain": "The measure is what it cost the giver, not the size of the amount."
+        "answerIndex": 1,
+        "explain": "The measure is what it cost the giver, not the size of the amount.",
+        "seconds": 25
       }
     },
     {
@@ -212,40 +215,43 @@
       "type": "multiple",
       "text": "Whose job was foot washing in a household?",
       "options": [
-        "The lowest servant",
+        "The teacher",
         "The host",
         "The oldest guest",
-        "The teacher"
+        "The lowest servant"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "That is why the room went quiet and why Peter objected.",
-      "objective": "Explain what happened in John 13 and why it was shocking"
+      "objective": "Explain what happened in John 13 and why it was shocking",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What did Peter say when Jesus came to wash his feet?",
       "options": [
         "You will never wash my feet",
-        "Wash the others first",
+        "Let me do it instead",
         "Nothing at all",
-        "Let me do it instead"
+        "Wash the others first"
       ],
       "answerIndex": 0,
       "explain": "The answer was: unless I wash you, you have no part with me.",
-      "objective": "Explain what happened in John 13 and why it was shocking"
+      "objective": "Explain what happened in John 13 and why it was shocking",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What does Philippians 2:3 tell you to do?",
       "options": [
-        "Value others above yourselves",
-        "Compete honestly",
         "Speak the truth quietly",
+        "Compete honestly",
+        "Value others above yourselves",
         "Give a tenth of what you have"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "And to do nothing out of selfish ambition or vain conceit.",
-      "objective": "Explain Philippians 2:3-7 and what Jesus gave up"
+      "objective": "Explain Philippians 2:3-7 and what Jesus gave up",
+      "seconds": 20
     },
     {
       "type": "multiple",
@@ -253,12 +259,13 @@
       "options": [
         "He did not use it to his own advantage, and took a servant's nature",
         "He defended it publicly",
-        "He passed it to the disciples",
-        "He kept it hidden until the end"
+        "He kept it hidden until the end",
+        "He passed it to the disciples"
       ],
       "answerIndex": 0,
       "explain": "The example is a deliberate downward move. He made himself nothing.",
-      "objective": "Explain Philippians 2:3-7 and what Jesus gave up"
+      "objective": "Explain Philippians 2:3-7 and what Jesus gave up",
+      "seconds": 25
     },
     {
       "type": "multiple",
@@ -266,91 +273,99 @@
       "options": [
         "He came not to be served but to serve",
         "He came to teach only",
-        "He came to judge the nations",
-        "He came to build a temple"
+        "He came to build a temple",
+        "He came to judge the nations"
       ],
       "answerIndex": 0,
       "explain": "And to give his life as a ransom for many.",
-      "objective": "Explain Mark 10:45 in your own words"
+      "objective": "Explain Mark 10:45 in your own words",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Mark 10:45 presents serving as beneath someone with authority.",
       "answer": false,
       "explain": "False. It presents serving as what the person with the most authority came to do.",
-      "objective": "Explain Mark 10:45 in your own words"
+      "objective": "Explain Mark 10:45 in your own words",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "What does Matthew 6:1-4 warn about?",
       "options": [
-        "Doing good deeds in order to be seen",
-        "Giving too little",
         "Praying in a group",
-        "Fasting on the wrong day"
+        "Doing good deeds in order to be seen",
+        "Fasting on the wrong day",
+        "Giving too little"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "If you announce it, you have already received your reward in full.",
-      "objective": "Explain why Matthew 6 tells you not to announce it"
+      "objective": "Explain why Matthew 6 tells you not to announce it",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What changes when you announce a good deed?",
       "options": [
+        "Who benefited from it",
         "What the act was for",
         "Whether the act happened",
-        "Who benefited from it",
         "How much it cost you"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "The act stays the same. Its purpose is what changes.",
-      "objective": "Explain why Matthew 6 tells you not to announce it"
+      "objective": "Explain why Matthew 6 tells you not to announce it",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What did the widow in Mark 12 put into the treasury?",
       "options": [
-        "Two very small coins",
         "A large sum",
+        "Two very small coins",
         "A gold ring",
         "Nothing at all"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "And Jesus said she had given more than all the others.",
-      "objective": "Explain the widow's offering in Mark 12"
+      "objective": "Explain the widow's offering in Mark 12",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Why did her gift count for more?",
       "options": [
-        "The others gave from surplus; she gave everything she had",
-        "She gave more often than they did",
+        "She gave publicly",
         "The coins were valuable",
-        "She gave publicly"
+        "She gave more often than they did",
+        "The others gave from surplus; she gave everything she had"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "The measure is what it cost the giver, not the total handed over.",
-      "objective": "Explain the widow's offering in Mark 12"
+      "objective": "Explain the widow's offering in Mark 12",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What is humility, according to this lesson?",
       "options": [
-        "Thinking about yourself less, rather than thinking badly of yourself",
-        "Insulting your own abilities",
         "Refusing all praise",
+        "Insulting your own abilities",
+        "Thinking about yourself less, rather than thinking badly of yourself",
         "Never leading anything"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Someone who insults himself constantly is still talking about himself.",
-      "objective": "Explain Mark 10:45 in your own words"
+      "objective": "Explain Mark 10:45 in your own words",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Pretending to be bad at something is a form of humility.",
       "answer": false,
       "explain": "False. Humility is being accurate about yourself and then giving your attention to someone else.",
-      "objective": "Explain Mark 10:45 in your own words"
+      "objective": "Explain Mark 10:45 in your own words",
+      "seconds": 12
     }
   ],
   "teacher": {

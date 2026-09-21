@@ -53,13 +53,14 @@
         "type": "multiple",
         "text": "What is the main reason an organised room helps you?",
         "options": [
+          "It means you never have to clean again",
           "It reduces the number of small decisions you have to make",
           "It makes the room look expensive",
-          "It means you never have to clean again",
           "It makes the room bigger"
         ],
-        "answerIndex": 0,
-        "explain": "Every item out of place is an unfinished decision. Fewer of them means less to carry around."
+        "answerIndex": 1,
+        "explain": "Every item out of place is an unfinished decision. Fewer of them means less to carry around.",
+        "seconds": 25
       }
     },
     {
@@ -75,13 +76,14 @@
         "type": "multiple",
         "text": "What does giving something a home mean?",
         "options": [
-          "It has one specific place it always lives",
-          "It is stored out of sight",
           "It belongs to one person only",
+          "It is stored out of sight",
+          "It has one specific place it always lives",
           "It is kept in your bedroom"
         ],
-        "answerIndex": 0,
-        "explain": "One place, always the same. If you have to think about where it goes, it will not go there."
+        "answerIndex": 2,
+        "explain": "One place, always the same. If you have to think about where it goes, it will not go there.",
+        "seconds": 25
       }
     },
     {
@@ -141,12 +143,13 @@
         "text": "What is the two-minute rule?",
         "options": [
           "If a job takes under two minutes, do it now",
+          "Take a two-minute break between chores",
           "Tidy for two minutes every day",
-          "Never spend more than two minutes tidying",
-          "Take a two-minute break between chores"
+          "Never spend more than two minutes tidying"
         ],
         "answerIndex": 0,
-        "explain": "Remembering a two-minute job costs more than doing it. So do it and be finished with it."
+        "explain": "Remembering a two-minute job costs more than doing it. So do it and be finished with it.",
+        "seconds": 25
       }
     },
     {
@@ -181,19 +184,38 @@
         "type": "truefalse",
         "text": "Putting something down and putting it away are the same thing.",
         "answer": false,
-        "explain": "False. Putting it down leaves the decision for later. Putting it back finishes it."
+        "explain": "False. Putting it down leaves the decision for later. Putting it back finishes it.",
+        "seconds": 12
       }
     },
     {
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "a home for everything", "def": "Every object has one place it always lives." },
-        { "term": "put it back", "def": "Finish the journey now instead of leaving the decision for later." },
-        { "term": "two-minute rule", "def": "If a job takes under two minutes, do it immediately." },
-        { "term": "like with like", "def": "Store things by what they are used for, not by size or colour." },
-        { "term": "one in, one out", "def": "When something new arrives, something leaves. Keeps the total flat." },
-        { "term": "shadow board", "def": "A board with each tool's outline drawn on it, so a gap is visible at once." }
+        {
+          "term": "a home for everything",
+          "def": "Every object has one place it always lives."
+        },
+        {
+          "term": "put it back",
+          "def": "Finish the journey now instead of leaving the decision for later."
+        },
+        {
+          "term": "two-minute rule",
+          "def": "If a job takes under two minutes, do it immediately."
+        },
+        {
+          "term": "like with like",
+          "def": "Store things by what they are used for, not by size or colour."
+        },
+        {
+          "term": "one in, one out",
+          "def": "When something new arrives, something leaves. Keeps the total flat."
+        },
+        {
+          "term": "shadow board",
+          "def": "A board with each tool's outline drawn on it, so a gap is visible at once."
+        }
       ]
     },
     {
@@ -213,86 +235,93 @@
       "type": "multiple",
       "text": "Why does an organised room reduce mental effort?",
       "options": [
-        "Every item out of place is a small unfinished decision",
+        "It means you never need to clean again",
         "Clean rooms are quieter",
         "Tidy rooms have more space in them",
-        "It means you never need to clean again"
+        "Every item out of place is a small unfinished decision"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "They are quiet individually and loud in a pile. Fewer of them means less to carry.",
-      "objective": "Explain why an organised space reduces mental effort"
+      "objective": "Explain why an organised space reduces mental effort",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "What does it mean to give an object a home?",
       "options": [
         "It has one place it always lives and returns to",
-        "It is hidden away in a cupboard",
         "It is labelled with your name",
+        "It is hidden away in a cupboard",
         "It stays in the room you use it in"
       ],
       "answerIndex": 0,
       "explain": "One place, always the same. If you have to think about it, it will not happen.",
-      "objective": "Explain what giving something a home means"
+      "objective": "Explain what giving something a home means",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "What is a shadow board?",
       "options": [
-        "A board with each tool's outline drawn on it",
-        "A dark board used for writing",
         "A cover that keeps dust off tools",
-        "A list of jobs still to be done"
+        "A board with each tool's outline drawn on it",
+        "A list of jobs still to be done",
+        "A dark board used for writing"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "You do not search for the tool. You look at the gap where it should be.",
-      "objective": "Explain what giving something a home means"
+      "objective": "Explain what giving something a home means",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "Putting something down counts as putting it away.",
       "answer": false,
       "explain": "False. Down postpones the decision. Back finishes it. That difference is most of the mess.",
-      "objective": "State the five foundation habits of home organisation"
+      "objective": "State the five foundation habits of home organisation",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "What is the two-minute rule?",
       "options": [
-        "If a job takes under two minutes, do it now",
         "Spend two minutes tidying each morning",
+        "Never let a job run over two minutes",
         "Rest for two minutes between jobs",
-        "Never let a job run over two minutes"
+        "If a job takes under two minutes, do it now"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Remembering a two-minute job costs more attention than just doing it.",
-      "objective": "Apply the two-minute rule"
+      "objective": "Apply the two-minute rule",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "Which of these should you do under the two-minute rule?",
       "options": [
         "Hang up the towel as you leave the bathroom",
-        "Reorganise the whole wardrobe",
         "Repaint the bedroom wall",
-        "Sort every photo on your phone"
+        "Sort every photo on your phone",
+        "Reorganise the whole wardrobe"
       ],
       "answerIndex": 0,
       "explain": "It is for the small jobs. The big ones get a scheduled block instead.",
-      "objective": "Apply the two-minute rule"
+      "objective": "Apply the two-minute rule",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "What does like with like mean?",
       "options": [
-        "Store things by what they are used for",
-        "Store things by their colour",
         "Store things by their size",
-        "Store the things you like most together"
+        "Store things by what they are used for",
+        "Store the things you like most together",
+        "Store things by their colour"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "You search by purpose, so store by purpose. Cables with cables, tools with tools.",
-      "objective": "State the five foundation habits of home organisation"
+      "objective": "State the five foundation habits of home organisation",
+      "seconds": 20
     },
     {
       "type": "multiple",
@@ -305,14 +334,16 @@
       ],
       "answerIndex": 0,
       "explain": "It keeps the total flat instead of creeping upward. Storage is finite and this respects that.",
-      "objective": "Explain the one in, one out rule and why storage is finite"
+      "objective": "Explain the one in, one out rule and why storage is finite",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "Storage space is effectively unlimited if you organise well enough.",
       "answer": false,
       "explain": "False. It is finite. One in, one out is the only habit that takes that seriously.",
-      "objective": "Explain the one in, one out rule and why storage is finite"
+      "objective": "Explain the one in, one out rule and why storage is finite",
+      "seconds": 12
     },
     {
       "type": "order",
@@ -324,33 +355,36 @@
         "Leave the room"
       ],
       "explain": "Decide, travel, finish. Skipping the third step is exactly how a chair becomes a clothes pile.",
-      "objective": "State the five foundation habits of home organisation"
+      "objective": "State the five foundation habits of home organisation",
+      "seconds": 30
     },
     {
       "type": "multiple",
       "text": "Why pack a training bag the night before?",
       "options": [
-        "It removes decisions from the worst time to make them",
         "It makes the bag lighter",
-        "It is required by most gyms",
-        "It stops the kit smelling"
+        "It stops the kit smelling",
+        "It removes decisions from the worst time to make them",
+        "It is required by most gyms"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Three minutes at night, or a missed session in the morning. Same bag, same order, every time.",
-      "objective": "Apply the two-minute rule"
+      "objective": "Apply the two-minute rule",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "Which is a habit rather than a chore?",
       "options": [
-        "Always putting your keys in the same bowl",
+        "Washing the windows",
         "Cleaning the whole room on Saturday",
-        "Vacuuming the floor",
-        "Washing the windows"
+        "Always putting your keys in the same bowl",
+        "Vacuuming the floor"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "A habit is small, repeated and automatic. Chores are what you get when the habits are missing.",
-      "objective": "State the five foundation habits of home organisation"
+      "objective": "State the five foundation habits of home organisation",
+      "seconds": 20
     }
   ],
   "teacher": {

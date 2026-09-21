@@ -52,13 +52,14 @@
         "type": "multiple",
         "text": "Why did the Reform Movement operate mainly from Spain?",
         "options": [
+          "Spain paid them to move there",
           "Filipinos had freedom of the press there, but not in the colony",
           "There were no Filipinos left in Manila",
-          "Spain paid them to move there",
           "It was cheaper to print newspapers in Barcelona"
         ],
-        "answerIndex": 0,
-        "explain": "The Spanish constitution's freedoms applied in Spain and were never extended to the Philippines."
+        "answerIndex": 1,
+        "explain": "The Spanish constitution's freedoms applied in Spain and were never extended to the Philippines.",
+        "seconds": 25
       }
     },
     {
@@ -87,12 +88,13 @@
         "text": "Which of these did the reformers NOT ask for?",
         "options": [
           "Independence from Spain",
-          "Seats in the Spanish parliament",
+          "Freedom of the press",
           "Filipino priests in the parishes",
-          "Freedom of the press"
+          "Seats in the Spanish parliament"
         ],
         "answerIndex": 0,
-        "explain": "Not independence. That is exactly what separates the reformers from the Katipunan in 1892."
+        "explain": "Not independence. That is exactly what separates the reformers from the Katipunan in 1892.",
+        "seconds": 20
       }
     },
     {
@@ -131,7 +133,8 @@
           "solidaridad",
           "the la solidaridad"
         ],
-        "explain": "La Solidaridad, published from 1889 to 1895, first in Barcelona and then in Madrid."
+        "explain": "La Solidaridad, published from 1889 to 1895, first in Barcelona and then in Madrid.",
+        "seconds": 15
       }
     },
     {
@@ -190,13 +193,14 @@
         "type": "multiple",
         "text": "Who founded La Solidaridad and edited its first issues?",
         "options": [
-          "Graciano Lopez Jaena",
-          "Marcelo H. del Pilar",
+          "Andres Bonifacio",
           "Jose Rizal",
-          "Andres Bonifacio"
+          "Marcelo H. del Pilar",
+          "Graciano Lopez Jaena"
         ],
-        "answerIndex": 0,
-        "explain": "Lopez Jaena founded it in Barcelona in 1889. Del Pilar took it over at the end of that year."
+        "answerIndex": 3,
+        "explain": "Lopez Jaena founded it in Barcelona in 1889. Del Pilar took it over at the end of that year.",
+        "seconds": 20
       }
     },
     {
@@ -245,13 +249,14 @@
         "type": "multiple",
         "text": "Which was NOT a reason the Reform Movement failed?",
         "options": [
-          "Its members lost interest and stopped writing",
           "Spain refused to grant any of the demands",
           "The newspaper ran out of money",
+          "Its members lost interest and stopped writing",
           "The leaders fell out with each other"
         ],
-        "answerIndex": 0,
-        "explain": "They worked for fifteen years and several died poor. Interest was never the problem."
+        "answerIndex": 2,
+        "explain": "They worked for fifteen years and several died poor. Interest was never the problem.",
+        "seconds": 25
       }
     },
     {
@@ -263,14 +268,38 @@
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "Propaganda Movement", "def": "The campaign by Filipinos abroad, roughly 1880-1895, for reform rather than independence." },
-        { "term": "La Solidaridad", "def": "Their newspaper. Barcelona, February 1889 to Madrid, November 1895." },
-        { "term": "Graciano Lopez Jaena", "def": "From Iloilo. Founder and first editor of La Solidaridad. Wrote Fray Botod." },
-        { "term": "Marcelo H. del Pilar", "def": "From Bulacan. Editor from December 1889. Pen name Plaridel." },
-        { "term": "Plaridel", "def": "Del Pilar's pen name, still used as a byword for Filipino journalism." },
-        { "term": "Laong Laan / Dimasalang", "def": "Rizal's two pen names." },
-        { "term": "secularisation", "def": "Handing parishes from Spanish friars to Filipino secular priests. Demand number three." },
-        { "term": "polo", "def": "The forced labour service. Cut from forty days to fifteen in 1884, never abolished." }
+        {
+          "term": "Propaganda Movement",
+          "def": "The campaign by Filipinos abroad, roughly 1880-1895, for reform rather than independence."
+        },
+        {
+          "term": "La Solidaridad",
+          "def": "Their newspaper. Barcelona, February 1889 to Madrid, November 1895."
+        },
+        {
+          "term": "Graciano Lopez Jaena",
+          "def": "From Iloilo. Founder and first editor of La Solidaridad. Wrote Fray Botod."
+        },
+        {
+          "term": "Marcelo H. del Pilar",
+          "def": "From Bulacan. Editor from December 1889. Pen name Plaridel."
+        },
+        {
+          "term": "Plaridel",
+          "def": "Del Pilar's pen name, still used as a byword for Filipino journalism."
+        },
+        {
+          "term": "Laong Laan / Dimasalang",
+          "def": "Rizal's two pen names."
+        },
+        {
+          "term": "secularisation",
+          "def": "Handing parishes from Spanish friars to Filipino secular priests. Demand number three."
+        },
+        {
+          "term": "polo",
+          "def": "The forced labour service. Cut from forty days to fifteen in 1884, never abolished."
+        }
       ]
     },
     {
@@ -290,21 +319,23 @@
       "type": "multiple",
       "text": "Why was the Reform Movement based in Spain rather than the Philippines?",
       "options": [
-        "Freedom of the press existed in Spain but not in the colony",
         "Filipinos were banned from living in Manila",
+        "Spain invited them to move there",
         "Printing was impossible in the Philippines",
-        "Spain invited them to move there"
+        "Freedom of the press existed in Spain but not in the colony"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "The Spanish constitution's freedoms stopped at Spain's own borders. Publishing the same words in Manila meant arrest.",
-      "objective": "Explain what the Propaganda Movement was and why it operated from Spain"
+      "objective": "Explain what the Propaganda Movement was and why it operated from Spain",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "The Propaganda Movement campaigned for independence from Spain.",
       "answer": false,
       "explain": "False. They wanted reform and representation inside the empire. Wanting independence is what made the Katipunan different.",
-      "objective": "Explain what the Propaganda Movement was and why it operated from Spain"
+      "objective": "Explain what the Propaganda Movement was and why it operated from Spain",
+      "seconds": 12
     },
     {
       "type": "multiple",
@@ -312,25 +343,27 @@
       "options": [
         "Filipino representation in the Spanish parliament",
         "A Filipino king",
-        "The removal of all Spaniards from the islands",
-        "An army of Filipino soldiers"
+        "An army of Filipino soldiers",
+        "The removal of all Spaniards from the islands"
       ],
       "answerIndex": 0,
       "explain": "Seats in the Cortes. The Philippines had held them briefly before 1837 and wanted them restored.",
-      "objective": "Name the six main reforms the movement demanded"
+      "objective": "Name the six main reforms the movement demanded",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What did the reformers want done about the parishes?",
       "options": [
-        "Hand them from Spanish friars to Filipino secular priests",
-        "Close them completely",
         "Give them to the Spanish government",
-        "Move them all to Manila"
+        "Hand them from Spanish friars to Filipino secular priests",
+        "Move them all to Manila",
+        "Close them completely"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Secularisation. It is the same argument that got Father Burgos executed in 1872.",
-      "objective": "Name the six main reforms the movement demanded"
+      "objective": "Name the six main reforms the movement demanded",
+      "seconds": 25
     },
     {
       "type": "type",
@@ -340,59 +373,64 @@
         "solidaridad"
       ],
       "explain": "La Solidaridad, from February 1889 to November 1895.",
-      "objective": "Describe La Solidaridad and what it was for"
+      "objective": "Describe La Solidaridad and what it was for",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Who was La Solidaridad mainly written for?",
       "options": [
-        "Spanish readers who might support reform",
-        "Filipino farmers",
+        "British and American governments",
         "The Katipunan",
-        "British and American governments"
+        "Spanish readers who might support reform",
+        "Filipino farmers"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "It was written in Spanish, in Spain, to persuade Spaniards. Copies reached Manila by smuggling.",
-      "objective": "Describe La Solidaridad and what it was for"
+      "objective": "Describe La Solidaridad and what it was for",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Who founded La Solidaridad?",
       "options": [
-        "Graciano Lopez Jaena",
+        "Emilio Jacinto",
         "Marcelo H. del Pilar",
         "Jose Rizal",
-        "Emilio Jacinto"
+        "Graciano Lopez Jaena"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Lopez Jaena, in Barcelona in February 1889. Del Pilar took over as editor that December.",
-      "objective": "Identify Graciano Lopez Jaena and Marcelo H. del Pilar and their work"
+      "objective": "Identify Graciano Lopez Jaena and Marcelo H. del Pilar and their work",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What was Marcelo H. del Pilar's pen name?",
       "options": [
-        "Plaridel",
         "Laong Laan",
+        "Plaridel",
         "Dimasalang",
         "Fray Botod"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Plaridel. Laong Laan and Dimasalang were Rizal's, and Fray Botod was a satire Lopez Jaena wrote.",
-      "objective": "Explain why the reformers used pen names"
+      "objective": "Explain why the reformers used pen names",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Why did the reformers write under pen names?",
       "options": [
-        "To avoid arrest, especially if they returned home",
-        "Because Spanish law required it",
         "To sell more newspapers",
+        "Because Spanish law required it",
+        "To avoid arrest, especially if they returned home",
         "Because they could not write in Spanish"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "A name on a page in Madrid could be a charge sheet in Manila. The pen name was protection.",
-      "objective": "Explain why the reformers used pen names"
+      "objective": "Explain why the reformers used pen names",
+      "seconds": 25
     },
     {
       "type": "multiple",
@@ -405,14 +443,16 @@
       ],
       "answerIndex": 0,
       "explain": "They kept going for fifteen years, and Lopez Jaena and del Pilar both died poor. Giving up was not it.",
-      "objective": "Explain why the Reform Movement did not succeed"
+      "objective": "Explain why the Reform Movement did not succeed",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "Spain abolished the polo, the forced labour service, because the reformers asked.",
       "answer": false,
       "explain": "False. It was cut from forty days to fifteen in 1884 but never abolished under Spanish rule.",
-      "objective": "Name the six main reforms the movement demanded"
+      "objective": "Name the six main reforms the movement demanded",
+      "seconds": 12
     },
     {
       "type": "order",
@@ -424,7 +464,8 @@
         "La Solidaridad closes"
       ],
       "explain": "1872, 1882, 1889, 1895. The whole reform campaign fits between the executions and the Katipunan.",
-      "objective": "Describe La Solidaridad and what it was for"
+      "objective": "Describe La Solidaridad and what it was for",
+      "seconds": 25
     }
   ],
   "teacher": {

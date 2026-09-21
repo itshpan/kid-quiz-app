@@ -45,12 +45,13 @@
         "type": "multiple",
         "text": "Which of these breaks the rules of a tessellation?",
         "options": [
+          "A pattern of squares in a grid",
           "A pattern with a small gap between some tiles",
-          "A pattern of hexagons",
-          "A pattern of squares in a grid"
+          "A pattern of hexagons"
         ],
-        "answerIndex": 0,
-        "explain": "Any gap disqualifies it. So does any overlap. The shapes have to fit exactly."
+        "answerIndex": 1,
+        "explain": "Any gap disqualifies it. So does any overlap. The shapes have to fit exactly.",
+        "seconds": 20
       }
     },
     {
@@ -102,7 +103,8 @@
           "120°",
           "120 degrees"
         ],
-        "explain": "(6 − 2) × 180 ÷ 6 = 4 × 180 ÷ 6 = 120°. And 3 × 120 = 360, so hexagons tile."
+        "explain": "(6 − 2) × 180 ÷ 6 = 4 × 180 ÷ 6 = 120°. And 3 × 120 = 360, so hexagons tile.",
+        "seconds": 20
       }
     },
     {
@@ -137,11 +139,12 @@
         "text": "A shape's interior angle is 100°. Can it tessellate on its own?",
         "options": [
           "No — 360 ÷ 100 isn't a whole number",
-          "Yes — any angle under 120° works",
-          "Yes — three of them make 300°"
+          "Yes — three of them make 300°",
+          "Yes — any angle under 120° works"
         ],
         "answerIndex": 0,
-        "explain": "360 ÷ 100 = 3.6. You'd fit three with 60° left over. The division has to come out exact."
+        "explain": "360 ÷ 100 = 3.6. You'd fit three with 60° left over. The division has to come out exact.",
+        "seconds": 25
       }
     },
     {
@@ -189,12 +192,13 @@
         "type": "multiple",
         "text": "Why do bees build hexagonal cells rather than square ones?",
         "options": [
-          "Hexagons hold the most space for the least wall material",
           "Hexagons are easier for bees to see",
-          "Squares leave gaps between cells"
+          "Squares leave gaps between cells",
+          "Hexagons hold the most space for the least wall material"
         ],
-        "answerIndex": 0,
-        "explain": "Squares tessellate perfectly well. Hexagons just do it with less wax for the same storage."
+        "answerIndex": 2,
+        "explain": "Squares tessellate perfectly well. Hexagons just do it with less wax for the same storage.",
+        "seconds": 25
       }
     },
     {
@@ -229,12 +233,13 @@
         "type": "multiple",
         "text": "Why does a football need pentagons as well as hexagons?",
         "options": [
-          "Hexagons alone stay flat — pentagons force the curve",
           "Pentagons are stronger than hexagons",
-          "It makes the ball easier to see"
+          "It makes the ball easier to see",
+          "Hexagons alone stay flat — pentagons force the curve"
         ],
-        "answerIndex": 0,
-        "explain": "Hexagons tile a flat plane perfectly, which is the problem. The twelve pentagons are what bend it into a sphere."
+        "answerIndex": 2,
+        "explain": "Hexagons tile a flat plane perfectly, which is the problem. The twelve pentagons are what bend it into a sphere.",
+        "seconds": 20
       }
     },
     {
@@ -298,7 +303,8 @@
         "type": "truefalse",
         "text": "If you cut a piece off one edge of a square and slide it to the opposite edge, the new shape still tessellates.",
         "answer": true,
-        "explain": "True. The edges still match up exactly, so the shapes still interlock. This is how Escher built every one of his tilings."
+        "explain": "True. The edges still match up exactly, so the shapes still interlock. This is how Escher built every one of his tilings.",
+        "seconds": 15
       }
     },
     {
@@ -358,7 +364,8 @@
         "type": "truefalse",
         "text": "A regular pentagon cannot tessellate, but any four-sided shape you draw can.",
         "answer": true,
-        "explain": "True, and it's the best joke in geometry. A quadrilateral's angles always sum to 360°, which is exactly what a corner needs."
+        "explain": "True, and it's the best joke in geometry. A quadrilateral's angles always sum to 360°, which is exactly what a corner needs.",
+        "seconds": 12
       }
     },
     {
@@ -384,7 +391,8 @@
           "Divide 360 by that angle",
           "Check whether the answer is a whole number"
         ],
-        "explain": "Sides, then angle, then divide, then check. If it isn't whole, the shape can't tile on its own."
+        "explain": "Sides, then angle, then divide, then check. If it isn't whole, the shape can't tile on its own.",
+        "seconds": 30
       }
     },
     {
@@ -449,14 +457,15 @@
       "type": "multiple",
       "text": "What is a tessellation?",
       "options": [
-        "A pattern of shapes with no gaps and no overlaps",
-        "Any repeating pattern of colours",
+        "A pattern made only from squares",
         "A shape with all sides equal",
-        "A pattern made only from squares"
+        "Any repeating pattern of colours",
+        "A pattern of shapes with no gaps and no overlaps"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "No gaps and no overlaps. The shapes don't have to be identical, and they don't have to be regular.",
-      "objective": "Define a tessellation as a covering with no gaps and no overlaps"
+      "objective": "Define a tessellation as a covering with no gaps and no overlaps",
+      "seconds": 20
     },
     {
       "type": "multiple",
@@ -464,12 +473,13 @@
       "options": [
         "Triangle, square, hexagon",
         "Square, pentagon, hexagon",
-        "Triangle, square, octagon",
-        "Triangle, pentagon, hexagon"
+        "Triangle, pentagon, hexagon",
+        "Triangle, square, octagon"
       ],
       "answerIndex": 0,
       "explain": "Only those three. Their interior angles — 60°, 90° and 120° — each divide into 360 exactly.",
-      "objective": "Identify the three regular polygons that tessellate on their own"
+      "objective": "Identify the three regular polygons that tessellate on their own",
+      "seconds": 20
     },
     {
       "type": "type",
@@ -480,7 +490,8 @@
         "360 degrees"
       ],
       "explain": "360° — one full turn. More than that and tiles overlap. Less and you get a gap.",
-      "objective": "Calculate the interior angle of a regular polygon and test it against 360°"
+      "objective": "Calculate the interior angle of a regular polygon and test it against 360°",
+      "seconds": 20
     },
     {
       "type": "type",
@@ -491,34 +502,38 @@
         "135 degrees"
       ],
       "explain": "(8 − 2) × 180 ÷ 8 = 1080 ÷ 8 = 135°. And 360 ÷ 135 = 2.67, so octagons can't tile alone.",
-      "objective": "Calculate the interior angle of a regular polygon and test it against 360°"
+      "objective": "Calculate the interior angle of a regular polygon and test it against 360°",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "A regular pentagon has 108° corners. Why can't it tessellate?",
       "options": [
+        "It has an odd number of sides",
         "Three make 324° and four make 432° — neither is 360°",
-        "Its sides are different lengths",
         "Pentagons are not flat shapes",
-        "It has an odd number of sides"
+        "Its sides are different lengths"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "You can't fit a whole number of them around a point. Three leave a 36° gap; four would overlap.",
-      "objective": "Explain why some regular polygons cannot tessellate"
+      "objective": "Explain why some regular polygons cannot tessellate",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "Any triangle, no matter how lopsided, will tessellate.",
       "answer": true,
       "explain": "True. Two copies of any triangle form a parallelogram, and parallelograms tile in rows.",
-      "objective": "Explain why some regular polygons cannot tessellate"
+      "objective": "Explain why some regular polygons cannot tessellate",
+      "seconds": 12
     },
     {
       "type": "truefalse",
       "text": "Only regular shapes can tessellate.",
       "answer": false,
       "explain": "False. Every triangle and every quadrilateral tessellates, regular or not. Meanwhile the perfectly regular pentagon cannot.",
-      "objective": "Define a tessellation as a covering with no gaps and no overlaps"
+      "objective": "Define a tessellation as a covering with no gaps and no overlaps",
+      "seconds": 12
     },
     {
       "type": "order",
@@ -530,7 +545,8 @@
         "Check whether the answer is a whole number"
       ],
       "explain": "Sides, angle, divide, check. If the division isn't exact, the shape cannot tile on its own.",
-      "objective": "Calculate the interior angle of a regular polygon and test it against 360°"
+      "objective": "Calculate the interior angle of a regular polygon and test it against 360°",
+      "seconds": 30
     },
     {
       "type": "multiple",
@@ -543,27 +559,30 @@
       ],
       "answerIndex": 0,
       "explain": "It still tiles. The edges still match their neighbours exactly — this is Escher's whole method.",
-      "objective": "Create a tessellating tile using the cut-and-slide method"
+      "objective": "Create a tessellating tile using the cut-and-slide method",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "Why do octagons and squares tessellate together when octagons alone cannot?",
       "options": [
-        "The octagon leaves 90° spare, and a square is exactly 90°",
-        "Squares are smaller than octagons",
         "Two octagons make 360° on their own",
+        "Squares are smaller than octagons",
+        "The octagon leaves 90° spare, and a square is exactly 90°",
         "It only works if the squares are tilted"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Two octagons give 270°, leaving 90°. A square fills it exactly, so the corner reaches 360°.",
-      "objective": "Identify the three regular polygons that tessellate on their own"
+      "objective": "Identify the three regular polygons that tessellate on their own",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "Bees use hexagons because hexagons hold the most space for the least wall material.",
       "answer": true,
       "explain": "True. Squares tile just as well, but hexagons need less wax for the same storage.",
-      "objective": "Identify the three regular polygons that tessellate on their own"
+      "objective": "Identify the three regular polygons that tessellate on their own",
+      "seconds": 12
     },
     {
       "type": "type",
@@ -573,7 +592,8 @@
         "three"
       ],
       "explain": "Three: the equilateral triangle, the square and the regular hexagon. That's the complete list.",
-      "objective": "Identify the three regular polygons that tessellate on their own"
+      "objective": "Identify the three regular polygons that tessellate on their own",
+      "seconds": 15
     }
   ],
   "teacher": {

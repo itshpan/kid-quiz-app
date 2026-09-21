@@ -52,7 +52,8 @@
           "Trachea",
           "Bronchi"
         ],
-        "explain": "Throat, voice box, windpipe, then the branch into each lung. Nose first, alveoli last."
+        "explain": "Throat, voice box, windpipe, then the branch into each lung. Nose first, alveoli last.",
+        "seconds": 20
       }
     },
     {
@@ -94,13 +95,14 @@
         "type": "multiple",
         "text": "What does the diaphragm do when you breathe IN?",
         "options": [
+          "It squeezes the lungs to push air out",
           "It contracts and flattens, making the chest bigger",
           "It relaxes and domes upward",
-          "It squeezes the lungs to push air out",
           "It closes off the windpipe"
         ],
-        "answerIndex": 0,
-        "explain": "It flattens. That raises the chest volume, drops the pressure, and air is pushed in from outside."
+        "answerIndex": 1,
+        "explain": "It flattens. That raises the chest volume, drops the pressure, and air is pushed in from outside.",
+        "seconds": 25
       }
     },
     {
@@ -149,13 +151,14 @@
         "type": "multiple",
         "text": "Where does oxygen actually enter the blood?",
         "options": [
-          "In the alveoli",
-          "In the trachea",
+          "In the larynx",
           "In the bronchi",
-          "In the larynx"
+          "In the alveoli",
+          "In the trachea"
         ],
-        "answerIndex": 0,
-        "explain": "The alveoli. Everything above them is plumbing that gets the air to the right place."
+        "answerIndex": 2,
+        "explain": "The alveoli. Everything above them is plumbing that gets the air to the right place.",
+        "seconds": 15
       }
     },
     {
@@ -205,7 +208,8 @@
           "Bladder",
           "Urethra"
         ],
-        "explain": "Made in the kidney, down the ureter, stored in the bladder, out through the urethra."
+        "explain": "Made in the kidney, down the ureter, stored in the bladder, out through the urethra.",
+        "seconds": 25
       }
     },
     {
@@ -239,7 +243,8 @@
           "About 1000 litres"
         ],
         "answerIndex": 0,
-        "explain": "About 180 litres filtered, about 1.5 passed. The rest is reabsorbed, which is the clever part."
+        "explain": "About 180 litres filtered, about 1.5 passed. The rest is reabsorbed, which is the clever part.",
+        "seconds": 20
       }
     },
     {
@@ -262,7 +267,8 @@
         "type": "truefalse",
         "text": "The kidneys only remove waste and have nothing to do with water balance.",
         "answer": false,
-        "explain": "False. Balancing water and salts is one of their three jobs, and it is why dehydration shows up in urine."
+        "explain": "False. Balancing water and salts is one of their three jobs, and it is why dehydration shows up in urine.",
+        "seconds": 12
       }
     },
     {
@@ -339,66 +345,72 @@
         "Alveoli"
       ],
       "explain": "Nose, throat, voice box, windpipe, then eventually the alveoli after the bronchi branch.",
-      "objective": "Trace the path of air from the nose to the alveoli"
+      "objective": "Trace the path of air from the nose to the alveoli",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Which part of the airway is shared with food?",
       "options": [
-        "The pharynx",
-        "The trachea",
         "The larynx",
-        "The bronchi"
+        "The bronchi",
+        "The pharynx",
+        "The trachea"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "The pharynx, the throat. Below it the epiglottis keeps food out of the larynx.",
-      "objective": "Trace the path of air from the nose to the alveoli"
+      "objective": "Trace the path of air from the nose to the alveoli",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Why does the trachea have C-shaped rings of cartilage?",
       "options": [
-        "To stop it collapsing when air is pulled through it",
         "To warm the air as it passes",
-        "To help you speak",
-        "To trap dust before it reaches the lungs"
+        "To stop it collapsing when air is pulled through it",
+        "To trap dust before it reaches the lungs",
+        "To help you speak"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Anything you draw air through can collapse. The rings hold it open, and the gap lets food bulge past.",
-      "objective": "Trace the path of air from the nose to the alveoli"
+      "objective": "Trace the path of air from the nose to the alveoli",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "What happens to the diaphragm when you breathe in?",
       "options": [
-        "It contracts and flattens",
-        "It relaxes and domes upward",
+        "It closes off the trachea",
         "It stays completely still",
-        "It closes off the trachea"
+        "It relaxes and domes upward",
+        "It contracts and flattens"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "It flattens, making the chest bigger. Bigger space means lower pressure inside.",
-      "objective": "Explain how the diaphragm changes the pressure inside the chest"
+      "objective": "Explain how the diaphragm changes the pressure inside the chest",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Why does air move into your lungs?",
       "options": [
         "Pressure inside the chest drops below the pressure outside",
-        "The lungs pull the air in by themselves",
+        "The heart pumps air into the lungs",
         "The trachea squeezes air downward",
-        "The heart pumps air into the lungs"
+        "The lungs pull the air in by themselves"
       ],
       "answerIndex": 0,
       "explain": "You make space, the pressure drops, and the atmosphere pushes air in. Nobody sucks air in.",
-      "objective": "Explain how the diaphragm changes the pressure inside the chest"
+      "objective": "Explain how the diaphragm changes the pressure inside the chest",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "Breathing out while resting takes no muscular effort.",
       "answer": true,
       "explain": "True at rest. The diaphragm relaxes and the chest springs back. Hard breathing out does use muscles.",
-      "objective": "Explain how the diaphragm changes the pressure inside the chest"
+      "objective": "Explain how the diaphragm changes the pressure inside the chest",
+      "seconds": 12
     },
     {
       "type": "type",
@@ -409,20 +421,22 @@
         "alveolus"
       ],
       "explain": "The alveoli. Their walls and the blood vessel walls are both one cell thick.",
-      "objective": "Explain gas exchange in the alveoli"
+      "objective": "Explain gas exchange in the alveoli",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "In gas exchange, which way do the gases move?",
       "options": [
-        "Oxygen into the blood, carbon dioxide out of it",
         "Oxygen out of the blood, carbon dioxide into it",
+        "Oxygen into the blood, carbon dioxide out of it",
         "Both gases into the blood",
         "Both gases out of the blood"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Oxygen in, carbon dioxide out. That single swap is the reason the whole system exists.",
-      "objective": "Explain gas exchange in the alveoli"
+      "objective": "Explain gas exchange in the alveoli",
+      "seconds": 25
     },
     {
       "type": "order",
@@ -434,33 +448,36 @@
         "Urethra"
       ],
       "explain": "Kidney makes it, ureter carries it, bladder stores it, urethra releases it.",
-      "objective": "Name the parts of the urinary system and what each one does"
+      "objective": "Name the parts of the urinary system and what each one does",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "What is urea, and where is it made?",
       "options": [
-        "Waste from broken-down protein, made in the liver",
-        "Waste from broken-down fat, made in the kidney",
         "A salt made in the bladder",
-        "A gas made in the lungs"
+        "A gas made in the lungs",
+        "Waste from broken-down fat, made in the kidney",
+        "Waste from broken-down protein, made in the liver"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "The liver makes urea from excess protein. The kidneys then remove it from the blood.",
-      "objective": "Explain what the kidneys filter out and what they keep"
+      "objective": "Explain what the kidneys filter out and what they keep",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "Which of these is NOT a job of the kidneys?",
       "options": [
-        "Adding oxygen to the blood",
-        "Removing urea from the blood",
+        "Helping control blood pressure",
         "Balancing water and salts",
-        "Helping control blood pressure"
+        "Adding oxygen to the blood",
+        "Removing urea from the blood"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Oxygen is added in the alveoli, not the kidneys. The other three are all kidney jobs.",
-      "objective": "Explain what the kidneys filter out and what they keep"
+      "objective": "Explain what the kidneys filter out and what they keep",
+      "seconds": 20
     },
     {
       "type": "multiple",
@@ -468,12 +485,13 @@
       "options": [
         "You are dehydrated and your kidneys are conserving water",
         "You have drunk far too much water",
-        "Your lungs are not exchanging gas properly",
-        "Nothing at all"
+        "Nothing at all",
+        "Your lungs are not exchanging gas properly"
       ],
       "answerIndex": 0,
       "explain": "Dark means concentrated, so the kidneys are holding water back. Pale is the target before training.",
-      "objective": "Relate hydration and breathing rate to training"
+      "objective": "Relate hydration and breathing rate to training",
+      "seconds": 25
     }
   ],
   "teacher": {

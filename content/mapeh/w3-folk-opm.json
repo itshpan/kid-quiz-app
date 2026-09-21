@@ -46,13 +46,14 @@
         "type": "multiple",
         "text": "What is a harana?",
         "options": [
+          "A Visayan improvised duet",
           "A serenade sung outside a window at night",
-          "A dance using bamboo poles",
           "An ensemble of bronze gongs",
-          "A Visayan improvised duet"
+          "A dance using bamboo poles"
         ],
-        "answerIndex": 0,
-        "explain": "A serenade. The balitaw is the improvised duet and the tinikling is the bamboo dance."
+        "answerIndex": 1,
+        "explain": "A serenade. The balitaw is the improvised duet and the tinikling is the bamboo dance.",
+        "seconds": 20
       }
     },
     {
@@ -75,7 +76,8 @@
         "type": "truefalse",
         "text": "A kundiman is often about love for the country as well as love for a person.",
         "answer": true,
-        "explain": "True. Under Spanish rule the second meaning had to be hidden inside the first."
+        "explain": "True. Under Spanish rule the second meaning had to be hidden inside the first.",
+        "seconds": 15
       }
     },
     {
@@ -116,7 +118,8 @@
           "The balitaw"
         ],
         "answerIndex": 0,
-        "explain": "The rondalla, a plucked string band. The kulintang is a Southeast Asian gong tradition from Mindanao."
+        "explain": "The rondalla, a plucked string band. The kulintang is a Southeast Asian gong tradition from Mindanao.",
+        "seconds": 15
       }
     },
     {
@@ -161,13 +164,14 @@
         "type": "multiple",
         "text": "What does OPM stand for?",
         "options": [
-          "Original Pilipino Music",
           "Only Popular Music",
+          "Old Philippine Melodies",
           "Official Philippine Music",
-          "Old Philippine Melodies"
+          "Original Pilipino Music"
         ],
-        "answerIndex": 0,
-        "explain": "Original Pilipino Music. It describes where a song came from, not what genre it is."
+        "answerIndex": 3,
+        "explain": "Original Pilipino Music. It describes where a song came from, not what genre it is.",
+        "seconds": 15
       }
     },
     {
@@ -216,27 +220,52 @@
         "type": "multiple",
         "text": "Who recorded Anak in 1978?",
         "options": [
-          "Freddie Aguilar",
           "Ryan Cayabyab",
-          "The Eraserheads",
-          "Julian Felipe"
+          "Julian Felipe",
+          "Freddie Aguilar",
+          "The Eraserheads"
         ],
-        "answerIndex": 0,
-        "explain": "Freddie Aguilar. It became one of the most widely heard Filipino songs outside the country."
+        "answerIndex": 2,
+        "explain": "Freddie Aguilar. It became one of the most widely heard Filipino songs outside the country.",
+        "seconds": 15
       }
     },
     {
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "kundiman", "def": "A Filipino love song, historically also a coded song about the country." },
-        { "term": "harana", "def": "A serenade sung outside a window at night, with a guitar." },
-        { "term": "balitaw", "def": "A Visayan song and dance for two singers, often improvised." },
-        { "term": "kulintang", "def": "A row of small tuned bronze gongs from Mindanao, played with sticks." },
-        { "term": "rondalla", "def": "A plucked string band of Spanish origin: bandurria, laud, octavina, guitar, bass." },
-        { "term": "tinikling", "def": "A dance stepping between two clapping bamboo poles, from Leyte." },
-        { "term": "OPM", "def": "Original Pilipino Music. Any genre, as long as Filipinos wrote and performed it." },
-        { "term": "Lupang Hinirang", "def": "The national anthem. Music by Julian Felipe, first played at Kawit in 1898." }
+        {
+          "term": "kundiman",
+          "def": "A Filipino love song, historically also a coded song about the country."
+        },
+        {
+          "term": "harana",
+          "def": "A serenade sung outside a window at night, with a guitar."
+        },
+        {
+          "term": "balitaw",
+          "def": "A Visayan song and dance for two singers, often improvised."
+        },
+        {
+          "term": "kulintang",
+          "def": "A row of small tuned bronze gongs from Mindanao, played with sticks."
+        },
+        {
+          "term": "rondalla",
+          "def": "A plucked string band of Spanish origin: bandurria, laud, octavina, guitar, bass."
+        },
+        {
+          "term": "tinikling",
+          "def": "A dance stepping between two clapping bamboo poles, from Leyte."
+        },
+        {
+          "term": "OPM",
+          "def": "Original Pilipino Music. Any genre, as long as Filipinos wrote and performed it."
+        },
+        {
+          "term": "Lupang Hinirang",
+          "def": "The national anthem. Music by Julian Felipe, first played at Kawit in 1898."
+        }
       ]
     },
     {
@@ -256,40 +285,43 @@
       "type": "multiple",
       "text": "What is a kundiman?",
       "options": [
-        "A love song that is often really about the country",
-        "A dance with bamboo poles",
+        "A row of tuned bronze gongs",
         "A band of plucked string instruments",
-        "A row of tuned bronze gongs"
+        "A dance with bamboo poles",
+        "A love song that is often really about the country"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "A love song with a second meaning. Under Spain, patriotism had to be hidden inside romance.",
-      "objective": "Describe the kundiman, harana and balitaw"
+      "objective": "Describe the kundiman, harana and balitaw",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What is a harana?",
       "options": [
         "A serenade sung outside a window at night",
+        "A harvest dance",
         "A war chant",
-        "A funeral song",
-        "A harvest dance"
+        "A funeral song"
       ],
       "answerIndex": 0,
       "explain": "A serenade, usually one singer with a guitar, and a well-understood set of rules.",
-      "objective": "Describe the kundiman, harana and balitaw"
+      "objective": "Describe the kundiman, harana and balitaw",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "The balitaw comes from which part of the Philippines?",
       "options": [
         "The Visayas",
-        "Northern Luzon",
         "Mindanao",
-        "Palawan"
+        "Palawan",
+        "Northern Luzon"
       ],
       "answerIndex": 0,
       "explain": "The Visayas. It is a song and dance for two, often improvised as a courtship exchange.",
-      "objective": "Describe the kundiman, harana and balitaw"
+      "objective": "Describe the kundiman, harana and balitaw",
+      "seconds": 15
     },
     {
       "type": "type",
@@ -299,7 +331,8 @@
         "the kulintang"
       ],
       "explain": "The kulintang, played with two sticks inside a larger ensemble of gongs and drums.",
-      "objective": "Identify the kulintang and the rondalla and where each came from"
+      "objective": "Identify the kulintang and the rondalla and where each came from",
+      "seconds": 15
     },
     {
       "type": "multiple",
@@ -312,86 +345,94 @@
       ],
       "answerIndex": 0,
       "explain": "The bandurria, alongside the laud, octavina, guitar and bass. The others are gong or bamboo instruments.",
-      "objective": "Identify the kulintang and the rondalla and where each came from"
+      "objective": "Identify the kulintang and the rondalla and where each came from",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "The rondalla came to the Philippines through Spanish influence.",
       "answer": true,
       "explain": "True. It is a plucked string tradition of European origin, and it became thoroughly Filipino.",
-      "objective": "Identify the kulintang and the rondalla and where each came from"
+      "objective": "Identify the kulintang and the rondalla and where each came from",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "What does OPM stand for?",
       "options": [
-        "Original Pilipino Music",
-        "Original Popular Melody",
+        "Official Pop Movement",
         "Old Philippine Music",
-        "Official Pop Movement"
+        "Original Pilipino Music",
+        "Original Popular Melody"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Original Pilipino Music. The term appeared in the 1970s.",
-      "objective": "Explain what OPM means and when the term appeared"
+      "objective": "Explain what OPM means and when the term appeared",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "OPM is a single musical genre with one recognisable sound.",
       "answer": false,
       "explain": "False. It covers rock, ballads, rap, folk and everything else. The label is about origin, not sound.",
-      "objective": "Explain what OPM means and when the term appeared"
+      "objective": "Explain what OPM means and when the term appeared",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Which song, recorded in 1978, became one of the most widely heard Filipino songs abroad?",
       "options": [
+        "Lupang Hinirang",
         "Anak",
         "Ang Huling El Bimbo",
-        "Lupang Hinirang",
         "Jocelynang Baliwag"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Anak, by Freddie Aguilar. It travelled far further than anyone expected.",
-      "objective": "Name key OPM artists and one thing each is known for"
+      "objective": "Name key OPM artists and one thing each is known for",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Ryan Cayabyab was made a National Artist for Music in which year?",
       "options": [
-        "2018",
-        "1972",
         "1998",
-        "2006"
+        "2018",
+        "2006",
+        "1972"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "2018. He is one of the most recorded Filipino composers of the last fifty years.",
-      "objective": "Name key OPM artists and one thing each is known for"
+      "objective": "Name key OPM artists and one thing each is known for",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Who wrote the music of Lupang Hinirang?",
       "options": [
-        "Julian Felipe",
-        "Jose Palma",
         "Freddie Aguilar",
-        "Nicanor Abelardo"
+        "Nicanor Abelardo",
+        "Jose Palma",
+        "Julian Felipe"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Julian Felipe. It was first played at the declaration of independence at Kawit in June 1898.",
-      "objective": "Explain how folk music carries history and identity"
+      "objective": "Explain how folk music carries history and identity",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Why does folk music matter as historical evidence?",
       "options": [
-        "It records the lives of people written history usually skips",
         "It is always more accurate than documents",
-        "It was written down carefully from the start",
-        "It only survives in museums"
+        "It only survives in museums",
+        "It records the lives of people written history usually skips",
+        "It was written down carefully from the start"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Nobody filed a balitaw. It survived by being passed on, and it stops existing when that stops.",
-      "objective": "Explain how folk music carries history and identity"
+      "objective": "Explain how folk music carries history and identity",
+      "seconds": 25
     }
   ],
   "teacher": {

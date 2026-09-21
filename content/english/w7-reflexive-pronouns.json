@@ -46,13 +46,14 @@
         "type": "multiple",
         "text": "Which sentence uses a REFLEXIVE pronoun?",
         "options": [
+          "They fixed it themselves",
           "She cut herself on the tin",
           "She herself opened the tin",
-          "The tin itself was rusty",
-          "They fixed it themselves"
+          "The tin itself was rusty"
         ],
-        "answerIndex": 0,
-        "explain": "Cut who? Herself is the object. In the other three the word could be removed."
+        "answerIndex": 1,
+        "explain": "Cut who? Herself is the object. In the other three the word could be removed.",
+        "seconds": 20
       }
     },
     {
@@ -90,7 +91,8 @@
           "itself",
           "it self"
         ],
-        "explain": "Itself. Washed who? The cat. Doer and receiver are the same, so it is reflexive."
+        "explain": "Itself. Washed who? The cat. Doer and receiver are the same, so it is reflexive.",
+        "seconds": 15
       }
     },
     {
@@ -162,12 +164,13 @@
         "text": "What does Don Quixote take the windmills to be?",
         "options": [
           "Giants",
+          "A castle",
           "Enchanters",
-          "An enemy army",
-          "A castle"
+          "An enemy army"
         ],
         "answerIndex": 0,
-        "explain": "Giants with long arms. Sancho tells him they are windmills before he charges, and he charges anyway."
+        "explain": "Giants with long arms. Sancho tells him they are windmills before he charges, and he charges anyway.",
+        "seconds": 15
       }
     },
     {
@@ -202,19 +205,38 @@
         "type": "truefalse",
         "text": "After being knocked down, Don Quixote admits the giants were windmills.",
         "answer": false,
-        "explain": "False. He says an enchanter turned them into windmills to steal his glory."
+        "explain": "False. He says an enchanter turned them into windmills to steal his glory.",
+        "seconds": 12
       }
     },
     {
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "reflexive pronoun", "def": "A -self word acting as the object, where the subject and object are the same." },
-        { "term": "intensive pronoun", "def": "The same word used only for emphasis. It can be removed." },
-        { "term": "the deletion test", "def": "Take the -self word out. If the sentence breaks, it was reflexive." },
-        { "term": "object", "def": "The person or thing the verb acts on." },
-        { "term": "tilting at windmills", "def": "Attacking an imaginary enemy. The phrase comes from this chapter." },
-        { "term": "Freston", "def": "The enchanter Don Quixote blames for turning the giants into windmills." }
+        {
+          "term": "reflexive pronoun",
+          "def": "A -self word acting as the object, where the subject and object are the same."
+        },
+        {
+          "term": "intensive pronoun",
+          "def": "The same word used only for emphasis. It can be removed."
+        },
+        {
+          "term": "the deletion test",
+          "def": "Take the -self word out. If the sentence breaks, it was reflexive."
+        },
+        {
+          "term": "object",
+          "def": "The person or thing the verb acts on."
+        },
+        {
+          "term": "tilting at windmills",
+          "def": "Attacking an imaginary enemy. The phrase comes from this chapter."
+        },
+        {
+          "term": "Freston",
+          "def": "The enchanter Don Quixote blames for turning the giants into windmills."
+        }
       ]
     },
     {
@@ -234,40 +256,43 @@
       "type": "multiple",
       "text": "What is a reflexive pronoun?",
       "options": [
-        "A -self word acting as the object, where subject and object are the same",
-        "A -self word used only for emphasis",
         "A word showing possession",
-        "A word that replaces a noun in any position"
+        "A -self word acting as the object, where subject and object are the same",
+        "A word that replaces a noun in any position",
+        "A -self word used only for emphasis"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Doer and receiver are the same person, and the -self word is doing real work as the object.",
-      "objective": "Define a reflexive pronoun"
+      "objective": "Define a reflexive pronoun",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "Which sentence uses a reflexive pronoun?",
       "options": [
+        "They painted it themselves",
         "He taught himself to swim",
-        "He himself taught the class",
         "The class itself was small",
-        "They painted it themselves"
+        "He himself taught the class"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Taught who? Himself is the object. In the other three the word can be removed.",
-      "objective": "Define a reflexive pronoun"
+      "objective": "Define a reflexive pronoun",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "How do you tell a reflexive pronoun from an intensive one?",
       "options": [
-        "Delete it. If the sentence breaks, it was reflexive",
-        "Check whether it is singular or plural",
         "Look at where it appears in the sentence",
-        "See whether it ends in -self or -selves"
+        "Check whether it is singular or plural",
+        "See whether it ends in -self or -selves",
+        "Delete it. If the sentence breaks, it was reflexive"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "An intensive pronoun is removable. A reflexive one is the object, so removing it leaves a gap.",
-      "objective": "Explain how a reflexive pronoun differs from an intensive one"
+      "objective": "Explain how a reflexive pronoun differs from an intensive one",
+      "seconds": 25
     },
     {
       "type": "type",
@@ -276,99 +301,108 @@
         "themselves"
       ],
       "explain": "Themselves. The children are both doing the helping and receiving it.",
-      "objective": "Use reflexive pronouns correctly as objects"
+      "objective": "Use reflexive pronouns correctly as objects",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Complete it: \"I made ___ a promise.\"",
       "options": [
-        "myself",
-        "me",
         "mine",
-        "my"
+        "my",
+        "myself",
+        "me"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "I is the subject and the promise was made to the same person, so it is myself.",
-      "objective": "Use reflexive pronouns correctly as objects"
+      "objective": "Use reflexive pronouns correctly as objects",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Which sentence is wrong in English?",
       "options": [
         "I feel myself tired",
-        "I feel tired",
+        "She concentrated hard",
         "He got up early",
-        "She concentrated hard"
+        "I feel tired"
       ],
       "answerIndex": 0,
       "explain": "English does not use a reflexive with feel. Many other languages do, which is why this is a common error.",
-      "objective": "Recognise verbs that do not take a reflexive pronoun in English"
+      "objective": "Recognise verbs that do not take a reflexive pronoun in English",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "\"He got himself up early\" is standard English.",
       "answer": false,
       "explain": "False. \"He got up early\" is the natural form. English drops the reflexive with this verb.",
-      "objective": "Recognise verbs that do not take a reflexive pronoun in English"
+      "objective": "Recognise verbs that do not take a reflexive pronoun in English",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "What does Don Quixote believe the windmills are?",
       "options": [
-        "Giants",
-        "Enchanted castles",
         "An army of knights",
-        "A herd of animals"
+        "A herd of animals",
+        "Giants",
+        "Enchanted castles"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Giants with long arms. The arms are the sails, as Sancho tells him before the charge.",
-      "objective": "Retell the windmills episode and explain what Don Quixote concludes"
+      "objective": "Retell the windmills episode and explain what Don Quixote concludes",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What happens when he charges?",
       "options": [
         "A sail shatters his lance and drags him down",
+        "Sancho pulls him back in time",
         "He defeats several of them",
-        "The windmills stop turning",
-        "Sancho pulls him back in time"
+        "The windmills stop turning"
       ],
       "answerIndex": 0,
       "explain": "The wind rises, the sail catches the lance, and both horse and rider are thrown across the field.",
-      "objective": "Retell the windmills episode and explain what Don Quixote concludes"
+      "objective": "Retell the windmills episode and explain what Don Quixote concludes",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "How does Don Quixote explain his defeat?",
       "options": [
         "An enchanter turned the giants into windmills",
-        "He admits he was mistaken",
         "He blames Rocinante",
-        "He says the wind was unfair"
+        "He says the wind was unfair",
+        "He admits he was mistaken"
       ],
       "answerIndex": 0,
       "explain": "He names the enchanter Freston, who he says did it to rob him of the glory.",
-      "objective": "Retell the windmills episode and explain what Don Quixote concludes"
+      "objective": "Retell the windmills episode and explain what Don Quixote concludes",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Sancho warns him that they are windmills before he charges.",
       "answer": true,
       "explain": "True, and more than once. Being told the truth is not the same as accepting it.",
-      "objective": "Retell the windmills episode and explain what Don Quixote concludes"
+      "objective": "Retell the windmills episode and explain what Don Quixote concludes",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "What does the phrase \"tilting at windmills\" mean?",
       "options": [
-        "Attacking an imaginary enemy",
         "Working very hard",
+        "Losing a fair fight",
         "Travelling a long way",
-        "Losing a fair fight"
+        "Attacking an imaginary enemy"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "It comes straight from this chapter, and it has outlasted almost everything else in the book.",
-      "objective": "Retell the windmills episode and explain what Don Quixote concludes"
+      "objective": "Retell the windmills episode and explain what Don Quixote concludes",
+      "seconds": 20
     }
   ],
   "teacher": {

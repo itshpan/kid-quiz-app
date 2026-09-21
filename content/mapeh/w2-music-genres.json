@@ -46,13 +46,14 @@
         "type": "multiple",
         "text": "Which country did reggae come from?",
         "options": [
-          "Jamaica",
-          "Brazil",
           "Indonesia",
-          "South Korea"
+          "Jamaica",
+          "South Korea",
+          "Brazil"
         ],
-        "answerIndex": 0,
-        "explain": "Jamaica, from the 1960s. The giveaway is the guitar chopping on the offbeat."
+        "answerIndex": 1,
+        "explain": "Jamaica, from the 1960s. The giveaway is the guitar chopping on the offbeat.",
+        "seconds": 15
       }
     },
     {
@@ -87,13 +88,14 @@
         "type": "multiple",
         "text": "Hip hop grew out of DJs doing what?",
         "options": [
-          "Looping the drum break in a record",
+          "Singing without amplification",
           "Playing two melodies at once",
-          "Recording with no instruments",
-          "Singing without amplification"
+          "Looping the drum break in a record",
+          "Recording with no instruments"
         ],
-        "answerIndex": 0,
-        "explain": "The break is the part where the drums play alone. Looping it made a new music out of old records."
+        "answerIndex": 2,
+        "explain": "The break is the part where the drums play alone. Looping it made a new music out of old records.",
+        "seconds": 20
       }
     },
     {
@@ -141,12 +143,13 @@
         "text": "Which genre uses a full orchestra of tuned bronze gongs?",
         "options": [
           "Gamelan",
-          "Flamenco",
           "Samba",
-          "K-pop"
+          "K-pop",
+          "Flamenco"
         ],
         "answerIndex": 0,
-        "explain": "Gamelan, from Indonesia. Whole ensembles of gongs and metal keys, tuned to each other."
+        "explain": "Gamelan, from Indonesia. Whole ensembles of gongs and metal keys, tuned to each other.",
+        "seconds": 15
       }
     },
     {
@@ -181,13 +184,14 @@
         "type": "multiple",
         "text": "Which of these is NOT part of describing a genre?",
         "options": [
-          "How much you personally like it",
           "The typical tempo",
+          "Where and when it started",
           "The instruments usually used",
-          "Where and when it started"
+          "How much you personally like it"
         ],
-        "answerIndex": 0,
-        "explain": "Liking it is a review, not a description. The other three are what actually define a genre."
+        "answerIndex": 3,
+        "explain": "Liking it is a review, not a description. The other three are what actually define a genre.",
+        "seconds": 20
       }
     },
     {
@@ -208,12 +212,30 @@
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "genre", "def": "A family of music sharing a typical rhythm, instruments, place and time." },
-        { "term": "offbeat", "def": "The weak beat between the strong ones. Reggae puts the guitar there." },
-        { "term": "break", "def": "The part of a record where the drums play alone. Hip hop was built on looping it." },
-        { "term": "compás", "def": "The repeating rhythmic cycle that flamenco is counted in." },
-        { "term": "gamelan", "def": "An Indonesian ensemble of tuned bronze gongs and metal keys." },
-        { "term": "percussion", "def": "Instruments played by striking or shaking. Samba is carried by them." }
+        {
+          "term": "genre",
+          "def": "A family of music sharing a typical rhythm, instruments, place and time."
+        },
+        {
+          "term": "offbeat",
+          "def": "The weak beat between the strong ones. Reggae puts the guitar there."
+        },
+        {
+          "term": "break",
+          "def": "The part of a record where the drums play alone. Hip hop was built on looping it."
+        },
+        {
+          "term": "compás",
+          "def": "The repeating rhythmic cycle that flamenco is counted in."
+        },
+        {
+          "term": "gamelan",
+          "def": "An Indonesian ensemble of tuned bronze gongs and metal keys."
+        },
+        {
+          "term": "percussion",
+          "def": "Instruments played by striking or shaking. Samba is carried by them."
+        }
       ]
     },
     {
@@ -233,40 +255,43 @@
       "type": "multiple",
       "text": "What makes a group of songs a genre?",
       "options": [
-        "A shared rhythm, set of instruments, place and time",
+        "Being the same length",
         "Being released in the same year",
-        "Having the same singer",
-        "Being the same length"
+        "A shared rhythm, set of instruments, place and time",
+        "Having the same singer"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Shared habits. That is why you can recognise one within a couple of bars.",
-      "objective": "Define what a music genre is"
+      "objective": "Define what a music genre is",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Where did samba come from?",
       "options": [
-        "Brazil",
-        "Jamaica",
         "Spain",
+        "Jamaica",
+        "Brazil",
         "Indonesia"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Brazil, carrying West African rhythm with it. Layers of percussion over a fast two-beat pulse.",
-      "objective": "Match six major genres to the countries they came from"
+      "objective": "Match six major genres to the countries they came from",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Flamenco comes from which part of which country?",
       "options": [
-        "Andalusia, in southern Spain",
-        "Catalonia, in northern Spain",
         "Sicily, in southern Italy",
-        "Provence, in southern France"
+        "Andalusia, in southern Spain",
+        "Provence, in southern France",
+        "Catalonia, in northern Spain"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Andalusia. Guitar, handclaps and a singer, counted in repeating cycles called compás.",
-      "objective": "Match six major genres to the countries they came from"
+      "objective": "Match six major genres to the countries they came from",
+      "seconds": 20
     },
     {
       "type": "multiple",
@@ -279,20 +304,22 @@
       ],
       "answerIndex": 0,
       "explain": "The Bronx in the 1970s, out of DJs looping the drum break in existing records.",
-      "objective": "Match six major genres to the countries they came from"
+      "objective": "Match six major genres to the countries they came from",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What is the giveaway sound of reggae?",
       "options": [
+        "Handclaps in a repeating cycle",
         "Guitar chopping on the offbeat",
         "A row of tuned gongs",
-        "Handclaps in a repeating cycle",
         "A looped drum break"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "The offbeat chop, with the bass leading the song. The other three belong to gamelan, flamenco and hip hop.",
-      "objective": "Describe the characteristic rhythm or instruments of each"
+      "objective": "Describe the characteristic rhythm or instruments of each",
+      "seconds": 20
     },
     {
       "type": "type",
@@ -302,40 +329,44 @@
         "from indonesia"
       ],
       "explain": "Indonesia. A gamelan is a whole ensemble of tuned bronze gongs and metal keys.",
-      "objective": "Match six major genres to the countries they came from"
+      "objective": "Match six major genres to the countries they came from",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What is a break, in the hip hop sense?",
       "options": [
+        "A change of key",
         "The part of a record where the drums play alone",
         "A pause between two songs",
-        "The chorus of a song",
-        "A change of key"
+        "The chorus of a song"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "The drum-only section. DJs looped it, and a whole genre grew out of that one idea.",
-      "objective": "Describe the characteristic rhythm or instruments of each"
+      "objective": "Describe the characteristic rhythm or instruments of each",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "How did West African rhythm end up in Brazilian music?",
       "options": [
-        "Through the movement of people across the Atlantic",
+        "It arrived with Portuguese classical music",
         "Through Brazilian radio in the 1980s",
         "It was invented separately in both places",
-        "It arrived with Portuguese classical music"
+        "Through the movement of people across the Atlantic"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Music travels the way people do. The rhythm survived the crossing even where nothing was written down.",
-      "objective": "Explain how migration and trade spread musical styles"
+      "objective": "Explain how migration and trade spread musical styles",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "Music can be evidence of historical movement between countries.",
       "answer": true,
       "explain": "True. Hearing West African drumming in Brazilian music is a fact about history preserved in sound.",
-      "objective": "Explain how migration and trade spread musical styles"
+      "objective": "Explain how migration and trade spread musical styles",
+      "seconds": 12
     },
     {
       "type": "multiple",
@@ -348,20 +379,22 @@
       ],
       "answerIndex": 0,
       "explain": "Tempo, instruments and origin are description. The rest is opinion, which is a different job.",
-      "objective": "Use the elements of music to describe a genre"
+      "objective": "Use the elements of music to describe a genre",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Which element of music tells you which instruments are carrying a genre?",
       "options": [
-        "Timbre",
         "Tempo",
+        "Form",
         "Dynamics",
-        "Form"
+        "Timbre"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Timbre, the colour of the sound. It is how you tell a gamelan from a rondalla instantly.",
-      "objective": "Use the elements of music to describe a genre"
+      "objective": "Use the elements of music to describe a genre",
+      "seconds": 15
     },
     {
       "type": "multiple",
@@ -374,7 +407,8 @@
       ],
       "answerIndex": 0,
       "explain": "South Korea, from the 1990s, built around groups, choreography and video from the start.",
-      "objective": "Match six major genres to the countries they came from"
+      "objective": "Match six major genres to the countries they came from",
+      "seconds": 20
     }
   ],
   "teacher": {

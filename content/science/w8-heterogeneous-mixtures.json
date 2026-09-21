@@ -53,12 +53,13 @@
         "text": "What makes a mixture heterogeneous?",
         "options": [
           "The parts are not evenly spread and can be told apart",
+          "It is always a liquid",
           "It contains only one substance",
-          "It cannot be separated",
-          "It is always a liquid"
+          "It cannot be separated"
         ],
         "answerIndex": 0,
-        "explain": "Not uniform. Hetero- means different, and you can point at the different parts."
+        "explain": "Not uniform. Hetero- means different, and you can point at the different parts.",
+        "seconds": 20
       }
     },
     {
@@ -93,13 +94,14 @@
         "type": "multiple",
         "text": "Which of these is a suspension?",
         "options": [
+          "Fog",
           "Muddy water",
           "Milk",
-          "Fog",
           "Jelly"
         ],
-        "answerIndex": 0,
-        "explain": "Mud settles out if left. Milk, fog and jelly are all colloids and stay mixed."
+        "answerIndex": 1,
+        "explain": "Mud settles out if left. Milk, fog and jelly are all colloids and stay mixed.",
+        "seconds": 15
       }
     },
     {
@@ -115,13 +117,14 @@
         "type": "multiple",
         "text": "What does the Tyndall effect show?",
         "options": [
-          "A visible beam of light, meaning the mixture is a colloid",
           "That a mixture has been heated",
           "That a solid has fully dissolved",
+          "A visible beam of light, meaning the mixture is a colloid",
           "That a liquid is pure"
         ],
-        "answerIndex": 0,
-        "explain": "The particles in a colloid are big enough to scatter light. In a solution they are not."
+        "answerIndex": 2,
+        "explain": "The particles in a colloid are big enough to scatter light. In a solution they are not.",
+        "seconds": 25
       }
     },
     {
@@ -180,13 +183,14 @@
         "type": "multiple",
         "text": "Why does a medicine bottle say shake well before use?",
         "options": [
-          "It is a suspension, so the active ingredient settles",
-          "Shaking warms the medicine up",
           "It stops the bottle leaking",
-          "It makes the medicine taste better"
+          "It makes the medicine taste better",
+          "Shaking warms the medicine up",
+          "It is a suspension, so the active ingredient settles"
         ],
-        "answerIndex": 0,
-        "explain": "Without shaking, the first dose is too weak and the last is too strong. That is a real risk."
+        "answerIndex": 3,
+        "explain": "Without shaking, the first dose is too weak and the last is too strong. That is a real risk.",
+        "seconds": 25
       }
     },
     {
@@ -218,11 +222,12 @@
         "options": [
           "Filtering",
           "Evaporation",
-          "Using a magnet",
-          "Distillation"
+          "Distillation",
+          "Using a magnet"
         ],
         "answerIndex": 0,
-        "explain": "Sand does not dissolve, so it stays on the filter paper. Evaporation would lose the water."
+        "explain": "Sand does not dissolve, so it stays on the filter paper. Evaporation would lose the water.",
+        "seconds": 15
       }
     },
     {
@@ -287,46 +292,50 @@
       ],
       "answerIndex": 0,
       "explain": "Each part keeps its own properties and can be separated physically. Nothing reacted.",
-      "objective": "Distinguish a mixture from a pure substance"
+      "objective": "Distinguish a mixture from a pure substance",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What does heterogeneous mean?",
       "options": [
-        "Not uniform — you can tell the parts apart",
+        "Impossible to separate",
         "Uniform all the way through",
         "Made of one substance only",
-        "Impossible to separate"
+        "Not uniform — you can tell the parts apart"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Hetero- means different. Homo- means same, and that is next week's topic.",
-      "objective": "Define a heterogeneous mixture"
+      "objective": "Define a heterogeneous mixture",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What is the difference between a suspension and a colloid?",
       "options": [
-        "A suspension settles if left standing; a colloid does not",
+        "A colloid cannot be separated",
         "A colloid is always a solid",
         "A suspension is homogeneous",
-        "A colloid cannot be separated"
+        "A suspension settles if left standing; a colloid does not"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Settling is the test. Muddy water settles; milk and fog do not.",
-      "objective": "Distinguish a suspension from a colloid"
+      "objective": "Distinguish a suspension from a colloid",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "Which of these is a colloid?",
       "options": [
+        "Salt in water",
         "Milk",
-        "Muddy water",
         "Sand in water",
-        "Salt in water"
+        "Muddy water"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Milk. It never settles out, and it shows the Tyndall effect. Salt water is a solution.",
-      "objective": "Distinguish a suspension from a colloid"
+      "objective": "Distinguish a suspension from a colloid",
+      "seconds": 15
     },
     {
       "type": "multiple",
@@ -334,91 +343,99 @@
       "options": [
         "A colloid",
         "A solution",
-        "A pure substance",
-        "An element"
+        "An element",
+        "A pure substance"
       ],
       "answerIndex": 0,
       "explain": "The Tyndall effect. Colloid particles are big enough to scatter light; solution particles are not.",
-      "objective": "Explain the Tyndall effect and what it tests"
+      "objective": "Explain the Tyndall effect and what it tests",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "A solution shows the Tyndall effect.",
       "answer": false,
       "explain": "False. The beam passes through unseen, which is exactly what the test is for.",
-      "objective": "Explain the Tyndall effect and what it tests"
+      "objective": "Explain the Tyndall effect and what it tests",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Which is a heterogeneous mixture found in nature?",
       "options": [
         "Soil",
-        "Pure oxygen",
+        "Gold",
         "Distilled water",
-        "Gold"
+        "Pure oxygen"
       ],
       "answerIndex": 0,
       "explain": "Soil has visible sand, clay, stones and organic matter. The other three are pure substances.",
-      "objective": "Give examples of heterogeneous mixtures in nature, at home and in medicine"
+      "objective": "Give examples of heterogeneous mixtures in nature, at home and in medicine",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Why does a medicine label say shake well before use?",
       "options": [
-        "It is a suspension and the active ingredient settles",
         "Shaking makes it dissolve permanently",
+        "It is a suspension and the active ingredient settles",
         "It stops the bottle from leaking",
         "It removes air bubbles"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Without shaking, early doses are too weak and later ones too strong. It is a real safety point.",
-      "objective": "Give examples of heterogeneous mixtures in nature, at home and in medicine"
+      "objective": "Give examples of heterogeneous mixtures in nature, at home and in medicine",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "How would you separate iron filings from sand?",
       "options": [
-        "Use a magnet",
         "Filter it",
-        "Evaporate it",
-        "Distil it"
+        "Use a magnet",
+        "Distil it",
+        "Evaporate it"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Only the iron is magnetic, so only the iron moves. Nothing else in the mixture responds.",
-      "objective": "Choose a method to separate a given mixture"
+      "objective": "Choose a method to separate a given mixture",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "How would you separate sand from water?",
       "options": [
-        "Filtration",
         "A magnet",
         "Distillation",
+        "Filtration",
         "Sieving"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Sand does not dissolve, so it stays on the filter paper and the water passes through.",
-      "objective": "Choose a method to separate a given mixture"
+      "objective": "Choose a method to separate a given mixture",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Which method separates by particle SIZE?",
       "options": [
-        "Sieving",
+        "Distillation",
         "Evaporation",
-        "Using a magnet",
-        "Distillation"
+        "Sieving",
+        "Using a magnet"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Sieving. The holes let the small pieces through and hold the large ones back.",
-      "objective": "Choose a method to separate a given mixture"
+      "objective": "Choose a method to separate a given mixture",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "Concrete is a heterogeneous mixture.",
       "answer": true,
       "explain": "True. You can see the separate stones in it, which is the whole definition.",
-      "objective": "Give examples of heterogeneous mixtures in nature, at home and in medicine"
+      "objective": "Give examples of heterogeneous mixtures in nature, at home and in medicine",
+      "seconds": 12
     }
   ],
   "teacher": {

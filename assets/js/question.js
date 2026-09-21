@@ -8,6 +8,13 @@
    On wording: a wrong answer is never "wrong" and never red. It's "not yet",
    in calm blue, and the feedback's job is to hand over the missing fact.
    See docs/WRITING-FOR-ADHD.md.
+
+   On the clock: each question carries a `seconds` budget, shown as a static
+   chip. It never counts down. A ticking number is ambient motion, which this
+   site does not do, and for this reader it would replace thinking with panic.
+   The elapsed time is measured quietly and only revealed once he has
+   answered — predict, act, compare, which is how time sense is actually
+   built.
    ========================================================================== */
 
 import { escapeHtml, md } from './ui.js';
@@ -38,8 +45,13 @@ const normalise = s => String(s).toLowerCase().trim().replace(/[^a-z0-9]/g, '');
  * @param {(ok:boolean)=>void} onAnswer  called once, after the reader answers
  */
 export function renderQuestion(host, q, onAnswer) {
+    const budget = Number(q.seconds) > 0 ? Number(q.seconds) : null;
+    const startedAt = Date.now();
+
     host.innerHTML = `
-        <div class="card-eyebrow"><span class="eyebrow">${QUESTION_LABEL[q.type] || 'Question'}</span></div>
+        <div class="card-eyebrow"><span class="eyebrow">${QUESTION_LABEL[q.type] || 'Question'}</span>${
+            budget ? `<span class="qbudget" title="About how long this one should take">~${budget}s</span>` : ''
+        }</div>
         <h2>${md(escapeHtml(q.text))}</h2>
         <div id="qInput" style="margin-top:18px;"></div>
         <div id="qFeed"></div>`;
@@ -48,9 +60,14 @@ export function renderQuestion(host, q, onAnswer) {
     const feed = host.querySelector('#qFeed');
 
     function settle(ok, extra = '') {
+        const spent = Math.max(1, Math.round((Date.now() - startedAt) / 1000));
+        // Only ever stated as a fact, never as a pass or a fail.
+        const clock = budget
+            ? `<div class="qclock">Took ${spent}s · budget ${budget}s</div>`
+            : '';
         feed.innerHTML = `<div class="feedback ${ok ? 'yes' : 'notyet'}">
-            <b>${ok ? '✓ Got it' : 'Not yet — here it is'}</b>${extra}${md(escapeHtml(q.explain))}</div>`;
-        onAnswer(ok);
+            <b>${ok ? '✓ Got it' : 'Not yet — here it is'}</b>${extra}${md(escapeHtml(q.explain))}</div>${clock}`;
+        onAnswer(ok, spent, budget);
     }
 
     const RENDER = {

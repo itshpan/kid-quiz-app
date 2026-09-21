@@ -52,7 +52,8 @@
           "Black, white, grey"
         ],
         "answerIndex": 0,
-        "explain": "In paint, red, yellow and blue cannot be mixed from anything else. Everything else comes from them."
+        "explain": "In paint, red, yellow and blue cannot be mixed from anything else. Everything else comes from them.",
+        "seconds": 15
       }
     },
     {
@@ -87,7 +88,8 @@
         "type": "truefalse",
         "text": "Cool colours make an object look closer to the viewer.",
         "answer": false,
-        "explain": "The opposite. Cool colours recede and warm colours advance. Painters use it to fake distance."
+        "explain": "The opposite. Cool colours recede and warm colours advance. Painters use it to fake distance.",
+        "seconds": 12
       }
     },
     {
@@ -134,13 +136,14 @@
         "type": "multiple",
         "text": "Why does a red octagon mean stop?",
         "options": [
+          "Because red is the brightest colour",
           "Because people agreed on it and learned it",
           "Because the shape looks like stopping",
-          "Because red is the brightest colour",
           "Because octagons are easy to cut"
         ],
-        "answerIndex": 0,
-        "explain": "Nothing about the shape resembles stopping. Agreement makes the symbol work, and it works fast."
+        "answerIndex": 1,
+        "explain": "Nothing about the shape resembles stopping. Agreement makes the symbol work, and it works fast.",
+        "seconds": 25
       }
     },
     {
@@ -173,13 +176,14 @@
         "type": "multiple",
         "text": "What do the eight rays of the sun on the flag stand for?",
         "options": [
-          "The first eight provinces to revolt against Spain",
-          "Eight national heroes",
           "Eight islands",
+          "Eight national heroes",
+          "The first eight provinces to revolt against Spain",
           "Eight years of revolution"
         ],
-        "answerIndex": 0,
-        "explain": "The three stars are Luzon, Visayas and Mindanao. The eight rays are the first provinces to rise."
+        "answerIndex": 2,
+        "explain": "The three stars are Luzon, Visayas and Mindanao. The eight rays are the first provinces to rise.",
+        "seconds": 20
       }
     },
     {
@@ -200,12 +204,30 @@
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "primary colours", "def": "Red, yellow and blue. They cannot be mixed from other colours." },
-        { "term": "secondary colours", "def": "Orange, green and violet. Each is two primaries mixed." },
-        { "term": "tertiary colour", "def": "A primary mixed with the secondary beside it, like red-orange." },
-        { "term": "complementary", "def": "Opposite on the wheel. Side by side, both look brighter." },
-        { "term": "warm and cool", "def": "Warm colours advance towards the viewer. Cool colours recede." },
-        { "term": "symbol", "def": "A mark that stands for an idea because people agreed it does." }
+        {
+          "term": "primary colours",
+          "def": "Red, yellow and blue. They cannot be mixed from other colours."
+        },
+        {
+          "term": "secondary colours",
+          "def": "Orange, green and violet. Each is two primaries mixed."
+        },
+        {
+          "term": "tertiary colour",
+          "def": "A primary mixed with the secondary beside it, like red-orange."
+        },
+        {
+          "term": "complementary",
+          "def": "Opposite on the wheel. Side by side, both look brighter."
+        },
+        {
+          "term": "warm and cool",
+          "def": "Warm colours advance towards the viewer. Cool colours recede."
+        },
+        {
+          "term": "symbol",
+          "def": "A mark that stands for an idea because people agreed it does."
+        }
       ]
     },
     {
@@ -224,141 +246,158 @@
     {
       "type": "multiple",
       "text": "Which of these is a secondary colour?",
-      "options": ["Green", "Blue", "Red", "Yellow"],
+      "options": [
+        "Green",
+        "Red",
+        "Yellow",
+        "Blue"
+      ],
       "answerIndex": 0,
       "explain": "Green is blue and yellow mixed. Orange and violet are the other two secondaries.",
-      "objective": "Name the primary, secondary and tertiary colours"
+      "objective": "Name the primary, secondary and tertiary colours",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "How is a tertiary colour made?",
       "options": [
-        "By mixing a primary with the secondary next to it",
-        "By mixing all three primaries",
+        "By adding black to a secondary",
         "By adding white to a primary",
-        "By adding black to a secondary"
+        "By mixing all three primaries",
+        "By mixing a primary with the secondary next to it"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Red-orange and blue-green are tertiary colours made this way.",
-      "objective": "Name the primary, secondary and tertiary colours"
+      "objective": "Name the primary, secondary and tertiary colours",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "Which group is warm?",
       "options": [
+        "Green, violet, blue",
         "Red, orange, yellow",
-        "Blue, green, violet",
         "Grey, black, white",
-        "Green, violet, blue"
+        "Blue, green, violet"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Warm colours are the fire and sunlight colours. They appear to come forward.",
-      "objective": "Explain warm and cool colours and what each one does"
+      "objective": "Explain warm and cool colours and what each one does",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Why do painters use cool colours for distant hills?",
       "options": [
-        "Cool colours appear to recede, which fakes distance",
         "Hills are actually blue",
-        "Cool paint is cheaper",
-        "Warm paint dries too fast"
+        "Warm paint dries too fast",
+        "Cool colours appear to recede, which fakes distance",
+        "Cool paint is cheaper"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "It builds depth on a flat surface. Nothing moves; your eye is being steered.",
-      "objective": "Explain warm and cool colours and what each one does"
+      "objective": "Explain warm and cool colours and what each one does",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What are complementary colours?",
       "options": [
-        "Colours opposite each other on the wheel",
-        "Colours next to each other on the wheel",
+        "Colours with no name",
         "Colours mixed with white",
-        "Colours with no name"
+        "Colours next to each other on the wheel",
+        "Colours opposite each other on the wheel"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Red and green, blue and orange, yellow and violet. Side by side, each looks brighter.",
-      "objective": "Explain complementary colours and why they intensify each other"
+      "objective": "Explain complementary colours and why they intensify each other",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Complementary colours make each other look duller when placed side by side.",
       "answer": false,
       "explain": "False. They intensify each other. Mixed together is what makes them dull.",
-      "objective": "Explain complementary colours and why they intensify each other"
+      "objective": "Explain complementary colours and why they intensify each other",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "What makes a symbol work?",
       "options": [
         "People agreeing on what it means",
+        "Being very complicated",
         "Looking exactly like the thing it stands for",
-        "Being drawn in red",
-        "Being very complicated"
+        "Being drawn in red"
       ],
       "answerIndex": 0,
       "explain": "Learned symbols are faster than pictures, and they stop working outside their culture.",
-      "objective": "Explain what a symbol is and how it differs from a picture"
+      "objective": "Explain what a symbol is and how it differs from a picture",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What do the three stars on the Philippine flag represent?",
       "options": [
+        "Three colours",
         "Luzon, Visayas and Mindanao",
         "Three heroes",
-        "Three revolutions",
-        "Three colours"
+        "Three revolutions"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "The three main island groups. The eight rays are the first provinces to revolt.",
-      "objective": "Read the symbolism of the Philippine flag"
+      "objective": "Read the symbolism of the Philippine flag",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What does the white triangle stand for?",
       "options": [
         "Equality and fraternity",
+        "The eight provinces",
         "Peace and truth",
-        "Courage in battle",
-        "The eight provinces"
+        "Courage in battle"
       ],
       "answerIndex": 0,
       "explain": "Blue is peace, truth and justice. Red is patriotism and courage.",
-      "objective": "Read the symbolism of the Philippine flag"
+      "objective": "Read the symbolism of the Philippine flag",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What does it mean when the flag is flown with red on top?",
       "options": [
-        "The country is in a state of war",
         "The flag was hung wrongly",
-        "It is a national holiday",
-        "There is a typhoon warning"
+        "There is a typhoon warning",
+        "The country is in a state of war",
+        "It is a national holiday"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "It is the only national flag designed to be flown two ways, and it is deliberate.",
-      "objective": "Read the symbolism of the Philippine flag"
+      "objective": "Read the symbolism of the Philippine flag",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "The eight rays of the sun stand for eight national heroes.",
       "answer": false,
       "explain": "False. They stand for the first eight provinces that rose against Spain.",
-      "objective": "Read the symbolism of the Philippine flag"
+      "objective": "Read the symbolism of the Philippine flag",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "What does good visual design usually do with elements?",
       "options": [
-        "Uses few, each carrying a clear meaning",
-        "Uses as many as will fit",
         "Avoids colour entirely",
-        "Always includes words"
+        "Uses few, each carrying a clear meaning",
+        "Always includes words",
+        "Uses as many as will fit"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "The flag has four elements and no words. It reads at any size and in one colour.",
-      "objective": "Explain what a symbol is and how it differs from a picture"
+      "objective": "Explain what a symbol is and how it differs from a picture",
+      "seconds": 20
     }
   ],
   "teacher": {

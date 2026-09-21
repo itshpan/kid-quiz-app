@@ -64,7 +64,8 @@
           "Measure the shelves"
         ],
         "answerIndex": 0,
-        "explain": "Organising things you do not want wastes the effort. Cut first, then arrange what survives."
+        "explain": "Organising things you do not want wastes the effort. Cut first, then arrange what survives.",
+        "seconds": 20
       }
     },
     {
@@ -99,13 +100,14 @@
         "type": "multiple",
         "text": "Which question sorts an object fastest?",
         "options": [
-          "Have I used this in the last year?",
-          "Might I ever need this?",
           "Was this expensive?",
-          "Do I like this?"
+          "Have I used this in the last year?",
+          "Do I like this?",
+          "Might I ever need this?"
         ],
-        "answerIndex": 0,
-        "explain": "Have I, not might I. Might I keeps everything, which is exactly why nothing gets sorted."
+        "answerIndex": 1,
+        "explain": "Have I, not might I. Might I keeps everything, which is exactly why nothing gets sorted.",
+        "seconds": 20
       }
     },
     {
@@ -164,13 +166,14 @@
         "type": "multiple",
         "text": "Why must let-go items leave the room the same day?",
         "options": [
-          "Otherwise they get unpacked and quietly move back in",
           "Because rubbish smells",
           "So the room looks bigger",
+          "Otherwise they get unpacked and quietly move back in",
           "Because donation shops close early"
         ],
-        "answerIndex": 0,
-        "explain": "A bag left in the corner is still clutter. The decision only counts once the item is gone."
+        "answerIndex": 2,
+        "explain": "A bag left in the corner is still clutter. The decision only counts once the item is gone.",
+        "seconds": 25
       }
     },
     {
@@ -193,19 +196,38 @@
         "type": "truefalse",
         "text": "You should organise a room first, then decide what to get rid of.",
         "answer": false,
-        "explain": "False. Declutter first. Organising things you are about to throw away wastes the whole effort."
+        "explain": "False. Declutter first. Organising things you are about to throw away wastes the whole effort.",
+        "seconds": 12
       }
     },
     {
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "clutter", "def": "Objects nobody has decided about yet. Postponed decisions, not dirt." },
-        { "term": "declutter", "def": "To decide, object by object, what stays and what goes." },
-        { "term": "donate", "def": "Give away something still usable rather than binning it." },
-        { "term": "recycle", "def": "Send materials to be processed and used again." },
-        { "term": "the one-year question", "def": "Have I used this in the last year? Not might I need it." },
-        { "term": "same-day rule", "def": "Anything you decided to let go leaves the room today." }
+        {
+          "term": "clutter",
+          "def": "Objects nobody has decided about yet. Postponed decisions, not dirt."
+        },
+        {
+          "term": "declutter",
+          "def": "To decide, object by object, what stays and what goes."
+        },
+        {
+          "term": "donate",
+          "def": "Give away something still usable rather than binning it."
+        },
+        {
+          "term": "recycle",
+          "def": "Send materials to be processed and used again."
+        },
+        {
+          "term": "the one-year question",
+          "def": "Have I used this in the last year? Not might I need it."
+        },
+        {
+          "term": "same-day rule",
+          "def": "Anything you decided to let go leaves the room today."
+        }
       ]
     },
     {
@@ -225,47 +247,51 @@
       "type": "multiple",
       "text": "What is clutter?",
       "options": [
-        "Objects nobody has decided about yet",
-        "Dirt and dust in a room",
+        "Things that belong to someone else",
         "Anything that is broken",
-        "Things that belong to someone else"
+        "Dirt and dust in a room",
+        "Objects nobody has decided about yet"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Postponed decisions. That is why it grows: not deciding is itself a decision to keep.",
-      "objective": "Define clutter and explain how it accumulates"
+      "objective": "Define clutter and explain how it accumulates",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Why does clutter build up on its own?",
       "options": [
-        "Things arrive faster than decisions get made about them",
+        "It only happens in untidy homes",
         "Rooms get smaller over time",
         "People buy too much furniture",
-        "It only happens in untidy homes"
+        "Things arrive faster than decisions get made about them"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Nothing arrives as clutter. It becomes clutter by sitting undecided.",
-      "objective": "Define clutter and explain how it accumulates"
+      "objective": "Define clutter and explain how it accumulates",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "Which question should you ask about each object?",
       "options": [
         "Have I used this in the last year?",
-        "Might I need this one day?",
         "How much did this cost?",
-        "Does this match the room?"
+        "Does this match the room?",
+        "Might I need this one day?"
       ],
       "answerIndex": 0,
       "explain": "Have I, not might I. The might-I question keeps everything, which is why it fails.",
-      "objective": "Apply the keep or let go decision to a single object"
+      "objective": "Apply the keep or let go decision to a single object",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "You should sort a whole pile at once rather than one object at a time.",
       "answer": false,
       "explain": "False. Facing a whole pile is what makes people stop. One object, one question, then the next.",
-      "objective": "Apply the keep or let go decision to a single object"
+      "objective": "Apply the keep or let go decision to a single object",
+      "seconds": 15
     },
     {
       "type": "multiple",
@@ -273,12 +299,13 @@
       "options": [
         "Donate it",
         "Bin it",
-        "Recycle it",
-        "Put it back in the wardrobe"
+        "Put it back in the wardrobe",
+        "Recycle it"
       ],
       "answerIndex": 0,
       "explain": "Usable and unwanted is exactly the donate pile. Very little needs to reach a landfill.",
-      "objective": "Sort items into keep, donate, sell, recycle and bin"
+      "objective": "Sort items into keep, donate, sell, recycle and bin",
+      "seconds": 25
     },
     {
       "type": "order",
@@ -290,73 +317,80 @@
         "Take the let-go bag out of the room"
       ],
       "explain": "One object, one question, one destination, and then it physically leaves the same day.",
-      "objective": "Apply the keep or let go decision to a single object"
+      "objective": "Apply the keep or let go decision to a single object",
+      "seconds": 30
     },
     {
       "type": "multiple",
       "text": "Why should you declutter before organising?",
       "options": [
+        "Storage boxes are expensive",
         "Organising things you are about to get rid of wastes the effort",
         "Organising is harder than decluttering",
-        "It makes the room look bigger first",
-        "Storage boxes are expensive"
+        "It makes the room look bigger first"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Tidy junk is still junk. Cut first, then arrange what is left. It is much faster that way round.",
-      "objective": "Explain why decluttering must come before organising"
+      "objective": "Explain why decluttering must come before organising",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "Buying storage boxes is a good first step in decluttering.",
       "answer": false,
       "explain": "False. That is buying homes for things you have not decided to keep. Decide first.",
-      "objective": "Explain why decluttering must come before organising"
+      "objective": "Explain why decluttering must come before organising",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Why must let-go items leave the room the same day?",
       "options": [
-        "A bag left in the corner gets unpacked and moves back in",
-        "The room will smell otherwise",
         "It is a legal requirement",
-        "So you can measure the space"
+        "A bag left in the corner gets unpacked and moves back in",
+        "So you can measure the space",
+        "The room will smell otherwise"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "The decision only counts once the item is actually gone. Bags by the door, not under the bed.",
-      "objective": "Explain why unwanted items must leave the room the same day"
+      "objective": "Explain why unwanted items must leave the room the same day",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "Which item belongs in the recycle or bin pile rather than donate?",
       "options": [
-        "A pair of gloves that has split open",
         "A shirt you have grown out of",
         "A book you have finished",
+        "A pair of gloves that has split open",
         "A game you no longer play"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Split gear is finished and unsafe to pass on. The other three are still usable by somebody.",
-      "objective": "Sort items into keep, donate, sell, recycle and bin"
+      "objective": "Sort items into keep, donate, sell, recycle and bin",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "What happens if you keep everything you might need one day?",
       "options": [
-        "Nothing ever leaves, so the total only grows",
-        "You save money in the long run",
+        "You need less storage",
         "The room organises itself",
-        "You need less storage"
+        "Nothing ever leaves, so the total only grows",
+        "You save money in the long run"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Might-I keeps everything by design. That is why the one-year question is asked instead.",
-      "objective": "Define clutter and explain how it accumulates"
+      "objective": "Define clutter and explain how it accumulates",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "Not making a decision about an object is the same as deciding to keep it.",
       "answer": true,
       "explain": "True, and that is exactly how clutter accumulates without anyone choosing it.",
-      "objective": "Define clutter and explain how it accumulates"
+      "objective": "Define clutter and explain how it accumulates",
+      "seconds": 15
     }
   ],
   "teacher": {

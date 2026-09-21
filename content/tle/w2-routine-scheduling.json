@@ -46,13 +46,14 @@
         "type": "multiple",
         "text": "What is the difference between a routine and a schedule?",
         "options": [
-          "A routine is an order of actions; a schedule attaches times",
           "A routine is written down; a schedule is remembered",
-          "A routine is for adults; a schedule is for students",
-          "There is no real difference"
+          "There is no real difference",
+          "A routine is an order of actions; a schedule attaches times",
+          "A routine is for adults; a schedule is for students"
         ],
-        "answerIndex": 0,
-        "explain": "A routine is the same order every time, with no clock. A schedule puts it on a clock."
+        "answerIndex": 2,
+        "explain": "A routine is the same order every time, with no clock. A schedule puts it on a clock.",
+        "seconds": 30
       }
     },
     {
@@ -87,13 +88,14 @@
         "type": "multiple",
         "text": "Which of these is FIXED time in a school day?",
         "options": [
-          "School hours",
           "Homework",
+          "School hours",
           "Free time",
           "Tidying your room"
         ],
-        "answerIndex": 0,
-        "explain": "School does not move. Build the flexible things around the fixed ones, not the other way round."
+        "answerIndex": 1,
+        "explain": "School does not move. Build the flexible things around the fixed ones, not the other way round.",
+        "seconds": 15
       }
     },
     {
@@ -141,12 +143,13 @@
         "text": "Why does giving a task a specific time help?",
         "options": [
           "A block has an end, which makes it easier to start",
+          "It makes the task more important",
           "It makes the task shorter",
-          "It means you can skip it if you are busy",
-          "It makes the task more important"
+          "It means you can skip it if you are busy"
         ],
         "answerIndex": 0,
-        "explain": "Later is not a time. A block that ends is much easier to begin than an open-ended job."
+        "explain": "Later is not a time. A block that ends is much easier to begin than an open-ended job.",
+        "seconds": 25
       }
     },
     {
@@ -181,19 +184,38 @@
         "type": "truefalse",
         "text": "A wind-down block affects the next morning more than the current evening.",
         "answer": true,
-        "explain": "True. Kit packed, decisions made, sleep protected. A bad morning usually started the night before."
+        "explain": "True. Kit packed, decisions made, sleep protected. A bad morning usually started the night before.",
+        "seconds": 12
       }
     },
     {
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "routine", "def": "A fixed order of actions, done the same way each time. No clock involved." },
-        { "term": "schedule", "def": "What happens at what time. A routine placed on a clock." },
-        { "term": "time block", "def": "A named stretch of time with a start, an end and one job." },
-        { "term": "fixed time", "def": "Parts of the day you cannot move: school, meals, bedtime." },
-        { "term": "flexible time", "def": "The gaps you can decide about: homework, chores, free time." },
-        { "term": "wind-down", "def": "The last block of the day. Screens down, kit ready, tomorrow decided." }
+        {
+          "term": "routine",
+          "def": "A fixed order of actions, done the same way each time. No clock involved."
+        },
+        {
+          "term": "schedule",
+          "def": "What happens at what time. A routine placed on a clock."
+        },
+        {
+          "term": "time block",
+          "def": "A named stretch of time with a start, an end and one job."
+        },
+        {
+          "term": "fixed time",
+          "def": "Parts of the day you cannot move: school, meals, bedtime."
+        },
+        {
+          "term": "flexible time",
+          "def": "The gaps you can decide about: homework, chores, free time."
+        },
+        {
+          "term": "wind-down",
+          "def": "The last block of the day. Screens down, kit ready, tomorrow decided."
+        }
       ]
     },
     {
@@ -214,105 +236,114 @@
       "text": "What is a routine?",
       "options": [
         "A fixed order of actions, done the same way each time",
-        "A list of times for the day",
+        "A plan for the whole week",
         "A list of jobs to finish",
-        "A plan for the whole week"
+        "A list of times for the day"
       ],
       "answerIndex": 0,
       "explain": "An order with no clock. Add times to it and you have a schedule.",
-      "objective": "Explain the difference between a routine and a schedule"
+      "objective": "Explain the difference between a routine and a schedule",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "What does a schedule add that a routine does not have?",
       "options": [
         "Times",
-        "An order",
         "A purpose",
-        "A written record"
+        "A written record",
+        "An order"
       ],
       "answerIndex": 0,
       "explain": "A routine is the same order every time. A schedule puts that order on a clock.",
-      "objective": "Explain the difference between a routine and a schedule"
+      "objective": "Explain the difference between a routine and a schedule",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Which of these is FLEXIBLE time?",
       "options": [
-        "Homework",
         "School hours",
-        "Dinner with the family",
-        "Bedtime"
+        "Homework",
+        "Bedtime",
+        "Dinner with the family"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Homework can move. School, meals and bedtime are the fixed points you build around.",
-      "objective": "Identify fixed and flexible time in a day"
+      "objective": "Identify fixed and flexible time in a day",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "When building a day, what should you place first?",
       "options": [
-        "The things you cannot move",
         "The things you enjoy most",
+        "The things you cannot move",
         "The hardest job",
         "Free time"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Fixed points first. The gaps between them are the day you actually get to decide about.",
-      "objective": "Build a day out of blocks rather than a task list"
+      "objective": "Build a day out of blocks rather than a task list",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "A to-do list tells you when you are finished for the day.",
       "answer": false,
       "explain": "False. It grows all day and never gives permission to stop. A block has an end; a list does not.",
-      "objective": "Build a day out of blocks rather than a task list"
+      "objective": "Build a day out of blocks rather than a task list",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Why is \"I'll do it later\" a problem?",
       "options": [
         "Later is not a time, so nothing schedules it",
+        "It means the job is unimportant",
         "It sounds rude",
-        "It takes longer to say",
-        "It means the job is unimportant"
+        "It takes longer to say"
       ],
       "answerIndex": 0,
       "explain": "A task without a when is a wish. Moving it into a block is the change that gets it done.",
-      "objective": "Explain why a task needs a time before it gets done"
+      "objective": "Explain why a task needs a time before it gets done",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Why is a block easier to start than an open-ended job?",
       "options": [
-        "It has an end you can see",
-        "It is always shorter",
         "It is always easier work",
+        "It is always shorter",
+        "It has an end you can see",
         "Someone else decided it"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Knowing when it stops is what makes it possible to begin. Games use the same design.",
-      "objective": "Explain why a task needs a time before it gets done"
+      "objective": "Explain why a task needs a time before it gets done",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What belongs in a wind-down block?",
       "options": [
-        "Screens down, bag packed, kit laid out",
-        "The hardest homework of the day",
+        "Starting a new project",
         "A heavy training session",
-        "Starting a new project"
+        "The hardest homework of the day",
+        "Screens down, bag packed, kit laid out"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "It is about removing tomorrow's decisions and protecting sleep, not about getting more done.",
-      "objective": "Explain why a wind-down block matters"
+      "objective": "Explain why a wind-down block matters",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Growth hormone is released mainly during deep sleep.",
       "answer": true,
       "explain": "True. Training is the signal, sleep is when the building happens. Skipping sleep wastes the session.",
-      "objective": "Explain why a wind-down block matters"
+      "objective": "Explain why a wind-down block matters",
+      "seconds": 12
     },
     {
       "type": "order",
@@ -324,33 +355,36 @@
         "Wind-down"
       ],
       "explain": "Hard physical work first makes sitting still afterwards easier. Wind-down always goes last.",
-      "objective": "Build a day out of blocks rather than a task list"
+      "objective": "Build a day out of blocks rather than a task list",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "Why does free time work better when it is scheduled?",
       "options": [
-        "Unplanned free time gets eaten by everything else",
-        "It makes free time longer",
+        "Schools require it",
         "It stops you enjoying it too much",
-        "Schools require it"
+        "Unplanned free time gets eaten by everything else",
+        "It makes free time longer"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "If it has no block, other things expand into it. Scheduling it is what protects it.",
-      "objective": "Build a day out of blocks rather than a task list"
+      "objective": "Build a day out of blocks rather than a task list",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "Which is a schedule rather than a routine?",
       "options": [
-        "Homework at 5:30, dinner at 7:00",
         "Shower, dress, breakfast, bag",
+        "Warm-up, rounds, stretch",
         "Always putting keys in the same bowl",
-        "Warm-up, rounds, stretch"
+        "Homework at 5:30, dinner at 7:00"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Times make it a schedule. The other three are orders of actions with no clock attached.",
-      "objective": "Explain the difference between a routine and a schedule"
+      "objective": "Explain the difference between a routine and a schedule",
+      "seconds": 20
     }
   ],
   "teacher": {

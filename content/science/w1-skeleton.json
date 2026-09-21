@@ -65,12 +65,13 @@
         "type": "multiple",
         "text": "Sam's Power Skeleton is worn outside his body. What is a skeleton on the outside called?",
         "options": [
-          "An exoskeleton",
           "An endoskeleton",
+          "An exoskeleton",
           "A cartilage frame"
         ],
-        "answerIndex": 0,
-        "explain": "An exoskeleton. Crabs and beetles have them. Yours is an endoskeleton — endo means inside."
+        "answerIndex": 1,
+        "explain": "An exoskeleton. Crabs and beetles have them. Yours is an endoskeleton — endo means inside.",
+        "seconds": 20
       }
     },
     {
@@ -105,12 +106,13 @@
         "type": "multiple",
         "text": "Why does a lap belt need to sit low across your hips?",
         "options": [
-          "So the force lands on your pelvis, not your organs",
           "So it's more comfortable on long drives",
-          "So the airbag can reach you faster"
+          "So the airbag can reach you faster",
+          "So the force lands on your pelvis, not your organs"
         ],
-        "answerIndex": 0,
-        "explain": "Your pelvis is one of the strongest structures you own. Worn high, that same force goes into your intestines."
+        "answerIndex": 2,
+        "explain": "Your pelvis is one of the strongest structures you own. Worn high, that same force goes into your intestines.",
+        "seconds": 25
       }
     },
     {
@@ -149,12 +151,13 @@
         "type": "multiple",
         "text": "Which part of you is built to deform on impact, like a suspension or a crumple zone?",
         "options": [
-          "Your ribs",
+          "Your femur",
           "Your skull",
-          "Your femur"
+          "Your ribs"
         ],
-        "answerIndex": 0,
-        "explain": "Ribs. They flex and can break, and that absorbs energy. The skull is the opposite — rigid, because brains don't heal."
+        "answerIndex": 2,
+        "explain": "Ribs. They flex and can break, and that absorbs energy. The skull is the opposite — rigid, because brains don't heal.",
+        "seconds": 20
       }
     },
     {
@@ -203,12 +206,13 @@
         "type": "multiple",
         "text": "You land a punch with your wrist rotated outward. Which bone takes the hit?",
         "options": [
-          "The 5th metacarpal, on the pinky side",
           "The 2nd metacarpal, under the index knuckle",
-          "The wrist bones"
+          "The wrist bones",
+          "The 5th metacarpal, on the pinky side"
         ],
-        "answerIndex": 0,
-        "explain": "The 5th. It's the thinnest metacarpal and the worst braced — which is why this is a technique fix, not a strength one."
+        "answerIndex": 2,
+        "explain": "The 5th. It's the thinnest metacarpal and the worst braced — which is why this is a technique fix, not a strength one.",
+        "seconds": 20
       }
     },
     {
@@ -238,11 +242,12 @@
         "text": "Why does tucking your chin protect you?",
         "options": [
           "It shortens the lever, so your head rotates less",
-          "It makes your jaw bone harder",
-          "It stops the punch landing at all"
+          "It stops the punch landing at all",
+          "It makes your jaw bone harder"
         ],
         "answerIndex": 0,
-        "explain": "A tucked chin gives the punch less leverage. Less rotation means the brain moves less inside the skull."
+        "explain": "A tucked chin gives the punch less leverage. Less rotation means the brain moves less inside the skull.",
+        "seconds": 20
       }
     },
     {
@@ -251,7 +256,8 @@
         "type": "hotspot",
         "text": "Tap the bone a seatbelt crosses — the one that's built to break first.",
         "answerBone": "clavicle",
-        "explain": "The clavicle. It's the most fractured bone in the body, and that's exactly what it's for."
+        "explain": "The clavicle. It's the most fractured bone in the body, and that's exactly what it's for.",
+        "seconds": 15
       }
     },
     {
@@ -307,11 +313,12 @@
         "text": "Roughly how much of your adult bone mass is locked in by age 18–20?",
         "options": [
           "About 90%",
-          "About half",
-          "About a quarter"
+          "About a quarter",
+          "About half"
         ],
         "answerIndex": 0,
-        "explain": "About 90%. It's the biggest bone-building window you get, and it doesn't reopen later."
+        "explain": "About 90%. It's the biggest bone-building window you get, and it doesn't reopen later.",
+        "seconds": 20
       }
     },
     {
@@ -371,7 +378,8 @@
         "type": "truefalse",
         "text": "Exercise makes bones denser because bone adapts to the loads placed on it.",
         "answer": true,
-        "explain": "That's Wolff's Law. Astronauts prove it in reverse — remove the load and density drops fast."
+        "explain": "That's Wolff's Law. Astronauts prove it in reverse — remove the load and density drops fast.",
+        "seconds": 12
       }
     },
     {
@@ -472,12 +480,13 @@
         "text": "Muscles can only do one thing to a bone. Which is it?",
         "type": "multiple",
         "options": [
+          "Both, depending on the muscle",
           "Pull it",
-          "Push it",
-          "Both, depending on the muscle"
+          "Push it"
         ],
-        "answerIndex": 0,
-        "explain": "Pull, always. That's why every muscle has an opposite that pulls the other way."
+        "answerIndex": 1,
+        "explain": "Pull, always. That's why every muscle has an opposite that pulls the other way.",
+        "seconds": 20
       }
     },
     {
@@ -533,12 +542,13 @@
         "type": "multiple",
         "text": "You look down a microscope and see spindle-shaped cells with no stripes. Which muscle is it?",
         "options": [
-          "Smooth",
           "Skeletal",
+          "Smooth",
           "Cardiac"
         ],
-        "answerIndex": 0,
-        "explain": "Smooth. The other two are both striped. No stripes means it's the involuntary one in your organs."
+        "answerIndex": 1,
+        "explain": "Smooth. The other two are both striped. No stripes means it's the involuntary one in your organs.",
+        "seconds": 20
       }
     },
     {
@@ -581,7 +591,8 @@
           "Smooth muscle"
         ],
         "answerIndex": 0,
-        "explain": "Cardiac muscle. Striped like skeletal, involuntary like smooth, and the only one with its own pacemaker."
+        "explain": "Cardiac muscle. Striped like skeletal, involuntary like smooth, and the only one with its own pacemaker.",
+        "seconds": 15
       }
     },
     {
@@ -625,7 +636,8 @@
           "tendons",
           "a tendon"
         ],
-        "explain": "A tendon. Ligaments link bone to bone — Tendon To the muscle, Ligament Links two bones."
+        "explain": "A tendon. Ligaments link bone to bone — Tendon To the muscle, Ligament Links two bones.",
+        "seconds": 15
       }
     },
     {
@@ -694,12 +706,13 @@
         "text": "Which is built during sleep rather than during the session — muscle, or bone density?",
         "type": "multiple",
         "options": [
-          "Both of them",
+          "Neither — both need training",
           "Only muscle",
-          "Neither — both need training"
+          "Both of them"
         ],
-        "answerIndex": 0,
-        "explain": "Both. Training is the signal for each one. The building happens afterwards, mostly while you sleep."
+        "answerIndex": 2,
+        "explain": "Both. Training is the signal for each one. The building happens afterwards, mostly while you sleep.",
+        "seconds": 20
       }
     },
     {
@@ -760,12 +773,13 @@
         "type": "multiple",
         "text": "Which of these builds bone density the most?",
         "options": [
-          "Boxing and jumping",
+          "Cycling on flat roads",
           "Swimming laps",
-          "Cycling on flat roads"
+          "Boxing and jumping"
         ],
-        "answerIndex": 0,
-        "explain": "Impact and resistance load bone. Swimming and cycling are excellent cardio, but your bones barely feel them."
+        "answerIndex": 2,
+        "explain": "Impact and resistance load bone. Swimming and cycling are excellent cardio, but your bones barely feel them.",
+        "seconds": 15
       }
     },
     {
@@ -805,7 +819,8 @@
         "type": "truefalse",
         "text": "Growth hormone's biggest release of the day happens while you are in deep sleep.",
         "answer": true,
-        "explain": "True. Which makes sleep part of training, not a break from it. Skip it and you throw away most of the session."
+        "explain": "True. Which makes sleep part of training, not a break from it. Skip it and you throw away most of the session.",
+        "seconds": 12
       }
     },
     {
@@ -861,40 +876,44 @@
       "text": "How many bones are in the adult human skeleton?",
       "options": [
         "206",
-        "270",
         "180",
+        "270",
         "312"
       ],
       "answerIndex": 0,
       "explain": "206 in an adult. You were born with about 270. Many fused together as you grew.",
-      "objective": "Name the five jobs the skeleton does for the body"
+      "objective": "Name the five jobs the skeleton does for the body",
+      "seconds": 15
     },
     {
       "type": "hotspot",
       "text": "Tap the bone that breaks most often — the one a seatbelt crosses.",
       "answerBone": "clavicle",
       "explain": "The clavicle. It breaks at a lower force than your neck or spine, so it absorbs the energy first.",
-      "objective": "Explain how bone structure protects the body during impact"
+      "objective": "Explain how bone structure protects the body during impact",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "The skull flexes on impact to absorb energy, the same way ribs do.",
       "answer": false,
       "explain": "False. Ribs flex and may break, because bone heals. The skull stays rigid, because brain tissue doesn't.",
-      "objective": "Explain how bone structure protects the body during impact"
+      "objective": "Explain how bone structure protects the body during impact",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "A boxer lands a punch turned outward and breaks a hand bone. Which one?",
       "options": [
-        "The 5th metacarpal, on the pinky side",
-        "The radius, in the forearm",
         "The humerus, in the upper arm",
-        "The clavicle"
+        "The clavicle",
+        "The 5th metacarpal, on the pinky side",
+        "The radius, in the forearm"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "The 5th metacarpal — the classic boxer's fracture. Landing rotated loads the weakest striking bone.",
-      "objective": "Locate and name the major bones of the human skeleton"
+      "objective": "Locate and name the major bones of the human skeleton",
+      "seconds": 25
     },
     {
       "type": "type",
@@ -904,7 +923,8 @@
         "osteoblasts"
       ],
       "explain": "Osteoblasts build. Osteoclasts clear away. Blasts Build, Clasts Crush.",
-      "objective": "Describe how exercise and puberty change bone density"
+      "objective": "Describe how exercise and puberty change bone density",
+      "seconds": 15
     },
     {
       "type": "order",
@@ -917,67 +937,74 @@
         "Metacarpals"
       ],
       "explain": "Power starts at the floor and travels up. That's why coaches fix your feet when a punch feels weak.",
-      "objective": "Explain how bone structure protects the body during impact"
+      "objective": "Explain how bone structure protects the body during impact",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "Roughly how much of your adult bone mass is set by age 18–20?",
       "options": [
         "About 90%",
-        "About 40%",
+        "All of it, from birth",
         "About 60%",
-        "All of it, from birth"
+        "About 40%"
       ],
       "answerIndex": 0,
       "explain": "About 90%. Puberty is the biggest bone-building window you get, and it doesn't reopen.",
-      "objective": "Describe how exercise and puberty change bone density"
+      "objective": "Describe how exercise and puberty change bone density",
+      "seconds": 20
     },
     {
       "type": "hotspot",
       "text": "Tap the longest and strongest bone in your body.",
       "answerBone": "femur",
       "explain": "The femur. It carries several times your bodyweight with every step you take.",
-      "objective": "Locate and name the major bones of the human skeleton"
+      "objective": "Locate and name the major bones of the human skeleton",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "Astronauts lose bone density in space because there is no gravity load to adapt to.",
       "answer": true,
       "explain": "True. Wolff's Law running backwards. No load means no reason to keep the material.",
-      "objective": "Describe how exercise and puberty change bone density"
+      "objective": "Describe how exercise and puberty change bone density",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Why must a lap belt sit low, across your hips?",
       "options": [
-        "So the force is carried by the pelvis, not soft organs",
-        "So it is more comfortable on long drives",
         "So it does not wrinkle your shirt",
+        "So it is more comfortable on long drives",
+        "So the force is carried by the pelvis, not soft organs",
         "So the airbag can reach you faster"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "The pelvis can take the load. Worn high, that force goes into your intestines instead.",
-      "objective": "Explain how bone structure protects the body during impact"
+      "objective": "Explain how bone structure protects the body during impact",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "Which muscle type is found only in the heart and never tires?",
       "options": [
-        "Cardiac muscle",
         "Skeletal muscle",
         "Smooth muscle",
-        "Voluntary muscle"
+        "Voluntary muscle",
+        "Cardiac muscle"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Cardiac muscle. It's the only one with a built-in pacemaker, so it beats without the brain.",
-      "objective": "Distinguish skeletal, smooth and cardiac muscle"
+      "objective": "Distinguish skeletal, smooth and cardiac muscle",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "A muscle can push as well as pull, depending on what the brain tells it.",
       "answer": false,
       "explain": "False. Muscles only pull. That's exactly why they come in opposing pairs like biceps and triceps.",
-      "objective": "Explain how muscles move bones through antagonistic pairs"
+      "objective": "Explain how muscles move bones through antagonistic pairs",
+      "seconds": 15
     },
     {
       "type": "multiple",
@@ -990,7 +1017,8 @@
       ],
       "answerIndex": 0,
       "explain": "Smooth muscle. Involuntary, and found in the walls of hollow organs like the gut.",
-      "objective": "Distinguish skeletal, smooth and cardiac muscle"
+      "objective": "Distinguish skeletal, smooth and cardiac muscle",
+      "seconds": 15
     },
     {
       "type": "type",
@@ -1001,20 +1029,22 @@
         "a tendon"
       ],
       "explain": "A tendon. Ligaments link bone to bone. Tendon To the muscle, Ligament Links two bones.",
-      "objective": "Explain how muscles move bones through antagonistic pairs"
+      "objective": "Explain how muscles move bones through antagonistic pairs",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "You throw a straight punch. Which muscle extends your elbow?",
       "options": [
-        "The triceps",
-        "The biceps",
         "The masseter",
-        "Cardiac muscle"
+        "The triceps",
+        "Cardiac muscle",
+        "The biceps"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "The triceps. The biceps is its antagonist, which is why tensing it slows the punch down.",
-      "objective": "Explain how muscles move bones through antagonistic pairs"
+      "objective": "Explain how muscles move bones through antagonistic pairs",
+      "seconds": 15
     },
     {
       "type": "order",
@@ -1026,40 +1056,44 @@
         "Fibres repair thicker"
       ],
       "explain": "Training is the signal. Recovery is the building. Most of it happens while you sleep.",
-      "objective": "Distinguish skeletal, smooth and cardiac muscle"
+      "objective": "Distinguish skeletal, smooth and cardiac muscle",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "Which activity does the most to increase bone density?",
       "options": [
+        "Cycling on flat ground",
         "Boxing training",
         "Swimming laps",
-        "Cycling on flat ground",
         "Stretching"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Bone responds to impact and resistance. Swimming and cycling are great cardio but load bone very little.",
-      "objective": "Explain why daily training now affects bone and muscle health for life"
+      "objective": "Explain why daily training now affects bone and muscle health for life",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "Your biggest daily release of growth hormone happens during deep sleep.",
       "answer": true,
       "explain": "True. Sleep is part of training. Hard exercise triggers a second release on top of it.",
-      "objective": "Explain why daily training now affects bone and muscle health for life"
+      "objective": "Explain why daily training now affects bone and muscle health for life",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "What is osteoporosis?",
       "options": [
-        "Bone density dropping until bones break easily",
         "Muscles shrinking with age",
         "Cartilage wearing out in the joints",
-        "Growth plates closing too early"
+        "Growth plates closing too early",
+        "Bone density dropping until bones break easily"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Bone loses density until the inside looks like a sponge. The muscle version is called sarcopenia.",
-      "objective": "Explain why daily training now affects bone and muscle health for life"
+      "objective": "Explain why daily training now affects bone and muscle health for life",
+      "seconds": 20
     }
   ],
   "teacher": {

@@ -53,7 +53,8 @@
           "yourselves"
         ],
         "answerIndex": 0,
-        "explain": "Hisself and theirselves are not words. The correct forms are himself and themselves."
+        "explain": "Hisself and theirselves are not words. The correct forms are himself and themselves.",
+        "seconds": 15
       }
     },
     {
@@ -88,13 +89,14 @@
         "type": "multiple",
         "text": "In \"The captain himself apologised\", what is himself doing?",
         "options": [
-          "Adding emphasis — it could be removed",
-          "Acting as the object of the verb",
+          "Showing possession",
           "Replacing the captain",
-          "Showing possession"
+          "Adding emphasis — it could be removed",
+          "Acting as the object of the verb"
         ],
-        "answerIndex": 0,
-        "explain": "Remove it and \"the captain apologised\" still works. That is the intensive use."
+        "answerIndex": 2,
+        "explain": "Remove it and \"the captain apologised\" still works. That is the intensive use.",
+        "seconds": 20
       }
     },
     {
@@ -115,13 +117,14 @@
         "type": "multiple",
         "text": "Which sentence is correct?",
         "options": [
+          "Please give the form to I",
           "Please give the form to me",
           "Please give the form to myself",
-          "Please give the form to I",
           "Please give the form to mine"
         ],
-        "answerIndex": 0,
-        "explain": "Myself needs I to be the subject of the same sentence. Here there is no I at all."
+        "answerIndex": 1,
+        "explain": "Myself needs I to be the subject of the same sentence. Here there is no I at all.",
+        "seconds": 20
       }
     },
     {
@@ -166,13 +169,14 @@
         "type": "multiple",
         "text": "What does Don Quixote promise Sancho Panza?",
         "options": [
-          "An island to govern",
+          "A place at the king's court",
           "A share of his farm",
           "A horse of his own",
-          "A place at the king's court"
+          "An island to govern"
         ],
-        "answerIndex": 0,
-        "explain": "The governorship of an island. It is exactly the kind of reward knights hand out in the books he reads."
+        "answerIndex": 3,
+        "explain": "The governorship of an island. It is exactly the kind of reward knights hand out in the books he reads.",
+        "seconds": 20
       }
     },
     {
@@ -209,19 +213,38 @@
         "type": "truefalse",
         "text": "Sancho Panza believes in knights and chivalry as strongly as Don Quixote does.",
         "answer": false,
-        "explain": "False. He is a practical farm labourer who has come along for the promised island."
+        "explain": "False. He is a practical farm labourer who has come along for the promised island.",
+        "seconds": 12
       }
     },
     {
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "compound personal pronoun", "def": "A pronoun ending in -self or -selves. There are eight." },
-        { "term": "intensive use", "def": "The -self word adds emphasis only. Remove it and the sentence survives." },
-        { "term": "reflexive use", "def": "The -self word is the object of the verb. Next week's topic." },
-        { "term": "hisself / theirselves", "def": "Not words. The correct forms are himself and themselves." },
-        { "term": "squire", "def": "A knight's attendant. Sancho Panza is Don Quixote's." },
-        { "term": "insula", "def": "The island Don Quixote promises Sancho he will govern." }
+        {
+          "term": "compound personal pronoun",
+          "def": "A pronoun ending in -self or -selves. There are eight."
+        },
+        {
+          "term": "intensive use",
+          "def": "The -self word adds emphasis only. Remove it and the sentence survives."
+        },
+        {
+          "term": "reflexive use",
+          "def": "The -self word is the object of the verb. Next week's topic."
+        },
+        {
+          "term": "hisself / theirselves",
+          "def": "Not words. The correct forms are himself and themselves."
+        },
+        {
+          "term": "squire",
+          "def": "A knight's attendant. Sancho Panza is Don Quixote's."
+        },
+        {
+          "term": "insula",
+          "def": "The island Don Quixote promises Sancho he will govern."
+        }
       ]
     },
     {
@@ -242,26 +265,28 @@
       "text": "How many compound personal pronouns are there?",
       "options": [
         "Eight",
+        "Five",
         "Six",
-        "Ten",
-        "Five"
+        "Ten"
       ],
       "answerIndex": 0,
       "explain": "Five singular and three plural: myself, yourself, himself, herself, itself, ourselves, yourselves, themselves.",
-      "objective": "List the eight compound personal pronouns"
+      "objective": "List the eight compound personal pronouns",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Which is the correct plural form for more than one person you are speaking to?",
       "options": [
-        "yourselves",
         "yourself",
+        "yourselves",
         "yourselfs",
         "youselves"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Yourself is singular, yourselves is plural. English keeps both, and the exam checks it.",
-      "objective": "Explain how they are formed"
+      "objective": "Explain how they are formed",
+      "seconds": 15
     },
     {
       "type": "multiple",
@@ -274,112 +299,122 @@
       ],
       "answerIndex": 0,
       "explain": "Theirselves and hisself are not words. Use themselves and himself.",
-      "objective": "Explain why hisself and theirselves are not words"
+      "objective": "Explain why hisself and theirselves are not words",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Complete it: \"He fixed the bike ___.\"",
       "options": [
+        "himselves",
         "himself",
         "hisself",
-        "his self",
-        "himselves"
+        "his self"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Himself. There is no such word as hisself, however often it is said.",
-      "objective": "Explain why hisself and theirselves are not words"
+      "objective": "Explain why hisself and theirselves are not words",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "In \"The author herself replied\", what is herself doing?",
       "options": [
-        "Adding emphasis, and it could be removed",
-        "Acting as the object of the verb",
         "Showing possession",
-        "Replacing the author"
+        "Acting as the object of the verb",
+        "Replacing the author",
+        "Adding emphasis, and it could be removed"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Remove it and the sentence still works. That is the intensive use.",
-      "objective": "Use a compound personal pronoun for emphasis"
+      "objective": "Use a compound personal pronoun for emphasis",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "An intensive pronoun can be removed without breaking the sentence.",
       "answer": true,
       "explain": "True, and that removal test is the most reliable way to identify one.",
-      "objective": "Use a compound personal pronoun for emphasis"
+      "objective": "Use a compound personal pronoun for emphasis",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Which sentence is correct?",
       "options": [
         "Please send the report to me",
-        "Please send the report to myself",
         "Please send the report to I",
-        "Please send the report to mine"
+        "Please send the report to mine",
+        "Please send the report to myself"
       ],
       "answerIndex": 0,
       "explain": "Myself needs I as the subject of the same sentence. Here there is none, so it must be me.",
-      "objective": "Avoid using myself in place of me"
+      "objective": "Avoid using myself in place of me",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Which sentence uses myself correctly?",
       "options": [
+        "The parcel arrived for myself",
         "I made myself a sandwich",
         "Contact myself if you need help",
-        "Ana and myself went to the shop",
-        "The parcel arrived for myself"
+        "Ana and myself went to the shop"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "I is the subject and myself is the object. That is the only case where it works.",
-      "objective": "Avoid using myself in place of me"
+      "objective": "Avoid using myself in place of me",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Who becomes Don Quixote's squire?",
       "options": [
-        "Sancho Panza",
-        "The barber",
+        "Pedro Alonso",
         "The priest",
-        "Pedro Alonso"
+        "Sancho Panza",
+        "The barber"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Sancho Panza, a poor neighbour with a wife, children and no interest in chivalry.",
-      "objective": "Retell Don Quixote Chapter 6 and explain what Sancho is promised"
+      "objective": "Retell Don Quixote Chapter 6 and explain what Sancho is promised",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What is Sancho promised in return for coming?",
       "options": [
-        "An island to govern",
-        "Half of Don Quixote's land",
         "A knighthood",
-        "A new donkey"
+        "A new donkey",
+        "Half of Don Quixote's land",
+        "An island to govern"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "The governorship of an island. Knights in the books he reads hand out exactly that.",
-      "objective": "Retell Don Quixote Chapter 6 and explain what Sancho is promised"
+      "objective": "Retell Don Quixote Chapter 6 and explain what Sancho is promised",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Sancho Panza believes he is riding out to become a knight.",
       "answer": false,
       "explain": "False. He is a farm labourer, he rides a donkey, and he has come for the island.",
-      "objective": "Retell Don Quixote Chapter 6 and explain what Sancho is promised"
+      "objective": "Retell Don Quixote Chapter 6 and explain what Sancho is promised",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Why does Sancho's arrival change the book?",
       "options": [
-        "There are now two versions of every event",
         "He is a better fighter",
-        "He can read the books too",
-        "He owns a horse"
+        "He owns a horse",
+        "There are now two versions of every event",
+        "He can read the books too"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Alone, nobody could contradict Don Quixote out loud. Sancho sees windmills where he sees giants.",
-      "objective": "Retell Don Quixote Chapter 6 and explain what Sancho is promised"
+      "objective": "Retell Don Quixote Chapter 6 and explain what Sancho is promised",
+      "seconds": 20
     }
   ],
   "teacher": {

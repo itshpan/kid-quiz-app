@@ -47,13 +47,14 @@
         "type": "multiple",
         "text": "You want pure water from seawater. Which method?",
         "options": [
-          "Distillation",
-          "Evaporation",
+          "Sieving",
           "Filtration",
-          "Sieving"
+          "Distillation",
+          "Evaporation"
         ],
-        "answerIndex": 0,
-        "explain": "You want the liquid, so you have to catch and cool the vapour. Evaporation would leave you the salt."
+        "answerIndex": 2,
+        "explain": "You want the liquid, so you have to catch and cool the vapour. Evaporation would leave you the salt.",
+        "seconds": 15
       }
     },
     {
@@ -89,12 +90,13 @@
         "text": "What is the difference between evaporation and distillation?",
         "options": [
           "Evaporation keeps the solid; distillation catches and keeps the liquid",
-          "Distillation does not need heat",
           "Evaporation works only on colloids",
+          "Distillation does not need heat",
           "They are two words for the same process"
         ],
         "answerIndex": 0,
-        "explain": "Same boiling step. The difference is entirely which part you collect at the end."
+        "explain": "Same boiling step. The difference is entirely which part you collect at the end.",
+        "seconds": 25
       }
     },
     {
@@ -127,13 +129,14 @@
         "type": "multiple",
         "text": "You dissolve 10 g of sugar in 90 g of water. What is the concentration?",
         "options": [
+          "90%",
           "10%",
-          "11%",
           "9%",
-          "90%"
+          "11%"
         ],
-        "answerIndex": 0,
-        "explain": "10 g in a total of 100 g. Divide by the whole solution, not by the water alone."
+        "answerIndex": 1,
+        "explain": "10 g in a total of 100 g. Divide by the whole solution, not by the water alone.",
+        "seconds": 15
       }
     },
     {
@@ -187,7 +190,8 @@
           "Filtration",
           "Disinfection"
         ],
-        "explain": "Biggest things first, smallest last. Chlorine deals with what no filter can catch."
+        "explain": "Biggest things first, smallest last. Chlorine deals with what no filter can catch.",
+        "seconds": 20
       }
     },
     {
@@ -222,7 +226,8 @@
         "type": "truefalse",
         "text": "Filtering will separate salt from salt water.",
         "answer": false,
-        "explain": "False. Dissolved salt passes straight through the paper. You need evaporation or distillation."
+        "explain": "False. Dissolved salt passes straight through the paper. You need evaporation or distillation.",
+        "seconds": 12
       }
     },
     {
@@ -276,79 +281,85 @@
       "type": "multiple",
       "text": "Why can you not separate salt water by filtering?",
       "options": [
-        "The dissolved salt passes through the paper with the water",
         "The paper dissolves",
+        "Filtering only works on gases",
         "Salt water is too heavy",
-        "Filtering only works on gases"
+        "The dissolved salt passes through the paper with the water"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Filtering catches undissolved solids. Dissolved particles are far too small.",
-      "objective": "Choose the right separation method for a given solution"
+      "objective": "Choose the right separation method for a given solution",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "You want to keep the salt from seawater. Which method?",
       "options": [
-        "Evaporation",
-        "Distillation",
         "Filtration",
-        "Chromatography"
+        "Evaporation",
+        "Chromatography",
+        "Distillation"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Boil the water off and the salt is left behind. If you wanted the water, you would distil.",
-      "objective": "Explain the difference between evaporation and distillation"
+      "objective": "Explain the difference between evaporation and distillation",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "You want to keep the water from seawater. Which method?",
       "options": [
-        "Distillation",
+        "Decantation",
         "Evaporation",
-        "Sieving",
-        "Decantation"
+        "Distillation",
+        "Sieving"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Distillation catches and cools the vapour, so you end up with the liquid rather than the solid.",
-      "objective": "Explain the difference between evaporation and distillation"
+      "objective": "Explain the difference between evaporation and distillation",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "How does chromatography separate substances?",
       "options": [
+        "It filters them by size",
         "A solvent carries each one a different distance",
-        "It boils them at different temperatures",
         "It uses a magnet",
-        "It filters them by size"
+        "It boils them at different temperatures"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "The dyes travel at different speeds up the paper, so they pull apart into separate bands.",
-      "objective": "Explain how chromatography separates dissolved substances"
+      "objective": "Explain how chromatography separates dissolved substances",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "You dissolve 20 g of salt in 80 g of water. What is the concentration?",
       "options": [
         "20%",
-        "25%",
         "80%",
-        "4%"
+        "4%",
+        "25%"
       ],
       "answerIndex": 0,
       "explain": "20 g of solute in 100 g of solution. Divide by the total, not by the water alone.",
-      "objective": "Work out a simple concentration as a percentage"
+      "objective": "Work out a simple concentration as a percentage",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "A 200 g solution contains 30 g of solute. What is the concentration?",
       "options": [
-        "15%",
         "30%",
         "6.7%",
+        "15%",
         "170%"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "30 ÷ 200 × 100 = 15%. The 200 g is already the whole solution.",
-      "objective": "Work out a simple concentration as a percentage"
+      "objective": "Work out a simple concentration as a percentage",
+      "seconds": 15
     },
     {
       "type": "order",
@@ -360,46 +371,50 @@
         "Disinfection"
       ],
       "explain": "Largest things first. Chlorine at the end deals with what no filter can remove.",
-      "objective": "Explain how drinking water is made safe"
+      "objective": "Explain how drinking water is made safe",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What does disinfection remove that filtration cannot?",
       "options": [
+        "Gravel",
         "Microbes",
         "Sand",
-        "Leaves",
-        "Gravel"
+        "Leaves"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Microbes are far too small for a sand bed. Chlorine deals with them chemically instead.",
-      "objective": "Explain how drinking water is made safe"
+      "objective": "Explain how drinking water is made safe",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Petrol and diesel are separated from crude oil by which process?",
       "options": [
-        "Fractional distillation",
         "Filtration",
+        "Sieving",
         "Chromatography",
-        "Sieving"
+        "Fractional distillation"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "They boil at different temperatures, so each one is collected as it condenses.",
-      "objective": "Choose the right separation method for a given solution"
+      "objective": "Choose the right separation method for a given solution",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "A light beam is visible inside a liquid. What is it?",
       "options": [
         "A colloid",
-        "A solution",
         "A pure substance",
-        "A suspension that has settled"
+        "A suspension that has settled",
+        "A solution"
       ],
       "answerIndex": 0,
       "explain": "The Tyndall effect from Week 8. Solutions let the beam through unseen.",
-      "objective": "Review the whole mixtures topic for the exam"
+      "objective": "Review the whole mixtures topic for the exam",
+      "seconds": 20
     },
     {
       "type": "multiple",
@@ -407,19 +422,21 @@
       "options": [
         "Can I see the separate parts?",
         "Does it taste salty?",
-        "Is it a liquid?",
-        "Can it be poured?"
+        "Can it be poured?",
+        "Is it a liquid?"
       ],
       "answerIndex": 0,
       "explain": "Visible parts means heterogeneous. Uniform throughout means homogeneous.",
-      "objective": "Review the whole mixtures topic for the exam"
+      "objective": "Review the whole mixtures topic for the exam",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "The white marks left on a shirt after sweating are the solute from a solution.",
       "answer": true,
       "explain": "True. The water evaporates and the salts stay behind. It is evaporation, finished.",
-      "objective": "Review the whole mixtures topic for the exam"
+      "objective": "Review the whole mixtures topic for the exam",
+      "seconds": 15
     }
   ],
   "teacher": {

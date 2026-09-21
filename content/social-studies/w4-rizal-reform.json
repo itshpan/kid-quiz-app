@@ -47,13 +47,14 @@
         "type": "multiple",
         "text": "What did the Propaganda Movement campaign for?",
         "options": [
-          "Rights and representation for Filipinos inside Spain",
           "Immediate armed revolution",
           "A Filipino king in Manila",
+          "Rights and representation for Filipinos inside Spain",
           "More power for the Spanish friars"
         ],
-        "answerIndex": 0,
-        "explain": "Reform, not separation. They wrote from Spain, in Spanish, aiming at Spanish readers."
+        "answerIndex": 2,
+        "explain": "Reform, not separation. They wrote from Spain, in Spanish, aiming at Spanish readers.",
+        "seconds": 20
       }
     },
     {
@@ -101,12 +102,13 @@
         "text": "Who did Rizal dedicate El Filibusterismo to?",
         "options": [
           "The three priests executed in 1872",
-          "His mother",
+          "The editors of La Solidaridad",
           "Andres Bonifacio",
-          "The editors of La Solidaridad"
+          "His mother"
         ],
         "answerIndex": 0,
-        "explain": "GomBurZa — Gomez, Burgos and Zamora. He wrote that their guilt had never been made clear."
+        "explain": "GomBurZa — Gomez, Burgos and Zamora. He wrote that their guilt had never been made clear.",
+        "seconds": 20
       }
     },
     {
@@ -142,12 +144,13 @@
         "text": "Why did Rizal specialise in eye surgery?",
         "options": [
           "To treat his mother's failing eyesight",
-          "Because Spain required it of him",
+          "To work for the Spanish army",
           "It was the only medicine open to Filipinos",
-          "To work for the Spanish army"
+          "Because Spain required it of him"
         ],
         "answerIndex": 0,
-        "explain": "His mother was going blind. He trained in Europe specifically to be able to operate on her."
+        "explain": "His mother was going blind. He trained in Europe specifically to be able to operate on her.",
+        "seconds": 25
       }
     },
     {
@@ -194,13 +197,14 @@
         "type": "multiple",
         "text": "Why was Rizal arrested in July 1892?",
         "options": [
-          "For founding La Liga Filipina, days after he set it up",
-          "For leading an armed attack in Cavite",
           "For refusing to pay the cedula tax",
-          "For fighting a duel in Madrid"
+          "For founding La Liga Filipina, days after he set it up",
+          "For fighting a duel in Madrid",
+          "For leading an armed attack in Cavite"
         ],
-        "answerIndex": 0,
-        "explain": "La Liga was peaceful and legal. Spain arrested him anyway, which is what convinced many that reform was finished."
+        "answerIndex": 1,
+        "explain": "La Liga was peaceful and legal. Spain arrested him anyway, which is what convinced many that reform was finished.",
+        "seconds": 25
       }
     },
     {
@@ -233,7 +237,8 @@
         "type": "truefalse",
         "text": "Rizal supported the armed revolution that began in August 1896.",
         "answer": false,
-        "explain": "False. He argued against it and said the country was not ready. He was executed for it anyway."
+        "explain": "False. He argued against it and said the country was not ready. He was executed for it anyway.",
+        "seconds": 12
       }
     },
     {
@@ -268,27 +273,52 @@
         "type": "multiple",
         "text": "Why did the Reform Movement come to an end?",
         "options": [
-          "Its newspaper folded and all three of its leaders died within two years",
           "Spain granted everything it asked for",
+          "It merged with the Katipunan in 1889",
           "Its members joined the Spanish government",
-          "It merged with the Katipunan in 1889"
+          "Its newspaper folded and all three of its leaders died within two years"
         ],
-        "answerIndex": 0,
-        "explain": "La Solidaridad stopped in 1895, then Lopez Jaena, del Pilar and Rizal all died in 1896."
+        "answerIndex": 3,
+        "explain": "La Solidaridad stopped in 1895, then Lopez Jaena, del Pilar and Rizal all died in 1896.",
+        "seconds": 25
       }
     },
     {
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "Propaganda Movement", "def": "The campaign by Filipinos in Spain, roughly 1880-1895, for reform rather than independence." },
-        { "term": "La Solidaridad", "def": "The movement's newspaper, published from 1889 to 1895." },
-        { "term": "Noli Me Tangere", "def": "Rizal's first novel, 1887. Latin for 'touch me not'. Banned in the Philippines." },
-        { "term": "El Filibusterismo", "def": "Rizal's second novel, 1891, dedicated to GomBurZa. Darker than the first." },
-        { "term": "filibustero", "def": "Spanish for a subversive or traitor. Being called one could end your life." },
-        { "term": "La Liga Filipina", "def": "Rizal's peaceful civic group, founded 3 July 1892. He was arrested three days later." },
-        { "term": "Dapitan", "def": "The town in Zamboanga where Rizal was exiled from 1892 to 1896." },
-        { "term": "Mi Ultimo Adios", "def": "The poem Rizal wrote the night before his execution, hidden in a lamp." }
+        {
+          "term": "Propaganda Movement",
+          "def": "The campaign by Filipinos in Spain, roughly 1880-1895, for reform rather than independence."
+        },
+        {
+          "term": "La Solidaridad",
+          "def": "The movement's newspaper, published from 1889 to 1895."
+        },
+        {
+          "term": "Noli Me Tangere",
+          "def": "Rizal's first novel, 1887. Latin for 'touch me not'. Banned in the Philippines."
+        },
+        {
+          "term": "El Filibusterismo",
+          "def": "Rizal's second novel, 1891, dedicated to GomBurZa. Darker than the first."
+        },
+        {
+          "term": "filibustero",
+          "def": "Spanish for a subversive or traitor. Being called one could end your life."
+        },
+        {
+          "term": "La Liga Filipina",
+          "def": "Rizal's peaceful civic group, founded 3 July 1892. He was arrested three days later."
+        },
+        {
+          "term": "Dapitan",
+          "def": "The town in Zamboanga where Rizal was exiled from 1892 to 1896."
+        },
+        {
+          "term": "Mi Ultimo Adios",
+          "def": "The poem Rizal wrote the night before his execution, hidden in a lamp."
+        }
       ]
     },
     {
@@ -308,14 +338,15 @@
       "type": "multiple",
       "text": "What was La Solidaridad?",
       "options": [
-        "The newspaper of the Propaganda Movement",
         "A secret society aiming at revolution",
-        "Rizal's first novel",
-        "The Spanish colonial parliament"
+        "The newspaper of the Propaganda Movement",
+        "The Spanish colonial parliament",
+        "Rizal's first novel"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Their newspaper, published from 1889 to 1895, mostly from Spain and aimed at Spanish readers.",
-      "objective": "Explain who Jose Rizal was and what the Propaganda Movement was doing"
+      "objective": "Explain who Jose Rizal was and what the Propaganda Movement was doing",
+      "seconds": 20
     },
     {
       "type": "multiple",
@@ -323,12 +354,13 @@
       "options": [
         "1887",
         "1872",
-        "1891",
-        "1896"
+        "1896",
+        "1891"
       ],
       "answerIndex": 0,
       "explain": "1887, written in Berlin. El Filibusterismo followed in 1891, written in Ghent.",
-      "objective": "Describe Noli Me Tangere and El Filibusterismo and why they mattered"
+      "objective": "Describe Noli Me Tangere and El Filibusterismo and why they mattered",
+      "seconds": 15
     },
     {
       "type": "multiple",
@@ -336,45 +368,49 @@
       "options": [
         "Fathers Gomez, Burgos and Zamora",
         "Andres Bonifacio",
-        "Rizal's mother",
-        "Emilio Aguinaldo"
+        "Emilio Aguinaldo",
+        "Rizal's mother"
       ],
       "answerIndex": 0,
       "explain": "GomBurZa, executed in 1872. Rizal wrote that their guilt had never been clearly shown.",
-      "objective": "Describe Noli Me Tangere and El Filibusterismo and why they mattered"
+      "objective": "Describe Noli Me Tangere and El Filibusterismo and why they mattered",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "Rizal's novels were banned in the Philippines.",
       "answer": true,
       "explain": "True, and owning a copy was dangerous. The ban made people more determined to read them.",
-      "objective": "Describe Noli Me Tangere and El Filibusterismo and why they mattered"
+      "objective": "Describe Noli Me Tangere and El Filibusterismo and why they mattered",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "What was La Liga Filipina?",
       "options": [
-        "A peaceful civic group for mutual help, education and trade",
-        "An armed revolutionary society",
         "A Spanish government department",
-        "A newspaper printed in Barcelona"
+        "A newspaper printed in Barcelona",
+        "An armed revolutionary society",
+        "A peaceful civic group for mutual help, education and trade"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Entirely legal and entirely peaceful. Rizal was arrested three days after founding it anyway.",
-      "objective": "Explain the aims of La Liga Filipina and why Rizal was arrested"
+      "objective": "Explain the aims of La Liga Filipina and why Rizal was arrested",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "How long after founding La Liga Filipina was Rizal arrested?",
       "options": [
+        "He was never arrested for it",
         "Three days",
         "Three months",
-        "Three years",
-        "He was never arrested for it"
+        "Three years"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Founded 3 July 1892, arrested 6 July. That speed is what convinced many that reform was hopeless.",
-      "objective": "Explain the aims of La Liga Filipina and why Rizal was arrested"
+      "objective": "Explain the aims of La Liga Filipina and why Rizal was arrested",
+      "seconds": 20
     },
     {
       "type": "type",
@@ -384,20 +420,22 @@
         "in dapitan"
       ],
       "explain": "Dapitan, in Zamboanga. He ran a school and a clinic there and built the town a water system.",
-      "objective": "Describe Rizal's exile in Dapitan and what he did there"
+      "objective": "Describe Rizal's exile in Dapitan and what he did there",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Which of these did Rizal NOT do during his exile in Dapitan?",
       "options": [
-        "Lead an armed attack on a Spanish garrison",
         "Run a school for local boys",
         "Build a water system for the town",
+        "Lead an armed attack on a Spanish garrison",
         "Practise medicine"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "He built rather than fought. The other three are all documented parts of his four years there.",
-      "objective": "Describe Rizal's exile in Dapitan and what he did there"
+      "objective": "Describe Rizal's exile in Dapitan and what he did there",
+      "seconds": 25
     },
     {
       "type": "multiple",
@@ -405,51 +443,55 @@
       "options": [
         "To Cuba, to serve as an army doctor",
         "To Hong Kong, to join Aguinaldo",
-        "To Spain, to restart La Solidaridad",
-        "To Cavite, to join the revolution"
+        "To Cavite, to join the revolution",
+        "To Spain, to restart La Solidaridad"
       ],
       "answerIndex": 0,
       "explain": "He had volunteered as a doctor for the Spanish army in Cuba. He was arrested at sea and brought back.",
-      "objective": "Describe Rizal's trial and execution in December 1896"
+      "objective": "Describe Rizal's trial and execution in December 1896",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "What is Mi Ultimo Adios?",
       "options": [
-        "The poem Rizal wrote the night before his execution",
         "The last issue of La Solidaridad",
-        "Rizal's third novel",
-        "The founding document of La Liga Filipina"
+        "The poem Rizal wrote the night before his execution",
+        "The founding document of La Liga Filipina",
+        "Rizal's third novel"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "His last farewell, written in his cell, hidden in a lamp and passed to his sister.",
-      "objective": "Describe Rizal's trial and execution in December 1896"
+      "objective": "Describe Rizal's trial and execution in December 1896",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Where and when was Rizal executed?",
       "options": [
-        "Bagumbayan, 30 December 1896",
-        "Cavite, 10 May 1897",
         "Dapitan, 6 July 1892",
-        "Malolos, 23 January 1899"
+        "Malolos, 23 January 1899",
+        "Bagumbayan, 30 December 1896",
+        "Cavite, 10 May 1897"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "The same field where GomBurZa were executed twenty-four years earlier. He was 35.",
-      "objective": "Describe Rizal's trial and execution in December 1896"
+      "objective": "Describe Rizal's trial and execution in December 1896",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Why did the Reform Movement effectively end in 1896?",
       "options": [
-        "Its newspaper had folded and all three leaders were dead within two years",
-        "Spain agreed to every demand it made",
+        "Its members emigrated to Cuba",
         "It was absorbed into the Spanish parliament",
-        "Its members emigrated to Cuba"
+        "Spain agreed to every demand it made",
+        "Its newspaper had folded and all three leaders were dead within two years"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "La Solidaridad stopped in 1895. Lopez Jaena died in January 1896, del Pilar in July, Rizal in December.",
-      "objective": "Explain why the Reform Movement ended when it did"
+      "objective": "Explain why the Reform Movement ended when it did",
+      "seconds": 25
     }
   ],
   "teacher": {

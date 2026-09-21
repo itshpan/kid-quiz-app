@@ -47,12 +47,13 @@
         "text": "Anong kailanan ang \"magkaibigan\"?",
         "options": [
           "Dalawahan",
-          "Isahan",
+          "Palansak",
           "Maramihan",
-          "Palansak"
+          "Isahan"
         ],
         "answerIndex": 0,
-        "explain": "Tiyak na dalawa. Ang \"mag-\" ang senyas nito sa Filipino."
+        "explain": "Tiyak na dalawa. Ang \"mag-\" ang senyas nito sa Filipino.",
+        "seconds": 12
       }
     },
     {
@@ -87,7 +88,8 @@
         "type": "truefalse",
         "text": "Nagbabago ang anyo ng pangngalang Filipino kapag naging maramihan ito.",
         "answer": false,
-        "explain": "Hindi. Ang \"mga\" lamang ang idinadagdag sa harap. Pareho pa rin ang salita."
+        "explain": "Hindi. Ang \"mga\" lamang ang idinadagdag sa harap. Pareho pa rin ang salita.",
+        "seconds": 12
       }
     },
     {
@@ -132,13 +134,14 @@
         "type": "multiple",
         "text": "Alin ang tamang maramihan?",
         "options": [
-          "mga makina",
-          "mga makina-makina",
           "makina-makina mga",
-          "mga mga makina"
+          "mga makina",
+          "mga mga makina",
+          "mga makina-makina"
         ],
-        "answerIndex": 0,
-        "explain": "Isang senyas lamang. Ang \"mga\" ang gumagawa ng buong trabaho."
+        "answerIndex": 1,
+        "explain": "Isang senyas lamang. Ang \"mga\" ang gumagawa ng buong trabaho.",
+        "seconds": 15
       }
     },
     {
@@ -187,7 +190,8 @@
         "type": "truefalse",
         "text": "Maramihan ang ibig sabihin ng \"araw-araw\".",
         "answer": false,
-        "explain": "Hindi. Ibig sabihin nito ay tuwing araw. Ang pag-uulit ay nagbibigay ng ibang kahulugan."
+        "explain": "Hindi. Ibig sabihin nito ay tuwing araw. Ang pag-uulit ay nagbibigay ng ibang kahulugan.",
+        "seconds": 12
       }
     },
     {
@@ -233,14 +237,15 @@
       "type": "multiple",
       "text": "Anong kailanan ang \"mga bayani\"?",
       "options": [
+        "Palansak",
         "Maramihan",
         "Isahan",
-        "Dalawahan",
-        "Palansak"
+        "Dalawahan"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Ang \"mga\" ang senyas ng maramihan sa Filipino.",
-      "objective": "Matukoy ang isahan, dalawahan at maramihan"
+      "objective": "Matukoy ang isahan, dalawahan at maramihan",
+      "seconds": 15
     },
     {
       "type": "multiple",
@@ -253,86 +258,94 @@
       ],
       "answerIndex": 0,
       "explain": "Tiyak na dalawa. Ang \"mag-\" ang senyas ng dalawahan.",
-      "objective": "Matukoy ang isahan, dalawahan at maramihan"
+      "objective": "Matukoy ang isahan, dalawahan at maramihan",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Ilan ang kailanan ng pangngalan sa Filipino?",
       "options": [
         "Tatlo",
-        "Dalawa",
         "Apat",
+        "Dalawa",
         "Lima"
       ],
       "answerIndex": 0,
       "explain": "Isahan, dalawahan at maramihan. May dalawa lamang ang karamihan ng wika.",
-      "objective": "Matukoy ang isahan, dalawahan at maramihan"
+      "objective": "Matukoy ang isahan, dalawahan at maramihan",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Ano ang ginagawa ng \"mga\"?",
       "options": [
+        "Binabago ang kasarian",
         "Ginagawang maramihan ang pangngalan",
-        "Ginagawang pantangi ang pangngalan",
         "Ginagawang basal ang pangngalan",
-        "Binabago ang kasarian"
+        "Ginagawang pantangi ang pangngalan"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Hindi nagbabago ang salita mismo. Idinadagdag lamang ang \"mga\" sa harap.",
-      "objective": "Magamit nang tama ang \"mga\""
+      "objective": "Magamit nang tama ang \"mga\"",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Nagdaragdag ng letra ang pangngalang Filipino kapag naging maramihan.",
       "answer": false,
       "explain": "Hindi, hindi tulad ng Ingles. Ang \"mga\" sa harap ang gumagawa ng lahat.",
-      "objective": "Magamit nang tama ang \"mga\""
+      "objective": "Magamit nang tama ang \"mga\"",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Alin ang tamang sulat?",
       "options": [
-        "mga makina",
-        "mga makina-makina",
+        "mga mga makina",
         "makina mga",
-        "mga mga makina"
+        "mga makina-makina",
+        "mga makina"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Isang senyas lamang ang kailangan.",
-      "objective": "Maiwasan ang pagdodoble ng senyas ng maramihan"
+      "objective": "Maiwasan ang pagdodoble ng senyas ng maramihan",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Ano ang ibig sabihin ng \"bahay-bahay\"?",
       "options": [
-        "Pupunta sa maraming bahay",
+        "Dalawang bahay",
         "Maraming bahay",
-        "Malaking bahay",
-        "Dalawang bahay"
+        "Pupunta sa maraming bahay",
+        "Malaking bahay"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Ang pag-uulit ay nagpapakita ng pagkalat ng kilos, hindi ng dami ng bagay.",
-      "objective": "Maunawaan ang pag-uulit ng salita"
+      "objective": "Maunawaan ang pag-uulit ng salita",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Ano ang ibig sabihin ng \"araw-araw\"?",
       "options": [
-        "Tuwing araw",
-        "Maraming araw",
         "Dalawang araw",
+        "Maraming araw",
+        "Tuwing araw",
         "Mahabang araw"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Pag-ulit ng pangyayari ito, hindi bilang ng mga araw.",
-      "objective": "Maunawaan ang pag-uulit ng salita"
+      "objective": "Maunawaan ang pag-uulit ng salita",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "Palaging maramihan ang ibig sabihin ng pag-uulit ng salita.",
       "answer": false,
       "explain": "Hindi. Madalas ay nagbibigay ito ng ibang kahulugan, tulad ng \"araw-araw\".",
-      "objective": "Maunawaan ang pag-uulit ng salita"
+      "objective": "Maunawaan ang pag-uulit ng salita",
+      "seconds": 12
     },
     {
       "type": "multiple",
@@ -345,33 +358,36 @@
       ],
       "answerIndex": 0,
       "explain": "Pumili ng isang senyas. Sapat na ang \"mga\".",
-      "objective": "Maiwasan ang pagdodoble ng senyas ng maramihan"
+      "objective": "Maiwasan ang pagdodoble ng senyas ng maramihan",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Bakit naiiba si Bonifacio sa mga repormista?",
       "options": [
+        "Galing siya sa mayamang pamilya",
         "Himagsikan ang sinimulan niya, hindi reporma",
         "Nag-aral siya sa Europa",
-        "Galing siya sa mayamang pamilya",
         "Hindi siya naniwala sa kalayaan"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Hindi siya galing sa mayayaman at hindi siya nag-aral sa Europa.",
-      "objective": "Maunawaan kung bakit binabasa pa rin natin si Bonifacio"
+      "objective": "Maunawaan kung bakit binabasa pa rin natin si Bonifacio",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Ano ang tanong na iniiwan ng kanyang kuwento?",
       "options": [
-        "Sino ang kabilang sa bayan?",
         "Sino ang pinakamayamang Pilipino?",
+        "Kailan natapos ang himagsikan?",
         "Ilan ang lalawigan sa Pilipinas?",
-        "Kailan natapos ang himagsikan?"
+        "Sino ang kabilang sa bayan?"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Wala itong madaling sagot, at iyon ang dahilan kung bakit binabasa pa rin ito.",
-      "objective": "Maunawaan kung bakit binabasa pa rin natin si Bonifacio"
+      "objective": "Maunawaan kung bakit binabasa pa rin natin si Bonifacio",
+      "seconds": 20
     }
   ],
   "teacher": {

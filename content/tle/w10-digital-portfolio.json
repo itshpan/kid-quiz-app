@@ -47,12 +47,13 @@
         "text": "Why gather everything before choosing?",
         "options": [
           "Judging while hunting slows both jobs down",
-          "You will forget what you have",
           "It uses less storage",
+          "You will forget what you have",
           "Teachers require it"
         ],
         "answerIndex": 0,
-        "explain": "Two fast passes beat one slow careful one. Gather, then stop, then choose."
+        "explain": "Two fast passes beat one slow careful one. Gather, then stop, then choose.",
+        "seconds": 20
       }
     },
     {
@@ -87,7 +88,8 @@
         "type": "truefalse",
         "text": "A portfolio should include every piece of work from the term.",
         "answer": false,
-        "explain": "Choosing is the skill. Best, hardest and improved is enough to show what you can do."
+        "explain": "Choosing is the skill. Best, hardest and improved is enough to show what you can do.",
+        "seconds": 12
       }
     },
     {
@@ -146,13 +148,14 @@
         "type": "multiple",
         "text": "What should the second line of a caption say?",
         "options": [
+          "How long it took",
           "What you would change now",
           "What mark you got",
-          "How long it took",
           "Who helped you"
         ],
-        "answerIndex": 0,
-        "explain": "What it was, then what you would change. The second line is what a reader learns from."
+        "answerIndex": 1,
+        "explain": "What it was, then what you would change. The second line is what a reader learns from.",
+        "seconds": 20
       }
     },
     {
@@ -173,11 +176,26 @@
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "portfolio", "def": "A chosen collection of work that shows what you can do." },
-        { "term": "curation", "def": "Choosing what goes in and leaving the rest out." },
-        { "term": "caption", "def": "Two lines: what the piece was, and what you would change." },
-        { "term": "stage", "def": "A part of a project with its own stopping point." },
-        { "term": "revision", "def": "A later version made after feedback." }
+        {
+          "term": "portfolio",
+          "def": "A chosen collection of work that shows what you can do."
+        },
+        {
+          "term": "curation",
+          "def": "Choosing what goes in and leaving the rest out."
+        },
+        {
+          "term": "caption",
+          "def": "Two lines: what the piece was, and what you would change."
+        },
+        {
+          "term": "stage",
+          "def": "A part of a project with its own stopping point."
+        },
+        {
+          "term": "revision",
+          "def": "A later version made after feedback."
+        }
       ]
     },
     {
@@ -197,140 +215,157 @@
       "type": "multiple",
       "text": "What is a portfolio for?",
       "options": [
-        "Showing what you can do and how you got there",
-        "Storing every file you own",
         "Replacing exams",
+        "Storing every file you own",
+        "Showing what you can do and how you got there",
         "Keeping teachers busy"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "It is evidence, not a scrapbook. Everything in it should be there for a reason.",
-      "objective": "Explain what a portfolio is and what it is for"
+      "objective": "Explain what a portfolio is and what it is for",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What is the first step in building one?",
       "options": [
-        "Gather everything without judging it",
-        "Choose your best piece",
         "Write the captions",
-        "Set up the backup"
+        "Set up the backup",
+        "Choose your best piece",
+        "Gather everything without judging it"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Gathering and choosing are separate steps. Two fast passes beat one slow one.",
-      "objective": "Plan a project in stages instead of all at once"
+      "objective": "Plan a project in stages instead of all at once",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Which three kinds of piece should a portfolio include?",
       "options": [
         "Best, hardest, and one you improved",
-        "Longest, shortest, and newest",
         "Three from the same subject",
-        "Only pieces with high marks"
+        "Only pieces with high marks",
+        "Longest, shortest, and newest"
       ],
       "answerIndex": 0,
       "explain": "The improved one is the most interesting, because it shows you can take a correction.",
-      "objective": "Choose which pieces to include and why"
+      "objective": "Choose which pieces to include and why",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Including a weaker first draft alongside the fixed version is a mistake.",
       "answer": false,
       "explain": "False. The before is what makes the after mean anything. It is stronger evidence, not weaker.",
-      "objective": "Choose which pieces to include and why"
+      "objective": "Choose which pieces to include and why",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "How should portfolio files be named?",
       "options": [
         "Date, then subject, then what it is",
-        "By mark received",
+        "However they were saved originally",
         "Numbered one to twenty",
-        "However they were saved originally"
+        "By mark received"
       ],
       "answerIndex": 0,
       "explain": "The same convention from week 8. The names are what make it findable later.",
-      "objective": "Apply the naming and folder rules to real work"
+      "objective": "Apply the naming and folder rules to real work",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "How should the portfolio folders be arranged?",
       "options": [
-        "One folder per subject, same as your school structure",
         "One folder for everything",
+        "One folder per subject, same as your school structure",
         "Alphabetically by filename",
         "One folder per week"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Reusing the structure you already know means no new decisions.",
-      "objective": "Apply the naming and folder rules to real work"
+      "objective": "Apply the naming and folder rules to real work",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What does the first line of a caption say?",
-      "options": ["What the task was", "What mark it got", "Who set it", "How long it took"],
-      "answerIndex": 0,
+      "options": [
+        "Who set it",
+        "How long it took",
+        "What the task was",
+        "What mark it got"
+      ],
+      "answerIndex": 2,
       "explain": "What it was, then what you would change now.",
-      "objective": "Write a caption that says what you would change"
+      "objective": "Write a caption that says what you would change",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What does the second line of a caption say?",
       "options": [
-        "What you would change now",
         "An apology for the work",
+        "What you would change now",
         "The date it was finished",
         "A summary of the subject"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "It is the line a reader actually learns from. 'Nothing' is valid if it is true.",
-      "objective": "Write a caption that says what you would change"
+      "objective": "Write a caption that says what you would change",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "A caption should apologise for weaknesses in the work.",
       "answer": false,
       "explain": "False. State plainly what you would change. Apologising adds nothing a reader can use.",
-      "objective": "Write a caption that says what you would change"
+      "objective": "Write a caption that says what you would change",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Why break a project into stages?",
       "options": [
+        "It looks more organised",
         "A stage you can finish is a stage you will start",
         "It takes less total time",
-        "It looks more organised",
         "Teachers mark stages separately"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Each stage needs its own stopping point. That is what makes it startable.",
-      "objective": "Plan a project in stages instead of all at once"
+      "objective": "Plan a project in stages instead of all at once",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What is the last stage of building the portfolio?",
       "options": [
-        "Backing it up somewhere else",
-        "Writing the captions",
         "Choosing the pieces",
-        "Renaming the files"
+        "Renaming the files",
+        "Writing the captions",
+        "Backing it up somewhere else"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "A portfolio kept in one place is a portfolio you can lose in one accident.",
-      "objective": "Plan a project in stages instead of all at once"
+      "objective": "Plan a project in stages instead of all at once",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What does curation mean?",
       "options": [
         "Choosing what goes in and leaving the rest out",
-        "Fixing errors in old work",
+        "Writing a summary of the term",
         "Copying files to a new folder",
-        "Writing a summary of the term"
+        "Fixing errors in old work"
       ],
       "answerIndex": 0,
       "explain": "Choosing is the actual skill the project is testing.",
-      "objective": "Explain what a portfolio is and what it is for"
+      "objective": "Explain what a portfolio is and what it is for",
+      "seconds": 20
     }
   ],
   "teacher": {

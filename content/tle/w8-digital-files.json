@@ -46,13 +46,14 @@
         "type": "multiple",
         "text": "Which is the better filename?",
         "options": [
-          "2026-09-04-science-w6-notes.docx",
-          "science notes FINAL v2 (1).docx",
           "Untitled document (3).docx",
-          "notes.docx"
+          "2026-09-04-science-w6-notes.docx",
+          "notes.docx",
+          "science notes FINAL v2 (1).docx"
         ],
-        "answerIndex": 0,
-        "explain": "Date, subject, then what it is. It tells you everything without opening it."
+        "answerIndex": 1,
+        "explain": "Date, subject, then what it is. It tells you everything without opening it.",
+        "seconds": 15
       }
     },
     {
@@ -87,7 +88,8 @@
         "type": "truefalse",
         "text": "Writing a date as year-month-day makes an alphabetical sort work as a date sort.",
         "answer": true,
-        "explain": "That is exactly why the format looks backwards. 2026-09-04 sorts before 2026-09-11."
+        "explain": "That is exactly why the format looks backwards. 2026-09-04 sorts before 2026-09-11.",
+        "seconds": 12
       }
     },
     {
@@ -132,13 +134,14 @@
         "type": "multiple",
         "text": "What should you do with last term's finished work?",
         "options": [
-          "Archive it into a folder for that term",
+          "Rename it to Untitled",
           "Delete it to save space",
-          "Leave it in Downloads",
-          "Rename it to Untitled"
+          "Archive it into a folder for that term",
+          "Leave it in Downloads"
         ],
-        "answerIndex": 0,
-        "explain": "Archiving moves it out of the way but keeps it. When unsure, archive rather than delete."
+        "answerIndex": 2,
+        "explain": "Archiving moves it out of the way but keeps it. When unsure, archive rather than delete.",
+        "seconds": 20
       }
     },
     {
@@ -188,12 +191,13 @@
         "text": "Why is a second folder on the same laptop not a backup?",
         "options": [
           "The same accident destroys both copies",
-          "Folders cannot hold copies",
+          "The file changes name",
           "It uses too much space",
-          "The file changes name"
+          "Folders cannot hold copies"
         ],
         "answerIndex": 0,
-        "explain": "A backup has to survive whatever kills the original. Same machine, same accident."
+        "explain": "A backup has to survive whatever kills the original. Same machine, same accident.",
+        "seconds": 20
       }
     },
     {
@@ -239,145 +243,157 @@
       "type": "multiple",
       "text": "What order should a filename use?",
       "options": [
-        "Date, then subject, then what it is",
         "What it is, then the date",
         "Subject only",
+        "Date, then subject, then what it is",
         "Whatever is quickest to type"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "It answers when, what subject and what it is, without you opening the file.",
-      "objective": "Name a file so it says what it is"
+      "objective": "Name a file so it says what it is",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Why is 2026-09-04 better than 04-09-2026 in a filename?",
       "options": [
         "An alphabetical sort then puts the files in date order",
-        "It is shorter",
+        "It looks more professional",
         "Computers cannot read the other format",
-        "It looks more professional"
+        "It is shorter"
       ],
       "answerIndex": 0,
       "explain": "Year first, then month, then day. That is why the format looks backwards.",
-      "objective": "Explain why dates go at the front of a filename"
+      "objective": "Explain why dates go at the front of a filename",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "What should you use instead of spaces in a filename?",
       "options": [
         "Hyphens",
-        "Full stops",
+        "Commas",
         "Nothing at all",
-        "Commas"
+        "Full stops"
       ],
       "answerIndex": 0,
       "explain": "Hyphens keep the name readable and avoid problems in links and older systems.",
-      "objective": "Name a file so it says what it is"
+      "objective": "Name a file so it says what it is",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "How should a folder structure be arranged?",
       "options": [
-        "Widest category first, narrowest last",
-        "Narrowest first",
         "Alphabetically with no nesting",
-        "One folder for everything"
+        "Narrowest first",
+        "One folder for everything",
+        "Widest category first, narrowest last"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "School, then year, then subject. Three levels is almost always enough.",
-      "objective": "Build a folder structure from widest to narrowest"
+      "objective": "Build a folder structure from widest to narrowest",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "More folder levels always makes files easier to find.",
       "answer": false,
       "explain": "False. Every extra level is another decision when saving and another guess when looking.",
-      "objective": "Build a folder structure from widest to narrowest"
+      "objective": "Build a folder structure from widest to narrowest",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "A folder containing a single file usually means what?",
       "options": [
-        "The folder is unnecessary",
         "The file is important",
+        "The folder is unnecessary",
         "The folder needs splitting",
         "The file should be deleted"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "A folder with one file adds a level for nothing. A folder with ninety needs splitting.",
-      "objective": "Build a folder structure from widest to narrowest"
+      "objective": "Build a folder structure from widest to narrowest",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What is the difference between archiving and deleting?",
       "options": [
+        "Deleting compresses the file",
         "Archiving keeps the file but moves it out of the way",
         "They are the same action",
-        "Archiving destroys the file permanently",
-        "Deleting compresses the file"
+        "Archiving destroys the file permanently"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "When you are unsure which one to do, archive.",
-      "objective": "Explain the difference between deleting and archiving"
+      "objective": "Explain the difference between deleting and archiving",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "What should you do with last term's completed work?",
       "options": [
-        "Archive it",
-        "Delete it",
         "Leave it in Downloads",
+        "Delete it",
+        "Archive it",
         "Print it and delete the file"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "It is finished but not worthless. Archiving keeps it without cluttering this term.",
-      "objective": "Explain the difference between deleting and archiving"
+      "objective": "Explain the difference between deleting and archiving",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "A copy in a second folder on the same laptop counts as a backup.",
       "answer": false,
       "explain": "False. A backup has to survive whatever kills the original. Same machine means same accident.",
-      "objective": "Explain why one copy is not a backup"
+      "objective": "Explain why one copy is not a backup",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "What is the simplest workable backup setup?",
       "options": [
+        "One folder, carefully named",
         "The laptop plus cloud storage",
         "Two folders on the laptop",
-        "One folder, carefully named",
         "Printing everything"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Two places at least, and one of them not the laptop. A USB drive can be a third.",
-      "objective": "Explain why one copy is not a backup"
+      "objective": "Explain why one copy is not a backup",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Why should you open a backup occasionally?",
       "options": [
         "An unreadable backup is not a backup",
+        "It renames the file automatically",
         "It keeps the file from expiring",
-        "It makes the file smaller",
-        "It renames the file automatically"
+        "It makes the file smaller"
       ],
       "answerIndex": 0,
       "explain": "Checking it opens is part of having one. Do it before you need it.",
-      "objective": "Explain why one copy is not a backup"
+      "objective": "Explain why one copy is not a backup",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Why does a badly named file cause a problem later?",
       "options": [
-        "You have to open several files to find the right one",
-        "The computer runs slower",
         "The file becomes corrupted",
-        "It cannot be shared"
+        "It cannot be shared",
+        "The computer runs slower",
+        "You have to open several files to find the right one"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "The file is not lost, and you still cannot find it. That comes to the same thing.",
-      "objective": "Name a file so it says what it is"
+      "objective": "Name a file so it says what it is",
+      "seconds": 25
     }
   ],
   "teacher": {

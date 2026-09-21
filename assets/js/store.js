@@ -132,16 +132,24 @@ export function isLessonComplete(lessonId, id = getActiveId()) {
 }
 
 /** Records a finished quiz and returns the updated progress. */
-export function recordQuiz(lessonId, correct, total, xpEarned, id = getActiveId()) {
+export function recordQuiz(lessonId, correct, total, xpEarned, timing = {}, id = getActiveId()) {
     const p = getProgress(id);
     const pct = total ? Math.round((correct / total) * 100) : 0;
     const prev = p.quizScores[lessonId];
+
+    // Timing is kept alongside the score so the two can be read together:
+    // fast-and-wrong and slow-and-right are different problems.
+    const spent = Number(timing.spent) || 0;
+    const budget = Number(timing.budget) || 0;
 
     p.quizScores[lessonId] = {
         correct,
         total,
         attempts: (prev?.attempts || 0) + 1,
         bestPct: Math.max(prev?.bestPct || 0, pct),
+        spent,
+        budget,
+        paceHistory: [...(prev?.paceHistory || []), { spent, budget, pct }].slice(-10),
         lastAt: new Date().toISOString()
     };
     p.xp += xpEarned;

@@ -46,13 +46,14 @@
         "type": "multiple",
         "text": "Which is a dimension of wellness?",
         "options": [
+          "Digital",
           "Social",
           "Financial",
-          "Digital",
           "Academic"
         ],
-        "answerIndex": 0,
-        "explain": "Physical, mental, social and spiritual are the four the syllabus uses."
+        "answerIndex": 1,
+        "explain": "Physical, mental, social and spiritual are the four the syllabus uses.",
+        "seconds": 15
       }
     },
     {
@@ -93,7 +94,8 @@
           "It does not matter"
         ],
         "answerIndex": 0,
-        "explain": "Nine to eleven hours is the usual range. Repair and memory filing both happen in that window."
+        "explain": "Nine to eleven hours is the usual range. Repair and memory filing both happen in that window.",
+        "seconds": 20
       }
     },
     {
@@ -140,7 +142,8 @@
         "type": "truefalse",
         "text": "Feeling thirsty is an early warning that you need water.",
         "answer": false,
-        "explain": "It is a late signal. Performance drops before thirst arrives, which is why athletes drink on a schedule."
+        "explain": "It is a late signal. Performance drops before thirst arrives, which is why athletes drink on a schedule.",
+        "seconds": 12
       }
     },
     {
@@ -187,13 +190,14 @@
         "type": "multiple",
         "text": "Which foods are 'grow' foods?",
         "options": [
-          "Fish, meat, eggs and beans",
           "Rice, bread and root crops",
-          "Fruit and vegetables",
-          "Sweets and soft drinks"
+          "Sweets and soft drinks",
+          "Fish, meat, eggs and beans",
+          "Fruit and vegetables"
         ],
-        "answerIndex": 0,
-        "explain": "Grow foods are the building materials. Go foods are energy and glow foods are protection."
+        "answerIndex": 2,
+        "explain": "Grow foods are the building materials. Go foods are energy and glow foods are protection.",
+        "seconds": 20
       }
     },
     {
@@ -243,21 +247,23 @@
       "type": "multiple",
       "text": "Which four dimensions of wellness does the syllabus use?",
       "options": [
+        "Social, athletic, dietary, spiritual",
         "Physical, mental, social, spiritual",
-        "Physical, financial, digital, social",
         "Mental, academic, physical, legal",
-        "Social, athletic, dietary, spiritual"
+        "Physical, financial, digital, social"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "They pull on each other constantly, which is why health is not only about illness.",
-      "objective": "Name the main dimensions of wellness"
+      "objective": "Name the main dimensions of wellness",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Being free of illness is the same as being well.",
       "answer": false,
       "explain": "False. Wellness includes mental, social and spiritual dimensions as well as physical health.",
-      "objective": "Name the main dimensions of wellness"
+      "objective": "Name the main dimensions of wellness",
+      "seconds": 12
     },
     {
       "type": "multiple",
@@ -265,123 +271,133 @@
       "options": [
         "During deep sleep",
         "During exercise only",
-        "Immediately after eating",
-        "In the early afternoon"
+        "In the early afternoon",
+        "Immediately after eating"
       ],
       "answerIndex": 0,
       "explain": "The largest pulse comes at night. Growing while asleep is literally true.",
-      "objective": "Explain what sleep does for the body and the brain"
+      "objective": "Explain what sleep does for the body and the brain",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What else happens to the brain during sleep?",
       "options": [
-        "The day's memories are sorted and stored",
-        "Nothing at all; the brain shuts off",
         "New muscles are grown in the brain",
-        "The brain empties completely"
+        "The day's memories are sorted and stored",
+        "The brain empties completely",
+        "Nothing at all; the brain shuts off"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Memory filing happens overnight, which is why sleep before a test beats late revision.",
-      "objective": "Explain what sleep does for the body and the brain"
+      "objective": "Explain what sleep does for the body and the brain",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "How much sleep does someone aged eleven to thirteen usually need?",
       "options": [
-        "Around nine hours",
-        "Around four hours",
         "Around fourteen hours",
-        "It varies with the weather"
+        "Around four hours",
+        "It varies with the weather",
+        "Around nine hours"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Nine to eleven hours is the usual guidance for that age.",
-      "objective": "Explain what sleep does for the body and the brain"
+      "objective": "Explain what sleep does for the body and the brain",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Why is thirst a poor guide to hydration?",
       "options": [
         "Performance already drops before thirst is felt",
-        "Thirst only happens in hot weather",
         "Thirst means you have drunk too much",
-        "Thirst is not a real sensation"
+        "Thirst is not a real sensation",
+        "Thirst only happens in hot weather"
       ],
       "answerIndex": 0,
       "explain": "Reaction time slows first, then endurance, and only then do you notice.",
-      "objective": "Explain hydration and why thirst is a late signal"
+      "objective": "Explain hydration and why thirst is a late signal",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "How does sweating cool the body?",
       "options": [
-        "It evaporates off the skin and carries heat away",
         "It makes the skin thicker",
-        "It lowers the heart rate directly",
-        "It replaces lost salt"
+        "It evaporates off the skin and carries heat away",
+        "It replaces lost salt",
+        "It lowers the heart rate directly"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "This is why humid heat is more dangerous: sweat evaporates more slowly.",
-      "objective": "Explain hydration and why thirst is a late signal"
+      "objective": "Explain hydration and why thirst is a late signal",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Which group are 'go' foods?",
       "options": [
-        "Rice, bread and root crops",
-        "Fish, meat and eggs",
         "Fruit and vegetables",
+        "Fish, meat and eggs",
+        "Rice, bread and root crops",
         "Water and juice"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Go foods provide energy. Grow foods build and glow foods protect.",
-      "objective": "Describe the go, grow and glow food groups"
+      "objective": "Describe the go, grow and glow food groups",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Which group are 'glow' foods?",
       "options": [
-        "Fruit and vegetables",
-        "Rice and bread",
+        "Oil and butter",
         "Fish and eggs",
-        "Oil and butter"
+        "Rice and bread",
+        "Fruit and vegetables"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "They protect the body, mostly through vitamins and minerals.",
-      "objective": "Describe the go, grow and glow food groups"
+      "objective": "Describe the go, grow and glow food groups",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "A balanced meal should include something from all three food groups.",
       "answer": true,
       "explain": "True. A plate missing a group is missing a job that group does.",
-      "objective": "Describe the go, grow and glow food groups"
+      "objective": "Describe the go, grow and glow food groups",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Why does a habit work better than occasional big effort?",
       "options": [
         "It costs almost no decision each time",
-        "It is more exciting",
+        "It takes longer overall",
         "It uses more willpower",
-        "It takes longer overall"
+        "It is more exciting"
       ],
       "answerIndex": 0,
       "explain": "Removing the decision is the mechanism. Willpower is what habits let you stop spending.",
-      "objective": "Explain why a habit beats a burst of effort"
+      "objective": "Explain why a habit beats a burst of effort",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What is a good way to start a new habit?",
       "options": [
-        "Attach it to something you already do daily",
+        "Wait until you feel motivated",
         "Do it at a different time each day",
-        "Start with the hardest possible version",
-        "Wait until you feel motivated"
+        "Attach it to something you already do daily",
+        "Start with the hardest possible version"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Same time, same place, attached to an existing routine. Missing one day is fine.",
-      "objective": "Explain why a habit beats a burst of effort"
+      "objective": "Explain why a habit beats a burst of effort",
+      "seconds": 25
     }
   ],
   "teacher": {

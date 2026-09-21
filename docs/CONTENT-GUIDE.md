@@ -162,12 +162,14 @@ saved* doesn't.
 ## Question types
 
 Used by both `checkpoint` cards and the `quiz` array. Every question needs `explain` — shown
-after answering, and in the answer key. Quiz questions also take `objective`, which must match
-one of the lesson's `objectives` **exactly**; that's what drives the coverage table.
+after answering, and in the answer key — and `seconds`, the time budget. Quiz questions also take
+`objective`, which must match one of the lesson's `objectives` **exactly**; that's what drives the
+coverage table.
 
 ```jsonc
 // Four options, one right
-{ "type": "multiple", "text": "…", "options": ["a","b","c","d"], "answerIndex": 0, "explain": "…" }
+{ "type": "multiple", "text": "…", "options": ["a","b","c","d"], "answerIndex": 2,
+  "seconds": 25, "explain": "…" }
 
 // Two options
 { "type": "truefalse", "text": "…", "answer": true, "explain": "…" }
@@ -179,8 +181,28 @@ one of the lesson's `objectives` **exactly**; that's what drives the coverage ta
 { "type": "order", "text": "…", "items": ["first","second","third"], "explain": "…" }
 
 // Tap the diagram — answerBone is a key from BONES in skeleton.js
-{ "type": "hotspot", "text": "…", "answerBone": "femur", "explain": "…" }
+{ "type": "hotspot", "text": "…", "answerBone": "femur", "seconds": 20, "explain": "…" }
 ```
+
+### `seconds` — the time budget
+
+How long this one question *should* take: reading time, plus the options, plus thinking. Round to
+the nearest 5; 12s is about the floor and 120s the ceiling. The learner sees it as a static `~25s`
+chip **before** answering and the real figure **after** — a prediction, then the check. There is no
+countdown. A ticking clock is ambient motion, which this app does not do, and for this reader it
+would replace thinking with panic.
+
+Budgets sum to the quiz's total, which drives the **Pace** score beside the answers score. Closeness
+wins in both directions: far under budget is rushing, not speed.
+
+### Where the right answer sits
+
+Vary `answerIndex`. It is easy to write every question with the correct option first and not notice;
+1153 questions in this repo once sat at position A. A learner who spots that stops reading the
+options. The checker fails any lesson putting more than 60% of its answers in one slot.
+
+An option that only reads correctly last — *none of these*, *wala sa mga ito* — stays last. Vary the
+others around it.
 
 ---
 

@@ -47,12 +47,13 @@
         "text": "What does Romans 12:1 call true and proper worship?",
         "options": [
           "Offering your body as a living sacrifice",
+          "Reading the whole Bible",
           "Singing loudly",
-          "Attending every service",
-          "Reading the whole Bible"
+          "Attending every service"
         ],
         "answerIndex": 0,
-        "explain": "A living sacrifice can walk away, so it has to be offered again. Worship becomes a life, not an event."
+        "explain": "A living sacrifice can walk away, so it has to be offered again. Worship becomes a life, not an event.",
+        "seconds": 20
       }
     },
     {
@@ -75,7 +76,8 @@
         "type": "truefalse",
         "text": "According to Romans 12, worship is limited to what happens in a church service.",
         "answer": false,
-        "explain": "It calls a whole offered life true and proper worship. The service is part of it, not all of it."
+        "explain": "It calls a whole offered life true and proper worship. The service is part of it, not all of it.",
+        "seconds": 12
       }
     },
     {
@@ -134,13 +136,14 @@
         "type": "multiple",
         "text": "What does 'worship in spirit and in truth' rule out?",
         "options": [
+          "Praying out loud",
           "Feeling with no content, and facts with no heart",
-          "Singing in church",
           "Reading scripture aloud",
-          "Praying out loud"
+          "Singing in church"
         ],
-        "answerIndex": 0,
-        "explain": "Both words are required. Either one on its own is not what John 4 describes."
+        "answerIndex": 1,
+        "explain": "Both words are required. Either one on its own is not what John 4 describes.",
+        "seconds": 20
       }
     },
     {
@@ -163,7 +166,8 @@
         "type": "truefalse",
         "text": "Samuel told Saul that a generous offering makes up for disobeying an instruction.",
         "answer": false,
-        "explain": "The opposite. 'To obey is better than sacrifice.' The offering could not replace the obedience."
+        "explain": "The opposite. 'To obey is better than sacrifice.' The offering could not replace the obedience.",
+        "seconds": 12
       }
     },
     {
@@ -205,99 +209,107 @@
       "type": "multiple",
       "text": "Which of these does scripture call worship?",
       "options": [
+        "Only prayer",
         "Serving someone who cannot repay you",
         "Only singing in a service",
-        "Only prayer",
         "Only giving money"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Matthew 25:40. Singing, giving, obeying, serving and thankfulness are all named.",
-      "objective": "Explain what worship means beyond music"
+      "objective": "Explain what worship means beyond music",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What does Romans 12:1 ask for?",
       "options": [
-        "Bodies offered as a living sacrifice",
         "A tenth of your income",
         "Daily attendance at the temple",
-        "Silence during worship"
+        "Silence during worship",
+        "Bodies offered as a living sacrifice"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "It calls that true and proper worship, which makes worship a life rather than an event.",
-      "objective": "Explain Romans 12:1 in your own words"
+      "objective": "Explain Romans 12:1 in your own words",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Why is 'living sacrifice' a deliberately strange phrase?",
       "options": [
+        "It refers only to animals",
         "A sacrifice was killed, so a living one must be offered again",
-        "Sacrifices were never real",
         "It is a translation error",
-        "It refers only to animals"
+        "Sacrifices were never real"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "It gets up and walks away, which means it has to be offered again tomorrow.",
-      "objective": "Explain Romans 12:1 in your own words"
+      "objective": "Explain Romans 12:1 in your own words",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "Romans 12:1 limits worship to what happens in a service.",
       "answer": false,
       "explain": "False. A whole offered life is what it calls true and proper worship.",
-      "objective": "Explain Romans 12:1 in your own words"
+      "objective": "Explain Romans 12:1 in your own words",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "In John 4, what did the woman at the well ask about?",
       "options": [
-        "Which mountain was the right place to worship",
-        "How often to pray",
         "Whether to sing",
+        "How often to pray",
+        "Which mountain was the right place to worship",
         "Who wrote the law"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Jesus answered that the place was about to stop mattering.",
-      "objective": "Explain John 4:23-24 and worshipping in spirit and truth"
+      "objective": "Explain John 4:23-24 and worshipping in spirit and truth",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What does John 4:24 say about God?",
       "options": [
+        "God cannot be worshipped",
         "God is spirit, so worshippers must worship in spirit and in truth",
         "God lives on one mountain",
-        "God prefers singing",
-        "God cannot be worshipped"
+        "God prefers singing"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Because God is spirit, the location stops being the question.",
-      "objective": "Explain John 4:23-24 and worshipping in spirit and truth"
+      "objective": "Explain John 4:23-24 and worshipping in spirit and truth",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What is 'truth without spirit'?",
       "options": [
-        "Facts with no heart in them",
         "Feeling with no content",
         "Singing without words",
-        "Prayer without silence"
+        "Prayer without silence",
+        "Facts with no heart in them"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Both words are required. Spirit without truth is the opposite failure.",
-      "objective": "Explain John 4:23-24 and worshipping in spirit and truth"
+      "objective": "Explain John 4:23-24 and worshipping in spirit and truth",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What had Saul done in 1 Samuel 15?",
       "options": [
         "Kept the best animals to offer, after being told to destroy them",
-        "Refused to make any offering",
         "Left the army entirely",
+        "Refused to make any offering",
         "Built a temple without permission"
       ],
       "answerIndex": 0,
       "explain": "He had a religious-sounding reason, and it was still disobedience.",
-      "objective": "Explain why obedience is called better than sacrifice"
+      "objective": "Explain why obedience is called better than sacrifice",
+      "seconds": 25
     },
     {
       "type": "multiple",
@@ -310,40 +322,44 @@
       ],
       "answerIndex": 0,
       "explain": "An offering cannot replace obedience. That is the point of the whole passage.",
-      "objective": "Explain why obedience is called better than sacrifice"
+      "objective": "Explain why obedience is called better than sacrifice",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Giving generously can make up for ignoring an instruction.",
       "answer": false,
       "explain": "False. 1 Samuel 15:22 says the obedience is what was asked for in the first place.",
-      "objective": "Explain why obedience is called better than sacrifice"
+      "objective": "Explain why obedience is called better than sacrifice",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Which verse links thankfulness to worship?",
       "options": [
-        "1 Thessalonians 5:18",
         "Daniel 6:10",
-        "Exodus 20:3",
-        "Genesis 1:1"
+        "Genesis 1:1",
+        "1 Thessalonians 5:18",
+        "Exodus 20:3"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Give thanks in all circumstances. Thankfulness is named as part of worship.",
-      "objective": "Give examples of worship in ordinary life"
+      "objective": "Give examples of worship in ordinary life",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What is a useful check on your own motives in worship?",
       "options": [
         "Whether it looks the same when nobody is watching",
-        "Whether other people join in",
         "Whether it is loud enough",
-        "Whether it happens on Sunday"
+        "Whether it happens on Sunday",
+        "Whether other people join in"
       ],
       "answerIndex": 0,
       "explain": "Matthew 6:1 warns about doing acts of righteousness to be seen. It is a check, not a reason to stop.",
-      "objective": "Give examples of worship in ordinary life"
+      "objective": "Give examples of worship in ordinary life",
+      "seconds": 25
     }
   ],
   "teacher": {

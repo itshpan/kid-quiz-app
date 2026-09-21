@@ -52,7 +52,8 @@
           "Choosing detergent"
         ],
         "answerIndex": 0,
-        "explain": "Wet clothes left in the drum start to smell. The work is easy; the timing is the skill."
+        "explain": "Wet clothes left in the drum start to smell. The work is easy; the timing is the skill.",
+        "seconds": 20
       }
     },
     {
@@ -75,7 +76,8 @@
         "type": "truefalse",
         "text": "A cooking job is finished when the food is ready.",
         "answer": false,
-        "explain": "The kitchen has to be reset. Leaving it just moves the rest of the job to somebody else."
+        "explain": "The kitchen has to be reset. Leaving it just moves the rest of the job to somebody else.",
+        "seconds": 12
       }
     },
     {
@@ -134,13 +136,14 @@
         "type": "multiple",
         "text": "What turns a chore into a responsibility?",
         "options": [
+          "Someone pays you for it",
           "It stops needing reminders",
           "It gets harder",
-          "It takes longer",
-          "Someone pays you for it"
+          "It takes longer"
         ],
-        "answerIndex": 0,
-        "explain": "Reminders mean the job is still theirs. No reminders means it has become yours."
+        "answerIndex": 1,
+        "explain": "Reminders mean the job is still theirs. No reminders means it has become yours.",
+        "seconds": 20
       }
     },
     {
@@ -161,10 +164,22 @@
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "chore", "def": "A household job you have been assigned." },
-        { "term": "responsibility", "def": "A job that is yours, and no longer needs reminding." },
-        { "term": "reset", "def": "Returning a space to how it was. Part of finishing, not extra." },
-        { "term": "independence", "def": "Being able to run your own daily life without supervision." }
+        {
+          "term": "chore",
+          "def": "A household job you have been assigned."
+        },
+        {
+          "term": "responsibility",
+          "def": "A job that is yours, and no longer needs reminding."
+        },
+        {
+          "term": "reset",
+          "def": "Returning a space to how it was. Part of finishing, not extra."
+        },
+        {
+          "term": "independence",
+          "def": "Being able to run your own daily life without supervision."
+        }
       ]
     },
     {
@@ -184,139 +199,151 @@
       "type": "multiple",
       "text": "What is the correct order for doing laundry?",
       "options": [
-        "Sort, wash, dry, fold, put away",
+        "Sort, fold, wash, dry",
         "Wash, sort, fold, dry, put away",
-        "Wash, dry, sort, put away",
-        "Sort, fold, wash, dry"
+        "Sort, wash, dry, fold, put away",
+        "Wash, dry, sort, put away"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Sorting by colour comes first, and putting away is part of the job rather than extra.",
-      "objective": "Sequence a task that has waiting built into it"
+      "objective": "Sequence a task that has waiting built into it",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Why should you set an alarm for the end of a wash cycle?",
       "options": [
         "Wet clothes left in the drum start to smell",
-        "The machine will not stop otherwise",
         "It saves electricity",
-        "The clothes shrink"
+        "The clothes shrink",
+        "The machine will not stop otherwise"
       ],
       "answerIndex": 0,
       "explain": "The waiting between steps is what people fail, not the work itself.",
-      "objective": "Sequence a task that has waiting built into it"
+      "objective": "Sequence a task that has waiting built into it",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "Putting clothes away is an optional extra after laundry.",
       "answer": false,
       "explain": "False. A basket of clean, unfolded clothes is an unfinished job, not a finished one.",
-      "objective": "Sequence a task that has waiting built into it"
+      "objective": "Sequence a task that has waiting built into it",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "When is a cooking job actually finished?",
       "options": [
-        "When the kitchen has been reset",
-        "When the food is served",
+        "When you have eaten",
         "When the pan is off the heat",
-        "When you have eaten"
+        "When the food is served",
+        "When the kitchen has been reset"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "The reset is part of the work. Leaving it moves the rest of the job to someone else.",
-      "objective": "Explain what finishing a job actually means"
+      "objective": "Explain what finishing a job actually means",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What does 'reset' mean in this context?",
       "options": [
-        "Returning a space to the state you found it in",
-        "Starting the job again",
         "Turning appliances off",
-        "Writing down what you did"
+        "Returning a space to the state you found it in",
+        "Writing down what you did",
+        "Starting the job again"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Same idea as a mechanic putting the tools away. Finishing includes the reset.",
-      "objective": "Explain what finishing a job actually means"
+      "objective": "Explain what finishing a job actually means",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What is the difference between a chore and a responsibility?",
       "options": [
         "A chore is assigned; a responsibility no longer needs reminding",
-        "A responsibility is paid",
         "A chore takes longer",
+        "A responsibility is paid",
         "There is no difference"
       ],
       "answerIndex": 0,
       "explain": "Reminders mean the job is still theirs. The reminders stopping is the whole shift.",
-      "objective": "Explain the difference between a chore and a responsibility"
+      "objective": "Explain the difference between a chore and a responsibility",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "Trust is usually given for a track record rather than a promise.",
       "answer": true,
       "explain": "True. More freedom follows a record of jobs done without reminders, in that order.",
-      "objective": "Explain the difference between a chore and a responsibility"
+      "objective": "Explain the difference between a chore and a responsibility",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Which of these builds the skill of working to someone else's deadline?",
       "options": [
         "Rubbish out on the right day",
-        "Tidying your own room",
         "Choosing what to cook",
+        "Tidying your own room",
         "Folding your laundry"
       ],
       "answerIndex": 0,
       "explain": "The collection day is set by someone else, and missing it has a visible consequence.",
-      "objective": "Describe the household jobs a Grade 6 student can own"
+      "objective": "Describe the household jobs a Grade 6 student can own",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What does keeping your own room build?",
       "options": [
-        "Maintenance instead of rescue",
-        "Speed of cleaning",
         "Better handwriting",
+        "Speed of cleaning",
+        "Maintenance instead of rescue",
         "Nothing measurable"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "A daily reset means the deep clean stays small. That is maintenance rather than rescue.",
-      "objective": "Describe the household jobs a Grade 6 student can own"
+      "objective": "Describe the household jobs a Grade 6 student can own",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What makes noticing harder than following instructions?",
       "options": [
-        "You have to look at the room rather than a list",
         "It takes more physical effort",
         "It requires permission",
-        "It is against the rules"
+        "It is against the rules",
+        "You have to look at the room rather than a list"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Anyone can follow instructions. Seeing what needs doing is the rarer skill.",
-      "objective": "Explain why noticing is the hardest and most valuable skill"
+      "objective": "Explain why noticing is the hardest and most valuable skill",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What is a good way to start practising noticing?",
       "options": [
-        "One unassigned job a day",
         "A full clean once a month",
+        "One unassigned job a day",
         "Waiting to be asked",
         "Making a list for someone else"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "One a day, and without announcing it. It counts more quietly.",
-      "objective": "Explain why noticing is the hardest and most valuable skill"
+      "objective": "Explain why noticing is the hardest and most valuable skill",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Learning household skills later in life is roughly as easy as learning them now.",
       "answer": false,
       "explain": "False. Learning them now costs almost nothing. Learning them under pressure later costs much more.",
-      "objective": "Explain why noticing is the hardest and most valuable skill"
+      "objective": "Explain why noticing is the hardest and most valuable skill",
+      "seconds": 12
     }
   ],
   "teacher": {

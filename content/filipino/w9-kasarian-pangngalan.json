@@ -47,12 +47,13 @@
         "text": "Anong kasarian ang \"kapatid\"?",
         "options": [
           "Di-tiyak",
-          "Panlalaki",
           "Pambabae",
+          "Panlalaki",
           "Walang kasarian"
         ],
         "answerIndex": 0,
-        "explain": "Maaaring lalaki o babae. Kailangan mong idagdag ang \"na lalaki\" o \"na babae\" upang maging tiyak."
+        "explain": "Maaaring lalaki o babae. Kailangan mong idagdag ang \"na lalaki\" o \"na babae\" upang maging tiyak.",
+        "seconds": 15
       }
     },
     {
@@ -87,7 +88,8 @@
         "type": "truefalse",
         "text": "Pambabae ang kasarian ng salitang \"guro\".",
         "answer": false,
-        "explain": "Di-tiyak ito. Maaaring lalaki o babae. Ang inaasahan ay hindi gramatika."
+        "explain": "Di-tiyak ito. Maaaring lalaki o babae. Ang inaasahan ay hindi gramatika.",
+        "seconds": 12
       }
     },
     {
@@ -134,13 +136,14 @@
         "type": "multiple",
         "text": "Bakit may kasarian ang \"aktor\" at \"aktres\"?",
         "options": [
-          "Hiram sila sa Espanyol, kung saan may kasarian ang pangngalan",
-          "Katutubong Filipino ang mga ito",
           "Bago lang silang mga salita",
-          "May panlaping Filipino sila"
+          "Hiram sila sa Espanyol, kung saan may kasarian ang pangngalan",
+          "May panlaping Filipino sila",
+          "Katutubong Filipino ang mga ito"
         ],
-        "answerIndex": 0,
-        "explain": "Ang -o at -a ay tuntunin ng Espanyol na dala ng mga salitang hiram."
+        "answerIndex": 1,
+        "explain": "Ang -o at -a ay tuntunin ng Espanyol na dala ng mga salitang hiram.",
+        "seconds": 20
       }
     },
     {
@@ -175,7 +178,8 @@
         "type": "truefalse",
         "text": "May batas na nagdedeklara kay Rizal bilang pambansang bayani.",
         "answer": false,
-        "explain": "Wala. Nagmungkahi ng siyam na pangalan ang isang komite noong 1995, ngunit hindi ito naging batas."
+        "explain": "Wala. Nagmungkahi ng siyam na pangalan ang isang komite noong 1995, ngunit hindi ito naging batas.",
+        "seconds": 12
       }
     },
     {
@@ -221,145 +225,157 @@
       "type": "multiple",
       "text": "Anong kasarian ang \"inahin\"?",
       "options": [
+        "Di-tiyak",
         "Pambabae",
         "Panlalaki",
-        "Di-tiyak",
         "Walang kasarian"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Ang katapat nito ay \"tandang\", na panlalaki.",
-      "objective": "Matukoy ang apat na kasarian ng pangngalan"
+      "objective": "Matukoy ang apat na kasarian ng pangngalan",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Anong kasarian ang \"mesa\"?",
       "options": [
-        "Walang kasarian",
         "Pambabae",
-        "Di-tiyak",
-        "Panlalaki"
+        "Panlalaki",
+        "Walang kasarian",
+        "Di-tiyak"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Bagay ito na walang buhay, kaya walang kasarian.",
-      "objective": "Matukoy ang apat na kasarian ng pangngalan"
+      "objective": "Matukoy ang apat na kasarian ng pangngalan",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Anong kasarian ang \"atleta\"?",
       "options": [
+        "Walang kasarian",
         "Di-tiyak",
-        "Panlalaki",
         "Pambabae",
-        "Walang kasarian"
+        "Panlalaki"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Maaaring lalaki o babae. Hindi sinasabi ng salita kung sino.",
-      "objective": "Maunawaan ang kasariang di-tiyak"
+      "objective": "Maunawaan ang kasariang di-tiyak",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "Panlalaki ang kasarian ng \"boksingero\".",
       "answer": false,
       "explain": "Di-tiyak ito. May mga kampeong pambabae sa boksing sa buong mundo.",
-      "objective": "Maunawaan ang kasariang di-tiyak"
+      "objective": "Maunawaan ang kasariang di-tiyak",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Ano ang pagkakaiba ng di-tiyak at walang kasarian?",
       "options": [
         "May buhay ang di-tiyak; walang buhay ang walang kasarian",
-        "Wala silang pagkakaiba",
+        "Laging hiram ang walang kasarian",
         "Mas maikli ang di-tiyak",
-        "Laging hiram ang walang kasarian"
+        "Wala silang pagkakaiba"
       ],
       "answerIndex": 0,
       "explain": "Ang \"bata\" ay di-tiyak. Ang \"bato\" ay walang kasarian.",
-      "objective": "Maiba ang walang kasarian sa di-tiyak"
+      "objective": "Maiba ang walang kasarian sa di-tiyak",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Alin sa mga ito ang walang kasarian?",
       "options": [
-        "makina",
         "kaibigan",
+        "kapatid",
         "guro",
-        "kapatid"
+        "makina"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Bagay ito. Ang tatlo pa ay tumutukoy sa tao at di-tiyak.",
-      "objective": "Maiba ang walang kasarian sa di-tiyak"
+      "objective": "Maiba ang walang kasarian sa di-tiyak",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Saan galing ang mga pares na tulad ng \"tiyo\" at \"tiya\"?",
       "options": [
         "Espanyol",
-        "Ingles",
         "Tsino",
-        "Malay"
+        "Malay",
+        "Ingles"
       ],
       "answerIndex": 0,
       "explain": "Ang -o ay panlalaki at ang -a ay pambabae sa Espanyol.",
-      "objective": "Matukoy ang mga hiram na salitang may kasarian"
+      "objective": "Matukoy ang mga hiram na salitang may kasarian",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Alin ang pares na hiram na may kasarian?",
       "options": [
         "abogado at abogada",
-        "guro at guro",
+        "aklat at aklat",
         "bata at bata",
-        "aklat at aklat"
+        "guro at guro"
       ],
       "answerIndex": 0,
       "explain": "Dala ng mga salitang hiram ang tuntunin ng Espanyol.",
-      "objective": "Matukoy ang mga hiram na salitang may kasarian"
+      "objective": "Matukoy ang mga hiram na salitang may kasarian",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Katutubo sa Filipino ang pagbibigay ng kasarian sa halos lahat ng pangngalan.",
       "answer": false,
       "explain": "Hindi. Karamihan sa Filipino ay di-tiyak o walang kasarian. Hiram ang mga pares na -o at -a.",
-      "objective": "Matukoy ang mga hiram na salitang may kasarian"
+      "objective": "Matukoy ang mga hiram na salitang may kasarian",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Ano ang totoo tungkol sa pambansang bayani ng Pilipinas?",
       "options": [
+        "Si Bonifacio ang idineklara ng batas",
         "Walang batas na nagdedeklara ng isa",
         "Si Rizal ang idineklara ng batas",
-        "Si Bonifacio ang idineklara ng batas",
         "Dalawa ang idineklara ng batas"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Nagmungkahi ng siyam na pangalan ang isang komite noong 1995, ngunit hindi ito naging batas.",
-      "objective": "Malaman ang debate kung sino ang pambansang bayani"
+      "objective": "Malaman ang debate kung sino ang pambansang bayani",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "Ilan ang imumungkahing pangalan ng komite noong 1995?",
       "options": [
-        "Siyam",
         "Isa",
+        "Labindalawa",
         "Tatlo",
-        "Labindalawa"
+        "Siyam"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Hindi ito naging batas, kaya nanatiling ugali at kaugalian ang nagbibigay ng sagot.",
-      "objective": "Malaman ang debate kung sino ang pambansang bayani"
+      "objective": "Malaman ang debate kung sino ang pambansang bayani",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Bakit mahalagang tanungin kung saan galing ang isang sagot?",
       "options": [
-        "Magkaiba ang bigat ng batas, ng ugali at ng palagay",
         "Palaging mali ang karaniwang sagot",
-        "Walang tamang sagot sa kasaysayan",
-        "Mas mabilis mag-aral nang ganoon"
+        "Mas mabilis mag-aral nang ganoon",
+        "Magkaiba ang bigat ng batas, ng ugali at ng palagay",
+        "Walang tamang sagot sa kasaysayan"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Hindi mali ang sagot na \"Rizal\". Ang mahalaga ay alam mo kung bakit iyon ang sagot.",
-      "objective": "Malaman ang debate kung sino ang pambansang bayani"
+      "objective": "Malaman ang debate kung sino ang pambansang bayani",
+      "seconds": 25
     }
   ],
   "teacher": {

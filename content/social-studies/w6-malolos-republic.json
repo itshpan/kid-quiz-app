@@ -46,13 +46,14 @@
         "type": "multiple",
         "text": "Where did the Malolos Congress meet?",
         "options": [
+          "Biak-na-Bato",
           "Barasoain Church, Bulacan",
           "Kawit, Cavite",
-          "Intramuros, Manila",
-          "Biak-na-Bato"
+          "Intramuros, Manila"
         ],
-        "answerIndex": 0,
-        "explain": "Barasoain Church in Malolos, Bulacan. Kawit is where independence was declared in June."
+        "answerIndex": 1,
+        "explain": "Barasoain Church in Malolos, Bulacan. Kawit is where independence was declared in June.",
+        "seconds": 15
       }
     },
     {
@@ -88,12 +89,13 @@
         "text": "Which principle passed the Malolos Congress by a single vote?",
         "options": [
           "Separation of church and state",
-          "Universal suffrage",
           "A two-chamber legislature",
-          "Freedom of the press"
+          "Freedom of the press",
+          "Universal suffrage"
         ],
         "answerIndex": 0,
-        "explain": "One vote. After three centuries of friar power it was the most contested article in the document."
+        "explain": "One vote. After three centuries of friar power it was the most contested article in the document.",
+        "seconds": 20
       }
     },
     {
@@ -140,13 +142,14 @@
         "type": "multiple",
         "text": "Why was the Battle of Manila staged?",
         "options": [
-          "So Spain could surrender to the Americans, not to Filipinos",
-          "To test new American weapons",
           "Because Spain had already left the city",
+          "To test new American weapons",
+          "So Spain could surrender to the Americans, not to Filipinos",
           "To end the war more quickly"
         ],
-        "answerIndex": 0,
-        "explain": "Spanish pride, American convenience, and Filipino exclusion. All three at once."
+        "answerIndex": 2,
+        "explain": "Spanish pride, American convenience, and Filipino exclusion. All three at once.",
+        "seconds": 25
       }
     },
     {
@@ -193,19 +196,38 @@
         "type": "truefalse",
         "text": "The Malolos Republic was recognised in the Treaty of Paris.",
         "answer": false,
-        "explain": "False. It was not mentioned at all. Spain and the United States negotiated alone."
+        "explain": "False. It was not mentioned at all. Spain and the United States negotiated alone.",
+        "seconds": 12
       }
     },
     {
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "Malolos Congress", "def": "The assembly that opened 15 September 1898 at Barasoain Church." },
-        { "term": "Malolos Constitution", "def": "Approved 20 January 1899. Established a democratic republic with three branches." },
-        { "term": "Felipe Calderon", "def": "The main drafter of the Malolos Constitution." },
-        { "term": "separation of church and state", "def": "Passed at Malolos by a single vote." },
-        { "term": "mock Battle of Manila", "def": "13 August 1898. A staged battle so Spain could surrender to Americans." },
-        { "term": "Treaty of Paris", "def": "10 December 1898. Spain sold the islands to the United States for $20 million." }
+        {
+          "term": "Malolos Congress",
+          "def": "The assembly that opened 15 September 1898 at Barasoain Church."
+        },
+        {
+          "term": "Malolos Constitution",
+          "def": "Approved 20 January 1899. Established a democratic republic with three branches."
+        },
+        {
+          "term": "Felipe Calderon",
+          "def": "The main drafter of the Malolos Constitution."
+        },
+        {
+          "term": "separation of church and state",
+          "def": "Passed at Malolos by a single vote."
+        },
+        {
+          "term": "mock Battle of Manila",
+          "def": "13 August 1898. A staged battle so Spain could surrender to Americans."
+        },
+        {
+          "term": "Treaty of Paris",
+          "def": "10 December 1898. Spain sold the islands to the United States for $20 million."
+        }
       ]
     },
     {
@@ -225,66 +247,71 @@
       "type": "multiple",
       "text": "When and where did the Malolos Congress open?",
       "options": [
+        "March 1897, Tejeros, Cavite",
         "September 1898, Barasoain Church, Bulacan",
-        "June 1898, Kawit, Cavite",
         "January 1899, Manila",
-        "March 1897, Tejeros, Cavite"
+        "June 1898, Kawit, Cavite"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "15 September 1898. Kawit in June was the declaration of independence.",
-      "objective": "Describe the Malolos Congress and who sat in it"
+      "objective": "Describe the Malolos Congress and who sat in it",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Who mostly made up the Malolos Congress?",
       "options": [
         "Ilustrados — lawyers, doctors and writers",
-        "Farmers and labourers",
+        "American advisers",
         "Spanish officials",
-        "American advisers"
+        "Farmers and labourers"
       ],
       "answerIndex": 0,
       "explain": "The educated class from Week 2. That shaped what the constitution looked like.",
-      "objective": "Describe the Malolos Congress and who sat in it"
+      "objective": "Describe the Malolos Congress and who sat in it",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Who drafted most of the Malolos Constitution?",
       "options": [
-        "Felipe Calderon",
         "Emilio Aguinaldo",
         "Apolinario Mabini",
+        "Felipe Calderon",
         "Pedro Paterno"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Calderon wrote the main draft. Paterno presided over the Congress itself.",
-      "objective": "State what the Malolos Constitution established"
+      "objective": "State what the Malolos Constitution established",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What did the Malolos Constitution establish?",
       "options": [
-        "A democratic republic with three branches of government",
-        "A monarchy under a Filipino king",
         "A province of the United States",
-        "A military dictatorship"
+        "A military dictatorship",
+        "A monarchy under a Filipino king",
+        "A democratic republic with three branches of government"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Executive, legislative and judicial, with the assembly holding the most power.",
-      "objective": "State what the Malolos Constitution established"
+      "objective": "State what the Malolos Constitution established",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Which article passed by a single vote?",
       "options": [
-        "Separation of church and state",
         "The right to vote",
+        "Separation of church and state",
         "Freedom of assembly",
         "The powers of the president"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "After three centuries of friar power, it was the most fiercely argued article in the document.",
-      "objective": "State what the Malolos Constitution established"
+      "objective": "State what the Malolos Constitution established",
+      "seconds": 20
     },
     {
       "type": "type",
@@ -296,60 +323,66 @@
         "1899"
       ],
       "explain": "23 January 1899, at Barasoain Church. The first constitutional republic in Asia.",
-      "objective": "Assess what the First Republic achieved before the war"
+      "objective": "Assess what the First Republic achieved before the war",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Why was the Battle of Manila in August 1898 staged?",
       "options": [
-        "So Spain could surrender to Americans instead of Filipinos",
-        "To train American soldiers",
+        "To capture Aguinaldo",
         "Because there were no Spanish troops left",
-        "To capture Aguinaldo"
+        "To train American soldiers",
+        "So Spain could surrender to Americans instead of Filipinos"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "It preserved Spanish honour and kept Filipino forces out of the city they had been besieging.",
-      "objective": "Explain the mock Battle of Manila and why it happened"
+      "objective": "Explain the mock Battle of Manila and why it happened",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "Filipino forces were allowed into Manila after the staged battle.",
       "answer": false,
       "explain": "False. They were kept out, despite having besieged the city for months.",
-      "objective": "Explain the mock Battle of Manila and why it happened"
+      "objective": "Explain the mock Battle of Manila and why it happened",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "What did the Treaty of Paris do?",
       "options": [
         "Spain transferred the Philippines to the United States for $20 million",
-        "It recognised Philippine independence",
         "It ended the Filipino-American War",
+        "It recognised Philippine independence",
         "It created the Malolos Republic"
       ],
       "answerIndex": 0,
       "explain": "Signed 10 December 1898, with no Filipino present and no mention of the republic.",
-      "objective": "Explain what the Treaty of Paris did to the new republic"
+      "objective": "Explain what the Treaty of Paris did to the new republic",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "The Malolos Republic was mentioned in the Treaty of Paris.",
       "answer": false,
       "explain": "False. A functioning congress was sitting in Malolos and the treaty ignored it entirely.",
-      "objective": "Explain what the Treaty of Paris did to the new republic"
+      "objective": "Explain what the Treaty of Paris did to the new republic",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Why is the Malolos Republic historically significant?",
       "options": [
-        "It was the first constitutional republic in Asia",
-        "It lasted for thirty years",
+        "It defeated the United States",
         "It was recognised by every major power",
-        "It defeated the United States"
+        "It was the first constitutional republic in Asia",
+        "It lasted for thirty years"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "It lasted weeks before the war, and it is still the first of its kind in Asia.",
-      "objective": "Assess what the First Republic achieved before the war"
+      "objective": "Assess what the First Republic achieved before the war",
+      "seconds": 25
     },
     {
       "type": "order",
@@ -361,7 +394,8 @@
         "The Treaty of Paris is signed"
       ],
       "explain": "June, August, September, December 1898. Four events in seven months.",
-      "objective": "Explain what the Treaty of Paris did to the new republic"
+      "objective": "Explain what the Treaty of Paris did to the new republic",
+      "seconds": 25
     }
   ],
   "teacher": {

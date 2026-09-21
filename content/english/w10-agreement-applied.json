@@ -52,13 +52,14 @@
         "type": "multiple",
         "text": "Which is correct?",
         "options": [
+          "Mathematic is her favourite subject",
           "Mathematics is her favourite subject",
-          "Mathematics are her favourite subject",
           "Mathematics were her favourite subject",
-          "Mathematic is her favourite subject"
+          "Mathematics are her favourite subject"
         ],
-        "answerIndex": 0,
-        "explain": "Mathematics ends in -s but is one subject. It takes a singular verb."
+        "answerIndex": 1,
+        "explain": "Mathematics ends in -s but is one subject. It takes a singular verb.",
+        "seconds": 20
       }
     },
     {
@@ -93,13 +94,14 @@
         "type": "multiple",
         "text": "Which is correct?",
         "options": [
-          "Twenty kilometres is a long run",
           "Twenty kilometres are a long run",
-          "Twenty kilometre is a long run",
-          "Twenty kilometres were a long run"
+          "Twenty kilometres were a long run",
+          "Twenty kilometres is a long run",
+          "Twenty kilometre is a long run"
         ],
-        "answerIndex": 0,
-        "explain": "It is one distance, treated as a single amount, so the verb is singular."
+        "answerIndex": 2,
+        "explain": "It is one distance, treated as a single amount, so the verb is singular.",
+        "seconds": 20
       }
     },
     {
@@ -146,13 +148,14 @@
         "type": "multiple",
         "text": "Which is correct?",
         "options": [
-          "The Lord of the Rings is a long book",
-          "The Lord of the Rings are a long book",
+          "The Lord of the Ring are long",
           "The Lord of the Rings were long books",
-          "The Lord of the Ring are long"
+          "The Lord of the Rings are a long book",
+          "The Lord of the Rings is a long book"
         ],
-        "answerIndex": 0,
-        "explain": "A title names one work. However plural it looks, the verb is singular."
+        "answerIndex": 3,
+        "explain": "A title names one work. However plural it looks, the verb is singular.",
+        "seconds": 25
       }
     },
     {
@@ -179,7 +182,8 @@
           "were"
         ],
         "answerIndex": 0,
-        "explain": "The number is one figure, so it takes a singular verb. \"A number of entries have\" would be plural."
+        "explain": "The number is one figure, so it takes a singular verb. \"A number of entries have\" would be plural.",
+        "seconds": 15
       }
     },
     {
@@ -233,19 +237,38 @@
         "type": "truefalse",
         "text": "Don Quixote accepts that the armies were sheep after the shepherds knock him down.",
         "answer": false,
-        "explain": "False. He blames the enchanter for turning the armies into sheep, exactly as with the windmills."
+        "explain": "False. He blames the enchanter for turning the armies into sheep, exactly as with the windmills.",
+        "seconds": 12
       }
     },
     {
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "amount as one unit", "def": "Money, time or distance treated as a single quantity. Takes a singular verb." },
-        { "term": "titles of works", "def": "A book, film or game is one work, so the verb is singular." },
-        { "term": "singular -s nouns", "def": "News, mathematics, physics. They end in -s and are singular." },
-        { "term": "plural-only nouns", "def": "Scissors, trousers, glasses. No singular form, and always a plural verb." },
-        { "term": "a number of", "def": "Means several. Takes a plural verb." },
-        { "term": "the number of", "def": "Names one figure. Takes a singular verb." }
+        {
+          "term": "amount as one unit",
+          "def": "Money, time or distance treated as a single quantity. Takes a singular verb."
+        },
+        {
+          "term": "titles of works",
+          "def": "A book, film or game is one work, so the verb is singular."
+        },
+        {
+          "term": "singular -s nouns",
+          "def": "News, mathematics, physics. They end in -s and are singular."
+        },
+        {
+          "term": "plural-only nouns",
+          "def": "Scissors, trousers, glasses. No singular form, and always a plural verb."
+        },
+        {
+          "term": "a number of",
+          "def": "Means several. Takes a plural verb."
+        },
+        {
+          "term": "the number of",
+          "def": "Names one figure. Takes a singular verb."
+        }
       ]
     },
     {
@@ -265,40 +288,43 @@
       "type": "multiple",
       "text": "Which is correct?",
       "options": [
-        "The news is on at nine",
-        "The news are on at nine",
+        "The new is on at nine",
         "The news were on at nine",
-        "The new is on at nine"
+        "The news is on at nine",
+        "The news are on at nine"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "News ends in -s but is a singular noun.",
-      "objective": "Identify nouns that look plural but are singular"
+      "objective": "Identify nouns that look plural but are singular",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Which of these is SINGULAR?",
       "options": [
+        "glasses",
         "physics",
         "scissors",
-        "trousers",
-        "glasses"
+        "trousers"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Physics is one subject. The other three are things made of two joined halves and take plural verbs.",
-      "objective": "Identify nouns that look plural but are singular"
+      "objective": "Identify nouns that look plural but are singular",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Which is correct?",
       "options": [
-        "The scissors are on the shelf",
         "The scissors is on the shelf",
-        "The scissor are on the shelf",
-        "A scissors is on the shelf"
+        "A scissors is on the shelf",
+        "The scissors are on the shelf",
+        "The scissor are on the shelf"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Scissors has no singular form and always takes a plural verb.",
-      "objective": "Identify nouns that are always plural"
+      "objective": "Identify nouns that are always plural",
+      "seconds": 20
     },
     {
       "type": "multiple",
@@ -306,38 +332,41 @@
       "options": [
         "A pair of scissors is on the shelf",
         "A pair of scissors are on the shelf",
-        "A pair of scissor is on the shelf",
-        "Pairs of scissors is on the shelf"
+        "Pairs of scissors is on the shelf",
+        "A pair of scissor is on the shelf"
       ],
       "answerIndex": 0,
       "explain": "Once you say 'a pair of', pair becomes the subject and it is singular.",
-      "objective": "Identify nouns that are always plural"
+      "objective": "Identify nouns that are always plural",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "Which is correct?",
       "options": [
         "Five hundred pesos is a lot to spend",
+        "Five hundred pesos were a lot to spend",
         "Five hundred pesos are a lot to spend",
-        "Five hundred peso is a lot to spend",
-        "Five hundred pesos were a lot to spend"
+        "Five hundred peso is a lot to spend"
       ],
       "answerIndex": 0,
       "explain": "One amount of money, treated as a single quantity, so the verb is singular.",
-      "objective": "Use singular verbs with amounts treated as one unit"
+      "objective": "Use singular verbs with amounts treated as one unit",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "Which is correct?",
       "options": [
-        "Three hours is long enough",
         "Three hours are long enough",
         "Three hour is long enough",
-        "Three hours were long enough"
+        "Three hours were long enough",
+        "Three hours is long enough"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "One stretch of time, not three separate hours. The verb is singular.",
-      "objective": "Use singular verbs with amounts treated as one unit"
+      "objective": "Use singular verbs with amounts treated as one unit",
+      "seconds": 20
     },
     {
       "type": "multiple",
@@ -350,66 +379,72 @@
       ],
       "answerIndex": 0,
       "explain": "A title names one work, however plural the title looks.",
-      "objective": "Use singular verbs with titles of works"
+      "objective": "Use singular verbs with titles of works",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "A book with a plural title still takes a singular verb.",
       "answer": true,
       "explain": "True. Great Expectations is on the list, not are. One work, one verb.",
-      "objective": "Use singular verbs with titles of works"
+      "objective": "Use singular verbs with titles of works",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Complete it: \"A number of students ___ waiting outside.\"",
       "options": [
-        "are",
         "is",
-        "was",
-        "has been"
+        "has been",
+        "are",
+        "was"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "'A number of' means several, so the verb is plural.",
-      "objective": "Distinguish a number of from the number of"
+      "objective": "Distinguish a number of from the number of",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Complete it: \"The number of students ___ growing.\"",
       "options": [
-        "is",
-        "are",
         "were",
-        "have been"
+        "have been",
+        "are",
+        "is"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "'The number' is one figure. One word different from the last question, opposite verb.",
-      "objective": "Distinguish a number of from the number of"
+      "objective": "Distinguish a number of from the number of",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What does Don Quixote take the two dust clouds to be?",
       "options": [
-        "Two armies about to fight",
         "Two flocks of enchanted birds",
-        "A sandstorm",
-        "Two giants"
+        "Two armies about to fight",
+        "Two giants",
+        "A sandstorm"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Two armies, and he describes the champions of both sides in detail. They are flocks of sheep.",
-      "objective": "Retell the episode with the sheep"
+      "objective": "Retell the episode with the sheep",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "How does the sheep episode end for Don Quixote?",
       "options": [
-        "The shepherds knock him down with slingstones and he loses teeth",
         "He drives the flock away successfully",
+        "The shepherds knock him down with slingstones and he loses teeth",
         "Sancho stops him in time",
         "The shepherds join his cause"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "He kills several sheep before the shepherds bring him down. He blames the enchanter afterwards.",
-      "objective": "Retell the episode with the sheep"
+      "objective": "Retell the episode with the sheep",
+      "seconds": 25
     }
   ],
   "teacher": {

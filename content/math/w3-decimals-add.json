@@ -53,11 +53,12 @@
         "text": "Which is bigger, 0.7 or 0.65?",
         "options": [
           "0.7",
-          "0.65",
-          "They're equal"
+          "They're equal",
+          "0.65"
         ],
         "answerIndex": 0,
-        "explain": "0.7 — that's seven tenths, which is 0.70. More digits doesn't mean a bigger number. Compare place by place, starting at the left."
+        "explain": "0.7 — that's seven tenths, which is 0.70. More digits doesn't mean a bigger number. Compare place by place, starting at the left.",
+        "seconds": 15
       }
     },
     {
@@ -88,7 +89,8 @@
           "16.25",
           "16.250"
         ],
-        "explain": "16.25. Write 12.5 as 12.50 first so both have two decimal places, then add straight down."
+        "explain": "16.25. Write 12.5 as 12.50 first so both have two decimal places, then add straight down.",
+        "seconds": 15
       }
     },
     {
@@ -146,7 +148,8 @@
         "accept": [
           "5.75"
         ],
-        "explain": "5.75. Writing 8.4 as 8.40 first gives you a hundredths digit to borrow from."
+        "explain": "5.75. Writing 8.4 as 8.40 first gives you a hundredths digit to borrow from.",
+        "seconds": 15
       }
     },
     {
@@ -192,7 +195,8 @@
         "accept": [
           "52.75"
         ],
-        "explain": "₱52.75. Write ₱200 as 200.00 first, then subtract. The zeros give you something to borrow from."
+        "explain": "₱52.75. Write ₱200 as 200.00 first, then subtract. The zeros give you something to borrow from.",
+        "seconds": 15
       }
     },
     {
@@ -217,7 +221,8 @@
           "Add each column as normal",
           "Bring the decimal point straight down"
         ],
-        "explain": "Align, fill, add, bring the point down. Do it in that order and the arithmetic takes care of itself."
+        "explain": "Align, fill, add, bring the point down. Do it in that order and the arithmetic takes care of itself.",
+        "seconds": 30
       }
     },
     {
@@ -272,13 +277,14 @@
       "text": "In the number 45.376, what is the digit 7 worth?",
       "options": [
         "Seven hundredths",
+        "Seven units",
         "Seven tenths",
-        "Seven thousandths",
-        "Seven units"
+        "Seven thousandths"
       ],
       "answerIndex": 0,
       "explain": "Seven hundredths. Counting right from the point: 3 is tenths, 7 is hundredths, 6 is thousandths.",
-      "objective": "Identify the place value of each digit after a decimal point"
+      "objective": "Identify the place value of each digit after a decimal point",
+      "seconds": 15
     },
     {
       "type": "type",
@@ -287,7 +293,8 @@
         "20.45"
       ],
       "explain": "20.45. Write 15.6 as 15.60 first, then add straight down with the points in line.",
-      "objective": "Add and subtract decimals by aligning the decimal points"
+      "objective": "Add and subtract decimals by aligning the decimal points",
+      "seconds": 15
     },
     {
       "type": "type",
@@ -296,40 +303,44 @@
         "5.73"
       ],
       "explain": "5.73. Write 9.2 as 9.20 so there's a hundredths digit to borrow from.",
-      "objective": "Use zeros to fill empty place values"
+      "objective": "Use zeros to fill empty place values",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Which is the largest number?",
       "options": [
         "0.8",
+        "0.6999",
         "0.75",
-        "0.109",
-        "0.6999"
+        "0.109"
       ],
       "answerIndex": 0,
       "explain": "0.8. Compare from the left: 8 tenths beats 7, 1 and 6 tenths. More digits does not mean a bigger number.",
-      "objective": "Identify the place value of each digit after a decimal point"
+      "objective": "Identify the place value of each digit after a decimal point",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "12.5 and 12.50 are the same number.",
       "answer": true,
       "explain": "True. A zero on the end of a decimal adds nothing. But 12.05 is different — a zero in the middle changes the place values.",
-      "objective": "Use zeros to fill empty place values"
+      "objective": "Use zeros to fill empty place values",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "What is the most common mistake when adding decimals?",
       "options": [
+        "Forgetting to estimate",
         "Lining the numbers up on the right edge instead of the decimal point",
-        "Adding from left to right",
         "Using too many zeros",
-        "Forgetting to estimate"
+        "Adding from left to right"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Right-aligning changes what every digit is worth. Line up the points, not the edges.",
-      "objective": "Add and subtract decimals by aligning the decimal points"
+      "objective": "Add and subtract decimals by aligning the decimal points",
+      "seconds": 25
     },
     {
       "type": "type",
@@ -339,20 +350,22 @@
         "262.4"
       ],
       "explain": "₱262.40. Write ₱500 as 500.00 first so the columns line up and you have digits to borrow from.",
-      "objective": "Solve word problems involving money and measurement"
+      "objective": "Solve word problems involving money and measurement",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "A lap takes 1:23.456. The record is 1:23.740. By how much did you beat it?",
       "options": [
-        "0.284 seconds",
-        "0.384 seconds",
         "0.716 seconds",
-        "1.284 seconds"
+        "1.284 seconds",
+        "0.384 seconds",
+        "0.284 seconds"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "0.284 seconds. 23.740 − 23.456 = 0.284. That's exactly what a split time on screen is showing you.",
-      "objective": "Solve word problems involving money and measurement"
+      "objective": "Solve word problems involving money and measurement",
+      "seconds": 20
     },
     {
       "type": "order",
@@ -364,20 +377,22 @@
         "Bring the decimal point straight down"
       ],
       "explain": "Align, fill, add, bring down. In that order the arithmetic is just whole-number addition.",
-      "objective": "Add and subtract decimals by aligning the decimal points"
+      "objective": "Add and subtract decimals by aligning the decimal points",
+      "seconds": 30
     },
     {
       "type": "multiple",
       "text": "You calculate 24.6 + 7.8 and get 103.4. What does estimating tell you?",
       "options": [
-        "It's wrong — 25 + 8 is about 33",
-        "It's right — the numbers are large",
         "Estimating can't help here",
+        "It's right — the numbers are large",
+        "It's wrong — 25 + 8 is about 33",
         "It's wrong — it should be about 300"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Rounding gives about 33, and the real answer is 32.4. An answer of 103.4 means the columns weren't aligned.",
-      "objective": "Estimate an answer to check whether a result is sensible"
+      "objective": "Estimate an answer to check whether a result is sensible",
+      "seconds": 25
     },
     {
       "type": "type",
@@ -386,14 +401,16 @@
         "1.8"
       ],
       "explain": "1.8 kg. Rounding to whole kilos would have hidden the problem entirely — this is why precision matters.",
-      "objective": "Solve word problems involving money and measurement"
+      "objective": "Solve word problems involving money and measurement",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "When subtracting 7.5 − 2.38, you should first write 7.5 as 7.50.",
       "answer": true,
       "explain": "True. Without the zero there's no hundredths digit to take the 8 from. The answer is 5.12.",
-      "objective": "Use zeros to fill empty place values"
+      "objective": "Use zeros to fill empty place values",
+      "seconds": 12
     }
   ],
   "teacher": {

@@ -39,13 +39,14 @@
         "type": "multiple",
         "text": "What are the two greatest commandments?",
         "options": [
+          "Pray daily, and read the Bible",
           "Love God, and love your neighbour as yourself",
           "Do not steal, and do not lie",
-          "Pray daily, and read the Bible",
           "Honour your parents, and tell the truth"
         ],
-        "answerIndex": 0,
-        "explain": "Matthew 22:37-39. Jesus says everything else in the law hangs on those two."
+        "answerIndex": 1,
+        "explain": "Matthew 22:37-39. Jesus says everything else in the law hangs on those two.",
+        "seconds": 25
       }
     },
     {
@@ -81,12 +82,13 @@
         "text": "Which of these does 1 Corinthians 13 say about love?",
         "options": [
           "It keeps no record of wrongs",
+          "It only applies to family",
           "It is always easy",
-          "It never disagrees",
-          "It only applies to family"
+          "It never disagrees"
         ],
         "answerIndex": 0,
-        "explain": "It is a list of behaviours: patient, kind, not envious, not proud, keeping no record of wrongs."
+        "explain": "It is a list of behaviours: patient, kind, not envious, not proud, keeping no record of wrongs.",
+        "seconds": 20
       }
     },
     {
@@ -133,13 +135,14 @@
         "type": "multiple",
         "text": "What makes the command in John 13:34 new?",
         "options": [
-          "The measure changes from \"as yourself\" to \"as I have loved you\"",
-          "It is the first time love is mentioned",
           "It only applies to disciples",
+          "It is the first time love is mentioned",
+          "The measure changes from \"as yourself\" to \"as I have loved you\"",
           "It replaces the greatest commandment"
         ],
-        "answerIndex": 0,
-        "explain": "Loving your neighbour was already in the law. The standard is what changes."
+        "answerIndex": 2,
+        "explain": "Loving your neighbour was already in the law. The standard is what changes.",
+        "seconds": 25
       }
     },
     {
@@ -174,19 +177,38 @@
         "type": "truefalse",
         "text": "1 Corinthians 13 describes love mainly as a feeling.",
         "answer": false,
-        "explain": "False. Every item on the list is a behaviour, which is exactly what makes it checkable."
+        "explain": "False. Every item on the list is a behaviour, which is exactly what makes it checkable.",
+        "seconds": 12
       }
     },
     {
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "Matthew 22:37-39", "def": "Love God with all your heart, soul and mind; love your neighbour as yourself." },
-        { "term": "1 Corinthians 13", "def": "The chapter defining love as a list of behaviours: patient, kind, not proud." },
-        { "term": "John 13:34-35", "def": "The new command: love one another as I have loved you." },
-        { "term": "\"as yourself\"", "def": "The older measure of loving a neighbour, from the law." },
-        { "term": "\"as I have loved you\"", "def": "The new measure. An example to copy rather than a rule to interpret." },
-        { "term": "keeps no record of wrongs", "def": "One item from 1 Corinthians 13, and the most testable one." }
+        {
+          "term": "Matthew 22:37-39",
+          "def": "Love God with all your heart, soul and mind; love your neighbour as yourself."
+        },
+        {
+          "term": "1 Corinthians 13",
+          "def": "The chapter defining love as a list of behaviours: patient, kind, not proud."
+        },
+        {
+          "term": "John 13:34-35",
+          "def": "The new command: love one another as I have loved you."
+        },
+        {
+          "term": "\"as yourself\"",
+          "def": "The older measure of loving a neighbour, from the law."
+        },
+        {
+          "term": "\"as I have loved you\"",
+          "def": "The new measure. An example to copy rather than a rule to interpret."
+        },
+        {
+          "term": "keeps no record of wrongs",
+          "def": "One item from 1 Corinthians 13, and the most testable one."
+        }
       ]
     },
     {
@@ -206,73 +228,79 @@
       "type": "multiple",
       "text": "What are the two greatest commandments, according to Matthew 22?",
       "options": [
-        "Love God with everything, and love your neighbour as yourself",
         "Do not steal, and do not lie",
+        "Pray daily, and give to the poor",
         "Keep the Sabbath, and honour your parents",
-        "Pray daily, and give to the poor"
+        "Love God with everything, and love your neighbour as yourself"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Matthew 22:37-39, and Jesus adds that everything else hangs on those two.",
-      "objective": "State the greatest commandment from Matthew 22:37-39"
+      "objective": "State the greatest commandment from Matthew 22:37-39",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "What measure does Matthew 22:39 give for loving a neighbour?",
       "options": [
-        "As yourself",
-        "As much as you can",
+        "As your family",
         "More than yourself",
-        "As your family"
+        "As much as you can",
+        "As yourself"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "As yourself. John 13 later raises that standard to 'as I have loved you'.",
-      "objective": "State the greatest commandment from Matthew 22:37-39"
+      "objective": "State the greatest commandment from Matthew 22:37-39",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Which of these does 1 Corinthians 13 say love is?",
       "options": [
         "Patient and kind",
-        "Always easy",
         "Never disappointed",
-        "Only for friends"
+        "Only for friends",
+        "Always easy"
       ],
       "answerIndex": 0,
       "explain": "Patient and kind are the first two words of the list, and both are things you do.",
-      "objective": "List what 1 Corinthians 13 says love is and is not"
+      "objective": "List what 1 Corinthians 13 says love is and is not",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Which of these does 1 Corinthians 13 say love does NOT do?",
       "options": [
+        "Hope for good things",
         "Keep a record of wrongs",
         "Wait for people",
-        "Tell the truth",
-        "Hope for good things"
+        "Tell the truth"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "It keeps no record of wrongs. That is the most checkable item on the whole list.",
-      "objective": "List what 1 Corinthians 13 says love is and is not"
+      "objective": "List what 1 Corinthians 13 says love is and is not",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "1 Corinthians 13 describes love mostly as a feeling.",
       "answer": false,
       "explain": "False. Every item is a behaviour, which is what makes the chapter usable rather than decorative.",
-      "objective": "Explain why love is described in verbs rather than feelings"
+      "objective": "Explain why love is described in verbs rather than feelings",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Why does it matter that the chapter is written in verbs?",
       "options": [
+        "It was the style of the time",
         "A behaviour can be checked against a real day; a feeling cannot",
-        "Verbs are easier to memorise",
         "It makes the passage shorter",
-        "It was the style of the time"
+        "Verbs are easier to memorise"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "You can ask whether you were patient today. You cannot audit a feeling the same way.",
-      "objective": "Explain why love is described in verbs rather than feelings"
+      "objective": "Explain why love is described in verbs rather than feelings",
+      "seconds": 25
     },
     {
       "type": "multiple",
@@ -280,71 +308,77 @@
       "options": [
         "A church that was arguing",
         "A couple getting married",
-        "A group of soldiers",
-        "A single family"
+        "A single family",
+        "A group of soldiers"
       ],
       "answerIndex": 0,
       "explain": "It is read at weddings, but it was addressed to a divided church. That is why it is so practical.",
-      "objective": "List what 1 Corinthians 13 says love is and is not"
+      "objective": "List what 1 Corinthians 13 says love is and is not",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What is the new command in John 13:34?",
       "options": [
-        "Love one another as I have loved you",
-        "Love only those who love you",
+        "Love God above all",
         "Love your enemies",
-        "Love God above all"
+        "Love one another as I have loved you",
+        "Love only those who love you"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "The command was already there. The measure is what changes.",
-      "objective": "Explain the new command in John 13:34-35"
+      "objective": "Explain the new command in John 13:34-35",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Why is it called a NEW command if loving your neighbour was already in the law?",
       "options": [
+        "It cancels the older command",
         "The standard changes from \"as yourself\" to \"as I have loved you\"",
-        "It was written in a different language",
         "It applies to a different group of people",
-        "It cancels the older command"
+        "It was written in a different language"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "A rule you interpret is replaced by an example you can copy. That is the change.",
-      "objective": "Explain the new command in John 13:34-35"
+      "objective": "Explain the new command in John 13:34-35",
+      "seconds": 30
     },
     {
       "type": "multiple",
       "text": "According to John 13:35, what will people recognise disciples by?",
       "options": [
         "How they love one another",
+        "Where they worship",
         "What they say they believe",
-        "How often they pray",
-        "Where they worship"
+        "How often they pray"
       ],
       "answerIndex": 0,
       "explain": "By the behaviour, not the statement. That is consistent with the whole lesson.",
-      "objective": "Explain the new command in John 13:34-35"
+      "objective": "Explain the new command in John 13:34-35",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Which is the most useful way to apply 1 Corinthians 13?",
       "options": [
-        "Take one item and check it honestly against today",
-        "Memorise the whole chapter",
+        "Agree that it is a good passage",
         "Read it once a year",
-        "Agree that it is a good passage"
+        "Take one item and check it honestly against today",
+        "Memorise the whole chapter"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "One item honestly beats all fifteen vaguely. The chapter is a checklist, not a poem.",
-      "objective": "Apply one of the descriptions to a real situation"
+      "objective": "Apply one of the descriptions to a real situation",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "\"Patient\" is the first word on the 1 Corinthians 13 list.",
       "answer": true,
       "explain": "True, and it is the item tested by ordinary annoying things rather than by big events.",
-      "objective": "Apply one of the descriptions to a real situation"
+      "objective": "Apply one of the descriptions to a real situation",
+      "seconds": 12
     }
   ],
   "teacher": {

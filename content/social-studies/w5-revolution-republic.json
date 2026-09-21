@@ -56,12 +56,13 @@
         "text": "What did the Reform Movement actually ask Spain for?",
         "options": [
           "Equal rights and representation as a province of Spain",
-          "Immediate independence",
+          "The return of the Spanish friars",
           "A Filipino king",
-          "The return of the Spanish friars"
+          "Immediate independence"
         ],
         "answerIndex": 0,
-        "explain": "Rights inside the empire, not separation from it. That is exactly what makes it reform and not revolution."
+        "explain": "Rights inside the empire, not separation from it. That is exactly what makes it reform and not revolution.",
+        "seconds": 20
       }
     },
     {
@@ -110,11 +111,12 @@
         "options": [
           "It wanted full independence, won by armed revolution",
           "It wanted Filipino seats in the Spanish parliament",
-          "It wanted the friars replaced by Filipino priests",
-          "It wanted free schools in every province"
+          "It wanted free schools in every province",
+          "It wanted the friars replaced by Filipino priests"
         ],
         "answerIndex": 0,
-        "explain": "Independence, by force. The reformers wanted rights inside Spain. That is the whole difference."
+        "explain": "Independence, by force. The reformers wanted rights inside Spain. That is the whole difference.",
+        "seconds": 25
       }
     },
     {
@@ -156,13 +158,14 @@
         "type": "multiple",
         "text": "What did the Katipuneros tear up at the Cry of Pugad Lawin?",
         "options": [
-          "Their cedulas, the Spanish tax certificates",
           "Their Katipunan membership cards",
           "Spanish flags",
-          "Copies of La Solidaridad"
+          "Copies of La Solidaridad",
+          "Their cedulas, the Spanish tax certificates"
         ],
-        "answerIndex": 0,
-        "explain": "The cedula proved you were a Spanish subject who paid tribute. Tearing it was the refusal, made visible."
+        "answerIndex": 3,
+        "explain": "The cedula proved you were a Spanish subject who paid tribute. Tearing it was the refusal, made visible.",
+        "seconds": 20
       }
     },
     {
@@ -207,13 +210,14 @@
         "type": "multiple",
         "text": "What happened to Andres Bonifacio after the Tejeros Convention?",
         "options": [
-          "He was arrested by fellow revolutionaries and executed",
           "He was captured and executed by the Spanish",
-          "He was exiled to Hong Kong",
-          "He became vice-president under Aguinaldo"
+          "He was arrested by fellow revolutionaries and executed",
+          "He became vice-president under Aguinaldo",
+          "He was exiled to Hong Kong"
         ],
-        "answerIndex": 0,
-        "explain": "By his own side, in May 1897. The revolution turned on its founder before Spain ever caught him."
+        "answerIndex": 1,
+        "explain": "By his own side, in May 1897. The revolution turned on its founder before Spain ever caught him.",
+        "seconds": 25
       }
     },
     {
@@ -253,13 +257,14 @@
         "type": "multiple",
         "text": "What do the eight rays of the sun on the flag stand for?",
         "options": [
-          "The eight provinces placed under martial law in 1896",
           "The eight founders of the Katipunan",
-          "Eight years of revolution",
-          "The eight largest islands"
+          "The eight largest islands",
+          "The eight provinces placed under martial law in 1896",
+          "Eight years of revolution"
         ],
-        "answerIndex": 0,
-        "explain": "The eight provinces that rose first, including Manila, Cavite and Bulacan. The three stars are the island groups."
+        "answerIndex": 2,
+        "explain": "The eight provinces that rose first, including Manila, Cavite and Bulacan. The three stars are the island groups.",
+        "seconds": 25
       }
     },
     {
@@ -294,23 +299,54 @@
         "type": "truefalse",
         "text": "Filipino representatives took part in the Treaty of Paris that handed the islands to the United States.",
         "answer": false,
-        "explain": "False. Spain and the United States negotiated it alone. No Filipino was present or consulted."
+        "explain": "False. Spain and the United States negotiated it alone. No Filipino was present or consulted.",
+        "seconds": 15
       }
     },
     {
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "Reform Movement", "def": "The campaign by educated Filipinos for rights within Spain, roughly 1872-1892." },
-        { "term": "La Solidaridad", "def": "The reformers' newspaper, published from 1889, mostly in Spain." },
-        { "term": "La Liga Filipina", "def": "Rizal's peaceful civic group, founded 3 July 1892. He was arrested days later." },
-        { "term": "Katipunan", "def": "The secret society founded 7 July 1892 that aimed at independence by revolution." },
-        { "term": "Kartilya", "def": "The Katipunan's code of conduct, written by Emilio Jacinto." },
-        { "term": "cedula", "def": "The tax certificate every Filipino had to carry. Tearing it up was an act of revolt." },
-        { "term": "Cry of Pugad Lawin", "def": "August 1896. The Katipuneros tore their cedulas and the revolution began." },
-        { "term": "Tejeros Convention", "def": "March 1897. Aguinaldo was elected president and Bonifacio walked out." },
-        { "term": "Malolos Republic", "def": "The First Philippine Republic, inaugurated 23 January 1899 at Barasoain Church." },
-        { "term": "Treaty of Paris", "def": "December 1898. Spain sold the Philippines to the United States for $20 million." }
+        {
+          "term": "Reform Movement",
+          "def": "The campaign by educated Filipinos for rights within Spain, roughly 1872-1892."
+        },
+        {
+          "term": "La Solidaridad",
+          "def": "The reformers' newspaper, published from 1889, mostly in Spain."
+        },
+        {
+          "term": "La Liga Filipina",
+          "def": "Rizal's peaceful civic group, founded 3 July 1892. He was arrested days later."
+        },
+        {
+          "term": "Katipunan",
+          "def": "The secret society founded 7 July 1892 that aimed at independence by revolution."
+        },
+        {
+          "term": "Kartilya",
+          "def": "The Katipunan's code of conduct, written by Emilio Jacinto."
+        },
+        {
+          "term": "cedula",
+          "def": "The tax certificate every Filipino had to carry. Tearing it up was an act of revolt."
+        },
+        {
+          "term": "Cry of Pugad Lawin",
+          "def": "August 1896. The Katipuneros tore their cedulas and the revolution began."
+        },
+        {
+          "term": "Tejeros Convention",
+          "def": "March 1897. Aguinaldo was elected president and Bonifacio walked out."
+        },
+        {
+          "term": "Malolos Republic",
+          "def": "The First Philippine Republic, inaugurated 23 January 1899 at Barasoain Church."
+        },
+        {
+          "term": "Treaty of Paris",
+          "def": "December 1898. Spain sold the Philippines to the United States for $20 million."
+        }
       ]
     },
     {
@@ -330,27 +366,29 @@
       "type": "multiple",
       "text": "What did the Reform Movement want?",
       "options": [
-        "Equal rights and representation as a province of Spain",
         "An armed revolution against Spain",
         "A separate Filipino monarchy",
+        "Equal rights and representation as a province of Spain",
         "More power for the Spanish friars"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Rights inside the empire. They campaigned by writing, mostly from Spain, for about twenty years.",
-      "objective": "Explain what the Reform Movement wanted and why it failed"
+      "objective": "Explain what the Reform Movement wanted and why it failed",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What convinced many Filipinos that peaceful reform had failed?",
       "options": [
-        "Rizal was arrested days after founding a peaceful group",
-        "La Solidaridad ran out of money",
         "Spain granted every reform at once",
-        "The friars left the country"
+        "Rizal was arrested days after founding a peaceful group",
+        "The friars left the country",
+        "La Solidaridad ran out of money"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "La Liga Filipina was founded on 3 July 1892. Rizal was arrested on 6 July and exiled.",
-      "objective": "Explain what the Reform Movement wanted and why it failed"
+      "objective": "Explain what the Reform Movement wanted and why it failed",
+      "seconds": 25
     },
     {
       "type": "type",
@@ -361,7 +399,8 @@
         "kkk"
       ],
       "explain": "The Katipunan. It was founded the night after news of Rizal's arrest, and aimed at independence.",
-      "objective": "Describe the founding, aims and structure of the Katipunan"
+      "objective": "Describe the founding, aims and structure of the Katipunan",
+      "seconds": 20
     },
     {
       "type": "multiple",
@@ -374,20 +413,22 @@
       ],
       "answerIndex": 0,
       "explain": "Emilio Jacinto, often called the brains of the Katipunan. Bonifacio was its Supremo.",
-      "objective": "Describe the founding, aims and structure of the Katipunan"
+      "objective": "Describe the founding, aims and structure of the Katipunan",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What did tearing the cedula mean?",
       "options": [
-        "Refusing to be a Spanish subject any longer",
         "Refusing to join the Katipunan",
         "Giving up your land",
-        "Swearing loyalty to Rizal"
+        "Swearing loyalty to Rizal",
+        "Refusing to be a Spanish subject any longer"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "The cedula was proof you were a Spanish subject who paid tribute. Tearing it was the refusal made visible.",
-      "objective": "Describe the Cry of Pugad Lawin and the outbreak of the revolution"
+      "objective": "Describe the Cry of Pugad Lawin and the outbreak of the revolution",
+      "seconds": 20
     },
     {
       "type": "multiple",
@@ -400,60 +441,66 @@
       ],
       "answerIndex": 0,
       "explain": "Aguinaldo won the presidency. Bonifacio rejected the result and was executed weeks later.",
-      "objective": "Explain the split between Bonifacio and Aguinaldo at Tejeros"
+      "objective": "Explain the split between Bonifacio and Aguinaldo at Tejeros",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Andres Bonifacio was executed by Spanish soldiers.",
       "answer": false,
       "explain": "False. He was tried and executed by fellow revolutionaries in May 1897, after the split at Tejeros.",
-      "objective": "Explain the split between Bonifacio and Aguinaldo at Tejeros"
+      "objective": "Explain the split between Bonifacio and Aguinaldo at Tejeros",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "What happened at Kawit, Cavite on 12 June 1898?",
       "options": [
+        "Spain surrendered to Aguinaldo",
         "Philippine independence was declared and the flag first flown",
-        "The Katipunan was founded",
         "The Malolos Constitution was signed",
-        "Spain surrendered to Aguinaldo"
+        "The Katipunan was founded"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Aguinaldo declared independence from a window of his house. The flag and the national march were used first that day.",
-      "objective": "Describe the declaration of independence at Kawit on 12 June 1898"
+      "objective": "Describe the declaration of independence at Kawit on 12 June 1898",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What do the three stars on the Philippine flag stand for?",
       "options": [
-        "Luzon, the Visayas and Mindanao",
-        "The three founders of the Katipunan",
         "The three priests of GomBurZa",
-        "Three years of revolution"
+        "The three founders of the Katipunan",
+        "Three years of revolution",
+        "Luzon, the Visayas and Mindanao"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "The three main island groups. The eight rays are the eight provinces that rose in 1896.",
-      "objective": "Read the symbols on the Philippine flag"
+      "objective": "Read the symbols on the Philippine flag",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "The Philippine flag is flown with the red band on top when the country is at war.",
       "answer": true,
       "explain": "True. Blue on top in peacetime, red on top in war. Very few national flags carry two meanings.",
-      "objective": "Read the symbols on the Philippine flag"
+      "objective": "Read the symbols on the Philippine flag",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What did the Treaty of Paris of December 1898 do?",
       "options": [
-        "Spain handed the Philippines to the United States for $20 million",
+        "The Katipunan was formally dissolved",
         "Spain recognised Philippine independence",
-        "The United States promised immediate independence",
-        "The Katipunan was formally dissolved"
+        "Spain handed the Philippines to the United States for $20 million",
+        "The United States promised immediate independence"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Spain sold a colony it had already lost, and no Filipino was at the negotiating table.",
-      "objective": "Explain what the Malolos Republic was and why the Treaty of Paris undid it"
+      "objective": "Explain what the Malolos Republic was and why the Treaty of Paris undid it",
+      "seconds": 25
     },
     {
       "type": "order",
@@ -465,7 +512,8 @@
         "The First Philippine Republic is inaugurated"
       ],
       "explain": "1892, then 1896, then June 1898, then January 1899. Seven years from a secret meeting to a republic.",
-      "objective": "Explain what the Malolos Republic was and why the Treaty of Paris undid it"
+      "objective": "Explain what the Malolos Republic was and why the Treaty of Paris undid it",
+      "seconds": 30
     }
   ],
   "teacher": {

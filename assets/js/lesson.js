@@ -99,9 +99,9 @@ async function main() {
         quizGate.classList.add('hidden');
         quizHost.classList.remove('hidden');
         runQuiz(quizHost, lesson.quiz, {
-            onFinish: ({ correct, total, xp }) => {
+            onFinish: ({ correct, total, xp, spent, budget }) => {
                 const before = levelFor(getProgress().xp).level;
-                const after = recordQuiz(lesson.id, correct, total, xp);
+                const after = recordQuiz(lesson.id, correct, total, xp, { spent, budget });
                 const now = levelFor(after.xp);
                 if (now.level > before) {
                     const note = document.createElement('div');

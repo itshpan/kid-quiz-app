@@ -46,13 +46,14 @@
         "type": "multiple",
         "text": "What does a performance assessment measure that a written test does not?",
         "options": [
-          "Whether you can actually do the thing",
-          "How fast you write",
           "How much you remember",
-          "How neat your work is"
+          "Whether you can actually do the thing",
+          "How neat your work is",
+          "How fast you write"
         ],
-        "answerIndex": 0,
-        "explain": "Knowing the five components of fitness and demonstrating one are different skills. This week tests the second."
+        "answerIndex": 1,
+        "explain": "Knowing the five components of fitness and demonstrating one are different skills. This week tests the second.",
+        "seconds": 25
       }
     },
     {
@@ -87,7 +88,8 @@
         "type": "truefalse",
         "text": "Performing a skill slowly but correctly usually scores better than rushing it.",
         "answer": true,
-        "explain": "Technique is what is being marked. Speed without control shows less, not more."
+        "explain": "Technique is what is being marked. Speed without control shows less, not more.",
+        "seconds": 12
       }
     },
     {
@@ -148,11 +150,12 @@
         "options": [
           "Full run-throughs without stopping for mistakes",
           "Repeating only the difficult section",
-          "Reading through it in your head",
-          "Watching someone else do it"
+          "Watching someone else do it",
+          "Reading through it in your head"
         ],
         "answerIndex": 0,
-        "explain": "Stopping at every slip trains you to stop. On the day you have to carry on."
+        "explain": "Stopping at every slip trains you to stop. On the day you have to carry on.",
+        "seconds": 25
       }
     },
     {
@@ -175,7 +178,8 @@
         "type": "truefalse",
         "text": "Feeling nervous before performing means you are not ready.",
         "answer": false,
-        "explain": "The signals are your body preparing. They arrive before things you want as well as things you fear."
+        "explain": "The signals are your body preparing. They arrive before things you want as well as things you fear.",
+        "seconds": 12
       }
     },
     {
@@ -195,55 +199,65 @@
       "type": "multiple",
       "text": "What is the difference between dynamics and tempo?",
       "options": [
-        "Dynamics is loud and soft; tempo is the speed",
         "They are the same thing",
         "Dynamics is the speed; tempo is loud and soft",
-        "Both describe pitch"
+        "Both describe pitch",
+        "Dynamics is loud and soft; tempo is the speed"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Week 1. Both are elements of music, and the exam swaps them regularly.",
-      "objective": "Recall the ten MAPEH topics of the term"
+      "objective": "Recall the ten MAPEH topics of the term",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "What is self space?",
       "options": [
+        "The whole playing area",
         "Everything within reach from where you stand, and it travels with you",
         "A fixed spot marked on the floor",
-        "The whole playing area",
         "The space behind you only"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Week 1. General space is the whole area you can travel through.",
-      "objective": "Recall the ten MAPEH topics of the term"
+      "objective": "Recall the ten MAPEH topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What decides a music genre?",
       "options": [
-        "Shared rhythm, instruments, place and time",
-        "Who is singing it",
         "The record company",
-        "The language of the lyrics"
+        "Who is singing it",
+        "The language of the lyrics",
+        "Shared rhythm, instruments, place and time"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Week 2. Most genres grew in a place first and were labelled afterwards.",
-      "objective": "Recall the ten MAPEH topics of the term"
+      "objective": "Recall the ten MAPEH topics of the term",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "OPM is a single music genre.",
       "answer": false,
       "explain": "Week 3. It is a statement about who made the music. OPM includes rock, rap, ballads and folk.",
-      "objective": "Recall the ten MAPEH topics of the term"
+      "objective": "Recall the ten MAPEH topics of the term",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Which instrument ensemble came to the Philippines through Spanish influence?",
-      "options": ["The rondalla", "The kulintang", "Neither", "Both"],
+      "options": [
+        "The rondalla",
+        "Neither",
+        "The kulintang",
+        "Both"
+      ],
       "answerIndex": 0,
       "explain": "Week 3. The kulintang is indigenous; the rondalla arrived with Spanish contact.",
-      "objective": "Recall the ten MAPEH topics of the term"
+      "objective": "Recall the ten MAPEH topics of the term",
+      "seconds": 15
     },
     {
       "type": "multiple",
@@ -256,192 +270,236 @@
       ],
       "answerIndex": 0,
       "explain": "Week 4. A square against a cube. Both are elements of art.",
-      "objective": "Recall the ten MAPEH topics of the term"
+      "objective": "Recall the ten MAPEH topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Which of these is a principle of design rather than an element of art?",
-      "options": ["Balance", "Line", "Colour", "Texture"],
-      "answerIndex": 0,
+      "options": [
+        "Texture",
+        "Balance",
+        "Line",
+        "Colour"
+      ],
+      "answerIndex": 1,
       "explain": "Week 4. Elements are what is in the picture. Principles are how they are arranged.",
-      "objective": "Recall the ten MAPEH topics of the term"
+      "objective": "Recall the ten MAPEH topics of the term",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Who painted the Spoliarium?",
       "options": [
-        "Juan Luna",
+        "Felix Resurreccion Hidalgo",
         "Fernando Amorsolo",
-        "Victorio Edades",
-        "Felix Resurreccion Hidalgo"
+        "Juan Luna",
+        "Victorio Edades"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Week 5. Amorsolo painted sunlit rural scenes. Luna's Spoliarium shows a Roman arena.",
-      "objective": "Recall the ten MAPEH topics of the term"
+      "objective": "Recall the ten MAPEH topics of the term",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "Victorio Edades was admired immediately for his modern work.",
       "answer": false,
       "explain": "Week 5. His 1928 exhibition was widely disliked. The title came much later.",
-      "objective": "Recall the ten MAPEH topics of the term"
+      "objective": "Recall the ten MAPEH topics of the term",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Which set is the primary colours in paint?",
       "options": [
-        "Red, yellow, blue",
-        "Red, green, blue",
         "Orange, green, violet",
-        "Black, white, grey"
+        "Black, white, grey",
+        "Red, green, blue",
+        "Red, yellow, blue"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Week 6. Red, green and blue is light on a screen, not pigment.",
-      "objective": "Recall the ten MAPEH topics of the term"
+      "objective": "Recall the ten MAPEH topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What do the eight rays on the Philippine flag stand for?",
       "options": [
         "The first eight provinces to revolt",
-        "Eight national heroes",
         "Eight island groups",
+        "Eight national heroes",
         "Eight years of revolution"
       ],
       "answerIndex": 0,
       "explain": "Week 6. The three stars are Luzon, the Visayas and Mindanao.",
-      "objective": "Recall the ten MAPEH topics of the term"
+      "objective": "Recall the ten MAPEH topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Volleyball belongs to which category of game?",
-      "options": ["Net or wall", "Invasion", "Target", "Striking and fielding"],
-      "answerIndex": 0,
+      "options": [
+        "Target",
+        "Striking and fielding",
+        "Net or wall",
+        "Invasion"
+      ],
+      "answerIndex": 2,
       "explain": "Week 7. A barrier separates the two sides, which changes every tactic.",
-      "objective": "Recall the ten MAPEH topics of the term"
+      "objective": "Recall the ten MAPEH topics of the term",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What is the national martial art and sport of the Philippines?",
-      "options": ["Arnis", "Basketball", "Boxing", "Sepak takraw"],
+      "options": [
+        "Arnis",
+        "Boxing",
+        "Basketball",
+        "Sepak takraw"
+      ],
       "answerIndex": 0,
       "explain": "Week 7. Basketball is far more popular, but arnis holds the official status.",
-      "objective": "Recall the ten MAPEH topics of the term"
+      "objective": "Recall the ten MAPEH topics of the term",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Which is a manipulative movement skill?",
-      "options": ["Catching", "Skipping", "Twisting", "Balancing"],
-      "answerIndex": 0,
+      "options": [
+        "Balancing",
+        "Catching",
+        "Twisting",
+        "Skipping"
+      ],
+      "answerIndex": 1,
       "explain": "Week 7. Manipulative skills involve handling an object.",
-      "objective": "Recall the ten MAPEH topics of the term"
+      "objective": "Recall the ten MAPEH topics of the term",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "Thirst is an early warning that you need water.",
       "answer": false,
       "explain": "Week 8. Reaction time and endurance drop before thirst arrives.",
-      "objective": "Recall the ten MAPEH topics of the term"
+      "objective": "Recall the ten MAPEH topics of the term",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Which are 'grow' foods?",
       "options": [
         "Fish, meat, eggs and beans",
-        "Rice, bread and root crops",
         "Fruit and vegetables",
+        "Rice, bread and root crops",
         "Oil and butter"
       ],
       "answerIndex": 0,
       "explain": "Week 8. Go foods give energy and glow foods protect.",
-      "objective": "Recall the ten MAPEH topics of the term"
+      "objective": "Recall the ten MAPEH topics of the term",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Which is a health-related component of fitness?",
-      "options": ["Flexibility", "Agility", "Reaction time", "Coordination"],
-      "answerIndex": 0,
+      "options": [
+        "Coordination",
+        "Reaction time",
+        "Agility",
+        "Flexibility"
+      ],
+      "answerIndex": 3,
       "explain": "Week 9. The other three are skill-related. The exam tests exactly this boundary.",
-      "objective": "Recall the ten MAPEH topics of the term"
+      "objective": "Recall the ten MAPEH topics of the term",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What does FITT stand for?",
       "options": [
-        "Frequency, Intensity, Time, Type",
-        "Fitness, Injury, Training, Test",
+        "Focus, Impact, Timing, Technique",
         "Form, Interval, Tempo, Target",
-        "Focus, Impact, Timing, Technique"
+        "Frequency, Intensity, Time, Type",
+        "Fitness, Injury, Training, Test"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Week 9. Four dials on the same machine, and you change one at a time.",
-      "objective": "Recall the ten MAPEH topics of the term"
+      "objective": "Recall the ten MAPEH topics of the term",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "The body adapts and gets stronger during the training session itself.",
       "answer": false,
       "explain": "Week 9. The session is the stress. The adaptation is built afterwards, during rest.",
-      "objective": "Recall the ten MAPEH topics of the term"
+      "objective": "Recall the ten MAPEH topics of the term",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "What causes body odour?",
       "options": [
-        "Bacteria feeding on sweat from apocrine glands",
         "Sweat, which has a strong smell of its own",
+        "Bacteria feeding on sweat from apocrine glands",
         "Drinking too little water",
         "Wearing cotton"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Week 10. Fresh sweat is nearly odourless. Apocrine glands switch on at puberty.",
-      "objective": "Recall the ten MAPEH topics of the term"
+      "objective": "Recall the ten MAPEH topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Why does acne become common at puberty?",
       "options": [
+        "Skin gets thinner",
         "Hormones increase the skin's oil production",
         "Teenagers wash less",
-        "Skin gets thinner",
         "It comes from eating chocolate"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Week 10. Scrubbing harder irritates the skin and makes it worse.",
-      "objective": "Recall the ten MAPEH topics of the term"
+      "objective": "Recall the ten MAPEH topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What gets marked in a performance assessment?",
       "options": [
-        "Preparation, technique, expression and presentation",
         "Natural talent only",
         "How long the performance lasts",
+        "Preparation, technique, expression and presentation",
         "How many people watch"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Preparation is a mark you can secure entirely in advance.",
-      "objective": "Self-mark against a rubric before the day"
+      "objective": "Self-mark against a rubric before the day",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What is the best way to rehearse close to the day?",
       "options": [
-        "Full run-throughs without stopping",
-        "Repeating the hardest section only",
         "Reading it through silently",
-        "Watching a recording of someone else"
+        "Watching a recording of someone else",
+        "Full run-throughs without stopping",
+        "Repeating the hardest section only"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Stopping at every mistake trains you to stop. Recovery is what is being marked.",
-      "objective": "Rehearse in the conditions you will perform in"
+      "objective": "Rehearse in the conditions you will perform in",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Warming up before a physical demonstration changes what your body can do.",
       "answer": true,
       "explain": "Cold muscles move worse and cold voices crack. Five minutes genuinely changes the result.",
-      "objective": "Rehearse in the conditions you will perform in"
+      "objective": "Rehearse in the conditions you will perform in",
+      "seconds": 12
     }
   ],
   "teacher": {

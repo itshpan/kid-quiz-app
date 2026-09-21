@@ -52,7 +52,8 @@
           "watch"
         ],
         "answerIndex": 0,
-        "explain": "Verbs ending in -ch take -es, because -s alone would be unsayable."
+        "explain": "Verbs ending in -ch take -es, because -s alone would be unsayable.",
+        "seconds": 15
       }
     },
     {
@@ -77,7 +78,8 @@
           "he studies",
           "she studies"
         ],
-        "explain": "Consonant before the y, so the y becomes i and -es is added: studies."
+        "explain": "Consonant before the y, so the y becomes i and -es is added: studies.",
+        "seconds": 15
       }
     },
     {
@@ -124,13 +126,14 @@
         "type": "multiple",
         "text": "\"The train leaves at 7:15.\" Which use is this?",
         "options": [
-          "A timetable or schedule",
           "A habit",
-          "A general truth",
-          "Commentary"
+          "A timetable or schedule",
+          "Commentary",
+          "A general truth"
         ],
-        "answerIndex": 0,
-        "explain": "A fixed schedule. English uses the simple present for these even though the event is in the future."
+        "answerIndex": 1,
+        "explain": "A fixed schedule. English uses the simple present for these even though the event is in the future.",
+        "seconds": 15
       }
     },
     {
@@ -179,13 +182,14 @@
         "type": "multiple",
         "text": "Which sentence is correct?",
         "options": [
-          "She doesn't like coffee",
-          "She doesn't likes coffee",
           "She don't likes coffee",
-          "She not like coffee"
+          "She not like coffee",
+          "She doesn't likes coffee",
+          "She doesn't like coffee"
         ],
-        "answerIndex": 0,
-        "explain": "Does carries the -s, so like goes back to its plain form. Only one word takes the ending."
+        "answerIndex": 3,
+        "explain": "Does carries the -s, so like goes back to its plain form. Only one word takes the ending.",
+        "seconds": 15
       }
     },
     {
@@ -225,13 +229,14 @@
         "type": "multiple",
         "text": "What does Don Quixote believe the monks are doing?",
         "options": [
-          "Carrying off a princess by force",
           "Robbing the coach",
-          "Guarding a treasure",
-          "Racing him to the next town"
+          "Racing him to the next town",
+          "Carrying off a princess by force",
+          "Guarding a treasure"
         ],
-        "answerIndex": 0,
-        "explain": "He decides they are enchanters abducting a princess. They are two travellers on mules."
+        "answerIndex": 2,
+        "explain": "He decides they are enchanters abducting a princess. They are two travellers on mules.",
+        "seconds": 20
       }
     },
     {
@@ -281,14 +286,15 @@
       "type": "multiple",
       "text": "Which form is correct?",
       "options": [
-        "She goes to school by bus",
         "She go to school by bus",
         "She gos to school by bus",
-        "She going to school by bus"
+        "She going to school by bus",
+        "She goes to school by bus"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Go ends in -o, so it takes -es. She, he and it are the only forms that change.",
-      "objective": "Form the simple present tense, including the third person singular"
+      "objective": "Form the simple present tense, including the third person singular",
+      "seconds": 20
     },
     {
       "type": "type",
@@ -299,33 +305,36 @@
         "she fixes"
       ],
       "explain": "Verbs ending in -x take -es. Fixes.",
-      "objective": "Apply the spelling rules for adding -s or -es"
+      "objective": "Apply the spelling rules for adding -s or -es",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What is the third person singular of \"carry\"?",
       "options": [
+        "carryes",
         "carries",
         "carrys",
-        "carryes",
         "carry"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "There is a consonant before the y, so the y becomes i and -es is added.",
-      "objective": "Apply the spelling rules for adding -s or -es"
+      "objective": "Apply the spelling rules for adding -s or -es",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What is the third person singular of \"enjoy\"?",
       "options": [
+        "enjoy",
         "enjoys",
         "enjoies",
-        "enjoyes",
-        "enjoy"
+        "enjoyes"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "There is a vowel before the y, so the y stays and you just add -s.",
-      "objective": "Apply the spelling rules for adding -s or -es"
+      "objective": "Apply the spelling rules for adding -s or -es",
+      "seconds": 15
     },
     {
       "type": "multiple",
@@ -338,7 +347,8 @@
       ],
       "answerIndex": 0,
       "explain": "Always true, regardless of when you say it. That is a general truth.",
-      "objective": "Explain the four main uses of the simple present"
+      "objective": "Explain the four main uses of the simple present",
+      "seconds": 20
     },
     {
       "type": "multiple",
@@ -346,84 +356,91 @@
       "options": [
         "Commentary on something happening now",
         "A habit",
-        "A general truth",
-        "A timetable"
+        "A timetable",
+        "A general truth"
       ],
       "answerIndex": 0,
       "explain": "Live commentary uses the simple present, which is why it feels immediate.",
-      "objective": "Explain the four main uses of the simple present"
+      "objective": "Explain the four main uses of the simple present",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "\"The film starts at eight.\" Which use is this?",
       "options": [
-        "A schedule",
-        "A habit",
         "Commentary",
+        "A habit",
+        "A schedule",
         "A general truth"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "English uses the simple present for fixed timetables, even for a future event.",
-      "objective": "Explain the four main uses of the simple present"
+      "objective": "Explain the four main uses of the simple present",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Which sentence is correct?",
       "options": [
         "He doesn't want to go",
-        "He doesn't wants to go",
         "He don't wants to go",
-        "He not want to go"
+        "He not want to go",
+        "He doesn't wants to go"
       ],
       "answerIndex": 0,
       "explain": "Does carries the ending, so want returns to its plain form.",
-      "objective": "Form negatives and questions using do and does"
+      "objective": "Form negatives and questions using do and does",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Which question is correct?",
       "options": [
-        "Does she start the engine?",
         "Does she starts the engine?",
         "Do she starts the engine?",
+        "Does she start the engine?",
         "She does start engine?"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Does takes the -s, so the main verb stays plain. Only one word carries the ending.",
-      "objective": "Form negatives and questions using do and does"
+      "objective": "Form negatives and questions using do and does",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What does Don Quixote take the two monks to be?",
       "options": [
+        "Knights looking for a duel",
         "Enchanters carrying off a princess",
         "Thieves escaping with treasure",
-        "Knights looking for a duel",
         "Merchants from Toledo"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "They are travellers on mules. The lady in the coach behind them is nothing to do with them.",
-      "objective": "Retell the episode with the monks and the coach"
+      "objective": "Retell the episode with the monks and the coach",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What does Sancho do after the monk falls?",
       "options": [
-        "He starts taking the monk's clothes as spoils",
         "He apologises to the monks",
+        "He helps the monk back onto his mule",
         "He rides away",
-        "He helps the monk back onto his mule"
+        "He starts taking the monk's clothes as spoils"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "He has picked up the rules of chivalry selectively. The monks' servants beat him for it.",
-      "objective": "Retell the episode with the monks and the coach"
+      "objective": "Retell the episode with the monks and the coach",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "Sancho warns Don Quixote before he attacks the monks.",
       "answer": true,
       "explain": "True, as he did at the windmills. It makes no difference either time.",
-      "objective": "Retell the episode with the monks and the coach"
+      "objective": "Retell the episode with the monks and the coach",
+      "seconds": 12
     }
   ],
   "teacher": {

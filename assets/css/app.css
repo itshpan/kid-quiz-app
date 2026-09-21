@@ -1082,3 +1082,42 @@ svg .hidden { display: none; }
 /* ---------- Schematic map ---------- */
 .map-sea   { fill: var(--surface-2); }
 .map-label { font-family: var(--font-ui); font-size: 9px; font-weight: 700; fill: var(--ink-faint); }
+
+
+/* ---------- Question clock ----------
+   A static budget, never a countdown. Ambient motion is off the table here,
+   and a ticking number would replace thinking with panic. */
+.qbudget {
+    margin-left: 10px; padding: 2px 8px; border-radius: 999px;
+    font-family: var(--font-ui); font-size: calc(11px * var(--scale));
+    font-weight: 700; letter-spacing: .02em;
+    background: var(--surface-2); color: var(--ink-faint);
+}
+.qclock {
+    margin-top: 10px; font-family: var(--font-ui);
+    font-size: calc(12px * var(--scale)); color: var(--ink-faint);
+}
+
+/* Two scores, equal weight. Answers is not the senior one. */
+.scorepair {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
+    align-items: end; justify-items: center;
+}
+.scorepair .scorecell:only-child { grid-column: 1 / -1; }
+.scorecell { text-align: center; }
+.pace-on     { color: var(--yes); }
+.pace-fast   { color: var(--yes); }
+.pace-slow   { color: var(--accent); }
+.pace-over   { color: var(--accent); }
+.pace-rushed { color: var(--accent); }
+.pacenote {
+    margin: 12px auto 0; max-width: var(--measure);
+    color: var(--ink-soft); font-size: calc(14px * var(--scale));
+}
+.pacetips {
+    margin: 22px auto 0; max-width: var(--measure); text-align: left;
+    padding: 16px 18px; border-radius: var(--radius);
+    background: var(--surface-2); border: 1px solid var(--line);
+}
+.pacetips .section-title { margin-top: 0; }
+@media (max-width: 380px) { .scorepair { grid-template-columns: 1fr; gap: 16px; } }

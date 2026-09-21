@@ -56,11 +56,12 @@
         "text": "Chewing a piece of bread is which kind of digestion?",
         "options": [
           "Mechanical",
-          "Chemical",
-          "Neither"
+          "Neither",
+          "Chemical"
         ],
         "answerIndex": 0,
-        "explain": "Mechanical — you're physically breaking it apart. The saliva mixing in at the same time is the chemical half."
+        "explain": "Mechanical — you're physically breaking it apart. The saliva mixing in at the same time is the chemical half.",
+        "seconds": 15
       }
     },
     {
@@ -109,7 +110,8 @@
         "accept": [
           "chyme"
         ],
-        "explain": "Chyme. Acid and churning turn a meal into a soup before it moves on."
+        "explain": "Chyme. Acid and churning turn a meal into a soup before it moves on.",
+        "seconds": 20
       }
     },
     {
@@ -145,12 +147,13 @@
         "type": "multiple",
         "text": "Which organ makes bile to break up fats?",
         "options": [
-          "The liver",
           "The stomach",
+          "The liver",
           "The large intestine"
         ],
-        "answerIndex": 0,
-        "explain": "The liver. Food never passes through it — bile is delivered into the small intestine instead."
+        "answerIndex": 1,
+        "explain": "The liver. Food never passes through it — bile is delivered into the small intestine instead.",
+        "seconds": 15
       }
     },
     {
@@ -208,7 +211,8 @@
         "type": "truefalse",
         "text": "Training hard is enough to build muscle, even without absorbing nutrients.",
         "answer": false,
-        "explain": "False. Training is the signal. Food is the material. You need both, and digestion is how the material arrives."
+        "explain": "False. Training is the signal. Food is the material. You need both, and digestion is how the material arrives.",
+        "seconds": 12
       }
     },
     {
@@ -287,27 +291,30 @@
         "Rectum"
       ],
       "explain": "One continuous tube, mouth to anus. The liver and pancreas sit off to the side and never carry food.",
-      "objective": "Name the organs of the digestive tract in order"
+      "objective": "Name the organs of the digestive tract in order",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "Where are most nutrients absorbed into the blood?",
       "options": [
-        "The small intestine",
+        "The oesophagus",
         "The stomach",
-        "The large intestine",
-        "The oesophagus"
+        "The small intestine",
+        "The large intestine"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "The small intestine. Its villi give it enormous surface area — folded flat it would cover a tennis court.",
-      "objective": "Explain where nutrients are absorbed and why the small intestine is built for it"
+      "objective": "Explain where nutrients are absorbed and why the small intestine is built for it",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "Chewing food is an example of chemical digestion.",
       "answer": false,
       "explain": "False. Chewing is mechanical — physically breaking food apart. The saliva mixing in is the chemical half.",
-      "objective": "Distinguish mechanical from chemical digestion"
+      "objective": "Distinguish mechanical from chemical digestion",
+      "seconds": 12
     },
     {
       "type": "type",
@@ -316,20 +323,22 @@
         "chyme"
       ],
       "explain": "Chyme. Acid plus churning turns a meal into a soup before it moves into the small intestine.",
-      "objective": "Name the organs of the digestive tract in order"
+      "objective": "Name the organs of the digestive tract in order",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What does bile do, and which organ makes it?",
       "options": [
         "Breaks fat into droplets; made by the liver",
+        "Kills bacteria; made by the pancreas",
         "Breaks protein apart; made by the stomach",
-        "Absorbs water; made by the large intestine",
-        "Kills bacteria; made by the pancreas"
+        "Absorbs water; made by the large intestine"
       ],
       "answerIndex": 0,
       "explain": "The liver makes bile, which splits fat into droplets small enough for enzymes to work on.",
-      "objective": "Describe the roles of the liver and pancreas in digestion"
+      "objective": "Describe the roles of the liver and pancreas in digestion",
+      "seconds": 25
     },
     {
       "type": "multiple",
@@ -342,7 +351,8 @@
       ],
       "answerIndex": 0,
       "explain": "It reclaims water and salts from what's left, and hosts the bacteria that make vitamins for you.",
-      "objective": "Name the organs of the digestive tract in order"
+      "objective": "Name the organs of the digestive tract in order",
+      "seconds": 20
     },
     {
       "type": "type",
@@ -352,40 +362,44 @@
         "villus"
       ],
       "explain": "Villi. They multiply the surface area available for absorption enormously.",
-      "objective": "Explain where nutrients are absorbed and why the small intestine is built for it"
+      "objective": "Explain where nutrients are absorbed and why the small intestine is built for it",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "Food passes directly through the liver on its way through the body.",
       "answer": false,
       "explain": "False. The liver sits off to the side and delivers bile into the small intestine. Food never enters it.",
-      "objective": "Describe the roles of the liver and pancreas in digestion"
+      "objective": "Describe the roles of the liver and pancreas in digestion",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Why does the small intestine have such a folded lining?",
       "options": [
-        "To increase the surface area for absorbing nutrients",
         "To slow food down so it stays warm",
+        "To increase the surface area for absorbing nutrients",
         "To store waste before it leaves",
         "To make acid more concentrated"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Surface area is the whole design. More wall in contact with food means more absorption.",
-      "objective": "Explain where nutrients are absorbed and why the small intestine is built for it"
+      "objective": "Explain where nutrients are absorbed and why the small intestine is built for it",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "You train hard but absorb very few nutrients. What happens to muscle growth?",
       "options": [
-        "It stalls — training is the signal, food is the material",
         "It continues normally",
+        "Nothing changes; muscle comes only from exercise",
         "It speeds up because the body works harder",
-        "Nothing changes; muscle comes only from exercise"
+        "It stalls — training is the signal, food is the material"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Training tells the body to build. Digestion supplies what it builds with. You need both.",
-      "objective": "Explain how food becomes the material your body is built from"
+      "objective": "Explain how food becomes the material your body is built from",
+      "seconds": 25
     },
     {
       "type": "type",
@@ -394,14 +408,16 @@
         "peristalsis"
       ],
       "explain": "Peristalsis — and it's smooth muscle doing it, the involuntary type from Week 1.",
-      "objective": "Name the organs of the digestive tract in order"
+      "objective": "Name the organs of the digestive tract in order",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "The small intestine is longer than the large intestine.",
       "answer": true,
       "explain": "True. It's called 'small' because it's narrower, not shorter — six to seven metres against about one and a half.",
-      "objective": "Explain where nutrients are absorbed and why the small intestine is built for it"
+      "objective": "Explain where nutrients are absorbed and why the small intestine is built for it",
+      "seconds": 12
     }
   ],
   "teacher": {

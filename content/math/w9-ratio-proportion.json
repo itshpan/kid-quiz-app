@@ -47,13 +47,14 @@
         "type": "multiple",
         "text": "In a ratio of 3 : 4, how many parts are there in total?",
         "options": [
-          "7",
-          "3",
           "4",
-          "12"
+          "12",
+          "7",
+          "3"
         ],
-        "answerIndex": 0,
-        "explain": "Three parts plus four parts is seven. Missing the total is the commonest mistake in the topic."
+        "answerIndex": 2,
+        "explain": "Three parts plus four parts is seven. Missing the total is the commonest mistake in the topic.",
+        "seconds": 15
       }
     },
     {
@@ -78,7 +79,8 @@
           "2 : 3",
           "2 to 3"
         ],
-        "explain": "Divide both by 6. Nothing divides 2 and 3 together, so it is finished."
+        "explain": "Divide both by 6. Nothing divides 2 and 3 together, so it is finished.",
+        "seconds": 15
       }
     },
     {
@@ -113,13 +115,14 @@
         "type": "multiple",
         "text": "Which ratio is equivalent to 2 : 5?",
         "options": [
-          "8 : 20",
           "4 : 7",
+          "8 : 20",
           "2 : 10",
           "5 : 2"
         ],
-        "answerIndex": 0,
-        "explain": "Multiply both sides by 4. 4 : 7 added 2 to each side, which changes the relationship."
+        "answerIndex": 1,
+        "explain": "Multiply both sides by 4. 4 : 7 added 2 to each side, which changes the relationship.",
+        "seconds": 20
       }
     },
     {
@@ -168,7 +171,8 @@
           "n=8",
           "n = 8"
         ],
-        "explain": "Cross-multiply: 2 × 12 = 3 × n, so 24 = 3n and n = 8."
+        "explain": "Cross-multiply: 2 × 12 = 3 × n, so 24 = 3n and n = 8.",
+        "seconds": 15
       }
     },
     {
@@ -223,7 +227,8 @@
           "₱24 and ₱36"
         ],
         "answerIndex": 0,
-        "explain": "Five parts. 120 ÷ 5 = 24 per part. Then 2 × 24 = 48 and 3 × 24 = 72."
+        "explain": "Five parts. 120 ÷ 5 = 24 per part. Then 2 × 24 = 48 and 3 × 24 = 72.",
+        "seconds": 20
       }
     },
     {
@@ -274,13 +279,14 @@
       "text": "Which of these is NOT a way of writing the ratio three to four?",
       "options": [
         "3 − 4",
+        "3/4",
         "3 : 4",
-        "3 to 4",
-        "3/4"
+        "3 to 4"
       ],
       "answerIndex": 0,
       "explain": "A minus sign is subtraction. The other three are all standard ratio notation.",
-      "objective": "Write a ratio in three different ways"
+      "objective": "Write a ratio in three different ways",
+      "seconds": 20
     },
     {
       "type": "multiple",
@@ -293,7 +299,8 @@
       ],
       "answerIndex": 0,
       "explain": "Red first, because the question asked red to blue. Order matters in a ratio.",
-      "objective": "Write a ratio in three different ways"
+      "objective": "Write a ratio in three different ways",
+      "seconds": 20
     },
     {
       "type": "type",
@@ -304,46 +311,50 @@
         "2 to 3"
       ],
       "explain": "Divide both sides by 10. Nothing divides 2 and 3 together.",
-      "objective": "Simplify a ratio to lowest terms"
+      "objective": "Simplify a ratio to lowest terms",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Simplify 18 : 24.",
       "options": [
-        "3 : 4",
         "9 : 12",
+        "2 : 3",
         "6 : 8",
-        "2 : 3"
+        "3 : 4"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Divide both by 6. 9 : 12 and 6 : 8 are equivalent but not in lowest terms.",
-      "objective": "Simplify a ratio to lowest terms"
+      "objective": "Simplify a ratio to lowest terms",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "At the same revs a four, a V6 and a V8 fire in the ratio 4 : 6 : 8. In lowest terms?",
       "options": [
         "2 : 3 : 4",
-        "1 : 2 : 3",
+        "2 : 4 : 6",
         "4 : 6 : 8",
-        "2 : 4 : 6"
+        "1 : 2 : 3"
       ],
       "answerIndex": 0,
       "explain": "Divide all three by 2. Those are the ratios of an octave, a fifth and a fourth in music.",
-      "objective": "Find equivalent ratios"
+      "objective": "Find equivalent ratios",
+      "seconds": 30
     },
     {
       "type": "multiple",
       "text": "What is the difference between a ratio and a proportion?",
       "options": [
+        "There is no difference",
         "A ratio compares two amounts; a proportion says two ratios are equal",
         "A proportion uses whole numbers only",
-        "A ratio is always simplified",
-        "There is no difference"
+        "A ratio is always simplified"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "A proportion is an equation, which is exactly what lets you solve for a missing term.",
-      "objective": "Explain the difference between a ratio and a proportion"
+      "objective": "Explain the difference between a ratio and a proportion",
+      "seconds": 25
     },
     {
       "type": "type",
@@ -354,66 +365,72 @@
         "n = 12"
       ],
       "explain": "Cross-multiply: 3 × 20 = 5 × n, so 60 = 5n and n = 12.",
-      "objective": "Solve a proportion by cross-multiplication"
+      "objective": "Solve a proportion by cross-multiplication",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Solve for n: 4/n = 12/21",
       "options": [
-        "7",
         "9",
-        "6",
-        "63"
+        "63",
+        "7",
+        "6"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Cross-multiply: 4 × 21 = 12 × n, so 84 = 12n and n = 7.",
-      "objective": "Solve a proportion by cross-multiplication"
+      "objective": "Solve a proportion by cross-multiplication",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "If 4 spark plugs cost ₱60, how much do 10 cost?",
       "options": [
-        "₱150",
-        "₱120",
         "₱240",
-        "₱100"
+        "₱120",
+        "₱100",
+        "₱150"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "4/60 = 10/n, so 4n = 600 and n = 150. Or find one plug: ₱15 each.",
-      "objective": "Solve a proportion by cross-multiplication"
+      "objective": "Solve a proportion by cross-multiplication",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Share ₱350 in the ratio 3 : 4.",
       "options": [
-        "₱150 and ₱200",
-        "₱175 and ₱175",
         "₱140 and ₱210",
-        "₱105 and ₱140"
+        "₱150 and ₱200",
+        "₱105 and ₱140",
+        "₱175 and ₱175"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Seven parts. 350 ÷ 7 = 50 each. Then 3 × 50 = 150 and 4 × 50 = 200.",
-      "objective": "Share an amount in a given ratio"
+      "objective": "Share an amount in a given ratio",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Share 72 blocks between two builds in the ratio 5 : 4.",
       "options": [
-        "40 and 32",
-        "36 and 36",
+        "50 and 22",
         "45 and 27",
-        "50 and 22"
+        "40 and 32",
+        "36 and 36"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Nine parts. 72 ÷ 9 = 8 per part. Then 5 × 8 = 40 and 4 × 8 = 32.",
-      "objective": "Share an amount in a given ratio"
+      "objective": "Share an amount in a given ratio",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "In a ratio of 2 : 3, there are five parts altogether.",
       "answer": true,
       "explain": "True, and finding the total is always the first step in sharing an amount.",
-      "objective": "Share an amount in a given ratio"
+      "objective": "Share an amount in a given ratio",
+      "seconds": 12
     }
   ],
   "teacher": {

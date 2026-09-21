@@ -40,13 +40,14 @@
         "type": "multiple",
         "text": "Which of these is a RATE rather than a ratio?",
         "options": [
-          "240 km in 4 hours",
           "3 boys to 4 girls",
-          "5 red counters to 2 blue",
-          "2 parts cement to 3 parts sand"
+          "240 km in 4 hours",
+          "2 parts cement to 3 parts sand",
+          "5 red counters to 2 blue"
         ],
-        "answerIndex": 0,
-        "explain": "Different units, kilometres against hours. The other three compare like with like."
+        "answerIndex": 1,
+        "explain": "Different units, kilometres against hours. The other three compare like with like.",
+        "seconds": 25
       }
     },
     {
@@ -81,13 +82,14 @@
         "type": "multiple",
         "text": "6 identical pens cost ₱90. What do 10 cost?",
         "options": [
-          "₱150",
           "₱140",
           "₱120",
+          "₱150",
           "₱900"
         ],
-        "answerIndex": 0,
-        "explain": "One pen is 90 ÷ 6 = ₱15. Then 10 × 15 = ₱150."
+        "answerIndex": 2,
+        "explain": "One pen is 90 ÷ 6 = ₱15. Then 10 × 15 = ₱150.",
+        "seconds": 15
       }
     },
     {
@@ -123,12 +125,13 @@
         "text": "A map has a scale of 1 : 50000. A road measures 4 cm. How long is it really?",
         "options": [
           "2 km",
-          "200 m",
           "20 km",
-          "500 m"
+          "500 m",
+          "200 m"
         ],
         "answerIndex": 0,
-        "explain": "4 × 50000 = 200000 cm. That is 2000 m, which is 2 km."
+        "explain": "4 × 50000 = 200000 cm. That is 2000 m, which is 2 km.",
+        "seconds": 20
       }
     },
     {
@@ -201,13 +204,14 @@
         "type": "multiple",
         "text": "Which pair is in direct proportion?",
         "options": [
-          "Number of tickets and total cost",
+          "Runners in a race and the winning time",
           "Your age and your height",
           "Hours studied and marks scored",
-          "Runners in a race and the winning time"
+          "Number of tickets and total cost"
         ],
-        "answerIndex": 0,
-        "explain": "Twice the tickets is exactly twice the cost. None of the other three scale that cleanly."
+        "answerIndex": 3,
+        "explain": "Twice the tickets is exactly twice the cost. None of the other three scale that cleanly.",
+        "seconds": 20
       }
     },
     {
@@ -230,11 +234,12 @@
         "options": [
           "750 g",
           "600 g",
-          "900 g",
-          "1200 g"
+          "1200 g",
+          "900 g"
         ],
         "answerIndex": 0,
-        "explain": "One person needs 300 ÷ 4 = 75 g. Then 10 × 75 = 750 g."
+        "explain": "One person needs 300 ÷ 4 = 75 g. Then 10 × 75 = 750 g.",
+        "seconds": 20
       }
     },
     {
@@ -284,40 +289,43 @@
       "type": "multiple",
       "text": "Which of these is a rate?",
       "options": [
-        "₱90 per kilogram",
         "3 boys to 4 girls",
         "2 parts water to 1 part squash",
+        "₱90 per kilogram",
         "5 : 8"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Pesos and kilograms are different units, which is what makes it a rate rather than a ratio.",
-      "objective": "Distinguish a ratio from a rate"
+      "objective": "Distinguish a ratio from a rate",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "A car travels 240 km in 4 hours. What is the unit rate?",
       "options": [
-        "60 km per hour",
         "960 km per hour",
-        "4 km per hour",
-        "240 km per hour"
+        "60 km per hour",
+        "240 km per hour",
+        "4 km per hour"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "240 ÷ 4 = 60. A unit rate has exactly one on one side.",
-      "objective": "Distinguish a ratio from a rate"
+      "objective": "Distinguish a ratio from a rate",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "8 identical sandbags cost ₱200. What do 14 cost?",
       "options": [
-        "₱350",
-        "₱280",
         "₱320",
-        "₱400"
+        "₱350",
+        "₱400",
+        "₱280"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "One sandbag is 200 ÷ 8 = ₱25. Then 14 × 25 = ₱350.",
-      "objective": "Use a unit rate to solve a proportion problem"
+      "objective": "Use a unit rate to solve a proportion problem",
+      "seconds": 15
     },
     {
       "type": "multiple",
@@ -325,38 +333,41 @@
       "options": [
         "360",
         "300",
-        "420",
-        "180"
+        "180",
+        "420"
       ],
       "answerIndex": 0,
       "explain": "150 ÷ 5 = 30 per minute. Then 12 × 30 = 360.",
-      "objective": "Use a unit rate to solve a proportion problem"
+      "objective": "Use a unit rate to solve a proportion problem",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "A model car is built at 1 : 24 and measures 18 cm. How long is the real car?",
       "options": [
-        "4.32 m",
         "432 m",
-        "1.8 m",
-        "43.2 cm"
+        "4.32 m",
+        "43.2 cm",
+        "1.8 m"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "18 x 24 = 432 cm, which is 4.32 m. About the length of a real car, so the answer is sane.",
-      "objective": "Read and use a scale on a map or drawing"
+      "objective": "Read and use a scale on a map or drawing",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "On an evacuation map at 1 : 25 000, the shelter is 8 cm away. How far is that really?",
       "options": [
-        "2 km",
+        "25 km",
         "200 m",
-        "20 km",
-        "25 km"
+        "2 km",
+        "20 km"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "8 × 25000 = 200000 cm = 2000 m = 2 km.",
-      "objective": "Read and use a scale on a map or drawing"
+      "objective": "Read and use a scale on a map or drawing",
+      "seconds": 20
     },
     {
       "type": "multiple",
@@ -369,53 +380,58 @@
       ],
       "answerIndex": 0,
       "explain": "4 m is 400 cm. 400 ÷ 64 = 6.25 cm. Real to drawing means dividing.",
-      "objective": "Read and use a scale on a map or drawing"
+      "objective": "Read and use a scale on a map or drawing",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "A relief pack for 6 people uses 450 g of rice. How much for 8 people?",
       "options": [
         "600 g",
-        "550 g",
         "675 g",
+        "550 g",
         "500 g"
       ],
       "answerIndex": 0,
       "explain": "450 ÷ 6 = 75 g per person. Then 8 × 75 = 600 g.",
-      "objective": "Solve direct proportion word problems"
+      "objective": "Solve direct proportion word problems",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Which pair is in direct proportion?",
       "options": [
-        "Litres of petrol and the cost of filling up",
-        "A person's age and their shoe size",
         "The number of players and the length of a match",
-        "Hours of sleep and marks in an exam"
+        "A person's age and their shoe size",
+        "Hours of sleep and marks in an exam",
+        "Litres of petrol and the cost of filling up"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Twice the litres is exactly twice the cost. The other three do not scale cleanly at all.",
-      "objective": "Decide when two quantities are in direct proportion"
+      "objective": "Decide when two quantities are in direct proportion",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "Double a meteor’s speed and its energy doubles.",
       "answer": false,
       "explain": "Energy is half m v squared. Double the mass and energy doubles; double the speed and it quadruples.",
-      "objective": "Decide when two quantities are in direct proportion"
+      "objective": "Decide when two quantities are in direct proportion",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Share 96 in the ratio 5 : 3.",
       "options": [
-        "60 and 36",
+        "64 and 32",
         "48 and 48",
         "50 and 46",
-        "64 and 32"
+        "60 and 36"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Eight parts. 96 ÷ 8 = 12 per part. Then 5 × 12 = 60 and 3 × 12 = 36.",
-      "objective": "Review the whole ratio topic for the exam"
+      "objective": "Review the whole ratio topic for the exam",
+      "seconds": 20
     },
     {
       "type": "type",
@@ -426,7 +442,8 @@
         "n = 24"
       ],
       "explain": "Cross-multiply: 5 × n = 8 × 15, so 5n = 120 and n = 24.",
-      "objective": "Review the whole ratio topic for the exam"
+      "objective": "Review the whole ratio topic for the exam",
+      "seconds": 15
     }
   ],
   "teacher": {

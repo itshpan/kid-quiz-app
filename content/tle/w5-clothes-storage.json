@@ -52,7 +52,8 @@
           "Smart trousers"
         ],
         "answerIndex": 0,
-        "explain": "Knitwear stretches out of shape on a hanger. Fold it. The other three all crease if folded."
+        "explain": "Knitwear stretches out of shape on a hanger. Fold it. The other three all crease if folded.",
+        "seconds": 15
       }
     },
     {
@@ -87,13 +88,14 @@
         "type": "multiple",
         "text": "Why stand folded clothes on their edge instead of stacking them?",
         "options": [
+          "It stops them creasing",
           "You can see every item without disturbing the others",
           "It fits more clothes in",
-          "It stops them creasing",
           "It keeps them cleaner"
         ],
-        "answerIndex": 0,
-        "explain": "Visibility. A stack hides everything below the top item, so you only ever wear the top few."
+        "answerIndex": 1,
+        "explain": "Visibility. A stack hides everything below the top item, so you only ever wear the top few.",
+        "seconds": 25
       }
     },
     {
@@ -152,13 +154,14 @@
         "type": "multiple",
         "text": "What does a crossed-out triangle on a care label mean?",
         "options": [
-          "Do not bleach",
-          "Do not tumble dry",
           "Do not iron",
-          "Do not wash"
+          "Do not tumble dry",
+          "Do not wash",
+          "Do not bleach"
         ],
-        "answerIndex": 0,
-        "explain": "Triangle means bleach, and a cross over any symbol means never do that to this garment."
+        "answerIndex": 3,
+        "explain": "Triangle means bleach, and a cross over any symbol means never do that to this garment.",
+        "seconds": 20
       }
     },
     {
@@ -193,26 +196,48 @@
         "type": "multiple",
         "text": "Why sort laundry into whites, darks and colours?",
         "options": [
-          "Dye from darker items can transfer onto lighter ones",
+          "The machine cannot handle mixed loads",
           "It makes the machine run faster",
-          "It uses less water",
-          "The machine cannot handle mixed loads"
+          "Dye from darker items can transfer onto lighter ones",
+          "It uses less water"
         ],
-        "answerIndex": 0,
-        "explain": "Colour transfer, especially from new bright items. Two minutes of sorting prevents a ruined wash."
+        "answerIndex": 2,
+        "explain": "Colour transfer, especially from new bright items. Two minutes of sorting prevents a ruined wash.",
+        "seconds": 25
       }
     },
     {
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "care label", "def": "The sewn-in tag with washing, bleaching, drying and ironing symbols." },
-        { "term": "tub symbol", "def": "Washing. A number inside is the maximum temperature in Celsius." },
-        { "term": "triangle symbol", "def": "Bleaching. Crossed out means do not bleach." },
-        { "term": "square symbol", "def": "Drying. A circle inside means it can go in a tumble dryer." },
-        { "term": "iron symbol", "def": "Ironing. Dots show the heat setting: one is coolest." },
-        { "term": "sorting", "def": "Separating laundry into whites, darks and colours before washing." },
-        { "term": "file folding", "def": "Standing folded clothes on edge so every item is visible at once." }
+        {
+          "term": "care label",
+          "def": "The sewn-in tag with washing, bleaching, drying and ironing symbols."
+        },
+        {
+          "term": "tub symbol",
+          "def": "Washing. A number inside is the maximum temperature in Celsius."
+        },
+        {
+          "term": "triangle symbol",
+          "def": "Bleaching. Crossed out means do not bleach."
+        },
+        {
+          "term": "square symbol",
+          "def": "Drying. A circle inside means it can go in a tumble dryer."
+        },
+        {
+          "term": "iron symbol",
+          "def": "Ironing. Dots show the heat setting: one is coolest."
+        },
+        {
+          "term": "sorting",
+          "def": "Separating laundry into whites, darks and colours before washing."
+        },
+        {
+          "term": "file folding",
+          "def": "Standing folded clothes on edge so every item is visible at once."
+        }
       ]
     },
     {
@@ -238,53 +263,58 @@
         "Fold it in half"
       ],
       "explain": "Flat, one side, other side, half. Then stand it on edge in the drawer.",
-      "objective": "Fold a shirt in four steps"
+      "objective": "Fold a shirt in four steps",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "Which of these should be HUNG rather than folded?",
       "options": [
-        "A school shirt",
         "A wool jumper",
-        "Socks",
-        "A t-shirt"
+        "A school shirt",
+        "A t-shirt",
+        "Socks"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Shirts crease badly when folded. Knitwear stretches on a hanger, so it gets folded instead.",
-      "objective": "Decide what to hang and what to fold"
+      "objective": "Decide what to hang and what to fold",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Why is knitwear folded rather than hung?",
       "options": [
-        "Hanging stretches it out of shape",
         "It creases badly when folded",
         "It takes up less hanging space",
-        "It dries faster folded"
+        "It dries faster folded",
+        "Hanging stretches it out of shape"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "The weight of the garment pulls it out of shape on a hanger. Fold knitwear.",
-      "objective": "Decide what to hang and what to fold"
+      "objective": "Decide what to hang and what to fold",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What is the main advantage of standing folded clothes on their edge?",
       "options": [
         "Every item is visible at once",
+        "It keeps them warmer",
         "It stops clothes creasing",
-        "It fits twice as many in",
-        "It keeps them warmer"
+        "It fits twice as many in"
       ],
       "answerIndex": 0,
       "explain": "You wear the clothes you can see. A stack hides everything below the top item.",
-      "objective": "Store clothes so every item is visible"
+      "objective": "Store clothes so every item is visible",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "Folding everything to the same size is what makes standing them on edge work.",
       "answer": true,
       "explain": "True. Mismatched sizes fall over. Same fold size means the drawer holds its shape.",
-      "objective": "Store clothes so every item is visible"
+      "objective": "Store clothes so every item is visible",
+      "seconds": 12
     },
     {
       "type": "multiple",
@@ -297,33 +327,36 @@
       ],
       "answerIndex": 0,
       "explain": "A tub of water means washing. The number inside is the highest safe temperature.",
-      "objective": "Read the common laundry care symbols"
+      "objective": "Read the common laundry care symbols",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What does a triangle on a care label refer to?",
       "options": [
-        "Bleaching",
         "Washing",
-        "Ironing",
-        "Dry cleaning"
+        "Dry cleaning",
+        "Bleaching",
+        "Ironing"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Triangle means bleach. Crossed out, it means never bleach this garment.",
-      "objective": "Read the common laundry care symbols"
+      "objective": "Read the common laundry care symbols",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What does a cross through any care symbol mean?",
       "options": [
+        "Ask an adult first",
         "Never do that to this garment",
         "Do it carefully",
-        "Do it only by hand",
-        "Ask an adult first"
+        "Do it only by hand"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "It is the one rule that reads the same across every symbol on the label.",
-      "objective": "Read the common laundry care symbols"
+      "objective": "Read the common laundry care symbols",
+      "seconds": 20
     },
     {
       "type": "multiple",
@@ -336,40 +369,44 @@
       ],
       "answerIndex": 0,
       "explain": "Dots are heat. One dot is the coolest setting, three the hottest.",
-      "objective": "Read the common laundry care symbols"
+      "objective": "Read the common laundry care symbols",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Why should laundry be sorted before washing?",
       "options": [
-        "Dye can transfer from darker items to lighter ones",
-        "The machine works faster",
         "It saves electricity",
-        "Clothes dry more evenly"
+        "Clothes dry more evenly",
+        "The machine works faster",
+        "Dye can transfer from darker items to lighter ones"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Colour transfer, especially from new bright items. Wash those separately the first time.",
-      "objective": "Sort laundry before washing and explain why"
+      "objective": "Sort laundry before washing and explain why",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What should you always do before putting clothes in the machine?",
       "options": [
-        "Empty every pocket",
+        "Weigh the load",
         "Iron them",
-        "Fold them",
-        "Weigh the load"
+        "Empty every pocket",
+        "Fold them"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Especially tissues. One in a wash spreads through the whole load.",
-      "objective": "Sort laundry before washing and explain why"
+      "objective": "Sort laundry before washing and explain why",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Damp training kit should be left in a closed bag until the next session.",
       "answer": false,
       "explain": "False. Damp kit in a closed bag is how kit is ruined. Take it out and let it dry.",
-      "objective": "Sort laundry before washing and explain why"
+      "objective": "Sort laundry before washing and explain why",
+      "seconds": 12
     }
   ],
   "teacher": {

@@ -39,13 +39,14 @@
         "type": "multiple",
         "text": "Alin sa mga ito ang palipong sugnay?",
         "options": [
-          "dahil hindi siya nagsanay",
+          "umaandar ang makina",
           "hindi siya nagsanay",
           "lumindol kagabi",
-          "umaandar ang makina"
+          "dahil hindi siya nagsanay"
         ],
-        "answerIndex": 0,
-        "explain": "Ang \"kapag\" ang gumagawa nitong palipon. Hindi ito kayang tumayong mag-isa."
+        "answerIndex": 3,
+        "explain": "Ang \"kapag\" ang gumagawa nitong palipon. Hindi ito kayang tumayong mag-isa.",
+        "seconds": 15
       }
     },
     {
@@ -73,13 +74,14 @@
         "type": "multiple",
         "text": "Anong kayarian ang \"Lumindol kagabi at bumaha kaninang umaga\"?",
         "options": [
-          "Tambalan",
           "Payak",
-          "Hugnayan",
-          "Langkapan"
+          "Tambalan",
+          "Langkapan",
+          "Hugnayan"
         ],
-        "answerIndex": 0,
-        "explain": "Dalawang punong sugnay na pinag-ugnay ng \"at\". Pareho silang kayang tumayong mag-isa."
+        "answerIndex": 1,
+        "explain": "Dalawang punong sugnay na pinag-ugnay ng \"at\". Pareho silang kayang tumayong mag-isa.",
+        "seconds": 15
       }
     },
     {
@@ -115,12 +117,13 @@
         "text": "Anong kayarian ang \"Natalo siya dahil hindi siya nagsanay\"?",
         "options": [
           "Hugnayan",
-          "Tambalan",
           "Payak",
+          "Tambalan",
           "Langkapan"
         ],
         "answerIndex": 0,
-        "explain": "Ang \"dahil\" ay tanda ng hugnayan. Hindi kayang tumayong mag-isa ang ikalawang sugnay."
+        "explain": "Ang \"dahil\" ay tanda ng hugnayan. Hindi kayang tumayong mag-isa ang ikalawang sugnay.",
+        "seconds": 15
       }
     },
     {
@@ -165,13 +168,14 @@
         "type": "multiple",
         "text": "Sino ang pumatay kay Andres Bonifacio?",
         "options": [
-          "Mga kapwa niya rebolusyonaryo",
+          "Wala. Nakatakas siya.",
           "Mga sundalong Espanyol",
-          "Mga sundalong Amerikano",
-          "Wala. Nakatakas siya."
+          "Mga kapwa niya rebolusyonaryo",
+          "Mga sundalong Amerikano"
         ],
-        "answerIndex": 0,
-        "explain": "Ang sarili niyang panig, noong Mayo 1897, matapos ang hidwaan sa Tejeros."
+        "answerIndex": 2,
+        "explain": "Ang sarili niyang panig, noong Mayo 1897, matapos ang hidwaan sa Tejeros.",
+        "seconds": 15
       }
     },
     {
@@ -208,7 +212,8 @@
         "type": "truefalse",
         "text": "Si Bonifacio ang nanalo bilang pangulo sa Kumbensiyon sa Tejeros.",
         "answer": false,
-        "explain": "Hindi. Si Emilio Aguinaldo ang nanalo. Mas mababang puwesto ang ibinigay kay Bonifacio."
+        "explain": "Hindi. Si Emilio Aguinaldo ang nanalo. Mas mababang puwesto ang ibinigay kay Bonifacio.",
+        "seconds": 12
       }
     },
     {
@@ -266,92 +271,99 @@
       "type": "multiple",
       "text": "Ano ang punong sugnay?",
       "options": [
-        "Sugnay na kayang tumayong mag-isa",
         "Sugnay na nasa unahan ng pangungusap",
         "Sugnay na may pang-ugnay",
+        "Sugnay na kayang tumayong mag-isa",
         "Ang pinakamahabang sugnay"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Kayang tumayong mag-isa bilang buong pangungusap. Iyan ang pagsubok.",
-      "objective": "Matukoy ang punong sugnay at ang palipong sugnay"
+      "objective": "Matukoy ang punong sugnay at ang palipong sugnay",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Alin ang palipong sugnay?",
       "options": [
-        "dahil maaga siyang gumising",
+        "bumaha kagabi",
         "maaga siyang gumising",
         "umaandar ang makina",
-        "bumaha kagabi"
+        "dahil maaga siyang gumising"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Ang \"dahil\" ang gumagawa nitong palipon. Hindi ito buo kung mag-isa.",
-      "objective": "Matukoy ang punong sugnay at ang palipong sugnay"
+      "objective": "Matukoy ang punong sugnay at ang palipong sugnay",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Anong kayarian ang \"Umaandar ang makina ng sasakyan\"?",
       "options": [
-        "Payak",
+        "Langkapan",
         "Tambalan",
-        "Hugnayan",
-        "Langkapan"
+        "Payak",
+        "Hugnayan"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Isang punong sugnay lamang, kaya payak.",
-      "objective": "Maiba ang payak, tambalan, hugnayan at langkapan"
+      "objective": "Maiba ang payak, tambalan, hugnayan at langkapan",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Anong kayarian ang \"Nagsanay siya ngunit hindi pa rin siya nanalo\"?",
       "options": [
-        "Tambalan",
         "Payak",
+        "Langkapan",
         "Hugnayan",
-        "Langkapan"
+        "Tambalan"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Dalawang punong sugnay na pinag-ugnay ng \"ngunit\".",
-      "objective": "Maiba ang payak, tambalan, hugnayan at langkapan"
+      "objective": "Maiba ang payak, tambalan, hugnayan at langkapan",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Anong kayarian ang \"Aalis sila kapag lumakas ang bagyo\"?",
       "options": [
         "Hugnayan",
+        "Langkapan",
         "Tambalan",
-        "Payak",
-        "Langkapan"
+        "Payak"
       ],
       "answerIndex": 0,
       "explain": "Ang \"kapag\" ay tanda ng hugnayan. Palipon ang ikalawang sugnay.",
-      "objective": "Maiba ang payak, tambalan, hugnayan at langkapan"
+      "objective": "Maiba ang payak, tambalan, hugnayan at langkapan",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Aling pang-ugnay ang ginagamit sa tambalang pangungusap?",
       "options": [
         "ngunit",
-        "dahil",
         "kapag",
+        "dahil",
         "sapagkat"
       ],
       "answerIndex": 0,
       "explain": "at, ngunit, subalit at o ay para sa tambalan. Ang tatlong iba ay para sa hugnayan.",
-      "objective": "Magamit ang tamang pangatnig para sa bawat kayarian"
+      "objective": "Magamit ang tamang pangatnig para sa bawat kayarian",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Aling pang-ugnay ang tanda ng hugnayang pangungusap?",
       "options": [
         "sapagkat",
-        "at",
+        "o",
         "ngunit",
-        "o"
+        "at"
       ],
       "answerIndex": 0,
       "explain": "dahil, kung, kapag, nang at sapagkat ay para sa hugnayan.",
-      "objective": "Magamit ang tamang pangatnig para sa bawat kayarian"
+      "objective": "Magamit ang tamang pangatnig para sa bawat kayarian",
+      "seconds": 15
     },
     {
       "type": "order",
@@ -362,47 +374,52 @@
         "Langkapan"
       ],
       "explain": "Isang sugnay, dalawang punong sugnay, at ang langkapan ang may pinakamarami.",
-      "objective": "Mabilang ang sugnay upang mauri ang isang pangungusap"
+      "objective": "Mabilang ang sugnay upang mauri ang isang pangungusap",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Ang langkapan ay pinagsamang tambalan at hugnayan.",
       "answer": true,
       "explain": "Oo. May dalawang punong sugnay at may palipong sugnay din.",
-      "objective": "Maiba ang payak, tambalan, hugnayan at langkapan"
+      "objective": "Maiba ang payak, tambalan, hugnayan at langkapan",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Ano ang nangyari sa Kumbensiyon sa Tejeros noong Marso 1897?",
       "options": [
+        "Natapos ang himagsikan",
         "Nahalal si Aguinaldo bilang pangulo",
         "Nahalal si Bonifacio bilang pangulo",
-        "Natapos ang himagsikan",
         "Sumuko ang Espanya"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Nanalo si Aguinaldo. Ipinawalang-bisa ni Bonifacio ang pagpupulong at umalis.",
-      "objective": "Maunawaan ang naging wakas ni Andres Bonifacio"
+      "objective": "Maunawaan ang naging wakas ni Andres Bonifacio",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Paano namatay si Andres Bonifacio?",
       "options": [
-        "Nilitis at pinatay ng mga kapwa rebolusyonaryo noong Mayo 1897",
         "Napatay sa labanan laban sa Espanya",
-        "Namatay sa sakit sa Cavite",
-        "Ipinatapon sa Hong Kong"
+        "Nilitis at pinatay ng mga kapwa rebolusyonaryo noong Mayo 1897",
+        "Ipinatapon sa Hong Kong",
+        "Namatay sa sakit sa Cavite"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Ng sarili niyang panig, matapos ang hidwaan sa Tejeros. Kasama ang kapatid niyang si Procopio.",
-      "objective": "Maunawaan ang naging wakas ni Andres Bonifacio"
+      "objective": "Maunawaan ang naging wakas ni Andres Bonifacio",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Napatay si Bonifacio ng mga sundalong Espanyol.",
       "answer": false,
       "explain": "Hindi. Ng sarili niyang panig, noong Mayo 1897. Ito ang pinakamabigat na bahagi ng kuwento.",
-      "objective": "Maunawaan ang naging wakas ni Andres Bonifacio"
+      "objective": "Maunawaan ang naging wakas ni Andres Bonifacio",
+      "seconds": 12
     }
   ],
   "teacher": {

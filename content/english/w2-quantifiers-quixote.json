@@ -49,13 +49,14 @@
         "type": "multiple",
         "text": "Which of these is a NONCOUNT noun?",
         "options": [
-          "furniture",
           "chair",
-          "table",
-          "shelf"
+          "furniture",
+          "shelf",
+          "table"
         ],
-        "answerIndex": 0,
-        "explain": "furniture. You can count chairs and tables, but not 'three furnitures'. You'd say three pieces of furniture."
+        "answerIndex": 1,
+        "explain": "furniture. You can count chairs and tables, but not 'three furnitures'. You'd say three pieces of furniture.",
+        "seconds": 15
       }
     },
     {
@@ -89,12 +90,13 @@
         "type": "multiple",
         "text": "Which is correct?",
         "options": [
-          "How much fuel do you need?",
+          "How much cans do you need?",
           "How many fuel do you need?",
-          "How much cans do you need?"
+          "How much fuel do you need?"
         ],
-        "answerIndex": 0,
-        "explain": "much fuel. Water is noncount, so it takes much. Bottles are countable, so they'd take many."
+        "answerIndex": 2,
+        "explain": "much fuel. Water is noncount, so it takes much. Bottles are countable, so they'd take many.",
+        "seconds": 20
       }
     },
     {
@@ -145,7 +147,8 @@
           "I made fewer mistakes and took fewer time"
         ],
         "answerIndex": 0,
-        "explain": "fewer mistakes (countable), less time (measured). Getting this right will make you sound more precise than most adults."
+        "explain": "fewer mistakes (countable), less time (measured). Getting this right will make you sound more precise than most adults.",
+        "seconds": 20
       }
     },
     {
@@ -215,12 +218,13 @@
         "type": "multiple",
         "text": "Why does the innkeeper agree to knight Don Quixote?",
         "options": [
-          "To humour him and get him out of the inn",
           "Because he really is the lord of a castle",
-          "Because Don Quixote threatens him with a sword"
+          "Because Don Quixote threatens him with a sword",
+          "To humour him and get him out of the inn"
         ],
-        "answerIndex": 0,
-        "explain": "He plays along to keep the peace and move him on. It's easier than arguing with someone who's certain."
+        "answerIndex": 2,
+        "explain": "He plays along to keep the peace and move him on. It's easier than arguing with someone who's certain.",
+        "seconds": 25
       }
     },
     {
@@ -252,7 +256,8 @@
         "type": "truefalse",
         "text": "Don Quixote knows the inn is really an inn, but pretends it is a castle for fun.",
         "answer": false,
-        "explain": "False, and it matters. He genuinely sees a castle. He isn't pretending — that's the difference between him and someone playing a game."
+        "explain": "False, and it matters. He genuinely sees a castle. He isn't pretending — that's the difference between him and someone playing a game.",
+        "seconds": 15
       }
     },
     {
@@ -306,40 +311,43 @@
       "type": "multiple",
       "text": "Which of these is a noncount noun?",
       "options": [
-        "advice",
-        "suggestion",
         "idea",
+        "suggestion",
+        "advice",
         "tip"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "advice. You can have three suggestions or three tips, but never 'three advices'. You'd say three pieces of advice.",
-      "objective": "Tell count nouns from noncount nouns"
+      "objective": "Tell count nouns from noncount nouns",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Which is correct?",
       "options": [
+        "There aren't much water left",
         "There isn't much water left",
-        "There aren't many water left",
         "There isn't many water left",
-        "There aren't much water left"
+        "There aren't many water left"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "much water. Water is noncount, so it takes much and a singular verb — isn't, not aren't.",
-      "objective": "Choose quantifiers correctly for count and noncount nouns"
+      "objective": "Choose quantifiers correctly for count and noncount nouns",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "A supermarket sign reads '10 items or less'. What's wrong with it?",
       "options": [
-        "It should say fewer, because items can be counted",
-        "It should say much, because items are measured",
+        "It should say little",
         "Nothing is wrong with it",
-        "It should say little"
+        "It should say fewer, because items can be counted",
+        "It should say much, because items are measured"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "It should be 'fewer'. Items are countable. This is one of the most common errors in written English.",
-      "objective": "Use fewer and less correctly"
+      "objective": "Use fewer and less correctly",
+      "seconds": 25
     },
     {
       "type": "type",
@@ -348,40 +356,44 @@
         "little"
       ],
       "explain": "little. Time is noncount, so it takes little rather than few.",
-      "objective": "Choose quantifiers correctly for count and noncount nouns"
+      "objective": "Choose quantifiers correctly for count and noncount nouns",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What's the difference between 'a few friends' and 'few friends'?",
       "options": [
-        "'A few' means some; 'few' means not many, and sounds negative",
-        "There is no difference",
         "'Few' means more than 'a few'",
-        "'A few' is for noncount nouns"
+        "'A few' is for noncount nouns",
+        "There is no difference",
+        "'A few' means some; 'few' means not many, and sounds negative"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Dropping the 'a' flips the feeling. 'I have a few friends' is fine. 'I have few friends' is sad.",
-      "objective": "Choose quantifiers correctly for count and noncount nouns"
+      "objective": "Choose quantifiers correctly for count and noncount nouns",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "'A lot of' can be used with both count and noncount nouns.",
       "answer": true,
       "explain": "True — a lot of cars, a lot of water. It's the safe choice when you're not sure which kind of noun you have.",
-      "objective": "Choose quantifiers correctly for count and noncount nouns"
+      "objective": "Choose quantifiers correctly for count and noncount nouns",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Which sentence is correct?",
       "options": [
-        "I made fewer errors and used less paper",
-        "I made less errors and used fewer paper",
         "I made fewer errors and used fewer paper",
-        "I made less errors and used less paper"
+        "I made fewer errors and used less paper",
+        "I made less errors and used less paper",
+        "I made less errors and used fewer paper"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "fewer errors (countable), less paper (measured). Both halves have to match their noun type.",
-      "objective": "Use fewer and less correctly"
+      "objective": "Use fewer and less correctly",
+      "seconds": 25
     },
     {
       "type": "multiple",
@@ -389,12 +401,13 @@
       "options": [
         "A castle",
         "A monastery",
-        "A stable",
-        "A prison"
+        "A prison",
+        "A stable"
       ],
       "answerIndex": 0,
       "explain": "A castle, complete with towers and a moat. Every other mistake in the chapter follows from that first one.",
-      "objective": "Retell Don Quixote Chapter 2 and explain how he reads the world"
+      "objective": "Retell Don Quixote Chapter 2 and explain how he reads the world",
+      "seconds": 15
     },
     {
       "type": "multiple",
@@ -407,27 +420,30 @@
       ],
       "answerIndex": 0,
       "explain": "He tied it on too well and refuses to cut the ribbons. They feed him through the visor and he drinks through a reed.",
-      "objective": "Retell Don Quixote Chapter 2 and explain how he reads the world"
+      "objective": "Retell Don Quixote Chapter 2 and explain how he reads the world",
+      "seconds": 30
     },
     {
       "type": "truefalse",
       "text": "Don Quixote is pretending the inn is a castle as a joke.",
       "answer": false,
       "explain": "False. He genuinely sees a castle. That's what separates him from someone playing along — and it's why the book is more than a joke.",
-      "objective": "Retell Don Quixote Chapter 2 and explain how he reads the world"
+      "objective": "Retell Don Quixote Chapter 2 and explain how he reads the world",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "What happens when the muleteer moves Don Quixote's armour from the trough?",
       "options": [
-        "Quixote attacks him for touching a knight's arms",
         "Quixote thanks him for looking after it",
         "Quixote does not notice",
-        "The innkeeper throws Quixote out"
+        "The innkeeper throws Quixote out",
+        "Quixote attacks him for touching a knight's arms"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "He attacks him. He's keeping vigil over his armour, and interfering with it is an insult to a knight.",
-      "objective": "Retell Don Quixote Chapter 2 and explain how he reads the world"
+      "objective": "Retell Don Quixote Chapter 2 and explain how he reads the world",
+      "seconds": 25
     },
     {
       "type": "order",
@@ -440,7 +456,8 @@
         "The innkeeper knights him"
       ],
       "explain": "Arrival, dinner, vigil, fight, knighting. The innkeeper speeds the ceremony up specifically to get rid of him.",
-      "objective": "Retell Don Quixote Chapter 2 and explain how he reads the world"
+      "objective": "Retell Don Quixote Chapter 2 and explain how he reads the world",
+      "seconds": 30
     }
   ],
   "teacher": {

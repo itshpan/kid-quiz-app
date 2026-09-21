@@ -51,7 +51,8 @@
           "The shape ends up upside down"
         ],
         "answerIndex": 0,
-        "explain": "They move a shape without changing it. Same size, same angles — mathematicians call that congruent."
+        "explain": "They move a shape without changing it. Same size, same angles — mathematicians call that congruent.",
+        "seconds": 20
       }
     },
     {
@@ -122,12 +123,13 @@
         "type": "multiple",
         "text": "A shape is flipped so it becomes a mirror image. Which transformation is that?",
         "options": [
+          "Rotation",
           "Reflection",
-          "Translation",
-          "Rotation"
+          "Translation"
         ],
-        "answerIndex": 0,
-        "explain": "Reflection. The tell is that left and right swap over — a slide or a turn never does that."
+        "answerIndex": 1,
+        "explain": "Reflection. The tell is that left and right swap over — a slide or a turn never does that.",
+        "seconds": 15
       }
     },
     {
@@ -179,7 +181,8 @@
           "centre",
           "center"
         ],
-        "explain": "The centre of rotation. Without naming it, a rotation isn't fully described."
+        "explain": "The centre of rotation. Without naming it, a rotation isn't fully described.",
+        "seconds": 20
       }
     },
     {
@@ -216,7 +219,8 @@
           "Is it turned but not mirrored? → rotation",
           "Is it facing the same way? → translation"
         ],
-        "explain": "Check for the mirror first, because it's unmistakable. Then turning. Anything left over is a slide."
+        "explain": "Check for the mirror first, because it's unmistakable. Then turning. Anything left over is a slide.",
+        "seconds": 30
       }
     },
     {
@@ -244,7 +248,8 @@
         "type": "truefalse",
         "text": "A shape gets smaller when you translate it a long distance.",
         "answer": false,
-        "explain": "False. Distance doesn't matter. Translation never changes size — the shape stays congruent no matter how far it moves."
+        "explain": "False. Distance doesn't matter. Translation never changes size — the shape stays congruent no matter how far it moves.",
+        "seconds": 12
       }
     },
     {
@@ -307,27 +312,29 @@
       "type": "multiple",
       "text": "A shape is moved 5 squares right and 3 squares down, still facing the same way. What is this?",
       "options": [
-        "A translation",
-        "A reflection",
         "A rotation",
-        "A resize"
+        "A reflection",
+        "A resize",
+        "A translation"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "A translation — a straight slide. Every point moved the same distance in the same direction.",
-      "objective": "Define translation, reflection and rotation"
+      "objective": "Define translation, reflection and rotation",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Which transformation produces a mirror image?",
       "options": [
-        "Reflection",
         "Translation",
-        "Rotation",
-        "None of them"
+        "None of them",
+        "Reflection",
+        "Rotation"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Reflection. Left and right swap over, which no other transformation does.",
-      "objective": "Identify which transformation has been applied to a shape"
+      "objective": "Identify which transformation has been applied to a shape",
+      "seconds": 15
     },
     {
       "type": "type",
@@ -339,27 +346,30 @@
         "center"
       ],
       "explain": "The centre of rotation. A rotation needs a centre, an angle and a direction to be fully described.",
-      "objective": "Define translation, reflection and rotation"
+      "objective": "Define translation, reflection and rotation",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Translation, reflection and rotation all keep the shape the same size.",
       "answer": true,
       "explain": "True. All three keep size and angles identical. The shape stays congruent — only its position or orientation changes.",
-      "objective": "Explain what stays the same under every transformation"
+      "objective": "Explain what stays the same under every transformation",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Which three pieces of information fully describe a rotation?",
       "options": [
-        "Centre, angle and direction",
-        "Distance, direction and speed",
         "Axis, angle and size",
-        "Centre, size and colour"
+        "Centre, angle and direction",
+        "Centre, size and colour",
+        "Distance, direction and speed"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Centre, angle, direction. Leave any one out and someone else can't reproduce the move.",
-      "objective": "Define translation, reflection and rotation"
+      "objective": "Define translation, reflection and rotation",
+      "seconds": 20
     },
     {
       "type": "type",
@@ -368,7 +378,8 @@
         "congruent"
       ],
       "explain": "Congruent. Every transformation in this topic produces a congruent image.",
-      "objective": "Explain what stays the same under every transformation"
+      "objective": "Explain what stays the same under every transformation",
+      "seconds": 20
     },
     {
       "type": "multiple",
@@ -381,7 +392,8 @@
       ],
       "answerIndex": 0,
       "explain": "The axis of reflection — the mirror line. Anything sitting on it doesn't move at all.",
-      "objective": "Define translation, reflection and rotation"
+      "objective": "Define translation, reflection and rotation",
+      "seconds": 20
     },
     {
       "type": "order",
@@ -392,47 +404,52 @@
         "Is it facing the same way? → translation"
       ],
       "explain": "Look for the mirror first, since it's unmistakable. Then turning. Whatever's left is a slide.",
-      "objective": "Identify which transformation has been applied to a shape"
+      "objective": "Identify which transformation has been applied to a shape",
+      "seconds": 30
     },
     {
       "type": "multiple",
       "text": "Last week you cut a piece off one edge of a square and slid it to the opposite edge. Which transformation was that?",
       "options": [
+        "Glide reflection",
         "Translation",
         "Reflection",
-        "Rotation",
-        "Glide reflection"
+        "Rotation"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "A translation. Cut-and-slide is a slide — you were using this topic before you had the word for it.",
-      "objective": "Connect transformations to how tessellations are built"
+      "objective": "Connect transformations to how tessellations are built",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Identical triangles need to be rotated 180° to tessellate together in rows.",
       "answer": true,
       "explain": "True. Alternate triangles point the opposite way. Two of them together form a parallelogram, which then tiles by translation.",
-      "objective": "Connect transformations to how tessellations are built"
+      "objective": "Connect transformations to how tessellations are built",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "A car drives in a straight line down a road. What are the wheels and the car body doing?",
       "options": [
         "The wheels rotate while the car translates",
-        "Both rotate",
         "Both translate",
-        "The wheels translate while the car rotates"
+        "The wheels translate while the car rotates",
+        "Both rotate"
       ],
       "answerIndex": 0,
       "explain": "Wheels turn about their axles — rotation. The car itself slides down the road — translation. Two transformations at once.",
-      "objective": "Identify which transformation has been applied to a shape"
+      "objective": "Identify which transformation has been applied to a shape",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "A point sitting exactly on the mirror line stays where it is during a reflection.",
       "answer": true,
       "explain": "True. Every point moves to the same distance on the other side. If that distance is zero, it doesn't move at all.",
-      "objective": "Define translation, reflection and rotation"
+      "objective": "Define translation, reflection and rotation",
+      "seconds": 15
     }
   ],
   "teacher": {

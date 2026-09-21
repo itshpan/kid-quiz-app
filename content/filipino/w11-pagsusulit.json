@@ -46,13 +46,14 @@
         "type": "multiple",
         "text": "Alin ang paraan ng pag-aaral na talagang nagpapatibay ng memorya?",
         "options": [
-          "Pagsagot nang nakasara ang aklat",
           "Pagbabasa nang dalawang beses",
+          "Pagsagot nang nakasara ang aklat",
           "Pagsalungguhit sa mahahalagang linya",
           "Pagkopya ng notes nang malinis"
         ],
-        "answerIndex": 0,
-        "explain": "Mas mahirap ito kaysa magbasa muli, at iyon mismo ang dahilan kung bakit ito umuubra."
+        "answerIndex": 1,
+        "explain": "Mas mahirap ito kaysa magbasa muli, at iyon mismo ang dahilan kung bakit ito umuubra.",
+        "seconds": 20
       }
     },
     {
@@ -87,7 +88,8 @@
         "type": "truefalse",
         "text": "Isang uri lamang ang maaaring taglayin ng isang pangngalan.",
         "answer": false,
-        "explain": "Ang \"Katipunan\" ay pantangi at palansak nang sabay. Tatlong magkahiwalay na tanong ito."
+        "explain": "Ang \"Katipunan\" ay pantangi at palansak nang sabay. Tatlong magkahiwalay na tanong ito.",
+        "seconds": 12
       }
     },
     {
@@ -148,11 +150,12 @@
         "options": [
           "Ang mga kapwa niya rebolusyonaryo",
           "Ang mga Espanyol",
-          "Ang mga Amerikano",
-          "Namatay siya sa labanan"
+          "Namatay siya sa labanan",
+          "Ang mga Amerikano"
         ],
         "answerIndex": 0,
-        "explain": "Mayo 1897, matapos ang Tejeros. Hindi ng Espanya kundi ng sarili niyang panig."
+        "explain": "Mayo 1897, matapos ang Tejeros. Hindi ng Espanya kundi ng sarili niyang panig.",
+        "seconds": 20
       }
     },
     {
@@ -175,7 +178,8 @@
         "type": "truefalse",
         "text": "Mas mabuting iwanang blangko ang tanong kaysa manghula.",
         "answer": false,
-        "explain": "Tiyak na zero ang blangko. Palaging mas mabuti ang hula matapos alisin ang mga maling pagpipilian."
+        "explain": "Tiyak na zero ang blangko. Palaging mas mabuti ang hula matapos alisin ang mga maling pagpipilian.",
+        "seconds": 12
       }
     },
     {
@@ -195,92 +199,99 @@
       "type": "multiple",
       "text": "Ilan ang letra sa alpabetong Filipino?",
       "options": [
-        "28",
         "26",
         "20",
-        "31"
+        "31",
+        "28"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Linggo 1. Kasama ang Ñ at ang NG.",
-      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Ilang patinig ang nasa isang pantig?",
       "options": [
+        "Nagbabago-bago",
         "Isa lamang",
-        "Dalawa",
         "Tatlo",
-        "Nagbabago-bago"
+        "Dalawa"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Linggo 1. Kaya kapag bumibilang ka ng pantig, ang patinig ang bilangin mo.",
-      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Saan inilalagay ang unlapi?",
       "options": [
-        "Sa unahan ng salitang-ugat",
         "Sa gitna ng salitang-ugat",
         "Sa hulihan ng salitang-ugat",
+        "Sa unahan ng salitang-ugat",
         "Kahit saan"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Linggo 2. Ang gitlapi ay nasa gitna at ang hulapi ay nasa dulo.",
-      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Anong kayarian ang salitang \"bahay-bahay\"?",
       "options": [
         "Inuulit",
-        "Payak",
         "Maylapi",
-        "Tambalan"
+        "Tambalan",
+        "Payak"
       ],
       "answerIndex": 0,
       "explain": "Linggo 3. Magkatulad ang dalawang bahagi, kaya inuulit ito at hindi tambalan.",
-      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Anong kayarian ang \"hampaslupa\"?",
       "options": [
-        "Tambalan",
-        "Inuulit",
+        "Maylapi",
         "Payak",
-        "Maylapi"
+        "Inuulit",
+        "Tambalan"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Linggo 3. Magkaiba ang dalawang salitang pinagsama, kaya tambalan ito.",
-      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Ano ang senyas ng karaniwang ayos ng pangungusap?",
       "options": [
-        "Nauuna ang panaguri, at walang \"ay\"",
+        "Mahaba ang pangungusap",
         "Nauuna ang simuno, at may \"ay\"",
-        "May tandang pananong",
-        "Mahaba ang pangungusap"
+        "Nauuna ang panaguri, at walang \"ay\"",
+        "May tandang pananong"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Linggo 4. Sa di-karaniwang ayos, nauuna ang simuno at ginagamit ang \"ay\".",
-      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Anong kayarian ang pangungusap na may isang punong sugnay lamang?",
       "options": [
-        "Payak",
         "Tambalan",
         "Hugnayan",
-        "Langkapan"
+        "Langkapan",
+        "Payak"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Linggo 5. Bilangin ang sugnay bago sumagot. Iyon ang buong paraan.",
-      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino",
+      "seconds": 15
     },
     {
       "type": "multiple",
@@ -293,46 +304,50 @@
       ],
       "answerIndex": 0,
       "explain": "Linggo 5. Ang tambalan ay dalawang punong sugnay; ang langkapan ay pinagsama ang dalawa.",
-      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Anong uri ito: \"Pakikuha nga ng tubig.\"",
       "options": [
         "Pakiusap",
+        "Padamdam",
         "Pautos",
-        "Patanong",
-        "Padamdam"
+        "Patanong"
       ],
       "answerIndex": 0,
       "explain": "Linggo 6. Ang \"paki-\" at ang \"nga\" ang senyas ng pakiusap.",
-      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Anong bantas ang ginagamit sa pangungusap na patanong?",
       "options": [
-        "Tandang pananong",
         "Tuldok",
         "Kuwit",
-        "Tandang padamdam"
+        "Tandang padamdam",
+        "Tandang pananong"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Linggo 6. Ang bantas sa dulo ang unang senyas ng uri ng pangungusap.",
-      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Alin ang pangungusap na walang paksa?",
       "options": [
-        "Umuulan nang malakas.",
+        "Malakas ang hangin.",
         "Umuulan ang langit.",
-        "Basang-basa ang guwantes.",
-        "Malakas ang hangin."
+        "Umuulan nang malakas.",
+        "Basang-basa ang guwantes."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Linggo 7. Walang gumagawa ng ulan sa gramatika. Panaguri lamang ang buong pangungusap.",
-      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino",
+      "seconds": 15
     },
     {
       "type": "multiple",
@@ -341,115 +356,124 @@
       "objective": "Maalala ang sampung paksa sa Filipino ngayong termino",
       "options": [
         "Masakit ang ulo ko.",
-        "Umuulan.",
         "Magsanay na!",
+        "Umuulan.",
         "Alas-singko na."
       ],
-      "answerIndex": 0
+      "answerIndex": 0,
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Anong uri ng pangngalan ang \"katapangan\"?",
       "options": [
-        "Basal",
-        "Tahas",
+        "Palansak",
         "Pantangi",
-        "Palansak"
+        "Basal",
+        "Tahas"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Linggo 8. Hindi mo ito kayang hawakan. Ideya ito.",
-      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Anong uri ang \"kawan\"?",
       "options": [
+        "Maramihan",
         "Palansak",
         "Pantangi",
-        "Basal",
-        "Maramihan"
+        "Basal"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Linggo 8. Isahan ang anyo ngunit pangkat ang tinutukoy.",
-      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Anong kasarian ang \"guro\"?",
       "options": [
-        "Di-tiyak",
-        "Pambabae",
         "Panlalaki",
-        "Walang kasarian"
+        "Di-tiyak",
+        "Walang kasarian",
+        "Pambabae"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Linggo 9. Maaaring lalaki o babae. Ang inaasahan ay hindi gramatika.",
-      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Saan galing ang mga pares na tulad ng \"aktor\" at \"aktres\"?",
       "options": [
-        "Espanyol",
+        "Malay",
         "Ingles",
-        "Tsino",
-        "Malay"
+        "Espanyol",
+        "Tsino"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Linggo 9. Ang -o ay panlalaki at ang -a ay pambabae sa Espanyol.",
-      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino"
+      "objective": "Maalala ang sampung paksa sa Filipino ngayong termino",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Alin ang tamang maramihan?",
       "options": [
-        "mga makina",
-        "mga makina-makina",
         "makina mga",
-        "mga mga makina"
+        "mga makina",
+        "mga mga makina",
+        "mga makina-makina"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Linggo 10. Isang senyas lamang. Huwag doblehin.",
-      "objective": "Matukoy ang mga karaniwang pagkakamali"
+      "objective": "Matukoy ang mga karaniwang pagkakamali",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Ano ang ibig sabihin ng \"araw-araw\"?",
       "options": [
-        "Tuwing araw",
         "Maraming araw",
-        "Dalawang araw",
-        "Mahabang araw"
+        "Tuwing araw",
+        "Mahabang araw",
+        "Dalawang araw"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Linggo 10. Ang pag-uulit ay nagbibigay ng ibang kahulugan, hindi ng dami.",
-      "objective": "Matukoy ang mga karaniwang pagkakamali"
+      "objective": "Matukoy ang mga karaniwang pagkakamali",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Saan at kailan isinilang si Andres Bonifacio?",
       "options": [
         "Tondo, Maynila, noong 1863",
-        "Cavite, noong 1869",
+        "Bulacan, noong 1863",
         "Kalookan, noong 1875",
-        "Bulacan, noong 1863"
+        "Cavite, noong 1869"
       ],
       "answerIndex": 0,
       "explain": "Linggo 1. Siya ang panganay sa anim na magkakapatid.",
-      "objective": "Maalala ang kasaysayang tinalakay sa strand ng pagbasa"
+      "objective": "Maalala ang kasaysayang tinalakay sa strand ng pagbasa",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Ano ang tatlong antas sa Katipunan?",
       "options": [
+        "Bayani, Kawal, Pangulo",
         "Katipon, Kawal, Bayani",
         "Katipon, Supremo, Bayani",
-        "Kawal, Heneral, Supremo",
-        "Bayani, Kawal, Pangulo"
+        "Kawal, Heneral, Supremo"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Linggo 2. May sariling hudyat ang bawat antas, at may dahilan ito: tiwala.",
-      "objective": "Maalala ang kasaysayang tinalakay sa strand ng pagbasa"
+      "objective": "Maalala ang kasaysayang tinalakay sa strand ng pagbasa",
+      "seconds": 15
     },
     {
       "type": "multiple",
@@ -457,51 +481,55 @@
       "options": [
         "Agapito Bagumbayan",
         "Laong Laan",
-        "Dimasalang",
-        "Plaridel"
+        "Plaridel",
+        "Dimasalang"
       ],
       "answerIndex": 0,
       "explain": "Linggo 2. Ang tunay na pangalan sa papel ay ebidensiya. Kaligtasan ang sagisag, hindi palamuti.",
-      "objective": "Maalala ang kasaysayang tinalakay sa strand ng pagbasa"
+      "objective": "Maalala ang kasaysayang tinalakay sa strand ng pagbasa",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Ano ang cedula?",
       "options": [
-        "Patunay na nagbabayad ka ng buwis",
+        "Isang uri ng paaralan",
         "Isang uri ng sandata",
-        "Isang pahayagan",
-        "Isang uri ng paaralan"
+        "Patunay na nagbabayad ka ng buwis",
+        "Isang pahayagan"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Linggo 3. Kailangan mo itong dalhin kahit saan, at ito ang pinunit noong Agosto 1896.",
-      "objective": "Maalala ang kasaysayang tinalakay sa strand ng pagbasa"
+      "objective": "Maalala ang kasaysayang tinalakay sa strand ng pagbasa",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Ano ang ibig sabihin ng pagpunit ng cedula noong 1896?",
       "options": [
-        "Hindi na sila sakop ng Espanya",
-        "Nawala ang kanilang trabaho",
+        "Hindi na sila magbabayad ng utang",
         "Tapos na ang buwis nila",
-        "Hindi na sila magbabayad ng utang"
+        "Nawala ang kanilang trabaho",
+        "Hindi na sila sakop ng Espanya"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Linggo 3 at 4. Walang salitang kailangan. Mas malakas ang sagisag kaysa sa talumpati.",
-      "objective": "Maalala ang kasaysayang tinalakay sa strand ng pagbasa"
+      "objective": "Maalala ang kasaysayang tinalakay sa strand ng pagbasa",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Ano ang nangyari sa Kumbensiyon sa Tejeros noong 1897?",
       "options": [
-        "Nanalo si Aguinaldo bilang pangulo at ipinawalang-bisa ni Bonifacio ang pagpupulong",
         "Nanalo si Bonifacio bilang pangulo",
         "Nagtapos ang himagsikan",
-        "Ipinahayag ang kalayaan"
+        "Ipinahayag ang kalayaan",
+        "Nanalo si Aguinaldo bilang pangulo at ipinawalang-bisa ni Bonifacio ang pagpupulong"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Linggo 5. May tumutol dahil walang titulo sa abogasya si Bonifacio.",
-      "objective": "Maalala ang kasaysayang tinalakay sa strand ng pagbasa"
+      "objective": "Maalala ang kasaysayang tinalakay sa strand ng pagbasa",
+      "seconds": 20
     }
   ],
   "teacher": {

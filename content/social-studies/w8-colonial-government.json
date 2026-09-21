@@ -47,12 +47,13 @@
         "text": "What could the Taft Commission do that the Schurman Commission could not?",
         "options": [
           "Make laws",
-          "Travel to the provinces",
+          "Speak to Filipinos",
           "Write a report",
-          "Speak to Filipinos"
+          "Travel to the provinces"
         ],
         "answerIndex": 0,
-        "explain": "Schurman was advisory. Taft held actual legislative power from September 1900."
+        "explain": "Schurman was advisory. Taft held actual legislative power from September 1900.",
+        "seconds": 20
       }
     },
     {
@@ -111,13 +112,14 @@
         "type": "multiple",
         "text": "What could the two Filipino resident commissioners in Washington do?",
         "options": [
-          "Speak in Congress but not vote",
-          "Vote on any American law",
           "Veto American decisions",
-          "Nothing at all"
+          "Speak in Congress but not vote",
+          "Nothing at all",
+          "Vote on any American law"
         ],
-        "answerIndex": 0,
-        "explain": "They had a voice and no vote. That distinction is the point of the whole week."
+        "answerIndex": 1,
+        "explain": "They had a voice and no vote. That distinction is the point of the whole week.",
+        "seconds": 20
       }
     },
     {
@@ -152,7 +154,8 @@
         "type": "truefalse",
         "text": "The Philippine Assembly could pass laws without American approval.",
         "answer": false,
-        "explain": "False. The American-controlled Philippine Commission sat above it and could block any bill."
+        "explain": "False. The American-controlled Philippine Commission sat above it and could block any bill.",
+        "seconds": 12
       }
     },
     {
@@ -216,73 +219,79 @@
       "type": "multiple",
       "text": "Who governed the Philippines from August 1898 to July 1901?",
       "options": [
-        "American military governors",
+        "The Schurman Commission",
         "An elected Filipino assembly",
         "The Spanish Governor-General",
-        "The Schurman Commission"
+        "American military governors"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Three military governors in turn: Merritt, Otis, then Arthur MacArthur.",
-      "objective": "Describe the stages from military to civil government"
+      "objective": "Describe the stages from military to civil government",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "When did civil government begin?",
       "options": [
-        "4 July 1901",
-        "16 October 1907",
         "1 September 1900",
-        "1 July 1902"
+        "1 July 1902",
+        "4 July 1901",
+        "16 October 1907"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "American Independence Day, chosen deliberately. Taft became the first Civil Governor.",
-      "objective": "Describe the stages from military to civil government"
+      "objective": "Describe the stages from military to civil government",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Who was the first Civil Governor of the Philippines?",
       "options": [
         "William Howard Taft",
-        "Jacob Schurman",
+        "Sergio Osmena",
         "Arthur MacArthur",
-        "Sergio Osmena"
+        "Jacob Schurman"
       ],
       "answerIndex": 0,
       "explain": "Taft, from 4 July 1901. He later became President of the United States.",
-      "objective": "Describe the stages from military to civil government"
+      "objective": "Describe the stages from military to civil government",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What power did the Taft Commission hold from September 1900?",
       "options": [
-        "Legislative power to make laws",
-        "Advisory power only",
         "Command of the army",
-        "The power to grant independence"
+        "Legislative power to make laws",
+        "The power to grant independence",
+        "Advisory power only"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "That is the difference between it and the Schurman Commission, which could only report.",
-      "objective": "Explain what the Taft Commission could do that the first one could not"
+      "objective": "Explain what the Taft Commission could do that the first one could not",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "The Schurman Commission could pass laws for the Philippines.",
       "answer": false,
       "explain": "False. It was advisory. It investigated and reported, and that was all.",
-      "objective": "Explain what the Taft Commission could do that the first one could not"
+      "objective": "Explain what the Taft Commission could do that the first one could not",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Which of these did the Philippine Bill of 1902 promise?",
       "options": [
-        "An elected assembly once a census was taken",
-        "Immediate independence",
         "A Filipino president",
-        "The removal of all American troops"
+        "The removal of all American troops",
+        "Immediate independence",
+        "An elected assembly once a census was taken"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "It promised a bill of rights, an elected assembly with conditions, and two resident commissioners.",
-      "objective": "Describe the Philippine Bill of 1902"
+      "objective": "Describe the Philippine Bill of 1902",
+      "seconds": 20
     },
     {
       "type": "multiple",
@@ -290,71 +299,77 @@
       "options": [
         "Speak but not vote",
         "Vote on all bills",
-        "Veto laws about the Philippines",
-        "Elect the Civil Governor"
+        "Elect the Civil Governor",
+        "Veto laws about the Philippines"
       ],
       "answerIndex": 0,
       "explain": "A voice without a vote. It is the pattern of the whole period.",
-      "objective": "Describe the Philippine Bill of 1902"
+      "objective": "Describe the Philippine Bill of 1902",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "When did the Philippine Assembly open?",
       "options": [
         "16 October 1907",
-        "4 July 1901",
+        "23 March 1901",
         "1 July 1902",
-        "23 March 1901"
+        "4 July 1901"
       ],
       "answerIndex": 0,
       "explain": "Five years after the 1902 Bill promised it. The census had to come first.",
-      "objective": "Explain what the Philippine Assembly was and what limited it"
+      "objective": "Explain what the Philippine Assembly was and what limited it",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Who was Speaker of the first Philippine Assembly?",
       "options": [
-        "Sergio Osmena",
         "Manuel Quezon",
-        "Emilio Aguinaldo",
-        "Apolinario Mabini"
+        "Apolinario Mabini",
+        "Sergio Osmena",
+        "Emilio Aguinaldo"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Osmena, at twenty-nine. He later became President of the Commonwealth.",
-      "objective": "Explain what the Philippine Assembly was and what limited it"
+      "objective": "Explain what the Philippine Assembly was and what limited it",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What limited the Philippine Assembly's power?",
       "options": [
-        "The American-controlled Commission sat above it as an upper house",
         "It was not allowed to meet",
-        "Its members were appointed, not elected",
-        "It had no Speaker"
+        "The American-controlled Commission sat above it as an upper house",
+        "It had no Speaker",
+        "Its members were appointed, not elected"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "It was genuinely elected and genuinely legislative, and any bill could be blocked above it.",
-      "objective": "Explain what the Philippine Assembly was and what limited it"
+      "objective": "Explain what the Philippine Assembly was and what limited it",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "Most Filipino adults could vote in the 1907 Assembly election.",
       "answer": false,
       "explain": "False. Property, literacy and language requirements left roughly 1.4 percent eligible.",
-      "objective": "Explain what the Philippine Assembly was and what limited it"
+      "objective": "Explain what the Philippine Assembly was and what limited it",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "What did 'benevolent assimilation' claim?",
       "options": [
+        "That Filipinos would never govern themselves",
         "That American rule was for the Filipinos' own good until they were ready",
         "That the Philippines was already independent",
-        "That Spain still governed",
-        "That Filipinos would never govern themselves"
+        "That Spain still governed"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "The catch is in the word 'until'. The Americans decided when ready arrived.",
-      "objective": "Explain the idea of a government that trains its own replacement"
+      "objective": "Explain the idea of a government that trains its own replacement",
+      "seconds": 25
     }
   ],
   "teacher": {

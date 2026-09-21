@@ -51,7 +51,8 @@
         "accept": [
           "matches"
         ],
-        "explain": "matches. It ends in -ch, so it takes -es. Try saying \"matchs\" — your mouth refuses."
+        "explain": "matches. It ends in -ch, so it takes -es. Try saying \"matchs\" — your mouth refuses.",
+        "seconds": 15
       }
     },
     {
@@ -79,12 +80,13 @@
         "type": "multiple",
         "text": "Which of these is spelled correctly?",
         "options": [
-          "journeys",
           "journies",
+          "journeys",
           "journeyes"
         ],
-        "answerIndex": 0,
-        "explain": "journeys. The letter before the y is **e**, a vowel — so it just takes -s. Only a consonant before the y triggers -ies."
+        "answerIndex": 1,
+        "explain": "journeys. The letter before the y is **e**, a vowel — so it just takes -s. Only a consonant before the y triggers -ies.",
+        "seconds": 15
       }
     },
     {
@@ -118,7 +120,8 @@
         "accept": [
           "knives"
         ],
-        "explain": "knives. The -fe becomes -ves. Same family as life → lives and wife → wives."
+        "explain": "knives. The -fe becomes -ves. Same family as life → lives and wife → wives.",
+        "seconds": 15
       }
     },
     {
@@ -155,7 +158,8 @@
           "Does it end in consonant + y?",
           "Otherwise, just add -s"
         ],
-        "explain": "Check the odd ones first. Irregulars beat every rule, then the hissing sounds, then the y rule. Everything left over just takes -s."
+        "explain": "Check the odd ones first. Irregulars beat every rule, then the hissing sounds, then the y rule. Everything left over just takes -s.",
+        "seconds": 35
       }
     },
     {
@@ -247,11 +251,12 @@
         "text": "Why doesn't Don Quixote test his second helmet?",
         "options": [
           "He doesn't want to find out it's weak",
-          "He has run out of pasteboard",
-          "A knight told him not to"
+          "A knight told him not to",
+          "He has run out of pasteboard"
         ],
         "answerIndex": 0,
-        "explain": "He'd rather believe it works than know it doesn't. That choice tells you almost everything about him."
+        "explain": "He'd rather believe it works than know it doesn't. That choice tells you almost everything about him.",
+        "seconds": 20
       }
     },
     {
@@ -308,7 +313,8 @@
         "type": "truefalse",
         "text": "Don Quixote gives new names to himself, his horse, and the woman he chooses.",
         "answer": true,
-        "explain": "True. Alonso Quixano becomes Don Quixote, his horse becomes Rocinante, and Aldonza Lorenzo becomes Dulcinea. Naming is how he makes it real."
+        "explain": "True. Alonso Quixano becomes Don Quixote, his horse becomes Rocinante, and Aldonza Lorenzo becomes Dulcinea. Naming is how he makes it real.",
+        "seconds": 12
       }
     },
     {
@@ -336,33 +342,36 @@
         "boxes"
       ],
       "explain": "boxes. It ends in -x, so it takes -es.",
-      "objective": "Form regular plurals using -s and -es"
+      "objective": "Form regular plurals using -s and -es",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Which one is correct?",
       "options": [
-        "babies",
-        "babys",
         "babyes",
+        "babys",
+        "babies",
         "babie"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "babies. The letter before the y is **b**, a consonant, so the y becomes -ies.",
-      "objective": "Apply the y, f and o plural rules correctly"
+      "objective": "Apply the y, f and o plural rules correctly",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Which one is correct?",
       "options": [
-        "monkeys",
         "monkies",
+        "monkys",
         "monkeyes",
-        "monkys"
+        "monkeys"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "monkeys. The letter before the y is **e**, a vowel — so it just takes -s.",
-      "objective": "Apply the y, f and o plural rules correctly"
+      "objective": "Apply the y, f and o plural rules correctly",
+      "seconds": 12
     },
     {
       "type": "type",
@@ -371,73 +380,80 @@
         "leaves"
       ],
       "explain": "leaves. The -f becomes -ves, like wolf → wolves and half → halves.",
-      "objective": "Apply the y, f and o plural rules correctly"
+      "objective": "Apply the y, f and o plural rules correctly",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Which of these is an IRREGULAR plural?",
       "options": [
         "teeth",
-        "buses",
         "cities",
-        "helmets"
+        "helmets",
+        "buses"
       ],
       "answerIndex": 0,
       "explain": "teeth. The others all follow a rule. Tooth → teeth follows nothing — you just have to know it.",
-      "objective": "Recognise irregular plurals and nouns that do not change"
+      "objective": "Recognise irregular plurals and nouns that do not change",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "The plural of **sheep** is **sheeps**.",
       "answer": false,
       "explain": "False. Sheep doesn't change. One sheep, ten sheep — same word. So do deer, fish and aircraft.",
-      "objective": "Recognise irregular plurals and nouns that do not change"
+      "objective": "Recognise irregular plurals and nouns that do not change",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Which one is correct?",
       "options": [
         "potatoes",
-        "potatos",
+        "potatoe",
         "potatoies",
-        "potatoe"
+        "potatos"
       ],
       "answerIndex": 0,
       "explain": "potatoes. Food words ending in -o usually take -es. Photos and pianos take just -s.",
-      "objective": "Apply the y, f and o plural rules correctly"
+      "objective": "Apply the y, f and o plural rules correctly",
+      "seconds": 12
     },
     {
       "type": "truefalse",
       "text": "You use an apostrophe to make a noun plural, like **car's** for more than one car.",
       "answer": false,
       "explain": "False, and this is the most common mistake in English. Plurals never take an apostrophe. **car's** means something belongs to the car.",
-      "objective": "Form regular plurals using -s and -es"
+      "objective": "Form regular plurals using -s and -es",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What was Don Quixote's real name before he renamed himself?",
       "options": [
+        "Aldonza Lorenzo",
         "Alonso Quixano",
-        "Rocinante",
         "Sancho Panza",
-        "Aldonza Lorenzo"
+        "Rocinante"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Alonso Quixano, a quiet country gentleman. Rocinante is his horse and Aldonza Lorenzo is the woman he renames Dulcinea.",
-      "objective": "Retell the opening of Don Quixote and explain what drives him"
+      "objective": "Retell the opening of Don Quixote and explain what drives him",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Why does Don Quixote decide to become a knight?",
       "options": [
-        "He read so many books about knights that he believed they were true",
-        "A king ordered him to",
         "He wanted to become rich",
-        "His family asked him to defend their land"
+        "He read so many books about knights that he believed they were true",
+        "His family asked him to defend their land",
+        "A king ordered him to"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "He read about knights day and night, and sold land to buy more books. Eventually he believed the stories were history.",
-      "objective": "Retell the opening of Don Quixote and explain what drives him"
+      "objective": "Retell the opening of Don Quixote and explain what drives him",
+      "seconds": 25
     },
     {
       "type": "type",
@@ -446,7 +462,8 @@
         "rocinante"
       ],
       "explain": "Rocinante. He spends four days choosing it, because the name has to sound worthy of a knight.",
-      "objective": "Retell the opening of Don Quixote and explain what drives him"
+      "objective": "Retell the opening of Don Quixote and explain what drives him",
+      "seconds": 15
     },
     {
       "type": "order",
@@ -459,7 +476,8 @@
         "He rides out at dawn"
       ],
       "explain": "Books, then gear, then the horse, then the lady, then the road. He prepares his identity before he ever leaves the house.",
-      "objective": "Retell the opening of Don Quixote and explain what drives him"
+      "objective": "Retell the opening of Don Quixote and explain what drives him",
+      "seconds": 30
     }
   ],
   "teacher": {

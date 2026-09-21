@@ -47,12 +47,13 @@
         "text": "What is the order in Romans 5:3-5?",
         "options": [
           "Suffering, perseverance, character, hope",
-          "Hope, character, suffering, perseverance",
           "Character, hope, suffering, perseverance",
-          "Perseverance, suffering, hope, character"
+          "Perseverance, suffering, hope, character",
+          "Hope, character, suffering, perseverance"
         ],
         "answerIndex": 0,
-        "explain": "Each one produces the next. None of the links can be skipped."
+        "explain": "Each one produces the next. None of the links can be skipped.",
+        "seconds": 20
       }
     },
     {
@@ -87,7 +88,8 @@
         "type": "truefalse",
         "text": "James 1:2 instructs you to feel happy about difficulties.",
         "answer": false,
-        "explain": "'Consider' is a thinking word. It is a decision about how to read a situation, not a feeling to manufacture."
+        "explain": "'Consider' is a thinking word. It is a decision about how to read a situation, not a feeling to manufacture.",
+        "seconds": 12
       }
     },
     {
@@ -134,13 +136,14 @@
         "type": "multiple",
         "text": "How long was Joseph in prison after the cupbearer forgot him?",
         "options": [
-          "Two full years",
-          "Two months",
           "Two weeks",
-          "Twenty years"
+          "Two full years",
+          "Twenty years",
+          "Two months"
         ],
-        "answerIndex": 0,
-        "explain": "Genesis 41:1. The gap is written into the text on purpose."
+        "answerIndex": 1,
+        "explain": "Genesis 41:1. The gap is written into the text on purpose.",
+        "seconds": 20
       }
     },
     {
@@ -213,46 +216,50 @@
       "text": "What does suffering produce, according to Romans 5:3?",
       "options": [
         "Perseverance",
-        "Hope",
         "Character",
-        "Joy"
+        "Joy",
+        "Hope"
       ],
       "answerIndex": 0,
       "explain": "Then perseverance produces character, and character produces hope.",
-      "objective": "Explain the chain in Romans 5:3-5"
+      "objective": "Explain the chain in Romans 5:3-5",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What comes last in the Romans 5 chain?",
       "options": [
-        "Hope",
-        "Character",
         "Perseverance",
-        "Suffering"
+        "Suffering",
+        "Character",
+        "Hope"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "And hope built this way does not put us to shame.",
-      "objective": "Explain the chain in Romans 5:3-5"
+      "objective": "Explain the chain in Romans 5:3-5",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "Romans 5 says that suffering itself is good.",
       "answer": false,
       "explain": "False. It says something is produced by it. Those are different claims.",
-      "objective": "Explain the chain in Romans 5:3-5"
+      "objective": "Explain the chain in Romans 5:3-5",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "What does 'consider it pure joy' ask you to do?",
       "options": [
+        "Avoid the difficulty",
         "Make a judgement about how to read the situation",
-        "Feel happy about the trouble",
         "Pretend nothing is wrong",
-        "Avoid the difficulty"
+        "Feel happy about the trouble"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "'Consider' is a thinking word, not a feeling to manufacture.",
-      "objective": "Explain James 1:2-4 without pretending trials are pleasant"
+      "objective": "Explain James 1:2-4 without pretending trials are pleasant",
+      "seconds": 20
     },
     {
       "type": "multiple",
@@ -260,91 +267,99 @@
       "options": [
         "Perseverance",
         "Wealth",
-        "Popularity",
-        "Silence"
+        "Silence",
+        "Popularity"
       ],
       "answerIndex": 0,
       "explain": "And perseverance must finish its work, so that you are mature and complete.",
-      "objective": "Explain James 1:2-4 without pretending trials are pleasant"
+      "objective": "Explain James 1:2-4 without pretending trials are pleasant",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What does perseverance require to count as perseverance?",
       "options": [
         "The option of leaving",
-        "A large audience",
         "A short duration",
+        "A large audience",
         "An easy task"
       ],
       "answerIndex": 0,
       "explain": "If you cannot leave, staying is endurance rather than perseverance.",
-      "objective": "Explain what perseverance actually means"
+      "objective": "Explain what perseverance actually means",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What does 'character' mean in Romans 5?",
       "options": [
-        "Tested and found genuine",
+        "Confident",
         "Naturally kind",
         "Well known",
-        "Confident"
+        "Tested and found genuine"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "The sense is proven under test, which is why it comes after perseverance.",
-      "objective": "Explain what perseverance actually means"
+      "objective": "Explain what perseverance actually means",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What happened to Joseph after the cupbearer promised to speak for him?",
       "options": [
-        "He stayed in prison two more full years",
         "He was released the next day",
-        "He was sent home",
-        "He was made a governor immediately"
+        "He was made a governor immediately",
+        "He stayed in prison two more full years",
+        "He was sent home"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Genesis 41:1. The gap is written into the text deliberately.",
-      "objective": "Describe how Joseph's story runs over years, not days"
+      "objective": "Describe how Joseph's story runs over years, not days",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "What does Joseph say to his brothers in Genesis 50:20?",
       "options": [
+        "I will do the same to you",
         "You intended to harm me, but God intended it for good",
-        "I have forgotten what you did",
         "You were right all along",
-        "I will do the same to you"
+        "I have forgotten what you did"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "He says it at the end of the story, not during the years of waiting.",
-      "objective": "Describe how Joseph's story runs over years, not days"
+      "objective": "Describe how Joseph's story runs over years, not days",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "Joseph could see how his story would end while he was in prison.",
       "answer": false,
       "explain": "False. A reader can see the next page; he could not. That is what makes it perseverance.",
-      "objective": "Describe how Joseph's story runs over years, not days"
+      "objective": "Describe how Joseph's story runs over years, not days",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "What does 1 Corinthians 10:13 promise?",
       "options": [
-        "A limit on testing and a way to endure it",
-        "That you will never be tested",
         "That trials will be short",
-        "That others will help you"
+        "That others will help you",
+        "A limit on testing and a way to endure it",
+        "That you will never be tested"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Not an absence of testing. A limit, and a way provided.",
-      "objective": "Explain the promise in 1 Corinthians 10:13"
+      "objective": "Explain the promise in 1 Corinthians 10:13",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "1 Corinthians 10:13 promises that Christians will not face difficulties.",
       "answer": false,
       "explain": "False. It promises a limit and a way through, which is a different promise entirely.",
-      "objective": "Explain the promise in 1 Corinthians 10:13"
+      "objective": "Explain the promise in 1 Corinthians 10:13",
+      "seconds": 12
     }
   ],
   "teacher": {

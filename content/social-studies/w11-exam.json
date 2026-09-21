@@ -46,13 +46,14 @@
         "type": "multiple",
         "text": "Which came first?",
         "options": [
+          "The Malolos Congress",
           "The Cavite Mutiny",
           "The founding of the Katipunan",
-          "The Treaty of Paris",
-          "The Malolos Congress"
+          "The Treaty of Paris"
         ],
-        "answerIndex": 0,
-        "explain": "1872. The Katipunan is 1892, and the other two are 1898."
+        "answerIndex": 1,
+        "explain": "1872. The Katipunan is 1892, and the other two are 1898.",
+        "seconds": 15
       }
     },
     {
@@ -87,7 +88,8 @@
         "type": "truefalse",
         "text": "The Reform Movement wanted independence from Spain.",
         "answer": false,
-        "explain": "It wanted rights and representation inside Spain. Independence is the Katipunan, and it came later."
+        "explain": "It wanted rights and representation inside Spain. Independence is the Katipunan, and it came later.",
+        "seconds": 12
       }
     },
     {
@@ -147,12 +149,13 @@
         "text": "A question asks you to assess American colonial rule. What does a full answer need?",
         "options": [
           "Both the benefits and the costs, then a judgement",
-          "Only the benefits",
+          "A list of dates",
           "Only the costs",
-          "A list of dates"
+          "Only the benefits"
         ],
         "answerIndex": 0,
-        "explain": "Assess means weigh. Giving one side only answers half the question."
+        "explain": "Assess means weigh. Giving one side only answers half the question.",
+        "seconds": 25
       }
     },
     {
@@ -175,7 +178,8 @@
         "type": "truefalse",
         "text": "Bonifacio was executed by the Spanish.",
         "answer": false,
-        "explain": "He was executed in May 1897 by fellow revolutionaries, after the split at Tejeros."
+        "explain": "He was executed in May 1897 by fellow revolutionaries, after the split at Tejeros.",
+        "seconds": 12
       }
     },
     {
@@ -194,10 +198,16 @@
     {
       "type": "multiple",
       "text": "How many islands make up the Philippines?",
-      "options": ["7,641", "7,107", "1,000", "12,500"],
-      "answerIndex": 0,
+      "options": [
+        "1,000",
+        "7,641",
+        "12,500",
+        "7,107"
+      ],
+      "answerIndex": 1,
       "explain": "Week 1. An archipelago in three main groups: Luzon, the Visayas and Mindanao.",
-      "objective": "Recall the ten Social Studies topics of the term"
+      "objective": "Recall the ten Social Studies topics of the term",
+      "seconds": 15
     },
     {
       "type": "multiple",
@@ -210,248 +220,290 @@
       ],
       "answerIndex": 0,
       "explain": "Week 1. The name came from the coloniser, not from anyone born in the islands.",
-      "objective": "Recall the ten Social Studies topics of the term"
+      "objective": "Recall the ten Social Studies topics of the term",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What happened in 1872?",
       "options": [
-        "The Cavite Mutiny and the execution of GomBurZa",
-        "The founding of the Katipunan",
         "The execution of Rizal",
-        "The Treaty of Paris"
+        "The founding of the Katipunan",
+        "The Treaty of Paris",
+        "The Cavite Mutiny and the execution of GomBurZa"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Week 2. A workplace protest of about two hundred men, used as grounds to execute three priests.",
-      "objective": "Recall the ten Social Studies topics of the term"
+      "objective": "Recall the ten Social Studies topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "How did the Suez Canal affect Filipino nationalism?",
       "options": [
-        "It shortened the journey to Europe, so ideas spread faster",
         "It made Spain richer",
         "It brought more soldiers",
-        "It closed the trade routes"
+        "It closed the trade routes",
+        "It shortened the journey to Europe, so ideas spread faster"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Week 2. Opened in 1869. Students, books and newspapers all moved more quickly.",
-      "objective": "Recall the ten Social Studies topics of the term"
+      "objective": "Recall the ten Social Studies topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What did the Propaganda Movement want?",
       "options": [
-        "Reform and representation within Spain",
-        "Immediate independence",
+        "An alliance with America",
         "A return to pre-colonial rule",
-        "An alliance with America"
+        "Immediate independence",
+        "Reform and representation within Spain"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Week 3. Independence is the Katipunan. Wanting reform is not the same as wanting separation.",
-      "objective": "Recall the ten Social Studies topics of the term"
+      "objective": "Recall the ten Social Studies topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What was La Solidaridad?",
       "options": [
         "The newspaper of the Propaganda Movement",
-        "A secret revolutionary society",
         "A Spanish law",
+        "A secret revolutionary society",
         "A school in Manila"
       ],
       "answerIndex": 0,
       "explain": "Week 3. Lopez Jaena founded it; del Pilar edited it for most of its life.",
-      "objective": "Recall the ten Social Studies topics of the term"
+      "objective": "Recall the ten Social Studies topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Why was Rizal arrested in July 1892?",
       "options": [
-        "For founding La Liga Filipina",
         "For writing Noli Me Tangere",
+        "For founding La Liga Filipina",
         "For leading the revolution",
         "For joining the Katipunan"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Week 4. La Liga was a legal civic group. He was exiled to Dapitan days after founding it.",
-      "objective": "Recall the ten Social Studies topics of the term"
+      "objective": "Recall the ten Social Studies topics of the term",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Rizal led the revolution against Spain.",
       "answer": false,
       "explain": "Week 4. He argued against it and said the country was not ready. He was executed for it anyway.",
-      "objective": "Recall the ten Social Studies topics of the term"
+      "objective": "Recall the ten Social Studies topics of the term",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "When was Rizal executed?",
-      "options": ["December 1896", "December 1898", "May 1897", "July 1892"],
-      "answerIndex": 0,
+      "options": [
+        "May 1897",
+        "December 1898",
+        "December 1896",
+        "July 1892"
+      ],
+      "answerIndex": 2,
       "explain": "Week 4. The revolution had already begun in August of that year.",
-      "objective": "Recall the ten Social Studies topics of the term"
+      "objective": "Recall the ten Social Studies topics of the term",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What was the Katipunan?",
       "options": [
-        "A secret society organised for armed revolution",
-        "A newspaper published in Spain",
         "A Spanish government body",
-        "A school for reformers"
+        "A school for reformers",
+        "A newspaper published in Spain",
+        "A secret society organised for armed revolution"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Week 5. Founded in 1892, the year La Liga was shut down.",
-      "objective": "Recall the ten Social Studies topics of the term"
+      "objective": "Recall the ten Social Studies topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What happened at Tejeros in March 1897?",
       "options": [
-        "An election that split Bonifacio and Aguinaldo",
-        "A battle against the Spanish",
         "The declaration of independence",
-        "The signing of a treaty"
+        "An election that split Bonifacio and Aguinaldo",
+        "The signing of a treaty",
+        "A battle against the Spanish"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Week 5. Bonifacio was executed by fellow revolutionaries two months later.",
-      "objective": "Recall the ten Social Studies topics of the term"
+      "objective": "Recall the ten Social Studies topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What do the three stars on the flag stand for?",
       "options": [
-        "Luzon, the Visayas and Mindanao",
         "Three national heroes",
-        "Three revolutions",
-        "Three Spanish provinces"
+        "Luzon, the Visayas and Mindanao",
+        "Three Spanish provinces",
+        "Three revolutions"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Week 5. The eight rays stand for the first eight provinces to revolt.",
-      "objective": "Recall the ten Social Studies topics of the term"
+      "objective": "Recall the ten Social Studies topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "When was the Malolos Constitution approved?",
-      "options": ["January 1899", "June 1898", "December 1898", "September 1900"],
+      "options": [
+        "January 1899",
+        "December 1898",
+        "September 1900",
+        "June 1898"
+      ],
       "answerIndex": 0,
       "explain": "Week 6. It made the First Republic the first constitutional republic in Asia.",
-      "objective": "Recall the ten Social Studies topics of the term"
+      "objective": "Recall the ten Social Studies topics of the term",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Why was the Battle of Manila in August 1898 staged?",
       "options": [
-        "So Spain could surrender to Americans rather than to Filipinos",
         "To test new weapons",
         "To end the revolution quickly",
+        "So Spain could surrender to Americans rather than to Filipinos",
         "Because Spain had already left"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Week 6. Filipino forces were kept out of the city afterwards.",
-      "objective": "Recall the ten Social Studies topics of the term"
+      "objective": "Recall the ten Social Studies topics of the term",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "What did the Treaty of Paris do?",
       "options": [
-        "Spain sold the Philippines to the United States for twenty million dollars",
-        "It recognised Philippine independence",
+        "It returned the islands to Spain",
         "It ended American rule",
-        "It returned the islands to Spain"
+        "Spain sold the Philippines to the United States for twenty million dollars",
+        "It recognised Philippine independence"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Week 6. December 1898, and no Filipino was present at the negotiations.",
-      "objective": "Recall the ten Social Studies topics of the term"
+      "objective": "Recall the ten Social Studies topics of the term",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "When and where did the Filipino-American War begin?",
       "options": [
-        "San Juan bridge, 4 February 1899",
-        "Manila Bay, 1 May 1898",
         "Malolos, January 1899",
-        "Palanan, March 1901"
+        "Palanan, March 1901",
+        "San Juan bridge, 4 February 1899",
+        "Manila Bay, 1 May 1898"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Week 7. The Senate ratified the Treaty of Paris two days later.",
-      "objective": "Recall the ten Social Studies topics of the term"
+      "objective": "Recall the ten Social Studies topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Who died holding Tirad Pass in December 1899?",
       "options": [
         "Gregorio del Pilar",
-        "Antonio Luna",
         "Emilio Aguinaldo",
-        "Miguel Malvar"
+        "Miguel Malvar",
+        "Antonio Luna"
       ],
       "answerIndex": 0,
       "explain": "Week 7. He was twenty-four. Sixty men held the pass so Aguinaldo could escape north.",
-      "objective": "Recall the ten Social Studies topics of the term"
+      "objective": "Recall the ten Social Studies topics of the term",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "More civilians died in the Filipino-American War than soldiers on either side.",
       "answer": true,
       "explain": "Week 7. Most died of famine and disease rather than in fighting.",
-      "objective": "Recall the ten Social Studies topics of the term"
+      "objective": "Recall the ten Social Studies topics of the term",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "When did civil government begin in the Philippines?",
-      "options": ["4 July 1901", "16 October 1907", "1 September 1900", "23 March 1901"],
-      "answerIndex": 0,
+      "options": [
+        "23 March 1901",
+        "4 July 1901",
+        "1 September 1900",
+        "16 October 1907"
+      ],
+      "answerIndex": 1,
       "explain": "Week 8. William Howard Taft became the first Civil Governor.",
-      "objective": "Recall the ten Social Studies topics of the term"
+      "objective": "Recall the ten Social Studies topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What could the Taft Commission do that the Schurman Commission could not?",
-      "options": ["Make laws", "Write a report", "Travel freely", "Speak to Filipinos"],
-      "answerIndex": 0,
+      "options": [
+        "Travel freely",
+        "Write a report",
+        "Speak to Filipinos",
+        "Make laws"
+      ],
+      "answerIndex": 3,
       "explain": "Weeks 8 and 9. Schurman was advisory. Taft held legislative power from September 1900.",
-      "objective": "Recall the ten Social Studies topics of the term"
+      "objective": "Recall the ten Social Studies topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What limited the Philippine Assembly of 1907?",
       "options": [
-        "An American-controlled upper house could block its bills",
         "Its members were appointed, not elected",
-        "It was never allowed to meet",
-        "It had no Speaker"
+        "It had no Speaker",
+        "An American-controlled upper house could block its bills",
+        "It was never allowed to meet"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Week 8. It was genuinely elected and genuinely legislative, and it could still be overruled.",
-      "objective": "Recall the ten Social Studies topics of the term"
+      "objective": "Recall the ten Social Studies topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What is the strongest evidence against the claim that Filipinos were 'not ready'?",
       "options": [
+        "The Katipunan was still fighting",
         "The Malolos Republic already had a constitution, congress and courts",
-        "Spain had already left",
         "The Americans admitted it",
-        "The Katipunan was still fighting"
+        "Spain had already left"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Week 9. It had been running since January 1899, while the report was being written.",
-      "objective": "Recall the ten Social Studies topics of the term"
+      "objective": "Recall the ten Social Studies topics of the term",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "What did Act No. 74 of 1901 create?",
       "options": [
         "A free public primary school system",
+        "A national army",
         "The Philippine Assembly",
-        "The Philippine Independent Church",
-        "A national army"
+        "The Philippine Independent Church"
       ],
       "answerIndex": 0,
       "explain": "Week 10. The largest and most lasting change of the American period.",
-      "objective": "Recall the ten Social Studies topics of the term"
+      "objective": "Recall the ten Social Studies topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
@@ -459,12 +511,13 @@
       "options": [
         "American teachers who arrived in August 1901",
         "American soldiers at Tirad Pass",
-        "Filipino priests who left the Catholic Church",
-        "Members of the Philippine Commission"
+        "Members of the Philippine Commission",
+        "Filipino priests who left the Catholic Church"
       ],
       "answerIndex": 0,
       "explain": "Week 10. About five hundred civilian teachers, named after the ship that carried them.",
-      "objective": "Recall the ten Social Studies topics of the term"
+      "objective": "Recall the ten Social Studies topics of the term",
+      "seconds": 20
     }
   ],
   "teacher": {

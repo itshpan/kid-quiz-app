@@ -46,13 +46,14 @@
         "type": "multiple",
         "text": "What is the first step when demonstrating a practical skill?",
         "options": [
-          "Lay out everything you need before starting",
-          "Start immediately to save time",
           "Explain the whole thing first",
-          "Ask what the marks are for"
+          "Lay out everything you need before starting",
+          "Ask what the marks are for",
+          "Start immediately to save time"
         ],
-        "answerIndex": 0,
-        "explain": "Preparation is visible and it is marked. Hunting for something mid-task is not."
+        "answerIndex": 1,
+        "explain": "Preparation is visible and it is marked. Hunting for something mid-task is not.",
+        "seconds": 25
       }
     },
     {
@@ -87,7 +88,8 @@
         "type": "truefalse",
         "text": "Finishing a demonstration means completing the task and resetting the space.",
         "answer": true,
-        "explain": "The reset is part of finishing, in TLE as at home. Leaving it moves the job to someone else."
+        "explain": "The reset is part of finishing, in TLE as at home. Leaving it moves the job to someone else.",
+        "seconds": 12
       }
     },
     {
@@ -152,7 +154,8 @@
           "The most recent one"
         ],
         "answerIndex": 0,
-        "explain": "Anyone can show a good piece. Showing a weak first attempt and what you did about it is harder."
+        "explain": "Anyone can show a good piece. Showing a weak first attempt and what you did about it is harder.",
+        "seconds": 20
       }
     },
     {
@@ -175,7 +178,8 @@
         "type": "truefalse",
         "text": "A portfolio stored in one place only is finished and ready to submit.",
         "answer": false,
-        "explain": "One copy is not a copy. A second copy somewhere else is the last step of building it."
+        "explain": "One copy is not a copy. A second copy somewhere else is the last step of building it.",
+        "seconds": 12
       }
     },
     {
@@ -195,27 +199,29 @@
       "type": "multiple",
       "text": "What does it mean to give something a home?",
       "options": [
-        "It has one place it always lives",
         "It is stored out of sight",
+        "It has one place it always lives",
         "It is used every day",
         "It belongs to you"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Week 1. If you have to think about where it goes, it will not go there.",
-      "objective": "Recall the ten TLE topics of the term"
+      "objective": "Recall the ten TLE topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What is the two-minute rule?",
       "options": [
+        "Give every job two minutes",
         "If it takes under two minutes, do it now",
-        "Spend two minutes tidying each day",
         "Wait two minutes before deciding",
-        "Give every job two minutes"
+        "Spend two minutes tidying each day"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Week 1. Small jobs are what pile up into a job you cannot start.",
-      "objective": "Recall the ten TLE topics of the term"
+      "objective": "Recall the ten TLE topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
@@ -228,112 +234,122 @@
       ],
       "answerIndex": 0,
       "explain": "Week 2. A task without a time attached tends not to get done.",
-      "objective": "Recall the ten TLE topics of the term"
+      "objective": "Recall the ten TLE topics of the term",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "What is clutter?",
       "options": [
-        "A stack of undecided objects",
-        "Anything dirty",
+        "Things you do not like",
         "Too much furniture",
-        "Things you do not like"
+        "A stack of undecided objects",
+        "Anything dirty"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Week 3. A pile can be perfectly clean and still be clutter.",
-      "objective": "Recall the ten TLE topics of the term"
+      "objective": "Recall the ten TLE topics of the term",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "You should organise a room first and declutter it afterwards.",
       "answer": false,
       "explain": "Week 3. The other way round. Tidy junk is still junk.",
-      "objective": "Recall the ten TLE topics of the term"
+      "objective": "Recall the ten TLE topics of the term",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "How often should bedding be changed?",
       "options": [
-        "About once a week",
         "When it looks dirty",
         "Once a month",
+        "About once a week",
         "Every day"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Week 4. Most of what accumulates is invisible, so appearance is a poor guide.",
-      "objective": "Recall the ten TLE topics of the term"
+      "objective": "Recall the ten TLE topics of the term",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What kind of room is easiest to fall asleep in?",
       "options": [
-        "A slightly cool one",
+        "One with a screen on",
         "A warm one",
-        "A brightly lit one",
-        "One with a screen on"
+        "A slightly cool one",
+        "A brightly lit one"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Week 4. Light, temperature and screens all change how quickly sleep arrives.",
-      "objective": "Recall the ten TLE topics of the term"
+      "objective": "Recall the ten TLE topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Why should knitwear be folded rather than hung?",
       "options": [
-        "It stretches out of shape on a hanger",
-        "It takes less space folded",
+        "Hangers damage the colour",
         "It creases on a hanger",
-        "Hangers damage the colour"
+        "It stretches out of shape on a hanger",
+        "It takes less space folded"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Week 5. What to hang and what to fold is decided by the fabric, not by space.",
-      "objective": "Recall the ten TLE topics of the term"
+      "objective": "Recall the ten TLE topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Why is laundry sorted before washing?",
       "options": [
         "To stop dye transferring between items",
-        "To make it look tidier",
         "To save water",
-        "To make folding easier"
+        "To make folding easier",
+        "To make it look tidier"
       ],
       "answerIndex": 0,
       "explain": "Week 5. One new red item can change the colour of a whole load.",
-      "objective": "Recall the ten TLE topics of the term"
+      "objective": "Recall the ten TLE topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "When should you say a supply is running low?",
       "options": [
-        "When you open the last one",
-        "When it is completely empty",
         "At the end of the month",
-        "Only if someone asks"
+        "When you open the last one",
+        "Only if someone asks",
+        "When it is completely empty"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Week 6. Opening the last one leaves time. Empty means someone has to fix it today.",
-      "objective": "Recall the ten TLE topics of the term"
+      "objective": "Recall the ten TLE topics of the term",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "A routine works because each step cues the next one.",
       "answer": true,
       "explain": "Week 6. That is why the order has to stay the same. It removes the decision.",
-      "objective": "Recall the ten TLE topics of the term"
+      "objective": "Recall the ten TLE topics of the term",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "What is the main cost of a disorganised bag?",
       "options": [
-        "Time spent searching",
-        "The weight of it",
+        "Wear on the zip",
         "The price of folders",
-        "Wear on the zip"
+        "The weight of it",
+        "Time spent searching"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Week 7. Nobody loses marks for a heavy bag.",
-      "objective": "Recall the ten TLE topics of the term"
+      "objective": "Recall the ten TLE topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
@@ -346,66 +362,72 @@
       ],
       "answerIndex": 0,
       "explain": "Week 7. Prepare when it is cheap. A school morning is the expensive part of the day.",
-      "objective": "Recall the ten TLE topics of the term"
+      "objective": "Recall the ten TLE topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What order should a filename use?",
       "options": [
         "Date, then subject, then what it is",
+        "Whatever is quickest",
         "What it is, then the date",
-        "Subject only",
-        "Whatever is quickest"
+        "Subject only"
       ],
       "answerIndex": 0,
       "explain": "Week 8. Written year-month-day, an alphabetical sort becomes a date sort.",
-      "objective": "Recall the ten TLE topics of the term"
+      "objective": "Recall the ten TLE topics of the term",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "A copy in a second folder on the same laptop counts as a backup.",
       "answer": false,
       "explain": "Week 8. A backup has to survive whatever kills the original. Same machine, same accident.",
-      "objective": "Recall the ten TLE topics of the term"
+      "objective": "Recall the ten TLE topics of the term",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "What is the difference between archiving and deleting?",
       "options": [
-        "Archiving keeps the file but moves it out of the way",
-        "They are the same",
         "Archiving destroys the file",
-        "Deleting compresses the file"
+        "They are the same",
+        "Deleting compresses the file",
+        "Archiving keeps the file but moves it out of the way"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Week 8. When you are unsure which to do, archive.",
-      "objective": "Recall the ten TLE topics of the term"
+      "objective": "Recall the ten TLE topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "When is a cooking job actually finished?",
       "options": [
-        "When the kitchen has been reset",
         "When the food is served",
         "When the pan is off the heat",
-        "When you have eaten"
+        "When you have eaten",
+        "When the kitchen has been reset"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Week 9. Leaving the mess moves the rest of the job to someone else.",
-      "objective": "Recall the ten TLE topics of the term"
+      "objective": "Recall the ten TLE topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What turns a chore into a responsibility?",
       "options": [
-        "It stops needing reminders",
         "It gets harder",
+        "It stops needing reminders",
         "It takes longer",
         "Someone pays you"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Week 9. Reminders mean the job is still theirs.",
-      "objective": "Recall the ten TLE topics of the term"
+      "objective": "Recall the ten TLE topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
@@ -413,71 +435,77 @@
       "options": [
         "The waiting between steps",
         "Sorting the colours",
-        "Loading the machine",
-        "Choosing detergent"
+        "Choosing detergent",
+        "Loading the machine"
       ],
       "answerIndex": 0,
       "explain": "Week 9. Wet clothes left in the drum start to smell. The work is easy; the timing is the skill.",
-      "objective": "Recall the ten TLE topics of the term"
+      "objective": "Recall the ten TLE topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What is the first step in building a portfolio?",
       "options": [
-        "Gather everything without judging it",
         "Choose your best piece",
-        "Write the captions",
-        "Set up the backup"
+        "Set up the backup",
+        "Gather everything without judging it",
+        "Write the captions"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Week 10. Two fast passes beat one slow careful one.",
-      "objective": "Recall the ten TLE topics of the term"
+      "objective": "Recall the ten TLE topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Which three kinds of piece should a portfolio include?",
       "options": [
-        "Best, hardest, and one you improved",
+        "Only high-scoring work",
         "Longest, shortest, newest",
         "Three from one subject",
-        "Only high-scoring work"
+        "Best, hardest, and one you improved"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Week 10. The improved one shows you can take a correction.",
-      "objective": "Recall the ten TLE topics of the term"
+      "objective": "Recall the ten TLE topics of the term",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What should the second line of a caption say?",
       "options": [
+        "Who helped you",
         "What you would change now",
         "What mark it got",
-        "How long it took",
-        "Who helped you"
+        "How long it took"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Week 10. It is the line a reader actually learns from.",
-      "objective": "Present the portfolio built in week 10"
+      "objective": "Present the portfolio built in week 10",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Why demonstrate a practical skill slowly?",
       "options": [
-        "The assessor has to see each step happen",
-        "It is less tiring",
         "It looks more careful",
-        "It uses less equipment"
+        "It uses less equipment",
+        "It is less tiring",
+        "The assessor has to see each step happen"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Normal speed hides the steps you are being marked on.",
-      "objective": "Demonstrate a practical skill so it can be marked"
+      "objective": "Demonstrate a practical skill so it can be marked",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Narrating each step while you demonstrate is worth doing.",
       "answer": true,
       "explain": "Naming the step shows it was a decision rather than something copied.",
-      "objective": "Explain a choice instead of only showing the result"
+      "objective": "Explain a choice instead of only showing the result",
+      "seconds": 12
     }
   ],
   "teacher": {

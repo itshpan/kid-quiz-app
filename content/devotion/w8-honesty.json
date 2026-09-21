@@ -52,7 +52,8 @@
           "Silence is better than speech"
         ],
         "answerIndex": 0,
-        "explain": "It is not only a warning. It describes what actually pleases him."
+        "explain": "It is not only a warning. It describes what actually pleases him.",
+        "seconds": 20
       }
     },
     {
@@ -87,7 +88,8 @@
         "type": "truefalse",
         "text": "Ephesians 4:25 gives a reason for honesty as well as an instruction.",
         "answer": true,
-        "explain": "'For we are all members of one body.' A lie damages something shared, not just the liar."
+        "explain": "'For we are all members of one body.' A lie damages something shared, not just the liar.",
+        "seconds": 12
       }
     },
     {
@@ -132,13 +134,14 @@
         "type": "multiple",
         "text": "What were Ananias and Sapphira judged for?",
         "options": [
-          "Lying about how much they had given",
-          "Keeping some of the money",
           "Selling their land",
-          "Refusing to join the church"
+          "Lying about how much they had given",
+          "Refusing to join the church",
+          "Keeping some of the money"
         ],
-        "answerIndex": 0,
-        "explain": "Peter says the money was theirs. It was the claim, not the amount, that was the offence."
+        "answerIndex": 1,
+        "explain": "Peter says the money was theirs. It was the claim, not the amount, that was the offence.",
+        "seconds": 20
       }
     },
     {
@@ -212,47 +215,51 @@
       "type": "multiple",
       "text": "What does Proverbs 12:22 say God delights in?",
       "options": [
-        "People who are trustworthy",
-        "People who give generously",
         "People who stay silent",
-        "People who never make mistakes"
+        "People who are trustworthy",
+        "People who never make mistakes",
+        "People who give generously"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "The verse is not only a warning. The second half describes what pleases him.",
-      "objective": "Explain what Proverbs 12:22 says about lying"
+      "objective": "Explain what Proverbs 12:22 says about lying",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Proverbs 12:22 uses mild language about lying.",
       "answer": false,
       "explain": "False. 'Detestable' is strong, and the verse does not soften it.",
-      "objective": "Explain what Proverbs 12:22 says about lying"
+      "objective": "Explain what Proverbs 12:22 says about lying",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "What reason does Ephesians 4:25 give for honesty?",
       "options": [
-        "We are all members of one body",
-        "Lying is against the law",
+        "It is easier to remember",
         "You will be found out",
-        "It is easier to remember"
+        "We are all members of one body",
+        "Lying is against the law"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "A lie damages something shared. It is not a private act.",
-      "objective": "Explain Ephesians 4:25 and why it gives a reason"
+      "objective": "Explain Ephesians 4:25 and why it gives a reason",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Why is wrong information worse than no information?",
       "options": [
-        "It makes people confident as well as wrong",
-        "It is harder to write down",
+        "It is always deliberate",
         "It takes longer to explain",
-        "It is always deliberate"
+        "It is harder to write down",
+        "It makes people confident as well as wrong"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "No gauge makes you careful. A gauge reading full when empty will strand you.",
-      "objective": "Explain Ephesians 4:25 and why it gives a reason"
+      "objective": "Explain Ephesians 4:25 and why it gives a reason",
+      "seconds": 20
     },
     {
       "type": "multiple",
@@ -260,71 +267,77 @@
       "options": [
         "The other person ends up believing something false, on purpose",
         "It uses too few words",
-        "It is spoken quietly",
-        "It is written down"
+        "It is written down",
+        "It is spoken quietly"
       ],
       "answerIndex": 0,
       "explain": "Honesty is measured by what they walk away believing, not by the individual words.",
-      "objective": "Explain why a half-truth is still a lie"
+      "objective": "Explain why a half-truth is still a lie",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What is the useful test for a half-truth?",
       "options": [
-        "Ask what the other person now believes, then ask if that is true",
         "Ask whether every word was accurate",
-        "Ask whether anyone objected",
-        "Ask how long the conversation was"
+        "Ask what the other person now believes, then ask if that is true",
+        "Ask how long the conversation was",
+        "Ask whether anyone objected"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "'Technically true' is a defence, not a standard.",
-      "objective": "Explain why a half-truth is still a lie"
+      "objective": "Explain why a half-truth is still a lie",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "What did Ananias and Sapphira do?",
       "options": [
         "Gave part of the money and said it was all of it",
-        "Refused to sell their land",
         "Stole from the church",
+        "Refused to sell their land",
         "Left the church quietly"
       ],
       "answerIndex": 0,
       "explain": "Peter's point is that nobody had required them to give any of it.",
-      "objective": "Describe what Ananias and Sapphira were judged for"
+      "objective": "Describe what Ananias and Sapphira were judged for",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "According to Peter, what was the offence?",
       "options": [
-        "The lie, not the amount kept",
-        "Keeping any money at all",
         "Selling property",
-        "Speaking in public"
+        "Speaking in public",
+        "The lie, not the amount kept",
+        "Keeping any money at all"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "'You have not lied to men but to God.' The money was theirs to keep or give.",
-      "objective": "Describe what Ananias and Sapphira were judged for"
+      "objective": "Describe what Ananias and Sapphira were judged for",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Ananias and Sapphira were required to give the full price of the land.",
       "answer": false,
       "explain": "False. Peter says explicitly that it was theirs. The claim was the problem.",
-      "objective": "Describe what Ananias and Sapphira were judged for"
+      "objective": "Describe what Ananias and Sapphira were judged for",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Why does honesty when nobody would find out matter most?",
       "options": [
-        "It is the only situation that tests whether it is real",
         "It is easier that way",
         "Someone always finds out eventually",
-        "It is required by school rules"
+        "It is required by school rules",
+        "It is the only situation that tests whether it is real"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "You already know whether it was real, whatever anyone else knows.",
-      "objective": "Explain honesty when nobody would find out"
+      "objective": "Explain honesty when nobody would find out",
+      "seconds": 25
     },
     {
       "type": "multiple",
@@ -332,19 +345,21 @@
       "options": [
         "Being the same person when it costs you as when it does not",
         "Never making a mistake",
-        "Always saying everything you think",
-        "Keeping your promises to friends only"
+        "Keeping your promises to friends only",
+        "Always saying everything you think"
       ],
       "answerIndex": 0,
       "explain": "The cost is what makes it measurable. Honesty that costs nothing tests nothing.",
-      "objective": "Explain honesty when nobody would find out"
+      "objective": "Explain honesty when nobody would find out",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Admitting something later is usually easier than admitting it straight away.",
       "answer": false,
       "explain": "False. Tomorrow's version includes the delay and everything you said in the meantime.",
-      "objective": "Explain honesty when nobody would find out"
+      "objective": "Explain honesty when nobody would find out",
+      "seconds": 12
     }
   ],
   "teacher": {

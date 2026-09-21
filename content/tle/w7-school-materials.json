@@ -47,12 +47,13 @@
         "text": "Why keep one folder per subject?",
         "options": [
           "Every search then goes through less paper",
-          "Folders are cheaper in bulk",
+          "Teachers require it",
           "It makes the bag lighter",
-          "Teachers require it"
+          "Folders are cheaper in bulk"
         ],
         "answerIndex": 0,
-        "explain": "Searching is the cost you are trying to cut. Separating subjects halves it immediately."
+        "explain": "Searching is the cost you are trying to cut. Separating subjects halves it immediately.",
+        "seconds": 20
       }
     },
     {
@@ -87,7 +88,8 @@
         "type": "truefalse",
         "text": "A loose sheet in the bottom of a bag is fine as long as you know it is there.",
         "answer": false,
-        "explain": "You will handle it several more times and then lose it. File it the day it arrives."
+        "explain": "You will handle it several more times and then lose it. File it the day it arrives.",
+        "seconds": 15
       }
     },
     {
@@ -146,13 +148,14 @@
         "type": "multiple",
         "text": "What should a weekly clear-out involve?",
         "options": [
+          "Moving everything to a bigger bag",
           "Emptying the bag completely, then putting back only what belongs",
-          "Adding a folder each week",
           "Buying new stationery",
-          "Moving everything to a bigger bag"
+          "Adding a folder each week"
         ],
-        "answerIndex": 0,
-        "explain": "Complete emptying is the point. Otherwise old paper settles at the bottom and stays."
+        "answerIndex": 1,
+        "explain": "Complete emptying is the point. Otherwise old paper settles at the bottom and stays.",
+        "seconds": 20
       }
     },
     {
@@ -209,144 +212,156 @@
       "text": "What is the main cost of a disorganised bag?",
       "options": [
         "Time spent searching",
-        "Weight on your shoulders",
         "The price of folders",
-        "Wear on the zip"
+        "Wear on the zip",
+        "Weight on your shoulders"
       ],
       "answerIndex": 0,
       "explain": "Nobody loses marks for a heavy bag. They lose them for a sheet they could not find.",
-      "objective": "Explain why searching costs more than carrying"
+      "objective": "Explain why searching costs more than carrying",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "How many subjects should share one folder?",
       "options": [
         "One",
-        "Two",
         "Three",
-        "As many as fit"
+        "As many as fit",
+        "Two"
       ],
       "answerIndex": 0,
       "explain": "Two subjects in one folder doubles the paper every search has to go through.",
-      "objective": "Set up one folder per subject and keep them separate"
+      "objective": "Set up one folder per subject and keep them separate",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Where should a folder be labelled?",
       "options": [
-        "On the outside",
         "On the inside cover",
+        "It does not need a label",
         "On the first sheet",
-        "It does not need a label"
+        "On the outside"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "A label you have to open the folder to read does not save you a search.",
-      "objective": "Set up one folder per subject and keep them separate"
+      "objective": "Set up one folder per subject and keep them separate",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "When should a new sheet be filed?",
       "options": [
-        "The day it arrives",
         "At the end of the term",
-        "When the bag gets full",
-        "When a teacher asks for it"
+        "When a teacher asks for it",
+        "The day it arrives",
+        "When the bag gets full"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Handle paper once. Unfiled paper gets handled several more times and then lost.",
-      "objective": "File a sheet the day it arrives"
+      "objective": "File a sheet the day it arrives",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Handling a piece of paper once is faster overall than dealing with it later.",
       "answer": true,
       "explain": "True. Two seconds now saves the several handlings and the eventual search.",
-      "objective": "File a sheet the day it arrives"
+      "objective": "File a sheet the day it arrives",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "When should the bag be packed?",
       "options": [
         "The night before",
-        "In the morning before school",
+        "During the first lesson",
         "On the way to school",
-        "During the first lesson"
+        "In the morning before school"
       ],
       "answerIndex": 0,
       "explain": "Prepare when it is cheap. A school morning is the expensive part of the day.",
-      "objective": "Pack the bag the night before"
+      "objective": "Pack the bag the night before",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What is a launch spot?",
       "options": [
-        "The one place bag, shoes and bottle live overnight",
-        "The first classroom of the day",
+        "Where you do homework",
         "A shelf for finished work",
-        "Where you do homework"
+        "The first classroom of the day",
+        "The one place bag, shoes and bottle live overnight"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "One place, chosen once, so nothing is searched for at 6:40 in the morning.",
-      "objective": "Pack the bag the night before"
+      "objective": "Pack the bag the night before",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What should you check while packing the night before?",
       "options": [
-        "Tomorrow's timetable",
+        "Nothing; just pack everything",
         "Last week's marks",
-        "The weather for the weekend",
-        "Nothing; just pack everything"
+        "Tomorrow's timetable",
+        "The weather for the weekend"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Packing to the actual timetable is what keeps the bag from becoming everything you own.",
-      "objective": "Pack the bag the night before"
+      "objective": "Pack the bag the night before",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What does a weekly reset involve?",
       "options": [
+        "Rewriting all your notes",
         "Emptying the bag completely and refilling it deliberately",
-        "Wiping the outside of the bag",
         "Buying replacement folders",
-        "Rewriting all your notes"
+        "Wiping the outside of the bag"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Complete emptying is the point, and it takes about four minutes.",
-      "objective": "Run a weekly clear-out"
+      "objective": "Run a weekly clear-out",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "How many spare pens is the rule suggesting?",
       "options": [
-        "One",
         "Five",
-        "None",
-        "As many as possible"
+        "One",
+        "As many as possible",
+        "None"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "One spare, kept separately. A drawer of spares is just more clutter.",
-      "objective": "Run a weekly clear-out"
+      "objective": "Run a weekly clear-out",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "Organising your materials is mostly about willpower and being naturally tidy.",
       "answer": false,
       "explain": "False. It is about building a system outside your head so you need less discipline, not more.",
-      "objective": "Explain why searching costs more than carrying"
+      "objective": "Explain why searching costs more than carrying",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Why sort your bag when nothing urgent is happening?",
       "options": [
-        "Sorting under pressure is when things go wrong",
         "It is quieter then",
+        "Sorting under pressure is when things go wrong",
         "You have more space",
         "It is a school rule"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Same principle as inventory management in a game: prepare when it is cheap.",
-      "objective": "Explain why searching costs more than carrying"
+      "objective": "Explain why searching costs more than carrying",
+      "seconds": 20
     }
   ],
   "teacher": {

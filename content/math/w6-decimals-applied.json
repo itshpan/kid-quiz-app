@@ -39,13 +39,14 @@
         "type": "multiple",
         "text": "What is 1.5 + 2 × 0.5?",
         "options": [
-          "2.5",
           "1.75",
-          "3.5",
-          "2"
+          "2.5",
+          "2",
+          "3.5"
         ],
-        "answerIndex": 0,
-        "explain": "Multiply first: 2 × 0.5 = 1. Then 1.5 + 1 = 2.5."
+        "answerIndex": 1,
+        "explain": "Multiply first: 2 × 0.5 = 1. Then 1.5 + 1 = 2.5.",
+        "seconds": 15
       }
     },
     {
@@ -83,7 +84,8 @@
           "6.5",
           "6.50"
         ],
-        "explain": "Look at the second decimal, which is 7. Seven is five or more, so the 4 rounds up to 5."
+        "explain": "Look at the second decimal, which is 7. Seven is five or more, so the 4 rounds up to 5.",
+        "seconds": 15
       }
     },
     {
@@ -116,13 +118,14 @@
         "type": "multiple",
         "text": "A 2.5 kg bag costs ₱200. What is the price per kilogram?",
         "options": [
-          "₱80",
-          "₱500",
           "₱125",
-          "₱50"
+          "₱500",
+          "₱50",
+          "₱80"
         ],
-        "answerIndex": 0,
-        "explain": "200 ÷ 2.5 = 80. Divide the price by the amount to get the price for one."
+        "answerIndex": 3,
+        "explain": "200 ÷ 2.5 = 80. Divide the price by the amount to get the price for one.",
+        "seconds": 15
       }
     },
     {
@@ -173,13 +176,14 @@
         "type": "multiple",
         "text": "Which is better value: 1.5 L for ₱90, or 2.5 L for ₱140?",
         "options": [
-          "2.5 L for ₱140, at ₱56 per litre",
           "1.5 L for ₱90, at ₱60 per litre",
           "They cost the same per litre",
+          "2.5 L for ₱140, at ₱56 per litre",
           "You cannot tell without more information"
         ],
-        "answerIndex": 0,
-        "explain": "90 ÷ 1.5 = 60 and 140 ÷ 2.5 = 56. The larger one is cheaper per litre."
+        "answerIndex": 2,
+        "explain": "90 ÷ 1.5 = 60 and 140 ÷ 2.5 = 56. The larger one is cheaper per litre.",
+        "seconds": 25
       }
     },
     {
@@ -206,7 +210,8 @@
           "₱76.50"
         ],
         "answerIndex": 0,
-        "explain": "3 × 24.50 = 73.50, then 100 − 73.50 = 26.50. Two steps, and the second is the one people skip."
+        "explain": "3 × 24.50 = 73.50, then 100 − 73.50 = 26.50. Two steps, and the second is the one people skip.",
+        "seconds": 15
       }
     },
     {
@@ -252,14 +257,15 @@
       "type": "multiple",
       "text": "What is 4 + 2 × 3?",
       "options": [
-        "10",
+        "12",
         "18",
-        "9",
-        "12"
+        "10",
+        "9"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Multiply first: 2 × 3 = 6, then 4 + 6 = 10.",
-      "objective": "Apply the order of operations to decimal calculations"
+      "objective": "Apply the order of operations to decimal calculations",
+      "seconds": 15
     },
     {
       "type": "multiple",
@@ -272,20 +278,22 @@
       ],
       "answerIndex": 0,
       "explain": "1.2 × 0.5 = 0.6 first. Then 2.4 + 0.6 = 3.0.",
-      "objective": "Apply the order of operations to decimal calculations"
+      "objective": "Apply the order of operations to decimal calculations",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What is (1.5 + 2.5) × 0.2?",
       "options": [
+        "4.2",
         "0.8",
         "2.0",
-        "4.2",
         "1.5"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Brackets first: 1.5 + 2.5 = 4. Then 4 × 0.2 = 0.8.",
-      "objective": "Apply the order of operations to decimal calculations"
+      "objective": "Apply the order of operations to decimal calculations",
+      "seconds": 15
     },
     {
       "type": "type",
@@ -295,92 +303,100 @@
         "5.30"
       ],
       "explain": "The second decimal is 8, which is five or more, so the 2 rounds up to 3.",
-      "objective": "Round a decimal to a given place"
+      "objective": "Round a decimal to a given place",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Round 12.649 to one decimal place.",
       "options": [
-        "12.6",
+        "13.0",
         "12.7",
         "12.65",
-        "13.0"
+        "12.6"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Look only at the second decimal, which is 4. The 9 after it does not matter.",
-      "objective": "Round a decimal to a given place"
+      "objective": "Round a decimal to a given place",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Round 0.0472 to two decimal places.",
       "options": [
-        "0.05",
         "0.04",
-        "0.047",
-        "0.5"
+        "0.05",
+        "0.5",
+        "0.047"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "The third decimal is 7, so the second decimal rounds from 4 up to 5.",
-      "objective": "Round a decimal to a given place"
+      "objective": "Round a decimal to a given place",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "A 4 L can of engine oil costs ₱260. What is the price per litre?",
       "options": [
         "₱65",
-        "₱1040",
+        "₱256",
         "₱6.50",
-        "₱256"
+        "₱1040"
       ],
       "answerIndex": 0,
       "explain": "260 ÷ 4 = 65. A unit rate is always a division.",
-      "objective": "Work out a unit rate"
+      "objective": "Work out a unit rate",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "A car travels 180 km on 12 litres. What is the fuel economy?",
       "options": [
-        "15 km per litre",
-        "12 km per litre",
         "2160 km per litre",
-        "0.067 km per litre"
+        "15 km per litre",
+        "0.067 km per litre",
+        "12 km per litre"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "180 ÷ 12 = 15 km per litre. Distance divided by fuel gives distance for one litre.",
-      "objective": "Work out a unit rate"
+      "objective": "Work out a unit rate",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Relief rice: 750 g for ₱150, or 1.2 kg for ₱216. Which is better value?",
       "options": [
-        "1.2 kg at ₱180 per kg",
-        "750 g at ₱150 per kg",
         "They are the same",
-        "750 g at ₱120 per kg"
+        "750 g at ₱150 per kg",
+        "750 g at ₱120 per kg",
+        "1.2 kg at ₱180 per kg"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "150 ÷ 0.75 = 200 per kg, and 216 ÷ 1.2 = 180 per kg. The larger one is cheaper.",
-      "objective": "Compare two options using unit rate"
+      "objective": "Compare two options using unit rate",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "The cheaper total price is always the better value.",
       "answer": false,
       "explain": "False. Until you work out the price per unit, the total price tells you nothing about value.",
-      "objective": "Compare two options using unit rate"
+      "objective": "Compare two options using unit rate",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "You buy 4 water bottles for a go-bag at ₱18.75 each and pay ₱100. What change?",
       "options": [
-        "₱25",
         "₱75",
         "₱35",
+        "₱25",
         "₱18.75"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "4 × 18.75 = 75, then 100 − 75 = 25. Two steps.",
-      "objective": "Solve multi-step problems using all four operations"
+      "objective": "Solve multi-step problems using all four operations",
+      "seconds": 20
     },
     {
       "type": "multiple",
@@ -393,7 +409,8 @@
       ],
       "answerIndex": 0,
       "explain": "2.4 ÷ 0.4 = 6. Move both points one place: 24 ÷ 4 = 6.",
-      "objective": "Solve multi-step problems using all four operations"
+      "objective": "Solve multi-step problems using all four operations",
+      "seconds": 20
     }
   ],
   "teacher": {

@@ -45,9 +45,15 @@
       "question": {
         "type": "multiple",
         "text": "Badminton singles is which kind of sport?",
-        "options": ["Dual", "Team", "Individual", "Target"],
-        "answerIndex": 0,
-        "explain": "Dual means one against one. It is also a net game, because the two sides are separated."
+        "options": [
+          "Team",
+          "Dual",
+          "Individual",
+          "Target"
+        ],
+        "answerIndex": 1,
+        "explain": "Dual means one against one. It is also a net game, because the two sides are separated.",
+        "seconds": 15
       }
     },
     {
@@ -81,9 +87,15 @@
       "question": {
         "type": "multiple",
         "text": "Which of these is an invasion game?",
-        "options": ["Basketball", "Volleyball", "Archery", "Bowling"],
-        "answerIndex": 0,
-        "explain": "You cross into their half to score. Volleyball is a net game and archery is a target game."
+        "options": [
+          "Archery",
+          "Volleyball",
+          "Basketball",
+          "Bowling"
+        ],
+        "answerIndex": 2,
+        "explain": "You cross into their half to score. Volleyball is a net game and archery is a target game.",
+        "seconds": 15
       }
     },
     {
@@ -129,9 +141,15 @@
       "question": {
         "type": "multiple",
         "text": "Dribbling a basketball is which kind of movement skill?",
-        "options": ["Manipulative", "Locomotor", "Non-locomotor", "None of these"],
+        "options": [
+          "Manipulative",
+          "Non-locomotor",
+          "Locomotor",
+          "None of these"
+        ],
         "answerIndex": 0,
-        "explain": "It involves handling an object. Running while you do it adds a locomotor skill on top."
+        "explain": "It involves handling an object. Running while you do it adds a locomotor skill on top.",
+        "seconds": 15
       }
     },
     {
@@ -164,13 +182,34 @@
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "individual sport", "def": "The result belongs to one person alone." },
-        { "term": "dual sport", "def": "One against one, or two against two." },
-        { "term": "invasion game", "def": "You enter the opponent's territory to score." },
-        { "term": "net or wall game", "def": "A barrier separates the two sides." },
-        { "term": "locomotor skill", "def": "A movement that takes you somewhere: run, jump, skip." },
-        { "term": "manipulative skill", "def": "A movement that handles an object: throw, catch, kick." },
-        { "term": "arnis", "def": "The national martial art and sport, made official in 2009." }
+        {
+          "term": "individual sport",
+          "def": "The result belongs to one person alone."
+        },
+        {
+          "term": "dual sport",
+          "def": "One against one, or two against two."
+        },
+        {
+          "term": "invasion game",
+          "def": "You enter the opponent's territory to score."
+        },
+        {
+          "term": "net or wall game",
+          "def": "A barrier separates the two sides."
+        },
+        {
+          "term": "locomotor skill",
+          "def": "A movement that takes you somewhere: run, jump, skip."
+        },
+        {
+          "term": "manipulative skill",
+          "def": "A movement that handles an object: throw, catch, kick."
+        },
+        {
+          "term": "arnis",
+          "def": "The national martial art and sport, made official in 2009."
+        }
       ]
     },
     {
@@ -189,106 +228,158 @@
     {
       "type": "multiple",
       "text": "Which of these is an individual sport?",
-      "options": ["Sprinting", "Volleyball", "Doubles tennis", "Basketball"],
-      "answerIndex": 0,
+      "options": [
+        "Volleyball",
+        "Sprinting",
+        "Basketball",
+        "Doubles tennis"
+      ],
+      "answerIndex": 1,
       "explain": "One person, one result. Doubles tennis is dual and the other two are team sports.",
-      "objective": "Sort sports into individual, dual and team"
+      "objective": "Sort sports into individual, dual and team",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Boxing is which kind of sport by numbers?",
-      "options": ["Dual", "Individual", "Team", "Target"],
-      "answerIndex": 0,
+      "options": [
+        "Individual",
+        "Team",
+        "Target",
+        "Dual"
+      ],
+      "answerIndex": 3,
       "explain": "One against one. It is also a combat sport, judged on hits rather than territory.",
-      "objective": "Sort sports into individual, dual and team"
+      "objective": "Sort sports into individual, dual and team",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What defines an invasion game?",
       "options": [
-        "You enter the opponent's territory to score",
-        "A net separates the sides",
         "You aim at a fixed target",
+        "A net separates the sides",
+        "You enter the opponent's territory to score",
         "You hit an object then run"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Basketball, football and rugby all work this way.",
-      "objective": "Explain invasion, net or wall, striking and target games"
+      "objective": "Explain invasion, net or wall, striking and target games",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Volleyball belongs to which task category?",
-      "options": ["Net or wall game", "Invasion game", "Target game", "Striking and fielding"],
+      "options": [
+        "Net or wall game",
+        "Invasion game",
+        "Striking and fielding",
+        "Target game"
+      ],
       "answerIndex": 0,
       "explain": "A barrier keeps the two sides apart. Badminton and tennis are in the same group.",
-      "objective": "Explain invasion, net or wall, striking and target games"
+      "objective": "Explain invasion, net or wall, striking and target games",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Archery belongs to which category?",
-      "options": ["Target game", "Net game", "Invasion game", "Combat sport"],
-      "answerIndex": 0,
+      "options": [
+        "Invasion game",
+        "Net game",
+        "Target game",
+        "Combat sport"
+      ],
+      "answerIndex": 2,
       "explain": "The goal does not move and does not resist you. Bowling and darts are the same.",
-      "objective": "Explain invasion, net or wall, striking and target games"
+      "objective": "Explain invasion, net or wall, striking and target games",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Which is a locomotor skill?",
-      "options": ["Skipping", "Twisting", "Catching", "Balancing"],
-      "answerIndex": 0,
+      "options": [
+        "Catching",
+        "Twisting",
+        "Balancing",
+        "Skipping"
+      ],
+      "answerIndex": 3,
       "explain": "Locomotor skills take you somewhere. Twisting and balancing happen on the spot.",
-      "objective": "Name the three kinds of movement skill"
+      "objective": "Name the three kinds of movement skill",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Which is a non-locomotor skill?",
-      "options": ["Stretching", "Running", "Throwing", "Galloping"],
-      "answerIndex": 0,
+      "options": [
+        "Throwing",
+        "Stretching",
+        "Galloping",
+        "Running"
+      ],
+      "answerIndex": 1,
       "explain": "It happens on the spot, without travelling and without an object.",
-      "objective": "Name the three kinds of movement skill"
+      "objective": "Name the three kinds of movement skill",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Kicking a ball is which kind of skill?",
-      "options": ["Manipulative", "Locomotor", "Non-locomotor", "Target"],
+      "options": [
+        "Manipulative",
+        "Target",
+        "Locomotor",
+        "Non-locomotor"
+      ],
       "answerIndex": 0,
       "explain": "Manipulative skills handle an object. Throwing, catching and dribbling are the same group.",
-      "objective": "Name the three kinds of movement skill"
+      "objective": "Name the three kinds of movement skill",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "A basketball layup uses more than one kind of movement skill.",
       "answer": true,
       "explain": "True. Running is locomotor, the jump and reach add non-locomotor, and the ball makes it manipulative.",
-      "objective": "Explain why the same skill transfers between sports"
+      "objective": "Explain why the same skill transfers between sports",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Why does training in one sport often help in another?",
       "options": [
-        "The underlying movement patterns are shared",
         "All sports use the same rules",
-        "Coaches are interchangeable",
-        "The scoring systems match"
+        "The underlying movement patterns are shared",
+        "The scoring systems match",
+        "Coaches are interchangeable"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "A throw and a punch are both a rotation driven from the back foot. That is why cross-training works.",
-      "objective": "Explain why the same skill transfers between sports"
+      "objective": "Explain why the same skill transfers between sports",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What is the national martial art and sport of the Philippines?",
-      "options": ["Arnis", "Basketball", "Boxing", "Sepak takraw"],
+      "options": [
+        "Arnis",
+        "Sepak takraw",
+        "Boxing",
+        "Basketball"
+      ],
       "answerIndex": 0,
       "explain": "Made official by Republic Act 9850 in 2009. It is also called eskrima or kali.",
-      "objective": "Explain what a national sport is and why it changes"
+      "objective": "Explain what a national sport is and why it changes",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "The most popular sport in a country is automatically its national sport.",
       "answer": false,
       "explain": "False. Basketball is far more popular in the Philippines, but arnis holds the official status.",
-      "objective": "Explain what a national sport is and why it changes"
+      "objective": "Explain what a national sport is and why it changes",
+      "seconds": 12
     }
   ],
   "teacher": {

@@ -82,12 +82,13 @@
         "type": "multiple",
         "text": "Which skin layer has no blood vessels in it?",
         "options": [
+          "The subcutaneous layer",
           "The epidermis",
-          "The dermis",
-          "The subcutaneous layer"
+          "The dermis"
         ],
-        "answerIndex": 0,
-        "explain": "The epidermis. It's fed by the dermis below, which is why a shallow scrape doesn't bleed."
+        "answerIndex": 1,
+        "explain": "The epidermis. It's fed by the dermis below, which is why a shallow scrape doesn't bleed.",
+        "seconds": 15
       }
     },
     {
@@ -122,7 +123,8 @@
           "Dermis",
           "Subcutaneous layer"
         ],
-        "explain": "Outside in: epidermis, dermis, subcutaneous. Epi- means 'upon', so the epidermis sits upon the dermis."
+        "explain": "Outside in: epidermis, dermis, subcutaneous. Epi- means 'upon', so the epidermis sits upon the dermis.",
+        "seconds": 20
       }
     },
     {
@@ -167,7 +169,8 @@
         "type": "truefalse",
         "text": "Sweat cools you down by evaporating, not simply by being wet on your skin.",
         "answer": true,
-        "explain": "True. Turning from liquid to vapour takes energy, and it takes that heat from you. Wiping it off throws away the cooling."
+        "explain": "True. Turning from liquid to vapour takes energy, and it takes that heat from you. Wiping it off throws away the cooling.",
+        "seconds": 12
       }
     },
     {
@@ -203,7 +206,8 @@
           "Helps the skin sweat more easily"
         ],
         "answerIndex": 0,
-        "explain": "It's protection from UV. Sebum from oil glands is what waterproofs skin — different job entirely."
+        "explain": "It's protection from UV. Sebum from oil glands is what waterproofs skin — different job entirely.",
+        "seconds": 20
       }
     },
     {
@@ -293,40 +297,44 @@
         "Subcutaneous layer"
       ],
       "explain": "Epi- means 'upon'. The epidermis sits upon the dermis, and the subcutaneous layer is under both.",
-      "objective": "Name the three layers of skin and what each one does"
+      "objective": "Name the three layers of skin and what each one does",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "Which layer contains the blood vessels, nerves and glands?",
       "options": [
-        "The dermis",
         "The epidermis",
-        "The subcutaneous layer",
-        "All three equally"
+        "The dermis",
+        "All three equally",
+        "The subcutaneous layer"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "The dermis is the working layer. The epidermis above it has no blood supply of its own.",
-      "objective": "Name the three layers of skin and what each one does"
+      "objective": "Name the three layers of skin and what each one does",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "The outermost cells of your epidermis are dead.",
       "answer": true,
       "explain": "True. New cells push up from below, flatten and die, forming a tough barrier before flaking away.",
-      "objective": "Name the three layers of skin and what each one does"
+      "objective": "Name the three layers of skin and what each one does",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "How does sweating cool you down?",
       "options": [
-        "Evaporating sweat carries heat away from the skin",
-        "Wet skin is naturally colder than dry skin",
         "Sweat contains a cooling chemical",
-        "Sweat blocks heat from reaching the body"
+        "Wet skin is naturally colder than dry skin",
+        "Sweat blocks heat from reaching the body",
+        "Evaporating sweat carries heat away from the skin"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Evaporation is the cooling step. That's why humid weather feels so much worse — sweat can't evaporate.",
-      "objective": "Explain how skin regulates body temperature"
+      "objective": "Explain how skin regulates body temperature",
+      "seconds": 25
     },
     {
       "type": "type",
@@ -335,33 +343,36 @@
         "melanin"
       ],
       "explain": "Melanin, made by melanocytes in the epidermis. It absorbs UV before it can damage DNA.",
-      "objective": "Explain what melanin does and why it matters"
+      "objective": "Explain what melanin does and why it matters",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What causes spots during puberty?",
       "options": [
         "Hormones make oil glands produce more sebum, which blocks follicles",
-        "Not washing your face often enough",
         "Eating too much sugar",
+        "Not washing your face often enough",
         "Sweat glands becoming blocked with salt"
       ],
       "answerIndex": 0,
       "explain": "It's hormonal. Extra sebum plus dead skin cells blocks a follicle. Scrubbing harder irritates skin and makes it worse.",
-      "objective": "Relate skin changes at puberty to hormone activity"
+      "objective": "Relate skin changes at puberty to hormone activity",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What does sebum do?",
       "options": [
-        "Waterproofs skin and hair and keeps them flexible",
-        "Blocks ultraviolet light",
         "Cools the body by evaporating",
+        "Blocks ultraviolet light",
+        "Waterproofs skin and hair and keeps them flexible",
         "Carries oxygen to skin cells"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Sebum is the waterproofing oil. Melanin is the UV blocker — a common mix-up in exams.",
-      "objective": "Describe the roles of sweat glands, oil glands and hair"
+      "objective": "Describe the roles of sweat glands, oil glands and hair",
+      "seconds": 20
     },
     {
       "type": "type",
@@ -372,34 +383,38 @@
         "involuntary"
       ],
       "explain": "Smooth muscle — the involuntary type from Week 1. The muscle is called arrector pili.",
-      "objective": "Describe the roles of sweat glands, oil glands and hair"
+      "objective": "Describe the roles of sweat glands, oil glands and hair",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "People with darker skin have many more melanocytes than people with lighter skin.",
       "answer": false,
       "explain": "False. Almost everyone has a similar number of melanocytes. What differs is how much melanin those cells produce.",
-      "objective": "Explain what melanin does and why it matters"
+      "objective": "Explain what melanin does and why it matters",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Which job does the subcutaneous layer do?",
       "options": [
+        "Forms the waterproof outer barrier",
         "Insulates, stores energy and cushions impact",
         "Detects touch and pain",
-        "Produces melanin",
-        "Forms the waterproof outer barrier"
+        "Produces melanin"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "It's the padding. Fat insulates, stores energy, and spreads a blow before it reaches anything solid.",
-      "objective": "Name the three layers of skin and what each one does"
+      "objective": "Name the three layers of skin and what each one does",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Someone who trains regularly starts sweating sooner than someone who doesn't.",
       "answer": true,
       "explain": "True. The body adapts to cool before it overheats rather than after. It's the same principle as bone getting denser.",
-      "objective": "Explain how skin regulates body temperature"
+      "objective": "Explain how skin regulates body temperature",
+      "seconds": 12
     },
     {
       "type": "multiple",
@@ -412,7 +427,8 @@
       ],
       "answerIndex": 0,
       "explain": "Vitamin D, and it matters for this course — your body needs it to absorb the calcium that builds bone.",
-      "objective": "Name the three layers of skin and what each one does"
+      "objective": "Name the three layers of skin and what each one does",
+      "seconds": 15
     }
   ],
   "teacher": {

@@ -58,7 +58,8 @@
           "Internal fertilisation"
         ],
         "answerIndex": 0,
-        "explain": "Budding needs one parent only. The other three all involve two sets of genetic information."
+        "explain": "Budding needs one parent only. The other three all involve two sets of genetic information.",
+        "seconds": 15
       }
     },
     {
@@ -93,13 +94,14 @@
         "type": "multiple",
         "text": "A potato grows new plants from its eyes. What is this called?",
         "options": [
-          "Vegetative propagation",
-          "Pollination",
           "Germination",
-          "Fertilisation"
+          "Fertilisation",
+          "Vegetative propagation",
+          "Pollination"
         ],
-        "answerIndex": 0,
-        "explain": "Vegetative propagation — a new plant from a stem, root or leaf, with no seed involved."
+        "answerIndex": 2,
+        "explain": "Vegetative propagation — a new plant from a stem, root or leaf, with no seed involved.",
+        "seconds": 15
       }
     },
     {
@@ -141,13 +143,14 @@
         "type": "multiple",
         "text": "Which part of a flower makes pollen?",
         "options": [
+          "The ovary",
           "The anther",
           "The stigma",
-          "The ovary",
           "The sepal"
         ],
-        "answerIndex": 0,
-        "explain": "The anther, on top of the filament. Together they make the stamen, the male part."
+        "answerIndex": 1,
+        "explain": "The anther, on top of the filament. Together they make the stamen, the male part.",
+        "seconds": 15
       }
     },
     {
@@ -180,13 +183,14 @@
         "type": "multiple",
         "text": "What is the difference between pollination and fertilisation?",
         "options": [
-          "Pollination is pollen landing; fertilisation is the joining of nuclei",
           "They are two words for the same event",
+          "Fertilisation happens before pollination",
           "Pollination happens in animals only",
-          "Fertilisation happens before pollination"
+          "Pollination is pollen landing; fertilisation is the joining of nuclei"
         ],
-        "answerIndex": 0,
-        "explain": "A journey, then a joining. The pollen tube grows down the style between the two."
+        "answerIndex": 3,
+        "explain": "A journey, then a joining. The pollen tube grows down the style between the two.",
+        "seconds": 25
       }
     },
     {
@@ -209,25 +213,62 @@
         "type": "truefalse",
         "text": "Asexual reproduction produces offspring with variation.",
         "answer": false,
-        "explain": "False. The offspring are clones. Variation is the thing sexual reproduction buys, at the cost of needing a partner."
+        "explain": "False. The offspring are clones. Variation is the thing sexual reproduction buys, at the cost of needing a partner.",
+        "seconds": 12
       }
     },
     {
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "asexual reproduction", "def": "One parent, and offspring that are genetic copies." },
-        { "term": "sexual reproduction", "def": "Two parents, gametes, and offspring with new combinations." },
-        { "term": "binary fission", "def": "One cell splits into two. Amoeba and bacteria." },
-        { "term": "budding", "def": "A bump grows on the parent and breaks off. Hydra and yeast." },
-        { "term": "fragmentation", "def": "A broken piece regrows into a whole organism. Starfish." },
-        { "term": "vegetative propagation", "def": "A new plant from a root, stem or leaf. Runners, tubers, bulbs, cuttings." },
-        { "term": "stamen", "def": "The male part of a flower: filament plus anther." },
-        { "term": "pistil", "def": "The female part: stigma, style and ovary." },
-        { "term": "pollination", "def": "Pollen landing on a stigma. A journey, not a joining." },
-        { "term": "fertilisation", "def": "The pollen nucleus joining the ovule. This is when a seed begins." },
-        { "term": "oviparous", "def": "Lays eggs. Ovi- means egg." },
-        { "term": "viviparous", "def": "Gives birth to live young. Vivi- means alive." }
+        {
+          "term": "asexual reproduction",
+          "def": "One parent, and offspring that are genetic copies."
+        },
+        {
+          "term": "sexual reproduction",
+          "def": "Two parents, gametes, and offspring with new combinations."
+        },
+        {
+          "term": "binary fission",
+          "def": "One cell splits into two. Amoeba and bacteria."
+        },
+        {
+          "term": "budding",
+          "def": "A bump grows on the parent and breaks off. Hydra and yeast."
+        },
+        {
+          "term": "fragmentation",
+          "def": "A broken piece regrows into a whole organism. Starfish."
+        },
+        {
+          "term": "vegetative propagation",
+          "def": "A new plant from a root, stem or leaf. Runners, tubers, bulbs, cuttings."
+        },
+        {
+          "term": "stamen",
+          "def": "The male part of a flower: filament plus anther."
+        },
+        {
+          "term": "pistil",
+          "def": "The female part: stigma, style and ovary."
+        },
+        {
+          "term": "pollination",
+          "def": "Pollen landing on a stigma. A journey, not a joining."
+        },
+        {
+          "term": "fertilisation",
+          "def": "The pollen nucleus joining the ovule. This is when a seed begins."
+        },
+        {
+          "term": "oviparous",
+          "def": "Lays eggs. Ovi- means egg."
+        },
+        {
+          "term": "viviparous",
+          "def": "Gives birth to live young. Vivi- means alive."
+        }
       ]
     },
     {
@@ -247,40 +288,43 @@
       "type": "multiple",
       "text": "What is the main difference between asexual and sexual reproduction?",
       "options": [
-        "Asexual needs one parent and gives clones; sexual needs two and gives variation",
         "Asexual is only for plants",
         "Sexual reproduction is always faster",
+        "Asexual needs one parent and gives clones; sexual needs two and gives variation",
         "Asexual reproduction happens only in water"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "One parent against two, and copies against new combinations. Everything else follows from that.",
-      "objective": "Explain the difference between asexual and sexual reproduction"
+      "objective": "Explain the difference between asexual and sexual reproduction",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "An amoeba splits into two. What is this called?",
       "options": [
-        "Binary fission",
-        "Budding",
         "Fragmentation",
-        "Parthenogenesis"
+        "Binary fission",
+        "Parthenogenesis",
+        "Budding"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Binary fission — one cell divides into two identical cells.",
-      "objective": "Name four modes of asexual reproduction in animals and plants"
+      "objective": "Name four modes of asexual reproduction in animals and plants",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "A hydra grows a bump that breaks off as a new individual. What is this?",
       "options": [
-        "Budding",
+        "Pollination",
         "Binary fission",
-        "Fragmentation",
-        "Pollination"
+        "Budding",
+        "Fragmentation"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Budding. Yeast does the same thing.",
-      "objective": "Name four modes of asexual reproduction in animals and plants"
+      "objective": "Name four modes of asexual reproduction in animals and plants",
+      "seconds": 20
     },
     {
       "type": "multiple",
@@ -288,51 +332,55 @@
       "options": [
         "A strawberry plant sending out a runner",
         "A bird laying an egg",
-        "Pollen landing on a stigma",
-        "A seed germinating"
+        "A seed germinating",
+        "Pollen landing on a stigma"
       ],
       "answerIndex": 0,
       "explain": "A new plant from a stem, with no seed involved. Tubers, bulbs and cuttings are the same idea.",
-      "objective": "Name four modes of asexual reproduction in animals and plants"
+      "objective": "Name four modes of asexual reproduction in animals and plants",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Which part of the flower makes pollen?",
       "options": [
-        "The anther",
-        "The ovary",
         "The style",
-        "The petal"
+        "The ovary",
+        "The petal",
+        "The anther"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "The anther, sitting on the filament. Together they are the stamen.",
-      "objective": "Name the parts of a flower and what each does"
+      "objective": "Name the parts of a flower and what each does",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Which part of the flower receives pollen?",
       "options": [
-        "The stigma",
         "The anther",
-        "The sepal",
-        "The filament"
+        "The stigma",
+        "The filament",
+        "The sepal"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "The stigma, the sticky pad on top of the style. Nothing happens until pollen lands there.",
-      "objective": "Name the parts of a flower and what each does"
+      "objective": "Name the parts of a flower and what each does",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What does the ovary become after fertilisation?",
       "options": [
         "The fruit",
-        "The seed",
+        "The stem",
         "The flower",
-        "The stem"
+        "The seed"
       ],
       "answerIndex": 0,
       "explain": "The ovary becomes the fruit and the ovules inside it become the seeds.",
-      "objective": "Explain pollination and fertilisation in plants"
+      "objective": "Explain pollination and fertilisation in plants",
+      "seconds": 15
     },
     {
       "type": "order",
@@ -344,33 +392,36 @@
         "The ovule becomes a seed"
       ],
       "explain": "Pollination, then the tube, then fertilisation, then the seed. Four separate steps.",
-      "objective": "Explain pollination and fertilisation in plants"
+      "objective": "Explain pollination and fertilisation in plants",
+      "seconds": 30
     },
     {
       "type": "multiple",
       "text": "What does oviparous mean?",
       "options": [
-        "Lays eggs",
-        "Gives birth to live young",
         "Reproduces without a partner",
-        "Has an exoskeleton"
+        "Gives birth to live young",
+        "Has an exoskeleton",
+        "Lays eggs"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Ovi- means egg. Vivi- means alive, so viviparous is live young.",
-      "objective": "Distinguish oviparous, viviparous and ovoviviparous animals"
+      "objective": "Distinguish oviparous, viviparous and ovoviviparous animals",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "In an ovoviviparous animal, where do the eggs hatch?",
       "options": [
+        "In water",
         "Inside the mother",
         "In a nest",
-        "In water",
         "In the soil"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Inside the mother, so live young emerge — but they developed inside eggs, not a placenta.",
-      "objective": "Distinguish oviparous, viviparous and ovoviviparous animals"
+      "objective": "Distinguish oviparous, viviparous and ovoviviparous animals",
+      "seconds": 20
     },
     {
       "type": "multiple",
@@ -383,14 +434,16 @@
       ],
       "answerIndex": 0,
       "explain": "A population of clones shares every weakness. One disease that beats one of them beats all of them.",
-      "objective": "Explain why variation matters"
+      "objective": "Explain why variation matters",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "Asexual reproduction is faster than sexual reproduction.",
       "answer": true,
       "explain": "True, and it needs no partner. The cost is that there is no variation at all.",
-      "objective": "Explain the difference between asexual and sexual reproduction"
+      "objective": "Explain the difference between asexual and sexual reproduction",
+      "seconds": 12
     }
   ],
   "teacher": {

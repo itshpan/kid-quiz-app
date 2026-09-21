@@ -52,13 +52,14 @@
         "type": "multiple",
         "text": "What does a cappella mean?",
         "options": [
-          "Singing with no instruments at all",
           "Singing very quietly",
+          "Singing with no instruments at all",
           "A choir of more than twenty people",
           "Music played without singing"
         ],
-        "answerIndex": 0,
-        "explain": "Voices only. The word is Italian and originally meant 'in the manner of the chapel'."
+        "answerIndex": 1,
+        "explain": "Voices only. The word is Italian and originally meant 'in the manner of the chapel'.",
+        "seconds": 20
       }
     },
     {
@@ -107,13 +108,14 @@
         "type": "multiple",
         "text": "Which element of music describes how LOUD or SOFT it is?",
         "options": [
-          "Dynamics",
           "Tempo",
           "Timbre",
-          "Harmony"
+          "Harmony",
+          "Dynamics"
         ],
-        "answerIndex": 0,
-        "explain": "Dynamics. Tempo is speed, timbre is the colour of the sound, and harmony is the notes underneath."
+        "answerIndex": 3,
+        "explain": "Dynamics. Tempo is speed, timbre is the colour of the sound, and harmony is the notes underneath.",
+        "seconds": 15
       }
     },
     {
@@ -168,12 +170,13 @@
         "text": "What is self space?",
         "options": [
           "Everything you can reach without moving from your spot",
-          "The whole gym or field",
           "The space directly in front of you",
+          "The whole gym or field",
           "A space nobody is allowed to enter"
         ],
         "answerIndex": 0,
-        "explain": "Your own bubble. It travels with you. General space is the whole area you move through."
+        "explain": "Your own bubble. It travels with you. General space is the whole area you move through.",
+        "seconds": 20
       }
     },
     {
@@ -208,13 +211,14 @@
         "type": "multiple",
         "text": "Which of these is a PATHWAY?",
         "options": [
-          "Zigzag",
-          "High",
+          "Far",
           "Backward",
-          "Far"
+          "Zigzag",
+          "High"
         ],
-        "answerIndex": 0,
-        "explain": "Zigzag is a pathway. High is a level, backward is a direction, and far is an extension."
+        "answerIndex": 2,
+        "explain": "Zigzag is a pathway. High is a level, backward is a direction, and far is an extension.",
+        "seconds": 15
       }
     },
     {
@@ -233,14 +237,38 @@
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "a cappella", "def": "Singing with no instrumental accompaniment at all." },
-        { "term": "tempo", "def": "How fast the music goes, measured in beats per minute." },
-        { "term": "dynamics", "def": "How loud or soft the music is." },
-        { "term": "timbre", "def": "The colour of a sound. Why a guitar and a piano playing the same note differ." },
-        { "term": "form", "def": "The shape of a whole piece, such as verse-chorus-verse." },
-        { "term": "self space", "def": "Everything you can reach without moving from where you stand." },
-        { "term": "general space", "def": "The whole area available to travel through, shared with everyone else." },
-        { "term": "pathway", "def": "The shape of the line you travel along: straight, curved or zigzag." }
+        {
+          "term": "a cappella",
+          "def": "Singing with no instrumental accompaniment at all."
+        },
+        {
+          "term": "tempo",
+          "def": "How fast the music goes, measured in beats per minute."
+        },
+        {
+          "term": "dynamics",
+          "def": "How loud or soft the music is."
+        },
+        {
+          "term": "timbre",
+          "def": "The colour of a sound. Why a guitar and a piano playing the same note differ."
+        },
+        {
+          "term": "form",
+          "def": "The shape of a whole piece, such as verse-chorus-verse."
+        },
+        {
+          "term": "self space",
+          "def": "Everything you can reach without moving from where you stand."
+        },
+        {
+          "term": "general space",
+          "def": "The whole area available to travel through, shared with everyone else."
+        },
+        {
+          "term": "pathway",
+          "def": "The shape of the line you travel along: straight, curved or zigzag."
+        }
       ]
     },
     {
@@ -260,14 +288,15 @@
       "type": "multiple",
       "text": "Which branch of music is about how music is built and why it works?",
       "options": [
-        "Music theory",
         "Performance",
         "Composition",
-        "Musicology"
+        "Musicology",
+        "Music theory"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Theory. Composition writes new music, performance plays it, and musicology studies where it came from.",
-      "objective": "Name the main branches of music and what each one studies"
+      "objective": "Name the main branches of music and what each one studies",
+      "seconds": 15
     },
     {
       "type": "multiple",
@@ -275,38 +304,41 @@
       "options": [
         "Voices only, with no instruments",
         "A very fast tempo",
-        "A song with no words",
-        "Music for a full orchestra"
+        "Music for a full orchestra",
+        "A song with no words"
       ],
       "answerIndex": 0,
       "explain": "Voices alone. It is the clearest case of vocal music with no instrumental part.",
-      "objective": "Tell vocal music from instrumental music"
+      "objective": "Tell vocal music from instrumental music",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Which element of music means the speed of the beat?",
       "options": [
-        "Tempo",
         "Dynamics",
-        "Timbre",
-        "Form"
+        "Form",
+        "Tempo",
+        "Timbre"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Tempo, measured in beats per minute. Dynamics is loudness and timbre is the colour of the sound.",
-      "objective": "Name the elements of music and use them to describe a piece"
+      "objective": "Name the elements of music and use them to describe a piece",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "A guitar and a piano play exactly the same note. What makes them sound different?",
       "options": [
-        "Timbre",
-        "Tempo",
         "Dynamics",
-        "Rhythm"
+        "Rhythm",
+        "Tempo",
+        "Timbre"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Timbre, the colour of a sound. Same pitch, same loudness, completely different character.",
-      "objective": "Name the elements of music and use them to describe a piece"
+      "objective": "Name the elements of music and use them to describe a piece",
+      "seconds": 15
     },
     {
       "type": "type",
@@ -317,27 +349,30 @@
         "musical form"
       ],
       "explain": "Form. Verse, chorus, verse, chorus, bridge, chorus is one of the commonest.",
-      "objective": "Name the elements of music and use them to describe a piece"
+      "objective": "Name the elements of music and use them to describe a piece",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What is general space?",
       "options": [
-        "The whole area available to move through, shared with others",
         "The bubble around your own body",
+        "The whole area available to move through, shared with others",
         "The space above your head",
         "The space you are not allowed to enter"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "The whole area. Self space is your own bubble and travels with you.",
-      "objective": "Define self-space and general space"
+      "objective": "Define self-space and general space",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "Your self space stays in one place while you move around it.",
       "answer": false,
       "explain": "False. Self space travels with you. It is everything you can reach from wherever you are standing.",
-      "objective": "Define self-space and general space"
+      "objective": "Define self-space and general space",
+      "seconds": 12
     },
     {
       "type": "multiple",
@@ -350,20 +385,22 @@
       ],
       "answerIndex": 0,
       "explain": "Low is a level. Curved is a pathway, sideways is a direction and near is an extension.",
-      "objective": "Identify levels, pathways and directions in movement"
+      "objective": "Identify levels, pathways and directions in movement",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Which of these is a DIRECTION?",
       "options": [
-        "Backward",
-        "Zigzag",
+        "Large",
         "High",
-        "Large"
+        "Backward",
+        "Zigzag"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Backward is a direction. Zigzag is a pathway, high is a level and large is an extension.",
-      "objective": "Identify levels, pathways and directions in movement"
+      "objective": "Identify levels, pathways and directions in movement",
+      "seconds": 15
     },
     {
       "type": "order",
@@ -374,27 +411,30 @@
         "Close range"
       ],
       "explain": "Long range is jab distance, mid range is where everything reaches, close range is hooks and uppercuts.",
-      "objective": "Explain why space awareness matters in sport"
+      "objective": "Explain why space awareness matters in sport",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "Why does space awareness matter in team sports?",
       "options": [
-        "Better positioning and fewer collisions",
         "It makes you run faster",
+        "Better positioning and fewer collisions",
         "It increases your strength",
         "It is only useful in gymnastics"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Coaches call it vision. Seeing the gap earlier is what lets you react sooner.",
-      "objective": "Explain why space awareness matters in sport"
+      "objective": "Explain why space awareness matters in sport",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Tempo is measured in beats per minute, the same unit as a heart rate.",
       "answer": true,
       "explain": "True. That is why a fast playlist can pull your training pace up without you deciding to go faster.",
-      "objective": "Name the elements of music and use them to describe a piece"
+      "objective": "Name the elements of music and use them to describe a piece",
+      "seconds": 12
     }
   ],
   "teacher": {

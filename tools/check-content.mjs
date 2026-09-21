@@ -23,6 +23,7 @@ const LIMITS = {
     pointsPerCard: 4,
     cardsBetweenCheckpoints: 6,
     minLensesPerLesson: 3,
+    maxSamePositionShare: 0.6,    // an answer key that is 100% "A" is free marks
     maxSameLensInARow: 2,
     cardsPerVideo: 15,            // a 60-card lesson may carry 4 videos, a 30-card one 3
     minVideosPerLesson: 3,
@@ -121,6 +122,26 @@ for (const file of files) {
             warn(file, `lens "${c.lens}"`, `unknown lens — use one of: ${KNOWN_LENSES.join(', ')} (see content/interests.json)`);
         }
     }
+    /* Every question carries a time budget, and the answer key has to move
+       around. Both of these were wrong for a long time without anyone
+       noticing, which is exactly what the checker is for. */
+    const asked = [...lesson.quiz, ...lesson.cards.filter(c => c.question).map(c => c.question)];
+    for (const q of asked) {
+        if (!(Number(q.seconds) > 0)) {
+            warn(file, 'timing', `question has no "seconds" budget: "${q.text.slice(0, 44)}"`);
+            break;
+        }
+    }
+    const mc = lesson.quiz.filter(q => q.type === 'multiple' && Array.isArray(q.options));
+    if (mc.length >= 6) {
+        const tally = {};
+        for (const q of mc) tally[q.answerIndex] = (tally[q.answerIndex] || 0) + 1;
+        const [top, n] = Object.entries(tally).sort((a, b) => b[1] - a[1])[0];
+        if (n / mc.length > LIMITS.maxSamePositionShare) {
+            warn(file, 'answer key', `${n} of ${mc.length} answers sit at position ${'ABCD'[top]} — vary them`);
+        }
+    }
+
     if (used.size < LIMITS.minLensesPerLesson) {
         warn(file, 'interests', `only ${used.size} lens${used.size === 1 ? '' : 'es'} used (${[...used].join(', ') || 'none'}) — need at least ${LIMITS.minLensesPerLesson}. See content/interests.json`);
     }

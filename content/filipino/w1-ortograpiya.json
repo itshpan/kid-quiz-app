@@ -51,13 +51,14 @@
         "type": "multiple",
         "text": "Ilang letra ang Alpabetong Filipino?",
         "options": [
-          "28",
-          "20",
+          "31",
           "26",
-          "31"
+          "28",
+          "20"
         ],
-        "answerIndex": 0,
-        "explain": "28 letra. Ang lumang Abakada ay 20 lamang, at walo ang idinagdag noong 1987."
+        "answerIndex": 2,
+        "explain": "28 letra. Ang lumang Abakada ay 20 lamang, at walo ang idinagdag noong 1987.",
+        "seconds": 15
       }
     },
     {
@@ -92,13 +93,14 @@
         "type": "multiple",
         "text": "Ilang pantig ang salitang \"paaralan\"?",
         "options": [
-          "Apat",
-          "Tatlo",
           "Lima",
-          "Dalawa"
+          "Tatlo",
+          "Dalawa",
+          "Apat"
         ],
-        "answerIndex": 0,
-        "explain": "pa-a-ra-lan. Apat na patinig, kaya apat na pantig. Iyan ang pinakamabilis na paraan ng pagbilang."
+        "answerIndex": 3,
+        "explain": "pa-a-ra-lan. Apat na patinig, kaya apat na pantig. Iyan ang pinakamabilis na paraan ng pagbilang.",
+        "seconds": 15
       }
     },
     {
@@ -133,13 +135,14 @@
         "type": "multiple",
         "text": "Alin ang tamang baybay?",
         "options": [
+          "ika5 palapag",
           "ika-5 palapag",
           "ika 5 palapag",
-          "ika5 palapag",
           "ika--5 palapag"
         ],
-        "answerIndex": 0,
-        "explain": "May gitling sa pagitan ng unlaping ika- at ng bilang. Kung baybay naman: ikalima, walang gitling."
+        "answerIndex": 1,
+        "explain": "May gitling sa pagitan ng unlaping ika- at ng bilang. Kung baybay naman: ikalima, walang gitling.",
+        "seconds": 15
       }
     },
     {
@@ -185,12 +188,13 @@
         "text": "Saan isinilang si Andres Bonifacio?",
         "options": [
           "Tondo, Maynila",
-          "Cavite",
+          "Calamba, Laguna",
           "Bulacan",
-          "Calamba, Laguna"
+          "Cavite"
         ],
         "answerIndex": 0,
-        "explain": "Sa Tondo, noong 30 Nobyembre 1863. Sa Calamba naman isinilang si Rizal."
+        "explain": "Sa Tondo, noong 30 Nobyembre 1863. Sa Calamba naman isinilang si Rizal.",
+        "seconds": 15
       }
     },
     {
@@ -233,7 +237,8 @@
           "Suliranin"
         ],
         "answerIndex": 0,
-        "explain": "Tagpuan. Ang tauhan ay ang mga karakter, at ang banghay ang daloy ng mga pangyayari."
+        "explain": "Tagpuan. Ang tauhan ay ang mga karakter, at ang banghay ang daloy ng mga pangyayari.",
+        "seconds": 15
       }
     },
     {
@@ -295,40 +300,43 @@
       "type": "multiple",
       "text": "Ilang letra ang Alpabetong Filipino?",
       "options": [
-        "28",
         "20",
-        "26",
-        "27"
+        "27",
+        "28",
+        "26"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "28 letra. Ang Abakada noong araw ay 20, at walo ang idinagdag noong 1987.",
-      "objective": "Mabilang ang mga letra ng Alpabetong Filipino"
+      "objective": "Mabilang ang mga letra ng Alpabetong Filipino",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Alin sa mga ito ang letra ng Alpabetong Filipino ngunit wala sa Ingles?",
       "options": [
-        "NG",
-        "K",
         "W",
-        "Y"
+        "K",
+        "Y",
+        "NG"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Ang NG at ang Ñ ay mga letra sa Filipino. Bawat isa sa kanila ay isang letra.",
-      "objective": "Mabilang ang mga letra ng Alpabetong Filipino"
+      "objective": "Mabilang ang mga letra ng Alpabetong Filipino",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Ilan ang patinig sa Filipino?",
       "options": [
         "Lima",
+        "Tatlo",
         "Apat",
-        "Anim",
-        "Tatlo"
+        "Anim"
       ],
       "answerIndex": 0,
       "explain": "a, e, i, o, u. Lahat ng iba ay katinig, kasama ang Ñ at NG.",
-      "objective": "Maiba ang patinig sa katinig"
+      "objective": "Maiba ang patinig sa katinig",
+      "seconds": 15
     },
     {
       "type": "type",
@@ -339,40 +347,44 @@
         "apat na pantig"
       ],
       "explain": "ka-la-ya-an. Apat na patinig, kaya apat na pantig.",
-      "objective": "Mahati sa pantig ang isang salita"
+      "objective": "Mahati sa pantig ang isang salita",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Ilang pantig ang \"bayan\"?",
       "options": [
-        "Dalawa",
         "Tatlo",
+        "Apat",
         "Isa",
-        "Apat"
+        "Dalawa"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "ba-yan. Dalawang patinig, dalawang pantig.",
-      "objective": "Mahati sa pantig ang isang salita"
+      "objective": "Mahati sa pantig ang isang salita",
+      "seconds": 12
     },
     {
       "type": "truefalse",
       "text": "Maaaring magkaroon ng pantig na walang patinig.",
       "answer": false,
       "explain": "Hindi. Bawat pantig ay may isang patinig. Iyan ang pinakamatibay na tuntunin dito.",
-      "objective": "Maiba ang patinig sa katinig"
+      "objective": "Maiba ang patinig sa katinig",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Alin ang tamang baybay?",
       "options": [
-        "araw-araw",
-        "araw araw",
         "arawaraw",
-        "araw'araw"
+        "araw-araw",
+        "araw'araw",
+        "araw araw"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "May gitling ang inuulit na salita: araw-araw, sari-sari, bahay-bahay.",
-      "objective": "Magamit nang wasto ang gitling"
+      "objective": "Magamit nang wasto ang gitling",
+      "seconds": 15
     },
     {
       "type": "multiple",
@@ -380,58 +392,63 @@
       "options": [
         "ika-3 palapag",
         "ika 3 palapag",
-        "ika3 palapag",
-        "ika–3 palapag"
+        "ika–3 palapag",
+        "ika3 palapag"
       ],
       "answerIndex": 0,
       "explain": "Gitling sa pagitan ng ika- at ng bilang. Kung baybay: ikatlo, walang gitling.",
-      "objective": "Magamit nang wasto ang gitling"
+      "objective": "Magamit nang wasto ang gitling",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Alin ang nangangailangan ng gitling?",
       "options": [
         "maka-Diyos",
+        "malaki",
         "makabayan",
-        "mabuti",
-        "malaki"
+        "mabuti"
       ],
       "answerIndex": 0,
       "explain": "May gitling kapag ang unlapi ay sinundan ng pangngalang pantangi, gaya ng maka-Diyos.",
-      "objective": "Magamit nang wasto ang gitling"
+      "objective": "Magamit nang wasto ang gitling",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Saan at kailan isinilang si Andres Bonifacio?",
       "options": [
-        "Tondo, Maynila, noong 1863",
-        "Calamba, Laguna, noong 1861",
         "Kawit, Cavite, noong 1869",
+        "Calamba, Laguna, noong 1861",
+        "Tondo, Maynila, noong 1863",
         "Bulacan, noong 1850"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Tondo, 30 Nobyembre 1863. Sa Calamba noong 1861 isinilang si Rizal.",
-      "objective": "Malaman ang kasaysayan sa likod ng nobelang Supremo"
+      "objective": "Malaman ang kasaysayan sa likod ng nobelang Supremo",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Siya ang panganay at siya ang nagpalaki sa mga kapatid niya.",
       "answer": true,
       "explain": "Oo. Namatay ang mga magulang niya noong bata pa siya, at siya ang umako sa anim na magkakapatid.",
-      "objective": "Malaman ang kasaysayan sa likod ng nobelang Supremo"
+      "objective": "Malaman ang kasaysayan sa likod ng nobelang Supremo",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Ano ang tagpuan ng isang kuwento?",
       "options": [
-        "Ang lugar at panahon",
         "Ang mga karakter",
+        "Ang lugar at panahon",
         "Ang daloy ng pangyayari",
         "Ang aral"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Tagpuan ay lugar at panahon. Ang tauhan ay ang karakter, at ang banghay ang daloy.",
-      "objective": "Malaman ang kasaysayan sa likod ng nobelang Supremo"
+      "objective": "Malaman ang kasaysayan sa likod ng nobelang Supremo",
+      "seconds": 15
     }
   ],
   "teacher": {

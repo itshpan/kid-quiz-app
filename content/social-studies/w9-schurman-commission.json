@@ -53,13 +53,14 @@
         "type": "multiple",
         "text": "What was the Schurman Commission asked to do?",
         "options": [
-          "Investigate conditions and recommend a policy",
           "Make laws for the Philippines",
-          "Command the American army",
-          "Negotiate with Spain"
+          "Investigate conditions and recommend a policy",
+          "Negotiate with Spain",
+          "Command the American army"
         ],
-        "answerIndex": 0,
-        "explain": "It was advisory. It gathered evidence and wrote a report, and could not legislate."
+        "answerIndex": 1,
+        "explain": "It was advisory. It gathered evidence and wrote a report, and could not legislate.",
+        "seconds": 20
       }
     },
     {
@@ -125,7 +126,8 @@
         "type": "truefalse",
         "text": "There was no functioning Filipino government when the Commission called Filipinos unready.",
         "answer": false,
-        "explain": "False. The Malolos Republic had a constitution, a congress and courts, all running at the time."
+        "explain": "False. The Malolos Republic had a constitution, a congress and courts, all running at the time.",
+        "seconds": 12
       }
     },
     {
@@ -166,7 +168,8 @@
           "A two-chamber legislature"
         ],
         "answerIndex": 0,
-        "explain": "Act No. 74 in 1901 built a free school system. It reached more people than any other change."
+        "explain": "Act No. 74 in 1901 built a free school system. It reached more people than any other change.",
+        "seconds": 20
       }
     },
     {
@@ -213,144 +216,156 @@
       "text": "Who sent the Schurman Commission to the Philippines?",
       "options": [
         "President William McKinley",
-        "Governor Taft",
+        "Admiral Dewey",
         "The Malolos Congress",
-        "Admiral Dewey"
+        "Governor Taft"
       ],
       "answerIndex": 0,
       "explain": "McKinley sent it in 1899 to investigate conditions and recommend a policy.",
-      "objective": "Explain who the Schurman Commission were and why they came"
+      "objective": "Explain who the Schurman Commission were and why they came",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Who chaired the Commission?",
       "options": [
+        "Charles Denby",
         "Jacob Gould Schurman",
-        "Dean Worcester",
         "Elwell Otis",
-        "Charles Denby"
+        "Dean Worcester"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Schurman was president of Cornell University. The commission carries his name.",
-      "objective": "Explain who the Schurman Commission were and why they came"
+      "objective": "Explain who the Schurman Commission were and why they came",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "Two members of the Commission were American commanders in the ongoing war.",
       "answer": true,
       "explain": "True. Admiral Dewey and General Otis were both serving commanders in the Philippines.",
-      "objective": "Explain who the Schurman Commission were and why they came"
+      "objective": "Explain who the Schurman Commission were and why they came",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "What kind of power did the Commission have?",
       "options": [
+        "Command of the army",
         "Advisory only",
         "Full legislative power",
-        "Command of the army",
         "Judicial power"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "It could investigate and recommend. The Taft Commission of 1900 got the law-making power.",
-      "objective": "Explain who the Schurman Commission were and why they came"
+      "objective": "Explain who the Schurman Commission were and why they came",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Which of these did the report recommend?",
       "options": [
-        "Replacing military rule with a civil government",
         "Returning the islands to Spain",
         "Immediate full independence",
-        "Ending public education"
+        "Ending public education",
+        "Replacing military rule with a civil government"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Civil government, a partly elected legislature, local autonomy and free public schools.",
-      "objective": "List the main recommendations of the report"
+      "objective": "List the main recommendations of the report",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What did the report say about independence?",
       "options": [
-        "It should come eventually, but not yet",
+        "It was not mentioned",
         "It should come immediately",
-        "It should never come",
-        "It was not mentioned"
+        "It should come eventually, but not yet",
+        "It should never come"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Eventually, with no date attached. It arrived in 1946.",
-      "objective": "List the main recommendations of the report"
+      "objective": "List the main recommendations of the report",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What reason did the Commission give for delaying independence?",
       "options": [
         "That Filipinos were not yet ready to govern themselves",
-        "That Spain still had a legal claim",
+        "That the islands were too small",
         "That Filipinos had asked for a delay",
-        "That the islands were too small"
+        "That Spain still had a legal claim"
       ],
       "answerIndex": 0,
       "explain": "That single claim justified the rest of the report.",
-      "objective": "Explain the claim that Filipinos were 'not ready'"
+      "objective": "Explain the claim that Filipinos were 'not ready'",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "What is the strongest evidence against the 'not ready' claim?",
       "options": [
-        "The Malolos Republic already had a constitution, congress and courts",
-        "Spain had already left",
         "The Americans said so themselves",
-        "The Katipunan was still fighting"
+        "The Katipunan was still fighting",
+        "The Malolos Republic already had a constitution, congress and courts",
+        "Spain had already left"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "The republic had been running since January 1899, while the report was being written.",
-      "objective": "Explain the claim that Filipinos were 'not ready'"
+      "objective": "Explain the claim that Filipinos were 'not ready'",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "When was the civil government recommendation carried out?",
       "options": [
         "July 1901",
-        "January 1900",
         "October 1907",
-        "July 1946"
+        "July 1946",
+        "January 1900"
       ],
       "answerIndex": 0,
       "explain": "4 July 1901, with Taft as the first Civil Governor.",
-      "objective": "Compare what was recommended with what actually happened"
+      "objective": "Compare what was recommended with what actually happened",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "How long after the report did independence actually arrive?",
       "options": [
-        "Forty-six years, in 1946",
         "Two years, in 1902",
-        "Seven years, in 1907",
-        "It never arrived"
+        "Forty-six years, in 1946",
+        "It never arrived",
+        "Seven years, in 1907"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "The report was published in January 1900. Independence came on 4 July 1946.",
-      "objective": "Compare what was recommended with what actually happened"
+      "objective": "Compare what was recommended with what actually happened",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Which law created the free public school system?",
       "options": [
-        "Act No. 74 of 1901",
         "The Philippine Bill of 1902",
         "The Malolos Constitution",
-        "The Treaty of Paris"
+        "The Treaty of Paris",
+        "Act No. 74 of 1901"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Act No. 74, passed in 1901, set up free primary education across the islands.",
-      "objective": "Explain why the school recommendation mattered most"
+      "objective": "Explain why the school recommendation mattered most",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "The school recommendation reached more Filipinos than any other part of the report.",
       "answer": true,
       "explain": "True. Legislatures affected a small elite. Schools reached ordinary children everywhere.",
-      "objective": "Explain why the school recommendation mattered most"
+      "objective": "Explain why the school recommendation mattered most",
+      "seconds": 12
     }
   ],
   "teacher": {

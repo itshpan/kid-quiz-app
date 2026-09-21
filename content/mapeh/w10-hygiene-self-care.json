@@ -60,13 +60,14 @@
         "type": "multiple",
         "text": "What actually causes body odour?",
         "options": [
-          "Bacteria feeding on sweat from apocrine glands",
           "Sweat itself, which has a strong smell",
+          "Bacteria feeding on sweat from apocrine glands",
           "Drinking too little water",
           "Wearing cotton clothing"
         ],
-        "answerIndex": 0,
-        "explain": "Fresh sweat is nearly odourless. Apocrine glands switch on at puberty and bacteria do the rest."
+        "answerIndex": 1,
+        "explain": "Fresh sweat is nearly odourless. Apocrine glands switch on at puberty and bacteria do the rest.",
+        "seconds": 20
       }
     },
     {
@@ -87,7 +88,8 @@
         "type": "truefalse",
         "text": "Rinsing your hands with water alone removes germs about as well as using soap.",
         "answer": false,
-        "explain": "Soap breaks up the fatty outer layer of many germs and lifts the rest off. Water alone leaves most behind."
+        "explain": "Soap breaks up the fatty outer layer of many germs and lifts the rest off. Water alone leaves most behind.",
+        "seconds": 12
       }
     },
     {
@@ -135,12 +137,13 @@
         "text": "Why can't a toothbrush remove tartar?",
         "options": [
           "Tartar is hardened plaque and needs a dentist to remove",
-          "Tartar is inside the tooth",
+          "Tartar only forms on the tongue",
           "Toothbrushes are too soft by law",
-          "Tartar only forms on the tongue"
+          "Tartar is inside the tooth"
         ],
         "answerIndex": 0,
-        "explain": "Plaque is soft and brushable. Once it hardens into tartar, brushing no longer shifts it."
+        "explain": "Plaque is soft and brushable. Once it hardens into tartar, brushing no longer shifts it.",
+        "seconds": 25
       }
     },
     {
@@ -187,7 +190,8 @@
         "type": "truefalse",
         "text": "Acne is caused by not washing your face enough.",
         "answer": false,
-        "explain": "It is driven by hormones raising oil production. Scrubbing harder irritates skin and makes it worse."
+        "explain": "It is driven by hormones raising oil production. Scrubbing harder irritates skin and makes it worse.",
+        "seconds": 12
       }
     },
     {
@@ -237,119 +241,129 @@
       "type": "multiple",
       "text": "Which sweat glands start working at puberty?",
       "options": [
+        "Sebaceous glands only",
         "Apocrine glands",
-        "Eccrine glands",
         "Salivary glands",
-        "Sebaceous glands only"
+        "Eccrine glands"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Apocrine glands sit in the armpits and groin and produce a thicker fluid bacteria feed on.",
-      "objective": "Explain why body odour appears at puberty"
+      "objective": "Explain why body odour appears at puberty",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "Fresh sweat has a strong smell of its own.",
       "answer": false,
       "explain": "False. Fresh sweat is nearly odourless. The smell comes from bacteria feeding on it.",
-      "objective": "Explain why body odour appears at puberty"
+      "objective": "Explain why body odour appears at puberty",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "What is the difference between deodorant and antiperspirant?",
       "options": [
-        "Deodorant masks odour; antiperspirant reduces sweating",
-        "They are two words for the same product",
         "Antiperspirant only works on hands",
-        "Deodorant kills all skin bacteria permanently"
+        "Deodorant masks odour; antiperspirant reduces sweating",
+        "Deodorant kills all skin bacteria permanently",
+        "They are two words for the same product"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "One addresses the smell, the other addresses the sweat itself.",
-      "objective": "Explain why body odour appears at puberty"
+      "objective": "Explain why body odour appears at puberty",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "How does soap help remove germs?",
       "options": [
-        "It breaks apart their fatty outer layer and lifts them off the skin",
         "It makes water hotter",
         "It dries the skin completely",
+        "It breaks apart their fatty outer layer and lifts them off the skin",
         "It changes the colour of germs"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "That is why soap and twenty seconds beat a quick rinse every time.",
-      "objective": "Describe correct handwashing and why it works"
+      "objective": "Describe correct handwashing and why it works",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "Which part of the hands is most often missed when washing?",
       "options": [
         "Under the fingernails",
-        "The palms",
         "The wrists",
-        "The thumbs only"
+        "The thumbs only",
+        "The palms"
       ],
       "answerIndex": 0,
       "explain": "Under the nails, then between the fingers and the backs of the hands.",
-      "objective": "Describe correct handwashing and why it works"
+      "objective": "Describe correct handwashing and why it works",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What causes tooth decay?",
       "options": [
+        "Eating any food at all",
         "Bacteria producing acid that dissolves enamel",
-        "Brushing too hard",
         "Cold water on the teeth",
-        "Eating any food at all"
+        "Brushing too hard"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Bacteria eat sugar and release acid. The acid dissolves enamel, and enamel does not grow back.",
-      "objective": "Explain how tooth decay happens and how brushing stops it"
+      "objective": "Explain how tooth decay happens and how brushing stops it",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What is plaque?",
       "options": [
-        "A soft film of bacteria on the teeth",
         "The hard outer layer of a tooth",
-        "A kind of toothpaste",
-        "A gum disease"
+        "A gum disease",
+        "A soft film of bacteria on the teeth",
+        "A kind of toothpaste"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Brushing removes plaque. Once it hardens into tartar, only a dentist can.",
-      "objective": "Explain how tooth decay happens and how brushing stops it"
+      "objective": "Explain how tooth decay happens and how brushing stops it",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Tooth enamel grows back once damage stops.",
       "answer": false,
       "explain": "False. Bone and skin heal; enamel does not. A filling is a patch, not a repair.",
-      "objective": "Explain how tooth decay happens and how brushing stops it"
+      "objective": "Explain how tooth decay happens and how brushing stops it",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Why does acne become common at puberty?",
       "options": [
         "Hormones increase the skin's oil production",
-        "Teenagers wash less than children",
+        "It is caused by eating chocolate",
         "Skin becomes thinner with age",
-        "It is caused by eating chocolate"
+        "Teenagers wash less than children"
       ],
       "answerIndex": 0,
       "explain": "The same hormones that start apocrine sweat raise skin oil. Scrubbing harder makes it worse.",
-      "objective": "Describe basic skin, hair and nail care"
+      "objective": "Describe basic skin, hair and nail care",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "How should nails be cut to avoid ingrowth?",
       "options": [
-        "Straight across",
-        "Curved deeply at the corners",
+        "Only on the left hand",
         "As short as possible",
-        "Only on the left hand"
+        "Curved deeply at the corners",
+        "Straight across"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Cutting down into the corners is what lets a nail grow into the skin.",
-      "objective": "Describe basic skin, hair and nail care"
+      "objective": "Describe basic skin, hair and nail care",
+      "seconds": 20
     },
     {
       "type": "multiple",
@@ -362,20 +376,22 @@
       ],
       "answerIndex": 0,
       "explain": "Damp wraps sealed in a bag are how skin infections move around a gym.",
-      "objective": "Explain self-care as more than washing"
+      "objective": "Explain self-care as more than washing",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What else counts as self-care besides washing?",
       "options": [
-        "Sleep, food, rest and telling someone when something is wrong",
-        "Only exercise",
         "Only diet",
-        "Nothing else; self-care means hygiene"
+        "Only exercise",
+        "Nothing else; self-care means hygiene",
+        "Sleep, food, rest and telling someone when something is wrong"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Washing is the visible part. The rest of it is the same job.",
-      "objective": "Explain self-care as more than washing"
+      "objective": "Explain self-care as more than washing",
+      "seconds": 20
     }
   ],
   "teacher": {

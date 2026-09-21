@@ -46,13 +46,14 @@
         "type": "multiple",
         "text": "Why does a fixed order work better than a checklist?",
         "options": [
+          "It uses fewer supplies",
           "Each step cues the next, so you stop deciding",
           "It takes less time in total",
-          "It uses fewer supplies",
           "Checklists are not allowed"
         ],
-        "answerIndex": 0,
-        "explain": "Removing the decision is the whole mechanism. That is why the order has to stay the same."
+        "answerIndex": 1,
+        "explain": "Removing the decision is the whole mechanism. That is why the order has to stay the same.",
+        "seconds": 25
       }
     },
     {
@@ -87,7 +88,8 @@
         "type": "truefalse",
         "text": "Deodorant works best applied to skin that is still damp.",
         "answer": false,
-        "explain": "Clean and dry. On damp skin it slides off and does far less."
+        "explain": "Clean and dry. On damp skin it slides off and does far less.",
+        "seconds": 12
       }
     },
     {
@@ -147,12 +149,13 @@
         "text": "When should you tell someone a supply is running low?",
         "options": [
           "When you open the last one",
+          "At the end of the month",
           "When it is completely empty",
-          "Only if asked",
-          "At the end of the month"
+          "Only if asked"
         ],
         "answerIndex": 0,
-        "explain": "Starting the last one is the signal. Empty means somebody has to fix it today."
+        "explain": "Starting the last one is the signal. Empty means somebody has to fix it today.",
+        "seconds": 20
       }
     },
     {
@@ -173,10 +176,22 @@
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "routine", "def": "A fixed order of steps where each one cues the next." },
-        { "term": "personal care kit", "def": "The supplies and tools you need to run your own routine." },
-        { "term": "restocking", "def": "Replacing a supply before it runs out, not after." },
-        { "term": "maintenance", "def": "Doing a small job on a schedule so a big one never arrives." }
+        {
+          "term": "routine",
+          "def": "A fixed order of steps where each one cues the next."
+        },
+        {
+          "term": "personal care kit",
+          "def": "The supplies and tools you need to run your own routine."
+        },
+        {
+          "term": "restocking",
+          "def": "Replacing a supply before it runs out, not after."
+        },
+        {
+          "term": "maintenance",
+          "def": "Doing a small job on a schedule so a big one never arrives."
+        }
       ]
     },
     {
@@ -197,26 +212,28 @@
       "text": "What makes a routine work?",
       "options": [
         "A fixed order where each step cues the next",
+        "Being reminded by someone else",
         "Doing it at a different time each day",
-        "Having a very long list",
-        "Being reminded by someone else"
+        "Having a very long list"
       ],
       "answerIndex": 0,
       "explain": "It removes the decision. That is why the order must not change.",
-      "objective": "Build a morning and evening routine in a fixed order"
+      "objective": "Build a morning and evening routine in a fixed order",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "Why is the evening the right time to pack a bag?",
       "options": [
-        "It removes a decision from the busiest part of the day",
-        "Bags are lighter at night",
         "It is a school rule",
-        "Mornings have more time"
+        "It removes a decision from the busiest part of the day",
+        "Mornings have more time",
+        "Bags are lighter at night"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Prepare when it is cheap; execute when it is expensive. Mornings are expensive.",
-      "objective": "Build a morning and evening routine in a fixed order"
+      "objective": "Build a morning and evening routine in a fixed order",
+      "seconds": 25
     },
     {
       "type": "multiple",
@@ -224,107 +241,127 @@
       "options": [
         "Toothbrush, toothpaste, soap, deodorant",
         "Notebooks and pens",
-        "Sports trophies",
-        "Spare phone chargers"
+        "Spare phone chargers",
+        "Sports trophies"
       ],
       "answerIndex": 0,
       "explain": "Supplies that run out, plus tools like nail clippers and a comb that do not.",
-      "objective": "List what a personal care kit contains"
+      "objective": "List what a personal care kit contains",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Which of these is a tool rather than a supply?",
-      "options": ["Nail clippers", "Toothpaste", "Shampoo", "Soap"],
-      "answerIndex": 0,
+      "options": [
+        "Soap",
+        "Nail clippers",
+        "Shampoo",
+        "Toothpaste"
+      ],
+      "answerIndex": 1,
       "explain": "Tools do not run out. They only get lost, which is why they need one home.",
-      "objective": "List what a personal care kit contains"
+      "objective": "List what a personal care kit contains",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "How often should a toothbrush be replaced?",
       "options": [
-        "About every three months, or when the bristles splay",
         "Once a year",
         "Every week",
-        "Only when it breaks"
+        "Only when it breaks",
+        "About every three months, or when the bristles splay"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Splayed bristles stop reaching the gum line, which is where plaque builds.",
-      "objective": "Know when each supply needs restocking"
+      "objective": "Know when each supply needs restocking",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "When is the right moment to say a supply is running low?",
       "options": [
-        "When you open the last one",
         "When it is empty",
         "Two weeks after it runs out",
+        "When you open the last one",
         "Never; someone else checks"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Opening the last one leaves time. Empty means someone has to solve it today.",
-      "objective": "Know when each supply needs restocking"
+      "objective": "Know when each supply needs restocking",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "Checking your whole kit on the same day each month is a useful habit.",
       "answer": true,
       "explain": "True. A fixed check date means nothing depends on you happening to notice.",
-      "objective": "Know when each supply needs restocking"
+      "objective": "Know when each supply needs restocking",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Deodorant should be applied to skin that is:",
-      "options": ["Clean and dry", "Damp from the shower", "Sweaty from training", "Freshly moisturised"],
+      "options": [
+        "Clean and dry",
+        "Freshly moisturised",
+        "Damp from the shower",
+        "Sweaty from training"
+      ],
       "answerIndex": 0,
       "explain": "On damp skin it slides off and does much less than it should.",
-      "objective": "Build a morning and evening routine in a fixed order"
+      "objective": "Build a morning and evening routine in a fixed order",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "How should a towel be hung after use?",
       "options": [
-        "Spread out so it dries",
         "Folded in half on a hook",
         "In a laundry basket",
+        "Spread out so it dries",
         "On the floor"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "A damp bunched towel grows bacteria quickly. Spread out, and changed weekly.",
-      "objective": "List what a personal care kit contains"
+      "objective": "List what a personal care kit contains",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What does maintenance mean here?",
       "options": [
+        "Cleaning only when asked",
         "Small jobs on a schedule so a big one never arrives",
         "Fixing things after they break",
-        "Cleaning only when asked",
         "Buying new items regularly"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "It is the same idea as servicing a car rather than waiting for a noise.",
-      "objective": "Explain why a routine beats a reminder"
+      "objective": "Explain why a routine beats a reminder",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Needing to change your routine as you grow means the old one failed.",
       "answer": false,
       "explain": "False. Your body's demands changed, so the routine changes with it.",
-      "objective": "Take over the job of asking for what you need"
+      "objective": "Take over the job of asking for what you need",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "What is the point of taking over your own care routine?",
       "options": [
-        "It stops depending on someone else remembering for you",
-        "It saves money",
         "It is faster",
-        "It means fewer showers"
+        "It means fewer showers",
+        "It saves money",
+        "It stops depending on someone else remembering for you"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "The job moves from being managed to being yours. That is the skill this week teaches.",
-      "objective": "Take over the job of asking for what you need"
+      "objective": "Take over the job of asking for what you need",
+      "seconds": 20
     }
   ],
   "teacher": {

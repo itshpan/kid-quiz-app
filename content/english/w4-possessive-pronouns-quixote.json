@@ -59,13 +59,14 @@
         "type": "multiple",
         "text": "Which sentence uses a possessive PRONOUN?",
         "options": [
-          "The blue gloves are hers",
-          "Her gloves are blue",
           "She lost her gloves",
-          "Her team won"
+          "Her team won",
+          "The blue gloves are hers",
+          "Her gloves are blue"
         ],
-        "answerIndex": 0,
-        "explain": "Hers stands alone with no noun after it. In the others, her sits in front of a noun."
+        "answerIndex": 2,
+        "explain": "Hers stands alone with no noun after it. In the others, her sits in front of a noun.",
+        "seconds": 20
       }
     },
     {
@@ -100,13 +101,14 @@
         "type": "multiple",
         "text": "Which is spelled correctly?",
         "options": [
-          "The medals are theirs",
           "The medals are their's",
+          "The medals are theirs",
           "The medals are theirs'",
           "The medals are theres"
         ],
-        "answerIndex": 0,
-        "explain": "Theirs. It is already possessive, so it takes no apostrophe. Same for yours, hers and ours."
+        "answerIndex": 1,
+        "explain": "Theirs. It is already possessive, so it takes no apostrophe. Same for yours, hers and ours.",
+        "seconds": 15
       }
     },
     {
@@ -147,7 +149,8 @@
           "theirs",
           "ours"
         ],
-        "explain": "Any possessive pronoun works, as long as it has no apostrophe. Yours, hers, his, ours, theirs."
+        "explain": "Any possessive pronoun works, as long as it has no apostrophe. Yours, hers, his, ours, theirs.",
+        "seconds": 20
       }
     },
     {
@@ -208,11 +211,12 @@
         "options": [
           "That they declare Dulcinea the most beautiful woman alive, unseen",
           "That they hand over their silk",
-          "That they take him to Toledo",
-          "That they free a servant boy"
+          "That they free a servant boy",
+          "That they take him to Toledo"
         ],
         "answerIndex": 0,
-        "explain": "Unseen is the crucial word. Being shown proof first would ruin it, as far as he is concerned."
+        "explain": "Unseen is the crucial word. Being shown proof first would ruin it, as far as he is concerned.",
+        "seconds": 25
       }
     },
     {
@@ -247,7 +251,8 @@
         "type": "truefalse",
         "text": "Don Quixote defeats the merchants in the fight.",
         "answer": false,
-        "explain": "False. His horse stumbles before he reaches them and he is beaten with his own broken lance."
+        "explain": "False. His horse stumbles before he reaches them and he is beaten with his own broken lance.",
+        "seconds": 12
       }
     },
     {
@@ -266,12 +271,30 @@
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "possessive determiner", "def": "my, your, his, her, its, our, their. Always sits in front of a noun." },
-        { "term": "possessive pronoun", "def": "mine, yours, his, hers, ours, theirs. Stands alone with no noun after it." },
-        { "term": "its", "def": "The possessive determiner. No apostrophe, and there is no pronoun form of it." },
-        { "term": "it's", "def": "Short for it is or it has. Never possessive." },
-        { "term": "whose", "def": "Asks or states who something belongs to. No apostrophe." },
-        { "term": "who's", "def": "Short for who is or who has. Apostrophe." }
+        {
+          "term": "possessive determiner",
+          "def": "my, your, his, her, its, our, their. Always sits in front of a noun."
+        },
+        {
+          "term": "possessive pronoun",
+          "def": "mine, yours, his, hers, ours, theirs. Stands alone with no noun after it."
+        },
+        {
+          "term": "its",
+          "def": "The possessive determiner. No apostrophe, and there is no pronoun form of it."
+        },
+        {
+          "term": "it's",
+          "def": "Short for it is or it has. Never possessive."
+        },
+        {
+          "term": "whose",
+          "def": "Asks or states who something belongs to. No apostrophe."
+        },
+        {
+          "term": "who's",
+          "def": "Short for who is or who has. Apostrophe."
+        }
       ]
     },
     {
@@ -298,92 +321,100 @@
       ],
       "answerIndex": 0,
       "explain": "Our sits in front of the noun car. The other three all stand alone, so they are pronouns.",
-      "objective": "Tell a possessive determiner from a possessive pronoun"
+      "objective": "Tell a possessive determiner from a possessive pronoun",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Which sentence contains a possessive PRONOUN?",
       "options": [
-        "The fastest lap was hers",
-        "Her lap was the fastest",
+        "Her coach was pleased",
         "She beat her own record",
-        "Her coach was pleased"
+        "The fastest lap was hers",
+        "Her lap was the fastest"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Hers stands alone with nothing after it. In the others, her is followed by a noun.",
-      "objective": "Tell a possessive determiner from a possessive pronoun"
+      "objective": "Tell a possessive determiner from a possessive pronoun",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Complete it: \"That kit is not mine, it is ___.\"",
       "options": [
+        "yours'",
         "yours",
         "your",
-        "your's",
-        "yours'"
+        "your's"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Yours. It stands alone, so it is the pronoun, and it never takes an apostrophe.",
-      "objective": "Use mine, yours, his, hers, ours and theirs on their own"
+      "objective": "Use mine, yours, his, hers, ours and theirs on their own",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Which one is spelled correctly?",
       "options": [
-        "The victory was ours",
-        "The victory was our's",
         "The victory was ours'",
-        "The victory was our"
+        "The victory was our's",
+        "The victory was our",
+        "The victory was ours"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Ours. No apostrophe on any possessive pronoun, because the word is already possessive.",
-      "objective": "Explain why possessive pronouns never take an apostrophe"
+      "objective": "Explain why possessive pronouns never take an apostrophe",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "The word \"his\" is used both before a noun and on its own.",
       "answer": true,
       "explain": "True. His gloves are new, and the new gloves are his. It is the only one that does not change.",
-      "objective": "Use my, your, his, her, its, our and their before a noun"
+      "objective": "Use my, your, his, her, its, our and their before a noun",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Which sentence is correct?",
       "options": [
         "The engine lost its power",
-        "The engine lost it's power",
         "The engine lost its' power",
-        "The engine lost his power"
+        "The engine lost his power",
+        "The engine lost it's power"
       ],
       "answerIndex": 0,
       "explain": "Its, no apostrophe. It's always means it is, and it is power makes no sense here.",
-      "objective": "Use my, your, his, her, its, our and their before a noun"
+      "objective": "Use my, your, his, her, its, our and their before a noun",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Complete it: \"___ bag is this?\"",
       "options": [
-        "Whose",
         "Who's",
-        "Whos",
-        "Whose'"
+        "Whose",
+        "Whose'",
+        "Whos"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Whose asks who owns it. Who is bag is this makes no sense, so who's is wrong.",
-      "objective": "Distinguish whose from who's"
+      "objective": "Distinguish whose from who's",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Complete it: \"___ coming to training tonight?\"",
       "options": [
-        "Who's",
-        "Whose",
+        "Whose'",
         "Whos",
-        "Whose'"
+        "Who's",
+        "Whose"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Who is coming fits, so it is who's with the apostrophe.",
-      "objective": "Distinguish whose from who's"
+      "objective": "Distinguish whose from who's",
+      "seconds": 15
     },
     {
       "type": "type",
@@ -393,40 +424,44 @@
         "mine."
       ],
       "explain": "Mine. It replaces my helmet, which is why nothing follows it.",
-      "objective": "Use mine, yours, his, hers, ours and theirs on their own"
+      "objective": "Use mine, yours, his, hers, ours and theirs on their own",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What does Don Quixote demand of the merchants?",
       "options": [
         "That they declare Dulcinea the most beautiful woman alive, without seeing her",
+        "That they carry him back to his village",
         "That they give him food and water",
-        "That they release a boy tied to a tree",
-        "That they carry him back to his village"
+        "That they release a boy tied to a tree"
       ],
       "answerIndex": 0,
       "explain": "Without seeing her is the point. Asking for proof first is exactly what enrages him.",
-      "objective": "Retell Don Quixote Chapter 4 and explain what he demands of the merchants"
+      "objective": "Retell Don Quixote Chapter 4 and explain what he demands of the merchants",
+      "seconds": 30
     },
     {
       "type": "multiple",
       "text": "How does the fight with the merchants end?",
       "options": [
-        "His horse stumbles and he is beaten with his own broken lance",
-        "He defeats all six merchants",
+        "He is arrested by the Spanish authorities",
         "The merchants agree and ride away",
-        "He is arrested by the Spanish authorities"
+        "He defeats all six merchants",
+        "His horse stumbles and he is beaten with his own broken lance"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Rocinante trips before he arrives. His armour is too heavy for him to get back up.",
-      "objective": "Retell Don Quixote Chapter 4 and explain what he demands of the merchants"
+      "objective": "Retell Don Quixote Chapter 4 and explain what he demands of the merchants",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "After being beaten, Don Quixote decides that his beliefs were mistaken.",
       "answer": false,
       "explain": "False. He recites a ballad and blames his horse. Nothing that happens to him counts as evidence.",
-      "objective": "Retell Don Quixote Chapter 4 and explain what he demands of the merchants"
+      "objective": "Retell Don Quixote Chapter 4 and explain what he demands of the merchants",
+      "seconds": 12
     }
   ],
   "teacher": {

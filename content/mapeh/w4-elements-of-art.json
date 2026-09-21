@@ -47,13 +47,14 @@
         "type": "multiple",
         "text": "Which of these is NOT an element of art?",
         "options": [
-          "Balance",
           "Texture",
           "Value",
-          "Space"
+          "Space",
+          "Balance"
         ],
-        "answerIndex": 0,
-        "explain": "Balance is a principle of design — a way of arranging elements. The other three are elements."
+        "answerIndex": 3,
+        "explain": "Balance is a principle of design — a way of arranging elements. The other three are elements.",
+        "seconds": 15
       }
     },
     {
@@ -89,12 +90,13 @@
         "text": "A cube is an example of which element?",
         "options": [
           "Form",
-          "Shape",
           "Space",
-          "Value"
+          "Value",
+          "Shape"
         ],
         "answerIndex": 0,
-        "explain": "Form. It has depth as well as height and width. A square is the flat version, and that is a shape."
+        "explain": "Form. It has depth as well as height and width. A square is the flat version, and that is a shape.",
+        "seconds": 15
       }
     },
     {
@@ -117,11 +119,12 @@
         "options": [
           "The empty area around and between objects",
           "A mistake in a drawing",
-          "A dark shadow under an object",
-          "The background colour only"
+          "The background colour only",
+          "A dark shadow under an object"
         ],
         "answerIndex": 0,
-        "explain": "The space around the subject. It is designed on purpose, not left over by accident."
+        "explain": "The space around the subject. It is designed on purpose, not left over by accident.",
+        "seconds": 20
       }
     },
     {
@@ -180,13 +183,14 @@
         "type": "multiple",
         "text": "What does value mean in art?",
         "options": [
-          "How light or dark something is",
           "How much a painting is worth",
-          "Which colour has been used",
-          "How rough a surface feels"
+          "How rough a surface feels",
+          "How light or dark something is",
+          "Which colour has been used"
         ],
-        "answerIndex": 0,
-        "explain": "Lightness and darkness. Squint at any picture and value is what you are left seeing."
+        "answerIndex": 2,
+        "explain": "Lightness and darkness. Squint at any picture and value is what you are left seeing.",
+        "seconds": 20
       }
     },
     {
@@ -221,29 +225,60 @@
         "type": "multiple",
         "text": "Which list are contrast and emphasis on?",
         "options": [
-          "The principles of design",
           "The elements of art",
+          "The principles of design",
           "The primary colours",
           "The kinds of texture"
         ],
-        "answerIndex": 0,
-        "explain": "Principles. They describe how elements are arranged, not what the elements are."
+        "answerIndex": 1,
+        "explain": "Principles. They describe how elements are arranged, not what the elements are.",
+        "seconds": 20
       }
     },
     {
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "line", "def": "The path a point takes. The first and simplest element." },
-        { "term": "shape", "def": "A flat area with height and width only. Two dimensions." },
-        { "term": "form", "def": "Shape with depth added. Three dimensions, real or suggested." },
-        { "term": "positive space", "def": "The object itself." },
-        { "term": "negative space", "def": "The area around and between objects, designed on purpose." },
-        { "term": "hue", "def": "Which colour something is: red, blue, green." },
-        { "term": "value", "def": "How light or dark something is." },
-        { "term": "intensity", "def": "How strong or dull a colour is." },
-        { "term": "texture", "def": "How a surface feels, or how it looks as though it would feel." },
-        { "term": "principles of design", "def": "Balance, contrast, emphasis, rhythm, unity. How elements are arranged." }
+        {
+          "term": "line",
+          "def": "The path a point takes. The first and simplest element."
+        },
+        {
+          "term": "shape",
+          "def": "A flat area with height and width only. Two dimensions."
+        },
+        {
+          "term": "form",
+          "def": "Shape with depth added. Three dimensions, real or suggested."
+        },
+        {
+          "term": "positive space",
+          "def": "The object itself."
+        },
+        {
+          "term": "negative space",
+          "def": "The area around and between objects, designed on purpose."
+        },
+        {
+          "term": "hue",
+          "def": "Which colour something is: red, blue, green."
+        },
+        {
+          "term": "value",
+          "def": "How light or dark something is."
+        },
+        {
+          "term": "intensity",
+          "def": "How strong or dull a colour is."
+        },
+        {
+          "term": "texture",
+          "def": "How a surface feels, or how it looks as though it would feel."
+        },
+        {
+          "term": "principles of design",
+          "def": "Balance, contrast, emphasis, rhythm, unity. How elements are arranged."
+        }
       ]
     },
     {
@@ -263,40 +298,43 @@
       "type": "multiple",
       "text": "Which of these is an element of art?",
       "options": [
-        "Texture",
         "Balance",
         "Emphasis",
-        "Unity"
+        "Unity",
+        "Texture"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Texture is an element. Balance, emphasis and unity are principles of design.",
-      "objective": "Name the seven elements of art"
+      "objective": "Name the seven elements of art",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What is the difference between shape and form?",
       "options": [
         "Shape is flat; form has depth",
-        "Shape is coloured; form is not",
         "Shape is small; form is large",
-        "There is no difference"
+        "There is no difference",
+        "Shape is coloured; form is not"
       ],
       "answerIndex": 0,
       "explain": "Two dimensions against three. A square is a shape, a cube is a form.",
-      "objective": "Tell shape from form"
+      "objective": "Tell shape from form",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "A sphere is an example of which element?",
       "options": [
-        "Form",
-        "Shape",
         "Value",
+        "Shape",
+        "Form",
         "Line"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Form. A circle is the flat version, and that would be a shape.",
-      "objective": "Tell shape from form"
+      "objective": "Tell shape from form",
+      "seconds": 15
     },
     {
       "type": "type",
@@ -307,99 +345,108 @@
         "negative"
       ],
       "explain": "Negative space. It is designed deliberately, not left over.",
-      "objective": "Explain positive and negative space"
+      "objective": "Explain positive and negative space",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Negative space is a mistake that artists try to avoid.",
       "answer": false,
       "explain": "False. It is planned as carefully as the subject, and it is often what directs your eye.",
-      "objective": "Explain positive and negative space"
+      "objective": "Explain positive and negative space",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Which word means which colour something is?",
       "options": [
-        "Hue",
         "Value",
         "Intensity",
+        "Hue",
         "Texture"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Hue. Value is lightness or darkness, and intensity is how strong or dull the colour is.",
-      "objective": "Describe colour using hue, value and intensity"
+      "objective": "Describe colour using hue, value and intensity",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What are the three primary colours?",
       "options": [
-        "Red, yellow, blue",
-        "Red, green, blue",
         "Orange, green, violet",
-        "Black, white, grey"
+        "Black, white, grey",
+        "Red, green, blue",
+        "Red, yellow, blue"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Red, yellow and blue in paint. Mixing pairs of them gives orange, green and violet.",
-      "objective": "Describe colour using hue, value and intensity"
+      "objective": "Describe colour using hue, value and intensity",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What does value describe?",
       "options": [
         "How light or dark something is",
-        "How expensive the artwork is",
+        "How large the picture is",
         "How rough the surface is",
-        "How large the picture is"
+        "How expensive the artwork is"
       ],
       "answerIndex": 0,
       "explain": "Lightness and darkness. Turn any image greyscale and value is all that is left.",
-      "objective": "Describe colour using hue, value and intensity"
+      "objective": "Describe colour using hue, value and intensity",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Which list do balance, contrast and rhythm belong to?",
       "options": [
+        "The kinds of line",
         "The principles of design",
-        "The elements of art",
         "The primary colours",
-        "The kinds of line"
+        "The elements of art"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Principles. Elements are what is in the picture; principles are how it has been arranged.",
-      "objective": "Tell the elements of art from the principles of design"
+      "objective": "Tell the elements of art from the principles of design",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Elements of art are what is in a picture; principles of design are how it is arranged.",
       "answer": true,
       "explain": "True. Ingredients against recipe. Keeping the two lists separate is most of the topic.",
-      "objective": "Tell the elements of art from the principles of design"
+      "objective": "Tell the elements of art from the principles of design",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Which of these describes an image rather than judging it?",
       "options": [
         "Dark values, one bright hue, a lot of negative space",
-        "It looks really cool",
         "I would put it on my wall",
-        "Better than the last one"
+        "Better than the last one",
+        "It looks really cool"
       ],
       "answerIndex": 0,
       "explain": "Naming elements is description. Everything else is a verdict, which ends the conversation.",
-      "objective": "Use the elements to describe an image instead of judging it"
+      "objective": "Use the elements to describe an image instead of judging it",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "What is texture, as an element of art?",
       "options": [
+        "The size of the artwork",
         "How a surface feels, or looks as though it would feel",
         "The overall colour scheme",
-        "The size of the artwork",
         "The frame around a picture"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Both real texture and the illusion of it. Hatching and stippling are two ways to fake it.",
-      "objective": "Name the seven elements of art"
+      "objective": "Name the seven elements of art",
+      "seconds": 25
     }
   ],
   "teacher": {

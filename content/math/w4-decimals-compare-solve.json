@@ -47,13 +47,14 @@
         "type": "multiple",
         "text": "Which of these is the largest?",
         "options": [
+          "0.514",
           "0.6",
           "0.59",
-          "0.514",
           "0.4999"
         ],
-        "answerIndex": 0,
-        "explain": "Pad them all to four places and compare tenths first: 6 beats 5 and 4. Extra digits do not help."
+        "answerIndex": 1,
+        "explain": "Pad them all to four places and compare tenths first: 6 beats 5 and 4. Extra digits do not help.",
+        "seconds": 15
       }
     },
     {
@@ -81,7 +82,8 @@
           "2.4",
           "2.45"
         ],
-        "explain": "Compare tenths first: 0, 1, 4, 4. Only the last two need the hundredths column."
+        "explain": "Compare tenths first: 0, 1, 4, 4. Only the last two need the hundredths column.",
+        "seconds": 20
       }
     },
     {
@@ -127,12 +129,13 @@
         "text": "You pay ₱200 for items costing ₱45.75 and ₱88.50. What is your change?",
         "options": [
           "₱65.75",
-          "₱134.25",
           "₱155.75",
+          "₱134.25",
           "₱111.50"
         ],
         "answerIndex": 0,
-        "explain": "Two steps. Add: 45.75 + 88.50 = 134.25. Then subtract: 200 − 134.25 = 65.75."
+        "explain": "Two steps. Add: 45.75 + 88.50 = 134.25. Then subtract: 200 − 134.25 = 65.75.",
+        "seconds": 15
       }
     },
     {
@@ -170,7 +173,8 @@
           "3.75",
           "3.750"
         ],
-        "explain": "Work backwards: 9.4 − 5.65 = 3.75. Check it by putting 3.75 back into the original."
+        "explain": "Work backwards: 9.4 − 5.65 = 3.75. Check it by putting 3.75 back into the original.",
+        "seconds": 15
       }
     },
     {
@@ -205,13 +209,14 @@
         "type": "multiple",
         "text": "A plank is 2.4 m. You cut off 0.85 m, then another 0.6 m. What is left?",
         "options": [
-          "0.95 m",
           "1.55 m",
           "1.8 m",
+          "0.95 m",
           "3.85 m"
         ],
-        "answerIndex": 0,
-        "explain": "Two steps: 2.4 − 0.85 = 1.55, then 1.55 − 0.6 = 0.95. Estimate: about 2.4 − 1.5, so about 1."
+        "answerIndex": 2,
+        "explain": "Two steps: 2.4 − 0.85 = 1.55, then 1.55 − 0.6 = 0.95. Estimate: about 2.4 − 1.5, so about 1.",
+        "seconds": 20
       }
     },
     {
@@ -273,21 +278,23 @@
       "type": "multiple",
       "text": "Which is the largest number?",
       "options": [
-        "0.8",
         "0.79",
-        "0.712",
-        "0.6999"
+        "0.8",
+        "0.6999",
+        "0.712"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Compare tenths first: 8 beats 7 and 6. Nothing after the tenths column matters here.",
-      "objective": "Compare two decimals by working from the left"
+      "objective": "Compare two decimals by working from the left",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "3.5 and 3.50 are the same number.",
       "answer": true,
       "explain": "True. A zero on the end adds no value. It only pads the number so columns line up.",
-      "objective": "Compare two decimals by working from the left"
+      "objective": "Compare two decimals by working from the left",
+      "seconds": 12
     },
     {
       "type": "order",
@@ -299,46 +306,50 @@
         "5.3"
       ],
       "explain": "Tenths first: 0, 2, 2, 3. Only 5.2 and 5.25 need the hundredths column to separate them.",
-      "objective": "Order a set of decimals from smallest to largest"
+      "objective": "Order a set of decimals from smallest to largest",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Which phrase tells you to SUBTRACT?",
       "options": [
-        "How much more",
+        "Combined",
         "Altogether",
-        "In total",
-        "Combined"
+        "How much more",
+        "In total"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "How much more asks for a difference. The other three all point to addition.",
-      "objective": "Choose between addition and subtraction from the wording of a problem"
+      "objective": "Choose between addition and subtraction from the wording of a problem",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "A go-bag needs items costing ₱126.40 and ₱237.85. You pay ₱500. What change?",
       "options": [
+        "₱111.45",
         "₱135.75",
         "₱364.25",
-        "₱136.25",
-        "₱111.45"
+        "₱136.25"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Add first: 126.40 + 237.85 = 364.25. Then 500 − 364.25 = 135.75.",
-      "objective": "Solve multi-step decimal problems involving money and measurement"
+      "objective": "Solve multi-step decimal problems involving money and measurement",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "A can holds 1.5 L of fuel. One lap burns 0.35 L, the next 0.4 L. How much is left?",
       "options": [
-        "0.75 L",
+        "0.65 L",
         "0.85 L",
         "1.15 L",
-        "0.65 L"
+        "0.75 L"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "1.5 − 0.35 = 1.15, then 1.15 − 0.4 = 0.75. Estimate: about 1.5 minus 0.75, so about 0.75.",
-      "objective": "Solve multi-step decimal problems involving money and measurement"
+      "objective": "Solve multi-step decimal problems involving money and measurement",
+      "seconds": 20
     },
     {
       "type": "type",
@@ -348,7 +359,8 @@
         "4.750"
       ],
       "explain": "Work backwards: 8.2 − 3.45 = 4.75. Subtraction undoes subtraction here.",
-      "objective": "Find a missing number in a decimal addition or subtraction"
+      "objective": "Find a missing number in a decimal addition or subtraction",
+      "seconds": 15
     },
     {
       "type": "type",
@@ -358,7 +370,8 @@
         "5.650"
       ],
       "explain": "Subtract to undo the addition: 12.4 − 6.75 = 5.65.",
-      "objective": "Find a missing number in a decimal addition or subtraction"
+      "objective": "Find a missing number in a decimal addition or subtraction",
+      "seconds": 15
     },
     {
       "type": "multiple",
@@ -371,20 +384,22 @@
       ],
       "answerIndex": 0,
       "explain": "About 30 + 8 = 38. An answer near 3.8 is out by a factor of ten.",
-      "objective": "Use estimation to reject an answer that cannot be right"
+      "objective": "Use estimation to reject an answer that cannot be right",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Two laps are timed at 11.42 s and 11.4 s. Which was faster, and by how much?",
       "options": [
-        "The 11.4 s lap, by 0.02 s",
         "The 11.42 s lap, by 0.02 s",
-        "The 11.4 s lap, by 0.2 s",
-        "They tied"
+        "They tied",
+        "The 11.4 s lap, by 0.02 s",
+        "The 11.4 s lap, by 0.2 s"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Pad it: 11.40 against 11.42. Smaller time is faster, and the gap is two hundredths.",
-      "objective": "Compare two decimals by working from the left"
+      "objective": "Compare two decimals by working from the left",
+      "seconds": 25
     },
     {
       "type": "multiple",
@@ -392,19 +407,21 @@
       "options": [
         "0.7 kg",
         "2.8 kg",
-        "1.4 kg",
-        "0.28 kg"
+        "0.28 kg",
+        "1.4 kg"
       ],
       "answerIndex": 0,
       "explain": "Step 1: 66.3 − 63.5 = 2.8 kg. Step 2: 2.8 ÷ 4 = 0.7 kg a day.",
-      "objective": "Solve multi-step decimal problems involving money and measurement"
+      "objective": "Solve multi-step decimal problems involving money and measurement",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "A number with more digits after the decimal point is always larger.",
       "answer": false,
       "explain": "False. 0.45 has more digits than 0.5 and is smaller. Compare from the left, column by column.",
-      "objective": "Compare two decimals by working from the left"
+      "objective": "Compare two decimals by working from the left",
+      "seconds": 12
     }
   ],
   "teacher": {

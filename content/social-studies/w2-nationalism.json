@@ -71,7 +71,8 @@
           "Believing every country should be ruled by a king"
         ],
         "answerIndex": 0,
-        "explain": "It is the belief that you belong to a nation, and that the nation should govern itself."
+        "explain": "It is the belief that you belong to a nation, and that the nation should govern itself.",
+        "seconds": 20
       }
     },
     {
@@ -117,12 +118,13 @@
         "type": "multiple",
         "text": "Why did the Suez Canal matter to Filipino nationalism?",
         "options": [
-          "It made travel and news between Europe and the Philippines far faster",
           "It let Spain send soldiers overland instead of by sea",
+          "It made travel and news between Europe and the Philippines far faster",
           "It gave the Philippines its own trade route to America"
         ],
-        "answerIndex": 0,
-        "explain": "It cut the journey from about three months to about one. Liberal ideas arrived far faster."
+        "answerIndex": 1,
+        "explain": "It cut the journey from about three months to about one. Liberal ideas arrived far faster.",
+        "seconds": 25
       }
     },
     {
@@ -156,12 +158,13 @@
         "type": "multiple",
         "text": "Who did the word Filipino originally refer to?",
         "options": [
-          "Spaniards born in the Philippines",
           "Native Filipinos only",
-          "Spanish priests sent out from Spain"
+          "Spanish priests sent out from Spain",
+          "Spaniards born in the Philippines"
         ],
-        "answerIndex": 0,
-        "explain": "Spaniards born in the islands. The ilustrados claimed the word for everyone born here instead."
+        "answerIndex": 2,
+        "explain": "Spaniards born in the islands. The ilustrados claimed the word for everyone born here instead.",
+        "seconds": 20
       }
     },
     {
@@ -201,12 +204,13 @@
         "type": "multiple",
         "text": "What changed when Izquierdo replaced de la Torre in 1871?",
         "options": [
-          "The liberal reforms were reversed and rule became harsher",
           "Filipinos were given seats in the Spanish parliament",
-          "The Spanish friars lost control of the parishes"
+          "The Spanish friars lost control of the parishes",
+          "The liberal reforms were reversed and rule became harsher"
         ],
-        "answerIndex": 0,
-        "explain": "He reversed the reforms. Losing freedoms you have already tasted is what pushed people over."
+        "answerIndex": 2,
+        "explain": "He reversed the reforms. Losing freedoms you have already tasted is what pushed people over.",
+        "seconds": 25
       }
     },
     {
@@ -251,7 +255,8 @@
         "type": "truefalse",
         "text": "The three priests executed in 1872 were proven to have led the Cavite Mutiny.",
         "answer": false,
-        "explain": "False. No real evidence was shown. A pay dispute was used as the excuse to remove them."
+        "explain": "False. No real evidence was shown. A pay dispute was used as the excuse to remove them.",
+        "seconds": 12
       }
     },
     {
@@ -323,27 +328,29 @@
       "type": "multiple",
       "text": "What does nationalism mean?",
       "options": [
+        "Believing every country should have the same religion",
         "Believing your people are a nation that should govern itself",
         "Believing your ruler should be obeyed without question",
-        "Believing your country should trade only with its neighbours",
-        "Believing every country should have the same religion"
+        "Believing your country should trade only with its neighbours"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "It is loyalty to your own nation, plus the belief that the nation should rule itself.",
-      "objective": "Explain what nationalism means and how a nation differs from a state"
+      "objective": "Explain what nationalism means and how a nation differs from a state",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "What did opening Manila to world trade in 1834 lead to?",
       "options": [
         "A wealthy Filipino middle class who could pay for education",
-        "The immediate end of Spanish rule",
+        "A ban on Filipinos owning land",
         "The closing of all the other Philippine ports",
-        "A ban on Filipinos owning land"
+        "The immediate end of Spanish rule"
       ],
       "answerIndex": 0,
       "explain": "Trade made Filipino families rich. Rich families sent their sons to university, and that produced the ilustrados.",
-      "objective": "Identify the economic and educational causes of Filipino nationalism"
+      "objective": "Identify the economic and educational causes of Filipino nationalism",
+      "seconds": 25
     },
     {
       "type": "type",
@@ -355,53 +362,58 @@
         "ilustrado class"
       ],
       "explain": "The ilustrados. The word is Spanish for 'enlightened', and most were schooled in Manila or Europe.",
-      "objective": "Identify the economic and educational causes of Filipino nationalism"
+      "objective": "Identify the economic and educational causes of Filipino nationalism",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "How did the Suez Canal help Filipino nationalism?",
       "options": [
-        "It cut the journey to Spain from about three months to about one",
         "It let Filipino ships reach America without Spanish permission",
-        "It moved the Philippines closer to the equator",
-        "It ended Spain's control of Philippine trade"
+        "It cut the journey to Spain from about three months to about one",
+        "It ended Spain's control of Philippine trade",
+        "It moved the Philippines closer to the equator"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Faster ships meant faster ideas. Students, letters, books and newspapers all arrived far sooner.",
-      "objective": "Explain how the opening of the Suez Canal sped up the spread of ideas"
+      "objective": "Explain how the opening of the Suez Canal sped up the spread of ideas",
+      "seconds": 30
     },
     {
       "type": "multiple",
       "text": "Who did the word Filipino originally refer to?",
       "options": [
-        "Spaniards born in the Philippines",
-        "Native Filipinos born in the islands",
+        "Chinese traders living in Manila",
         "Spaniards born in Spain",
-        "Chinese traders living in Manila"
+        "Native Filipinos born in the islands",
+        "Spaniards born in the Philippines"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Spaniards born here, the insulares. The ilustrados took the word and claimed it for everyone.",
-      "objective": "Describe the colonial social classes and the place of the indio"
+      "objective": "Describe the colonial social classes and the place of the indio",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What was the secularisation controversy about?",
       "options": [
         "Whether Filipino priests could run parishes instead of Spanish friars",
-        "Whether the Philippines should have any religion at all",
         "Whether Mass could be said in Tagalog",
+        "Whether the Philippines should have any religion at all",
         "Whether priests should be allowed to marry"
       ],
       "answerIndex": 0,
       "explain": "Filipino secular priests wanted the parishes held by Spanish friars. Father Jose Burgos led that campaign.",
-      "objective": "Explain the secularisation controversy and the role of Father Jose Burgos"
+      "objective": "Explain the secularisation controversy and the role of Father Jose Burgos",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "The Cavite Mutiny of 1872 began as a protest over lost pay and work exemptions.",
       "answer": true,
       "explain": "True. Izquierdo removed the arsenal workers' exemption from tribute and forced labour, and they revolted.",
-      "objective": "Describe the Cavite Mutiny of 1872 and the execution of GomBurZa"
+      "objective": "Describe the Cavite Mutiny of 1872 and the execution of GomBurZa",
+      "seconds": 15
     },
     {
       "type": "order",
@@ -413,20 +425,22 @@
         "GomBurZa are executed"
       ],
       "explain": "1834, then 1869, then January 1872, then February 1872. Each one made the next possible.",
-      "objective": "Describe the Cavite Mutiny of 1872 and the execution of GomBurZa"
+      "objective": "Describe the Cavite Mutiny of 1872 and the execution of GomBurZa",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "Why were the executions of GomBurZa so important?",
       "options": [
-        "They convinced educated Filipinos that Spain would never treat them fairly",
+        "They ended the Spanish practice of using the word indio",
         "They started a war that Spain lost within a year",
         "They forced Spain to give the parishes to Filipino priests",
-        "They ended the Spanish practice of using the word indio"
+        "They convinced educated Filipinos that Spain would never treat them fairly"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Spain executed three respected priests without real evidence. Reform through loyalty stopped looking possible.",
-      "objective": "Describe the Cavite Mutiny of 1872 and the execution of GomBurZa"
+      "objective": "Describe the Cavite Mutiny of 1872 and the execution of GomBurZa",
+      "seconds": 30
     },
     {
       "type": "type",
@@ -438,33 +452,36 @@
         "the gomburza"
       ],
       "explain": "GomBurZa, from Gomez, Burgos and Zamora. The name itself is how Filipinos kept them together.",
-      "objective": "Describe the Cavite Mutiny of 1872 and the execution of GomBurZa"
+      "objective": "Describe the Cavite Mutiny of 1872 and the execution of GomBurZa",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What was a Spaniard born in the Philippines called?",
       "options": [
-        "An insular",
         "A peninsular",
         "An indio",
+        "An insular",
         "An ilustrado"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "An insular. A peninsular was born in Spain, and an indio was a native-born Filipino.",
-      "objective": "Describe the colonial social classes and the place of the indio"
+      "objective": "Describe the colonial social classes and the place of the indio",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Which sentence describes the difference between a nation and a state?",
       "options": [
-        "A nation is a people with a shared identity; a state is a government ruling a territory",
         "A nation is smaller than a state, and always part of one",
-        "A nation has a king; a state has a president",
-        "They mean the same thing in every case"
+        "They mean the same thing in every case",
+        "A nation is a people with a shared identity; a state is a government ruling a territory",
+        "A nation has a king; a state has a president"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Spain ruled the state. Filipinos were starting to feel like a nation. Nationalism grew in that gap.",
-      "objective": "Explain what nationalism means and how a nation differs from a state"
+      "objective": "Explain what nationalism means and how a nation differs from a state",
+      "seconds": 35
     }
   ],
   "teacher": {

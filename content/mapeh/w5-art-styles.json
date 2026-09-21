@@ -47,13 +47,14 @@
         "type": "multiple",
         "text": "What makes a picture stylised rather than realistic?",
         "options": [
-          "It is simplified on purpose but still recognisable",
+          "It has no subject at all",
           "It uses fewer colours",
-          "It was painted more quickly",
-          "It has no subject at all"
+          "It is simplified on purpose but still recognisable",
+          "It was painted more quickly"
         ],
-        "answerIndex": 0,
-        "explain": "Detail is dropped deliberately. Abstract goes further and lets the subject go completely."
+        "answerIndex": 2,
+        "explain": "Detail is dropped deliberately. Abstract goes further and lets the subject go completely.",
+        "seconds": 20
       }
     },
     {
@@ -76,7 +77,8 @@
         "type": "truefalse",
         "text": "Abstract art means the artist could not draw realistically.",
         "answer": false,
-        "explain": "False. Most abstract painters trained in realism first. It is a choice about what to keep."
+        "explain": "False. Most abstract painters trained in realism first. It is a choice about what to keep.",
+        "seconds": 12
       }
     },
     {
@@ -123,13 +125,14 @@
         "type": "multiple",
         "text": "Who painted the Spoliarium?",
         "options": [
-          "Juan Luna",
-          "Felix Resurreccion Hidalgo",
           "Fernando Amorsolo",
-          "Victorio Edades"
+          "Victorio Edades",
+          "Felix Resurreccion Hidalgo",
+          "Juan Luna"
         ],
-        "answerIndex": 0,
-        "explain": "Juan Luna, in 1884. It won the gold medal at the Madrid exhibition that year."
+        "answerIndex": 3,
+        "explain": "Juan Luna, in 1884. It won the gold medal at the Madrid exhibition that year.",
+        "seconds": 15
       }
     },
     {
@@ -162,13 +165,14 @@
         "type": "multiple",
         "text": "Who is called the Father of Modern Philippine Painting?",
         "options": [
-          "Victorio Edades",
           "Fernando Amorsolo",
-          "Juan Luna",
-          "Vicente Manansala"
+          "Victorio Edades",
+          "Vicente Manansala",
+          "Juan Luna"
         ],
-        "answerIndex": 0,
-        "explain": "Edades, whose 1928 exhibition introduced modernism to Philippine painting. Most people disliked it at first."
+        "answerIndex": 1,
+        "explain": "Edades, whose 1928 exhibition introduced modernism to Philippine painting. Most people disliked it at first.",
+        "seconds": 15
       }
     },
     {
@@ -204,27 +208,55 @@
         "text": "Which artist is known for transparent cubism?",
         "options": [
           "Vicente Manansala",
-          "Fernando Amorsolo",
+          "Hernando R. Ocampo",
           "Juan Luna",
-          "Hernando R. Ocampo"
+          "Fernando Amorsolo"
         ],
         "answerIndex": 0,
-        "explain": "Manansala. Ocampo worked in pure abstraction, and Amorsolo and Luna are both traditional."
+        "explain": "Manansala. Ocampo worked in pure abstraction, and Amorsolo and Luna are both traditional.",
+        "seconds": 15
       }
     },
     {
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "style", "def": "A set of decisions about what to keep and what to leave out." },
-        { "term": "realistic", "def": "Drawn or painted as the eye would see it." },
-        { "term": "stylised", "def": "Simplified on purpose, but still clearly the subject." },
-        { "term": "abstract", "def": "The shapes and colours kept, the recognisable subject let go." },
-        { "term": "Spoliarium", "def": "Juan Luna's 1884 painting. Gold medal at the Madrid exhibition." },
-        { "term": "Fernando Amorsolo", "def": "Traditional painter of sunlit rural scenes. First National Artist, 1972." },
-        { "term": "Victorio Edades", "def": "Father of Modern Philippine Painting. His 1928 exhibition broke the tradition." },
-        { "term": "Vicente Manansala", "def": "Modern Filipino painter known for transparent cubism." },
-        { "term": "Hernando R. Ocampo", "def": "Modern Filipino painter known for pure abstraction." }
+        {
+          "term": "style",
+          "def": "A set of decisions about what to keep and what to leave out."
+        },
+        {
+          "term": "realistic",
+          "def": "Drawn or painted as the eye would see it."
+        },
+        {
+          "term": "stylised",
+          "def": "Simplified on purpose, but still clearly the subject."
+        },
+        {
+          "term": "abstract",
+          "def": "The shapes and colours kept, the recognisable subject let go."
+        },
+        {
+          "term": "Spoliarium",
+          "def": "Juan Luna's 1884 painting. Gold medal at the Madrid exhibition."
+        },
+        {
+          "term": "Fernando Amorsolo",
+          "def": "Traditional painter of sunlit rural scenes. First National Artist, 1972."
+        },
+        {
+          "term": "Victorio Edades",
+          "def": "Father of Modern Philippine Painting. His 1928 exhibition broke the tradition."
+        },
+        {
+          "term": "Vicente Manansala",
+          "def": "Modern Filipino painter known for transparent cubism."
+        },
+        {
+          "term": "Hernando R. Ocampo",
+          "def": "Modern Filipino painter known for pure abstraction."
+        }
       ]
     },
     {
@@ -246,12 +278,13 @@
       "options": [
         "A set of decisions about what to keep and what to leave out",
         "How skilled the artist is",
-        "The size of the artwork",
-        "The material the artist used"
+        "The material the artist used",
+        "The size of the artwork"
       ],
       "answerIndex": 0,
       "explain": "Decisions, not skill. Two artists can paint the same subject well and completely differently.",
-      "objective": "Explain what an art style is"
+      "objective": "Explain what an art style is",
+      "seconds": 25
     },
     {
       "type": "order",
@@ -262,40 +295,44 @@
         "Abstract"
       ],
       "explain": "Realistic keeps everything, stylised simplifies on purpose, abstract lets the subject go.",
-      "objective": "Tell realistic, stylised and abstract treatments apart"
+      "objective": "Tell realistic, stylised and abstract treatments apart",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "Abstract artists usually cannot draw realistically.",
       "answer": false,
       "explain": "False. Most trained in realism first. Abstraction is a choice about what to keep, not a limitation.",
-      "objective": "Tell realistic, stylised and abstract treatments apart"
+      "objective": "Tell realistic, stylised and abstract treatments apart",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Who painted the Spoliarium, and in what year?",
       "options": [
-        "Juan Luna, 1884",
-        "Felix Resurreccion Hidalgo, 1884",
         "Fernando Amorsolo, 1928",
+        "Felix Resurreccion Hidalgo, 1884",
+        "Juan Luna, 1884",
         "Victorio Edades, 1884"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Juan Luna, 1884, gold medal at the Madrid exhibition. Hidalgo took a silver the same year.",
-      "objective": "Identify Juan Luna, Felix Resurreccion Hidalgo and Fernando Amorsolo"
+      "objective": "Identify Juan Luna, Felix Resurreccion Hidalgo and Fernando Amorsolo",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What is Fernando Amorsolo best known for?",
       "options": [
-        "Sunlit rural scenes, using backlighting",
         "Cubist portraits",
         "Pure abstraction in strong colour",
-        "Paintings of Roman gladiators"
+        "Paintings of Roman gladiators",
+        "Sunlit rural scenes, using backlighting"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Idealised, luminous countryside. He was made the first National Artist in 1972.",
-      "objective": "Identify Juan Luna, Felix Resurreccion Hidalgo and Fernando Amorsolo"
+      "objective": "Identify Juan Luna, Felix Resurreccion Hidalgo and Fernando Amorsolo",
+      "seconds": 20
     },
     {
       "type": "type",
@@ -305,59 +342,64 @@
         "edades"
       ],
       "explain": "Victorio Edades. His 1928 exhibition was dark and rough where the tradition was smooth and idealised.",
-      "objective": "Explain what Victorio Edades changed in Philippine art"
+      "objective": "Explain what Victorio Edades changed in Philippine art",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "How did Edades' work differ from Amorsolo's?",
       "options": [
-        "Rough brushwork and unidealised subjects instead of smooth, sunlit scenes",
         "He painted only landscapes",
         "He worked in sculpture rather than paint",
-        "He painted in the same style but larger"
+        "He painted in the same style but larger",
+        "Rough brushwork and unidealised subjects instead of smooth, sunlit scenes"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "He showed labourers, not harvests, and he painted them roughly. That was the argument.",
-      "objective": "Explain what Victorio Edades changed in Philippine art"
+      "objective": "Explain what Victorio Edades changed in Philippine art",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "Which Filipino modernist is known for transparent cubism?",
       "options": [
-        "Vicente Manansala",
-        "Hernando R. Ocampo",
         "Juan Luna",
-        "Fernando Amorsolo"
+        "Vicente Manansala",
+        "Fernando Amorsolo",
+        "Hernando R. Ocampo"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Manansala, working in overlapping see-through planes. Ocampo worked in pure abstraction.",
-      "objective": "Name modern Filipino artists and what each is known for"
+      "objective": "Name modern Filipino artists and what each is known for",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Which artist is associated with pure abstraction and strong colour?",
       "options": [
-        "Hernando R. Ocampo",
-        "Vicente Manansala",
         "Victorio Edades",
-        "Felix Resurreccion Hidalgo"
+        "Felix Resurreccion Hidalgo",
+        "Hernando R. Ocampo",
+        "Vicente Manansala"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Ocampo. All three modernists worked differently, which is the point of naming them separately.",
-      "objective": "Name modern Filipino artists and what each is known for"
+      "objective": "Name modern Filipino artists and what each is known for",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Why did the 1884 Madrid result matter beyond the art world?",
       "options": [
+        "It forced Spain to grant independence",
         "It was evidence against the claim that Filipinos were incapable",
         "It made the painters wealthy",
-        "It forced Spain to grant independence",
         "It ended the Spanish art exhibitions"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Rizal made exactly that argument in his speech at the banquet for Luna and Hidalgo.",
-      "objective": "Explain why the Spoliarium mattered beyond painting"
+      "objective": "Explain why the Spoliarium mattered beyond painting",
+      "seconds": 25
     },
     {
       "type": "multiple",
@@ -365,19 +407,21 @@
       "options": [
         "Dead gladiators being dragged from a Roman arena",
         "A Philippine rice harvest",
-        "Christian virgins before a crowd",
-        "Builders at work on a site"
+        "Builders at work on a site",
+        "Christian virgins before a crowd"
       ],
       "answerIndex": 0,
       "explain": "The spoliarium was the room where dead gladiators were stripped. Hidalgo painted the Christian virgins.",
-      "objective": "Explain why the Spoliarium mattered beyond painting"
+      "objective": "Explain why the Spoliarium mattered beyond painting",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "A stylised style, like Minecraft's, is a deliberate decision rather than a lack of skill.",
       "answer": true,
       "explain": "True, and a stylised look usually ages far better than a realistic one does.",
-      "objective": "Explain what an art style is"
+      "objective": "Explain what an art style is",
+      "seconds": 15
     }
   ],
   "teacher": {

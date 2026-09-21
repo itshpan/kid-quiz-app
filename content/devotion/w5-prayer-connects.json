@@ -47,12 +47,13 @@
         "text": "Why did the disciples ask to be taught to pray?",
         "options": [
           "They were treating prayer as a skill that could be learned",
-          "They had never heard of prayer",
           "They wanted a magic formula",
+          "They had never heard of prayer",
           "They were told to ask"
         ],
         "answerIndex": 0,
-        "explain": "Nobody asks to be taught something unless it is learnable. The answer given is a pattern, not a script."
+        "explain": "Nobody asks to be taught something unless it is learnable. The answer given is a pattern, not a script.",
+        "seconds": 25
       }
     },
     {
@@ -92,7 +93,8 @@
           "Thanksgiving",
           "Supplication"
         ],
-        "explain": "Who God is, then honesty, then thanks, then asking. Asking comes last on purpose."
+        "explain": "Who God is, then honesty, then thanks, then asking. Asking comes last on purpose.",
+        "seconds": 20
       }
     },
     {
@@ -139,13 +141,14 @@
         "type": "multiple",
         "text": "What does Philippians 4:6-7 promise will follow prayer?",
         "options": [
+          "Wealth",
           "Peace",
           "Whatever you asked for",
-          "An immediate answer",
-          "Wealth"
+          "An immediate answer"
         ],
-        "answerIndex": 0,
-        "explain": "Peace, described as guarding your heart and mind. The passage does not promise the outcome you requested."
+        "answerIndex": 1,
+        "explain": "Peace, described as guarding your heart and mind. The passage does not promise the outcome you requested.",
+        "seconds": 15
       }
     },
     {
@@ -180,20 +183,42 @@
         "type": "truefalse",
         "text": "\"Pray continually\" means you should be speaking prayers non-stop all day.",
         "answer": false,
-        "explain": "False. Nobody could. It describes keeping the line open rather than only opening it in emergencies."
+        "explain": "False. Nobody could. It describes keeping the line open rather than only opening it in emergencies.",
+        "seconds": 12
       }
     },
     {
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
-        { "term": "the Lord's Prayer", "def": "The pattern given in Matthew 6:9-13. A shape to follow, not a script to recite." },
-        { "term": "adoration", "def": "Saying who God is, before asking for anything." },
-        { "term": "confession", "def": "Being honest about what you got wrong." },
-        { "term": "thanksgiving", "def": "Naming specific things already given." },
-        { "term": "supplication", "def": "Asking, for yourself and for others. It comes last in the pattern." },
-        { "term": "Philippians 4:6-7", "def": "Do not be anxious; pray with thanksgiving. The promise that follows is peace." },
-        { "term": "1 Thessalonians 5:17", "def": "Pray continually. Short and often rather than long and rare." }
+        {
+          "term": "the Lord's Prayer",
+          "def": "The pattern given in Matthew 6:9-13. A shape to follow, not a script to recite."
+        },
+        {
+          "term": "adoration",
+          "def": "Saying who God is, before asking for anything."
+        },
+        {
+          "term": "confession",
+          "def": "Being honest about what you got wrong."
+        },
+        {
+          "term": "thanksgiving",
+          "def": "Naming specific things already given."
+        },
+        {
+          "term": "supplication",
+          "def": "Asking, for yourself and for others. It comes last in the pattern."
+        },
+        {
+          "term": "Philippians 4:6-7",
+          "def": "Do not be anxious; pray with thanksgiving. The promise that follows is peace."
+        },
+        {
+          "term": "1 Thessalonians 5:17",
+          "def": "Pray continually. Short and often rather than long and rare."
+        }
       ]
     },
     {
@@ -213,14 +238,15 @@
       "type": "multiple",
       "text": "What did the disciples ask Jesus in Luke 11?",
       "options": [
-        "To teach them to pray",
         "Whether they should pray at all",
+        "Where they should pray",
         "How long to pray for",
-        "Where they should pray"
+        "To teach them to pray"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "They treated prayer as a skill to be learned, and the answer they got was a pattern.",
-      "objective": "Explain why the disciples asked to be taught to pray"
+      "objective": "Explain why the disciples asked to be taught to pray",
+      "seconds": 20
     },
     {
       "type": "multiple",
@@ -228,25 +254,27 @@
       "options": [
         "Matthew 6:9-13",
         "Psalm 23",
-        "Proverbs 3:5",
-        "John 13:34"
+        "John 13:34",
+        "Proverbs 3:5"
       ],
       "answerIndex": 0,
       "explain": "Matthew 6:9-13, introduced with 'this, then, is how you should pray'.",
-      "objective": "Name the parts of the Lord's Prayer pattern"
+      "objective": "Name the parts of the Lord's Prayer pattern",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What comes FIRST in the ACTS pattern?",
       "options": [
-        "Adoration",
-        "Supplication",
+        "Thanksgiving",
         "Confession",
-        "Thanksgiving"
+        "Supplication",
+        "Adoration"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Adoration — saying who God is, before anything is asked for.",
-      "objective": "Use the ACTS structure for prayer"
+      "objective": "Use the ACTS structure for prayer",
+      "seconds": 15
     },
     {
       "type": "order",
@@ -258,99 +286,108 @@
         "Supplication"
       ],
       "explain": "Adoration, confession, thanksgiving, supplication. Asking is last, and that is deliberate.",
-      "objective": "Use the ACTS structure for prayer"
+      "objective": "Use the ACTS structure for prayer",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What does supplication mean?",
       "options": [
-        "Asking, for yourself and for other people",
+        "Listing what you are thankful for",
         "Saying who God is",
-        "Admitting what you got wrong",
-        "Listing what you are thankful for"
+        "Asking, for yourself and for other people",
+        "Admitting what you got wrong"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Asking. It comes last in the pattern, which is not the same as mattering least.",
-      "objective": "Use the ACTS structure for prayer"
+      "objective": "Use the ACTS structure for prayer",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "In the Lord's Prayer, what is asked for in terms of food?",
       "options": [
         "Daily bread",
-        "A year's supply",
         "A great feast",
+        "A year's supply",
         "Nothing at all"
       ],
       "answerIndex": 0,
       "explain": "Daily bread. Today's needs, not next year's, which is part of the shape of the prayer.",
-      "objective": "Name the parts of the Lord's Prayer pattern"
+      "objective": "Name the parts of the Lord's Prayer pattern",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What does Philippians 4:6-7 promise will follow prayer?",
       "options": [
-        "Peace that guards your heart and mind",
         "Exactly what you asked for",
+        "Peace that guards your heart and mind",
         "An instant answer",
         "Success in everything"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Peace. The passage is careful, and it does not promise the outcome you requested.",
-      "objective": "Explain Philippians 4:6-7 in your own words"
+      "objective": "Explain Philippians 4:6-7 in your own words",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "What does Philippians 4:6 say should go with your requests?",
       "options": [
-        "Thanksgiving",
-        "Fasting",
+        "A written list",
         "Silence",
-        "A written list"
+        "Thanksgiving",
+        "Fasting"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "With thanksgiving. It is part of the instruction, not an optional extra.",
-      "objective": "Explain Philippians 4:6-7 in your own words"
+      "objective": "Explain Philippians 4:6-7 in your own words",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "Philippians 4:6-7 promises that you will get whatever you ask for.",
       "answer": false,
       "explain": "False. What is promised is peace guarding your heart and mind, which is a different promise.",
-      "objective": "Explain Philippians 4:6-7 in your own words"
+      "objective": "Explain Philippians 4:6-7 in your own words",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "What does \"pray continually\" mean in practice?",
       "options": [
-        "Short and often, keeping the line open",
         "Speaking prayers non-stop all day",
+        "Short and often, keeping the line open",
         "Praying for at least an hour daily",
         "Praying only in church"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Nobody could speak non-stop. It describes frequency, not duration. 1 Thessalonians 5:17.",
-      "objective": "Explain what praying continually means in practice"
+      "objective": "Explain what praying continually means in practice",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Which passage says \"give thanks in all circumstances\"?",
       "options": [
         "1 Thessalonians 5:16-18",
-        "Matthew 6:9-13",
+        "James 2:17",
         "Hebrews 11:1",
-        "James 2:17"
+        "Matthew 6:9-13"
       ],
       "answerIndex": 0,
       "explain": "The same short passage that says pray continually. The three instructions sit together.",
-      "objective": "Explain what praying continually means in practice"
+      "objective": "Explain what praying continually means in practice",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "The Lord's Prayer was given as a pattern to follow rather than only as words to recite.",
       "answer": true,
       "explain": "True. 'This, then, is how you should pray.' Every line in it does a different job.",
-      "objective": "Name the parts of the Lord's Prayer pattern"
+      "objective": "Name the parts of the Lord's Prayer pattern",
+      "seconds": 15
     }
   ],
   "teacher": {

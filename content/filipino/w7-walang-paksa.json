@@ -47,12 +47,13 @@
         "text": "Alin sa mga ito ang walang paksa?",
         "options": [
           "Lumindol kagabi.",
-          "Nagsanay ang boksingero.",
           "Umaandar ang makina.",
-          "Malakas ang ulan sa Maynila."
+          "Malakas ang ulan sa Maynila.",
+          "Nagsanay ang boksingero."
         ],
         "answerIndex": 0,
-        "explain": "Pangyayari sa kalikasan ito. Walang gumagawa ng lindol sa gramatika."
+        "explain": "Pangyayari sa kalikasan ito. Walang gumagawa ng lindol sa gramatika.",
+        "seconds": 20
       }
     },
     {
@@ -87,7 +88,8 @@
         "type": "truefalse",
         "text": "Kulang o mali ang isang pangungusap na walang paksa.",
         "answer": false,
-        "explain": "Hindi. Buo at tama ito. May mga pangyayaring talagang walang gumagawa."
+        "explain": "Hindi. Buo at tama ito. May mga pangyayaring talagang walang gumagawa.",
+        "seconds": 12
       }
     },
     {
@@ -132,13 +134,14 @@
         "type": "multiple",
         "text": "Kailan ipinahayag ang kalayaan sa Kawit?",
         "options": [
-          "Ika-12 ng Hunyo 1898",
           "Ika-1 ng Mayo 1898",
+          "Ika-12 ng Hunyo 1898",
           "Nobyembre 1897",
           "Hulyo 1902"
         ],
-        "answerIndex": 0,
-        "explain": "Sa bahay ni Aguinaldo sa Kawit, Cavite. Ito pa rin ang Araw ng Kalayaan."
+        "answerIndex": 1,
+        "explain": "Sa bahay ni Aguinaldo sa Kawit, Cavite. Ito pa rin ang Araw ng Kalayaan.",
+        "seconds": 15
       }
     },
     {
@@ -187,7 +190,8 @@
         "type": "truefalse",
         "text": "Kinilala ng ibang bansa ang deklarasyon ng kalayaan noong 1898.",
         "answer": false,
-        "explain": "Hindi. Ibinenta pa nga ang mga isla sa Kasunduan sa Paris makalipas ang anim na buwan."
+        "explain": "Hindi. Ibinenta pa nga ang mga isla sa Kasunduan sa Paris makalipas ang anim na buwan.",
+        "seconds": 12
       }
     },
     {
@@ -229,145 +233,157 @@
       "type": "multiple",
       "text": "Alin ang pangungusap na walang paksa?",
       "options": [
-        "Bumabagyo mula kahapon.",
         "Umuulan ang langit.",
-        "Basang-basa ang guwantes.",
-        "Malakas ang hangin sa bundok."
+        "Malakas ang hangin sa bundok.",
+        "Bumabagyo mula kahapon.",
+        "Basang-basa ang guwantes."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Walang gumagawa ng bagyo sa gramatika. Panaguri lamang ang buong pangungusap.",
-      "objective": "Matukoy ang mga uri nito"
+      "objective": "Matukoy ang mga uri nito",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Kulang ang pangungusap na walang paksa.",
       "answer": false,
       "explain": "Buo at tama ito. May mga pangyayaring talagang walang gumagawa.",
-      "objective": "Maunawaan kung bakit may pangungusap na walang paksa"
+      "objective": "Maunawaan kung bakit may pangungusap na walang paksa",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Anong uri ng walang paksa ang \"Nilalagnat mula kagabi\"?",
       "options": [
-        "Karamdaman",
-        "Panahon",
         "Kalikasan",
-        "Padamdam"
+        "Panahon",
+        "Padamdam",
+        "Karamdaman"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Karamdaman, at walang binabanggit na paksa. Sa \"Masakit ang tiyan ko\", ang tiyan ang paksa.",
-      "objective": "Matukoy ang mga uri nito"
+      "objective": "Matukoy ang mga uri nito",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Anong uri ang \"Lumindol kaninang umaga\"?",
       "options": [
-        "Kalikasan",
-        "Oras",
         "Karamdaman",
-        "Pautos"
+        "Oras",
+        "Pautos",
+        "Kalikasan"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Pangyayari sa kalikasan. Walang taong ginagawa ito.",
-      "objective": "Matukoy ang mga uri nito"
+      "objective": "Matukoy ang mga uri nito",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Ano ang pagkakaiba ng \"Tumakbo!\" at ng \"Umuulan.\"?",
       "options": [
+        "Ang \"Tumakbo!\" ay hindi pangungusap",
         "May kausap ang \"Tumakbo!\"; walang maaaring ipasok sa \"Umuulan.\"",
         "Walang pagkakaiba ang dalawa",
-        "Ang \"Umuulan.\" ay may paksa",
-        "Ang \"Tumakbo!\" ay hindi pangungusap"
+        "Ang \"Umuulan.\" ay may paksa"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Pareho silang walang paksa sa pag-uuri. Magkaiba lamang kung may maaaring ipasok.",
-      "objective": "Maiba ang walang paksa sa may paksang hindi binanggit"
+      "objective": "Maiba ang walang paksa sa may paksang hindi binanggit",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Alin ang talagang walang maaaring ipasok na paksa?",
       "options": [
-        "Umuulan.",
         "Magsanay na!",
-        "Tumahimik!",
-        "Itali mo iyan."
+        "Umuulan.",
+        "Itali mo iyan.",
+        "Tumahimik!"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Sa pautos may kausap ka. Sa panahon at kalikasan, wala talagang gumagawa.",
-      "objective": "Maiba ang walang paksa sa may paksang hindi binanggit"
+      "objective": "Maiba ang walang paksa sa may paksang hindi binanggit",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Kailan bumalik si Aguinaldo mula sa Hong Kong?",
       "options": [
         "Mayo 1898",
-        "Disyembre 1897",
+        "Enero 1899",
         "Hunyo 1898",
-        "Enero 1899"
+        "Disyembre 1897"
       ],
       "answerIndex": 0,
       "explain": "Noong ika-19 ng Mayo 1898, mahigit dalawang linggo matapos ang labanan sa look.",
-      "objective": "Malaman ang nangyari sa pagitan ng 1897 at 1898"
+      "objective": "Malaman ang nangyari sa pagitan ng 1897 at 1898",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Ano ang nangyari noong ika-1 ng Mayo 1898?",
       "options": [
+        "Namatay si Bonifacio",
         "Tinalo ni Dewey ang hukbong-dagat ng Espanya sa Look ng Maynila",
-        "Ipinahayag ang kalayaan",
         "Pumirma ang Espanya sa Biak-na-Bato",
-        "Namatay si Bonifacio"
+        "Ipinahayag ang kalayaan"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Iyon ang nagbukas ng pinto para sa pagbabalik ng himagsikan.",
-      "objective": "Malaman ang nangyari sa pagitan ng 1897 at 1898"
+      "objective": "Malaman ang nangyari sa pagitan ng 1897 at 1898",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Saan ipinahayag ang kalayaan noong 1898?",
       "options": [
-        "Kawit, Cavite",
         "Malolos, Bulacan",
-        "Maynila",
-        "Biak-na-Bato"
+        "Biak-na-Bato",
+        "Kawit, Cavite",
+        "Maynila"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Sa bahay ni Aguinaldo. Doon unang itinaas ang bandila.",
-      "objective": "Malaman ang nangyari sa pagitan ng 1897 at 1898"
+      "objective": "Malaman ang nangyari sa pagitan ng 1897 at 1898",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Ano ang nangyari sa Kasunduan sa Paris noong Disyembre 1898?",
       "options": [
         "Ibinenta ng Espanya ang Pilipinas sa Estados Unidos",
-        "Kinilala ang kalayaan ng Pilipinas",
+        "Nagtapos ang Digmaang Pilipino-Amerikano",
         "Bumalik ang Espanya sa bansa",
-        "Nagtapos ang Digmaang Pilipino-Amerikano"
+        "Kinilala ang kalayaan ng Pilipinas"
       ],
       "answerIndex": 0,
       "explain": "Sa halagang bente milyong dolyar, at walang Pilipinong nasa mesa.",
-      "objective": "Malaman ang nangyari sa pagitan ng 1897 at 1898"
+      "objective": "Malaman ang nangyari sa pagitan ng 1897 at 1898",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "May Pilipinong kinatawan sa usapan sa Paris.",
       "answer": false,
       "explain": "Wala. Pinag-usapan ang kapalaran ng bansa nang walang sinuman mula rito.",
-      "objective": "Malaman ang nangyari sa pagitan ng 1897 at 1898"
+      "objective": "Malaman ang nangyari sa pagitan ng 1897 at 1898",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Ipinagdiriwang pa rin ba ang ika-12 ng Hunyo?",
       "options": [
         "Oo, ito ang Araw ng Kalayaan",
-        "Hindi na ito ginugunita",
         "Oo, ngunit tinatawag itong Araw ng Katipunan",
+        "Hindi na ito ginugunita",
         "Hindi, dahil hindi ito kinilala noon"
       ],
       "answerIndex": 0,
       "explain": "Ito pa rin ang Araw ng Kalayaan ng Pilipinas hanggang ngayon.",
-      "objective": "Malaman ang nangyari sa pagitan ng 1897 at 1898"
+      "objective": "Malaman ang nangyari sa pagitan ng 1897 at 1898",
+      "seconds": 20
     }
   ],
   "teacher": {

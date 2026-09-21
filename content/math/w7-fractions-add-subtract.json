@@ -48,12 +48,13 @@
         "text": "Why can you not add 1/2 and 1/3 directly?",
         "options": [
           "The pieces are different sizes",
-          "One is bigger than the other",
+          "You can, and the answer is 2/5",
           "Neither can be simplified",
-          "You can, and the answer is 2/5"
+          "One is bigger than the other"
         ],
         "answerIndex": 0,
-        "explain": "Different sized pieces cannot be counted together. Re-cut both into sixths first."
+        "explain": "Different sized pieces cannot be counted together. Re-cut both into sixths first.",
+        "seconds": 20
       }
     },
     {
@@ -78,7 +79,8 @@
           "3 / 4",
           "three quarters"
         ],
-        "explain": "Change 1/2 to 2/4. Then 1/4 + 2/4 = 3/4. The bottom stays 4."
+        "explain": "Change 1/2 to 2/4. Then 1/4 + 2/4 = 3/4. The bottom stays 4.",
+        "seconds": 15
       }
     },
     {
@@ -127,13 +129,14 @@
         "type": "multiple",
         "text": "Simplify 8/12 to lowest terms.",
         "options": [
-          "2/3",
-          "4/6",
+          "1/2",
           "8/12",
-          "1/2"
+          "2/3",
+          "4/6"
         ],
-        "answerIndex": 0,
-        "explain": "Divide both by 4. 4/6 is not finished — both still divide by 2."
+        "answerIndex": 2,
+        "explain": "Divide both by 4. 4/6 is not finished — both still divide by 2.",
+        "seconds": 15
       }
     },
     {
@@ -169,7 +172,8 @@
           "13/4",
           "13 / 4"
         ],
-        "explain": "3 × 4 = 12, plus 1 = 13. Keep the bottom, so 13/4."
+        "explain": "3 × 4 = 12, plus 1 = 13. Keep the bottom, so 13/4.",
+        "seconds": 15
       }
     },
     {
@@ -216,13 +220,14 @@
         "type": "multiple",
         "text": "What is 3¼ − 1¾?",
         "options": [
-          "1½",
-          "2½",
           "1¼",
-          "2"
+          "1½",
+          "2",
+          "2½"
         ],
-        "answerIndex": 0,
-        "explain": "13/4 − 7/4 = 6/4 = 1½. Or borrow a whole and regroup, which gives the same answer."
+        "answerIndex": 1,
+        "explain": "13/4 − 7/4 = 6/4 = 1½. Or borrow a whole and regroup, which gives the same answer.",
+        "seconds": 15
       }
     },
     {
@@ -281,26 +286,28 @@
       "text": "Why do fractions need a common denominator before adding?",
       "options": [
         "The pieces must be the same size to be counted together",
-        "It makes the numbers smaller",
         "The exam requires it",
-        "So the answer is always simplified"
+        "So the answer is always simplified",
+        "It makes the numbers smaller"
       ],
       "answerIndex": 0,
       "explain": "A denominator names the piece size. Different sizes cannot be counted together.",
-      "objective": "Explain why fractions need a common denominator"
+      "objective": "Explain why fractions need a common denominator",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "What is the lowest common denominator of 1/4 and 1/6?",
       "options": [
-        "12",
         "24",
+        "12",
         "10",
         "6"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "12 is the smallest number both 4 and 6 divide into. 24 works but is not the lowest.",
-      "objective": "Find the lowest common denominator of two fractions"
+      "objective": "Find the lowest common denominator of two fractions",
+      "seconds": 15
     },
     {
       "type": "type",
@@ -311,33 +318,36 @@
         "one half"
       ],
       "explain": "1/3 becomes 2/6. Then 2/6 + 1/6 = 3/6, which simplifies to 1/2.",
-      "objective": "Add and subtract fractions with unlike denominators"
+      "objective": "Add and subtract fractions with unlike denominators",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What is 3/4 − 1/2?",
       "options": [
-        "1/4",
         "2/2",
+        "2/4",
         "1/2",
-        "2/4"
+        "1/4"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "1/2 becomes 2/4. Then 3/4 − 2/4 = 1/4.",
-      "objective": "Add and subtract fractions with unlike denominators"
+      "objective": "Add and subtract fractions with unlike denominators",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What is 2/5 + 1/3?",
       "options": [
-        "11/15",
-        "3/8",
         "3/15",
+        "3/8",
+        "11/15",
         "2/15"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "The common denominator is 15. 6/15 + 5/15 = 11/15, which will not simplify.",
-      "objective": "Add and subtract fractions with unlike denominators"
+      "objective": "Add and subtract fractions with unlike denominators",
+      "seconds": 15
     },
     {
       "type": "type",
@@ -347,79 +357,86 @@
         "13 / 5"
       ],
       "explain": "2 × 5 = 10, plus 3 = 13. Keep the bottom: 13/5.",
-      "objective": "Convert between mixed numbers and improper fractions"
+      "objective": "Convert between mixed numbers and improper fractions",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Write 11/4 as a mixed number.",
       "options": [
-        "2¾",
+        "4¾",
         "3¼",
         "2¼",
-        "4¾"
+        "2¾"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "11 ÷ 4 = 2 remainder 3. The remainder becomes the top: 2¾.",
-      "objective": "Convert between mixed numbers and improper fractions"
+      "objective": "Convert between mixed numbers and improper fractions",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What is 1½ + 2¼?",
       "options": [
-        "3¾",
         "3¼",
+        "3¾",
         "4",
         "3½"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Change the half to two quarters. 1 2/4 + 2 1/4 = 3 3/4.",
-      "objective": "Add and subtract mixed numbers, including regrouping"
+      "objective": "Add and subtract mixed numbers, including regrouping",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "What is 4⅓ − 1⅔?",
       "options": [
         "2⅔",
-        "3⅓",
         "2⅓",
+        "3⅓",
         "3⅔"
       ],
       "answerIndex": 0,
       "explain": "13/3 − 5/3 = 8/3 = 2⅔. Converting to improper avoids the borrowing entirely.",
-      "objective": "Add and subtract mixed numbers, including regrouping"
+      "objective": "Add and subtract mixed numbers, including regrouping",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Simplify 9/12 to lowest terms.",
       "options": [
-        "3/4",
         "9/12",
-        "4/6",
-        "1/3"
+        "1/3",
+        "3/4",
+        "4/6"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Divide both by 3. Nothing divides 3 and 4 together, so it is finished.",
-      "objective": "Simplify a fraction to lowest terms"
+      "objective": "Simplify a fraction to lowest terms",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Simplify 15/20 to lowest terms.",
       "options": [
         "3/4",
-        "5/10",
+        "15/20",
         "3/5",
-        "15/20"
+        "5/10"
       ],
       "answerIndex": 0,
       "explain": "Divide both by 5. That gives 3/4, and nothing divides those two.",
-      "objective": "Simplify a fraction to lowest terms"
+      "objective": "Simplify a fraction to lowest terms",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "1/2 + 1/3 = 2/5",
       "answer": false,
       "explain": "False, and it is the classic error. You never add the bottoms. The answer is 5/6.",
-      "objective": "Explain why fractions need a common denominator"
+      "objective": "Explain why fractions need a common denominator",
+      "seconds": 12
     }
   ],
   "teacher": {

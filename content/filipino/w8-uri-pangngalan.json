@@ -47,12 +47,13 @@
         "text": "Alin sa mga ito ang pantangi?",
         "options": [
           "Katipunan",
+          "himagsikan",
           "samahan",
-          "pinuno",
-          "himagsikan"
+          "pinuno"
         ],
         "answerIndex": 0,
-        "explain": "Tiyak na pangalan ito ng isang samahan, kaya malaking titik ang gamit."
+        "explain": "Tiyak na pangalan ito ng isang samahan, kaya malaking titik ang gamit.",
+        "seconds": 15
       }
     },
     {
@@ -87,13 +88,14 @@
         "type": "multiple",
         "text": "Alin sa mga ito ang pangngalang basal?",
         "options": [
+          "eroplano",
           "kalayaan",
           "bandila",
-          "makina",
-          "eroplano"
+          "makina"
         ],
-        "answerIndex": 0,
-        "explain": "Ideya ito, hindi bagay. Hindi mo kayang hawakan ang kalayaan."
+        "answerIndex": 1,
+        "explain": "Ideya ito, hindi bagay. Hindi mo kayang hawakan ang kalayaan.",
+        "seconds": 15
       }
     },
     {
@@ -152,13 +154,14 @@
         "type": "multiple",
         "text": "Anong uri ang \"Katipunan\"?",
         "options": [
-          "Pantangi at palansak",
-          "Pambalana at basal",
           "Pantangi at basal",
-          "Pambalana at tahas"
+          "Pambalana at tahas",
+          "Pantangi at palansak",
+          "Pambalana at basal"
         ],
-        "answerIndex": 0,
-        "explain": "Tiyak na pangalan ito, at pangkat ng tao ang tinutukoy."
+        "answerIndex": 2,
+        "explain": "Tiyak na pangalan ito, at pangkat ng tao ang tinutukoy.",
+        "seconds": 15
       }
     },
     {
@@ -193,7 +196,8 @@
         "type": "truefalse",
         "text": "Ang Araw ng Bonifacio ay ang araw ng kanyang kamatayan.",
         "answer": false,
-        "explain": "Hindi. Ika-30 ng Nobyembre ang kaarawan niya. Iba ito sa Araw ni Rizal."
+        "explain": "Hindi. Ika-30 ng Nobyembre ang kaarawan niya. Iba ito sa Araw ni Rizal.",
+        "seconds": 12
       }
     },
     {
@@ -244,144 +248,156 @@
       "text": "Alin ang pangngalang pantangi?",
       "options": [
         "Maynila",
-        "lungsod",
         "bayan",
+        "lungsod",
         "kalye"
       ],
       "answerIndex": 0,
       "explain": "Tiyak na pangalan ng isang lugar. Malaking titik ang senyas.",
-      "objective": "Maiba ang pantangi sa pambalana"
+      "objective": "Maiba ang pantangi sa pambalana",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Alin ang pangngalang pambalana?",
       "options": [
-        "bayani",
         "Bonifacio",
+        "Cavite",
         "Rizal",
-        "Cavite"
+        "bayani"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Pangkalahatan ito. Hindi tiyak kung sino ang tinutukoy.",
-      "objective": "Maiba ang pantangi sa pambalana"
+      "objective": "Maiba ang pantangi sa pambalana",
+      "seconds": 12
     },
     {
       "type": "truefalse",
       "text": "Malaking titik ang panimula ng pangngalang pantangi.",
       "answer": true,
       "explain": "Iyon ang unang senyas. Tiyak na ngalan ito ng tao, lugar o bagay.",
-      "objective": "Maiba ang pantangi sa pambalana"
+      "objective": "Maiba ang pantangi sa pambalana",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Alin ang pangngalang tahas?",
       "options": [
         "bandila",
-        "katapangan",
         "pag-asa",
-        "kalungkutan"
+        "kalungkutan",
+        "katapangan"
       ],
       "answerIndex": 0,
       "explain": "Nahahawakan mo ito. Ang tatlo pa ay ideya o damdamin.",
-      "objective": "Maiba ang tahas sa basal"
+      "objective": "Maiba ang tahas sa basal",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Alin ang pangngalang basal?",
       "options": [
-        "katarungan",
+        "bato",
         "makina",
-        "eroplano",
-        "bato"
+        "katarungan",
+        "eroplano"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Ideya ito. Ang mabuting pagsubok: kaya mo bang hawakan?",
-      "objective": "Maiba ang tahas sa basal"
+      "objective": "Maiba ang tahas sa basal",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Ano ang mabuting paraan upang malaman kung basal ang pangngalan?",
       "options": [
-        "Tanungin kung nahahawakan ito",
         "Bilangin ang mga pantig",
-        "Tingnan kung malaking titik",
-        "Tingnan kung may \"mga\""
+        "Tanungin kung nahahawakan ito",
+        "Tingnan kung may \"mga\"",
+        "Tingnan kung malaking titik"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Kung hindi mo kayang hawakan o makita, basal ito.",
-      "objective": "Maiba ang tahas sa basal"
+      "objective": "Maiba ang tahas sa basal",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Alin ang pangngalang palansak?",
       "options": [
         "kawan",
-        "tupa",
         "damo",
+        "tupa",
         "bukid"
       ],
       "answerIndex": 0,
       "explain": "Isang salita para sa isang pangkat ng hayop.",
-      "objective": "Matukoy ang pangngalang palansak"
+      "objective": "Matukoy ang pangngalang palansak",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Ano ang katangian ng pangngalang palansak?",
       "options": [
-        "Isahan ang anyo ngunit pangkat ang tinutukoy",
         "Laging maramihan ang anyo",
+        "Isahan ang anyo ngunit pangkat ang tinutukoy",
         "Laging may \"mga\"",
         "Laging pantangi"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Isang salita, maraming laman. Iyan ang bumubuo sa palansak.",
-      "objective": "Matukoy ang pangngalang palansak"
+      "objective": "Matukoy ang pangngalang palansak",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Anong uri ang \"Katipunan\"?",
       "options": [
+        "Pambalana lamang",
         "Pantangi at palansak",
-        "Pambalana at tahas",
         "Pantangi at basal",
-        "Pambalana lamang"
+        "Pambalana at tahas"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Sagutin ang bawat tanong nang magkahiwalay. Maaaring maraming uri ang isang salita.",
-      "objective": "Maunawaan na maaaring maraming uri ang isang pangngalan"
+      "objective": "Maunawaan na maaaring maraming uri ang isang pangngalan",
+      "seconds": 15
     },
     {
       "type": "truefalse",
       "text": "Isang uri lamang ang maaaring taglayin ng isang pangngalan.",
       "answer": false,
       "explain": "Hindi. Ang \"tapang\" ay pambalana at basal nang sabay. Tatlong magkahiwalay na tanong ito.",
-      "objective": "Maunawaan na maaaring maraming uri ang isang pangngalan"
+      "objective": "Maunawaan na maaaring maraming uri ang isang pangngalan",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Kailan ang Araw ng Bonifacio?",
       "options": [
-        "Ika-30 ng Nobyembre",
-        "Ika-30 ng Disyembre",
+        "Ika-10 ng Mayo",
         "Ika-12 ng Hunyo",
-        "Ika-10 ng Mayo"
+        "Ika-30 ng Nobyembre",
+        "Ika-30 ng Disyembre"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Kaarawan niya ito. Ang Araw ni Rizal ay ika-30 ng Disyembre.",
-      "objective": "Malaman kung paano inalala si Bonifacio pagkalipas ng mga taon"
+      "objective": "Malaman kung paano inalala si Bonifacio pagkalipas ng mga taon",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Sino ang gumawa ng monumento ni Bonifacio sa Caloocan?",
       "options": [
-        "Guillermo Tolentino",
+        "Felix Hidalgo",
         "Juan Luna",
         "Fernando Amorsolo",
-        "Felix Hidalgo"
+        "Guillermo Tolentino"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Binuksan ito noong 1933, at may dalawampu't tatlong pigura sa monumento.",
-      "objective": "Malaman kung paano inalala si Bonifacio pagkalipas ng mga taon"
+      "objective": "Malaman kung paano inalala si Bonifacio pagkalipas ng mga taon",
+      "seconds": 15
     }
   ],
   "teacher": {

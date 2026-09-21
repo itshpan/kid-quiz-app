@@ -52,7 +52,8 @@
           "Both sides together"
         ],
         "answerIndex": 0,
-        "explain": "The right side, on a short loop. The left side does the long push to the whole body."
+        "explain": "The right side, on a short loop. The left side does the long push to the whole body.",
+        "seconds": 15
       }
     },
     {
@@ -87,12 +88,13 @@
         "type": "multiple",
         "text": "What is the difference between an artery and a vein?",
         "options": [
-          "Arteries carry blood away from the heart; veins carry it back",
           "Arteries carry oxygen; veins carry carbon dioxide",
-          "Arteries are in the arms; veins are in the legs"
+          "Arteries are in the arms; veins are in the legs",
+          "Arteries carry blood away from the heart; veins carry it back"
         ],
-        "answerIndex": 0,
-        "explain": "Direction, not contents. A for artery, A for away. There is one famous exception coming."
+        "answerIndex": 2,
+        "explain": "Direction, not contents. A for artery, A for away. There is one famous exception coming.",
+        "seconds": 25
       }
     },
     {
@@ -138,13 +140,14 @@
         "type": "multiple",
         "text": "Which part of the blood carries oxygen?",
         "options": [
-          "Red blood cells",
-          "White blood cells",
+          "Plasma",
           "Platelets",
-          "Plasma"
+          "Red blood cells",
+          "White blood cells"
         ],
-        "answerIndex": 0,
-        "explain": "Red cells, using haemoglobin. White cells fight infection and platelets do the clotting."
+        "answerIndex": 2,
+        "explain": "Red cells, using haemoglobin. White cells fight infection and platelets do the clotting.",
+        "seconds": 15
       }
     },
     {
@@ -202,12 +205,13 @@
         "type": "multiple",
         "text": "What makes up the central nervous system?",
         "options": [
-          "The brain and the spinal cord",
           "The brain and all the nerves",
+          "The brain and the spinal cord",
           "The spinal cord and the muscles"
         ],
-        "answerIndex": 0,
-        "explain": "Brain and spinal cord. Everything else is the peripheral nervous system."
+        "answerIndex": 1,
+        "explain": "Brain and spinal cord. Everything else is the peripheral nervous system.",
+        "seconds": 20
       }
     },
     {
@@ -256,11 +260,12 @@
         "text": "Which part of the brain controls balance and coordination?",
         "options": [
           "The cerebellum",
-          "The cerebrum",
-          "The brain stem"
+          "The brain stem",
+          "The cerebrum"
         ],
         "answerIndex": 0,
-        "explain": "The cerebellum. The cerebrum thinks, and the brain stem runs breathing and heart rate."
+        "explain": "The cerebellum. The cerebrum thinks, and the brain stem runs breathing and heart rate.",
+        "seconds": 15
       }
     },
     {
@@ -301,7 +306,8 @@
         "type": "truefalse",
         "text": "In a reflex, the signal reaches your brain before your muscle moves.",
         "answer": false,
-        "explain": "False. The spinal cord handles it. You feel the pain after your hand has already gone."
+        "explain": "False. The spinal cord handles it. You feel the pain after your hand has already gone.",
+        "seconds": 12
       }
     },
     {
@@ -381,53 +387,58 @@
         "The body"
       ],
       "explain": "Body in on the right, out to the lungs, back in on the left, out to the body again.",
-      "objective": "Name the four chambers of the heart and trace blood through both circuits"
+      "objective": "Name the four chambers of the heart and trace blood through both circuits",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "Which chamber has the thickest muscular wall, and why?",
       "options": [
-        "The left ventricle, because it pumps to the whole body",
-        "The right ventricle, because it pumps to the lungs",
         "The left atrium, because it receives from the lungs",
+        "The right ventricle, because it pumps to the lungs",
+        "The left ventricle, because it pumps to the whole body",
         "The right atrium, because it receives from the body"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "The left ventricle. It is the longest, hardest push in the system, so it needs the most muscle.",
-      "objective": "Name the four chambers of the heart and trace blood through both circuits"
+      "objective": "Name the four chambers of the heart and trace blood through both circuits",
+      "seconds": 30
     },
     {
       "type": "multiple",
       "text": "What defines an artery?",
       "options": [
-        "It carries blood away from the heart",
-        "It always carries oxygen-rich blood",
         "It is always found close to the skin",
-        "It has valves inside it"
+        "It carries blood away from the heart",
+        "It has valves inside it",
+        "It always carries oxygen-rich blood"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Direction, not contents. The pulmonary artery carries oxygen-poor blood and is still an artery.",
-      "objective": "Distinguish arteries, veins and capillaries by structure and job"
+      "objective": "Distinguish arteries, veins and capillaries by structure and job",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Where does the exchange of oxygen and waste actually happen?",
       "options": [
-        "In the capillaries",
         "In the arteries",
         "In the veins",
-        "In the left ventricle"
+        "In the left ventricle",
+        "In the capillaries"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Capillaries. Their walls are one cell thick, which is what makes exchange possible.",
-      "objective": "Distinguish arteries, veins and capillaries by structure and job"
+      "objective": "Distinguish arteries, veins and capillaries by structure and job",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "The pulmonary artery carries oxygen-poor blood.",
       "answer": true,
       "explain": "True. It is heading to the lungs to collect oxygen, so it has not picked any up yet.",
-      "objective": "Distinguish arteries, veins and capillaries by structure and job"
+      "objective": "Distinguish arteries, veins and capillaries by structure and job",
+      "seconds": 12
     },
     {
       "type": "type",
@@ -437,20 +448,22 @@
         "hemoglobin"
       ],
       "explain": "Haemoglobin. It is what makes red blood cells red, and what lets them carry oxygen.",
-      "objective": "Name the four parts of blood and what each one does"
+      "objective": "Name the four parts of blood and what each one does",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Which part of the blood stops a cut from bleeding?",
       "options": [
-        "Platelets",
         "Plasma",
         "Red blood cells",
-        "White blood cells"
+        "White blood cells",
+        "Platelets"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Platelets. They clump together and form the clot. White cells fight infection instead.",
-      "objective": "Name the four parts of blood and what each one does"
+      "objective": "Name the four parts of blood and what each one does",
+      "seconds": 15
     },
     {
       "type": "multiple",
@@ -458,25 +471,27 @@
       "options": [
         "The brain and the spinal cord",
         "The brain and the nerves",
-        "The spinal cord and the nerves",
-        "The brain and the sense organs"
+        "The brain and the sense organs",
+        "The spinal cord and the nerves"
       ],
       "answerIndex": 0,
       "explain": "Brain and spinal cord, both protected by bone. Every other nerve is peripheral.",
-      "objective": "Name the parts of the central nervous system and what each does"
+      "objective": "Name the parts of the central nervous system and what each does",
+      "seconds": 25
     },
     {
       "type": "multiple",
       "text": "Which brain part keeps you breathing without you thinking about it?",
       "options": [
-        "The brain stem",
+        "The spinal cord",
         "The cerebellum",
-        "The cerebrum",
-        "The spinal cord"
+        "The brain stem",
+        "The cerebrum"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "The brain stem. It runs breathing and heart rate, and you cannot switch it off on purpose.",
-      "objective": "Name the parts of the central nervous system and what each does"
+      "objective": "Name the parts of the central nervous system and what each does",
+      "seconds": 20
     },
     {
       "type": "multiple",
@@ -484,12 +499,13 @@
       "options": [
         "It insulates the axon so the signal travels much faster",
         "It receives signals from other neurons",
-        "It is the gap between two neurons",
-        "It carries oxygen to the nerve cell"
+        "It carries oxygen to the nerve cell",
+        "It is the gap between two neurons"
       ],
       "answerIndex": 0,
       "explain": "It insulates. A myelinated nerve can carry a signal at about 120 metres per second.",
-      "objective": "Describe how a neuron carries a signal"
+      "objective": "Describe how a neuron carries a signal",
+      "seconds": 25
     },
     {
       "type": "order",
@@ -501,20 +517,22 @@
         "The brain registers the pain"
       ],
       "explain": "The brain is last. Your hand has already moved by the time you feel anything.",
-      "objective": "Explain a reflex arc and why it does not go through the brain"
+      "objective": "Explain a reflex arc and why it does not go through the brain",
+      "seconds": 30
     },
     {
       "type": "multiple",
       "text": "Why does a reflex not go through the brain first?",
       "options": [
+        "Reflexes only happen in the legs",
         "Going via the brain would be too slow to prevent damage",
         "The brain cannot control muscles at all",
-        "The brain is asleep most of the time",
-        "Reflexes only happen in the legs"
+        "The brain is asleep most of the time"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Speed. Damage happens in milliseconds, so the spinal cord decides and tells the brain afterwards.",
-      "objective": "Explain a reflex arc and why it does not go through the brain"
+      "objective": "Explain a reflex arc and why it does not go through the brain",
+      "seconds": 25
     }
   ],
   "teacher": {

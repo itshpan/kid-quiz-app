@@ -46,13 +46,14 @@
         "type": "multiple",
         "text": "Anong kayarian ang salitang \"suntok\"?",
         "options": [
+          "Tambalan",
           "Payak",
           "Maylapi",
-          "Inuulit",
-          "Tambalan"
+          "Inuulit"
         ],
-        "answerIndex": 0,
-        "explain": "Payak. Salitang-ugat lamang ito, walang panlapi at walang pag-uulit."
+        "answerIndex": 1,
+        "explain": "Payak. Salitang-ugat lamang ito, walang panlapi at walang pag-uulit.",
+        "seconds": 15
       }
     },
     {
@@ -87,13 +88,14 @@
         "type": "multiple",
         "text": "Anong kayarian ang \"dahan-dahan\"?",
         "options": [
-          "Inuulit",
-          "Payak",
+          "Tambalan",
           "Maylapi",
-          "Tambalan"
+          "Inuulit",
+          "Payak"
         ],
-        "answerIndex": 0,
-        "explain": "Inuulit. Ang buong salita ay inulit at may gitling sa pagitan."
+        "answerIndex": 2,
+        "explain": "Inuulit. Ang buong salita ay inulit at may gitling sa pagitan.",
+        "seconds": 12
       }
     },
     {
@@ -114,13 +116,14 @@
         "type": "multiple",
         "text": "Anong kayarian ang \"hampaslupa\"?",
         "options": [
-          "Tambalan",
-          "Inuulit",
+          "Maylapi",
           "Payak",
-          "Maylapi"
+          "Inuulit",
+          "Tambalan"
         ],
-        "answerIndex": 0,
-        "explain": "Tambalan. Magkaibang ugat ang hampas at lupa, kaya hindi ito inuulit."
+        "answerIndex": 3,
+        "explain": "Tambalan. Magkaibang ugat ang hampas at lupa, kaya hindi ito inuulit.",
+        "seconds": 12
       }
     },
     {
@@ -173,7 +176,8 @@
           "Isang pahayagan"
         ],
         "answerIndex": 0,
-        "explain": "Buwis. Kaya nga makapangyarihan ang pagpunit nito: pagtanggi iyon sa pagiging sakop."
+        "explain": "Buwis. Kaya nga makapangyarihan ang pagpunit nito: pagtanggi iyon sa pagiging sakop.",
+        "seconds": 20
       }
     },
     {
@@ -208,7 +212,8 @@
         "type": "truefalse",
         "text": "Inalis ng Espanya ang polo o sapilitang paggawa bago matapos ang panahon nila.",
         "answer": false,
-        "explain": "Hindi. Ginawa itong labinlimang araw noong 1884 mula sa apatnapu, pero hindi kailanman inalis."
+        "explain": "Hindi. Ginawa itong labinlimang araw noong 1884 mula sa apatnapu, pero hindi kailanman inalis.",
+        "seconds": 12
       }
     },
     {
@@ -273,59 +278,64 @@
       ],
       "answerIndex": 0,
       "explain": "Payak. Ugat lamang, walang anumang dagdag.",
-      "objective": "Maiba ang payak sa maylapi"
+      "objective": "Maiba ang payak sa maylapi",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Anong kayarian ang \"tumakbo\"?",
       "options": [
-        "Maylapi",
-        "Payak",
         "Tambalan",
-        "Inuulit"
+        "Payak",
+        "Inuulit",
+        "Maylapi"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Maylapi. May gitlaping -um- sa ugat na takbo.",
-      "objective": "Maiba ang payak sa maylapi"
+      "objective": "Maiba ang payak sa maylapi",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Anong kayarian ang \"araw-araw\"?",
       "options": [
-        "Inuulit",
-        "Tambalan",
         "Payak",
-        "Maylapi"
+        "Inuulit",
+        "Maylapi",
+        "Tambalan"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Inuulit, dahil magkatulad ang dalawang bahagi.",
-      "objective": "Makilala ang inuulit at ang tambalan"
+      "objective": "Makilala ang inuulit at ang tambalan",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Anong kayarian ang \"bahay-kubo\"?",
       "options": [
         "Tambalan",
-        "Inuulit",
         "Payak",
-        "Maylapi"
+        "Maylapi",
+        "Inuulit"
       ],
       "answerIndex": 0,
       "explain": "Tambalan. Magkaiba ang bahay at kubo, kaya hindi ito inuulit.",
-      "objective": "Makilala ang inuulit at ang tambalan"
+      "objective": "Makilala ang inuulit at ang tambalan",
+      "seconds": 12
     },
     {
       "type": "multiple",
       "text": "Ano ang pinagkaiba ng inuulit at tambalan?",
       "options": [
-        "Magkatulad ang dalawang bahagi ng inuulit; magkaiba sa tambalan",
         "May gitling lang ang inuulit",
         "Mas mahaba ang tambalan",
+        "Magkatulad ang dalawang bahagi ng inuulit; magkaiba sa tambalan",
         "Walang pinagkaiba"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Isang tanong lamang: magkatulad ba ang dalawang bahagi o hindi?",
-      "objective": "Makilala ang inuulit at ang tambalan"
+      "objective": "Makilala ang inuulit at ang tambalan",
+      "seconds": 20
     },
     {
       "type": "order",
@@ -337,14 +347,16 @@
         "Wala sa lahat — payak"
       ],
       "explain": "Panlapi bago pag-uulit, kaya ang \"naglalaro\" ay maylapi at hindi inuulit.",
-      "objective": "Magamit ang isang tanong upang mauri ang anumang salita"
+      "objective": "Magamit ang isang tanong upang mauri ang anumang salita",
+      "seconds": 25
     },
     {
       "type": "truefalse",
       "text": "May ikalimang kayarian ng salita sa Filipino.",
       "answer": false,
       "explain": "Wala. Apat lamang: payak, maylapi, inuulit at tambalan.",
-      "objective": "Matukoy ang apat na kayarian ng salita"
+      "objective": "Matukoy ang apat na kayarian ng salita",
+      "seconds": 12
     },
     {
       "type": "type",
@@ -355,53 +367,58 @@
         "salitang tambalan"
       ],
       "explain": "Tambalan. Dalaga at bukid, dalawang magkaibang ugat.",
-      "objective": "Makilala ang inuulit at ang tambalan"
+      "objective": "Makilala ang inuulit at ang tambalan",
+      "seconds": 15
     },
     {
       "type": "multiple",
       "text": "Ano ang cedula?",
       "options": [
-        "Patunay ng pagbabayad ng buwis sa Espanya",
-        "Isang uri ng bahay",
         "Ang bandila ng Katipunan",
-        "Isang aklat ni Rizal"
+        "Isang uri ng bahay",
+        "Isang aklat ni Rizal",
+        "Patunay ng pagbabayad ng buwis sa Espanya"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Buwis, at kailangan itong dalhin kahit saan. Kaya makapangyarihan ang pagpunit nito.",
-      "objective": "Maunawaan ang kalagayan ng mga Pilipino noong panahon ng Katipunan"
+      "objective": "Maunawaan ang kalagayan ng mga Pilipino noong panahon ng Katipunan",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Ano ang polo?",
       "options": [
-        "Sapilitang paggawa para sa gobyerno",
+        "Isang laro noong panahong iyon",
         "Isang uri ng damit",
-        "Ang buwis sa lupa",
-        "Isang laro noong panahong iyon"
+        "Sapilitang paggawa para sa gobyerno",
+        "Ang buwis sa lupa"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explain": "Sapilitang paggawa. Ginawa itong labinlimang araw noong 1884, pero hindi inalis.",
-      "objective": "Maunawaan ang kalagayan ng mga Pilipino noong panahon ng Katipunan"
+      "objective": "Maunawaan ang kalagayan ng mga Pilipino noong panahon ng Katipunan",
+      "seconds": 20
     },
     {
       "type": "multiple",
       "text": "Ano ang ibig sabihin ng pagpunit ng cedula noong 1896?",
       "options": [
-        "Pagtanggi sa pagiging sakop ng Espanya",
         "Pagtanggi sa Katipunan",
-        "Pagtatapos ng pag-aaral",
-        "Pagsali sa hukbong Espanyol"
+        "Pagtanggi sa pagiging sakop ng Espanya",
+        "Pagsali sa hukbong Espanyol",
+        "Pagtatapos ng pag-aaral"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Isang resibo lamang ito hanggang sa punitin. Pagkatapos, isa na itong pahayag.",
-      "objective": "Maunawaan ang kalagayan ng mga Pilipino noong panahon ng Katipunan"
+      "objective": "Maunawaan ang kalagayan ng mga Pilipino noong panahon ng Katipunan",
+      "seconds": 20
     },
     {
       "type": "truefalse",
       "text": "Inalis ng Espanya ang polo bago matapos ang panahon ng pananakop nila.",
       "answer": false,
       "explain": "Hindi. Binawasan lamang ito noong 1884, mula apatnapung araw patungong labinlima.",
-      "objective": "Maunawaan ang kalagayan ng mga Pilipino noong panahon ng Katipunan"
+      "objective": "Maunawaan ang kalagayan ng mga Pilipino noong panahon ng Katipunan",
+      "seconds": 12
     }
   ],
   "teacher": {
