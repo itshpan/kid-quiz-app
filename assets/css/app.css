@@ -1087,11 +1087,46 @@ svg .hidden { display: none; }
 /* ---------- Question clock ----------
    A static budget, never a countdown. Ambient motion is off the table here,
    and a ticking number would replace thinking with panic. */
-.qbudget {
-    margin-left: 10px; padding: 2px 8px; border-radius: 999px;
+/* The live clock. It ticks — the one deliberate exception to no-ambient-
+   motion, because time blindness is the thing being taught to. Everything
+   about it is kept quiet: no animation on the number, no colour until a
+   threshold is crossed, and never red at any stage. */
+.qtimer {
+    margin-left: 10px; padding: 2px 9px; border-radius: 999px;
+    display: inline-flex; align-items: baseline; gap: 5px;
     font-family: var(--font-ui); font-size: calc(11px * var(--scale));
-    font-weight: 700; letter-spacing: .02em;
+    letter-spacing: .02em;
     background: var(--surface-2); color: var(--ink-faint);
+    transition: background-color .4s ease, color .4s ease;
+}
+.qtimer .qnow { font-weight: 700; font-variant-numeric: tabular-nums; }
+.qtimer i     { font-style: normal; opacity: .72; }
+
+/* NEAR — "you are about at the mark". A nudge, not an alarm. */
+.qtimer.near { background: color-mix(in srgb, var(--accent) 16%, var(--surface-2)); color: var(--accent); }
+/* OVER — twice the budget. Same family, a shade firmer. Still not red. */
+.qtimer.over { background: color-mix(in srgb, var(--accent) 30%, var(--surface-2)); color: var(--accent); }
+/* Once answered the clock stops mattering; let it recede. */
+.qtimer.done { background: var(--surface-2); color: var(--ink-faint); opacity: .7; }
+
+.qnudge {
+    margin-top: 12px; padding: 10px 14px; border-radius: var(--radius);
+    background: color-mix(in srgb, var(--accent) 10%, transparent);
+    border-left: 3px solid var(--accent);
+    color: var(--ink-soft); font-size: calc(13px * var(--scale));
+}
+
+/* Running session total. Steps forward per answer, so it never competes
+   with the question chip for attention. */
+.deck-run {
+    margin-left: auto; font-family: var(--font-ui);
+    font-size: calc(11px * var(--scale)); color: var(--ink-faint);
+    font-variant-numeric: tabular-nums; white-space: nowrap;
+}
+.deck-run i { font-style: normal; opacity: .7; }
+
+@media (prefers-reduced-motion: reduce) {
+    .qtimer { transition: none; }
 }
 .qclock {
     margin-top: 10px; font-family: var(--font-ui);

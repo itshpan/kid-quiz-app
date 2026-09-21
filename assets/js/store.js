@@ -13,10 +13,36 @@ const K = {
     profiles: 'learningLab_profiles',
     active: 'learningLab_activeProfile',
     progress: id => `learningLab_progress_${id}`,
+    settings: 'learningLab_settings',
     // legacy keys from the single-file quiz app, read once for migration
     legacyProfiles: 'kidQuizApp_users',
     legacyActive: 'kidQuizApp_activeUser'
 };
+
+/* ---------- Grown-up settings ----------
+   Device-level, not per-learner, and deliberately not reachable from any
+   learner-facing screen — settings.html asks for the teacher code first.
+   A learner who opens devtools can still change these; this keeps an eleven
+   year old out of his own pacing rules, which is all it is for.
+
+   `timerMode` never hides the budget-vs-elapsed comparison. That is the point
+   of the feature and is always on. It only changes which way the clock reads. */
+
+const DEFAULT_SETTINGS = {
+    timerMode: 'countup',   // 'countup' — time climbs | 'countdown' — budget drains
+    nudges: true,           // the two gentle thresholds inside a question
+    sessionTimer: true      // running clock on the deck and the quiz
+};
+
+export function getSettings() {
+    return { ...DEFAULT_SETTINGS, ...read(K.settings, {}) };
+}
+
+export function saveSettings(patch) {
+    const next = { ...getSettings(), ...patch };
+    write(K.settings, next);
+    return next;
+}
 
 export const AVATARS = ['🦊', '🐱', '🐶', '🐼', '🦁', '🐸', '🦄', '🐵', '🐰', '🐧', '🦋', '🐢', '🚗', '🥊', '🪐', '👾'];
 

@@ -5,6 +5,7 @@
 
 import { escapeHtml, md } from './ui.js';
 import { renderQuestion } from './question.js';
+import { getSettings } from './store.js';
 
 const XP_PER_CORRECT = 25;
 
@@ -50,14 +51,23 @@ export function runQuiz(host, questions, { onFinish }) {
     let i = 0, correct = 0, xp = 0, spent = 0;
     const missed = [];
     const budget = questions.reduce((n, q) => n + (Number(q.seconds) || 0), 0);
+    const showRun = getSettings().sessionTimer;
 
     function render() {
         if (i >= questions.length) return finish();
+
+        /* The running total steps forward once per answer rather than ticking.
+           The question chip is already a live clock; a second ticking number
+           beside it would just be one more thing pulling at him. */
+        const sofar = showRun && budget
+            ? `<div class="deck-run">${mmss(spent)} <i>of ~${mmss(budget)}</i></div>`
+            : '';
 
         host.innerHTML = `
             <div class="deck-bar">
                 <div class="deck-steps"><i style="width:${Math.round(((i + 1) / questions.length) * 100)}%"></i></div>
                 <div class="deck-count">${i + 1} of ${questions.length}</div>
+                ${sofar}
             </div>
             <section class="card enter" id="qCard"></section>
             <div class="deck-nav" id="qNav"></div>`;

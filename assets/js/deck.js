@@ -12,6 +12,7 @@ import { escapeHtml, md } from './ui.js';
 import { skeletonSVG, bindSkeleton, boneInfoHTML } from './skeleton.js';
 import { renderQuestion } from './question.js';
 import { mountFigure, explorerInfoHTML, bindExplorer, FIGURES } from './figures.js';
+import { getSettings } from './store.js';
 
 const points = list => `<ul class="points">${list.map(p => `<li>${md(escapeHtml(p))}</li>`).join('')}</ul>`;
 
@@ -103,6 +104,7 @@ export function mountDeck(host, cards, { startAt = 0, onMove = () => {}, onFinis
         <div class="deck-bar">
             <div class="deck-steps" id="steps" aria-hidden="true"></div>
             <div class="deck-count" id="count"></div>
+            <div class="deck-run hidden" id="sessionClock"></div>
         </div>
         <div id="cardHost"></div>
         <div class="deck-nav" id="nav"></div>
@@ -112,6 +114,23 @@ export function mountDeck(host, cards, { startAt = 0, onMove = () => {}, onFinis
     const countEl = host.querySelector('#count');
     const cardHost = host.querySelector('#cardHost');
     const navEl = host.querySelector('#nav');
+
+    /* Minute resolution on purpose. The per-question chip ticks because there
+       is a budget to judge against; a reading card has none, so a second-by-
+       second number here would be pure twitch. Minutes make the session
+       visible without pulling his eye off the card. */
+    const sessionEl = host.querySelector('#sessionClock');
+    if (getSettings().sessionTimer) {
+        const began = Date.now();
+        const tick = setInterval(paintSession, 15000);
+        function paintSession() {
+            if (!sessionEl.isConnected) return clearInterval(tick);
+            const mins = Math.floor((Date.now() - began) / 60000);
+            sessionEl.textContent = mins < 1 ? '' : `${mins} min in`;
+            sessionEl.classList.toggle('hidden', mins < 1);
+        }
+        paintSession();
+    }
 
     function paintProgress() {
         const pct = Math.round(((i + 1) / cards.length) * 100);

@@ -33,6 +33,7 @@ async function main() {
         <div class="row no-print" style="margin:20px 0;">
             <button class="btn primary" id="printBtn">🖨 Print / Save as PDF</button>
             <a class="btn" href="${lessonHref}">Open student view</a>
+            <a class="btn" href="settings.html">Pacing settings</a>
         </div>
 
         ${teacherKeyHTML(lesson)}`;

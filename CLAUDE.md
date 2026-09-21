@@ -68,6 +68,13 @@ rewritten later without touching a single lesson.
 - **Wrong answers are never red and never say "wrong."** Calm blue, "not yet",
   and hand over the missing fact.
 - **No ambient motion.** Transitions only in response to something he did.
+  *One exception, deliberate:* the per-question clock ticks, and the deck shows
+  a minute counter. Time blindness is a real ADHD deficit and time you cannot
+  see is time you cannot judge — so this is the lesson, not decoration. It is
+  kept as quiet as a live number can be: counts up rather than down by default,
+  so there is no cliff; no animation on the digits; colour only at a threshold;
+  never red. A parent can change it in `settings.html`; the learner cannot.
+  Do not "fix" this back to a static chip.
 - **Never pure black or pure white.** Pure black haloes light text.
 - **Facts must be true.** Never invent a detail about a game, a sport or an
   athlete to make a hook land. Find a different hook.

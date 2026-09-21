@@ -9,16 +9,29 @@
    in calm blue, and the feedback's job is to hand over the missing fact.
    See docs/WRITING-FOR-ADHD.md.
 
-   On the clock: each question carries a `seconds` budget, shown as a static
-   chip. It never counts down. A ticking number is ambient motion, which this
-   site does not do, and for this reader it would replace thinking with panic.
-   The elapsed time is measured quietly and only revealed once he has
-   answered — predict, act, compare, which is how time sense is actually
-   built.
+   On the clock: each question carries a `seconds` budget, and the reader sees
+   his own elapsed time climbing beside it. This is the one deliberate
+   exception to the no-ambient-motion rule, and it is there because time
+   blindness is the deficit being taught to: time you cannot see is time you
+   cannot judge. It counts UP by default rather than down, so there is no
+   cliff and no failure state — going over is information, not a buzzer.
+
+   Two gentle thresholds, both calm, neither red:
+     NEAR  at 80% of budget — the chip changes tone. "You are near the mark."
+     OVER2 at twice budget  — plus one quiet line: make a call and move on.
+   A parent can switch to countdown or silence the nudges in settings.html.
+   The budget-vs-elapsed comparison itself is always shown.
    ========================================================================== */
 
 import { escapeHtml, md } from './ui.js';
 import { skeletonSVG, bindSkeleton, BONES } from './skeleton.js';
+import { getSettings } from './store.js';
+
+/** 42 → "42s", 95 → "1:35". Short enough to sit in a chip. */
+export const clock = s => s < 60 ? `${s}s` : `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`;
+
+const NEAR_AT = 0.8;   // "about to exceed"
+const OVER_AT = 2;     // "well past it"
 
 export const QUESTION_LABEL = {
     multiple: 'Pick one',
@@ -47,26 +60,76 @@ const normalise = s => String(s).toLowerCase().trim().replace(/[^a-z0-9]/g, '');
 export function renderQuestion(host, q, onAnswer) {
     const budget = Number(q.seconds) > 0 ? Number(q.seconds) : null;
     const startedAt = Date.now();
+    const cfg = getSettings();
+    const countdown = cfg.timerMode === 'countdown';
 
     host.innerHTML = `
         <div class="card-eyebrow"><span class="eyebrow">${QUESTION_LABEL[q.type] || 'Question'}</span>${
-            budget ? `<span class="qbudget" title="About how long this one should take">~${budget}s</span>` : ''
+            budget ? `<span class="qtimer" id="qTimer" title="Your time, next to about how long this one should take">
+                <b class="qnow">${countdown ? clock(budget) : '0s'}</b><i>of ~${clock(budget)}</i>
+            </span>` : ''
         }</div>
         <h2>${md(escapeHtml(q.text))}</h2>
+        ${budget ? '<div class="qnudge hidden" id="qNudge"></div>' : ''}
         <div id="qInput" style="margin-top:18px;"></div>
         <div id="qFeed"></div>`;
 
     const input = host.querySelector('#qInput');
     const feed = host.querySelector('#qFeed');
 
+    /* ---- the live clock ---- */
+    const elapsed = () => Math.round((Date.now() - startedAt) / 1000);
+    let ticker = null;
+
+    if (budget) {
+        const chip = host.querySelector('#qTimer');
+        const now = chip.querySelector('.qnow');
+        const nudge = host.querySelector('#qNudge');
+        let stage = '';
+
+        const paint = () => {
+            const s = elapsed();
+            now.textContent = countdown ? clock(Math.max(0, budget - s)) : clock(s);
+
+            if (!cfg.nudges) return;
+            const next = s >= budget * OVER_AT ? 'over' : s >= budget * NEAR_AT ? 'near' : '';
+            if (next === stage) return;
+            stage = next;
+            chip.classList.toggle('near', stage === 'near');
+            chip.classList.toggle('over', stage === 'over');
+            // Escalate once, quietly. No sound, no flash, never red.
+            if (stage === 'over') {
+                nudge.textContent = 'You have been on this one a while. Make your best call and keep moving — you can come back to it.';
+                nudge.classList.remove('hidden');
+            } else {
+                nudge.classList.add('hidden');
+            }
+        };
+
+        ticker = setInterval(() => {
+            if (!host.isConnected) return stopClock();   // card was replaced
+            paint();
+        }, 1000);
+        paint();
+    }
+
+    function stopClock() {
+        if (ticker) { clearInterval(ticker); ticker = null; }
+    }
+
     function settle(ok, extra = '') {
-        const spent = Math.max(1, Math.round((Date.now() - startedAt) / 1000));
+        stopClock();
+        const spent = Math.max(1, elapsed());
         // Only ever stated as a fact, never as a pass or a fail.
-        const clock = budget
-            ? `<div class="qclock">Took ${spent}s · budget ${budget}s</div>`
+        const line = budget
+            ? `<div class="qclock">Took ${clock(spent)} · budget ${clock(budget)}</div>`
             : '';
+        const chip = host.querySelector('#qTimer');
+        if (chip) chip.classList.add('done');
+        const nudge = host.querySelector('#qNudge');
+        if (nudge) nudge.classList.add('hidden');
         feed.innerHTML = `<div class="feedback ${ok ? 'yes' : 'notyet'}">
-            <b>${ok ? '✓ Got it' : 'Not yet — here it is'}</b>${extra}${md(escapeHtml(q.explain))}</div>${clock}`;
+            <b>${ok ? '✓ Got it' : 'Not yet — here it is'}</b>${extra}${md(escapeHtml(q.explain))}</div>${line}`;
         onAnswer(ok, spent, budget);
     }
 
