@@ -1,7 +1,48 @@
 # Cloudflare Pages headers.
-# Lessons are edited often, so never let a stale one stick around.
+#
+# Asset URLs carry a ?v=<hash> stamp added by tools/stamp.mjs, so a given URL's
+# contents can never change — that is what lets them be cached hard. A deploy
+# changes the stamp, so the browser fetches the new files at once instead of
+# sitting on an old copy.
+#
+# The HTML carries those stamps, so it must never be stale itself, and lessons
+# are edited often. Both revalidate on every load.
+#
+# NOTE: do not add a `/*` catch-all. Pages MERGES every rule that matches a
+# path rather than letting the most specific one win, so `/*` plus `/assets/*`
+# produced one header with two conflicting max-age values. The rules below are
+# deliberately non-overlapping. Each page is listed twice because Pages serves
+# both /lesson and /lesson.html.
+
+/
+  Cache-Control: public, max-age=0, must-revalidate
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+/course
+  Cache-Control: public, max-age=0, must-revalidate
+/course.html
+  Cache-Control: public, max-age=0, must-revalidate
+/lesson
+  Cache-Control: public, max-age=0, must-revalidate
+/lesson.html
+  Cache-Control: public, max-age=0, must-revalidate
+/progress
+  Cache-Control: public, max-age=0, must-revalidate
+/progress.html
+  Cache-Control: public, max-age=0, must-revalidate
+/teacher
+  Cache-Control: public, max-age=0, must-revalidate
+/teacher.html
+  Cache-Control: public, max-age=0, must-revalidate
+/settings
+  Cache-Control: public, max-age=0, must-revalidate
+/settings.html
+  Cache-Control: public, max-age=0, must-revalidate
+/practice/*
+  Cache-Control: public, max-age=0, must-revalidate
+
 /content/*
   Cache-Control: public, max-age=0, must-revalidate
 
 /assets/*
-  Cache-Control: public, max-age=3600
+  Cache-Control: public, max-age=31536000, immutable
