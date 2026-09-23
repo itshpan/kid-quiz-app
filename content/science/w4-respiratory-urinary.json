@@ -42,6 +42,12 @@
       "text": "Tap each one. Two quiz questions come straight from this."
     },
     {
+      "kind": "explorer",
+      "figure": "airway",
+      "title": "Tap any part of the airway",
+      "text": "Six parts, nose to air sac. Each has a car fact and a fact about you."
+    },
+    {
       "kind": "checkpoint",
       "question": {
         "type": "order",
@@ -119,6 +125,20 @@
     },
     {
       "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "Your cells burn fuel the way an engine does",
+      "text": "This one is not really a comparison. It is the same chemistry, run slow and controlled.",
+      "points": [
+        "**An engine:** petrol plus oxygen makes carbon dioxide, water and energy.",
+        "**A cell:** glucose plus oxygen makes carbon dioxide, water and energy.",
+        "**Same equation.** One does it in a bang, you do it in small steps.",
+        "**So you breathe out** exactly what an exhaust pipe breathes out."
+      ]
+    },
+    {
+      "kind": "lens",
       "lens": "aviation",
       "icon": "✈️",
       "eyebrow": "Black box mode",
@@ -184,6 +204,12 @@
         "**Bladder** — stores it until you decide.",
         "**Urethra** — the way out."
       ]
+    },
+    {
+      "kind": "explorer",
+      "figure": "urinary",
+      "title": "Tap any part of the filter",
+      "text": "The kidneys clean the blood and put it back. Tap to see how each part helps."
     },
     {
       "kind": "idea",

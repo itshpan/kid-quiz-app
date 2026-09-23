@@ -38,7 +38,37 @@
         "Double the revs and the note goes up exactly one octave, because you doubled the frequency",
         "Crossplane V8 (muscle car) burbles because its banks fire unevenly; flatplane V8 (Ferrari) fires evenly and wails higher",
         "A bigger, slower engine is a lower note. Pitch is just how often something repeats"
-      ]
+      ],
+      "engineMap": {
+        "_note": "One map, used everywhere, so the body reads as one machine instead of eight unrelated topics. Reuse these pairings rather than inventing a new one per lesson.",
+        "pairs": {
+          "airbox and air filter": "nose — filters, warms, moistens",
+          "reinforced intake hose": "trachea — cartilage rings stop it collapsing",
+          "intake manifold": "bronchi splitting to each lung",
+          "where air meets fuel": "alveoli — air meets blood",
+          "filler neck": "mouth",
+          "fuel line": "oesophagus, which pumps rather than drops",
+          "mixing chamber": "stomach",
+          "refinery and additives": "liver",
+          "injector rail": "small intestine, where fuel actually enters",
+          "oil filter": "kidneys — fluid cleaned and returned, not thrown away",
+          "combustion chamber": "every cell. Same reaction, run slow",
+          "radiator and airflow": "sweat and evaporation",
+          "exhaust": "anus for solids, lungs for carbon dioxide",
+          "ECU": "cerebrum",
+          "traction and stability control": "cerebellum",
+          "idle controller": "brainstem",
+          "wiring loom": "spinal cord",
+          "hardwired cutoff": "reflex arc, which does not wait for the brain"
+        },
+        "theDeepOne": "Cellular respiration is not LIKE combustion, it is the same oxidation: fuel + oxygen gives carbon dioxide + water + energy. An engine does it in a bang, a cell in small steps. This is the pairing that makes all the others feel earned.",
+        "whereItBreaks": [
+          "An engine has one combustion chamber. You have one per cell.",
+          "An engine dumps exhaust straight out. You ship carbon dioxide back through the blood to the lungs first.",
+          "An engine is built and then wears out. You rebuild yourself continuously.",
+          "Say where an analogy stops. A comparison he can break himself is one he understood."
+        ]
+      }
     },
     "boxing": {
       "label": "Boxing mode",

@@ -859,6 +859,120 @@ function pluralMachine() {
    ========================================================================== */
 
 const EXPLORER_DATA = {
+    /* ---- Respiratory: the intake side of the engine ---- */
+    airway: {
+        nose: {
+            name: 'Nose', sub: 'nasus',
+            job: 'Filters, warms and moistens air before it goes anywhere useful.',
+            car: 'The airbox and air filter. Grit caught here never reaches the engine.',
+            you: 'Mouth-breathing skips all three jobs. That is why cold air bites more.'
+        },
+        trachea: {
+            name: 'Trachea', sub: 'the windpipe',
+            job: 'One tube down to the lungs, held open by rings of cartilage.',
+            car: 'A reinforced intake hose. Rings stop it collapsing under suction.',
+            you: 'The rings are C-shaped, open at the back, so swallowed food can bulge past.'
+        },
+        bronchi: {
+            name: 'Bronchi', sub: 'two of them',
+            job: 'The trachea splits in two, one branch into each lung.',
+            car: 'The intake manifold splitting to feed each side.',
+            you: 'The right one is wider and steeper, so anything inhaled usually lands there.'
+        },
+        bronchioles: {
+            name: 'Bronchioles', sub: 'about 30,000 per lung',
+            job: 'The branches keep dividing and getting narrower, like a tree.',
+            car: 'Runners narrowing toward each cylinder.',
+            you: 'These are the tubes that tighten in asthma. The air is not blocked, the pipe is.'
+        },
+        alveoli: {
+            name: 'Alveoli', sub: 'about 300 million',
+            job: 'Tiny air sacs one cell thick. Oxygen crosses into blood, carbon dioxide crosses out.',
+            car: 'Where air finally meets fuel. Older engines did it in a carburettor, newer ones inject.',
+            you: 'Flattened out they would cover about 70 square metres — a small flat.'
+        },
+        diaphragm: {
+            name: 'Diaphragm', sub: 'the muscle that breathes',
+            job: 'Pulls flat, the chest gets bigger, pressure drops, air flows in on its own.',
+            car: 'The piston on its intake stroke. Nothing sucks — pressure does the work.',
+            you: 'A hit here winds you: it spasms and you cannot pull it flat for a moment.'
+        }
+    },
+
+    /* ---- Urinary: the oil filter ---- */
+    urinary: {
+        renalartery: {
+            name: 'Renal artery', sub: 'the dirty side',
+            job: 'Delivers blood carrying urea and everything else that needs sorting.',
+            car: 'The feed line into the filter housing.',
+            you: 'About a fifth of every heartbeat is sent straight to your kidneys.'
+        },
+        kidney: {
+            name: 'Kidney', sub: 'ren · two of them',
+            job: 'Filters the blood, then takes back almost everything worth keeping.',
+            car: 'The oil filter. The fluid is cleaned and returned, not thrown away.',
+            you: 'They filter about 180 litres a day. You pass under two. The rest goes back.'
+        },
+        nephron: {
+            name: 'Nephron', sub: 'about a million per kidney',
+            job: 'The actual filter unit. Everything small is pushed out, then the useful part reclaimed.',
+            car: 'One filter element. A kidney is a million of them in parallel.',
+            you: 'Sugar in your urine means they were overwhelmed. Normally none escapes.'
+        },
+        ureter: {
+            name: 'Ureter', sub: 'about 25 cm each',
+            job: 'Carries urine from kidney down to the bladder.',
+            car: 'The return line. It squeezes rather than trusting gravity.',
+            you: 'It has muscle in its wall, so it works whichever way up you are.'
+        },
+        bladder: {
+            name: 'Bladder', sub: 'vesica urinaria',
+            job: 'A muscular bag that stretches to hold urine until you decide.',
+            car: 'The catch tank. It buffers so the system is not always dumping.',
+            you: 'You feel it at about 200 ml. It can hold two or three times that.'
+        },
+        urethra: {
+            name: 'Urethra', sub: 'the way out',
+            job: 'The final tube. A ring of muscle keeps it shut until you release it.',
+            car: 'The drain plug, with a valve you control.',
+            you: 'This is the one part of the whole route you have a say over.'
+        }
+    },
+
+    /* ---- Nervous: the ECU and the loom ---- */
+    nervous: {
+        cerebrum: {
+            name: 'Cerebrum', sub: 'the wrinkled part',
+            job: 'Thinking, deciding, remembering, and every movement you choose to make.',
+            car: 'The ECU. It reads everything and decides what the machine does.',
+            you: 'The wrinkles are folds. Flattened out it would cover a pillowcase.'
+        },
+        cerebellum: {
+            name: 'Cerebellum', sub: 'the little brain',
+            job: 'Balance, timing and smoothness. It does not choose the move, it makes it clean.',
+            car: 'Traction and stability control. You asked for it; this makes it not a mess.',
+            you: 'Practising a combination until it stops feeling clumsy is this part learning.'
+        },
+        brainstem: {
+            name: 'Brainstem', sub: 'truncus encephali',
+            job: 'Breathing, heartbeat, swallowing. The jobs you never decide to do.',
+            car: 'The idle controller. It keeps everything running while you think about other things.',
+            you: 'This is why you keep breathing asleep. It was never up to you.'
+        },
+        spinalcord: {
+            name: 'Spinal cord', sub: 'about 45 cm',
+            job: 'The main cable between brain and body, protected inside the backbone.',
+            car: 'The wiring loom. Every signal in either direction runs down it.',
+            you: 'Damage high up cuts off everything below, because there is no second route.'
+        },
+        nerves: {
+            name: 'Nerves', sub: 'the peripheral system',
+            job: 'Branch off the cord to every muscle and every patch of skin.',
+            car: 'The wires out to each sensor and actuator.',
+            you: 'The fastest carry signals at about 100 metres a second. 360 km/h.'
+        }
+    },
+
     /* Four chambers plus the four great vessels. The artery/vein facts are the
        ones worth having early: an artery is not "the red one", it is the one
        leaving the heart — which is why the pulmonary artery carries the
@@ -1058,6 +1172,88 @@ const EXPLORER_DATA = {
 /* Anterior view, so the RIGHT chambers are on the viewer's LEFT. The outline
    is drawn once as a backing shape so the thing always reads as a heart; the
    tappable parts sit inside it rather than trying to tile it themselves. */
+/* Intake side: nose down to the sacs, with the muscle that drives it all. */
+function airway() {
+    return {
+        svg: `<svg viewBox="0 0 230 300" role="img" aria-labelledby="awT">
+  <title id="awT">The airway from nose to alveoli, with the two lungs and the diaphragm beneath them</title>
+
+  <path class="organ-bg" d="M100 118 C66 120 46 150 44 190 C42 226 56 250 84 252 C100 250 104 226 104 196 Z"/>
+  <path class="organ-bg" d="M130 118 C164 120 184 150 186 190 C188 226 174 250 146 252 C130 250 126 226 126 196 Z"/>
+
+  <g class="organ" data-part="nose" role="button" tabindex="0" aria-label="Nose"><title>Nose</title>
+    <path d="M100 18 C86 26 82 42 94 50 L136 50 C148 42 144 26 130 18 Z"/></g>
+  <g class="organ" data-part="trachea" role="button" tabindex="0" aria-label="Trachea"><title>Trachea</title>
+    <rect x="105" y="54" width="20" height="60" rx="7"/></g>
+  <g class="organ tube" data-part="bronchi" role="button" tabindex="0" aria-label="Bronchi"><title>Bronchi</title>
+    <path d="M112 116 C104 134 92 142 76 148" fill="none" stroke-width="11" stroke-linecap="round"/>
+    <path d="M118 116 C126 134 138 142 154 148" fill="none" stroke-width="11" stroke-linecap="round"/></g>
+  <g class="organ tube" data-part="bronchioles" role="button" tabindex="0" aria-label="Bronchioles"><title>Bronchioles</title>
+    <path d="M76 150 C66 162 62 176 60 190 M76 150 C80 166 80 180 78 194" fill="none" stroke-width="6" stroke-linecap="round"/>
+    <path d="M154 150 C164 162 168 176 170 190 M154 150 C150 166 150 180 152 194" fill="none" stroke-width="6" stroke-linecap="round"/></g>
+  <g class="organ" data-part="alveoli" role="button" tabindex="0" aria-label="Alveoli"><title>Alveoli</title>
+    <circle cx="58" cy="200" r="8"/><circle cx="74" cy="206" r="8"/><circle cx="62" cy="218" r="8"/>
+    <circle cx="172" cy="200" r="8"/><circle cx="156" cy="206" r="8"/><circle cx="168" cy="218" r="8"/></g>
+  <g class="organ" data-part="diaphragm" role="button" tabindex="0" aria-label="Diaphragm"><title>Diaphragm</title>
+    <path d="M40 268 C80 246 150 246 190 268 L190 282 C150 262 80 262 40 282 Z"/></g>
+</svg>`
+    };
+}
+
+/* Two filters, the lines down, and the tank you control the valve on. */
+function urinary() {
+    return {
+        svg: `<svg viewBox="0 0 230 300" role="img" aria-labelledby="urT">
+  <title id="urT">The urinary system: two kidneys, their vessels, the ureters running down to the bladder and out</title>
+
+  <g class="organ tube" data-part="renalartery" role="button" tabindex="0" aria-label="Renal artery"><title>Renal artery</title>
+    <path d="M115 56 L115 104" fill="none" stroke-width="12" stroke-linecap="round"/>
+    <path d="M113 74 C100 76 92 80 84 86 M117 80 C130 82 138 86 146 92" fill="none" stroke-width="9" stroke-linecap="round"/></g>
+
+  <g class="organ" data-part="kidney" role="button" tabindex="0" aria-label="Kidney"><title>Kidney</title>
+    <path d="M78 58 C56 58 44 76 44 96 C44 116 56 132 76 132 C86 132 88 120 84 106 C80 94 80 84 84 74 C88 64 86 58 78 58 Z"/>
+    <path d="M152 58 C174 58 186 76 186 96 C186 116 174 132 154 132 C144 132 142 120 146 106 C150 94 150 84 146 74 C142 64 144 58 152 58 Z"/></g>
+
+  <g class="organ" data-part="nephron" role="button" tabindex="0" aria-label="Nephron"><title>Nephron</title>
+    <circle cx="62" cy="86" r="7"/><path d="M62 93 C62 104 54 106 56 116" fill="none" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="168" cy="86" r="7"/><path d="M168 93 C168 104 176 106 174 116" fill="none" stroke-width="4" stroke-linecap="round"/></g>
+
+  <g class="organ tube" data-part="ureter" role="button" tabindex="0" aria-label="Ureter"><title>Ureter</title>
+    <path d="M76 132 C82 172 96 196 106 212" fill="none" stroke-width="9" stroke-linecap="round"/>
+    <path d="M154 132 C148 172 134 196 124 212" fill="none" stroke-width="9" stroke-linecap="round"/></g>
+
+  <g class="organ" data-part="bladder" role="button" tabindex="0" aria-label="Bladder"><title>Bladder</title>
+    <path d="M86 216 C84 244 96 258 115 258 C134 258 146 244 144 216 C126 208 104 208 86 216 Z"/></g>
+  <g class="organ" data-part="urethra" role="button" tabindex="0" aria-label="Urethra"><title>Urethra</title>
+    <rect x="108" y="258" width="14" height="30" rx="6"/></g>
+</svg>`
+    };
+}
+
+/* The ECU, the stability controller, the idle controller, and the loom. */
+function nervous() {
+    return {
+        svg: `<svg viewBox="0 0 230 300" role="img" aria-labelledby="nvT">
+  <title id="nvT">The central nervous system: the folded cerebrum, the cerebellum behind and below it, the brainstem running into the spinal cord, and nerves branching off</title>
+
+  <g class="organ" data-part="cerebrum" role="button" tabindex="0" aria-label="Cerebrum"><title>Cerebrum</title>
+    <path d="M58 82 C54 44 88 20 122 22 C158 24 180 46 178 78 C176 102 156 116 128 118 C98 120 62 112 58 82 Z"/>
+    <path class="fold" d="M74 52 C90 62 108 62 124 52 M70 74 C90 86 114 86 136 74
+                          M84 98 C100 106 118 106 134 98 M148 44 C158 56 160 70 152 84" fill="none"/></g>
+  <g class="organ" data-part="cerebellum" role="button" tabindex="0" aria-label="Cerebellum"><title>Cerebellum</title>
+    <path d="M136 122 C164 116 188 126 188 144 C188 162 166 170 142 164 C128 158 126 130 136 122 Z"/>
+    <path class="fold" d="M140 132 L182 136 M138 144 L186 146 M140 156 L180 156" fill="none"/></g>
+  <g class="organ" data-part="brainstem" role="button" tabindex="0" aria-label="Brainstem"><title>Brainstem</title>
+    <path d="M104 116 C120 116 126 128 124 148 C122 166 120 176 112 176 C102 176 98 164 98 144 C98 126 96 116 104 116 Z"/></g>
+  <g class="organ tube" data-part="spinalcord" role="button" tabindex="0" aria-label="Spinal cord"><title>Spinal cord</title>
+    <path d="M111 176 L111 272" fill="none" stroke-width="15" stroke-linecap="round"/></g>
+  <g class="organ tube" data-part="nerves" role="button" tabindex="0" aria-label="Nerves"><title>Nerves</title>
+    <path d="M105 196 C86 200 70 208 54 220 M117 208 C138 212 156 220 172 232
+             M105 232 C86 236 70 244 54 256 M117 244 C138 248 156 256 172 268" fill="none" stroke-width="6" stroke-linecap="round"/></g>
+</svg>`
+    };
+}
+
 function heartParts() {
     return {
         svg: `<svg viewBox="0 0 244 286" role="img" aria-labelledby="hpT">
@@ -4639,6 +4835,9 @@ export const FIGURES = {
     strikingHand,
     brainRotation,
     pluralMachine,
+    airway,
+    urinary,
+    nervous,
     heartParts,
     digestiveTract,
     skinLayers,

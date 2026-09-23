@@ -109,6 +109,20 @@
       ]
     },
     {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "Stop the delivery and the tissue dies",
+      "text": "Every cell is fed by blood. Block the route and everything downstream starves.",
+      "points": [
+        "**Ischaemia** is the word for a blood supply being cut off.",
+        "**Necrosis** is what follows. The cells downstream die.",
+        "**A blocked artery** in the heart is a heart attack. Same mechanism.",
+        "**Like a branch** cut off from the trunk — it dies, and it gets pruned."
+      ]
+    },
+    {
       "kind": "checkpoint",
       "question": {
         "type": "multiple",
@@ -212,6 +226,12 @@
         "**Both are protected by bone** — skull and vertebrae.",
         "**Week 1 said the skeleton protects.** This is what it protects."
       ]
+    },
+    {
+      "kind": "explorer",
+      "figure": "nervous",
+      "title": "Tap any part of the control system",
+      "text": "Five parts. One decides, one smooths, one never asks you, and two carry the signal."
     },
     {
       "kind": "idea",
