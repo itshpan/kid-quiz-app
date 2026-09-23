@@ -82,10 +82,6 @@
         --lens-game:   #A99BF0;
         --lens-space:  #7FB6E8;
         --lens-story:  #F58BB0;
-    --lens-disaster: #F2996B;
-    --lens-air:      #6FC79A;
-    --lens-meme:     #C3D45C;
-    --lens-phys:     #C9A6EC;
         --lens-disaster: #F2996B;
         --lens-air:      #6FC79A;
         --lens-meme:     #C3D45C;
@@ -119,6 +115,10 @@
     --lens-game:   #A99BF0;
     --lens-space:  #7FB6E8;
     --lens-story:  #F58BB0;
+    --lens-disaster: #F2996B;
+    --lens-air:      #6FC79A;
+    --lens-meme:     #C3D45C;
+    --lens-phys:     #C9A6EC;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -818,6 +818,15 @@ strong { font-weight: 700; color: var(--ink); }
     background: var(--surface-2);
 }
 .card-media img { width: 100%; height: auto; display: block; }
+/* Medical and textbook illustrations come on a white ground. On the dark
+   theme that is a slab of light on a dark page — the same glare problem the
+   "never pure white" rule exists for, and worse on a tablet at night. Mark
+   those cards `"lightBg": true` and the image is taken down to a warm paper
+   tone instead. Photographs are left alone; most are already dark. */
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .card-media.on-light img { filter: brightness(.84) saturate(1.05); }
+}
+:root[data-theme="dark"] .card-media.on-light img { filter: brightness(.84) saturate(1.05); }
 .media-credit {
     font-family: var(--font-ui);
     font-size: calc(12px * var(--scale));

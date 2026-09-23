@@ -35,6 +35,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "The real thing",
+      "title": "A real heart, cut open",
+      "src": "assets/img/heart-bloodflow.png",
+      "lightBg": true,
+      "alt": "A three-dimensional medical illustration of a human heart cut open, with blue arrows showing oxygen-poor blood entering the right side and red arrows showing oxygen-rich blood leaving the left side",
+      "credit": "BruceBlaus · CC BY 3.0 · <a href=\"https://commons.wikimedia.org/wiki/File:Blausen_0452_Heart_BloodFlow.png\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons</a>",
+      "text": "Blue is oxygen-poor, red is oxygen-rich. Look at the wall on the red side — that is the muscle that pushes blood round your whole body."
+    },
+    {
       "kind": "figure",
       "figure": "heartLoop",
       "eyebrow": "Follow the blood",

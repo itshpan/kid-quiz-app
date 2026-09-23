@@ -62,7 +62,7 @@ const KIND = {
         ${c.points ? points(c.points) : ''}`,
 
     image: c => `${eyebrow(c)}<h2>${escapeHtml(c.title)}</h2>
-        <figure class="card-media"><img src="${escapeHtml(c.src)}" alt="${escapeHtml(c.alt)}" loading="lazy"></figure>
+        <figure class="card-media${c.lightBg ? ' on-light' : ''}"><img src="${escapeHtml(c.src)}" alt="${escapeHtml(c.alt)}" loading="lazy"></figure>
         ${c.credit ? `<p class="media-credit">${c.credit}</p>` : ''}
         ${c.text ? `<p class="small" style="margin-top:12px;">${md(escapeHtml(c.text))}</p>` : ''}`,
 

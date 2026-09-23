@@ -1,17 +1,40 @@
 {
   "_note": "Photographs pulled from Wikimedia Commons by tools/fetch-images.mjs. Titles must match Commons exactly. Re-running skips anything already downloaded, so a rate-limited run can just be repeated.",
   "images": [
-    { "id": "muscle-skeletal", "commons": "Skeletal striated muscle.jpg",
-      "alt": "Skeletal muscle under a microscope, showing long parallel fibres with regular stripes across them" },
-    { "id": "muscle-smooth", "commons": "Smooth muscle - histology.jpg",
-      "alt": "Smooth muscle under a microscope, showing spindle-shaped cells with no stripes" },
-    { "id": "muscle-cardiac", "commons": "Muscle Tissue Intercalated Discs in Cardiac Muscle (27061943807).jpg",
-      "alt": "Cardiac muscle under a microscope, showing branching striped fibres joined by dark intercalated discs" },
-    { "id": "honeycomb", "commons": "Honeycomb (PSF).png",
-      "alt": "A bee honeycomb, showing hexagonal cells packed together with no gaps" },
-    { "id": "alhambra", "commons": "Tassellatura alhambra.jpg",
-      "alt": "Interlocking tiled patterns on a wall of the Alhambra palace in Spain" },
-    { "id": "tessellation-art", "commons": "Tessellation Serie - 3 directions.png",
-      "alt": "A geometric tessellation built from repeating shapes in three directions" }
+    {
+      "id": "muscle-skeletal",
+      "commons": "Skeletal striated muscle.jpg",
+      "alt": "Skeletal muscle under a microscope, showing long parallel fibres with regular stripes across them"
+    },
+    {
+      "id": "muscle-smooth",
+      "commons": "Smooth muscle - histology.jpg",
+      "alt": "Smooth muscle under a microscope, showing spindle-shaped cells with no stripes"
+    },
+    {
+      "id": "muscle-cardiac",
+      "commons": "Muscle Tissue Intercalated Discs in Cardiac Muscle (27061943807).jpg",
+      "alt": "Cardiac muscle under a microscope, showing branching striped fibres joined by dark intercalated discs"
+    },
+    {
+      "id": "honeycomb",
+      "commons": "Honeycomb (PSF).png",
+      "alt": "A bee honeycomb, showing hexagonal cells packed together with no gaps"
+    },
+    {
+      "id": "alhambra",
+      "commons": "Tassellatura alhambra.jpg",
+      "alt": "Interlocking tiled patterns on a wall of the Alhambra palace in Spain"
+    },
+    {
+      "id": "tessellation-art",
+      "commons": "Tessellation Serie - 3 directions.png",
+      "alt": "A geometric tessellation built from repeating shapes in three directions"
+    },
+    {
+      "id": "heart-bloodflow",
+      "commons": "Blausen 0452 Heart BloodFlow.png",
+      "alt": "A three-dimensional medical illustration of a human heart cut open, with blue arrows showing oxygen-poor blood entering the right side and red arrows showing oxygen-rich blood leaving the left side"
+    }
   ]
 }
