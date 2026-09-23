@@ -1512,29 +1512,53 @@ function steppedPath({ id, viewBox, scene, segs, steps, labels }) {
 function heartLoop() {
     return steppedPath({
         id: 'hl',
-        viewBox: '0 0 400 332',
+        viewBox: '0 0 400 352',
         labels: {
-            x: 146, y: 20, text: 'TWO LOOPS, ONE PUMP', capY: 300,
-            alt: 'A figure-of-eight showing blood going body, right heart, lungs, left heart, body'
+            x: 132, y: 20, text: 'TWO LOOPS, ONE PUMP', capY: 322,
+            alt: 'A heart drawn as the organ, its four chambers labelled, with arrows tracing blood from the body to the right side, out to the lungs, back to the left side, and out to the body'
         },
+        /* Drawn as the organ, not a box. Anterior view, so the RIGHT chambers
+           sit on the viewer's LEFT — the convention every textbook and every
+           exam diagram uses, and the reason the labels look swapped until you
+           know that. The apex points down and to the patient's left.
+           The left ventricle's wall is drawn genuinely thicker because the
+           last step of the figure says it is. */
         scene: `
-  <rect class="fig-organ" x="28"  y="26"  width="104" height="46" rx="10"/>
-  <text class="fig-organ-t" x="80"  y="55"  text-anchor="middle">LUNGS</text>
-  <rect class="fig-organ" x="268" y="228" width="104" height="46" rx="10"/>
-  <text class="fig-organ-t" x="320" y="257" text-anchor="middle">BODY</text>
-  <rect class="fig-pump"  x="140" y="108" width="120" height="88" rx="12"/>
-  <line class="fig-divide" x1="200" y1="110" x2="200" y2="194"/>
-  <text class="fig-chamber fig-chamber-strong" x="170" y="128" text-anchor="middle">RIGHT</text>
-  <text class="fig-chamber" x="170" y="150" text-anchor="middle">atrium</text>
-  <text class="fig-chamber" x="170" y="172" text-anchor="middle">ventricle</text>
-  <text class="fig-chamber fig-chamber-strong" x="231" y="128" text-anchor="middle">LEFT</text>
-  <text class="fig-chamber" x="231" y="150" text-anchor="middle">atrium</text>
-  <text class="fig-chamber" x="231" y="172" text-anchor="middle">ventricle</text>`,
+  <rect class="fig-organ" x="24"  y="26"  width="104" height="44" rx="10"/>
+  <text class="fig-organ-t" x="76"  y="54"  text-anchor="middle">LUNGS</text>
+  <rect class="fig-organ" x="272" y="250" width="104" height="44" rx="10"/>
+  <text class="fig-organ-t" x="324" y="278" text-anchor="middle">BODY</text>
+
+  <path class="fig-pump" d="M146 112 C126 128 122 158 132 188
+                            C142 222 178 250 238 260
+                            C262 238 278 202 282 172
+                            C288 142 278 112 256 104
+                            C240 98 224 110 206 112
+                            C190 100 164 98 146 112 Z"/>
+  <path class="fig-wall" d="M276 174 C272 202 254 232 234 252"/>
+  <path class="fig-divide" d="M206 98 C200 152 214 212 232 252"/>
+  <path class="fig-divide" d="M130 160 C158 172 186 170 205 160"/>
+  <path class="fig-divide" d="M205 160 C230 170 258 166 282 154"/>
+
+  <text class="fig-chamber fig-chamber-strong" x="168" y="126" text-anchor="middle">right</text>
+  <text class="fig-chamber" x="168" y="140" text-anchor="middle">atrium</text>
+  <text class="fig-chamber fig-chamber-strong" x="174" y="200" text-anchor="middle">right</text>
+  <text class="fig-chamber" x="174" y="214" text-anchor="middle">ventricle</text>
+  <text class="fig-chamber fig-chamber-strong" x="246" y="126" text-anchor="middle">left</text>
+  <text class="fig-chamber" x="246" y="140" text-anchor="middle">atrium</text>
+  <text class="fig-chamber fig-chamber-strong" x="248" y="200" text-anchor="middle">left</text>
+  <text class="fig-chamber" x="248" y="214" text-anchor="middle">ventricle</text>`,
+        /* The arrows meet the chamber they actually belong to: blood arrives in
+           the right ATRIUM and leaves from the right VENTRICLE. Getting those
+           two the wrong way up would teach the wrong thing to a reader who can
+           see the labels. */
         segs: [
-            { d: 'M268 252 C220 262 172 236 166 200', tip: '166,200', rot: 261 },
-            { d: 'M168 108 C150 92 110 88 84 77',     tip: '84,77',   rot: 203 },
-            { d: 'M112 74 C160 96 200 84 230 106',    tip: '230,106', rot: 36  },
-            { d: 'M232 196 C252 214 268 220 286 229', tip: '286,229', rot: 27  }
+            { d: 'M292 268 C198 306 88 274 68 212 C58 180 80 154 116 150',
+              tip: '116,150', rot: 349 },
+            { d: 'M146 212 C132 198 126 176 124 154 C120 124 112 98 106 80',
+              tip: '106,80',  rot: 253 },
+            { d: 'M116 70  C168 84 214 88 244 96', tip: '244,96',  rot: 17 },
+            { d: 'M258 228 C274 242 282 250 292 256', tip: '292,256', rot: 33 }
         ],
         steps: [
             { btn: '1 Body in',  head: 'Body to the right side of the heart',
