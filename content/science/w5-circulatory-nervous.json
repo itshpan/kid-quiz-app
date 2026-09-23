@@ -45,6 +45,16 @@
       "text": "Blue is oxygen-poor, red is oxygen-rich. Look at the wall on the red side — that is the muscle that pushes blood round your whole body."
     },
     {
+      "kind": "model3d",
+      "eyebrow": "Turn it around",
+      "title": "This one is a real heart, scanned",
+      "action": "Load the 3D heart",
+      "host": "Sketchfab",
+      "embed": "https://sketchfab.com/models/9551a60cb37c4bfa8d56dfd2f1ac34e5/embed?autospin=0&autostart=0&dnt=1",
+      "text": "Not a drawing. A real human heart, photographed from every angle and rebuilt in 3D. Drag to turn it, pinch to zoom.",
+      "credit": "Anatomy by Doctor Jana · <a href=\"https://sketchfab.com/3d-models/real-human-heart-photogrammetry-9551a60cb37c4bfa8d56dfd2f1ac34e5\" target=\"_blank\" rel=\"noopener\">Sketchfab</a>"
+    },
+    {
       "kind": "figure",
       "figure": "heartLoop",
       "eyebrow": "Follow the blood",

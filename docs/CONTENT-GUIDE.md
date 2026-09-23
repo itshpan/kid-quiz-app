@@ -105,6 +105,27 @@ in [`WRITING-FOR-ADHD.md`](WRITING-FOR-ADHD.md).
 ```
 `alt` is required. See [`IMAGE-PROMPTS.md`](IMAGE-PROMPTS.md) for generating these.
 
+### `model3d` — a 3D model he can turn
+```json
+{ "kind": "model3d", "eyebrow": "Turn it around", "title": "…",
+  "action": "Load the 3D heart", "host": "Sketchfab",
+  "embed": "https://sketchfab.com/models/<uid>/embed?autospin=0&autostart=0&dnt=1",
+  "text": "…", "credit": "Author · <a href=\"…\">Sketchfab</a>" }
+```
+Renders a button, **not** the model. The player only loads when he taps it. That is
+deliberate three times over: these players autospin, which is ambient motion; they pull
+in a lot of third-party script on a card he may just walk past; and nothing external is
+contacted until he asks for it.
+
+Always pass `autospin=0&autostart=0`. Leave the player's own info panel on — that is how
+the creator's licence is honoured. Add `dnt=1` where the host supports it.
+
+**This is the one card kind that can rot.** It points at someone else's server, and the
+project's rule everywhere else is to download rather than hotlink. So never let a `model3d`
+card carry an idea on its own: put the teaching visual on a `figure` or a downloaded
+`image` card next to it, and let the model be the thing he plays with after he already
+understands it. If the embed dies, the lesson must still teach.
+
 ### `story` — a real person
 ```json
 { "kind": "story", "icon": "🥊", "eyebrow": "He started smaller than you",

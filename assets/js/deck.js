@@ -66,6 +66,18 @@ const KIND = {
         ${c.credit ? `<p class="media-credit">${c.credit}</p>` : ''}
         ${c.text ? `<p class="small" style="margin-top:12px;">${md(escapeHtml(c.text))}</p>` : ''}`,
 
+    /* A 3D model the reader can turn. Deliberately NOT loaded until he asks:
+       the player autospins and pulls in a lot of third-party script, and an
+       object spinning by itself on the card is exactly the ambient motion this
+       app does not do. One tap, then it is his to rotate. */
+    model3d: c => `${eyebrow(c)}<h2>${escapeHtml(c.title)}</h2>
+        ${c.text ? `<p class="small" style="margin-top:12px;">${md(escapeHtml(c.text))}</p>` : ''}
+        <div class="embed-hold" data-embed="${escapeHtml(c.embed)}">
+            <button type="button" class="btn primary wide embed-go">${escapeHtml(c.action || 'Load the 3D model')}</button>
+            <p class="small muted" style="margin-top:10px;">Loads from ${escapeHtml(c.host || 'the web')}. Needs a connection, so it may not work offline.</p>
+        </div>
+        ${c.credit ? `<p class="media-credit">${c.credit}</p>` : ''}`,
+
     video: c => `${eyebrow(c)}<h2>${escapeHtml(c.title)}</h2>
         ${c.text ? `<p class="small">${md(escapeHtml(c.text))}</p>` : ''}
         <div class="video-frame">
@@ -187,6 +199,16 @@ export function mountDeck(host, cards, { startAt = 0, onMove = () => {}, onFinis
 
         if (c.kind === 'figure') mountFigure(card.querySelector('#figHost'), c.figure);
 
+        if (c.kind === 'model3d') {
+            const hold = card.querySelector('.embed-hold');
+            hold.querySelector('.embed-go').addEventListener('click', () => {
+                const src = hold.dataset.embed;
+                hold.outerHTML = `<div class="embed-frame"><iframe src="${src}"
+                    title="${escapeHtml(c.title)}" loading="lazy" allowfullscreen
+                    allow="fullscreen; xr-spatial-tracking"></iframe></div>`;
+            }, { once: true });
+        }
+
         if (c.kind === 'explorer') {
             const block = card.querySelector('#explorerBlock');
             const info = block.querySelector('.bone-info');
@@ -234,7 +256,7 @@ export function deckAsPage(cards) {
         }
         const card = `<section class="card ${c.kind}"${c.lens ? ` data-lens="${c.lens}"` : ''}>${(KIND[c.kind] || KIND.idea)(c)}</section>`;
         // The interactive diagram is meaningless in a flat print view.
-        const placeholder = { diagram: 'Interactive skeleton diagram.', explorer: 'Interactive diagram.', figure: 'Diagram.', video: 'Embedded video.' }[c.kind];
+        const placeholder = { diagram: 'Interactive skeleton diagram.', explorer: 'Interactive diagram.', figure: 'Diagram.', video: 'Embedded video.', model3d: 'Interactive 3D model.' }[c.kind];
         return placeholder
             ? `<section class="card"><h2>${escapeHtml(c.title)}</h2><p class="small">${placeholder}</p></section>`
             : card;
