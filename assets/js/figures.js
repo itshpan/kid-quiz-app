@@ -859,6 +859,61 @@ function pluralMachine() {
    ========================================================================== */
 
 const EXPLORER_DATA = {
+    /* Four chambers plus the four great vessels. The artery/vein facts are the
+       ones worth having early: an artery is not "the red one", it is the one
+       leaving the heart — which is why the pulmonary artery carries the
+       oxygen-poor blood and the pulmonary veins carry the rich. */
+    heartParts: {
+        rightatrium: {
+            name: 'Right atrium', sub: 'atrium dextrum',
+            job: 'Catches oxygen-poor blood coming back from the whole body.',
+            car: 'The return tank. Everything used up arrives here first.',
+            you: 'Thin walls. It only has to push blood to the chamber below it.'
+        },
+        rightventricle: {
+            name: 'Right ventricle', sub: 'ventriculus dexter',
+            job: 'Pumps that blood to the lungs to pick up oxygen.',
+            car: 'The low-pressure pump. The lungs are a short trip away.',
+            you: 'Thicker than the atrium above it, thinner than its partner across the wall.'
+        },
+        leftatrium: {
+            name: 'Left atrium', sub: 'atrium sinistrum',
+            job: 'Catches oxygen-rich blood arriving back from the lungs.',
+            car: 'The collector on the clean side, just after the intercooler.',
+            you: 'The only place in your body where veins carry oxygen-rich blood.'
+        },
+        leftventricle: {
+            name: 'Left ventricle', sub: 'ventriculus sinister',
+            job: 'Pumps oxygen-rich blood to every part of you. The hardest push.',
+            car: 'The high-pressure pump. Thickest wall because it works hardest.',
+            you: 'Train hard for months and this is the chamber that grows.'
+        },
+        aorta: {
+            name: 'Aorta', sub: 'the biggest artery you have',
+            job: 'Carries oxygen-rich blood out of the left ventricle to the body.',
+            car: 'The main fuel rail. Everything else branches off it.',
+            you: 'About as wide as a garden hose, and it flexes with every beat.'
+        },
+        pulmonaryartery: {
+            name: 'Pulmonary artery', sub: 'the odd one out',
+            job: 'Carries oxygen-poor blood from the right ventricle to the lungs.',
+            car: 'The pipe to the intercooler, where the charge gets fresh again.',
+            you: 'An artery is one that LEAVES the heart. That is why this one is blue.'
+        },
+        pulmonaryveins: {
+            name: 'Pulmonary veins', sub: 'the other odd one out',
+            job: 'Bring oxygen-rich blood back from the lungs into the left atrium.',
+            car: 'The return from the intercooler, on its way to the pump.',
+            you: 'A vein is one that RETURNS to the heart. These are the red ones.'
+        },
+        venacava: {
+            name: 'Vena cava', sub: 'superior and inferior',
+            job: 'Two huge veins returning oxygen-poor blood from above and below.',
+            car: 'The return line, gathering everything that has been used.',
+            you: 'One drains your head and arms, the other everything below your chest.'
+        }
+    },
+
     digestiveTract: {
         mouth: {
             name: 'Mouth', sub: 'os',
@@ -999,6 +1054,41 @@ const EXPLORER_DATA = {
         }
     }
 };
+
+/* Anterior view, so the RIGHT chambers are on the viewer's LEFT. The outline
+   is drawn once as a backing shape so the thing always reads as a heart; the
+   tappable parts sit inside it rather than trying to tile it themselves. */
+function heartParts() {
+    return {
+        svg: `<svg viewBox="0 0 244 286" role="img" aria-labelledby="hpT">
+  <title id="hpT">A human heart seen from the front, with the four chambers and the great vessels each tappable</title>
+
+  <g class="organ" data-part="venacava" role="button" tabindex="0" aria-label="Vena cava"><title>Vena cava</title>
+    <rect x="68" y="12"  width="23" height="116" rx="11"/>
+    <rect x="68" y="196" width="23" height="84"  rx="11"/></g>
+  <g class="organ tube" data-part="aorta" role="button" tabindex="0" aria-label="Aorta"><title>Aorta</title>
+    <path d="M164 150 C168 84 146 40 110 46" fill="none" stroke-width="19" stroke-linecap="round"/></g>
+  <g class="organ tube" data-part="pulmonaryartery" role="button" tabindex="0" aria-label="Pulmonary artery"><title>Pulmonary artery</title>
+    <path d="M116 170 C122 96 150 62 198 66" fill="none" stroke-width="16" stroke-linecap="round"/></g>
+  <g class="organ" data-part="pulmonaryveins" role="button" tabindex="0" aria-label="Pulmonary veins"><title>Pulmonary veins</title>
+    <rect x="188" y="118" width="52" height="14" rx="7"/>
+    <rect x="188" y="146" width="52" height="14" rx="7"/></g>
+
+  <path class="heart-body" d="M72 112 C52 128 48 158 58 188 C68 222 104 250 164 260
+                              C188 238 204 202 208 172 C214 142 204 112 182 104
+                              C166 98 150 110 132 112 C116 100 90 98 72 112 Z"/>
+
+  <g class="organ" data-part="rightatrium" role="button" tabindex="0" aria-label="Right atrium"><title>Right atrium</title>
+    <path d="M76 112 C58 126 54 152 62 172 C82 178 110 176 126 166 C128 142 126 122 124 114 C108 106 88 106 76 112 Z"/></g>
+  <g class="organ" data-part="leftatrium" role="button" tabindex="0" aria-label="Left atrium"><title>Left atrium</title>
+    <path d="M140 114 C158 110 176 104 186 108 C204 116 210 140 206 164 C188 172 158 172 140 164 C136 146 136 128 140 114 Z"/></g>
+  <g class="organ" data-part="rightventricle" role="button" tabindex="0" aria-label="Right ventricle"><title>Right ventricle</title>
+    <path d="M62 178 C70 212 100 244 152 256 C146 228 138 198 134 174 C112 182 84 184 62 178 Z"/></g>
+  <g class="organ" data-part="leftventricle" role="button" tabindex="0" aria-label="Left ventricle"><title>Left ventricle</title>
+    <path d="M140 172 C160 178 188 176 204 170 C200 202 184 232 162 254 C152 226 144 198 140 172 Z"/></g>
+</svg>`
+    };
+}
 
 function digestiveTract() {
     return {
@@ -4549,6 +4639,7 @@ export const FIGURES = {
     strikingHand,
     brainRotation,
     pluralMachine,
+    heartParts,
     digestiveTract,
     skinLayers,
     transformLab,
