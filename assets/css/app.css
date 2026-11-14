@@ -942,6 +942,13 @@ strong { font-weight: 700; color: var(--ink); }
    organ still reads as itself before anything is selected. */
 .organ-bg { fill: var(--surface-2); stroke: var(--ink-faint); stroke-width: 2; }
 
+/* ruleLab bars. Width is set on his tap, so the change is a response to
+   something he did rather than motion he has to ignore. */
+.fig-bar-track { fill: var(--surface-2); stroke: var(--line); stroke-width: 1; }
+.fig-bar       { fill: var(--accent); transition: width .25s ease; }
+.fig-bar-val   { fill: var(--ink-soft); font-weight: 700; }
+@media (prefers-reduced-motion: reduce) { .fig-bar { transition: none; } }
+
 .heart-body { fill: var(--surface-2); stroke: var(--ink-faint); stroke-width: 2; }
 
 .fig-wall   { fill: none; stroke: var(--ink-faint); stroke-width: 9; stroke-linecap: round; opacity: .75; }

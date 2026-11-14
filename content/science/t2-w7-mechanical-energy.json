@@ -59,6 +59,12 @@
       ]
     },
     {
+      "kind": "figure",
+      "figure": "squareLawLab",
+      "title": "Press a speed. Watch which bar runs away",
+      "text": "One bar is what happens if you double the mass. The other is this speed. Try 20, then 160."
+    },
+    {
       "kind": "checkpoint",
       "question": {
         "type": "multiple",

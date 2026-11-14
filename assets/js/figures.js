@@ -1226,6 +1226,129 @@ const EXPLORER_DATA = {
 /* Anterior view, so the RIGHT chambers are on the viewer's LEFT. The outline
    is drawn once as a backing shape so the thing always reads as a heart; the
    tappable parts sit inside it rather than trying to tile it themselves. */
+/* ==========================================================================
+   ruleLab — he picks the input, the law shows him what it does.
+
+   Every other figure here explains something to him. This one makes him the
+   one who moves, which is the only way a rule like "speed is squared" ever
+   stops being a sentence to memorise: he presses 40, then 80, and watches the
+   bar go up four times rather than twice.
+
+   Bars are drawn to scale against the largest value the lab can produce, so
+   the jump is visible rather than stated. Nothing moves until he presses
+   something — the bars resize on his tap, which is a response, not ambient
+   motion.
+
+   Each output takes f(v) and a fmt, so the same engine serves percentages,
+   exponents, volume and kinetic energy.
+   ========================================================================== */
+function ruleLab({ id, label, alt, input, outputs, rule, sharedScale = false, height }) {
+    // Fit the canvas to the rows rather than leaving a hole under a short lab.
+    height = height || 108 + outputs.length * 54 + 34;
+    const BAR_X = 150, BAR_W = 212;
+    const rowY = i => 96 + i * 54;
+
+    return {
+        svg: `
+<svg viewBox="0 0 400 ${height}" role="img" aria-labelledby="${id}T">
+  <title id="${id}T">${alt}</title>
+  <text class="fig-label" x="20" y="20">${label}</text>
+  <text class="fig-note fig-note-key" id="${id}In" x="20" y="56">&#160;</text>
+  ${outputs.map((o, i) => `
+  <text class="fig-cell" x="20" y="${rowY(i) + 5}">${o.name}</text>
+  <rect class="fig-bar-track" x="${BAR_X}" y="${rowY(i) - 11}" width="${BAR_W}" height="16" rx="8"/>
+  <rect class="fig-bar" id="${id}B${i}" x="${BAR_X}" y="${rowY(i) - 11}" width="0" height="16" rx="8"/>
+  <text class="fig-cell fig-bar-val" id="${id}V${i}" x="${BAR_X + BAR_W}" y="${rowY(i) + 24}" text-anchor="end">&#160;</text>`).join('')}
+  <text class="fig-note" id="${id}R" x="20" y="${height - 16}">&#160;</text>
+</svg>`,
+        bind(root) {
+            const bar = document.createElement('div');
+            bar.className = 'fig-switch';
+            bar.innerHTML = input.values.map((v, i) =>
+                `<button data-i="${i}" aria-pressed="${i === 0}">${input.label ? input.label(v) : v}${input.unit || ''}</button>`).join('');
+            root.appendChild(bar);
+
+            const inEl = root.querySelector(`#${id}In`);
+            const ruleEl = root.querySelector(`#${id}R`);
+            // Scale every bar against the biggest value this lab can reach, so
+            // the proportions between presses are honest.
+            let peak = outputs.map(o => Math.max(...input.values.map(v => Math.abs(o.f(v)))) || 1);
+            // When the rows are meant to be read against each other, one scale
+            // or the comparison lies: a constant row would otherwise fill the
+            // bar and look like the biggest thing on screen.
+            if (sharedScale) { const top = Math.max(...peak); peak = peak.map(() => top); }
+
+            const show = i => {
+                const v = input.values[i];
+                inEl.textContent = `${input.name}: ${input.label ? input.label(v) : v}${input.unit || ''}`;
+                fitText(inEl);
+                outputs.forEach((o, j) => {
+                    const out = o.f(v);
+                    root.querySelector(`#${id}B${j}`).setAttribute('width',
+                        String(Math.max(2, Math.round(212 * Math.abs(out) / peak[j]))));
+                    root.querySelector(`#${id}V${j}`).textContent = o.fmt ? o.fmt(out, v) : String(out);
+                });
+                if (ruleEl) { ruleEl.textContent = typeof rule === 'function' ? rule(v) : (rule || ''); fitText(ruleEl); }
+                bar.querySelectorAll('button').forEach((x, j) =>
+                    x.setAttribute('aria-pressed', String(j === i)));
+            };
+            bar.addEventListener('click', e => {
+                const btn = e.target.closest('button');
+                if (btn) show(Number(btn.dataset.i));
+            });
+            show(0);
+        }
+    };
+}
+
+/* Speed is squared and mass is not. Pressing 20 then 40 makes that one fact
+   impossible to miss: one bar doubles, the other quadruples. */
+function squareLawLab() {
+    const base = 20;
+    return ruleLab({
+        id: 'sq', label: 'PRESS A SPEED · WATCH BOTH BARS',
+        alt: 'A lab where choosing a speed shows that kinetic energy grows with the square of speed while mass grows in proportion',
+        input: { name: 'Speed', unit: ' km/h', values: [20, 40, 80, 160] },
+        sharedScale: true,
+        outputs: [
+            { name: 'Double the MASS', f: () => 2, fmt: () => '×2, always' },
+            { name: 'This SPEED', f: v => (v / base) ** 2, fmt: o => `×${o}` }
+        ],
+        rule: v => `At ${v} km/h the energy is ${(v / base) ** 2} times what it is at ${base}.`
+    });
+}
+
+/* One quantity, three ways of writing it. He presses a fraction and sees the
+   decimal and the percentage land together. */
+function percentLab() {
+    return ruleLab({
+        id: 'pc', label: 'ONE AMOUNT · THREE NAMES',
+        alt: 'A lab showing the same quantity written as a fraction, a decimal and a percentage',
+        input: { name: 'Fraction', values: [0.25, 0.5, 0.75, 1], label: v => ({0.25:'1/4',0.5:'1/2',0.75:'3/4',1:'1'}[v]) },
+        outputs: [
+            { name: 'As a decimal', f: v => v, fmt: o => o.toFixed(2) },
+            { name: 'As a percentage', f: v => v * 100, fmt: o => `${o}%` },
+            { name: 'Of 60 marks', f: v => v * 60, fmt: o => `${o} marks` }
+        ],
+        rule: 'Per cent means per hundred. Move the decimal two places and you have it.'
+    });
+}
+
+/* Volume is three dimensions multiplied, so doubling one edge doubles the
+   volume and doubling all three multiplies it by eight. */
+function volumeLab() {
+    return ruleLab({
+        id: 'vl', label: 'PRESS AN EDGE LENGTH',
+        alt: 'A lab showing how the volume of a cube grows as its edge length grows',
+        input: { name: 'Edge', unit: ' cm', values: [1, 2, 3, 4] },
+        outputs: [
+            { name: 'Edge doubled only', f: v => v * 2, fmt: o => `${o} cm` },
+            { name: 'Volume of the cube', f: v => v ** 3, fmt: o => `${o} cm³` }
+        ],
+        rule: v => `${v} × ${v} × ${v} = ${v ** 3} cm³. Three edges multiplied, not added.`
+    });
+}
+
 /* An electric fan seen from the front, opened up. Drawn so the parts sit where
    he will find them when he takes the case off: motor behind the blades,
    capacitor and gearbox behind the motor, bearings on the shaft. */
@@ -4959,6 +5082,9 @@ export const FIGURES = {
     strikingHand,
     brainRotation,
     pluralMachine,
+    squareLawLab,
+    percentLab,
+    volumeLab,
     fanParts,
     colloidKinds,
     airway,

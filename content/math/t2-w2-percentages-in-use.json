@@ -1,0 +1,346 @@
+{
+  "id": "math-t2-w2",
+  "courseId": "math",
+  "courseTitle": "Math",
+  "week": 2,
+  "title": "Percentages in Use",
+  "subtitle": "Increase, decrease, and reading what a percentage is OF.",
+  "estMinutes": 20,
+  "objectives": [
+    "Work out a percentage increase and decrease",
+    "Explain why the starting amount matters",
+    "Find what percentage one number is of another",
+    "Spot a misleading percentage"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "📈",
+      "eyebrow": "Part 2 · Change",
+      "title": "The trap is always the same: a percentage of what?",
+      "text": "Ten per cent off and ten per cent on do not cancel out. Once you see why, most percentage mistakes disappear."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Increase",
+      "title": "Add the percentage to the original",
+      "text": "Work out the part, then add it. Or multiply once and save a step.",
+      "points": [
+        "**A 20% increase on 50** → 0.2 × 50 = 10, so 60.",
+        "**Faster:** multiply by 1.2 directly.",
+        "**A 5% rise** is × 1.05.",
+        "**The 1 is the original.** The decimal is what you add."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Decrease",
+      "title": "Take the percentage off",
+      "text": "Same move, going down. Multiply by what is left.",
+      "points": [
+        "**20% off 50** → multiply by 0.8 → 40.",
+        "**30% off** is × 0.7.",
+        "**'Off' means what remains**, so subtract from 1 first.",
+        "**Half price** is × 0.5, which is 50% off."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "A new car loses about a fifth of its value in year one",
+      "text": "And then it loses a percentage of the smaller number next year. The drop gets gentler every time.",
+      "points": [
+        "**₱1,000,000 car, down 20%** → worth ₱800,000.",
+        "**Year two, another 20%** → but of 800,000, so ₱640,000.",
+        "**Not 400,000.** Each cut is from a smaller base.",
+        "**Same reason** up-then-down does not cancel."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "A ₱500 item has 30% off. What do you pay?",
+        "options": [
+          "₱150",
+          "₱350",
+          "₱470",
+          "₱300"
+        ],
+        "answerIndex": 1,
+        "explain": "30% off leaves 70%. 0.7 × 500 = ₱350.",
+        "seconds": 24
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "memes",
+      "icon": "🧠",
+      "eyebrow": "Meme mode",
+      "title": "'110% effort' is a maths joke people make seriously",
+      "text": "Percentages over 100 are real, but not when the whole is a maximum you cannot pass.",
+      "points": [
+        "**120% of a price** is fine. Prices have no ceiling.",
+        "**120% of a battery** is not. Full is the whole.",
+        "**Giving 110%** is hyperbole, like 'back in my day'.",
+        "**Ask what the whole is.** That decides whether it makes sense."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The trap",
+      "title": "Up 10% then down 10% is not where you started",
+      "text": "Each percentage is taken of a different number, and that is the whole reason.",
+      "points": [
+        "**Start at 100.** Up 10% → 110.",
+        "**Now take 10% off 110** → that is 11, not 10.",
+        "**You land on 99.** Lower than you began.",
+        "**The second percentage was of a bigger number.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "A price rises 10%, then falls 10%. Compared with the start it is…",
+        "options": [
+          "slightly lower",
+          "double",
+          "slightly higher",
+          "the same"
+        ],
+        "answerIndex": 0,
+        "explain": "The fall is taken from the raised price, so it removes more than the rise added. 100 → 110 → 99.",
+        "seconds": 26
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "One of another",
+      "title": "What percentage is this of that?",
+      "text": "Divide the part by the whole, then multiply by 100.",
+      "points": [
+        "**18 out of 24** → 18 ÷ 24 = 0.75 → 75%.",
+        "**Part on top**, whole underneath. Always.",
+        "**Check it is sensible.** More than half should be over 50%.",
+        "**That is how a test score becomes a percentage.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "disasters",
+      "icon": "🌊",
+      "eyebrow": "Disaster mode",
+      "title": "A percentage with no number behind it is a trick",
+      "text": "'Cases up 200%' sounds alarming. From one case to three is also 200%.",
+      "points": [
+        "**Percentage change hides the size** it started from.",
+        "**Always ask for the raw number** as well.",
+        "**A small base** makes any change look enormous.",
+        "**Both numbers, or neither.**"
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Percentage increase",
+          "def": "The amount added, as a percentage of the original."
+        },
+        {
+          "term": "Percentage decrease",
+          "def": "The amount taken off, as a percentage of the original."
+        },
+        {
+          "term": "Multiplier",
+          "def": "The single number you multiply by, like 1.2 or 0.8."
+        },
+        {
+          "term": "Base",
+          "def": "The amount the percentage is taken of."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Increase: × (1 + the decimal). Decrease: × (1 − the decimal).",
+        "Up 10% then down 10% lands below the start.",
+        "One number as a percentage of another: part ÷ whole × 100.",
+        "A percentage change with no base behind it tells you very little."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "A 20% increase on 50 gives…",
+      "options": [
+        "100",
+        "70",
+        "52",
+        "60"
+      ],
+      "answerIndex": 3,
+      "explain": "0.2 × 50 = 10, added on makes 60. Or just × 1.2.",
+      "objective": "Percentages, and their relationships with fractions and decimals",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which multiplier gives a 25% decrease?",
+      "options": [
+        "× 0.25",
+        "× 1.25",
+        "× 0.75",
+        "× 2.5"
+      ],
+      "answerIndex": 2,
+      "explain": "25% off leaves 75%, so multiply by 0.75.",
+      "objective": "Percentages, and their relationships with fractions and decimals",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A ₱800 jacket has 40% off. You pay…",
+      "options": [
+        "₱480",
+        "₱760",
+        "₱400",
+        "₱320"
+      ],
+      "answerIndex": 0,
+      "explain": "40% off leaves 60%. 0.6 × 800 = ₱480.",
+      "objective": "Percentages, and their relationships with fractions and decimals",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "A price goes up 10%, then down 10%. It is now…",
+      "options": [
+        "1% lower",
+        "the same",
+        "20% lower",
+        "1% higher"
+      ],
+      "answerIndex": 0,
+      "explain": "100 → 110 → 99. The fall came off a bigger number.",
+      "objective": "Percentages, and their relationships with fractions and decimals",
+      "seconds": 24
+    },
+    {
+      "type": "type",
+      "text": "What percentage is 18 out of 24? Digits only, no % sign.",
+      "accept": [
+        "75"
+      ],
+      "explain": "18 ÷ 24 = 0.75, which is 75%.",
+      "objective": "Percentages, and their relationships with fractions and decimals",
+      "seconds": 24
+    },
+    {
+      "type": "multiple",
+      "text": "You scored 36 out of 40. As a percentage that is…",
+      "options": [
+        "95%",
+        "90%",
+        "80%",
+        "85%"
+      ],
+      "answerIndex": 1,
+      "explain": "36 ÷ 40 = 0.9, so 90%.",
+      "objective": "Percentages, and their relationships with fractions and decimals",
+      "seconds": 22
+    },
+    {
+      "type": "truefalse",
+      "text": "Up 50% then down 50% returns you to the start.",
+      "answer": false,
+      "explain": "100 → 150 → 75. The decrease is taken from the larger amount.",
+      "objective": "Percentages, and their relationships with fractions and decimals",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which multiplier gives a 5% increase?",
+      "options": [
+        "× 0.95",
+        "× 5",
+        "× 1.05",
+        "× 0.05"
+      ],
+      "answerIndex": 2,
+      "explain": "The 1 keeps the original and the 0.05 adds five per cent.",
+      "objective": "Percentages, and their relationships with fractions and decimals",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Cases rise from 1 to 3. That is an increase of…",
+      "options": [
+        "300%",
+        "200%",
+        "30%",
+        "3%"
+      ],
+      "answerIndex": 1,
+      "explain": "The rise is 2, and 2 out of 1 is 200%. Which is why the base matters.",
+      "objective": "Percentages, and their relationships with fractions and decimals",
+      "seconds": 24
+    },
+    {
+      "type": "multiple",
+      "text": "To find what percentage one number is of another you…",
+      "options": [
+        "add them",
+        "multiply them",
+        "subtract them",
+        "divide part by whole, then × 100"
+      ],
+      "answerIndex": 3,
+      "explain": "Part on top, whole underneath, then scale to a hundred.",
+      "objective": "Percentages, and their relationships with fractions and decimals",
+      "seconds": 22
+    },
+    {
+      "type": "type",
+      "text": "A ₱200 item rises 15%. What is the new price? Digits only.",
+      "accept": [
+        "230"
+      ],
+      "explain": "15% of 200 is 30, so the new price is 230. Or × 1.15.",
+      "objective": "Percentages, and their relationships with fractions and decimals",
+      "seconds": 24
+    },
+    {
+      "type": "truefalse",
+      "text": "A percentage over 100 is always a mistake.",
+      "answer": false,
+      "explain": "Only when the whole is a fixed maximum. A price can rise 150% quite happily.",
+      "objective": "Percentages, and their relationships with fractions and decimals",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 2 Math, the second of the scope's two percentage weeks, moved on to change rather than repeating conversion. Multipliers are taught early because they collapse two steps into one and make the up-then-down trap arithmetically obvious. That trap gets its own idea card and its own checkpoint, since it is the single most common percentage error. The last lens is a numeracy habit rather than a calculation: a percentage change with no base behind it is close to meaningless, which is worth him carrying out of the subject entirely.",
+    "discussion": [
+      "Why does up 10% then down 10% not cancel?",
+      "When is a percentage over 100 nonsense?",
+      "Why do you need the raw number as well as the percentage?"
+    ],
+    "extension": [
+      "Find a sale sign and work out the real price before looking at it.",
+      "Find a headline percentage in the news and go looking for the base."
+    ],
+    "misconceptions": [
+      "That percentage changes cancel out.",
+      "Multiplying by 0.25 for a 25% decrease.",
+      "Taking the percentage of the wrong number."
+    ]
+  }
+}

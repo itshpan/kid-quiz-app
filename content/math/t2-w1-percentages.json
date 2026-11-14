@@ -1,0 +1,359 @@
+{
+  "id": "math-t2-w1",
+  "courseId": "math",
+  "courseTitle": "Math",
+  "week": 1,
+  "title": "Percentages",
+  "subtitle": "Three ways of writing the same amount.",
+  "estMinutes": 20,
+  "objectives": [
+    "Convert between fractions, decimals and percentages",
+    "Explain what per cent actually means",
+    "Find a percentage of a quantity",
+    "Read a percentage in a real context"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "％",
+      "eyebrow": "Part 1 · One amount",
+      "title": "A percentage is not a new kind of number",
+      "text": "It is a fraction wearing different clothes. Out of a hundred, every time. Get that and the rest is arithmetic."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The word",
+      "title": "Per cent means per hundred",
+      "text": "Cent is a hundred — century, centimetre, centavo. Per cent is 'for each hundred'.",
+      "points": [
+        "**45%** means 45 out of every 100.",
+        "**As a fraction** that is 45/100.",
+        "**As a decimal** that is 0.45.",
+        "**Same amount.** Three spellings."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "Every capacitor has a percentage printed on it",
+      "text": "Pull one out of a fan and the body says something like 2.5 µF ±5%. That ± figure is its tolerance.",
+      "points": [
+        "**±5% on 2.5 µF** means anywhere from 2.375 to 2.625.",
+        "**Components are never exact.** The tolerance is the promise.",
+        "**Tighter tolerance costs more**, so cheap parts say ±20%.",
+        "**A capacitor well outside its tolerance** is a failed one."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "percentLab",
+      "title": "Press a fraction. Watch the other two land",
+      "text": "One quantity, three names, plus what it is worth out of 60 marks."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What does 'per cent' literally mean?",
+        "options": [
+          "Per ten",
+          "Per hundred",
+          "Per part",
+          "Per thousand"
+        ],
+        "answerIndex": 1,
+        "explain": "Cent is a hundred. A percentage is always a count out of a hundred.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Converting",
+      "title": "Two moves, both reversible",
+      "text": "Decimal to percentage, multiply by 100. Percentage to decimal, divide by 100.",
+      "points": [
+        "**0.6 becomes 60%** — the point moves two places right.",
+        "**85% becomes 0.85** — two places left.",
+        "**A fraction?** Divide top by bottom first.",
+        "**3/4 is 0.75**, which is 75%."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "Write 0.3 as a percentage. Digits and the % sign.",
+        "accept": [
+          "30%",
+          "30 %",
+          "30percent",
+          "30"
+        ],
+        "explain": "Multiply by 100: the point moves two places right. 0.3 becomes 30%.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Gaming mode",
+      "title": "Every bar in every game is a percentage",
+      "text": "Health, shields, download progress, battery. All of them are a part out of a whole, drawn as a bar.",
+      "points": [
+        "**Half a health bar** is 50%, 0.5, or 1/2.",
+        "**A bar at 0.2 full** is 20% — one fifth.",
+        "**Percent damage** scales with the max, which is why it hurts bosses.",
+        "**The bar is the fraction**, drawn."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Of a quantity",
+      "title": "Finding a percentage of something",
+      "text": "Turn the percentage into a decimal, then multiply. That is the whole method.",
+      "points": [
+        "**25% of 80** → 0.25 × 80 = 20.",
+        "**10% is easy** — move the point one place left.",
+        "**5% is half of 10%.** Build the awkward ones from the easy ones.",
+        "**15% = 10% + 5%.** No calculator needed."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is 20% of 45?",
+        "options": [
+          "9",
+          "7",
+          "15",
+          "11"
+        ],
+        "answerIndex": 0,
+        "explain": "10% of 45 is 4.5. Double it for 20%: 9.",
+        "seconds": 24
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Training mode",
+      "title": "Percentages decide a training week",
+      "text": "Coaches do not say lift heavy. They say a percentage of the most you can lift.",
+      "points": [
+        "**70% of your max** is the usual working range.",
+        "**If your max is 50 kg**, that is 35 kg.",
+        "**Going to 95% every session** is how people get injured.",
+        "**The percentage scales** as you get stronger. The method does not change."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Per cent",
+          "def": "Out of one hundred."
+        },
+        {
+          "term": "Percentage",
+          "def": "A part of a whole written out of 100."
+        },
+        {
+          "term": "Decimal form",
+          "def": "The percentage divided by 100, like 0.45."
+        },
+        {
+          "term": "Fraction form",
+          "def": "The percentage over 100, like 45/100."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Per cent means per hundred. Always.",
+        "Decimal to percentage: ×100. Back again: ÷100.",
+        "A percentage of something: make it a decimal, then multiply.",
+        "10% is one place left. Build the rest from that."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "'Per cent' means…",
+      "options": [
+        "per thousand",
+        "per hundred",
+        "per ten",
+        "per part"
+      ],
+      "answerIndex": 1,
+      "explain": "Cent is a hundred, as in century and centimetre.",
+      "objective": "Percentages, and their relationships with fractions and decimals",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "0.45 written as a percentage is…",
+      "options": [
+        "45%",
+        "450%",
+        "4.5%",
+        "0.45%"
+      ],
+      "answerIndex": 0,
+      "explain": "Multiply by 100: the decimal point moves two places right.",
+      "objective": "Percentages, and their relationships with fractions and decimals",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "60% written as a decimal is…",
+      "options": [
+        "0.06",
+        "0.6",
+        "6.0",
+        "60.0"
+      ],
+      "answerIndex": 1,
+      "explain": "Divide by 100: two places left.",
+      "objective": "Percentages, and their relationships with fractions and decimals",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "3/4 as a percentage is…",
+      "options": [
+        "43%",
+        "34%",
+        "7.5%",
+        "75%"
+      ],
+      "answerIndex": 3,
+      "explain": "3 divided by 4 is 0.75, which is 75%.",
+      "objective": "Percentages, and their relationships with fractions and decimals",
+      "seconds": 20
+    },
+    {
+      "type": "type",
+      "text": "What is 10% of 250? Digits only.",
+      "accept": [
+        "25"
+      ],
+      "explain": "Ten per cent is one place left: 250 becomes 25.",
+      "objective": "Percentages, and their relationships with fractions and decimals",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "What is 25% of 80?",
+      "options": [
+        "16",
+        "25",
+        "20",
+        "40"
+      ],
+      "answerIndex": 2,
+      "explain": "25% is a quarter. 80 ÷ 4 = 20.",
+      "objective": "Percentages, and their relationships with fractions and decimals",
+      "seconds": 20
+    },
+    {
+      "type": "type",
+      "text": "What is 15% of 60? Digits only.",
+      "accept": [
+        "9"
+      ],
+      "explain": "10% is 6, and 5% is half of that, 3. Together 9.",
+      "objective": "Percentages, and their relationships with fractions and decimals",
+      "seconds": 24
+    },
+    {
+      "type": "truefalse",
+      "text": "A percentage can be more than 100.",
+      "answer": true,
+      "explain": "120% just means 1.2 times the whole. Prices and scores do it all the time.",
+      "objective": "Percentages, and their relationships with fractions and decimals",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "A health bar that is 1/5 full shows…",
+      "options": [
+        "5%",
+        "50%",
+        "20%",
+        "25%"
+      ],
+      "answerIndex": 2,
+      "explain": "1 divided by 5 is 0.2, which is 20%.",
+      "objective": "Percentages, and their relationships with fractions and decimals",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which of these is NOT the same as the others?",
+      "options": [
+        "5%",
+        "1/2",
+        "0.5",
+        "50%"
+      ],
+      "answerIndex": 0,
+      "explain": "5% is 0.05. The other three are all one half.",
+      "objective": "Percentages, and their relationships with fractions and decimals",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Your max lift is 40 kg. What is 70% of it?",
+      "options": [
+        "30 kg",
+        "32 kg",
+        "24 kg",
+        "28 kg"
+      ],
+      "answerIndex": 3,
+      "explain": "0.7 × 40 = 28 kg.",
+      "objective": "Percentages, and their relationships with fractions and decimals",
+      "seconds": 22
+    },
+    {
+      "type": "type",
+      "text": "Write 1/4 as a percentage. Include the % sign.",
+      "accept": [
+        "25%",
+        "25 %",
+        "25"
+      ],
+      "explain": "1 divided by 4 is 0.25, which is 25%.",
+      "objective": "Percentages, and their relationships with fractions and decimals",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 1 Math, percentages. The lesson is built on one sentence — per cent means per hundred — and everything else is presented as a consequence of it rather than as separate rules to memorise. The lab card is the centre: he presses a fraction and sees the decimal, the percentage and a real mark out of 60 land together, which is the conversion taught as one object rather than three procedures. Mental method is taught as build-from-10%, because that is what actually gets used away from a calculator.",
+    "discussion": [
+      "Why is 10% the easy one?",
+      "How would you get 15% without a calculator?",
+      "Where have you seen a percentage over 100?"
+    ],
+    "extension": [
+      "Work out 15% of a few bills by splitting it into 10% plus 5%.",
+      "Find three percentages in a game's interface."
+    ],
+    "misconceptions": [
+      "That a percentage is a different kind of number rather than a fraction.",
+      "Moving the decimal the wrong way.",
+      "That percentages cannot exceed 100."
+    ]
+  }
+}

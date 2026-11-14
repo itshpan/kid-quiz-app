@@ -1153,7 +1153,7 @@
           "tagline": "Tessellation, decimals, fractions and ratio",
           "icon": "📐",
           "accent": "#f5c542",
-          "status": "planned",
+          "status": "live",
           "weeks": [
             {
               "week": 1,
@@ -1162,16 +1162,18 @@
               "topics": [
                 "Percentages, and their relationships with fractions and decimals"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "math/t2-w1-percentages.json"
             },
             {
               "week": 2,
               "id": "math-t2-w2",
-              "title": "Percentages",
+              "title": "Percentages in Use",
               "topics": [
                 "Percentages, and their relationships with fractions and decimals"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "math/t2-w2-percentages-in-use.json"
             },
             {
               "week": 3,
