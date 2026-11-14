@@ -1,0 +1,360 @@
+{
+  "id": "sci-t2-w5",
+  "courseId": "science",
+  "courseTitle": "Science",
+  "week": 5,
+  "title": "Gravity & Friction",
+  "subtitle": "One pulls everything down. The other decides whether it slides.",
+  "estMinutes": 20,
+  "objectives": [
+    "Describe gravity as a force between masses and distinguish mass from weight",
+    "Explain what friction is and what it depends on",
+    "Distinguish static from kinetic friction",
+    "Give cases where friction is wanted and cases where it is a problem"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "⬇️",
+      "eyebrow": "Part 1 · Gravity",
+      "title": "Two forces decide almost everything you do",
+      "text": "Gravity never switches off. Friction decides whether you move, stop, grip or slide. Between them, most of daily physics."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Gravity",
+      "title": "Every mass pulls every other mass",
+      "text": "It is not a property of Earth. It is a property of mass. Earth is just the biggest thing near you.",
+      "points": [
+        "**More mass, more pull.** Further apart, less pull.",
+        "**Mass is how much stuff you are.** It does not change.",
+        "**Weight is the force** gravity puts on that mass. It does change.",
+        "**On the Moon** your mass is identical and your weight is about a sixth."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "An astronaut on the Moon has…",
+        "options": [
+          "the same mass and the same weight",
+          "the same mass and less weight",
+          "less mass and less weight",
+          "less mass and the same weight"
+        ],
+        "answerIndex": 1,
+        "explain": "Mass is the amount of matter and never changes. Weight depends on the gravity you are standing in.",
+        "seconds": 24
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "space",
+      "icon": "🪐",
+      "eyebrow": "Space mode",
+      "title": "Astronauts are falling, not weightless",
+      "text": "The station is only about 400 km up. Gravity there is still roughly ninety percent of what you feel now.",
+      "points": [
+        "**They float** because they are falling around the Earth, not because gravity stopped.",
+        "**Free fall** means everything falls together, so nothing presses on anything.",
+        "**The right word** is microgravity, not zero gravity.",
+        "**Drop a ball on a falling lift** and it hangs there too."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Friction",
+      "title": "Surfaces are rough, even when they look smooth",
+      "text": "Friction is the force that resists sliding. It comes from the surfaces actually touching, down at a scale you cannot see.",
+      "points": [
+        "**Rougher surfaces** generally grip more.",
+        "**Harder pressed together**, more friction.",
+        "**It always opposes** the direction you are trying to slide.",
+        "**It makes heat.** Rub your hands and feel where the energy went."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Two kinds",
+      "title": "Starting is harder than keeping going",
+      "text": "Push a heavy box. Nothing, nothing, nothing — then it suddenly gives and slides more easily.",
+      "points": [
+        "**Static friction** holds something still. It is the larger one.",
+        "**Kinetic friction** acts once it is already sliding.",
+        "**That sudden give** is the moment static loses.",
+        "**Anti-lock brakes exist** for exactly this: a rolling tyre grips better than a skidding one."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why is it harder to start a box moving than to keep it moving?",
+        "options": [
+          "Static friction is greater than kinetic friction",
+          "Gravity drops once it moves",
+          "The floor becomes smoother",
+          "It gets lighter once moving"
+        ],
+        "answerIndex": 0,
+        "explain": "Static friction has to be overcome first. Once sliding, the smaller kinetic friction takes over.",
+        "seconds": 24
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "A car is a long argument about friction",
+      "text": "Some places you want every bit of it. Others you spend real money getting rid of it.",
+      "points": [
+        "**Tyres and brakes** want maximum grip.",
+        "**Bearings and oil** want as little as possible.",
+        "**A skidding tyre** has swapped static grip for kinetic, and stops you slower.",
+        "**Wet road** puts a water film between rubber and tarmac, so grip falls."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "Fan bearings are a war on friction",
+      "text": "The shaft has to spin for thousands of hours. Everything around it is designed to let it.",
+      "points": [
+        "**Bearings** keep metal from dragging on metal.",
+        "**Oil or grease** fills the gap so the surfaces barely touch.",
+        "**When it dries out**, friction returns as noise, heat and a slower blade.",
+        "**That rattle** is friction becoming audible."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Friction is always something engineers try to remove.",
+        "answer": false,
+        "explain": "Brakes, tyres, shoes and screws all depend on it. The skill is choosing where you want it.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Gravity",
+          "def": "The attractive force between any two masses."
+        },
+        {
+          "term": "Mass",
+          "def": "How much matter something contains. It does not change with location."
+        },
+        {
+          "term": "Weight",
+          "def": "The force gravity exerts on a mass. It changes with location."
+        },
+        {
+          "term": "Friction",
+          "def": "The force that resists one surface sliding over another."
+        },
+        {
+          "term": "Static friction",
+          "def": "Friction on something not yet moving. The larger of the two."
+        },
+        {
+          "term": "Kinetic friction",
+          "def": "Friction on something already sliding."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Gravity acts between masses. Mass stays, weight changes.",
+        "Astronauts float because they are falling, not because gravity stopped.",
+        "Static friction is bigger than kinetic. That is why starting is hard.",
+        "Friction is wanted in tyres and brakes, unwanted in bearings."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "What is weight?",
+      "options": [
+        "The amount of matter in an object",
+        "The force gravity exerts on a mass",
+        "How big something is",
+        "The same as mass"
+      ],
+      "answerIndex": 1,
+      "explain": "Mass is the matter. Weight is the force on it, so it changes with location.",
+      "objective": "Describe gravity as a force between masses and distinguish mass from weight",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Your mass on the Moon compared with on Earth is…",
+      "options": [
+        "the same",
+        "six times",
+        "zero",
+        "one sixth"
+      ],
+      "answerIndex": 0,
+      "explain": "Mass never changes with place. Only your weight is about a sixth.",
+      "objective": "Describe gravity as a force between masses and distinguish mass from weight",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Astronauts on the space station float because…",
+      "options": [
+        "the station blocks gravity",
+        "they are too far from Earth",
+        "they are in free fall, orbiting the Earth",
+        "there is no gravity there"
+      ],
+      "answerIndex": 2,
+      "explain": "Gravity there is still about ninety percent of surface gravity. They are falling around the planet.",
+      "objective": "Describe gravity as a force between masses and distinguish mass from weight",
+      "seconds": 24
+    },
+    {
+      "type": "multiple",
+      "text": "Which friction is larger?",
+      "options": [
+        "They are equal",
+        "Neither is a force",
+        "Kinetic",
+        "Static"
+      ],
+      "answerIndex": 3,
+      "explain": "Static has to be beaten first, which is why a box gives suddenly and then slides easily.",
+      "objective": "Distinguish static from kinetic friction",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "A skidding tyre stops a car faster than a rolling one.",
+      "answer": false,
+      "explain": "Skidding swaps the larger static grip for smaller kinetic friction. Anti-lock brakes exist to prevent it.",
+      "objective": "Distinguish static from kinetic friction",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Friction always acts…",
+      "options": [
+        "towards the centre of the Earth",
+        "downwards",
+        "in the direction you push",
+        "opposite to the direction of sliding"
+      ],
+      "answerIndex": 3,
+      "explain": "It resists the relative motion, whichever way that happens to be.",
+      "objective": "Explain what friction is and what it depends on",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Where does the energy go when friction slows something down?",
+      "options": [
+        "It becomes heat",
+        "It becomes gravity",
+        "It becomes mass",
+        "It disappears"
+      ],
+      "answerIndex": 0,
+      "explain": "Rub your hands together. The movement energy ends up as heat in the surfaces.",
+      "objective": "Explain what friction is and what it depends on",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why does a dry fan bearing make the blade slow down?",
+      "options": [
+        "Gravity increases",
+        "Friction returns, turning movement into heat and noise",
+        "The motor loses power",
+        "The blade gets heavier"
+      ],
+      "answerIndex": 1,
+      "explain": "Without oil the surfaces drag on each other, and the rattle is that friction becoming audible.",
+      "objective": "Give cases where friction is wanted and cases where it is a problem",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Which of these is a case where friction is wanted?",
+      "options": [
+        "Engine pistons",
+        "A fan shaft",
+        "Brake pads",
+        "Wheel bearings"
+      ],
+      "answerIndex": 2,
+      "explain": "Brakes work only because of friction. The other three are places engineers fight to reduce it.",
+      "objective": "Give cases where friction is wanted and cases where it is a problem",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "Gravity is a property of Earth alone.",
+      "answer": false,
+      "explain": "Every mass attracts every other mass. Earth is simply the largest one nearby.",
+      "objective": "Describe gravity as a force between masses and distinguish mass from weight",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Why does a wet road reduce grip?",
+      "options": [
+        "A film of water separates the tyre from the road",
+        "Water is magnetic",
+        "Water makes rubber harder",
+        "The road gets smoother permanently"
+      ],
+      "answerIndex": 0,
+      "explain": "The surfaces stop touching properly, and friction depends on them touching.",
+      "objective": "Explain what friction is and what it depends on",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "The correct term for conditions on the space station is…",
+      "options": [
+        "anti-gravity",
+        "microgravity",
+        "no gravity",
+        "zero gravity"
+      ],
+      "answerIndex": 1,
+      "explain": "Gravity is nearly as strong as on the ground. The effect of free fall is what makes things float.",
+      "objective": "Describe gravity as a force between masses and distinguish mass from weight",
+      "seconds": 18
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 5 Science, gravity and friction, which the scope then continues into Week 6. Two misconceptions get direct attention because they are the ones that persist: that mass and weight are the same thing, and that astronauts float because gravity has stopped. The static-against-kinetic distinction is taught through the heavy box and then paid off twice, in anti-lock brakes and in a dry fan bearing, so the idea arrives somewhere he can check it himself.",
+    "discussion": [
+      "If gravity is still strong up there, why do they float?",
+      "Where in a car do you want friction, and where do you pay to remove it?",
+      "Why does a box give suddenly instead of easing into motion?"
+    ],
+    "extension": [
+      "Push a loaded box across a floor and feel the moment static friction loses.",
+      "Spin a fan blade by hand with the plug out, and listen for the bearing."
+    ],
+    "misconceptions": [
+      "That weight and mass are the same.",
+      "That there is no gravity in orbit.",
+      "That friction is always a nuisance."
+    ]
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "id": "sci-t2-w7",
+  "courseId": "science",
+  "courseTitle": "Science",
+  "week": 7,
+  "title": "Mechanical Energy",
+  "subtitle": "Stored energy and moving energy, and the trade between them.",
+  "estMinutes": 20,
+  "objectives": [
+    "Define kinetic and potential energy",
+    "Explain how energy converts between the two forms",
+    "Explain why speed matters more than mass for kinetic energy",
+    "Apply mechanical energy to a real situation"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "⚡",
+      "eyebrow": "Part 1 · Two forms",
+      "title": "Energy is not used up. It moves and it changes form",
+      "text": "Mechanical energy comes in two kinds: the energy of position and the energy of motion. Most of what you watch is one turning into the other."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Potential",
+      "title": "Stored energy, waiting",
+      "text": "Lift something and you have put energy into it. Let go and you get it back.",
+      "points": [
+        "**Gravitational potential energy** depends on mass and height.",
+        "**Twice as high** means twice the stored energy.",
+        "**A stretched spring** stores it too, as elastic potential energy.",
+        "**Nothing is moving.** The energy is in the arrangement."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Kinetic",
+      "title": "The energy of actually moving",
+      "text": "Anything with mass that is moving has kinetic energy. Stopping it means taking that energy somewhere.",
+      "points": [
+        "**It depends on mass and speed**, but not equally.",
+        "**Double the mass** and kinetic energy doubles.",
+        "**Double the speed** and it goes up four times.",
+        "**Speed is squared.** Mass is not."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "physics",
+      "icon": "⚛️",
+      "eyebrow": "Physics mode",
+      "title": "The square law, again",
+      "text": "You met this with meteors and wind. It is the same rule and it never stops being important.",
+      "points": [
+        "**At 60 km/h** a car carries four times the energy it has at 30.",
+        "**Braking distance** follows, which is why speed limits matter so much.",
+        "**A heavier car at the same speed** is only proportionally worse.",
+        "**Speed is the dangerous variable.** Every time."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "You double a car's speed. Its kinetic energy becomes…",
+        "options": [
+          "four times as much",
+          "half as much",
+          "unchanged",
+          "twice as much"
+        ],
+        "answerIndex": 0,
+        "explain": "Kinetic energy goes with speed squared. Doubling speed quadruples the energy that has to go somewhere.",
+        "seconds": 24
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The trade",
+      "title": "One turns into the other, over and over",
+      "text": "Drop something and height turns into speed. Throw it up and speed turns back into height.",
+      "points": [
+        "**At the top** of a throw: maximum potential, zero kinetic.",
+        "**At the bottom** of a drop: maximum kinetic, minimum potential.",
+        "**Halfway**, it is sharing between the two.",
+        "**Friction takes a cut** each time, as heat."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Gaming mode",
+      "title": "Every jump arc in a game is this sum",
+      "text": "The physics engine is tracking the swap between height and speed, frame by frame.",
+      "points": [
+        "**Rising**, speed falls and height grows.",
+        "**At the peak**, vertical speed is zero for an instant.",
+        "**Falling**, height converts back into speed.",
+        "**Turn gravity down** in a sandbox and the whole arc stretches."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "At the very top of a ball's flight, it has no energy.",
+        "answer": false,
+        "explain": "It has maximum potential energy. Only its kinetic energy is momentarily zero.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "A fan keeps its energy in the blades",
+      "text": "Switch a fan off and it does not stop. The blades keep turning for several seconds.",
+      "points": [
+        "**That is kinetic energy** stored in spinning mass.",
+        "**Friction in the bearings** is what finally removes it.",
+        "**Heavier blades coast longer** — more mass, more stored energy.",
+        "**Dry bearings stop it fast**, which is a useful thing to notice."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Kinetic energy",
+          "def": "The energy something has because it is moving."
+        },
+        {
+          "term": "Potential energy",
+          "def": "Stored energy, from position or from being stretched."
+        },
+        {
+          "term": "Mechanical energy",
+          "def": "Kinetic and potential added together."
+        },
+        {
+          "term": "Conversion",
+          "def": "Energy changing from one form into another."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Potential is stored. Kinetic is moving.",
+        "Doubling mass doubles energy. Doubling speed quadruples it.",
+        "A drop or a throw is the two forms trading places.",
+        "Friction quietly takes a share as heat each time."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Kinetic energy is the energy of…",
+      "options": [
+        "motion",
+        "sound",
+        "heat",
+        "position"
+      ],
+      "answerIndex": 0,
+      "explain": "Anything with mass that is moving has it.",
+      "objective": "Define kinetic and potential energy",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Lifting a box onto a shelf gives it…",
+      "options": [
+        "no energy",
+        "sound energy",
+        "gravitational potential energy",
+        "kinetic energy"
+      ],
+      "answerIndex": 2,
+      "explain": "Height and mass store energy you get back if it falls.",
+      "objective": "Define kinetic and potential energy",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Doubling an object's speed changes its kinetic energy by a factor of…",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "1"
+      ],
+      "answerIndex": 1,
+      "explain": "Speed is squared in the kinetic energy relationship, so two becomes four.",
+      "objective": "Explain why speed matters more than mass for kinetic energy",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Doubling an object's mass changes its kinetic energy by a factor of…",
+      "options": [
+        "8",
+        "4",
+        "1",
+        "2"
+      ],
+      "answerIndex": 3,
+      "explain": "Mass is proportional. Only speed is squared.",
+      "objective": "Explain why speed matters more than mass for kinetic energy",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "At the top of a thrown ball's arc, its kinetic energy is momentarily zero.",
+      "answer": true,
+      "explain": "Vertical motion stops for an instant. Potential energy is at its maximum there.",
+      "objective": "Explain how energy converts between the two forms",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "A falling ball converts…",
+      "options": [
+        "kinetic into potential",
+        "sound into speed",
+        "heat into height",
+        "potential into kinetic"
+      ],
+      "answerIndex": 3,
+      "explain": "Height is spent and speed is gained all the way down.",
+      "objective": "Explain how energy converts between the two forms",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Why do fan blades keep spinning after you switch it off?",
+      "options": [
+        "They hold kinetic energy until friction removes it",
+        "Gravity spins them",
+        "Air pushes them round",
+        "The motor is still powered"
+      ],
+      "answerIndex": 0,
+      "explain": "Spinning mass stores energy, and bearing friction is what finally takes it away.",
+      "objective": "Apply mechanical energy to a real situation",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Where does the lost mechanical energy usually go?",
+      "options": [
+        "Into gravity",
+        "Into heat through friction",
+        "Into extra mass",
+        "It is destroyed"
+      ],
+      "answerIndex": 1,
+      "explain": "Friction converts it to heat. Nothing is destroyed, it just changes form.",
+      "objective": "Explain how energy converts between the two forms",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Mechanical energy means…",
+      "options": [
+        "potential only",
+        "kinetic and potential together",
+        "heat and light",
+        "kinetic only"
+      ],
+      "answerIndex": 1,
+      "explain": "The sum of the two mechanical forms.",
+      "objective": "Define kinetic and potential energy",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "A heavier car is as dangerous at speed as a faster one.",
+      "answer": false,
+      "explain": "Mass is proportional, speed is squared. Speed raises the energy far more sharply.",
+      "objective": "Explain why speed matters more than mass for kinetic energy",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A stretched spring stores…",
+      "options": [
+        "elastic potential energy",
+        "kinetic energy",
+        "sound energy",
+        "no energy"
+      ],
+      "answerIndex": 0,
+      "explain": "Energy is stored in the arrangement, released when it springs back.",
+      "objective": "Define kinetic and potential energy",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Halfway down a fall, the object has…",
+      "options": [
+        "only kinetic energy",
+        "only potential energy",
+        "a share of both",
+        "neither"
+      ],
+      "answerIndex": 2,
+      "explain": "It is partway through the trade, so both forms are present.",
+      "objective": "Explain how energy converts between the two forms",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 7 Science. Kinetic and potential energy, with the square law given its own card because it is the single most transferable idea in the week and he has met it twice before, with meteors and with wind. The fan coasting after switch-off is there as a piece of stored kinetic energy he can watch at home and time. Friction's cut is mentioned every time conversion is discussed so energy does not look like it is being destroyed.",
+    "discussion": [
+      "Why is speed more dangerous than mass?",
+      "Where is the energy at the top of a throw?",
+      "Why do heavier blades coast longer?"
+    ],
+    "extension": [
+      "Time how long a fan coasts on each speed setting after switch-off.",
+      "Drop a ball and watch each bounce come back lower. Where did that energy go?"
+    ],
+    "misconceptions": [
+      "That something at the top of its flight has no energy.",
+      "That energy is used up rather than converted.",
+      "That mass and speed matter equally."
+    ]
+  }
+}

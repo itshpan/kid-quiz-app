@@ -1,0 +1,370 @@
+{
+  "id": "sci-t2-w8",
+  "courseId": "science",
+  "courseTitle": "Science",
+  "week": 8,
+  "title": "Sound, Heat & Light",
+  "subtitle": "Three kinds of energy, three ways of travelling.",
+  "estMinutes": 20,
+  "objectives": [
+    "Explain how sound travels and why it needs a medium",
+    "Name the three ways heat moves",
+    "Describe light as something that travels in straight lines until it meets something",
+    "Compare the speeds of sound and light"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🔊",
+      "eyebrow": "Part 1 · Sound",
+      "title": "Three energies you meet every second",
+      "text": "Sound needs something to travel through. Heat has three routes. Light goes straight until something stops it. Different rules each."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Sound",
+      "title": "A squeeze passed along",
+      "text": "Sound is a vibration passed from particle to particle. No particles, no sound.",
+      "points": [
+        "**Air particles bump** into their neighbours and pass the shake along.",
+        "**In space there is nothing to bump.** Silence, genuinely.",
+        "**Solids carry it faster** than air, because the particles are closer.",
+        "**Your eardrum** is just a surface being pushed and pulled."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "What a fan's noise is actually telling you",
+      "text": "A fan makes several sounds at once, and each one has a different source inside the case.",
+      "points": [
+        "**The whoosh** is blades chopping air — normal, rises with speed.",
+        "**A hum** is the motor's magnetic field vibrating the metal.",
+        "**A rattle or grind** is bearings, and that one is a fault.",
+        "**Listening is diagnosis.** You are hearing parts, not just noise."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Sound travels faster in air than in steel.",
+        "answer": false,
+        "explain": "Solids carry sound faster because their particles sit closer together and pass the vibration on sooner.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Heat",
+      "title": "Three routes, not one",
+      "text": "Heat always moves from hotter to colder. How it gets there is what you have to name.",
+      "points": [
+        "**Conduction** — through a solid, particle to particle.",
+        "**Convection** — a fluid carries it, hot rising and cold sinking.",
+        "**Radiation** — straight through space, no material needed.",
+        "**The Sun reaches you by radiation.** Nothing else could cross the gap."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "How does the Sun's heat reach Earth?",
+        "options": [
+          "All three equally",
+          "Radiation",
+          "Conduction",
+          "Convection"
+        ],
+        "answerIndex": 1,
+        "explain": "Space is nearly empty, so there is nothing to conduct through or carry it. Only radiation crosses.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "A fan does not cool the room. It cools you",
+      "text": "Check the thermometer. A fan running in a closed room makes it very slightly warmer.",
+      "points": [
+        "**The motor turns electricity into heat** as well as movement.",
+        "**You feel cooler** because moving air speeds up sweat evaporating.",
+        "**Evaporation takes heat** off your skin with it.",
+        "**Leaving a fan on in an empty room** warms it and cools nobody."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Light",
+      "title": "Straight lines, until something interferes",
+      "text": "Light travels in straight lines. Everything you see is light that bounced off something into your eye.",
+      "points": [
+        "**Reflection** — it bounces off.",
+        "**Refraction** — it bends on entering a new material.",
+        "**Absorption** — it is taken in and becomes heat.",
+        "**Shadows are proof** that it does not bend round corners."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "space",
+      "icon": "🪐",
+      "eyebrow": "Space mode",
+      "title": "Film explosions in space should be silent",
+      "text": "You would see the flash. You would hear absolutely nothing, however close you were.",
+      "points": [
+        "**No air means no particles** to carry the vibration.",
+        "**Astronauts talk by radio**, which is a light-type wave, not sound.",
+        "**Touch helmets together** and you would hear through the solid.",
+        "**Films add sound anyway.** Silence does not sell tickets."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why do you see a shadow behind a solid object?",
+        "options": [
+          "Light travels in straight lines and cannot bend round it",
+          "The object makes cold",
+          "Shadows are made of darkness",
+          "Light is absorbed by air"
+        ],
+        "answerIndex": 0,
+        "explain": "No light reaches that patch because nothing bent it round the obstacle.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "disasters",
+      "icon": "🌩️",
+      "eyebrow": "Disaster mode",
+      "title": "Counting the gap to a lightning strike",
+      "text": "You see the flash immediately and hear the thunder later. The gap is a measurement.",
+      "points": [
+        "**Light travels about 300,000 km every second.** Effectively instant.",
+        "**Sound manages about 340 metres a second.**",
+        "**Three seconds of gap** is roughly one kilometre away.",
+        "**No gap at all** means it is on top of you."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Conduction",
+          "def": "Heat passing through a solid, particle to particle."
+        },
+        {
+          "term": "Convection",
+          "def": "Heat carried by a moving fluid, hot rising and cold sinking."
+        },
+        {
+          "term": "Radiation",
+          "def": "Heat travelling as waves, needing no material."
+        },
+        {
+          "term": "Reflection",
+          "def": "Light bouncing off a surface."
+        },
+        {
+          "term": "Refraction",
+          "def": "Light bending as it enters a different material."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Sound needs particles. Space is silent.",
+        "Heat moves by conduction, convection or radiation.",
+        "Light goes straight; shadows prove it.",
+        "Light is effectively instant, sound is about 340 m/s."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Why is there no sound in space?",
+      "options": [
+        "There are almost no particles to pass the vibration on",
+        "It is too cold",
+        "Sound freezes",
+        "Light blocks it"
+      ],
+      "answerIndex": 0,
+      "explain": "Sound is a vibration handed between particles. Remove the particles and nothing carries it.",
+      "objective": "Explain how sound travels and why it needs a medium",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Sound travels fastest through…",
+      "options": [
+        "air",
+        "water",
+        "steel",
+        "a vacuum"
+      ],
+      "answerIndex": 2,
+      "explain": "Particles are closest together in a solid, so the vibration passes on soonest.",
+      "objective": "Explain how sound travels and why it needs a medium",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Heat from the Sun reaches Earth by…",
+      "options": [
+        "radiation",
+        "conduction",
+        "convection",
+        "all three"
+      ],
+      "answerIndex": 0,
+      "explain": "Space is nearly empty, so only radiation can cross it.",
+      "objective": "Name the three ways heat moves",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Hot air rising above a radiator is an example of…",
+      "options": [
+        "radiation",
+        "convection",
+        "reflection",
+        "conduction"
+      ],
+      "answerIndex": 1,
+      "explain": "A moving fluid carrying heat is convection.",
+      "objective": "Name the three ways heat moves",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "A metal spoon getting hot in soup is…",
+      "options": [
+        "radiation",
+        "conduction",
+        "refraction",
+        "convection"
+      ],
+      "answerIndex": 1,
+      "explain": "Heat passes through the solid metal from particle to particle.",
+      "objective": "Name the three ways heat moves",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "An electric fan lowers the temperature of a closed room.",
+      "answer": false,
+      "explain": "The motor adds a little heat. It cools people by speeding up evaporation, not the room.",
+      "objective": "Name the three ways heat moves",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Shadows exist because light…",
+      "options": [
+        "travels in straight lines",
+        "bends round objects",
+        "is absorbed by air",
+        "is a liquid"
+      ],
+      "answerIndex": 0,
+      "explain": "Nothing bends it round the obstacle, so that patch gets no light.",
+      "objective": "Describe light as something that travels in straight lines until it meets something",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Light bending as it passes into water is called…",
+      "options": [
+        "absorption",
+        "conduction",
+        "reflection",
+        "refraction"
+      ],
+      "answerIndex": 3,
+      "explain": "Refraction. Reflection is bouncing off.",
+      "objective": "Describe light as something that travels in straight lines until it meets something",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "You see lightning three seconds before the thunder. Roughly how far away is it?",
+      "options": [
+        "About 100 m",
+        "About 1 km",
+        "About 10 km",
+        "About 100 km"
+      ],
+      "answerIndex": 1,
+      "explain": "Sound covers about 340 m each second, so three seconds is close to a kilometre.",
+      "objective": "Compare the speeds of sound and light",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Why do you see the flash before you hear the thunder?",
+      "options": [
+        "Sound bends",
+        "Thunder happens later",
+        "Light is louder",
+        "Light is much faster than sound"
+      ],
+      "answerIndex": 3,
+      "explain": "Light is effectively instant over that distance; sound takes about three seconds per kilometre.",
+      "objective": "Compare the speeds of sound and light",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A grinding noise from a fan most likely means…",
+      "options": [
+        "the room is too warm",
+        "normal blade noise",
+        "the bearings are failing",
+        "the motor is magnetic"
+      ],
+      "answerIndex": 2,
+      "explain": "Whoosh is blades and hum is the motor, but a grind or rattle is a bearing fault.",
+      "objective": "Explain how sound travels and why it needs a medium",
+      "seconds": 22
+    },
+    {
+      "type": "truefalse",
+      "text": "Heat always moves from the hotter thing to the colder one.",
+      "answer": true,
+      "explain": "That direction is what heat transfer means. Only a pump, like a fridge, can appear to reverse it.",
+      "objective": "Name the three ways heat moves",
+      "seconds": 18
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 8 Science, three energy forms in one week, so each is given one clear rule rather than full coverage: sound needs a medium, heat has three named routes, light travels straight. The fan appears twice on purpose — its noises are a diagnosis he can practise, and the fact that a fan warms a room while cooling a person is the week's best misconception-breaker, since it separates temperature from how something feels. The lightning gap gives him a number to use.",
+    "discussion": [
+      "Why is space silent?",
+      "If a fan warms the room, why does it feel cooler?",
+      "What are the different noises inside a fan?"
+    ],
+    "extension": [
+      "Count the seconds between flash and thunder in the next storm.",
+      "Listen to a fan on each speed and name which noise changes."
+    ],
+    "misconceptions": [
+      "That sound travels through space.",
+      "That a fan cools a room.",
+      "That shadows are made of something."
+    ]
+  }
+}

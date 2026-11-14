@@ -1033,7 +1033,7 @@
           "tagline": "Body systems, mixtures and living things",
           "icon": "🧬",
           "accent": "#4ecdc4",
-          "status": "planned",
+          "status": "live",
           "weeks": [
             {
               "week": 1,
@@ -1048,7 +1048,7 @@
             {
               "week": 2,
               "id": "sci-t2-w2",
-              "title": "Separating Heterogeneous Mixtures",
+              "title": "Separating Mixtures: Letting Gravity Do It",
               "topics": [
                 "Separating Heterogeneous Mixtures: Aided by Gravity, Shaking, Wind & Water, Using Machines, Panning, Decantation, Straining, Using Magnets"
               ],
@@ -1058,7 +1058,7 @@
             {
               "week": 3,
               "id": "sci-t2-w3",
-              "title": "Separating Heterogeneous Mixtures",
+              "title": "Separating Mixtures: Adding a Force",
               "topics": [
                 "Separating Heterogeneous Mixtures: Aided by Gravity, Shaking, Wind & Water, Using Machines, Panning, Decantation, Straining, Using Magnets"
               ],
@@ -1068,11 +1068,12 @@
             {
               "week": 4,
               "id": "sci-t2-w4",
-              "title": "Separating Homogeneous Mixtures",
+              "title": "Separating Solutions",
               "topics": [
                 "Separating Homogeneous Mixtures: Evaporation, Condensation, Distillation, Rectification"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "science/t2-w4-separating-solutions.json"
             },
             {
               "week": 5,
@@ -1081,7 +1082,8 @@
               "topics": [
                 "Gravity & Friction"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "science/t2-w5-gravity-friction.json"
             },
             {
               "week": 6,
@@ -1090,7 +1092,8 @@
               "topics": [
                 "Living with Gravity & Friction: Normal, Buoyant, Lifting & Tension & Thrust"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "science/t2-w6-living-with-forces.json"
             },
             {
               "week": 7,
@@ -1099,7 +1102,8 @@
               "topics": [
                 "Mechanical Energy: Kinetic & Potential Energy"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "science/t2-w7-mechanical-energy.json"
             },
             {
               "week": 8,
@@ -1108,7 +1112,8 @@
               "topics": [
                 "Sound, Heat & Light"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "science/t2-w8-sound-heat-light.json"
             },
             {
               "week": 9,
@@ -1117,7 +1122,8 @@
               "topics": [
                 "Electricity and Energy Transformation"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "science/t2-w9-electricity-energy.json"
             },
             {
               "week": 10,
@@ -1126,7 +1132,8 @@
               "topics": [
                 "Doing More with Less: Simple Machines"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "science/t2-w10-simple-machines.json"
             },
             {
               "week": 11,
@@ -1135,7 +1142,8 @@
               "topics": [
                 "EXAM"
               ],
-              "status": "planned"
+              "status": "exam",
+              "file": "science/t2-w11-exam.json"
             }
           ]
         },

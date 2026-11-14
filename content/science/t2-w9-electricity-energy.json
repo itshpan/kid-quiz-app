@@ -1,0 +1,362 @@
+{
+  "id": "sci-t2-w9",
+  "courseId": "science",
+  "courseTitle": "Science",
+  "week": 9,
+  "title": "Electricity & Energy Transformation",
+  "subtitle": "Follow the energy from the wall to the air in the room.",
+  "estMinutes": 22,
+  "objectives": [
+    "Describe a circuit and what each part does",
+    "Explain how a motor turns electrical energy into movement",
+    "Trace an energy chain through a real appliance",
+    "Explain why no energy transformation is ever complete"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🔌",
+      "eyebrow": "Part 1 · The circuit",
+      "title": "Electricity only does anything if the loop is closed",
+      "text": "A circuit is a complete path. Break it anywhere and everything stops, no matter how good the rest of it is."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The parts",
+      "title": "Four jobs in every circuit",
+      "text": "Whatever the appliance, the same four roles are there somewhere.",
+      "points": [
+        "**A source** pushes the current along — mains or a battery.",
+        "**Conductors** carry it, usually copper.",
+        "**A switch** decides whether the path is open or closed.",
+        "**A load** is the thing that actually uses the energy."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What happens if a circuit is broken at any single point?",
+        "options": [
+          "The whole circuit stops",
+          "It gets hotter",
+          "Current flows the other way",
+          "Only that part stops"
+        ],
+        "answerIndex": 0,
+        "explain": "A circuit is one complete path. One gap anywhere and nothing flows at all.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Motors",
+      "title": "Electricity makes a magnetic field, and the field pulls",
+      "text": "Nothing inside a motor touches to make it spin. The pull reaches across a gap.",
+      "points": [
+        "**Current through coils** makes a magnetic field.",
+        "**The field moves** around the motor as the current changes.",
+        "**The shaft chases it**, and that is the spin.",
+        "**Electrical energy has become kinetic energy.**"
+      ]
+    },
+    {
+      "kind": "explorer",
+      "figure": "fanParts",
+      "title": "Open up a fan and find the circuit",
+      "text": "Eight parts, each with a job. Two of these are in the energy chain; the rest exist to make that chain survive."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "In a fan motor, what actually makes the shaft turn?",
+        "options": [
+          "Air pressure",
+          "A moving magnetic field drags it round",
+          "The capacitor pushes it mechanically",
+          "The blades pull it round"
+        ],
+        "answerIndex": 1,
+        "explain": "Current in the coils makes a field, and the shaft follows it. Nothing has to touch.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "The whole chain, in one appliance",
+      "text": "You can follow the energy from the plug to the breeze, and point at where each change happens.",
+      "points": [
+        "**Electrical** in through the cord and switch.",
+        "**Magnetic** in the windings, which is the step people skip.",
+        "**Kinetic** at the shaft and blades.",
+        "**Air movement, heat and sound** out. All three, always."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Losses",
+      "title": "No transformation gives you everything back",
+      "text": "Some energy always leaves as a form you did not want. Usually heat.",
+      "points": [
+        "**A motor warms up.** That heat was paid for and not used.",
+        "**Sound is wasted energy too**, however small.",
+        "**Friction in the bearings** takes another share.",
+        "**Nothing is destroyed.** It just left as something less useful."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "A perfectly built motor could turn all its electricity into movement.",
+        "answer": false,
+        "explain": "Some always leaves as heat and sound. You can reduce the loss, never remove it.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "disasters",
+      "icon": "⚡",
+      "eyebrow": "Disaster mode",
+      "title": "Why the power goes out in a typhoon",
+      "text": "The grid is one enormous circuit, and the same rule applies at that scale.",
+      "points": [
+        "**One line down** can open the path for a whole area.",
+        "**Water conducts**, so flooded equipment is shut off deliberately.",
+        "**Generators are separate circuits**, which is why a hospital keeps running.",
+        "**Restoring power** means closing every break, one at a time."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Gaming mode",
+      "title": "Redstone is a circuit with the rules kept",
+      "text": "Minecraft's wiring is simplified, but the parts map onto the real four almost exactly.",
+      "points": [
+        "**A lever or button** is the switch.",
+        "**Redstone dust** is the conductor.",
+        "**A lamp or piston** is the load.",
+        "**Break the line** anywhere and the whole thing goes dead, same as real life."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Circuit",
+          "def": "A complete path that current can flow around."
+        },
+        {
+          "term": "Conductor",
+          "def": "A material that lets current pass easily, like copper."
+        },
+        {
+          "term": "Load",
+          "def": "The part of a circuit that uses the energy."
+        },
+        {
+          "term": "Energy transformation",
+          "def": "Energy changing from one form into another."
+        },
+        {
+          "term": "Efficiency",
+          "def": "How much of the energy in came out as the form you wanted."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "A circuit needs a source, conductors, a switch and a load.",
+        "A motor goes electrical, then magnetic, then kinetic.",
+        "Every appliance also outputs heat and sound you did not ask for.",
+        "Energy is never destroyed, only turned into something less useful."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Which four roles appear in every circuit?",
+      "options": [
+        "Source, conductor, switch, load",
+        "Heat, light, sound, motion",
+        "Copper, plastic, steel, air",
+        "Motor, blade, guard, cord"
+      ],
+      "answerIndex": 0,
+      "explain": "Something pushes, something carries, something decides, something uses.",
+      "objective": "Describe a circuit and what each part does",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Breaking a circuit at one point means…",
+      "options": [
+        "only that part stops",
+        "the whole circuit stops",
+        "current reverses",
+        "nothing changes"
+      ],
+      "answerIndex": 1,
+      "explain": "One path. One gap stops all of it.",
+      "objective": "Describe a circuit and what each part does",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "In a motor, what makes the shaft turn?",
+      "options": [
+        "Air pressure",
+        "Heat expansion",
+        "A moving magnetic field",
+        "Blades pulling it"
+      ],
+      "answerIndex": 2,
+      "explain": "Current in the coils makes a field and the shaft chases it across an air gap.",
+      "objective": "Explain how a motor turns electrical energy into movement",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The energy chain in an electric fan is…",
+      "options": [
+        "electrical to kinetic only",
+        "heat to kinetic",
+        "kinetic to electrical",
+        "electrical to magnetic to kinetic"
+      ],
+      "answerIndex": 3,
+      "explain": "The magnetic step is the one usually skipped, and it is where the work happens.",
+      "objective": "Trace an energy chain through a real appliance",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Besides moving air, what else does a fan always produce?",
+      "options": [
+        "Light",
+        "Cold",
+        "Heat and sound",
+        "Electricity"
+      ],
+      "answerIndex": 2,
+      "explain": "Both are energy you paid for and did not want. Every transformation leaks.",
+      "objective": "Explain why no energy transformation is ever complete",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "A well-made motor could be 100% efficient.",
+      "answer": false,
+      "explain": "Some energy always leaves as heat and sound. You can shrink the loss but never remove it.",
+      "objective": "Explain why no energy transformation is ever complete",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "What is the load in a circuit?",
+      "options": [
+        "The switch",
+        "The part that uses the energy",
+        "The plug",
+        "The wire"
+      ],
+      "answerIndex": 1,
+      "explain": "The load is where the energy is actually spent — a motor, a lamp, a heater.",
+      "objective": "Describe a circuit and what each part does",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Copper is used for wiring because it is a good…",
+      "options": [
+        "conductor",
+        "insulator",
+        "resistor",
+        "magnet"
+      ],
+      "answerIndex": 0,
+      "explain": "It lets current pass easily, which is what a conductor means.",
+      "objective": "Describe a circuit and what each part does",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "A fan that hums but will not start usually has a failed…",
+      "options": [
+        "guard",
+        "capacitor",
+        "cord",
+        "blade"
+      ],
+      "answerIndex": 1,
+      "explain": "The capacitor gives the starting shove. Without it the motor sits there humming.",
+      "objective": "Trace an energy chain through a real appliance",
+      "seconds": 22
+    },
+    {
+      "type": "truefalse",
+      "text": "Energy lost as heat has been destroyed.",
+      "answer": false,
+      "explain": "It still exists, just in a form that is no longer useful to you.",
+      "objective": "Explain why no energy transformation is ever complete",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Why is flooded electrical equipment switched off deliberately?",
+      "options": [
+        "It floats away",
+        "Water is magnetic",
+        "It rusts",
+        "Water conducts, so the current can take dangerous new paths"
+      ],
+      "answerIndex": 3,
+      "explain": "Water makes unintended conductors, so the safe move is to open the circuit.",
+      "objective": "Describe a circuit and what each part does",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Which part of a fan decides whether the path is closed?",
+      "options": [
+        "The switch",
+        "The guard",
+        "The blade",
+        "The bearing"
+      ],
+      "answerIndex": 0,
+      "explain": "The switch opens or closes the circuit, and also picks which winding is used.",
+      "objective": "Trace an energy chain through a real appliance",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 9 Science. The circuit is taught as four roles rather than a diagram, so the same framework fits a torch, a fan and the national grid, and all three appear. The fan explorer is the centre of the lesson: he already takes these apart, and the point of the card is that only two of the eight parts are in the energy chain while the other six exist to keep that chain alive. The electrical-to-magnetic-to-kinetic sequence is stated and tested because learners routinely skip the magnetic step and treat a motor as a black box.",
+    "discussion": [
+      "Which two parts of a fan are actually in the energy chain?",
+      "Where does the energy go that does not become wind?",
+      "Why does one break stop a whole circuit?"
+    ],
+    "extension": [
+      "Feel the motor housing after a fan has run for twenty minutes. That warmth is lost energy.",
+      "Trace the path from plug to blade and name each part you pass."
+    ],
+    "misconceptions": [
+      "That a motor turns electricity straight into motion, with no magnetic step.",
+      "That energy lost as heat is destroyed.",
+      "That a switch only turns things on and off, rather than opening a path."
+    ]
+  }
+}

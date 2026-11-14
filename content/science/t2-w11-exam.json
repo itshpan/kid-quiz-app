@@ -1,0 +1,515 @@
+{
+  "id": "sci-t2-w11",
+  "courseId": "science",
+  "courseTitle": "Science",
+  "week": 11,
+  "title": "Exam Week",
+  "subtitle": "Ten weeks, one paper. This is the practice run, and it is meant to be long.",
+  "estMinutes": 30,
+  "objectives": [
+    "Recall the mixtures and separation work from weeks 1 to 4",
+    "Recall the forces work from weeks 5 and 6",
+    "Recall the energy work from weeks 7 to 9",
+    "Recall simple machines from week 10",
+    "Sit a full-length paper at exam pace"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "📝",
+      "eyebrow": "Exam week",
+      "title": "Everything from this term, in one go",
+      "text": "Twenty-four questions. Longer than a normal week on purpose, because the real paper will be too."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Weeks 1–4",
+      "title": "Mixtures: it all comes down to size",
+      "text": "Four weeks, one thread. How big the pieces are decides everything else.",
+      "points": [
+        "**Under 1 nm** dissolves — a solution.",
+        "**1 to 1000 nm** floats — a colloid.",
+        "**Over 1000 nm** settles — a suspension.",
+        "**Separation method** follows from which one you have."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which method would separate salt from water?",
+        "options": [
+          "A magnet",
+          "Sieving",
+          "Distillation",
+          "Filtration"
+        ],
+        "answerIndex": 2,
+        "explain": "Dissolved salt passes every filter. Only a change of state gets the water away from it.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Weeks 5–6",
+      "title": "Forces: stillness means balance",
+      "text": "Nothing at rest is free of forces. It is holding a draw.",
+      "points": [
+        "**Gravity** acts between masses. Mass stays; weight changes.",
+        "**Friction** resists sliding, and static beats kinetic.",
+        "**Normal force** is the surface pushing back.",
+        "**Buoyancy** depends on displaced weight, not the material."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "One fan, most of the term",
+      "text": "If you forget a definition, picture the fan and walk through it.",
+      "points": [
+        "**Energy chain** — electrical, magnetic, kinetic, plus heat and sound.",
+        "**Friction** — bearings, and what happens when they dry out.",
+        "**Simple machines** — gears, screws and a wedge for a blade.",
+        "**Winnowing** — a wind you can switch on."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why is starting a heavy box moving harder than keeping it moving?",
+        "options": [
+          "It gets heavier",
+          "Static friction is greater than kinetic friction",
+          "The floor changes",
+          "Gravity rises"
+        ],
+        "answerIndex": 1,
+        "explain": "Static has to be beaten first. Once sliding, the smaller kinetic friction applies.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Half the review done. The energy weeks are next, then the paper."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Weeks 7–9",
+      "title": "Energy: it changes form and leaks",
+      "text": "Nothing is destroyed. Some always leaves as a form you did not want.",
+      "points": [
+        "**Kinetic and potential** trade places in every fall and throw.",
+        "**Speed is squared**; mass is only proportional.",
+        "**A circuit** needs a source, conductors, a switch and a load.",
+        "**Every transformation** loses some to heat and sound."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "physics",
+      "icon": "⚛️",
+      "eyebrow": "Physics mode",
+      "title": "The one rule that keeps coming back",
+      "text": "If you remember nothing else from the term, remember what squaring does.",
+      "points": [
+        "**Double the speed**, four times the kinetic energy.",
+        "**Double the mass**, only twice.",
+        "**Braking distance** follows the same curve.",
+        "**It decided** meteors, wind and cars alike."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Week 10",
+      "title": "Machines: a trade, never a gift",
+      "text": "Less force always costs more distance. The energy does not improve.",
+      "points": [
+        "**Six simple machines**, everything else a combination.",
+        "**Mechanical advantage** multiplies force, not energy.",
+        "**A screw** is a ramp wound round a post.",
+        "**Your arm** trades force away to buy speed."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "A ramp lets you use half the force. What does it cost?",
+        "options": [
+          "Twice the distance",
+          "Nothing",
+          "Half the energy",
+          "Twice the mass"
+        ],
+        "answerIndex": 0,
+        "explain": "Force down, distance up. The product is fixed.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "Before the paper, the boring advice that works",
+      "text": "None of this is about being clever on the day.",
+      "points": [
+        "**Sleep beats cramming.** Memory is consolidated while you sleep.",
+        "**Eat something.** Your brain runs on glucose and nothing else.",
+        "**Read the whole question** before touching an option.",
+        "**Mark the hard one and move on.** Come back at the end."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Ready",
+      "title": "The four threads",
+      "points": [
+        "Mixtures: particle size decides the class and the method.",
+        "Forces: at rest means balanced, not absent.",
+        "Energy: changes form, never destroyed, always leaks a little.",
+        "Machines: force traded against distance, every time."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "A mixture whose particles are 1 to 1000 nm across is a…",
+      "options": [
+        "colloid",
+        "solution",
+        "suspension",
+        "compound"
+      ],
+      "answerIndex": 0,
+      "explain": "Too big to dissolve, too small to settle.",
+      "objective": "Recall the mixtures and separation work from weeks 1 to 4",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Why does a colloid not settle?",
+      "options": [
+        "Gravity ignores them",
+        "Molecular bombardment keeps the particles up",
+        "It is always hot",
+        "Its particles dissolve"
+      ],
+      "answerIndex": 1,
+      "explain": "Brownian motion. Gravity still pulls, but the knocking wins.",
+      "objective": "Recall the mixtures and separation work from weeks 1 to 4",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A visible torch beam through a liquid means…",
+      "options": [
+        "it is magnetic",
+        "it is a solution",
+        "the particles are colloid-sized or bigger",
+        "it is boiling"
+      ],
+      "answerIndex": 2,
+      "explain": "The Tyndall effect. Solutions are far too fine to scatter light.",
+      "objective": "Recall the mixtures and separation work from weeks 1 to 4",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Muddy water left standing overnight separates by…",
+      "options": [
+        "sedimentation",
+        "winnowing",
+        "filtration",
+        "distillation"
+      ],
+      "answerIndex": 0,
+      "explain": "Gravity pulls the suspended solids down into a layer.",
+      "objective": "Recall the mixtures and separation work from weeks 1 to 4",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "What does a filter never remove?",
+      "options": [
+        "Iron filings",
+        "Mud",
+        "Dissolved sugar",
+        "Sand"
+      ],
+      "answerIndex": 2,
+      "explain": "Dissolved substances are single molecules, smaller than any hole.",
+      "objective": "Recall the mixtures and separation work from weeks 1 to 4",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Winnowing separates by…",
+      "options": [
+        "colour",
+        "weight and air resistance",
+        "magnetism",
+        "boiling point"
+      ],
+      "answerIndex": 1,
+      "explain": "Moving air carries the light pieces off and the heavy ones drop.",
+      "objective": "Recall the mixtures and separation work from weeks 1 to 4",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "A magnet will attract…",
+      "options": [
+        "aluminium",
+        "copper",
+        "plastic",
+        "iron"
+      ],
+      "answerIndex": 3,
+      "explain": "Iron, nickel and cobalt. Being a metal is not enough.",
+      "objective": "Recall the mixtures and separation work from weeks 1 to 4",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Distillation keeps which part?",
+      "options": [
+        "Neither",
+        "The liquid",
+        "The gas only",
+        "The dissolved solid"
+      ],
+      "answerIndex": 1,
+      "explain": "You collect the condensed liquid. Evaporation alone would keep the solid.",
+      "objective": "Recall the mixtures and separation work from weeks 1 to 4",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Rectification is…",
+      "options": [
+        "one distillation",
+        "a magnet method",
+        "distillation repeated many times for a purer result",
+        "a kind of filter"
+      ],
+      "answerIndex": 2,
+      "explain": "A tall column stacks many boil-and-condense cycles.",
+      "objective": "Recall the mixtures and separation work from weeks 1 to 4",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Your mass on the Moon is…",
+      "options": [
+        "the same as on Earth",
+        "six times",
+        "one sixth of Earth's",
+        "zero"
+      ],
+      "answerIndex": 0,
+      "explain": "Mass never changes with place. Only weight does.",
+      "objective": "Recall the forces work from weeks 5 and 6",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Astronauts float because…",
+      "options": [
+        "the station repels them",
+        "they are in free fall around Earth",
+        "they are too light",
+        "there is no gravity"
+      ],
+      "answerIndex": 1,
+      "explain": "Gravity up there is about ninety percent of surface gravity.",
+      "objective": "Recall the forces work from weeks 5 and 6",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "Static friction is greater than kinetic friction.",
+      "answer": true,
+      "explain": "Which is why a box gives suddenly and then slides more easily.",
+      "objective": "Recall the forces work from weeks 5 and 6",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Why does a steel ship float?",
+      "options": [
+        "The hull encloses air, so it displaces more weight than the ship has",
+        "Steel is magnetic",
+        "Water pushes down",
+        "Steel is light"
+      ],
+      "answerIndex": 0,
+      "explain": "Shape decides it, not material. Crushed flat, the same steel sinks.",
+      "objective": "Recall the forces work from weeks 5 and 6",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "A book rests on a table. Which forces balance?",
+      "options": [
+        "Buoyancy and friction",
+        "None",
+        "Weight and the normal force",
+        "Tension and thrust"
+      ],
+      "answerIndex": 2,
+      "explain": "Gravity down, table up, nothing moves.",
+      "objective": "Recall the forces work from weeks 5 and 6",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "A rope can apply…",
+      "options": [
+        "tension only",
+        "both",
+        "thrust only",
+        "neither"
+      ],
+      "answerIndex": 0,
+      "explain": "Rope pulls. It cannot push.",
+      "objective": "Recall the forces work from weeks 5 and 6",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Doubling an object's speed multiplies its kinetic energy by…",
+      "options": [
+        "4",
+        "1",
+        "8",
+        "2"
+      ],
+      "answerIndex": 0,
+      "explain": "Speed is squared. Mass is only proportional.",
+      "objective": "Recall the energy work from weeks 7 to 9",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "At the top of a thrown ball's arc it has…",
+      "options": [
+        "no energy",
+        "only heat",
+        "maximum potential energy",
+        "maximum kinetic energy"
+      ],
+      "answerIndex": 2,
+      "explain": "Kinetic energy is momentarily zero; potential is at its highest.",
+      "objective": "Recall the energy work from weeks 7 to 9",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Heat from the Sun reaches Earth by…",
+      "options": [
+        "all three",
+        "conduction",
+        "convection",
+        "radiation"
+      ],
+      "answerIndex": 3,
+      "explain": "Space is nearly empty, so only radiation can cross it.",
+      "objective": "Recall the energy work from weeks 7 to 9",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "An electric fan lowers the temperature of a closed room.",
+      "answer": false,
+      "explain": "The motor adds heat. It cools people by speeding evaporation, not the room.",
+      "objective": "Recall the energy work from weeks 7 to 9",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The energy chain in a fan motor is…",
+      "options": [
+        "electrical to kinetic",
+        "heat to kinetic",
+        "kinetic to electrical",
+        "electrical to magnetic to kinetic"
+      ],
+      "answerIndex": 3,
+      "explain": "The magnetic step is where the work actually happens.",
+      "objective": "Recall the energy work from weeks 7 to 9",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Which four roles are in every circuit?",
+      "options": [
+        "Copper, steel, plastic, air",
+        "Motor, blade, guard, cord",
+        "Heat, light, sound, motion",
+        "Source, conductor, switch, load"
+      ],
+      "answerIndex": 3,
+      "explain": "Something pushes, carries, decides and uses.",
+      "objective": "Recall the energy work from weeks 7 to 9",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A screw is really a…",
+      "options": [
+        "wheel and axle",
+        "inclined plane wrapped round a cylinder",
+        "lever",
+        "pulley"
+      ],
+      "answerIndex": 1,
+      "explain": "Follow the thread and you are walking a long gentle ramp.",
+      "objective": "Recall simple machines from week 10",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Mechanical advantage means a machine…",
+      "options": [
+        "creates energy",
+        "removes friction",
+        "adds mass",
+        "multiplies force at the cost of distance"
+      ],
+      "answerIndex": 3,
+      "explain": "The trade. Energy in equals energy out, minus losses.",
+      "objective": "Recall simple machines from week 10",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "A machine can give out more energy than it takes in.",
+      "answer": false,
+      "explain": "Never. Output is input minus friction losses.",
+      "objective": "Recall simple machines from week 10",
+      "seconds": 16
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 11 Science, the practice paper. Twenty-four questions spanning all ten teaching weeks, with the review cards organised by thread rather than by week number — mixtures as a size question, forces as a balance question, energy as a conversion question, machines as a trade. The fan card is a deliberate memory hook: almost every strand of the term appears somewhere in an appliance he has taken apart himself, so a forgotten definition has a physical object to hang on. The exam-technique card is in the review rather than the quiz because it is advice, not content.",
+    "discussion": [
+      "Which four threads does the whole term come down to?",
+      "How much of this term can you find inside a fan?",
+      "Which topic would you want one more day on?"
+    ],
+    "extension": [
+      "Sit the quiz once at normal pace, then again a few days later without revising first.",
+      "Write your own exam question for each of the four threads."
+    ],
+    "misconceptions": [
+      "That revision means re-reading. Testing yourself beats it.",
+      "That cramming the night before works better than sleeping."
+    ]
+  }
+}

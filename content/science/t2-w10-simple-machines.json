@@ -1,0 +1,356 @@
+{
+  "id": "sci-t2-w10",
+  "courseId": "science",
+  "courseTitle": "Science",
+  "week": 10,
+  "title": "Doing More with Less",
+  "subtitle": "Simple machines: trading distance for force.",
+  "estMinutes": 20,
+  "objectives": [
+    "Name the six simple machines and what each one does",
+    "Explain mechanical advantage as a trade, not free power",
+    "Identify simple machines inside an everyday object",
+    "Explain why a machine can never give out more energy than it takes in"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🔧",
+      "eyebrow": "Part 1 · The trade",
+      "title": "A machine does not create force. It rearranges it",
+      "text": "Every simple machine lets you use less force — and makes you move further to do it. The energy stays the same."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The six",
+      "title": "Six machines, and everything else is a combination",
+      "text": "Every complicated machine is these, stacked.",
+      "points": [
+        "**Lever** — a bar on a pivot.",
+        "**Wheel and axle** — a big circle turning a small one.",
+        "**Pulley** — a wheel that redirects a rope.",
+        "**Inclined plane, wedge and screw** — all ramps, used differently."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The trade",
+      "title": "Less force, more distance. Always",
+      "text": "Mechanical advantage is how many times your force is multiplied. It is paid for in distance.",
+      "points": [
+        "**Halve the force** and you move twice as far.",
+        "**A ramp** is easier than lifting, but it is a longer journey.",
+        "**Energy in equals energy out**, minus friction.",
+        "**Nothing is free.** The sum never improves."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "A machine lets you lift a load with half the force. What is the cost?",
+        "options": [
+          "You must move twice the distance",
+          "Nothing",
+          "It takes twice the mass",
+          "Half the energy"
+        ],
+        "answerIndex": 0,
+        "explain": "Force down, distance up. The product stays the same, which is why no energy appears from nowhere.",
+        "seconds": 24
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "Three simple machines inside one fan",
+      "text": "Take the case off and they are all there, doing ordinary jobs.",
+      "points": [
+        "**The gearbox** is wheels and axles, trading speed for turning force.",
+        "**Every screw** holding the case is an inclined plane wrapped round a post.",
+        "**The blade** is a wedge, splitting air as it turns.",
+        "**Nothing exotic.** Six ideas, combined."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "A machine can give out more energy than you put into it.",
+        "answer": false,
+        "explain": "Never. Output is always input minus losses. A machine changes how the force is applied, not how much energy exists.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "Gears are the trade, with a lever you can choose",
+      "text": "First gear is huge turning force and little speed. Top gear is the opposite. Same engine either way.",
+      "points": [
+        "**Low gear** multiplies force for pulling away or climbing.",
+        "**High gear** trades that force back for speed.",
+        "**The engine's power has not changed.** Only the arrangement.",
+        "**A steering wheel** is a wheel and axle: a big circle turning a small shaft."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Why ramps",
+      "title": "The oldest trick there is",
+      "text": "An inclined plane lets you raise something without lifting it straight up.",
+      "points": [
+        "**Gentler slope**, less force, longer distance.",
+        "**A wedge** is a ramp that moves into the material.",
+        "**A screw** is a ramp wound round a cylinder.",
+        "**Same idea, three shapes.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "A screw is really which simple machine?",
+        "options": [
+          "A pulley",
+          "An inclined plane wrapped round a cylinder",
+          "A wheel and axle",
+          "A lever"
+        ],
+        "answerIndex": 1,
+        "explain": "Follow the thread with your finger and you are walking up a very long, gentle ramp.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "Your arm is a lever, and not an efficient one",
+      "text": "The joint is the pivot, the muscle pulls close to it, and the load is out at your hand.",
+      "points": [
+        "**Your bicep attaches near the elbow**, so it has a short lever arm.",
+        "**That means it needs large force** to lift a small weight.",
+        "**What you get back is speed and range.** Your hand moves far and fast.",
+        "**The body traded force away** on purpose."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Simple machine",
+          "def": "One of six basic devices that change how a force is applied."
+        },
+        {
+          "term": "Mechanical advantage",
+          "def": "How many times a machine multiplies your force."
+        },
+        {
+          "term": "Lever",
+          "def": "A rigid bar turning on a pivot."
+        },
+        {
+          "term": "Fulcrum",
+          "def": "The pivot point of a lever."
+        },
+        {
+          "term": "Inclined plane",
+          "def": "A ramp — including the wedge and the screw."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Six simple machines; everything else is a combination.",
+        "Less force always costs more distance.",
+        "No machine gives out more than it takes in.",
+        "Your own arm is a lever that trades force for speed."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "How many simple machines are there?",
+      "options": [
+        "Three",
+        "Six",
+        "Ten",
+        "Four"
+      ],
+      "answerIndex": 1,
+      "explain": "Lever, wheel and axle, pulley, inclined plane, wedge and screw.",
+      "objective": "Name the six simple machines and what each one does",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Mechanical advantage means a machine…",
+      "options": [
+        "removes friction",
+        "makes things lighter",
+        "creates extra energy",
+        "multiplies your force, at the cost of distance"
+      ],
+      "answerIndex": 3,
+      "explain": "Force up, distance up too — but in opposite directions. The energy is unchanged.",
+      "objective": "Explain mechanical advantage as a trade, not free power",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "A screw is a variation of which simple machine?",
+      "options": [
+        "Lever",
+        "Wheel and axle",
+        "Pulley",
+        "Inclined plane"
+      ],
+      "answerIndex": 3,
+      "explain": "A ramp wound round a cylinder. The thread is the slope.",
+      "objective": "Name the six simple machines and what each one does",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Using a ramp instead of lifting straight up means…",
+      "options": [
+        "more force over less distance",
+        "less force over a longer distance",
+        "no force at all",
+        "less force over the same distance"
+      ],
+      "answerIndex": 1,
+      "explain": "That is the trade in one sentence.",
+      "objective": "Explain mechanical advantage as a trade, not free power",
+      "seconds": 22
+    },
+    {
+      "type": "truefalse",
+      "text": "A machine can output more energy than it takes in.",
+      "answer": false,
+      "explain": "Never. Output equals input minus friction losses.",
+      "objective": "Explain why a machine can never give out more energy than it takes in",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The pivot point of a lever is called the…",
+      "options": [
+        "fulcrum",
+        "axle",
+        "load",
+        "wedge"
+      ],
+      "answerIndex": 0,
+      "explain": "Fulcrum. The load is what you are moving and the effort is what you apply.",
+      "objective": "Name the six simple machines and what each one does",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "A car's gearbox is an example of…",
+      "options": [
+        "removing friction",
+        "storing energy",
+        "trading turning force against speed",
+        "creating power"
+      ],
+      "answerIndex": 2,
+      "explain": "Low gear buys force with speed; high gear sells it back. Same engine.",
+      "objective": "Identify simple machines inside an everyday object",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Which simple machine is a fan blade acting as?",
+      "options": [
+        "Wedge",
+        "Screw",
+        "Pulley",
+        "Lever"
+      ],
+      "answerIndex": 0,
+      "explain": "It splits the air as it turns, which is what a wedge does.",
+      "objective": "Identify simple machines inside an everyday object",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why does your bicep need a large force to lift a small weight?",
+      "options": [
+        "It attaches close to the elbow, so it has a short lever arm",
+        "Bones are heavy",
+        "Muscles are weak",
+        "Gravity is stronger at the hand"
+      ],
+      "answerIndex": 0,
+      "explain": "The body traded force away to get speed and range at the hand.",
+      "objective": "Identify simple machines inside an everyday object",
+      "seconds": 24
+    },
+    {
+      "type": "multiple",
+      "text": "A steering wheel is which simple machine?",
+      "options": [
+        "Lever",
+        "Wheel and axle",
+        "Wedge",
+        "Pulley"
+      ],
+      "answerIndex": 1,
+      "explain": "A large circle turning a small shaft, which multiplies your turning force.",
+      "objective": "Identify simple machines inside an everyday object",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "A gentler ramp needs less force but a longer journey.",
+      "answer": true,
+      "explain": "The trade again. Slope decides how the same job is divided between force and distance.",
+      "objective": "Explain mechanical advantage as a trade, not free power",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "What does a pulley mainly do?",
+      "options": [
+        "Removes weight",
+        "Creates force",
+        "Redirects a rope, and can multiply force",
+        "Stores energy"
+      ],
+      "answerIndex": 2,
+      "explain": "A single fixed pulley changes direction; adding more multiplies force at the cost of rope pulled.",
+      "objective": "Name the six simple machines and what each one does",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 10 Science, the last teaching week before the exam. Simple machines are framed throughout as a trade rather than as helpers, because 'the machine makes it easier' hides the thing being tested: force down means distance up, and the product is fixed. The fan supplies three of the six machines in one object he has already opened, and the arm-as-lever card closes the term by turning the idea back on his own body, where the trade runs the other way — force given up to buy speed.",
+    "discussion": [
+      "What does a machine actually give you, if not energy?",
+      "Which simple machines are inside a fan?",
+      "Why did your arm evolve to be bad at force?"
+    ],
+    "extension": [
+      "Find all six simple machines in one room.",
+      "Open a pair of scissors and name the two machines in it."
+    ],
+    "misconceptions": [
+      "That machines create force or energy.",
+      "That a screw is unrelated to a ramp.",
+      "That mechanical advantage is free."
+    ]
+  }
+}

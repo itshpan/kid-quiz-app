@@ -1,0 +1,352 @@
+{
+  "id": "sci-t2-w4",
+  "courseId": "science",
+  "courseTitle": "Science",
+  "week": 4,
+  "title": "Separating Solutions",
+  "subtitle": "Evaporation, condensation, distillation, rectification — and what each one keeps.",
+  "estMinutes": 20,
+  "objectives": [
+    "Explain why dissolved substances need a different kind of method",
+    "Describe what evaporation keeps and what it throws away",
+    "Explain the role of condensation in distillation",
+    "Explain what rectification adds to simple distillation"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "💨",
+      "eyebrow": "Part 1 · A different problem",
+      "title": "Nothing from the last two weeks works here",
+      "text": "Filters, sieves, magnets and spinning all need whole pieces. A solution has none. You have to change a state of matter instead."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Evaporation",
+      "title": "Boil the solvent off and keep the solid",
+      "text": "Heat the solution. The liquid leaves as gas and the dissolved solid is left behind.",
+      "points": [
+        "**You keep the solute.** The solvent is gone into the air.",
+        "**Sea salt is made this way**, by sun and wind rather than a flame.",
+        "**It only works** if the solid survives being heated.",
+        "**Useless** if the liquid was the part you wanted."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Condensation",
+      "title": "Catch the gas and it turns back into liquid",
+      "text": "Cooling a gas back to liquid is condensation. It is the step that makes evaporation reversible.",
+      "points": [
+        "**Nothing new is created.** The same molecules change state back.",
+        "**A cold surface** is all it takes — a lid, a window, a coiled tube.",
+        "**Evaporation plus condensation** is the whole trick of distillation.",
+        "**That is why** a pot lid drips."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "Why an air conditioner drips water outside",
+      "text": "Nobody fills it. That water came out of the air in your room, on a cold coil.",
+      "points": [
+        "**Warm air holds water vapour** you cannot see.",
+        "**The cold coil** drops the air below the temperature where it can hold it.",
+        "**So it condenses** on the metal and runs off into a pipe.",
+        "**Same step as a still** — cool a vapour and you get liquid back."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "You want the pure water from salty water. Which do you need?",
+        "options": [
+          "Evaporation and condensation",
+          "Evaporation only",
+          "A magnet",
+          "Filtration"
+        ],
+        "answerIndex": 0,
+        "explain": "Evaporation alone sends the water away. You must condense it to catch it.",
+        "seconds": 24
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Distillation",
+      "title": "The two steps, joined into one machine",
+      "text": "Heat the solution, pipe the vapour somewhere cold, collect what drips out. You keep the liquid this time.",
+      "points": [
+        "**Boil, travel, cool, collect.** Four stages, one apparatus.",
+        "**The distillate** is what you collect. It is the pure solvent.",
+        "**Liquids with different boiling points** come off at different times.",
+        "**This is how** alcohol, perfume and fuel are separated."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "disasters",
+      "icon": "🌊",
+      "eyebrow": "Disaster mode",
+      "title": "After a typhoon, this is the drinking water problem",
+      "text": "Floodwater is dirty and often salty. Filtering gets the mud out and does nothing about the salt.",
+      "points": [
+        "**Boiling kills germs.** It does not remove salt or metals.",
+        "**Distillation removes both**, because only water leaves as vapour.",
+        "**Solar stills** do it with a sheet of plastic and sunshine.",
+        "**Know which problem you have.** Mud and salt need different answers."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Boiling floodwater makes it safe to drink even if it is salty.",
+        "answer": false,
+        "explain": "Boiling deals with germs. Salt stays behind and gets more concentrated as water leaves.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Rectification",
+      "title": "Distilling the distillate, over and over",
+      "text": "One pass is rarely pure. Rectification repeats the boil-and-condense many times in a single tall column.",
+      "points": [
+        "**Each cycle** leaves a little more of the unwanted liquid behind.",
+        "**A fractionating column** stacks dozens of those cycles vertically.",
+        "**Hotter at the bottom, cooler at the top**, so each height catches a different liquid.",
+        "**Crude oil refining** is this at industrial scale."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "Petrol and diesel come out of the same barrel",
+      "text": "Crude oil is a mixture of liquids with different boiling points. A refinery column sorts them by height.",
+      "points": [
+        "**Petrol boils low**, so it rises high up the column.",
+        "**Diesel boils higher**, so it is drawn off lower down.",
+        "**Bitumen for roads** never boils and stays at the bottom.",
+        "**One mixture in, many products out**, by boiling point alone."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Evaporation",
+          "def": "A liquid turning to gas, leaving the dissolved solid behind."
+        },
+        {
+          "term": "Condensation",
+          "def": "A gas cooling back into a liquid."
+        },
+        {
+          "term": "Distillation",
+          "def": "Evaporating then condensing, to collect the pure liquid."
+        },
+        {
+          "term": "Distillate",
+          "def": "The liquid collected at the end of distillation."
+        },
+        {
+          "term": "Rectification",
+          "def": "Repeating distillation many times to get a purer result."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Solutions need a change of state, not a hole or a magnet.",
+        "Evaporation keeps the solid. Distillation keeps the liquid.",
+        "Condensation is the step that catches what evaporation lost.",
+        "Rectification is distillation repeated until it is pure enough."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Why can a filter not separate a solution?",
+      "options": [
+        "Filters only work hot",
+        "Solutions are too thick",
+        "Dissolved particles are smaller than any hole",
+        "Solutions have no solvent"
+      ],
+      "answerIndex": 2,
+      "explain": "Dissolved means single molecules or ions. They pass through every filter.",
+      "objective": "Explain why dissolved substances need a different kind of method",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Evaporating salt water leaves you with…",
+      "options": [
+        "salt",
+        "neither",
+        "pure water",
+        "both, separated"
+      ],
+      "answerIndex": 0,
+      "explain": "The water leaves as vapour. The salt stays in the dish.",
+      "objective": "Describe what evaporation keeps and what it throws away",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "What does condensation do in a still?",
+      "options": [
+        "Heats the mixture",
+        "Turns the vapour back into liquid so it can be collected",
+        "Filters the vapour",
+        "Dissolves the solid"
+      ],
+      "answerIndex": 1,
+      "explain": "Without the cooling step the vapour just escapes and you have plain evaporation.",
+      "objective": "Explain the role of condensation in distillation",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "The liquid collected at the end of distillation is called the…",
+      "options": [
+        "distillate",
+        "filtrate",
+        "residue",
+        "solute"
+      ],
+      "answerIndex": 0,
+      "explain": "Distillate. Residue and filtrate belong to filtration.",
+      "objective": "Explain the role of condensation in distillation",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "Boiling salty water makes it less salty.",
+      "answer": false,
+      "explain": "Water leaves and salt stays, so what remains is saltier, not less.",
+      "objective": "Describe what evaporation keeps and what it throws away",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "What does rectification add to a single distillation?",
+      "options": [
+        "A filter",
+        "Many repeated boil-and-condense cycles for a purer result",
+        "A magnet",
+        "Heat"
+      ],
+      "answerIndex": 1,
+      "explain": "A tall column stacks dozens of cycles, so each pass removes a little more.",
+      "objective": "Explain what rectification adds to simple distillation",
+      "seconds": 24
+    },
+    {
+      "type": "multiple",
+      "text": "In a refinery column, why is petrol drawn off higher than diesel?",
+      "options": [
+        "Petrol is lighter in colour",
+        "Petrol boils at a lower temperature, so its vapour rises further",
+        "Petrol is a solid",
+        "Diesel is magnetic"
+      ],
+      "answerIndex": 1,
+      "explain": "Cooler near the top. A liquid condenses where the temperature matches its boiling point.",
+      "objective": "Explain what rectification adds to simple distillation",
+      "seconds": 24
+    },
+    {
+      "type": "multiple",
+      "text": "You want drinking water from seawater. Which method?",
+      "options": [
+        "Sieving",
+        "Decantation",
+        "Distillation",
+        "Filtration"
+      ],
+      "answerIndex": 2,
+      "explain": "Only water leaves as vapour, so condensing it gives salt-free water.",
+      "objective": "Explain why dissolved substances need a different kind of method",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "Condensation creates new water molecules.",
+      "answer": false,
+      "explain": "The same molecules change state from gas back to liquid. Nothing is created.",
+      "objective": "Explain the role of condensation in distillation",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Sea salt is produced mainly by…",
+      "options": [
+        "filtration",
+        "centrifuging",
+        "distillation",
+        "evaporation using sun and wind"
+      ],
+      "answerIndex": 3,
+      "explain": "Shallow pans, sunshine and wind. The water leaves, the salt is harvested.",
+      "objective": "Describe what evaporation keeps and what it throws away",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Which pair describes distillation correctly?",
+      "options": [
+        "Filter then settle",
+        "Spin then pour",
+        "Sieve then shake",
+        "Boil then condense"
+      ],
+      "answerIndex": 3,
+      "explain": "Evaporate the solvent, then cool the vapour back to liquid and collect it.",
+      "objective": "Explain the role of condensation in distillation",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Bitumen stays at the bottom of a refinery column because…",
+      "options": [
+        "its boiling point is far too high to vaporise",
+        "it is magnetic",
+        "it is the lightest fraction",
+        "it dissolves in diesel"
+      ],
+      "answerIndex": 0,
+      "explain": "It never boils at column temperatures, so it is drawn off as the heavy residue.",
+      "objective": "Explain what rectification adds to simple distillation",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 4 Science. Term 1 Week 10 already distinguished evaporation from distillation, so this week adds the two parts of the scope that were not covered then — condensation as the step that makes distillation possible at all, and rectification as repeated distillation in a column. The refinery card is there because it makes rectification concrete and connects to a standing interest. The typhoon card exists to separate two problems he will otherwise merge: boiling handles germs, distillation handles dissolved salt, and knowing which you have is the actual skill.",
+    "discussion": [
+      "Why does evaporation alone lose the water?",
+      "Why is the top of a refinery column cooler than the bottom?",
+      "Boiling or distilling — which do you need, and when?"
+    ],
+    "extension": [
+      "Put a lid on a pan of simmering salty water and taste the drips from the lid. That is distillation.",
+      "Leave a shallow dish of salt water on a windowsill for a few days."
+    ],
+    "misconceptions": [
+      "That boiling removes salt. It concentrates it.",
+      "That condensation makes new water.",
+      "That one distillation gives something pure. Usually it does not."
+    ]
+  }
+}
