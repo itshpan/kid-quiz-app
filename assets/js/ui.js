@@ -25,6 +25,26 @@ export function weekIsOpen(w) {
     return (w.status === 'live' || w.status === 'exam') && Boolean(w.file || w.external);
 }
 
+/* The catalogue is a list of terms now. Everything that reads it goes through
+   here so "which term am I showing" is answered the same way on every page:
+   the ?t= in the URL, else the one he last looked at, else the active one. */
+export async function loadTerms() {
+    const data = await loadJSON('courses.json');
+    const terms = data.terms || [];
+    if (!terms.length) throw new Error('No terms in courses.json');
+    return { terms, activeTermId: data.activeTerm || terms[0].id };
+}
+
+export function pickTerm({ terms, activeTermId }, wanted) {
+    return terms.find(t => t.id === wanted) || terms.find(t => t.id === activeTermId) || terms[0];
+}
+
+/** Every week across every term — for anything that resolves a lesson id. */
+export function allWeeks(terms) {
+    return terms.flatMap(t => (t.courses || []).flatMap(c =>
+        (c.weeks || []).map(w => ({ ...w, termId: t.id, courseTitle: c.title }))));
+}
+
 export function param(key) {
     return new URLSearchParams(location.search).get(key);
 }

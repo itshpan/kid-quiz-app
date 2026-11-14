@@ -2,8 +2,8 @@
    course.js — one subject, all the weeks of the term.
    ========================================================================== */
 
-import { escapeHtml, param, loadJSON, mountHeader, requireProfile, weekIsOpen } from './ui.js';
-import { getProgress } from './store.js';
+import { escapeHtml, param, loadTerms, pickTerm, mountHeader, requireProfile, weekIsOpen } from './ui.js';
+import { getProgress, getTermId, setTermId } from './store.js';
 
 const CHIP = {
     live: '<span class="chip ready">Ready</span>',
@@ -16,15 +16,17 @@ async function main() {
     await requireProfile();
 
     const page = document.getElementById('coursePage');
-    let data;
+    let catalogue;
     try {
-        data = await loadJSON('courses.json');
+        catalogue = await loadTerms();
     } catch (err) {
         page.innerHTML = `<section class="card"><h2>Couldn't load this subject</h2><p>${escapeHtml(err.message)}</p></section>`;
         return;
     }
 
-    const course = data.courses.find(c => c.id === param('c'));
+    const term = pickTerm(catalogue, param('t') || getTermId(catalogue.activeTermId));
+    setTermId(term.id);
+    const course = (term.courses || []).find(c => c.id === param('c'));
     if (!course) { page.innerHTML = '<p class="muted">Subject not found.</p>'; return; }
 
     document.title = `${course.title} · Learning Lab`;
@@ -34,7 +36,7 @@ async function main() {
     const live = weeks.filter(weekIsOpen).length;
 
     page.innerHTML = `
-        <a class="crumb" href="index.html">← All subjects</a>
+        <a class="crumb" href="index.html?t=${encodeURIComponent(term.id)}">← All subjects</a>
         <div class="row" style="gap:12px;margin-bottom:8px;flex-wrap:nowrap;">
             <span style="font-size:34px;">${course.icon}</span>
             <div>

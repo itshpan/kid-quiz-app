@@ -3,7 +3,7 @@
    Opened with a teacher code; shows every learner in that class.
    ========================================================================== */
 
-import { escapeHtml, mountHeader, param } from './ui.js';
+import { escapeHtml, mountHeader, param, loadTerms } from './ui.js';
 import { getDashboard } from './sync.js';
 import { levelFor } from './store.js';
 import { loadJSON } from './ui.js';
@@ -15,14 +15,14 @@ const recall = () => { try { return localStorage.getItem(KEY); } catch { return 
 let LESSONS = {};   // lessonId -> { title, subject, objectives }
 
 async function loadLessonIndex() {
-    const courses = await loadJSON('courses.json');
-    await Promise.all(courses.courses.flatMap(c =>
+    const { terms } = await loadTerms();
+    await Promise.all(terms.flatMap(t => (t.courses || []).flatMap(c =>
         (c.weeks || []).filter(w => w.file).map(async w => {
             try {
                 const l = await loadJSON(w.file);
                 LESSONS[l.id] = { title: l.title, subject: c.title, quiz: l.quiz, objectives: l.objectives };
             } catch { /* a lesson that won't load simply isn't listed */ }
-        })));
+        }))));
 }
 
 /** Per-objective breakdown for one learner, derived from their quiz scores. */

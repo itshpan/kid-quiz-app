@@ -587,6 +587,21 @@ strong { font-weight: 700; color: var(--ink); }
 .results .msg { font-family: var(--font-ui); font-weight: 700; font-size: calc(19px * var(--scale)); margin: 18px 0 6px; }
 
 /* ---------- Catalogue / weeks ---------- */
+/* Term switcher. A plain segmented control: no sliding indicator, because the
+   selected state has to be readable at a glance, not animated into place. */
+.termswitch {
+    display: inline-flex; gap: 4px; padding: 4px; margin-bottom: 18px;
+    background: var(--surface-2); border: 1px solid var(--line);
+    border-radius: 999px;
+}
+.termswitch a {
+    padding: 8px 16px; border-radius: 999px;
+    font-family: var(--font-ui); font-size: calc(14px * var(--scale)); font-weight: 700;
+    color: var(--ink-soft); text-decoration: none; white-space: nowrap;
+}
+.termswitch a.on { background: var(--accent); color: var(--accent-ink); }
+.termswitch a:not(.on):hover { color: var(--ink); }
+
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));

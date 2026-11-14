@@ -1,1016 +1,1103 @@
 {
-  "term": {
-    "label": "Term 1 · Grade 6",
-    "year": "2026–2027",
-    "weeks": 11,
-    "verse": "Proverbs 16:3 — Commit to the Lord whatever you do, and your plans will succeed."
-  },
-  "courses": [
+  "_note": "The school's real weekly scope. One entry per term; lesson ids are namespaced per term so progress never collides.",
+  "activeTerm": "t1",
+  "terms": [
     {
-      "id": "science",
-      "title": "Science",
-      "tagline": "Body systems, mixtures and living things",
-      "icon": "🧬",
-      "accent": "#4ecdc4",
-      "status": "live",
-      "weeks": [
+      "label": "Term 1 · Grade 6",
+      "year": "2026–2027",
+      "weeks": 11,
+      "verse": "Proverbs 16:3 — Commit to the Lord whatever you do, and your plans will succeed.",
+      "id": "t1",
+      "courses": [
         {
-          "week": 1,
-          "id": "sci-w1",
-          "title": "Skeletal & Muscular Systems",
-          "topics": [
-            "Skeletal System: Bones",
-            "Muscular System: Skeletal, Smooth & Cardiac Muscles"
-          ],
+          "id": "science",
+          "title": "Science",
+          "tagline": "Body systems, mixtures and living things",
+          "icon": "🧬",
+          "accent": "#4ecdc4",
           "status": "live",
-          "file": "science/w1-skeleton.json"
+          "weeks": [
+            {
+              "week": 1,
+              "id": "sci-w1",
+              "title": "Skeletal & Muscular Systems",
+              "topics": [
+                "Skeletal System: Bones",
+                "Muscular System: Skeletal, Smooth & Cardiac Muscles"
+              ],
+              "status": "live",
+              "file": "science/w1-skeleton.json"
+            },
+            {
+              "week": 2,
+              "id": "sci-w2",
+              "title": "Digestive System",
+              "topics": [
+                "Mouth, Esophagus, Stomach, Small & Large Intestines, Rectum & Anus"
+              ],
+              "status": "live",
+              "file": "science/w2-digestive.json"
+            },
+            {
+              "week": 3,
+              "id": "sci-w3",
+              "title": "Integumentary System",
+              "topics": [
+                "Hair, Oil Gland, Sweat Gland, Epidermis, Dermis, Subcutaneous"
+              ],
+              "status": "live",
+              "file": "science/w3-skin.json"
+            },
+            {
+              "week": 4,
+              "id": "sci-w4",
+              "title": "Respiratory & Urinary Systems",
+              "topics": [
+                "Pharynx, Larynx, Trachea, Lungs, Diaphragm",
+                "Kidneys, Ureters, Bladder, Urethra"
+              ],
+              "status": "live",
+              "file": "science/w4-respiratory-urinary.json"
+            },
+            {
+              "week": 5,
+              "id": "sci-w5",
+              "title": "Circulatory & Nervous Systems",
+              "topics": [
+                "Heart, Blood Vessels, Blood",
+                "Brain, Spinal Cord"
+              ],
+              "status": "live",
+              "file": "science/w5-circulatory-nervous.json"
+            },
+            {
+              "week": 6,
+              "id": "sci-w6",
+              "title": "Vertebrates & Invertebrates",
+              "topics": [
+                "Fishes, Amphibians, Reptiles, Birds, Mammals",
+                "Sponges, Cnidarians, Worms, Molluscs, Echinoderms, Arthropods"
+              ],
+              "status": "live",
+              "file": "science/w6-vertebrates-invertebrates.json"
+            },
+            {
+              "week": 7,
+              "id": "sci-w7",
+              "title": "Reproduction",
+              "topics": [
+                "Asexual reproduction of animals and plants",
+                "Sexual reproduction of animals and plants",
+                "Modes of reproduction of animals"
+              ],
+              "status": "live",
+              "file": "science/w7-reproduction.json"
+            },
+            {
+              "week": 8,
+              "id": "sci-w8",
+              "title": "Heterogeneous Mixtures",
+              "topics": [
+                "In nature, human-made, and medicinal"
+              ],
+              "status": "live",
+              "file": "science/w8-heterogeneous-mixtures.json"
+            },
+            {
+              "week": 9,
+              "id": "sci-w9",
+              "title": "Homogeneous Mixtures",
+              "topics": [
+                "Solute & Solvent",
+                "Solubility & Concentration",
+                "Miscible & Immiscible"
+              ],
+              "status": "live",
+              "file": "science/w9-homogeneous-mixtures.json"
+            },
+            {
+              "week": 10,
+              "id": "sci-w10",
+              "title": "Solutions in the Real World",
+              "topics": [
+                "Solutions review and application"
+              ],
+              "status": "live",
+              "file": "science/w10-solutions-applied.json"
+            },
+            {
+              "week": 11,
+              "id": "sci-w11",
+              "title": "Exam Week",
+              "topics": [
+                "Term 1 examination",
+                "Revision + full mock paper"
+              ],
+              "status": "exam",
+              "file": "science/w11-exam.json"
+            }
+          ]
         },
         {
-          "week": 2,
-          "id": "sci-w2",
-          "title": "Digestive System",
-          "topics": [
-            "Mouth, Esophagus, Stomach, Small & Large Intestines, Rectum & Anus"
-          ],
+          "id": "math",
+          "title": "Math",
+          "tagline": "Tessellation, decimals, fractions and ratio",
+          "icon": "📐",
+          "accent": "#f5c542",
           "status": "live",
-          "file": "science/w2-digestive.json"
+          "weeks": [
+            {
+              "week": 1,
+              "id": "math-w1",
+              "title": "Tessellation of Shapes",
+              "topics": [
+                "Tessellation of Shapes"
+              ],
+              "status": "live",
+              "file": "math/w1-tessellation.json"
+            },
+            {
+              "week": 2,
+              "id": "math-w2",
+              "title": "Transformations",
+              "topics": [
+                "Translation, reflection, and rotation with shapes"
+              ],
+              "status": "live",
+              "file": "math/w2-transformations.json"
+            },
+            {
+              "week": 3,
+              "id": "math-w3",
+              "title": "Decimals: Add & Subtract",
+              "topics": [
+                "The four operations with decimals: addition & subtraction"
+              ],
+              "status": "live",
+              "file": "math/w3-decimals-add.json"
+            },
+            {
+              "week": 4,
+              "id": "math-w4",
+              "title": "Comparing & Solving with Decimals",
+              "topics": [
+                "The four operations with decimals: addition & subtraction"
+              ],
+              "status": "live",
+              "file": "math/w4-decimals-compare-solve.json"
+            },
+            {
+              "week": 5,
+              "id": "math-w5",
+              "title": "Decimals: Multiply & Divide",
+              "topics": [
+                "The four operations with decimals: multiplication & division"
+              ],
+              "status": "live",
+              "file": "math/w5-decimals-multiply-divide.json"
+            },
+            {
+              "week": 6,
+              "id": "math-w6",
+              "title": "Decimals: Order of Operations & Rates",
+              "topics": [
+                "The four operations with decimals: multiplication & division"
+              ],
+              "status": "live",
+              "file": "math/w6-decimals-applied.json"
+            },
+            {
+              "week": 7,
+              "id": "math-w7",
+              "title": "Fractions: Add & Subtract",
+              "topics": [
+                "Four operations with combinations of fractions, whole numbers, and mixed numbers"
+              ],
+              "status": "live",
+              "file": "math/w7-fractions-add-subtract.json"
+            },
+            {
+              "week": 8,
+              "id": "math-w8",
+              "title": "Fractions: Multiply & Divide",
+              "topics": [
+                "Four operations with combinations of fractions, whole numbers, and mixed numbers"
+              ],
+              "status": "live",
+              "file": "math/w8-fractions-multiply-divide.json"
+            },
+            {
+              "week": 9,
+              "id": "math-w9",
+              "title": "Ratio and Proportion",
+              "topics": [
+                "Ratio and proportion"
+              ],
+              "status": "live",
+              "file": "math/w9-ratio-proportion.json"
+            },
+            {
+              "week": 10,
+              "id": "math-w10",
+              "title": "Ratio & Proportion Applied",
+              "topics": [
+                "Ratio and proportion"
+              ],
+              "status": "live",
+              "file": "math/w10-ratio-applied.json"
+            },
+            {
+              "week": 11,
+              "id": "math-w11",
+              "title": "Exam Week",
+              "topics": [
+                "Term 1 examination",
+                "Revision + full mock paper"
+              ],
+              "status": "exam",
+              "file": "math/w11-exam.json"
+            }
+          ],
+          "bonus": {
+            "id": "math-surface-area",
+            "title": "Surface Area Trainer",
+            "summary": "The original quiz app — prisms, cylinders, pyramids",
+            "external": "practice/index.html"
+          }
         },
         {
-          "week": 3,
-          "id": "sci-w3",
-          "title": "Integumentary System",
-          "topics": [
-            "Hair, Oil Gland, Sweat Gland, Epidermis, Dermis, Subcutaneous"
-          ],
+          "id": "english",
+          "title": "English",
+          "tagline": "Grammar plus Don Quixote, chapter by chapter",
+          "icon": "📖",
+          "accent": "#ff6b9d",
           "status": "live",
-          "file": "science/w3-skin.json"
+          "note": "Literature strand: <em>Stories of Don Quixote Written Anew for Children</em> by James Baldwin.",
+          "weeks": [
+            {
+              "week": 1,
+              "id": "eng-w1",
+              "title": "Singular & Plural Nouns",
+              "topics": [
+                "Singular and Plural Forms of Nouns",
+                "Don Quixote Ch. 1: Getting Ready for Adventures"
+              ],
+              "status": "live",
+              "file": "english/w1-nouns-quixote.json"
+            },
+            {
+              "week": 2,
+              "id": "eng-w2",
+              "title": "Quantifiers",
+              "topics": [
+                "Quantifiers for count nouns",
+                "Quantifiers for noncount nouns",
+                "Don Quixote Ch. 2: The Adventure at the Inn"
+              ],
+              "status": "live",
+              "file": "english/w2-quantifiers-quixote.json"
+            },
+            {
+              "week": 3,
+              "id": "eng-w3",
+              "title": "Possessive Nouns",
+              "topics": [
+                "Possessive form of nouns ('s and ')",
+                "Don Quixote Ch. 3: The Adventure with the Farmer"
+              ],
+              "status": "live",
+              "file": "english/w3-possessives-quixote.json"
+            },
+            {
+              "week": 4,
+              "id": "eng-w4",
+              "title": "Possessive Determiners & Pronouns",
+              "topics": [
+                "Possessive determiners and possessive pronouns",
+                "Don Quixote Ch. 4: The Adventure with the Merchants"
+              ],
+              "status": "live",
+              "file": "english/w4-possessive-pronouns-quixote.json"
+            },
+            {
+              "week": 5,
+              "id": "eng-w5",
+              "title": "Pronoun-Antecedent Agreement",
+              "topics": [
+                "Pronoun antecedent agreement",
+                "Don Quixote Ch. 5: The Library"
+              ],
+              "status": "live",
+              "file": "english/w5-pronoun-agreement-quixote.json"
+            },
+            {
+              "week": 6,
+              "id": "eng-w6",
+              "title": "Compound Personal Pronouns",
+              "topics": [
+                "Compound personal pronouns",
+                "Don Quixote Ch. 6: The Choosing of a Squire"
+              ],
+              "status": "live",
+              "file": "english/w6-compound-personal-pronouns.json"
+            },
+            {
+              "week": 7,
+              "id": "eng-w7",
+              "title": "Reflexive Pronouns",
+              "topics": [
+                "Reflexive pronouns",
+                "Don Quixote Ch. 7: The Adventure with the Windmills"
+              ],
+              "status": "live",
+              "file": "english/w7-reflexive-pronouns.json"
+            },
+            {
+              "week": 8,
+              "id": "eng-w8",
+              "title": "Simple Present Tense",
+              "topics": [
+                "Simple present tense",
+                "Don Quixote Ch. 8: The Adventure with the Monks"
+              ],
+              "status": "live",
+              "file": "english/w8-simple-present.json"
+            },
+            {
+              "week": 9,
+              "id": "eng-w9",
+              "title": "Subject-Verb Agreement",
+              "topics": [
+                "Subject-verb agreement",
+                "Don Quixote Ch. 9: The Lost Helmet"
+              ],
+              "status": "live",
+              "file": "english/w9-subject-verb-agreement.json"
+            },
+            {
+              "week": 10,
+              "id": "eng-w10",
+              "title": "Subject-Verb Agreement Applied",
+              "topics": [
+                "Subject-verb agreement",
+                "Don Quixote Ch. 10: The Adventure with the Sheep"
+              ],
+              "status": "live",
+              "file": "english/w10-agreement-applied.json"
+            },
+            {
+              "week": 11,
+              "id": "eng-w11",
+              "title": "Exam Week",
+              "topics": [
+                "Term 1 examination",
+                "Revision + full mock paper"
+              ],
+              "status": "exam",
+              "file": "english/w11-exam.json"
+            }
+          ]
         },
         {
-          "week": 4,
-          "id": "sci-w4",
-          "title": "Respiratory & Urinary Systems",
-          "topics": [
-            "Pharynx, Larynx, Trachea, Lungs, Diaphragm",
-            "Kidneys, Ureters, Bladder, Urethra"
-          ],
+          "id": "social-studies",
+          "title": "Social Studies",
+          "tagline": "The Philippines, colonisation and nationhood",
+          "icon": "🌏",
+          "accent": "#a855f7",
           "status": "live",
-          "file": "science/w4-respiratory-urinary.json"
+          "weeks": [
+            {
+              "week": 1,
+              "id": "ss-w1",
+              "title": "The Philippines as Part of the World",
+              "topics": [
+                "The Philippines as Part of the World"
+              ],
+              "status": "live",
+              "file": "social-studies/w1-philippines-world.json"
+            },
+            {
+              "week": 2,
+              "id": "ss-w2",
+              "title": "The Emergence of Filipino Nationalism",
+              "topics": [
+                "The Emergence of Filipino Nationalism"
+              ],
+              "status": "live",
+              "file": "social-studies/w2-nationalism.json"
+            },
+            {
+              "week": 3,
+              "id": "ss-w3",
+              "title": "The Reform Movement",
+              "topics": [
+                "The Reform Movement"
+              ],
+              "status": "live",
+              "file": "social-studies/w3-reform-movement.json"
+            },
+            {
+              "week": 4,
+              "id": "ss-w4",
+              "title": "The Reform Movement: Rizal",
+              "topics": [
+                "The Reform Movement"
+              ],
+              "status": "live",
+              "file": "social-studies/w4-rizal-reform.json"
+            },
+            {
+              "week": 5,
+              "id": "ss-w5",
+              "title": "Revolution & First Philippine Republic",
+              "topics": [
+                "Filipino Revolution and First Philippine Republic"
+              ],
+              "status": "live",
+              "file": "social-studies/w5-revolution-republic.json"
+            },
+            {
+              "week": 6,
+              "id": "ss-w6",
+              "title": "The Malolos Republic",
+              "topics": [
+                "Filipino Revolution and First Philippine Republic"
+              ],
+              "status": "live",
+              "file": "social-studies/w6-malolos-republic.json"
+            },
+            {
+              "week": 7,
+              "id": "ss-w7",
+              "title": "The Filipino-American War",
+              "topics": [
+                "Filipino-American War"
+              ],
+              "status": "live",
+              "file": "social-studies/w7-filipino-american-war.json"
+            },
+            {
+              "week": 8,
+              "id": "ss-w8",
+              "title": "American Colonial Government",
+              "topics": [
+                "Establishment of Military and Civil Governments"
+              ],
+              "status": "live",
+              "file": "social-studies/w8-colonial-government.json"
+            },
+            {
+              "week": 9,
+              "id": "ss-w9",
+              "title": "The Schurman Commission",
+              "topics": [
+                "American Colonial Government: The Schurman Commission"
+              ],
+              "status": "live",
+              "file": "social-studies/w9-schurman-commission.json"
+            },
+            {
+              "week": 10,
+              "id": "ss-w10",
+              "title": "Social Changes Under American Rule",
+              "topics": [
+                "Social Changes During the American Colonization"
+              ],
+              "status": "live",
+              "file": "social-studies/w10-social-changes.json"
+            },
+            {
+              "week": 11,
+              "id": "ss-w11",
+              "title": "Exam Week",
+              "topics": [
+                "Term 1 examination",
+                "Revision + full mock paper"
+              ],
+              "status": "exam",
+              "file": "social-studies/w11-exam.json"
+            }
+          ]
         },
         {
-          "week": 5,
-          "id": "sci-w5",
-          "title": "Circulatory & Nervous Systems",
-          "topics": [
-            "Heart, Blood Vessels, Blood",
-            "Brain, Spinal Cord"
-          ],
+          "id": "filipino",
+          "title": "Filipino",
+          "tagline": "Ortograpiya, salita at pagbasa ng Supremo",
+          "icon": "🇵🇭",
+          "accent": "#fb923c",
           "status": "live",
-          "file": "science/w5-circulatory-nervous.json"
+          "note": "Strand ng pagbasa: <em>Supremo</em>, kapitulo bawat linggo.",
+          "weeks": [
+            {
+              "week": 1,
+              "id": "fil-w1",
+              "title": "Ang Ortograpiyang Filipino",
+              "topics": [
+                "Ang Ortograpiyang Filipino",
+                "PAGBASA: Supremo (Kapitulo 1 at 2)"
+              ],
+              "status": "live",
+              "file": "filipino/w1-ortograpiya.json"
+            },
+            {
+              "week": 2,
+              "id": "fil-w2",
+              "title": "Pagbuo ng Salita",
+              "topics": [
+                "Pagbuo ng Salita",
+                "PAGBASA: Supremo (Kapitulo 3 at 4)"
+              ],
+              "status": "live",
+              "file": "filipino/w2-pagbuo-salita.json"
+            },
+            {
+              "week": 3,
+              "id": "fil-w3",
+              "title": "Kayarian ng Salita",
+              "topics": [
+                "Kayarian ng Salita",
+                "PAGBASA: Supremo (Kapitulo 5 at 6)"
+              ],
+              "status": "live",
+              "file": "filipino/w3-kayarian-salita.json"
+            },
+            {
+              "week": 4,
+              "id": "fil-w4",
+              "title": "Bahagi at Ayos ng Pangungusap",
+              "topics": [
+                "Bahagi at ayos ng pangungusap",
+                "PAGBASA: Supremo (Kapitulo 7)"
+              ],
+              "status": "live",
+              "file": "filipino/w4-bahagi-ayos-pangungusap.json"
+            },
+            {
+              "week": 5,
+              "id": "fil-w5",
+              "title": "Kayarian ng Pangungusap",
+              "topics": [
+                "Kayarian ng Pangungusap",
+                "PAGBASA: Supremo (Kapitulo 8)"
+              ],
+              "status": "live",
+              "file": "filipino/w5-kayarian-pangungusap.json"
+            },
+            {
+              "week": 6,
+              "id": "fil-w6",
+              "title": "Uri ng Pangungusap ayon sa Gamit",
+              "topics": [
+                "Uri ng Pangungusap ayon sa Gamit",
+                "PAGBASA: Supremo (Kapitulo 9)"
+              ],
+              "status": "live",
+              "file": "filipino/w6-uri-pangungusap.json"
+            },
+            {
+              "week": 7,
+              "id": "fil-w7",
+              "title": "Mga Pangungusap na Walang Paksa",
+              "topics": [
+                "Mga pangungusap na walang paksa",
+                "PAGBASA: Supremo (Kapitulo 10)"
+              ],
+              "status": "live",
+              "file": "filipino/w7-walang-paksa.json"
+            },
+            {
+              "week": 8,
+              "id": "fil-w8",
+              "title": "Uri ng Pangngalan",
+              "topics": [
+                "Uri ng Pangngalan",
+                "PAGBASA: Supremo (Kapitulo 11)"
+              ],
+              "status": "live",
+              "file": "filipino/w8-uri-pangngalan.json"
+            },
+            {
+              "week": 9,
+              "id": "fil-w9",
+              "title": "Kasarian ng Pangngalan",
+              "topics": [
+                "Kasarian ng Pangngalan",
+                "PAGBASA: Supremo (Kapitulo 12)"
+              ],
+              "status": "live",
+              "file": "filipino/w9-kasarian-pangngalan.json"
+            },
+            {
+              "week": 10,
+              "id": "fil-w10",
+              "title": "Kailanan ng Pangngalan",
+              "topics": [
+                "Kailanan ng Pangngalan",
+                "PAGBASA: Supremo (Kapitulo 13)"
+              ],
+              "status": "live",
+              "file": "filipino/w10-kailanan-pangngalan.json"
+            },
+            {
+              "week": 11,
+              "id": "fil-w11",
+              "title": "Exam Week",
+              "topics": [
+                "Pagsusulit sa Unang Markahan",
+                "Reviewer + 24 na tanong"
+              ],
+              "status": "exam",
+              "file": "filipino/w11-pagsusulit.json"
+            }
+          ]
         },
         {
-          "week": 6,
-          "id": "sci-w6",
-          "title": "Vertebrates & Invertebrates",
-          "topics": [
-            "Fishes, Amphibians, Reptiles, Birds, Mammals",
-            "Sponges, Cnidarians, Worms, Molluscs, Echinoderms, Arthropods"
-          ],
+          "id": "mapeh",
+          "title": "MAPEH",
+          "tagline": "Music, art, PE and health",
+          "icon": "🎵",
+          "accent": "#22c55e",
           "status": "live",
-          "file": "science/w6-vertebrates-invertebrates.json"
+          "weeks": [
+            {
+              "week": 1,
+              "id": "mapeh-w1",
+              "title": "Branches of Music · Personal Space",
+              "topics": [
+                "Exploring the Branches of Music",
+                "My Personal Space Awareness"
+              ],
+              "status": "live",
+              "file": "mapeh/w1-music-branches-space.json"
+            },
+            {
+              "week": 2,
+              "id": "mapeh-w2",
+              "title": "Music Genres Around the World",
+              "topics": [
+                "Music Genres Around the World"
+              ],
+              "status": "live",
+              "file": "mapeh/w2-music-genres.json"
+            },
+            {
+              "week": 3,
+              "id": "mapeh-w3",
+              "title": "Filipino Folk Music & OPM",
+              "topics": [
+                "Filipino Folk Music & OPM"
+              ],
+              "status": "live",
+              "file": "mapeh/w3-folk-opm.json"
+            },
+            {
+              "week": 4,
+              "id": "mapeh-w4",
+              "title": "Elements of Art Around Us",
+              "topics": [
+                "Elements of Art Around Us"
+              ],
+              "status": "live",
+              "file": "mapeh/w4-elements-of-art.json"
+            },
+            {
+              "week": 5,
+              "id": "mapeh-w5",
+              "title": "Traditional & Modern Art Styles",
+              "topics": [
+                "Traditional & Modern Art Styles"
+              ],
+              "status": "live",
+              "file": "mapeh/w5-art-styles.json"
+            },
+            {
+              "week": 6,
+              "id": "mapeh-w6",
+              "title": "Colors, Symbols & Visual Design",
+              "topics": [
+                "Colors, Symbols & Visual Design"
+              ],
+              "status": "live",
+              "file": "mapeh/w6-colors-symbols-design.json"
+            },
+            {
+              "week": 7,
+              "id": "mapeh-w7",
+              "title": "Sports & Movement Categories",
+              "topics": [
+                "Sports & Movement Categories"
+              ],
+              "status": "live",
+              "file": "mapeh/w7-sports-movement.json"
+            },
+            {
+              "week": 8,
+              "id": "mapeh-w8",
+              "title": "Healthy Habits & Wellness",
+              "topics": [
+                "Healthy Habits & Wellness"
+              ],
+              "status": "live",
+              "file": "mapeh/w8-healthy-habits.json"
+            },
+            {
+              "week": 9,
+              "id": "mapeh-w9",
+              "title": "Fitness & Teamwork",
+              "topics": [
+                "Introduction to Fitness & Teamwork"
+              ],
+              "status": "live",
+              "file": "mapeh/w9-fitness-teamwork.json"
+            },
+            {
+              "week": 10,
+              "id": "mapeh-w10",
+              "title": "Personal Hygiene & Self-Care",
+              "topics": [
+                "Personal Hygiene & Self-Care"
+              ],
+              "status": "live",
+              "file": "mapeh/w10-hygiene-self-care.json"
+            },
+            {
+              "week": 11,
+              "id": "mapeh-w11",
+              "title": "Performance Assessment & Showcase",
+              "topics": [
+                "Performance assessment and showcase",
+                "Rubric + term review"
+              ],
+              "status": "exam",
+              "file": "mapeh/w11-showcase.json"
+            }
+          ]
         },
         {
-          "week": 7,
-          "id": "sci-w7",
-          "title": "Reproduction",
-          "topics": [
-            "Asexual reproduction of animals and plants",
-            "Sexual reproduction of animals and plants",
-            "Modes of reproduction of animals"
-          ],
+          "id": "tle",
+          "title": "TLE",
+          "tagline": "Organising space, materials and digital life",
+          "icon": "🧰",
+          "accent": "#4ecdc4",
           "status": "live",
-          "file": "science/w7-reproduction.json"
+          "weeks": [
+            {
+              "week": 1,
+              "id": "tle-w1",
+              "title": "Firm Foundations",
+              "topics": [
+                "Firm Foundations"
+              ],
+              "status": "live",
+              "file": "tle/w1-firm-foundations.json"
+            },
+            {
+              "week": 2,
+              "id": "tle-w2",
+              "title": "Daily Routine & Scheduling",
+              "topics": [
+                "Daily Routine & Scheduling"
+              ],
+              "status": "live",
+              "file": "tle/w2-routine-scheduling.json"
+            },
+            {
+              "week": 3,
+              "id": "tle-w3",
+              "title": "Decluttering My Space",
+              "topics": [
+                "Decluttering My Space"
+              ],
+              "status": "live",
+              "file": "tle/w3-decluttering.json"
+            },
+            {
+              "week": 4,
+              "id": "tle-w4",
+              "title": "Bed & Sleeping Area Organization",
+              "topics": [
+                "Bed & Sleeping Area Organization"
+              ],
+              "status": "live",
+              "file": "tle/w4-bed-sleeping-area.json"
+            },
+            {
+              "week": 5,
+              "id": "tle-w5",
+              "title": "Clothes & Storage Organization",
+              "topics": [
+                "Clothes & Storage Organization"
+              ],
+              "status": "live",
+              "file": "tle/w5-clothes-storage.json"
+            },
+            {
+              "week": 6,
+              "id": "tle-w6",
+              "title": "Personal Hygiene & Self-Care",
+              "topics": [
+                "Personal Hygiene & Self-Care"
+              ],
+              "status": "live",
+              "file": "tle/w6-self-care-system.json"
+            },
+            {
+              "week": 7,
+              "id": "tle-w7",
+              "title": "Organizing School Materials",
+              "topics": [
+                "Organizing School Materials"
+              ],
+              "status": "live",
+              "file": "tle/w7-school-materials.json"
+            },
+            {
+              "week": 8,
+              "id": "tle-w8",
+              "title": "Organizing Digital Files",
+              "topics": [
+                "Organizing Digital Files"
+              ],
+              "status": "live",
+              "file": "tle/w8-digital-files.json"
+            },
+            {
+              "week": 9,
+              "id": "tle-w9",
+              "title": "Home Responsibility & Independence",
+              "topics": [
+                "Home Responsibility & Independence"
+              ],
+              "status": "live",
+              "file": "tle/w9-home-responsibility.json"
+            },
+            {
+              "week": 10,
+              "id": "tle-w10",
+              "title": "Digital Portfolio & Integration Project",
+              "topics": [
+                "Digital Portfolio Making",
+                "Integration Project – My Organized Life"
+              ],
+              "status": "live",
+              "file": "tle/w10-digital-portfolio.json"
+            },
+            {
+              "week": 11,
+              "id": "tle-w11",
+              "title": "Performance Assessment & Showcase",
+              "topics": [
+                "Performance assessment and showcase",
+                "Rubric + term review"
+              ],
+              "status": "exam",
+              "file": "tle/w11-showcase.json"
+            }
+          ]
         },
         {
-          "week": 8,
-          "id": "sci-w8",
-          "title": "Heterogeneous Mixtures",
-          "topics": [
-            "In nature, human-made, and medicinal"
-          ],
+          "id": "devotion",
+          "title": "Devotion",
+          "tagline": "Character themes for the term",
+          "icon": "🕊️",
+          "accent": "#f5c542",
           "status": "live",
-          "file": "science/w8-heterogeneous-mixtures.json"
-        },
-        {
-          "week": 9,
-          "id": "sci-w9",
-          "title": "Homogeneous Mixtures",
-          "topics": [
-            "Solute & Solvent",
-            "Solubility & Concentration",
-            "Miscible & Immiscible"
-          ],
-          "status": "live",
-          "file": "science/w9-homogeneous-mixtures.json"
-        },
-        {
-          "week": 10,
-          "id": "sci-w10",
-          "title": "Solutions in the Real World",
-          "topics": [
-            "Solutions review and application"
-          ],
-          "status": "live",
-          "file": "science/w10-solutions-applied.json"
-        },
-        {
-          "week": 11,
-          "id": "sci-w11",
-          "title": "Exam Week",
-          "topics": [
-            "Term 1 examination",
-            "Revision + full mock paper"
-          ],
-          "status": "exam",
-          "file": "science/w11-exam.json"
+          "note": "Term verse: <em>Proverbs 16:3 — Commit to the Lord whatever you do, and your plans will succeed.</em>",
+          "weeks": [
+            {
+              "week": 1,
+              "id": "dev-w1",
+              "title": "Firm Foundations",
+              "topics": [
+                "Firm Foundations"
+              ],
+              "status": "live",
+              "file": "devotion/w1-firm-foundations.json"
+            },
+            {
+              "week": 2,
+              "id": "dev-w2",
+              "title": "Trust & Obedience",
+              "topics": [
+                "Trust & Obedience"
+              ],
+              "status": "live",
+              "file": "devotion/w2-trust-obedience.json"
+            },
+            {
+              "week": 3,
+              "id": "dev-w3",
+              "title": "Faith That Moves Mountains",
+              "topics": [
+                "Faith That Moves Mountains"
+              ],
+              "status": "live",
+              "file": "devotion/w3-faith-mountains.json"
+            },
+            {
+              "week": 4,
+              "id": "dev-w4",
+              "title": "Loving By God's Word",
+              "topics": [
+                "Loving By God's Word"
+              ],
+              "status": "live",
+              "file": "devotion/w4-loving-by-word.json"
+            },
+            {
+              "week": 5,
+              "id": "dev-w5",
+              "title": "Prayer That Connects",
+              "topics": [
+                "Prayer That Connects"
+              ],
+              "status": "live",
+              "file": "devotion/w5-prayer-connects.json"
+            },
+            {
+              "week": 6,
+              "id": "dev-w6",
+              "title": "Worship from the Heart",
+              "topics": [
+                "Worship from the Heart"
+              ],
+              "status": "live",
+              "file": "devotion/w6-worship-heart.json"
+            },
+            {
+              "week": 7,
+              "id": "dev-w7",
+              "title": "Persevering in Trials",
+              "topics": [
+                "Persevering in Trials"
+              ],
+              "status": "live",
+              "file": "devotion/w7-persevering-trials.json"
+            },
+            {
+              "week": 8,
+              "id": "dev-w8",
+              "title": "Honesty in All Things",
+              "topics": [
+                "Honesty in All Things"
+              ],
+              "status": "live",
+              "file": "devotion/w8-honesty.json"
+            },
+            {
+              "week": 9,
+              "id": "dev-w9",
+              "title": "Humility & Service",
+              "topics": [
+                "Humility & Service"
+              ],
+              "status": "live",
+              "file": "devotion/w9-humility-service.json"
+            },
+            {
+              "week": 10,
+              "id": "dev-w10",
+              "title": "Courage to Stand for Truth",
+              "topics": [
+                "Courage to Stand for Truth"
+              ],
+              "status": "live",
+              "file": "devotion/w10-courage-truth.json"
+            },
+            {
+              "week": 11,
+              "id": "dev-w11",
+              "title": "Showcase",
+              "topics": [
+                "Term showcase",
+                "Looking back over the term"
+              ],
+              "status": "exam",
+              "file": "devotion/w11-showcase.json"
+            }
+          ]
         }
       ]
     },
     {
-      "id": "math",
-      "title": "Math",
-      "tagline": "Tessellation, decimals, fractions and ratio",
-      "icon": "📐",
-      "accent": "#f5c542",
-      "status": "live",
-      "weeks": [
-        {
-          "week": 1,
-          "id": "math-w1",
-          "title": "Tessellation of Shapes",
-          "topics": [
-            "Tessellation of Shapes"
-          ],
-          "status": "live",
-          "file": "math/w1-tessellation.json"
-        },
-        {
-          "week": 2,
-          "id": "math-w2",
-          "title": "Transformations",
-          "topics": [
-            "Translation, reflection, and rotation with shapes"
-          ],
-          "status": "live",
-          "file": "math/w2-transformations.json"
-        },
-        {
-          "week": 3,
-          "id": "math-w3",
-          "title": "Decimals: Add & Subtract",
-          "topics": [
-            "The four operations with decimals: addition & subtraction"
-          ],
-          "status": "live",
-          "file": "math/w3-decimals-add.json"
-        },
-        {
-          "week": 4,
-          "id": "math-w4",
-          "title": "Comparing & Solving with Decimals",
-          "topics": [
-            "The four operations with decimals: addition & subtraction"
-          ],
-          "status": "live",
-          "file": "math/w4-decimals-compare-solve.json"
-        },
-        {
-          "week": 5,
-          "id": "math-w5",
-          "title": "Decimals: Multiply & Divide",
-          "topics": [
-            "The four operations with decimals: multiplication & division"
-          ],
-          "status": "live",
-          "file": "math/w5-decimals-multiply-divide.json"
-        },
-        {
-          "week": 6,
-          "id": "math-w6",
-          "title": "Decimals: Order of Operations & Rates",
-          "topics": [
-            "The four operations with decimals: multiplication & division"
-          ],
-          "status": "live",
-          "file": "math/w6-decimals-applied.json"
-        },
-        {
-          "week": 7,
-          "id": "math-w7",
-          "title": "Fractions: Add & Subtract",
-          "topics": [
-            "Four operations with combinations of fractions, whole numbers, and mixed numbers"
-          ],
-          "status": "live",
-          "file": "math/w7-fractions-add-subtract.json"
-        },
-        {
-          "week": 8,
-          "id": "math-w8",
-          "title": "Fractions: Multiply & Divide",
-          "topics": [
-            "Four operations with combinations of fractions, whole numbers, and mixed numbers"
-          ],
-          "status": "live",
-          "file": "math/w8-fractions-multiply-divide.json"
-        },
-        {
-          "week": 9,
-          "id": "math-w9",
-          "title": "Ratio and Proportion",
-          "topics": [
-            "Ratio and proportion"
-          ],
-          "status": "live",
-          "file": "math/w9-ratio-proportion.json"
-        },
-        {
-          "week": 10,
-          "id": "math-w10",
-          "title": "Ratio & Proportion Applied",
-          "topics": [
-            "Ratio and proportion"
-          ],
-          "status": "live",
-          "file": "math/w10-ratio-applied.json"
-        },
-        {
-          "week": 11,
-          "id": "math-w11",
-          "title": "Exam Week",
-          "topics": [
-            "Term 1 examination",
-            "Revision + full mock paper"
-          ],
-          "status": "exam",
-          "file": "math/w11-exam.json"
-        }
-      ],
-      "bonus": {
-        "id": "math-surface-area",
-        "title": "Surface Area Trainer",
-        "summary": "The original quiz app — prisms, cylinders, pyramids",
-        "external": "practice/index.html"
-      }
-    },
-    {
-      "id": "english",
-      "title": "English",
-      "tagline": "Grammar plus Don Quixote, chapter by chapter",
-      "icon": "📖",
-      "accent": "#ff6b9d",
-      "status": "live",
-      "note": "Literature strand: <em>Stories of Don Quixote Written Anew for Children</em> by James Baldwin.",
-      "weeks": [
-        {
-          "week": 1,
-          "id": "eng-w1",
-          "title": "Singular & Plural Nouns",
-          "topics": [
-            "Singular and Plural Forms of Nouns",
-            "Don Quixote Ch. 1: Getting Ready for Adventures"
-          ],
-          "status": "live",
-          "file": "english/w1-nouns-quixote.json"
-        },
-        {
-          "week": 2,
-          "id": "eng-w2",
-          "title": "Quantifiers",
-          "topics": [
-            "Quantifiers for count nouns",
-            "Quantifiers for noncount nouns",
-            "Don Quixote Ch. 2: The Adventure at the Inn"
-          ],
-          "status": "live",
-          "file": "english/w2-quantifiers-quixote.json"
-        },
-        {
-          "week": 3,
-          "id": "eng-w3",
-          "title": "Possessive Nouns",
-          "topics": [
-            "Possessive form of nouns ('s and ')",
-            "Don Quixote Ch. 3: The Adventure with the Farmer"
-          ],
-          "status": "live",
-          "file": "english/w3-possessives-quixote.json"
-        },
-        {
-          "week": 4,
-          "id": "eng-w4",
-          "title": "Possessive Determiners & Pronouns",
-          "topics": [
-            "Possessive determiners and possessive pronouns",
-            "Don Quixote Ch. 4: The Adventure with the Merchants"
-          ],
-          "status": "live",
-          "file": "english/w4-possessive-pronouns-quixote.json"
-        },
-        {
-          "week": 5,
-          "id": "eng-w5",
-          "title": "Pronoun-Antecedent Agreement",
-          "topics": [
-            "Pronoun antecedent agreement",
-            "Don Quixote Ch. 5: The Library"
-          ],
-          "status": "live",
-          "file": "english/w5-pronoun-agreement-quixote.json"
-        },
-        {
-          "week": 6,
-          "id": "eng-w6",
-          "title": "Compound Personal Pronouns",
-          "topics": [
-            "Compound personal pronouns",
-            "Don Quixote Ch. 6: The Choosing of a Squire"
-          ],
-          "status": "live",
-          "file": "english/w6-compound-personal-pronouns.json"
-        },
-        {
-          "week": 7,
-          "id": "eng-w7",
-          "title": "Reflexive Pronouns",
-          "topics": [
-            "Reflexive pronouns",
-            "Don Quixote Ch. 7: The Adventure with the Windmills"
-          ],
-          "status": "live",
-          "file": "english/w7-reflexive-pronouns.json"
-        },
-        {
-          "week": 8,
-          "id": "eng-w8",
-          "title": "Simple Present Tense",
-          "topics": [
-            "Simple present tense",
-            "Don Quixote Ch. 8: The Adventure with the Monks"
-          ],
-          "status": "live",
-          "file": "english/w8-simple-present.json"
-        },
-        {
-          "week": 9,
-          "id": "eng-w9",
-          "title": "Subject-Verb Agreement",
-          "topics": [
-            "Subject-verb agreement",
-            "Don Quixote Ch. 9: The Lost Helmet"
-          ],
-          "status": "live",
-          "file": "english/w9-subject-verb-agreement.json"
-        },
-        {
-          "week": 10,
-          "id": "eng-w10",
-          "title": "Subject-Verb Agreement Applied",
-          "topics": [
-            "Subject-verb agreement",
-            "Don Quixote Ch. 10: The Adventure with the Sheep"
-          ],
-          "status": "live",
-          "file": "english/w10-agreement-applied.json"
-        },
-        {
-          "week": 11,
-          "id": "eng-w11",
-          "title": "Exam Week",
-          "topics": [
-            "Term 1 examination",
-            "Revision + full mock paper"
-          ],
-          "status": "exam",
-          "file": "english/w11-exam.json"
-        }
-      ]
-    },
-    {
-      "id": "social-studies",
-      "title": "Social Studies",
-      "tagline": "The Philippines, colonisation and nationhood",
-      "icon": "🌏",
-      "accent": "#a855f7",
-      "status": "live",
-      "weeks": [
-        {
-          "week": 1,
-          "id": "ss-w1",
-          "title": "The Philippines as Part of the World",
-          "topics": [
-            "The Philippines as Part of the World"
-          ],
-          "status": "live",
-          "file": "social-studies/w1-philippines-world.json"
-        },
-        {
-          "week": 2,
-          "id": "ss-w2",
-          "title": "The Emergence of Filipino Nationalism",
-          "topics": [
-            "The Emergence of Filipino Nationalism"
-          ],
-          "status": "live",
-          "file": "social-studies/w2-nationalism.json"
-        },
-        {
-          "week": 3,
-          "id": "ss-w3",
-          "title": "The Reform Movement",
-          "topics": [
-            "The Reform Movement"
-          ],
-          "status": "live",
-          "file": "social-studies/w3-reform-movement.json"
-        },
-        {
-          "week": 4,
-          "id": "ss-w4",
-          "title": "The Reform Movement: Rizal",
-          "topics": [
-            "The Reform Movement"
-          ],
-          "status": "live",
-          "file": "social-studies/w4-rizal-reform.json"
-        },
-        {
-          "week": 5,
-          "id": "ss-w5",
-          "title": "Revolution & First Philippine Republic",
-          "topics": [
-            "Filipino Revolution and First Philippine Republic"
-          ],
-          "status": "live",
-          "file": "social-studies/w5-revolution-republic.json"
-        },
-        {
-          "week": 6,
-          "id": "ss-w6",
-          "title": "The Malolos Republic",
-          "topics": [
-            "Filipino Revolution and First Philippine Republic"
-          ],
-          "status": "live",
-          "file": "social-studies/w6-malolos-republic.json"
-        },
-        {
-          "week": 7,
-          "id": "ss-w7",
-          "title": "The Filipino-American War",
-          "topics": [
-            "Filipino-American War"
-          ],
-          "status": "live",
-          "file": "social-studies/w7-filipino-american-war.json"
-        },
-        {
-          "week": 8,
-          "id": "ss-w8",
-          "title": "American Colonial Government",
-          "topics": [
-            "Establishment of Military and Civil Governments"
-          ],
-          "status": "live",
-          "file": "social-studies/w8-colonial-government.json"
-        },
-        {
-          "week": 9,
-          "id": "ss-w9",
-          "title": "The Schurman Commission",
-          "topics": [
-            "American Colonial Government: The Schurman Commission"
-          ],
-          "status": "live",
-          "file": "social-studies/w9-schurman-commission.json"
-        },
-        {
-          "week": 10,
-          "id": "ss-w10",
-          "title": "Social Changes Under American Rule",
-          "topics": [
-            "Social Changes During the American Colonization"
-          ],
-          "status": "live",
-          "file": "social-studies/w10-social-changes.json"
-        },
-        {
-          "week": 11,
-          "id": "ss-w11",
-          "title": "Exam Week",
-          "topics": [
-            "Term 1 examination",
-            "Revision + full mock paper"
-          ],
-          "status": "exam",
-          "file": "social-studies/w11-exam.json"
-        }
-      ]
-    },
-    {
-      "id": "filipino",
-      "title": "Filipino",
-      "tagline": "Ortograpiya, salita at pagbasa ng Supremo",
-      "icon": "🇵🇭",
-      "accent": "#fb923c",
-      "status": "live",
-      "note": "Strand ng pagbasa: <em>Supremo</em>, kapitulo bawat linggo.",
-      "weeks": [
-        {
-          "week": 1,
-          "id": "fil-w1",
-          "title": "Ang Ortograpiyang Filipino",
-          "topics": [
-            "Ang Ortograpiyang Filipino",
-            "PAGBASA: Supremo (Kapitulo 1 at 2)"
-          ],
-          "status": "live",
-          "file": "filipino/w1-ortograpiya.json"
-        },
-        {
-          "week": 2,
-          "id": "fil-w2",
-          "title": "Pagbuo ng Salita",
-          "topics": [
-            "Pagbuo ng Salita",
-            "PAGBASA: Supremo (Kapitulo 3 at 4)"
-          ],
-          "status": "live",
-          "file": "filipino/w2-pagbuo-salita.json"
-        },
-        {
-          "week": 3,
-          "id": "fil-w3",
-          "title": "Kayarian ng Salita",
-          "topics": [
-            "Kayarian ng Salita",
-            "PAGBASA: Supremo (Kapitulo 5 at 6)"
-          ],
-          "status": "live",
-          "file": "filipino/w3-kayarian-salita.json"
-        },
-        {
-          "week": 4,
-          "id": "fil-w4",
-          "title": "Bahagi at Ayos ng Pangungusap",
-          "topics": [
-            "Bahagi at ayos ng pangungusap",
-            "PAGBASA: Supremo (Kapitulo 7)"
-          ],
-          "status": "live",
-          "file": "filipino/w4-bahagi-ayos-pangungusap.json"
-        },
-        {
-          "week": 5,
-          "id": "fil-w5",
-          "title": "Kayarian ng Pangungusap",
-          "topics": [
-            "Kayarian ng Pangungusap",
-            "PAGBASA: Supremo (Kapitulo 8)"
-          ],
-          "status": "live",
-          "file": "filipino/w5-kayarian-pangungusap.json"
-        },
-        {
-          "week": 6,
-          "id": "fil-w6",
-          "title": "Uri ng Pangungusap ayon sa Gamit",
-          "topics": [
-            "Uri ng Pangungusap ayon sa Gamit",
-            "PAGBASA: Supremo (Kapitulo 9)"
-          ],
-          "status": "live",
-          "file": "filipino/w6-uri-pangungusap.json"
-        },
-        {
-          "week": 7,
-          "id": "fil-w7",
-          "title": "Mga Pangungusap na Walang Paksa",
-          "topics": [
-            "Mga pangungusap na walang paksa",
-            "PAGBASA: Supremo (Kapitulo 10)"
-          ],
-          "status": "live",
-          "file": "filipino/w7-walang-paksa.json"
-        },
-        {
-          "week": 8,
-          "id": "fil-w8",
-          "title": "Uri ng Pangngalan",
-          "topics": [
-            "Uri ng Pangngalan",
-            "PAGBASA: Supremo (Kapitulo 11)"
-          ],
-          "status": "live",
-          "file": "filipino/w8-uri-pangngalan.json"
-        },
-        {
-          "week": 9,
-          "id": "fil-w9",
-          "title": "Kasarian ng Pangngalan",
-          "topics": [
-            "Kasarian ng Pangngalan",
-            "PAGBASA: Supremo (Kapitulo 12)"
-          ],
-          "status": "live",
-          "file": "filipino/w9-kasarian-pangngalan.json"
-        },
-        {
-          "week": 10,
-          "id": "fil-w10",
-          "title": "Kailanan ng Pangngalan",
-          "topics": [
-            "Kailanan ng Pangngalan",
-            "PAGBASA: Supremo (Kapitulo 13)"
-          ],
-          "status": "live",
-          "file": "filipino/w10-kailanan-pangngalan.json"
-        },
-        {
-          "week": 11,
-          "id": "fil-w11",
-          "title": "Exam Week",
-          "topics": [
-            "Pagsusulit sa Unang Markahan",
-            "Reviewer + 24 na tanong"
-          ],
-          "status": "exam",
-          "file": "filipino/w11-pagsusulit.json"
-        }
-      ]
-    },
-    {
-      "id": "mapeh",
-      "title": "MAPEH",
-      "tagline": "Music, art, PE and health",
-      "icon": "🎵",
-      "accent": "#22c55e",
-      "status": "live",
-      "weeks": [
-        {
-          "week": 1,
-          "id": "mapeh-w1",
-          "title": "Branches of Music · Personal Space",
-          "topics": [
-            "Exploring the Branches of Music",
-            "My Personal Space Awareness"
-          ],
-          "status": "live",
-          "file": "mapeh/w1-music-branches-space.json"
-        },
-        {
-          "week": 2,
-          "id": "mapeh-w2",
-          "title": "Music Genres Around the World",
-          "topics": [
-            "Music Genres Around the World"
-          ],
-          "status": "live",
-          "file": "mapeh/w2-music-genres.json"
-        },
-        {
-          "week": 3,
-          "id": "mapeh-w3",
-          "title": "Filipino Folk Music & OPM",
-          "topics": [
-            "Filipino Folk Music & OPM"
-          ],
-          "status": "live",
-          "file": "mapeh/w3-folk-opm.json"
-        },
-        {
-          "week": 4,
-          "id": "mapeh-w4",
-          "title": "Elements of Art Around Us",
-          "topics": [
-            "Elements of Art Around Us"
-          ],
-          "status": "live",
-          "file": "mapeh/w4-elements-of-art.json"
-        },
-        {
-          "week": 5,
-          "id": "mapeh-w5",
-          "title": "Traditional & Modern Art Styles",
-          "topics": [
-            "Traditional & Modern Art Styles"
-          ],
-          "status": "live",
-          "file": "mapeh/w5-art-styles.json"
-        },
-        {
-          "week": 6,
-          "id": "mapeh-w6",
-          "title": "Colors, Symbols & Visual Design",
-          "topics": [
-            "Colors, Symbols & Visual Design"
-          ],
-          "status": "live",
-          "file": "mapeh/w6-colors-symbols-design.json"
-        },
-        {
-          "week": 7,
-          "id": "mapeh-w7",
-          "title": "Sports & Movement Categories",
-          "topics": [
-            "Sports & Movement Categories"
-          ],
-          "status": "live",
-          "file": "mapeh/w7-sports-movement.json"
-        },
-        {
-          "week": 8,
-          "id": "mapeh-w8",
-          "title": "Healthy Habits & Wellness",
-          "topics": [
-            "Healthy Habits & Wellness"
-          ],
-          "status": "live",
-          "file": "mapeh/w8-healthy-habits.json"
-        },
-        {
-          "week": 9,
-          "id": "mapeh-w9",
-          "title": "Fitness & Teamwork",
-          "topics": [
-            "Introduction to Fitness & Teamwork"
-          ],
-          "status": "live",
-          "file": "mapeh/w9-fitness-teamwork.json"
-        },
-        {
-          "week": 10,
-          "id": "mapeh-w10",
-          "title": "Personal Hygiene & Self-Care",
-          "topics": [
-            "Personal Hygiene & Self-Care"
-          ],
-          "status": "live",
-          "file": "mapeh/w10-hygiene-self-care.json"
-        },
-        {
-          "week": 11,
-          "id": "mapeh-w11",
-          "title": "Performance Assessment & Showcase",
-          "topics": [
-            "Performance assessment and showcase",
-            "Rubric + term review"
-          ],
-          "status": "exam",
-          "file": "mapeh/w11-showcase.json"
-        }
-      ]
-    },
-    {
-      "id": "tle",
-      "title": "TLE",
-      "tagline": "Organising space, materials and digital life",
-      "icon": "🧰",
-      "accent": "#4ecdc4",
-      "status": "live",
-      "weeks": [
-        {
-          "week": 1,
-          "id": "tle-w1",
-          "title": "Firm Foundations",
-          "topics": [
-            "Firm Foundations"
-          ],
-          "status": "live",
-          "file": "tle/w1-firm-foundations.json"
-        },
-        {
-          "week": 2,
-          "id": "tle-w2",
-          "title": "Daily Routine & Scheduling",
-          "topics": [
-            "Daily Routine & Scheduling"
-          ],
-          "status": "live",
-          "file": "tle/w2-routine-scheduling.json"
-        },
-        {
-          "week": 3,
-          "id": "tle-w3",
-          "title": "Decluttering My Space",
-          "topics": [
-            "Decluttering My Space"
-          ],
-          "status": "live",
-          "file": "tle/w3-decluttering.json"
-        },
-        {
-          "week": 4,
-          "id": "tle-w4",
-          "title": "Bed & Sleeping Area Organization",
-          "topics": [
-            "Bed & Sleeping Area Organization"
-          ],
-          "status": "live",
-          "file": "tle/w4-bed-sleeping-area.json"
-        },
-        {
-          "week": 5,
-          "id": "tle-w5",
-          "title": "Clothes & Storage Organization",
-          "topics": [
-            "Clothes & Storage Organization"
-          ],
-          "status": "live",
-          "file": "tle/w5-clothes-storage.json"
-        },
-        {
-          "week": 6,
-          "id": "tle-w6",
-          "title": "Personal Hygiene & Self-Care",
-          "topics": [
-            "Personal Hygiene & Self-Care"
-          ],
-          "status": "live",
-          "file": "tle/w6-self-care-system.json"
-        },
-        {
-          "week": 7,
-          "id": "tle-w7",
-          "title": "Organizing School Materials",
-          "topics": [
-            "Organizing School Materials"
-          ],
-          "status": "live",
-          "file": "tle/w7-school-materials.json"
-        },
-        {
-          "week": 8,
-          "id": "tle-w8",
-          "title": "Organizing Digital Files",
-          "topics": [
-            "Organizing Digital Files"
-          ],
-          "status": "live",
-          "file": "tle/w8-digital-files.json"
-        },
-        {
-          "week": 9,
-          "id": "tle-w9",
-          "title": "Home Responsibility & Independence",
-          "topics": [
-            "Home Responsibility & Independence"
-          ],
-          "status": "live",
-          "file": "tle/w9-home-responsibility.json"
-        },
-        {
-          "week": 10,
-          "id": "tle-w10",
-          "title": "Digital Portfolio & Integration Project",
-          "topics": [
-            "Digital Portfolio Making",
-            "Integration Project – My Organized Life"
-          ],
-          "status": "live",
-          "file": "tle/w10-digital-portfolio.json"
-        },
-        {
-          "week": 11,
-          "id": "tle-w11",
-          "title": "Performance Assessment & Showcase",
-          "topics": [
-            "Performance assessment and showcase",
-            "Rubric + term review"
-          ],
-          "status": "exam",
-          "file": "tle/w11-showcase.json"
-        }
-      ]
-    },
-    {
-      "id": "devotion",
-      "title": "Devotion",
-      "tagline": "Character themes for the term",
-      "icon": "🕊️",
-      "accent": "#f5c542",
-      "status": "live",
-      "note": "Term verse: <em>Proverbs 16:3 — Commit to the Lord whatever you do, and your plans will succeed.</em>",
-      "weeks": [
-        {
-          "week": 1,
-          "id": "dev-w1",
-          "title": "Firm Foundations",
-          "topics": [
-            "Firm Foundations"
-          ],
-          "status": "live",
-          "file": "devotion/w1-firm-foundations.json"
-        },
-        {
-          "week": 2,
-          "id": "dev-w2",
-          "title": "Trust & Obedience",
-          "topics": [
-            "Trust & Obedience"
-          ],
-          "status": "live",
-          "file": "devotion/w2-trust-obedience.json"
-        },
-        {
-          "week": 3,
-          "id": "dev-w3",
-          "title": "Faith That Moves Mountains",
-          "topics": [
-            "Faith That Moves Mountains"
-          ],
-          "status": "live",
-          "file": "devotion/w3-faith-mountains.json"
-        },
-        {
-          "week": 4,
-          "id": "dev-w4",
-          "title": "Loving By God's Word",
-          "topics": [
-            "Loving By God's Word"
-          ],
-          "status": "live",
-          "file": "devotion/w4-loving-by-word.json"
-        },
-        {
-          "week": 5,
-          "id": "dev-w5",
-          "title": "Prayer That Connects",
-          "topics": [
-            "Prayer That Connects"
-          ],
-          "status": "live",
-          "file": "devotion/w5-prayer-connects.json"
-        },
-        {
-          "week": 6,
-          "id": "dev-w6",
-          "title": "Worship from the Heart",
-          "topics": [
-            "Worship from the Heart"
-          ],
-          "status": "live",
-          "file": "devotion/w6-worship-heart.json"
-        },
-        {
-          "week": 7,
-          "id": "dev-w7",
-          "title": "Persevering in Trials",
-          "topics": [
-            "Persevering in Trials"
-          ],
-          "status": "live",
-          "file": "devotion/w7-persevering-trials.json"
-        },
-        {
-          "week": 8,
-          "id": "dev-w8",
-          "title": "Honesty in All Things",
-          "topics": [
-            "Honesty in All Things"
-          ],
-          "status": "live",
-          "file": "devotion/w8-honesty.json"
-        },
-        {
-          "week": 9,
-          "id": "dev-w9",
-          "title": "Humility & Service",
-          "topics": [
-            "Humility & Service"
-          ],
-          "status": "live",
-          "file": "devotion/w9-humility-service.json"
-        },
-        {
-          "week": 10,
-          "id": "dev-w10",
-          "title": "Courage to Stand for Truth",
-          "topics": [
-            "Courage to Stand for Truth"
-          ],
-          "status": "live",
-          "file": "devotion/w10-courage-truth.json"
-        },
-        {
-          "week": 11,
-          "id": "dev-w11",
-          "title": "Showcase",
-          "topics": [
-            "Term showcase",
-            "Looking back over the term"
-          ],
-          "status": "exam",
-          "file": "devotion/w11-showcase.json"
+      "id": "t2",
+      "label": "Term 2 · Grade 6",
+      "year": "2026–2027",
+      "weeks": 0,
+      "verse": "",
+      "scopeLoaded": false,
+      "courses": [
+        {
+          "id": "science",
+          "title": "Science",
+          "tagline": "Body systems, mixtures and living things",
+          "icon": "🧬",
+          "accent": "#4ecdc4",
+          "status": "planned",
+          "weeks": []
+        },
+        {
+          "id": "math",
+          "title": "Math",
+          "tagline": "Tessellation, decimals, fractions and ratio",
+          "icon": "📐",
+          "accent": "#f5c542",
+          "status": "planned",
+          "weeks": []
+        },
+        {
+          "id": "english",
+          "title": "English",
+          "tagline": "Grammar plus Don Quixote, chapter by chapter",
+          "icon": "📖",
+          "accent": "#ff6b9d",
+          "status": "planned",
+          "weeks": []
+        },
+        {
+          "id": "social-studies",
+          "title": "Social Studies",
+          "tagline": "The Philippines, colonisation and nationhood",
+          "icon": "🌏",
+          "accent": "#a855f7",
+          "status": "planned",
+          "weeks": []
+        },
+        {
+          "id": "filipino",
+          "title": "Filipino",
+          "tagline": "Ortograpiya, salita at pagbasa ng Supremo",
+          "icon": "🇵🇭",
+          "accent": "#fb923c",
+          "status": "planned",
+          "weeks": []
+        },
+        {
+          "id": "mapeh",
+          "title": "MAPEH",
+          "tagline": "Music, art, PE and health",
+          "icon": "🎵",
+          "accent": "#22c55e",
+          "status": "planned",
+          "weeks": []
+        },
+        {
+          "id": "tle",
+          "title": "TLE",
+          "tagline": "Organising space, materials and digital life",
+          "icon": "🧰",
+          "accent": "#4ecdc4",
+          "status": "planned",
+          "weeks": []
+        },
+        {
+          "id": "devotion",
+          "title": "Devotion",
+          "tagline": "Character themes for the term",
+          "icon": "🕊️",
+          "accent": "#f5c542",
+          "status": "planned",
+          "weeks": []
         }
       ]
     }

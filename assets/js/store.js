@@ -14,6 +14,7 @@ const K = {
     active: 'learningLab_activeProfile',
     progress: id => `learningLab_progress_${id}`,
     settings: 'learningLab_settings',
+    term: 'learningLab_term',
     // legacy keys from the single-file quiz app, read once for migration
     legacyProfiles: 'kidQuizApp_users',
     legacyActive: 'kidQuizApp_activeUser'
@@ -42,6 +43,17 @@ export function saveSettings(patch) {
     const next = { ...getSettings(), ...patch };
     write(K.settings, next);
     return next;
+}
+
+/* Which term he is looking at. A view preference, not progress: it is per
+   device and never syncs. Progress itself is keyed by lesson id, and Term 1
+   ids were left alone when terms were introduced, so nothing he earned moved. */
+export function getTermId(fallback = null) {
+    return read(K.term, null) || fallback;
+}
+
+export function setTermId(id) {
+    write(K.term, id);
 }
 
 export const AVATARS = ['🦊', '🐱', '🐶', '🐼', '🦁', '🐸', '🦄', '🐵', '🐰', '🐧', '🦋', '🐢', '🚗', '🥊', '🪐', '👾'];

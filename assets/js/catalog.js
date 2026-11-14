@@ -2,31 +2,48 @@
    catalog.js — home page. Every subject in the term.
    ========================================================================== */
 
-import { escapeHtml, loadJSON, mountHeader, requireProfile, weekIsOpen } from './ui.js';
-import { getProgress, levelFor, getActiveProfile } from './store.js';
+import { escapeHtml, param, loadTerms, pickTerm, mountHeader, requireProfile, weekIsOpen } from './ui.js';
+import { getProgress, levelFor, getActiveProfile, getTermId, setTermId } from './store.js';
 
 async function main() {
     mountHeader();
     await requireProfile();
 
     const page = document.getElementById('catalogPage');
-    let data;
+    let catalogue;
     try {
-        data = await loadJSON('courses.json');
+        catalogue = await loadTerms();
     } catch (err) {
         page.innerHTML = `<section class="card"><h2>Couldn't load the subjects</h2><p>${escapeHtml(err.message)}</p></section>`;
         return;
     }
+
+    const term = pickTerm(catalogue, param('t') || getTermId(catalogue.activeTermId));
+    setTermId(term.id);
+    const data = term;
 
     const progress = getProgress();
     const lv = levelFor(progress.xp);
     const profile = getActiveProfile();
     const ready = data.courses.flatMap(c => (c.weeks || []).filter(weekIsOpen));
 
+    /* Only shown once there is more than one term to choose between. */
+    const switcher = catalogue.terms.length > 1 ? `
+        <div class="termswitch" role="tablist" aria-label="Which term">
+            ${catalogue.terms.map(t => `
+                <a role="tab" href="index.html?t=${encodeURIComponent(t.id)}"
+                   aria-selected="${t.id === term.id}"
+                   class="${t.id === term.id ? 'on' : ''}">${escapeHtml(t.label.split('·')[0].trim())}</a>`).join('')}
+        </div>` : '';
+
     page.innerHTML = `
-        <div class="eyebrow">${escapeHtml(data.term.label)}</div>
+        ${switcher}
+        <div class="eyebrow">${escapeHtml(data.label)}</div>
         <h1 style="margin:6px 0 10px;">Hey ${escapeHtml(profile.name)}</h1>
-        <p class="lede">${ready.length} lesson${ready.length === 1 ? '' : 's'} ready. Pick a subject.</p>
+        <p class="lede">${
+            ready.length ? `${ready.length} lesson${ready.length === 1 ? '' : 's'} ready. Pick a subject.`
+                         : 'Nothing here yet — this term\u2019s plan has not been added.'
+        }</p>
 
         <section class="card" style="margin:22px 0;padding:18px;">
             <div class="between" style="margin-bottom:10px;">
@@ -47,11 +64,15 @@ async function main() {
                 const weeks = c.weeks || [];
                 const live = weeks.filter(weekIsOpen).length;
                 const done = weeks.filter(w => progress.lessonsCompleted.includes(w.id)).length;
-                return `<a class="subject" href="course.html?c=${encodeURIComponent(c.id)}" style="--sub:${c.accent}">
+                return `<a class="subject" href="course.html?t=${encodeURIComponent(term.id)}&c=${encodeURIComponent(c.id)}" style="--sub:${c.accent}">
                     <span class="ico">${c.icon}</span>
                     <h3>${escapeHtml(c.title)}</h3>
                     <p>${escapeHtml(c.tagline)}</p>
-                    <span class="chip ${live ? 'ready' : ''}">${live ? `${live} ready` : `${weeks.length} weeks planned`}</span>
+                    <span class="chip ${live ? 'ready' : ''}">${
+                        live ? `${live} ready`
+                             : weeks.length ? `${weeks.length} weeks planned`
+                                            : 'not planned yet'
+                    }</span>
                     ${done ? `<span class="chip ready">${done} done</span>` : ''}
                 </a>`;
             }).join('')}
