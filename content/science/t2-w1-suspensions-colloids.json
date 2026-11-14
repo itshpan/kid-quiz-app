@@ -1,0 +1,451 @@
+{
+  "id": "sci-t2-w1",
+  "courseId": "science",
+  "courseTitle": "Science",
+  "week": 1,
+  "title": "Suspensions & Colloids",
+  "subtitle": "You already know one settles and one does not. This is why.",
+  "estMinutes": 20,
+  "objectives": [
+    "Use particle size to place a mixture as a solution, a colloid or a suspension",
+    "Explain why a suspension settles and a colloid does not",
+    "Name the five kinds of colloid and give an example of each",
+    "Explain what an emulsifier does",
+    "Explain why the Tyndall effect happens, not only that it happens"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🔦",
+      "eyebrow": "Part 1 · The real dividing line",
+      "title": "Last term you learned the test. Now the reason",
+      "text": "A suspension settles. A colloid does not. True — but it is a symptom, not the cause. The cause is size."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The numbers",
+      "title": "Three bands, measured in nanometres",
+      "text": "A nanometre is a millionth of a millimetre. Everything here is decided by how big the scattered bits are.",
+      "points": [
+        "**Solution:** under 1 nm. Single molecules or ions.",
+        "**Colloid:** 1 nm to 1000 nm. Too big to dissolve, too small to fall.",
+        "**Suspension:** over 1000 nm. Big enough for gravity to win.",
+        "**Same substance** can be any of the three. It is the size, not the stuff."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Why one falls",
+      "title": "Gravity pulls on everything. It only wins sometimes",
+      "text": "Water molecules are moving and they bombard anything floating in them, millions of times a second.",
+      "points": [
+        "**A suspension particle** is heavy enough that gravity beats the bombardment.",
+        "**A colloid particle** is light enough that the knocking keeps it up.",
+        "**That random knocking** has a name: Brownian motion.",
+        "**Nothing is holding it up.** It is being hit from every side at once."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why does a colloid not settle?",
+        "options": [
+          "Its particles dissolve into the liquid",
+          "Its particles are light enough that molecular bombardment keeps them up",
+          "Gravity does not act on particles that small",
+          "The liquid is too thick for anything to sink"
+        ],
+        "answerIndex": 1,
+        "explain": "Gravity still pulls on them. The constant knocking from moving liquid molecules just wins.",
+        "seconds": 25
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "Your blood does both, depending on what you do to it",
+      "text": "Blood is red cells carried in plasma. Leave it alone in a tube and the cells sink.",
+      "points": [
+        "**Standing still**, red cells settle out and leave straw-coloured plasma above.",
+        "**Doctors measure that**, and how fast it happens says something about inflammation.",
+        "**In your veins** it never settles, because it never stops moving.",
+        "**Plasma itself** is a colloid — proteins too small to fall out."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "disasters",
+      "icon": "🌊",
+      "eyebrow": "Disaster mode",
+      "title": "Floodwater is brown because it is a suspension",
+      "text": "Fast water carries soil and sand. The water is not dyed — it is holding solid pieces.",
+      "points": [
+        "**Moving water** keeps heavy particles up by sheer force.",
+        "**When it slows**, gravity wins and the silt drops out.",
+        "**That is how** river deltas and flood plains get built.",
+        "**Volcanic ash** is the same idea in air: solid specks held up in a gas."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Floodwater is brown because the soil has dissolved in it.",
+        "answer": false,
+        "explain": "Not dissolved — suspended. The pieces are still whole, and they drop out when the water slows.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Part 1 done",
+      "title": "Size decides everything",
+      "points": [
+        "Under 1 nm dissolves. Over 1000 nm falls. Between the two, it floats.",
+        "Settling is the symptom. Particle size is the cause."
+      ]
+    },
+    {
+      "kind": "open",
+      "icon": "🥛",
+      "eyebrow": "Part 2 · The five kinds",
+      "title": "A colloid is a size, not a substance",
+      "text": "Anything can be a colloid if its pieces land in that band. Solid, liquid or gas, in solid, liquid or gas."
+    },
+    {
+      "kind": "figure",
+      "figure": "colloidKinds",
+      "title": "Tap each kind",
+      "text": "Named by what is spread through what. Two quiz questions come from this."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Forcing two liquids together",
+      "title": "Oil and water, made to stay mixed",
+      "text": "Shake oil and water and it separates in seconds. An emulsifier is what stops that.",
+      "points": [
+        "**An emulsifier molecule** has a water-loving end and an oil-loving end.",
+        "**It sits on the boundary** of every droplet, holding the two apart.",
+        "**Egg yolk does this** in mayonnaise. That is the whole trick.",
+        "**Without one**, the droplets find each other and merge back."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "Why you shake a paint can and not a fuel can",
+      "text": "Car paint is pigment held in liquid. Petrol is a solution. One separates on the shelf, one never does.",
+      "points": [
+        "**Pigment** is solid and big enough to settle. Shake it or you spray clear liquid.",
+        "**Metallic paint** carries aluminium flakes — the sparkle is suspended metal.",
+        "**Petrol** is dissolved, under a nanometre. Shaking it changes nothing.",
+        "**Medicine bottles** say shake well for exactly the paint reason."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What does an emulsifier actually do?",
+        "options": [
+          "It dissolves the oil into the water",
+          "It makes the droplets heavier so they sink",
+          "It sits on the droplet boundary so the droplets cannot merge",
+          "It reacts with the oil to make a new substance"
+        ],
+        "answerIndex": 2,
+        "explain": "One end likes water, the other likes oil. It parks on the edge and keeps the droplets apart.",
+        "seconds": 25
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Two parts done. The light part is next, and it is the best one."
+    },
+    {
+      "kind": "open",
+      "icon": "💡",
+      "eyebrow": "Part 3 · Why the beam shows",
+      "title": "The Tyndall effect, and the reason behind it",
+      "text": "Shine a torch through a solution and you see nothing. Through a colloid and the beam appears."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The mechanism",
+      "title": "Particles the size of the light itself",
+      "text": "Visible light has a wavelength around 400 to 700 nanometres. Look at that number again.",
+      "points": [
+        "**Colloid particles are 1 to 1000 nm** — the same ballpark as the light.",
+        "**Something that size** scatters light sideways, so you see the beam.",
+        "**Solution particles** are far too small to interfere with it.",
+        "**That is the test:** a visible beam means colloid or bigger."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Gaming mode",
+      "title": "God rays are this effect, drawn on purpose",
+      "text": "Those shafts of light through a window or a forest canopy are a rendering of real scattering.",
+      "points": [
+        "**In the real world** the beam shows because dust or mist is scattering it.",
+        "**Clean air shows nothing.** No particles, no visible shaft.",
+        "**Engines call it** volumetric lighting, and it is expensive to draw.",
+        "**Switch fog off** in the settings and the shafts go with it."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "disasters",
+      "icon": "🌫️",
+      "eyebrow": "Disaster mode",
+      "title": "Fog lights point down for a reason",
+      "text": "Fog is a colloid — water droplets in air. Your headlights light up the fog instead of the road.",
+      "points": [
+        "**Main beams scatter** off the droplets and glare straight back at you.",
+        "**Fog lights sit low** and aim down, under most of the scattering.",
+        "**Full beam in fog** makes it worse, not better.",
+        "**Same physics** as the torch in the colloid. Just inconvenient."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why can you see a torch beam in fog but not in clear air?",
+        "options": [
+          "Fog is denser, so light travels slower",
+          "Fog droplets are about the size of light's wavelength and scatter it sideways",
+          "Water glows faintly when light hits it",
+          "Clear air absorbs the light completely"
+        ],
+        "answerIndex": 1,
+        "explain": "Scattering, not glowing. The droplets throw light sideways into your eye, so the beam shows.",
+        "seconds": 25
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Colloid",
+          "def": "Particles 1–1000 nm spread through another substance. They do not settle."
+        },
+        {
+          "term": "Suspension",
+          "def": "Particles over 1000 nm. Left alone, they settle out."
+        },
+        {
+          "term": "Brownian motion",
+          "def": "Random knocking by moving molecules that keeps colloid particles up."
+        },
+        {
+          "term": "Emulsion",
+          "def": "A colloid of one liquid inside another, like milk."
+        },
+        {
+          "term": "Emulsifier",
+          "def": "A molecule that sits on a droplet's edge and stops an emulsion separating."
+        },
+        {
+          "term": "Tyndall effect",
+          "def": "Light scattering off colloid particles, which makes the beam visible."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Size sets the class: under 1 nm, 1–1000 nm, over 1000 nm.",
+        "Suspensions settle because gravity beats the bombardment.",
+        "Colloids come in five kinds, named by what is in what.",
+        "A visible beam means the particles are colloid-sized or bigger."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Which size range makes a mixture a colloid?",
+      "options": [
+        "Under 1 nm",
+        "Over 1000 nm",
+        "Between 1 nm and 1000 nm",
+        "Exactly 500 nm"
+      ],
+      "answerIndex": 2,
+      "explain": "Below 1 nm it dissolves. Above 1000 nm it settles. In between, it stays spread out.",
+      "objective": "Use particle size to place a mixture as a solution, a colloid or a suspension",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A suspension settles because…",
+      "options": [
+        "its particles are heavy enough for gravity to beat molecular bombardment",
+        "its particles dissolve and then fall",
+        "the liquid pushes them down",
+        "it has no emulsifier"
+      ],
+      "answerIndex": 0,
+      "explain": "Gravity acts on every particle. In a suspension it wins; in a colloid the knocking wins.",
+      "objective": "Explain why a suspension settles and a colloid does not",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Milk is which kind of colloid?",
+      "options": [
+        "Foam",
+        "Sol",
+        "Aerosol",
+        "Emulsion"
+      ],
+      "answerIndex": 3,
+      "explain": "Fat droplets spread through water — liquid in liquid, which is an emulsion.",
+      "objective": "Name the five kinds of colloid and give an example of each",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Whipped cream is mostly air held in liquid. That makes it a…",
+      "options": [
+        "gel",
+        "foam",
+        "sol",
+        "suspension"
+      ],
+      "answerIndex": 1,
+      "explain": "Gas in a liquid is a foam. Most of its volume is air.",
+      "objective": "Name the five kinds of colloid and give an example of each",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Fog is water droplets floating in air. Which kind of colloid is that?",
+      "options": [
+        "Aerosol",
+        "Emulsion",
+        "Gel",
+        "Sol"
+      ],
+      "answerIndex": 0,
+      "explain": "Anything dispersed in a gas is an aerosol — fog is liquid in air, smoke is solid in air.",
+      "objective": "Name the five kinds of colloid and give an example of each",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "Brownian motion means the particles are swimming under their own power.",
+      "answer": false,
+      "explain": "They are being knocked about by moving liquid molecules. Nothing is powering them.",
+      "objective": "Explain why a suspension settles and a colloid does not",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "What does an emulsifier do to two liquids that normally separate?",
+      "options": [
+        "Dissolves one into the other",
+        "Makes them chemically react",
+        "Coats each droplet so the droplets cannot join back up",
+        "Thickens them both until nothing can move"
+      ],
+      "answerIndex": 2,
+      "explain": "A water-loving end and an oil-loving end let it sit on every boundary and hold them apart.",
+      "objective": "Explain what an emulsifier does",
+      "seconds": 24
+    },
+    {
+      "type": "multiple",
+      "text": "Why does a torch beam show up in a colloid but not in a solution?",
+      "options": [
+        "Colloids are always darker",
+        "Colloid particles are close to the wavelength of light and scatter it sideways",
+        "Solutions absorb all the light",
+        "Colloid particles give off their own light"
+      ],
+      "answerIndex": 1,
+      "explain": "Scattering, not absorbing or glowing. Visible light is 400–700 nm, right in the colloid band.",
+      "objective": "Explain why the Tyndall effect happens, not only that it happens",
+      "seconds": 25
+    },
+    {
+      "type": "multiple",
+      "text": "Why do car fog lights sit low and point down?",
+      "options": [
+        "To save power",
+        "Because fog scatters a high beam straight back at the driver",
+        "To warn other drivers",
+        "Because low light travels further"
+      ],
+      "answerIndex": 1,
+      "explain": "Fog is a colloid. Aim a main beam into it and the glare comes back at you.",
+      "objective": "Explain why the Tyndall effect happens, not only that it happens",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Why does a paint tin need shaking but a tank of petrol does not?",
+      "options": [
+        "Paint is colder",
+        "Paint pigment is a suspension that settles; petrol is a solution",
+        "Petrol evaporates instead",
+        "Paint is a gel"
+      ],
+      "answerIndex": 1,
+      "explain": "Pigment particles are big enough to sink. Dissolved petrol is under a nanometre and cannot.",
+      "objective": "Use particle size to place a mixture as a solution, a colloid or a suspension",
+      "seconds": 22
+    },
+    {
+      "type": "truefalse",
+      "text": "Left standing in a tube, blood separates into red cells and plasma.",
+      "answer": true,
+      "explain": "Red cells are big enough to settle. How fast they do is a real medical measurement.",
+      "objective": "Explain why a suspension settles and a colloid does not",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Which of these would NOT show the Tyndall effect?",
+      "options": [
+        "Milk",
+        "Fog",
+        "Salt dissolved in water",
+        "Smoke"
+      ],
+      "answerIndex": 2,
+      "explain": "Dissolved salt is under a nanometre — far too small to scatter light. The other three are colloids.",
+      "objective": "Explain why the Tyndall effect happens, not only that it happens",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 1 Science. The scope says Suspensions & Colloids, which Term 1 Week 8 already introduced — he can already apply the settling test and name the Tyndall effect. So this week supplies the mechanism underneath both rather than repeating the definitions: the nanometre bands that decide the class, Brownian motion as the reason a colloid stays up, the five colloid types as a size band that any two states of matter can occupy, and scattering as the reason the beam shows. The fog-light and paint-tin cards exist because they are the two places he will meet this outside a test.",
+    "discussion": [
+      "Why can the same substance be a solution, a colloid or a suspension?",
+      "Blood never settles inside you. Why does it settle in a tube?",
+      "Fog lights point down. What would happen if they pointed up?"
+    ],
+    "extension": [
+      "Shine a phone torch through milk, then through salt water, in a dark room. Only one shows the beam.",
+      "Leave muddy water in a glass overnight and mark where the line forms."
+    ],
+    "misconceptions": [
+      "That suspended means dissolved. Suspended particles are whole and can be filtered out.",
+      "That Brownian motion is the particles moving themselves. They are being knocked.",
+      "That the Tyndall effect is the liquid glowing. It is light being thrown sideways."
+    ]
+  }
+}

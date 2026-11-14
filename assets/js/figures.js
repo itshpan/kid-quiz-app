@@ -1173,6 +1173,34 @@ const EXPLORER_DATA = {
    is drawn once as a backing shape so the thing always reads as a heart; the
    tappable parts sit inside it rather than trying to tile it themselves. */
 /* Intake side: nose down to the sacs, with the muscle that drives it all. */
+/* Five kinds of colloid, each named by what is dispersed in what. The pairing
+   is the whole idea: "colloid" is not one thing, it is a size band that any
+   two states of matter can sit in. */
+function colloidKinds() {
+    return listPicker({
+        id: 'ck', label: 'FIVE COLLOIDS · WHAT IS IN WHAT',
+        alt: 'The five kinds of colloid, each with what is dispersed, what it is dispersed in, and an everyday example',
+        capA: 'Is: ', capB: 'Like: ',
+        rows: [
+            { short: 'Sol — solid in liquid',
+              a: 'Solid specks spread through a liquid',
+              b: 'Paint. The pigment never dissolves, it is just too small to settle.' },
+            { short: 'Gel — liquid in solid',
+              a: 'Liquid held inside a solid mesh',
+              b: 'Jelly. Mostly water, but it holds its shape.' },
+            { short: 'Emulsion — liquid in liquid',
+              a: 'Droplets of one liquid inside another',
+              b: 'Milk. Fat droplets spread through water.' },
+            { short: 'Foam — gas in liquid',
+              a: 'Gas bubbles trapped in a liquid',
+              b: 'Whipped cream. Mostly air by volume.' },
+            { short: 'Aerosol — in a gas',
+              a: 'Liquid droplets or solid specks floating in gas',
+              b: 'Fog is water in air. Smoke is solid in air.' }
+        ]
+    });
+}
+
 function airway() {
     return {
         svg: `<svg viewBox="0 0 230 300" role="img" aria-labelledby="awT">
@@ -4835,6 +4863,7 @@ export const FIGURES = {
     strikingHand,
     brainRotation,
     pluralMachine,
+    colloidKinds,
     airway,
     urinary,
     nervous,
