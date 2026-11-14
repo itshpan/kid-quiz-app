@@ -1,0 +1,339 @@
+{
+  "id": "math-t2-w10",
+  "courseId": "math",
+  "courseTitle": "Math",
+  "week": 10,
+  "title": "Volume in the Real World",
+  "subtitle": "Packing, filling and the question of what actually fits.",
+  "estMinutes": 20,
+  "objectives": [
+    "Apply the volume formula to practical problems",
+    "Combine volumes of more than one prism",
+    "Convert a calculated volume into litres",
+    "Decide whether something fits"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🚚",
+      "eyebrow": "Part 2 · Using it",
+      "title": "Will it fit is a volume question, and a shape question",
+      "text": "Volume tells you whether there is enough room. It does not tell you whether the shape goes in. Both matter."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Volume to litres",
+      "title": "Divide by a thousand",
+      "text": "Once you have cm³, litres are one short step away.",
+      "points": [
+        "**cm³ ÷ 1,000 = litres.**",
+        "**A 30 × 20 × 10 cm box** is 6,000 cm³ = 6 litres.",
+        "**m³ × 1,000 = litres.**",
+        "**One bridge each way.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "A tank is 50 cm by 20 cm by 30 cm. How many litres? Digits only.",
+        "accept": [
+          "30"
+        ],
+        "explain": "50 × 20 × 30 = 30,000 cm³, and ÷ 1,000 gives 30 litres.",
+        "seconds": 24
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Composite shapes",
+      "title": "Cut it into boxes",
+      "text": "An L-shape is not a formula. It is two prisms added together.",
+      "points": [
+        "**Split it** into rectangular pieces.",
+        "**Work out each volume.**",
+        "**Add them.**",
+        "**Or find the big box and subtract** the missing piece."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "Your lungs hold about six litres",
+      "text": "Not all of it moves. A normal breath is far smaller than the total capacity.",
+      "points": [
+        "**Total capacity** is roughly six litres in an adult.",
+        "**A quiet breath** moves about half a litre.",
+        "**Training raises how much you can move**, not the size of the chest.",
+        "**Six litres** is six of those 10 cm cubes."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "volumeLab",
+      "title": "The cube, one more time",
+      "text": "Before the exam week, a last look at how fast volume climbs when an edge grows."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "An L-shaped block is best handled by…",
+        "options": [
+          "splitting it into rectangular prisms",
+          "a special L formula",
+          "measuring the longest edge",
+          "guessing"
+        ],
+        "answerIndex": 0,
+        "explain": "Split, calculate each part, add. Or subtract the missing block from the full box.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "Boot space is quoted in litres for a reason",
+      "text": "A boot is not a neat box, so manufacturers measure it by filling it.",
+      "points": [
+        "**They pack it with standard blocks** and count the volume.",
+        "**480 litres** is a typical family car.",
+        "**Shape still decides** whether your actual suitcase goes in.",
+        "**Volume is necessary, not sufficient.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Fit",
+      "title": "Enough room is not the same as it goes in",
+      "text": "A 1 m pole has almost no volume and still will not fit in a shoebox.",
+      "points": [
+        "**Check the volume first** — if it fails, stop.",
+        "**Then check each dimension** against the opening.",
+        "**Long thin things** fail on length, not volume.",
+        "**Two tests, in that order.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "A 20 × 20 × 20 cm box. How many litres? Digits only.",
+        "accept": [
+          "8"
+        ],
+        "explain": "8,000 cm³ ÷ 1,000 = 8 litres.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "Why a bigger fan box is mostly air",
+      "text": "Take a fan out of its packaging and it never goes back in easily.",
+      "points": [
+        "**The box is sized for the assembled shape**, not the volume of parts.",
+        "**The guard is a sphere of mostly empty space.**",
+        "**Volume of material is tiny** compared with volume of box.",
+        "**Shipping pays for the air.**"
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Composite shape",
+          "def": "A shape made of more than one prism joined together."
+        },
+        {
+          "term": "Capacity in litres",
+          "def": "Volume in cm³ divided by 1,000."
+        },
+        {
+          "term": "Fit",
+          "def": "Both having enough volume and having each dimension small enough."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "cm³ ÷ 1,000 gives litres.",
+        "Composite shapes split into prisms, then add or subtract.",
+        "Enough volume does not mean it fits.",
+        "Check volume first, then each dimension."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "type",
+      "text": "A tank is 40 cm by 25 cm by 20 cm. How many litres? Digits only.",
+      "accept": [
+        "20"
+      ],
+      "explain": "20,000 cm³ ÷ 1,000 = 20 litres.",
+      "objective": "Volume of cubes and rectangular prisms",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "How do you convert cm³ to litres?",
+      "options": [
+        "× 100",
+        "× 1,000",
+        "÷ 1,000",
+        "÷ 100"
+      ],
+      "answerIndex": 2,
+      "explain": "A litre is 1,000 cm³, so divide.",
+      "objective": "Volume of cubes and rectangular prisms",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "An L-shaped solid is best found by…",
+      "options": [
+        "splitting into prisms and adding",
+        "measuring the diagonal",
+        "a special formula",
+        "averaging the edges"
+      ],
+      "answerIndex": 0,
+      "explain": "Split, calculate, add. Or subtract the missing block from a full box.",
+      "objective": "Volume of cubes and rectangular prisms",
+      "seconds": 20
+    },
+    {
+      "type": "type",
+      "text": "A box is 10 cm by 10 cm by 10 cm. How many litres? Digits only.",
+      "accept": [
+        "1"
+      ],
+      "explain": "1,000 cm³ is exactly one litre.",
+      "objective": "Volume of cubes and rectangular prisms",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "If an object's volume is less than a box's volume, it will always fit inside.",
+      "answer": false,
+      "explain": "A long thin pole has small volume and still will not go in. Dimensions matter too.",
+      "objective": "Volume of cubes and rectangular prisms",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "A car boot of 480 litres is…",
+      "options": [
+        "4,800 cm³",
+        "48,000 cm³",
+        "480 cm³",
+        "480,000 cm³"
+      ],
+      "answerIndex": 3,
+      "explain": "Multiply by 1,000 to go from litres to cm³.",
+      "objective": "Volume of cubes and rectangular prisms",
+      "seconds": 22
+    },
+    {
+      "type": "type",
+      "text": "Two stacked boxes, each 20 × 10 × 5 cm. Total volume in cm³? Digits only.",
+      "accept": [
+        "2000",
+        "2,000"
+      ],
+      "explain": "Each is 1,000 cm³, so together 2,000 cm³.",
+      "objective": "Volume of cubes and rectangular prisms",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "First check when asking whether something fits?",
+      "options": [
+        "Its weight",
+        "Whether there is enough volume",
+        "Its colour",
+        "Its price"
+      ],
+      "answerIndex": 1,
+      "explain": "If the volume fails, nothing else matters. Then check each dimension.",
+      "objective": "Volume of cubes and rectangular prisms",
+      "seconds": 20
+    },
+    {
+      "type": "type",
+      "text": "A fish tank is 60 × 30 × 40 cm. How many litres? Digits only.",
+      "accept": [
+        "72"
+      ],
+      "explain": "72,000 cm³ ÷ 1,000 = 72 litres.",
+      "objective": "Volume of cubes and rectangular prisms",
+      "seconds": 24
+    },
+    {
+      "type": "multiple",
+      "text": "A full box is 100 cm³ and a 20 cm³ piece is cut out. What remains?",
+      "options": [
+        "120 cm³",
+        "80 cm³",
+        "20 cm³",
+        "2,000 cm³"
+      ],
+      "answerIndex": 1,
+      "explain": "Subtract the missing piece from the whole.",
+      "objective": "Volume of cubes and rectangular prisms",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why is a fan's box mostly empty space?",
+      "options": [
+        "It is sized for the assembled shape, not the material",
+        "To look bigger",
+        "Bad design",
+        "To add weight"
+      ],
+      "answerIndex": 0,
+      "explain": "The guard encloses a lot of air, and the box has to fit the whole shape.",
+      "objective": "Volume of cubes and rectangular prisms",
+      "seconds": 22
+    },
+    {
+      "type": "type",
+      "text": "A 2 m by 1 m by 0.5 m container. Volume in m³? Use a decimal if needed.",
+      "accept": [
+        "1"
+      ],
+      "explain": "2 × 1 × 0.5 = 1 m³, which is 1,000 litres.",
+      "objective": "Volume of cubes and rectangular prisms",
+      "seconds": 24
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 10 Math, the last teaching week, taking the prism formula into use. Two ideas carry it: the cm³-to-litre bridge, which connects this fortnight to the conversion weeks, and composite shapes, which are taught as splitting rather than as a new formula. The fit card is the one worth keeping — enough volume is necessary and not sufficient, and the pole-in-a-shoebox case makes that obvious in a sentence. The fan packaging card closes the subject on something he has in the house.",
+    "discussion": [
+      "How do you get from cm³ to litres?",
+      "Why can something fit on volume and still not go in?",
+      "How would you find the volume of an L-shaped block?"
+    ],
+    "extension": [
+      "Work out the volume of your room in m³ and in litres.",
+      "Measure a container, predict its litres, then fill it and check."
+    ],
+    "misconceptions": [
+      "That volume alone decides whether something fits.",
+      "Multiplying instead of dividing for litres.",
+      "Looking for a formula for composite shapes."
+    ]
+  }
+}

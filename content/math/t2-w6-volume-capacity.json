@@ -1,0 +1,361 @@
+{
+  "id": "math-t2-w6",
+  "courseId": "math",
+  "courseTitle": "Math",
+  "week": 6,
+  "title": "Volume & Capacity",
+  "subtitle": "Space taken up, and space available to fill.",
+  "estMinutes": 20,
+  "objectives": [
+    "Distinguish volume from capacity",
+    "Name the standard units of each",
+    "Explain why 1 mL and 1 cm³ are the same size",
+    "Estimate a volume in sensible units"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🧊",
+      "eyebrow": "Part 1 · Two words",
+      "title": "Volume and capacity are not quite the same word",
+      "text": "Volume is how much space something takes up. Capacity is how much a container can hold. Usually close, never identical."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The difference",
+      "title": "One is about the thing, one about the space inside it",
+      "text": "A mug has both, and they are different numbers.",
+      "points": [
+        "**Volume of the mug** includes the ceramic walls.",
+        "**Capacity of the mug** is only the hollow.",
+        "**A solid brick has volume** and essentially no capacity.",
+        "**Both are measured in the same units**, which is why they get muddled."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "A solid steel ball has…",
+        "options": [
+          "volume but almost no capacity",
+          "capacity but no volume",
+          "neither",
+          "both, equally"
+        ],
+        "answerIndex": 0,
+        "explain": "It takes up space, so it has volume. Nothing can be poured into it, so capacity is essentially zero.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The units",
+      "title": "Cubic for solids, litres for liquids",
+      "text": "Two families, one bridge between them.",
+      "points": [
+        "**Volume:** cubic centimetres (cm³) and cubic metres (m³).",
+        "**Capacity:** millilitres (mL) and litres (L).",
+        "**1 mL is exactly 1 cm³.** That is the bridge.",
+        "**1 L is 1,000 cm³.** Which is a 10 × 10 × 10 box."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "volumeLab",
+      "title": "Press an edge. Watch volume outrun it",
+      "text": "A 10 cm cube holds exactly one litre. Press 1, 2, 3, 4 and see how fast the volume climbs."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "How many cubic centimetres are in 1 litre? Digits only.",
+        "accept": [
+          "1000",
+          "1,000"
+        ],
+        "explain": "A litre is a 10 × 10 × 10 cm box: 1,000 cm³.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "A fan moves volume, and it is measured",
+      "text": "The box says something like 60 m³ per minute. That is how much air it shifts.",
+      "points": [
+        "**Cubic metres**, because air is counted in big volumes.",
+        "**60 m³ a minute** would fill a small bedroom in about a minute.",
+        "**Bigger blades move more volume**, not faster air.",
+        "**Airflow is a volume rate**, not a speed."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Estimating",
+      "title": "Pick the unit that keeps the number sensible",
+      "text": "If you need lots of zeros or lots of decimals, you have chosen the wrong unit.",
+      "points": [
+        "**A spoon** of medicine — millilitres.",
+        "**A water bottle** — litres.",
+        "**A room** — cubic metres.",
+        "**A grain of rice** — cubic millimetres."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Gaming mode",
+      "title": "Minecraft is literally built out of cubic metres",
+      "text": "One block is a metre on each side. So a block is one cubic metre, and counting blocks is measuring volume.",
+      "points": [
+        "**A 10 × 10 × 10 pit** is 1,000 blocks — 1,000 m³.",
+        "**Double every side** and it is 8,000, not 2,000.",
+        "**That is the cube** doing its work again.",
+        "**Mining out a room** is a volume calculation you already do."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which unit suits the volume of a classroom?",
+        "options": [
+          "L",
+          "m³",
+          "mL",
+          "cm³"
+        ],
+        "answerIndex": 1,
+        "explain": "Cubic metres. Using cm³ would need a seven-digit number.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "disasters",
+      "icon": "🌊",
+      "eyebrow": "Disaster mode",
+      "title": "Rainfall is reported in a strange unit",
+      "text": "'200 mm of rain' is a depth, not a volume. The volume depends on the area it fell on.",
+      "points": [
+        "**200 mm over one square metre** is 200 litres.",
+        "**Over a hectare** it is two million litres.",
+        "**That is why** a number that sounds small floods a city.",
+        "**Depth × area = volume.** Always ask over what area."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Volume",
+          "def": "The amount of space an object takes up."
+        },
+        {
+          "term": "Capacity",
+          "def": "The amount a container can hold."
+        },
+        {
+          "term": "Cubic centimetre",
+          "def": "The space in a 1 cm by 1 cm by 1 cm cube; equal to 1 mL."
+        },
+        {
+          "term": "Litre",
+          "def": "1,000 cm³, the volume of a 10 cm cube."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Volume is space taken; capacity is space available.",
+        "1 mL = 1 cm³. That bridge connects both families.",
+        "1 L = 1,000 cm³ = a 10 cm cube.",
+        "Choose the unit that keeps the number readable."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Capacity measures…",
+      "options": [
+        "how tall it is",
+        "its surface",
+        "how heavy a container is",
+        "how much a container can hold"
+      ],
+      "answerIndex": 3,
+      "explain": "Capacity is about what fits inside.",
+      "objective": "Units of volume and capacity",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "1 millilitre is the same as…",
+      "options": [
+        "1 cm³",
+        "100 cm³",
+        "10 cm³",
+        "1 m³"
+      ],
+      "answerIndex": 0,
+      "explain": "They are the same size by definition. That is the bridge between the two unit families.",
+      "objective": "Units of volume and capacity",
+      "seconds": 18
+    },
+    {
+      "type": "type",
+      "text": "How many cm³ in 1 litre? Digits only.",
+      "accept": [
+        "1000",
+        "1,000"
+      ],
+      "explain": "A 10 × 10 × 10 cm box: 1,000 cm³.",
+      "objective": "Units of volume and capacity",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "A solid metal cube has…",
+      "options": [
+        "volume but almost no capacity",
+        "equal amounts of both",
+        "capacity but no volume",
+        "neither"
+      ],
+      "answerIndex": 0,
+      "explain": "It occupies space but cannot be filled.",
+      "objective": "Units of volume and capacity",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Best unit for a dose of cough syrup?",
+      "options": [
+        "m³",
+        "L",
+        "cm",
+        "mL"
+      ],
+      "answerIndex": 3,
+      "explain": "Millilitres keep the number small and sensible.",
+      "objective": "Units of volume and capacity",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Best unit for the air in a bedroom?",
+      "options": [
+        "cm³",
+        "m³",
+        "L",
+        "mL"
+      ],
+      "answerIndex": 1,
+      "explain": "Cubic metres. Anything smaller needs too many digits.",
+      "objective": "Units of volume and capacity",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "Volume and capacity are measured in different units entirely.",
+      "answer": false,
+      "explain": "They share units, which is exactly why the words get confused. 1 mL is 1 cm³.",
+      "objective": "Units of volume and capacity",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A litre is the volume of a cube with edges of…",
+      "options": [
+        "1 cm",
+        "1 m",
+        "10 cm",
+        "100 cm"
+      ],
+      "answerIndex": 2,
+      "explain": "10 × 10 × 10 = 1,000 cm³, which is one litre.",
+      "objective": "Units of volume and capacity",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A fan rated at 60 m³ per minute is describing…",
+      "options": [
+        "its power",
+        "how fast the air moves",
+        "how much air it shifts each minute",
+        "its weight"
+      ],
+      "answerIndex": 2,
+      "explain": "Airflow is a volume rate: how much, not how fast.",
+      "objective": "Units of volume and capacity",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "200 mm of rain falling on one square metre is about…",
+      "options": [
+        "200 litres",
+        "2,000 litres",
+        "2 litres",
+        "20 litres"
+      ],
+      "answerIndex": 0,
+      "explain": "Depth times area. 0.2 m × 1 m² = 0.2 m³, which is 200 litres.",
+      "objective": "Units of volume and capacity",
+      "seconds": 24
+    },
+    {
+      "type": "type",
+      "text": "How many mL in 2.5 litres? Digits only.",
+      "accept": [
+        "2500",
+        "2,500"
+      ],
+      "explain": "Each litre is 1,000 mL, so 2.5 litres is 2,500 mL.",
+      "objective": "Units of volume and capacity",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why does 'mm of rain' not tell you the volume?",
+      "options": [
+        "mm is a weight",
+        "It is a depth, so you need the area as well",
+        "It is a typo",
+        "Rain has no volume"
+      ],
+      "answerIndex": 1,
+      "explain": "Volume needs depth and area together.",
+      "objective": "Units of volume and capacity",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 6 Math, the first of three weeks on volume and capacity. The two words are separated at the start because they share units, which is the reason they get muddled, and a solid object is used to make the distinction concrete. The mL-equals-cm³ bridge is taught as the single fact that joins the two unit families, and the litre is anchored to a 10 cm cube so it has a size rather than being a word. The rainfall card is included because 'mm of rain' is a depth he will meet every typhoon season and almost nobody explains it.",
+    "discussion": [
+      "What is the difference between volume and capacity?",
+      "Why is 1 mL the same as 1 cm³?",
+      "What does 200 mm of rain actually mean?"
+    ],
+    "extension": [
+      "Find a 10 cm cube-ish container and check it holds about a litre.",
+      "Look up the airflow rating on a fan at home."
+    ],
+    "misconceptions": [
+      "That volume and capacity are the same thing.",
+      "That a litre has no physical size.",
+      "That mm of rain is a volume."
+    ]
+  }
+}

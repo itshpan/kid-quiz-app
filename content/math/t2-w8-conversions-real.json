@@ -1,0 +1,342 @@
+{
+  "id": "math-t2-w8",
+  "courseId": "math",
+  "courseTitle": "Math",
+  "week": 8,
+  "title": "Conversions in Real Situations",
+  "subtitle": "Where a dropped zero actually costs something.",
+  "estMinutes": 20,
+  "objectives": [
+    "Apply volume conversions to practical problems",
+    "Work with mixed units in one problem",
+    "Judge whether an answer is physically sensible",
+    "Convert rates as well as amounts"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🧪",
+      "eyebrow": "Part 3 · Using it",
+      "title": "Same conversions, now with consequences",
+      "text": "In a test a wrong zero costs a mark. In a kitchen, a garage or a hospital it costs more than that."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Mixed units",
+      "title": "Get everything into one unit first",
+      "text": "Never calculate across two units. Convert, then work.",
+      "points": [
+        "**Spot every unit** in the question before starting.",
+        "**Choose one** and convert everything to it.",
+        "**Then do the arithmetic.**",
+        "**Most mixed-unit errors** happen because someone skipped step one."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "A jug holds 1.5 L. You pour in 400 mL. How much more fits?",
+        "options": [
+          "1.1 mL",
+          "1,100 mL",
+          "1,400 mL",
+          "100 mL"
+        ],
+        "answerIndex": 1,
+        "explain": "Convert first: 1.5 L is 1,500 mL. 1,500 − 400 = 1,100 mL.",
+        "seconds": 24
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "Water intake is a conversion problem",
+      "text": "Advice comes in litres. Bottles come in millilitres. The two have to meet.",
+      "points": [
+        "**2 litres a day** is 2,000 mL.",
+        "**A 500 mL bottle** four times over.",
+        "**A 330 mL can** would take about six.",
+        "**Same amount**, different packaging."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "A 2 L bottle is three-quarters full. How many mL is that? Digits only.",
+        "accept": [
+          "1500",
+          "1,500"
+        ],
+        "explain": "2 L is 2,000 mL. Three quarters of 2,000 is 1,500 mL.",
+        "seconds": 24
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Rates",
+      "title": "Convert the amount, keep the time",
+      "text": "A rate has two parts. Only one of them is changing.",
+      "points": [
+        "**3 L per minute** is 3,000 mL per minute.",
+        "**The 'per minute' is untouched.**",
+        "**To change the time as well**, do it as a second step.",
+        "**One change at a time.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "Working out if a fan suits a room",
+      "text": "The fan is rated in m³ per minute. The room is measured in metres. They already match.",
+      "points": [
+        "**A 4 × 3 × 2.5 m room** is 30 m³.",
+        "**A fan moving 60 m³ a minute** turns that over twice a minute.",
+        "**No conversion needed** — both are already cubic metres.",
+        "**Matching units first** is half the work."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "A tap runs at 12 L per minute. In millilitres per minute that is…",
+        "options": [
+          "12,000",
+          "120,000",
+          "1,200",
+          "120"
+        ],
+        "answerIndex": 0,
+        "explain": "Convert the amount only: 12 × 1,000 = 12,000 mL per minute. The 'per minute' does not change.",
+        "seconds": 24
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Sanity",
+      "title": "Does the answer make physical sense?",
+      "text": "The last check is not arithmetic. It is whether the world would allow it.",
+      "points": [
+        "**A glass holding 25 litres?** No.",
+        "**A bath holding 80 mL?** No.",
+        "**A wrong answer is usually a thousand out**, which is obvious once you look.",
+        "**Picture the object** before you write the number down."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "disasters",
+      "icon": "🌊",
+      "eyebrow": "Disaster mode",
+      "title": "A flood warning is a conversion problem",
+      "text": "Dam levels come in metres, release rates in cubic metres per second. Both have to be read together.",
+      "points": [
+        "**1 m³ per second** is 1,000 litres every second.",
+        "**A big release** is hundreds of times that.",
+        "**Per second matters** — an hour is 3,600 of them.",
+        "**The rate times the time** is what reaches the town."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Mixed units",
+          "def": "A problem stated in more than one unit."
+        },
+        {
+          "term": "Rate",
+          "def": "An amount per unit of time, like litres per minute."
+        },
+        {
+          "term": "Sanity check",
+          "def": "Asking whether an answer is physically possible."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Convert everything to one unit before calculating.",
+        "In a rate, convert the amount and leave the time alone.",
+        "A wrong answer here is usually out by exactly a thousand.",
+        "Picture the real object as your last check."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "A 1.5 L jug already holds 400 mL. How much more fits?",
+      "options": [
+        "100 mL",
+        "1,100 mL",
+        "1,900 mL",
+        "1,400 mL"
+      ],
+      "answerIndex": 1,
+      "explain": "1,500 − 400 = 1,100 mL. Convert before subtracting.",
+      "objective": "Units of volume and capacity: Conversion of units of volume and capacity",
+      "seconds": 22
+    },
+    {
+      "type": "type",
+      "text": "A 2 L bottle is half full. How many mL? Digits only.",
+      "accept": [
+        "1000",
+        "1,000"
+      ],
+      "explain": "Half of 2,000 mL.",
+      "objective": "Units of volume and capacity: Conversion of units of volume and capacity",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "12 L per minute is the same as…",
+      "options": [
+        "120 mL/min",
+        "12,000 mL/min",
+        "12 mL/min",
+        "1,200 mL/min"
+      ],
+      "answerIndex": 1,
+      "explain": "Convert the amount, leave the time: 12 × 1,000.",
+      "objective": "Units of volume and capacity: Conversion of units of volume and capacity",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "You need 2 L of water from 500 mL bottles. How many bottles?",
+      "options": [
+        "5",
+        "20",
+        "4",
+        "2"
+      ],
+      "answerIndex": 2,
+      "explain": "2,000 ÷ 500 = 4 bottles.",
+      "objective": "Units of volume and capacity: Conversion of units of volume and capacity",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "In a rate like litres per minute, you convert both parts at once.",
+      "answer": false,
+      "explain": "Change the amount first. Changing the time is a separate step.",
+      "objective": "Units of volume and capacity: Conversion of units of volume and capacity",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which answer fails a sanity check?",
+      "options": [
+        "A mug holding 300 mL",
+        "A bath holding 150 L",
+        "A spoon holding 5 mL",
+        "A glass holding 25 L"
+      ],
+      "answerIndex": 3,
+      "explain": "Twenty-five litres is a bucket, not a glass. Usually a factor-of-1,000 error.",
+      "objective": "Units of volume and capacity: Conversion of units of volume and capacity",
+      "seconds": 22
+    },
+    {
+      "type": "type",
+      "text": "A room is 5 m by 4 m by 2.5 m. What is its volume in m³? Digits only.",
+      "accept": [
+        "50"
+      ],
+      "explain": "5 × 4 × 2.5 = 50 m³.",
+      "objective": "Units of volume and capacity: Conversion of units of volume and capacity",
+      "seconds": 24
+    },
+    {
+      "type": "multiple",
+      "text": "A fan moves 60 m³ per minute into a 30 m³ room. In one minute it moves…",
+      "options": [
+        "twice the room's air",
+        "half the room's air",
+        "exactly the room's air",
+        "nothing"
+      ],
+      "answerIndex": 0,
+      "explain": "60 is double 30, so it shifts twice the room's volume.",
+      "objective": "Units of volume and capacity: Conversion of units of volume and capacity",
+      "seconds": 22
+    },
+    {
+      "type": "type",
+      "text": "A tap fills a 9 L bucket in 3 minutes. What is the rate in L per minute? Digits only.",
+      "accept": [
+        "3"
+      ],
+      "explain": "9 ÷ 3 = 3 litres per minute.",
+      "objective": "Units of volume and capacity: Conversion of units of volume and capacity",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "First step in a mixed-unit problem?",
+      "options": [
+        "Convert everything to one unit",
+        "Start calculating",
+        "Guess",
+        "Round everything"
+      ],
+      "answerIndex": 0,
+      "explain": "Mixing units mid-calculation is where the errors come from.",
+      "objective": "Units of volume and capacity: Conversion of units of volume and capacity",
+      "seconds": 20
+    },
+    {
+      "type": "type",
+      "text": "How many 250 mL cups fill a 2 L jug? Digits only.",
+      "accept": [
+        "8"
+      ],
+      "explain": "2,000 ÷ 250 = 8.",
+      "objective": "Units of volume and capacity: Conversion of units of volume and capacity",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Your answer comes out 1,000 times too big. Most likely you…",
+      "options": [
+        "forgot the units",
+        "rounded badly",
+        "converted the wrong way between L and mL",
+        "added instead of multiplied"
+      ],
+      "answerIndex": 2,
+      "explain": "Multiplying when you should divide, or the reverse, gives exactly that factor.",
+      "objective": "Units of volume and capacity: Conversion of units of volume and capacity",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 8 Math, the second conversion week, moved from mechanics into use. The organising rule is convert-then-calculate, stated once and then enforced by every worked example, because mixed-unit arithmetic is where the marks actually go. Rates get their own card since converting both halves at once is a distinct and common error. The lesson closes on the sanity check, which is the most transferable habit in the whole topic: a wrong answer here is almost always out by exactly a thousand, and picturing the object catches it instantly.",
+    "discussion": [
+      "Why convert before calculating rather than during?",
+      "In a rate, which part changes?",
+      "What is the fastest way to spot a factor-of-1,000 error?"
+    ],
+    "extension": [
+      "Work out how many bottles make up your daily water target.",
+      "Measure a room and work out how long a fan takes to turn its air over."
+    ],
+    "misconceptions": [
+      "Calculating across two units.",
+      "Converting both parts of a rate at once.",
+      "Not checking whether the answer is physically possible."
+    ]
+  }
+}

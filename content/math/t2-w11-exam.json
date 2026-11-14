@@ -1,0 +1,480 @@
+{
+  "id": "math-t2-w11",
+  "courseId": "math",
+  "courseTitle": "Math",
+  "week": 11,
+  "title": "Exam Week",
+  "subtitle": "Ten weeks of Math, one paper.",
+  "estMinutes": 20,
+  "objectives": [
+    "Recall percentages from weeks 1 and 2",
+    "Recall exponents and GEMDAS from weeks 3 to 5",
+    "Recall volume and capacity from weeks 6 to 8",
+    "Recall the volume of prisms from weeks 9 and 10",
+    "Sit a full-length paper at exam pace"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "📝",
+      "eyebrow": "Exam week",
+      "title": "Four topics, one paper",
+      "text": "Twenty-four questions. Longer than a normal week on purpose, because the real one will be."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Weeks 1–2",
+      "title": "Percentages: per cent means per hundred",
+      "text": "Everything in those two weeks came from that one sentence.",
+      "points": [
+        "**Decimal to percentage** × 100. Back again ÷ 100.",
+        "**A percentage OF something:** make it a decimal, then multiply.",
+        "**Increase** × (1 + d). **Decrease** × (1 − d).",
+        "**Up 10% then down 10%** lands below where you started."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "A ₱400 item has 25% off. You pay…",
+        "options": [
+          "₱375",
+          "₱300",
+          "₱100",
+          "₱250"
+        ],
+        "answerIndex": 1,
+        "explain": "25% off leaves 75%. 0.75 × 400 = ₱300.",
+        "seconds": 24
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Weeks 3–5",
+      "title": "Exponents and the order",
+      "text": "The exponent counts factors. GEMDAS decides who goes first.",
+      "points": [
+        "**2⁵ is 32**, not 10.",
+        "**Grouping, Exponents, Multiply/Divide, Add/Subtract.**",
+        "**Equal ranks** go left to right.",
+        "**Powers of ten:** the exponent counts the zeros."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "One fan, most of the Math term",
+      "text": "If a method slips, picture the fan and walk through it.",
+      "points": [
+        "**Capacitor tolerance** is a percentage, ±5%.",
+        "**Running cost** is an order-of-operations problem.",
+        "**Airflow** is cubic metres per minute.",
+        "**The box it came in** is length × width × height."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "gemdasLab",
+      "title": "One more expression, your way",
+      "text": "Pick each move. If you take the wrong level it shows what that would give."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is 5 + 2 × 3²?",
+        "options": [
+          "23",
+          "19",
+          "33",
+          "63"
+        ],
+        "answerIndex": 0,
+        "explain": "Exponent 9, multiply 18, add 5. That is 23.",
+        "seconds": 24
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Two topics reviewed, two to go, then the paper."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Weeks 6–8",
+      "title": "Volume, capacity and conversion",
+      "text": "One bridge joins the two unit families, and one jump catches everyone.",
+      "points": [
+        "**1 mL = 1 cm³.** That is the bridge.",
+        "**1 L = 1,000 cm³.**",
+        "**1 m³ = 1,000,000 cm³** — the 100 cubed.",
+        "**Convert everything to one unit** before calculating."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Weeks 9–10",
+      "title": "Volume of prisms",
+      "text": "Three lengths multiplied, because you count a layer and then the layers.",
+      "points": [
+        "**Volume = l × w × h.**",
+        "**A cube is edge³.**",
+        "**cm³ ÷ 1,000 = litres.**",
+        "**Composite shapes** split into prisms."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Gaming mode",
+      "title": "A block is a cubic metre",
+      "text": "Minecraft counts volume for you. A 10 by 10 by 10 pit is a thousand blocks.",
+      "points": [
+        "**One block** is 1 m³.",
+        "**Double every side** and it is eight times the digging.",
+        "**That is the cube** again.",
+        "**You have been doing volume** for years."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "The night before actually matters",
+      "text": "None of this is about being clever on the day.",
+      "points": [
+        "**Sleep beats cramming.** Memory settles while you sleep.",
+        "**Eat something.** Your brain runs on glucose.",
+        "**Read the whole question** before touching an option.",
+        "**Mark the hard one and move on.**"
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Ready",
+      "title": "The four threads",
+      "points": [
+        "Percentages: a part out of a hundred.",
+        "Exponents: counting factors, in a fixed order.",
+        "Units: one bridge, one cubic jump.",
+        "Prisms: layer, then layers."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "0.35 as a percentage is…",
+      "options": [
+        "35%",
+        "3.5%",
+        "350%",
+        "0.35%"
+      ],
+      "answerIndex": 0,
+      "explain": "Multiply by 100.",
+      "objective": "Recall percentages from weeks 1 and 2",
+      "seconds": 18
+    },
+    {
+      "type": "type",
+      "text": "What is 20% of 150? Digits only.",
+      "accept": [
+        "30"
+      ],
+      "explain": "10% is 15, so 20% is 30.",
+      "objective": "Recall percentages from weeks 1 and 2",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A ₱600 item with 30% off costs…",
+      "options": [
+        "₱180",
+        "₱570",
+        "₱420",
+        "₱450"
+      ],
+      "answerIndex": 2,
+      "explain": "70% remains: 0.7 × 600 = ₱420.",
+      "objective": "Recall percentages from weeks 1 and 2",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Up 20% then down 20% leaves you…",
+      "options": [
+        "4% higher",
+        "where you started",
+        "4% lower",
+        "20% lower"
+      ],
+      "answerIndex": 2,
+      "explain": "100 → 120 → 96. The decrease comes off a bigger number.",
+      "objective": "Recall percentages from weeks 1 and 2",
+      "seconds": 24
+    },
+    {
+      "type": "type",
+      "text": "What percentage is 15 out of 20? Digits only.",
+      "accept": [
+        "75"
+      ],
+      "explain": "15 ÷ 20 = 0.75.",
+      "objective": "Recall percentages from weeks 1 and 2",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "2⁴ equals…",
+      "options": [
+        "16",
+        "32",
+        "8",
+        "24"
+      ],
+      "answerIndex": 0,
+      "explain": "Four twos multiplied.",
+      "objective": "Recall exponents and GEMDAS from weeks 3 to 5",
+      "seconds": 18
+    },
+    {
+      "type": "type",
+      "text": "What is 4 + 2 × 5? Digits only.",
+      "accept": [
+        "14"
+      ],
+      "explain": "Multiply first: 10, then add 4.",
+      "objective": "Recall exponents and GEMDAS from weeks 3 to 5",
+      "seconds": 18
+    },
+    {
+      "type": "type",
+      "text": "What is (4 + 2) × 5? Digits only.",
+      "accept": [
+        "30"
+      ],
+      "explain": "Brackets promote the addition: 6 × 5.",
+      "objective": "Recall exponents and GEMDAS from weeks 3 to 5",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "In 20 ÷ 4 × 2, what happens first?",
+      "options": [
+        "2 × 20",
+        "20 ÷ 4",
+        "4 × 2",
+        "Either"
+      ],
+      "answerIndex": 1,
+      "explain": "Equal rank, so left to right.",
+      "objective": "Recall exponents and GEMDAS from weeks 3 to 5",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "10⁶ is…",
+      "options": [
+        "10,000,000",
+        "100,000",
+        "10,000",
+        "1,000,000"
+      ],
+      "answerIndex": 3,
+      "explain": "The exponent counts the zeros.",
+      "objective": "Recall exponents and GEMDAS from weeks 3 to 5",
+      "seconds": 18
+    },
+    {
+      "type": "type",
+      "text": "What is 3 + 4²? Digits only.",
+      "accept": [
+        "19"
+      ],
+      "explain": "Exponent first: 16, then add 3.",
+      "objective": "Recall exponents and GEMDAS from weeks 3 to 5",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "Multiplication always comes before division.",
+      "answer": false,
+      "explain": "They share a rank and go left to right.",
+      "objective": "Recall exponents and GEMDAS from weeks 3 to 5",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "1 millilitre equals…",
+      "options": [
+        "1 m³",
+        "1 cm³",
+        "10 cm³",
+        "1 L"
+      ],
+      "answerIndex": 1,
+      "explain": "The bridge between the two unit families.",
+      "objective": "Recall volume and capacity from weeks 6 to 8",
+      "seconds": 18
+    },
+    {
+      "type": "type",
+      "text": "How many mL in 1.5 L? Digits only.",
+      "accept": [
+        "1500",
+        "1,500"
+      ],
+      "explain": "Multiply by 1,000.",
+      "objective": "Recall volume and capacity from weeks 6 to 8",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "1 m³ equals…",
+      "options": [
+        "1,000 cm³",
+        "1,000,000 cm³",
+        "100,000 cm³",
+        "10,000 cm³"
+      ],
+      "answerIndex": 1,
+      "explain": "100 cubed.",
+      "objective": "Recall volume and capacity from weeks 6 to 8",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Volume measures…",
+      "options": [
+        "its surface",
+        "the space something takes up",
+        "how long it is",
+        "how heavy something is"
+      ],
+      "answerIndex": 1,
+      "explain": "Capacity is how much a container holds.",
+      "objective": "Recall volume and capacity from weeks 6 to 8",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Which fails a sanity check?",
+      "options": [
+        "A glass of 20 L",
+        "A bath of 150 L",
+        "A mug of 300 mL",
+        "A spoon of 5 mL"
+      ],
+      "answerIndex": 0,
+      "explain": "Twenty litres is a bucket. Usually a factor-of-1,000 slip.",
+      "objective": "Recall volume and capacity from weeks 6 to 8",
+      "seconds": 22
+    },
+    {
+      "type": "type",
+      "text": "A box is 5 cm by 4 cm by 3 cm. Volume in cm³? Digits only.",
+      "accept": [
+        "60"
+      ],
+      "explain": "5 × 4 × 3 = 60 cm³.",
+      "objective": "Recall the volume of prisms from weeks 9 and 10",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "A cube with 4 cm edges has volume…",
+      "options": [
+        "16 cm³",
+        "48 cm³",
+        "12 cm³",
+        "64 cm³"
+      ],
+      "answerIndex": 3,
+      "explain": "4³ = 64 cm³.",
+      "objective": "Recall the volume of prisms from weeks 9 and 10",
+      "seconds": 20
+    },
+    {
+      "type": "type",
+      "text": "A tank is 30 cm by 20 cm by 50 cm. How many litres? Digits only.",
+      "accept": [
+        "30"
+      ],
+      "explain": "30,000 cm³ ÷ 1,000.",
+      "objective": "Recall the volume of prisms from weeks 9 and 10",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Volume 72 cm³, base 6 cm by 3 cm. Height is…",
+      "options": [
+        "3 cm",
+        "6 cm",
+        "2 cm",
+        "4 cm"
+      ],
+      "answerIndex": 3,
+      "explain": "6 × 3 = 18, and 72 ÷ 18 = 4.",
+      "objective": "Recall the volume of prisms from weeks 9 and 10",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Doubling every edge of a cube multiplies its volume by…",
+      "options": [
+        "8",
+        "4",
+        "2",
+        "6"
+      ],
+      "answerIndex": 0,
+      "explain": "2³ = 8.",
+      "objective": "Recall the volume of prisms from weeks 9 and 10",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "Enough volume always means it will fit.",
+      "answer": false,
+      "explain": "A long pole has small volume and still will not go into a shoebox.",
+      "objective": "Recall the volume of prisms from weeks 9 and 10",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why is volume three lengths multiplied?",
+      "options": [
+        "Tradition",
+        "Boxes have three sides",
+        "You count a layer, then the layers",
+        "It is an estimate"
+      ],
+      "answerIndex": 2,
+      "explain": "Base area is one layer; height counts the layers.",
+      "objective": "Recall the volume of prisms from weeks 9 and 10",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 11 Math, the practice paper. Twenty-four questions across all ten teaching weeks, with the review organised by thread rather than week number: percentages as parts of a hundred, exponents as counted factors in a fixed order, units as one bridge and one cubic jump, prisms as layer-then-layers. The GEMDAS interactive returns once more so the last thing he does before the paper is make the decisions himself rather than read a summary.",
+    "discussion": [
+      "Which four threads does the term reduce to?",
+      "Which topic would you want one more day on?",
+      "What is the fastest way to spot a factor-of-1,000 error?"
+    ],
+    "extension": [
+      "Sit the quiz once at pace, then again days later without revising first.",
+      "Write one exam question per thread."
+    ],
+    "misconceptions": [
+      "That revision means re-reading rather than self-testing.",
+      "That cramming beats sleeping."
+    ]
+  }
+}

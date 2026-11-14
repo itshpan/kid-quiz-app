@@ -1212,25 +1212,28 @@
               "topics": [
                 "Units of volume and capacity"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "math/t2-w6-volume-capacity.json"
             },
             {
               "week": 7,
               "id": "math-t2-w7",
-              "title": "Converting Volume & Capacity",
+              "title": "Converting Volume Units",
               "topics": [
                 "Units of volume and capacity: Conversion of units of volume and capacity"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "math/t2-w7-converting-volume.json"
             },
             {
               "week": 8,
               "id": "math-t2-w8",
-              "title": "Converting Volume & Capacity",
+              "title": "Conversions in Real Situations",
               "topics": [
                 "Units of volume and capacity: Conversion of units of volume and capacity"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "math/t2-w8-conversions-real.json"
             },
             {
               "week": 9,
@@ -1239,16 +1242,18 @@
               "topics": [
                 "Volume of cubes and rectangular prisms"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "math/t2-w9-volume-prisms.json"
             },
             {
               "week": 10,
               "id": "math-t2-w10",
-              "title": "Volume of Prisms",
+              "title": "Volume in the Real World",
               "topics": [
                 "Volume of cubes and rectangular prisms"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "math/t2-w10-volume-real.json"
             },
             {
               "week": 11,
@@ -1257,7 +1262,8 @@
               "topics": [
                 "EXAM"
               ],
-              "status": "planned"
+              "status": "exam",
+              "file": "math/t2-w11-exam.json"
             }
           ]
         },
