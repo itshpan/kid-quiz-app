@@ -6,8 +6,28 @@ every session, so none of it depends on anyone remembering to mention it.
 ## What this is
 
 An interactive lesson site for one Grade 6 student, following his school's real
-Term 1 weekly scope (2026–2027). Eight subjects, eleven weeks. Lessons are JSON;
-the renderer is vanilla ES modules; it deploys to Cloudflare Pages.
+weekly scope (2026–2027). Eight subjects, eleven weeks per term. Lessons are
+JSON; the renderer is vanilla ES modules; it deploys to Cloudflare Pages.
+
+## Where the scope comes from
+
+Google Drive, `C_Grade 6_Weekly Scope_2026-2027`, owned by the school
+(`corehomeschoolers.curriculum@gmail.com`):
+
+- `A_Term 1_Grade 6_Weekly Scope_2026-2027.docx.pdf`
+- `B_Term 2_Grade 6_Weekly Scope_2026-2027.docx.pdf`
+- the matching `Semestral Scope` PDFs, one per term
+
+**Read both the weekly and the semestral scope.** The weekly one is a table,
+and converting it to PDF collapsed the columns, so adjacent subjects run into
+each other — Term 2 week 2 reads as if Devotion were "Gratitude Everyday
+Traditions" when the real split is MAPEH "Indigenous Music Traditions" and
+Devotion "Gratitude Everyday". The semestral scope lists each subject's topics
+in one clean column, so it settles every one of those. Never guess the split;
+cross-check it.
+
+This is the only source. Never invent a topic or a week: a plausible-looking
+curriculum that is not his teaches the wrong thing at the wrong time.
 
 Live: https://learning-lab-8qx.pages.dev
 

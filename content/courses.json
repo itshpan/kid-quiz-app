@@ -1023,9 +1023,9 @@
       "id": "t2",
       "label": "Term 2 · Grade 6",
       "year": "2026–2027",
-      "weeks": 0,
-      "verse": "",
-      "scopeLoaded": false,
+      "weeks": 11,
+      "verse": "Proverbs 16:3 — Commit to the Lord whatever you do, and your plans will succeed.",
+      "scopeLoaded": true,
       "courses": [
         {
           "id": "science",
@@ -1034,7 +1034,107 @@
           "icon": "🧬",
           "accent": "#4ecdc4",
           "status": "planned",
-          "weeks": []
+          "weeks": [
+            {
+              "week": 1,
+              "id": "sci-t2-w1",
+              "title": "Suspensions & Colloids",
+              "topics": [
+                "Suspensions & Colloids"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 2,
+              "id": "sci-t2-w2",
+              "title": "Separating Heterogeneous Mixtures",
+              "topics": [
+                "Separating Heterogeneous Mixtures: Aided by Gravity, Shaking, Wind & Water, Using Machines, Panning, Decantation, Straining, Using Magnets"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 3,
+              "id": "sci-t2-w3",
+              "title": "Separating Heterogeneous Mixtures",
+              "topics": [
+                "Separating Heterogeneous Mixtures: Aided by Gravity, Shaking, Wind & Water, Using Machines, Panning, Decantation, Straining, Using Magnets"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 4,
+              "id": "sci-t2-w4",
+              "title": "Separating Homogeneous Mixtures",
+              "topics": [
+                "Separating Homogeneous Mixtures: Evaporation, Condensation, Distillation, Rectification"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 5,
+              "id": "sci-t2-w5",
+              "title": "Gravity & Friction",
+              "topics": [
+                "Gravity & Friction"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 6,
+              "id": "sci-t2-w6",
+              "title": "Living with Gravity & Friction",
+              "topics": [
+                "Living with Gravity & Friction: Normal, Buoyant, Lifting & Tension & Thrust"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 7,
+              "id": "sci-t2-w7",
+              "title": "Mechanical Energy",
+              "topics": [
+                "Mechanical Energy: Kinetic & Potential Energy"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 8,
+              "id": "sci-t2-w8",
+              "title": "Sound, Heat & Light",
+              "topics": [
+                "Sound, Heat & Light"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 9,
+              "id": "sci-t2-w9",
+              "title": "Electricity & Energy Transformation",
+              "topics": [
+                "Electricity and Energy Transformation"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 10,
+              "id": "sci-t2-w10",
+              "title": "Doing More with Less",
+              "topics": [
+                "Doing More with Less: Simple Machines"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 11,
+              "id": "sci-t2-w11",
+              "title": "Exam Week",
+              "topics": [
+                "EXAM"
+              ],
+              "status": "planned"
+            }
+          ]
         },
         {
           "id": "math",
@@ -1043,7 +1143,107 @@
           "icon": "📐",
           "accent": "#f5c542",
           "status": "planned",
-          "weeks": []
+          "weeks": [
+            {
+              "week": 1,
+              "id": "math-t2-w1",
+              "title": "Percentages",
+              "topics": [
+                "Percentages, and their relationships with fractions and decimals"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 2,
+              "id": "math-t2-w2",
+              "title": "Percentages",
+              "topics": [
+                "Percentages, and their relationships with fractions and decimals"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 3,
+              "id": "math-t2-w3",
+              "title": "Exponential Form & GEMDAS",
+              "topics": [
+                "Exponential form, including calculation using the GEMDAS rules"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 4,
+              "id": "math-t2-w4",
+              "title": "Exponential Form & GEMDAS",
+              "topics": [
+                "Exponential form, including calculation using the GEMDAS rules"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 5,
+              "id": "math-t2-w5",
+              "title": "Exponential Form & GEMDAS",
+              "topics": [
+                "Exponential form, including calculation using the GEMDAS rules"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 6,
+              "id": "math-t2-w6",
+              "title": "Volume & Capacity",
+              "topics": [
+                "Units of volume and capacity"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 7,
+              "id": "math-t2-w7",
+              "title": "Converting Volume & Capacity",
+              "topics": [
+                "Units of volume and capacity: Conversion of units of volume and capacity"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 8,
+              "id": "math-t2-w8",
+              "title": "Converting Volume & Capacity",
+              "topics": [
+                "Units of volume and capacity: Conversion of units of volume and capacity"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 9,
+              "id": "math-t2-w9",
+              "title": "Volume of Prisms",
+              "topics": [
+                "Volume of cubes and rectangular prisms"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 10,
+              "id": "math-t2-w10",
+              "title": "Volume of Prisms",
+              "topics": [
+                "Volume of cubes and rectangular prisms"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 11,
+              "id": "math-t2-w11",
+              "title": "Exam Week",
+              "topics": [
+                "EXAM"
+              ],
+              "status": "planned"
+            }
+          ]
         },
         {
           "id": "english",
@@ -1052,7 +1252,117 @@
           "icon": "📖",
           "accent": "#ff6b9d",
           "status": "planned",
-          "weeks": []
+          "weeks": [
+            {
+              "week": 1,
+              "id": "eng-t2-w1",
+              "title": "Simple Past Tense",
+              "topics": [
+                "Simple Past Tense",
+                "Literature Review: Don Quixote, Chapter 11: The Adventure with the Barber"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 2,
+              "id": "eng-t2-w2",
+              "title": "Past Tense: Regular & Irregular",
+              "topics": [
+                "Past Tense of Verbs (Regular and Irregular)",
+                "Literature Review: Don Quixote, Chapter 12: The Adventure with the Prisoners"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 3,
+              "id": "eng-t2-w3",
+              "title": "Phrasal Verbs",
+              "topics": [
+                "Phrasal Verbs",
+                "Literature Review: Don Quixote, Chapter 13: In the Black Mountains"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 4,
+              "id": "eng-t2-w4",
+              "title": "Future Tense",
+              "topics": [
+                "Future Tense",
+                "Literature Review: Don Quixote, Chapter 14: The Message to Dulcinea"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 5,
+              "id": "eng-t2-w5",
+              "title": "Review of Tenses",
+              "topics": [
+                "Review of Tenses and Writing Simple Sentences",
+                "Literature Review: Don Quixote, Chapter 15: Sancho Panza on the Road"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 6,
+              "id": "eng-t2-w6",
+              "title": "Prefixes and Suffixes",
+              "topics": [
+                "Prefixes and Suffixes",
+                "Literature Review: Don Quixote, Chapter 16: The Ox-Cart Journey"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 7,
+              "id": "eng-t2-w7",
+              "title": "Degrees of Comparison",
+              "topics": [
+                "Degrees of Comparison",
+                "Literature Review: Don Quixote, Chapter 17: With Friends and Neighbors"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 8,
+              "id": "eng-t2-w8",
+              "title": "Descriptive Phrases",
+              "topics": [
+                "Using Types of Descriptive Phrases",
+                "Literature Review: Don Quixote, Chapter 18: In Search of Dulcinea"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 9,
+              "id": "eng-t2-w9",
+              "title": "Adverbs",
+              "topics": [
+                "Adverbs",
+                "Literature Review: Don Quixote, Chapter 19: The Strolling Players"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 10,
+              "id": "eng-t2-w10",
+              "title": "Adjectives or Adverbs as Modifiers",
+              "topics": [
+                "Using Adjectives or Adverbs as Modifiers",
+                "Literature Review: Don Quixote, Chapter 20: The Knight of the Mirrors"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 11,
+              "id": "eng-t2-w11",
+              "title": "Exam Week",
+              "topics": [
+                "EXAM"
+              ],
+              "status": "planned"
+            }
+          ]
         },
         {
           "id": "social-studies",
@@ -1061,7 +1371,107 @@
           "icon": "🌏",
           "accent": "#a855f7",
           "status": "planned",
-          "weeks": []
+          "weeks": [
+            {
+              "week": 1,
+              "id": "ss-t2-w1",
+              "title": "Preparing for Independence",
+              "topics": [
+                "Preparing for Independence"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 2,
+              "id": "ss-t2-w2",
+              "title": "Preparing for Independence",
+              "topics": [
+                "Preparing for Independence"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 3,
+              "id": "ss-t2-w3",
+              "title": "Japanese Occupation",
+              "topics": [
+                "Japanese Occupation"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 4,
+              "id": "ss-t2-w4",
+              "title": "Japanese Occupation",
+              "topics": [
+                "Japanese Occupation"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 5,
+              "id": "ss-t2-w5",
+              "title": "The Challenges of Independence",
+              "topics": [
+                "The Challenges of Independence"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 6,
+              "id": "ss-t2-w6",
+              "title": "The Challenges of Independence",
+              "topics": [
+                "The Challenges of Independence"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 7,
+              "id": "ss-t2-w7",
+              "title": "A Sovereign Country",
+              "topics": [
+                "The Philippines as a Sovereign Country"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 8,
+              "id": "ss-t2-w8",
+              "title": "Roxas, Quirino & Magsaysay",
+              "topics": [
+                "Roxas, Quirino, and Magsaysay Administrations"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 9,
+              "id": "ss-t2-w9",
+              "title": "Garcia, Macapagal & Marcos",
+              "topics": [
+                "Garcia, Macapagal, Marcos Administrations"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 10,
+              "id": "ss-t2-w10",
+              "title": "Martial Law in the Philippines",
+              "topics": [
+                "Martial Law in the Philippines"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 11,
+              "id": "ss-t2-w11",
+              "title": "Exam Week",
+              "topics": [
+                "EXAM"
+              ],
+              "status": "planned"
+            }
+          ]
         },
         {
           "id": "filipino",
@@ -1070,7 +1480,112 @@
           "icon": "🇵🇭",
           "accent": "#fb923c",
           "status": "planned",
-          "weeks": []
+          "weeks": [
+            {
+              "week": 1,
+              "id": "fil-t2-w1",
+              "title": "Kaukulan ng Pangngalan",
+              "topics": [
+                "Kaukulan ng Pangngalan",
+                "PAGBASA: Papa’s House, Mama’s House"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 2,
+              "id": "fil-t2-w2",
+              "title": "Panghalip Panao",
+              "topics": [
+                "Panghalip Panao"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 3,
+              "id": "fil-t2-w3",
+              "title": "Panghalip Pananong at Pamatlig",
+              "topics": [
+                "Panghalip Pananong at Pamatlig",
+                "PAGBASA: Naging Pintor si Tominaman sa Rogong"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 4,
+              "id": "fil-t2-w4",
+              "title": "Panghalip Panaklaw",
+              "topics": [
+                "Panghalip Panaklaw"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 5,
+              "id": "fil-t2-w5",
+              "title": "Kailanan ng Panghalip",
+              "topics": [
+                "Kailanan ng Panghalip",
+                "PAGBASA: Si Diwayen, Noong Bago Dumating Ang Mga Espanyol"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 6,
+              "id": "fil-t2-w6",
+              "title": "Uri ng Pang-uri",
+              "topics": [
+                "Uri ng Pang-uri"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 7,
+              "id": "fil-t2-w7",
+              "title": "Kaantasan ng Pang-uri",
+              "topics": [
+                "Kaantasan ng Pang-uri",
+                "PAGBASA: Si Segunda, Noong Panahon ng Mga Espanyol"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 8,
+              "id": "fil-t2-w8",
+              "title": "Magkasingkahulugan at Magkasalungat",
+              "topics": [
+                "Pang-uring Magkasingkahulugan at Magkasalungat"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 9,
+              "id": "fil-t2-w9",
+              "title": "Pandiwa",
+              "topics": [
+                "Pandiwa: Aspekto at Pokus ng Pandiwa",
+                "PAGBASA: Si Pitong, Noong Panahon ng mga Hapon"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 10,
+              "id": "fil-t2-w10",
+              "title": "Pang-abay",
+              "topics": [
+                "Pang-abay at Uri ng Pang-abay"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 11,
+              "id": "fil-t2-w11",
+              "title": "Exam Week",
+              "topics": [
+                "EXAM"
+              ],
+              "status": "planned"
+            }
+          ]
         },
         {
           "id": "mapeh",
@@ -1079,7 +1594,107 @@
           "icon": "🎵",
           "accent": "#22c55e",
           "status": "planned",
-          "weeks": []
+          "weeks": [
+            {
+              "week": 1,
+              "id": "mapeh-t2-w1",
+              "title": "History of Music & Instruments",
+              "topics": [
+                "History of Music & Instruments"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 2,
+              "id": "mapeh-t2-w2",
+              "title": "Indigenous Music Traditions",
+              "topics": [
+                "Indigenous Music Traditions"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 3,
+              "id": "mapeh-t2-w3",
+              "title": "Music Then vs. Now",
+              "topics": [
+                "Music Then vs. Now"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 4,
+              "id": "mapeh-t2-w4",
+              "title": "Art Through Time",
+              "topics": [
+                "Art Through Time"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 5,
+              "id": "mapeh-t2-w5",
+              "title": "Philippine Arts & Cultural Symbols",
+              "topics": [
+                "Philippine Arts & Cultural Symbols"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 6,
+              "id": "mapeh-t2-w6",
+              "title": "Storytelling Through Art",
+              "topics": [
+                "Storytelling Through Art"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 7,
+              "id": "mapeh-t2-w7",
+              "title": "Traditional Filipino Games",
+              "topics": [
+                "Traditional Filipino Games"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 8,
+              "id": "mapeh-t2-w8",
+              "title": "Family Wellness & Nutrition",
+              "topics": [
+                "Family Wellness & Nutrition"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 9,
+              "id": "mapeh-t2-w9",
+              "title": "Physical Fitness & Recreation",
+              "topics": [
+                "Physical Fitness & Recreation"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 10,
+              "id": "mapeh-t2-w10",
+              "title": "Historical Multimedia Project",
+              "topics": [
+                "Historical Multimedia Project"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 11,
+              "id": "mapeh-t2-w11",
+              "title": "Cultural Expo",
+              "topics": [
+                "Cultural Expo Assessment"
+              ],
+              "status": "planned"
+            }
+          ]
         },
         {
           "id": "tle",
@@ -1088,7 +1703,107 @@
           "icon": "🧰",
           "accent": "#4ecdc4",
           "status": "planned",
-          "weeks": []
+          "weeks": [
+            {
+              "week": 1,
+              "id": "tle-t2-w1",
+              "title": "Kitchen Orientation & Tools",
+              "topics": [
+                "Kitchen Orientation & Tools"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 2,
+              "id": "tle-t2-w2",
+              "title": "Kitchen Organization Basics",
+              "topics": [
+                "Kitchen Organization Basics"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 3,
+              "id": "tle-t2-w3",
+              "title": "Food Safety & Hygiene",
+              "topics": [
+                "Food Safety & Hygiene"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 4,
+              "id": "tle-t2-w4",
+              "title": "Pantry Organization",
+              "topics": [
+                "Pantry Organization"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 5,
+              "id": "tle-t2-w5",
+              "title": "Food Preparation Basics",
+              "topics": [
+                "Food Preparation Basics"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 6,
+              "id": "tle-t2-w6",
+              "title": "No-Cook Recipes",
+              "topics": [
+                "No-Cook Recipes"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 7,
+              "id": "tle-t2-w7",
+              "title": "Basic Cooking & Workstation Skills",
+              "topics": [
+                "Basic Cooking & Workstation Skills"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 8,
+              "id": "tle-t2-w8",
+              "title": "Clothing Care & Laundry",
+              "topics": [
+                "Clothing Care & Laundry"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 9,
+              "id": "tle-t2-w9",
+              "title": "Basic Sewing Skills",
+              "topics": [
+                "Basic Sewing Skills"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 10,
+              "id": "tle-t2-w10",
+              "title": "My Organized Home System",
+              "topics": [
+                "My Organized Home System"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 11,
+              "id": "tle-t2-w11",
+              "title": "Assessment & Practical Test",
+              "topics": [
+                "Assessment & Practical Test"
+              ],
+              "status": "planned"
+            }
+          ]
         },
         {
           "id": "devotion",
@@ -1097,9 +1812,111 @@
           "icon": "🕊️",
           "accent": "#f5c542",
           "status": "planned",
-          "weeks": []
+          "weeks": [
+            {
+              "week": 1,
+              "id": "dev-t2-w1",
+              "title": "Self-Control in Choices",
+              "topics": [
+                "Self-Control in Choices"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 2,
+              "id": "dev-t2-w2",
+              "title": "Gratitude Everyday",
+              "topics": [
+                "Gratitude Everyday"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 3,
+              "id": "dev-t2-w3",
+              "title": "Compassion in Action",
+              "topics": [
+                "Compassion in Action"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 4,
+              "id": "dev-t2-w4",
+              "title": "Patience in the Process",
+              "topics": [
+                "Patience in the Process"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 5,
+              "id": "dev-t2-w5",
+              "title": "Respect & Kindness",
+              "topics": [
+                "Respect & Kindness"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 6,
+              "id": "dev-t2-w6",
+              "title": "Forgiveness & Reconciliation",
+              "topics": [
+                "Forgiveness & Reconciliation"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 7,
+              "id": "dev-t2-w7",
+              "title": "Unity in Diversity",
+              "topics": [
+                "Unity in Diversity"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 8,
+              "id": "dev-t2-w8",
+              "title": "Friendship That Honors God",
+              "topics": [
+                "Friendship That Honors God"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 9,
+              "id": "dev-t2-w9",
+              "title": "Being A Peacemaker",
+              "topics": [
+                "Being A Peacemaker"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 10,
+              "id": "dev-t2-w10",
+              "title": "Speaking Life & Encouragement",
+              "topics": [
+                "Speaking Life & Encouragement"
+              ],
+              "status": "planned"
+            },
+            {
+              "week": 11,
+              "id": "dev-t2-w11",
+              "title": "Exam Week",
+              "topics": [
+                "EXAM"
+              ],
+              "status": "planned"
+            }
+          ]
         }
-      ]
+      ],
+      "theme": "Rooted in Christlike Character & Relationship",
+      "source": "B_Term 2_Grade 6_Weekly Scope_2026-2027 + Semestral Scope (Drive: C_Grade 6_Weekly Scope_2026-2027)"
     }
   ]
 }

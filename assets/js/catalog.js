@@ -40,10 +40,15 @@ async function main() {
         ${switcher}
         <div class="eyebrow">${escapeHtml(data.label)}</div>
         <h1 style="margin:6px 0 10px;">Hey ${escapeHtml(profile.name)}</h1>
-        <p class="lede">${
-            ready.length ? `${ready.length} lesson${ready.length === 1 ? '' : 's'} ready. Pick a subject.`
-                         : 'Nothing here yet — this term\u2019s plan has not been added.'
-        }</p>
+        <p class="lede">${(() => {
+            if (ready.length) return `${ready.length} lesson${ready.length === 1 ? '' : 's'} ready. Pick a subject.`;
+            const planned = data.courses.reduce((n, c) => n + (c.weeks || []).length, 0);
+            // The scope being in is a real milestone, and different from nothing existing.
+            return planned
+                ? `${data.weeks} weeks mapped out. The lessons are still being written.`
+                : 'Nothing here yet \u2014 this term\u2019s plan has not been added.';
+        })()}</p>
+        ${data.theme ? `<p class="small muted" style="margin-top:6px;">Term theme: ${escapeHtml(data.theme)}</p>` : ''}
 
         <section class="card" style="margin:22px 0;padding:18px;">
             <div class="between" style="margin-bottom:10px;">
