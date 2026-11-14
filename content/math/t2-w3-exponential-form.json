@@ -1,0 +1,360 @@
+{
+  "id": "math-t2-w3",
+  "courseId": "math",
+  "courseTitle": "Math",
+  "week": 3,
+  "title": "Exponential Form",
+  "subtitle": "A short way of writing repeated multiplication.",
+  "estMinutes": 20,
+  "objectives": [
+    "Read and write numbers in exponential form",
+    "Explain what the base and the exponent each mean",
+    "Work out squares and cubes",
+    "Use powers of ten to handle big numbers"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "²",
+      "eyebrow": "Part 1 · The notation",
+      "title": "A small raised number is an instruction",
+      "text": "It is not a multiplier. It tells you how many times to use the big number as a factor."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Base and exponent",
+      "title": "Two parts, two jobs",
+      "text": "In 2⁵ the 2 is the base and the 5 is the exponent.",
+      "points": [
+        "**The base** is the number being multiplied.",
+        "**The exponent** counts how many copies.",
+        "**2⁵ means 2 × 2 × 2 × 2 × 2** — five twos.",
+        "**It is 32, not 10.** The commonest mistake in the topic."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What does 3⁴ mean?",
+        "options": [
+          "4 × 4 × 4",
+          "3 × 3 × 3 × 3",
+          "3 + 3 + 3 + 3",
+          "3 × 4"
+        ],
+        "answerIndex": 1,
+        "explain": "Four copies of 3, multiplied. That is 81. Multiplying 3 by 4 would only give 12.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "figure",
+      "figure": "volumeLab",
+      "title": "Press an edge length. Watch the cube",
+      "text": "Doubling one edge doubles that edge. Cubing it is what the small 3 does."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Squares and cubes",
+      "title": "Two exponents with their own names",
+      "text": "They are named after shapes, and the shapes explain them.",
+      "points": [
+        "**5² is 'five squared'** — the area of a 5 × 5 square.",
+        "**5³ is 'five cubed'** — the volume of a 5 × 5 × 5 cube.",
+        "**That is why** they are called square and cube numbers.",
+        "**5² = 25. 5³ = 125.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "What is 4³? Digits only.",
+        "accept": [
+          "64"
+        ],
+        "explain": "Three copies of 4 multiplied: 4 × 4 × 4 = 64.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Gaming mode",
+      "title": "Why a bigger world costs so much more",
+      "text": "A map that is twice as wide in every direction is not twice the work.",
+      "points": [
+        "**Twice as wide and twice as deep** is 2² — four times the area.",
+        "**Add height** and it is 2³ — eight times the volume.",
+        "**That is why** open-world games take so long to build.",
+        "**Doubling a dimension** multiplies the total far faster."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Powers of ten",
+      "title": "The exponent counts the zeros",
+      "text": "This is where exponents stop being an exercise and start saving time.",
+      "points": [
+        "**10³ = 1,000** — three zeros.",
+        "**10⁶ = 1,000,000** — six zeros.",
+        "**A million is 10⁶**, a billion is 10⁹.",
+        "**Scientists write 300,000,000 as 3 × 10⁸.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "disasters",
+      "icon": "🌍",
+      "eyebrow": "Disaster mode",
+      "title": "Earthquake magnitude is an exponent in disguise",
+      "text": "Magnitude 6 to magnitude 7 does not sound like much. It is ten times the shaking.",
+      "points": [
+        "**Each whole step** multiplies the ground movement by ten.",
+        "**Two steps** is ten squared — a hundred times.",
+        "**The energy released** grows faster still, about thirty-two times per step.",
+        "**The scale is small** because the numbers behind it are enormous."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "How many zeros does 10⁵ have?",
+        "options": [
+          "5",
+          "6",
+          "3",
+          "4"
+        ],
+        "answerIndex": 0,
+        "explain": "The exponent counts the zeros for powers of ten. 10⁵ is 100,000.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "space",
+      "icon": "🪐",
+      "eyebrow": "Space mode",
+      "title": "Nobody writes out the distance to the Sun",
+      "text": "It is about 150,000,000 km. Counting those zeros is how mistakes happen.",
+      "points": [
+        "**Written properly** it is 1.5 × 10⁸ km.",
+        "**Light travels 3 × 10⁸ metres each second.**",
+        "**The exponent carries the size**, so the digits stay readable.",
+        "**One wrong zero** is a factor of ten. Exponents make that hard to do."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Base",
+          "def": "The number being multiplied repeatedly."
+        },
+        {
+          "term": "Exponent",
+          "def": "The small raised number counting how many copies."
+        },
+        {
+          "term": "Squared",
+          "def": "Raised to the power of 2."
+        },
+        {
+          "term": "Cubed",
+          "def": "Raised to the power of 3."
+        },
+        {
+          "term": "Power of ten",
+          "def": "Ten raised to an exponent; the exponent counts the zeros."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "The exponent counts factors, it does not multiply.",
+        "2⁵ is 32, not 10.",
+        "Squared is area, cubed is volume.",
+        "For powers of ten, the exponent is the number of zeros."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "In 7³, which number is the base?",
+      "options": [
+        "7",
+        "21",
+        "10",
+        "3"
+      ],
+      "answerIndex": 0,
+      "explain": "The base is the number being multiplied; the exponent counts the copies.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "2⁵ equals…",
+      "options": [
+        "16",
+        "32",
+        "10",
+        "25"
+      ],
+      "answerIndex": 1,
+      "explain": "Five twos multiplied: 2×2×2×2×2 = 32.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 20
+    },
+    {
+      "type": "type",
+      "text": "What is 3²? Digits only.",
+      "accept": [
+        "9"
+      ],
+      "explain": "Two copies of 3 multiplied: 3 × 3 = 9.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 16
+    },
+    {
+      "type": "type",
+      "text": "What is 5³? Digits only.",
+      "accept": [
+        "125"
+      ],
+      "explain": "5 × 5 × 5 = 125. That is the volume of a 5 by 5 by 5 cube.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "'Four squared' means…",
+      "options": [
+        "4 × 4",
+        "4 × 2",
+        "4 + 4",
+        "2⁴"
+      ],
+      "answerIndex": 0,
+      "explain": "Squared is the power of 2: two copies of 4 multiplied.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "10⁴ is…",
+      "options": [
+        "40",
+        "400",
+        "10,000",
+        "1,000"
+      ],
+      "answerIndex": 2,
+      "explain": "For powers of ten the exponent counts the zeros, so 10⁴ has four.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "3⁴ is the same as 4³.",
+      "answer": false,
+      "explain": "3⁴ is 81 and 4³ is 64. Swapping base and exponent changes the value.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why is a cube's volume written with a 3?",
+      "options": [
+        "Cubes are always 3",
+        "Three edge lengths are multiplied together",
+        "It has 3 sides",
+        "It is 3 cm wide"
+      ],
+      "answerIndex": 1,
+      "explain": "Length × width × height — three dimensions, so the power of 3.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "150,000,000 in exponential form is…",
+      "options": [
+        "15 × 10⁸",
+        "1.5 × 10⁶",
+        "1.5 × 10⁸",
+        "1.5 × 10⁷"
+      ],
+      "answerIndex": 2,
+      "explain": "Count the places after the 1.5: eight of them.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 24
+    },
+    {
+      "type": "multiple",
+      "text": "Doubling the width, depth AND height of a world multiplies its volume by…",
+      "options": [
+        "6",
+        "4",
+        "2",
+        "8"
+      ],
+      "answerIndex": 3,
+      "explain": "2³ = 8. Each doubled dimension multiplies the total again.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 22
+    },
+    {
+      "type": "type",
+      "text": "Write 10 × 10 × 10 in exponential form. Use the caret, like 10^3.",
+      "accept": [
+        "10^3",
+        "10³",
+        "103"
+      ],
+      "explain": "Three copies of 10, so the exponent is 3.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Which is largest?",
+      "options": [
+        "4²",
+        "2⁴",
+        "5¹",
+        "3³"
+      ],
+      "answerIndex": 3,
+      "explain": "2⁴ = 16, 3³ = 27, 4² = 16, 5¹ = 5.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 24
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 3 Math, the first of three weeks the scope gives to exponential form and GEMDAS. This week is notation only; GEMDAS arrives in Week 4. The whole lesson defends one line — the exponent counts factors, it does not multiply — because 2⁵ = 10 is the error that survives everything else. Squares and cubes are tied to their shapes rather than treated as vocabulary, and the volume lab lets him watch a cube outgrow its own edge. Powers of ten close the week as the point where the notation starts earning its keep.",
+    "discussion": [
+      "Why is 2⁵ not 10?",
+      "Why is the power of 3 called cubing?",
+      "What goes wrong when you write out eight zeros by hand?"
+    ],
+    "extension": [
+      "Measure a box and work out its volume as a power.",
+      "Write your age, your height in mm and the distance to school as powers of ten."
+    ],
+    "misconceptions": [
+      "That the exponent multiplies the base.",
+      "That 3⁴ and 4³ are the same.",
+      "That squaring and doubling are the same thing."
+    ]
+  }
+}

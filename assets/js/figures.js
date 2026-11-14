@@ -1301,6 +1301,99 @@ function ruleLab({ id, label, alt, input, outputs, rule, sharedScale = false, he
     };
 }
 
+/* ==========================================================================
+   orderLab — he chooses which part to work out first, and the expression
+   actually collapses in front of him.
+
+   Order of operations is usually taught as a word to chant. Chanting it does
+   not stop anyone adding before they multiply. Here a wrong choice is allowed
+   and answered calmly — the line shows what that choice would give and why it
+   is not the rule — and a right choice rewrites the expression one step
+   shorter. He gets to the answer by making the decisions.
+   ========================================================================== */
+function orderLab({ id, label, alt, steps, height = 196 }) {
+    return {
+        svg: `
+<svg viewBox="0 0 400 ${height}" role="img" aria-labelledby="${id}T">
+  <title id="${id}T">${alt}</title>
+  <text class="fig-label" x="20" y="20">${label}</text>
+  <text class="fig-expr" id="${id}E" x="200" y="76" text-anchor="middle">&#160;</text>
+  <text class="fig-note fig-note-key" id="${id}A" x="20" y="${height - 50}">&#160;</text>
+  <text class="fig-note"              id="${id}B" x="20" y="${height - 26}">&#160;</text>
+</svg>`,
+        bind(root) {
+            const bar = document.createElement('div');
+            bar.className = 'fig-switch';
+            root.appendChild(bar);
+            const expr = root.querySelector(`#${id}E`);
+            const a = root.querySelector(`#${id}A`);
+            const b = root.querySelector(`#${id}B`);
+            let at = 0;
+
+            const draw = () => {
+                const st = steps[at];
+                expr.textContent = st.expr;
+                fitText(expr);
+                if (!st.choices) {           // the final line: done
+                    bar.innerHTML = `<button data-reset="1">Start again</button>`;
+                    a.textContent = st.done || 'Done.';
+                    b.textContent = '';
+                    fitText(a);
+                    return;
+                }
+                bar.innerHTML = st.choices.map((c, i) =>
+                    `<button data-i="${i}">${c.btn}</button>`).join('');
+                a.textContent = st.ask || 'Which part do you work out first?';
+                b.textContent = '';
+                fitText(a);
+            };
+
+            bar.addEventListener('click', e => {
+                const btn = e.target.closest('button');
+                if (!btn) return;
+                if (btn.dataset.reset) { at = 0; draw(); return; }
+                const pick = steps[at].choices[Number(btn.dataset.i)];
+                if (pick.ok) { at++; draw(); }
+                else {
+                    // Never "wrong". Show what that move would give, and the rule.
+                    a.textContent = pick.gives;
+                    b.textContent = pick.why;
+                    fitText(a); fitText(b);
+                }
+            });
+            draw();
+        }
+    };
+}
+
+/* GEMDAS, worked by him rather than recited at him. */
+function gemdasLab() {
+    return orderLab({
+        id: 'gm', label: 'YOU PICK THE FIRST MOVE',
+        alt: 'An interactive where the learner chooses which part of an expression to evaluate first, with the order of operations enforced',
+        steps: [
+            { expr: '4 + 3 × 2²',
+              ask: 'Which part do you work out first?',
+              choices: [
+                { btn: '4 + 3', ok: false, gives: 'That would give 7 × 2², which is 28.',
+                  why: 'Addition is last. The exponent comes before everything here.' },
+                { btn: '3 × 2', ok: false, gives: 'That would give 4 + 6², which is 40.',
+                  why: 'The exponent is attached to the 2 alone, not to 3 × 2.' },
+                { btn: '2²', ok: true } ] },
+            { expr: '4 + 3 × 4',
+              ask: 'The exponent is gone. What now?',
+              choices: [
+                { btn: '4 + 3', ok: false, gives: 'That would give 7 × 4, which is 28.',
+                  why: 'Multiply before you add. Always, unless brackets say otherwise.' },
+                { btn: '3 × 4', ok: true } ] },
+            { expr: '4 + 12',
+              ask: 'Only one move left.',
+              choices: [ { btn: '4 + 12', ok: true } ] },
+            { expr: '16', done: 'Exponent, then multiply, then add. 16.' }
+        ]
+    });
+}
+
 /* Speed is squared and mass is not. Pressing 20 then 40 makes that one fact
    impossible to miss: one bar doubles, the other quadruples. */
 function squareLawLab() {
@@ -5082,6 +5175,7 @@ export const FIGURES = {
     strikingHand,
     brainRotation,
     pluralMachine,
+    gemdasLab,
     squareLawLab,
     percentLab,
     volumeLab,

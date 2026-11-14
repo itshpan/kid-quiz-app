@@ -1,0 +1,330 @@
+{
+  "id": "math-t2-w5",
+  "courseId": "math",
+  "courseTitle": "Math",
+  "week": 5,
+  "title": "Exponents & GEMDAS Together",
+  "subtitle": "Longer expressions, same four levels.",
+  "estMinutes": 20,
+  "objectives": [
+    "Evaluate expressions combining exponents, brackets and all four operations",
+    "Work through a multi-step expression without losing track",
+    "Check an answer by re-reading the order",
+    "Apply the order to a real formula"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🧮",
+      "eyebrow": "Part 3 · Putting it together",
+      "title": "Nothing new this week. Just longer",
+      "text": "Same four levels, more of them in one line. The skill is keeping track, not learning another rule."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "One line at a time",
+      "title": "Rewrite, do not solve in your head",
+      "text": "Every step should produce a shorter expression written down.",
+      "points": [
+        "**Do one operation**, then copy the rest unchanged.",
+        "**Most errors are copying errors**, not maths errors.",
+        "**A line per step** makes a mistake findable.",
+        "**Working in your head** is how you lose a minus sign."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "gemdasLab",
+      "title": "Work one through, your way",
+      "text": "Pick each move yourself. If you pick the wrong level it will tell you what that would give."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "In 2 × (3 + 1)² what comes first?",
+        "options": [
+          "the exponent",
+          "3 + 1",
+          "2 × 3",
+          "1²"
+        ],
+        "answerIndex": 1,
+        "explain": "Grouping outranks everything. 3 + 1 = 4, then square it, then multiply.",
+        "seconds": 24
+      }
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "What is 2 × (3 + 1)²? Digits only.",
+        "accept": [
+          "32"
+        ],
+        "explain": "Brackets: 4. Exponent: 16. Multiply: 32.",
+        "seconds": 24
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "A lap time calculation has an order too",
+      "text": "Sector times add. A penalty adds. A multiplier does not simply tack on the end.",
+      "points": [
+        "**Add the sectors first**, then apply anything that scales.",
+        "**Do it backwards** and the penalty gets multiplied too.",
+        "**Timing software uses brackets** for exactly this.",
+        "**Same rule**, applied to something with a stopwatch on it."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Checking",
+      "title": "Re-read, do not re-do",
+      "text": "If the answer looks wrong, check the order before you check the arithmetic.",
+      "points": [
+        "**Did a bracket get skipped?**",
+        "**Did an exponent apply to the wrong thing?**",
+        "**Did you go left to right** on equal ranks?",
+        "**Most wrong answers** are order, not sums."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "What a fan actually costs to run",
+      "text": "The label says 50 W. Turning that into pesos is a single expression with a strict order.",
+      "points": [
+        "**watts × hours ÷ 1000** gives kilowatt-hours.",
+        "**Then multiply by the rate.** Not before.",
+        "**50 W for 8 hours** is 0.4 kWh.",
+        "**Divide at the wrong point** and you are out by a thousand."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is 10 − 2 × 3²?",
+        "options": [
+          "−8",
+          "24",
+          "72",
+          "8"
+        ],
+        "answerIndex": 0,
+        "explain": "Exponent: 9. Multiply: 2 × 9 = 18. Subtract: 10 − 18 = −8.",
+        "seconds": 26
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "Your own numbers have an order too",
+      "text": "Work out a training load wrong and you can over- or under-shoot badly.",
+      "points": [
+        "**70% of (max + 5 kg)** is not **70% of max, + 5 kg**.",
+        "**The brackets decide** which one you actually lift.",
+        "**Same digits, different session.**",
+        "**Read the formula before trusting it.**"
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Expression",
+          "def": "A set of numbers and operations with no equals sign."
+        },
+        {
+          "term": "Evaluate",
+          "def": "Reduce an expression to a single value."
+        },
+        {
+          "term": "Nested brackets",
+          "def": "Brackets inside brackets; the innermost go first."
+        },
+        {
+          "term": "Step",
+          "def": "One operation, with everything else copied unchanged."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Same four levels, however long the line.",
+        "One operation per written step.",
+        "Innermost brackets first when they are nested.",
+        "If it looks wrong, check the order before the arithmetic."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "type",
+      "text": "What is 3 + 2 × 4²? Digits only.",
+      "accept": [
+        "35"
+      ],
+      "explain": "Exponent: 16. Multiply: 32. Add: 35.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 24
+    },
+    {
+      "type": "type",
+      "text": "What is (5 − 2)³? Digits only.",
+      "accept": [
+        "27"
+      ],
+      "explain": "Brackets: 3. Then 3 × 3 × 3 = 27.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "What is 10 − 2 × 3²?",
+      "options": [
+        "72",
+        "24",
+        "8",
+        "−8"
+      ],
+      "answerIndex": 3,
+      "explain": "Exponent 9, multiply 18, then 10 − 18 = −8.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 24
+    },
+    {
+      "type": "type",
+      "text": "What is 2 × (3 + 1)²? Digits only.",
+      "accept": [
+        "32"
+      ],
+      "explain": "Brackets 4, exponent 16, multiply 32.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 24
+    },
+    {
+      "type": "multiple",
+      "text": "In nested brackets, which go first?",
+      "options": [
+        "The outermost",
+        "The innermost",
+        "Either",
+        "Left to right"
+      ],
+      "answerIndex": 1,
+      "explain": "Work from the inside out.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 20
+    },
+    {
+      "type": "type",
+      "text": "What is 100 ÷ (2 + 3) × 2? Digits only.",
+      "accept": [
+        "40"
+      ],
+      "explain": "Brackets 5, then left to right: 100 ÷ 5 = 20, × 2 = 40.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 24
+    },
+    {
+      "type": "truefalse",
+      "text": "You should solve as much as possible in your head to save time.",
+      "answer": false,
+      "explain": "One operation per written line makes mistakes findable. Head-maths is where minus signs disappear.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "What is 4² − 3 × 2?",
+      "options": [
+        "5",
+        "26",
+        "10",
+        "20"
+      ],
+      "answerIndex": 2,
+      "explain": "16 − 6 = 10. Exponent, then multiply, then subtract.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "70% of (max + 5) differs from 70% of max + 5 because…",
+      "options": [
+        "the brackets change what the percentage applies to",
+        "percentages ignore brackets",
+        "they are the same",
+        "the 5 is ignored"
+      ],
+      "answerIndex": 0,
+      "explain": "In one, the 5 is scaled too. In the other it is added afterwards.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 24
+    },
+    {
+      "type": "type",
+      "text": "What is 6 + 2³ ÷ 4? Digits only.",
+      "accept": [
+        "8"
+      ],
+      "explain": "Exponent 8, divide 8 ÷ 4 = 2, then 6 + 2 = 8.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 24
+    },
+    {
+      "type": "multiple",
+      "text": "If an answer looks wrong, check first…",
+      "options": [
+        "the order you worked in",
+        "the question wording",
+        "the calculator battery",
+        "the arithmetic"
+      ],
+      "answerIndex": 0,
+      "explain": "Most wrong answers in this topic are order errors, not sums.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 20
+    },
+    {
+      "type": "type",
+      "text": "What is (2 + 2)² ÷ 2? Digits only.",
+      "accept": [
+        "8"
+      ],
+      "explain": "Brackets 4, square 16, divide by 2 to get 8.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 5 Math, the last of the scope's three exponent weeks, and deliberately not a new rule. Everything here is the same four levels applied to longer lines, so the lesson teaches process instead: one operation per written step, with the point made explicitly that most errors in this topic are copying and order errors rather than arithmetic. The interactive returns so he works an expression himself a second time, a week later, which is spaced practice rather than a repeat. The training-load card closes by showing the bracket decision changing something physical.",
+    "discussion": [
+      "Why write a line per step instead of doing it in your head?",
+      "Which goes first in nested brackets?",
+      "Where have you seen brackets change a real outcome?"
+    ],
+    "extension": [
+      "Work three long expressions a line at a time and see where errors appear.",
+      "Rewrite a formula you use so the brackets say what you mean."
+    ],
+    "misconceptions": [
+      "That longer expressions need a new rule.",
+      "That nested brackets are done outside in.",
+      "That checking means redoing the sums rather than rereading the order."
+    ]
+  }
+}

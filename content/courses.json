@@ -1178,29 +1178,32 @@
             {
               "week": 3,
               "id": "math-t2-w3",
-              "title": "Exponential Form & GEMDAS",
+              "title": "Exponential Form",
               "topics": [
                 "Exponential form, including calculation using the GEMDAS rules"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "math/t2-w3-exponential-form.json"
             },
             {
               "week": 4,
               "id": "math-t2-w4",
-              "title": "Exponential Form & GEMDAS",
+              "title": "GEMDAS",
               "topics": [
                 "Exponential form, including calculation using the GEMDAS rules"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "math/t2-w4-gemdas.json"
             },
             {
               "week": 5,
               "id": "math-t2-w5",
-              "title": "Exponential Form & GEMDAS",
+              "title": "Exponents & GEMDAS Together",
               "topics": [
                 "Exponential form, including calculation using the GEMDAS rules"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "math/t2-w5-exponents-gemdas.json"
             },
             {
               "week": 6,

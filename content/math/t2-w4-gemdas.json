@@ -1,0 +1,346 @@
+{
+  "id": "math-t2-w4",
+  "courseId": "math",
+  "courseTitle": "Math",
+  "week": 4,
+  "title": "GEMDAS",
+  "subtitle": "The order the operations have to happen in.",
+  "estMinutes": 20,
+  "objectives": [
+    "State the GEMDAS order",
+    "Explain why an agreed order is necessary",
+    "Evaluate an expression in the correct order",
+    "Spot where a wrong order changes the answer"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🔢",
+      "eyebrow": "Part 2 · The order",
+      "title": "Two people, one expression, two answers",
+      "text": "4 + 3 × 2 is either 14 or 10 depending on what you do first. Maths cannot have that, so there is a rule."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The order",
+      "title": "GEMDAS, in order of who goes first",
+      "text": "Work down the list. Within a level, go left to right.",
+      "points": [
+        "**G**rouping — brackets first, always.",
+        "**E**xponents next.",
+        "**M**ultiply and **D**ivide — left to right, equal rank.",
+        "**A**dd and **S**ubtract — left to right, equal rank."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "gemdasLab",
+      "title": "You pick the first move",
+      "text": "Choose which part to work out. A wrong choice shows you what it would give and why the rule says otherwise."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "In 4 + 3 × 2, what do you do first?",
+        "options": [
+          "4 + 3",
+          "3 × 2",
+          "2 × 4",
+          "Either order"
+        ],
+        "answerIndex": 1,
+        "explain": "Multiplication outranks addition, so 3 × 2 = 6, then 4 + 6 = 10.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Equal rank",
+      "title": "Multiply and divide do not outrank each other",
+      "text": "This is where most people slip. M does not beat D; they share a level.",
+      "points": [
+        "**Left to right** when they share a rank.",
+        "**12 ÷ 3 × 2** is 4 × 2 = 8, not 12 ÷ 6 = 2.",
+        "**Add and subtract** work the same way.",
+        "**The letters are a list of levels**, not a queue of six."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "What is 12 ÷ 3 × 2? Digits only.",
+        "accept": [
+          "8"
+        ],
+        "explain": "Equal rank, so left to right: 12 ÷ 3 = 4, then 4 × 2 = 8.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "Order matters when you put a fan back together",
+      "text": "You cannot fit the guard before the blade. Some sequences are fixed by the thing itself.",
+      "points": [
+        "**Blade on the shaft**, then the front guard.",
+        "**Do it the other way** and nothing fits.",
+        "**GEMDAS is the same idea** applied to a calculation.",
+        "**The rule is not fussiness.** It is what makes the result repeatable."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Brackets",
+      "title": "Brackets are how you overrule the order",
+      "text": "If you want the addition first, say so with brackets.",
+      "points": [
+        "**(4 + 3) × 2 = 14.** The brackets promote the addition.",
+        "**4 + 3 × 2 = 10.** No brackets, normal order.",
+        "**Same digits, different answer.**",
+        "**Use brackets when you mean it.** They are not decoration."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "physics",
+      "icon": "⚛️",
+      "eyebrow": "Physics mode",
+      "title": "Every formula you have met already obeys this",
+      "text": "Kinetic energy is written ½ × m × v². The order is not optional.",
+      "points": [
+        "**Square the speed first.** The exponent outranks the multiplying.",
+        "**Then multiply** by the mass, then by a half.",
+        "**Multiply before squaring** and you get a completely different number.",
+        "**That is why** the square law hits so hard."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is (6 + 2) × 3?",
+        "options": [
+          "24",
+          "18",
+          "36",
+          "12"
+        ],
+        "answerIndex": 0,
+        "explain": "Brackets first: 6 + 2 = 8, then 8 × 3 = 24.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Gaming mode",
+      "title": "Damage formulas run on this exact order",
+      "text": "Base damage, then a multiplier, then a flat bonus — the order decides whether a build works.",
+      "points": [
+        "**(base + flat) × multiplier** is very different from **base + (flat × multiplier)**.",
+        "**Stacking order** is why two similar builds perform differently.",
+        "**Patch notes argue about brackets** more often than you would think.",
+        "**The game engine obeys GEMDAS.** It has no choice."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "GEMDAS",
+          "def": "Grouping, Exponents, Multiply/Divide, Add/Subtract."
+        },
+        {
+          "term": "Grouping symbols",
+          "def": "Brackets and anything acting like them."
+        },
+        {
+          "term": "Equal rank",
+          "def": "Operations on the same level, done left to right."
+        },
+        {
+          "term": "Evaluate",
+          "def": "Work an expression down to a single number."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Grouping, exponents, multiply/divide, add/subtract.",
+        "Equal ranks go left to right, not letter order.",
+        "Brackets exist to overrule the default.",
+        "The rule exists so one expression has one answer."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "What does the G in GEMDAS stand for?",
+      "options": [
+        "Grouping",
+        "Grid",
+        "Greater",
+        "General"
+      ],
+      "answerIndex": 0,
+      "explain": "Grouping symbols — brackets and anything acting like them — go first.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 16
+    },
+    {
+      "type": "type",
+      "text": "What is 4 + 3 × 2? Digits only.",
+      "accept": [
+        "10"
+      ],
+      "explain": "Multiply before you add: 3 × 2 = 6, then 4 + 6 = 10.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 18
+    },
+    {
+      "type": "type",
+      "text": "What is (4 + 3) × 2? Digits only.",
+      "accept": [
+        "14"
+      ],
+      "explain": "Brackets promote the addition: 7 × 2 = 14.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "In 12 ÷ 3 × 2, what happens first?",
+      "options": [
+        "3 × 2",
+        "12 ÷ 3",
+        "2 × 12",
+        "Either"
+      ],
+      "answerIndex": 1,
+      "explain": "Equal rank, so work left to right. 12 ÷ 3 first.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 22
+    },
+    {
+      "type": "type",
+      "text": "What is 2 + 3²? Digits only.",
+      "accept": [
+        "11"
+      ],
+      "explain": "Exponent first: 3² = 9, then 2 + 9 = 11.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "Multiplication always comes before division.",
+      "answer": false,
+      "explain": "They share a rank. Work left to right when both appear.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "What is 5 × 2²?",
+      "options": [
+        "40",
+        "100",
+        "20",
+        "25"
+      ],
+      "answerIndex": 2,
+      "explain": "Exponent first: 2² = 4, then 5 × 4 = 20. Not (5 × 2)².",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 22
+    },
+    {
+      "type": "type",
+      "text": "What is 20 − 4 × 3? Digits only.",
+      "accept": [
+        "8"
+      ],
+      "explain": "Multiply first: 4 × 3 = 12, then 20 − 12 = 8.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why does an agreed order exist at all?",
+      "options": [
+        "So one expression has exactly one answer",
+        "To make maths harder",
+        "Because calculators need it",
+        "Tradition"
+      ],
+      "answerIndex": 0,
+      "explain": "Without it, 4 + 3 × 2 would be both 10 and 14, and neither would be wrong.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "What is (8 − 3)²?",
+      "options": [
+        "5",
+        "25",
+        "10",
+        "13"
+      ],
+      "answerIndex": 1,
+      "explain": "Brackets first: 8 − 3 = 5, then 5² = 25.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 22
+    },
+    {
+      "type": "type",
+      "text": "What is 6 + 10 ÷ 2? Digits only.",
+      "accept": [
+        "11"
+      ],
+      "explain": "Divide first: 10 ÷ 2 = 5, then 6 + 5 = 11.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which expression equals 14?",
+      "options": [
+        "4 + 3 × 2",
+        "4 × 3 + 2",
+        "4 + 3 + 2",
+        "(4 + 3) × 2"
+      ],
+      "answerIndex": 3,
+      "explain": "The brackets force the addition first, giving 7 × 2.",
+      "objective": "Exponential form, including calculation using the GEMDAS rules",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 4 Math, GEMDAS, the middle of the scope's three exponent weeks. The order is introduced as a necessity rather than a convention to memorise: the opening card shows one expression producing two answers, and the rule is presented as the fix. The interactive is the centre of the lesson — he picks the first move and a wrong pick is answered with what it would give and which rule overrules it, so the error is worked through rather than marked. The equal-rank point gets its own card and checkpoint because M-before-D is the misconception the acronym itself causes.",
+    "discussion": [
+      "Why can't 4 + 3 × 2 have two answers?",
+      "Does M really come before D?",
+      "When would you add brackets on purpose?"
+    ],
+    "extension": [
+      "Put the same digits in a calculator with and without brackets.",
+      "Write an expression that equals 20 in two different ways."
+    ],
+    "misconceptions": [
+      "That multiplication outranks division.",
+      "That the acronym is a queue of six steps rather than four levels.",
+      "That brackets are optional decoration."
+    ]
+  }
+}

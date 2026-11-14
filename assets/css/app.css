@@ -944,6 +944,8 @@ strong { font-weight: 700; color: var(--ink); }
 
 /* ruleLab bars. Width is set on his tap, so the change is a response to
    something he did rather than motion he has to ignore. */
+.fig-expr { font-family: var(--font-ui); font-size: 30px; font-weight: 800; fill: var(--ink); }
+
 .fig-bar-track { fill: var(--surface-2); stroke: var(--line); stroke-width: 1; }
 .fig-bar       { fill: var(--accent); transition: width .25s ease; }
 .fig-bar-val   { fill: var(--ink-soft); font-weight: 700; }
