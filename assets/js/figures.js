@@ -859,6 +859,60 @@ function pluralMachine() {
    ========================================================================== */
 
 const EXPLORER_DATA = {
+    /* ---- The electric fan, opened up ----
+       He takes these apart himself, so the facts have to survive him checking.
+       Every part here is one he will actually find inside the case. ---- */
+    fanParts: {
+        blade: {
+            name: 'Blade', sub: 'usually three or five',
+            job: 'Each blade is a twisted wing. It pushes air forward as it turns.',
+            car: 'A propeller, not a knife. Angle is what moves air, not sharpness.',
+            you: 'Hold one flat against the table and look down it — the twist is the whole design.'
+        },
+        motor: {
+            name: 'Motor', sub: 'induction motor',
+            job: 'Turns electricity into a spinning magnetic field, and the field drags the shaft round.',
+            car: 'The engine. Everything else in the case exists to serve it.',
+            you: 'Nothing inside it touches to make it spin. The pull is magnetic, across an air gap.'
+        },
+        capacitor: {
+            name: 'Capacitor', sub: 'the little box',
+            job: 'Gives the motor the shove that decides which way it starts turning.',
+            car: 'The starter motor. Once it is running it is barely needed.',
+            you: 'This is the usual dead part. A fan that hums but will not start is nearly always this.'
+        },
+        windings: {
+            name: 'Windings', sub: 'coils of copper',
+            job: 'Current through the coils makes the magnetic field. More coil, slower spin.',
+            car: 'The gearbox. The speed switch picks how much winding the current goes through.',
+            you: 'Speed 1 is not less power to one coil. It is a different coil.'
+        },
+        bearing: {
+            name: 'Bearings', sub: 'at each end of the shaft',
+            job: 'Hold the shaft straight and let it spin with almost no friction.',
+            car: 'Wheel bearings. Dry ones rumble, then seize.',
+            you: 'A fan that rattles or slows down is nearly always dry bearings, not a dead motor.'
+        },
+        gearbox: {
+            name: 'Oscillating gearbox', sub: 'behind the motor',
+            job: 'Gears the motor down and drives a crank, which swings the head side to side.',
+            car: 'A crankshaft, backwards: spin in, swing out.',
+            you: 'Pull the knob up and the crank disengages. The motor does not change at all.'
+        },
+        guard: {
+            name: 'Guard', sub: 'the cage',
+            job: 'Keeps fingers out while letting air through.',
+            car: 'A radiator grille. Open enough to flow, tight enough to protect.',
+            you: 'The gap is set by a safety standard so a finger cannot reach the blade.'
+        },
+        cord: {
+            name: 'Cord & switch', sub: 'the way in',
+            job: 'Brings mains electricity in and chooses which winding it reaches.',
+            car: 'The ignition and the loom.',
+            you: 'Unplug it before opening anything. The capacitor can hold a charge after the plug is out.'
+        }
+    },
+
     /* ---- Respiratory: the intake side of the engine ---- */
     airway: {
         nose: {
@@ -1172,6 +1226,48 @@ const EXPLORER_DATA = {
 /* Anterior view, so the RIGHT chambers are on the viewer's LEFT. The outline
    is drawn once as a backing shape so the thing always reads as a heart; the
    tappable parts sit inside it rather than trying to tile it themselves. */
+/* An electric fan seen from the front, opened up. Drawn so the parts sit where
+   he will find them when he takes the case off: motor behind the blades,
+   capacitor and gearbox behind the motor, bearings on the shaft. */
+function fanParts() {
+    return {
+        svg: `<svg viewBox="0 0 240 300" role="img" aria-labelledby="fpT">
+  <title id="fpT">An electric fan from the front with its case open: guard, blades, motor, windings, capacitor, bearings, oscillating gearbox, and the cord</title>
+
+  <g class="organ" data-part="guard" role="button" tabindex="0" aria-label="Guard"><title>Guard</title>
+    <circle cx="120" cy="104" r="86" fill="none" stroke-width="4"/>
+    <circle cx="120" cy="104" r="68" fill="none" stroke-width="2.5"/>
+    <circle cx="120" cy="104" r="50" fill="none" stroke-width="2.5"/></g>
+
+  <g class="organ" data-part="blade" role="button" tabindex="0" aria-label="Blade"><title>Blade</title>
+    <path d="M120 86 C150 70 176 78 182 96 C168 104 140 102 122 98 Z"/>
+    <path d="M128 118 C150 142 146 168 130 178 C120 166 114 140 116 122 Z"/>
+    <path d="M110 112 C78 126 54 116 50 98 C66 88 94 92 110 100 Z"/>
+    <path d="M114 88 C96 62 102 36 120 28 C129 40 132 68 128 86 Z"/></g>
+
+  <g class="organ" data-part="windings" role="button" tabindex="0" aria-label="Windings"><title>Windings</title>
+    <circle cx="120" cy="104" r="30" fill="none" stroke-width="7"/></g>
+  <g class="organ" data-part="motor" role="button" tabindex="0" aria-label="Motor"><title>Motor</title>
+    <circle cx="120" cy="104" r="20"/></g>
+  <g class="organ" data-part="bearing" role="button" tabindex="0" aria-label="Bearings"><title>Bearings</title>
+    <circle cx="120" cy="104" r="8"/>
+    <circle cx="120" cy="150" r="7"/></g>
+
+  <g class="organ" data-part="capacitor" role="button" tabindex="0" aria-label="Capacitor"><title>Capacitor</title>
+    <rect x="164" y="176" width="26" height="36" rx="5"/></g>
+  <g class="organ" data-part="gearbox" role="button" tabindex="0" aria-label="Oscillating gearbox"><title>Oscillating gearbox</title>
+    <path d="M96 176 h48 a8 8 0 0 1 8 8 v22 a8 8 0 0 1 -8 8 h-48 a8 8 0 0 1 -8 -8 v-22 a8 8 0 0 1 8 -8 Z"/>
+    <circle class="fold" cx="120" cy="195" r="9" fill="none"/></g>
+
+  <rect class="organ-bg" x="104" y="214" width="32" height="40" rx="5"/>
+  <path class="organ-bg" d="M78 254 h84 a10 10 0 0 1 10 10 v10 h-104 v-10 a10 10 0 0 1 10 -10 Z"/>
+
+  <g class="organ tube" data-part="cord" role="button" tabindex="0" aria-label="Cord and switch"><title>Cord and switch</title>
+    <path d="M172 268 C196 272 208 282 214 292" fill="none" stroke-width="6" stroke-linecap="round"/></g>
+</svg>`
+    };
+}
+
 /* Intake side: nose down to the sacs, with the muscle that drives it all. */
 /* Five kinds of colloid, each named by what is dispersed in what. The pairing
    is the whole idea: "colloid" is not one thing, it is a size band that any
@@ -4863,6 +4959,7 @@ export const FIGURES = {
     strikingHand,
     brainRotation,
     pluralMachine,
+    fanParts,
     colloidKinds,
     airway,
     urinary,

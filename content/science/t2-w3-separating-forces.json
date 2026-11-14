@@ -1,0 +1,369 @@
+{
+  "id": "sci-t2-w3",
+  "courseId": "science",
+  "courseTitle": "Science",
+  "week": 3,
+  "title": "Separating Mixtures: Adding a Force",
+  "subtitle": "When waiting is not enough, bring wind, water, magnets or a machine.",
+  "estMinutes": 20,
+  "objectives": [
+    "Explain how winnowing separates by weight using moving air",
+    "Explain how panning uses density and flowing water",
+    "Explain what magnetic separation can and cannot pick out",
+    "Explain how a centrifuge speeds up settling",
+    "Match a mixture to the method that exploits the right difference"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🌀",
+      "eyebrow": "Part 2 · Add energy",
+      "title": "Last week you waited. This week you push",
+      "text": "Gravity alone is slow and sometimes useless. Add moving air, moving water, a magnet or a spin, and the same sorting happens faster."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Winnowing",
+      "title": "Moving air sorts by weight",
+      "text": "Throw a mixture of light and heavy pieces into a breeze. The light ones travel; the heavy ones drop.",
+      "points": [
+        "**Rice and chaff** is the classic: the husk blows away, the grain lands.",
+        "**It uses weight and air resistance**, not size.",
+        "**Done here for centuries** with a flat basket and a windy afternoon.",
+        "**No wind?** Make some."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "An electric fan is a winnowing machine",
+      "text": "Point a fan at a tray of mixed light and heavy pieces and you have made a wind on demand.",
+      "points": [
+        "**The blade is pitched**, so turning it pushes air forward.",
+        "**A flat blade** would slice the air and move almost none of it.",
+        "**Speed settings** change how hard the wind blows, so how light a piece must be to move.",
+        "**Industrial winnowers** are exactly this, scaled up."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Winnowing separates by…",
+        "options": [
+          "weight and air resistance",
+          "how well things dissolve",
+          "colour",
+          "magnetism"
+        ],
+        "answerIndex": 0,
+        "explain": "Light pieces are carried by the air; heavy ones fall straight down.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Panning",
+      "title": "Flowing water sorts by density",
+      "text": "Swirl sand and water in a shallow pan. The light material washes over the edge and the dense stays.",
+      "points": [
+        "**Gold is about seven times denser** than ordinary sand.",
+        "**So it sinks fast** while sand is still being carried.",
+        "**The swirl keeps lifting** the light material so the water can take it.",
+        "**Density, not size.** A big light grain still goes."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Magnets",
+      "title": "A magnet picks by material, not by size",
+      "text": "This is the only method this week that asks what something is made of rather than how heavy it is.",
+      "points": [
+        "**Iron, nickel and cobalt** respond. Most metals do not.",
+        "**Aluminium is a metal** and a magnet ignores it completely.",
+        "**Scrapyards use huge ones** to pull steel out of mixed waste.",
+        "**It works dry or wet**, and through a container."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "A magnet will separate aluminium cans from plastic.",
+        "answer": false,
+        "explain": "Aluminium is not magnetic. A magnet would pull neither — you would need a different difference.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "The magnet hiding in your sump plug",
+      "text": "Many engines have a magnetic drain plug. It is there to collect the metal the engine sheds as it wears.",
+      "points": [
+        "**Fine steel particles** come off gears and bearings.",
+        "**The magnet holds them** instead of letting them circulate.",
+        "**A mechanic reads it.** Glitter is normal; chunks are not.",
+        "**Separation as a warning light**, not just a clean-up."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Machines",
+      "title": "A centrifuge is gravity, turned up",
+      "text": "Spin something fast and the contents feel a force many times stronger than their own weight.",
+      "points": [
+        "**Settling that takes hours** finishes in minutes.",
+        "**Blood is spun** to split cells from plasma.",
+        "**A washing machine spin cycle** is this, separating water from cloth.",
+        "**Nothing new is happening** — it is sedimentation, hurried."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What does a centrifuge actually change?",
+        "options": [
+          "It filters through tiny holes",
+          "It makes settling happen far faster",
+          "It dissolves the solid",
+          "It heats the mixture until it splits"
+        ],
+        "answerIndex": 1,
+        "explain": "Same separation as leaving it standing, but the spin supplies a much stronger pull.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "A blood test starts with a spin",
+      "text": "The tube goes into a centrifuge before anyone looks at it, because the parts have to be apart first.",
+      "points": [
+        "**Red cells pack to the bottom**, being densest.",
+        "**Plasma sits on top**, straw-coloured, not red.",
+        "**A thin layer between** is the white cells.",
+        "**Left on a bench** it would do this anyway, just far slower."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Winnowing",
+          "def": "Using moving air to carry light pieces away from heavy ones."
+        },
+        {
+          "term": "Panning",
+          "def": "Using swirling water to wash light material off a dense one."
+        },
+        {
+          "term": "Magnetic separation",
+          "def": "Pulling out iron, nickel or cobalt with a magnet."
+        },
+        {
+          "term": "Centrifuge",
+          "def": "A machine that spins a mixture so settling happens much faster."
+        },
+        {
+          "term": "Density",
+          "def": "How much mass is packed into a given volume."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Winnowing uses weight and air. Panning uses density and water.",
+        "A magnet is the one method that asks what a thing is made of.",
+        "A centrifuge does not do anything new. It hurries gravity.",
+        "Pick the method that exploits the biggest difference you have."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Which difference does winnowing use?",
+      "options": [
+        "Colour",
+        "Magnetism",
+        "Boiling point",
+        "Weight and air resistance"
+      ],
+      "answerIndex": 3,
+      "explain": "Moving air carries the light pieces; the heavy ones fall.",
+      "objective": "Explain how winnowing separates by weight using moving air",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Panning for gold works because gold is…",
+      "options": [
+        "soluble",
+        "much denser than sand",
+        "lighter than water",
+        "magnetic"
+      ],
+      "answerIndex": 1,
+      "explain": "Gold is roughly seven times denser than sand, so it sinks while sand washes away.",
+      "objective": "Explain how panning uses density and flowing water",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A magnet will pick up which of these?",
+      "options": [
+        "Iron",
+        "Aluminium",
+        "Plastic",
+        "Copper"
+      ],
+      "answerIndex": 0,
+      "explain": "Iron, nickel and cobalt respond. Aluminium and copper are metals but not magnetic.",
+      "objective": "Explain what magnetic separation can and cannot pick out",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "A centrifuge separates things that would never separate on their own.",
+      "answer": false,
+      "explain": "It speeds up settling that gravity would do eventually. It does not create a new separation.",
+      "objective": "Explain how a centrifuge speeds up settling",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Why does a blood sample go in a centrifuge first?",
+      "options": [
+        "To kill bacteria",
+        "To dissolve the cells",
+        "To separate cells from plasma quickly",
+        "To warm it up"
+      ],
+      "answerIndex": 2,
+      "explain": "Red cells pack at the bottom and plasma sits above, in minutes rather than hours.",
+      "objective": "Explain how a centrifuge speeds up settling",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why can an electric fan be used for winnowing?",
+      "options": [
+        "It filters the air",
+        "Its pitched blades make a steady wind on demand",
+        "It cools the mixture",
+        "It magnetises the grain"
+      ],
+      "answerIndex": 1,
+      "explain": "The blade is a twisted wing. Turning it pushes air forward, which is all winnowing needs.",
+      "objective": "Explain how winnowing separates by weight using moving air",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "You have a mixture of sand and iron filings. Best method?",
+      "options": [
+        "Decantation",
+        "A magnet",
+        "Winnowing",
+        "Panning"
+      ],
+      "answerIndex": 1,
+      "explain": "Iron is magnetic and sand is not. That is the biggest and cleanest difference available.",
+      "objective": "Match a mixture to the method that exploits the right difference",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "What is a magnetic sump plug in an engine for?",
+      "options": [
+        "To measure temperature",
+        "To hold the plug in",
+        "To magnetise the oil",
+        "To collect worn steel particles from the oil"
+      ],
+      "answerIndex": 3,
+      "explain": "It catches the fine steel the engine sheds, and a mechanic reads what has collected.",
+      "objective": "Explain what magnetic separation can and cannot pick out",
+      "seconds": 22
+    },
+    {
+      "type": "truefalse",
+      "text": "Panning separates by size, so a large grain always stays in the pan.",
+      "answer": false,
+      "explain": "Panning sorts by density. A large light grain washes out; a small dense one stays.",
+      "objective": "Explain how panning uses density and flowing water",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A washing machine's spin cycle is most like which method?",
+      "options": [
+        "Winnowing",
+        "Sieving",
+        "A centrifuge",
+        "Filtration"
+      ],
+      "answerIndex": 2,
+      "explain": "It spins fast so water is flung out of the cloth — settling, hurried by spin.",
+      "objective": "Explain how a centrifuge speeds up settling",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which method asks what a material is made of rather than how heavy it is?",
+      "options": [
+        "Magnetic separation",
+        "Sedimentation",
+        "Winnowing",
+        "Panning"
+      ],
+      "answerIndex": 0,
+      "explain": "Only the magnet cares about the substance. The rest work on weight or density.",
+      "objective": "Match a mixture to the method that exploits the right difference",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Rice mixed with its light husk is best separated by…",
+      "options": [
+        "winnowing",
+        "a magnet",
+        "a centrifuge",
+        "filtration"
+      ],
+      "answerIndex": 0,
+      "explain": "The husk is far lighter, so moving air carries it off and the grain drops.",
+      "objective": "Match a mixture to the method that exploits the right difference",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 3 Science, the second week the scope gives to separating heterogeneous mixtures. Week 2 covered the methods that need only gravity; this one covers the four that add something — moving air, moving water, a magnet, a spin. The organising question is which difference each method exploits, because that is what an exam item is really asking. The magnet is set apart deliberately as the only method that asks what a thing is made of, and the aluminium case is tested, since 'metal means magnetic' is the usual error.",
+    "discussion": [
+      "Which difference is each method using?",
+      "Why does a magnet ignore an aluminium can?",
+      "What is a centrifuge actually adding?"
+    ],
+    "extension": [
+      "Winnow a bowl of rice and torn paper with a desk fan on its lowest setting.",
+      "Run a magnet through dry sand with iron filings stirred in, inside a plastic bag so it stays clean."
+    ],
+    "misconceptions": [
+      "That all metals are magnetic. Only iron, nickel and cobalt, and alloys of them.",
+      "That panning sorts by size. It sorts by density.",
+      "That a centrifuge does something gravity cannot. It only does it faster."
+    ]
+  }
+}

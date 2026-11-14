@@ -40,6 +40,7 @@
     --lens-air:      #3F7A5E;
     --lens-meme:     #6E7A21;
     --lens-phys:     #7A4FA3;
+    --lens-tear:     #1F6F6B;
 
     /* Reading measure. The single most important number in this file. */
     --measure: 53ch;
@@ -86,6 +87,7 @@
         --lens-air:      #6FC79A;
         --lens-meme:     #C3D45C;
         --lens-phys:     #C9A6EC;
+        --lens-tear:     #6FD3CE;
     }
 }
 
@@ -119,6 +121,7 @@
     --lens-air:      #6FC79A;
     --lens-meme:     #C3D45C;
     --lens-phys:     #C9A6EC;
+    --lens-tear:     #6FD3CE;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -364,6 +367,7 @@ strong { font-weight: 700; color: var(--ink); }
 .card[data-lens="space"]  { --lens: var(--lens-space); }
 .card[data-lens="story"]  { --lens: var(--lens-story); }
 .card[data-lens="disasters"] { --lens: var(--lens-disaster); }
+.card[data-lens="teardown"] { --lens: var(--lens-tear); }
 .card[data-lens="aviation"]  { --lens: var(--lens-air); }
 .card[data-lens="memes"]     { --lens: var(--lens-meme); }
 .card[data-lens="physics"]   { --lens: var(--lens-phys); }

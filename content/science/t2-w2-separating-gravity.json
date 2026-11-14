@@ -1,0 +1,372 @@
+{
+  "id": "sci-t2-w2",
+  "courseId": "science",
+  "courseTitle": "Science",
+  "week": 2,
+  "title": "Separating Mixtures: Letting Gravity Do It",
+  "subtitle": "Four methods that cost nothing but time.",
+  "estMinutes": 20,
+  "objectives": [
+    "Explain how sedimentation and decantation separate a mixture",
+    "Explain what decides whether filtration works",
+    "Choose between sieving, filtering and decanting for a given mixture",
+    "Explain why every one of these methods needs the parts to stay whole"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "⏳",
+      "eyebrow": "Part 1 · The free method",
+      "title": "The cheapest separation is waiting",
+      "text": "Heterogeneous means you can still see the parts. If you can see them, you can usually get them back out."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Sedimentation",
+      "title": "Heavy things sink. That is a method",
+      "text": "Leave a muddy glass alone and it sorts itself: clear water on top, a layer of solid underneath.",
+      "points": [
+        "**Sedimentation** is just letting gravity pull the solids down.",
+        "**It only works** on suspensions. Colloids never settle.",
+        "**Bigger and denser** particles land first, so layers form in order.",
+        "**Nothing is dissolved.** The pieces were always whole."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Decantation",
+      "title": "Then pour the clear part off",
+      "text": "Sedimentation sorts it. Decantation is the pouring that takes the liquid away without stirring it up again.",
+      "points": [
+        "**Pour slowly** or the layer lifts and you have mud again.",
+        "**A glass rod** against the lip steadies the stream.",
+        "**You never get it perfect.** Some liquid stays with the solid.",
+        "**Decanting wine** off its sediment is the same move, same word."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why will decantation not separate salt from water?",
+        "options": [
+          "Salt is dissolved, so there is no layer to pour off",
+          "Salt is lighter than water",
+          "Salt reacts with water",
+          "Water is too thick to pour"
+        ],
+        "answerIndex": 0,
+        "explain": "Decantation needs two visible layers. Dissolved salt is a solution — nothing settles.",
+        "seconds": 24
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "disasters",
+      "icon": "🌊",
+      "eyebrow": "Disaster mode",
+      "title": "A flood plain is sedimentation, enormous",
+      "text": "Floodwater carries soil while it moves fast. When it spreads out and slows, it drops the load.",
+      "points": [
+        "**Heaviest first** — gravel near the channel, fine silt furthest out.",
+        "**That sorting** is why flood plains are good farmland.",
+        "**After a flood** the layer inside a house is the same process, indoors.",
+        "**Nothing dissolved.** It was all suspended the whole way."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Filtration",
+      "title": "A filter is a hole-size decision",
+      "text": "Filtering is not magic. The holes are smaller than the thing you want to stop and bigger than the thing you let through.",
+      "points": [
+        "**Paper filter** stops solids, lets liquid through.",
+        "**Residue** is what stays. **Filtrate** is what comes out.",
+        "**Too fine a hole** and nothing flows. Too coarse and nothing is caught.",
+        "**Dissolved things always pass.** They are smaller than any hole."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "A filter fine enough will remove dissolved sugar from water.",
+        "answer": false,
+        "explain": "Dissolved sugar is single molecules, far smaller than any filter hole. You need evaporation.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "A car is full of filters, each with its own hole size",
+      "text": "Different jobs, different gaps. Get the size wrong and you either block the flow or catch nothing.",
+      "points": [
+        "**Air filter** stops grit, passes air.",
+        "**Oil filter** catches metal and carbon, passes oil.",
+        "**Fuel filter** holes are the finest of the three.",
+        "**A blocked filter** starves the engine. That is why they are replaced, not cleaned."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Sieving",
+      "title": "Sieving sorts solids from solids",
+      "text": "Same idea as filtering, but both parts are solid. The sieve keeps the big ones and drops the small.",
+      "points": [
+        "**Flour from lumps**, sand from gravel, rice from stones.",
+        "**One sieve gives two piles.** Stack sieves and you get bands.",
+        "**It sorts by size only**, never by what the thing is made of.",
+        "**Shaking helps**, because particles need a chance to find a hole."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "You have sand mixed with gravel. Which method?",
+        "options": [
+          "Evaporation",
+          "Sieving",
+          "Decantation",
+          "Filtration"
+        ],
+        "answerIndex": 1,
+        "explain": "Two solids of different sizes. A sieve keeps the gravel and lets the sand fall.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Gaming mode",
+      "title": "Minecraft item sorters are filters",
+      "text": "A hopper sorter does exactly what a sieve does: one property decides which way an item goes.",
+      "points": [
+        "**The filter item** is the hole size. Everything else passes on.",
+        "**Water streams** carry light things and leave heavy ones, like panning.",
+        "**One property per stage.** Chain stages to sort more.",
+        "**Real separation works the same.** One difference at a time."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Sedimentation",
+          "def": "Solids settling to the bottom under gravity."
+        },
+        {
+          "term": "Decantation",
+          "def": "Pouring the liquid off after the solids have settled."
+        },
+        {
+          "term": "Filtration",
+          "def": "Passing a mixture through holes too small for the solid."
+        },
+        {
+          "term": "Residue",
+          "def": "What the filter keeps."
+        },
+        {
+          "term": "Filtrate",
+          "def": "What passes through the filter."
+        },
+        {
+          "term": "Sieving",
+          "def": "Separating solids from solids by particle size."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Sedimentation sorts. Decantation pours the top layer away.",
+        "A filter is a hole-size decision, and dissolved things always pass.",
+        "Sieving sorts solid from solid, by size alone.",
+        "None of these touch a solution. Nothing here is dissolved."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "What is sedimentation?",
+      "options": [
+        "Solids settling to the bottom under gravity",
+        "Liquid turning to gas",
+        "Two liquids mixing",
+        "Solids dissolving into a liquid"
+      ],
+      "answerIndex": 0,
+      "explain": "Gravity pulls the suspended solids down and they form a layer.",
+      "objective": "Explain how sedimentation and decantation separate a mixture",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "In filtration, what is the residue?",
+      "options": [
+        "The liquid only",
+        "The part that passes through",
+        "The part the filter keeps",
+        "The dissolved part"
+      ],
+      "answerIndex": 2,
+      "explain": "Residue stays on the filter. Filtrate is what comes out the other side.",
+      "objective": "Explain what decides whether filtration works",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Why can filtration never remove a dissolved solid?",
+      "options": [
+        "The liquid is too fast",
+        "Dissolved particles are smaller than any filter hole",
+        "Filters only work on gases",
+        "It reacts with the paper"
+      ],
+      "answerIndex": 1,
+      "explain": "Dissolved means single molecules or ions, under a nanometre. No hole is that small.",
+      "objective": "Explain what decides whether filtration works",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Sand mixed with pebbles is best separated by…",
+      "options": [
+        "decantation",
+        "sieving",
+        "filtration",
+        "evaporation"
+      ],
+      "answerIndex": 1,
+      "explain": "Two solids of different size. The sieve keeps the pebbles and drops the sand.",
+      "objective": "Choose between sieving, filtering and decanting for a given mixture",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Why must you pour slowly when decanting?",
+      "options": [
+        "So the settled layer is not stirred back up",
+        "To let it cool",
+        "To stop it reacting",
+        "To avoid spilling"
+      ],
+      "answerIndex": 0,
+      "explain": "A fast pour lifts the sediment and you are back to a muddy mixture.",
+      "objective": "Explain how sedimentation and decantation separate a mixture",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "Sieving can tell the difference between two materials of the same size.",
+      "answer": false,
+      "explain": "A sieve only sees size. Same size, same side — whatever they are made of.",
+      "objective": "Choose between sieving, filtering and decanting for a given mixture",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Which of these would a car's oil filter catch?",
+      "options": [
+        "Metal particles worn off the engine",
+        "The oil itself",
+        "Air",
+        "Dissolved additives"
+      ],
+      "answerIndex": 0,
+      "explain": "Solid debris is caught; the oil and anything dissolved in it goes straight through.",
+      "objective": "Explain what decides whether filtration works",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why does a flood plain have gravel near the river and fine silt further away?",
+      "options": [
+        "Farmers put it there",
+        "Silt floats and gravel sinks in air",
+        "The river dyes the ground",
+        "Heavier particles drop first as the water slows"
+      ],
+      "answerIndex": 3,
+      "explain": "Slowing water loses its grip on the heaviest load first, so the sizes sort by distance.",
+      "objective": "Explain how sedimentation and decantation separate a mixture",
+      "seconds": 22
+    },
+    {
+      "type": "truefalse",
+      "text": "These methods work because the parts were never chemically joined.",
+      "answer": true,
+      "explain": "A mixture keeps its parts whole, which is exactly why a physical method can get them back.",
+      "objective": "Explain why every one of these methods needs the parts to stay whole",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Muddy water left standing overnight separates. What is that called?",
+      "options": [
+        "Sieving",
+        "Distillation",
+        "Filtration",
+        "Sedimentation"
+      ],
+      "answerIndex": 3,
+      "explain": "Gravity pulls the suspended solid down into a layer. Pouring the clear part off would be decantation.",
+      "objective": "Explain how sedimentation and decantation separate a mixture",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Which pair of words goes together correctly?",
+      "options": [
+        "Both stay on the filter",
+        "Residue stays, filtrate passes through",
+        "Both pass through",
+        "Residue passes through, filtrate stays"
+      ],
+      "answerIndex": 1,
+      "explain": "Residue is kept, filtrate flows out. Worth memorising the pair.",
+      "objective": "Explain what decides whether filtration works",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why will none of this week's methods separate salt water?",
+      "options": [
+        "Salt is too heavy",
+        "Salt water is a colloid",
+        "Salt water is a solution, and nothing is suspended to catch",
+        "Salt is magnetic"
+      ],
+      "answerIndex": 2,
+      "explain": "Every method this week needs visible, whole pieces. Dissolved salt offers none.",
+      "objective": "Explain why every one of these methods needs the parts to stay whole",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 2 Science, the first of two weeks the scope gives to separating heterogeneous mixtures. Rather than cover all eight named methods twice, this week takes the ones that need nothing but gravity and a hole — sedimentation, decantation, filtration, sieving — and Week 3 takes the ones that add energy or a second force. The thread through both is that every method needs the parts to be whole, which is why none of them touch a solution; that point is made three times and tested twice.",
+    "discussion": [
+      "Why does a filter never remove dissolved sugar?",
+      "Why is a flood plain sorted by size?",
+      "What single property is a sieve using?"
+    ],
+    "extension": [
+      "Shake soil in a jar of water and leave it overnight. The layers come out in size order.",
+      "Compare a coffee filter and a kitchen sieve. Which would stop flour?"
+    ],
+    "misconceptions": [
+      "That a fine enough filter removes anything. Dissolved substances always pass.",
+      "That decanting gets all the liquid. It never does.",
+      "That sieving sorts by material. It sorts by size only."
+    ]
+  }
+}

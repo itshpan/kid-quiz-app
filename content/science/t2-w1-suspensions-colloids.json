@@ -51,12 +51,12 @@
         "type": "multiple",
         "text": "Why does a colloid not settle?",
         "options": [
-          "Its particles dissolve into the liquid",
           "Its particles are light enough that molecular bombardment keeps them up",
           "Gravity does not act on particles that small",
-          "The liquid is too thick for anything to sink"
+          "The liquid is too thick for anything to sink",
+          "Its particles dissolve into the liquid"
         ],
-        "answerIndex": 1,
+        "answerIndex": 0,
         "explain": "Gravity still pulls on them. The constant knocking from moving liquid molecules just wins.",
         "seconds": 25
       }
@@ -153,10 +153,10 @@
         "type": "multiple",
         "text": "What does an emulsifier actually do?",
         "options": [
-          "It dissolves the oil into the water",
           "It makes the droplets heavier so they sink",
+          "It reacts with the oil to make a new substance",
           "It sits on the droplet boundary so the droplets cannot merge",
-          "It reacts with the oil to make a new substance"
+          "It dissolves the oil into the water"
         ],
         "answerIndex": 2,
         "explain": "One end likes water, the other likes oil. It parks on the edge and keeps the droplets apart.",
@@ -221,10 +221,10 @@
         "type": "multiple",
         "text": "Why can you see a torch beam in fog but not in clear air?",
         "options": [
-          "Fog is denser, so light travels slower",
+          "Clear air absorbs the light completely",
           "Fog droplets are about the size of light's wavelength and scatter it sideways",
           "Water glows faintly when light hits it",
-          "Clear air absorbs the light completely"
+          "Fog is denser, so light travels slower"
         ],
         "answerIndex": 1,
         "explain": "Scattering, not glowing. The droplets throw light sideways into your eye, so the beam shows.",
@@ -278,12 +278,12 @@
       "type": "multiple",
       "text": "Which size range makes a mixture a colloid?",
       "options": [
-        "Under 1 nm",
-        "Over 1000 nm",
         "Between 1 nm and 1000 nm",
-        "Exactly 500 nm"
+        "Exactly 500 nm",
+        "Over 1000 nm",
+        "Under 1 nm"
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "explain": "Below 1 nm it dissolves. Above 1000 nm it settles. In between, it stays spread out.",
       "objective": "Use particle size to place a mixture as a solution, a colloid or a suspension",
       "seconds": 20
@@ -292,12 +292,12 @@
       "type": "multiple",
       "text": "A suspension settles because…",
       "options": [
-        "its particles are heavy enough for gravity to beat molecular bombardment",
         "its particles dissolve and then fall",
+        "its particles are heavy enough for gravity to beat molecular bombardment",
         "the liquid pushes them down",
         "it has no emulsifier"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explain": "Gravity acts on every particle. In a suspension it wins; in a colloid the knocking wins.",
       "objective": "Explain why a suspension settles and a colloid does not",
       "seconds": 22
@@ -306,12 +306,12 @@
       "type": "multiple",
       "text": "Milk is which kind of colloid?",
       "options": [
-        "Foam",
         "Sol",
-        "Aerosol",
-        "Emulsion"
+        "Emulsion",
+        "Foam",
+        "Aerosol"
       ],
-      "answerIndex": 3,
+      "answerIndex": 1,
       "explain": "Fat droplets spread through water — liquid in liquid, which is an emulsion.",
       "objective": "Name the five kinds of colloid and give an example of each",
       "seconds": 18
@@ -320,12 +320,12 @@
       "type": "multiple",
       "text": "Whipped cream is mostly air held in liquid. That makes it a…",
       "options": [
-        "gel",
         "foam",
         "sol",
-        "suspension"
+        "suspension",
+        "gel"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explain": "Gas in a liquid is a foam. Most of its volume is air.",
       "objective": "Name the five kinds of colloid and give an example of each",
       "seconds": 18
@@ -334,12 +334,12 @@
       "type": "multiple",
       "text": "Fog is water droplets floating in air. Which kind of colloid is that?",
       "options": [
-        "Aerosol",
         "Emulsion",
+        "Sol",
         "Gel",
-        "Sol"
+        "Aerosol"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explain": "Anything dispersed in a gas is an aerosol — fog is liquid in air, smoke is solid in air.",
       "objective": "Name the five kinds of colloid and give an example of each",
       "seconds": 20
@@ -356,12 +356,12 @@
       "type": "multiple",
       "text": "What does an emulsifier do to two liquids that normally separate?",
       "options": [
+        "Coats each droplet so the droplets cannot join back up",
         "Dissolves one into the other",
         "Makes them chemically react",
-        "Coats each droplet so the droplets cannot join back up",
         "Thickens them both until nothing can move"
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "explain": "A water-loving end and an oil-loving end let it sit on every boundary and hold them apart.",
       "objective": "Explain what an emulsifier does",
       "seconds": 24
@@ -370,9 +370,9 @@
       "type": "multiple",
       "text": "Why does a torch beam show up in a colloid but not in a solution?",
       "options": [
-        "Colloids are always darker",
-        "Colloid particles are close to the wavelength of light and scatter it sideways",
         "Solutions absorb all the light",
+        "Colloid particles are close to the wavelength of light and scatter it sideways",
+        "Colloids are always darker",
         "Colloid particles give off their own light"
       ],
       "answerIndex": 1,
@@ -384,12 +384,12 @@
       "type": "multiple",
       "text": "Why do car fog lights sit low and point down?",
       "options": [
+        "To warn other drivers",
         "To save power",
         "Because fog scatters a high beam straight back at the driver",
-        "To warn other drivers",
         "Because low light travels further"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explain": "Fog is a colloid. Aim a main beam into it and the glare comes back at you.",
       "objective": "Explain why the Tyndall effect happens, not only that it happens",
       "seconds": 22
@@ -399,11 +399,11 @@
       "text": "Why does a paint tin need shaking but a tank of petrol does not?",
       "options": [
         "Paint is colder",
-        "Paint pigment is a suspension that settles; petrol is a solution",
         "Petrol evaporates instead",
+        "Paint pigment is a suspension that settles; petrol is a solution",
         "Paint is a gel"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explain": "Pigment particles are big enough to sink. Dissolved petrol is under a nanometre and cannot.",
       "objective": "Use particle size to place a mixture as a solution, a colloid or a suspension",
       "seconds": 22
@@ -420,12 +420,12 @@
       "type": "multiple",
       "text": "Which of these would NOT show the Tyndall effect?",
       "options": [
-        "Milk",
         "Fog",
-        "Salt dissolved in water",
-        "Smoke"
+        "Milk",
+        "Smoke",
+        "Salt dissolved in water"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explain": "Dissolved salt is under a nanometre — far too small to scatter light. The other three are colloids.",
       "objective": "Explain why the Tyndall effect happens, not only that it happens",
       "seconds": 22

@@ -1052,7 +1052,8 @@
               "topics": [
                 "Separating Heterogeneous Mixtures: Aided by Gravity, Shaking, Wind & Water, Using Machines, Panning, Decantation, Straining, Using Magnets"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "science/t2-w2-separating-gravity.json"
             },
             {
               "week": 3,
@@ -1061,7 +1062,8 @@
               "topics": [
                 "Separating Heterogeneous Mixtures: Aided by Gravity, Shaking, Wind & Water, Using Machines, Panning, Decantation, Straining, Using Magnets"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "science/t2-w3-separating-forces.json"
             },
             {
               "week": 4,
