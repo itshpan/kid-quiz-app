@@ -166,6 +166,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "This whole topic, outdoors",
+      "src": "assets/img/sci-w10-flood.jpg",
+      "alt": "A flooded street with brown silty water, floating debris and a half-submerged tricycle",
+      "credit": "Generated image",
+      "text": "Suspension, solution and everything in between, moving down a street.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "cars",
       "icon": "🏎️",

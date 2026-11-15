@@ -76,7 +76,9 @@ are not:
 
 Anything that is not `open`, `idea`, `lens`, `terms`, `recap`, `story`, `fact`
 or `break` resets the run — a checkpoint counts, because answering something
-is not reading.
+is not reading. A `terms` card counts toward the card run but not toward the
+word budget: a glossary is scanned for the one word you wanted, which is the
+same reason it is already exempt from checkpoint spacing.
 
 **The two floors matter as much as the caps.** A lesson cannot pass by being
 all diagram or all photograph, because they do different jobs: a figure shows

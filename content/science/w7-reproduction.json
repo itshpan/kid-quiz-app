@@ -272,6 +272,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Cut open",
+      "src": "assets/img/sci-w7-flower.jpg",
+      "alt": "A hibiscus flower cut in half lengthways showing the central column, the stamens and the ovary at the base",
+      "credit": "Generated image",
+      "text": "Every part has a job, and they are all in here.",
+      "lightBg": true
+    },
+    {
       "kind": "recap",
       "eyebrow": "Recap",
       "title": "The four that matter",

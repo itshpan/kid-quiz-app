@@ -104,6 +104,16 @@
       "text": "Five classes done. Part 2 is the other 95% of the animal kingdom. Your place is saved."
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Inside or outside",
+      "src": "assets/img/sci-w6-shells.jpg",
+      "alt": "A small fish skeleton with a visible backbone beside the empty hard outer shell of a crab",
+      "credit": "Generated image",
+      "text": "One keeps its skeleton in the middle. The other wears it.",
+      "lightBg": true
+    },
+    {
       "kind": "open",
       "icon": "🦑",
       "eyebrow": "Part 2 · Without a backbone",

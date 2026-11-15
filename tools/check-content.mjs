@@ -156,7 +156,13 @@ for (const file of files) {
         lesson.cards.forEach((c, i) => {
             if (BREAKS_PROSE(c.kind)) { run = 0; runWords = 0; return; }
             if (run === 0) runStart = i;
-            run++; runWords += cardWords(c);
+            run++;
+            /* A glossary is scanned for the one word you wanted, not read
+               through, which is why `terms` is already exempt from checkpoint
+               spacing. It still counts toward the card run - it is not
+               something to look at - but its definitions are not prose he has
+               to get through, so they do not count toward the word budget. */
+            if (c.kind !== 'terms') runWords += cardWords(c);
 
             const where = `cards ${runStart + 1}-${i + 1}`;
             if (run > LIMITS.textCardsInARow) {

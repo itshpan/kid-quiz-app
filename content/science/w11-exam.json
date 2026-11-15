@@ -117,6 +117,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "\"Compare\" in an exam question asks you to…",
+        "options": [
+          "list one of them",
+          "give both similarities and differences",
+          "define the word",
+          "draw it"
+        ],
+        "answerIndex": 1,
+        "explain": "Name, describe, explain and compare are four different jobs.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Read the command word first",
+      "src": "assets/img/sci-w11-paper.jpg",
+      "alt": "A blank exam paper on a desk with a sharpened pencil, an eraser and a ruler",
+      "credit": "Generated image",
+      "text": "Name, describe, explain and compare are four different jobs.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "boxing",
       "icon": "🥊",

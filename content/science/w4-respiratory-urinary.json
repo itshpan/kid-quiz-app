@@ -138,6 +138,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Air in, exhaust out",
+      "src": "assets/img/sci-w4-engine.jpg",
+      "alt": "An open car engine bay showing the block, the air intake feeding in and the exhaust manifold leading away",
+      "credit": "Generated image",
+      "text": "An engine needs oxygen and makes waste gas. So do you.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "aviation",
       "icon": "✈️",
@@ -298,6 +308,16 @@
       }
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "What a filter actually is",
+      "src": "assets/img/sci-w4-filter.jpg",
+      "alt": "A water filter cartridge cut open to show its pleated material and granular medium, beside an intact one",
+      "credit": "Generated image",
+      "text": "Something that lets most of it through and holds back what matters.",
+      "lightBg": true
+    },
+    {
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
@@ -346,6 +366,16 @@
           "def": "The waste made in the liver from broken-down protein. The kidneys remove it."
         }
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Lungs do not suck",
+      "src": "assets/img/sci-w4-balloon.jpg",
+      "alt": "Two red balloons side by side, one limp and empty and one half inflated",
+      "credit": "Generated image",
+      "text": "Your ribs and diaphragm make the space. Air falls in to fill it.",
+      "lightBg": true
     },
     {
       "kind": "recap",

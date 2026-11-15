@@ -124,6 +124,32 @@
       "text": "Two more questions, and both of them have exam words attached that sound similar and are not."
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "A solution that can hold no more solute is…",
+        "options": [
+          "dilute",
+          "concentrated",
+          "saturated",
+          "suspended"
+        ],
+        "answerIndex": 2,
+        "explain": "Any more and it sits at the bottom undissolved.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Going, and then gone",
+      "src": "assets/img/sci-w9-dissolve.jpg",
+      "alt": "Sugar crystals sinking through a glass of hot tea, trailing dissolving streaks behind them",
+      "credit": "Generated image",
+      "text": "The streaks are the sugar spreading out. It is not disappearing.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "Concentration",
       "title": "Dilute, concentrated, saturated",

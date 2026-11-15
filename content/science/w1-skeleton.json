@@ -739,6 +739,32 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "The message",
+      "src": "assets/img/sci-w1-loading.jpg",
+      "alt": "A loaded barbell resting on a squat rack in an empty gym",
+      "credit": "Generated image",
+      "text": "Load the bone and it builds. Take the load away and it gives the material back.",
+      "lightBg": true
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which activity loads bone the most?",
+        "options": [
+          "Swimming",
+          "Cycling",
+          "Jumping and lifting",
+          "Stretching"
+        ],
+        "answerIndex": 2,
+        "explain": "Bone responds to impact and load. Swimming is excellent and barely touches it.",
+        "seconds": 22
+      }
+    },
+    {
       "kind": "lens",
       "lens": "growth",
       "icon": "⚡",
@@ -857,6 +883,16 @@
         "**You're building the body** you'll be using at seventy.",
         "**The window is open right now.**"
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Muscle, close up",
+      "src": "assets/img/sci-w1-fibre.jpg",
+      "alt": "A close view of raw meat showing long parallel muscle fibre bundles separated by pale connective tissue",
+      "credit": "Generated image",
+      "text": "Long parallel bundles, all pulling the same way. That is why it only pulls.",
+      "lightBg": true
     },
     {
       "kind": "recap",

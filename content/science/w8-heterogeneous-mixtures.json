@@ -152,6 +152,26 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "You can see the separate parts of a heterogeneous mixture.",
+        "answer": true,
+        "explain": "That is what makes it heterogeneous. A solution gives you nothing to see.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "A suspension you can drink",
+      "src": "assets/img/sci-w8-juice.jpg",
+      "alt": "A glass of cloudy calamansi juice with suspended pulp and a fine layer settling at the bottom",
+      "credit": "Generated image",
+      "text": "Cloudy, and already settling. Leave it long enough and it separates itself.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "growth",
       "icon": "⚡",

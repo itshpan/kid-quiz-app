@@ -594,6 +594,138 @@
       "size": "wide",
       "prompt": "A quiet wooden desk from above in warm morning light: a closed leather-bound book with a red ribbon marker trailing from it, a pencil, and a glass of water. Nothing written, no lettering on the cover.",
       "alt": "A closed leather-bound book with a red ribbon marker, a pencil and a glass of water on a wooden desk"
+    },
+    "sci-w1-loading": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A loaded barbell resting on the low rack of a squat stand in a plain gym, with worn rubber plates on each end and chalk dust on the knurled bar. Nobody present. Flat overhead light, concrete floor.",
+      "alt": "A loaded barbell resting on a squat rack in an empty gym"
+    },
+    "sci-w1-fibre": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "An extreme close view of a raw cut of beef showing the muscle grain clearly: long parallel fibre bundles running in one direction, separated by thin pale sheets of connective tissue. Fills the frame, cool even light.",
+      "alt": "A close view of raw meat showing long parallel muscle fibre bundles separated by pale connective tissue"
+    },
+    "sci-w2-bite": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A thick sandwich on a plate with one large bite taken out of it, the torn edge showing the layers inside. A glass of water beside it on a plain table. Nobody in frame.",
+      "alt": "A sandwich with one bite taken out, showing the torn layers inside"
+    },
+    "sci-w2-hose": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A very long green garden hose coiled into a large loose spiral on a concrete floor, photographed from above so the many turns are all visible at once. Nothing else in frame.",
+      "alt": "A long garden hose coiled into a large loose spiral on a concrete floor"
+    },
+    "sci-w3-fingerprint": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "Extreme macro of a human fingertip pressed lightly against clear glass, seen through the glass so the raised friction ridges and the sweat pores along them are sharply visible. Fills the frame, cool backlight.",
+      "alt": "A macro view of a fingertip pressed on glass, its friction ridges and pores sharply visible"
+    },
+    "sci-w3-sweat": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "Close view of a forearm and shoulder after hard training, skin beaded with sweat droplets catching the light, with a rolled white towel resting on the bench beside it. No face in frame.",
+      "alt": "A forearm beaded with sweat after training, with a rolled towel on the bench beside it"
+    },
+    "sci-w3-callus": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "Close view of an open palm held up to the light, showing thick hardened calluses across the base of the fingers from repeated gripping. Only the hand is in frame, plain dark background.",
+      "alt": "An open palm showing thick hardened calluses across the base of the fingers"
+    },
+    "sci-w4-engine": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "An open car engine bay photographed from above, showing the engine block, the air intake pipe feeding into it and the exhaust manifold leading away. Clean but used, warm garage light, no badges or text.",
+      "alt": "An open car engine bay showing the block, the air intake feeding in and the exhaust manifold leading away"
+    },
+    "sci-w4-filter": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A household water filter cartridge cut open lengthways and laid on a white surface beside its intact twin, showing the tightly packed pleated material and dark granular medium inside. Even daylight.",
+      "alt": "A water filter cartridge cut open to show its pleated material and granular medium, beside an intact one"
+    },
+    "sci-w4-balloon": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "Two identical red balloons side by side against a plain pale background: the left one limp and empty, the right one inflated to about half its capacity and held closed at the neck. No hands in frame.",
+      "alt": "Two red balloons side by side, one limp and empty and one half inflated"
+    },
+    "sci-w5-pump": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A cutaway cross-section of a mechanical water pump on a workbench, showing the impeller inside the housing, the inlet pipe on one side and the outlet pipe on the other. Metal, oily, clearly used.",
+      "alt": "A cutaway water pump showing the impeller inside the housing with an inlet on one side and an outlet on the other"
+    },
+    "sci-w5-centrifuge": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A clear glass tube of blood that has been spun in a centrifuge, standing upright in a rack, showing three sharply separated layers: a thick dark red layer at the bottom, a very thin pale band above it, and a clear straw-yellow liquid filling the top half.",
+      "alt": "A spun tube of blood showing a dark red layer at the bottom, a thin pale band, and straw-yellow liquid above"
+    },
+    "sci-w5-wires": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A thick bundle of hundreds of fine coloured electrical wires emerging from a cut cable sheath and fanning out, photographed close so the individual strands are visible. Plain dark background.",
+      "alt": "Hundreds of fine coloured wires fanning out of a cut cable sheath"
+    },
+    "sci-w5-brain": {
+      "style": "render3d",
+      "size": "wide",
+      "prompt": "A simplified anatomical model of a human brain on a plain soft-grey background, seen from the left side, showing the large folded cerebrum, the smaller tightly-ridged cerebellum behind and below it, and the brain stem descending from the centre. Matte clay-like material.",
+      "alt": "A model human brain from the side showing the folded cerebrum, the ridged cerebellum behind it and the brain stem"
+    },
+    "sci-w5-reflex": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A hand caught in the instant of snatching back from a hot frying pan handle on a stove, fingers already splayed and the arm pulling away, the pan still radiating heat. Motion blur on the hand. No face.",
+      "alt": "A hand caught snatching back from a hot pan handle, fingers splayed and blurred with movement"
+    },
+    "sci-w5-pulse": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "Close view of two fingers pressed against the inside of the opposite wrist to find a pulse, with a stopwatch lying on the table beside the arm. Only hands and forearms in frame.",
+      "alt": "Two fingers pressed to the inside of a wrist to find a pulse, with a stopwatch on the table beside it"
+    },
+    "sci-w6-shells": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "Two specimens side by side on a dark surface: on the left the clean dried skeleton of a small fish with its backbone and ribs clearly visible, and on the right the empty hard outer shell of a crab, upturned. Even museum-style light.",
+      "alt": "A small fish skeleton with a visible backbone beside the empty hard outer shell of a crab"
+    },
+    "sci-w7-flower": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A large hibiscus flower cut cleanly in half lengthways and laid open on a white surface, showing the internal structure: the long central column, the stamens along it and the ovary at the base. Sharp macro detail, even daylight.",
+      "alt": "A hibiscus flower cut in half lengthways showing the central column, the stamens and the ovary at the base"
+    },
+    "sci-w8-juice": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A tall clear glass of freshly squeezed calamansi juice standing on a pale table, cloudy with suspended pulp, some of which has begun to settle into a fine layer at the bottom. Backlit so the suspended particles are visible.",
+      "alt": "A glass of cloudy calamansi juice with suspended pulp and a fine layer settling at the bottom"
+    },
+    "sci-w9-dissolve": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A clear glass mug of hot tea seen from the side with a spoonful of white sugar just tipped in, caught as the crystals sink and trail dissolving streaks behind them through the liquid. Backlit, steam rising.",
+      "alt": "Sugar crystals sinking through a glass of hot tea, trailing dissolving streaks behind them"
+    },
+    "sci-w11-paper": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A school science exam paper lying blank on a desk with a sharpened pencil, an eraser and a clear ruler beside it. The paper is completely blank with no printing or lines of text. Morning light.",
+      "alt": "A blank exam paper on a desk with a sharpened pencil, an eraser and a ruler"
+    },
+    "sci-w10-flood": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A flooded Philippine street after heavy rain, the water brown and opaque with suspended silt, debris floating on the surface, a tricycle half submerged at the kerb and the water lapping at the steps of closed shopfronts. Overcast daylight, no people.",
+      "alt": "A flooded street with brown silty water, floating debris and a half-submerged tricycle"
     }
   },
   "_never": "NEVER generate an image that poses as a documentary photograph of a specific real place, artwork, artefact or person - the Angono Petroglyphs, the Spoliarium, Rizal. A generated picture of a named real thing is a false claim about the world, and CLAUDE.md says facts must be true. Generated photographs depict a TYPE (kamote, a kulintang, a sipa shuttle), never a named original. For a specific real artefact use tools/fetch-images.mjs to pull the real, credited photograph from Wikimedia instead."

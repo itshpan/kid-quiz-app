@@ -109,6 +109,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "A pump, an in and an out",
+      "src": "assets/img/sci-w5-pump.jpg",
+      "alt": "A cutaway water pump showing the impeller inside the housing with an inlet on one side and an outlet on the other",
+      "credit": "Generated image",
+      "text": "Not a bucket. A closed circuit with something pushing.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "growth",
       "icon": "🌱",
@@ -160,6 +170,16 @@
         "**White cells** fight infection.",
         "**Platelets** clot a cut and stop the bleeding."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Spin it and it separates",
+      "src": "assets/img/sci-w5-centrifuge.jpg",
+      "alt": "A spun tube of blood showing a dark red layer at the bottom, a thin pale band, and straw-yellow liquid above",
+      "credit": "Generated image",
+      "text": "Red cells, a thin band of white cells and platelets, and plasma.",
+      "lightBg": true
     },
     {
       "kind": "lens",
@@ -214,6 +234,32 @@
       "eyebrow": "Part 2 · The signal network",
       "title": "The other network moves information",
       "text": "Blood takes about a minute to go all the way round. A nerve signal crosses your body in a fraction of a second."
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "The other network",
+      "src": "assets/img/sci-w5-wires.jpg",
+      "alt": "Hundreds of fine coloured wires fanning out of a cut cable sheath",
+      "credit": "Generated image",
+      "text": "Hundreds of separate lines in one bundle, each going somewhere different.",
+      "lightBg": true
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which two make up the central nervous system?",
+        "options": [
+          "Brain and nerves",
+          "Brain and spinal cord",
+          "Spinal cord and nerves",
+          "Heart and brain"
+        ],
+        "answerIndex": 1,
+        "explain": "Everything else is peripheral.",
+        "seconds": 20
+      }
     },
     {
       "kind": "idea",
@@ -287,6 +333,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Three parts, three jobs",
+      "src": "assets/img/sci-w5-brain.jpg",
+      "alt": "A model human brain from the side showing the folded cerebrum, the ridged cerebellum behind it and the brain stem",
+      "credit": "Generated image",
+      "text": "The folded part, the ridged part behind it, and the stem going down.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "gaming",
       "icon": "🎮",
@@ -357,6 +413,16 @@
       }
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Faster than deciding",
+      "src": "assets/img/sci-w5-reflex.jpg",
+      "alt": "A hand caught snatching back from a hot pan handle, fingers splayed and blurred with movement",
+      "credit": "Generated image",
+      "text": "Your spinal cord sent that order. Your brain found out afterwards.",
+      "lightBg": true
+    },
+    {
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [
@@ -409,6 +475,16 @@
           "def": "The part of the brain that handles balance, coordination and timing."
         }
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Count it yourself",
+      "src": "assets/img/sci-w5-pulse.jpg",
+      "alt": "Two fingers pressed to the inside of a wrist to find a pulse, with a stopwatch on the table beside it",
+      "credit": "Generated image",
+      "text": "A trained heart moves the same blood in fewer beats.",
+      "lightBg": true
     },
     {
       "kind": "recap",

@@ -51,6 +51,22 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which layer are you actually looking at?",
+        "options": [
+          "Dermis",
+          "Epidermis",
+          "Hypodermis",
+          "Muscle"
+        ],
+        "answerIndex": 1,
+        "explain": "The epidermis. The outermost part of it is already dead cells.",
+        "seconds": 20
+      }
+    },
+    {
       "kind": "lens",
       "lens": "cars",
       "icon": "🚗",
@@ -62,6 +78,16 @@
         "**Dermis** = the panel with the wiring behind it.",
         "**Subcutaneous fat** = the padding that absorbs a knock."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Ridges and pores",
+      "src": "assets/img/sci-w3-fingerprint.jpg",
+      "alt": "A macro view of a fingertip pressed on glass, its friction ridges and pores sharply visible",
+      "credit": "Generated image",
+      "text": "Grip and cooling, in the same square millimetre.",
+      "lightBg": true
     },
     {
       "kind": "lens",
@@ -152,6 +178,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Cooling, as it happens",
+      "src": "assets/img/sci-w3-sweat.jpg",
+      "alt": "A forearm beaded with sweat after training, with a rolled towel on the bench beside it",
+      "credit": "Generated image",
+      "text": "The drop does nothing until it evaporates. That is the part that takes the heat.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "boxing",
       "icon": "🥊",
@@ -229,6 +265,16 @@
       "kind": "fact",
       "eyebrow": "Did you know",
       "text": "Most household dust is dead skin cells. You shed around 30,000 to 40,000 of them every minute."
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Skin takes the hint too",
+      "src": "assets/img/sci-w3-callus.jpg",
+      "alt": "An open palm showing thick hardened calluses across the base of the fingers",
+      "credit": "Generated image",
+      "text": "Load it repeatedly and it thickens exactly where the load lands.",
+      "lightBg": true
     },
     {
       "kind": "terms",

@@ -92,6 +92,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Where it starts",
+      "src": "assets/img/sci-w2-bite.jpg",
+      "alt": "A sandwich with one bite taken out, showing the torn layers inside",
+      "credit": "Generated image",
+      "text": "Teeth and saliva. The breaking down has already begun here.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "The stomach",
       "title": "A bag of acid that doesn't dissolve itself",
@@ -180,6 +190,32 @@
       "text": "Training tells your body to build. Digestion decides whether there's anything to build with."
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Where the material comes from",
+      "src": "assets/img/mapeh-t2w8-grow-foods.jpg",
+      "alt": "A whole bangus, boiled eggs, monggo beans, chicken, tofu and a glass of milk arranged on a pale surface",
+      "credit": "Generated image",
+      "text": "Protein in, muscle and bone out. Nothing is built from nothing.",
+      "lightBg": true
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Where does most absorption happen?",
+        "options": [
+          "The stomach",
+          "The small intestine",
+          "The large intestine",
+          "The mouth"
+        ],
+        "answerIndex": 1,
+        "explain": "The stomach breaks down. The small intestine is where it crosses into you.",
+        "seconds": 20
+      }
+    },
+    {
       "kind": "lens",
       "lens": "growth",
       "icon": "⚡",
@@ -265,6 +301,16 @@
           "def": "Nutrients crossing the gut wall into the blood."
         }
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "About nine metres of it",
+      "src": "assets/img/sci-w2-hose.jpg",
+      "alt": "A long garden hose coiled into a large loose spiral on a concrete floor",
+      "credit": "Generated image",
+      "text": "Coiled, because it would not fit any other way.",
+      "lightBg": true
     },
     {
       "kind": "recap",
