@@ -106,6 +106,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Ten times bigger, a thousand times more",
+      "src": "assets/img/math-t2w7-cubes.jpg",
+      "alt": "A tiny cube beside a hollow cube ten times larger in every direction, with a layer of the tiny cubes on its floor",
+      "credit": "Generated image",
+      "text": "Ten along, ten across, ten up. That is where the 1,000 comes from.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "teardown",
       "icon": "🌀",

@@ -137,6 +137,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Anong kayarian ang \"puting-puti\"?",
+        "options": [
+          "Payak",
+          "Maylapi",
+          "Inuulit",
+          "Tambalan"
+        ],
+        "answerIndex": 2,
+        "explain": "Inulit ang buong salita.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Isang puwesto, labinlimang pang-uri",
+      "src": "assets/img/fil-t2w6-palengke.jpg",
+      "alt": "A market stall piled with calamansi, string beans, bitter gourd, eggplants and coconuts",
+      "credit": "Generated image",
+      "text": "Bilog, mahaba, makinis, magaspang, maliit. Pangalanan ang nakikita mo.",
+      "lightBg": true
+    },
+    {
       "kind": "terms",
       "title": "Mga salitang lalabas sa pagsusulit",
       "terms": [

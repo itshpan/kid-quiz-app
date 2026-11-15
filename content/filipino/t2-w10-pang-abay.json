@@ -123,6 +123,32 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Paano? Dahan-dahan.",
+      "src": "assets/img/fil-t2w10-dahandahan.jpg",
+      "alt": "Hands carefully turning a screwdriver on an opened fan motor, with three removed screws lined up beside it",
+      "credit": "Generated image",
+      "text": "Sinasagot ng pang-abay na pamaraan ang tanong na paano ginawa ang kilos.",
+      "lightBg": true
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Alin ang tama?",
+        "options": [
+          "mabilis nang kotse",
+          "mabilis na kotse",
+          "tumakbo na mabilis",
+          "kotse nang mabilis"
+        ],
+        "answerIndex": 1,
+        "explain": "Na sa harap ng pangngalan; nang sa harap ng kilos.",
+        "seconds": 20
+      }
+    },
+    {
       "kind": "lens",
       "lens": "teardown",
       "icon": "🌀",

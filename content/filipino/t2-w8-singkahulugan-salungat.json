@@ -137,6 +137,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Alin ang pinakamalakas sa tatlo?",
+        "options": [
+          "pagod",
+          "hapo",
+          "lupaypay",
+          "mabagal"
+        ],
+        "answerIndex": 2,
+        "explain": "Wala nang natitirang lakas.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Magaan at mabigat",
+      "src": "assets/img/fil-t2w8-opposites.jpg",
+      "alt": "One open hand holding a white feather and the other holding a heavy dark river stone",
+      "credit": "Generated image",
+      "text": "Isang balahibo at isang bato. Hindi kailangang ipaliwanag ang salungat.",
+      "lightBg": true
+    },
+    {
       "kind": "terms",
       "title": "Mga salitang lalabas sa pagsusulit",
       "terms": [

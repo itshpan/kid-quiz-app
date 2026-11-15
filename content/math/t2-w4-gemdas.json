@@ -105,6 +105,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "The gates open in an order",
+      "src": "assets/img/math-t2w4-gates.jpg",
+      "alt": "A ball on a track facing four gates in a row, the first open and the three behind it closed",
+      "credit": "Generated image",
+      "text": "The ball cannot reach the second gate first. Neither can you.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "physics",
       "icon": "⚛️",

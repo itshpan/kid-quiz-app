@@ -51,6 +51,16 @@
       "text": "A cube is the special case where all three edges match, so the volume is the edge cubed."
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Four prisms, one rule",
+      "src": "assets/img/math-t2w9-prisms.jpg",
+      "alt": "A rectangular box, a triangular prism box, a cylindrical tube and a cube, all plain brown card",
+      "credit": "Generated image",
+      "text": "Area of the end face, times the length. Every one of these obeys it.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "Cubes",
       "title": "The special case",

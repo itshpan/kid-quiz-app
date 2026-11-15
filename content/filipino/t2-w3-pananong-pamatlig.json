@@ -123,11 +123,37 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Anong anyong paari ng \"ito\"?",
+        "options": [
+          "nito",
+          "dito",
+          "heto",
+          "iyon"
+        ],
+        "answerIndex": 0,
+        "explain": "Halimbawa: ang talim nito.",
+        "seconds": 18
+      }
+    },
+    {
       "kind": "open",
       "icon": "📖",
       "eyebrow": "Bahagi 2 · Bago mo buksan",
       "title": "Naging Pintor si Tominaman sa Rogong",
       "text": "Hindi pa nakikita ang edisyong gamit ng klase mo, kaya walang buod ng kuwento dito. Ito ang totoong kultura kung saan nagmula ang pangalang iyon."
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Okir: ang sining na inuukit",
+      "src": "assets/img/fil-t2w3-okir.jpg",
+      "alt": "A dark hardwood panel carved in deep relief with flowing curved leaf-and-vine scrollwork",
+      "credit": "Generated image",
+      "text": "Pakurba at padahon. Ito ang tinutukoy ng pamagat na may pintor.",
+      "lightBg": true
     },
     {
       "kind": "idea",

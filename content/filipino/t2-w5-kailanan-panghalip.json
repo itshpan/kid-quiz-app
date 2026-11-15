@@ -130,6 +130,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Bago pa ang 1521",
+      "src": "assets/img/fil-t2w5-precolonial.jpg",
+      "alt": "A woven rattan basket, an earthenware pot, abaca rope and a small bronze ornament on dark cloth",
+      "credit": "Generated image",
+      "text": "Hinabi, hinulma, at ipinagpalit. May lipunan na dito bago dumating ang mga Espanyol.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "Lipunan",
       "title": "Tatlong antas, at isang maling akala",

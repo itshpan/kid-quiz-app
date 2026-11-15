@@ -53,6 +53,16 @@
       "text": "One quantity, three names, plus what it is worth out of 60 marks."
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Per cent means per hundred",
+      "src": "assets/img/math-t2w1-hundred-bar.jpg",
+      "alt": "A chocolate bar scored into one hundred equal squares with twenty-five broken off and set beside it",
+      "credit": "Generated image",
+      "text": "Exactly one hundred squares. Twenty-five broken off is 25% of the bar, and nothing else.",
+      "lightBg": true
+    },
+    {
       "kind": "checkpoint",
       "question": {
         "type": "multiple",

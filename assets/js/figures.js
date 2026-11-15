@@ -6606,7 +6606,46 @@ function sciT2Map() {
     });
 }
 
+
+/* Percentage off, as the two numbers that actually matter at a counter: what
+   leaves your hand and what stays in it. */
+function discountLab() {
+    const P = 1200;
+    return ruleLab({
+        id: 'dc2', label: 'PRESS A DISCOUNT',
+        alt: 'A lab showing what you pay and what you save on a 1200 peso item at four different discounts',
+        input: { name: 'Discount', unit: '%', values: [10, 20, 25, 50] },
+        sharedScale: true,
+        outputs: [
+            { name: 'You pay', f: v => Math.round(P * (1 - v / 100)), fmt: o => `\u20b1${o}` },
+            { name: 'You save', f: v => Math.round(P * v / 100), fmt: o => `\u20b1${o}` }
+        ],
+        rule: v => `${v}% off \u20b11,200 is \u20b1${Math.round(P * v / 100)} off. The two bars always add up to the same total.`
+    });
+}
+
+/* One amount of water, four names for it. The conversion is only ever a
+   decimal point moving, and seeing all four move together is the point. */
+function volumeUnitLab() {
+    const name = { 250: 'a glass', 1000: 'a bottle', 20000: 'a water drum', 1000000: 'a small pool' };
+    return ruleLab({
+        id: 'vu8', label: 'PRESS AN AMOUNT',
+        alt: 'A lab showing the same volume of water written in millilitres, cubic centimetres, litres and cubic metres',
+        input: { name: 'Amount', values: [250, 1000, 20000, 1000000], label: v => name[v] },
+        outputs: [
+            { name: 'In mL', f: v => v, fmt: o => `${o.toLocaleString()} mL` },
+            { name: 'In cm\u00b3', f: v => v, fmt: o => `${o.toLocaleString()} cm\u00b3` },
+            { name: 'In litres', f: v => v / 1000, fmt: o => `${o.toLocaleString()} L` },
+            { name: 'In m\u00b3', f: v => v / 1e6, fmt: o => `${o} m\u00b3` }
+        ],
+        rule: v => `1 mL and 1 cm\u00b3 are the same size, always. From there it is only the decimal point moving.`
+    });
+}
+
 export const FIGURES = {
+    discountLab,
+    volumeUnitLab,
+
     settleStack,
     forceSort,
     distillLab,

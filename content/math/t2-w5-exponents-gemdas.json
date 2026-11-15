@@ -93,6 +93,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "What the fan actually costs",
+      "src": "assets/img/math-t2w5-fan-meter.jpg",
+      "alt": "An electric desk fan plugged into a plug-in energy monitor with a blank screen",
+      "credit": "Generated image",
+      "text": "Watts, times hours, times days, times the rate. One expression, four operations.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "teardown",
       "icon": "🌀",

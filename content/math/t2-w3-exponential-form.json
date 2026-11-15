@@ -105,6 +105,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "One, a hundred, a thousand",
+      "src": "assets/img/math-t2w3-powers.jpg",
+      "alt": "One small cube, a ten-by-ten flat square of them, and a ten-by-ten-by-ten solid block of them",
+      "credit": "Generated image",
+      "text": "Same cube every time. Only the exponent changed, and look what it did.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "disasters",
       "icon": "🌍",

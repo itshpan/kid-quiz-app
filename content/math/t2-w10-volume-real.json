@@ -57,6 +57,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "How much water is that?",
+      "src": "assets/img/math-t2w10-aquarium.jpg",
+      "alt": "A rectangular glass aquarium being filled with water, about a third full",
+      "credit": "Generated image",
+      "text": "Length times width times height. Then decide whether to say it in litres.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "growth",
       "icon": "🌱",

@@ -123,11 +123,37 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Alin ang senyas ng pahambing na magkatulad?",
+        "options": [
+          "mas",
+          "kasing-",
+          "pinaka-",
+          "napaka-"
+        ],
+        "answerIndex": 1,
+        "explain": "Kasingbilis: pantay ang dalawa.",
+        "seconds": 20
+      }
+    },
+    {
       "kind": "open",
       "icon": "📖",
       "eyebrow": "Bahagi 2 · Bago mo buksan",
       "title": "Si Segunda, Noong Panahon ng Mga Espanyol",
       "text": "Hindi pa nakikita ang edisyong gamit ng klase mo, kaya walang buod ng kuwento dito. Ito ang totoong buhay sa panahong iyon."
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Panahon ng mga Espanyol",
+      "src": "assets/img/fil-t2w7-simbahan.jpg",
+      "alt": "The weathered stone facade of an old Spanish colonial church with an arched wooden door and a bell tower",
+      "credit": "Generated image",
+      "text": "Bato, arko, kampanaryo. Ito ang mundong kinalalagyan ng akda.",
+      "lightBg": true
     },
     {
       "kind": "idea",

@@ -49,6 +49,12 @@
       }
     },
     {
+      "kind": "figure",
+      "figure": "volumeUnitLab",
+      "title": "Press an amount",
+      "text": "The same water in four units. Only the decimal point is moving."
+    },
+    {
       "kind": "lens",
       "lens": "growth",
       "icon": "🌱",
@@ -160,6 +166,16 @@
           "def": "Asking whether an answer is physically possible."
         }
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "A real conversion, with a tap on it",
+      "src": "assets/img/math-t2w8-tank.jpg",
+      "alt": "A blue household water drum with a brass tap running into a bucket on the ground",
+      "credit": "Generated image",
+      "text": "Litres in the drum, millilitres in the glass, cubic metres on the water bill.",
+      "lightBg": true
     },
     {
       "kind": "recap",

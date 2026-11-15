@@ -121,6 +121,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Tatlong aspekto, isang kamay",
+      "src": "assets/img/fil-t2w9-aspekto.jpg",
+      "alt": "The same hand shown three times: unwrapped with the tape beside it, half wrapped, and fully wrapped",
+      "credit": "Generated image",
+      "text": "Hindi pa nagsisimula, kalahati na, tapos na. Iyan ang buong aralin.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "teardown",
       "icon": "🌀",
@@ -180,6 +190,32 @@
         "**Karamihan** ay nagtago at naghanap ng makakain.",
         "**Ang pagpiling iyon** ang karaniwang sentro ng akda."
       ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Ano ang \"Mickey Mouse money\"?",
+        "options": [
+          "Isang laruan",
+          "Ang perang ipinalit ng mga Hapon",
+          "Isang pahayagan",
+          "Isang rasyon"
+        ],
+        "answerIndex": 1,
+        "explain": "Napakababa ng halaga nito.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Panahon ng mga Hapon",
+      "src": "assets/img/fil-t2w9-hapon.jpg",
+      "alt": "A battered leather suitcase, a brass kerosene lamp, a dented tin canteen and a folded blanket on wooden floorboards",
+      "credit": "Generated image",
+      "text": "Maleta, lampara, kantimplora. Ito ang dala ng mga tao noong 1942.",
+      "lightBg": true
     },
     {
       "kind": "lens",

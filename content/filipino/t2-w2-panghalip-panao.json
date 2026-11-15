@@ -145,6 +145,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Alin ang HINDI puwedeng mag-una sa pangungusap?",
+        "options": [
+          "ikaw",
+          "ka",
+          "siya",
+          "kami"
+        ],
+        "answerIndex": 1,
+        "explain": "Laging pangalawa ang ka. Tama: Mabilis ka.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Ako, ikaw, siya",
+      "src": "assets/img/fil-t2w2-pointing.jpg",
+      "alt": "Three hands pointing: one back at itself, one forward at the viewer, one away to the side",
+      "credit": "Generated image",
+      "text": "Tatlong kamay, tatlong direksyon. Iyan ang tatlong panauhan, walang salita.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "growth",
       "icon": "🌱",

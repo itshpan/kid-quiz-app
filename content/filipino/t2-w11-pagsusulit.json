@@ -158,6 +158,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Ano ang anyong panlunan ng \"iyon\"?",
+        "options": [
+          "niyon",
+          "doon",
+          "diyan",
+          "dito"
+        ],
+        "answerIndex": 1,
+        "explain": "Doon.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Ang gabi bago",
+      "src": "assets/img/fil-t2w11-mesa.jpg",
+      "alt": "A closed plain notebook, two pencils, an eraser and a glass of water on a wooden desk",
+      "credit": "Generated image",
+      "text": "Tulog, pagkain, at pagsubok sa sarili. Hindi paulit-ulit na pagbabasa.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "growth",
       "icon": "🌱",

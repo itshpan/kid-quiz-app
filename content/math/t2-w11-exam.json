@@ -127,6 +127,32 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "What you are allowed on the desk",
+      "src": "assets/img/math-t2w11-desk.jpg",
+      "alt": "An exam desk with blank squared paper, a ruler, a pencil, a calculator and small wooden cubes",
+      "credit": "Generated image",
+      "text": "Ruler, pencil, calculator. The cubes are for when you cannot picture it.",
+      "lightBg": true
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "One cubic metre is how many litres?",
+        "options": [
+          "10",
+          "100",
+          "1,000",
+          "10,000"
+        ],
+        "answerIndex": 2,
+        "explain": "A metre cube is 100 cm on every side.",
+        "seconds": 20
+      }
+    },
+    {
       "kind": "lens",
       "lens": "gaming",
       "icon": "🎮",

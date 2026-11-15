@@ -141,6 +141,32 @@
       "text": "Hindi pa nakikita ang edisyong gamit ng klase mo, kaya walang buod ng kuwento dito. Ito ang totoong kalagayan na kailangan mong alam bago mo iyon buksan."
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Ang kahon na dumarating",
+      "src": "assets/img/fil-t2w1-balikbayan.jpg",
+      "alt": "A large taped and corded cardboard shipping box standing in a simple living room",
+      "credit": "Generated image",
+      "text": "Milyon-milyong Pilipino ang nagtatrabaho sa malayo. Ito ang dumarating sa halip nila.",
+      "lightBg": true
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Sa pagbasa, ano ang tauhan?",
+        "options": [
+          "Ang lugar",
+          "Kung sino ang nasa kuwento",
+          "Ang suliranin",
+          "Ang wakas"
+        ],
+        "answerIndex": 1,
+        "explain": "Tauhan, tagpuan, suliranin, damdamin.",
+        "seconds": 20
+      }
+    },
+    {
       "kind": "idea",
       "eyebrow": "Kasaysayan",
       "title": "Maraming pamilyang Pilipino ang nakahiwalay",

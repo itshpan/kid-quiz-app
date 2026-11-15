@@ -137,6 +137,26 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Nilalagyan ng \"mga\" ang panghalip panaklaw.",
+        "answer": false,
+        "explain": "Isahan ang anyo nito. Mali ang \"mga sinuman\".",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Bukas sa sinuman",
+      "src": "assets/img/fil-t2w4-chairs.jpg",
+      "alt": "A long row of identical empty white plastic chairs across a covered court",
+      "credit": "Generated image",
+      "text": "Walang pangalan sa kahit isang upuan. Iyon mismo ang ibig sabihin ng panaklaw.",
+      "lightBg": true
+    },
+    {
       "kind": "terms",
       "title": "Mga salitang lalabas sa pagsusulit",
       "terms": [

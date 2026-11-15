@@ -246,6 +246,156 @@
       "size": "wide",
       "prompt": "A school science bench set up for practical work, seen from above: a funnel with filter paper in a flask, a magnet beside a dish of sand, a beaker of cloudy liquid, a small pulley, a ramp with a toy car at the top of it, and a thermometer.",
       "alt": "A school science bench with a filter funnel, a magnet and sand, a beaker, a pulley, a ramp with a toy car, and a thermometer"
+    },
+    "math-t2w1-hundred-bar": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A large rectangular bar of dark chocolate divided into a grid of exactly one hundred small equal squares, lying on a pale surface. Twenty-five of the squares along one side have been snapped off and sit in a small neat group beside the bar. No wrapper, no branding, no text anywhere.",
+      "alt": "A chocolate bar scored into one hundred equal squares with twenty-five broken off and set beside it"
+    },
+    "math-t2w2-tiles": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A section of wall tiled in a perfect ten-by-ten grid of small square ceramic tiles, photographed straight on. Most tiles are plain cream. Exactly twenty of them, grouped together in two full columns at one side, are a deep terracotta colour. Even daylight.",
+      "alt": "A ten-by-ten grid of cream wall tiles with two full columns, twenty tiles, in deep terracotta"
+    },
+    "math-t2w2-coins": {
+      "style": "render3d",
+      "size": "wide",
+      "prompt": "A neat stack of ten identical plain metal coins on a plain soft-grey background, with two coins lifted away from the top of the stack and floating just above it, clearly separated. The coins are completely blank with no markings.",
+      "alt": "A stack of ten blank coins with two lifted away and floating above it"
+    },
+    "math-t2w3-powers": {
+      "style": "render3d",
+      "size": "wide",
+      "prompt": "Three groups on a plain soft-grey background, left to right, getting dramatically larger: a single small cube, then a flat ten-by-ten square tray made of those same cubes, then a solid ten-by-ten-by-ten block of them. Same cube size throughout so the jump in scale is obvious.",
+      "alt": "One small cube, a ten-by-ten flat square of them, and a ten-by-ten-by-ten solid block of them"
+    },
+    "math-t2w4-gates": {
+      "style": "render3d",
+      "size": "wide",
+      "prompt": "A straight track on a plain soft-grey background with four simple mechanical gates standing across it in a row, one behind the other. The first gate is swung open, the three behind it are still closed. A single ball waits on the track in front of the first gate.",
+      "alt": "A ball on a track facing four gates in a row, the first open and the three behind it closed"
+    },
+    "math-t2w5-fan-meter": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "An ordinary white electric desk fan plugged into a plug-in energy monitor at a wall socket, photographed from the side. The monitor's small screen is blank and dark. Plain wall, daylight.",
+      "alt": "An electric desk fan plugged into a plug-in energy monitor with a blank screen"
+    },
+    "math-t2w6-containers": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A row of clear measuring containers on a pale counter, largest to smallest: a one-litre jug, a half-litre bottle, a small clear cup, a tablespoon and a medical syringe. All empty and clean, all unmarked with no printed scales or numbers.",
+      "alt": "A one-litre jug, a half-litre bottle, a small cup, a tablespoon and a syringe lined up by size"
+    },
+    "math-t2w6-pour": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "Water being poured in a clean stream from a clear cube-shaped container into a tall clear measuring jug on a pale counter, caught mid-pour. The jug is about a third full. No printed markings on either vessel.",
+      "alt": "Water poured from a clear cube-shaped container into a tall jug, caught mid-pour"
+    },
+    "math-t2w7-cubes": {
+      "style": "render3d",
+      "size": "wide",
+      "prompt": "On a plain soft-grey background, one tiny cube sits beside a large hollow open-topped cube that is exactly ten times wider, ten times deeper and ten times taller. A thin layer of the tiny cubes covers the floor of the large one, showing how many it would take.",
+      "alt": "A tiny cube beside a hollow cube ten times larger in every direction, with a layer of the tiny cubes on its floor"
+    },
+    "math-t2w8-tank": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A blue plastic household water drum standing on a concrete ledge outside a house, with a brass tap fitted near the bottom and a plastic bucket on the ground beneath it catching a thin stream of water. Bright tropical daylight.",
+      "alt": "A blue household water drum with a brass tap running into a bucket on the ground"
+    },
+    "math-t2w9-prisms": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "Four plain unmarked cardboard packages standing upright together on a pale surface: a tall rectangular box, a long triangular prism box, a cylindrical tube, and a cube. All plain brown card with no printing, labels or text of any kind.",
+      "alt": "A rectangular box, a triangular prism box, a cylindrical tube and a cube, all plain brown card"
+    },
+    "math-t2w10-aquarium": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A large empty rectangular glass aquarium on a stand being filled with clear water from a hose, photographed from the side. The water is about a third of the way up and the fill line is clearly visible against the glass. Plain room behind.",
+      "alt": "A rectangular glass aquarium being filled with water, about a third full"
+    },
+    "math-t2w11-desk": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A school exam desk from above: a blank sheet of squared paper, a clear plastic ruler, a sharpened pencil, a simple calculator with a blank dark screen, and a few small wooden cubes. Nothing written anywhere.",
+      "alt": "An exam desk with blank squared paper, a ruler, a pencil, a calculator and small wooden cubes"
+    },
+    "fil-t2w1-balikbayan": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A large brown cardboard balikbayan box, taped shut with wide packing tape and criss-crossed with nylon cord, standing on the floor of a simple Filipino living room beside a rattan chair. Warm afternoon light through a window. No writing or labels on the box.",
+      "alt": "A large taped and corded cardboard shipping box standing in a simple living room"
+    },
+    "fil-t2w2-pointing": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "Three hands against a plain pale background, each pointing in a different direction: the first pointing back at its own chest, the second pointing straight forward at the viewer, the third pointing away to one side. Only hands and forearms are visible, no faces.",
+      "alt": "Three hands pointing: one back at itself, one forward at the viewer, one away to the side"
+    },
+    "fil-t2w3-okir": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A dark hardwood panel carved in deep relief with flowing curved leaf-and-vine scrollwork in the Maranao okir tradition, photographed straight on in raking light so the carved depth and tool marks show clearly. Fills the frame.",
+      "alt": "A dark hardwood panel carved in deep relief with flowing curved leaf-and-vine scrollwork"
+    },
+    "fil-t2w4-chairs": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A long row of identical empty white plastic monobloc chairs lined up across the polished floor of a covered barangay basketball court, photographed down the length of the row. Nobody is sitting in any of them. Bright daylight through open sides.",
+      "alt": "A long row of identical empty white plastic chairs across a covered court"
+    },
+    "fil-t2w5-precolonial": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A museum-style arrangement on dark cloth: a woven rattan basket, a plain earthenware clay pot, a coil of abaca rope, and a small tarnished bronze ornament. Soft directional light, no labels, no cards, no text.",
+      "alt": "A woven rattan basket, an earthenware pot, abaca rope and a small bronze ornament on dark cloth"
+    },
+    "fil-t2w6-palengke": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A Filipino wet-market produce stall seen straight on, piled with contrasting goods: a mound of small round calamansi, long thin string beans, knobbly bitter gourd, smooth purple eggplants, and a bundle of rough brown coconuts. No price signs, no writing anywhere.",
+      "alt": "A market stall piled with calamansi, string beans, bitter gourd, eggplants and coconuts"
+    },
+    "fil-t2w7-simbahan": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "The weathered stone facade of an old Spanish colonial church in the Philippines, photographed straight on: thick coral-stone walls, a heavy arched wooden door, carved pilasters and a squat bell tower to one side. Overcast daylight. No signage or text.",
+      "alt": "The weathered stone facade of an old Spanish colonial church with an arched wooden door and a bell tower"
+    },
+    "fil-t2w8-opposites": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "Two open upturned hands side by side against a plain pale background. The left hand holds a single white feather resting weightlessly on the palm. The right hand holds a dark rounded river stone that visibly presses into the skin. Only hands, no faces.",
+      "alt": "One open hand holding a white feather and the other holding a heavy dark river stone"
+    },
+    "fil-t2w9-aspekto": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "Three close views of the same hand in a row against a plain background, showing one task at three stages: bare knuckles with a rolled boxing hand wrap lying beside them, the same hand half wrapped with the tape mid-wind, and the hand fully wrapped and finished. No faces.",
+      "alt": "The same hand shown three times: unwrapped with the tape beside it, half wrapped, and fully wrapped"
+    },
+    "fil-t2w9-hapon": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A still arrangement on worn wooden floorboards in dim light: a battered leather suitcase with its catches closed, a small brass kerosene lamp with a sooty glass chimney, a dented tin canteen, and a folded coarse blanket. No text or markings.",
+      "alt": "A battered leather suitcase, a brass kerosene lamp, a dented tin canteen and a folded blanket on wooden floorboards"
+    },
+    "fil-t2w10-dahandahan": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "Close view of two hands working a small screwdriver into one screw on the back plate of an opened electric fan motor housing, very deliberate and careful, with three removed screws lined up neatly on the bench beside it. Shallow depth of field, no faces.",
+      "alt": "Hands carefully turning a screwdriver on an opened fan motor, with three removed screws lined up beside it"
+    },
+    "fil-t2w11-mesa": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A quiet study desk from above: a closed plain notebook, two sharpened pencils, a worn eraser, and a glass of water, on a wooden tabletop in warm morning light. Nothing written, no labels, no text.",
+      "alt": "A closed plain notebook, two pencils, an eraser and a glass of water on a wooden desk"
     }
   },
   "_never": "NEVER generate an image that poses as a documentary photograph of a specific real place, artwork, artefact or person - the Angono Petroglyphs, the Spoliarium, Rizal. A generated picture of a named real thing is a false claim about the world, and CLAUDE.md says facts must be true. Generated photographs depict a TYPE (kamote, a kulintang, a sipa shuttle), never a named original. For a specific real artefact use tools/fetch-images.mjs to pull the real, credited photograph from Wikimedia instead."

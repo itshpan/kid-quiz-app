@@ -106,6 +106,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Pick the unit that keeps it sensible",
+      "src": "assets/img/math-t2w6-containers.jpg",
+      "alt": "A one-litre jug, a half-litre bottle, a small cup, a tablespoon and a syringe lined up by size",
+      "credit": "Generated image",
+      "text": "A syringe in litres is silly. A water drum in millilitres is worse.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "gaming",
       "icon": "🎮",
@@ -170,6 +180,16 @@
           "def": "1,000 cm³, the volume of a 10 cm cube."
         }
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Volume and capacity, in one pour",
+      "src": "assets/img/math-t2w6-pour.jpg",
+      "alt": "Water poured from a clear cube-shaped container into a tall jug, caught mid-pour",
+      "credit": "Generated image",
+      "text": "The cube has a volume. The jug has a capacity. The water is the same either way.",
+      "lightBg": true
     },
     {
       "kind": "recap",
