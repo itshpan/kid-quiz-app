@@ -45,6 +45,12 @@
       ]
     },
     {
+      "kind": "figure",
+      "figure": "adverbKinds",
+      "title": "Which question does it answer?",
+      "text": "Five kinds, five questions. If none fits, it is not an adverb."
+    },
+    {
       "kind": "checkpoint",
       "question": {
         "type": "multiple",
@@ -127,6 +133,16 @@
         "explain": "Placed before the verb, 'only' limits the action.",
         "seconds": 24
       }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "How is it moving?",
+      "src": "assets/img/eng-t2w9-snail.jpg",
+      "alt": "A cartoon snail in a racing helmet inching along a racetrack lane with comic motion lines",
+      "credit": "Generated image",
+      "text": "Slowly. That is an adverb of manner, and it is the question it answers.",
+      "lightBg": true
     },
     {
       "kind": "lens",

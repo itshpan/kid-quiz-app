@@ -45,6 +45,12 @@
       ]
     },
     {
+      "kind": "figure",
+      "figure": "presidentsPicker",
+      "title": "Six presidents, one fact each",
+      "text": "Tap through. The last button is the thread running under all of them."
+    },
+    {
       "kind": "checkpoint",
       "question": {
         "type": "multiple",
@@ -125,6 +131,16 @@
         "explain": "Accessibility plus the combined force-and-reform approach.",
         "seconds": 22
       }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "The office, not the man",
+      "src": "assets/img/ss-t2w8-office.jpg",
+      "alt": "An empty official office with a heavy wooden desk, an empty leather chair and a blank nameplate",
+      "credit": "Generated image",
+      "text": "Three presidents in seven years. Two died while holding it.",
+      "lightBg": true
     },
     {
       "kind": "lens",

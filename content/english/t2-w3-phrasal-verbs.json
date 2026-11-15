@@ -33,6 +33,12 @@
       ]
     },
     {
+      "kind": "figure",
+      "figure": "phrasalLab",
+      "title": "One verb, five particles",
+      "text": "Same verb every time. Tap through and watch the meaning change completely."
+    },
+    {
       "kind": "lens",
       "lens": "teardown",
       "icon": "🌀",
@@ -127,6 +133,16 @@
         "explain": "A pronoun object must go in the middle: switched it off.",
         "seconds": 22
       }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Took it apart",
+      "src": "assets/img/eng-t2w3-takeapart.jpg",
+      "alt": "A mechanical alarm clock taken apart with every component laid out in rows beside a small screwdriver",
+      "credit": "Generated image",
+      "text": "Not \"took it off\" and not \"took it up\". The particle is doing all the work.",
+      "lightBg": true
     },
     {
       "kind": "terms",

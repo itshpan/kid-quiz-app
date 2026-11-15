@@ -123,6 +123,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "The first step in Matthew 18 is to…",
+        "options": [
+          "tell the group",
+          "go to them alone",
+          "say nothing",
+          "write it down"
+        ],
+        "answerIndex": 1,
+        "explain": "As privately as possible, so backing down stays cheap.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Same two people, two rooms",
+      "src": "assets/img/dev-t2w9-crowd.jpg",
+      "alt": "Two cartoon figures talking calmly alone on one side, and the same two shouting in front of a huge crowd on the other",
+      "credit": "Generated image",
+      "text": "On the left somebody can still back down. On the right nobody can.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "growth",
       "icon": "🌱",

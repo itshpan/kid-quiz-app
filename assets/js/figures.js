@@ -6642,7 +6642,480 @@ function volumeUnitLab() {
     });
 }
 
+/* ==========================================================================
+   ENGLISH FIGURES — Term 2.
+   Grammar is the easiest subject to turn into a wall of rules, and the
+   hardest to make anything happen on screen. Every one of these makes the
+   learner do the sorting rather than read the sorted list.
+   ========================================================================== */
+
+/* The four spelling patterns behind -ed, which is the whole of the regular
+   past tense and is normally given as a paragraph nobody reads. */
+function pastSpelling() {
+    return listPicker({
+        id: 'ps1', label: 'TAP A PATTERN', height: 272, y0: 60, dy: 26,
+        alt: 'The four spelling patterns for forming the regular past tense, each with examples',
+        capA: 'Rule: ', capB: 'Examples: ',
+        rows: [
+            { btn: '1', short: 'Most verbs', a: 'Just add -ed',
+              b: 'train \\u2192 trained. kick \\u2192 kicked. wrap \\u2192 wrapped? No \\u2014 see rule 3.' },
+            { btn: '2', short: 'Already ends in e', a: 'Add -d only',
+              b: 'race \\u2192 raced. score \\u2192 scored. You never write "racced".' },
+            { btn: '3', short: 'Short vowel, one consonant', a: 'Double the consonant, then -ed',
+              b: 'wrap \\u2192 wrapped. stop \\u2192 stopped. jab \\u2192 jabbed.' },
+            { btn: '4', short: 'Consonant then y', a: 'The y becomes i, then -ed',
+              b: 'carry \\u2192 carried. try \\u2192 tried. But play \\u2192 played: that is a vowel before the y.' },
+            { btn: '!', short: 'The irregular ones', a: 'No rule at all',
+              b: 'catch \\u2192 caught. build \\u2192 built. These are learned by meeting them.' },
+            { btn: '?', short: 'How to tell', a: 'Try adding -ed and listen',
+              b: 'If it sounds wrong, it is probably irregular. "Catched" sounds wrong because it is.' }
+        ]
+    });
+}
+
+/* A phrasal verb is a verb plus a particle that rewrites it. Same verb, five
+   particles, five unrelated meanings — which is exactly why they cannot be
+   worked out and have to be met. */
+function phrasalLab() {
+    return listPicker({
+        id: 'pl3', label: 'ONE VERB \\u00b7 FIVE PARTICLES', height: 272, y0: 60, dy: 26,
+        alt: 'The verb take with five different particles, each producing an unrelated meaning',
+        capA: 'Means: ', capB: 'In a sentence: ',
+        rows: [
+            { btn: '1', short: 'take off', a: 'Remove \\u2014 or leave the ground',
+              b: 'He took off his gloves. The plane took off late.' },
+            { btn: '2', short: 'take apart', a: 'Dismantle into pieces',
+              b: 'I took the fan apart on the kitchen floor.' },
+            { btn: '3', short: 'take up', a: 'Start doing something new',
+              b: 'She took up boxing in January.' },
+            { btn: '4', short: 'take in', a: 'Absorb, or be deceived by',
+              b: 'He took in the whole room. Do not be taken in by that.' },
+            { btn: '5', short: 'take over', a: 'Assume control',
+              b: 'The second driver took over at the pit stop.' },
+            { btn: '?', short: 'Where the object goes', a: 'A pronoun sits in the middle',
+              b: 'Took it apart \\u2014 never "took apart it". The noun can go either side.' }
+        ]
+    });
+}
+
+/* Three futures, which English speakers choose between without noticing.
+   The choice encodes when the decision was made, and that is the lesson. */
+function futureChoice() {
+    const clock = (x, lbl) => `
+      <circle class="fig-wheel" cx="${x}" cy="118" r="34"/>
+      <text class="fig-cell" x="${x}" y="176" text-anchor="middle">${lbl}</text>`;
+    const mark = x => `<circle class="fig-point-h" cx="${x}" cy="118" r="9"/>`;
+    const line = `<path class="fig-chain" d="M40 118 H360"/>`;
+    return demoSwitch({
+        id: 'fc4', height: 268, capY: 222,
+        label: 'WHEN WAS IT DECIDED?',
+        alt: 'Three future forms placed by when the decision behind each one was made',
+        demos: [
+            { btn: 'will', svg: `${line}${clock(110,'decided')}${clock(250,'happens')}${mark(250)}`,
+              a: 'WILL \\u2014 decided right now, as you speak',
+              b: '"The bag is heavy." "I will carry it." Nobody planned that a second earlier.' },
+            { btn: 'going to', svg: `${line}${clock(110,'decided')}${clock(250,'happens')}${mark(110)}`,
+              a: 'GOING TO \\u2014 decided earlier, already a plan',
+              b: '"I am going to replace the capacitor." You worked that out before now.' },
+            { btn: 'am -ing', svg: `${line}${clock(110,'decided')}${clock(250,'happens')}${mark(110)}${mark(250)}`,
+              a: 'PRESENT CONTINUOUS \\u2014 planned AND arranged',
+              b: '"I am fighting on Saturday." The decision is made and the date is fixed.' }
+        ]
+    });
+}
+
+/* Three tenses on one line, with a single verb moving across it, because the
+   commonest fault is not choosing the wrong tense but changing tense inside
+   one sentence without meaning to. */
+function tenseLine() {
+    const axis = `<path class="fig-chain" d="M40 132 H360"/>
+      <line class="fig-rule-strong" x1="200" y1="100" x2="200" y2="164"/>
+      <text class="fig-step" x="200" y="92" text-anchor="middle">NOW</text>
+      <text class="fig-note-dim" x="46" y="184">before</text>
+      <text class="fig-note-dim" x="354" y="184" text-anchor="end">after</text>`;
+    const span = (x, w) => `<rect class="fig-bar" x="${x}" y="124" width="${w}" height="16" rx="8"/>`;
+    const verb = t => `<text class="fig-expr" x="200" y="60" text-anchor="middle">${t}</text>`;
+    return demoSwitch({
+        id: 'tl5', height: 258, capY: 212,
+        label: 'ONE VERB, THREE PLACES',
+        alt: 'The verb train shown in past, present and future on a timeline marked now',
+        demos: [
+            { btn: 'trained', svg: `${verb('he trained')}${axis}${span(56, 110)}`,
+              a: 'PAST \\u2014 finished before now',
+              b: 'He trained yesterday. It is over; nothing about it is still happening.' },
+            { btn: 'is training', svg: `${verb('he is training')}${axis}${span(142, 118)}`,
+              a: 'PRESENT CONTINUOUS \\u2014 happening across now',
+              b: 'He is training. Started, not finished, and you could walk in and see it.' },
+            { btn: 'will train', svg: `${verb('he will train')}${axis}${span(234, 110)}`,
+              a: 'FUTURE \\u2014 has not started',
+              b: 'He will train tomorrow. The commonest fault is sliding between these inside one sentence.' }
+        ]
+    });
+}
+
+/* Prefix and suffix do two different jobs, and saying so once is worth more
+   than a list of thirty affixes. */
+function affixJobs() {
+    return listPicker({
+        id: 'aj6', label: 'FRONT CHANGES MEANING \\u00b7 BACK CHANGES JOB', height: 272, y0: 60, dy: 26,
+        alt: 'Six affixes split into prefixes that change meaning and suffixes that change word class',
+        capA: 'Does: ', capB: 'Examples: ',
+        rows: [
+            { btn: '1', short: 'un- , dis- , in-', a: 'PREFIX \\u2014 reverses the meaning',
+              b: 'unbreakable, disconnect, incomplete. Still the same kind of word.' },
+            { btn: '2', short: 'over- , under-', a: 'PREFIX \\u2014 too much, or too little',
+              b: 'overtrain, overheat, underfed. The amount is what changed.' },
+            { btn: '3', short: 're- , pre-', a: 'PREFIX \\u2014 again, or before',
+              b: 'rebuild, rematch, preheat, preview.' },
+            { btn: '4', short: '-less , -ful', a: 'SUFFIX \\u2014 makes an adjective',
+              b: 'fearless, useless, powerful. Describes a thing now.' },
+            { btn: '5', short: '-er , -or', a: 'SUFFIX \\u2014 makes a person or thing that does it',
+              b: 'boxer, driver, generator. A doer, not an action.' },
+            { btn: '6', short: '-ly', a: 'SUFFIX \\u2014 makes an adverb',
+              b: 'quickly, carefully. It now points at a verb instead of a noun.' }
+        ]
+    });
+}
+
+/* Comparison as counting. One thing is a description, two is a comparison,
+   three or more has a winner — and the form has to follow the count. */
+function degreeBars() {
+    const track = y => `<rect class="fig-bar-track" x="150" y="${y - 11}" width="212" height="16" rx="8"/>`;
+    const bar = (y, w) => `<rect class="fig-bar" x="150" y="${y - 11}" width="${w}" height="16" rx="8"/>`;
+    const name = (y, t) => `<text class="fig-cell" x="20" y="${y + 5}">${t}</text>`;
+    const tag = t => `<text class="fig-label" x="200" y="46" text-anchor="middle">${t}</text>`;
+    return demoSwitch({
+        id: 'db7', height: 258, capY: 212,
+        label: 'HOW MANY ARE YOU COMPARING?',
+        alt: 'One, two and three bars showing when to use the positive, comparative and superlative',
+        demos: [
+            { btn: 'fast', svg: `${tag('ONE')}${name(100,'Vios')}${track(100)}${bar(100,96)}`,
+              a: 'POSITIVE \\u2014 nothing to compare it with',
+              b: 'The Vios is fast. A plain description, and no second thing in the sentence.' },
+            { btn: 'faster', svg: `${tag('TWO')}${name(100,'Vios')}${track(100)}${bar(100,96)}
+                 ${name(150,'Civic')}${track(150)}${bar(150,148)}`,
+              a: 'COMPARATIVE \\u2014 two things, one ahead',
+              b: 'The Civic is faster than the Vios. Signals: -er, or "more" for long words.' },
+            { btn: 'fastest', svg: `${tag('THREE OR MORE')}${name(100,'Vios')}${track(100)}${bar(100,96)}
+                 ${name(150,'Civic')}${track(150)}${bar(150,148)}
+                 ${name(200,'GT-R')}${track(200)}${bar(200,206)}`,
+              a: 'SUPERLATIVE \\u2014 nothing beats it',
+              b: 'The GT-R is the fastest. Signals: -est, or "most". Never both: "more faster" is wrong.' }
+        ]
+    });
+}
+
+/* Four questions, four kinds of adverb. The question is the test: if none of
+   them fits, the word is not an adverb. */
+function adverbKinds() {
+    return listPicker({
+        id: 'ak9', label: 'WHICH QUESTION DOES IT ANSWER?', height: 272, y0: 60, dy: 26,
+        alt: 'Five kinds of adverb, each with the question it answers and an example',
+        capA: 'Answers: ', capB: 'Example: ',
+        rows: [
+            { btn: '1', short: 'Manner', a: 'HOW was it done?',
+              b: 'He unscrewed it carefully. Most, but not all, end in -ly.' },
+            { btn: '2', short: 'Time', a: 'WHEN did it happen?',
+              b: 'She trains early. We leave tomorrow.' },
+            { btn: '3', short: 'Place', a: 'WHERE did it happen?',
+              b: 'He waited outside. Put it there.' },
+            { btn: '4', short: 'Frequency', a: 'HOW OFTEN?',
+              b: 'He never skips. She always warms up first.' },
+            { btn: '5', short: 'Degree', a: 'HOW MUCH?',
+              b: 'A very fast lap. He almost finished. These point at adjectives too.' },
+            { btn: '?', short: 'The test', a: 'If no question fits, it is not an adverb',
+              b: '"Fast car" answers "which car" \\u2014 that is an adjective, same word.' }
+        ]
+    });
+}
+
+/* Adjective or adverb is one decision, made over and over, so he makes it
+   rather than reading about it. A wrong pick is answered with what the
+   sentence would then mean. */
+function pointsAtLab() {
+    return orderLab({
+        id: 'pa10', height: 212,
+        label: 'WHAT IS THE WORD POINTING AT?',
+        alt: 'An interactive where the learner decides whether a modifier points at a noun or a verb',
+        steps: [
+            { expr: 'He drives ___ . (quick / quickly)',
+              ask: 'The word points at "drives". Which form?',
+              choices: [
+                { btn: 'quick', ok: false,
+                  gives: '"He drives quick" points an adjective at a verb.',
+                  why: 'Adjectives point at nouns. "Drives" is an action, so it needs the -ly form.' },
+                { btn: 'quickly', ok: true } ] },
+            { expr: 'He is a ___ driver. (quick / quickly)',
+              ask: 'Now it points at "driver". Which form?',
+              choices: [
+                { btn: 'quickly', ok: false,
+                  gives: '"A quickly driver" points an adverb at a noun.',
+                  why: '"Driver" is a person, a noun. Nouns take adjectives.' },
+                { btn: 'quick', ok: true } ] },
+            { expr: 'She fights ___ . (good / well)',
+              ask: 'Points at "fights". Which form?',
+              choices: [
+                { btn: 'good', ok: false,
+                  gives: '"She fights good" is the commonest version of this mistake.',
+                  why: '"Well" is the adverb of "good". The irregular pair catches everyone.' },
+                { btn: 'well', ok: true } ] },
+            { expr: 'Same word, two jobs. Ask what it points at.',
+              done: 'Pointing at a noun: adjective. Pointing at a verb: adverb. The word alone never tells you.' }
+        ]
+    });
+}
+
+/* ==========================================================================
+   SOCIAL STUDIES FIGURES — Term 2.
+   History taught as a list of dates is the fastest thing in this app to
+   forget. A timeline he taps gives each date a place relative to the others,
+   which is the part that actually has to be learned; the pickers do the same
+   job for things that happened at once rather than in sequence.
+   ========================================================================== */
+
+function commonwealthRoad() {
+    return timeline({
+        id: 'cr1', label: 'A TEN-YEAR COUNTDOWN',
+        alt: 'A timeline from the Tydings-McDuffie Act in 1934 to the Japanese invasion in 1941',
+        stops: [
+            { year: '1934', tag: 'the promise',
+              head: 'Tydings-McDuffie Act',
+              body: 'Independence promised after a ten-year transition. The clock starts.' },
+            { year: '1935', tag: 'self-rule',
+              head: 'The Commonwealth begins',
+              body: 'Quezon president. Self-rule in most things \\u2014 but not defence or foreign policy.' },
+            { year: '1935', tag: 'an army',
+              head: 'National Defense Act',
+              body: 'Conscription and a reserve army, because self-rule means defending yourself.' },
+            { year: '1937', tag: 'a language',
+              head: 'A national language chosen',
+              body: 'Based on Tagalog. A country being assembled on purpose, piece by piece.' },
+            { year: '1941', tag: 'interrupted',
+              head: 'December: the invasion',
+              body: 'Four years short of the target. The countdown stops here.' }
+        ]
+    });
+}
+
+function commonwealthWork() {
+    return listPicker({
+        id: 'cw2', label: 'WHAT IT COULD AND COULD NOT DO', height: 272, y0: 60, dy: 26,
+        alt: 'Six powers of the Commonwealth government, three held and three withheld',
+        capA: 'Status: ', capB: 'Why it mattered: ',
+        rows: [
+            { btn: '1', short: 'Its own president', a: 'HELD \\u2014 elected by Filipinos',
+              b: 'Quezon, 1935. The first time the head of government was chosen here.' },
+            { btn: '2', short: 'Its own laws', a: 'HELD \\u2014 a National Assembly',
+              b: 'Land reform, education and labour laws were all passed in this period.' },
+            { btn: '3', short: 'Its own army', a: 'HELD \\u2014 the National Defense Act',
+              b: 'A reserve force built from scratch, and it was not ready in 1941.' },
+            { btn: '4', short: 'Foreign policy', a: 'WITHHELD \\u2014 Washington kept it',
+              b: 'The country could not make a treaty or an alliance of its own.' },
+            { btn: '5', short: 'Defence command', a: 'WITHHELD \\u2014 ultimately American',
+              b: 'Which is why the war arrived here as somebody else\\u2019s decision.' },
+            { btn: '6', short: 'Currency and trade', a: 'WITHHELD \\u2014 tied to the US',
+              b: 'The shape of the economy was set elsewhere, and outlasted 1946.' }
+        ]
+    });
+}
+
+function occupationLine() {
+    return timeline({
+        id: 'ol3', label: 'THREE YEARS',
+        alt: 'A timeline of the Japanese occupation from December 1941 to February 1945',
+        stops: [
+            { year: 'Dec 1941', tag: 'invasion',
+              head: 'The attack begins',
+              body: 'Hours after Pearl Harbor. The air force is caught on the ground.' },
+            { year: 'Apr 1942', tag: 'Bataan',
+              head: 'Bataan falls',
+              body: 'Then the march. Corregidor holds out until May.' },
+            { year: 'Oct 1943', tag: 'Second Republic',
+              head: 'The Second Republic',
+              body: 'Jose P. Laurel president, under Japanese authority. Still argued about.' },
+            { year: 'Oct 1944', tag: 'Leyte',
+              head: 'The landing at Leyte',
+              body: 'Liberation begins in the south and works north.' },
+            { year: 'Feb 1945', tag: 'Manila',
+              head: 'Manila is destroyed',
+              body: 'One of the most destructive urban battles of the whole war.' }
+        ]
+    });
+}
+
+function resistKinds() {
+    return listPicker({
+        id: 'rk4', label: 'FOUR THINGS PEOPLE DID', height: 272, y0: 60, dy: 26,
+        alt: 'Four responses to the occupation, from armed resistance to collaboration',
+        capA: 'Who: ', capB: 'What it meant: ',
+        rows: [
+            { btn: '1', short: 'USAFFE guerrillas', a: 'Soldiers who never surrendered',
+              b: 'Held ground, mapped positions and radioed them out for three years.' },
+            { btn: '2', short: 'Hukbalahap', a: 'A peasant army in Central Luzon',
+              b: 'Fought the occupation \\u2014 and carried land grievances that outlasted it.' },
+            { btn: '3', short: 'Ordinary people', a: 'The great majority',
+              b: 'Hid, queued, grew food and tried not to be noticed. Not a lesser choice.' },
+            { btn: '4', short: 'Makapili', a: 'Those who helped the occupiers',
+              b: 'Some from belief, some from fear. The reckoning after 1945 was bitter.' },
+            { btn: '5', short: 'The money', a: 'A replacement currency',
+              b: 'Nicknamed Mickey Mouse money. It lost value faster than it could be spent.' },
+            { btn: '6', short: 'The hard part', a: 'Most people were not given a clean choice',
+              b: 'That is what the week is about, and what a list of sides hides.' }
+        ]
+    });
+}
+
+function conditionsPicker() {
+    return listPicker({
+        id: 'cp5', label: 'INDEPENDENCE, WITH STRINGS', height: 272, y0: 60, dy: 26,
+        alt: 'The conditions attached to Philippine independence in 1946 and what each one allowed',
+        capA: 'The condition: ', capB: 'What it did: ',
+        rows: [
+            { btn: '1', short: '4 July 1946', a: 'The Third Republic begins',
+              b: 'Sovereignty is real. Everything below is attached to it.' },
+            { btn: '2', short: 'Bell Trade Act', a: 'Pegged the peso to the dollar',
+              b: 'And set the terms of trade. The economy\\u2019s shape was decided outside it.' },
+            { btn: '3', short: 'Parity rights', a: 'Equal American rights to Philippine resources',
+              b: 'It needed a constitutional amendment to pass, which tells you how large it was.' },
+            { btn: '4', short: 'Military Bases Agreement', a: '1947, originally for 99 years',
+              b: 'Later shortened. The bases stayed a live argument into the 1990s.' },
+            { btn: '5', short: 'War damage payments', a: 'Reconstruction money',
+              b: 'Conditional on accepting the above. That is why they were accepted.' },
+            { btn: '6', short: 'The question', a: 'Is sovereignty with conditions still sovereignty?',
+              b: 'The honest answer is that it is partial, and that later governments spent decades on it.' }
+        ]
+    });
+}
+
+function landQuestion() {
+    return listPicker({
+        id: 'lq6', label: 'WHY A REBELLION STARTED', height: 272, y0: 60, dy: 26,
+        alt: 'The chain from tenancy to the Huk rebellion and the attempt to settle it',
+        capA: 'Step: ', capB: 'Detail: ',
+        rows: [
+            { btn: '1', short: 'Tenancy', a: 'Most farmers did not own the land',
+              b: 'A share of every harvest went to a landlord many of them never met.' },
+            { btn: '2', short: 'Debt', a: 'A bad season meant borrowing',
+              b: 'And the debt passed to the next generation with the tenancy.' },
+            { btn: '3', short: 'The Huks organised', a: 'Already armed from the occupation',
+              b: 'The same men, the same province, and now no occupier to fight.' },
+            { btn: '4', short: 'Exclusion', a: 'Elected Huk representatives barred from Congress',
+              b: '1946. The legal route closed, and the armed one did not.' },
+            { btn: '5', short: 'Magsaysay', a: 'Settlement rather than only force',
+              b: 'Surrender terms, resettlement land, and a government that answered letters.' },
+            { btn: '6', short: 'What was left', a: 'The land problem itself',
+              b: 'The rebellion ended. Tenancy did not, and it returns in 1963 and after.' }
+        ]
+    });
+}
+
+function presidentsPicker() {
+    return listPicker({
+        id: 'pp8', label: 'SIX PRESIDENTS, ONE FACT EACH', height: 320, y0: 60, dy: 26,
+        alt: 'Six post-war presidents with the single fact most often asked about each',
+        capA: 'Term: ', capB: 'Known for: ',
+        rows: [
+            { btn: '1', short: 'Roxas', a: '1946\\u20131948, the first of the Third Republic',
+              b: 'Accepted the parity amendment and the trade terms. Died in office.' },
+            { btn: '2', short: 'Quirino', a: '1948\\u20131953',
+              b: 'Rebuilding, and an administration dogged by corruption allegations.' },
+            { btn: '3', short: 'Magsaysay', a: '1953\\u20131957',
+              b: 'Settled the Huk rebellion. Died in a plane crash in 1957.' },
+            { btn: '4', short: 'Garcia', a: '1957\\u20131961',
+              b: 'Filipino First Policy \\u2014 priority for Filipino businesses.' },
+            { btn: '5', short: 'Macapagal', a: '1961\\u20131965',
+              b: 'Moved Independence Day to 12 June, in 1962. Land reform code, 1963.' },
+            { btn: '6', short: 'Marcos', a: '1965\\u20131986',
+              b: 'Elected on infrastructure, re-elected 1969, martial law 1972.' },
+            { btn: '?', short: 'The thread', a: 'The land question runs through all six',
+              b: 'Every one of them met it, and none of them finished it.' }
+        ]
+    });
+}
+
+function martialLawLine() {
+    return timeline({
+        id: 'ml10', label: 'FOURTEEN YEARS',
+        alt: 'A timeline from the declaration of martial law in 1972 to the EDSA revolution in 1986',
+        stops: [
+            { year: '1972', tag: 'declared',
+              head: 'Proclamation 1081',
+              body: 'Signed 21 September. Congress closed, the press shut, opposition arrested.' },
+            { year: '1973', tag: 'new charter',
+              head: 'A new constitution',
+              body: 'Ratified by show of hands in citizens\\u2019 assemblies rather than by secret ballot.' },
+            { year: '1981', tag: 'lifted',
+              head: 'Martial law formally lifted',
+              body: 'The powers were kept. Very little changed in practice.' },
+            { year: '1983', tag: 'assassination',
+              head: 'Aquino is killed at the airport',
+              body: 'On his return. The protests after it do not stop.' },
+            { year: '1986', tag: 'EDSA',
+              head: 'People Power',
+              body: 'A snap election widely seen as rigged, then four days of demonstrations.' }
+        ]
+    });
+}
+
+function ssT2Map() {
+    return examMap({
+        id: 'sst2', label: 'TEN WEEKS \\u00b7 THE TERM',
+        alt: 'The ten Social Studies topics of the term, each with what to know and the usual trap',
+        rows: [
+            { btn: '1', short: 'Preparing',
+              a: 'Tydings-McDuffie 1934, Commonwealth 1935',
+              b: 'Ten years, not five. The countdown is interrupted, not cancelled.' },
+            { btn: '2', short: 'Building the state',
+              a: 'What the Commonwealth held and what Washington kept',
+              b: 'Foreign policy and defence were never Filipino in this period.' },
+            { btn: '3', short: 'Occupation',
+              a: 'Bataan April 1942, Second Republic 1943',
+              b: 'The 1943 republic governed under Japanese authority.' },
+            { btn: '4', short: 'Resistance',
+              a: 'Guerrillas, Huks, Makapili, and everyone else',
+              b: 'Most people were never offered a clean choice.' },
+            { btn: '5', short: 'Independence',
+              a: '4 July 1946, with parity, trade terms and bases',
+              b: 'Parity needed a constitutional amendment to pass.' },
+            { btn: '6', short: 'The land question',
+              a: 'Tenancy, the Huks, and Magsaysay\\u2019s settlement',
+              b: 'The rebellion ended. Tenancy did not.' },
+            { btn: '7', short: 'A sovereign country',
+              a: 'Two independence days, and why the date moved',
+              b: '1898 declared, 1946 granted. Macapagal chose the declaration.' },
+            { btn: '8', short: 'Roxas to Magsaysay',
+              a: 'Rebuilding, corruption, the Huk settlement',
+              b: 'Magsaysay settled the Huks; Quirino did not.' },
+            { btn: '9', short: 'Garcia to Marcos',
+              a: 'Filipino First, 12 June, the 1969 re-election',
+              b: 'Infrastructure and debt are both the record, not one or the other.' },
+            { btn: '10', short: 'Martial law',
+              a: 'Proclamation 1081; the documented figures; EDSA',
+              b: 'The human rights record is documented, not a matter of opinion.' }
+        ]
+    });
+}
+
 export const FIGURES = {
+    commonwealthRoad,
+    commonwealthWork,
+    occupationLine,
+    resistKinds,
+    conditionsPicker,
+    landQuestion,
+    presidentsPicker,
+    martialLawLine,
+    ssT2Map,
+
+    pastSpelling,
+    phrasalLab,
+    futureChoice,
+    tenseLine,
+    affixJobs,
+    degreeBars,
+    adverbKinds,
+    pointsAtLab,
+
     discountLab,
     volumeUnitLab,
 

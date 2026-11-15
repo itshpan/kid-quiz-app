@@ -50,6 +50,12 @@
       }
     },
     {
+      "kind": "figure",
+      "figure": "presidentsPicker",
+      "title": "Six presidents, one fact each",
+      "text": "The last three are this week. Tap through and place them."
+    },
+    {
       "kind": "idea",
       "eyebrow": "Macapagal",
       "title": "1961 to 1965: the date and the land code",
@@ -140,6 +146,16 @@
         "**A Muslim separatist movement** grew in Mindanao.",
         "**All three were real** before martial law was declared."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Built, and borrowed for",
+      "src": "assets/img/ss-t2w9-bridge.jpg",
+      "alt": "A half-built concrete bridge stopping in mid-air with reinforcing bars exposed and a crane standing idle",
+      "credit": "Generated image",
+      "text": "The roads were real. So was the debt. Hold both at once.",
+      "lightBg": true
     },
     {
       "kind": "terms",

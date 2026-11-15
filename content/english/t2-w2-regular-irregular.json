@@ -107,6 +107,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Two kinds of verb",
+      "src": "assets/img/eng-t2w2-doors.jpg",
+      "alt": "A tidy queue of identical figures through one doorway and the same number in total chaos through the other",
+      "credit": "Generated image",
+      "text": "One queue follows a rule. The other does not, and no rule will ever cover it.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "story",
       "icon": "✍️",

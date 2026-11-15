@@ -49,6 +49,12 @@
       }
     },
     {
+      "kind": "figure",
+      "figure": "pointsAtLab",
+      "title": "What is the word pointing at?",
+      "text": "Three decisions. Each wrong pick shows you what that sentence would mean."
+    },
+    {
       "kind": "idea",
       "eyebrow": "Good and well",
       "title": "The pair that catches everyone",
@@ -125,6 +131,16 @@
         "explain": "It describes how it runs, so an adverb.",
         "seconds": 22
       }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "A fast car, driven fast",
+      "src": "assets/img/eng-t2w10-fast.jpg",
+      "alt": "The same car parked and perfectly sharp beside the same car mid-corner with the background streaked into motion blur",
+      "credit": "Generated image",
+      "text": "Left points at the car. Right points at the driving. Same word, two jobs.",
+      "lightBg": true
     },
     {
       "kind": "lens",

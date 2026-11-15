@@ -87,6 +87,12 @@
       ]
     },
     {
+      "kind": "figure",
+      "figure": "futureChoice",
+      "title": "When was it decided?",
+      "text": "Three futures. The form tells you when the decision was made."
+    },
+    {
       "kind": "lens",
       "lens": "boxing",
       "icon": "🥊",
@@ -123,6 +129,16 @@
         "**He never delivers it.** He loses the letter.",
         "**Promises about the future** run all through the chapter."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Already decided",
+      "src": "assets/img/eng-t2w4-packed.jpg",
+      "alt": "A packed gym bag by a closed front door with shoes, a water bottle and a coiled jump rope ready",
+      "credit": "Generated image",
+      "text": "Nobody packs a bag on impulse at the door. This is \"going to\", not \"will\".",
+      "lightBg": true
     },
     {
       "kind": "checkpoint",

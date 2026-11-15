@@ -111,6 +111,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "The gap, held open",
+      "src": "assets/img/dev-t2w1-held.jpg",
+      "alt": "A gloved fist held still a few centimetres from a heavy bag, stopped rather than thrown",
+      "credit": "Generated image",
+      "text": "The feeling arrived. The punch did not. That space is the entire skill.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "gaming",
       "icon": "🎮",

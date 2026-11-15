@@ -45,6 +45,12 @@
       ]
     },
     {
+      "kind": "figure",
+      "figure": "degreeBars",
+      "title": "How many are you comparing?",
+      "text": "Count first, then pick the form. The bars do the counting for you."
+    },
+    {
       "kind": "checkpoint",
       "question": {
         "type": "multiple",
@@ -125,6 +131,16 @@
         "explain": "Three or more means superlative: the best.",
         "seconds": 22
       }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Hot, hotter, hottest",
+      "src": "assets/img/eng-t2w7-three-chillies.jpg",
+      "alt": "Three red chillies in a row, small, medium and large",
+      "credit": "Generated image",
+      "text": "One on its own is just hot. It takes two to be hotter and three to be hottest.",
+      "lightBg": true
     },
     {
       "kind": "lens",

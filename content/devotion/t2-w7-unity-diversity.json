@@ -123,6 +123,26 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Unity in 1 Corinthians 12 means everyone being the same.",
+        "answer": false,
+        "explain": "Difference is the design. A body of identical parts is not a body.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Many strands, one surface",
+      "src": "assets/img/dev-t2w7-weave.jpg",
+      "alt": "A close view of handwoven rattan showing many separate strands crossing to make one surface",
+      "credit": "Generated image",
+      "text": "Not one of them is the important strand. Pull any one out and it opens.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "gaming",
       "icon": "🎮",

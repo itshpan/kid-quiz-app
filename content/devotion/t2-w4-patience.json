@@ -123,6 +123,26 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Patience in scripture means waiting without doing anything.",
+        "answer": false,
+        "explain": "Joseph ran a household and then a prison for the whole thirteen years.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Months from now",
+      "src": "assets/img/dev-t2w4-seedling.jpg",
+      "alt": "A single green rice seedling standing above the still water of a flooded paddy at dawn",
+      "credit": "Generated image",
+      "text": "The farmer in James 5 is not waiting around. He planted this and he weeds it.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "cars",
       "icon": "🚗",

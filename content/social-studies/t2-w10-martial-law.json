@@ -49,6 +49,12 @@
       }
     },
     {
+      "kind": "figure",
+      "figure": "martialLawLine",
+      "title": "Fourteen years",
+      "text": "Tap each stop. 1972 to 1986, in five moments."
+    },
+    {
       "kind": "idea",
       "eyebrow": "What is documented",
       "title": "Numbers from official and independent records",
@@ -95,6 +101,16 @@
         "**Interest grew** faster than the economy did.",
         "**Both the bridges and the bill** are the record."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Closed, in one night",
+      "src": "assets/img/ss-t2w10-gates.jpg",
+      "alt": "A heavy chain and padlock fastening a pair of tall closed iron gates in front of an empty courtyard",
+      "credit": "Generated image",
+      "text": "Congress, the newspapers, the broadcasters. Proclamation 1081 shut all of them.",
+      "lightBg": true
     },
     {
       "kind": "lens",

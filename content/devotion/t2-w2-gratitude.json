@@ -123,6 +123,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What turns gratitude off?",
+        "options": [
+          "Tiredness",
+          "Comparison",
+          "Routine",
+          "Silence"
+        ],
+        "answerIndex": 1,
+        "explain": "You cannot count someone else's total and be grateful at the same time.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Nobody notices this until it is missing",
+      "src": "assets/img/dev-t2w2-meal.jpg",
+      "alt": "A simple home meal of rice, fried fish, vegetables and water laid out on a wooden table",
+      "credit": "Generated image",
+      "text": "Name one specific thing on this table and say it out loud to whoever cooked.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "growth",
       "icon": "🌱",

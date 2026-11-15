@@ -123,6 +123,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "1 Thessalonians 5:18 says give thanks…",
+        "options": [
+          "for all circumstances",
+          "in all circumstances",
+          "on good days",
+          "once a week"
+        ],
+        "answerIndex": 1,
+        "explain": "A real and important difference.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Ten distinctions, one paper",
+      "src": "assets/img/dev-t2w11-desk.jpg",
+      "alt": "A closed leather-bound book with a red ribbon marker, a pencil and a glass of water on a wooden desk",
+      "credit": "Generated image",
+      "text": "Sleep, eat, and test yourself. Re-reading feels like learning and is not.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "story",
       "icon": "✍️",

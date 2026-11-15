@@ -115,6 +115,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which is correct?",
+        "options": [
+          "He is more faster.",
+          "He is faster than me.",
+          "He is the more fast.",
+          "He is fastest than me."
+        ],
+        "answerIndex": 1,
+        "explain": "Never both -er and \"more\". Two things compared, so the comparative.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "The night before counts",
+      "src": "assets/img/eng-t2w11-desk.jpg",
+      "alt": "An exam desk with a closed worn paperback, a blank answer sheet, two pencils and an eraser",
+      "credit": "Generated image",
+      "text": "Sleep, food, and self-testing. The chapters are the part most easily lost.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "story",
       "icon": "✍️",

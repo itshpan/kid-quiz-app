@@ -49,6 +49,12 @@
       }
     },
     {
+      "kind": "figure",
+      "figure": "resistKinds",
+      "title": "Four things people did",
+      "text": "Tap each one. The last button is the part a list of sides hides."
+    },
+    {
       "kind": "idea",
       "eyebrow": "The return",
       "title": "Leyte, October 1944",
@@ -125,6 +131,16 @@
         "explain": "Around 100,000, in about a month of street fighting.",
         "seconds": 22
       }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "A map and a radio",
+      "src": "assets/img/ss-t2w4-radio.jpg",
+      "alt": "A hand-drawn contour map on a wooden table with a compass, binoculars and a canvas-cased field radio",
+      "credit": "Generated image",
+      "text": "Most guerrilla work was watching and reporting, not fighting.",
+      "lightBg": true
     },
     {
       "kind": "lens",

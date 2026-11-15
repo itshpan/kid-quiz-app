@@ -49,6 +49,12 @@
       }
     },
     {
+      "kind": "figure",
+      "figure": "ssT2Map",
+      "title": "Ten weeks, one board",
+      "text": "Tap each week. The second line is the trap it sets."
+    },
+    {
       "kind": "idea",
       "eyebrow": "Thread 2",
       "title": "Occupation and return, 1942 to 1945",
@@ -123,6 +129,16 @@
         "explain": "Congress was abolished and the press was shut or taken over.",
         "seconds": 22
       }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Five dates and four threads",
+      "src": "assets/img/ss-t2w11-desk.jpg",
+      "alt": "A study desk with a closed hardback book, blank paper, a pencil, a mug and an empty wall calendar",
+      "credit": "Generated image",
+      "text": "That is the whole paper. Self-test rather than re-read.",
+      "lightBg": true
     },
     {
       "kind": "lens",

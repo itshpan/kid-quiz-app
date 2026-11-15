@@ -49,6 +49,12 @@
       }
     },
     {
+      "kind": "figure",
+      "figure": "commonwealthRoad",
+      "title": "Back to the countdown",
+      "text": "Before 1946 there was 1934. Tap through it again before the two dates."
+    },
+    {
       "kind": "idea",
       "eyebrow": "Foreign policy",
       "title": "A founding member, and a close alignment",
@@ -125,6 +131,16 @@
         "explain": "In 1991, which is usually taken as the point the last major limit ended.",
         "seconds": 22
       }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Two circles, one country",
+      "src": "assets/img/ss-t2w7-two-dates.jpg",
+      "alt": "Two blank calendar grids side by side, one with a square circled near the top and one near the middle",
+      "credit": "Generated image",
+      "text": "One marks the day it was declared. The other marks the day it was granted.",
+      "lightBg": true
     },
     {
       "kind": "lens",

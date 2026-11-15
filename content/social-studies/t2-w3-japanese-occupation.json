@@ -45,6 +45,12 @@
       ]
     },
     {
+      "kind": "figure",
+      "figure": "occupationLine",
+      "title": "Three years",
+      "text": "Tap each stop. December 1941 to February 1945, in five moments."
+    },
+    {
       "kind": "checkpoint",
       "question": {
         "type": "multiple",
@@ -87,6 +93,16 @@
         "**Bataan could not be resupplied.**",
         "**The defenders ran out of food** before they ran out of will."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "What people actually carried",
+      "src": "assets/img/fil-t2w9-hapon.jpg",
+      "alt": "A battered leather suitcase, a brass kerosene lamp, a dented tin canteen and a folded blanket on wooden floorboards",
+      "credit": "Generated image",
+      "text": "A suitcase, a lamp, a canteen. Three years measured in what you could move.",
+      "lightBg": true
     },
     {
       "kind": "idea",

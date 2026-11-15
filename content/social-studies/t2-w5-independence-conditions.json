@@ -45,6 +45,12 @@
       ]
     },
     {
+      "kind": "figure",
+      "figure": "conditionsPicker",
+      "title": "Independence, with strings",
+      "text": "Six buttons. The last one is the question the week is actually asking."
+    },
+    {
       "kind": "checkpoint",
       "question": {
         "type": "multiple",
@@ -123,6 +129,16 @@
         "**Whole local economies** grew around the gates.",
         "**They closed in the early 1990s**, and those towns had to start again."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Sovereignty, and the pages attached to it",
+      "src": "assets/img/ss-t2w5-pen.jpg",
+      "alt": "A fountain pen lying on a blank formal document with a red wax seal and ribbon",
+      "credit": "Generated image",
+      "text": "The republic was real. So were the trade terms, parity and the bases.",
+      "lightBg": true
     },
     {
       "kind": "checkpoint",

@@ -123,6 +123,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Proverbs 27:6 says faithful are the…",
+        "options": [
+          "words of a friend",
+          "wounds of a friend",
+          "gifts of a friend",
+          "promises of a friend"
+        ],
+        "answerIndex": 1,
+        "explain": "A friend who never disagrees with you is not doing the job.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Hours, not intentions",
+      "src": "assets/img/dev-t2w8-shoes.jpg",
+      "alt": "Two pairs of well-worn training shoes side by side on a scuffed gym floor",
+      "credit": "Generated image",
+      "text": "Proverbs 13:20 is about who you spend these beside. It has no exceptions.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "growth",
       "icon": "🌱",

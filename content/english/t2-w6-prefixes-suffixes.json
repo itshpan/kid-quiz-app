@@ -45,6 +45,12 @@
       ]
     },
     {
+      "kind": "figure",
+      "figure": "affixJobs",
+      "title": "Front changes meaning, back changes job",
+      "text": "Six affixes. The split between the two halves is the whole lesson."
+    },
+    {
       "kind": "checkpoint",
       "question": {
         "type": "multiple",
@@ -127,6 +133,16 @@
         "explain": "A prefix, a root and a suffix. Not + break + able to be.",
         "seconds": 22
       }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "A word is built, not found",
+      "src": "assets/img/eng-t2w6-blocks.jpg",
+      "alt": "Three plastic building blocks clicked together in a row, small, large and small, with visible joins",
+      "credit": "Generated image",
+      "text": "Front piece, root, back piece. You can see every join.",
+      "lightBg": true
     },
     {
       "kind": "lens",

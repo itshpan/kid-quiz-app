@@ -33,6 +33,12 @@
       ]
     },
     {
+      "kind": "figure",
+      "figure": "pastSpelling",
+      "title": "Tap a pattern",
+      "text": "Four spelling rules cover every regular verb. The last two are where marks go."
+    },
+    {
       "kind": "checkpoint",
       "question": {
         "type": "type",
@@ -123,6 +129,16 @@
         "**Sancho said nothing**, because arguing never worked.",
         "**Notice the verbs.** The whole chapter is simple past."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Over, and nothing left running",
+      "src": "assets/img/eng-t2w1-finished.jpg",
+      "alt": "An empty plate after a meal with used cutlery, crumbs and a drained glass",
+      "credit": "Generated image",
+      "text": "That is the simple past. It happened, it finished, and it is not still going on.",
+      "lightBg": true
     },
     {
       "kind": "terms",

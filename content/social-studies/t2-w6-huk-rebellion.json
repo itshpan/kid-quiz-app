@@ -45,6 +45,12 @@
       ]
     },
     {
+      "kind": "figure",
+      "figure": "landQuestion",
+      "title": "Why a rebellion started",
+      "text": "Six steps, in order. Each one follows from the one before it."
+    },
+    {
       "kind": "checkpoint",
       "question": {
         "type": "multiple",
@@ -139,6 +145,16 @@
         "**Later presidents passed new laws.**",
         "**Watch for it** in every week that follows."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "The thing it was all about",
+      "src": "assets/img/ss-t2w6-ricefield.jpg",
+      "alt": "A golden rice field at harvest with cut sheaves stacked and a worn bolo knife laid across them",
+      "credit": "Generated image",
+      "text": "Most of this harvest went to somebody the farmer had never met.",
+      "lightBg": true
     },
     {
       "kind": "terms",

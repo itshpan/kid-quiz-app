@@ -45,6 +45,12 @@
       ]
     },
     {
+      "kind": "figure",
+      "figure": "commonwealthRoad",
+      "title": "A ten-year countdown",
+      "text": "Tap each stop. The last one is where the clock stops."
+    },
+    {
       "kind": "checkpoint",
       "question": {
         "type": "multiple",
@@ -139,6 +145,16 @@
         "explain": "The invasion and occupation interrupted the timetable entirely.",
         "seconds": 22
       }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "A country being assembled",
+      "src": "assets/img/ss-t2w1-flag.jpg",
+      "alt": "A Philippine flag flying open against a blue sky, its sun and three stars visible",
+      "credit": "Generated image",
+      "text": "A flag, an army, a language, a president. All of it built inside ten years.",
+      "lightBg": true
     },
     {
       "kind": "terms",

@@ -45,6 +45,12 @@
       ]
     },
     {
+      "kind": "figure",
+      "figure": "commonwealthWork",
+      "title": "What it could and could not do",
+      "text": "Six powers. Three were held and three were kept in Washington."
+    },
+    {
       "kind": "checkpoint",
       "question": {
         "type": "multiple",
@@ -139,6 +145,16 @@
         "explain": "The reserve existed on paper more than in practice, and equipment was short.",
         "seconds": 22
       }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Self-rule meant writing your own laws",
+      "src": "assets/img/ss-t2w2-typewriter.jpg",
+      "alt": "An old manual typewriter with a blank sheet rolled in, on a worn wooden desk with a brass lamp",
+      "credit": "Generated image",
+      "text": "Land reform, education, labour. All passed here, by an assembly elected here.",
+      "lightBg": true
     },
     {
       "kind": "terms",

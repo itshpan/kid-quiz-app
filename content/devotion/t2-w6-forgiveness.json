@@ -107,6 +107,32 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Mended, and you can see where",
+      "src": "assets/img/dev-t2w6-repaired.jpg",
+      "alt": "A mended ceramic bowl with its cracks filled in bright gold so every repair line shows",
+      "credit": "Generated image",
+      "text": "The break is not hidden. It is held, and the bowl works again.",
+      "lightBg": true
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which of the four needs the other person?",
+        "options": [
+          "Forgiveness",
+          "Reconciliation",
+          "Consequences",
+          "None"
+        ],
+        "answerIndex": 1,
+        "explain": "You cannot do it alone, and that is not your failure.",
+        "seconds": 20
+      }
+    },
+    {
       "kind": "lens",
       "lens": "boxing",
       "icon": "🥊",
@@ -147,6 +173,16 @@
         "**A record is rebuilt by behaviour**, over time.",
         "**Keeping them separate is wisdom**, not bitterness."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Reconciliation needs the other chair filled",
+      "src": "assets/img/dev-t2w6-two-chairs.jpg",
+      "alt": "Two plain wooden chairs facing each other, both empty, in an otherwise bare room",
+      "credit": "Generated image",
+      "text": "Forgiveness you can do alone. This one you cannot, and that is not your failure.",
+      "lightBg": true
     },
     {
       "kind": "recap",

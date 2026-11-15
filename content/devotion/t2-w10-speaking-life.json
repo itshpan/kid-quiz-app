@@ -123,6 +123,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "James compares the tongue to a bit, a fire and a…",
+        "options": [
+          "sword",
+          "rudder",
+          "hammer",
+          "river"
+        ],
+        "answerIndex": 1,
+        "explain": "Leverage, not volume.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "That is the rudder",
+      "src": "assets/img/dev-t2w10-rudder.jpg",
+      "alt": "The stern of a large ship in dry dock, its single rudder strikingly small beneath the towering hull",
+      "credit": "Generated image",
+      "text": "A few square metres turning thousands of tonnes. James picked it on purpose.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "gaming",
       "icon": "🎮",

@@ -75,6 +75,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "\"I saw the fan walking to school\"",
+      "src": "assets/img/eng-t2w8-walking-fan.jpg",
+      "alt": "A cartoon electric fan with human legs striding along a pavement",
+      "credit": "Generated image",
+      "text": "Read literally, this is what the sentence says. The phrase grabbed the wrong noun.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "Misplaced",
       "title": "When the phrase grabs the wrong noun",
@@ -125,6 +135,12 @@
         "explain": "The phrase sits next to 'I', which is who was looking.",
         "seconds": 24
       }
+    },
+    {
+      "kind": "figure",
+      "figure": "pointsAtLab",
+      "title": "What is the word pointing at?",
+      "text": "Make the call three times. A wrong pick shows you what it would mean."
     },
     {
       "kind": "lens",

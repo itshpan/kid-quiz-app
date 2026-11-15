@@ -123,6 +123,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which step do most people stop at?",
+        "options": [
+          "Before noticing",
+          "Between feeling and moving",
+          "After the cost",
+          "They do not stop"
+        ],
+        "answerIndex": 1,
+        "explain": "Feeling sorry is not helping.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Step three, in one picture",
+      "src": "assets/img/dev-t2w3-hand-up.jpg",
+      "alt": "One hand gripping the forearm of another reaching up from below, taut with effort",
+      "credit": "Generated image",
+      "text": "Noticing and feeling do not look like anything. This does.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "disasters",
       "icon": "🌊",

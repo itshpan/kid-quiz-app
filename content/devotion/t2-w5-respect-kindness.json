@@ -109,6 +109,32 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Owed, not earned",
+      "src": "assets/img/dev-t2w5-glove-touch.jpg",
+      "alt": "Two boxing gloves touching knuckle to knuckle at the centre of a ring",
+      "credit": "Generated image",
+      "text": "Two people about to try to beat each other. Nothing in the rules requires this.",
+      "lightBg": true
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Respect is best described as…",
+        "options": [
+          "something earned",
+          "a baseline owed to everyone",
+          "agreement",
+          "politeness only"
+        ],
+        "answerIndex": 1,
+        "explain": "It does not depend on agreeing with them.",
+        "seconds": 20
+      }
+    },
+    {
       "kind": "lens",
       "lens": "gaming",
       "icon": "🎮",
