@@ -1,0 +1,376 @@
+{
+  "id": "fil-t2-w3",
+  "courseId": "filipino",
+  "courseTitle": "Filipino",
+  "week": 3,
+  "title": "Panghalip Pananong at Pamatlig",
+  "subtitle": "Ang nagtatanong, at ang tumuturo ayon sa layo.",
+  "estMinutes": 20,
+  "objectives": [
+    "Matukoy ang panghalip pananong at ang sinasagot nito",
+    "Magamit ang ito, iyan at iyon ayon sa layo",
+    "Maiba ang anyong palagyo, paari at panlunan ng pamatlig",
+    "Malaman ang kulturang Maranao bago buksan ang akda"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "❓",
+      "eyebrow": "Bahagi 1 · Dalawang pangkat",
+      "title": "Ang nagtatanong, at ang tumuturo",
+      "text": "Dalawang panghalip ang aralin ngayon. Nagtatanong ang isa. Tumuturo ang isa. Pareho silang pamalit sa pangalan."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Unang pangkat",
+      "title": "Panghalip pananong",
+      "text": "Ang hinahanap ng tanong ang pumipili ng salita.",
+      "points": [
+        "**Sino** — tao, at siya ang gumagawa.",
+        "**Kanino** — tao, at siya ang may-ari.",
+        "**Ano** — bagay. **Alin** — mula sa mga pagpipilian.",
+        "**Ilan** — bilang. **Magkano** — halaga."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Alin ang tamang tanong para sa \"Kay Carlo ang gulong\"?",
+        "options": [
+          "Kanino ang gulong?",
+          "Ilan ang gulong?",
+          "Ano ang gulong?",
+          "Sino ang gulong?"
+        ],
+        "answerIndex": 0,
+        "explain": "Hinahanap ang may-ari na tao, kaya kanino.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ikalawang pangkat",
+      "title": "Panghalip pamatlig",
+      "text": "Hindi tinatanong. Itinuturo. At ang layo ang pumipili.",
+      "points": [
+        "**Ito** — malapit sa nagsasalita.",
+        "**Iyan** — malapit sa kinakausap.",
+        "**Iyon** — malayo sa inyong dalawa.",
+        "**Walang kinalaman ang laki o halaga.** Layo lamang."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "pamatligLapit",
+      "title": "Tatlong tagpo",
+      "text": "Pindutin ang ito, iyan at iyon. Tingnan kung sino ang malapit sa guwantes."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Hawak ng kinakausap mo ang distornilyador. Alin ang tama?",
+        "options": [
+          "Luma na dito.",
+          "Luma na iyan.",
+          "Luma na iyon.",
+          "Luma na ito."
+        ],
+        "answerIndex": 1,
+        "explain": "Malapit sa kinakausap, kaya iyan.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ikatlong kaisipan",
+      "title": "May tatlong anyo rin ang pamatlig",
+      "text": "Tulad ng pangngalan at ng panghalip panao.",
+      "points": [
+        "**Palagyo:** ito, iyan, iyon.",
+        "**Paari:** nito, niyan, niyon.",
+        "**Panlunan:** dito, diyan, doon.",
+        "**Pareho ang layo.** Iba ang trabaho sa pangungusap."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Sa bentilador",
+      "title": "Tatlong tornilyo sa mesa",
+      "text": "Nakabukas ang bentilador sa harap mo. Tatlong tornilyo sa iba-ibang lugar.",
+      "points": [
+        "**Hawak ko:** \"Maliit ito.\"",
+        "**Hawak mo:** \"Mas mahaba iyan.\"",
+        "**Nasa ilalim ng mesa:** \"Nasaan na iyon?\"",
+        "**Pareho ang tornilyo.** Iba ang layo sa akin."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Sa laro",
+      "title": "Ang pananong ay paghahanap ng datos",
+      "text": "Bawat tanong ay humihingi ng isang tiyak na uri ng sagot.",
+      "points": [
+        "**Sino** — pangalan ng manlalaro.",
+        "**Ilan** — bilang ng buhay o bala.",
+        "**Alin** — mula sa talaan ng sandata.",
+        "**Maling tanong, maling sagot.** Tingnan muna kung ano ang hinahanap."
+      ]
+    },
+    {
+      "kind": "open",
+      "icon": "📖",
+      "eyebrow": "Bahagi 2 · Bago mo buksan",
+      "title": "Naging Pintor si Tominaman sa Rogong",
+      "text": "Hindi pa nakikita ang edisyong gamit ng klase mo, kaya walang buod ng kuwento dito. Ito ang totoong kultura kung saan nagmula ang pangalang iyon."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Kultura",
+      "title": "Ang mga Maranao at ang lawa",
+      "text": "Maranao: ang ibig sabihin ay tao ng lawa.",
+      "points": [
+        "**Nasa Lanao del Sur** sila, sa paligid ng Lawa ng Lanao.",
+        "**Ikalawa itong pinakamalaking lawa** sa Pilipinas.",
+        "**Ang Darangen** ang epiko nilang inaawit, hindi binabasa.",
+        "**Inihayag ng UNESCO** ang Darangen bilang pamanang pandaigdig."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Sining",
+      "title": "Okir: ang sining ng disenyong Maranao",
+      "text": "May pangalan ang sining na tinutukoy ng pamagat na iyon.",
+      "points": [
+        "**Okir** ang disenyong pakurba at padahon ng Maranao.",
+        "**Inuukit ito sa kahoy** at ipinipinta sa mga gamit.",
+        "**Sarimanok** — ang ibong may hawak na isda.",
+        "**Panolong** — ang nakaukit na dulo ng bubong ng torogan."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Ano ang okir?",
+        "options": [
+          "Isang lawa",
+          "Isang ibon",
+          "Ang sining ng disenyong Maranao",
+          "Isang epiko"
+        ],
+        "answerIndex": 2,
+        "explain": "Ang pakurba at padahong disenyong inuukit at ipininta.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Sa pagkukuwento",
+      "title": "Ang inaawit na kuwento ay buhay",
+      "text": "Hindi nakatakda ang epikong inaawit. Nagbabago ito sa bawat mang-aawit.",
+      "points": [
+        "**Pitumpung libong taludtod** ang Darangen.",
+        "**Walang isang \"tamang\" bersyon** na nakasulat sa libro.",
+        "**Kaya iba ang pag-aaral nito** sa nobela.",
+        "**Pakinggan ang ritmo.** Doon nakatago ang alaala."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Tapos na",
+      "title": "Ang tatandaan",
+      "points": [
+        "Pananong: sino, kanino, ano, alin, ilan, magkano.",
+        "Pamatlig: ito kung malapit sa akin, iyan sa iyo, iyon sa malayo.",
+        "Tatlong anyo rin ang pamatlig: ito, nito, dito.",
+        "Okir ang sining ng Maranao; Darangen ang epiko nilang inaawit."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Anong pananong ang hinahanap ng \"Kay Nica ang guwantes\"?",
+      "options": [
+        "Kanino",
+        "Sino",
+        "Ilan",
+        "Ano"
+      ],
+      "answerIndex": 0,
+      "explain": "Hinahanap ang may-ari na tao.",
+      "objective": "Matukoy ang panghalip pananong at ang sinasagot nito",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Anong pananong ang ginagamit para sa halaga?",
+      "options": [
+        "Magkano",
+        "Alin",
+        "Ano",
+        "Ilan"
+      ],
+      "answerIndex": 0,
+      "explain": "Magkano para sa presyo.",
+      "objective": "Matukoy ang panghalip pananong at ang sinasagot nito",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Hawak mo ang bola. Alin ang sasabihin mo?",
+      "options": [
+        "Bago ito.",
+        "Bago doon.",
+        "Bago iyan.",
+        "Bago iyon."
+      ],
+      "answerIndex": 0,
+      "explain": "Malapit sa nagsasalita.",
+      "objective": "Magamit ang ito, iyan at iyon ayon sa layo",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Nasa kabilang kuwarto ang gamit. Alin ang tama?",
+      "options": [
+        "Nasaan ito?",
+        "Nasaan iyan?",
+        "Nasaan iyon?",
+        "Nasaan dito?"
+      ],
+      "answerIndex": 2,
+      "explain": "Malayo sa inyong dalawa.",
+      "objective": "Magamit ang ito, iyan at iyon ayon sa layo",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Anong anyong panlunan ng \"iyon\"?",
+      "options": [
+        "diyan",
+        "dito",
+        "doon",
+        "niyon"
+      ],
+      "answerIndex": 2,
+      "explain": "Doon.",
+      "objective": "Maiba ang anyong palagyo, paari at panlunan ng pamatlig",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Anong anyong paari ng \"ito\"?",
+      "options": [
+        "dito",
+        "nito",
+        "heto",
+        "iyon"
+      ],
+      "answerIndex": 1,
+      "explain": "Halimbawa: ang talim nito.",
+      "objective": "Maiba ang anyong palagyo, paari at panlunan ng pamatlig",
+      "seconds": 18
+    },
+    {
+      "type": "type",
+      "text": "Anong pananong ang gamit kung tao ang gumawa? Isang salita.",
+      "accept": [
+        "sino"
+      ],
+      "explain": "Sino ang tumakbo?",
+      "objective": "Matukoy ang panghalip pananong at ang sinasagot nito",
+      "seconds": 16
+    },
+    {
+      "type": "truefalse",
+      "text": "Ang laki ng bagay ang pumipili sa ito, iyan at iyon.",
+      "answer": false,
+      "explain": "Ang layo, hindi ang laki.",
+      "objective": "Magamit ang ito, iyan at iyon ayon sa layo",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang tama kung hawak ng kinakausap mo?",
+      "options": [
+        "Akin ito.",
+        "Akin nito.",
+        "Akin doon.",
+        "Akin iyan."
+      ],
+      "answerIndex": 3,
+      "explain": "Malapit sa kausap, kaya iyan.",
+      "objective": "Magamit ang ito, iyan at iyon ayon sa layo",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang ibig sabihin ng \"Maranao\"?",
+      "options": [
+        "Tao ng ilog",
+        "Tao ng lawa",
+        "Tao ng bundok",
+        "Tao ng dagat"
+      ],
+      "answerIndex": 1,
+      "explain": "Mula sa Lawa ng Lanao.",
+      "objective": "Malaman ang kulturang Maranao bago buksan ang akda",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Ang Darangen ay…",
+      "options": [
+        "isang nobela",
+        "isang epikong inaawit",
+        "isang batas",
+        "isang simbahan"
+      ],
+      "answerIndex": 1,
+      "explain": "Inaawit, hindi binabasa. Pamanang pandaigdig ayon sa UNESCO.",
+      "objective": "Malaman ang kulturang Maranao bago buksan ang akda",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang sarimanok?",
+      "options": [
+        "Isang lawa",
+        "Isang awit",
+        "Isang bubong",
+        "Isang ibong may hawak na isda"
+      ],
+      "answerIndex": 3,
+      "explain": "Pangkaraniwang hugis sa sining Maranao.",
+      "objective": "Malaman ang kulturang Maranao bago buksan ang akda",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Linggo 3 ng Filipino: dalawang pangkat ng panghalip sa isang linggo. Ang pananong ay itinuturo bilang paghahanap ng datos — ang uri ng sagot na hinahanap ang pumipili ng salita — at hindi bilang listahan. Ang pamatlig ay nakasalalay sa layo, kaya iginuhit ito: nakikita niya kung sino ang malapit sa bagay bago niya mabasa ang pangalan ng anyo. IMPORTANTE PARA SA GURO O MAGULANG: walang buod ng Naging Pintor si Tominaman sa Rogong dito dahil hindi pa nakikita ang edisyon. Ang ikalawang bahagi ay totoong kulturang Maranao — ang lawa, ang Darangen, at ang okir — na tiyak na kapaki-pakinabang sa isang kuwentong tungkol sa isang pintor.",
+    "discussion": [
+      "Pasagutin siya: anong pananong ang hinahanap ng pangungusap na ito?",
+      "Pahawakan siya ng isang bagay at itanong: ito, iyan o iyon?",
+      "Itanong kung bakit layo at hindi laki ang basehan.",
+      "Ipahanap sa kaniya ang okir sa larawan ng torogan."
+    ],
+    "extension": [
+      "Pasulatin siya ng anim na tanong tungkol sa isang larong pinaglalaruan niya.",
+      "Ipaguhit ang isang disenyong okir at ipaliwanag ang mga kurba."
+    ],
+    "misconceptions": [
+      "\"Ang laki ang basehan ng ito at iyon.\" Layo iyon.",
+      "\"Iisa lang ang anyo ng pamatlig.\" Tatlo: ito, nito, dito.",
+      "\"Binabasa ang Darangen tulad ng nobela.\" Inaawit ito."
+    ]
+  }
+}

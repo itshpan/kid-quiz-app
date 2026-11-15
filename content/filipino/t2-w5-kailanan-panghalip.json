@@ -1,0 +1,364 @@
+{
+  "id": "fil-t2-w5",
+  "courseId": "filipino",
+  "courseTitle": "Filipino",
+  "week": 5,
+  "title": "Kailanan ng Panghalip",
+  "subtitle": "Isahan, dalawahan, maramihan — at ang bitag ng tayo at kami.",
+  "estMinutes": 20,
+  "objectives": [
+    "Matukoy ang isahan, dalawahan at maramihan",
+    "Maiba ang tayo sa kami sa kailanan",
+    "Magamit ang tamang kailanan sa pangungusap",
+    "Malaman ang lipunang Pilipino bago dumating ang mga Espanyol"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🔢",
+      "eyebrow": "Bahagi 1 · Kailanan",
+      "title": "Ilan ang tinutukoy?",
+      "text": "Isang tanong lamang ang buong aralin: ilan ang tinutukoy ng panghalip? Tatlo ang puwedeng sagot, at may isang bitag."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang pangunahing kaisipan",
+      "title": "Tatlong kailanan",
+      "text": "Hindi tatlong panauhan. Tatlong bilang.",
+      "points": [
+        "**Isahan** — isa lamang: ako, ikaw, siya.",
+        "**Dalawahan** — tiyak na dalawa: kata, kanita.",
+        "**Maramihan** — dalawa o higit: kami, tayo, kayo, sila.",
+        "**Bihira na ang dalawahan sa usapan**, pero nasa pagsusulit."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "kailananPanghalip",
+      "title": "Anim na pindutan",
+      "text": "Pindutin ang bawat hanay. Ang ikatlo at ikaapat ang pinakamadalas na mali."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Anong kailanan ang \"kayo\"?",
+        "options": [
+          "Walang kailanan",
+          "Isahan",
+          "Maramihan",
+          "Dalawahan"
+        ],
+        "answerIndex": 2,
+        "explain": "Dalawa o higit pang kausap.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang bitag",
+      "title": "Pareho silang maramihan: tayo at kami",
+      "text": "Hindi bilang ang pinagkaiba nila. Saklaw.",
+      "points": [
+        "**Pareho silang maramihan** at unang panauhan.",
+        "**Tayo** — kasama ang kinakausap.",
+        "**Kami** — hindi kasama ang kinakausap.",
+        "**Ang tanong:** kausap ba ang kasama mo?"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Sa boksing",
+      "title": "Sa sulok, at sa kalaban",
+      "text": "Iba ang sinasabi ng koponan sa isa't isa at sa kabila.",
+      "points": [
+        "**Sa kasama:** \"Tayo ang kukuha ng unang round.\"",
+        "**Sa kalaban:** \"Kami ang kumuha ng unang round.\"",
+        "**Pareho silang maramihan.**",
+        "**Iba ang sinasabi** kung sino ang kakampi."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Kausap mo ang kakampi. Alin ang tama?",
+        "options": [
+          "Tayo ang magsasanay bukas.",
+          "Sila ang magsasanay bukas.",
+          "Kayo ang magsasanay bukas.",
+          "Kami ang magsasanay bukas."
+        ],
+        "answerIndex": 0,
+        "explain": "Kasama ang kausap.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Sa sasakyan",
+      "title": "Dalawa sa harap, tatlo sa likod",
+      "text": "Nagbabago ang panghalip ayon sa bilang ng nasa loob.",
+      "points": [
+        "**Mag-isa ka:** \"Ako ang nagmaneho.\"",
+        "**Dalawa kayo:** \"Kami ang umalis.\"",
+        "**Kasama ang kausap:** \"Tayo ang sasakay.\"",
+        "**Iisa ang kotse.** Iba-iba ang bilang."
+      ]
+    },
+    {
+      "kind": "open",
+      "icon": "📖",
+      "eyebrow": "Bahagi 2 · Bago mo buksan",
+      "title": "Si Diwayen, Noong Bago Dumating ang mga Espanyol",
+      "text": "Hindi pa nakikita ang edisyong gamit ng klase mo, kaya walang buod ng kuwento dito. Ito ang totoong lipunan kung saan nakatakda ang akda."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Kasaysayan",
+      "title": "May lipunan na bago dumating ang mga Espanyol",
+      "text": "Hindi walang anuman ang Pilipinas noong 1521.",
+      "points": [
+        "**Barangay** ang pamayanan, pinamumunuan ng **datu**.",
+        "**May sariling panitik** — ang baybayin.",
+        "**Nangangalakal sila** sa Tsina, Borneo at Biyetnam.",
+        "**Ang Laguna Copperplate**, taong 900, ang pinakamatandang dokumento."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Lipunan",
+      "title": "Tatlong antas, at isang maling akala",
+      "text": "Mahalaga ito sa akda, kaya alamin nang tama.",
+      "points": [
+        "**Maharlika** — mandirigma at malayang tao, hindi hari.",
+        "**Timawa** — malayang tao, may lupang sinasaka.",
+        "**Alipin** — may utang na paglilingkod sa iba.",
+        "**Dalawang uri ng alipin:** namamahay at saguiguilid."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Sino ang maharlika sa lipunang bago dumating ang Espanyol?",
+        "options": [
+          "Ang alipin",
+          "Ang mandirigma at malayang tao",
+          "Ang hari",
+          "Ang pari"
+        ],
+        "answerIndex": 1,
+        "explain": "Hindi hari. Ang datu ang namumuno.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Sa pagkukuwento",
+      "title": "Ang bata ang nagkukuwento",
+      "text": "Kapag bata ang tagapagsalita, limitado ang nalalaman — at iyon ang lakas.",
+      "points": [
+        "**Hindi niya alam** ang mangyayari sa 1521.",
+        "**Nakikita natin** ang hindi niya nakikita.",
+        "**Kaya mas matalas** ang dating ng kuwento.",
+        "**Pansinin ang panghalip:** sino ang kasama sa \"kami\" niya?"
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Tapos na",
+      "title": "Ang tatandaan",
+      "points": [
+        "Tatlong kailanan: isahan, dalawahan, maramihan.",
+        "Pareho silang maramihan: tayo at kami.",
+        "Tayo kung kasama ang kausap; kami kung hindi.",
+        "Bago ang 1521: barangay, datu, baybayin, at tatlong antas ng lipunan."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Anong kailanan ang \"ako\"?",
+      "options": [
+        "Isahan",
+        "Dalawahan",
+        "Maramihan",
+        "Wala sa mga ito"
+      ],
+      "answerIndex": 0,
+      "explain": "Isa lamang.",
+      "objective": "Matukoy ang isahan, dalawahan at maramihan",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Anong kailanan ang \"kata\"?",
+      "options": [
+        "Dalawahan",
+        "Isahan",
+        "Walang kailanan",
+        "Maramihan"
+      ],
+      "answerIndex": 0,
+      "explain": "Tiyak na dalawa. Bihira na ito sa usapan ngayon.",
+      "objective": "Matukoy ang isahan, dalawahan at maramihan",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Anong kailanan ang \"sila\"?",
+      "options": [
+        "Walang kailanan",
+        "Dalawahan",
+        "Isahan",
+        "Maramihan"
+      ],
+      "answerIndex": 3,
+      "explain": "Dalawa o higit pang pinag-uusapan.",
+      "objective": "Matukoy ang isahan, dalawahan at maramihan",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang pinagkaiba ng tayo at kami?",
+      "options": [
+        "Kung kasama ang kinakausap",
+        "Ang bilang",
+        "Walang pinagkaiba",
+        "Ang panauhan"
+      ],
+      "answerIndex": 0,
+      "explain": "Pareho silang maramihan at unang panauhan.",
+      "objective": "Maiba ang tayo sa kami sa kailanan",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Nagkukuwento ka sa kalaban tungkol sa koponan mo. Alin ang tama?",
+      "options": [
+        "Kata ang nanalo.",
+        "Tayo ang nanalo.",
+        "Kami ang nanalo.",
+        "Kayo ang nanalo."
+      ],
+      "answerIndex": 2,
+      "explain": "Hindi kasama ang kinakausap.",
+      "objective": "Maiba ang tayo sa kami sa kailanan",
+      "seconds": 20
+    },
+    {
+      "type": "type",
+      "text": "Punan: \"Tara, ___ na sa gym\" — kasama ang kausap. Isang salita.",
+      "accept": [
+        "tayo"
+      ],
+      "explain": "Kasama ang kinakausap.",
+      "objective": "Magamit ang tamang kailanan sa pangungusap",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "Maramihan ang kailanan ng tayo at ng kami.",
+      "answer": true,
+      "explain": "Saklaw ang pinagkaiba, hindi bilang.",
+      "objective": "Maiba ang tayo sa kami sa kailanan",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang barangay bago dumating ang mga Espanyol?",
+      "options": [
+        "Isang bayad",
+        "Isang simbahan",
+        "Ang pamayanang pinamumunuan ng datu",
+        "Isang paaralan"
+      ],
+      "answerIndex": 2,
+      "explain": "Ang pangunahing yunit ng lipunan.",
+      "objective": "Malaman ang lipunang Pilipino bago dumating ang mga Espanyol",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Ang baybayin ay…",
+      "options": [
+        "isang bayad",
+        "ang sariling panitik",
+        "isang sayaw",
+        "isang bahay"
+      ],
+      "answerIndex": 1,
+      "explain": "Sariling sistema ng pagsulat bago ang mga Espanyol.",
+      "objective": "Malaman ang lipunang Pilipino bago dumating ang mga Espanyol",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Ang maharlika ay…",
+      "options": [
+        "ang hari",
+        "mandirigma at malayang tao",
+        "mangangalakal lamang",
+        "alipin"
+      ],
+      "answerIndex": 1,
+      "explain": "Madalas itong mapagkamalang hari. Ang datu ang namumuno.",
+      "objective": "Malaman ang lipunang Pilipino bago dumating ang mga Espanyol",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Ilang uri ang alipin?",
+      "options": [
+        "Apat",
+        "Dalawa",
+        "Tatlo",
+        "Isa"
+      ],
+      "answerIndex": 1,
+      "explain": "Namamahay at saguiguilid.",
+      "objective": "Malaman ang lipunang Pilipino bago dumating ang mga Espanyol",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Kailan ang Laguna Copperplate Inscription?",
+      "options": [
+        "Taong 1200",
+        "Taong 1565",
+        "Taong 1521",
+        "Taong 900"
+      ],
+      "answerIndex": 3,
+      "explain": "Ang pinakamatandang nasusulat na dokumento sa Pilipinas.",
+      "objective": "Malaman ang lipunang Pilipino bago dumating ang mga Espanyol",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Linggo 5 ng Filipino: ang kailanan ng panghalip. Isang tanong lamang ang buong gramatika — ilan ang tinutukoy? — kaya ang bulk ng oras ay napupunta sa bitag: pareho palang maramihan ang tayo at kami, at saklaw, hindi bilang, ang naghihiwalay sa kanila. Muli itong itinaas mula sa Linggo 2 dahil hindi ito natututuhan sa isang pagkakataon. IMPORTANTE PARA SA GURO O MAGULANG: walang buod ng Si Diwayen dito dahil hindi pa nakikita ang edisyon. Ang ikalawang bahagi ay totoong kasaysayan ng lipunang bago ang 1521, kasama ang tamang kahulugan ng maharlika, na laging mali sa popular na paggamit.",
+    "discussion": [
+      "Isang tanong: kasama ba ang kinakausap mo?",
+      "Itanong kung bakit pareho silang maramihan.",
+      "Itanong kung bakit hindi hari ang maharlika.",
+      "Pasagutin siya: ano ang nasa Pilipinas bago dumating ang mga Espanyol?"
+    ],
+    "extension": [
+      "Pasulatin siya ng dalawang mensahe tungkol sa isang laban: isa sa kakampi, isa sa kalaban.",
+      "Ipasulat ang pangalan niya sa baybayin."
+    ],
+    "misconceptions": [
+      "\"Isahan ang kami.\" Maramihan ito.",
+      "\"Hari ang maharlika.\" Mandirigma at malayang tao.",
+      "\"Walang kasaysayan bago ang mga Espanyol.\" Mayroon, at may dokumento."
+    ]
+  }
+}

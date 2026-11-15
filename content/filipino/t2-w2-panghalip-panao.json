@@ -1,0 +1,351 @@
+{
+  "id": "fil-t2-w2",
+  "courseId": "filipino",
+  "courseTitle": "Filipino",
+  "week": 2,
+  "title": "Panghalip Panao",
+  "subtitle": "Ako, ikaw, siya — at ang pagkakaiba ng tayo sa kami.",
+  "estMinutes": 20,
+  "objectives": [
+    "Matukoy ang walong panghalip panao",
+    "Magamit ang tamang anyo sa tatlong kaukulan",
+    "Maiba ang tayo sa kami",
+    "Malaman kung bakit hindi puwedeng mag-una ang ka"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "👤",
+      "eyebrow": "Bahagi 1 · Panghalip panao",
+      "title": "Pamalit sa pangalan, hindi pamalit sa isip",
+      "text": "Kapag alam na ng dalawa kung sino ang pinag-uusapan, hindi na kailangang ulitin ang pangalan. Iyon ang trabaho ng panghalip."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang pangunahing kaisipan",
+      "title": "Tatlong panauhan",
+      "text": "Sino ang nagsasalita, sino ang kausap, sino ang pinag-uusapan.",
+      "points": [
+        "**Unang panauhan:** ako, kami, tayo — ang nagsasalita.",
+        "**Ikalawang panauhan:** ikaw, ka, kayo — ang kausap.",
+        "**Ikatlong panauhan:** siya, sila — ang pinag-uusapan.",
+        "**May tatlong kaukulan ang bawat isa**, tulad ng pangngalan."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "panghalipPanao",
+      "title": "Walong pindutan",
+      "text": "Pindutin ang bawat panghalip. Lalabas ang anyong paari at palayon, at isang halimbawa."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Anong anyong paari ng \"ako\"?",
+        "options": [
+          "amin",
+          "akin o ko",
+          "sa akin",
+          "ikaw"
+        ],
+        "answerIndex": 1,
+        "explain": "Ko kapag nasa hulihan: binuksan ko. Akin kapag nasa unahan: akin iyon.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ikalawang kaisipan",
+      "title": "Ang pinakamadalas na mali: tayo at kami",
+      "text": "Dalawa silang maramihan at unang panauhan. Isang tanong ang naghihiwalay.",
+      "points": [
+        "**Kasama ba ang kinakausap mo?**",
+        "**Oo — tayo.** \"Tayo na sa gym.\"",
+        "**Hindi — kami.** \"Kami lang ang nagsanay kahapon.\"",
+        "**Walang ganitong pagkakaiba sa Ingles.** Iisang \"we\" lang."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Sa laro",
+      "title": "Party chat at global chat",
+      "text": "Kapag may kalaro ka, iba ang sinasabi mo sa kanya at sa lahat.",
+      "points": [
+        "**Sa kasama mo:** \"Tayo ang kukuha ng flag.\"",
+        "**Sa kalaban:** \"Kami ang kumuha ng flag.\"",
+        "**Isang salita ang pinagkaiba.** Malaki ang ipinahihiwatig.",
+        "**Nagsasabi ang tayo** kung sino ang kakampi."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Kausap mo ang kakampi mo. Alin ang tama?",
+        "options": [
+          "Tayo ang susunod.",
+          "Kami ang susunod.",
+          "Sila ang susunod.",
+          "Kayo ang susunod."
+        ],
+        "answerIndex": 0,
+        "explain": "Kasama ang kinakausap, kaya tayo.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ikatlong kaisipan",
+      "title": "Hindi puwedeng mag-una ang ka",
+      "text": "Dalawa ang anyo ng ikalawang panauhan na isahan, at may patakaran.",
+      "points": [
+        "**Ikaw** — puwedeng mag-una: \"Ikaw ang nanalo.\"",
+        "**Ka** — hindi kailanman nag-una: \"Mabilis ka.\"",
+        "**Mali:** \"Ka ay mabilis.\"",
+        "**Walang ibang panghalip** na may ganitong hadlang."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Sa sasakyan",
+      "title": "Nagbabago ang panghalip, hindi ang sasakyan",
+      "text": "Isang kotse, iba-ibang nagsasalita tungkol dito.",
+      "points": [
+        "**Ako ang nagmaneho.** Unang panauhan.",
+        "**Ikaw ang nagmaneho.** Ikalawa.",
+        "**Siya ang nagmaneho.** Ikatlo.",
+        "**Iisa ang kotse.** Iba ang nagkukuwento."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Mga salitang lalabas sa pagsusulit",
+      "terms": [
+        {
+          "term": "Panghalip panao",
+          "def": "Pamalit sa pangalan ng tao."
+        },
+        {
+          "term": "Panauhan",
+          "def": "Kung sino: nagsasalita, kausap, o pinag-uusapan."
+        },
+        {
+          "term": "Tayo",
+          "def": "Maramihan, kasama ang kinakausap."
+        },
+        {
+          "term": "Kami",
+          "def": "Maramihan, hindi kasama ang kinakausap."
+        }
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Sa katawan mo",
+      "title": "Sariling pananaw ang unang panauhan",
+      "text": "Kapag nagkukuwento ka ng sakit ng katawan, ikaw lang ang may ganoong datos.",
+      "points": [
+        "**\"Masakit ang balikat ko.\"** Walang ibang makakaramdam niyon.",
+        "**\"Masakit ang balikat niya\"** — ikinuwento lang sa iyo.",
+        "**Ibang tiyak** ang dalawang pangungusap.",
+        "**Kaya mahalaga ang panauhan** sa isang doktor."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Tapos na",
+      "title": "Ang tatandaan",
+      "points": [
+        "Tatlong panauhan: ako, ikaw, siya at ang maramihan nila.",
+        "May tatlong kaukulan ang bawat panghalip.",
+        "Tayo kung kasama ang kausap; kami kung hindi.",
+        "Hindi kailanman nag-una ang ka."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Anong panauhan ang \"kayo\"?",
+      "options": [
+        "Ikalawang",
+        "Unang",
+        "Ikatlong",
+        "Wala sa mga ito"
+      ],
+      "answerIndex": 0,
+      "explain": "Ang kinakausap, maramihan.",
+      "objective": "Matukoy ang walong panghalip panao",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Kausap mo ang kapatid mo at kasama siya. Alin ang tama?",
+      "options": [
+        "Kami ang maglilinis.",
+        "Tayo ang maglilinis.",
+        "Sila ang maglilinis.",
+        "Kayo ang maglilinis."
+      ],
+      "answerIndex": 1,
+      "explain": "Kasama ang kinakausap.",
+      "objective": "Maiba ang tayo sa kami",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Ikinukuwento mo sa kalaban ang ginawa ng koponan mo. Alin ang tama?",
+      "options": [
+        "Tayo ang nanalo.",
+        "Siya ang nanalo.",
+        "Kayo ang nanalo.",
+        "Kami ang nanalo."
+      ],
+      "answerIndex": 3,
+      "explain": "Hindi kasama ang kinakausap.",
+      "objective": "Maiba ang tayo sa kami",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang anyong paari ng \"sila\"?",
+      "options": [
+        "amin",
+        "kanila o nila",
+        "sa kanila",
+        "kayo"
+      ],
+      "answerIndex": 1,
+      "explain": "Nila kapag nasa hulihan, kanila kapag nasa unahan.",
+      "objective": "Magamit ang tamang anyo sa tatlong kaukulan",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang mali?",
+      "options": [
+        "Mabilis ka.",
+        "Ikaw ang mabilis.",
+        "Ka ay mabilis.",
+        "Mabilis si Carlo."
+      ],
+      "answerIndex": 2,
+      "explain": "Hindi puwedeng mag-una ang ka.",
+      "objective": "Malaman kung bakit hindi puwedeng mag-una ang ka",
+      "seconds": 20
+    },
+    {
+      "type": "type",
+      "text": "Punan: \"Binuksan ___ ang bentilador\" — ako ang gumawa. Isang salita.",
+      "accept": [
+        "ko"
+      ],
+      "explain": "Anyong paari na nasa hulihan.",
+      "objective": "Magamit ang tamang anyo sa tatlong kaukulan",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Sa \"Akin ang distornilyador\", anong kaukulan ang \"akin\"?",
+      "options": [
+        "Paari",
+        "Pamilang",
+        "Palagyo",
+        "Palayon"
+      ],
+      "answerIndex": 0,
+      "explain": "Ako ang may-ari.",
+      "objective": "Magamit ang tamang anyo sa tatlong kaukulan",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Anong panghalip ang ikatlong panauhan, isahan?",
+      "options": [
+        "ako",
+        "siya",
+        "sila",
+        "ikaw"
+      ],
+      "answerIndex": 1,
+      "explain": "Ang pinag-uusapan, isa lamang.",
+      "objective": "Matukoy ang walong panghalip panao",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "Walang pagkakaiba ang tayo at kami sa Ingles.",
+      "answer": true,
+      "explain": "Iisang \"we\" lamang. Mas tiyak ang Filipino dito.",
+      "objective": "Maiba ang tayo sa kami",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "\"Sa inyo ba ang mga gulong?\" Anong kaukulan ang \"sa inyo\"?",
+      "options": [
+        "Palayon",
+        "Paari",
+        "Palagyo",
+        "Pamanahon"
+      ],
+      "answerIndex": 0,
+      "explain": "Pananda ang sa.",
+      "objective": "Magamit ang tamang anyo sa tatlong kaukulan",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang anyong palayon ng \"siya\"?",
+      "options": [
+        "niya",
+        "sila",
+        "iyo",
+        "kaniya o sa kaniya"
+      ],
+      "answerIndex": 3,
+      "explain": "Palayon: sa kaniya.",
+      "objective": "Magamit ang tamang anyo sa tatlong kaukulan",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Bakit mas tiyak ang Filipino kaysa Ingles sa unang panauhang maramihan?",
+      "options": [
+        "Mas maraming titik",
+        "Wala namang pagkakaiba",
+        "Sinasabi nito kung kasama ang kausap",
+        "Mas mahaba ang salita"
+      ],
+      "answerIndex": 2,
+      "explain": "Tayo at kami: sinasagot nito ang tanong na hindi sinasagot ng \"we\".",
+      "objective": "Maiba ang tayo sa kami",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Linggo 2 ng Filipino: ang panghalip panao. Tatlong kaisipan ang binubuksan: ang tatlong panauhan, ang pagkakaiba ng tayo at kami, at ang hadlang sa ka. Ang tayo-kami ang itinampok dahil ito ang kakayahan ng Filipino na wala sa Ingles — isang bagay na mas tiyak, hindi mas mahirap, kaya hindi ito itinuturing na kahirapan dito. Ang interaktibong talahanayan ang nagdadala ng buong paradigma upang hindi ito listahang binabasa kundi walong pindutang pinipindot.",
+    "discussion": [
+      "Pasagutin siya: sino ang kasama sa tayo, at sino ang hindi?",
+      "Itanong kung bakit mali ang \"Ka ay mabilis\".",
+      "Paulit-ulit na pagsasanay: isang pangungusap, tatlong panauhan.",
+      "Itanong kung bakit walang katumbas ang tayo sa Ingles."
+    ],
+    "extension": [
+      "Pakuwentuhin siya ng isang laban sa unang panauhan, pagkatapos sa ikatlo.",
+      "Ipasulat ang isang mensahe sa kakampi at isa sa kalaban, tingnan ang panghalip."
+    ],
+    "misconceptions": [
+      "\"Pareho ang tayo at kami.\" Kasama o hindi ang kausap — iyon ang pinagkaiba.",
+      "\"Puwedeng mag-una ang ka.\" Hindi kailanman.",
+      "\"Isang anyo lang ang panghalip.\" Tatlo, tulad ng pangngalan."
+    ]
+  }
+}

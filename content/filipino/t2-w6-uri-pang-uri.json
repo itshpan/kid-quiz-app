@@ -1,0 +1,351 @@
+{
+  "id": "fil-t2-w6",
+  "courseId": "filipino",
+  "courseTitle": "Filipino",
+  "week": 6,
+  "title": "Uri ng Pang-uri",
+  "subtitle": "Panlarawan o pamilang — at ang apat na kayarian.",
+  "estMinutes": 20,
+  "objectives": [
+    "Maiba ang pang-uring panlarawan sa pamilang",
+    "Matukoy ang apat na uri ng pamilang",
+    "Matukoy ang kayarian ng pang-uring panlarawan",
+    "Magamit ang pang-uri sa tamang pangungusap"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🎨",
+      "eyebrow": "Bahagi 1 · Dalawang uri",
+      "title": "Naglalarawan, o nagbibilang",
+      "text": "Isang tanong ang naghahati sa lahat ng pang-uri: may bilang ba? Kung wala, panlarawan. Kung meron, pamilang."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Unang uri",
+      "title": "Panlarawan: katangian at kaanyuan",
+      "text": "Ito ang sinasagot ng tanong na \"anong uri?\"",
+      "points": [
+        "**Mabilis, makapal, bilog, matibay.**",
+        "**Walang bilang** sa mga ito.",
+        "**Sinasagot ang \"anong uri?\"** o \"kumusta?\"",
+        "**Ito ang pinakamalaking pangkat** ng pang-uri."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "uriPangUri",
+      "title": "Anim na pindutan",
+      "text": "Pindutin ang bawat halimbawa. Lalabas ang uri at ang pangungusap."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Anong uri ang \"makapal\" sa \"Makapal ang benda\"?",
+        "options": [
+          "Panlarawan",
+          "Pamilang patakaran",
+          "Pamilang panunuran",
+          "Pamilang palansak"
+        ],
+        "answerIndex": 0,
+        "explain": "Walang bilang. Katangian lamang.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ikalawang uri",
+      "title": "Pamilang: apat na sangay",
+      "text": "Lahat sila may kinalaman sa bilang, pero iba-iba ang trabaho.",
+      "points": [
+        "**Patakaran** — simpleng bilang: isa, dalawa, pito.",
+        "**Panunuran** — pagkakasunod: una, ikalawa, ikatlo.",
+        "**Pamahagi** — bahagi: kalahati, sangkatlo.",
+        "**Palansak** — ilan-ilan: dalawahan, tatluhan."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Sa sasakyan",
+      "title": "Lahat ng apat sa isang karera",
+      "text": "Isang karera, apat na uri ng pamilang sa isang pangungusap.",
+      "points": [
+        "**Patakaran:** labinlimang lap ang karera.",
+        "**Panunuran:** ikatlong puwesto siya.",
+        "**Pamahagi:** kalahati ng gasolina ang natira.",
+        "**Palansak:** dalawahan silang pumasok sa pit."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Anong uri ng pamilang ang \"ikalawa\"?",
+        "options": [
+          "Patakaran",
+          "Panunuran",
+          "Pamahagi",
+          "Palansak"
+        ],
+        "answerIndex": 1,
+        "explain": "Pagkakasunod-sunod.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ikatlong kaisipan",
+      "title": "Apat na kayarian ng panlarawan",
+      "text": "Hindi uri ito. Kayarian — kung paano binuo ang salita.",
+      "points": [
+        "**Payak:** bilog, tamad. Isang salita, walang dagdag.",
+        "**Maylapi:** mabilis, makinis, palabiro.",
+        "**Inuulit:** puting-puti, bagong-bago.",
+        "**Tambalan:** balat-sibuyas — dalawang salita, isang kahulugan."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Sa bentilador",
+      "title": "Panlarawan ang buong listahan ng problema",
+      "text": "Kapag may sira ang bentilador, panlarawan ang nasa isip mo.",
+      "points": [
+        "**Maingay** ang motor. **Mabagal** ang talim.",
+        "**Maluwag** ang tornilyo. **Umbok** ang kapasitor.",
+        "**Walang bilang** sa kahit alin sa apat.",
+        "**Dalawa sa kanila** ay maylapi: ma- ang panlapi."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Sa boksing",
+      "title": "Naglalarawan bago magbilang",
+      "text": "Hindi sapat ang bilang sa isang scorecard.",
+      "points": [
+        "**Pamilang:** tatlong round, ikalawang puwesto.",
+        "**Panlarawan:** malinis na suntok, matibay na depensa.",
+        "**Ang bilang ang nagsasabi kung ilan.**",
+        "**Ang panlarawan ang nagsasabi kung ano ang nangyari.**"
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Mga salitang lalabas sa pagsusulit",
+      "terms": [
+        {
+          "term": "Pang-uring panlarawan",
+          "def": "Naglalarawan ng katangian o kaanyuan."
+        },
+        {
+          "term": "Pang-uring pamilang",
+          "def": "May kinalaman sa bilang."
+        },
+        {
+          "term": "Palansak",
+          "def": "Nagsasabi ng ilan-ilan: dalawahan, tatluhan."
+        },
+        {
+          "term": "Tambalan",
+          "def": "Dalawang salitang pinagsama sa isang kahulugan."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Tapos na",
+      "title": "Ang tatandaan",
+      "points": [
+        "May bilang ba? Kung wala, panlarawan.",
+        "Apat na pamilang: patakaran, panunuran, pamahagi, palansak.",
+        "Apat na kayarian ng panlarawan: payak, maylapi, inuulit, tambalan.",
+        "Uri at kayarian ay dalawang magkaibang tanong."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Anong uri ang \"matibay\"?",
+      "options": [
+        "Patakaran",
+        "Palansak",
+        "Panlarawan",
+        "Panunuran"
+      ],
+      "answerIndex": 2,
+      "explain": "Katangian, walang bilang.",
+      "objective": "Maiba ang pang-uring panlarawan sa pamilang",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Anong uri ang \"pito\"?",
+      "options": [
+        "Panunuran",
+        "Pamahagi",
+        "Panlarawan",
+        "Patakaran"
+      ],
+      "answerIndex": 3,
+      "explain": "Simpleng bilang.",
+      "objective": "Matukoy ang apat na uri ng pamilang",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Anong uri ang \"ikatlo\"?",
+      "options": [
+        "Patakaran",
+        "Panunuran",
+        "Panlarawan",
+        "Palansak"
+      ],
+      "answerIndex": 1,
+      "explain": "Pagkakasunod.",
+      "objective": "Matukoy ang apat na uri ng pamilang",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Anong uri ang \"kalahati\"?",
+      "options": [
+        "Pamahagi",
+        "Patakaran",
+        "Panlarawan",
+        "Palansak"
+      ],
+      "answerIndex": 0,
+      "explain": "Bahagi ng kabuuan.",
+      "objective": "Matukoy ang apat na uri ng pamilang",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Anong uri ang \"tatluhan\"?",
+      "options": [
+        "Panlarawan",
+        "Palansak",
+        "Panunuran",
+        "Patakaran"
+      ],
+      "answerIndex": 1,
+      "explain": "Ilan-ilan.",
+      "objective": "Matukoy ang apat na uri ng pamilang",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Anong kayarian ang \"mabilis\"?",
+      "options": [
+        "Tambalan",
+        "Payak",
+        "Inuulit",
+        "Maylapi"
+      ],
+      "answerIndex": 3,
+      "explain": "May panlaping ma-.",
+      "objective": "Matukoy ang kayarian ng pang-uring panlarawan",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Anong kayarian ang \"bilog\"?",
+      "options": [
+        "Maylapi",
+        "Payak",
+        "Tambalan",
+        "Inuulit"
+      ],
+      "answerIndex": 1,
+      "explain": "Walang dagdag.",
+      "objective": "Matukoy ang kayarian ng pang-uring panlarawan",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Anong kayarian ang \"puting-puti\"?",
+      "options": [
+        "Inuulit",
+        "Payak",
+        "Maylapi",
+        "Tambalan"
+      ],
+      "answerIndex": 0,
+      "explain": "Inulit ang salita.",
+      "objective": "Matukoy ang kayarian ng pang-uring panlarawan",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Anong kayarian ang \"balat-sibuyas\"?",
+      "options": [
+        "Tambalan",
+        "Payak",
+        "Maylapi",
+        "Inuulit"
+      ],
+      "answerIndex": 0,
+      "explain": "Dalawang salita, isang bagong kahulugan.",
+      "objective": "Matukoy ang kayarian ng pang-uring panlarawan",
+      "seconds": 20
+    },
+    {
+      "type": "type",
+      "text": "Anong isang tanong ang naghahati sa panlarawan at pamilang? Isang salita.",
+      "accept": [
+        "bilang"
+      ],
+      "explain": "May bilang ba o wala?",
+      "objective": "Maiba ang pang-uring panlarawan sa pamilang",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "Pareho ang uri at kayarian ng pang-uri.",
+      "answer": false,
+      "explain": "Uri: panlarawan o pamilang. Kayarian: paano binuo ang salita.",
+      "objective": "Matukoy ang kayarian ng pang-uring panlarawan",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Sa \"Tatlong malinis na suntok ang tumama\", ilan ang pang-uri?",
+      "options": [
+        "Isa",
+        "Tatlo",
+        "Dalawa",
+        "Wala"
+      ],
+      "answerIndex": 2,
+      "explain": "Tatlong (pamilang) at malinis (panlarawan).",
+      "objective": "Magamit ang pang-uri sa tamang pangungusap",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Linggo 6 ng Filipino: ang uri ng pang-uri. Pinapasok ito sa isang tanong — may bilang ba? — dahil ang pagkakamali sa pagsusulit ay hindi kawalan ng alam kundi kawalan ng sistema. Hiwalay na itinuro ang apat na sangay ng pamilang, at pagkatapos ay ipinaliwanag na ang kayarian ay ibang tanong, hindi ibang listahan: madalas itong pinagsasama. Ang huling tanong sa pagsusulit ay sumusubok kung kaya niyang makakita ng dalawang pang-uri sa isang pangungusap, na siyang tunay na kasanayan.",
+    "discussion": [
+      "Isang tanong sa bawat pang-uri: may bilang ba?",
+      "Itanong kung bakit dalawang tanong ang uri at kayarian.",
+      "Pahanapin siya ng apat na kayarian sa isang pahina ng kuwento.",
+      "Itanong kung ilang pang-uri ang nasa isang pangungusap."
+    ],
+    "extension": [
+      "Pasulatin siya ng paglalarawan ng isang kotse: dalawang panlarawan, dalawang pamilang.",
+      "Ipalista ang problema ng isang sirang kagamitan gamit ang panlarawan."
+    ],
+    "misconceptions": [
+      "\"Isang uri lang ang bawat pang-uri.\" Dalawang magkahiwalay na tanong ito.",
+      "\"Pamilang ang lahat ng may numero sa pangungusap.\" Tingnan kung anong trabaho ang ginagawa nito.",
+      "\"Panlarawan ang tatluhan.\" Pamilang palansak iyon."
+    ]
+  }
+}

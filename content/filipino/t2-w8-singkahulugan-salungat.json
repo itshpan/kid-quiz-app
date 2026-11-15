@@ -1,0 +1,351 @@
+{
+  "id": "fil-t2-w8",
+  "courseId": "filipino",
+  "courseTitle": "Filipino",
+  "week": 8,
+  "title": "Pang-uring Magkasingkahulugan at Magkasalungat",
+  "subtitle": "Kapareho o kabaligtaran — at kung kailan hindi puwedeng magpalit.",
+  "estMinutes": 20,
+  "objectives": [
+    "Matukoy ang magkasingkahulugan",
+    "Matukoy ang magkasalungat",
+    "Pumili ng tamang kasingkahulugan sa isang pangungusap",
+    "Maunawaan na hindi laging palitan ang kasingkahulugan"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🔁",
+      "eyebrow": "Bahagi 1 · Dalawang ugnayan",
+      "title": "Kapareho, o kabaligtaran",
+      "text": "Dalawang ugnayan lamang ang aralin: magkapareho ang kahulugan, o magkabaligtaran. Pero may ikatlong kaisipan na mas mahalaga sa dalawa."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Unang ugnayan",
+      "title": "Magkasingkahulugan",
+      "text": "Magkaiba ang salita, magkapareho ang dala.",
+      "points": [
+        "**mabilis — matulin**",
+        "**matalino — marunong**",
+        "**malungkot — nalulumbay**",
+        "**maganda — marikit**"
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "kasingSalungat",
+      "title": "Anim na pindutan",
+      "text": "Pindutin ang bawat pares. Tingnan kung kapareho o kabaligtaran."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Alin ang kasingkahulugan ng \"matulin\"?",
+        "options": [
+          "maluwag",
+          "mabilis",
+          "mabigat",
+          "mabagal"
+        ],
+        "answerIndex": 1,
+        "explain": "Pareho ang dalang kahulugan.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ikalawang ugnayan",
+      "title": "Magkasalungat",
+      "text": "Magkabaligtaran ang dalang kahulugan.",
+      "points": [
+        "**mabilis — mabagal**",
+        "**magaan — mabigat**",
+        "**maluwag — masikip**",
+        "**matapang — duwag**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Sa bentilador",
+      "title": "Maluwag o masikip",
+      "text": "Kapag may hawak kang distornilyador, salungat ang bokabularyo mo.",
+      "points": [
+        "**Maluwag** ang tornilyo. **Masikip** ang bearing.",
+        "**Mabilis** ang talim. **Mabagal** matapos ang isang taon.",
+        "**Mainit** ang motor. **Malamig** pagkatapos ng sampung minuto.",
+        "**Nagdadala ng datos ang salungat**, hindi lang kalaban."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Alin ang salungat ng \"magaan\"?",
+        "options": [
+          "mabigat",
+          "makapal",
+          "mahaba",
+          "malaki"
+        ],
+        "answerIndex": 0,
+        "explain": "Hindi malaki. Mabigat ang kabaligtaran ng magaan.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang pinakamahalagang kaisipan",
+      "title": "Hindi laging palitan ang kasingkahulugan",
+      "text": "Dito nagkakamali ang mga nagsusulat, hindi sa listahan.",
+      "points": [
+        "**\"Marikit\" at \"maganda\"** — hindi pareho ang bigat.",
+        "**Pormal ang marikit.** Pang-araw-araw ang maganda.",
+        "**\"Nalulumbay\" ay mas malalim** kaysa \"malungkot\".",
+        "**Tanong bago palitan:** kasya ba ito sa pangungusap na ito?"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Sa pagkukuwento",
+      "title": "Pumipili ang manunulat, hindi nagpapalit",
+      "text": "Kapag naglalarawan ka ng isang laban, may tamang salita at may halos-tama.",
+      "points": [
+        "**\"Pagod siya.\"** Simple.",
+        "**\"Hapo siya.\"** May hirap ng hininga.",
+        "**\"Lupaypay siya.\"** Wala nang lakas.",
+        "**Tatlong \"kasingkahulugan\".** Tatlong ibang laban."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Sa boksing",
+      "title": "Salungat ang buong plano",
+      "text": "Itinatayo ang estratehiya sa mga salungat.",
+      "points": [
+        "**Mabilis laban sa malakas.**",
+        "**Malapit laban sa malayo.**",
+        "**Pasulong laban sa paurong.**",
+        "**Ang salungat ang nagbibigay ng pagpipilian.**"
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Mga salitang lalabas sa pagsusulit",
+      "terms": [
+        {
+          "term": "Magkasingkahulugan",
+          "def": "Magkaibang salita, magkaparehong kahulugan."
+        },
+        {
+          "term": "Magkasalungat",
+          "def": "Magkabaligtarang kahulugan."
+        },
+        {
+          "term": "Lupaypay",
+          "def": "Walang nang natitirang lakas."
+        },
+        {
+          "term": "Hapo",
+          "def": "Pagod na kasama ang hirap ng paghinga."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Tapos na",
+      "title": "Ang tatandaan",
+      "points": [
+        "Magkasingkahulugan: kapareho ang dala.",
+        "Magkasalungat: kabaligtaran ang dala.",
+        "Hindi laging puwedeng palitan ang kasingkahulugan.",
+        "Tanong bago palitan: kasya ba ito sa pangungusap na ito?"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Alin ang kasingkahulugan ng \"mabilis\"?",
+      "options": [
+        "masikip",
+        "mabagal",
+        "matulin",
+        "mabigat"
+      ],
+      "answerIndex": 2,
+      "explain": "Pareho ang kahulugan.",
+      "objective": "Matukoy ang magkasingkahulugan",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang kasingkahulugan ng \"matalino\"?",
+      "options": [
+        "duwag",
+        "maluwag",
+        "mabagal",
+        "marunong"
+      ],
+      "answerIndex": 3,
+      "explain": "Marunong.",
+      "objective": "Matukoy ang magkasingkahulugan",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang salungat ng \"mabilis\"?",
+      "options": [
+        "mabagal",
+        "malakas",
+        "matibay",
+        "matulin"
+      ],
+      "answerIndex": 0,
+      "explain": "Mabagal.",
+      "objective": "Matukoy ang magkasalungat",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang salungat ng \"maluwag\"?",
+      "options": [
+        "mahaba",
+        "malaki",
+        "mabigat",
+        "masikip"
+      ],
+      "answerIndex": 3,
+      "explain": "Masikip.",
+      "objective": "Matukoy ang magkasalungat",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang salungat ng \"matapang\"?",
+      "options": [
+        "duwag",
+        "matibay",
+        "malakas",
+        "mainit"
+      ],
+      "answerIndex": 0,
+      "explain": "Duwag.",
+      "objective": "Matukoy ang magkasalungat",
+      "seconds": 18
+    },
+    {
+      "type": "type",
+      "text": "Anong salungat ng \"mainit\"? Isang salita.",
+      "accept": [
+        "malamig"
+      ],
+      "explain": "Malamig.",
+      "objective": "Matukoy ang magkasalungat",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "\"Lupaypay\" ay nagsasabi na…",
+      "options": [
+        "pagod lang",
+        "wala nang lakas",
+        "masaya",
+        "mabilis"
+      ],
+      "answerIndex": 1,
+      "explain": "Pinakamalakas sa tatlo: pagod, hapo, lupaypay.",
+      "objective": "Pumili ng tamang kasingkahulugan sa isang pangungusap",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Bakit hindi laging magkapalit ang \"maganda\" at \"marikit\"?",
+      "options": [
+        "Magkaibang kahulugan",
+        "Walang pinagkaiba",
+        "Magkaibang bigat at pormalidad",
+        "Mali ang marikit"
+      ],
+      "answerIndex": 2,
+      "explain": "Pormal ang marikit; pang-araw-araw ang maganda.",
+      "objective": "Maunawaan na hindi laging palitan ang kasingkahulugan",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang pinakatamang salita para sa boksingerong hindi na makatayo?",
+      "options": [
+        "pagod",
+        "lupaypay",
+        "mabagal",
+        "hapo"
+      ],
+      "answerIndex": 1,
+      "explain": "Wala nang lakas.",
+      "objective": "Pumili ng tamang kasingkahulugan sa isang pangungusap",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "Laging puwedeng ipalit ang kasingkahulugan sa kahit anong pangungusap.",
+      "answer": false,
+      "explain": "Magkaiba ang bigat, pormalidad at gamit. Tanungin kung kasya.",
+      "objective": "Maunawaan na hindi laging palitan ang kasingkahulugan",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang unang tanong bago mag-palit ng salita?",
+      "options": [
+        "Kasya ba ito sa pangungusap na ito",
+        "Mas mahaba ba ito",
+        "Mas madali ba itong basahin",
+        "Mas bago ba ito"
+      ],
+      "answerIndex": 0,
+      "explain": "Hindi listahan ang pagpili ng salita.",
+      "objective": "Maunawaan na hindi laging palitan ang kasingkahulugan",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Sa estratehiya ng boksing, kapaki-pakinabang ang salungat dahil…",
+      "options": [
+        "mas magalang",
+        "nagbibigay ito ng pagpipilian",
+        "mas maikli",
+        "mas madali itong tandaan"
+      ],
+      "answerIndex": 1,
+      "explain": "Mabilis laban sa malakas: dalawang paraan ng panalo.",
+      "objective": "Matukoy ang magkasalungat",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Linggo 8 ng Filipino: magkasingkahulugan at magkasalungat. Madali ang dalawang unang kaisipan, kaya ang bigat ng oras ay nasa ikatlo: hindi laging palitan ang kasingkahulugan. Pagod, hapo at lupaypay ay nasa isang listahan ng kasingkahulugan at tatlong magkaibang laban ang ipinapahiwatig nila, at iyon ang tunay na kasanayan sa pagpili ng salita. Ang panghuling tanong ay nagsisimula sa pagpili, hindi sa pagtukoy.",
+    "discussion": [
+      "Pasagutin siya: kasya ba ang salitang ito sa pangungusap na ito?",
+      "Itanong ang pinagkaiba ng pagod, hapo at lupaypay.",
+      "Pahanapin siya ng tatlong salungat sa isang pahina.",
+      "Itanong kung bakit hindi pormal ang \"maganda\"."
+    ],
+    "extension": [
+      "Pasulatin siya ng isang talata tungkol sa laban gamit ang tatlong antas ng pagod.",
+      "Ipalista ang mga salungat na gamit sa paglalarawan ng makina."
+    ],
+    "misconceptions": [
+      "\"Palaging magkapalit ang kasingkahulugan.\" Iba ang bigat at pormalidad.",
+      "\"Salungat ng magaan ang malaki.\" Mabigat iyon.",
+      "\"Isang salita lang ang tama.\" Madalas marami, pero hindi pare-pareho."
+    ]
+  }
+}

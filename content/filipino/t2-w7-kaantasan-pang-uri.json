@@ -1,0 +1,376 @@
+{
+  "id": "fil-t2-w7",
+  "courseId": "filipino",
+  "courseTitle": "Filipino",
+  "week": 7,
+  "title": "Kaantasan ng Pang-uri",
+  "subtitle": "Lantay, pahambing, pasukdol — bilangin muna.",
+  "estMinutes": 20,
+  "objectives": [
+    "Matukoy ang lantay, pahambing at pasukdol",
+    "Magamit ang mga senyas ng pahambing",
+    "Magamit ang mga senyas ng pasukdol",
+    "Malaman ang buhay sa panahon ng Espanyol bago buksan ang akda"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "📊",
+      "eyebrow": "Bahagi 1 · Tatlong antas",
+      "title": "Ilang bagay ang pinaghahambing?",
+      "text": "Hindi pangalan ang tatlong antas ng pang-uri. Bilang iyon. Isa, dalawa, o tatlo pataas — at iba ang anyo ng salita sa bawat isa."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang pangunahing kaisipan",
+      "title": "Isa, dalawa, tatlo pataas",
+      "text": "Ang bilang ng pinaghahambing ang pumipili ng antas.",
+      "points": [
+        "**Lantay** — isang bagay lamang, walang kahambing.",
+        "**Pahambing** — dalawang bagay.",
+        "**Pasukdol** — pinakamataas sa lahat.",
+        "**Bilangin muna.** Pagkatapos piliin ang anyo."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "kaantasanPangUri",
+      "title": "Tatlong tagpo",
+      "text": "Pindutin ang lantay, pahambing at pasukdol. Tingnan ang bar."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "\"Mabilis ang Vios.\" Anong antas ito?",
+        "options": [
+          "Lantay",
+          "Pasukdol",
+          "Pahambing",
+          "Wala sa mga ito"
+        ],
+        "answerIndex": 0,
+        "explain": "Isang bagay lamang, walang kahambing.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ikalawang kaisipan",
+      "title": "Dalawang uri ng pahambing",
+      "text": "Puwedeng pantay ang dalawa, o may nangunguna.",
+      "points": [
+        "**Magkatulad:** sing-, kasing-, magkasing-.",
+        "**\"Kasingbilis ng Civic ang Vios.\"** Pantay.",
+        "**Di-magkatulad:** mas, higit, lalo, kulang.",
+        "**\"Mas mabilis ang Civic kaysa sa Vios.\"** May nangunguna."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Alin ang senyas ng pahambing na magkatulad?",
+        "options": [
+          "pinaka-",
+          "mas",
+          "kasing-",
+          "napaka-"
+        ],
+        "answerIndex": 2,
+        "explain": "Kasingbilis, kasinglakas: pantay ang dalawa.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ikatlong kaisipan",
+      "title": "Mga senyas ng pasukdol",
+      "text": "Marami, at lahat may isang ibig sabihin: wala nang hihigit.",
+      "points": [
+        "**pinaka-** — pinakamabilis, pinakamatibay.",
+        "**napaka-** — napakabilis.",
+        "**ubod ng** — ubod ng bilis.",
+        "**sobrang, saksakan ng** — pareho ring pasukdol."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Sa laro",
+      "title": "Ang leaderboard ay pasukdol",
+      "text": "Isang talaan, tatlong antas sa isang tingin.",
+      "points": [
+        "**Lantay:** mabilis ang lap time mo.",
+        "**Pahambing:** mas mabilis ka kaysa kahapon.",
+        "**Pasukdol:** pinakamabilis sa buong talaan.",
+        "**Isang numero lang ang nagbago.** Tatlong paraan ng pagsasabi."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Sa katawan mo",
+      "title": "Sarili mo ang pinakamahalagang paghahambing",
+      "text": "Hindi laban sa iba. Laban sa sarili mo noong isang buwan.",
+      "points": [
+        "**Lantay:** malakas ka.",
+        "**Pahambing:** mas malakas ka ngayon kaysa noong Setyembre.",
+        "**Iyon ang paghahambing** na kaya mong kontrolin.",
+        "**Walang pasukdol dito.** Hindi iyon ang punto."
+      ]
+    },
+    {
+      "kind": "open",
+      "icon": "📖",
+      "eyebrow": "Bahagi 2 · Bago mo buksan",
+      "title": "Si Segunda, Noong Panahon ng Mga Espanyol",
+      "text": "Hindi pa nakikita ang edisyong gamit ng klase mo, kaya walang buod ng kuwento dito. Ito ang totoong buhay sa panahong iyon."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Kasaysayan",
+      "title": "Ano ang dala-dala ng isang tao noon",
+      "text": "Tatlong pasanin ang nagtatakda ng araw-araw.",
+      "points": [
+        "**Tributo** — buwis na binabayaran sa korona.",
+        "**Polo y servicio** — sapilitang paggawa, apatnapung araw.",
+        "**Cedula personal** — papel na dala-dala, laging hinihingi.",
+        "**Nasa pueblo ang simbahan**, at nasa simbahan ang kapangyarihan."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Lipunan",
+      "title": "Sino ang nasa itaas",
+      "text": "May malinaw na hanay, at nakikita ito sa akda.",
+      "points": [
+        "**Espanyol na ipinanganak sa Espanya** — pinakamataas.",
+        "**Insulares** — Espanyol na ipinanganak dito.",
+        "**Mestizo at principalia** — ang lokal na nakaaangat.",
+        "**Indio** — ang karamihan, at ang pinakamabigat ang dala."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Ano ang polo y servicio?",
+        "options": [
+          "Isang papel",
+          "Sapilitang paggawa",
+          "Isang buwis",
+          "Isang simbahan"
+        ],
+        "answerIndex": 1,
+        "explain": "Apatnapung araw na sapilitang paggawa bawat taon.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Sa pagkukuwento",
+      "title": "Pang-uri ang nagsasabi ng antas",
+      "text": "Kapag naglalarawan ng lipunan ang isang akda, pang-uri ang sandata nito.",
+      "points": [
+        "**\"Mabigat ang buwis\"** — lantay.",
+        "**\"Mas mabigat sa indio\"** — pahambing.",
+        "**\"Pinakamabigat sa kanila\"** — pasukdol.",
+        "**Isang antas lang ang nagbago.** Buong argumento ang naipahayag."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Tapos na",
+      "title": "Ang tatandaan",
+      "points": [
+        "Bilangin muna: isa, dalawa, o tatlo pataas.",
+        "Pahambing: kasing- kung pantay, mas kung may nangunguna.",
+        "Pasukdol: pinaka-, napaka-, ubod ng.",
+        "Panahon ng Espanyol: tributo, polo, cedula, at malinaw na hanay."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "\"Matibay ang gulong.\" Anong antas?",
+      "options": [
+        "Pahambing",
+        "Pasukdol",
+        "Lantay",
+        "Wala sa mga ito"
+      ],
+      "answerIndex": 2,
+      "explain": "Walang kahambing.",
+      "objective": "Matukoy ang lantay, pahambing at pasukdol",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "\"Mas matibay ang gulong kaysa sa luma.\" Anong antas?",
+      "options": [
+        "Pasukdol",
+        "Pahambing",
+        "Lantay",
+        "Palansak"
+      ],
+      "answerIndex": 1,
+      "explain": "Dalawang bagay.",
+      "objective": "Matukoy ang lantay, pahambing at pasukdol",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "\"Pinakamatibay ang gulong na ito.\" Anong antas?",
+      "options": [
+        "Lantay",
+        "Pasukdol",
+        "Palansak",
+        "Pahambing"
+      ],
+      "answerIndex": 1,
+      "explain": "Wala nang hihigit.",
+      "objective": "Matukoy ang lantay, pahambing at pasukdol",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang senyas ng pasukdol?",
+      "options": [
+        "mas",
+        "higit",
+        "kasing-",
+        "napaka-"
+      ],
+      "answerIndex": 3,
+      "explain": "Napakabilis.",
+      "objective": "Magamit ang mga senyas ng pasukdol",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "\"Kasingbilis ng Civic ang Vios.\" Anong uri ng pahambing?",
+      "options": [
+        "Lantay",
+        "Magkatulad",
+        "Pasukdol",
+        "Di-magkatulad"
+      ],
+      "answerIndex": 1,
+      "explain": "Pantay ang dalawa.",
+      "objective": "Magamit ang mga senyas ng pahambing",
+      "seconds": 20
+    },
+    {
+      "type": "type",
+      "text": "Punan: \"___ mabilis ang Civic kaysa sa Vios\". Isang salita.",
+      "accept": [
+        "mas"
+      ],
+      "explain": "Senyas ng pahambing na di-magkatulad.",
+      "objective": "Magamit ang mga senyas ng pahambing",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang HINDI senyas ng pasukdol?",
+      "options": [
+        "kasing-",
+        "pinaka-",
+        "ubod ng",
+        "saksakan ng"
+      ],
+      "answerIndex": 0,
+      "explain": "Pahambing na magkatulad ang kasing-.",
+      "objective": "Magamit ang mga senyas ng pasukdol",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "Bilang ng pinaghahambing ang pumipili ng antas.",
+      "answer": true,
+      "explain": "Isa, dalawa, o tatlo pataas.",
+      "objective": "Matukoy ang lantay, pahambing at pasukdol",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang tributo?",
+      "options": [
+        "Buwis sa korona",
+        "Sapilitang paggawa",
+        "Isang paaralan",
+        "Isang papel"
+      ],
+      "answerIndex": 0,
+      "explain": "Binabayaran sa korona ng Espanya.",
+      "objective": "Malaman ang buhay sa panahon ng Espanyol bago buksan ang akda",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang cedula personal?",
+      "options": [
+        "Sapilitang paggawa",
+        "Isang titulo",
+        "Papel na dala-dala",
+        "Isang buwis"
+      ],
+      "answerIndex": 2,
+      "explain": "Laging hinihingi, kaya laging dala.",
+      "objective": "Malaman ang buhay sa panahon ng Espanyol bago buksan ang akda",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Ilang araw ang polo y servicio?",
+      "options": [
+        "Dalawampu",
+        "Animnapu",
+        "Sampu",
+        "Apatnapu"
+      ],
+      "answerIndex": 3,
+      "explain": "Apatnapung araw bawat taon.",
+      "objective": "Malaman ang buhay sa panahon ng Espanyol bago buksan ang akda",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Sino ang may pinakamabigat na pasanin sa lipunang iyon?",
+      "options": [
+        "Ang indio",
+        "Ang Espanyol",
+        "Ang insulares",
+        "Ang principalia"
+      ],
+      "answerIndex": 0,
+      "explain": "Ang karamihan, at ang pinakamabigat ang dala.",
+      "objective": "Malaman ang buhay sa panahon ng Espanyol bago buksan ang akda",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Linggo 7 ng Filipino: ang kaantasan ng pang-uri. Ipinapasok ito bilang pagbilang, hindi bilang pagmemorya ng tatlong pangalan, at iginuhit bilang isa, dalawa at tatlong bar ng bilis, kaya nakikita ang antas bago mabasa ang pangalan nito. Hiwalay ang kard para sa dalawang uri ng pahambing dahil ang kasing- ay madalas mapagkamalang pasukdol. IMPORTANTE PARA SA GURO O MAGULANG: walang buod ng Si Segunda dito dahil hindi pa nakikita ang edisyon. Ang ikalawang bahagi ay ang totoong pasanin ng isang Indio sa panahong iyon — tributo, polo, cedula — at ang hanay ng lipunan, na kailangan upang maunawaan ang kahit anong tagpo sa akda.",
+    "discussion": [
+      "Bago sumagot: ilang bagay ang pinaghahambing?",
+      "Itanong kung bakit hindi pasukdol ang kasing-.",
+      "Pasagutin siya: alin ang paghahambing na kaya mong kontrolin?",
+      "Itanong kung ano ang dala-dala ng isang Indio araw-araw."
+    ],
+    "extension": [
+      "Ipahambing sa kaniya ang tatlong sasakyan sa tatlong antas.",
+      "Pasulatin siya ng tatlong pangungusap tungkol sa sariling pag-unlad."
+    ],
+    "misconceptions": [
+      "\"Pasukdol ang kasing-.\" Pahambing na magkatulad iyon.",
+      "\"Kailangan ng dalawang bagay sa lantay.\" Isa lang.",
+      "\"Isang buwis lang ang polo.\" Sapilitang paggawa iyon, hindi bayad."
+    ]
+  }
+}

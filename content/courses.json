@@ -1523,7 +1523,7 @@
           "tagline": "Ortograpiya, salita at pagbasa ng Supremo",
           "icon": "🇵🇭",
           "accent": "#fb923c",
-          "status": "planned",
+          "status": "live",
           "weeks": [
             {
               "week": 1,
@@ -1533,7 +1533,8 @@
                 "Kaukulan ng Pangngalan",
                 "PAGBASA: Papa’s House, Mama’s House"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "filipino/t2-w1-kaukulan-pangngalan.json"
             },
             {
               "week": 2,
@@ -1542,7 +1543,8 @@
               "topics": [
                 "Panghalip Panao"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "filipino/t2-w2-panghalip-panao.json"
             },
             {
               "week": 3,
@@ -1552,7 +1554,8 @@
                 "Panghalip Pananong at Pamatlig",
                 "PAGBASA: Naging Pintor si Tominaman sa Rogong"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "filipino/t2-w3-pananong-pamatlig.json"
             },
             {
               "week": 4,
@@ -1561,7 +1564,8 @@
               "topics": [
                 "Panghalip Panaklaw"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "filipino/t2-w4-panghalip-panaklaw.json"
             },
             {
               "week": 5,
@@ -1571,7 +1575,8 @@
                 "Kailanan ng Panghalip",
                 "PAGBASA: Si Diwayen, Noong Bago Dumating Ang Mga Espanyol"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "filipino/t2-w5-kailanan-panghalip.json"
             },
             {
               "week": 6,
@@ -1580,7 +1585,8 @@
               "topics": [
                 "Uri ng Pang-uri"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "filipino/t2-w6-uri-pang-uri.json"
             },
             {
               "week": 7,
@@ -1590,44 +1596,49 @@
                 "Kaantasan ng Pang-uri",
                 "PAGBASA: Si Segunda, Noong Panahon ng Mga Espanyol"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "filipino/t2-w7-kaantasan-pang-uri.json"
             },
             {
               "week": 8,
               "id": "fil-t2-w8",
-              "title": "Magkasingkahulugan at Magkasalungat",
+              "title": "Pang-uring Magkasingkahulugan at Magkasalungat",
               "topics": [
                 "Pang-uring Magkasingkahulugan at Magkasalungat"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "filipino/t2-w8-singkahulugan-salungat.json"
             },
             {
               "week": 9,
               "id": "fil-t2-w9",
-              "title": "Pandiwa",
+              "title": "Pandiwa: Aspekto at Pokus",
               "topics": [
                 "Pandiwa: Aspekto at Pokus ng Pandiwa",
                 "PAGBASA: Si Pitong, Noong Panahon ng mga Hapon"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "filipino/t2-w9-pandiwa-aspekto-pokus.json"
             },
             {
               "week": 10,
               "id": "fil-t2-w10",
-              "title": "Pang-abay",
+              "title": "Pang-abay at Uri ng Pang-abay",
               "topics": [
                 "Pang-abay at Uri ng Pang-abay"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "filipino/t2-w10-pang-abay.json"
             },
             {
               "week": 11,
               "id": "fil-t2-w11",
-              "title": "Exam Week",
+              "title": "Pagsusulit",
               "topics": [
                 "EXAM"
               ],
-              "status": "planned"
+              "status": "exam",
+              "file": "filipino/t2-w11-pagsusulit.json"
             }
           ]
         },

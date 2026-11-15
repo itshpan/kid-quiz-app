@@ -1,0 +1,390 @@
+{
+  "id": "fil-t2-w9",
+  "courseId": "filipino",
+  "courseTitle": "Filipino",
+  "week": 9,
+  "title": "Pandiwa: Aspekto at Pokus",
+  "subtitle": "Saan nakaupo ang kilos, at alin ang may ang.",
+  "estMinutes": 20,
+  "objectives": [
+    "Matukoy ang tatlong aspekto ng pandiwa",
+    "Mabuo ang tamang anyo ng pandiwa sa bawat aspekto",
+    "Matukoy ang pokus ng pandiwa gamit ang ang",
+    "Malaman ang buhay sa panahon ng Hapon bago buksan ang akda"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "⏱️",
+      "eyebrow": "Bahagi 1 · Aspekto",
+      "title": "Saan nakaupo ang kilos?",
+      "text": "Hindi tense ang aspekto. Hindi tanong kung kailan — tanong kung tapos na, ginagawa pa, o hindi pa nagsimula."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang pangunahing kaisipan",
+      "title": "Tatlong aspekto",
+      "text": "Isang pandiwa, tatlong anyo.",
+      "points": [
+        "**Perpektibo** — tapos na: nagsanay.",
+        "**Imperpektibo** — ginagawa pa: nagsasanay.",
+        "**Kontemplatibo** — hindi pa nagsimula: magsasanay.",
+        "**Tingnan ang ngayon.** Saan nakaupo ang kilos kumpara doon?"
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "aspektoPandiwa",
+      "title": "Tatlong tagpo",
+      "text": "Pindutin ang tatlong anyo. Tingnan kung saan tumama ang bar sa guhit ng panahon."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Anong aspekto ang \"tumatakbo\"?",
+        "options": [
+          "Walang aspekto",
+          "Kontemplatibo",
+          "Imperpektibo",
+          "Perpektibo"
+        ],
+        "answerIndex": 2,
+        "explain": "Nagsimula na, hindi pa tapos.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ikalawang kaisipan",
+      "title": "Paano binubuo",
+      "text": "May pattern, at sulit itong tandaan.",
+      "points": [
+        "**Perpektibo:** nag-, -um-: nagluto, tumakbo.",
+        "**Imperpektibo:** inuulit ang unang pantig: nagluluto, tumatakbo.",
+        "**Kontemplatibo:** mag-, walang -um-: magluluto, tatakbo.",
+        "**Ang pag-uulit ng pantig** ang pinakamalinaw na senyas."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Anong kontemplatibo ng \"kumain\"?",
+        "options": [
+          "kakain",
+          "kinain",
+          "kumakain",
+          "kumain"
+        ],
+        "answerIndex": 0,
+        "explain": "Hindi pa nagsimula: kakain.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Sa laro",
+      "title": "Tatlong anyo ng isang misyon",
+      "text": "Nakikita mo ang tatlong aspekto sa listahan ng misyon.",
+      "points": [
+        "**Natapos** — perpektibo. May tsek.",
+        "**Ginagawa** — imperpektibo. May progress bar.",
+        "**Nakalista** — kontemplatibo. Hindi pa nasimulan.",
+        "**Iisang misyon.** Tatlong estado."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Bahagi 2 · Pokus",
+      "title": "Alin ang may ang?",
+      "text": "Ang pokus ay tungkol sa kung alin ang pinapatungan ng pansin.",
+      "points": [
+        "**Tagaganap:** Naglinis si Carlo **ng gulong**.",
+        "**Layon:** Nilinis ni Carlo **ang gulong**.",
+        "**Ganapan:** Pinaglinisan ni Carlo **ang garahe**.",
+        "**Kagamitan:** Ipinanglinis ni Carlo **ang basahan**."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang tunay na patakaran",
+      "title": "Hanapin ang ang",
+      "text": "Hindi pagmemorya ng panlapi ang paraan. Isang tanong lamang.",
+      "points": [
+        "**Alin ang may pananda na ang?**",
+        "**Tao ba iyon?** Tagaganap.",
+        "**Bagay na ginawan?** Layon.",
+        "**Lugar?** Ganapan. **Gamit?** Kagamitan."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Sa bentilador",
+      "title": "Isang trabaho, apat na paraan ng pagsasabi",
+      "text": "Binubuksan mo ang bentilador. Isang kilos lamang, pero apat ang puwedeng ituon ng pansin.",
+      "points": [
+        "**Tagaganap:** Nagtanggal ako ng takip.",
+        "**Layon:** Tinanggal ko ang takip.",
+        "**Ganapan:** Pinagtanggalan ko ang bentilador.",
+        "**Kagamitan:** Ipinantanggal ko ang distornilyador."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "\"Nilinis ni Carlo ang gulong.\" Anong pokus?",
+        "options": [
+          "Kagamitan",
+          "Layon",
+          "Tagaganap",
+          "Ganapan"
+        ],
+        "answerIndex": 1,
+        "explain": "Nasa gulong ang ang, at iyon ang ginawan.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "open",
+      "icon": "📖",
+      "eyebrow": "Bahagi 3 · Bago mo buksan",
+      "title": "Si Pitong, Noong Panahon ng Mga Hapon",
+      "text": "Hindi pa nakikita ang edisyong gamit ng klase mo, kaya walang buod ng kuwento dito. Ito ang totoong panahon kung saan nakatakda ang akda."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Kasaysayan",
+      "title": "Tatlong taon ng pananakop",
+      "text": "Disyembre 1941 hanggang 1945.",
+      "points": [
+        "**Bumagsak ang Bataan** noong Abril 1942.",
+        "**Pinalitan ang pera** — tinawag itong Mickey Mouse money.",
+        "**Kakaunti ang pagkain.** May rasyon at may palengkeng itim.",
+        "**Itinuro ang Nihongo** sa mga paaralan."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Kasaysayan",
+      "title": "Hindi lahat ay sundalo",
+      "text": "Napilitang pumili ang mga ordinaryong tao.",
+      "points": [
+        "**Gerilya** — lumaban nang patago, buong panahon.",
+        "**Makapili** — tumulong sa mga Hapon.",
+        "**Karamihan** ay nagtago at naghanap ng makakain.",
+        "**Ang pagpiling iyon** ang karaniwang sentro ng akda."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Sa pagkukuwento",
+      "title": "Aspekto ang gulugod ng kuwento",
+      "text": "Nabubuo ang salaysay sa paglipat-lipat ng aspekto.",
+      "points": [
+        "**\"Nagtago sila\"** — tapos na.",
+        "**\"Naghihintay sila\"** — nangyayari pa.",
+        "**\"Aalis sila bukas\"** — hindi pa nangyari.",
+        "**Isang talata, tatlong aspekto.** Iyon ang tensyon."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Tapos na",
+      "title": "Ang tatandaan",
+      "points": [
+        "Tatlong aspekto: perpektibo, imperpektibo, kontemplatibo.",
+        "Pag-uulit ng pantig ang senyas ng imperpektibo.",
+        "Pokus: hanapin ang pananda na ang.",
+        "1942 hanggang 1945: pananakop, rasyon, gerilya at mahirap na pagpili."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Anong aspekto ang \"nagsanay\"?",
+      "options": [
+        "Walang aspekto",
+        "Perpektibo",
+        "Imperpektibo",
+        "Kontemplatibo"
+      ],
+      "answerIndex": 1,
+      "explain": "Tapos na.",
+      "objective": "Matukoy ang tatlong aspekto ng pandiwa",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Anong aspekto ang \"magsasanay\"?",
+      "options": [
+        "Perpektibo",
+        "Imperpektibo",
+        "Kontemplatibo",
+        "Walang aspekto"
+      ],
+      "answerIndex": 2,
+      "explain": "Hindi pa nagsimula.",
+      "objective": "Matukoy ang tatlong aspekto ng pandiwa",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Anong aspekto ang \"nagsasanay\"?",
+      "options": [
+        "Walang aspekto",
+        "Imperpektibo",
+        "Kontemplatibo",
+        "Perpektibo"
+      ],
+      "answerIndex": 1,
+      "explain": "Ginagawa pa.",
+      "objective": "Matukoy ang tatlong aspekto ng pandiwa",
+      "seconds": 16
+    },
+    {
+      "type": "type",
+      "text": "Anong imperpektibo ng \"tumakbo\"? Isang salita.",
+      "accept": [
+        "tumatakbo"
+      ],
+      "explain": "Inuulit ang unang pantig.",
+      "objective": "Mabuo ang tamang anyo ng pandiwa sa bawat aspekto",
+      "seconds": 18
+    },
+    {
+      "type": "type",
+      "text": "Anong kontemplatibo ng \"naglinis\"? Isang salita.",
+      "accept": [
+        "maglilinis"
+      ],
+      "explain": "Hindi pa nagsimula: maglilinis.",
+      "objective": "Mabuo ang tamang anyo ng pandiwa sa bawat aspekto",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Anong senyas ang pinakamalinaw na palatandaan ng imperpektibo?",
+      "options": [
+        "Walang senyas",
+        "Panlaping nag-",
+        "Panlaping -um-",
+        "Pag-uulit ng unang pantig"
+      ],
+      "answerIndex": 3,
+      "explain": "Nagluluto, tumatakbo, kumakain.",
+      "objective": "Mabuo ang tamang anyo ng pandiwa sa bawat aspekto",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "\"Naglinis si Carlo ng gulong.\" Anong pokus?",
+      "options": [
+        "Tagaganap",
+        "Kagamitan",
+        "Ganapan",
+        "Layon"
+      ],
+      "answerIndex": 0,
+      "explain": "Nasa tao ang ang.",
+      "objective": "Matukoy ang pokus ng pandiwa gamit ang ang",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "\"Pinaglinisan ni Carlo ang garahe.\" Anong pokus?",
+      "options": [
+        "Layon",
+        "Tagaganap",
+        "Kagamitan",
+        "Ganapan"
+      ],
+      "answerIndex": 3,
+      "explain": "Lugar ang may ang.",
+      "objective": "Matukoy ang pokus ng pandiwa gamit ang ang",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "\"Ipinanglinis ni Carlo ang basahan.\" Anong pokus?",
+      "options": [
+        "Layon",
+        "Ganapan",
+        "Kagamitan",
+        "Tagaganap"
+      ],
+      "answerIndex": 2,
+      "explain": "Gamit ang may ang.",
+      "objective": "Matukoy ang pokus ng pandiwa gamit ang ang",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang unang hahanapin kapag tinatanong ang pokus?",
+      "options": [
+        "Ang pananda na ang",
+        "Ang aspekto",
+        "Ang haba ng pandiwa",
+        "Ang panlapi"
+      ],
+      "answerIndex": 0,
+      "explain": "Ang pananda ang nagsasabi kung saan nakatutok ang pansin.",
+      "objective": "Matukoy ang pokus ng pandiwa gamit ang ang",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang \"Mickey Mouse money\"?",
+      "options": [
+        "Ang perang ipinalit ng mga Hapon",
+        "Isang pahayagan",
+        "Isang rasyon",
+        "Isang laruan"
+      ],
+      "answerIndex": 0,
+      "explain": "Napakababa ng halaga nito.",
+      "objective": "Malaman ang buhay sa panahon ng Hapon bago buksan ang akda",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Sino ang Makapili?",
+      "options": [
+        "Mga guro",
+        "Mga tumulong sa mga Hapon",
+        "Mga gerilya",
+        "Mga mangangalakal"
+      ],
+      "answerIndex": 1,
+      "explain": "Napilitang pumili ang mga ordinaryong tao noon.",
+      "objective": "Malaman ang buhay sa panahon ng Hapon bago buksan ang akda",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Linggo 9 ng Filipino: aspekto at pokus ng pandiwa, ang pinakamabigat na linggo ng markahan. Mahalagang hindi ituring ang aspekto bilang tense: ang tanong ay hindi kailan kundi natapos na ba, kaya iginuhit ito sa isang guhit ng panahon na may markang NGAYON. Ang pokus ay binawasan sa isang tanong — alin ang may pananda na ang — sa halip na pagmemorya ng apat na pangkat ng panlapi, dahil ang pananda ay nakikita at ang panlapi ay kailangang alalahanin. IMPORTANTE PARA SA GURO O MAGULANG: walang buod ng Si Pitong dito dahil hindi pa nakikita ang edisyon. Ang ikatlong bahagi ay totoong kasaysayan ng pananakop, na nakakabit din sa Araling Panlipunan ngayong markahan.",
+    "discussion": [
+      "Isang pandiwa, tatlong anyo: pasabihin sa kaniya nang malakas.",
+      "Itanong: alin ang may ang sa pangungusap na ito?",
+      "Itanong kung bakit hindi tense ang aspekto.",
+      "Pasagutin siya: ano ang pinili ng mga ordinaryong tao noong 1942?"
+    ],
+    "extension": [
+      "Pasulatin siya ng isang talata tungkol sa pagsasanay gamit ang tatlong aspekto.",
+      "Ipalipat sa kaniya ang isang pangungusap sa apat na pokus."
+    ],
+    "misconceptions": [
+      "\"Tense ang aspekto.\" Tapos na ba, hindi kailan.",
+      "\"Panlapi ang nagsasabi ng pokus.\" Ang pananda na ang.",
+      "\"Lahat ng nagtago ay gerilya.\" Karamihan ay naghanap lamang ng makakain."
+    ]
+  }
+}

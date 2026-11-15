@@ -1,0 +1,351 @@
+{
+  "id": "fil-t2-w4",
+  "courseId": "filipino",
+  "courseTitle": "Filipino",
+  "week": 4,
+  "title": "Panghalip Panaklaw",
+  "subtitle": "Saklaw ang lahat, walang pinipili.",
+  "estMinutes": 20,
+  "objectives": [
+    "Matukoy ang panghalip panaklaw",
+    "Maiba ang panaklaw sa pamilang",
+    "Magamit ang panaklaw sa pangungusap",
+    "Maunawaan kung bakit walang tiyak na tinutukoy ang panaklaw"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🪣",
+      "eyebrow": "Bahagi 1 · Panaklaw",
+      "title": "Saklaw ang lahat. Walang pinipili.",
+      "text": "May panghalip na hindi tumutukoy sa isang tiyak na tao o bagay. Sinasaklaw nito ang lahat nang sabay-sabay."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang pangunahing kaisipan",
+      "title": "Walang tiyak na tinutukoy",
+      "text": "Ito ang nagpapaiba ng panaklaw sa lahat ng iba.",
+      "points": [
+        "**Panao:** tiyak — si Carlo, siya.",
+        "**Pamatlig:** tiyak — itong hawak ko.",
+        "**Panaklaw:** hindi tiyak — sinuman, lahat, anuman.",
+        "**Totoo pa rin ang pangungusap** kahit hindi alam kung sino."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "panaklawTakip",
+      "title": "Anim na pindutan",
+      "text": "Pindutin ang bawat panaklaw. Tingnan kung gaano ito lumalawak."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Alin ang panghalip panaklaw?",
+        "options": [
+          "sinuman",
+          "ito",
+          "kanino",
+          "siya"
+        ],
+        "answerIndex": 0,
+        "explain": "Hindi tiyak kung sino, at saklaw ang lahat ng puwede.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ikalawang kaisipan",
+      "title": "Ang madalas na mali: panaklaw o pamilang?",
+      "text": "Magkamukha ang dalawa sa pagsusulit, kaya ito ang tanong.",
+      "points": [
+        "**\"Lahat ng gulong\"** — panaklaw. Walang bilang.",
+        "**\"Apat na gulong\"** — pamilang. May bilang.",
+        "**\"Bawat isa\"** — panaklaw pa rin. Isa-isa, pero lahat.",
+        "**May bilang ba?** Iyon ang tanong."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Sa boksing",
+      "title": "Bukas sa sinuman",
+      "text": "May labang bukas sa kahit sinong gustong sumali.",
+      "points": [
+        "**\"Bukas sa sinuman ang open division.\"**",
+        "**Hindi alam kung sino** ang darating.",
+        "**Totoo pa rin ang patakaran** kahit walang pangalan.",
+        "**Iyon ang lakas ng panaklaw:** nagbibigay ng tuntunin bago may tao."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Alin ang pamilang, hindi panaklaw?",
+        "options": [
+          "lahat",
+          "tatlo",
+          "anuman",
+          "sinuman"
+        ],
+        "answerIndex": 1,
+        "explain": "May tiyak na bilang ang tatlo.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ikatlong kaisipan",
+      "title": "Isahan ang anyo, maramihan ang saklaw",
+      "text": "Madalas itong mapagkamalan.",
+      "points": [
+        "**\"Sinuman\"** — isang salita, walang mga.",
+        "**\"Bawat isa\"** — isahan ang anyo, lahat ang saklaw.",
+        "**Mali:** \"mga sinuman\".",
+        "**Hindi kailangan ng mga** ang panaklaw."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Sa laro",
+      "title": "Patakaran bago manlalaro",
+      "text": "Nauuna ang tuntunin sa kahit sinong magbubukas ng laro.",
+      "points": [
+        "**\"Anuman ang armas, may bigat iyon.\"**",
+        "**Nakasulat na ang tuntunin** bago ka pa dumating.",
+        "**Walang pangalan** sa patakaran.",
+        "**Panaklaw ang wika ng patakaran.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Sa bentilador",
+      "title": "Lahat ng tornilyo, kahit alin",
+      "text": "Kapag binubuksan mo ang takip, pare-pareho ang tornilyo.",
+      "points": [
+        "**\"Alinman sa apat ay kasya.\"**",
+        "**Hindi mahalaga kung alin.** Kaya alinman.",
+        "**\"Lahat ay kailangang maluwag\"** bago tanggalin ang takip.",
+        "**Dalawang panaklaw** sa isang trabaho."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Mga salitang lalabas sa pagsusulit",
+      "terms": [
+        {
+          "term": "Panghalip panaklaw",
+          "def": "Panghalip na walang tiyak na tinutukoy."
+        },
+        {
+          "term": "Sinuman",
+          "def": "Kahit sinong tao, hindi tiyak."
+        },
+        {
+          "term": "Alinman",
+          "def": "Kahit alin sa mga pagpipilian."
+        },
+        {
+          "term": "Madla",
+          "def": "Ang publiko — ang hindi tiyak na nakararami."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Tapos na",
+      "title": "Ang tatandaan",
+      "points": [
+        "Walang tiyak na tinutukoy ang panaklaw.",
+        "May bilang ba? Kung oo, pamilang iyon, hindi panaklaw.",
+        "Isahan ang anyo; hindi ito nilalagyan ng mga.",
+        "Lahat, sinuman, anuman, alinman, bawat isa, madla."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Alin ang panghalip panaklaw?",
+      "options": [
+        "kami",
+        "lahat",
+        "kanino",
+        "ito"
+      ],
+      "answerIndex": 1,
+      "explain": "Walang tiyak na tinutukoy.",
+      "objective": "Matukoy ang panghalip panaklaw",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Sa \"Pagod na lahat pagkatapos ng sparring\", ang \"lahat\" ay…",
+      "options": [
+        "panaklaw",
+        "pamatlig",
+        "pamilang",
+        "panao"
+      ],
+      "answerIndex": 0,
+      "explain": "Walang bilang, walang pangalan.",
+      "objective": "Maiba ang panaklaw sa pamilang",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang pamilang?",
+      "options": [
+        "bawat isa",
+        "pito",
+        "anuman",
+        "alinman"
+      ],
+      "answerIndex": 1,
+      "explain": "May tiyak na bilang.",
+      "objective": "Maiba ang panaklaw sa pamilang",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang tama?",
+      "options": [
+        "sinuman",
+        "mga sinuman",
+        "mga anuman",
+        "mga lahat"
+      ],
+      "answerIndex": 0,
+      "explain": "Isahan ang anyo ng panaklaw.",
+      "objective": "Maunawaan kung bakit walang tiyak na tinutukoy ang panaklaw",
+      "seconds": 20
+    },
+    {
+      "type": "type",
+      "text": "Anong panaklaw ang gamit para sa kahit anong bagay? Isang salita.",
+      "accept": [
+        "anuman"
+      ],
+      "explain": "Anuman ang nasirang bahagi.",
+      "objective": "Matukoy ang panghalip panaklaw",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "\"Alinman sa dalawang gulong ay kasya.\" Ano ang ipinahihiwatig nito?",
+      "options": [
+        "Isang gulong lang ang kasya",
+        "Hindi mahalaga kung alin",
+        "Dalawa ang kailangan",
+        "Walang kasya"
+      ],
+      "answerIndex": 1,
+      "explain": "Iyon ang buong punto ng alinman.",
+      "objective": "Magamit ang panaklaw sa pangungusap",
+      "seconds": 22
+    },
+    {
+      "type": "truefalse",
+      "text": "Tiyak ang tinutukoy ng panghalip panaklaw.",
+      "answer": false,
+      "explain": "Hindi tiyak. Iyon ang kahulugan ng panaklaw.",
+      "objective": "Maunawaan kung bakit walang tiyak na tinutukoy ang panaklaw",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang kahulugan ng \"madla\"?",
+      "options": [
+        "Isang tao",
+        "Isang bilang",
+        "Isang lugar",
+        "Ang publiko"
+      ],
+      "answerIndex": 3,
+      "explain": "Ang hindi tiyak na nakararami.",
+      "objective": "Matukoy ang panghalip panaklaw",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang HINDI panaklaw?",
+      "options": [
+        "bawat isa",
+        "lahat",
+        "sinuman",
+        "siya"
+      ],
+      "answerIndex": 3,
+      "explain": "Tiyak ang siya: panghalip panao.",
+      "objective": "Matukoy ang panghalip panaklaw",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "\"Bawat isa ay may takdang bigat.\" Bakit panaklaw ang \"bawat isa\"?",
+      "options": [
+        "Saklaw ang lahat pero isa-isa",
+        "Tiyak ang tinutukoy",
+        "May bilang ito",
+        "Pangngalan ito"
+      ],
+      "answerIndex": 0,
+      "explain": "Lahat ang saklaw, isa-isa ang paraan.",
+      "objective": "Maiba ang panaklaw sa pamilang",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Bakit kapaki-pakinabang ang panaklaw sa isang patakaran?",
+      "options": [
+        "Mas madaling bilangin",
+        "Mas maikli",
+        "Naitatakda ang tuntunin bago may pangalan",
+        "Mas magalang"
+      ],
+      "answerIndex": 2,
+      "explain": "Bukas sa sinuman: totoo bago pa dumating ang tao.",
+      "objective": "Magamit ang panaklaw sa pangungusap",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang pangungusap na may panaklaw?",
+      "options": [
+        "Akin ang tornilyo.",
+        "Tatlong tornilyo ang natanggal.",
+        "Alinman sa tornilyo ay kasya.",
+        "Ito ang tornilyo."
+      ],
+      "answerIndex": 2,
+      "explain": "Alinman: walang tiyak.",
+      "objective": "Matukoy ang panghalip panaklaw",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Linggo 4 ng Filipino: ang panghalip panaklaw. Isang tanong lamang ang aralin — may tiyak bang tinutukoy? — at ang pinakamadalas na pagkakamali sa pagsusulit ay ang pagkakamali ng panaklaw sa pamilang, kaya may hiwalay itong kard at tatlong tanong. Binibigyang-diin din na isahan ang anyo ng panaklaw, dahil karaniwang nilalagyan ito ng \"mga\". Ang pinakamalaking kaisipan, na dinadala ng tatlong lente, ay ito: ang panaklaw ang wika ng patakaran, dahil nagtatakda ito ng tuntunin bago may taong pangalanan.",
+    "discussion": [
+      "Isang tanong sa bawat salita: may bilang ba?",
+      "Itanong kung bakit mali ang \"mga sinuman\".",
+      "Pahanapin siya ng panaklaw sa patakaran ng isang laro.",
+      "Itanong kung bakit panaklaw pa rin ang \"bawat isa\" kahit isahan."
+    ],
+    "extension": [
+      "Pasulatin siya ng tatlong patakaran ng laro gamit ang panaklaw.",
+      "Ipalista ang mga tuntunin sa gym gamit ang lahat, sinuman at anuman."
+    ],
+    "misconceptions": [
+      "\"Pamilang ang lahat.\" Walang bilang ang lahat.",
+      "\"Kailangan ng mga sa panaklaw.\" Isahan ang anyo nito.",
+      "\"Walang kahulugan ang panaklaw kung walang pangalan.\" Doon ito pinakamalakas."
+    ]
+  }
+}

@@ -5183,7 +5183,284 @@ function devExam() {
     });
 }
 
+/* ==========================================================================
+   FILIPINO FIGURES — Term 2.
+   Grammar in Filipino goes wrong in a particular way: the learner memorises
+   a list of labels and never sees the thing the label points at. So every
+   one of these is a picker or a switch — the label arrives only after he has
+   chosen something. Where an example is free, it comes from his world; where
+   the form is fixed by the language it stays fixed.
+   ========================================================================== */
+
+/* Three cases, six markers. The markers are the only reliable signal, so
+   they are what he presses. */
+function kaukulanPangngalan() {
+    return listPicker({
+        id: 'kk', label: 'PINDUTIN ANG PANANDA', height: 272, y0: 60, dy: 26,
+        alt: 'Anim na pananda ng pangngalan, bawat isa may kaukulan at halimbawa',
+        capA: 'Kaukulan: ', capB: 'Halimbawa: ',
+        rows: [
+            { short: 'ang / ang mga', a: 'Palagyo — ito ang gumagawa o pinag-uusapan',
+              b: 'Mabilis ang sasakyan sa huling liko.' },
+            { short: 'si / sina', a: 'Palagyo — para sa pangngalang pantangi',
+              b: 'Nanalo si Pacquiao sa Las Vegas noong 2008.' },
+            { short: 'ng / ng mga', a: 'Paari — may-ari o bahagi ng isang bagay',
+              b: 'Umalingawngaw ang makina ng kotse.' },
+            { short: 'ni / nina', a: 'Paari — may-ari na pantangi',
+              b: 'Makapal ang benda ni Manny bago ang laban.' },
+            { short: 'sa / sa mga', a: 'Palayon — pinatutunguhan o pinupuntahan',
+              b: 'Sumuntok siya sa sandbag ng tatlumpung minuto.' },
+            { short: 'kay / kina', a: 'Palayon — pinatutunguhan na pantangi',
+              b: 'Ibinigay ng kotse ang unang puwesto kay Carlo.' }
+        ]
+    });
+}
+
+/* The personal pronoun table is the single densest thing in Grade 6 Filipino.
+   Presented as a table he reads it once; presented as eight buttons he works
+   through all three cases of each person. */
+function panghalipPanao() {
+    return listPicker({
+        id: 'pp', label: 'WALONG PANAUHAN · TATLONG KAUKULAN', height: 320, y0: 60, dy: 26,
+        alt: 'Ang walong panghalip panao at ang anyo ng bawat isa sa tatlong kaukulan',
+        capA: 'Paari / Palayon: ', capB: 'Halimbawa: ',
+        rows: [
+            { short: 'ako — unang panauhan, isahan', a: 'ko, akin / sa akin',
+              b: 'Binuksan ko ang bentilador. Akin ang distornilyador.' },
+            { short: 'kami — unang, maramihan, di-kasama', a: 'namin, amin / sa amin',
+              b: 'Hindi kasama ang kinakausap: Kami lang ang nagsanay.' },
+            { short: 'tayo — unang, maramihan, kasama', a: 'natin, atin / sa atin',
+              b: 'Kasama ang kinakausap: Tara, tayo na sa gym.' },
+            { short: 'ikaw / ka — ikalawa, isahan', a: 'mo, iyo / sa iyo',
+              b: 'Ikaw ang nanalo. Iyo ang huling round.' },
+            { short: 'kayo — ikalawa, maramihan', a: 'ninyo, inyo / sa inyo',
+              b: 'Kayo ang magsasaayos ng mga gulong.' },
+            { short: 'siya — ikatlo, isahan', a: 'niya, kaniya / sa kaniya',
+              b: 'Siya ang tumapos ng lap. Kaniya ang record.' },
+            { short: 'sila — ikatlo, maramihan', a: 'nila, kanila / sa kanila',
+              b: 'Sila ang nagtanggal ng makina.' },
+            { short: 'ka — hindi kayang mag-una', a: 'Laging pangalawa sa pangungusap',
+              b: 'Tama: Mabilis ka. Mali: Ka ay mabilis.' }
+        ]
+    });
+}
+
+/* Distance, not vocabulary. ito/iyan/iyon is a question of who is near the
+   thing — so the figure draws the two people and moves the thing. */
+function pamatligLapit() {
+    const you = stick(70, 150), them = stick(206, 150);
+    const bag = (x, on) =>
+        `<g><rect class="${on ? 'fig-box-on' : 'fig-box'}" x="${x - 18}" y="128" width="36" height="26" rx="5"/>
+          <text class="fig-cell" x="${x}" y="176" text-anchor="middle">guwantes</text></g>`;
+    const tag = t => `<text class="fig-label" x="200" y="46" text-anchor="middle">${t}</text>`;
+    const who = `<text class="fig-cell" x="70" y="196" text-anchor="middle">ako</text>
+                 <text class="fig-cell" x="206" y="196" text-anchor="middle">kausap</text>`;
+    return demoSwitch({
+        id: 'pl', height: 276, capY: 230,
+        label: 'SINO ANG MALAPIT SA BAGAY?',
+        alt: 'Tatlong tagpo na nagpapakita kung kailan ginagamit ang ito, iyan at iyon',
+        demos: [
+            { btn: 'ito', svg: `${tag('ITO')}${you}${them}${who}${bag(112, true)}`,
+              a: 'ITO — malapit sa nagsasalita',
+              b: 'Hawak ko ang guwantes: Bago ito.' },
+            { btn: 'iyan', svg: `${tag('IYAN')}${you}${them}${who}${bag(166, true)}`,
+              a: 'IYAN — malapit sa kinakausap',
+              b: 'Hawak mo ang guwantes: Luma na iyan.' },
+            { btn: 'iyon', svg: `${tag('IYON')}${you}${them}${who}${bag(342, true)}`,
+              a: 'IYON — malayo sa inyong dalawa',
+              b: 'Nasa bodega pa: Akin iyon.' }
+        ]
+    });
+}
+
+/* Panaklaw means it sweeps everything in. The test item that catches people
+   is the one where a panaklaw looks like a pamilang, so that pair is here. */
+function panaklawTakip() {
+    return listPicker({
+        id: 'pk', label: 'WALANG PINIPILI · PINDUTIN', height: 272, y0: 60, dy: 26,
+        alt: 'Anim na panghalip panaklaw at ang saklaw ng bawat isa',
+        capA: 'Saklaw: ', capB: 'Halimbawa: ',
+        rows: [
+            { short: 'lahat', a: 'Buong bilang, walang itinatangi',
+              b: 'Pagod na lahat pagkatapos ng sparring.' },
+            { short: 'sinuman', a: 'Kahit sinong tao, hindi tiyak kung sino',
+              b: 'Sinuman ang pumasok, kailangan ng benda sa kamay.' },
+            { short: 'anuman', a: 'Kahit anong bagay, hindi tiyak kung ano',
+              b: 'Anuman ang bahaging nasira, may kapalit iyon.' },
+            { short: 'alinman', a: 'Kahit alin sa mga naibigay na pagpipilian',
+              b: 'Alinman sa dalawang gulong ay kasya.' },
+            { short: 'bawat isa', a: 'Lahat, pero isa-isa',
+              b: 'May sariling takdang bigat ang bawat isa.' },
+            { short: 'madla / balana', a: 'Ang publiko — ang hindi tiyak na nakararami',
+              b: 'Bukas sa madla ang laban sa Araneta.' }
+        ]
+    });
+}
+
+/* The pronoun number table, with the two traps: tayo-vs-kami, and the
+   dual forms that textbooks list but nobody says out loud. */
+function kailananPanghalip() {
+    return listPicker({
+        id: 'kp', label: 'ILAN ANG TINUTUKOY?', height: 272, y0: 60, dy: 26,
+        alt: 'Ang tatlong kailanan ng panghalip panao, kasama ang pagkakaiba ng tayo at kami',
+        capA: 'Kailanan: ', capB: 'Tandaan: ',
+        rows: [
+            { short: 'ako, ikaw / ka, siya', a: 'Isahan — isang tao lamang',
+              b: 'Ako ang nagtanggal ng takip ng bentilador.' },
+            { short: 'kata / kita, kanita', a: 'Dalawahan — tiyak na dalawa',
+              b: 'Bihira na sa usapan ngayon, pero nasa pagsusulit.' },
+            { short: 'kami, namin, amin', a: 'Maramihan — hindi kasama ang kausap',
+              b: 'Kami ang nagsanay. Hindi ka kasama doon.' },
+            { short: 'tayo, natin, atin', a: 'Maramihan — kasama ang kausap',
+              b: 'Tayo ang magsasanay. Kasama ka.' },
+            { short: 'kayo, ninyo, inyo', a: 'Maramihan — dalawa o higit na kausap',
+              b: 'Kayo ang susunod sa ring.' },
+            { short: 'sila, nila, kanila', a: 'Maramihan — dalawa o higit na pinag-uusapan',
+              b: 'Sila ang may pinakamabilis na lap.' }
+        ]
+    });
+}
+
+/* Two kinds, and the numeral kind has four sub-kinds that are easy to mix.
+   Pressing one at a time keeps the four apart. */
+function uriPangUri() {
+    return listPicker({
+        id: 'up', label: 'ANONG URI NG PANG-URI?', height: 272, y0: 60, dy: 26,
+        alt: 'Ang pang-uring panlarawan at ang apat na uri ng pang-uring pamilang',
+        capA: 'Uri: ', capB: 'Halimbawa: ',
+        rows: [
+            { short: 'mabilis, makapal, bilog', a: 'Panlarawan — katangian o kaanyuan',
+              b: 'Makapal ang benda sa kanang kamay.' },
+            { short: 'isa, dalawa, pito', a: 'Pamilang patakaran — simpleng bilang',
+              b: 'Pitong round ang natapos bago tumigil.' },
+            { short: 'una, ikalawa, ikatlo', a: 'Pamilang panunuran — pagkakasunod-sunod',
+              b: 'Ikatlong puwesto siya sa huling karera.' },
+            { short: 'kalahati, sangkatlo', a: 'Pamilang pamahagi — bahagi ng kabuuan',
+              b: 'Kalahati ng gasolina ang natira.' },
+            { short: 'dalawahan, tatluhan', a: 'Pamilang palansak — kung ilan-ilan',
+              b: 'Tatluhan kaming naghakot ng mga gulong.' },
+            { short: 'balat-sibuyas', a: 'Panlarawang tambalan — dalawang salita, isang kahulugan',
+              b: 'Hindi ka puwedeng balat-sibuyas sa boksing.' }
+        ]
+    });
+}
+
+/* Three degrees, drawn as three bars rather than named as three words. One
+   bar is a description; two is a comparison; three has a winner. */
+function kaantasanPangUri() {
+    const track = y => `<rect class="fig-bar-track" x="150" y="${y - 11}" width="212" height="16" rx="8"/>`;
+    const bar = (y, w) => `<rect class="fig-bar" x="150" y="${y - 11}" width="${w}" height="16" rx="8"/>`;
+    const name = (y, t) => `<text class="fig-cell" x="20" y="${y + 5}">${t}</text>`;
+    const tag = t => `<text class="fig-label" x="200" y="46" text-anchor="middle">${t}</text>`;
+    return demoSwitch({
+        id: 'ka', height: 258, capY: 212,
+        label: 'ILANG BAGAY ANG PINAGHAHAMBING?',
+        alt: 'Tatlong antas ng pang-uri na iginuhit bilang isa, dalawa at tatlong bar ng bilis',
+        demos: [
+            { btn: 'lantay', svg: `${tag('ISA LANG')}${name(100,'Vios')}${track(100)}${bar(100,96)}`,
+              a: 'LANTAY — walang kahambing',
+              b: 'Mabilis ang Vios. Wala pang itinatapat dito.' },
+            { btn: 'pahambing', svg: `${tag('DALAWA')}${name(100,'Vios')}${track(100)}${bar(100,96)}
+                 ${name(150,'Civic')}${track(150)}${bar(150,148)}`,
+              a: 'PAHAMBING — dalawang bagay, may nilalamangan',
+              b: 'Mas mabilis ang Civic kaysa sa Vios. Senyas: mas, higit, lalo.' },
+            { btn: 'pasukdol', svg: `${tag('TATLO O HIGIT')}${name(100,'Vios')}${track(100)}${bar(100,96)}
+                 ${name(150,'Civic')}${track(150)}${bar(150,148)}
+                 ${name(200,'GT-R')}${track(200)}${bar(200,206)}`,
+              a: 'PASUKDOL — pinakamataas, wala nang hihigit',
+              b: 'Pinakamabilis ang GT-R. Senyas: pinaka-, napaka-, ubod ng.' }
+        ]
+    });
+}
+
+/* Synonyms and antonyms are usually drilled as columns of words. Pairing
+   each one with a sentence shows that a synonym is not always a swap. */
+function kasingSalungat() {
+    return listPicker({
+        id: 'ks', label: 'KAPAREHO O KABALIKTARAN?', height: 272, y0: 60, dy: 26,
+        alt: 'Anim na pares ng salita, tatlong magkasingkahulugan at tatlong magkasalungat',
+        capA: 'Ugnayan: ', capB: 'Halimbawa: ',
+        rows: [
+            { short: 'mabilis — matulin', a: 'Magkasingkahulugan — iisa ang dalang kahulugan',
+              b: 'Matulin ang takbo niya sa huling round.' },
+            { short: 'matalino — marunong', a: 'Magkasingkahulugan',
+              b: 'Marunong siyang magbasa ng laban.' },
+            { short: 'malungkot — nalulumbay', a: 'Magkasingkahulugan',
+              b: 'Nalulumbay siya matapos ang pagkatalo.' },
+            { short: 'mabilis — mabagal', a: 'Magkasalungat — kabaligtaran ang kahulugan',
+              b: 'Mabagal ang unang lap, mabilis ang huli.' },
+            { short: 'magaan — mabigat', a: 'Magkasalungat',
+              b: 'Magaan ang guwantes, mabigat ang sandbag.' },
+            { short: 'matapang — duwag', a: 'Magkasalungat',
+              b: 'Hindi duwag ang umayaw kapag sugatan na.' }
+        ]
+    });
+}
+
+/* Aspect is about where the action sits relative to now, so the figure
+   draws now as a line and moves the action across it. */
+function aspektoPandiwa() {
+    const axis = `<path class="fig-chain" d="M40 130 L360 130"/>
+      <line class="fig-rule-strong" x1="200" y1="96" x2="200" y2="164"/>
+      <text class="fig-step" x="200" y="88" text-anchor="middle">NGAYON</text>
+      <text class="fig-note-dim" x="46" y="182">nakaraan</text>
+      <text class="fig-note-dim" x="354" y="182" text-anchor="end">hinaharap</text>`;
+    const span = (x, w) => `<rect class="fig-bar" x="${x}" y="122" width="${w}" height="16" rx="8"/>`;
+    const verb = t => `<text class="fig-expr" x="200" y="56" text-anchor="middle">${t}</text>`;
+    return demoSwitch({
+        id: 'as', height: 254, capY: 208,
+        label: 'SAAN NAKAUPO ANG KILOS?',
+        alt: 'Tatlong aspekto ng pandiwa na iginuhit sa isang guhit ng panahon na may markang ngayon',
+        demos: [
+            { btn: 'nagsanay', svg: `${verb('nagsanay')}${axis}${span(56, 110)}`,
+              a: 'PERPEKTIBO — tapos na ang kilos',
+              b: 'Nagsanay siya kagabi. Wala nang ginagawa ngayon.' },
+            { btn: 'nagsasanay', svg: `${verb('nagsasanay')}${axis}${span(140, 120)}`,
+              a: 'IMPERPEKTIBO — nagaganap pa, hindi pa tapos',
+              b: 'Nagsasanay siya ngayon. Nagsimula na, hindi pa natapos.' },
+            { btn: 'magsasanay', svg: `${verb('magsasanay')}${axis}${span(234, 110)}`,
+              a: 'KONTEMPLATIBO — hindi pa nagsimula',
+              b: 'Magsasanay siya bukas. Balak pa lang.' }
+        ]
+    });
+}
+
+/* Six kinds of adverb, each tied to the question it answers. The question is
+   the test: if none of the six questions fits, it is not a pang-abay. */
+function uriPangAbay() {
+    return listPicker({
+        id: 'pa', label: 'ANONG TANONG ANG SINASAGOT?', height: 272, y0: 60, dy: 26,
+        alt: 'Anim na uri ng pang-abay, bawat isa may tanong na sinasagot at halimbawa',
+        capA: 'Sinasagot: ', capB: 'Halimbawa: ',
+        rows: [
+            { short: 'Pamanahon', a: 'KAILAN nangyari ang kilos',
+              b: 'Tuwing Sabado siya nagsasanay sa gym.' },
+            { short: 'Panlunan', a: 'SAAN nangyari ang kilos',
+              b: 'Sa garahe inihiwalay ang makina.' },
+            { short: 'Pamaraan', a: 'PAANO ginawa ang kilos',
+              b: 'Dahan-dahan niyang binuksan ang kapasitor.' },
+            { short: 'Panang-ayon', a: 'Pagsang-ayon — oo, tunay, talaga',
+              b: 'Talagang bumilis siya pagkatapos ng dalawang buwan.' },
+            { short: 'Pananggi', a: 'Pagtanggi — hindi, huwag, ayaw',
+              b: 'Huwag mong hawakan ang kapasitor kung nakakabit pa.' },
+            { short: 'Pang-agam', a: 'Hindi tiyak — baka, marahil, siguro',
+              b: 'Baka manalo siya kung tatapusin niya ang programa.' }
+        ]
+    });
+}
+
 export const FIGURES = {
+    kaukulanPangngalan,
+    panghalipPanao,
+    pamatligLapit,
+    panaklawTakip,
+    kailananPanghalip,
+    uriPangUri,
+    kaantasanPangUri,
+    kasingSalungat,
+    aspektoPandiwa,
+    uriPangAbay,
+
     crumpleZone,
     muscleTypes,
     armPair,

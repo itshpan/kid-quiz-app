@@ -1,0 +1,528 @@
+{
+  "id": "fil-t2-w11",
+  "courseId": "filipino",
+  "courseTitle": "Filipino",
+  "week": 11,
+  "title": "Pagsusulit",
+  "subtitle": "Sampung linggo ng Filipino, isang papel.",
+  "estMinutes": 30,
+  "objectives": [
+    "Maalala ang kaukulan ng pangngalan",
+    "Maalala ang apat na uri ng panghalip",
+    "Maalala ang uri at kaantasan ng pang-uri",
+    "Maalala ang aspekto, pokus at pang-abay",
+    "Maalala ang kasaysayan at kulturang nasa likod ng mga akda"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "📝",
+      "eyebrow": "Bahagi 11 · Pagsusulit",
+      "title": "Sampung linggo, isang papel",
+      "text": "Dalawampu't apat na tanong. Nakahanay ang pagbabalik-aral ayon sa sinulid, hindi ayon sa linggo, dahil ganoon haluin ng papel."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Sinulid 1",
+      "title": "Pangngalan: ang pananda ang nagbabago",
+      "text": "Tatlong kaukulan, dalawang hanay ng pananda.",
+      "points": [
+        "**Palagyo:** ang, si. **Paari:** ng, ni.",
+        "**Palayon:** sa, kay.",
+        "**Pambalana:** ang, ng, sa. **Pantangi:** si, ni, kay.",
+        "**Hindi nagbabago ang salita.** Pananda lamang."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Anong kaukulan ang \"ni Carlo\" sa \"Nasira ang gulong ni Carlo\"?",
+        "options": [
+          "Palagyo",
+          "Palayon",
+          "Paari",
+          "Pamilang"
+        ],
+        "answerIndex": 2,
+        "explain": "Siya ang may-ari.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Sinulid 2",
+      "title": "Panghalip: apat na pangkat",
+      "text": "Lahat sila pamalit sa pangalan. Iba ang trabaho.",
+      "points": [
+        "**Panao:** ako, ikaw, siya, kami, tayo.",
+        "**Pananong:** sino, kanino, ano, alin, ilan.",
+        "**Pamatlig:** ito, iyan, iyon — ayon sa layo.",
+        "**Panaklaw:** lahat, sinuman, anuman — walang tiyak."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "kailananPanghalip",
+      "title": "Balik-aral · anim na pindutan",
+      "text": "Pindutin ang bawat hanay. Ang tayo at kami ang pinakamadalas na mali."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Kausap mo ang kakampi mo. Alin ang tama?",
+        "options": [
+          "Kayo ang susunod.",
+          "Tayo ang susunod.",
+          "Kami ang susunod.",
+          "Sila ang susunod."
+        ],
+        "answerIndex": 1,
+        "explain": "Kasama ang kinakausap.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Sinulid 3",
+      "title": "Pang-uri: uri, kayarian, kaantasan",
+      "text": "Tatlong magkahiwalay na tanong tungkol sa isang salita.",
+      "points": [
+        "**Uri:** panlarawan o pamilang? May bilang ba?",
+        "**Kayarian:** payak, maylapi, inuulit, tambalan.",
+        "**Kaantasan:** ilan ang pinaghahambing?",
+        "**Pahambing:** kasing- kung pantay, mas kung may nangunguna."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "kaantasanPangUri",
+      "title": "Balik-aral · tatlong tagpo",
+      "text": "Pindutin ang tatlong antas. Bilangin ang bar bago piliin ang pangalan."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "\"Kasingbilis ng Civic ang Vios.\" Anong antas?",
+        "options": [
+          "Pahambing na magkatulad",
+          "Pahambing na di-magkatulad",
+          "Pasukdol",
+          "Lantay"
+        ],
+        "answerIndex": 0,
+        "explain": "Pantay ang dalawa.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Sinulid 4",
+      "title": "Pandiwa at pang-abay",
+      "text": "Isang tanong sa bawat isa.",
+      "points": [
+        "**Aspekto:** tapos na, ginagawa pa, o hindi pa?",
+        "**Pokus:** alin ang may pananda na ang?",
+        "**Pang-abay:** ano ang tinuturo nito — kilos o bagay?",
+        "**Na** sa harap ng pangngalan; **nang** sa harap ng kilos."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Sa boksing",
+      "title": "Paano gawin ang papel",
+      "text": "Labindalawang round, hindi isang suntok.",
+      "points": [
+        "**Basahin ang buong tanong** bago pumili.",
+        "**Sa kaukulan, hanapin ang pananda** — hindi ang pwesto.",
+        "**Markahan ang mahirap at lumipat.** Balikan.",
+        "**Huwag magpalit ng sagot** kung wala kang masabing dahilan."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Sa pagkukuwento",
+      "title": "Apat na akda, apat na panahon",
+      "text": "Nakahanay ang pagbasa ngayong markahan sa kasaysayan ng bansa.",
+      "points": [
+        "**Bago ang Espanyol:** barangay, datu, baybayin.",
+        "**Panahon ng Espanyol:** tributo, polo, cedula.",
+        "**Panahon ng Hapon:** rasyon, gerilya, Makapili.",
+        "**Maranao:** Darangen, okir, sarimanok."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Sa katawan mo",
+      "title": "Bahagi ng pagsusulit ang gabi bago",
+      "text": "Hindi ito tungkol sa pagiging matalino sa araw na iyon.",
+      "points": [
+        "**Mas mabuti ang tulog** kaysa pagpupuyat.",
+        "**Kumain.** Asukal ang gasolina ng utak.",
+        "**Pagsubok sa sarili**, hindi paulit-ulit na pagbasa.",
+        "**Apat na sinulid lang.** Iyon ang buong papel."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Handa na",
+      "title": "Ang apat na sinulid",
+      "points": [
+        "Pangngalan: ang pananda ang nagbabago.",
+        "Panghalip: panao, pananong, pamatlig, panaklaw.",
+        "Pang-uri: uri, kayarian, kaantasan — tatlong tanong.",
+        "Pandiwa at pang-abay: aspekto, pokus, at ang tinuturo."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Anong kaukulan ang \"sa sandbag\" sa \"Sumuntok siya sa sandbag\"?",
+      "options": [
+        "Palagyo",
+        "Pamilang",
+        "Palayon",
+        "Paari"
+      ],
+      "answerIndex": 2,
+      "explain": "Doon papunta ang kilos.",
+      "objective": "Maalala ang kaukulan ng pangngalan",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Aling pananda ang tama para sa pangalan ng tao?",
+      "options": [
+        "Nanalo ni Nica.",
+        "Nanalo kay Nica.",
+        "Nanalo si Nica.",
+        "Nanalo ang Nica."
+      ],
+      "answerIndex": 2,
+      "explain": "Pantangi at siya ang gumawa.",
+      "objective": "Maalala ang kaukulan ng pangngalan",
+      "seconds": 18
+    },
+    {
+      "type": "type",
+      "text": "Anong pananda ng paari para sa pambalana? Isang salita.",
+      "accept": [
+        "ng"
+      ],
+      "explain": "Makina ng kotse.",
+      "objective": "Maalala ang kaukulan ng pangngalan",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Anong kailanan ang \"kata\"?",
+      "options": [
+        "Dalawahan",
+        "Isahan",
+        "Maramihan",
+        "Walang kailanan"
+      ],
+      "answerIndex": 0,
+      "explain": "Tiyak na dalawa.",
+      "objective": "Maalala ang apat na uri ng panghalip",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Nagkukuwento ka sa kalaban tungkol sa koponan mo. Alin ang tama?",
+      "options": [
+        "Kayo ang nanalo.",
+        "Tayo ang nanalo.",
+        "Kata ang nanalo.",
+        "Kami ang nanalo."
+      ],
+      "answerIndex": 3,
+      "explain": "Hindi kasama ang kausap.",
+      "objective": "Maalala ang apat na uri ng panghalip",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Hawak ng kinakausap mo ang gamit. Alin ang tama?",
+      "options": [
+        "Luma na iyon.",
+        "Luma na iyan.",
+        "Luma na dito.",
+        "Luma na ito."
+      ],
+      "answerIndex": 1,
+      "explain": "Malapit sa kausap.",
+      "objective": "Maalala ang apat na uri ng panghalip",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Anong anyong panlunan ng \"iyon\"?",
+      "options": [
+        "diyan",
+        "niyon",
+        "doon",
+        "dito"
+      ],
+      "answerIndex": 2,
+      "explain": "Doon.",
+      "objective": "Maalala ang apat na uri ng panghalip",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang panghalip panaklaw?",
+      "options": [
+        "sinuman",
+        "kanino",
+        "kami",
+        "ito"
+      ],
+      "answerIndex": 0,
+      "explain": "Walang tiyak na tinutukoy.",
+      "objective": "Maalala ang apat na uri ng panghalip",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang mali?",
+      "options": [
+        "Mabilis si Carlo.",
+        "Mabilis ka.",
+        "Ikaw ang mabilis.",
+        "Ka ay mabilis."
+      ],
+      "answerIndex": 3,
+      "explain": "Hindi puwedeng mag-una ang ka.",
+      "objective": "Maalala ang apat na uri ng panghalip",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Anong uri ang \"tatluhan\"?",
+      "options": [
+        "Panunuran",
+        "Patakaran",
+        "Panlarawan",
+        "Palansak"
+      ],
+      "answerIndex": 3,
+      "explain": "Ilan-ilan.",
+      "objective": "Maalala ang uri at kaantasan ng pang-uri",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Anong uri ang \"kalahati\"?",
+      "options": [
+        "Panlarawan",
+        "Palansak",
+        "Patakaran",
+        "Pamahagi"
+      ],
+      "answerIndex": 3,
+      "explain": "Bahagi ng kabuuan.",
+      "objective": "Maalala ang uri at kaantasan ng pang-uri",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Anong kayarian ang \"balat-sibuyas\"?",
+      "options": [
+        "Tambalan",
+        "Maylapi",
+        "Inuulit",
+        "Payak"
+      ],
+      "answerIndex": 0,
+      "explain": "Dalawang salita, isang kahulugan.",
+      "objective": "Maalala ang uri at kaantasan ng pang-uri",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang senyas ng pasukdol?",
+      "options": [
+        "mas",
+        "ubod ng",
+        "kasing-",
+        "higit"
+      ],
+      "answerIndex": 1,
+      "explain": "Ubod ng bilis.",
+      "objective": "Maalala ang uri at kaantasan ng pang-uri",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "\"Matibay ang gulong.\" Anong antas?",
+      "options": [
+        "Lantay",
+        "Pasukdol",
+        "Pahambing",
+        "Palansak"
+      ],
+      "answerIndex": 0,
+      "explain": "Walang kahambing.",
+      "objective": "Maalala ang uri at kaantasan ng pang-uri",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang salungat ng \"magaan\"?",
+      "options": [
+        "mabigat",
+        "makapal",
+        "malaki",
+        "mahaba"
+      ],
+      "answerIndex": 0,
+      "explain": "Mabigat.",
+      "objective": "Maalala ang uri at kaantasan ng pang-uri",
+      "seconds": 16
+    },
+    {
+      "type": "truefalse",
+      "text": "Laging puwedeng ipalit ang kasingkahulugan sa kahit anong pangungusap.",
+      "answer": false,
+      "explain": "Magkaiba ang bigat at pormalidad. Tanungin kung kasya.",
+      "objective": "Maalala ang uri at kaantasan ng pang-uri",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Anong aspekto ang \"nagsasanay\"?",
+      "options": [
+        "Kontemplatibo",
+        "Perpektibo",
+        "Imperpektibo",
+        "Walang aspekto"
+      ],
+      "answerIndex": 2,
+      "explain": "Ginagawa pa.",
+      "objective": "Maalala ang aspekto, pokus at pang-abay",
+      "seconds": 16
+    },
+    {
+      "type": "type",
+      "text": "Anong kontemplatibo ng \"naglinis\"? Isang salita.",
+      "accept": [
+        "maglilinis"
+      ],
+      "explain": "Hindi pa nagsimula.",
+      "objective": "Maalala ang aspekto, pokus at pang-abay",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "\"Pinaglinisan ni Carlo ang garahe.\" Anong pokus?",
+      "options": [
+        "Kagamitan",
+        "Ganapan",
+        "Layon",
+        "Tagaganap"
+      ],
+      "answerIndex": 1,
+      "explain": "Lugar ang may ang.",
+      "objective": "Maalala ang aspekto, pokus at pang-abay",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang tamang paggamit ng na at nang?",
+      "options": [
+        "mabilis na kotse",
+        "tumakbo na mabilis",
+        "mabilis nang kotse",
+        "kotse nang mabilis"
+      ],
+      "answerIndex": 0,
+      "explain": "Na sa harap ng pangngalan.",
+      "objective": "Maalala ang aspekto, pokus at pang-abay",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Anong uri ng pang-abay ang \"baka\"?",
+      "options": [
+        "Pamanahon",
+        "Pananggi",
+        "Panang-ayon",
+        "Pang-agam"
+      ],
+      "answerIndex": 3,
+      "explain": "Hindi tiyak.",
+      "objective": "Maalala ang aspekto, pokus at pang-abay",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Ang maharlika ay…",
+      "options": [
+        "ang hari",
+        "pari",
+        "mandirigma at malayang tao",
+        "alipin"
+      ],
+      "answerIndex": 2,
+      "explain": "Ang datu ang namumuno, hindi ang maharlika.",
+      "objective": "Maalala ang kasaysayan at kulturang nasa likod ng mga akda",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Ano ang polo y servicio?",
+      "options": [
+        "Isang buwis",
+        "Sapilitang paggawa",
+        "Isang paaralan",
+        "Isang papel"
+      ],
+      "answerIndex": 1,
+      "explain": "Apatnapung araw bawat taon.",
+      "objective": "Maalala ang kasaysayan at kulturang nasa likod ng mga akda",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Ang Darangen ay…",
+      "options": [
+        "isang batas",
+        "isang epikong inaawit",
+        "isang nobela",
+        "isang sining ng pag-ukit"
+      ],
+      "answerIndex": 1,
+      "explain": "Inaawit. Okir ang sining ng pag-ukit.",
+      "objective": "Maalala ang kasaysayan at kulturang nasa likod ng mga akda",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Linggo 11 ng Filipino: ang pagsasanay na papel. Dalawampu't apat na tanong mula sa lahat ng sampung linggong nagdaan, at nakahanay ang pagbabalik-aral ayon sa apat na sinulid — pangngalan, panghalip, pang-uri, pandiwa at pang-abay — dahil ganoon ito haluin ng tunay na papel. Bumabalik ang dalawang interaktibong figura upang ang huling gawain niya bago ang papel ay aktibong paggunita at hindi pagbabasa ng listahan. Ang isang lente ay pinagsasama ang apat na akda ng markahan sa apat na panahon ng kasaysayan, dahil doon madaling malimutan ang konteksto. IMPORTANTE PARA SA GURO O MAGULANG: walang tanong tungkol sa balangkas ng anumang akda dahil hindi pa nakikita ang mga edisyong gamit ng klase; ang mga tanong sa pagbasa ay tungkol lamang sa totoong kasaysayan at kulturang nasa mga lesson.",
+    "discussion": [
+      "Alin sa apat na sinulid ang pinakamahina pa?",
+      "Pasagutin siya: anong tanong ang itinatanong sa kaukulan? Sa kaantasan? Sa pokus?",
+      "Itanong kung bakit hindi tense ang aspekto.",
+      "Pasabihin sa kaniya ang apat na panahon ng apat na akda."
+    ],
+    "extension": [
+      "Isagawa ang pagsusulit minsan nang mabilis, pagkatapos muli pagkalipas ng ilang araw.",
+      "Pasulatin siya ng isang tanong sa pagsusulit para sa bawat sinulid."
+    ],
+    "misconceptions": [
+      "\"Pagbabasang muli ang pag-aaral.\" Pagsubok sa sarili ang pag-aaral.",
+      "\"Isang tanong lang ang pang-uri.\" Tatlo: uri, kayarian, kaantasan.",
+      "\"Pananda ang pokus.\" Ang pananda na ang ang hinahanap."
+    ]
+  }
+}

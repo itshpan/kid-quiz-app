@@ -1,0 +1,387 @@
+{
+  "id": "fil-t2-w1",
+  "courseId": "filipino",
+  "courseTitle": "Filipino",
+  "week": 1,
+  "title": "Kaukulan ng Pangngalan",
+  "subtitle": "Palagyo, paari, palayon — at kung bakit ang pananda ang nagbabago.",
+  "estMinutes": 20,
+  "objectives": [
+    "Matukoy ang kaukulang palagyo, paari at palayon",
+    "Magamit nang tama ang ang, ng at sa",
+    "Maiba ang pananda ng pantangi sa pambalana",
+    "Maunawaan na ang pananda ang nagbabago, hindi ang salita",
+    "Maipaliwanag ang kalagayan ng pamilyang Pilipino bago buksan ang akda"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🏷️",
+      "eyebrow": "Bahagi 1 · Tatlong pananda",
+      "title": "Hindi nagbabago ang pangngalan. Nagbabago ang pananda.",
+      "text": "Sa Ingles, nagdadagdag ka ng 's para sa may-ari. Sa Filipino, hindi ginagalaw ang salita — pinapalitan ang maliit na salitang nauuna."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang pangunahing kaisipan",
+      "title": "Tatlong trabaho, tatlong pananda",
+      "text": "Isang pangngalan, tatlong posisyon sa pangungusap.",
+      "points": [
+        "**Palagyo** — ito ang gumagawa o pinag-uusapan.",
+        "**Paari** — ito ang may-ari ng isang bagay.",
+        "**Palayon** — ito ang pinatutunguhan ng kilos.",
+        "**Iisa ang salitang \"kotse\"** sa tatlo. Iba ang pananda."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "kaukulanPangngalan",
+      "title": "Anim na pananda, isa-isa",
+      "text": "Pindutin ang bawat pananda. Tingnan ang kaukulan at ang halimbawa."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Anong kaukulan ang \"ng kotse\" sa \"Umalingawngaw ang makina ng kotse\"?",
+        "options": [
+          "Palayon",
+          "Pamilang",
+          "Paari",
+          "Palagyo"
+        ],
+        "answerIndex": 2,
+        "explain": "Ang kotse ang may-ari ng makina. Paari iyon.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ikalawang kaisipan",
+      "title": "Pantangi o pambalana? Iba ang pananda",
+      "text": "Para sa pangalan ng tao, may sariling pananda.",
+      "points": [
+        "**Pambalana:** ang, ng, sa — boksingero, kotse, gym.",
+        "**Pantangi:** si, ni, kay — Manny, Carlo, Nica.",
+        "**Maramihan:** ang mga, ng mga, sa mga; sina, nina, kina.",
+        "**Mali:** \"ang Manny\". **Tama:** \"si Manny\"."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Sa boksing",
+      "title": "Isang tao, tatlong pananda",
+      "text": "Hindi nagbabago si Manny. Nagbabago ang papel niya sa pangungusap.",
+      "points": [
+        "**Palagyo:** Sumuntok si Manny.",
+        "**Paari:** Makapal ang benda ni Manny.",
+        "**Palayon:** Ibinigay ang titulo kay Manny.",
+        "**Pareho ang pangalan.** Tatlong pananda."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Alin ang tama?",
+        "options": [
+          "Nanalo si Carlo.",
+          "Nanalo ang Carlo.",
+          "Nanalo kay Carlo.",
+          "Nanalo ni Carlo."
+        ],
+        "answerIndex": 0,
+        "explain": "Pantangi ang Carlo at siya ang gumawa, kaya si.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Sa bentilador",
+      "title": "Nakikita ang paari sa pagbukas",
+      "text": "Kapag binuksan mo ang bentilador, puro paari ang makikita mo.",
+      "points": [
+        "**Ang talim ng bentilador** — paari.",
+        "**Ang kapasitor ng motor** — paari.",
+        "**Bawat bahagi** ay pag-aari ng mas malaking bagay.",
+        "**Kaya \"ng\" ang laging gamit** sa listahan ng mga parte."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Mga salitang lalabas sa pagsusulit",
+      "terms": [
+        {
+          "term": "Kaukulan",
+          "def": "Ang papel ng pangngalan sa pangungusap."
+        },
+        {
+          "term": "Palagyo",
+          "def": "Ang gumagawa o pinag-uusapan: ang, si."
+        },
+        {
+          "term": "Paari",
+          "def": "Ang may-ari: ng, ni."
+        },
+        {
+          "term": "Palayon",
+          "def": "Ang pinatutunguhan: sa, kay."
+        }
+      ]
+    },
+    {
+      "kind": "open",
+      "icon": "📖",
+      "eyebrow": "Bahagi 2 · Bago mo buksan",
+      "title": "Papa's House, Mama's House",
+      "text": "Hindi pa nakikita ang edisyong gamit ng klase mo, kaya walang buod ng kuwento dito. Ito ang totoong kalagayan na kailangan mong alam bago mo iyon buksan."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Kasaysayan",
+      "title": "Maraming pamilyang Pilipino ang nakahiwalay",
+      "text": "Hindi ito kathang-isip. Isa itong malaking bahagi ng buhay sa Pilipinas.",
+      "points": [
+        "**Mahigit dalawang milyong Pilipino** ang nagtatrabaho sa ibang bansa.",
+        "**Kadalasan ay magulang** ang umaalis, hindi ang anak.",
+        "**Nananatili ang anak** sa lola, tiyahin o kapatid.",
+        "**Dalawang tahanan, isang pamilya** — pamilyar ito sa milyon-milyong bata."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Kasanayan sa pagbasa",
+      "title": "Tatlong tanong sa bawat akda",
+      "text": "Ito ang hahanapin mo sa unang kabanata, anuman ang edisyon.",
+      "points": [
+        "**Tauhan** — sino ang nagkukuwento, at kanino?",
+        "**Tagpuan** — saan at kailan?",
+        "**Suliranin** — ano ang hindi pa tapos?",
+        "**Damdamin** — ano ang nararamdaman niya, at saan iyon nakita?"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Sa pagbasa, ano ang ibig sabihin ng tagpuan?",
+        "options": [
+          "Ang mga tauhan",
+          "Ang saan at kailan",
+          "Ang katapusan",
+          "Ang suliranin"
+        ],
+        "answerIndex": 1,
+        "explain": "Tagpuan: lugar at panahon ng kuwento.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Sa pagkukuwento",
+      "title": "Ang tahanan ay hindi gusali",
+      "text": "Kapag may dalawang bahay ang isang bata, dalawang tahanan ba o kalahati?",
+      "points": [
+        "**Tanong iyon ng akda**, hindi ng gramatika.",
+        "**Walang tamang sagot** na nakalista sa likod ng libro.",
+        "**Pansinin kung paano** sinasabi ng bata ang \"amin\".",
+        "**Iyon ang panghalip** na aralin natin sa Linggo 2."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Tapos na",
+      "title": "Ang tatandaan",
+      "points": [
+        "Tatlong kaukulan: palagyo, paari, palayon.",
+        "Pambalana: ang, ng, sa. Pantangi: si, ni, kay.",
+        "Hindi nagbabago ang pangngalan — ang pananda ang nagbabago.",
+        "Tauhan, tagpuan, suliranin, damdamin: apat na tanong sa bawat akda."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Anong kaukulan ang \"ang sasakyan\" sa \"Mabilis ang sasakyan\"?",
+      "options": [
+        "Palagyo",
+        "Palayon",
+        "Paari",
+        "Pamilang"
+      ],
+      "answerIndex": 0,
+      "explain": "Siya ang pinag-uusapan.",
+      "objective": "Matukoy ang kaukulang palagyo, paari at palayon",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Anong kaukulan ang \"ni Carlo\" sa \"Nasira ang gulong ni Carlo\"?",
+      "options": [
+        "Palagyo",
+        "Pamanahon",
+        "Palayon",
+        "Paari"
+      ],
+      "answerIndex": 3,
+      "explain": "Si Carlo ang may-ari ng gulong.",
+      "objective": "Matukoy ang kaukulang palagyo, paari at palayon",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Anong kaukulan ang \"sa sandbag\" sa \"Sumuntok siya sa sandbag\"?",
+      "options": [
+        "Palagyo",
+        "Pamilang",
+        "Palayon",
+        "Paari"
+      ],
+      "answerIndex": 2,
+      "explain": "Doon papunta ang kilos.",
+      "objective": "Matukoy ang kaukulang palagyo, paari at palayon",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang tamang pananda: \"Nanalo ___ Nica sa huling round\"?",
+      "options": [
+        "si",
+        "ng",
+        "kay",
+        "ang"
+      ],
+      "answerIndex": 0,
+      "explain": "Pantangi at siya ang gumawa, kaya si.",
+      "objective": "Maiba ang pananda ng pantangi sa pambalana",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang tama?",
+      "options": [
+        "Ibinigay ang titulo kay Manny.",
+        "Ibinigay ang titulo si Manny.",
+        "Ibinigay ang titulo ni Manny.",
+        "Ibinigay ang titulo ang Manny."
+      ],
+      "answerIndex": 0,
+      "explain": "Palayon at pantangi, kaya kay.",
+      "objective": "Maiba ang pananda ng pantangi sa pambalana",
+      "seconds": 20
+    },
+    {
+      "type": "type",
+      "text": "Ano ang pananda ng paari para sa pambalana? Isang salita.",
+      "accept": [
+        "ng"
+      ],
+      "explain": "Halimbawa: makina ng kotse.",
+      "objective": "Magamit nang tama ang ang, ng at sa",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Ang maramihang anyo ng \"si\" ay…",
+      "options": [
+        "nina",
+        "kina",
+        "sina",
+        "ang mga"
+      ],
+      "answerIndex": 2,
+      "explain": "Sina Carlo at Nica.",
+      "objective": "Maiba ang pananda ng pantangi sa pambalana",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "Nagbabago ang anyo ng pangngalan kapag nagbago ang kaukulan.",
+      "answer": false,
+      "explain": "Ang pananda ang nagbabago. \"Kotse\" pa rin ang kotse sa tatlong kaukulan.",
+      "objective": "Maunawaan na ang pananda ang nagbabago, hindi ang salita",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Sa \"Ibinigay ng koponan ang tropeo sa bagong boksingero\", ano ang palayon?",
+      "options": [
+        "ng koponan",
+        "sa bagong boksingero",
+        "ang tropeo",
+        "ibinigay"
+      ],
+      "answerIndex": 1,
+      "explain": "Doon napunta ang tropeo.",
+      "objective": "Matukoy ang kaukulang palagyo, paari at palayon",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Bakit mahalagang alam ang tagpuan ng isang akda?",
+      "options": [
+        "Para malaman ang may-akda",
+        "Para maunawaan kung bakit gumagalaw nang ganoon ang tauhan",
+        "Para mabilang ang pahina",
+        "Para malaman ang wakas"
+      ],
+      "answerIndex": 1,
+      "explain": "Ang lugar at panahon ang nagpapaliwanag ng pasya ng tauhan.",
+      "objective": "Maipaliwanag ang kalagayan ng pamilyang Pilipino bago buksan ang akda",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Ilang Pilipino ang nagtatrabaho sa ibang bansa?",
+      "options": [
+        "Mahigit dalawampung milyon",
+        "Mahigit dalawang milyon",
+        "Mahigit dalawang daang libo",
+        "Mahigit dalawampung libo"
+      ],
+      "answerIndex": 1,
+      "explain": "Dahil dito, pamilyar sa milyon-milyong bata ang hiwalay na tahanan.",
+      "objective": "Maipaliwanag ang kalagayan ng pamilyang Pilipino bago buksan ang akda",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang HINDI isa sa apat na tanong sa pagbasa?",
+      "options": [
+        "Tauhan",
+        "Tagpuan",
+        "Suliranin",
+        "Bilang ng pahina"
+      ],
+      "answerIndex": 3,
+      "explain": "Tauhan, tagpuan, suliranin, damdamin.",
+      "objective": "Maipaliwanag ang kalagayan ng pamilyang Pilipino bago buksan ang akda",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Linggo 1 ng Filipino sa Ikalawang Markahan: ang kaukulan ng pangngalan. Ang pangunahing kaisipan ay hindi ang tatlong pangalan kundi ang obserbasyon na hindi nagbabago ang pangngalan sa Filipino — ang pananda ang nagbabago. Malinaw ito kapag itinabi sa Ingles, kung saan nagdadagdag ng 's. Hiwalay na itinuro ang pananda ng pantangi dahil \"ang Manny\" ang pinakamadalas na mali. IMPORTANTE PARA SA GURO O MAGULANG: walang buod ng Papa's House, Mama's House dito dahil hindi pa nakikita ang edisyong gamit ng klase. Ang nasa ikalawang bahagi ay totoong kalagayang panlipunan at ang apat na tanong sa pagbasa, na magagamit anuman ang edisyon.",
+    "discussion": [
+      "Pasagutin siya ng isang pangngalan sa tatlong kaukulan: ang kotse, ng kotse, sa kotse.",
+      "Itanong kung bakit mali ang \"ang Manny\".",
+      "Pahanapin siya ng tatlong \"ng\" sa isang pahina ng manwal ng bentilador.",
+      "Itanong kung ano ang tagpuan ng kuwentong binabasa niya ngayon."
+    ],
+    "extension": [
+      "Pasulatin siya ng anim na pangungusap: tatlong kaukulan, pambalana at pantangi.",
+      "Ipalista ang mga parte ng isang kagamitan gamit ang \"ng\"."
+    ],
+    "misconceptions": [
+      "\"Nagbabago ang pangngalan kapag may ibang kaukulan.\" Ang pananda lamang.",
+      "\"Pareho ang ang at si.\" Pantangi ang si.",
+      "\"Palagi nang palagyo ang unang pangngalan.\" Tingnan ang pananda, hindi ang pwesto."
+    ]
+  }
+}

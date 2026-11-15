@@ -1,0 +1,351 @@
+{
+  "id": "fil-t2-w10",
+  "courseId": "filipino",
+  "courseTitle": "Filipino",
+  "week": 10,
+  "title": "Pang-abay at Uri ng Pang-abay",
+  "subtitle": "Tumuturo sa kilos — at ang pagkakaiba ng na at nang.",
+  "estMinutes": 20,
+  "objectives": [
+    "Matukoy ang pang-abay at ang sinasagot nito",
+    "Matukoy ang anim na uri ng pang-abay",
+    "Maiba ang pang-abay sa pang-uri",
+    "Magamit ang pang-abay sa pangungusap"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🧭",
+      "eyebrow": "Bahagi 1 · Pang-abay",
+      "title": "Tumuturo sa kilos, hindi sa bagay",
+      "text": "Isang tanong ang naghihiwalay ng pang-abay sa pang-uri: ano ang tinuturo nito? Kung pangngalan, pang-uri. Kung kilos, pang-abay."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ang pangunahing kaisipan",
+      "title": "Pang-uri o pang-abay?",
+      "text": "Hindi ang salita ang susi. Ang tinuturo nito.",
+      "points": [
+        "**Pang-uri** — tumuturo sa pangngalan: mabilis **na kotse**.",
+        "**Pang-abay** — tumuturo sa kilos: **tumakbo** nang mabilis.",
+        "**Iisang salitang \"mabilis\"** sa dalawa.",
+        "**Tanong:** ano ang inilalarawan nito?"
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "uriPangAbay",
+      "title": "Anim na pindutan",
+      "text": "Pindutin ang bawat uri. Tingnan kung anong tanong ang sinasagot nito."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Sa \"Tumakbo siya nang mabilis\", ano ang \"nang mabilis\"?",
+        "options": [
+          "Pangngalan",
+          "Pang-abay",
+          "Pang-uri",
+          "Pandiwa"
+        ],
+        "answerIndex": 1,
+        "explain": "Tumuturo sa kilos na tumakbo.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Anim na uri",
+      "title": "Ang tanong ang pumipili",
+      "text": "Isang tanong sa bawat uri.",
+      "points": [
+        "**Pamanahon** — kailan. **Panlunan** — saan.",
+        "**Pamaraan** — paano.",
+        "**Panang-ayon** — oo, talaga. **Pananggi** — hindi, huwag.",
+        "**Pang-agam** — baka, marahil, siguro."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Anong uri ang \"tuwing Sabado\"?",
+        "options": [
+          "Pamanahon",
+          "Pananggi",
+          "Panlunan",
+          "Pamaraan"
+        ],
+        "answerIndex": 0,
+        "explain": "Sinasagot ang kailan.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Sa boksing",
+      "title": "Lahat ng anim sa isang tagubilin",
+      "text": "Isang bilin ng coach, anim na uri ng pang-abay.",
+      "points": [
+        "**Kailan:** mamayang alas-singko.",
+        "**Saan:** sa loob ng ring.",
+        "**Paano:** dahan-dahan sa simula.",
+        "**Pananggi:** huwag mong ibababa ang kamay."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Ikatlong kaisipan",
+      "title": "Ang nang at ang na",
+      "text": "Dito nagkakamali sa pagsulat, hindi sa pagtukoy.",
+      "points": [
+        "**Na** sa harap ng pangngalan: mabilis **na** kotse.",
+        "**Nang** sa harap ng kilos: tumakbo **nang** mabilis.",
+        "**Bago pumili**, tingnan kung ano ang susunod.",
+        "**Pangngalan ba o pandiwa?** Iyon ang tanong."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Sa sasakyan",
+      "title": "Pang-abay ang buong ulat ng karera",
+      "text": "Hindi sapat ang bilis. Kailangan kung paano, kailan at saan.",
+      "points": [
+        "**Paano:** maayos na pumasok sa liko.",
+        "**Kailan:** sa ikalabinlimang lap.",
+        "**Saan:** sa huling chicane.",
+        "**Pang-agam:** baka kulang ang gulong."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Sa bentilador",
+      "title": "Pang-abay ang bawat babala sa manwal",
+      "text": "Puno ng pang-abay ang mga tagubilin sa kaligtasan.",
+      "points": [
+        "**\"Huwag hawakan\"** — pananggi.",
+        "**\"Dahan-dahang tanggalin\"** — pamaraan.",
+        "**\"Bago kumabit\"** — pamanahon.",
+        "**Walang pang-abay, walang babala.**"
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Mga salitang lalabas sa pagsusulit",
+      "terms": [
+        {
+          "term": "Pang-abay",
+          "def": "Nagbibigay-turing sa pandiwa, pang-uri o kapwa pang-abay."
+        },
+        {
+          "term": "Pamaraan",
+          "def": "Sinasagot ang paano."
+        },
+        {
+          "term": "Pang-agam",
+          "def": "Hindi tiyak: baka, marahil, siguro."
+        },
+        {
+          "term": "Pananggi",
+          "def": "Pagtanggi: hindi, huwag, ayaw."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Tapos na",
+      "title": "Ang tatandaan",
+      "points": [
+        "Tumuturo sa kilos ang pang-abay; sa pangngalan ang pang-uri.",
+        "Anim na uri, anim na tanong.",
+        "Na sa harap ng pangngalan; nang sa harap ng kilos.",
+        "Iisang salita ang puwedeng pang-uri at pang-abay."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Anong uri ang \"sa garahe\"?",
+      "options": [
+        "Pamaraan",
+        "Panlunan",
+        "Pamanahon",
+        "Pananggi"
+      ],
+      "answerIndex": 1,
+      "explain": "Sinasagot ang saan.",
+      "objective": "Matukoy ang anim na uri ng pang-abay",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Anong uri ang \"dahan-dahan\"?",
+      "options": [
+        "Pamaraan",
+        "Panlunan",
+        "Pamanahon",
+        "Pang-agam"
+      ],
+      "answerIndex": 0,
+      "explain": "Sinasagot ang paano.",
+      "objective": "Matukoy ang anim na uri ng pang-abay",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Anong uri ang \"baka\"?",
+      "options": [
+        "Pang-agam",
+        "Panang-ayon",
+        "Pananggi",
+        "Pamanahon"
+      ],
+      "answerIndex": 0,
+      "explain": "Hindi tiyak.",
+      "objective": "Matukoy ang anim na uri ng pang-abay",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Anong uri ang \"huwag\"?",
+      "options": [
+        "Pamaraan",
+        "Pananggi",
+        "Panang-ayon",
+        "Panlunan"
+      ],
+      "answerIndex": 1,
+      "explain": "Pagtanggi.",
+      "objective": "Matukoy ang anim na uri ng pang-abay",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Anong uri ang \"talaga\"?",
+      "options": [
+        "Panang-ayon",
+        "Pamanahon",
+        "Pananggi",
+        "Panlunan"
+      ],
+      "answerIndex": 0,
+      "explain": "Pagsang-ayon.",
+      "objective": "Matukoy ang anim na uri ng pang-abay",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Sa \"mabilis na kotse\", ano ang \"mabilis\"?",
+      "options": [
+        "Pangngalan",
+        "Pandiwa",
+        "Pang-uri",
+        "Pang-abay"
+      ],
+      "answerIndex": 2,
+      "explain": "Tumuturo sa pangngalan.",
+      "objective": "Maiba ang pang-abay sa pang-uri",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Sa \"tumakbo nang mabilis\", ano ang \"nang mabilis\"?",
+      "options": [
+        "Pangngalan",
+        "Pang-abay",
+        "Pandiwa",
+        "Pang-uri"
+      ],
+      "answerIndex": 1,
+      "explain": "Tumuturo sa kilos.",
+      "objective": "Maiba ang pang-abay sa pang-uri",
+      "seconds": 20
+    },
+    {
+      "type": "type",
+      "text": "Punan: \"Binuksan niya ___ dahan-dahan ang takip\". Isang salita.",
+      "accept": [
+        "nang"
+      ],
+      "explain": "Nang sa harap ng salitang tumuturo sa kilos.",
+      "objective": "Magamit ang pang-abay sa pangungusap",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang tama?",
+      "options": [
+        "mabilis nang kotse",
+        "tumakbo na mabilis",
+        "kotse nang mabilis",
+        "mabilis na kotse"
+      ],
+      "answerIndex": 3,
+      "explain": "Na sa harap ng pangngalan.",
+      "objective": "Magamit ang pang-abay sa pangungusap",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "Isang salita ay puwedeng pang-uri sa isang pangungusap at pang-abay sa iba.",
+      "answer": true,
+      "explain": "Ang tinuturo nito ang nagpapasya, hindi ang salita.",
+      "objective": "Maiba ang pang-abay sa pang-uri",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Alin ang pang-abay na pamanahon?",
+      "options": [
+        "dahan-dahan",
+        "huwag",
+        "sa ring",
+        "mamaya"
+      ],
+      "answerIndex": 3,
+      "explain": "Sinasagot ang kailan.",
+      "objective": "Matukoy ang pang-abay at ang sinasagot nito",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Sa \"Huwag mong hawakan ang kapasitor bago kumabit\", ilan ang pang-abay?",
+      "options": [
+        "Wala",
+        "Tatlo",
+        "Dalawa",
+        "Isa"
+      ],
+      "answerIndex": 2,
+      "explain": "Huwag (pananggi) at bago kumabit (pamanahon).",
+      "objective": "Matukoy ang pang-abay at ang sinasagot nito",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Linggo 10 ng Filipino: ang pang-abay at ang anim na uri nito. Ang pangunahing kaisipan ay hindi ang anim na pangalan kundi ang obserbasyon na iisang salita ang puwedeng pang-uri o pang-abay — ang tinuturo nito ang nagpapasya. Idinagdag ang patakaran ng na at nang dahil ito ang pinakamadalas na pagkakamali sa pagsusulat ng isang mag-aaral sa Grade 6, at nakakabit ito nang direkta sa aralin: na sa harap ng pangngalan, nang sa harap ng kilos. Ang tatlong lente ay lahat tungkol sa tagubilin — bilin ng coach, ulat ng karera, babala sa manwal — dahil doon natural na dumadami ang pang-abay.",
+    "discussion": [
+      "Itanong: ano ang tinuturo ng salitang ito?",
+      "Isang tanong sa bawat uri: kailan, saan, paano?",
+      "Itanong kung bakit na at hindi nang.",
+      "Pahanapin siya ng pang-abay sa manwal ng isang kagamitan."
+    ],
+    "extension": [
+      "Pasulatin siya ng limang bilin sa isang kalaro gamit ang limang uri ng pang-abay.",
+      "Ipasulat ang ulat ng isang karera, pagkatapos bilangin ang pang-abay."
+    ],
+    "misconceptions": [
+      "\"Pang-abay ang lahat ng mabilis.\" Tingnan kung ano ang tinuturo nito.",
+      "\"Pareho ang na at nang.\" Pangngalan laban sa kilos ang pinagkaiba.",
+      "\"Pandiwa lang ang tinuturan ng pang-abay.\" Puwede rin ang pang-uri at kapwa pang-abay."
+    ]
+  }
+}
