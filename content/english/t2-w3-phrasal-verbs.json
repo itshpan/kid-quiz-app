@@ -1,0 +1,340 @@
+{
+  "id": "eng-t2-w3",
+  "courseId": "english",
+  "courseTitle": "English",
+  "week": 3,
+  "title": "Phrasal Verbs",
+  "subtitle": "Two words that mean something neither one does.",
+  "estMinutes": 20,
+  "objectives": [
+    "Identify a phrasal verb",
+    "Explain how the particle changes the meaning",
+    "Use common phrasal verbs correctly",
+    "Tell a phrasal verb from a verb plus preposition"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🧩",
+      "eyebrow": "Part 3 · Two words, one meaning",
+      "title": "A small word can change a verb completely",
+      "text": "Take 'take'. Now take off, take up, take in, take over. Same verb, four unrelated meanings."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "What it is",
+      "title": "A verb plus a particle, acting as one word",
+      "text": "The particle is a little word like up, off, out or into. Together they mean something new.",
+      "points": [
+        "**give up** does not mean giving anything.",
+        "**look after** is not about looking.",
+        "**The meaning is in the pair**, not in the verb alone.",
+        "**That is why** you cannot translate them word by word."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "Taking something apart has its own verbs",
+      "text": "Almost every step of a teardown is a phrasal verb, and swapping the particle changes the job.",
+      "points": [
+        "**take apart** — dismantle it into pieces.",
+        "**take off** — remove one part, like the guard.",
+        "**put back** — return it to where it was.",
+        "**put together** — reassemble the whole thing."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which means 'to dismantle'?",
+        "options": [
+          "take up",
+          "take apart",
+          "take off",
+          "take in"
+        ],
+        "answerIndex": 1,
+        "explain": "The particle 'apart' is doing all the work. 'Take off' would only remove one piece.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The test",
+      "title": "Can you split it?",
+      "text": "A real phrasal verb often lets the object sit in the middle. A plain preposition never does.",
+      "points": [
+        "**Turn the fan off** and **turn off the fan** are both fine.",
+        "**He ran up the hill** cannot become *he ran the hill up*.",
+        "**So 'ran up' there** is just a verb plus a preposition.",
+        "**If it splits**, it is usually a phrasal verb."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "aviation",
+      "icon": "✈️",
+      "eyebrow": "Aviation mode",
+      "title": "The ones every pilot uses",
+      "text": "Flight vocabulary is unusually full of them, and the particles matter.",
+      "points": [
+        "**take off** — leave the ground.",
+        "**touch down** — land.",
+        "**turn back** — abandon the route and return.",
+        "**hold off** — delay. Not the same as hold on."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "You can work out a phrasal verb's meaning from the two words separately.",
+        "answer": false,
+        "explain": "Usually not. 'Give up' has nothing to do with giving. The pair carries its own meaning.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Literature Review: Don Quixote, Chapter 13: In the Black Mountains",
+      "text": "Quixote decides to go into the mountains and do penance, mostly to prove he can.",
+      "points": [
+        "**He took off** most of his clothes.",
+        "**He sent Sancho away** with a letter.",
+        "**He carried on** alone, performing madness deliberately.",
+        "**The chapter is thick** with phrasal verbs."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which sentence splits correctly?",
+        "options": [
+          "He switched it off.",
+          "He off switched it.",
+          "He switched off it.",
+          "He switched off it quickly."
+        ],
+        "answerIndex": 0,
+        "explain": "A pronoun object must go in the middle: switched it off.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Phrasal verb",
+          "def": "A verb and a particle that together mean something new."
+        },
+        {
+          "term": "Particle",
+          "def": "The small word — up, off, out, back — attached to the verb."
+        },
+        {
+          "term": "Separable",
+          "def": "A phrasal verb that lets the object sit in the middle."
+        },
+        {
+          "term": "Preposition",
+          "def": "A word showing position or direction, not part of the verb."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "A phrasal verb is a verb plus a particle, meaning something new.",
+        "The particle decides the meaning: take off, take apart, take over.",
+        "If the object can sit in the middle, it is usually phrasal.",
+        "A pronoun object always goes in the middle."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "A phrasal verb is…",
+      "options": [
+        "a verb in the past",
+        "a long verb",
+        "a verb plus a particle acting as one unit",
+        "two verbs together"
+      ],
+      "answerIndex": 2,
+      "explain": "The pair carries a meaning neither word has alone.",
+      "objective": "Identify a phrasal verb",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which means 'to dismantle'?",
+      "options": [
+        "take apart",
+        "take up",
+        "take off",
+        "take in"
+      ],
+      "answerIndex": 0,
+      "explain": "The particle 'apart' carries it.",
+      "objective": "Use common phrasal verbs correctly",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "In aviation, 'touch down' means…",
+      "options": [
+        "to turn around",
+        "to climb",
+        "to land",
+        "to refuel"
+      ],
+      "answerIndex": 2,
+      "explain": "The opposite of take off.",
+      "objective": "Use common phrasal verbs correctly",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Which is correct?",
+      "options": [
+        "He turned it off.",
+        "He turned off it.",
+        "He turned off it quickly.",
+        "He off turned it."
+      ],
+      "answerIndex": 0,
+      "explain": "A pronoun object sits in the middle.",
+      "objective": "Use common phrasal verbs correctly",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "'Give up' is about giving something to someone.",
+      "answer": false,
+      "explain": "The pair means to quit. Neither word tells you that on its own.",
+      "objective": "Explain how the particle changes the meaning",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "'He ran up the hill' — is 'ran up' a phrasal verb here?",
+      "options": [
+        "Only in the past",
+        "No, it is a verb plus a preposition",
+        "Yes, because it has two words",
+        "Yes"
+      ],
+      "answerIndex": 1,
+      "explain": "You cannot say 'he ran the hill up', so it does not split. It is a preposition.",
+      "objective": "Tell a phrasal verb from a verb plus preposition",
+      "seconds": 24
+    },
+    {
+      "type": "multiple",
+      "text": "Which particle turns 'put' into 'reassemble'?",
+      "options": [
+        "out",
+        "together",
+        "off",
+        "back"
+      ],
+      "answerIndex": 1,
+      "explain": "Put together.",
+      "objective": "Explain how the particle changes the meaning",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "'Hold off' means…",
+      "options": [
+        "delay",
+        "release",
+        "grip tightly",
+        "continue"
+      ],
+      "answerIndex": 0,
+      "explain": "To delay or postpone. Different from hold on.",
+      "objective": "Use common phrasal verbs correctly",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "Changing the particle can completely change a phrasal verb's meaning.",
+      "answer": true,
+      "explain": "Take off, take apart, take over and take in share a verb and share nothing else.",
+      "objective": "Explain how the particle changes the meaning",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Which of these is separable?",
+      "options": [
+        "care for him",
+        "run up the stairs",
+        "look after the dog",
+        "switch the fan off"
+      ],
+      "answerIndex": 3,
+      "explain": "Switch off splits around its object. The others cannot.",
+      "objective": "Tell a phrasal verb from a verb plus preposition",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "In Chapter 13, Quixote goes into the mountains to…",
+      "options": [
+        "fight prisoners",
+        "do penance",
+        "find a barber",
+        "buy a horse"
+      ],
+      "answerIndex": 1,
+      "explain": "He performs a deliberate madness to prove his devotion, and sends Sancho off with a letter.",
+      "objective": "Identify a phrasal verb",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "What does 'turn back' mean for a flight?",
+      "options": [
+        "Change altitude",
+        "Increase speed",
+        "Land",
+        "Abandon the route and return"
+      ],
+      "answerIndex": 3,
+      "explain": "Return to where it came from, abandoning the planned route.",
+      "objective": "Use common phrasal verbs correctly",
+      "seconds": 18
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 3 English. Phrasal verbs are introduced through the particle rather than the verb, because the particle is what carries the meaning — take off, take apart, take over — and that framing makes them learnable instead of arbitrary. The separability test is given as a practical way to tell a phrasal verb from a verb plus preposition, which is the distinction an exam will probe. Vocabulary is drawn from a teardown and from aviation, both of which use these constantly and both of which he already has words for.",
+    "discussion": [
+      "Why can't you translate a phrasal verb word by word?",
+      "How does the splitting test work?",
+      "Which particle would you add to 'put' to mean reassemble?"
+    ],
+    "extension": [
+      "List every phrasal verb you use while taking something apart.",
+      "Find five in one page of Chapter 13."
+    ],
+    "misconceptions": [
+      "Treating the two words separately.",
+      "Saying 'switched off it' instead of 'switched it off'.",
+      "Assuming any verb with a small word after it is phrasal."
+    ]
+  }
+}

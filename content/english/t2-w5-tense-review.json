@@ -1,0 +1,355 @@
+{
+  "id": "eng-t2-w5",
+  "courseId": "english",
+  "courseTitle": "English",
+  "week": 5,
+  "title": "Review of Tenses & Simple Sentences",
+  "subtitle": "Choosing a tense, and making a sentence stand up.",
+  "estMinutes": 20,
+  "objectives": [
+    "Choose the right tense for a sentence",
+    "Keep one tense across a piece of writing",
+    "Write a complete simple sentence",
+    "Spot a fragment and fix it"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🧱",
+      "eyebrow": "Part 5 · Putting it together",
+      "title": "Three tenses, and sentences that actually finish",
+      "text": "You have past, present and future. The other half of writing is making each sentence stand up on its own."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Choosing",
+      "title": "The time word usually decides for you",
+      "text": "Find the marker, then match the verb.",
+      "points": [
+        "**Yesterday, last week** → simple past.",
+        "**Every day, usually** → simple present.",
+        "**Tomorrow, next month** → a future form.",
+        "**No marker?** Then the surrounding sentences decide."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "'Every morning he ____ for an hour.' Which fits?",
+        "options": [
+          "runs",
+          "will run",
+          "ran",
+          "running"
+        ],
+        "answerIndex": 0,
+        "explain": "'Every morning' is a habit, so simple present: runs.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "A complete sentence",
+      "title": "It needs a subject and a verb, and it must finish a thought",
+      "text": "Two parts, both required.",
+      "points": [
+        "**Subject** — who or what the sentence is about.",
+        "**Verb** — what they did, do or will do.",
+        "**The blades spun.** Two words, complete.",
+        "**Because the bearing was dry.** Not complete. It leaves you waiting."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "'After I unplugged the fan.' is a complete sentence.",
+        "answer": false,
+        "explain": "It has a subject and a verb but it does not finish the thought. 'After' leaves you hanging.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "Write up a repair in three tenses",
+      "text": "The same job, told three ways, and each one is correct for its moment.",
+      "points": [
+        "**Past:** I replaced the capacitor and it started.",
+        "**Present:** It runs on all three speeds now.",
+        "**Future:** I am going to oil the bearings next.",
+        "**One tense per sentence.** Switch between sentences, not inside them."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Fragments",
+      "title": "The commonest fault, and an easy fix",
+      "text": "A fragment is a piece of a sentence pretending to be whole.",
+      "points": [
+        "**Usually starts with** because, although, when, after, since.",
+        "**Fix it** by attaching it to a full sentence.",
+        "**'Because it overheated.'** → *It cut out because it overheated.*",
+        "**Read it alone.** If you are still waiting, it is a fragment."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "A race report uses all three and never mixes them",
+      "text": "Past for what happened, present for the standings, future for the next round.",
+      "points": [
+        "**He took pole on Saturday.** Past.",
+        "**He leads the championship by four points.** Present.",
+        "**He will start from the front next week.** Future.",
+        "**Three sentences, three tenses, no confusion.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which is a complete sentence?",
+        "options": [
+          "When I opened the case.",
+          "The motor hummed.",
+          "Although the motor hummed.",
+          "Because of the capacitor."
+        ],
+        "answerIndex": 1,
+        "explain": "Subject and verb, and the thought finishes. The other three leave you waiting.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Literature Review: Don Quixote, Chapter 15: Sancho Panza on the Road",
+      "text": "Sancho travels alone and spends most of the chapter arguing with himself about what to tell his master.",
+      "points": [
+        "**He had not delivered the letter.** Past.",
+        "**He is deciding what to invent.** Present.",
+        "**He will report that Dulcinea was winnowing wheat.** Future.",
+        "**Cervantes moves between tenses** sentence by sentence, never inside one."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Simple sentence",
+          "def": "One subject, one verb, one complete thought."
+        },
+        {
+          "term": "Fragment",
+          "def": "A piece of a sentence that does not finish its thought."
+        },
+        {
+          "term": "Subject",
+          "def": "Who or what the sentence is about."
+        },
+        {
+          "term": "Tense consistency",
+          "def": "Not changing tense partway through a sentence."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Find the time marker and the tense follows.",
+        "A sentence needs a subject, a verb and a finished thought.",
+        "Fragments usually begin with because, although, when or after.",
+        "Change tense between sentences, never inside one."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "'Every morning he ____ for an hour.'",
+      "options": [
+        "ran",
+        "runs",
+        "will run",
+        "running"
+      ],
+      "answerIndex": 1,
+      "explain": "A habit, so simple present.",
+      "objective": "Choose the right tense for a sentence",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which is a complete sentence?",
+      "options": [
+        "Because the bearing was dry.",
+        "After I opened the case.",
+        "The fan stopped.",
+        "Although it hummed."
+      ],
+      "answerIndex": 2,
+      "explain": "Subject, verb, finished thought.",
+      "objective": "Write a complete simple sentence",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "'When I unplugged it.' is…",
+      "options": [
+        "a fragment",
+        "a command",
+        "a question",
+        "a complete sentence"
+      ],
+      "answerIndex": 0,
+      "explain": "'When' leaves the thought unfinished.",
+      "objective": "Spot a fragment and fix it",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which sentence mixes tenses wrongly?",
+      "options": [
+        "I opened it and find the fault.",
+        "I opened it and found the fault.",
+        "I will open it and find the fault.",
+        "I open it and find the fault."
+      ],
+      "answerIndex": 0,
+      "explain": "Past then present inside one sentence.",
+      "objective": "Keep one tense across a piece of writing",
+      "seconds": 24
+    },
+    {
+      "type": "type",
+      "text": "Fix this fragment by adding one word at the start: '____ motor hummed.' (the article)",
+      "accept": [
+        "The",
+        "the"
+      ],
+      "explain": "It needs a subject: 'The motor hummed.'",
+      "objective": "Write a complete simple sentence",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "'Tomorrow he ____ the bearings.'",
+      "options": [
+        "oiled",
+        "oiling",
+        "will oil",
+        "oils"
+      ],
+      "answerIndex": 2,
+      "explain": "A future marker needs a future form.",
+      "objective": "Choose the right tense for a sentence",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "You should keep the same tense within a single sentence.",
+      "answer": true,
+      "explain": "Switch between sentences if the time changes, not inside one.",
+      "objective": "Keep one tense across a piece of writing",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Fragments most often begin with…",
+      "options": [
+        "the, a, an",
+        "run, jump, go",
+        "he, she, it",
+        "because, although, when"
+      ],
+      "answerIndex": 3,
+      "explain": "Those words open a dependent clause, which cannot stand alone.",
+      "objective": "Spot a fragment and fix it",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "'He leads the championship.' is which tense?",
+      "options": [
+        "future",
+        "present",
+        "none",
+        "past"
+      ],
+      "answerIndex": 1,
+      "explain": "A current state, so simple present.",
+      "objective": "Choose the right tense for a sentence",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "How do you fix 'Because it overheated.'?",
+      "options": [
+        "Attach it to a complete sentence",
+        "Add a question mark",
+        "Make it longer",
+        "Delete because"
+      ],
+      "answerIndex": 0,
+      "explain": "'It cut out because it overheated.' now finishes.",
+      "objective": "Spot a fragment and fix it",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "In Chapter 15, what does Sancho decide to invent?",
+      "options": [
+        "A map",
+        "A letter from the barber",
+        "A new horse",
+        "A report about Dulcinea"
+      ],
+      "answerIndex": 3,
+      "explain": "He never delivered the letter, so he makes up what he found.",
+      "objective": "Choose the right tense for a sentence",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A simple sentence must have…",
+      "options": [
+        "an adjective",
+        "a subject and a verb",
+        "at least three clauses",
+        "a question mark"
+      ],
+      "answerIndex": 1,
+      "explain": "Subject, verb, and a thought that finishes.",
+      "objective": "Write a complete simple sentence",
+      "seconds": 18
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 5 English, the scope's review week, which pairs tense choice with sentence completeness because the two faults appear together in his writing. Tense selection is taught as marker-matching, which is reliable and fast. The fragment section is the more valuable half: fragments are named by their usual opening words — because, although, when, after — and the read-it-alone test is given as the check. The repair write-up card shows all three tenses used correctly in sequence, which models the rule that tense changes between sentences, not inside them.",
+    "discussion": [
+      "What is the quickest way to pick a tense?",
+      "Why is 'Because it overheated.' not a sentence?",
+      "When is it fine to change tense?"
+    ],
+    "extension": [
+      "Write a repair or a match report in three sentences, one per tense.",
+      "Find three fragments in your own writing and fix them."
+    ],
+    "misconceptions": [
+      "Changing tense mid-sentence.",
+      "Thinking a long phrase must be a sentence.",
+      "Treating a dependent clause as complete."
+    ]
+  }
+}

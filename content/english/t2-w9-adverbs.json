@@ -1,0 +1,346 @@
+{
+  "id": "eng-t2-w9",
+  "courseId": "english",
+  "courseTitle": "English",
+  "week": 9,
+  "title": "Adverbs",
+  "subtitle": "How, when, where and how often.",
+  "estMinutes": 20,
+  "objectives": [
+    "Identify an adverb and what it modifies",
+    "Name the main kinds of adverb",
+    "Form adverbs from adjectives",
+    "Place an adverb where it does not confuse the sentence"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🏃",
+      "eyebrow": "Part 9 · How, when, where",
+      "title": "An adverb answers a question about the verb",
+      "text": "Adjectives describe things. Adverbs describe actions — how, when, where, and how often."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The kinds",
+      "title": "Four questions, four kinds",
+      "text": "Ask the question and the kind names itself.",
+      "points": [
+        "**Manner — how?** *quickly, badly, carefully*",
+        "**Time — when?** *yesterday, soon, already*",
+        "**Place — where?** *outside, upstairs, nearby*",
+        "**Frequency — how often?** *always, rarely, twice*"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Forming them",
+      "title": "Most come from an adjective plus -ly",
+      "text": "With a few spelling rules and a few that refuse entirely.",
+      "points": [
+        "**quick → quickly, careful → carefully**",
+        "**Ends in -y?** Swap to -ily: *easy → easily*.",
+        "**good → well.** Not 'goodly'.",
+        "**fast, hard, late** do not change at all."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which word is the adverb? 'He wrapped his hands carefully.'",
+        "options": [
+          "carefully",
+          "wrapped",
+          "He",
+          "hands"
+        ],
+        "answerIndex": 0,
+        "explain": "It tells you how he wrapped them, which is an adverb of manner.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Training mode",
+      "title": "A coach speaks almost entirely in adverbs",
+      "text": "The verb is obvious. What the coach is correcting is how it is done.",
+      "points": [
+        "**Move laterally.** Manner.",
+        "**Always keep your hands up.** Frequency.",
+        "**Breathe out sharply.** Manner.",
+        "**You already know the verb.** The adverb is the instruction."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "Turn 'easy' into an adverb. One word.",
+        "accept": [
+          "easily"
+        ],
+        "explain": "Ends in -y, so it becomes -ily: easily.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Placement",
+      "title": "Put it where it cannot be misread",
+      "text": "Some adverbs change meaning entirely depending on where they sit.",
+      "points": [
+        "**Only I fixed the fan.** Nobody else did.",
+        "**I only fixed the fan.** I did nothing else to it.",
+        "**I fixed only the fan.** Not the lamp.",
+        "**Same four words.** Three meanings."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Gaming mode",
+      "title": "Adverbs are how a game describes its own feel",
+      "text": "Patch notes and item text lean on them constantly.",
+      "points": [
+        "**Attacks slightly faster.**",
+        "**Rarely drops from this boss.**",
+        "**Reloads automatically when empty.**",
+        "**Move the adverb** and the patch note means something else."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which sentence means 'I did nothing to it except fix it'?",
+        "options": [
+          "I fixed only the fan.",
+          "I only fixed the fan.",
+          "I fixed the fan only yesterday.",
+          "Only I fixed the fan."
+        ],
+        "answerIndex": 1,
+        "explain": "Placed before the verb, 'only' limits the action.",
+        "seconds": 24
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Literature Review: Don Quixote, Chapter 19: The Strolling Players",
+      "text": "A cart of actors in costume crosses the road, and Quixote reads them as demons.",
+      "points": [
+        "**He charges immediately.** Time.",
+        "**Rocinante bolts suddenly.** Manner.",
+        "**He never looks closely.** Frequency and manner.",
+        "**The adverbs carry the pace** of the whole scene."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Adverb",
+          "def": "A word describing a verb, an adjective or another adverb."
+        },
+        {
+          "term": "Adverb of manner",
+          "def": "Answers how."
+        },
+        {
+          "term": "Adverb of frequency",
+          "def": "Answers how often."
+        },
+        {
+          "term": "Modify",
+          "def": "To add information to another word."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Adverbs answer how, when, where and how often.",
+        "Most are an adjective plus -ly; good becomes well.",
+        "fast, hard and late are already adverbs.",
+        "Placement matters: 'only' moves and the meaning moves with it."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "An adverb usually describes…",
+      "options": [
+        "a pronoun",
+        "a verb",
+        "a sentence ending",
+        "a noun"
+      ],
+      "answerIndex": 1,
+      "explain": "It can also describe an adjective or another adverb, but the verb is the main job.",
+      "objective": "Identify an adverb and what it modifies",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "'He trained hard yesterday.' Which is an adverb of time?",
+      "options": [
+        "He",
+        "yesterday",
+        "hard",
+        "trained"
+      ],
+      "answerIndex": 1,
+      "explain": "It answers when. 'Hard' answers how.",
+      "objective": "Name the main kinds of adverb",
+      "seconds": 20
+    },
+    {
+      "type": "type",
+      "text": "Turn 'careful' into an adverb. One word.",
+      "accept": [
+        "carefully"
+      ],
+      "explain": "Add -ly.",
+      "objective": "Form adverbs from adjectives",
+      "seconds": 16
+    },
+    {
+      "type": "type",
+      "text": "Turn 'easy' into an adverb. One word.",
+      "accept": [
+        "easily"
+      ],
+      "explain": "The -y becomes -ily.",
+      "objective": "Form adverbs from adjectives",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The adverb from 'good' is…",
+      "options": [
+        "goodest",
+        "gooder",
+        "well",
+        "goodly"
+      ],
+      "answerIndex": 2,
+      "explain": "Irregular: good becomes well.",
+      "objective": "Form adverbs from adjectives",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "'Always' is an adverb of…",
+      "options": [
+        "time",
+        "manner",
+        "frequency",
+        "place"
+      ],
+      "answerIndex": 2,
+      "explain": "It answers how often.",
+      "objective": "Name the main kinds of adverb",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Which sentence means nobody else fixed it?",
+      "options": [
+        "I fixed the fan only.",
+        "I only fixed the fan.",
+        "I fixed only the fan.",
+        "Only I fixed the fan."
+      ],
+      "answerIndex": 3,
+      "explain": "'Only' before 'I' limits who did it.",
+      "objective": "Place an adverb where it does not confuse the sentence",
+      "seconds": 24
+    },
+    {
+      "type": "truefalse",
+      "text": "'Fast' needs -ly to become an adverb.",
+      "answer": false,
+      "explain": "Fast, hard and late are already adverbs. 'Fastly' is not a word.",
+      "objective": "Form adverbs from adjectives",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "In 'she reloads automatically', the adverb tells you…",
+      "options": [
+        "who",
+        "where",
+        "when",
+        "how"
+      ],
+      "answerIndex": 3,
+      "explain": "The manner of reloading.",
+      "objective": "Identify an adverb and what it modifies",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Which is an adverb of place?",
+      "options": [
+        "outside",
+        "yesterday",
+        "slowly",
+        "often"
+      ],
+      "answerIndex": 0,
+      "explain": "It answers where.",
+      "objective": "Name the main kinds of adverb",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "Moving an adverb never changes a sentence's meaning.",
+      "answer": false,
+      "explain": "'Only' is the clearest counter-example: three positions, three meanings.",
+      "objective": "Place an adverb where it does not confuse the sentence",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "In Chapter 19, what does Quixote think the actors are?",
+      "options": [
+        "Demons",
+        "Merchants",
+        "Barbers",
+        "Prisoners"
+      ],
+      "answerIndex": 0,
+      "explain": "A cart of costumed players, and he charges them immediately.",
+      "objective": "Identify an adverb and what it modifies",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 9 English. Adverbs are organised by the question they answer, which makes the four kinds self-naming and removes most of the memorisation. The -ly formation is given with its two spelling rules and its exceptions, and 'fastly' is addressed directly because it is a predictable over-generalisation of exactly the kind seen in weeks 2 and 7. The placement section built on 'only' is the most useful part of the lesson: four words, three positions, three different meanings, which makes word order feel consequential rather than cosmetic.",
+    "discussion": [
+      "What four questions do adverbs answer?",
+      "Why is 'fastly' not a word?",
+      "How many meanings can you get from moving 'only'?"
+    ],
+    "extension": [
+      "Write a coaching instruction using an adverb of manner and one of frequency.",
+      "Move 'only' through a sentence and write out each meaning."
+    ],
+    "misconceptions": [
+      "Adding -ly to words that are already adverbs.",
+      "Using 'good' where 'well' is needed.",
+      "Assuming adverb position is free."
+    ]
+  }
+}

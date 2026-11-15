@@ -1273,7 +1273,7 @@
           "tagline": "Grammar plus Don Quixote, chapter by chapter",
           "icon": "📖",
           "accent": "#ff6b9d",
-          "status": "planned",
+          "status": "live",
           "weeks": [
             {
               "week": 1,
@@ -1283,7 +1283,8 @@
                 "Simple Past Tense",
                 "Literature Review: Don Quixote, Chapter 11: The Adventure with the Barber"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "english/t2-w1-simple-past.json"
             },
             {
               "week": 2,
@@ -1293,7 +1294,8 @@
                 "Past Tense of Verbs (Regular and Irregular)",
                 "Literature Review: Don Quixote, Chapter 12: The Adventure with the Prisoners"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "english/t2-w2-regular-irregular.json"
             },
             {
               "week": 3,
@@ -1303,7 +1305,8 @@
                 "Phrasal Verbs",
                 "Literature Review: Don Quixote, Chapter 13: In the Black Mountains"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "english/t2-w3-phrasal-verbs.json"
             },
             {
               "week": 4,
@@ -1313,27 +1316,30 @@
                 "Future Tense",
                 "Literature Review: Don Quixote, Chapter 14: The Message to Dulcinea"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "english/t2-w4-future-tense.json"
             },
             {
               "week": 5,
               "id": "eng-t2-w5",
-              "title": "Review of Tenses",
+              "title": "Review of Tenses & Simple Sentences",
               "topics": [
                 "Review of Tenses and Writing Simple Sentences",
                 "Literature Review: Don Quixote, Chapter 15: Sancho Panza on the Road"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "english/t2-w5-tense-review.json"
             },
             {
               "week": 6,
               "id": "eng-t2-w6",
-              "title": "Prefixes and Suffixes",
+              "title": "Prefixes & Suffixes",
               "topics": [
                 "Prefixes and Suffixes",
                 "Literature Review: Don Quixote, Chapter 16: The Ox-Cart Journey"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "english/t2-w6-prefixes-suffixes.json"
             },
             {
               "week": 7,
@@ -1343,7 +1349,8 @@
                 "Degrees of Comparison",
                 "Literature Review: Don Quixote, Chapter 17: With Friends and Neighbors"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "english/t2-w7-degrees-comparison.json"
             },
             {
               "week": 8,
@@ -1353,7 +1360,8 @@
                 "Using Types of Descriptive Phrases",
                 "Literature Review: Don Quixote, Chapter 18: In Search of Dulcinea"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "english/t2-w8-descriptive-phrases.json"
             },
             {
               "week": 9,
@@ -1363,7 +1371,8 @@
                 "Adverbs",
                 "Literature Review: Don Quixote, Chapter 19: The Strolling Players"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "english/t2-w9-adverbs.json"
             },
             {
               "week": 10,
@@ -1373,7 +1382,8 @@
                 "Using Adjectives or Adverbs as Modifiers",
                 "Literature Review: Don Quixote, Chapter 20: The Knight of the Mirrors"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "english/t2-w10-adjectives-adverbs.json"
             },
             {
               "week": 11,
@@ -1382,7 +1392,8 @@
               "topics": [
                 "EXAM"
               ],
-              "status": "planned"
+              "status": "exam",
+              "file": "english/t2-w11-exam.json"
             }
           ]
         },

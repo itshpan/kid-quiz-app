@@ -1,0 +1,348 @@
+{
+  "id": "eng-t2-w10",
+  "courseId": "english",
+  "courseTitle": "English",
+  "week": 10,
+  "title": "Adjectives or Adverbs as Modifiers",
+  "subtitle": "Which form, and how to decide.",
+  "estMinutes": 20,
+  "objectives": [
+    "Choose between an adjective and an adverb",
+    "Use good and well correctly",
+    "Modify an adjective with an adverb",
+    "Fix a sentence where the wrong form is used"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "⚖️",
+      "eyebrow": "Part 10 · Choosing",
+      "title": "Adjective or adverb is decided by what it attaches to",
+      "text": "Not by how the word sounds. Find what is being described, and the form follows."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The test",
+      "title": "What is it describing?",
+      "text": "A thing, or an action? That single question settles almost every case.",
+      "points": [
+        "**Describing a noun** → adjective. *a quick lap*.",
+        "**Describing a verb** → adverb. *he drove quickly*.",
+        "**'He drove quick'** describes him, not the driving.",
+        "**Ask what the word points at.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which is correct?",
+        "options": [
+          "He finished the lap quickly.",
+          "He quick finished the lap.",
+          "He finished the lap quick.",
+          "He finished the quickly lap."
+        ],
+        "answerIndex": 0,
+        "explain": "It describes how he finished, which is the verb, so it takes the adverb.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Good and well",
+      "title": "The pair that catches everyone",
+      "text": "Good is an adjective. Well is its adverb — and also an adjective meaning healthy.",
+      "points": [
+        "**He is a good fighter.** Describes the fighter.",
+        "**He fights well.** Describes the fighting.",
+        "**'He fights good'** is the common error.",
+        "**'I am well'** means healthy, and is correct."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "'She plays good' is correct.",
+        "answer": false,
+        "explain": "'Plays' is a verb, so it needs the adverb: she plays well.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "A review uses both, a line apart",
+      "text": "The thing and the doing get different words, and reviewers are careful about it.",
+      "points": [
+        "**A smooth engine.** Adjective, describing the engine.",
+        "**It pulls smoothly.** Adverb, describing the pulling.",
+        "**Good brakes.** **Brakes well.**",
+        "**Swap them** and it reads as a mistake."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Adverbs on adjectives",
+      "title": "An adverb can describe an adjective too",
+      "text": "This is where words like very, really and slightly live.",
+      "points": [
+        "**A very fast lap.** 'Very' describes 'fast'.",
+        "**Slightly worn tyres.**",
+        "**Those adverbs modify the adjective**, not the verb.",
+        "**Three layers** are possible: *really quite quickly*."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "Describing a fault needs both forms",
+      "text": "What is wrong, and how it is behaving, take different words.",
+      "points": [
+        "**A noisy bearing.** Adjective — the bearing is noisy.",
+        "**It runs noisily.** Adverb — the running is noisy.",
+        "**A slow blade** versus **it turns slowly.**",
+        "**Both sentences are true.** They describe different things."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "'The motor runs ____.' Which fits?",
+        "options": [
+          "smooth",
+          "smoothly",
+          "smoothest",
+          "smoother"
+        ],
+        "answerIndex": 1,
+        "explain": "It describes how it runs, so an adverb.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Literature Review: Don Quixote, Chapter 20: The Knight of the Mirrors",
+      "text": "A neighbour disguises himself as a rival knight, hoping to defeat Quixote and send him home.",
+      "points": [
+        "**A brave knight.** Adjective.",
+        "**He fought bravely.** Adverb.",
+        "**The plan works badly**, which is the pattern of the book.",
+        "**Cervantes uses both** within single paragraphs."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Adjective",
+          "def": "Describes a noun or pronoun."
+        },
+        {
+          "term": "Adverb",
+          "def": "Describes a verb, an adjective or another adverb."
+        },
+        {
+          "term": "Modifier",
+          "def": "Any word adding detail to another."
+        },
+        {
+          "term": "Linking verb",
+          "def": "A verb like 'is' or 'seems' that takes an adjective, not an adverb."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Describing a thing takes an adjective; describing an action takes an adverb.",
+        "Good is the adjective, well is the adverb.",
+        "Very and really describe adjectives, not verbs.",
+        "Ask what the word points at and the form follows."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Which sentence picks the right form?",
+      "options": [
+        "He drove the quickly car.",
+        "He drove quick.",
+        "He quickly drove quick.",
+        "He drove quickly."
+      ],
+      "answerIndex": 3,
+      "explain": "It describes the driving, so it takes the adverb.",
+      "objective": "Choose between an adjective and an adverb",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which sentence uses good or well correctly?",
+      "options": [
+        "She fight well.",
+        "She fights goodly.",
+        "She fights good.",
+        "She fights well."
+      ],
+      "answerIndex": 3,
+      "explain": "Good is the adjective; well is its adverb.",
+      "objective": "Use good and well correctly",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "'A ____ bearing' — which form fits?",
+      "options": [
+        "noisy",
+        "noisier than",
+        "noisily",
+        "noise"
+      ],
+      "answerIndex": 0,
+      "explain": "It describes the bearing, which is a noun, so adjective.",
+      "objective": "Choose between an adjective and an adverb",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "'It runs ____.' Which fits?",
+      "options": [
+        "noisily",
+        "noise",
+        "noisy",
+        "noisiness"
+      ],
+      "answerIndex": 0,
+      "explain": "It describes the running.",
+      "objective": "Choose between an adjective and an adverb",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "'I am well' is correct English.",
+      "answer": true,
+      "explain": "Here 'well' is an adjective meaning healthy.",
+      "objective": "Use good and well correctly",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "In 'a very fast lap', what does 'very' describe?",
+      "options": [
+        "a",
+        "fast",
+        "the whole sentence",
+        "lap"
+      ],
+      "answerIndex": 1,
+      "explain": "An adverb modifying an adjective.",
+      "objective": "Modify an adjective with an adverb",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Which sentence uses both forms correctly?",
+      "options": [
+        "A smooth engine that pulls smooth.",
+        "A smoothly engine that pulls smoothly.",
+        "A smooth engine that pulls smoothly.",
+        "A smoothly engine that pulls smooth."
+      ],
+      "answerIndex": 2,
+      "explain": "Adjective on the noun, adverb on the verb.",
+      "objective": "Choose between an adjective and an adverb",
+      "seconds": 24
+    },
+    {
+      "type": "type",
+      "text": "Fix this: 'He played good.' Write the corrected last word only.",
+      "accept": [
+        "well"
+      ],
+      "explain": "'Played' is a verb, so it needs the adverb.",
+      "objective": "Use good and well correctly",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which word is an adjective here: 'The tired fighter rested quietly.'",
+      "options": [
+        "quietly",
+        "rested",
+        "tired",
+        "The"
+      ],
+      "answerIndex": 2,
+      "explain": "It describes the fighter. 'Quietly' describes the resting.",
+      "objective": "Choose between an adjective and an adverb",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "After a linking verb like 'seems', you normally use…",
+      "options": [
+        "a noun",
+        "an adjective",
+        "a preposition",
+        "an adverb"
+      ],
+      "answerIndex": 1,
+      "explain": "'He seems tired', not 'he seems tiredly'.",
+      "objective": "Choose between an adjective and an adverb",
+      "seconds": 22
+    },
+    {
+      "type": "truefalse",
+      "text": "'Really' can describe an adjective.",
+      "answer": true,
+      "explain": "Really quick, really tired. It modifies the adjective, not a verb.",
+      "objective": "Modify an adjective with an adverb",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "In Chapter 20, who is the Knight of the Mirrors?",
+      "options": [
+        "A neighbour in disguise",
+        "A prisoner",
+        "The barber's brother",
+        "A real rival knight"
+      ],
+      "answerIndex": 0,
+      "explain": "A neighbour hoping to beat him and send him home. It does not go to plan.",
+      "objective": "Fix a sentence where the wrong form is used",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 10 English, the last teaching week, and the one that makes weeks 7 to 9 usable. The whole lesson runs on one question — what is the word pointing at — because that single test resolves nearly every adjective-or-adverb decision without any further rules. Good and well get their own card since the error is common and socially noticeable. Adverbs modifying adjectives are included because 'very' and 'really' are used constantly and almost never understood as adverbs. The fault-description card pairs the two forms on the same object so the difference is visible rather than abstract.",
+    "discussion": [
+      "What single question decides adjective or adverb?",
+      "Why is 'he fights good' wrong?",
+      "What is 'very' doing in 'a very fast lap'?"
+    ],
+    "extension": [
+      "Describe a faulty object twice: once with an adjective, once with an adverb.",
+      "Find three uses of 'very' and say what each one modifies."
+    ],
+    "misconceptions": [
+      "Using an adjective where an adverb is needed.",
+      "Saying 'good' for 'well' after a verb.",
+      "Thinking 'very' modifies the verb."
+    ]
+  }
+}

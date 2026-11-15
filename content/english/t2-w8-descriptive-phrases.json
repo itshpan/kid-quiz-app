@@ -1,0 +1,352 @@
+{
+  "id": "eng-t2-w8",
+  "courseId": "english",
+  "courseTitle": "English",
+  "week": 8,
+  "title": "Descriptive Phrases",
+  "subtitle": "Several words doing one adjective's job.",
+  "estMinutes": 20,
+  "objectives": [
+    "Identify a descriptive phrase",
+    "Use adjective phrases to add detail",
+    "Place a descriptive phrase next to what it describes",
+    "Avoid a misplaced modifier"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🔍",
+      "eyebrow": "Part 8 · Adding detail",
+      "title": "A phrase can do an adjective's job",
+      "text": "'The red fan' uses one word. 'The fan with the cracked guard' uses four and tells you far more."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "What they are",
+      "title": "A group of words describing a noun",
+      "text": "No verb of its own. It just hangs onto a noun and adds information.",
+      "points": [
+        "**with the cracked guard** — describes which fan.",
+        "**in the blue corner** — describes which fighter.",
+        "**covered in dust** — describes its condition.",
+        "**Each one answers** which, what kind, or whose."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "In 'the fan with the cracked guard', the descriptive phrase is…",
+        "options": [
+          "guard",
+          "with the cracked guard",
+          "the fan",
+          "the cracked"
+        ],
+        "answerIndex": 1,
+        "explain": "It tells you which fan, which is an adjective's job done by a phrase.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Placement",
+      "title": "Put it next to the thing it describes",
+      "text": "English decides what a phrase modifies by where you put it. Move it and the meaning moves.",
+      "points": [
+        "**The fan in the corner was broken.** The fan is in the corner.",
+        "**In the corner, the fan was broken.** Same meaning, still fine.",
+        "**Move it too far** and it attaches to the wrong noun.",
+        "**Next to its noun** is the safe rule."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "Describing which part you mean",
+      "text": "On a bench with parts everywhere, a phrase is how you say exactly which one.",
+      "points": [
+        "**The screw from the back plate.** Not any screw.",
+        "**The capacitor with the bulging top.** The faulty one.",
+        "**The blade nearest the motor.**",
+        "**Precision is the whole point** of a descriptive phrase."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Misplaced",
+      "title": "When the phrase grabs the wrong noun",
+      "text": "The sentence stays grammatical and becomes ridiculous, which is how you spot it.",
+      "points": [
+        "**'I saw the fan walking to school.'** The fan was not walking.",
+        "**Fix:** *Walking to school, I saw the fan.*",
+        "**The phrase attaches** to whatever is closest.",
+        "**Read it literally.** If it is absurd, move the phrase."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "'Covered in dust, I found the old fan.' says the dust was on me.",
+        "answer": true,
+        "explain": "Read literally, the phrase attaches to 'I'. Move it next to 'fan' to fix it.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "disasters",
+      "icon": "🌊",
+      "eyebrow": "Disaster mode",
+      "title": "A report has to say exactly which thing",
+      "text": "After a storm, 'the house was damaged' is useless. Which house?",
+      "points": [
+        "**The house nearest the river** flooded first.",
+        "**The bridge on the coast road** is closed.",
+        "**Families living below the dam** were moved.",
+        "**The phrase is the information.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which sentence is clearest?",
+        "options": [
+          "Looking in the drawer, I found the manual.",
+          "I found looking in the drawer the manual.",
+          "I found the manual looking in the drawer.",
+          "The manual I found looking drawer."
+        ],
+        "answerIndex": 0,
+        "explain": "The phrase sits next to 'I', which is who was looking.",
+        "seconds": 24
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Literature Review: Don Quixote, Chapter 18: In Search of Dulcinea",
+      "text": "Quixote sets out to find a woman who exists mostly in his description of her.",
+      "points": [
+        "**A lady of great beauty and noble birth** — his phrase.",
+        "**A farm girl from a nearby village** — everyone else's.",
+        "**Same person**, described two ways.",
+        "**The phrase makes the character**, which is the whole joke."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Descriptive phrase",
+          "def": "A group of words describing a noun."
+        },
+        {
+          "term": "Modifier",
+          "def": "Anything that adds detail to another word."
+        },
+        {
+          "term": "Misplaced modifier",
+          "def": "A phrase sitting next to the wrong noun."
+        },
+        {
+          "term": "Noun",
+          "def": "The person, place or thing being described."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "A descriptive phrase does an adjective's job with several words.",
+        "It answers which, what kind, or whose.",
+        "Put it next to the noun it describes.",
+        "If the literal reading is absurd, the modifier is misplaced."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "A descriptive phrase…",
+      "options": [
+        "describes a noun",
+        "asks a question",
+        "ends the sentence",
+        "replaces the verb"
+      ],
+      "answerIndex": 0,
+      "explain": "It adds detail to a noun, like an adjective made of several words.",
+      "objective": "Identify a descriptive phrase",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "In 'the blade nearest the motor', the phrase is…",
+      "options": [
+        "blade nearest",
+        "the motor",
+        "nearest the motor",
+        "the blade"
+      ],
+      "answerIndex": 2,
+      "explain": "It tells you which blade.",
+      "objective": "Identify a descriptive phrase",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Where should a descriptive phrase go?",
+      "options": [
+        "At the end always",
+        "Anywhere",
+        "At the start always",
+        "Next to the noun it describes"
+      ],
+      "answerIndex": 3,
+      "explain": "Position decides what it attaches to.",
+      "objective": "Place a descriptive phrase next to what it describes",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "'I saw the fan walking to school.' The problem is…",
+      "options": [
+        "no verb",
+        "a misplaced modifier",
+        "the tense",
+        "spelling"
+      ],
+      "answerIndex": 1,
+      "explain": "Read literally, the fan is walking.",
+      "objective": "Avoid a misplaced modifier",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Which fixes it?",
+      "options": [
+        "The fan walking I saw to school.",
+        "I walking saw the fan to school.",
+        "Walking to school, I saw the fan.",
+        "I saw walking to school the fan."
+      ],
+      "answerIndex": 2,
+      "explain": "Now the phrase sits next to 'I'.",
+      "objective": "Avoid a misplaced modifier",
+      "seconds": 22
+    },
+    {
+      "type": "truefalse",
+      "text": "A descriptive phrase contains its own main verb.",
+      "answer": false,
+      "explain": "It has no verb of its own. It hangs onto a noun.",
+      "objective": "Identify a descriptive phrase",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "'The house nearest the river' tells you…",
+      "options": [
+        "which house",
+        "how big it is",
+        "who owns it",
+        "when it flooded"
+      ],
+      "answerIndex": 0,
+      "explain": "Which one — that is an adjective's job.",
+      "objective": "Use adjective phrases to add detail",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which adds the most useful detail?",
+      "options": [
+        "the fan with the cracked guard",
+        "the fan",
+        "it",
+        "the broken fan"
+      ],
+      "answerIndex": 0,
+      "explain": "It identifies exactly which fan, which is what a phrase can do that one adjective cannot.",
+      "objective": "Use adjective phrases to add detail",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "A descriptive phrase answers…",
+      "options": [
+        "why",
+        "when or how",
+        "how many times",
+        "which, what kind, or whose"
+      ],
+      "answerIndex": 3,
+      "explain": "Those are the adjective questions.",
+      "objective": "Identify a descriptive phrase",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "Moving a descriptive phrase can change what a sentence means.",
+      "answer": true,
+      "explain": "It attaches to whatever is nearest, so position carries meaning.",
+      "objective": "Place a descriptive phrase next to what it describes",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "'Families living below the dam' — the phrase describes…",
+      "options": [
+        "the report",
+        "the families",
+        "the dam",
+        "the flood"
+      ],
+      "answerIndex": 1,
+      "explain": "It tells you which families.",
+      "objective": "Use adjective phrases to add detail",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "In Chapter 18, how does Quixote describe Dulcinea?",
+      "options": [
+        "As a prisoner",
+        "As a lady of great beauty and noble birth",
+        "As a barber",
+        "As a farm girl"
+      ],
+      "answerIndex": 1,
+      "explain": "Everyone else sees a farm girl. His description is the whole joke.",
+      "objective": "Identify a descriptive phrase",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 8 English. Descriptive phrases are introduced by what they buy you — precision an adjective cannot reach — rather than by definition, and the bench example makes that concrete: on a table of parts, a phrase is how you specify which screw. Placement is the examinable half, and misplaced modifiers are taught through the read-it-literally test, which is both the diagnostic and the joke. The Dulcinea card closes the lesson neatly, since the novel's central character is built entirely out of one man's descriptive phrases.",
+    "discussion": [
+      "What can a phrase do that a single adjective cannot?",
+      "How do you spot a misplaced modifier?",
+      "Why does position change meaning?"
+    ],
+    "extension": [
+      "Describe three objects on a table so precisely that nobody could pick the wrong one.",
+      "Find a misplaced modifier in something you wrote."
+    ],
+    "misconceptions": [
+      "Putting the phrase far from its noun.",
+      "Thinking a phrase needs a verb.",
+      "Not reading the sentence literally to check."
+    ]
+  }
+}

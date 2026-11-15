@@ -1,0 +1,493 @@
+{
+  "id": "eng-t2-w11",
+  "courseId": "english",
+  "courseTitle": "English",
+  "week": 11,
+  "title": "Exam Week",
+  "subtitle": "Ten weeks of English, one paper.",
+  "estMinutes": 30,
+  "objectives": [
+    "Recall the three tenses from weeks 1 to 5",
+    "Recall word parts and phrasal verbs",
+    "Recall comparison, phrases and adverbs",
+    "Recall the Don Quixote chapters 11 to 20",
+    "Sit a full-length paper at exam pace"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "📝",
+      "eyebrow": "Exam week",
+      "title": "Ten weeks of English, one paper",
+      "text": "Twenty-four questions. Longer than a normal week, because the real one will be."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Weeks 1–5",
+      "title": "Tenses, and sentences that finish",
+      "text": "Past, future, and the rule that holds them together.",
+      "points": [
+        "**Regular past adds -ed.** Irregular verbs change shape.",
+        "**Will** for a decision now, **going to** for an existing plan.",
+        "**Phrasal verbs:** the particle carries the meaning.",
+        "**A sentence needs** a subject, a verb and a finished thought."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which is correct?",
+        "options": [
+          "Yesterday he caught the bus.",
+          "Yesterday he will catch the bus.",
+          "Yesterday he catched the bus.",
+          "Yesterday he catch the bus."
+        ],
+        "answerIndex": 0,
+        "explain": "Catch is irregular: caught. And 'yesterday' forces the past.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Weeks 6–8",
+      "title": "Word parts, comparison and phrases",
+      "text": "How to read a new word, and how to add detail precisely.",
+      "points": [
+        "**Prefix changes meaning; suffix changes the job.**",
+        "**Short words take -er/-est; long words take more/most.**",
+        "**Never both:** 'more faster' is wrong.",
+        "**A descriptive phrase** goes next to the noun it describes."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "irregularVerbs",
+      "title": "One more pass before the paper",
+      "text": "Eight irregular verbs. Tap each one and say the past form before you read it."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which is correct?",
+        "options": [
+          "He is more stronger.",
+          "He is stronger than me.",
+          "He is more strong than me.",
+          "He is strongest of the two."
+        ],
+        "answerIndex": 1,
+        "explain": "Comparative with 'than', no doubling.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "break",
+      "title": "Good spot to pause",
+      "text": "Two blocks reviewed, one to go, then the paper."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Weeks 9–10",
+      "title": "Adverbs, and choosing the form",
+      "text": "What a word points at decides which form it takes.",
+      "points": [
+        "**Adverbs answer** how, when, where, how often.",
+        "**Describing a thing** → adjective. **Describing an action** → adverb.",
+        "**good/well** is the pair that catches people.",
+        "**'Only' moves** and the meaning moves with it."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "One repair, most of the grammar",
+      "text": "If a rule slips, write out a fan repair and the forms sort themselves.",
+      "points": [
+        "**I unplugged it.** Regular past.",
+        "**I took the guard off.** Irregular past, phrasal verb, split.",
+        "**The bearing was noisy; it ran noisily.** Adjective, then adverb.",
+        "**I am going to oil it.** An existing plan."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Chapters 11 to 20, in one line each",
+      "text": "If a question names a chapter, this is the thread.",
+      "points": [
+        "**11–13:** the barber's basin, the freed prisoners, the mountains.",
+        "**14–15:** the letter to Dulcinea, lost, then invented.",
+        "**16–17:** home on an ox-cart, fussed over by friends.",
+        "**18–20:** the search, the players, the Knight of the Mirrors."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "The night before still matters",
+      "text": "None of this is about being clever on the day.",
+      "points": [
+        "**Sleep beats cramming.**",
+        "**Eat something.** Your brain runs on glucose.",
+        "**Read the whole question** before touching an option.",
+        "**Mark the hard one and move on.**"
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Ready",
+      "title": "The four threads",
+      "points": [
+        "Tenses: finished, planned, or habitual.",
+        "Word parts: prefix for meaning, suffix for job.",
+        "Comparison and phrases: precision, placed correctly.",
+        "Adjective or adverb: ask what it points at."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "type",
+      "text": "Write the simple past of 'train'. One word.",
+      "accept": [
+        "trained"
+      ],
+      "explain": "Regular: add -ed.",
+      "objective": "Recall the three tenses from weeks 1 to 5",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Past tense of 'catch'?",
+      "options": [
+        "catched",
+        "catching",
+        "catch",
+        "caught"
+      ],
+      "answerIndex": 3,
+      "explain": "Irregular.",
+      "objective": "Recall the three tenses from weeks 1 to 5",
+      "seconds": 16
+    },
+    {
+      "type": "type",
+      "text": "Write the past tense of 'build'. One word.",
+      "accept": [
+        "built"
+      ],
+      "explain": "Irregular.",
+      "objective": "Recall the three tenses from weeks 1 to 5",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Which sentence matches its time marker?",
+      "options": [
+        "Last night I fixing it.",
+        "Last night I fix it.",
+        "Last night I fixed it.",
+        "Last night I will fix it."
+      ],
+      "answerIndex": 2,
+      "explain": "Past time marker needs a past verb.",
+      "objective": "Recall the three tenses from weeks 1 to 5",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "You decide to help at that moment. You say…",
+      "options": [
+        "I will help.",
+        "I help.",
+        "I helped.",
+        "I am going to help."
+      ],
+      "answerIndex": 0,
+      "explain": "'Will' is for a decision made now.",
+      "objective": "Recall the three tenses from weeks 1 to 5",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "'I am going to replace it' means the decision was…",
+      "options": [
+        "impossible",
+        "made just now",
+        "made earlier",
+        "not made"
+      ],
+      "answerIndex": 2,
+      "explain": "Going to implies an existing plan.",
+      "objective": "Recall the three tenses from weeks 1 to 5",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which means 'to dismantle'?",
+      "options": [
+        "take off",
+        "take up",
+        "take in",
+        "take apart"
+      ],
+      "answerIndex": 3,
+      "explain": "The particle carries it.",
+      "objective": "Recall word parts and phrasal verbs",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Which phrasal verb is split correctly?",
+      "options": [
+        "He off switched it.",
+        "He switched it off.",
+        "He switched off it.",
+        "He switch it off."
+      ],
+      "answerIndex": 1,
+      "explain": "A pronoun object sits in the middle.",
+      "objective": "Recall word parts and phrasal verbs",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "'Overtrain' means to train…",
+      "options": [
+        "again",
+        "well",
+        "too much",
+        "never"
+      ],
+      "answerIndex": 2,
+      "explain": "over- means too much.",
+      "objective": "Recall word parts and phrasal verbs",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Which suffix means 'without'?",
+      "options": [
+        "-less",
+        "-ful",
+        "-er",
+        "-ly"
+      ],
+      "answerIndex": 0,
+      "explain": "Fearless, useless, harmless.",
+      "objective": "Recall word parts and phrasal verbs",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "'Unbreakable' splits into…",
+      "options": [
+        "un + breakable + e",
+        "unb + reakable",
+        "un + break + able",
+        "unbreak + able"
+      ],
+      "answerIndex": 2,
+      "explain": "Prefix, root, suffix.",
+      "objective": "Recall word parts and phrasal verbs",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The comparative of 'good' is…",
+      "options": [
+        "best",
+        "more good",
+        "gooder",
+        "better"
+      ],
+      "answerIndex": 3,
+      "explain": "Irregular.",
+      "objective": "Recall comparison, phrases and adverbs",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Which is wrong?",
+      "options": [
+        "He is the fastest here.",
+        "He is faster than me.",
+        "He is fast.",
+        "He is more faster."
+      ],
+      "answerIndex": 3,
+      "explain": "Double comparative.",
+      "objective": "Recall comparison, phrases and adverbs",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which takes 'more' rather than '-er'?",
+      "options": [
+        "quick",
+        "fast",
+        "powerful",
+        "tall"
+      ],
+      "answerIndex": 2,
+      "explain": "Three syllables.",
+      "objective": "Recall comparison, phrases and adverbs",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A descriptive phrase should go…",
+      "options": [
+        "at the end",
+        "next to the noun it describes",
+        "at the start",
+        "anywhere"
+      ],
+      "answerIndex": 1,
+      "explain": "Position decides what it attaches to.",
+      "objective": "Recall comparison, phrases and adverbs",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "'I saw the fan walking to school.' The fault is…",
+      "options": [
+        "the tense",
+        "a misplaced modifier",
+        "spelling",
+        "no subject"
+      ],
+      "answerIndex": 1,
+      "explain": "Read literally, the fan is walking.",
+      "objective": "Recall comparison, phrases and adverbs",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Adverbs answer…",
+      "options": [
+        "how, when, where, how often",
+        "what kind",
+        "which and whose",
+        "how many"
+      ],
+      "answerIndex": 0,
+      "explain": "Those four questions name the four kinds.",
+      "objective": "Recall comparison, phrases and adverbs",
+      "seconds": 20
+    },
+    {
+      "type": "type",
+      "text": "Turn 'easy' into an adverb. One word.",
+      "accept": [
+        "easily"
+      ],
+      "explain": "The -y becomes -ily.",
+      "objective": "Recall comparison, phrases and adverbs",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Which sentence uses good or well correctly?",
+      "options": [
+        "She fight well.",
+        "She fights well.",
+        "She fights good.",
+        "She fights goodly."
+      ],
+      "answerIndex": 1,
+      "explain": "Well is the adverb of good.",
+      "objective": "Recall comparison, phrases and adverbs",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "In 'a very fast lap', 'very' describes…",
+      "options": [
+        "fast",
+        "lap",
+        "a",
+        "nothing"
+      ],
+      "answerIndex": 0,
+      "explain": "An adverb modifying an adjective.",
+      "objective": "Recall comparison, phrases and adverbs",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "You should keep one tense within a single sentence.",
+      "answer": true,
+      "explain": "Change tense between sentences, not inside one.",
+      "objective": "Recall the three tenses from weeks 1 to 5",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "In Chapter 11, Quixote takes the barber's basin to be…",
+      "options": [
+        "a golden helmet",
+        "a shield",
+        "a pot",
+        "a saddle"
+      ],
+      "answerIndex": 0,
+      "explain": "The Helmet of Mambrino.",
+      "objective": "Recall the Don Quixote chapters 11 to 20",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "What happens to the letter for Dulcinea?",
+      "options": [
+        "Read aloud",
+        "Sancho loses it",
+        "Burned",
+        "Delivered"
+      ],
+      "answerIndex": 1,
+      "explain": "He loses it and invents his report.",
+      "objective": "Recall the Don Quixote chapters 11 to 20",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Who is the Knight of the Mirrors?",
+      "options": [
+        "A real knight",
+        "The barber",
+        "A prisoner",
+        "A neighbour in disguise"
+      ],
+      "answerIndex": 3,
+      "explain": "Hoping to defeat him and send him home.",
+      "objective": "Recall the Don Quixote chapters 11 to 20",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 11 English, the practice paper. Twenty-four questions across all ten teaching weeks, grouped in the review by thread rather than week: tenses, word parts, precision, and the adjective-or-adverb decision. The irregular verb interactive returns so the last thing he does before the paper is recall forms actively rather than read a list. One lens card compresses Don Quixote chapters 11 to 20 into a line each, since literature questions are the ones most easily lost to simple forgetting of plot.",
+    "discussion": [
+      "Which four threads does the term reduce to?",
+      "Which tense rule still catches you?",
+      "Can you summarise each chapter in a line?"
+    ],
+    "extension": [
+      "Sit the quiz once at pace, then again days later without revising.",
+      "Write one exam question per thread."
+    ],
+    "misconceptions": [
+      "That revision means re-reading rather than self-testing.",
+      "That the literature questions need no preparation."
+    ]
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "id": "eng-t2-w1",
+  "courseId": "english",
+  "courseTitle": "English",
+  "week": 1,
+  "title": "Simple Past Tense",
+  "subtitle": "Finished actions, and the -ed that marks them.",
+  "estMinutes": 20,
+  "objectives": [
+    "Form the simple past of regular verbs",
+    "Use the simple past for finished actions",
+    "Keep one tense across a whole sentence",
+    "Recognise the simple past in a text"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "⏮",
+      "eyebrow": "Part 1 · Finished business",
+      "title": "The simple past is for things that are over",
+      "text": "Not still happening. Not about to. Done, finished, in the bag — and usually with a time you could name."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The rule",
+      "title": "Regular verbs add -ed. That is it",
+      "text": "Most English verbs are regular, and regular means boring in a helpful way.",
+      "points": [
+        "**walk → walked.** **train → trained.**",
+        "**Ends in e?** Just add -d: *race → raced*.",
+        "**Short vowel then one consonant?** Double it: *stop → stopped*.",
+        "**Ends in consonant + y?** Swap to -ied: *carry → carried*."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "Write the simple past of 'jog'. One word.",
+        "accept": [
+          "jogged"
+        ],
+        "explain": "Short vowel, single consonant, so the g doubles: jogged.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Training mode",
+      "title": "A training log is written entirely in the past",
+      "text": "Every line of it is a finished action with a time attached.",
+      "points": [
+        "**Monday: I skipped for twenty minutes.**",
+        "**I wrapped my hands before the bag work.**",
+        "**He corrected my guard twice.**",
+        "**All finished, all -ed.** That is what a log is."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Time markers",
+      "title": "Words that force the past tense",
+      "text": "If one of these is in the sentence, the verb has to follow.",
+      "points": [
+        "**yesterday, last night, an hour ago**",
+        "**in 2019, when I was nine**",
+        "**The marker and the verb must agree.**",
+        "*Yesterday I train* is wrong. *Yesterday I trained* is right."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which sentence is correct?",
+        "options": [
+          "Last night I fixed the fan.",
+          "Last night I will fix the fan.",
+          "Last night I fix the fan.",
+          "Last night I am fixing the fan."
+        ],
+        "answerIndex": 0,
+        "explain": "'Last night' is finished time, so the verb must be simple past: fixed.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "Writing up what you did to something",
+      "text": "Open a fan, and the write-up afterwards is all simple past.",
+      "points": [
+        "**I unplugged it first.**",
+        "**I unscrewed the guard and lifted the blade off.**",
+        "**The capacitor looked swollen.**",
+        "**I replaced it and the motor started.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "The simple past can describe something still going on now.",
+        "answer": false,
+        "explain": "That is what the present tense is for. Simple past means finished.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Literature Review: Don Quixote, Chapter 11: The Adventure with the Barber",
+      "text": "Quixote sees a barber wearing his brass basin against the rain, and decides it is a legendary golden helmet.",
+      "points": [
+        "**He charged the barber**, who ran and left the basin.",
+        "**Quixote claimed it** as the Helmet of Mambrino.",
+        "**Sancho said nothing**, because arguing never worked.",
+        "**Notice the verbs.** The whole chapter is simple past."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Simple past",
+          "def": "The tense for an action that is finished."
+        },
+        {
+          "term": "Regular verb",
+          "def": "A verb that forms its past by adding -ed."
+        },
+        {
+          "term": "Time marker",
+          "def": "A word like yesterday that fixes when something happened."
+        },
+        {
+          "term": "Tense agreement",
+          "def": "Keeping the same tense across a sentence."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Simple past = finished action, often with a stated time.",
+        "Regular verbs add -ed, with three small spelling rules.",
+        "A past time marker forces a past verb.",
+        "Do not switch tense halfway through a sentence."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "The simple past is used for…",
+      "options": [
+        "actions that never happen",
+        "actions happening now",
+        "finished actions",
+        "actions about to happen"
+      ],
+      "answerIndex": 2,
+      "explain": "Done and over, usually with a time you could name.",
+      "objective": "Use the simple past for finished actions",
+      "seconds": 18
+    },
+    {
+      "type": "type",
+      "text": "Write the simple past of 'train'. One word.",
+      "accept": [
+        "trained"
+      ],
+      "explain": "Regular verb, so add -ed.",
+      "objective": "Form the simple past of regular verbs",
+      "seconds": 16
+    },
+    {
+      "type": "type",
+      "text": "Write the simple past of 'stop'. One word.",
+      "accept": [
+        "stopped"
+      ],
+      "explain": "Short vowel then one consonant, so the p doubles.",
+      "objective": "Form the simple past of regular verbs",
+      "seconds": 20
+    },
+    {
+      "type": "type",
+      "text": "Write the simple past of 'carry'. One word.",
+      "accept": [
+        "carried"
+      ],
+      "explain": "Consonant + y becomes -ied.",
+      "objective": "Form the simple past of regular verbs",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which is correct?",
+      "options": [
+        "Yesterday he is repairing the engine.",
+        "Yesterday he repaired the engine.",
+        "Yesterday he repair the engine.",
+        "Yesterday he repairs the engine."
+      ],
+      "answerIndex": 1,
+      "explain": "'Yesterday' is finished time, so the verb must be past.",
+      "objective": "Keep one tense across a whole sentence",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which verb is NOT in the simple past?",
+      "options": [
+        "wrapped",
+        "lifting",
+        "finished",
+        "sprinted"
+      ],
+      "answerIndex": 1,
+      "explain": "'Lifting' is the -ing form. The others all end in -ed.",
+      "objective": "Recognise the simple past in a text",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "'Race' becomes 'raceed' in the past tense.",
+      "answer": false,
+      "explain": "It already ends in e, so it only takes a -d: raced.",
+      "objective": "Form the simple past of regular verbs",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Which sentence keeps one tense throughout?",
+      "options": [
+        "I unplugged the fan and opened the case.",
+        "I unplug the fan and open the case yesterday.",
+        "I unplugged the fan and open the case.",
+        "I unplug the fan and opened the case."
+      ],
+      "answerIndex": 0,
+      "explain": "Both verbs are simple past, which is what tense agreement means.",
+      "objective": "Keep one tense across a whole sentence",
+      "seconds": 22
+    },
+    {
+      "type": "type",
+      "text": "Write the simple past of 'drop'. One word.",
+      "accept": [
+        "dropped"
+      ],
+      "explain": "The p doubles after a short vowel.",
+      "objective": "Form the simple past of regular verbs",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Which time marker demands the simple past?",
+      "options": [
+        "last week",
+        "tomorrow",
+        "soon",
+        "right now"
+      ],
+      "answerIndex": 0,
+      "explain": "Last week is finished time. The other three are present or future.",
+      "objective": "Keep one tense across a whole sentence",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "In Chapter 11, what did Quixote think the barber's basin was?",
+      "options": [
+        "A cooking pot",
+        "A shield",
+        "A saddle",
+        "A golden helmet"
+      ],
+      "answerIndex": 3,
+      "explain": "He took it for the legendary Helmet of Mambrino and claimed it.",
+      "objective": "Recognise the simple past in a text",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "Most English verbs are irregular.",
+      "answer": false,
+      "explain": "Most are regular and simply add -ed. The irregular ones are a short, common list.",
+      "objective": "Form the simple past of regular verbs",
+      "seconds": 18
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 1 English. The simple past is introduced as a meaning first — finished, usually with a stated time — and only then as a spelling rule, so -ed is a consequence rather than an arbitrary ending. The three spelling exceptions are given together because they are small and interfere with each other if met separately. Every freely chosen example sentence is from his world: a training log, a fan teardown, a lap. Tense agreement gets its own checkpoint since mid-sentence tense drift is the commonest error in his writing at this stage.",
+    "discussion": [
+      "Why does 'yesterday' force the verb to change?",
+      "Which three spelling rules cover almost every regular verb?",
+      "How is a training log written, and why?"
+    ],
+    "extension": [
+      "Write five lines of a training log, all in the simple past.",
+      "Find ten -ed verbs in one page of Chapter 11."
+    ],
+    "misconceptions": [
+      "Switching tense halfway through a sentence.",
+      "Adding -ed to irregular verbs.",
+      "Doubling the final consonant when the vowel is long."
+    ]
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "id": "eng-t2-w7",
+  "courseId": "english",
+  "courseTitle": "English",
+  "week": 7,
+  "title": "Degrees of Comparison",
+  "subtitle": "Fast, faster, fastest — and when to use more.",
+  "estMinutes": 20,
+  "objectives": [
+    "Form comparative and superlative adjectives",
+    "Choose between -er/-est and more/most",
+    "Use irregular comparisons correctly",
+    "Avoid double comparatives"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "📊",
+      "eyebrow": "Part 7 · Comparing",
+      "title": "Three degrees, and only two of them compare",
+      "text": "Fast. Faster. Fastest. The first just describes; the other two measure one thing against others."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The three degrees",
+      "title": "Positive, comparative, superlative",
+      "text": "Each has a job, and using the wrong one is immediately noticeable.",
+      "points": [
+        "**Positive** — plain description: *a fast car*.",
+        "**Comparative** — one against one: *faster than*.",
+        "**Superlative** — one against all: *the fastest*.",
+        "**Comparative needs 'than'.** Superlative needs 'the'."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Short or long",
+      "title": "Count the syllables",
+      "text": "That is genuinely the rule, with one grey area in the middle.",
+      "points": [
+        "**One syllable** → -er / -est: *fast, faster, fastest*.",
+        "**Three or more** → more / most: *powerful, more powerful*.",
+        "**Two syllables** → usually more/most, but -y words take -ier: *heavy, heavier*.",
+        "**Never both.** *More faster* is wrong."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which is correct?",
+        "options": [
+          "He is faster.",
+          "He is more fast.",
+          "He is more faster.",
+          "He is most fast."
+        ],
+        "answerIndex": 0,
+        "explain": "One syllable takes -er, and you never use more as well.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "A spec sheet is comparisons all the way down",
+      "text": "Every number on it exists to be measured against another car.",
+      "points": [
+        "**This one is faster than that one.** Comparative, with than.",
+        "**It is the quickest in its class.** Superlative, with the.",
+        "**More powerful**, because powerful is three syllables.",
+        "**Never 'more quicker'.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The irregulars",
+      "title": "A short list that refuses the pattern",
+      "text": "These are the ones worth memorising, because they are used constantly.",
+      "points": [
+        "**good → better → best**",
+        "**bad → worse → worst**",
+        "**far → farther → farthest**",
+        "**many/much → more → most**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "'Gooder' is the comparative of 'good'.",
+        "answer": false,
+        "explain": "Good is irregular: better. 'Gooder' is the same over-regularising as 'catched'.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Training mode",
+      "title": "Comparing two fighters, then the whole division",
+      "text": "The grammar changes depending on how many you are measuring against.",
+      "points": [
+        "**He is stronger than me.** Two people, comparative.",
+        "**He is the strongest in the gym.** The whole group, superlative.",
+        "**His footwork is better.** Irregular.",
+        "**Swap those two** and the sentence stops making sense."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which is correct?",
+        "options": [
+          "She is bestest.",
+          "She is the best of the three.",
+          "She is the better of the three.",
+          "She is more better."
+        ],
+        "answerIndex": 1,
+        "explain": "Three or more means superlative: the best.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Literature Review: Don Quixote, Chapter 17: With Friends and Neighbors",
+      "text": "Home at last, Quixote is fussed over by the priest and the barber. They compare him with the man he used to be.",
+      "points": [
+        "**He is thinner than before.**",
+        "**His talk is stranger than ever.**",
+        "**They agree the books are the worst** of his problems.",
+        "**The chapter runs on comparison.**"
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Positive degree",
+          "def": "The plain adjective, describing without comparing."
+        },
+        {
+          "term": "Comparative",
+          "def": "Compares two things; takes -er or more, and 'than'."
+        },
+        {
+          "term": "Superlative",
+          "def": "Compares three or more; takes -est or most, and 'the'."
+        },
+        {
+          "term": "Double comparative",
+          "def": "The error of using both -er and more."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Positive describes, comparative compares two, superlative compares all.",
+        "Short words take -er/-est; long words take more/most.",
+        "Never both: 'more faster' is wrong.",
+        "good/better/best and bad/worse/worst are irregular."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Which is the comparative of 'fast'?",
+      "options": [
+        "fast",
+        "faster",
+        "more fast",
+        "fastest"
+      ],
+      "answerIndex": 1,
+      "explain": "One syllable takes -er.",
+      "objective": "Form comparative and superlative adjectives",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Which is correct?",
+      "options": [
+        "more powerful",
+        "more powerfuller",
+        "powerfuller",
+        "powerfulest"
+      ],
+      "answerIndex": 0,
+      "explain": "Three syllables, so more/most.",
+      "objective": "Choose between -er/-est and more/most",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The comparative of 'good' is…",
+      "options": [
+        "gooder",
+        "more good",
+        "best",
+        "better"
+      ],
+      "answerIndex": 3,
+      "explain": "Irregular.",
+      "objective": "Use irregular comparisons correctly",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The superlative of 'bad' is…",
+      "options": [
+        "most bad",
+        "badder",
+        "worst",
+        "worse"
+      ],
+      "answerIndex": 2,
+      "explain": "bad → worse → worst.",
+      "objective": "Use irregular comparisons correctly",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "'More faster' is correct in informal speech.",
+      "answer": false,
+      "explain": "It is a double comparative and wrong in any register.",
+      "objective": "Avoid double comparatives",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Comparative forms are usually followed by…",
+      "options": [
+        "the",
+        "very",
+        "most",
+        "than"
+      ],
+      "answerIndex": 3,
+      "explain": "'Faster than', 'stronger than'.",
+      "objective": "Form comparative and superlative adjectives",
+      "seconds": 18
+    },
+    {
+      "type": "type",
+      "text": "Write the comparative of 'heavy'. One word.",
+      "accept": [
+        "heavier"
+      ],
+      "explain": "Two syllables ending in -y takes -ier.",
+      "objective": "Choose between -er/-est and more/most",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "'She is the ____ in the whole gym.' Which fits?",
+      "options": [
+        "strong",
+        "strongest",
+        "stronger",
+        "more strong"
+      ],
+      "answerIndex": 1,
+      "explain": "Comparing against everyone, so superlative.",
+      "objective": "Form comparative and superlative adjectives",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which sentence is wrong?",
+      "options": [
+        "He is more taller than me.",
+        "He is tall.",
+        "He is the tallest here.",
+        "He is taller than me."
+      ],
+      "answerIndex": 0,
+      "explain": "Double comparative.",
+      "objective": "Avoid double comparatives",
+      "seconds": 20
+    },
+    {
+      "type": "type",
+      "text": "Write the superlative of 'far'. One word.",
+      "accept": [
+        "farthest",
+        "furthest"
+      ],
+      "explain": "far → farther → farthest.",
+      "objective": "Use irregular comparisons correctly",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why does 'powerful' take 'more' rather than '-er'?",
+      "options": [
+        "It is a verb",
+        "It is irregular",
+        "It has three syllables",
+        "It ends in l"
+      ],
+      "answerIndex": 2,
+      "explain": "Long adjectives take more/most.",
+      "objective": "Choose between -er/-est and more/most",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "In Chapter 17, who looks after Quixote when he gets home?",
+      "options": [
+        "The priest, the barber and his housekeeper",
+        "The barber only",
+        "The prisoners",
+        "Strangers"
+      ],
+      "answerIndex": 0,
+      "explain": "They fuss over him and compare him with the man he used to be.",
+      "objective": "Form comparative and superlative adjectives",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 7 English. The three degrees are separated by how many things are being measured, which is the distinction that actually governs the choice, and the grammatical markers are attached to each — 'than' for the comparative, 'the' for the superlative — so he has a check he can apply to his own sentences. The syllable rule is given plainly because it works. Double comparatives get their own checkpoint and are linked explicitly back to over-regularising from week 2, since 'more faster' and 'catched' are the same instinct.",
+    "discussion": [
+      "How do you know whether to use -er or more?",
+      "What word always follows a comparative?",
+      "Why is 'more faster' wrong?"
+    ],
+    "extension": [
+      "Compare three objects in the room using all three degrees.",
+      "Find five comparatives in a car or phone review."
+    ],
+    "misconceptions": [
+      "Double comparatives: more faster, most fastest.",
+      "Using the comparative for three or more things.",
+      "Regularising good and bad."
+    ]
+  }
+}

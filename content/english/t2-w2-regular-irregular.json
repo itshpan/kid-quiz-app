@@ -1,0 +1,332 @@
+{
+  "id": "eng-t2-w2",
+  "courseId": "english",
+  "courseTitle": "English",
+  "week": 2,
+  "title": "Past Tense: Regular & Irregular",
+  "subtitle": "The verbs that refuse the -ed.",
+  "estMinutes": 20,
+  "objectives": [
+    "Tell regular and irregular past forms apart",
+    "Recall the past form of common irregular verbs",
+    "Avoid over-regularising an irregular verb",
+    "Use irregular pasts correctly in writing"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🔀",
+      "eyebrow": "Part 2 · The awkward ones",
+      "title": "Some verbs refuse the -ed",
+      "text": "About two hundred English verbs form their past some other way. They are also the ones you use most."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Two groups",
+      "title": "Regular adds -ed. Irregular changes shape",
+      "text": "There is no rule for the irregular ones. There is only knowing them.",
+      "points": [
+        "**Regular:** *train → trained*, *kick → kicked*.",
+        "**Irregular:** *catch → caught*, *build → built*.",
+        "**Some do not change at all:** *cut → cut*, *put → put*.",
+        "**The common verbs are the irregular ones**, which is bad luck."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "irregularVerbs",
+      "title": "Tap a verb and watch it change",
+      "text": "Eight of the ones that matter, each in a sentence. Two quiz questions come from here."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is the past tense of 'catch'?",
+        "options": [
+          "catched",
+          "caught",
+          "catchen",
+          "catching"
+        ],
+        "answerIndex": 1,
+        "explain": "Irregular. 'Catched' is the natural guess and it is not a word.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Gaming mode",
+      "title": "Game writing is full of these",
+      "text": "Quest logs and item descriptions lean on irregular verbs constantly.",
+      "points": [
+        "**I built the base.** Not builded.",
+        "**The boss caught me mid-dodge.** Not catched.",
+        "**I lost the run on the last floor.** Not losed.",
+        "**You already say these correctly** in speech."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "type",
+        "text": "Write the past tense of 'build'. One word.",
+        "accept": [
+          "built"
+        ],
+        "explain": "Irregular: built, not builded.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Over-regularising",
+      "title": "The mistake is logical, which is why it happens",
+      "text": "Adding -ed to an irregular verb is a sign you understood the rule and applied it too widely.",
+      "points": [
+        "**'He teached me'** — you know -ed makes a past. The verb just refuses.",
+        "**Small children do this constantly**, and so do confident learners.",
+        "**It is not carelessness.** It is over-applying a good rule.",
+        "**Only exposure fixes it.** Read and notice."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "A race report is irregular verbs end to end",
+      "text": "Almost nothing in a report about a race takes -ed.",
+      "points": [
+        "**He drove** the last lap on worn tyres. Not drived.",
+        "**The engine held** together. Not holded.",
+        "**She took** the lead at turn three. Not taked.",
+        "**They lost** the podium in the pits. Not losed."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Literature Review: Don Quixote, Chapter 12: The Adventure with the Prisoners",
+      "text": "Quixote meets a line of chained men being marched to the galleys, and decides nobody should be forced anywhere.",
+      "points": [
+        "**He freed them**, against Sancho's advice.",
+        "**They thanked him**, then stoned him and ran.",
+        "**He had not asked** what any of them had done.",
+        "**Freed, thanked, stoned, ran.** Four irregular pasts in one chapter."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which sentence is correct?",
+        "options": [
+          "The blades spun for ten seconds.",
+          "The blades did spinned.",
+          "The blades spinned for ten seconds.",
+          "The blades spined for ten seconds."
+        ],
+        "answerIndex": 0,
+        "explain": "Spin is irregular: spun. 'Spinned' is the over-regularised guess.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Regular verb",
+          "def": "Forms its past with -ed."
+        },
+        {
+          "term": "Irregular verb",
+          "def": "Forms its past by changing shape, or not at all."
+        },
+        {
+          "term": "Over-regularising",
+          "def": "Adding -ed to a verb that does not take it."
+        },
+        {
+          "term": "Base form",
+          "def": "The plain verb, before any ending."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Regular verbs add -ed. Irregular ones change shape.",
+        "The most common verbs are the irregular ones.",
+        "'Catched' and 'builded' come from applying a good rule too widely.",
+        "There is no shortcut. Exposure is the method."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Past tense of 'catch'?",
+      "options": [
+        "catch",
+        "caught",
+        "catching",
+        "catched"
+      ],
+      "answerIndex": 1,
+      "explain": "Irregular, and a very common one.",
+      "objective": "Recall the past form of common irregular verbs",
+      "seconds": 16
+    },
+    {
+      "type": "type",
+      "text": "Write the past tense of 'think'. One word.",
+      "accept": [
+        "thought"
+      ],
+      "explain": "Irregular: thought.",
+      "objective": "Recall the past form of common irregular verbs",
+      "seconds": 18
+    },
+    {
+      "type": "type",
+      "text": "Write the past tense of 'take'. One word.",
+      "accept": [
+        "took"
+      ],
+      "explain": "Irregular: took, not taked.",
+      "objective": "Recall the past form of common irregular verbs",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Which of these is regular?",
+      "options": [
+        "build",
+        "lose",
+        "sprint",
+        "drive"
+      ],
+      "answerIndex": 2,
+      "explain": "Sprint becomes sprinted. The other three change shape.",
+      "objective": "Tell regular and irregular past forms apart",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which sentence is correct?",
+      "options": [
+        "He lost the fight.",
+        "He lose the fight.",
+        "He loosed the fight.",
+        "He losed the fight."
+      ],
+      "answerIndex": 0,
+      "explain": "Lose is irregular: lost.",
+      "objective": "Use irregular pasts correctly in writing",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "'Cut' has the same form in the present and the past.",
+      "answer": true,
+      "explain": "A small group of verbs do not change at all: cut, put, hit, let.",
+      "objective": "Tell regular and irregular past forms apart",
+      "seconds": 20
+    },
+    {
+      "type": "type",
+      "text": "Write the past tense of 'break'. One word.",
+      "accept": [
+        "broke"
+      ],
+      "explain": "Irregular: broke.",
+      "objective": "Recall the past form of common irregular verbs",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Saying 'he teached me' is an example of…",
+      "options": [
+        "a tense agreement error",
+        "a spelling error",
+        "carelessness",
+        "over-regularising"
+      ],
+      "answerIndex": 3,
+      "explain": "The -ed rule has been applied to a verb that refuses it.",
+      "objective": "Avoid over-regularising an irregular verb",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Which is correct?",
+      "options": [
+        "The typhoon broke the fence.",
+        "The typhoon broked the fence.",
+        "The typhoon breaked the fence.",
+        "The typhoon breaks the fence last night."
+      ],
+      "answerIndex": 0,
+      "explain": "Break is irregular: broke.",
+      "objective": "Use irregular pasts correctly in writing",
+      "seconds": 20
+    },
+    {
+      "type": "type",
+      "text": "Write the past tense of 'drive'. One word.",
+      "accept": [
+        "drove"
+      ],
+      "explain": "Irregular: drove.",
+      "objective": "Recall the past form of common irregular verbs",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "In Chapter 12, Quixote frees a group of…",
+      "options": [
+        "barbers",
+        "prisoners",
+        "merchants",
+        "shepherds"
+      ],
+      "answerIndex": 1,
+      "explain": "He frees chained prisoners, convinced they are being held unjustly. It does not go well for him.",
+      "objective": "Use irregular pasts correctly in writing",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "There is a rule you can learn that predicts every irregular past form.",
+      "answer": false,
+      "explain": "There is not. Patterns exist, but exposure is what actually works.",
+      "objective": "Tell regular and irregular past forms apart",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 2 English. The lesson's real work is naming over-regularisation and treating it as a sign of understanding rather than carelessness, because 'catched' and 'builded' come from applying the -ed rule faithfully to verbs that reject it. Saying that out loud removes the embarrassment and makes the fix — exposure — feel reasonable. The interactive carries eight high-frequency irregulars in sentences drawn from boxing, weather, building, a teardown and a race, so the forms arrive attached to contexts rather than as a list.",
+    "discussion": [
+      "Why do people say 'builded' when they know the past tense?",
+      "Which verbs do not change at all?",
+      "Why are the commonest verbs the irregular ones?"
+    ],
+    "extension": [
+      "Read a page aloud and mark every irregular past you find.",
+      "Write a race report using five irregular verbs."
+    ],
+    "misconceptions": [
+      "That a rule exists for irregular forms.",
+      "Over-regularising: catched, builded, losed.",
+      "That irregular verbs are rare."
+    ]
+  }
+}

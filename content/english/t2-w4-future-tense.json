@@ -1,0 +1,348 @@
+{
+  "id": "eng-t2-w4",
+  "courseId": "english",
+  "courseTitle": "English",
+  "week": 4,
+  "title": "Future Tense",
+  "subtitle": "Will, going to, and the one that looks like the present.",
+  "estMinutes": 20,
+  "objectives": [
+    "Form the future with will and with going to",
+    "Choose between will and going to",
+    "Use the present continuous for fixed arrangements",
+    "Keep future forms consistent"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "⏭",
+      "eyebrow": "Part 4 · What has not happened yet",
+      "title": "English has three ways of talking about the future",
+      "text": "And they are not interchangeable. The one you pick says how certain the thing is."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Will",
+      "title": "For decisions made now, and predictions",
+      "text": "Will plus the base verb. No -s, no -ed, nothing.",
+      "points": [
+        "**I will train tomorrow.** Decided as I speak.",
+        "**It will rain later.** A prediction.",
+        "**Never 'will trained' or 'will trains'.**",
+        "**Shortened to 'll** in speech: *I'll go*."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Going to",
+      "title": "For plans already made, and visible evidence",
+      "text": "Going to plus the base verb. The decision happened before now.",
+      "points": [
+        "**I am going to replace the capacitor.** Already decided.",
+        "**Those clouds — it is going to rain.** The evidence is in front of you.",
+        "**Will** is the spur of the moment. **Going to** is the plan.",
+        "**Both are correct English.** They just mean slightly different things."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Your friend drops a glass. You say…",
+        "options": [
+          "I will catch it.",
+          "I catch it.",
+          "I am going to catch it.",
+          "I was catching it."
+        ],
+        "answerIndex": 0,
+        "explain": "Decided this instant, with no prior plan. That is what 'will' is for.",
+        "seconds": 24
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "aviation",
+      "icon": "✈️",
+      "eyebrow": "Aviation mode",
+      "title": "A flight plan is all 'going to'",
+      "text": "Nothing about a scheduled flight is decided on the spot.",
+      "points": [
+        "**We are going to cruise at 35,000 feet.** Planned hours ago.",
+        "**The flight departs at 06:40.** A timetable, so present tense.",
+        "**'We will divert'** only if something unexpected happens.",
+        "**The grammar tracks** how fixed the plan is."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Fixed arrangements",
+      "title": "The present continuous does future work",
+      "text": "When something is diarised, English often uses the -ing form.",
+      "points": [
+        "**I am fighting on Saturday.** Already arranged.",
+        "**He is flying to Cebu on Monday.** Ticket booked.",
+        "**It sounds like the present** and means the future.",
+        "**Only for arrangements**, not predictions."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Training mode",
+      "title": "A fight camp runs on 'going to'",
+      "text": "Everything in a camp is planned weeks out. Almost nothing about it is decided in the moment.",
+      "points": [
+        "**I am going to cut weight** over the next three weeks.",
+        "**He is fighting on the 14th.** Arranged, so present continuous.",
+        "**'I will stop' is what you say** when your body decides for you.",
+        "**The grammar shows** what was planned and what was not."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "'I will going to train' is correct English.",
+        "answer": false,
+        "explain": "It mixes two future forms. Pick one: 'I will train' or 'I am going to train'.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Literature Review: Don Quixote, Chapter 14: The Message to Dulcinea",
+      "text": "Sancho is sent to deliver a letter to a lady who does not know she is a lady.",
+      "points": [
+        "**'I will take it,'** says Sancho, deciding on the spot.",
+        "**He is going to invent** most of what he reports back.",
+        "**He never delivers it.** He loses the letter.",
+        "**Promises about the future** run all through the chapter."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which shows a plan made earlier?",
+        "options": [
+          "I fixed it.",
+          "I am going to fix it.",
+          "I will fix it.",
+          "I fix it."
+        ],
+        "answerIndex": 1,
+        "explain": "'Going to' signals the decision was already taken. 'Will' would mean deciding now.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Will + base verb",
+          "def": "The future form for decisions made now and for predictions."
+        },
+        {
+          "term": "Going to + base verb",
+          "def": "The future form for existing plans and visible evidence."
+        },
+        {
+          "term": "Present continuous",
+          "def": "The -ing form, used for fixed future arrangements."
+        },
+        {
+          "term": "Base verb",
+          "def": "The plain verb with no ending."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Will: decided now, or a prediction.",
+        "Going to: already planned, or the evidence is visible.",
+        "Am/is/are + -ing: a fixed arrangement.",
+        "Never mix two future forms in one verb."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Which is correct after 'will'?",
+      "options": [
+        "will trains",
+        "will trained",
+        "will training",
+        "will train"
+      ],
+      "answerIndex": 3,
+      "explain": "Will takes the base verb, with nothing added.",
+      "objective": "Form the future with will and with going to",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "You see heavy black clouds. The best sentence is…",
+      "options": [
+        "It rains.",
+        "It will rain.",
+        "It is going to rain.",
+        "It rained."
+      ],
+      "answerIndex": 2,
+      "explain": "The evidence is in front of you, which is what 'going to' is for.",
+      "objective": "Choose between will and going to",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Someone drops something and you grab it. You say…",
+      "options": [
+        "I will catch it.",
+        "I catch it.",
+        "I caught it.",
+        "I am going to catch it."
+      ],
+      "answerIndex": 0,
+      "explain": "Decided this second, with no plan. That is 'will'.",
+      "objective": "Choose between will and going to",
+      "seconds": 22
+    },
+    {
+      "type": "truefalse",
+      "text": "'I will going to train' is correct.",
+      "answer": false,
+      "explain": "It mixes both forms. Choose one.",
+      "objective": "Keep future forms consistent",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "'I am fighting on Saturday' refers to…",
+      "options": [
+        "the past",
+        "a fixed future arrangement",
+        "now",
+        "a prediction"
+      ],
+      "answerIndex": 1,
+      "explain": "Present continuous doing future work, for something already arranged.",
+      "objective": "Use the present continuous for fixed arrangements",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Which signals a plan made before now?",
+      "options": [
+        "I call him.",
+        "I will call him.",
+        "I am going to call him.",
+        "I called him."
+      ],
+      "answerIndex": 2,
+      "explain": "Going to carries the sense of an existing decision.",
+      "objective": "Choose between will and going to",
+      "seconds": 20
+    },
+    {
+      "type": "type",
+      "text": "Complete with one word: 'I ____ train tomorrow.' Use the form for a decision made right now.",
+      "accept": [
+        "will"
+      ],
+      "explain": "Will, for an on-the-spot decision.",
+      "objective": "Form the future with will and with going to",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which is a prediction rather than a plan?",
+      "options": [
+        "You will enjoy this.",
+        "I am meeting him Monday.",
+        "I am going to the gym at six.",
+        "I am flying on Tuesday."
+      ],
+      "answerIndex": 0,
+      "explain": "A statement about how the future will turn out.",
+      "objective": "Choose between will and going to",
+      "seconds": 22
+    },
+    {
+      "type": "truefalse",
+      "text": "'Going to' and 'will' mean exactly the same thing.",
+      "answer": false,
+      "explain": "Both are future, but one implies an existing plan and the other a fresh decision.",
+      "objective": "Choose between will and going to",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A flight plan uses 'going to' because…",
+      "options": [
+        "it is more polite",
+        "the decisions were made in advance",
+        "pilots prefer it",
+        "it is shorter"
+      ],
+      "answerIndex": 1,
+      "explain": "Nothing about a scheduled route is decided on the spot.",
+      "objective": "Choose between will and going to",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "In Chapter 14, what happens to the letter for Dulcinea?",
+      "options": [
+        "The barber takes it",
+        "It is delivered",
+        "Quixote burns it",
+        "Sancho loses it"
+      ],
+      "answerIndex": 3,
+      "explain": "Sancho loses it and invents a report of what happened instead.",
+      "objective": "Form the future with will and with going to",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which is wrong?",
+      "options": [
+        "She will goes.",
+        "She is going on Friday.",
+        "She is going to go.",
+        "She will go."
+      ],
+      "answerIndex": 0,
+      "explain": "Will takes the base verb: will go.",
+      "objective": "Form the future with will and with going to",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 4 English. The three future forms are taught by what they imply rather than as interchangeable options, because choosing between will and going to is the actual skill and most learners treat them as synonyms. The dropped-glass example gives 'will' its clearest use — a decision made in the moment — and the flight plan gives 'going to' its clearest one. The present continuous is included because it is extremely common in speech and is otherwise baffling: a present-looking form that means the future. The mixed form 'will going to' gets a direct checkpoint.",
+    "discussion": [
+      "What is the difference between 'I will fix it' and 'I am going to fix it'?",
+      "Why does a flight plan never use 'will'?",
+      "How can a present-tense form mean the future?"
+    ],
+    "extension": [
+      "Write five sentences about next week using all three forms correctly.",
+      "Listen for 'going to' in conversation and note whether a plan existed."
+    ],
+    "misconceptions": [
+      "Treating will and going to as identical.",
+      "Mixing both into one verb.",
+      "Adding an ending after 'will'."
+    ]
+  }
+}

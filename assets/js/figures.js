@@ -1366,6 +1366,27 @@ function orderLab({ id, label, alt, steps, height = 196 }) {
     };
 }
 
+/* Irregular verbs, with sentences from his world rather than from a textbook.
+   The pattern is the lesson: regular verbs add -ed, these change their vowel
+   or their whole shape, and there is no rule — only exposure. */
+function irregularVerbs() {
+    return listPicker({
+        id: 'iv', label: 'TAP A VERB · SEE IT CHANGE',
+        alt: 'Eight irregular verbs with their past tense forms and an example sentence for each',
+        capA: 'Past: ', capB: 'In a sentence: ',
+        rows: [
+            { short: 'catch', a: 'caught (not catched)', b: 'He caught the jab on his glove.' },
+            { short: 'break', a: 'broke (not breaked)', b: 'The typhoon broke the fence overnight.' },
+            { short: 'build', a: 'built (not builded)', b: 'I built the whole base before sunrise.' },
+            { short: 'spin', a: 'spun (not spinned)', b: 'The blades spun for ten seconds after I switched it off.' },
+            { short: 'drive', a: 'drove (not drived)', b: 'She drove the last lap on worn tyres.' },
+            { short: 'think', a: 'thought (not thinked)', b: 'I thought the capacitor was dead.' },
+            { short: 'lose', a: 'lost (not losed)', b: 'He lost because he had not trained.' },
+            { short: 'take', a: 'took (not taked)', b: 'I took the fan apart on the kitchen floor.' }
+        ]
+    });
+}
+
 /* GEMDAS, worked by him rather than recited at him. */
 function gemdasLab() {
     return orderLab({
@@ -5175,6 +5196,7 @@ export const FIGURES = {
     strikingHand,
     brainRotation,
     pluralMachine,
+    irregularVerbs,
     gemdasLab,
     squareLawLab,
     percentLab,
