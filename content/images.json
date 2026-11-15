@@ -1314,6 +1314,18 @@
       "size": "wide",
       "prompt": "A weathered outdoor basketball hoop on a wooden backboard mounted on a concrete post at the edge of a barangay court, with a frayed net and faded painted lines on the ground below. Late afternoon light.",
       "alt": "A weathered outdoor basketball hoop with a frayed net at the edge of a concrete court"
+    },
+    "eng-t2w1-backinmyday": {
+      "style": "meme",
+      "size": "wide",
+      "prompt": "A bold flat illustration with thick confident outlines and a warm limited palette, exaggerated and funny. An old man in a rocking chair leaning forward and gesturing animatedly as he tells a story, while a bored-looking kid slumped on the floor beside him stares into the middle distance. Thought bubbles above the old man show tiny scenes from long ago. No text or lettering anywhere.",
+      "alt": "An illustration of an old man telling an animated story to a bored kid, with small scenes from long ago in thought bubbles above him"
+    },
+    "mapeh-t2w3-backinmyday": {
+      "style": "meme",
+      "size": "wide",
+      "prompt": "A bold flat illustration with thick confident outlines and a warm limited palette, exaggerated and funny. Split composition. On the left an older person holds up a cassette tape and a pencil, looking proud and nostalgic. On the right a kid holds up a smartphone with a completely blank screen, looking politely baffled. No text or lettering anywhere.",
+      "alt": "An illustration of an older person proudly holding a cassette tape and pencil beside a baffled kid holding a blank-screened phone"
     }
   },
   "_never": "NEVER generate an image that poses as a documentary photograph of a specific real place, artwork, artefact or person - the Angono Petroglyphs, the Spoliarium, Rizal. A generated picture of a named real thing is a false claim about the world, and CLAUDE.md says facts must be true. Generated photographs depict a TYPE (kamote, a kulintang, a sipa shuttle), never a named original. For a specific real artefact use tools/fetch-images.mjs to pull the real, credited photograph from Wikimedia instead."

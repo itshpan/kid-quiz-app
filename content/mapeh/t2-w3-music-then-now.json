@@ -111,6 +111,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "\"Back in my day…\"",
+      "src": "assets/img/mapeh-t2w3-backinmyday.jpg",
+      "alt": "An illustration of an older person proudly holding a cassette tape and pencil beside a baffled kid holding a blank-screened phone",
+      "credit": "Generated image",
+      "text": "The pencil was for winding the tape back in by hand. That is a real thing people did.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "gaming",
       "icon": "🎮",
@@ -123,6 +133,22 @@
         "**The music reacts** to what you do.",
         "**Back to live music**, in a way — nothing is fixed."
       ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why did the MP3 win?",
+        "options": [
+          "It sounded best",
+          "It was small enough to send",
+          "It was free",
+          "It lasted longest"
+        ],
+        "answerIndex": 1,
+        "explain": "It discards audio on purpose. Size beat quality.",
+        "seconds": 20
+      }
     },
     {
       "kind": "terms",

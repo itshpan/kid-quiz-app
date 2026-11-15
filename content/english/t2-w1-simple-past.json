@@ -65,6 +65,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "\"Back in my day…\"",
+      "src": "assets/img/eng-t2w1-backinmyday.jpg",
+      "alt": "An illustration of an old man telling an animated story to a bored kid, with small scenes from long ago in thought bubbles above him",
+      "credit": "Generated image",
+      "text": "Every sentence that follows those words is in the simple past. It happened and it is over.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "Time markers",
       "title": "Words that force the past tense",
