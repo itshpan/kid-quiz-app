@@ -170,8 +170,28 @@ question alone.**
 ## Wrong answers are the point
 
 In Philippine usage a **reviewer** is the study material itself, and its value
-is that he corrects a wrong answer and then meets it again. So the misses are
-stored, and `assets/js/store.js` owns that:
+is that he **corrects the wrong answers and remembers the correct ones**. The
+second half is the one that is easy to drop, and it was dropped twice.
+
+First, the misses were not stored at all: the quiz computed them, showed them
+once and threw them away. Second, and worse, the list it showed named the
+question and the explanation but **not the answer**. That is not a small
+omission. 2,165 of the 2,784 multiple-choice and true/false questions, **77%**,
+have an explanation that never states the answer, and that is correct writing:
+an explanation hands over the missing fact rather than repeating the option he
+just read, so *"How many qualities are in that list?"* is explained by naming
+all nine of them and never saying "nine". At answer time that works, because
+the right option is lit up beside it. In a list read afterwards nothing is lit
+up, so the review material was a question and a cryptic hint.
+
+`assets/js/answers.js` is the one place that says what the answer is, for the
+learner's list and the teacher's key alike. **Any surface that shows a question
+after the fact must show its answer**, and `check-review` counts one `.tkey-a`
+per listed question to enforce it. Do not assert this by searching the page for
+answer strings: several explanations legitimately contain the answer, so that
+test passed with the answer markup deleted.
+
+The misses themselves are stored, and `assets/js/store.js` owns that:
 
 | Behaviour | Where |
 |---|---|

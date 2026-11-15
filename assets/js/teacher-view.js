@@ -5,7 +5,7 @@
    ========================================================================== */
 
 import { escapeHtml, md } from './ui.js';
-import { BONES } from './skeleton.js';
+import { answerText as plainAnswer } from './answers.js';
 
 export const TEACHER_TYPE_LABEL = {
     multiple: 'Multiple choice',
@@ -15,16 +15,21 @@ export const TEACHER_TYPE_LABEL = {
     hotspot: 'Diagram — label identification'
 };
 
-/** The human-readable correct answer for any question type. */
+/**
+ * The correct answer, annotated for whoever is marking.
+ *
+ * What the answer IS lives in one place, question.js answerText, which the
+ * learner's own review list uses too. This only adds what a teacher needs
+ * and a learner does not: the option letter to call out, and the spellings
+ * a typed question will also accept.
+ */
 export function answerText(q) {
-    switch (q.type) {
-        case 'multiple':  return `${'ABCD'[q.answerIndex]} — ${q.options[q.answerIndex]}`;
-        case 'truefalse': return q.answer ? 'True' : 'False';
-        case 'type':      return `${q.accept[0]}${q.accept.length > 1 ? `  (also accepted: ${q.accept.slice(1).join(', ')})` : ''}`;
-        case 'order':     return q.items.join('  →  ');
-        case 'hotspot':   return BONES[q.answerBone]?.name || q.answerBone;
-        default:          return '—';
+    const a = plainAnswer(q);
+    if (q.type === 'multiple') return `${'ABCD'[q.answerIndex]} — ${a}`;
+    if (q.type === 'type' && q.accept && q.accept.length > 1) {
+        return `${a}  (also accepted: ${q.accept.slice(1).join(', ')})`;
     }
+    return a || '—';
 }
 
 function item(q, label) {

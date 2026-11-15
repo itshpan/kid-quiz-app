@@ -5,6 +5,7 @@
 
 import { escapeHtml, md } from './ui.js';
 import { renderQuestion } from './question.js';
+import { answerText } from './answers.js';
 import { getSettings } from './store.js';
 
 const XP_PER_CORRECT = 25;
@@ -138,12 +139,21 @@ export function runQuiz(host, questions, { onFinish }) {
             </div>
             ${missed.length ? `
                 <div style="margin-top:26px;">
-                    <div class="section-title">Worth a second look</div>
+                    <div class="section-title">The answers to remember</div>
                     <div class="stack">
-                        ${missed.map(q => `<div class="tkey">
-                            <div class="tkey-q">${md(escapeHtml(q.text))}</div>
-                            <div class="tkey-why">${md(escapeHtml(q.explain))}</div>
-                        </div>`).join('')}
+                        ${missed.map(q => {
+                            /* The answer first, then why. Without the answer
+                               this list is a question and a hint: 77% of the
+                               explanations never state it, by design, because
+                               at answer time the correct option is already
+                               lit up on screen. Here nothing is lit up. */
+                            const a = answerText(q);
+                            return `<div class="tkey">
+                                <div class="tkey-q">${md(escapeHtml(q.text))}</div>
+                                ${a ? `<div class="tkey-a"><b>${md(escapeHtml(a))}</b></div>` : ''}
+                                <div class="tkey-why">${md(escapeHtml(q.explain))}</div>
+                            </div>`;
+                        }).join('')}
                     </div>
                 </div>` : ''}`;
 

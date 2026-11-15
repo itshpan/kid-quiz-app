@@ -186,6 +186,23 @@ console.log('\nmissing every question, then redoing only those');
     const before = await read(page);
     const n = Object.keys(before.missed || {}).length;
     check('misses are persisted', n > 0, true);
+
+    /* The review list must state the correct answer. 77% of explanations
+       never do, by design, because at answer time the right option is lit
+       up beside them. Here it is not, so without the answer this list is a
+       question and a cryptic hint. */
+    const panel = await page.locator('#quizHost').innerText();
+    check('the review list is headed as answers to remember',
+        /answers to remember/i.test(panel), true);
+    /* Count the answer elements, do not search the text for answer strings.
+       Several explanations legitimately contain the answer already ("3
+       divided by 4 is 0.75, which is 75%"), so a text search passed even
+       with the answer markup deleted. One .tkey-a per listed question is
+       the thing that actually has to be true. */
+    const cards = await page.locator('#quizHost .tkey').count();
+    const answers = await page.locator('#quizHost .tkey-a').count();
+    check('every question in the review list states its answer',
+        [cards === n, answers], [true, cards]);
     const one = Object.values(before.missed || {})[0] || {};
     check('a record carries its objective and the question',
         [!!one.objective, !!one.q, one.right], [true, true, 0]);
