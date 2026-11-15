@@ -4,7 +4,7 @@
   "courseTitle": "English",
   "week": 7,
   "title": "Degrees of Comparison",
-  "subtitle": "Fast, faster, fastest — and when to use more.",
+  "subtitle": "Fast, faster, fastest. And when to use more.",
   "estMinutes": 20,
   "objectives": [
     "Form comparative and superlative adjectives",
@@ -26,9 +26,9 @@
       "title": "Positive, comparative, superlative",
       "text": "Each has a job, and using the wrong one is immediately noticeable.",
       "points": [
-        "**Positive** — plain description: *a fast car*.",
-        "**Comparative** — one against one: *faster than*.",
-        "**Superlative** — one against all: *the fastest*.",
+        "**Positive**: plain description: *a fast car*.",
+        "**Comparative**: one against one: *faster than*.",
+        "**Superlative**: one against all: *the fastest*.",
         "**Comparative needs 'than'.** Superlative needs 'the'."
       ]
     },
@@ -348,7 +348,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 7 English. The three degrees are separated by how many things are being measured, which is the distinction that actually governs the choice, and the grammatical markers are attached to each — 'than' for the comparative, 'the' for the superlative — so he has a check he can apply to his own sentences. The syllable rule is given plainly because it works. Double comparatives get their own checkpoint and are linked explicitly back to over-regularising from week 2, since 'more faster' and 'catched' are the same instinct.",
+    "summary": "Term 2 Week 7 English. The three degrees are separated by how many things are being measured, which is the distinction that actually governs the choice, and the grammatical markers are attached to each ('than' for the comparative, 'the' for the superlative) so he has a check he can apply to his own sentences. The syllable rule is given plainly because it works. Double comparatives get their own checkpoint and are linked explicitly back to over-regularising from week 2, since 'more faster' and 'catched' are the same instinct.",
     "discussion": [
       "How do you know whether to use -er or more?",
       "What word always follows a comparative?",

@@ -20,7 +20,7 @@
       "icon": "🫀",
       "eyebrow": "Part 1 · The delivery network",
       "title": "Two systems whose whole job is delivery",
-      "text": "One moves oxygen and fuel. The other moves information. Both are networks, and both fail the same way — a blocked route."
+      "text": "One moves oxygen and fuel. The other moves information. Both are networks, and both fail the same way. A blocked route."
     },
     {
       "kind": "idea",
@@ -42,12 +42,12 @@
       "lightBg": true,
       "alt": "A three-dimensional medical illustration of a human heart cut open, with blue arrows showing oxygen-poor blood entering the right side and red arrows showing oxygen-rich blood leaving the left side",
       "credit": "BruceBlaus · CC BY 3.0 · <a href=\"https://commons.wikimedia.org/wiki/File:Blausen_0452_Heart_BloodFlow.png\" target=\"_blank\" rel=\"noopener\">Wikimedia Commons</a>",
-      "text": "Blue is oxygen-poor, red is oxygen-rich. Look at the wall on the red side — that is the muscle that pushes blood round your whole body."
+      "text": "Blue is oxygen-poor, red is oxygen-rich. Look at the wall on the red side. That is the muscle that pushes blood round your whole body."
     },
     {
       "kind": "explorer",
       "figure": "heartParts",
-      "title": "Tap any part to name it",
+      "title": "Four chambers and four big vessels",
       "text": "Four chambers and the four big vessels. Each one has a car fact and a fact about you."
     },
     {
@@ -103,7 +103,7 @@
       "text": "A car's cooling system is a closed loop: a pump, hoses out to the radiator, hoses back. Sound familiar?",
       "points": [
         "**The water pump** is the heart.",
-        "**The radiator** is the lungs — where the exchange happens.",
+        "**The radiator** is the lungs. Where the exchange happens.",
         "**Stop the pump** and nothing else in the loop matters.",
         "**A closed loop** means the same fluid goes round again."
       ]
@@ -129,7 +129,7 @@
         "**Ischaemia** is the word for a blood supply being cut off.",
         "**Necrosis** is what follows. The cells downstream die.",
         "**A blocked artery** in the heart is a heart attack. Same mechanism.",
-        "**Like a branch** cut off from the trunk — it dies, and it gets pruned."
+        "**Like a branch** cut off from the trunk. It dies, and it gets pruned."
       ]
     },
     {
@@ -165,7 +165,7 @@
       "title": "Four things in one liquid",
       "text": "Blood is not one substance. It is cells and fragments floating in a straw-coloured liquid.",
       "points": [
-        "**Plasma** — the liquid, a bit over half of it.",
+        "**Plasma**: the liquid, a bit over half of it.",
         "**Red cells** carry oxygen using haemoglobin.",
         "**White cells** fight infection.",
         "**Platelets** clot a cut and stop the bleeding."
@@ -226,7 +226,7 @@
     {
       "kind": "break",
       "title": "Good spot to pause",
-      "text": "Delivery system done. Part 2 is the other network — the one that carries information. Your place is saved."
+      "text": "Delivery system done. Part 2 is the other network. The one that carries information. Your place is saved."
     },
     {
       "kind": "open",
@@ -269,14 +269,14 @@
       "points": [
         "**Central nervous system:** the brain and the spinal cord.",
         "**Peripheral nervous system:** every nerve outside those two.",
-        "**Both are protected by bone** — skull and vertebrae.",
+        "**Both are protected by bone**: skull and vertebrae.",
         "**Week 1 said the skeleton protects.** This is what it protects."
       ]
     },
     {
       "kind": "explorer",
       "figure": "nervous",
-      "title": "Tap any part of the control system",
+      "title": "Five parts of the control system",
       "text": "Five parts. One decides, one smooths, one never asks you, and two carry the signal."
     },
     {
@@ -326,9 +326,9 @@
       "title": "Three parts, three jobs",
       "text": "The brain is not one lump. The exam wants three regions and what each one runs.",
       "points": [
-        "**Cerebrum** — thinking, memory, decisions, voluntary movement.",
-        "**Cerebellum** — balance, coordination, timing.",
-        "**Brain stem** — breathing and heart rate, without asking you.",
+        "**Cerebrum**: thinking, memory, decisions, voluntary movement.",
+        "**Cerebellum**: balance, coordination, timing.",
+        "**Brain stem**: breathing and heart rate, without asking you.",
         "**You cannot decide to stop your brain stem.**"
       ]
     },
@@ -374,7 +374,7 @@
       "kind": "figure",
       "figure": "reflexArc",
       "eyebrow": "The shortcut",
-      "title": "Tap through a reflex",
+      "title": "A reflex, from hot pan to hand moving",
       "text": "Hand on a hot pan. Four steps, and the last one is the surprise."
     },
     {
@@ -658,7 +658,7 @@
     }
   ],
   "teacher": {
-    "summary": "Week 5 Science covers the circulatory and nervous systems together, matching the Term 1 weekly scope. The two are taught as the same kind of thing — a delivery network — so the second half has a structure to hang on rather than starting from nothing. Two interactive figures carry the parts that a paragraph handles badly: the double circulation loop, and the reflex arc where the ordering is the whole lesson. The reflex figure deliberately ends on the brain being informed last, because that is the point students most often get backwards. Two callbacks to Week 1 are built in: bone as protection for the central nervous system, and training adaptation applied to the heart.",
+    "summary": "Week 5 Science covers the circulatory and nervous systems together, matching the Term 1 weekly scope. The two are taught as the same kind of thing (a delivery network) so the second half has a structure to hang on rather than starting from nothing. Two interactive figures carry the parts that a paragraph handles badly: the double circulation loop, and the reflex arc where the ordering is the whole lesson. The reflex figure deliberately ends on the brain being informed last, because that is the point students most often get backwards. Two callbacks to Week 1 are built in: bone as protection for the central nervous system, and training adaptation applied to the heart.",
     "discussion": [
       "Ask him why the left ventricle is thicker than the right. If he can answer from the loop lengths rather than from memory, he has understood the double circuit.",
       "Ask him to explain the pulmonary artery to you. It is the fastest way to find out whether 'artery' means direction or oxygen in his head.",

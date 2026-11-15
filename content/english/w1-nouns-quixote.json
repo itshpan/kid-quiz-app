@@ -4,7 +4,7 @@
   "courseTitle": "English",
   "week": 1,
   "title": "Singular & Plural Nouns",
-  "subtitle": "The rules for making one into many — and a man who decided to become a knight.",
+  "subtitle": "The rules for making one into many. And a man who decided to become a knight.",
   "estMinutes": 22,
   "objectives": [
     "Form regular plurals using -s and -es",
@@ -51,7 +51,7 @@
         "accept": [
           "matches"
         ],
-        "explain": "matches. It ends in -ch, so it takes -es. Try saying \"matchs\" — your mouth refuses.",
+        "explain": "matches. It ends in -ch, so it takes -es. Try saying \"matchs\". Your mouth refuses.",
         "seconds": 15
       }
     },
@@ -85,7 +85,7 @@
           "journeyes"
         ],
         "answerIndex": 1,
-        "explain": "journeys. The letter before the y is **e**, a vowel — so it just takes -s. Only a consonant before the y triggers -ies.",
+        "explain": "journeys. The letter before the y is **e**, a vowel. So it just takes -s. Only a consonant before the y triggers -ies.",
         "seconds": 15
       }
     },
@@ -273,7 +273,7 @@
       "kind": "idea",
       "eyebrow": "The gear",
       "title": "The helmet he didn't test twice",
-      "text": "He built a helmet from pasteboard, tested it with his sword, and destroyed it in one blow. So he rebuilt it — and this time didn't test it.",
+      "text": "He built a helmet from pasteboard, tested it with his sword, and destroyed it in one blow. So he rebuilt it. And this time didn't test it.",
       "points": [
         "**Rebuilt it with iron bars** inside.",
         "**Then decided not to swing at it**, in case it broke again.",
@@ -366,7 +366,7 @@
     {
       "kind": "fact",
       "eyebrow": "Did you know",
-      "text": "Don Quixote was published in 1605 and is often called the first modern novel. The word quixotic — chasing something impossible because it's right — comes straight from him."
+      "text": "Don Quixote was published in 1605 and is often called the first modern novel. The word quixotic (chasing something impossible because it's right) comes straight from him."
     },
     {
       "kind": "recap",
@@ -376,7 +376,7 @@
         "**Default is -s.** Hissing sounds take **-es**.",
         "**Consonant + y → -ies.** Vowel + y → just -s.",
         "**Irregulars beat every rule:** child, foot, mouse, person.",
-        "**Don Quixote renames everything** — himself, his horse, his lady — to make the story real."
+        "**Don Quixote renames everything** (himself, his horse, his lady) to make the story real."
       ]
     }
   ],
@@ -415,7 +415,7 @@
         "monkeys"
       ],
       "answerIndex": 3,
-      "explain": "monkeys. The letter before the y is **e**, a vowel — so it just takes -s.",
+      "explain": "monkeys. The letter before the y is **e**, a vowel. So it just takes -s.",
       "objective": "Apply the y, f and o plural rules correctly",
       "seconds": 12
     },
@@ -439,7 +439,7 @@
         "buses"
       ],
       "answerIndex": 0,
-      "explain": "teeth. The others all follow a rule. Tooth → teeth follows nothing — you just have to know it.",
+      "explain": "teeth. The others all follow a rule. Tooth → teeth follows nothing. You just have to know it.",
       "objective": "Recognise irregular plurals and nouns that do not change",
       "seconds": 15
     },
@@ -447,7 +447,7 @@
       "type": "truefalse",
       "text": "The plural of **sheep** is **sheeps**.",
       "answer": false,
-      "explain": "False. Sheep doesn't change. One sheep, ten sheep — same word. So do deer, fish and aircraft.",
+      "explain": "False. Sheep doesn't change. One sheep, ten sheep. Same word. So do deer, fish and aircraft.",
       "objective": "Recognise irregular plurals and nouns that do not change",
       "seconds": 12
     },
@@ -531,7 +531,7 @@
     "discussion": [
       "Ask him to explain why 'monkeys' and 'babies' end differently. If he points at the letter before the y, he has the rule rather than the two examples.",
       "Ask why Don Quixote doesn't test his second helmet. There is no wrong answer, and it is the question the whole novel is built on.",
-      "Ask whether Don Quixote is mad or brave. Keep the question open — it comes back every chapter this term.",
+      "Ask whether Don Quixote is mad or brave. Keep the question open. It comes back every chapter this term.",
       "Ask him to rename three ordinary things in the room the way Don Quixote would. It tests whether he understood that naming is how the character makes his world real."
     ],
     "extension": "Have him write the opening of his own adventure using the same four moves: pick a name, pick a mount, pick something worth fighting for, and set off. Two hundred words. It rehearses Chapter 1's structure and it is the kind of writing he already does for fun.",
@@ -539,7 +539,7 @@
       "'Add an apostrophe to make a plural.' Never. Apostrophes mark possession or a missing letter, never number.",
       "'All words ending in y take -ies.' Only after a consonant. Vowel + y takes a plain -s: boys, keys, journeys.",
       "'All f words become -ves.' Many do, but roofs, chiefs and beliefs do not. These have to be learned individually.",
-      "'Don Quixote is simply stupid.' He is not confused about appearances — he decides what things mean and commits. That distinction is the point of the book."
+      "'Don Quixote is simply stupid.' He is not confused about appearances. He decides what things mean and commits. That distinction is the point of the book."
     ]
   }
 }

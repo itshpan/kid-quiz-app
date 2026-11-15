@@ -19,7 +19,7 @@
       "icon": "🔦",
       "eyebrow": "Part 1 · The real dividing line",
       "title": "Last term you learned the test. Now the reason",
-      "text": "A suspension settles. A colloid does not. True — but it is a symptom, not the cause. The cause is size."
+      "text": "A suspension settles. A colloid does not. True. But it is a symptom, not the cause. The cause is size."
     },
     {
       "kind": "idea",
@@ -82,7 +82,7 @@
         "**Standing still**, red cells settle out and leave straw-coloured plasma above.",
         "**Doctors measure that**, and how fast it happens says something about inflammation.",
         "**In your veins** it never settles, because it never stops moving.",
-        "**Plasma itself** is a colloid — proteins too small to fall out."
+        "**Plasma itself** is a colloid. Proteins too small to fall out."
       ]
     },
     {
@@ -91,7 +91,7 @@
       "icon": "🌊",
       "eyebrow": "Disaster mode",
       "title": "Floodwater is brown because it is a suspension",
-      "text": "Fast water carries soil and sand. The water is not dyed — it is holding solid pieces.",
+      "text": "Fast water carries soil and sand. The water is not dyed. It is holding solid pieces.",
       "points": [
         "**Moving water** keeps heavy particles up by sheer force.",
         "**When it slows**, gravity wins and the silt drops out.",
@@ -105,7 +105,7 @@
         "type": "truefalse",
         "text": "Floodwater is brown because the soil has dissolved in it.",
         "answer": false,
-        "explain": "Not dissolved — suspended. The pieces are still whole, and they drop out when the water slows.",
+        "explain": "Not dissolved. Suspended. The pieces are still whole, and they drop out when the water slows.",
         "seconds": 18
       }
     },
@@ -128,7 +128,7 @@
     {
       "kind": "figure",
       "figure": "colloidKinds",
-      "title": "Tap each kind",
+      "title": "Five colloids, named by what is spread in what",
       "text": "Named by what is spread through what. Two quiz questions come from this."
     },
     {
@@ -152,7 +152,7 @@
       "text": "Car paint is pigment held in liquid. Petrol is a solution. One separates on the shelf, one never does.",
       "points": [
         "**Pigment** is solid and big enough to settle. Shake it or you spray clear liquid.",
-        "**Metallic paint** carries aluminium flakes — the sparkle is suspended metal.",
+        "**Metallic paint** carries aluminium flakes. The sparkle is suspended metal.",
         "**Petrol** is dissolved, under a nanometre. Shaking it changes nothing.",
         "**Medicine bottles** say shake well for exactly the paint reason."
       ]
@@ -191,7 +191,7 @@
       "title": "Particles the size of the light itself",
       "text": "Visible light has a wavelength around 400 to 700 nanometres. Look at that number again.",
       "points": [
-        "**Colloid particles are 1 to 1000 nm** — the same ballpark as the light.",
+        "**Colloid particles are 1 to 1000 nm**: the same ballpark as the light.",
         "**Something that size** scatters light sideways, so you see the beam.",
         "**Solution particles** are far too small to interfere with it.",
         "**That is the test:** a visible beam means colloid or bigger."
@@ -243,7 +243,7 @@
       "icon": "🌫️",
       "eyebrow": "Disaster mode",
       "title": "Fog lights point down for a reason",
-      "text": "Fog is a colloid — water droplets in air. Your headlights light up the fog instead of the road.",
+      "text": "Fog is a colloid. Water droplets in air. Your headlights light up the fog instead of the road.",
       "points": [
         "**Main beams scatter** off the droplets and glare straight back at you.",
         "**Fog lights sit low** and aim down, under most of the scattering.",
@@ -273,7 +273,7 @@
       "terms": [
         {
           "term": "Colloid",
-          "def": "Particles 1–1000 nm spread through another substance. They do not settle."
+          "def": "Particles 1-1000 nm spread through another substance. They do not settle."
         },
         {
           "term": "Suspension",
@@ -302,7 +302,7 @@
       "eyebrow": "Lesson done",
       "title": "What to remember",
       "points": [
-        "Size sets the class: under 1 nm, 1–1000 nm, over 1000 nm.",
+        "Size sets the class: under 1 nm, 1-1000 nm, over 1000 nm.",
         "Suspensions settle because gravity beats the bombardment.",
         "Colloids come in five kinds, named by what is in what.",
         "A visible beam means the particles are colloid-sized or bigger."
@@ -348,7 +348,7 @@
         "Aerosol"
       ],
       "answerIndex": 1,
-      "explain": "Fat droplets spread through water — liquid in liquid, which is an emulsion.",
+      "explain": "Fat droplets spread through water. Liquid in liquid, which is an emulsion.",
       "objective": "Name the five kinds of colloid and give an example of each",
       "seconds": 18
     },
@@ -376,7 +376,7 @@
         "Aerosol"
       ],
       "answerIndex": 3,
-      "explain": "Anything dispersed in a gas is an aerosol — fog is liquid in air, smoke is solid in air.",
+      "explain": "Anything dispersed in a gas is an aerosol. Fog is liquid in air, smoke is solid in air.",
       "objective": "Name the five kinds of colloid and give an example of each",
       "seconds": 20
     },
@@ -412,7 +412,7 @@
         "Colloid particles give off their own light"
       ],
       "answerIndex": 1,
-      "explain": "Scattering, not absorbing or glowing. Visible light is 400–700 nm, right in the colloid band.",
+      "explain": "Scattering, not absorbing or glowing. Visible light is 400-700 nm, right in the colloid band.",
       "objective": "Explain why the Tyndall effect happens, not only that it happens",
       "seconds": 25
     },
@@ -462,13 +462,13 @@
         "Salt dissolved in water"
       ],
       "answerIndex": 3,
-      "explain": "Dissolved salt is under a nanometre — far too small to scatter light. The other three are colloids.",
+      "explain": "Dissolved salt is under a nanometre. Far too small to scatter light. The other three are colloids.",
       "objective": "Explain why the Tyndall effect happens, not only that it happens",
       "seconds": 22
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 1 Science. The scope says Suspensions & Colloids, which Term 1 Week 8 already introduced — he can already apply the settling test and name the Tyndall effect. So this week supplies the mechanism underneath both rather than repeating the definitions: the nanometre bands that decide the class, Brownian motion as the reason a colloid stays up, the five colloid types as a size band that any two states of matter can occupy, and scattering as the reason the beam shows. The fog-light and paint-tin cards exist because they are the two places he will meet this outside a test.",
+    "summary": "Term 2 Week 1 Science. The scope says Suspensions & Colloids, which Term 1 Week 8 already introduced. He can already apply the settling test and name the Tyndall effect. So this week supplies the mechanism underneath both rather than repeating the definitions: the nanometre bands that decide the class, Brownian motion as the reason a colloid stays up, the five colloid types as a size band that any two states of matter can occupy, and scattering as the reason the beam shows. The fog-light and paint-tin cards exist because they are the two places he will meet this outside a test.",
     "discussion": [
       "Why can the same substance be a solution, a colloid or a suspension?",
       "Blood never settles inside you. Why does it settle in a tube?",

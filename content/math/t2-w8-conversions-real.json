@@ -51,7 +51,7 @@
     {
       "kind": "figure",
       "figure": "volumeUnitLab",
-      "title": "Press an amount",
+      "title": "The same water, written in four units",
       "text": "The same water in four units. Only the decimal point is moving."
     },
     {
@@ -103,7 +103,7 @@
       "points": [
         "**A 4 × 3 × 2.5 m room** is 30 m³.",
         "**A fan moving 60 m³ a minute** turns that over twice a minute.",
-        "**No conversion needed** — both are already cubic metres.",
+        "**No conversion needed**: both are already cubic metres.",
         "**Matching units first** is half the work."
       ]
     },
@@ -145,7 +145,7 @@
       "points": [
         "**1 m³ per second** is 1,000 litres every second.",
         "**A big release** is hundreds of times that.",
-        "**Per second matters** — an hour is 3,600 of them.",
+        "**Per second matters**: an hour is 3,600 of them.",
         "**The rate times the time** is what reaches the town."
       ]
     },

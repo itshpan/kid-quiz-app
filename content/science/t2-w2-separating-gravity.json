@@ -45,7 +45,7 @@
     {
       "kind": "figure",
       "figure": "settleStack",
-      "title": "Tap through the stages",
+      "title": "One jar, four stages of cleaning it",
       "text": "One jar, four stages. Watch what each step still leaves behind."
     },
     {
@@ -72,7 +72,7 @@
           "Water is too thick to pour"
         ],
         "answerIndex": 0,
-        "explain": "Decantation needs two visible layers. Dissolved salt is a solution — nothing settles.",
+        "explain": "Decantation needs two visible layers. Dissolved salt is a solution. Nothing settles.",
         "seconds": 24
       }
     },
@@ -84,7 +84,7 @@
       "title": "A flood plain is sedimentation, enormous",
       "text": "Floodwater carries soil while it moves fast. When it spreads out and slows, it drops the load.",
       "points": [
-        "**Heaviest first** — gravel near the channel, fine silt furthest out.",
+        "**Heaviest first**: gravel near the channel, fine silt furthest out.",
         "**That sorting** is why flood plains are good farmland.",
         "**After a flood** the layer inside a house is the same process, indoors.",
         "**Nothing dissolved.** It was all suspended the whole way."
@@ -295,7 +295,7 @@
       "type": "truefalse",
       "text": "Sieving can tell the difference between two materials of the same size.",
       "answer": false,
-      "explain": "A sieve only sees size. Same size, same side — whatever they are made of.",
+      "explain": "A sieve only sees size. Same size, same side. Whatever they are made of.",
       "objective": "Choose between sieving, filtering and decanting for a given mixture",
       "seconds": 16
     },
@@ -379,7 +379,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 2 Science, the first of two weeks the scope gives to separating heterogeneous mixtures. Rather than cover all eight named methods twice, this week takes the ones that need nothing but gravity and a hole — sedimentation, decantation, filtration, sieving — and Week 3 takes the ones that add energy or a second force. The thread through both is that every method needs the parts to be whole, which is why none of them touch a solution; that point is made three times and tested twice.",
+    "summary": "Term 2 Week 2 Science, the first of two weeks the scope gives to separating heterogeneous mixtures. Rather than cover all eight named methods twice, this week takes the ones that need nothing but gravity and a hole (sedimentation, decantation, filtration, sieving) and Week 3 takes the ones that add energy or a second force. The thread through both is that every method needs the parts to be whole, which is why none of them touch a solution; that point is made three times and tested twice.",
     "discussion": [
       "Why does a filter never remove dissolved sugar?",
       "Why is a flood plain sorted by size?",

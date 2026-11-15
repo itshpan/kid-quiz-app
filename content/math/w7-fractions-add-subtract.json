@@ -28,8 +28,8 @@
       "title": "The bottom names the piece. The top counts them",
       "text": "In 3/4, the 4 says the whole was cut into four. The 3 says you have three of those.",
       "points": [
-        "**Denominator** — how many pieces the whole was cut into.",
-        "**Numerator** — how many of those you have.",
+        "**Denominator**: how many pieces the whole was cut into.",
+        "**Numerator**: how many of those you have.",
         "**The bottom is a name**, not a quantity.",
         "**You never add names.** You add counts."
       ]
@@ -145,7 +145,7 @@
           "4/6"
         ],
         "answerIndex": 2,
-        "explain": "Divide both by 4. 4/6 is not finished — both still divide by 2.",
+        "explain": "Divide both by 4. 4/6 is not finished. Both still divide by 2.",
         "seconds": 15
       }
     },
@@ -460,7 +460,7 @@
     }
   ],
   "teacher": {
-    "summary": "Week 7 Math covers adding and subtracting fractions, matching the Term 1 weekly scope. It opens on the error it exists to prevent — adding the denominators — and answers it with a claim that fixes it permanently: the bottom number is a name for the piece size, not a quantity, and you never add names. The fractionBars figure carries that argument visually, because seeing two bars re-cut into sixths settles it faster than any explanation. The mixed-number half offers two methods and is explicit that converting to improper fractions is the one that never fails, which matters under exam pressure where the separate-wholes method breaks exactly when the fractions do not cooperate.",
+    "summary": "Week 7 Math covers adding and subtracting fractions, matching the Term 1 weekly scope. It opens on the error it exists to prevent (adding the denominators) and answers it with a claim that fixes it permanently: the bottom number is a name for the piece size, not a quantity, and you never add names. The fractionBars figure carries that argument visually, because seeing two bars re-cut into sixths settles it faster than any explanation. The mixed-number half offers two methods and is explicit that converting to improper fractions is the one that never fails, which matters under exam pressure where the separate-wholes method breaks exactly when the fractions do not cooperate.",
     "discussion": [
       "Ask him what 1/2 + 1/3 is before the lesson. If he says 2/5, this lesson is exactly what he needs.",
       "Ask why the denominator is like a unit. Millimetres and inches make it obvious.",

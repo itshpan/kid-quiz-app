@@ -28,7 +28,7 @@
       "title": "Mixture or pure substance",
       "text": "The test is whether the parts kept their own identity, and whether you could get them back out.",
       "points": [
-        "**A mixture** — parts combined but not chemically joined.",
+        "**A mixture**: parts combined but not chemically joined.",
         "**Each part keeps its own properties.**",
         "**You can separate them physically.**",
         "**No new substance is made.** Nothing reacted."
@@ -40,8 +40,8 @@
       "title": "Heterogeneous or homogeneous",
       "text": "One word for mixtures where you can see the parts, and one for mixtures where you cannot.",
       "points": [
-        "**Heterogeneous** — not uniform. You can see parts.",
-        "**Homogeneous** — uniform all the way through.",
+        "**Heterogeneous**: not uniform. You can see parts.",
+        "**Homogeneous**: uniform all the way through.",
         "***Hetero* means different. *Homo* means same.**",
         "**This week is the first one.** Next week is the other."
       ]
@@ -68,8 +68,8 @@
       "title": "Suspension and colloid",
       "text": "Both are heterogeneous. The difference is whether the particles eventually settle to the bottom.",
       "points": [
-        "**Suspension** — particles settle if you leave it. Muddy water.",
-        "**Colloid** — particles stay spread out. Milk, fog, jelly.",
+        "**Suspension**: particles settle if you leave it. Muddy water.",
+        "**Colloid**: particles stay spread out. Milk, fog, jelly.",
         "**\"Shake well before use\"** means suspension.",
         "**A colloid never needs shaking.**"
       ]
@@ -217,7 +217,7 @@
       "kind": "figure",
       "figure": "separationMethods",
       "eyebrow": "Getting the parts back",
-      "title": "Six methods",
+      "title": "Six methods, and what makes each one work",
       "text": "Tap each one. The method depends on what makes the parts different."
     },
     {
@@ -228,7 +228,7 @@
       "title": "Every engine runs a separation process",
       "text": "An oil filter does exactly what filter paper does in a lab. Same job, same reason.",
       "points": [
-        "**Filtering** — solids out of a liquid.",
+        "**Filtering**: solids out of a liquid.",
         "**The air filter** does it for a gas.",
         "**A magnetic sump plug** catches metal filings.",
         "**Three methods from the list**, in one car."
@@ -322,7 +322,7 @@
         "Impossible to separate",
         "Uniform all the way through",
         "Made of one substance only",
-        "Not uniform — you can tell the parts apart"
+        "Not uniform, you can tell the parts apart"
       ],
       "answerIndex": 3,
       "explain": "Hetero- means different. Homo- means same, and that is next week's topic.",
@@ -459,7 +459,7 @@
     }
   ],
   "teacher": {
-    "summary": "Week 8 Science covers heterogeneous mixtures, matching the Term 1 weekly scope and setting up Week 9. The definitions are given in the order they depend on each other — mixture, then heterogeneous, then suspension against colloid — and the suspension-colloid pair is settled by one testable property, whether it settles. The Tyndall figure exists because that test is entirely visual: you either see the beam or you do not, and no description of light scattering achieves the same thing. The medicine section is the part with real-world consequences and is deliberately given weight: 'shake well before use' is a safety instruction about an unevenly distributed active ingredient, not a formality.",
+    "summary": "Week 8 Science covers heterogeneous mixtures, matching the Term 1 weekly scope and setting up Week 9. The definitions are given in the order they depend on each other (mixture, then heterogeneous, then suspension against colloid) and the suspension-colloid pair is settled by one testable property, whether it settles. The Tyndall figure exists because that test is entirely visual: you either see the beam or you do not, and no description of light scattering achieves the same thing. The medicine section is the part with real-world consequences and is deliberately given weight: 'shake well before use' is a safety instruction about an unevenly distributed active ingredient, not a formality.",
     "discussion": [
       "Leave a glass of muddy water and a glass of milk on a shelf for an hour. One of them answers the question by itself.",
       "Try the torch test on milk in a dark room. It takes ten seconds and it is the whole Tyndall lesson.",

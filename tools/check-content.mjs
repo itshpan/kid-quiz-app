@@ -102,9 +102,129 @@ const warn = (file, where, msg) => {
     console.log(`  ${relative(ROOT, file)} · ${where}\n      ${msg}`);
 };
 
+/* ---------------------------------------------------------------------------
+   House style. Two rules from the writing stack, enforced here so the sweep
+   that fixed them cannot quietly come undone on the next content change.
+
+   1. No em or en dashes. They were cleared out of all 176 lessons once; a
+      single one pasted back in is invisible in review. A dash is almost always
+      a colon, a full stop or a comma doing a clearer job, and for a reader who
+      loses the thread easily, the clearer job wins.
+
+   2. No buzzwords. The list is the house list. Every word on it has a literal
+      sense that is perfectly fine in a lesson, and this repo uses several of
+      them that way: "leverage" is mechanical advantage in a rudder and in a
+      punch, the Katipunan was a revolutionary society, and a game reward
+      genuinely unlocks. So the literal uses are listed below by file, with
+      the reason. The hole in that: a new buzzword use in a file already on the
+      list slips through. Narrow the entry if that ever happens.
+--------------------------------------------------------------------------- */
+const BUZZWORDS = [
+    'leverage', 'unlock', 'game-changer', 'game changer', 'synergy', 'empower',
+    'dive into', 'delve', 'elevate', 'seamless', 'cutting-edge', 'revolutionary',
+    'best-in-class', 'world-class'
+];
+/* Captures the listed word so the match can be checked against the literal
+   allowlist, plus any suffix ("unlocks", "leveraged") so inflections count. */
+const BUZZ = new RegExp(`\\b(${BUZZWORDS.map(w => w.replace('-', '[- ]')).join('|')})(\\w*)`, 'gi');
+
+// file suffix -> words used in their literal sense there, with why.
+const LITERAL_OK = [
+    ['devotion/t2-w10-speaking-life.json', ['leverage']],  // a rudder steering a ship
+    ['devotion/t2-w11-exam.json',          ['leverage']],  // same, recalled in review
+    ['mapeh/t2-w9-fitness-recreation.json',['leverage']],  // limb length and reach
+    ['science/w1-skeleton.json',           ['leverage']],  // rotation into a punch
+    ['social-studies/t2-w11-exam.json',    ['unlock']],    // a game reward unlocking
+    ['social-studies/w11-exam.json',       ['revolutionary']],
+    ['social-studies/w4-rizal-reform.json',['revolutionary']],
+    ['social-studies/w5-revolution-republic.json', ['revolutionary']]
+];
+
+const strings = function* walk(v) {
+    if (typeof v === 'string') yield v;
+    else if (Array.isArray(v)) for (const x of v) yield* walk(x);
+    else if (v && typeof v === 'object') for (const x of Object.values(v)) yield* walk(x);
+};
+
+/* ---------------------------------------------------------------------------
+   Reading level. The lessons teach a Grade 6 reader, so the explaining voice
+   sits at a Grade 5 to 6 reading level. Hard words are welcome: "sovereignty",
+   "distillation", "membranophone" and "ilustrados" are the lesson, and
+   "Never talk down" above still holds. The rule is about the sentence doing
+   the explaining, not the idea it carries.
+
+   This is deliberately NOT a readability score. Flesch-Kincaid was measured
+   over all 2,354 prose cards first, and it is the wrong instrument here twice
+   over. On the Filipino lessons it is meaningless: Tagalog is agglutinative,
+   so "mabilis" and "dalawa" score as graduate vocabulary and the Filipino
+   decks rate grade 10.7 while averaging 2.3 words per sentence, because they
+   are word lists. On the English lessons the median is already grade 4.2, and
+   what little sits high is carried by subject terms and proper nouns: a
+   twelve-word caption reading "Executed in 1872. Rizal dedicated El
+   Filibusterismo to them." scores grade 15 and is exactly right.
+
+   So what is checked is the thing that is actually within a writer's control
+   and always worth fixing: a fancy word standing where a plain one loses
+   nothing. Words with no plain equivalent are absent from this list on
+   purpose. "require", "remainder", "magnitude", "demonstrate" and "observe"
+   were all considered and left out: "Courage requires fear" and "2 remainder
+   1" are correct and clear, and swapping them would be talking down.
+--------------------------------------------------------------------------- */
+const PLAINER = {
+    commonest: 'most common', utilise: 'use', utilize: 'use', commence: 'start',
+    terminate: 'end', subsequently: 'later', approximately: 'about',
+    numerous: 'many', additional: 'more', obtain: 'get', purchase: 'buy',
+    assist: 'help', facilitate: 'help', ascertain: 'find out',
+    endeavour: 'try', endeavor: 'try', initiate: 'start', fabricate: 'build',
+    reside: 'live', inquire: 'ask', extravagance: 'overspending',
+    necessitate: 'need', utilisation: 'use', vicinity: 'area',
+    furthermore: 'also', moreover: 'also', 'in order to': 'to',
+    'prior to': 'before', 'due to the fact that': 'because',
+    'in the event that': 'if', 'a large number of': 'many',
+    'the majority of': 'most'
+};
+const PLAIN_RE = new RegExp(
+    `\\b(${Object.keys(PLAINER).sort((a, b) => b.length - a.length)
+        .map(w => w.replace(/ /g, '\\s+')).join('|')})\\b`, 'gi');
+
+function checkReadingLevel(file, lesson) {
+    // Tagalog is not measurable by English word lists, and these words are
+    // not Tagalog, so the Filipino decks are simply out of scope here.
+    if (relative(ROOT, file).includes('/filipino/')) return;
+    for (const s of strings(lesson)) {
+        for (const m of s.matchAll(PLAIN_RE)) {
+            const key = m[0].toLowerCase().replace(/\s+/g, ' ');
+            warn(file, 'reading level',
+                `"${m[0]}" where "${PLAINER[key]}" loses nothing: "${s.slice(Math.max(0, m.index - 40), m.index + 50)}"`);
+        }
+    }
+}
+
+function checkHouseStyle(file, lesson) {
+    const rel = relative(ROOT, file);
+    const allowed = new Set(
+        LITERAL_OK.filter(([suffix]) => rel.endsWith(suffix)).flatMap(([, w]) => w)
+    );
+    for (const s of strings(lesson)) {
+        const dash = s.match(/[—–]/);
+        if (dash) {
+            warn(file, 'house style',
+                `em or en dash: use a colon, a full stop or a comma. "${s.slice(0, 70)}"`);
+        }
+        for (const m of s.matchAll(BUZZ)) {
+            const listed = m[1].toLowerCase().replace(/[- ]/, '-');
+            if (allowed.has(listed)) continue;
+            warn(file, 'house style',
+                `banned word "${m[0]}": say the plain thing instead. "${s.slice(Math.max(0, m.index - 40), m.index + 50)}"`);
+        }
+    }
+}
+
 for (const file of files) {
     const lesson = JSON.parse(await readFile(file, 'utf8'));
     if (!lesson.cards) continue;    // not a card-format lesson
+    checkHouseStyle(file, lesson);
+    checkReadingLevel(file, lesson);
 
     console.log(`\n${relative(ROOT, lesson.__file || file)} — ${lesson.cards.length} cards, ${lesson.quiz?.length ?? 0} quiz items`);
 

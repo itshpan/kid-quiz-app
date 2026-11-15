@@ -46,7 +46,7 @@
     {
       "kind": "figure",
       "figure": "forceSort",
-      "title": "Five buttons",
+      "title": "Five methods, and the force doing the work",
       "text": "Tap each method. The second line names the force actually doing the work."
     },
     {
@@ -109,7 +109,7 @@
         "type": "truefalse",
         "text": "A magnet will separate aluminium cans from plastic.",
         "answer": false,
-        "explain": "Aluminium is not magnetic. A magnet would pull neither — you would need a different difference.",
+        "explain": "Aluminium is not magnetic. A magnet would pull neither. You would need a different difference.",
         "seconds": 18
       }
     },
@@ -136,7 +136,7 @@
         "**Settling that takes hours** finishes in minutes.",
         "**Blood is spun** to split cells from plasma.",
         "**A washing machine spin cycle** is this, separating water from cloth.",
-        "**Nothing new is happening** — it is sedimentation, hurried."
+        "**Nothing new is happening**: it is sedimentation, hurried."
       ]
     },
     {
@@ -342,7 +342,7 @@
         "Filtration"
       ],
       "answerIndex": 2,
-      "explain": "It spins fast so water is flung out of the cloth — settling, hurried by spin.",
+      "explain": "It spins fast so water is flung out of the cloth. Settling, hurried by spin.",
       "objective": "Explain how a centrifuge speeds up settling",
       "seconds": 20
     },
@@ -376,7 +376,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 3 Science, the second week the scope gives to separating heterogeneous mixtures. Week 2 covered the methods that need only gravity; this one covers the four that add something — moving air, moving water, a magnet, a spin. The organising question is which difference each method exploits, because that is what an exam item is really asking. The magnet is set apart deliberately as the only method that asks what a thing is made of, and the aluminium case is tested, since 'metal means magnetic' is the usual error.",
+    "summary": "Term 2 Week 3 Science, the second week the scope gives to separating heterogeneous mixtures. Week 2 covered the methods that need only gravity; this one covers the four that add something. Moving air, moving water, a magnet, a spin. The organising question is which difference each method exploits, because that is what an exam item is really asking. The magnet is set apart deliberately as the only method that asks what a thing is made of, and the aluminium case is tested, since 'metal means magnetic' is the usual error.",
     "discussion": [
       "Which difference is each method using?",
       "Why does a magnet ignore an aluminium can?",

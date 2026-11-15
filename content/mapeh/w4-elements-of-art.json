@@ -53,7 +53,7 @@
           "Balance"
         ],
         "answerIndex": 3,
-        "explain": "Balance is a principle of design — a way of arranging elements. The other three are elements.",
+        "explain": "Balance is a principle of design. A way of arranging elements. The other three are elements.",
         "seconds": 15
       }
     },
@@ -63,8 +63,8 @@
       "title": "Shape is flat. Form has depth",
       "text": "This is the single most common mistake in the topic, and it is settled by counting dimensions.",
       "points": [
-        "**Shape** — two dimensions. Height and width.",
-        "**Form** — three. Height, width and depth.",
+        "**Shape**: two dimensions. Height and width.",
+        "**Form**: three. Height, width and depth.",
         "**A circle is a shape. A sphere is a form.**",
         "**Shading is how you fake form** on flat paper."
       ]
@@ -77,10 +77,10 @@
       "title": "A livery editor is a box of elements",
       "text": "Every tool in it is one of the seven. Nobody labels them, but that is what you are moving around.",
       "points": [
-        "**Stripes and pinstripes** — line.",
-        "**Decals** — shape, arranged in space.",
-        "**The paint picker** — hue, value and intensity.",
-        "**Carbon weave** — texture, faked convincingly."
+        "**Stripes and pinstripes**: line.",
+        "**Decals**: shape, arranged in space.",
+        "**The paint picker**: hue, value and intensity.",
+        "**Carbon weave**: texture, faked convincingly."
       ]
     },
     {
@@ -105,8 +105,8 @@
       "title": "Space, positive and negative",
       "text": "Space is the element nobody looks at, which is exactly why artists use it.",
       "points": [
-        "**Positive space** — the object itself.",
-        "**Negative space** — everything around it.",
+        "**Positive space**: the object itself.",
+        "**Negative space**: everything around it.",
         "**Both are designed.** The gap is not left over.",
         "**Empty space directs your eye** more than the object does."
       ]
@@ -145,9 +145,9 @@
       "title": "Hue, value and intensity",
       "text": "Three separate controls. You can change any one and leave the other two alone.",
       "points": [
-        "**Hue** — which colour it is. Red, blue, green.",
-        "**Value** — how light or dark. Add white or black.",
-        "**Intensity** — how strong or dull it is.",
+        "**Hue**: which colour it is. Red, blue, green.",
+        "**Value**: how light or dark. Add white or black.",
+        "**Intensity**: how strong or dull it is.",
         "**Primaries: red, yellow, blue.** Mixing them gives the rest."
       ]
     },
@@ -225,8 +225,8 @@
       "title": "Elements are ingredients. Principles are recipes",
       "text": "The exam will try to mix these two lists up. The distinction is simple once you have it.",
       "points": [
-        "**Elements** — line, shape, form, space, colour, value, texture.",
-        "**Principles** — balance, contrast, emphasis, rhythm, unity.",
+        "**Elements**: line, shape, form, space, colour, value, texture.",
+        "**Principles**: balance, contrast, emphasis, rhythm, unity.",
         "**Elements are what is there.**",
         "**Principles are how it is arranged.**"
       ]
@@ -476,7 +476,7 @@
     }
   ],
   "teacher": {
-    "summary": "Week 4 MAPEH covers the elements of art, matching the Term 1 weekly scope. It is the lesson in this subject that most needed a figure rather than a list, and the artElements figure draws each of the seven rather than naming it: a card about texture that shows no texture teaches nothing. Two specific confusions are targeted directly because they account for most lost marks — shape against form, which is settled by counting dimensions, and the elements list against the principles list, which is settled by asking whether the word describes what is there or how it is arranged. The closing argument is transferable beyond art: naming three elements says something a listener can disagree with, and 'it looks cool' does not.",
+    "summary": "Week 4 MAPEH covers the elements of art, matching the Term 1 weekly scope. It is the lesson in this subject that most needed a figure rather than a list, and the artElements figure draws each of the seven rather than naming it: a card about texture that shows no texture teaches nothing. Two specific confusions are targeted directly because they account for most lost marks. Shape against form, which is settled by counting dimensions, and the elements list against the principles list, which is settled by asking whether the word describes what is there or how it is arranged. The closing argument is transferable beyond art: naming three elements says something a listener can disagree with, and 'it looks cool' does not.",
     "discussion": [
       "Hand him any photograph and ask for three elements he can name in it. Doing it once out loud is what makes the vocabulary usable.",
       "Ask him to squint at a picture on a screen. What survives is value, and that is easier to feel than to explain.",

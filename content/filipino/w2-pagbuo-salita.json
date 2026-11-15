@@ -27,7 +27,7 @@
       "title": "Ang salitang-ugat",
       "text": "Ito ang salitang walang panlapi. Ito ang natitira kapag tinanggal mo ang lahat ng idinagdag.",
       "points": [
-        "**sulat, laro, kain, ganda** — mga salitang-ugat.",
+        "**sulat, laro, kain, ganda**: mga salitang-ugat.",
         "**Hanapin mo muna ito** bago ang panlapi.",
         "**Hindi nagbabago ang ugat** kahit anong idagdag.",
         "**Ito ang nagdadala ng kahulugan.**"
@@ -39,10 +39,10 @@
       "title": "Apat na uri ng panlapi",
       "text": "Nakabatay ang pangalan sa kung saan nakakabit ang panlapi. Iyon lang ang pagkakaiba.",
       "points": [
-        "**Unlapi** — sa unahan. *mag*-sulat.",
-        "**Gitlapi** — sa loob. s*um*ulat.",
-        "**Hulapi** — sa hulihan. sulat*in*.",
-        "**Kabilaan** — sa unahan at hulihan. *pag*sulat*an*."
+        "**Unlapi**: sa unahan. *mag*-sulat.",
+        "**Gitlapi**: sa loob. s*um*ulat.",
+        "**Hulapi**: sa hulihan. sulat*in*.",
+        "**Kabilaan**: sa unahan at hulihan. *pag*sulat*an*."
       ]
     },
     {
@@ -176,7 +176,7 @@
       "icon": "✍️",
       "eyebrow": "Mode ng kuwento",
       "title": "May sagisag-panulat siya",
-      "text": "Sumulat si Bonifacio sa ilalim ng pangalang Agapito Bagumbayan. Hindi ito palamuti — kaligtasan iyon.",
+      "text": "Sumulat si Bonifacio sa ilalim ng pangalang Agapito Bagumbayan. Hindi ito palamuti. Kaligtasan iyon.",
       "points": [
         "**Ang tunay na pangalan sa papel** ay ebidensiya.",
         "**Isinulat niya ang \"Pag-ibig sa Tinubuang Lupa\".**",
@@ -220,9 +220,9 @@
       "title": "Ang tatlong tanong, muli",
       "text": "Pareho ng noong nakaraang linggo. Isulat ito pagkatapos ng bawat kabanata, habang sariwa pa.",
       "points": [
-        "**Tauhan** — sino ang bago sa kabanatang ito?",
-        "**Tagpuan** — nagbago ba ang lugar o panahon?",
-        "**Suliranin** — ano ang bagong problema?",
+        "**Tauhan**: sino ang bago sa kabanatang ito?",
+        "**Tagpuan**: nagbago ba ang lugar o panahon?",
+        "**Suliranin**: ano ang bagong problema?",
         "**Idagdag mo ngayon:** anong salita ang hindi mo naintindihan?"
       ]
     },
@@ -448,7 +448,7 @@
     }
   ],
   "teacher": {
-    "summary": "Linggo 2 ng Filipino: ang pagbuo ng salita. Tatlong paraan ang saklaw — paglalapi, pag-uulit at pagtatambal — ngunit ang paglalapi ang binigyan ng pinakamalaking espasyo dahil ito ang pinakamadalas sa pagsusulit at ang pinakamahirap makita. Ang larawang panlapi ay iniwan ang ugat na kulay-accent sa lahat ng apat na anyo, kaya nakikita ng mag-aaral na hindi nasisira ang ugat kahit pumasok ang gitlapi sa loob nito; ito ang tanging paraan para maipakita ang gitlapi nang malinaw. IMPORTANTE PARA SA GURO O MAGULANG: walang buod ng Kapitulo 3 at 4 dito dahil hindi pa nabasa ang partikular na edisyon ng Supremo na ginagamit. Ang ikalawang kalahati ay paghahandang pangkasaysayan tungkol sa Katipunan, na tumpak at kapaki-pakinabang anuman ang edisyon.",
+    "summary": "Linggo 2 ng Filipino: ang pagbuo ng salita. Tatlong paraan ang saklaw (paglalapi, pag-uulit at pagtatambal) ngunit ang paglalapi ang binigyan ng pinakamalaking espasyo dahil ito ang pinakamadalas sa pagsusulit at ang pinakamahirap makita. Ang larawang panlapi ay iniwan ang ugat na kulay-accent sa lahat ng apat na anyo, kaya nakikita ng mag-aaral na hindi nasisira ang ugat kahit pumasok ang gitlapi sa loob nito; ito ang tanging paraan para maipakita ang gitlapi nang malinaw. IMPORTANTE PARA SA GURO O MAGULANG: walang buod ng Kapitulo 3 at 4 dito dahil hindi pa nabasa ang partikular na edisyon ng Supremo na ginagamit. Ang ikalawang kalahati ay paghahandang pangkasaysayan tungkol sa Katipunan, na tumpak at kapaki-pakinabang anuman ang edisyon.",
     "discussion": [
       "Pabuuin siya ng lima o anim na salita mula sa isang ugat lamang. Mas mahirap ito kaysa sa pagkilala, at mas mabisa.",
       "Itanong kung bakit mahirap makita ang gitlapi. Dahil nahahati ang ugat, at iyon ang sagot.",

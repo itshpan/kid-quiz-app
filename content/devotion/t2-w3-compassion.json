@@ -4,7 +4,7 @@
   "courseTitle": "Devotion",
   "week": 3,
   "title": "Compassion in Action",
-  "subtitle": "Four steps — and the two where people stop.",
+  "subtitle": "Four steps. And the two where people stop.",
   "estMinutes": 20,
   "objectives": [
     "Name the four steps of compassion",
@@ -26,16 +26,16 @@
       "title": "Notice, feel, move, cost",
       "text": "The verbs are the lesson.",
       "points": [
-        "**Notice** — you actually see the person.",
-        "**Feel** — something moves in you.",
-        "**Move** — you cross the road.",
-        "**Cost** — it takes your time, money or plan."
+        "**Notice**: you actually see the person.",
+        "**Feel**: something moves in you.",
+        "**Move**: you cross the road.",
+        "**Cost**: it takes your time, money or plan."
       ]
     },
     {
       "kind": "figure",
       "figure": "compassionSteps",
-      "title": "Six buttons",
+      "title": "The four steps of compassion, and where people stop",
       "text": "Tap each step. The last two buttons are the point of the parable."
     },
     {
@@ -61,7 +61,7 @@
       "text": "The detail in the text is specific, and the specificity is the point.",
       "points": [
         "**He went to him.** That verb comes first.",
-        "**Oil, wine and bandages** — he used what he was carrying.",
+        "**Oil, wine and bandages**: he used what he was carrying.",
         "**He put him on his own animal** and walked.",
         "**Two days' wages to the innkeeper**, and a promise to return."
       ]
@@ -167,7 +167,7 @@
       "eyebrow": "Lesson done",
       "title": "What to remember",
       "points": [
-        "Notice, feel, move, cost — four steps, not one feeling.",
+        "Notice, feel, move, cost. Four steps, not one feeling.",
         "People stop between feeling and moving.",
         "The Samaritan used what he carried, then paid and promised to return.",
         "The helper was the one the audience least expected."
@@ -339,7 +339,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 3 Devotion. Compassion is broken into four verbs so that the gap between feeling and acting becomes visible and nameable. The Samaritan is read with its actual detail — what he carried, what he paid, what he promised — because the parable's force is in the specificity, and because a vague retelling lets the listener off. The week makes two points that are often skipped: the priest and Levite may well have felt something and still walked past, and the helper was from a group the audience despised, which is a deliberate choice in the text. The gaming lens gives the sharpest version of step four: help that costs nothing is not help.",
+    "summary": "Term 2 Week 3 Devotion. Compassion is broken into four verbs so that the gap between feeling and acting becomes visible and nameable. The Samaritan is read with its actual detail (what he carried, what he paid, what he promised) because the parable's force is in the specificity, and because a vague retelling lets the listener off. The week makes two points that are often skipped: the priest and Levite may well have felt something and still walked past, and the helper was from a group the audience despised, which is a deliberate choice in the text. The gaming lens gives the sharpest version of step four: help that costs nothing is not help.",
     "discussion": [
       "Ask for the four verbs.",
       "Ask where he stops, honestly.",

@@ -27,22 +27,22 @@
       "title": "Five jobs, one surface",
       "text": "Like the skeleton, skin gets thought of as one thing. It's doing five.",
       "points": [
-        "**Barrier** — keeps water and heat in, germs out.",
-        "**Temperature control** — sweating and blood flow.",
-        "**Sensation** — touch, pressure, pain, temperature.",
-        "**Vitamin D** — your skin makes it from sunlight."
+        "**Barrier**: keeps water and heat in, germs out.",
+        "**Temperature control**: sweating and blood flow.",
+        "**Sensation**: touch, pressure, pain, temperature.",
+        "**Vitamin D**: your skin makes it from sunlight."
       ]
     },
     {
       "kind": "explorer",
       "figure": "skinLayers",
-      "title": "Tap any layer or structure",
+      "title": "Three layers, and what is buried in them",
       "text": "Three layers plus the things buried in them. Two quiz questions come from this diagram."
     },
     {
       "kind": "idea",
       "eyebrow": "Layer 1",
-      "title": "Epidermis — the part you can see",
+      "title": "Epidermis. The part you can see",
       "text": "The outer layer, and its surface cells are already dead. You are wearing a coat of your own dead cells right now.",
       "points": [
         "**No blood vessels at all.** It's fed from below.",
@@ -120,7 +120,7 @@
     {
       "kind": "idea",
       "eyebrow": "Layer 2",
-      "title": "Dermis — where everything actually happens",
+      "title": "Dermis. Where everything actually happens",
       "text": "The thick working layer. Blood vessels, nerve endings, sweat glands, oil glands and hair roots all live here.",
       "points": [
         "**Every touch you feel** starts with a nerve ending in here.",
@@ -131,7 +131,7 @@
     {
       "kind": "idea",
       "eyebrow": "Layer 3",
-      "title": "Subcutaneous — the padding",
+      "title": "Subcutaneous. The padding",
       "text": "Fat and connective tissue underneath. It insulates you, stores energy, and cushions impact.",
       "points": [
         "**Insulation.** Fat is a poor conductor of heat, which is useful.",
@@ -174,7 +174,7 @@
         "**Two to four million sweat glands** across your body.",
         "**Evaporation is the cooling.** Wiping sweat off cancels it.",
         "**Blood vessels widen too**, dumping heat through the skin.",
-        "**Water over your head** cools you for the same reason — it evaporates."
+        "**Water over your head** cools you for the same reason. It evaporates."
       ]
     },
     {
@@ -193,7 +193,7 @@
       "icon": "🥊",
       "eyebrow": "Boxing mode",
       "title": "Trained people sweat sooner",
-      "text": "This surprises people. Fitness doesn't stop you sweating — it makes you start earlier.",
+      "text": "This surprises people. Fitness doesn't stop you sweating. It makes you start earlier.",
       "points": [
         "**Your body learns to cool before it overheats**, not after.",
         "**That's an adaptation**, the same as bone getting denser.",
@@ -228,7 +228,7 @@
       "text": "Each hair grows from a follicle in the dermis, and a tiny muscle can pull it upright.",
       "points": [
         "**That muscle is called arrector pili.**",
-        "**It's smooth muscle** — involuntary, from Week 1.",
+        "**It's smooth muscle**: involuntary, from Week 1.",
         "**In furrier animals it traps warm air.** On you it does almost nothing."
       ]
     },
@@ -243,7 +243,7 @@
           "Helps the skin sweat more easily"
         ],
         "answerIndex": 0,
-        "explain": "It's protection from UV. Sebum from oil glands is what waterproofs skin — different job entirely.",
+        "explain": "It's protection from UV. Sebum from oil glands is what waterproofs skin. Different job entirely.",
         "seconds": 20
       }
     },
@@ -282,7 +282,7 @@
       "terms": [
         {
           "term": "Integumentary system",
-          "def": "Skin, hair and nails — your body's outer covering."
+          "def": "Skin, hair and nails. Your body's outer covering."
         },
         {
           "term": "Epidermis",
@@ -327,7 +327,7 @@
       "eyebrow": "Ready for the quiz",
       "title": "The four that matter",
       "points": [
-        "**Three layers:** epidermis, dermis, subcutaneous — outside in.",
+        "**Three layers:** epidermis, dermis, subcutaneous. Outside in.",
         "**The epidermis has no blood vessels;** the dermis holds everything.",
         "**Sweat cools by evaporating**, not by being wet.",
         "**Melanin blocks UV.** Sebum waterproofs. Different jobs."
@@ -379,7 +379,7 @@
         "Evaporating sweat carries heat away from the skin"
       ],
       "answerIndex": 3,
-      "explain": "Evaporation is the cooling step. That's why humid weather feels so much worse — sweat can't evaporate.",
+      "explain": "Evaporation is the cooling step. That's why humid weather feels so much worse. Sweat can't evaporate.",
       "objective": "Explain how skin regulates body temperature",
       "seconds": 25
     },
@@ -417,7 +417,7 @@
         "Carries oxygen to skin cells"
       ],
       "answerIndex": 2,
-      "explain": "Sebum is the waterproofing oil. Melanin is the UV blocker — a common mix-up in exams.",
+      "explain": "Sebum is the waterproofing oil. Melanin is the UV blocker. A common mix-up in exams.",
       "objective": "Describe the roles of sweat glands, oil glands and hair",
       "seconds": 20
     },
@@ -429,7 +429,7 @@
         "smooth muscle",
         "involuntary"
       ],
-      "explain": "Smooth muscle — the involuntary type from Week 1. The muscle is called arrector pili.",
+      "explain": "Smooth muscle. The involuntary type from Week 1. The muscle is called arrector pili.",
       "objective": "Describe the roles of sweat glands, oil glands and hair",
       "seconds": 15
     },
@@ -473,7 +473,7 @@
         "Vitamin K"
       ],
       "answerIndex": 0,
-      "explain": "Vitamin D, and it matters for this course — your body needs it to absorb the calcium that builds bone.",
+      "explain": "Vitamin D, and it matters for this course. Your body needs it to absorb the calcium that builds bone.",
       "objective": "Name the three layers of skin and what each one does",
       "seconds": 15
     }
@@ -481,7 +481,7 @@
   "teacher": {
     "summary": "Week 3 Science covers the integumentary system, matching the Term 1 weekly scope. It reuses the tappable-diagram interaction from Weeks 1 and 2, and deliberately connects back to both: goosebumps are smooth muscle from Week 1, and vitamin D links to the calcium absorption covered in Week 2. The puberty section treats acne mechanically rather than as a hygiene failing, which is both accurate and kinder to a Grade 6 reader living through it.",
     "discussion": [
-      "Ask why a shallow graze stings but does not bleed. The answer — no blood vessels in the epidermis — shows he has the layer structure.",
+      "Ask why a shallow graze stings but does not bleed. The answer (no blood vessels in the epidermis) shows he has the layer structure.",
       "Ask why a hot humid day feels worse than a hot dry one at the same temperature. It tests whether he understood that evaporation is the cooling step.",
       "Ask what melanin and sebum each do. These two are the most commonly swapped answers on this topic.",
       "Ask what goosebumps have to do with Week 1. Smooth muscle turning up in an unexpected place is worth noticing."

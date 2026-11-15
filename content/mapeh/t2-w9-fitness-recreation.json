@@ -4,7 +4,7 @@
   "courseTitle": "MAPEH",
   "week": 9,
   "title": "Physical Fitness & Recreation",
-  "subtitle": "Five components, five tests — and why rest is in the plan.",
+  "subtitle": "Five components, five tests. And why rest is in the plan.",
   "estMinutes": 20,
   "objectives": [
     "Name the five components of health-related fitness",
@@ -26,16 +26,16 @@
       "title": "Five components, five tests",
       "text": "Each one is measured differently, because each one is a different ability.",
       "points": [
-        "**Heart endurance** — a timed run or a step test.",
-        "**Muscular strength** — one maximum effort.",
-        "**Muscular endurance** — the same effort, repeated.",
-        "**Flexibility** — sit-and-reach. **Body composition** — one number of five."
+        "**Heart endurance**: a timed run or a step test.",
+        "**Muscular strength**: one maximum effort.",
+        "**Muscular endurance**: the same effort, repeated.",
+        "**Flexibility**: sit-and-reach. **Body composition**. One number of five."
       ]
     },
     {
       "kind": "figure",
       "figure": "fitnessParts",
-      "title": "Six buttons",
+      "title": "Five parts of fitness, and the test for each",
       "text": "Tap each component. The second line is how it is tested."
     },
     {
@@ -85,12 +85,12 @@
     {
       "kind": "idea",
       "eyebrow": "Skill-related fitness",
-      "title": "Five more, for sport",
+      "title": "The five skill components, beside the health five",
       "text": "These sit beside the health five rather than replacing them.",
       "points": [
         "**Agility, balance, coordination.**",
-        "**Power** — force produced fast.",
-        "**Reaction time** — how quickly you start.",
+        "**Power**: force produced fast.",
+        "**Reaction time**: how quickly you start.",
         "**Health five keep you well. Skill five make you good.**"
       ]
     },
@@ -102,10 +102,10 @@
       "title": "A boxer needs all ten",
       "text": "Which is why boxing training looks like five different sports.",
       "points": [
-        "**Rounds** — heart endurance.",
-        "**The clinch** — strength.",
-        "**Holding guard for twelve rounds** — muscular endurance.",
-        "**Slipping a punch** — reaction time and agility."
+        "**Rounds**: heart endurance.",
+        "**The clinch**: strength.",
+        "**Holding guard for twelve rounds**: muscular endurance.",
+        "**Slipping a punch**: reaction time and agility."
       ]
     },
     {
@@ -339,7 +339,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 9 MAPEH, PE strand. The week insists that fitness is five separate abilities with five separate tests, because 'fit' as a single word hides the one distinction the paper always asks about: strength against muscular endurance. Skill-related fitness is introduced beside the health five rather than instead of them. Two cards do pastoral work that matters at this age: scores move with growth, so the comparison is to his own earlier self, and body composition is one number out of five rather than a verdict. Recreation is argued for on the only honest ground — a programme he quits is worth nothing.",
+    "summary": "Term 2 Week 9 MAPEH, PE strand. The week insists that fitness is five separate abilities with five separate tests, because 'fit' as a single word hides the one distinction the paper always asks about: strength against muscular endurance. Skill-related fitness is introduced beside the health five rather than instead of them. Two cards do pastoral work that matters at this age: scores move with growth, so the comparison is to his own earlier self, and body composition is one number out of five rather than a verdict. Recreation is argued for on the only honest ground. A programme he quits is worth nothing.",
     "discussion": [
       "Ask which test goes with which component.",
       "Ask the difference between strength and endurance.",

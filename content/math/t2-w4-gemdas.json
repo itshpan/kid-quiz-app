@@ -26,16 +26,16 @@
       "title": "GEMDAS, in order of who goes first",
       "text": "Work down the list. Within a level, go left to right.",
       "points": [
-        "**G**rouping — brackets first, always.",
+        "**G**rouping. Brackets first, always.",
         "**E**xponents next.",
-        "**M**ultiply and **D**ivide — left to right, equal rank.",
-        "**A**dd and **S**ubtract — left to right, equal rank."
+        "**M**ultiply and **D**ivide. Left to right, equal rank.",
+        "**A**dd and **S**ubtract. Left to right, equal rank."
       ]
     },
     {
       "kind": "figure",
       "figure": "gemdasLab",
-      "title": "You pick the first move",
+      "title": "Which part of the expression goes first",
       "text": "Choose which part to work out. A wrong choice shows you what it would give and why the rule says otherwise."
     },
     {
@@ -150,7 +150,7 @@
       "icon": "🎮",
       "eyebrow": "Gaming mode",
       "title": "Damage formulas run on this exact order",
-      "text": "Base damage, then a multiplier, then a flat bonus — the order decides whether a build works.",
+      "text": "Base damage, then a multiplier, then a flat bonus. The order decides whether a build works.",
       "points": [
         "**(base + flat) × multiplier** is very different from **base + (flat × multiplier)**.",
         "**Stacking order** is why two similar builds perform differently.",
@@ -203,7 +203,7 @@
         "General"
       ],
       "answerIndex": 0,
-      "explain": "Grouping symbols — brackets and anything acting like them — go first.",
+      "explain": "Grouping symbols (brackets and anything acting like them) go first.",
       "objective": "Exponential form, including calculation using the GEMDAS rules",
       "seconds": 16
     },
@@ -337,7 +337,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 4 Math, GEMDAS, the middle of the scope's three exponent weeks. The order is introduced as a necessity rather than a convention to memorise: the opening card shows one expression producing two answers, and the rule is presented as the fix. The interactive is the centre of the lesson — he picks the first move and a wrong pick is answered with what it would give and which rule overrules it, so the error is worked through rather than marked. The equal-rank point gets its own card and checkpoint because M-before-D is the misconception the acronym itself causes.",
+    "summary": "Term 2 Week 4 Math, GEMDAS, the middle of the scope's three exponent weeks. The order is introduced as a necessity rather than a convention to memorise: the opening card shows one expression producing two answers, and the rule is presented as the fix. The interactive is the centre of the lesson. He picks the first move and a wrong pick is answered with what it would give and which rule overrules it, so the error is worked through rather than marked. The equal-rank point gets its own card and checkpoint because M-before-D is the misconception the acronym itself causes.",
     "discussion": [
       "Why can't 4 + 3 × 2 have two answers?",
       "Does M really come before D?",

@@ -4,7 +4,7 @@
   "courseTitle": "Science",
   "week": 4,
   "title": "Separating Solutions",
-  "subtitle": "Evaporation, condensation, distillation, rectification — and what each one keeps.",
+  "subtitle": "Evaporation, condensation, distillation, rectification. And what each one keeps.",
   "estMinutes": 20,
   "objectives": [
     "Explain why dissolved substances need a different kind of method",
@@ -55,7 +55,7 @@
     {
       "kind": "figure",
       "figure": "distillLab",
-      "title": "Two buttons",
+      "title": "Which half you keep, and which one you lose",
       "text": "Same heat, same flask. The difference is what you walk away with."
     },
     {
@@ -65,7 +65,7 @@
       "text": "Cooling a gas back to liquid is condensation. It is the step that makes evaporation reversible.",
       "points": [
         "**Nothing new is created.** The same molecules change state back.",
-        "**A cold surface** is all it takes — a lid, a window, a coiled tube.",
+        "**A cold surface** is all it takes. A lid, a window, a coiled tube.",
         "**Evaporation plus condensation** is the whole trick of distillation.",
         "**That is why** a pot lid drips."
       ]
@@ -81,7 +81,7 @@
         "**Warm air holds water vapour** you cannot see.",
         "**The cold coil** drops the air below the temperature where it can hold it.",
         "**So it condenses** on the metal and runs off into a pipe.",
-        "**Same step as a still** — cool a vapour and you get liquid back."
+        "**Same step as a still**: cool a vapour and you get liquid back."
       ]
     },
     {
@@ -369,11 +369,11 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 4 Science. Term 1 Week 10 already distinguished evaporation from distillation, so this week adds the two parts of the scope that were not covered then — condensation as the step that makes distillation possible at all, and rectification as repeated distillation in a column. The refinery card is there because it makes rectification concrete and connects to a standing interest. The typhoon card exists to separate two problems he will otherwise merge: boiling handles germs, distillation handles dissolved salt, and knowing which you have is the actual skill.",
+    "summary": "Term 2 Week 4 Science. Term 1 Week 10 already distinguished evaporation from distillation, so this week adds the two parts of the scope that were not covered then. Condensation as the step that makes distillation possible at all, and rectification as repeated distillation in a column. The refinery card is there because it makes rectification concrete and connects to a standing interest. The typhoon card exists to separate two problems he will otherwise merge: boiling handles germs, distillation handles dissolved salt, and knowing which you have is the actual skill.",
     "discussion": [
       "Why does evaporation alone lose the water?",
       "Why is the top of a refinery column cooler than the bottom?",
-      "Boiling or distilling — which do you need, and when?"
+      "Boiling or distilling. Which do you need, and when?"
     ],
     "extension": [
       "Put a lid on a pan of simmering salty water and taste the drips from the lid. That is distillation.",

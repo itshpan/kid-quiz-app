@@ -74,7 +74,7 @@
       "icon": "🚗",
       "eyebrow": "Car mode",
       "title": "A mechanic talks through the job",
-      "text": "Watch anyone good work on a car and they narrate it. Not for show — it is how you prove you knew the order.",
+      "text": "Watch anyone good work on a car and they narrate it. Not for show. It is how you prove you knew the order.",
       "points": [
         "**Naming the step** shows it was a decision.",
         "**Silence looks like copying.**",
@@ -535,7 +535,7 @@
     }
   ],
   "teacher": {
-    "summary": "Week 11 in TLE is a performance assessment and showcase rather than a written paper, and it has two halves: demonstrating a practical skill from the term, and handing over the portfolio built in week 10. The deck's most useful idea is that a demonstration has to be slow enough to be watched and narrated enough to show the order was a decision — most students lose marks by working at their normal speed in silence. The submission checklist is deliberately made of things fixable in ten minutes. The closing card makes the honest case that this is the subject whose content he will still be using in ten years.",
+    "summary": "Week 11 in TLE is a performance assessment and showcase rather than a written paper, and it has two halves: demonstrating a practical skill from the term, and handing over the portfolio built in week 10. The deck's most useful idea is that a demonstration has to be slow enough to be watched and narrated enough to show the order was a decision. Most students lose marks by working at their normal speed in silence. The submission checklist is deliberately made of things fixable in ten minutes. The closing card makes the honest case that this is the subject whose content he will still be using in ten years.",
     "discussion": [
       "Ask him to demonstrate one skill while narrating it, and time how much slower it is.",
       "Ask him to run the six-item portfolio check before he submits anything.",

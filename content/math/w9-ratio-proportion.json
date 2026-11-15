@@ -28,9 +28,9 @@
       "title": "Three ways to write the same ratio",
       "text": "All three mean the same thing and the exam uses all three. Recognise them all.",
       "points": [
-        "**3 : 4** — the colon form.",
-        "**3 to 4** — in words.",
-        "**3/4** — as a fraction, comparing the two parts.",
+        "**3 : 4**: the colon form.",
+        "**3 to 4**: in words.",
+        "**3/4**: as a fraction, comparing the two parts.",
         "**Order matters.** 3 : 4 is not 4 : 3."
       ]
     },
@@ -53,7 +53,7 @@
           "3"
         ],
         "answerIndex": 2,
-        "explain": "Three parts plus four parts is seven. Missing the total is the commonest mistake in the topic.",
+        "explain": "Three parts plus four parts is seven. Missing the total is the most common mistake in the topic.",
         "seconds": 15
       }
     },
@@ -63,8 +63,8 @@
       "title": "Divide both sides by the same number",
       "text": "Exactly like a fraction. A ratio is in lowest terms when nothing divides both sides.",
       "points": [
-        "**6 : 8** — divide both by 2 → **3 : 4**.",
-        "**15 : 25** — divide both by 5 → **3 : 5**.",
+        "**6 : 8**: divide both by 2 → **3 : 4**.",
+        "**15 : 25**: divide both by 5 → **3 : 5**.",
         "**The relationship has not changed.**",
         "**Only the numbers got smaller.**"
       ]
@@ -128,7 +128,7 @@
     {
       "kind": "break",
       "title": "Good spot to pause",
-      "text": "Ratios done. Part 2 is proportions — two ratios that agree. Your place is saved."
+      "text": "Ratios done. Part 2 is proportions. Two ratios that agree. Your place is saved."
     },
     {
       "kind": "open",
@@ -143,8 +143,8 @@
       "title": "Ratio compares. Proportion equates",
       "text": "One is a comparison of two amounts. The other says two of those comparisons are the same.",
       "points": [
-        "**A ratio** — 3 : 4. One statement.",
-        "**A proportion** — 3 : 4 = 6 : 8. Two, joined.",
+        "**A ratio**: 3 : 4. One statement.",
+        "**A proportion**: 3 : 4 = 6 : 8. Two, joined.",
         "**A proportion is an equation.**",
         "**That is what lets you solve for a missing term.**"
       ]
@@ -229,7 +229,7 @@
       "title": "Work-to-rest ratios are written this way",
       "text": "Thirty seconds on, fifteen off, is a 2 : 1 work-to-rest ratio. Coaches write it exactly like that.",
       "points": [
-        "**2 : 1** — twice as long working as resting.",
+        "**2 : 1**: twice as long working as resting.",
         "**30 : 15 simplifies to 2 : 1.**",
         "**60 : 30 is the same ratio**, longer intervals.",
         "**The ratio is the training effect.** Not the seconds."
@@ -454,7 +454,7 @@
     }
   ],
   "teacher": {
-    "summary": "Week 9 Math covers ratio and proportion, matching the Term 1 weekly scope. The most consequential idea in the whole topic is stated on the first checkpoint and repeated in the recap: a ratio of 3 : 4 describes seven parts. Nearly every wrong answer to a sharing question comes from missing that total. The ratioBars figure exists to make it unavoidable, since the bar visibly has seven pieces. Ratio and proportion are separated carefully — one is a comparison and the other is an equation — because cross-multiplication only makes sense once a proportion is understood as something that can be true or false. The power-to-weight card is a real stat he already reads and is the clearest case of why simplifying a ratio is informative.",
+    "summary": "Week 9 Math covers ratio and proportion, matching the Term 1 weekly scope. The most consequential idea in the whole topic is stated on the first checkpoint and repeated in the recap: a ratio of 3 : 4 describes seven parts. Nearly every wrong answer to a sharing question comes from missing that total. The ratioBars figure exists to make it unavoidable, since the bar visibly has seven pieces. Ratio and proportion are separated carefully (one is a comparison and the other is an equation) because cross-multiplication only makes sense once a proportion is understood as something that can be true or false. The power-to-weight card is a real stat he already reads and is the clearest case of why simplifying a ratio is informative.",
     "discussion": [
       "Ask how many parts are in a ratio of 3 : 4. If the answer is three or four, the first half is exactly what he needs.",
       "Ask why 500 hp in a 1000 kg car and 250 hp in a 500 kg car behave similarly. The simplified ratio is the answer.",

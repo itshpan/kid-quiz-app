@@ -4,7 +4,7 @@
   "courseTitle": "MAPEH",
   "week": 1,
   "title": "History of Music & Instruments",
-  "subtitle": "Grouped by what vibrates — which makes it physics.",
+  "subtitle": "Grouped by what vibrates. Which makes it physics.",
   "estMinutes": 20,
   "objectives": [
     "Group instruments by what vibrates",
@@ -18,7 +18,7 @@
       "icon": "🎻",
       "eyebrow": "Part 1 · Music",
       "title": "Instruments are grouped by what shakes",
-      "text": "Not by what they look like, and not by how loud they are. By which part of the instrument actually vibrates — which makes this a physics question."
+      "text": "Not by what they look like, and not by how loud they are. By which part of the instrument actually vibrates. Which makes this a physics question."
     },
     {
       "kind": "idea",
@@ -26,16 +26,16 @@
       "title": "Five families, one test",
       "text": "Ask one thing: what is moving back and forth fast enough to make sound?",
       "points": [
-        "**A string** — chordophone.",
-        "**A column of air** — aerophone.",
-        "**A stretched skin** — membranophone.",
-        "**The whole body of the thing** — idiophone."
+        "**A string**: chordophone.",
+        "**A column of air**: aerophone.",
+        "**A stretched skin**: membranophone.",
+        "**The whole body of the thing**: idiophone."
       ]
     },
     {
       "kind": "figure",
       "figure": "instrumentFamilies",
-      "title": "Five buttons",
+      "title": "Five families, named by what actually vibrates",
       "text": "Tap each family. The Filipino example is the one worth remembering."
     },
     {
@@ -142,7 +142,7 @@
         },
         {
           "term": "Pitch",
-          "def": "How high or low a note is — its vibration frequency."
+          "def": "How high or low a note is. Its vibration frequency."
         }
       ]
     },
@@ -207,7 +207,7 @@
         "idiophone"
       ],
       "answerIndex": 2,
-      "explain": "A drum — a stretched skin.",
+      "explain": "A drum. A stretched skin.",
       "objective": "Name Filipino instruments in each family",
       "seconds": 18
     },
@@ -257,7 +257,7 @@
       "type": "truefalse",
       "text": "Pitch is a matter of opinion.",
       "answer": false,
-      "explain": "It is a vibration frequency — a count per second.",
+      "explain": "It is a vibration frequency. A count per second.",
       "objective": "Explain what changes a note's pitch",
       "seconds": 18
     },
@@ -333,7 +333,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 1 MAPEH, Music strand. The organising move is to drop the usual grouping by appearance and use the Hornbostel-Sachs question instead: what vibrates? That turns a memory task into a physics one, and it pays off immediately — the single rule that faster vibration means higher pitch then explains shortening a string, shortening an air column and choosing a smaller gong, all at once. Filipino instruments carry each family rather than appearing as a separate 'local' section. The history is given as four problems solved rather than four dates.",
+    "summary": "Term 2 Week 1 MAPEH, Music strand. The organising move is to drop the usual grouping by appearance and use the Hornbostel-Sachs question instead: what vibrates? That turns a memory task into a physics one, and it pays off immediately. The single rule that faster vibration means higher pitch then explains shortening a string, shortening an air column and choosing a smaller gong, all at once. Filipino instruments carry each family rather than appearing as a separate 'local' section. The history is given as four problems solved rather than four dates.",
     "discussion": [
       "Ask what vibrates in each instrument in the house.",
       "Ask why a smaller gong sounds higher.",

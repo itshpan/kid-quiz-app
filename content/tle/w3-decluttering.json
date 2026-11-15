@@ -29,7 +29,7 @@
       "points": [
         "**Things arrive faster than they leave.**",
         "**\"I might need it\"** is the phrase that does it.",
-        "**No decision is itself a decision** — to keep it.",
+        "**No decision is itself a decision**: to keep it.",
         "**Which is why it never stops on its own.**"
       ]
     },
@@ -128,10 +128,10 @@
       "title": "Not everything goes in the bin",
       "text": "Sorting the outgoing pile properly is part of the skill, and most of it never needs to reach a landfill.",
       "points": [
-        "**Keep** — it has a home to go to.",
-        "**Donate** — usable, and someone else needs it.",
-        "**Sell** — worth the effort of listing it.",
-        "**Recycle or bin** — genuinely finished."
+        "**Keep**: it has a home to go to.",
+        "**Donate**: usable, and someone else needs it.",
+        "**Sell**: worth the effort of listing it.",
+        "**Recycle or bin**: genuinely finished."
       ]
     },
     {
@@ -414,7 +414,7 @@
     }
   ],
   "teacher": {
-    "summary": "Week 3 TLE covers decluttering, matching the Term 1 weekly scope. The definition it opens with does the heavy lifting: clutter is postponed decisions rather than dirt, which reframes the whole task as decision-making and explains why it accumulates without anyone choosing it. The sortFlow figure holds the method to one object and one question, because facing a whole pile is what makes people stop — which is worth knowing for any learner, and particularly for this one. Two rules are given more weight than the rest: declutter before organising, since organising things you are about to discard wastes the afternoon; and the same-day rule, since a decision that does not result in the item leaving is not a decision at all.",
+    "summary": "Week 3 TLE covers decluttering, matching the Term 1 weekly scope. The definition it opens with does the heavy lifting: clutter is postponed decisions rather than dirt, which reframes the whole task as decision-making and explains why it accumulates without anyone choosing it. The sortFlow figure holds the method to one object and one question, because facing a whole pile is what makes people stop. Which is worth knowing for any learner, and particularly for this one. Two rules are given more weight than the rest: declutter before organising, since organising things you are about to discard wastes the afternoon; and the same-day rule, since a decision that does not result in the item leaving is not a decision at all.",
     "discussion": [
       "Ask him what 'I might need it' has ever actually saved. The honest answer usually settles the question.",
       "Ask why deciding about a whole pile is harder than deciding about one object. It is the same reason a big task is harder to start than a small one.",

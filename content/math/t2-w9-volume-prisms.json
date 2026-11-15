@@ -47,7 +47,7 @@
     {
       "kind": "figure",
       "figure": "volumeLab",
-      "title": "Press an edge. Watch a cube grow",
+      "title": "A cube is the case where the volume is the edge, cubed",
       "text": "A cube is the special case where all three edges match, so the volume is the edge cubed."
     },
     {
@@ -112,7 +112,7 @@
       "points": [
         "**Measure three edges** in the same unit.",
         "**Multiply all three.**",
-        "**A 60 × 40 × 25 cm box** is 60,000 cm³ — about 60 litres.",
+        "**A 60 × 40 × 25 cm box** is 60,000 cm³. About 60 litres.",
         "**Shipping is priced on volume**, not just weight."
       ]
     },

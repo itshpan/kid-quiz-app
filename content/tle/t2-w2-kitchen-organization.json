@@ -26,16 +26,16 @@
       "title": "Four zones, one direction",
       "text": "Food moves through a kitchen in one line.",
       "points": [
-        "**Store** — fridge, pantry, cupboards.",
-        "**Wash** — sink, drainer, bin.",
-        "**Prep** — board, knives, clear surface.",
-        "**Cook** — stove, oven, pans."
+        "**Store**: fridge, pantry, cupboards.",
+        "**Wash**: sink, drainer, bin.",
+        "**Prep**: board, knives, clear surface.",
+        "**Cook**: stove, oven, pans."
       ]
     },
     {
       "kind": "figure",
       "figure": "kitchenZones",
-      "title": "Tap a zone",
+      "title": "Four zones, and the walk between them",
       "text": "Tap each zone, then tap the walk. The order is the point."
     },
     {
@@ -90,7 +90,7 @@
       "points": [
         "**Something is always simmering or resting.**",
         "**That is the window.**",
-        "**Wipe the board between raw and ready-to-eat** — not optional.",
+        "**Wipe the board between raw and ready-to-eat**: not optional.",
         "**A kitchen cleaned at the end** takes twice as long."
       ]
     },
@@ -161,7 +161,7 @@
       "eyebrow": "Lesson done",
       "title": "What to remember",
       "points": [
-        "Store, wash, prep, cook — one direction, no crossing back.",
+        "Store, wash, prep, cook. One direction, no crossing back.",
         "Set your workstation up identically every time.",
         "Damp cloth under the board, knife on your dominant side.",
         "Clean in the gaps, not at the end."
@@ -333,7 +333,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 2 TLE. The week's claim is that almost every slow or dangerous kitchen is one where people cross their own path, so the zones are drawn as a plan with the walk between them rather than listed. The workstation card is deliberately specific — board centred, damp cloth under it, knife on the dominant side, tray for finished pieces — because a repeated set-up is one he stops having to think about. Clean-as-you-go is argued as a time strategy rather than a tidiness rule, with the one exception that is genuinely about safety: wiping between raw and ready-to-eat. Three lenses say the same thing from the hotbar, the pit box and the workbench.",
+    "summary": "Term 2 Week 2 TLE. The week's claim is that almost every slow or dangerous kitchen is one where people cross their own path, so the zones are drawn as a plan with the walk between them rather than listed. The workstation card is deliberately specific (board centred, damp cloth under it, knife on the dominant side, tray for finished pieces) because a repeated set-up is one he stops having to think about. Clean-as-you-go is argued as a time strategy rather than a tidiness rule, with the one exception that is genuinely about safety: wiping between raw and ready-to-eat. Three lenses say the same thing from the hotbar, the pit box and the workbench.",
     "discussion": [
       "Ask him to name the four zones in order.",
       "Ask why the cook zone is off the walkway.",

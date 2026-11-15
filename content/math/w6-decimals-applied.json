@@ -55,8 +55,8 @@
       "title": "Look at the digit to the right, and nothing else",
       "text": "Find the place you are rounding to. Look at the one digit after it. Five or more rounds up.",
       "points": [
-        "**3.847 to one decimal place** — look at the 4. Stays 3.8.",
-        "**3.867 to one decimal place** — look at the 6. Becomes 3.9.",
+        "**3.847 to one decimal place**: look at the 4. Stays 3.8.",
+        "**3.867 to one decimal place**: look at the 6. Becomes 3.9.",
         "**Only the next digit matters.** Ignore the rest.",
         "**3.8499 to one place is 3.8.** The 99 is irrelevant."
       ]
@@ -91,13 +91,13 @@
     {
       "kind": "figure",
       "figure": "unitRateLab",
-      "title": "Press a pack size",
+      "title": "Three pack sizes, priced per 100 g",
       "text": "Three sizes. The biggest box is not the best deal here."
     },
     {
       "kind": "break",
       "title": "Good spot to pause",
-      "text": "Order and rounding done. Part 2 is rates — how much for exactly one. Your place is saved."
+      "text": "Order and rounding done. Part 2 is rates. How much for exactly one. Your place is saved."
     },
     {
       "kind": "open",
@@ -180,8 +180,8 @@
       "title": "Fuel economy is a rate you already read",
       "text": "Litres per hundred kilometres, or kilometres per litre. Both are unit rates and they point in opposite directions.",
       "points": [
-        "**km per litre** — bigger is better.",
-        "**Litres per 100 km** — smaller is better.",
+        "**km per litre**: bigger is better.",
+        "**Litres per 100 km**: smaller is better.",
         "**Same car, same fact, opposite numbers.**",
         "**Check which way the unit points.**"
       ]
@@ -430,7 +430,7 @@
     }
   ],
   "teacher": {
-    "summary": "Week 6 Math continues the decimal work and adds the two things Weeks 3 to 5 left out: the order of operations, and rates. The order is presented as a convention that exists because two people doing the same calculation must get the same answer, which is a better reason than an acronym. Rounding is reduced to a single instruction — look at the one digit to the right and nothing else — because looking at the whole tail is the commonest error. The unit rate half is the practically useful part: comparing two prices for different sizes is a real skill, and the nutrition label card points out that per-100 g exists exactly so that comparison is possible while per-serving quietly prevents it.",
+    "summary": "Week 6 Math continues the decimal work and adds the two things Weeks 3 to 5 left out: the order of operations, and rates. The order is presented as a convention that exists because two people doing the same calculation must get the same answer, which is a better reason than an acronym. Rounding is reduced to a single instruction (look at the one digit to the right and nothing else) because looking at the whole tail is the most common error. The unit rate half is the practically useful part: comparing two prices for different sizes is a real skill, and the nutrition label card points out that per-100 g exists exactly so that comparison is possible while per-serving quietly prevents it.",
     "discussion": [
       "Give him two supermarket prices for different pack sizes and ask which is better. He will need the unit rate and there is no way round it.",
       "Ask why 3.8499 rounds to 3.8 at one decimal place. Only the next digit counts, and that surprises people.",

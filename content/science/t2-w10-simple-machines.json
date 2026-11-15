@@ -18,7 +18,7 @@
       "icon": "🔧",
       "eyebrow": "Part 1 · The trade",
       "title": "A machine does not create force. It rearranges it",
-      "text": "Every simple machine lets you use less force — and makes you move further to do it. The energy stays the same."
+      "text": "Every simple machine lets you use less force. And makes you move further to do it. The energy stays the same."
     },
     {
       "kind": "idea",
@@ -26,10 +26,10 @@
       "title": "Six machines, and everything else is a combination",
       "text": "Every complicated machine is these, stacked.",
       "points": [
-        "**Lever** — a bar on a pivot.",
-        "**Wheel and axle** — a big circle turning a small one.",
-        "**Pulley** — a wheel that redirects a rope.",
-        "**Inclined plane, wedge and screw** — all ramps, used differently."
+        "**Lever**: a bar on a pivot.",
+        "**Wheel and axle**: a big circle turning a small one.",
+        "**Pulley**: a wheel that redirects a rope.",
+        "**Inclined plane, wedge and screw**: all ramps, used differently."
       ]
     },
     {
@@ -168,7 +168,7 @@
         },
         {
           "term": "Inclined plane",
-          "def": "A ramp — including the wedge and the screw."
+          "def": "A ramp. Including the wedge and the screw."
         }
       ]
     },
@@ -219,7 +219,7 @@
         "multiplies your force, at the cost of distance"
       ],
       "answerIndex": 3,
-      "explain": "Force up, distance up too — but in opposite directions. The energy is unchanged.",
+      "explain": "Force up, distance up too. But in opposite directions. The energy is unchanged.",
       "objective": "Explain mechanical advantage as a trade, not free power",
       "seconds": 22
     },
@@ -353,7 +353,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 10 Science, the last teaching week before the exam. Simple machines are framed throughout as a trade rather than as helpers, because 'the machine makes it easier' hides the thing being tested: force down means distance up, and the product is fixed. The fan supplies three of the six machines in one object he has already opened, and the arm-as-lever card closes the term by turning the idea back on his own body, where the trade runs the other way — force given up to buy speed.",
+    "summary": "Term 2 Week 10 Science, the last teaching week before the exam. Simple machines are framed throughout as a trade rather than as helpers, because 'the machine makes it easier' hides the thing being tested: force down means distance up, and the product is fixed. The fan supplies three of the six machines in one object he has already opened, and the arm-as-lever card closes the term by turning the idea back on his own body, where the trade runs the other way. Force given up to buy speed.",
     "discussion": [
       "What does a machine actually give you, if not energy?",
       "Which simple machines are inside a fan?",

@@ -58,7 +58,7 @@
       "kind": "idea",
       "eyebrow": "Good and well",
       "title": "The pair that catches everyone",
-      "text": "Good is an adjective. Well is its adverb — and also an adjective meaning healthy.",
+      "text": "Good is an adjective. Well is its adverb. And also an adjective meaning healthy.",
       "points": [
         "**He is a good fighter.** Describes the fighter.",
         "**He fights well.** Describes the fighting.",
@@ -110,8 +110,8 @@
       "title": "Describing a fault needs both forms",
       "text": "What is wrong, and how it is behaving, take different words.",
       "points": [
-        "**A noisy bearing.** Adjective — the bearing is noisy.",
-        "**It runs noisily.** Adverb — the running is noisy.",
+        "**A noisy bearing.** Adjective. The bearing is noisy.",
+        "**It runs noisily.** Adverb. The running is noisy.",
         "**A slow blade** versus **it turns slowly.**",
         "**Both sentences are true.** They describe different things."
       ]
@@ -221,7 +221,7 @@
     },
     {
       "type": "multiple",
-      "text": "'A ____ bearing' — which form fits?",
+      "text": "'A ____ bearing'. Which form fits?",
       "options": [
         "noisy",
         "noisier than",
@@ -345,7 +345,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 10 English, the last teaching week, and the one that makes weeks 7 to 9 usable. The whole lesson runs on one question — what is the word pointing at — because that single test resolves nearly every adjective-or-adverb decision without any further rules. Good and well get their own card since the error is common and socially noticeable. Adverbs modifying adjectives are included because 'very' and 'really' are used constantly and almost never understood as adverbs. The fault-description card pairs the two forms on the same object so the difference is visible rather than abstract.",
+    "summary": "Term 2 Week 10 English, the last teaching week, and the one that makes weeks 7 to 9 usable. The whole lesson runs on one question (what is the word pointing at) because that single test resolves nearly every adjective-or-adverb decision without any further rules. Good and well get their own card since the error is common and socially noticeable. Adverbs modifying adjectives are included because 'very' and 'really' are used constantly and almost never understood as adverbs. The fault-description card pairs the two forms on the same object so the difference is visible rather than abstract.",
     "discussion": [
       "What single question decides adjective or adverb?",
       "Why is 'he fights good' wrong?",

@@ -28,9 +28,9 @@
       "title": "Solution, solute, solvent",
       "text": "Every question in this topic uses these three. Get them the right way round once and the rest follows.",
       "points": [
-        "**Solute** — the thing that dissolves. The salt.",
-        "**Solvent** — the thing it dissolves in. The water.",
-        "**Solution** — the two of them together.",
+        "**Solute**: the thing that dissolves. The salt.",
+        "**Solvent**: the thing it dissolves in. The water.",
+        "**Solution**: the two of them together.",
         "**More solvent than solute**, almost always."
       ]
     },
@@ -68,8 +68,8 @@
       "title": "There is a limit, and it moves",
       "text": "Solubility is how much solute will dissolve in a given amount of solvent at a given temperature.",
       "points": [
-        "**Unsaturated** — more will still dissolve.",
-        "**Saturated** — no more will dissolve at that temperature.",
+        "**Unsaturated**: more will still dissolve.",
+        "**Saturated**: no more will dissolve at that temperature.",
         "**Warmer water usually holds more** of a solid.",
         "**Cool it down** and the extra comes back out."
       ]
@@ -153,11 +153,11 @@
       "kind": "idea",
       "eyebrow": "Concentration",
       "title": "Dilute, concentrated, saturated",
-      "text": "Three words on a scale. The third one is not just \"very concentrated\" — it means a real limit has been reached.",
+      "text": "Three words on a scale. The third one is not just \"very concentrated\". It means a real limit has been reached.",
       "points": [
-        "**Dilute** — a little solute in a lot of solvent.",
-        "**Concentrated** — a lot of solute.",
-        "**Saturated** — no more will dissolve at all.",
+        "**Dilute**: a little solute in a lot of solvent.",
+        "**Concentrated**: a lot of solute.",
+        "**Saturated**: no more will dissolve at all.",
         "**Saturated is a fact.** The other two are comparisons."
       ]
     },
@@ -197,8 +197,8 @@
       "title": "Miscible and immiscible",
       "text": "Two liquids either mix completely or refuse to. There is no partial credit and the words are worth learning.",
       "points": [
-        "**Miscible** — they mix fully. Water and vinegar.",
-        "**Immiscible** — they separate into layers. Oil and water.",
+        "**Miscible**: they mix fully. Water and vinegar.",
+        "**Immiscible**: they separate into layers. Oil and water.",
         "**Oil floats** because it is less dense.",
         "**Shaking makes a temporary mixture**, not a solution."
       ]
@@ -366,7 +366,7 @@
         "Concentrated",
         "Saturated"
       ],
-      "explain": "Dilute, then concentrated, then saturated — where no more will dissolve at that temperature.",
+      "explain": "Dilute, then concentrated, then saturated. Where no more will dissolve at that temperature.",
       "objective": "Distinguish dilute, concentrated and saturated",
       "seconds": 25
     },
@@ -456,7 +456,7 @@
     }
   ],
   "teacher": {
-    "summary": "Week 9 Science covers homogeneous mixtures, matching the Term 1 weekly scope and completing the pair begun in Week 8. The opening line does most of the work: dissolved salt has not disappeared, it has become too small to see, and it is still a mixture because nothing has reacted. Two pairs of words are targeted because they are the ones students blur — solute against solvent, and concentrated against saturated, where the second word in each pair means something specific rather than something stronger. The dissolveRate figure carries the three factors that appear in every practical exam. The gas-solubility fact at the end is deliberately counterintuitive and it is the one students remember.",
+    "summary": "Week 9 Science covers homogeneous mixtures, matching the Term 1 weekly scope and completing the pair begun in Week 8. The opening line does most of the work: dissolved salt has not disappeared, it has become too small to see, and it is still a mixture because nothing has reacted. Two pairs of words are targeted because they are the ones students blur. Solute against solvent, and concentrated against saturated, where the second word in each pair means something specific rather than something stronger. The dissolveRate figure carries the three factors that appear in every practical exam. The gas-solubility fact at the end is deliberately counterintuitive and it is the one students remember.",
     "discussion": [
       "Ask him to make a saturated solution in a glass and then heat it. Watching the limit move is the whole idea of solubility.",
       "Ask why a bigger lump dissolves more slowly than the same mass ground up. Surface area is the answer and he can reason to it.",
@@ -468,7 +468,7 @@
       "'Dissolved salt has disappeared.' It is still there, and tasting it proves that. Nothing has reacted.",
       "'Solute and solvent mean the same thing.' The solute dissolves; the solvent does the dissolving.",
       "'Saturated just means very strong.' It means no more will dissolve at that temperature. It is a limit.",
-      "'Heating always dissolves more.' True for most solids, false for gases — which is why warm drinks go flat."
+      "'Heating always dissolves more.' True for most solids, false for gases. Which is why warm drinks go flat."
     ]
   }
 }

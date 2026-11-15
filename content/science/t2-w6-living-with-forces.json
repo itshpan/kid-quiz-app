@@ -24,7 +24,7 @@
       "kind": "idea",
       "eyebrow": "Normal force",
       "title": "The floor pushes up on you",
-      "text": "Normal here means perpendicular — at right angles to the surface. It has nothing to do with ordinary.",
+      "text": "Normal here means perpendicular. At right angles to the surface. It has nothing to do with ordinary.",
       "points": [
         "**The floor bends slightly** under you, like a very stiff spring.",
         "**It pushes back** exactly hard enough to stop you sinking.",
@@ -70,7 +70,7 @@
       "points": [
         "**Buoyancy takes most of its weight**, so the tyres barely grip.",
         "**Less grip means less friction**, so the water only has to beat a little.",
-        "**Moving water pushes hard** — it is far denser than air.",
+        "**Moving water pushes hard**: it is far denser than air.",
         "**Never drive into flood water.** The maths is not on your side."
       ]
     },
@@ -353,7 +353,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 6 Science, continuing the scope's gravity-and-friction strand into the other forces that act alongside them. The organising idea is that stillness means balance, not absence — stated once and then tested from three directions. Buoyancy is taught through displaced weight rather than 'light things float', which is the usual error, and the steel-ship case is used to break it. The flood card is deliberately practical: thirty centimetres of moving water is the figure worth him remembering.",
+    "summary": "Term 2 Week 6 Science, continuing the scope's gravity-and-friction strand into the other forces that act alongside them. The organising idea is that stillness means balance, not absence. Stated once and then tested from three directions. Buoyancy is taught through displaced weight rather than 'light things float', which is the usual error, and the steel-ship case is used to break it. The flood card is deliberately practical: thirty centimetres of moving water is the figure worth him remembering.",
     "discussion": [
       "If you are standing still, what is pushing up?",
       "Why does shape decide whether steel floats?",

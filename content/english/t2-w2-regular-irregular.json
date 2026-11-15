@@ -35,7 +35,7 @@
     {
       "kind": "figure",
       "figure": "irregularVerbs",
-      "title": "Tap a verb and watch it change",
+      "title": "Eight irregular verbs that refuse -ed",
       "text": "Eight of the ones that matter, each in a sentence. Two quiz questions come from here."
     },
     {
@@ -86,7 +86,7 @@
       "title": "The mistake is logical, which is why it happens",
       "text": "Adding -ed to an irregular verb is a sign you understood the rule and applied it too widely.",
       "points": [
-        "**'He teached me'** — you know -ed makes a past. The verb just refuses.",
+        "**'He teached me'**: you know -ed makes a past. The verb just refuses.",
         "**Small children do this constantly**, and so do confident learners.",
         "**It is not carelessness.** It is over-applying a good rule.",
         "**Only exposure fixes it.** Read and notice."
@@ -323,11 +323,11 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 2 English. The lesson's real work is naming over-regularisation and treating it as a sign of understanding rather than carelessness, because 'catched' and 'builded' come from applying the -ed rule faithfully to verbs that reject it. Saying that out loud removes the embarrassment and makes the fix — exposure — feel reasonable. The interactive carries eight high-frequency irregulars in sentences drawn from boxing, weather, building, a teardown and a race, so the forms arrive attached to contexts rather than as a list.",
+    "summary": "Term 2 Week 2 English. The lesson's real work is naming over-regularisation and treating it as a sign of understanding rather than carelessness, because 'catched' and 'builded' come from applying the -ed rule faithfully to verbs that reject it. Saying that out loud removes the embarrassment and makes the fix (exposure) feel reasonable. The interactive carries eight high-frequency irregulars in sentences drawn from boxing, weather, building, a teardown and a race, so the forms arrive attached to contexts rather than as a list.",
     "discussion": [
       "Why do people say 'builded' when they know the past tense?",
       "Which verbs do not change at all?",
-      "Why are the commonest verbs the irregular ones?"
+      "Why are the most common verbs the irregular ones?"
     ],
     "extension": [
       "Read a page aloud and mark every irregular past you find.",

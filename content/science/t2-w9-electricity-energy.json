@@ -26,7 +26,7 @@
       "title": "Four jobs in every circuit",
       "text": "Whatever the appliance, the same four roles are there somewhere.",
       "points": [
-        "**A source** pushes the current along — mains or a battery.",
+        "**A source** pushes the current along. Mains or a battery.",
         "**Conductors** carry it, usually copper.",
         "**A switch** decides whether the path is open or closed.",
         "**A load** is the thing that actually uses the energy."
@@ -283,7 +283,7 @@
         "The wire"
       ],
       "answerIndex": 1,
-      "explain": "The load is where the energy is actually spent — a motor, a lamp, a heater.",
+      "explain": "The load is where the energy is actually spent. A motor, a lamp, a heater.",
       "objective": "Describe a circuit and what each part does",
       "seconds": 18
     },

@@ -4,7 +4,7 @@
   "courseTitle": "MAPEH",
   "week": 5,
   "title": "Philippine Arts & Cultural Symbols",
-  "subtitle": "Design with a job — and what each symbol carries.",
+  "subtitle": "Design with a job. And what each symbol carries.",
   "estMinutes": 20,
   "objectives": [
     "Name the main Philippine cultural symbols",
@@ -35,7 +35,7 @@
     {
       "kind": "figure",
       "figure": "pinoySymbols",
-      "title": "Six buttons",
+      "title": "Six symbols, and what each one carries",
       "text": "Tap each symbol. The second line is what it carries."
     },
     {
@@ -62,7 +62,7 @@
       "points": [
         "**The fibre is abaca**, stripped and knotted by hand.",
         "**Three colours only:** red, black, white.",
-        "**The weaver is called a dreamweaver** — the pattern comes in a dream.",
+        "**The weaver is called a dreamweaver**: the pattern comes in a dream.",
         "**Months per piece.** It is not printed."
       ]
     },
@@ -98,7 +98,7 @@
       "points": [
         "**Chrome horses** on the bonnet.",
         "**His children's names** along the side.",
-        "**A saint, a team, a hometown** — all of it chosen.",
+        "**A saint, a team, a hometown**: all of it chosen.",
         "**Same instinct as okir:** mark what is yours."
       ]
     },
@@ -317,7 +317,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 5 MAPEH, Arts strand. The organising claim is that each of these designs was made to do something — mark rank, guard a harvest, record a dream, say whose house this is — and that calling it a pattern is what empties it. T'nalak gets a card of its own because the process, including the dreamweaver, is the reason the cloth matters and is the detail most likely to stick. The flag explorer from Term 1 returns here, which is deliberate: it is the one set of symbols he will be asked about for the rest of his schooling, and the war-inversion fact is genuinely little known. The gaming lens turns the week into a transferable habit: ask where a design came from.",
+    "summary": "Term 2 Week 5 MAPEH, Arts strand. The organising claim is that each of these designs was made to do something (mark rank, guard a harvest, record a dream, say whose house this is) and that calling it a pattern is what empties it. T'nalak gets a card of its own because the process, including the dreamweaver, is the reason the cloth matters and is the detail most likely to stick. The flag explorer from Term 1 returns here, which is deliberate: it is the one set of symbols he will be asked about for the rest of his schooling, and the war-inversion fact is genuinely little known. The gaming lens turns the week into a transferable habit: ask where a design came from.",
     "discussion": [
       "Ask which group each symbol belongs to.",
       "Ask why the weaver is called a dreamweaver.",

@@ -19,7 +19,7 @@
       "icon": "🏎️",
       "eyebrow": "Part 1 · Place value",
       "title": "A race is won by two hundredths of a second",
-      "text": "Lap times look like 1:23.456. Those digits after the point are the whole sport. Get them wrong and you're not close — you're nowhere."
+      "text": "Lap times look like 1:23.456. Those digits after the point are the whole sport. Get them wrong and you're not close. You're nowhere."
     },
     {
       "kind": "idea",
@@ -57,7 +57,7 @@
           "0.65"
         ],
         "answerIndex": 0,
-        "explain": "0.7 — that's seven tenths, which is 0.70. More digits doesn't mean a bigger number. Compare place by place, starting at the left.",
+        "explain": "0.7. That's seven tenths, which is 0.70. More digits doesn't mean a bigger number. Compare place by place, starting at the left.",
         "seconds": 15
       }
     },
@@ -114,7 +114,7 @@
       "points": [
         "**Y: 64.00 is exactly sea level.** The zeros are placeholders.",
         "**Distance travelled** is one coordinate minus another.",
-        "**Negative coordinates** work the same — the point stays put."
+        "**Negative coordinates** work the same. The point stays put."
       ]
     },
     {
@@ -218,7 +218,7 @@
       "title": "Every price you've ever seen is this",
       "text": "Money is decimals with exactly two places. Pesos before the point, centavos after.",
       "points": [
-        "**₱125.50 + ₱48.75** — same rule, line up the points.",
+        "**₱125.50 + ₱48.75**: same rule, line up the points.",
         "**Always write two decimal places** for money. ₱7.5 should be ₱7.50.",
         "**Change from a note** is a subtraction."
       ]
@@ -360,7 +360,7 @@
       "type": "truefalse",
       "text": "12.5 and 12.50 are the same number.",
       "answer": true,
-      "explain": "True. A zero on the end of a decimal adds nothing. But 12.05 is different — a zero in the middle changes the place values.",
+      "explain": "True. A zero on the end of a decimal adds nothing. But 12.05 is different. A zero in the middle changes the place values.",
       "objective": "Use zeros to fill empty place values",
       "seconds": 12
     },
@@ -421,9 +421,9 @@
       "text": "You calculate 24.6 + 7.8 and get 103.4. What does estimating tell you?",
       "options": [
         "Estimating can't help here",
-        "It's right — the numbers are large",
-        "It's wrong — 25 + 8 is about 33",
-        "It's wrong — it should be about 300"
+        "It's right, the numbers are large",
+        "It's wrong, 25 + 8 is about 33",
+        "It's wrong, it should be about 300"
       ],
       "answerIndex": 2,
       "explain": "Rounding gives about 33, and the real answer is 32.4. An answer of 103.4 means the columns weren't aligned.",
@@ -436,7 +436,7 @@
       "accept": [
         "1.8"
       ],
-      "explain": "1.8 kg. Rounding to whole kilos would have hidden the problem entirely — this is why precision matters.",
+      "explain": "1.8 kg. Rounding to whole kilos would have hidden the problem entirely. This is why precision matters.",
       "objective": "Solve word problems involving money and measurement",
       "seconds": 20
     },
@@ -453,7 +453,7 @@
     "summary": "Week 3 Maths covers addition and subtraction of decimals, matching the Term 1 weekly scope. The lesson is deliberately built around one rule and one error: align the decimal points, and the mistake is aligning the right-hand edge instead. The interactive figure shows both stackings side by side with both answers, so the error is visible rather than merely described. Week 4 continues the same topic, so this can be taught and then practised.",
     "discussion": [
       "Ask which is bigger, 0.7 or 0.65, and why. If he says 0.7 is 0.70, he has place value rather than a rule about counting digits.",
-      "Ask him to explain why we add zeros before subtracting. The answer — so there is something to borrow from — shows he understands regrouping.",
+      "Ask him to explain why we add zeros before subtracting. The answer (so there is something to borrow from) shows he understands regrouping.",
       "Ask him to estimate before every answer for a week. It is the single habit that catches misaligned columns.",
       "Ask where he already sees decimals outside maths class. Lap times, prices and weights all count, and noticing them is the point."
     ],

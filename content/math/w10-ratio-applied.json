@@ -28,9 +28,9 @@
       "title": "Ratio, rate, unit rate",
       "text": "All three compare two quantities. What changes is whether the units match and whether one side is exactly one.",
       "points": [
-        "**Ratio** — same units. 3 boys to 4 girls.",
-        "**Rate** — different units. 180 km in 3 hours.",
-        "**Unit rate** — one side is exactly 1. 60 km per hour.",
+        "**Ratio**: same units. 3 boys to 4 girls.",
+        "**Rate**: different units. 180 km in 3 hours.",
+        "**Unit rate**: one side is exactly 1. 60 km per hour.",
         "**A unit rate is always a division.**"
       ]
     },
@@ -95,7 +95,7 @@
     {
       "kind": "figure",
       "figure": "squareLawLab",
-      "title": "Press a speed. Watch both bars.",
+      "title": "What doubles with speed, and what quadruples",
       "text": "Some things double when speed doubles. Some go up four times."
     },
     {
@@ -104,7 +104,7 @@
       "title": "A scale is a ratio between drawing and reality",
       "text": "A scale of 1 : 100 means one centimetre on the paper is one hundred centimetres in real life.",
       "points": [
-        "**Scale 1 : 100** — the drawing is 100 times smaller.",
+        "**Scale 1 : 100**: the drawing is 100 times smaller.",
         "**Drawing to real:** multiply by the scale.",
         "**Real to drawing:** divide by the scale.",
         "**Keep the units the same** on both sides."
@@ -158,7 +158,7 @@
       "title": "Double one, double the other",
       "text": "Two quantities are in direct proportion when multiplying one by any number multiplies the other by the same number.",
       "points": [
-        "**Cost and quantity** — buy twice as many, pay twice.",
+        "**Cost and quantity**: buy twice as many, pay twice.",
         "**Distance and time** at a steady speed.",
         "**Ingredients in a recipe.**",
         "**Divide one by the other** and you get the same number."
@@ -196,7 +196,7 @@
       "title": "Things that look proportional and are not",
       "text": "The exam sets these deliberately, and they are worth recognising rather than calculating.",
       "points": [
-        "**Age** — twice as old in ten years is nonsense.",
+        "**Age**: twice as old in ten years is nonsense.",
         "**A race time** does not halve if you train twice as long.",
         "**Nine women** cannot make a baby in one month.",
         "**Ask whether doubling really doubles it.**"
@@ -262,10 +262,10 @@
       "title": "The whole topic in four moves",
       "text": "Every ratio question in the exam is one of these four, or a combination of two.",
       "points": [
-        "**Simplify** — divide both sides by the same number.",
-        "**Find the missing term** — cross-multiply.",
-        "**Share an amount** — add parts, find one, multiply.",
-        "**Scale up or down** — find the unit rate first."
+        "**Simplify**: divide both sides by the same number.",
+        "**Find the missing term**: cross-multiply.",
+        "**Share an amount**: add parts, find one, multiply.",
+        "**Scale up or down**: find the unit rate first."
       ]
     },
     {

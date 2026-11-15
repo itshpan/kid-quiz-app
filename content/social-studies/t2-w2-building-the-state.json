@@ -40,7 +40,7 @@
       "points": [
         "**The 1935 Constitution** called for a national language.",
         "**Tagalog was selected** as its basis in 1937.",
-        "**Not because it had the most speakers** — Cebuano had a strong claim.",
+        "**Not because it had the most speakers**: Cebuano had a strong claim.",
         "**It was the language of Manila**, the centre of government and print."
       ]
     },
@@ -75,7 +75,7 @@
       "text": "Choosing one region's tongue as everyone's is a political act, and people knew it.",
       "points": [
         "**Speakers of other languages objected**, and still do.",
-        "**The name changed over time** — Pilipino, then Filipino.",
+        "**The name changed over time**: Pilipino, then Filipino.",
         "**Filipino today** draws on more than Tagalog alone.",
         "**The argument is not settled**, which is itself worth knowing."
       ]
@@ -87,7 +87,7 @@
       "text": "One expanded. The other barely moved.",
       "points": [
         "**Schools grew quickly**, in English and in the vernacular.",
-        "**Land reform was attempted** and mostly failed.",
+        "**Land reform was tried** and mostly failed.",
         "**Tenant farmers stayed tenants.**",
         "**That unfinished problem** returns again and again."
       ]
@@ -112,7 +112,7 @@
         "type": "truefalse",
         "text": "Land reform was largely achieved during the Commonwealth.",
         "answer": false,
-        "explain": "It was attempted and made very little progress. Tenancy remained the norm.",
+        "explain": "It was tried and made very little progress. Tenancy remained the norm.",
         "seconds": 18
       }
     },
@@ -251,7 +251,7 @@
       "type": "truefalse",
       "text": "Land reform largely succeeded during the Commonwealth.",
       "answer": false,
-      "explain": "It was attempted and achieved very little. Tenancy continued.",
+      "explain": "It was tried and achieved very little. Tenancy continued.",
       "objective": "Describe how the Commonwealth prepared institutions",
       "seconds": 20
     },
@@ -343,7 +343,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 2 Social Studies, the second of the scope's two weeks on preparing for independence, taking the institutional view rather than repeating the political narrative. Three strands are followed — defence, language and land — because each has a different ending and together they show what preparation actually achieved. The language card is handled honestly: Tagalog was not chosen on numbers, the objection was real, and the argument is live, which is more useful to him than a settled-sounding fact. Land reform is flagged as the unfinished problem that returns under every administration later in the term.",
+    "summary": "Term 2 Week 2 Social Studies, the second of the scope's two weeks on preparing for independence, taking the institutional view rather than repeating the political narrative. Three strands are followed (defence, language and land) because each has a different ending and together they show what preparation actually achieved. The language card is handled honestly: Tagalog was not chosen on numbers, the objection was real, and the argument is live, which is more useful to him than a settled-sounding fact. Land reform is flagged as the unfinished problem that returns under every administration later in the term.",
     "discussion": [
       "Why was Tagalog chosen when Cebuano had similar numbers?",
       "What is the difference between preparing and being ready?",

@@ -27,10 +27,10 @@
       "title": "Payak, maylapi, inuulit, tambalan",
       "text": "Bawat salita sa Filipino ay nasa isa sa apat na ito. Walang ikalima.",
       "points": [
-        "**Payak** — ugat lamang. *takbo*",
-        "**Maylapi** — may panlapi. *tumakbo*",
-        "**Inuulit** — may pag-uulit. *dahan-dahan*",
-        "**Tambalan** — dalawang ugat. *bahay-kubo*"
+        "**Payak**: ugat lamang. *takbo*",
+        "**Maylapi**: may panlapi. *tumakbo*",
+        "**Inuulit**: may pag-uulit. *dahan-dahan*",
+        "**Tambalan**: dalawang ugat. *bahay-kubo*"
       ]
     },
     {
@@ -62,9 +62,9 @@
       "title": "Isang tanong, sunod-sunod",
       "text": "Huwag mong hulaan. Itanong mo ito sa sarili mo, sa ganitong pagkakasunod-sunod.",
       "points": [
-        "**May dalawang magkaibang ugat ba?** Kung oo — tambalan.",
-        "**May panlapi ba?** Kung oo — maylapi.",
-        "**May pag-uulit ba?** Kung oo — inuulit.",
+        "**May dalawang magkaibang ugat ba?** Kung oo. Tambalan.",
+        "**May panlapi ba?** Kung oo. Maylapi.",
+        "**May pag-uulit ba?** Kung oo. Inuulit.",
         "**Wala sa lahat?** Payak."
       ]
     },
@@ -142,10 +142,10 @@
       "kind": "idea",
       "eyebrow": "Ang pasanin",
       "title": "Cedula, polo at tributo",
-      "text": "Tatlong salitang lilitaw sa nobela. Hindi ito mga detalye lamang — ito ang dahilan.",
+      "text": "Tatlong salitang lilitaw sa nobela. Hindi ito mga detalye lamang. Ito ang dahilan.",
       "points": [
-        "**Cedula** — patunay na nagbabayad ka ng buwis.",
-        "**Polo** — sapilitang paggawa para sa gobyerno.",
+        "**Cedula**: patunay na nagbabayad ka ng buwis.",
+        "**Polo**: sapilitang paggawa para sa gobyerno.",
         "**Ginawang labinlimang araw ito noong 1884**, mula sa apatnapu.",
         "**Kailangan mong dalhin ang cedula** kahit saan."
       ]
@@ -198,7 +198,7 @@
       "title": "Labinlimang araw ng sapilitang paggawa",
       "text": "Isipin mo ang bigat ng trabahong iyon, taun-taon, nang walang bayad, bukod pa sa sarili mong hanapbuhay.",
       "points": [
-        "**Pisikal na trabaho** — daan, tulay, gusali.",
+        "**Pisikal na trabaho**: daan, tulay, gusali.",
         "**Walang pahinga at walang pagpipilian.**",
         "**Nakakapagod ang katawan**, at hindi ito nakakabawi.",
         "**Kaya ito laging nasa listahan** ng mga hinihinging reporma."
@@ -354,7 +354,7 @@
         "May dalawang magkaibang ugat ba?",
         "May panlapi ba?",
         "May pag-uulit ba?",
-        "Wala sa lahat — payak"
+        "Wala sa lahat, payak"
       ],
       "explain": "Panlapi bago pag-uulit, kaya ang \"naglalaro\" ay maylapi at hindi inuulit.",
       "objective": "Magamit ang isang tanong upang mauri ang anumang salita",
@@ -432,7 +432,7 @@
     }
   ],
   "teacher": {
-    "summary": "Linggo 3 ng Filipino: ang kayarian ng salita. Sinusundan nito ang Linggo 2 nang sinadya — noong nakaraan ay pagbuo, ngayon ay pag-uuri ng resulta. Ang pinakamahalagang bahagi ay ang sunod-sunod na tanong, dahil ang pinakamadalas na pagkakamali ay ang panghuhula sa halip na pagsuri; at ang pares na inuulit at tambalan ay binigyan ng sariling kard dahil pareho silang may gitling at doon nagkakamali ang halos lahat. IMPORTANTE PARA SA GURO O MAGULANG: walang buod ng Kapitulo 5 at 6 dito dahil hindi pa nakikita ang partikular na edisyon ng Supremo. Ang ikalawang kalahati ay tumpak na paghahandang pangkasaysayan tungkol sa cedula at polo, na siyang dahilan kung bakit sumali ang mga tao sa Katipunan.",
+    "summary": "Linggo 3 ng Filipino: ang kayarian ng salita. Sinusundan nito ang Linggo 2 nang sinadya. Noong nakaraan ay pagbuo, ngayon ay pag-uuri ng resulta. Ang pinakamahalagang bahagi ay ang sunod-sunod na tanong, dahil ang pinakamadalas na pagkakamali ay ang panghuhula sa halip na pagsuri; at ang pares na inuulit at tambalan ay binigyan ng sariling kard dahil pareho silang may gitling at doon nagkakamali ang halos lahat. IMPORTANTE PARA SA GURO O MAGULANG: walang buod ng Kapitulo 5 at 6 dito dahil hindi pa nakikita ang partikular na edisyon ng Supremo. Ang ikalawang kalahati ay tumpak na paghahandang pangkasaysayan tungkol sa cedula at polo, na siyang dahilan kung bakit sumali ang mga tao sa Katipunan.",
     "discussion": [
       "Bigyan siya ng sampung salita at pauriin nang pasalita, gamit ang sunod-sunod na tanong. Ang pagsasalita ang nagpapatibay ng paraan.",
       "Itanong kung bakit magkamukha ang araw-araw at ang bahay-kubo sa papel. Ang gitling ang nagpapalito, at ang sagot ay nasa dalawang bahagi.",

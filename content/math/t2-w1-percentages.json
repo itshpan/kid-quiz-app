@@ -24,7 +24,7 @@
       "kind": "idea",
       "eyebrow": "The word",
       "title": "Per cent means per hundred",
-      "text": "Cent is a hundred — century, centimetre, centavo. Per cent is 'for each hundred'.",
+      "text": "Cent is a hundred. Century, centimetre, centavo. Per cent is 'for each hundred'.",
       "points": [
         "**45%** means 45 out of every 100.",
         "**As a fraction** that is 45/100.",
@@ -49,7 +49,7 @@
     {
       "kind": "figure",
       "figure": "percentLab",
-      "title": "Press a fraction. Watch the other two land",
+      "title": "Fraction, decimal and percent, side by side",
       "text": "One quantity, three names, plus what it is worth out of 60 marks."
     },
     {
@@ -84,8 +84,8 @@
       "title": "Two moves, both reversible",
       "text": "Decimal to percentage, multiply by 100. Percentage to decimal, divide by 100.",
       "points": [
-        "**0.6 becomes 60%** — the point moves two places right.",
-        "**85% becomes 0.85** — two places left.",
+        "**0.6 becomes 60%**: the point moves two places right.",
+        "**85% becomes 0.85**: two places left.",
         "**A fraction?** Divide top by bottom first.",
         "**3/4 is 0.75**, which is 75%."
       ]
@@ -114,7 +114,7 @@
       "text": "Health, shields, download progress, battery. All of them are a part out of a whole, drawn as a bar.",
       "points": [
         "**Half a health bar** is 50%, 0.5, or 1/2.",
-        "**A bar at 0.2 full** is 20% — one fifth.",
+        "**A bar at 0.2 full** is 20%. One fifth.",
         "**Percent damage** scales with the max, which is why it hurts bosses.",
         "**The bar is the fraction**, drawn."
       ]
@@ -126,7 +126,7 @@
       "text": "Turn the percentage into a decimal, then multiply. That is the whole method.",
       "points": [
         "**25% of 80** → 0.25 × 80 = 20.",
-        "**10% is easy** — move the point one place left.",
+        "**10% is easy**: move the point one place left.",
         "**5% is half of 10%.** Build the awkward ones from the easy ones.",
         "**15% = 10% + 5%.** No calculator needed."
       ]
@@ -350,7 +350,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 1 Math, percentages. The lesson is built on one sentence — per cent means per hundred — and everything else is presented as a consequence of it rather than as separate rules to memorise. The lab card is the centre: he presses a fraction and sees the decimal, the percentage and a real mark out of 60 land together, which is the conversion taught as one object rather than three procedures. Mental method is taught as build-from-10%, because that is what actually gets used away from a calculator.",
+    "summary": "Term 2 Week 1 Math, percentages. The lesson is built on one sentence (per cent means per hundred) and everything else is presented as a consequence of it rather than as separate rules to memorise. The lab card is the centre: he presses a fraction and sees the decimal, the percentage and a real mark out of 60 land together, which is the conversion taught as one object rather than three procedures. Mental method is taught as build-from-10%, because that is what actually gets used away from a calculator.",
     "discussion": [
       "Why is 10% the easy one?",
       "How would you get 15% without a calculator?",

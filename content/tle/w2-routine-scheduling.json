@@ -37,7 +37,7 @@
       "kind": "figure",
       "figure": "dayBlocks",
       "eyebrow": "One weekday",
-      "title": "Six blocks, tapped one at a time",
+      "title": "Six blocks, not forty separate jobs",
       "text": "Not forty jobs. Six. Two quiz questions come from this."
     },
     {
@@ -62,8 +62,8 @@
       "title": "Start from what you cannot move",
       "text": "School, meals and sleep are fixed. Building around them is much easier than building from scratch.",
       "points": [
-        "**Fixed** — school, meals, bedtime, training sessions.",
-        "**Flexible** — homework, chores, free time.",
+        "**Fixed**: school, meals, bedtime, training sessions.",
+        "**Flexible**: homework, chores, free time.",
         "**Place the fixed ones first.**",
         "**The gaps are your real day.** There are fewer than you think."
       ]
@@ -398,7 +398,7 @@
     }
   ],
   "teacher": {
-    "summary": "Week 2 TLE covers daily routine and scheduling, matching the Term 1 weekly scope. It argues against the to-do list, which is the format most students are handed and the one that works least well for a learner who struggles to start: a list grows all day and never signals completion, while a block has an end. The dayBlocks figure shows a whole weekday as six blocks rather than as a task list, and the ordering in it is deliberate — training before homework, because hard physical work makes sitting still afterwards easier. The wind-down block gets its own section because it is the one that is always dropped first and the one that pays out the following morning.",
+    "summary": "Week 2 TLE covers daily routine and scheduling, matching the Term 1 weekly scope. It argues against the to-do list, which is the format most students are handed and the one that works least well for a learner who struggles to start: a list grows all day and never signals completion, while a block has an end. The dayBlocks figure shows a whole weekday as six blocks rather than as a task list, and the ordering in it is deliberate. Training before homework, because hard physical work makes sitting still afterwards easier. The wind-down block gets its own section because it is the one that is always dropped first and the one that pays out the following morning.",
     "discussion": [
       "Ask him to name the fixed points in his own day. Everything else is negotiable, and seeing that is the point.",
       "Ask what 'later' actually means. Getting to 'it means no time at all' is the whole second half.",

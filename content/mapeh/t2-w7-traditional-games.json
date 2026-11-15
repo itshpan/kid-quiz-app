@@ -26,16 +26,16 @@
       "title": "Name the component, not the game",
       "text": "A game you can name the purpose of is a game you can use.",
       "points": [
-        "**Agility** — changing direction fast.",
-        "**Power** — force produced quickly.",
-        "**Balance and coordination** — control under movement.",
-        "**Accuracy** — hitting a target under pressure."
+        "**Agility**: changing direction fast.",
+        "**Power**: force produced quickly.",
+        "**Balance and coordination**: control under movement.",
+        "**Accuracy**: hitting a target under pressure."
       ]
     },
     {
       "kind": "figure",
       "figure": "pinoyGames",
-      "title": "Six buttons",
+      "title": "Six games, and what each one trains",
       "text": "Tap each game. The second line is what it actually trains."
     },
     {
@@ -99,11 +99,11 @@
     {
       "kind": "idea",
       "eyebrow": "Why they still work",
-      "title": "Four reasons",
+      "title": "Four reasons these games are real training",
       "text": "This is not nostalgia. There are real reasons these games are good training.",
       "points": [
         "**No equipment.** A slipper, a can, a stick of chalk.",
-        "**Short bursts with rest** — the same shape as interval training.",
+        "**Short bursts with rest**: the same shape as interval training.",
         "**Mixed ages can play together**, which keeps it going.",
         "**They are fun**, which is the only reason anyone repeats anything."
       ]
@@ -130,7 +130,7 @@
           "They were cheap to buy"
         ],
         "answerIndex": 1,
-        "explain": "A slipper, a can, a stick of chalk — and the rules bend to whoever turns up.",
+        "explain": "A slipper, a can, a stick of chalk. And the rules bend to whoever turns up.",
         "seconds": 22
       }
     },
@@ -158,7 +158,7 @@
       "points": [
         "**Win condition, lose condition, turn order.**",
         "**Tumbang preso has a respawn rule.**",
-        "**Patintero has collision detection** — by hand.",
+        "**Patintero has collision detection**: by hand.",
         "**They are games in the strict sense**, not just play."
       ]
     },

@@ -28,8 +28,8 @@
       "points": [
         "**The base** is the number being multiplied.",
         "**The exponent** counts how many copies.",
-        "**2⁵ means 2 × 2 × 2 × 2 × 2** — five twos.",
-        "**It is 32, not 10.** The commonest mistake in the topic."
+        "**2⁵ means 2 × 2 × 2 × 2 × 2**: five twos.",
+        "**It is 32, not 10.** The most common mistake in the topic."
       ]
     },
     {
@@ -51,7 +51,7 @@
     {
       "kind": "figure",
       "figure": "volumeLab",
-      "title": "Press an edge length. Watch the cube",
+      "title": "Doubling an edge, against cubing it",
       "text": "Doubling one edge doubles that edge. Cubing it is what the small 3 does."
     },
     {
@@ -60,8 +60,8 @@
       "title": "Two exponents with their own names",
       "text": "They are named after shapes, and the shapes explain them.",
       "points": [
-        "**5² is 'five squared'** — the area of a 5 × 5 square.",
-        "**5³ is 'five cubed'** — the volume of a 5 × 5 × 5 cube.",
+        "**5² is 'five squared'**: the area of a 5 × 5 square.",
+        "**5³ is 'five cubed'**: the volume of a 5 × 5 × 5 cube.",
         "**That is why** they are called square and cube numbers.",
         "**5² = 25. 5³ = 125.**"
       ]
@@ -86,8 +86,8 @@
       "title": "Why a bigger world costs so much more",
       "text": "A map that is twice as wide in every direction is not twice the work.",
       "points": [
-        "**Twice as wide and twice as deep** is 2² — four times the area.",
-        "**Add height** and it is 2³ — eight times the volume.",
+        "**Twice as wide and twice as deep** is 2². Four times the area.",
+        "**Add height** and it is 2³. Eight times the volume.",
         "**That is why** open-world games take so long to build.",
         "**Doubling a dimension** multiplies the total far faster."
       ]
@@ -98,8 +98,8 @@
       "title": "The exponent counts the zeros",
       "text": "This is where exponents stop being an exercise and start saving time.",
       "points": [
-        "**10³ = 1,000** — three zeros.",
-        "**10⁶ = 1,000,000** — six zeros.",
+        "**10³ = 1,000**: three zeros.",
+        "**10⁶ = 1,000,000**: six zeros.",
         "**A million is 10⁶**, a billion is 10⁹.",
         "**Scientists write 300,000,000 as 3 × 10⁸.**"
       ]
@@ -123,7 +123,7 @@
       "text": "Magnitude 6 to magnitude 7 does not sound like much. It is ten times the shaking.",
       "points": [
         "**Each whole step** multiplies the ground movement by ten.",
-        "**Two steps** is ten squared — a hundred times.",
+        "**Two steps** is ten squared. A hundred times.",
         "**The energy released** grows faster still, about thirty-two times per step.",
         "**The scale is small** because the numbers behind it are enormous."
       ]
@@ -291,7 +291,7 @@
         "It is 3 cm wide"
       ],
       "answerIndex": 1,
-      "explain": "Length × width × height — three dimensions, so the power of 3.",
+      "explain": "Length × width × height. Three dimensions, so the power of 3.",
       "objective": "Exponential form, including calculation using the GEMDAS rules",
       "seconds": 22
     },
@@ -351,7 +351,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 3 Math, the first of three weeks the scope gives to exponential form and GEMDAS. This week is notation only; GEMDAS arrives in Week 4. The whole lesson defends one line — the exponent counts factors, it does not multiply — because 2⁵ = 10 is the error that survives everything else. Squares and cubes are tied to their shapes rather than treated as vocabulary, and the volume lab lets him watch a cube outgrow its own edge. Powers of ten close the week as the point where the notation starts earning its keep.",
+    "summary": "Term 2 Week 3 Math, the first of three weeks the scope gives to exponential form and GEMDAS. This week is notation only; GEMDAS arrives in Week 4. The whole lesson defends one line (the exponent counts factors, it does not multiply) because 2⁵ = 10 is the error that survives everything else. Squares and cubes are tied to their shapes rather than treated as vocabulary, and the volume lab lets him watch a cube outgrow its own edge. Powers of ten close the week as the point where the notation starts earning its keep.",
     "discussion": [
       "Why is 2⁵ not 10?",
       "Why is the power of 3 called cubing?",

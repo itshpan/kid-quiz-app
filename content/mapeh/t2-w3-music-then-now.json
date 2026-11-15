@@ -26,16 +26,16 @@
       "title": "Each step traded something",
       "text": "Nothing was a pure upgrade.",
       "points": [
-        "**Notation** let music travel — and froze it.",
-        "**Recording** kept the performance — and made one take permanent.",
-        "**MP3** made it portable — by throwing audio away.",
-        "**Streaming** gave you everything — and you own none of it."
+        "**Notation** let music travel. And froze it.",
+        "**Recording** kept the performance. And made one take permanent.",
+        "**MP3** made it portable. By throwing audio away.",
+        "**Streaming** gave you everything. And you own none of it."
       ]
     },
     {
       "kind": "figure",
       "figure": "musicTech",
-      "title": "Six buttons",
+      "title": "Six stages from live sound to streaming",
       "text": "Tap each stage. The second line is what actually changed."
     },
     {
@@ -62,7 +62,7 @@
       "points": [
         "**1970s:** the Manila sound, and rock in Filipino.",
         "**1978:** Freddie Aguilar's *Anak* becomes an international hit.",
-        "**1990s:** band culture — the Eraserheads and the alternative wave.",
+        "**1990s:** band culture. The Eraserheads and the alternative wave.",
         "**Now:** streaming and self-release, with no label needed."
       ]
     },
@@ -106,7 +106,7 @@
       "points": [
         "**The groove is a wiggle** cut to match the sound wave.",
         "**A needle rides it** and wiggles the same way.",
-        "**You can see the loud parts** — the groove is wider there.",
+        "**You can see the loud parts**: the groove is wider there.",
         "**Every play wears it down.** Contact has a cost."
       ]
     },
@@ -131,7 +131,7 @@
         "**Short pieces are stored** and assembled live.",
         "**Footsteps change with the surface** under you.",
         "**The music reacts** to what you do.",
-        "**Back to live music**, in a way — nothing is fixed."
+        "**Back to live music**, in a way. Nothing is fixed."
       ]
     },
     {
@@ -168,7 +168,7 @@
         },
         {
           "term": "OPM",
-          "def": "Original Pilipino Music — a label for origin, not a genre."
+          "def": "Original Pilipino Music. A label for origin, not a genre."
         }
       ]
     },
@@ -187,7 +187,7 @@
       "eyebrow": "Lesson done",
       "title": "What to remember",
       "points": [
-        "Live, notation, record, CD, MP3, streaming — each traded something.",
+        "Live, notation, record, CD, MP3, streaming. Each traded something.",
         "The MP3 won on size, not sound quality.",
         "Streaming gives access, not ownership.",
         "OPM says where music came from, not what it sounds like."
@@ -359,7 +359,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 3 MAPEH, Music strand. The week is built on one question — how does a sound get from a player to a listener — so that 'then versus now' stops being nostalgia and becomes a chain of trade-offs. The MP3 is the key example: it won on file size while deliberately discarding audio, which is a useful lesson about why technologies win. The electric-car lens is the week's best hook and is factually anchored: silent motors created a safety problem, and sound became something designers compose rather than a by-product. OPM is presented as a label for origin, since calling it a genre is the usual error.",
+    "summary": "Term 2 Week 3 MAPEH, Music strand. The week is built on one question (how does a sound get from a player to a listener) so that 'then versus now' stops being nostalgia and becomes a chain of trade-offs. The MP3 is the key example: it won on file size while deliberately discarding audio, which is a useful lesson about why technologies win. The electric-car lens is the week's best hook and is factually anchored: silent motors created a safety problem, and sound became something designers compose rather than a by-product. OPM is presented as a label for origin, since calling it a genre is the usual error.",
     "discussion": [
       "Ask what each format gave up.",
       "Ask why the MP3 won.",

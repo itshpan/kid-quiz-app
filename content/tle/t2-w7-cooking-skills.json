@@ -4,7 +4,7 @@
   "courseTitle": "TLE",
   "week": 7,
   "title": "Basic Cooking & Workstation Skills",
-  "subtitle": "Heat moves three ways — and water stops at 100 degrees.",
+  "subtitle": "Heat moves three ways. And water stops at 100 degrees.",
   "estMinutes": 20,
   "objectives": [
     "Name the three ways heat moves",
@@ -26,16 +26,16 @@
       "title": "Conduction, convection, radiation",
       "text": "Three mechanisms, and every method is one of them.",
       "points": [
-        "**Conduction** — touching. Pan to food.",
-        "**Convection** — a moving fluid. Boiling water, oven air.",
-        "**Radiation** — straight from a hot source. A grill above food.",
+        "**Conduction**: touching. Pan to food.",
+        "**Convection**: a moving fluid. Boiling water, oven air.",
+        "**Radiation**: straight from a hot source. A grill above food.",
         "**Most real cooking** uses two at once."
       ]
     },
     {
       "kind": "figure",
       "figure": "miseOrder",
-      "title": "You run the workstation",
+      "title": "The order a workstation has to run in",
       "text": "Pick the first move. Each wrong order shows what it would cost."
     },
     {
@@ -339,7 +339,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 7 TLE. The week is built on physics rather than technique lists: three heat-transfer mechanisms, then the single most useful fact in cooking, which is that water cannot exceed 100°C while browning needs about 140°C. That one fact explains why nothing browns in a pan of water, why frying browns, and why braising starts dry. The oil-fire lens is the most important safety content in the subject and is given with the reason — water flashing to steam and expanding roughly 1,700 times — because a rule with a mechanism survives panic better than a rule without one. The thick-base pan is linked to a heatsink, which is the same job in the same metal.",
+    "summary": "Term 2 Week 7 TLE. The week is built on physics rather than technique lists: three heat-transfer mechanisms, then the single most useful fact in cooking, which is that water cannot exceed 100°C while browning needs about 140°C. That one fact explains why nothing browns in a pan of water, why frying browns, and why braising starts dry. The oil-fire lens is the most important safety content in the subject and is given with the reason (water flashing to steam and expanding roughly 1,700 times) because a rule with a mechanism survives panic better than a rule without one. The thick-base pan is linked to a heatsink, which is the same job in the same metal.",
     "discussion": [
       "Ask which of the three mechanisms each method uses.",
       "Ask why you cannot brown anything in water.",
@@ -352,7 +352,7 @@
     ],
     "misconceptions": [
       "\"Boiling long enough will brown it.\" The ceiling is 100°C.",
-      "\"Water puts out a fire.\" Not an oil fire — it throws it upward.",
+      "\"Water puts out a fire.\" Not an oil fire. It throws it upward.",
       "\"A simmer is a gentle boil.\" A few lazy bubbles, not a rolling surface."
     ]
   }

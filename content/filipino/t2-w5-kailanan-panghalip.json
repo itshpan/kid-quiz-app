@@ -4,7 +4,7 @@
   "courseTitle": "Filipino",
   "week": 5,
   "title": "Kailanan ng Panghalip",
-  "subtitle": "Isahan, dalawahan, maramihan — at ang bitag ng tayo at kami.",
+  "subtitle": "Isahan, dalawahan, maramihan. At ang bitag ng tayo at kami.",
   "estMinutes": 20,
   "objectives": [
     "Matukoy ang isahan, dalawahan at maramihan",
@@ -26,16 +26,16 @@
       "title": "Tatlong kailanan",
       "text": "Hindi tatlong panauhan. Tatlong bilang.",
       "points": [
-        "**Isahan** — isa lamang: ako, ikaw, siya.",
-        "**Dalawahan** — tiyak na dalawa: kata, kanita.",
-        "**Maramihan** — dalawa o higit: kami, tayo, kayo, sila.",
+        "**Isahan**: isa lamang: ako, ikaw, siya.",
+        "**Dalawahan**: tiyak na dalawa: kata, kanita.",
+        "**Maramihan**: dalawa o higit: kami, tayo, kayo, sila.",
         "**Bihira na ang dalawahan sa usapan**, pero nasa pagsusulit."
       ]
     },
     {
       "kind": "figure",
       "figure": "kailananPanghalip",
-      "title": "Anim na pindutan",
+      "title": "Tatlong kailanan, at ang kaibahan ng tayo at kami",
       "text": "Pindutin ang bawat hanay. Ang ikatlo at ikaapat ang pinakamadalas na mali."
     },
     {
@@ -61,8 +61,8 @@
       "text": "Hindi bilang ang pinagkaiba nila. Saklaw.",
       "points": [
         "**Pareho silang maramihan** at unang panauhan.",
-        "**Tayo** — kasama ang kinakausap.",
-        "**Kami** — hindi kasama ang kinakausap.",
+        "**Tayo**: kasama ang kinakausap.",
+        "**Kami**: hindi kasama ang kinakausap.",
         "**Ang tanong:** kausap ba ang kasama mo?"
       ]
     },
@@ -124,7 +124,7 @@
       "text": "Hindi walang anuman ang Pilipinas noong 1521.",
       "points": [
         "**Barangay** ang pamayanan, pinamumunuan ng **datu**.",
-        "**May sariling panitik** — ang baybayin.",
+        "**May sariling panitik**: ang baybayin.",
         "**Nangangalakal sila** sa Tsina, Borneo at Biyetnam.",
         "**Ang Laguna Copperplate**, taong 900, ang pinakamatandang dokumento."
       ]
@@ -145,9 +145,9 @@
       "title": "Tatlong antas, at isang maling akala",
       "text": "Mahalaga ito sa akda, kaya alamin nang tama.",
       "points": [
-        "**Maharlika** — mandirigma at malayang tao, hindi hari.",
-        "**Timawa** — malayang tao, may lupang sinasaka.",
-        "**Alipin** — may utang na paglilingkod sa iba.",
+        "**Maharlika**: mandirigma at malayang tao, hindi hari.",
+        "**Timawa**: malayang tao, may lupang sinasaka.",
+        "**Alipin**: may utang na paglilingkod sa iba.",
         "**Dalawang uri ng alipin:** namamahay at saguiguilid."
       ]
     },
@@ -173,7 +173,7 @@
       "icon": "✍️",
       "eyebrow": "Sa pagkukuwento",
       "title": "Ang bata ang nagkukuwento",
-      "text": "Kapag bata ang tagapagsalita, limitado ang nalalaman — at iyon ang lakas.",
+      "text": "Kapag bata ang tagapagsalita, limitado ang nalalaman. At iyon ang lakas.",
       "points": [
         "**Hindi niya alam** ang mangyayari sa 1521.",
         "**Nakikita natin** ang hindi niya nakikita.",
@@ -266,7 +266,7 @@
     },
     {
       "type": "type",
-      "text": "Punan: \"Tara, ___ na sa gym\" — kasama ang kausap. Isang salita.",
+      "text": "Punan: \"Tara, ___ na sa gym\". Kasama ang kausap. Isang salita.",
       "accept": [
         "tayo"
       ],
@@ -354,7 +354,7 @@
     }
   ],
   "teacher": {
-    "summary": "Linggo 5 ng Filipino: ang kailanan ng panghalip. Isang tanong lamang ang buong gramatika — ilan ang tinutukoy? — kaya ang bulk ng oras ay napupunta sa bitag: pareho palang maramihan ang tayo at kami, at saklaw, hindi bilang, ang naghihiwalay sa kanila. Muli itong itinaas mula sa Linggo 2 dahil hindi ito natututuhan sa isang pagkakataon. IMPORTANTE PARA SA GURO O MAGULANG: walang buod ng Si Diwayen dito dahil hindi pa nakikita ang edisyon. Ang ikalawang bahagi ay totoong kasaysayan ng lipunang bago ang 1521, kasama ang tamang kahulugan ng maharlika, na laging mali sa popular na paggamit.",
+    "summary": "Linggo 5 ng Filipino: ang kailanan ng panghalip. Isang tanong lamang ang buong gramatika. Ilan ang tinutukoy?, kaya ang bulk ng oras ay napupunta sa bitag: pareho palang maramihan ang tayo at kami, at saklaw, hindi bilang, ang naghihiwalay sa kanila. Muli itong itinaas mula sa Linggo 2 dahil hindi ito natututuhan sa isang pagkakataon. IMPORTANTE PARA SA GURO O MAGULANG: walang buod ng Si Diwayen dito dahil hindi pa nakikita ang edisyon. Ang ikalawang bahagi ay totoong kasaysayan ng lipunang bago ang 1521, kasama ang tamang kahulugan ng maharlika, na laging mali sa popular na paggamit.",
     "discussion": [
       "Isang tanong: kasama ba ang kinakausap mo?",
       "Itanong kung bakit pareho silang maramihan.",

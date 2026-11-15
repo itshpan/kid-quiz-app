@@ -23,7 +23,7 @@
     },
     {
       "kind": "idea",
-      "eyebrow": "Weeks 1–2",
+      "eyebrow": "Weeks 1-2",
       "title": "Percentages: per cent means per hundred",
       "text": "Everything in those two weeks came from that one sentence.",
       "points": [
@@ -51,7 +51,7 @@
     },
     {
       "kind": "idea",
-      "eyebrow": "Weeks 3–5",
+      "eyebrow": "Weeks 3-5",
       "title": "Exponents and the order",
       "text": "The exponent counts factors. GEMDAS decides who goes first.",
       "points": [
@@ -104,19 +104,19 @@
     },
     {
       "kind": "idea",
-      "eyebrow": "Weeks 6–8",
+      "eyebrow": "Weeks 6-8",
       "title": "Volume, capacity and conversion",
       "text": "One bridge joins the two unit families, and one jump catches everyone.",
       "points": [
         "**1 mL = 1 cm³.** That is the bridge.",
         "**1 L = 1,000 cm³.**",
-        "**1 m³ = 1,000,000 cm³** — the 100 cubed.",
+        "**1 m³ = 1,000,000 cm³**: the 100 cubed.",
         "**Convert everything to one unit** before calculating."
       ]
     },
     {
       "kind": "idea",
-      "eyebrow": "Weeks 9–10",
+      "eyebrow": "Weeks 9-10",
       "title": "Volume of prisms",
       "text": "Three lengths multiplied, because you count a layer and then the layers.",
       "points": [

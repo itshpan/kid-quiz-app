@@ -4,7 +4,7 @@
   "courseTitle": "Filipino",
   "week": 10,
   "title": "Pang-abay at Uri ng Pang-abay",
-  "subtitle": "Tumuturo sa kilos — at ang pagkakaiba ng na at nang.",
+  "subtitle": "Tumuturo sa kilos. At ang pagkakaiba ng na at nang.",
   "estMinutes": 20,
   "objectives": [
     "Matukoy ang pang-abay at ang sinasagot nito",
@@ -26,8 +26,8 @@
       "title": "Pang-uri o pang-abay?",
       "text": "Hindi ang salita ang susi. Ang tinuturo nito.",
       "points": [
-        "**Pang-uri** — tumuturo sa pangngalan: mabilis **na kotse**.",
-        "**Pang-abay** — tumuturo sa kilos: **tumakbo** nang mabilis.",
+        "**Pang-uri**: tumuturo sa pangngalan: mabilis **na kotse**.",
+        "**Pang-abay**: tumuturo sa kilos: **tumakbo** nang mabilis.",
         "**Iisang salitang \"mabilis\"** sa dalawa.",
         "**Tanong:** ano ang inilalarawan nito?"
       ]
@@ -35,7 +35,7 @@
     {
       "kind": "figure",
       "figure": "uriPangAbay",
-      "title": "Anim na pindutan",
+      "title": "Anim na uri ng pang-abay, at ang tanong ng bawat isa",
       "text": "Pindutin ang bawat uri. Tingnan kung anong tanong ang sinasagot nito."
     },
     {
@@ -60,10 +60,10 @@
       "title": "Ang tanong ang pumipili",
       "text": "Isang tanong sa bawat uri.",
       "points": [
-        "**Pamanahon** — kailan. **Panlunan** — saan.",
-        "**Pamaraan** — paano.",
-        "**Panang-ayon** — oo, talaga. **Pananggi** — hindi, huwag.",
-        "**Pang-agam** — baka, marahil, siguro."
+        "**Pamanahon**: kailan. **Panlunan**. Saan.",
+        "**Pamaraan**: paano.",
+        "**Panang-ayon**: oo, talaga. **Pananggi**. Hindi, huwag.",
+        "**Pang-agam**: baka, marahil, siguro."
       ]
     },
     {
@@ -156,9 +156,9 @@
       "title": "Pang-abay ang bawat babala sa manwal",
       "text": "Puno ng pang-abay ang mga tagubilin sa kaligtasan.",
       "points": [
-        "**\"Huwag hawakan\"** — pananggi.",
-        "**\"Dahan-dahang tanggalin\"** — pamaraan.",
-        "**\"Bago kumabit\"** — pamanahon.",
+        "**\"Huwag hawakan\"**: pananggi.",
+        "**\"Dahan-dahang tanggalin\"**: pamaraan.",
+        "**\"Bago kumabit\"**: pamanahon.",
         "**Walang pang-abay, walang babala.**"
       ]
     },
@@ -357,7 +357,7 @@
     }
   ],
   "teacher": {
-    "summary": "Linggo 10 ng Filipino: ang pang-abay at ang anim na uri nito. Ang pangunahing kaisipan ay hindi ang anim na pangalan kundi ang obserbasyon na iisang salita ang puwedeng pang-uri o pang-abay — ang tinuturo nito ang nagpapasya. Idinagdag ang patakaran ng na at nang dahil ito ang pinakamadalas na pagkakamali sa pagsusulat ng isang mag-aaral sa Grade 6, at nakakabit ito nang direkta sa aralin: na sa harap ng pangngalan, nang sa harap ng kilos. Ang tatlong lente ay lahat tungkol sa tagubilin — bilin ng coach, ulat ng karera, babala sa manwal — dahil doon natural na dumadami ang pang-abay.",
+    "summary": "Linggo 10 ng Filipino: ang pang-abay at ang anim na uri nito. Ang pangunahing kaisipan ay hindi ang anim na pangalan kundi ang obserbasyon na iisang salita ang puwedeng pang-uri o pang-abay. Ang tinuturo nito ang nagpapasya. Idinagdag ang patakaran ng na at nang dahil ito ang pinakamadalas na pagkakamali sa pagsusulat ng isang mag-aaral sa Grade 6, at nakakabit ito nang direkta sa aralin: na sa harap ng pangngalan, nang sa harap ng kilos. Ang tatlong lente ay lahat tungkol sa tagubilin (bilin ng coach, ulat ng karera, babala sa manwal) dahil doon natural na dumadami ang pang-abay.",
     "discussion": [
       "Itanong: ano ang tinuturo ng salitang ito?",
       "Isang tanong sa bawat uri: kailan, saan, paano?",

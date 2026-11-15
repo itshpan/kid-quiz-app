@@ -27,8 +27,8 @@
       "title": "Vertebrate or invertebrate",
       "text": "It is not an even split. One side is vastly bigger than the other, and it is not the side you would guess.",
       "points": [
-        "**Vertebrate** — has a backbone. Five classes.",
-        "**Invertebrate** — no backbone. Many more groups.",
+        "**Vertebrate**: has a backbone. Five classes.",
+        "**Invertebrate**: no backbone. Many more groups.",
         "**About 95% of animal species** are invertebrates.",
         "**Week 1 called it the vertebral column.** Same bone."
       ]
@@ -149,8 +149,8 @@
       "title": "Arthropods outnumber everything else",
       "text": "Insects, spiders, crabs, centipedes. More than three-quarters of all known animal species sit in this one group.",
       "points": [
-        "**Jointed legs** — that is what the name means.",
-        "**Exoskeleton** — the skeleton is on the outside.",
+        "**Jointed legs**: that is what the name means.",
+        "**Exoskeleton**: the skeleton is on the outside.",
         "**They have to moult** to grow, which is the cost.",
         "**Small size** is a large part of why there are so many."
       ]
@@ -163,8 +163,8 @@
       "title": "Cars are built both ways too",
       "text": "This is not a loose comparison. It is the same engineering choice, made for the same reasons.",
       "points": [
-        "**Body-on-frame** — an inner chassis carries the load. Endoskeleton.",
-        "**Monocoque** — the outer shell carries it. Exoskeleton.",
+        "**Body-on-frame**: an inner chassis carries the load. Endoskeleton.",
+        "**Monocoque**: the outer shell carries it. Exoskeleton.",
         "**The shell is lighter and stiffer** at small sizes.",
         "**It is harder to make big.** Same as an insect."
       ]
@@ -334,7 +334,7 @@
         "Molluscs"
       ],
       "answerIndex": 3,
-      "explain": "Molluscs. Soft body, very often with a shell — though the octopus has given its shell up.",
+      "explain": "Molluscs. Soft body, very often with a shell. Though the octopus has given its shell up.",
       "objective": "Name six invertebrate groups and give an example of each",
       "seconds": 15
     },
@@ -348,7 +348,7 @@
         "Molluscs"
       ],
       "answerIndex": 2,
-      "explain": "Echinoderms — spiny skin, built around a circle, and every one of them lives in the sea.",
+      "explain": "Echinoderms. Spiny skin, built around a circle, and every one of them lives in the sea.",
       "objective": "Name six invertebrate groups and give an example of each",
       "seconds": 15
     },
@@ -415,7 +415,7 @@
     }
   ],
   "teacher": {
-    "summary": "Week 6 Science covers vertebrates and invertebrates, matching the Term 1 weekly scope. It is a classification topic, so it is taught as a set of decisions rather than a set of lists: one question for the top-level split, one identifying feature per class, and one group that accounts for most of the answer. The two figures carry the two lists so the cards can spend their space on the reasoning. The car card is not an analogy for its own sake — body-on-frame against monocoque is the same engineering trade-off as endoskeleton against exoskeleton, including the reason both shells struggle at large sizes.",
+    "summary": "Week 6 Science covers vertebrates and invertebrates, matching the Term 1 weekly scope. It is a classification topic, so it is taught as a set of decisions rather than a set of lists: one question for the top-level split, one identifying feature per class, and one group that accounts for most of the answer. The two figures carry the two lists so the cards can spend their space on the reasoning. The car card is not an analogy for its own sake. Body-on-frame against monocoque is the same engineering trade-off as endoskeleton against exoskeleton, including the reason both shells struggle at large sizes.",
     "discussion": [
       "Ask him to name an animal and work out its class out loud. Doing five in a row fixes the features better than reading them.",
       "Ask why a snake can eat once a month and he cannot. Holding your own temperature is expensive, and that is the answer.",

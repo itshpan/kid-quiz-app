@@ -113,7 +113,7 @@
         "**They pack it with standard blocks** and count the volume.",
         "**480 litres** is a typical family car.",
         "**Shape still decides** whether your actual suitcase goes in.",
-        "**Volume is necessary, not sufficient.**"
+        "**Enough volume is necessary, but not enough on its own.**"
       ]
     },
     {
@@ -122,7 +122,7 @@
       "title": "Enough room is not the same as it goes in",
       "text": "A 1 m pole has almost no volume and still will not fit in a shoebox.",
       "points": [
-        "**Check the volume first** — if it fails, stop.",
+        "**Check the volume first**: if it fails, stop.",
         "**Then check each dimension** against the opening.",
         "**Long thin things** fail on length, not volume.",
         "**Two tests, in that order.**"
@@ -330,7 +330,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 10 Math, the last teaching week, taking the prism formula into use. Two ideas carry it: the cm³-to-litre bridge, which connects this fortnight to the conversion weeks, and composite shapes, which are taught as splitting rather than as a new formula. The fit card is the one worth keeping — enough volume is necessary and not sufficient, and the pole-in-a-shoebox case makes that obvious in a sentence. The fan packaging card closes the subject on something he has in the house.",
+    "summary": "Term 2 Week 10 Math, the last teaching week, taking the prism formula into use. Two ideas carry it: the cm³-to-litre bridge, which connects this fortnight to the conversion weeks, and composite shapes, which are taught as splitting rather than as a new formula. The fit card is the one worth keeping. Enough volume is necessary and not sufficient, and the pole-in-a-shoebox case makes that obvious in a sentence. The fan packaging card closes the subject on something he has in the house.",
     "discussion": [
       "How do you get from cm³ to litres?",
       "Why can something fit on volume and still not go in?",

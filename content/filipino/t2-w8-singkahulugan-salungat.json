@@ -4,7 +4,7 @@
   "courseTitle": "Filipino",
   "week": 8,
   "title": "Pang-uring Magkasingkahulugan at Magkasalungat",
-  "subtitle": "Kapareho o kabaligtaran — at kung kailan hindi puwedeng magpalit.",
+  "subtitle": "Kapareho o kabaligtaran. At kung kailan hindi puwedeng magpalit.",
   "estMinutes": 20,
   "objectives": [
     "Matukoy ang magkasingkahulugan",
@@ -26,16 +26,16 @@
       "title": "Magkasingkahulugan",
       "text": "Magkaiba ang salita, magkapareho ang dala.",
       "points": [
-        "**mabilis — matulin**",
-        "**matalino — marunong**",
-        "**malungkot — nalulumbay**",
-        "**maganda — marikit**"
+        "**mabilis. Matulin**",
+        "**matalino. Marunong**",
+        "**malungkot. Nalulumbay**",
+        "**maganda. Marikit**"
       ]
     },
     {
       "kind": "figure",
       "figure": "kasingSalungat",
-      "title": "Anim na pindutan",
+      "title": "Anim na pares: tatlong kasingkahulugan, tatlong kasalungat",
       "text": "Pindutin ang bawat pares. Tingnan kung kapareho o kabaligtaran."
     },
     {
@@ -60,10 +60,10 @@
       "title": "Magkasalungat",
       "text": "Magkabaligtaran ang dalang kahulugan.",
       "points": [
-        "**mabilis — mabagal**",
-        "**magaan — mabigat**",
-        "**maluwag — masikip**",
-        "**matapang — duwag**"
+        "**mabilis. Mabagal**",
+        "**magaan. Mabigat**",
+        "**maluwag. Masikip**",
+        "**matapang. Duwag**"
       ]
     },
     {
@@ -102,7 +102,7 @@
       "title": "Hindi laging palitan ang kasingkahulugan",
       "text": "Dito nagkakamali ang mga nagsusulat, hindi sa listahan.",
       "points": [
-        "**\"Marikit\" at \"maganda\"** — hindi pareho ang bigat.",
+        "**\"Marikit\" at \"maganda\"**: hindi pareho ang bigat.",
         "**Pormal ang marikit.** Pang-araw-araw ang maganda.",
         "**\"Nalulumbay\" ay mas malalim** kaysa \"malungkot\".",
         "**Tanong bago palitan:** kasya ba ito sa pangungusap na ito?"

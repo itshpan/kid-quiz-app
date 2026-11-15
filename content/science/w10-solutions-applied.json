@@ -28,8 +28,8 @@
       "title": "Which method depends on what you want to keep",
       "text": "Two methods use exactly the same boiling step. What separates them is which part you collect at the end.",
       "points": [
-        "**Evaporation** — boil the solvent off. You keep the solid.",
-        "**Distillation** — boil, then catch and cool the vapour.",
+        "**Evaporation**: boil the solvent off. You keep the solid.",
+        "**Distillation**: boil, then catch and cool the vapour.",
         "**Distillation keeps the liquid.**",
         "**Same first step. Opposite thing kept.**"
       ]
@@ -145,10 +145,10 @@
       "title": "Four steps from river to tap",
       "text": "Water treatment uses the separation methods from this topic, in order, at enormous scale.",
       "points": [
-        "**Screening** — big objects removed. Sieving.",
-        "**Sedimentation** — solids settle out. Decantation.",
-        "**Filtration** — sand and gravel beds catch the rest.",
-        "**Disinfection** — chlorine kills what is left."
+        "**Screening**: big objects removed. Sieving.",
+        "**Sedimentation**: solids settle out. Decantation.",
+        "**Filtration**: sand and gravel beds catch the rest.",
+        "**Disinfection**: chlorine kills what is left."
       ]
     },
     {
@@ -450,11 +450,11 @@
     }
   ],
   "teacher": {
-    "summary": "Week 10 Science applies the mixtures work from Weeks 8 and 9 and reviews the whole topic before the exam. It opens on the fact that catches most students out — filtering a solution achieves nothing, because the solute went through with the solvent — and uses that to introduce the two methods that do work. Evaporation and distillation are taught as one process with two different things kept, which is the honest description and easier to remember than two separate procedures. The four-question review card at the end is the transferable part: those four questions answer any mixtures question the exam can pose. The space station and the oil refinery are the same method at two very different scales, and both are real.",
+    "summary": "Week 10 Science applies the mixtures work from Weeks 8 and 9 and reviews the whole topic before the exam. It opens on the fact that catches most students out (filtering a solution achieves nothing, because the solute went through with the solvent) and uses that to introduce the two methods that do work. Evaporation and distillation are taught as one process with two different things kept, which is the honest description and easier to remember than two separate procedures. The four-question review card at the end is the transferable part: those four questions answer any mixtures question the exam can pose. The space station and the oil refinery are the same method at two very different scales, and both are real.",
     "discussion": [
       "Ask him what he would do to get drinking water from seawater on a desert island. Distillation is reachable from first principles.",
       "Run a paper chromatography test with a felt-tip pen and a strip of kitchen roll. Black pens are the most surprising.",
-      "Ask why the concentration calculation divides by the whole solution rather than the solvent. It is the commonest arithmetic slip in the topic.",
+      "Ask why the concentration calculation divides by the whole solution rather than the solvent. It is the most common arithmetic slip in the topic.",
       "Ask him to run the four review questions on three things in the kitchen. That is the exam technique in five minutes."
     ],
     "extension": "Have him leave a shallow dish of salt water on a windowsill for a few days and collect the crystals. It is evaporation on a real timescale, and the crystals are the proof that nothing had disappeared.",

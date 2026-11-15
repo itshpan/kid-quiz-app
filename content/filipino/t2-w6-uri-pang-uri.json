@@ -4,7 +4,7 @@
   "courseTitle": "Filipino",
   "week": 6,
   "title": "Uri ng Pang-uri",
-  "subtitle": "Panlarawan o pamilang — at ang apat na kayarian.",
+  "subtitle": "Panlarawan o pamilang. At ang apat na kayarian.",
   "estMinutes": 20,
   "objectives": [
     "Maiba ang pang-uring panlarawan sa pamilang",
@@ -35,7 +35,7 @@
     {
       "kind": "figure",
       "figure": "uriPangUri",
-      "title": "Anim na pindutan",
+      "title": "Panlarawan, at ang apat na uri ng pamilang",
       "text": "Pindutin ang bawat halimbawa. Lalabas ang uri at ang pangungusap."
     },
     {
@@ -60,10 +60,10 @@
       "title": "Pamilang: apat na sangay",
       "text": "Lahat sila may kinalaman sa bilang, pero iba-iba ang trabaho.",
       "points": [
-        "**Patakaran** — simpleng bilang: isa, dalawa, pito.",
-        "**Panunuran** — pagkakasunod: una, ikalawa, ikatlo.",
-        "**Pamahagi** — bahagi: kalahati, sangkatlo.",
-        "**Palansak** — ilan-ilan: dalawahan, tatluhan."
+        "**Patakaran**: simpleng bilang: isa, dalawa, pito.",
+        "**Panunuran**: pagkakasunod: una, ikalawa, ikatlo.",
+        "**Pamahagi**: bahagi: kalahati, sangkatlo.",
+        "**Palansak**: ilan-ilan: dalawahan, tatluhan."
       ]
     },
     {
@@ -100,12 +100,12 @@
       "kind": "idea",
       "eyebrow": "Ikatlong kaisipan",
       "title": "Apat na kayarian ng panlarawan",
-      "text": "Hindi uri ito. Kayarian — kung paano binuo ang salita.",
+      "text": "Hindi uri ito. Kayarian. Kung paano binuo ang salita.",
       "points": [
         "**Payak:** bilog, tamad. Isang salita, walang dagdag.",
         "**Maylapi:** mabilis, makinis, palabiro.",
         "**Inuulit:** puting-puti, bagong-bago.",
-        "**Tambalan:** balat-sibuyas — dalawang salita, isang kahulugan."
+        "**Tambalan:** balat-sibuyas. Dalawang salita, isang kahulugan."
       ]
     },
     {
@@ -357,7 +357,7 @@
     }
   ],
   "teacher": {
-    "summary": "Linggo 6 ng Filipino: ang uri ng pang-uri. Pinapasok ito sa isang tanong — may bilang ba? — dahil ang pagkakamali sa pagsusulit ay hindi kawalan ng alam kundi kawalan ng sistema. Hiwalay na itinuro ang apat na sangay ng pamilang, at pagkatapos ay ipinaliwanag na ang kayarian ay ibang tanong, hindi ibang listahan: madalas itong pinagsasama. Ang huling tanong sa pagsusulit ay sumusubok kung kaya niyang makakita ng dalawang pang-uri sa isang pangungusap, na siyang tunay na kasanayan.",
+    "summary": "Linggo 6 ng Filipino: ang uri ng pang-uri. Pinapasok ito sa isang tanong. May bilang ba?, dahil ang pagkakamali sa pagsusulit ay hindi kawalan ng alam kundi kawalan ng sistema. Hiwalay na itinuro ang apat na sangay ng pamilang, at pagkatapos ay ipinaliwanag na ang kayarian ay ibang tanong, hindi ibang listahan: madalas itong pinagsasama. Ang huling tanong sa pagsusulit ay sumusubok kung kaya niyang makakita ng dalawang pang-uri sa isang pangungusap, na siyang tunay na kasanayan.",
     "discussion": [
       "Isang tanong sa bawat pang-uri: may bilang ba?",
       "Itanong kung bakit dalawang tanong ang uri at kayarian.",

@@ -40,10 +40,10 @@
       "title": "Four ways to do it without a partner",
       "text": "These are the four the exam asks for, and each one is a different physical process.",
       "points": [
-        "**Binary fission** — split in two. Amoeba, bacteria.",
-        "**Budding** — a bump grows and breaks off. Hydra, yeast.",
-        "**Fragmentation** — a broken piece regrows whole. Starfish.",
-        "**Parthenogenesis** — an egg develops with no fertilisation."
+        "**Binary fission**: split in two. Amoeba, bacteria.",
+        "**Budding**: a bump grows and breaks off. Hydra, yeast.",
+        "**Fragmentation**: a broken piece regrows whole. Starfish.",
+        "**Parthenogenesis**: an egg develops with no fertilisation."
       ]
     },
     {
@@ -68,10 +68,10 @@
       "title": "Vegetative propagation",
       "text": "A whole new plant grows from a root, a stem or a leaf. No seed, no flower, no pollen.",
       "points": [
-        "**Runners** — strawberry plants send them sideways.",
-        "**Tubers** — a potato's eyes are new plants.",
-        "**Bulbs** — onions and garlic.",
-        "**Cuttings and grafting** — the gardener's version."
+        "**Runners**: strawberry plants send them sideways.",
+        "**Tubers**: a potato's eyes are new plants.",
+        "**Bulbs**: onions and garlic.",
+        "**Cuttings and grafting**: the gardener's version."
       ]
     },
     {
@@ -82,8 +82,8 @@
       "title": "Copy-paste against a random seed",
       "text": "Asexual reproduction is duplicating a build. Sexual reproduction is generating a new world from a seed you did not choose.",
       "points": [
-        "**Copy** — identical, fast, predictable.",
-        "**Seed** — different every time, and sometimes better.",
+        "**Copy**: identical, fast, predictable.",
+        "**Seed**: different every time, and sometimes better.",
         "**One is safe until conditions change.**",
         "**The other is slower and adapts.**"
       ]
@@ -100,7 +100,7 @@
           "Pollination"
         ],
         "answerIndex": 2,
-        "explain": "Vegetative propagation — a new plant from a stem, root or leaf, with no seed involved.",
+        "explain": "Vegetative propagation. A new plant from a stem, root or leaf, with no seed involved.",
         "seconds": 15
       }
     },
@@ -159,8 +159,8 @@
       "title": "Pollination is not fertilisation",
       "text": "These are two separate events and the exam checks whether you know that. One is a journey. The other is a joining.",
       "points": [
-        "**Pollination** — pollen lands on a stigma.",
-        "**Fertilisation** — the pollen nucleus joins the ovule.",
+        "**Pollination**: pollen lands on a stigma.",
+        "**Fertilisation**: the pollen nucleus joins the ovule.",
         "**A pollen tube grows down the style** in between.",
         "**Ovules become seeds. The ovary becomes fruit.**"
       ]
@@ -171,9 +171,9 @@
       "title": "Three words for how the young arrive",
       "text": "All three are sexual reproduction. The difference is only where the embryo develops.",
       "points": [
-        "**Oviparous** — lays eggs. Birds, most fish, reptiles.",
-        "**Viviparous** — live young. Most mammals.",
-        "**Ovoviviparous** — eggs hatch inside the mother.",
+        "**Oviparous**: lays eggs. Birds, most fish, reptiles.",
+        "**Viviparous**: live young. Most mammals.",
+        "**Ovoviviparous**: eggs hatch inside the mother.",
         "***Ovi* means egg. *Vivi* means alive.**"
       ]
     },
@@ -318,7 +318,7 @@
         "Budding"
       ],
       "answerIndex": 1,
-      "explain": "Binary fission — one cell divides into two identical cells.",
+      "explain": "Binary fission. One cell divides into two identical cells.",
       "objective": "Name four modes of asexual reproduction in animals and plants",
       "seconds": 15
     },
@@ -429,7 +429,7 @@
         "In the soil"
       ],
       "answerIndex": 1,
-      "explain": "Inside the mother, so live young emerge — but they developed inside eggs, not a placenta.",
+      "explain": "Inside the mother, so live young emerge. But they developed inside eggs, not a placenta.",
       "objective": "Distinguish oviparous, viviparous and ovoviviparous animals",
       "seconds": 20
     },
@@ -457,7 +457,7 @@
     }
   ],
   "teacher": {
-    "summary": "Week 7 Science covers reproduction, matching the Term 1 weekly scope. The lesson is organised as a trade-off rather than as two lists: asexual reproduction is fast, cheap and needs no partner, and its single weakness — no variation — is what makes sexual reproduction worth its cost. The car card makes that concrete with a recall, which is the same failure mode as a disease sweeping a clone population. The flowerParts figure carries the plant half, because every exam question on it needs the diagram and no photograph shows the inside. Pollination and fertilisation are separated deliberately and tested twice, since treating them as one word is the most common error in the topic.",
+    "summary": "Week 7 Science covers reproduction, matching the Term 1 weekly scope. The lesson is organised as a trade-off rather than as two lists: asexual reproduction is fast, cheap and needs no partner, and its single weakness (no variation) is what makes sexual reproduction worth its cost. The car card makes that concrete with a recall, which is the same failure mode as a disease sweeping a clone population. The flowerParts figure carries the plant half, because every exam question on it needs the diagram and no photograph shows the inside. Pollination and fertilisation are separated deliberately and tested twice, since treating them as one word is the most common error in the topic.",
     "discussion": [
       "Ask why a species would bother with sexual reproduction when asexual is faster and needs no partner. Variation is the answer, and it is worth reaching rather than being told.",
       "Ask him to point at a potato's eyes and say what they are. Vegetative propagation stops being abstract immediately.",

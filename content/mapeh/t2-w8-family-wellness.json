@@ -4,7 +4,7 @@
   "courseTitle": "MAPEH",
   "week": 8,
   "title": "Family Wellness & Nutrition",
-  "subtitle": "A plate, not a list — and who actually decides what you eat.",
+  "subtitle": "A plate, not a list. And who actually decides what you eat.",
   "estMinutes": 20,
   "objectives": [
     "Name the Go, Grow and Glow groups",
@@ -18,7 +18,7 @@
       "icon": "🍽️",
       "eyebrow": "Part 8 · Health",
       "title": "A plate, not a list",
-      "text": "A list of food groups tells you what exists. A plate tells you how much — and how much is the part that actually decides anything."
+      "text": "A list of food groups tells you what exists. A plate tells you how much. And how much is the part that actually decides anything."
     },
     {
       "kind": "idea",
@@ -26,16 +26,16 @@
       "title": "Three jobs on one plate",
       "text": "Each group does something the others cannot.",
       "points": [
-        "**Go** — energy. Rice, bread, root crops.",
-        "**Grow** — building material. Fish, meat, egg, beans, milk.",
-        "**Glow** — vitamins and minerals. Vegetables and fruit.",
+        "**Go**: energy. Rice, bread, root crops.",
+        "**Grow**: building material. Fish, meat, egg, beans, milk.",
+        "**Glow**: vitamins and minerals. Vegetables and fruit.",
         "**Water** sits beside the plate, not on it."
       ]
     },
     {
       "kind": "figure",
       "figure": "pinggangPinoy",
-      "title": "Tap a part of the plate",
+      "title": "The plate, split into Go, Grow, Glow and water",
       "text": "Pinggang Pinoy is a proportion. Tap each part and read the share."
     },
     {
@@ -50,7 +50,7 @@
           "Grow"
         ],
         "answerIndex": 1,
-        "explain": "Vegetables and fruit — about half the plate.",
+        "explain": "Vegetables and fruit. About half the plate.",
         "seconds": 22
       }
     },
@@ -138,7 +138,7 @@
       "points": [
         "**Go is the fuel.** No fuel, no laps.",
         "**Grow is the spare parts.** That is how worn components get replaced.",
-        "**Glow is the oil and coolant** — nothing moves without it.",
+        "**Glow is the oil and coolant**: nothing moves without it.",
         "**Water is water.** An overheating engine and an overheating runner need the same thing."
       ]
     },
@@ -343,7 +343,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 8 MAPEH, Health strand. Pinggang Pinoy is taught as a proportion rather than a list of groups, because proportion is the part that changes behaviour and a tappable plate shows it directly. The week deliberately defends Go, since 'carbohydrates are bad' is the belief a boy who trains is most likely to pick up and the one that will cost him sessions. Family wellness is framed as a household system — what is in the kitchen decides most meals — rather than as willpower. The boxing lens handles weight-cutting honestly: it is real, it is mostly water, and performance drops with it.",
+    "summary": "Term 2 Week 8 MAPEH, Health strand. Pinggang Pinoy is taught as a proportion rather than a list of groups, because proportion is the part that changes behaviour and a tappable plate shows it directly. The week deliberately defends Go, since 'carbohydrates are bad' is the belief a boy who trains is most likely to pick up and the one that will cost him sessions. Family wellness is framed as a household system (what is in the kitchen decides most meals) rather than as willpower. The boxing lens handles weight-cutting honestly: it is real, it is mostly water, and performance drops with it.",
     "discussion": [
       "Ask him to lay out one meal in the right proportions.",
       "Ask when the body rebuilds.",

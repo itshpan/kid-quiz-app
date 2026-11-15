@@ -24,18 +24,18 @@
       "kind": "idea",
       "eyebrow": "The main idea",
       "title": "Four beats in any visual story",
-      "text": "Comic, storyboard, film or game cutscene — the same four.",
+      "text": "Comic, storyboard, film or game cutscene. The same four.",
       "points": [
-        "**Setup** — who, where, and what is at stake.",
-        "**Build** — it gets harder.",
-        "**Turning point** — it could go either way.",
-        "**Outcome** — what it cost."
+        "**Setup**: who, where, and what is at stake.",
+        "**Build**: it gets harder.",
+        "**Turning point**: it could go either way.",
+        "**Outcome**: what it cost."
       ]
     },
     {
       "kind": "figure",
       "figure": "storyPanels",
-      "title": "You put them in order",
+      "title": "Four panels, and what each order would mean",
       "text": "Four panels, one story. Pick panel 1 and see what each order would mean."
     },
     {
@@ -60,10 +60,10 @@
       "title": "What the parts are called",
       "text": "The vocabulary is small and the test uses it.",
       "points": [
-        "**Panel** — one framed moment.",
-        "**Gutter** — the gap between panels.",
-        "**Speech balloon** — what is said. **Caption** — what is narrated.",
-        "**Splash** — a single panel filling the page."
+        "**Panel**: one framed moment.",
+        "**Gutter**: the gap between panels.",
+        "**Speech balloon**: what is said. **Caption**. What is narrated.",
+        "**Splash**: a single panel filling the page."
       ]
     },
     {
@@ -102,9 +102,9 @@
       "title": "Three names worth knowing",
       "text": "Komiks were the most-read medium in the country for decades.",
       "points": [
-        "**Tony Velasquez** — *Kenkoy*, 1929. The start of it.",
-        "**Mars Ravelo** — created *Darna* and *Captain Barbell*.",
-        "**Francisco V. Coching** — called the dean of Filipino illustrators.",
+        "**Tony Velasquez**: *Kenkoy*, 1929. The start of it.",
+        "**Mars Ravelo**: created *Darna* and *Captain Barbell*.",
+        "**Francisco V. Coching**: called the dean of Filipino illustrators.",
         "**Weekly magazines** carried them to millions."
       ]
     },
@@ -153,7 +153,7 @@
       "points": [
         "Setup, build, turning point, outcome.",
         "Panel, gutter, balloon, caption, splash.",
-        "The reader fills the gutter — the best moment is often not drawn.",
+        "The reader fills the gutter. The best moment is often not drawn.",
         "Velasquez, Ravelo, Coching: the names Philippine komiks is built on."
       ]
     }
@@ -323,7 +323,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 6 MAPEH, Arts strand. The interactive is the lesson here: he sequences four panels himself and each wrong order is answered with what that order would mean rather than with a cross, which is both the house rule on wrong answers and the truth about storytelling. The vocabulary card is short because the test uses only five words. The gutter card carries the real idea of the form — the reader supplies the punch — and it transfers straight to storyboarding, which is why the gaming lens follows it. Philippine komiks gets three names, which is what a Grade 6 paper asks for.",
+    "summary": "Term 2 Week 6 MAPEH, Arts strand. The interactive is the lesson here: he sequences four panels himself and each wrong order is answered with what that order would mean rather than with a cross, which is both the house rule on wrong answers and the truth about storytelling. The vocabulary card is short because the test uses only five words. The gutter card carries the real idea of the form (the reader supplies the punch) and it transfers straight to storyboarding, which is why the gaming lens follows it. Philippine komiks gets three names, which is what a Grade 6 paper asks for.",
     "discussion": [
       "Ask which four beats a film he likes has.",
       "Ask what happens in the gutter.",

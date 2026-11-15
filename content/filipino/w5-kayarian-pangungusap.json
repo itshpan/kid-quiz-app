@@ -27,10 +27,10 @@
       "title": "Dalawang uri ng sugnay",
       "text": "Ang sugnay ay pangkat ng salitang may simuno at panaguri. May dalawang uri, at ang pagkakaiba ay simple.",
       "points": [
-        "**Punong sugnay** — kayang tumayong mag-isa.",
-        "**Palipong sugnay** — hindi kayang tumayong mag-isa.",
-        "**\"Nanalo siya\"** — punong sugnay.",
-        "**\"dahil nagsanay siya\"** — palipong sugnay."
+        "**Punong sugnay**: kayang tumayong mag-isa.",
+        "**Palipong sugnay**: hindi kayang tumayong mag-isa.",
+        "**\"Nanalo siya\"**: punong sugnay.",
+        "**\"dahil nagsanay siya\"**: palipong sugnay."
       ]
     },
     {
@@ -55,10 +55,10 @@
       "title": "Apat na kayarian ng pangungusap",
       "text": "Nakabatay ang lahat sa bilang at uri ng sugnay. Bilangin mo lamang.",
       "points": [
-        "**Payak** — isang punong sugnay.",
-        "**Tambalan** — dalawang punong sugnay.",
-        "**Hugnayan** — punong sugnay at palipong sugnay.",
-        "**Langkapan** — pinagsamang tambalan at hugnayan."
+        "**Payak**: isang punong sugnay.",
+        "**Tambalan**: dalawang punong sugnay.",
+        "**Hugnayan**: punong sugnay at palipong sugnay.",
+        "**Langkapan**: pinagsamang tambalan at hugnayan."
       ]
     },
     {
@@ -104,8 +104,8 @@
       "title": "Parang redstone ang pangatnig",
       "text": "Ang \"at\" ay nag-uugnay ng dalawang bagay na parehong gumagana. Ang \"dahil\" ay nagsasabing may nakadepende.",
       "points": [
-        "**at** — dalawang bagay, magkapantay.",
-        "**dahil** — isa ang nakabatay sa isa.",
+        "**at**: dalawang bagay, magkapantay.",
+        "**dahil**: isa ang nakabatay sa isa.",
         "**Ibang koneksiyon, ibang kayarian.**",
         "**Ang pang-ugnay ang wire.**"
       ]
@@ -433,7 +433,7 @@
     }
   ],
   "teacher": {
-    "summary": "Linggo 5 ng Filipino: ang kayarian ng pangungusap. Nagsisimula ito sa sugnay dahil hindi mauuri ang pangungusap kung hindi kilala ang punong sugnay at ang palipong sugnay; ang lahat ng natitira ay pagbibilang. Ang pinakakapaki-pakinabang na bahagi ay ang listahan ng pang-ugnay, dahil ang salitang nag-uugnay ang halos laging nagsasabi ng sagot bago pa magbilang. IMPORTANTE PARA SA GURO O MAGULANG: walang buod ng Kapitulo 8 dito dahil hindi pa nakikita ang partikular na edisyon ng Supremo. Ang ikalawang kalahati ay tumpak na kasaysayan tungkol sa Tejeros at sa naging wakas ni Bonifacio, at hindi ito pinagaan — pinatay siya ng sarili niyang panig, at iyon ang totoo.",
+    "summary": "Linggo 5 ng Filipino: ang kayarian ng pangungusap. Nagsisimula ito sa sugnay dahil hindi mauuri ang pangungusap kung hindi kilala ang punong sugnay at ang palipong sugnay; ang lahat ng natitira ay pagbibilang. Ang pinakakapaki-pakinabang na bahagi ay ang listahan ng pang-ugnay, dahil ang salitang nag-uugnay ang halos laging nagsasabi ng sagot bago pa magbilang. IMPORTANTE PARA SA GURO O MAGULANG: walang buod ng Kapitulo 8 dito dahil hindi pa nakikita ang partikular na edisyon ng Supremo. Ang ikalawang kalahati ay tumpak na kasaysayan tungkol sa Tejeros at sa naging wakas ni Bonifacio, at hindi ito pinagaan. Pinatay siya ng sarili niyang panig, at iyon ang totoo.",
     "discussion": [
       "Pabilangin siya ng sugnay bago siya sumagot. Ang pagmamadali ang dahilan ng halos lahat ng mali dito.",
       "Itanong kung ano ang pagkakaiba ng \"at\" sa \"dahil\". Magkapantay laban sa nakabatay, at iyon ang buong aralin.",

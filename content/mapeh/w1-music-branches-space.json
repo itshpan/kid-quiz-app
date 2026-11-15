@@ -28,10 +28,10 @@
       "title": "Five ways to work in music",
       "text": "Each of these is a real job, and each one asks a different question about the same sound.",
       "points": [
-        "**Composition** — writing new music.",
-        "**Performance** — playing or singing it.",
-        "**Music theory** — how it is built and why it works.",
-        "**Music history and musicology** — where it came from."
+        "**Composition**: writing new music.",
+        "**Performance**: playing or singing it.",
+        "**Music theory**: how it is built and why it works.",
+        "**Music history and musicology**: where it came from."
       ]
     },
     {
@@ -40,8 +40,8 @@
       "title": "Vocal and instrumental",
       "text": "The first division anyone makes. Either the sound comes from a body, or it comes from an object.",
       "points": [
-        "**Vocal** — solo, duet or choir. *A cappella* means no instruments.",
-        "**Instrumental** — strings, woodwind, brass, percussion, keyboard.",
+        "**Vocal**: solo, duet or choir. *A cappella* means no instruments.",
+        "**Instrumental**: strings, woodwind, brass, percussion, keyboard.",
         "**Most songs are both**, which is the point of the split.",
         "**Your voice is the only instrument** you were issued with."
       ]
@@ -68,10 +68,10 @@
       "title": "The elements of music",
       "text": "These are the words that let you say what a piece is doing, instead of saying you liked it.",
       "points": [
-        "**Rhythm** — the pattern in time. **Tempo** — how fast.",
-        "**Melody** — the tune. **Harmony** — notes stacked under it.",
-        "**Dynamics** — loud and soft. **Timbre** — the colour of the sound.",
-        "**Form** — the shape of the whole piece."
+        "**Rhythm**: the pattern in time. **Tempo**. How fast.",
+        "**Melody**: the tune. **Harmony**. Notes stacked under it.",
+        "**Dynamics**: loud and soft. **Timbre**. The colour of the sound.",
+        "**Form**: the shape of the whole piece."
       ]
     },
     {
@@ -145,7 +145,7 @@
     {
       "kind": "break",
       "title": "Good spot to pause",
-      "text": "Music done. Part 2 is PE — the space your body owns and the space you share. Your place is saved."
+      "text": "Music done. Part 2 is PE. The space your body owns and the space you share. Your place is saved."
     },
     {
       "kind": "open",
@@ -186,8 +186,8 @@
       "title": "Self space and general space",
       "text": "PE splits space into two, and almost every instruction you get uses one of the two words.",
       "points": [
-        "**Self space** — everything you can reach without moving your feet.",
-        "**General space** — the whole area you can travel through.",
+        "**Self space**: everything you can reach without moving your feet.",
+        "**General space**: the whole area you can travel through.",
         "**Self space moves with you.** It is yours.",
         "**General space is shared.** That is where collisions happen."
       ]
@@ -221,10 +221,10 @@
       "title": "Levels, pathways and directions",
       "text": "Once you know where you are, these three words say how you are moving through it.",
       "points": [
-        "**Levels** — high, medium, low.",
-        "**Pathways** — straight, curved, zigzag.",
-        "**Directions** — forward, backward, sideways, up, down.",
-        "**Extensions** — near or far from your body, big or small."
+        "**Levels**: high, medium, low.",
+        "**Pathways**: straight, curved, zigzag.",
+        "**Directions**: forward, backward, sideways, up, down.",
+        "**Extensions**: near or far from your body, big or small."
       ]
     },
     {
@@ -235,9 +235,9 @@
       "title": "Range is personal space with a name",
       "text": "Every coach in every gym teaches this, and none of them call it space awareness. It is the same idea exactly.",
       "points": [
-        "**Long range** — only the jab reaches.",
-        "**Mid range** — everything reaches, from both sides.",
-        "**Close range** — hooks and uppercuts, no room for the jab.",
+        "**Long range**: only the jab reaches.",
+        "**Mid range**: everything reaches, from both sides.",
+        "**Close range**: hooks and uppercuts, no room for the jab.",
         "**Controlling the distance** is most of the sport."
       ]
     },
@@ -394,7 +394,7 @@
         "the form",
         "musical form"
       ],
-      "explain": "Form. Verse, chorus, verse, chorus, bridge, chorus is one of the commonest.",
+      "explain": "Form. Verse, chorus, verse, chorus, bridge, chorus is one of the most common.",
       "objective": "Name the elements of music and use them to describe a piece",
       "seconds": 20
     },
@@ -484,7 +484,7 @@
     }
   ],
   "teacher": {
-    "summary": "Week 1 MAPEH pairs the branches of music with personal space awareness, matching the Term 1 weekly scope. The music half is deliberately vocabulary-first: the elements are what let a student say what a piece is doing rather than whether they liked it, and every later MAPEH lesson leans on them. The PE half is built around one reframing that lands with anyone who trains — range in combat sport is space awareness under a different name, and the levels, pathways and directions vocabulary describes something he already does. The spaceAwareness figure exists because these five concepts are spatial, and a list of five words on a card teaches almost none of it.",
+    "summary": "Week 1 MAPEH pairs the branches of music with personal space awareness, matching the Term 1 weekly scope. The music half is deliberately vocabulary-first: the elements are what let a student say what a piece is doing rather than whether they liked it, and every later MAPEH lesson leans on them. The PE half is built around one reframing that lands with anyone who trains. Range in combat sport is space awareness under a different name, and the levels, pathways and directions vocabulary describes something he already does. The spaceAwareness figure exists because these five concepts are spatial, and a list of five words on a card teaches almost none of it.",
     "discussion": [
       "Play him thirty seconds of anything and ask him to describe it using three of the elements. Doing it aloud once makes the vocabulary stick.",
       "Ask him to find the bridge in a song he already knows. Naming the part he has always felt is the point of teaching form.",

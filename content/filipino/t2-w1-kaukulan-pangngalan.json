@@ -4,7 +4,7 @@
   "courseTitle": "Filipino",
   "week": 1,
   "title": "Kaukulan ng Pangngalan",
-  "subtitle": "Palagyo, paari, palayon — at kung bakit ang pananda ang nagbabago.",
+  "subtitle": "Palagyo, paari, palayon. At kung bakit ang pananda ang nagbabago.",
   "estMinutes": 20,
   "objectives": [
     "Matukoy ang kaukulang palagyo, paari at palayon",
@@ -19,7 +19,7 @@
       "icon": "🏷️",
       "eyebrow": "Bahagi 1 · Tatlong pananda",
       "title": "Hindi nagbabago ang pangngalan. Nagbabago ang pananda.",
-      "text": "Sa Ingles, nagdadagdag ka ng 's para sa may-ari. Sa Filipino, hindi ginagalaw ang salita — pinapalitan ang maliit na salitang nauuna."
+      "text": "Sa Ingles, nagdadagdag ka ng 's para sa may-ari. Sa Filipino, hindi ginagalaw ang salita. Pinapalitan ang maliit na salitang nauuna."
     },
     {
       "kind": "idea",
@@ -27,9 +27,9 @@
       "title": "Tatlong trabaho, tatlong pananda",
       "text": "Isang pangngalan, tatlong posisyon sa pangungusap.",
       "points": [
-        "**Palagyo** — ito ang gumagawa o pinag-uusapan.",
-        "**Paari** — ito ang may-ari ng isang bagay.",
-        "**Palayon** — ito ang pinatutunguhan ng kilos.",
+        "**Palagyo**: ito ang gumagawa o pinag-uusapan.",
+        "**Paari**: ito ang may-ari ng isang bagay.",
+        "**Palayon**: ito ang pinatutunguhan ng kilos.",
         "**Iisa ang salitang \"kotse\"** sa tatlo. Iba ang pananda."
       ]
     },
@@ -61,8 +61,8 @@
       "title": "Pantangi o pambalana? Iba ang pananda",
       "text": "Para sa pangalan ng tao, may sariling pananda.",
       "points": [
-        "**Pambalana:** ang, ng, sa — boksingero, kotse, gym.",
-        "**Pantangi:** si, ni, kay — Manny, Carlo, Nica.",
+        "**Pambalana:** ang, ng, sa. Boksingero, kotse, gym.",
+        "**Pantangi:** si, ni, kay. Manny, Carlo, Nica.",
         "**Maramihan:** ang mga, ng mga, sa mga; sina, nina, kina.",
         "**Mali:** \"ang Manny\". **Tama:** \"si Manny\"."
       ]
@@ -105,8 +105,8 @@
       "title": "Nakikita ang paari sa pagbukas",
       "text": "Kapag binuksan mo ang bentilador, puro paari ang makikita mo.",
       "points": [
-        "**Ang talim ng bentilador** — paari.",
-        "**Ang kapasitor ng motor** — paari.",
+        "**Ang talim ng bentilador**: paari.",
+        "**Ang kapasitor ng motor**: paari.",
         "**Bawat bahagi** ay pag-aari ng mas malaking bagay.",
         "**Kaya \"ng\" ang laging gamit** sa listahan ng mga parte."
       ]
@@ -175,7 +175,7 @@
         "**Mahigit dalawang milyong Pilipino** ang nagtatrabaho sa ibang bansa.",
         "**Kadalasan ay magulang** ang umaalis, hindi ang anak.",
         "**Nananatili ang anak** sa lola, tiyahin o kapatid.",
-        "**Dalawang tahanan, isang pamilya** — pamilyar ito sa milyon-milyong bata."
+        "**Dalawang tahanan, isang pamilya**: pamilyar ito sa milyon-milyong bata."
       ]
     },
     {
@@ -184,10 +184,10 @@
       "title": "Tatlong tanong sa bawat akda",
       "text": "Ito ang hahanapin mo sa unang kabanata, anuman ang edisyon.",
       "points": [
-        "**Tauhan** — sino ang nagkukuwento, at kanino?",
-        "**Tagpuan** — saan at kailan?",
-        "**Suliranin** — ano ang hindi pa tapos?",
-        "**Damdamin** — ano ang nararamdaman niya, at saan iyon nakita?"
+        "**Tauhan**: sino ang nagkukuwento, at kanino?",
+        "**Tagpuan**: saan at kailan?",
+        "**Suliranin**: ano ang hindi pa tapos?",
+        "**Damdamin**: ano ang nararamdaman niya, at saan iyon nakita?"
       ]
     },
     {
@@ -227,7 +227,7 @@
       "points": [
         "Tatlong kaukulan: palagyo, paari, palayon.",
         "Pambalana: ang, ng, sa. Pantangi: si, ni, kay.",
-        "Hindi nagbabago ang pangngalan — ang pananda ang nagbabago.",
+        "Hindi nagbabago ang pangngalan. Ang pananda ang nagbabago.",
         "Tauhan, tagpuan, suliranin, damdamin: apat na tanong sa bawat akda."
       ]
     }
@@ -393,7 +393,7 @@
     }
   ],
   "teacher": {
-    "summary": "Linggo 1 ng Filipino sa Ikalawang Markahan: ang kaukulan ng pangngalan. Ang pangunahing kaisipan ay hindi ang tatlong pangalan kundi ang obserbasyon na hindi nagbabago ang pangngalan sa Filipino — ang pananda ang nagbabago. Malinaw ito kapag itinabi sa Ingles, kung saan nagdadagdag ng 's. Hiwalay na itinuro ang pananda ng pantangi dahil \"ang Manny\" ang pinakamadalas na mali. IMPORTANTE PARA SA GURO O MAGULANG: walang buod ng Papa's House, Mama's House dito dahil hindi pa nakikita ang edisyong gamit ng klase. Ang nasa ikalawang bahagi ay totoong kalagayang panlipunan at ang apat na tanong sa pagbasa, na magagamit anuman ang edisyon.",
+    "summary": "Linggo 1 ng Filipino sa Ikalawang Markahan: ang kaukulan ng pangngalan. Ang pangunahing kaisipan ay hindi ang tatlong pangalan kundi ang obserbasyon na hindi nagbabago ang pangngalan sa Filipino. Ang pananda ang nagbabago. Malinaw ito kapag itinabi sa Ingles, kung saan nagdadagdag ng 's. Hiwalay na itinuro ang pananda ng pantangi dahil \"ang Manny\" ang pinakamadalas na mali. IMPORTANTE PARA SA GURO O MAGULANG: walang buod ng Papa's House, Mama's House dito dahil hindi pa nakikita ang edisyong gamit ng klase. Ang nasa ikalawang bahagi ay totoong kalagayang panlipunan at ang apat na tanong sa pagbasa, na magagamit anuman ang edisyon.",
     "discussion": [
       "Pasagutin siya ng isang pangngalan sa tatlong kaukulan: ang kotse, ng kotse, sa kotse.",
       "Itanong kung bakit mali ang \"ang Manny\".",

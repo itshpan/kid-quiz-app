@@ -4,7 +4,7 @@
   "courseTitle": "TLE",
   "week": 3,
   "title": "Food Safety & Hygiene",
-  "subtitle": "One fact — 5 to 60 degrees — explains every rule here.",
+  "subtitle": "One fact (5 to 60 degrees) explains every rule here.",
   "estMinutes": 20,
   "objectives": [
     "State the temperature danger zone",
@@ -35,7 +35,7 @@
     {
       "kind": "figure",
       "figure": "dangerZone",
-      "title": "Press a temperature",
+      "title": "How fast bacteria grow at each temperature",
       "text": "Press each one. Watch both bars, and read the line underneath."
     },
     {
@@ -73,7 +73,7 @@
         "text": "Does the two-hour clock reset when food goes back in the fridge?",
         "options": [
           "Only for meat",
-          "No — the time adds up",
+          "No, the time adds up",
           "Yes, fully",
           "Only if it is cold"
         ],
@@ -88,7 +88,7 @@
       "title": "The two routes food poisoning actually takes",
       "text": "Both are preventable with a habit rather than a product.",
       "points": [
-        "**Twenty seconds with soap** — palms, backs, between fingers, nails.",
+        "**Twenty seconds with soap**: palms, backs, between fingers, nails.",
         "**Before cooking, after raw meat, after the bin, after the toilet.**",
         "**Separate board for raw meat**, or wash between.",
         "**Raw meat on the bottom shelf**, sealed, so nothing drips onto it."
@@ -104,7 +104,7 @@
       "points": [
         "**37°C is the fastest growth there is.**",
         "**Which is why an infection spreads fast** once it is inside.",
-        "**And why a fever is useful** — it is the body raising the temperature.",
+        "**And why a fever is useful**: it is the body raising the temperature.",
         "**Same physics, opposite direction.**"
       ]
     },

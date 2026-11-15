@@ -26,9 +26,9 @@
       "title": "A group of words describing a noun",
       "text": "No verb of its own. It just hangs onto a noun and adds information.",
       "points": [
-        "**with the cracked guard** — describes which fan.",
-        "**in the blue corner** — describes which fighter.",
-        "**covered in dust** — describes its condition.",
+        "**with the cracked guard**: describes which fan.",
+        "**in the blue corner**: describes which fighter.",
+        "**covered in dust**: describes its condition.",
         "**Each one answers** which, what kind, or whose."
       ]
     },
@@ -150,8 +150,8 @@
       "title": "Literature Review: Don Quixote, Chapter 18: In Search of Dulcinea",
       "text": "Quixote sets out to find a woman who exists mostly in his description of her.",
       "points": [
-        "**A lady of great beauty and noble birth** — his phrase.",
-        "**A farm girl from a nearby village** — everyone else's.",
+        "**A lady of great beauty and noble birth**: his phrase.",
+        "**A farm girl from a nearby village**: everyone else's.",
         "**Same person**, described two ways.",
         "**The phrase makes the character**, which is the whole joke."
       ]
@@ -279,7 +279,7 @@
         "when it flooded"
       ],
       "answerIndex": 0,
-      "explain": "Which one — that is an adjective's job.",
+      "explain": "Which one. That is an adjective's job.",
       "objective": "Use adjective phrases to add detail",
       "seconds": 20
     },
@@ -321,7 +321,7 @@
     },
     {
       "type": "multiple",
-      "text": "'Families living below the dam' — the phrase describes…",
+      "text": "'Families living below the dam'. The phrase describes…",
       "options": [
         "the report",
         "the families",
@@ -349,7 +349,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 8 English. Descriptive phrases are introduced by what they buy you — precision an adjective cannot reach — rather than by definition, and the bench example makes that concrete: on a table of parts, a phrase is how you specify which screw. Placement is the examinable half, and misplaced modifiers are taught through the read-it-literally test, which is both the diagnostic and the joke. The Dulcinea card closes the lesson neatly, since the novel's central character is built entirely out of one man's descriptive phrases.",
+    "summary": "Term 2 Week 8 English. Descriptive phrases are introduced by what they buy you (precision an adjective cannot reach) rather than by definition, and the bench example makes that concrete: on a table of parts, a phrase is how you specify which screw. Placement is the examinable half, and misplaced modifiers are taught through the read-it-literally test, which is both the diagnostic and the joke. The Dulcinea card closes the lesson neatly, since the novel's central character is built entirely out of one man's descriptive phrases.",
     "discussion": [
       "What can a phrase do that a single adjective cannot?",
       "How do you spot a misplaced modifier?",

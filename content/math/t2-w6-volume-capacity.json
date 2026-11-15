@@ -63,7 +63,7 @@
     {
       "kind": "figure",
       "figure": "volumeLab",
-      "title": "Press an edge. Watch volume outrun it",
+      "title": "Volume outruns the edge it grows from",
       "text": "A 10 cm cube holds exactly one litre. Press 1, 2, 3, 4 and see how fast the volume climbs."
     },
     {
@@ -99,10 +99,10 @@
       "title": "Pick the unit that keeps the number sensible",
       "text": "If you need lots of zeros or lots of decimals, you have chosen the wrong unit.",
       "points": [
-        "**A spoon** of medicine — millilitres.",
-        "**A water bottle** — litres.",
-        "**A room** — cubic metres.",
-        "**A grain of rice** — cubic millimetres."
+        "**A spoon** of medicine. Millilitres.",
+        "**A water bottle**: litres.",
+        "**A room**: cubic metres.",
+        "**A grain of rice**: cubic millimetres."
       ]
     },
     {
@@ -123,7 +123,7 @@
       "title": "Minecraft is literally built out of cubic metres",
       "text": "One block is a metre on each side. So a block is one cubic metre, and counting blocks is measuring volume.",
       "points": [
-        "**A 10 × 10 × 10 pit** is 1,000 blocks — 1,000 m³.",
+        "**A 10 × 10 × 10 pit** is 1,000 blocks. 1,000 m³.",
         "**Double every side** and it is 8,000, not 2,000.",
         "**That is the cube** doing its work again.",
         "**Mining out a room** is a volume calculation you already do."

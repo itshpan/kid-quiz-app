@@ -38,7 +38,7 @@
       "kind": "figure",
       "figure": "decimalPlaces",
       "eyebrow": "Try it",
-      "title": "Three worked examples",
+      "title": "Counting the places, not aligning them",
       "text": "Tap each one. Watch the places get counted, not aligned."
     },
     {
@@ -101,12 +101,12 @@
     {
       "kind": "idea",
       "eyebrow": "The shortcut",
-      "title": "Times 10, 100, 1000 — move the point right",
+      "title": "Times 10, 100, 1000. Move the point right",
       "text": "No working needed for these. Count the zeros, move the point that many places to the right.",
       "points": [
-        "**3.47 × 10 = 34.7** — one place.",
-        "**3.47 × 100 = 347** — two places.",
-        "**3.47 × 1000 = 3470** — three, so add a zero.",
+        "**3.47 × 10 = 34.7**: one place.",
+        "**3.47 × 100 = 347**: two places.",
+        "**3.47 × 1000 = 3470**: three, so add a zero.",
         "**More zeros, more places.** That is all it is."
       ]
     },
@@ -203,9 +203,9 @@
       "kind": "idea",
       "eyebrow": "The hard case",
       "title": "Dividing BY a decimal",
-      "text": "You cannot divide by 0.4 easily. So make it a whole number first — and do the same thing to the other number.",
+      "text": "You cannot divide by 0.4 easily. So make it a whole number first. And do the same thing to the other number.",
       "points": [
-        "**4.8 ÷ 0.4** — move both points one place right.",
+        "**4.8 ÷ 0.4**: move both points one place right.",
         "**Becomes 48 ÷ 4 = 12.**",
         "**Move both, or the answer changes.**",
         "**It works because you scaled both sides equally.**"
@@ -237,19 +237,19 @@
           "1.75"
         ],
         "answerIndex": 0,
-        "explain": "Move both points one place: 35 ÷ 5 = 7. Ask yourself how many halves fit into 3.5 — seven.",
+        "explain": "Move both points one place: 35 ÷ 5 = 7. Ask yourself how many halves fit into 3.5. Seven.",
         "seconds": 15
       }
     },
     {
       "kind": "idea",
       "eyebrow": "The shortcut",
-      "title": "Divide by 10, 100, 1000 — move the point left",
+      "title": "Divide by 10, 100, 1000. Move the point left",
       "text": "The mirror image of multiplying. Same count of zeros, opposite direction.",
       "points": [
-        "**48.6 ÷ 10 = 4.86** — one place left.",
-        "**48.6 ÷ 100 = 0.486** — two places.",
-        "**48.6 ÷ 1000 = 0.0486** — three, so a zero appears.",
+        "**48.6 ÷ 10 = 4.86**: one place left.",
+        "**48.6 ÷ 100 = 0.486**: two places.",
+        "**48.6 ÷ 1000 = 0.0486**: three, so a zero appears.",
         "**Multiply goes right, divide goes left.**"
       ]
     },
@@ -504,7 +504,7 @@
     }
   ],
   "teacher": {
-    "summary": "Week 5 Math covers multiplication and division of decimals, completing the four operations begun in Weeks 3 and 4. It is built around the contradiction that causes most of the lost marks: addition requires the points aligned, multiplication requires them ignored and then counted. The decimalPlaces figure is deliberately the companion to the decimalColumns figure from Week 3, so the two rules stay separate rather than blurring into one half-remembered instruction. Estimation is introduced as a habit rather than a topic, because it is the only reliable defence against a misplaced decimal point. The two traps — multiplying by less than 1 shrinks, dividing by less than 1 grows — are taught as a matching pair, since meeting them separately is what makes them feel arbitrary.",
+    "summary": "Week 5 Math covers multiplication and division of decimals, completing the four operations begun in Weeks 3 and 4. It is built around the contradiction that causes most of the lost marks: addition requires the points aligned, multiplication requires them ignored and then counted. The decimalPlaces figure is deliberately the companion to the decimalColumns figure from Week 3, so the two rules stay separate rather than blurring into one half-remembered instruction. Estimation is introduced as a habit rather than a topic, because it is the only reliable defence against a misplaced decimal point. The two traps (multiplying by less than 1 shrinks, dividing by less than 1 grows) are taught as a matching pair, since meeting them separately is what makes them feel arbitrary.",
     "discussion": [
       "Ask him why 8 × 0.5 is smaller than 8. If he can say 'because I'm taking half of it', the rule is understood rather than memorised.",
       "Ask him to estimate before every answer for one session. It is the single habit that raises a decimals mark the most.",

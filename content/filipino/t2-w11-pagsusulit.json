@@ -57,8 +57,8 @@
       "points": [
         "**Panao:** ako, ikaw, siya, kami, tayo.",
         "**Pananong:** sino, kanino, ano, alin, ilan.",
-        "**Pamatlig:** ito, iyan, iyon — ayon sa layo.",
-        "**Panaklaw:** lahat, sinuman, anuman — walang tiyak."
+        "**Pamatlig:** ito, iyan, iyon. Ayon sa layo.",
+        "**Panaklaw:** lahat, sinuman, anuman. Walang tiyak."
       ]
     },
     {
@@ -125,7 +125,7 @@
       "points": [
         "**Aspekto:** tapos na, ginagawa pa, o hindi pa?",
         "**Pokus:** alin ang may pananda na ang?",
-        "**Pang-abay:** ano ang tinuturo nito — kilos o bagay?",
+        "**Pang-abay:** ano ang tinuturo nito. Kilos o bagay?",
         "**Na** sa harap ng pangngalan; **nang** sa harap ng kilos."
       ]
     },
@@ -138,7 +138,7 @@
       "text": "Labindalawang round, hindi isang suntok.",
       "points": [
         "**Basahin ang buong tanong** bago pumili.",
-        "**Sa kaukulan, hanapin ang pananda** — hindi ang pwesto.",
+        "**Sa kaukulan, hanapin ang pananda**: hindi ang pwesto.",
         "**Markahan ang mahirap at lumipat.** Balikan.",
         "**Huwag magpalit ng sagot** kung wala kang masabing dahilan."
       ]
@@ -204,7 +204,7 @@
       "points": [
         "Pangngalan: ang pananda ang nagbabago.",
         "Panghalip: panao, pananong, pamatlig, panaklaw.",
-        "Pang-uri: uri, kayarian, kaantasan — tatlong tanong.",
+        "Pang-uri: uri, kayarian, kaantasan. Tatlong tanong.",
         "Pandiwa at pang-abay: aspekto, pokus, at ang tinuturo."
       ]
     }
@@ -534,7 +534,7 @@
     }
   ],
   "teacher": {
-    "summary": "Linggo 11 ng Filipino: ang pagsasanay na papel. Dalawampu't apat na tanong mula sa lahat ng sampung linggong nagdaan, at nakahanay ang pagbabalik-aral ayon sa apat na sinulid — pangngalan, panghalip, pang-uri, pandiwa at pang-abay — dahil ganoon ito haluin ng tunay na papel. Bumabalik ang dalawang interaktibong figura upang ang huling gawain niya bago ang papel ay aktibong paggunita at hindi pagbabasa ng listahan. Ang isang lente ay pinagsasama ang apat na akda ng markahan sa apat na panahon ng kasaysayan, dahil doon madaling malimutan ang konteksto. IMPORTANTE PARA SA GURO O MAGULANG: walang tanong tungkol sa balangkas ng anumang akda dahil hindi pa nakikita ang mga edisyong gamit ng klase; ang mga tanong sa pagbasa ay tungkol lamang sa totoong kasaysayan at kulturang nasa mga lesson.",
+    "summary": "Linggo 11 ng Filipino: ang pagsasanay na papel. Dalawampu't apat na tanong mula sa lahat ng sampung linggong nagdaan, at nakahanay ang pagbabalik-aral ayon sa apat na sinulid (pangngalan, panghalip, pang-uri, pandiwa at pang-abay) dahil ganoon ito haluin ng tunay na papel. Bumabalik ang dalawang interaktibong figura upang ang huling gawain niya bago ang papel ay aktibong paggunita at hindi pagbabasa ng listahan. Ang isang lente ay pinagsasama ang apat na akda ng markahan sa apat na panahon ng kasaysayan, dahil doon madaling malimutan ang konteksto. IMPORTANTE PARA SA GURO O MAGULANG: walang tanong tungkol sa balangkas ng anumang akda dahil hindi pa nakikita ang mga edisyong gamit ng klase; ang mga tanong sa pagbasa ay tungkol lamang sa totoong kasaysayan at kulturang nasa mga lesson.",
     "discussion": [
       "Alin sa apat na sinulid ang pinakamahina pa?",
       "Pasagutin siya: anong tanong ang itinatanong sa kaukulan? Sa kaantasan? Sa pokus?",

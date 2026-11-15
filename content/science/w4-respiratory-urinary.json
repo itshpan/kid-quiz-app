@@ -44,7 +44,7 @@
     {
       "kind": "explorer",
       "figure": "airway",
-      "title": "Tap any part of the airway",
+      "title": "The airway, nose to air sac",
       "text": "Six parts, nose to air sac. Each has a car fact and a fact about you."
     },
     {
@@ -171,7 +171,7 @@
       "points": [
         "**Nothing is damaged.** The muscle has simply locked.",
         "**It passes in under a minute.**",
-        "**Which is why coaches say breathe out on the punch** — a tensed diaphragm is harder to stop.",
+        "**Which is why coaches say breathe out on the punch**: a tensed diaphragm is harder to stop.",
         "**Knowing that** is the difference between panic and waiting."
       ]
     },
@@ -209,16 +209,16 @@
       "title": "Four parts, one direction",
       "text": "It is the simplest system on the syllabus. Everything flows one way and nothing comes back.",
       "points": [
-        "**Kidneys** — two of them, either side of the spine.",
-        "**Ureters** — one tube from each kidney to the bladder.",
-        "**Bladder** — stores it until you decide.",
-        "**Urethra** — the way out."
+        "**Kidneys**: two of them, either side of the spine.",
+        "**Ureters**: one tube from each kidney to the bladder.",
+        "**Bladder**: stores it until you decide.",
+        "**Urethra**: the way out."
       ]
     },
     {
       "kind": "explorer",
       "figure": "urinary",
-      "title": "Tap any part of the filter",
+      "title": "How the kidneys clean blood and put it back",
       "text": "The kidneys clean the blood and put it back. Tap to see how each part helps."
     },
     {
@@ -289,7 +289,7 @@
       "icon": "🪐",
       "eyebrow": "Space mode",
       "title": "On the space station they drink it again",
-      "text": "There is no water delivery in orbit. The station reclaims almost all of it — sweat, breath moisture and urine included.",
+      "text": "There is no water delivery in orbit. The station reclaims almost all of it. Sweat, breath moisture and urine included.",
       "points": [
         "**Over 90% of water on board is recovered.**",
         "**The system does the kidney's job**, industrially.",
@@ -551,7 +551,7 @@
     }
   ],
   "teacher": {
-    "summary": "Week 4 Science covers the respiratory and urinary systems, matching the Term 1 weekly scope. The respiratory half is organised around one misconception, because it is the one that costs marks and the one almost every learner holds: air is not sucked in. The breathingMech figure exists to replace that idea with the real one, and the card before it says the same thing in words first, so the figure confirms rather than introduces. The airway is taught as an ordered route because that is how the exam asks for it. The urinary half is deliberately short and concrete: four parts, one direction, three jobs, and one striking number — 180 litres filtered against 1.5 passed — which is what makes reabsorption memorable rather than abstract.",
+    "summary": "Week 4 Science covers the respiratory and urinary systems, matching the Term 1 weekly scope. The respiratory half is organised around one misconception, because it is the one that costs marks and the one almost every learner holds: air is not sucked in. The breathingMech figure exists to replace that idea with the real one, and the card before it says the same thing in words first, so the figure confirms rather than introduces. The airway is taught as an ordered route because that is how the exam asks for it. The urinary half is deliberately short and concrete: four parts, one direction, three jobs, and one striking number (180 litres filtered against 1.5 passed) which is what makes reabsorption memorable rather than abstract.",
     "discussion": [
       "Have him put a hand on his stomach and breathe. If the hand moves outward on the way in, he has found the diaphragm, and the figure stops being a diagram.",
       "Ask why the cartilage rings in the windpipe are C-shaped rather than complete circles. The answer is the oesophagus behind it, and he can reason his way there.",

@@ -27,8 +27,8 @@
       "title": "Hang what creases, fold what does not",
       "text": "One question decides it: does this look bad when it has been squashed?",
       "points": [
-        "**Hang** — shirts, trousers, jackets, anything smart.",
-        "**Fold** — t-shirts, jumpers, jeans, underwear, socks.",
+        "**Hang**: shirts, trousers, jackets, anything smart.",
+        "**Fold**: t-shirts, jumpers, jeans, underwear, socks.",
         "**Knitwear is folded**, because hanging stretches it.",
         "**When unsure, fold it.** Hanging space is scarcer."
       ]
@@ -115,7 +115,7 @@
     {
       "kind": "break",
       "title": "Good spot to pause",
-      "text": "Folding and storing are done. Part 2 is laundry — the symbols and the sorting. Your place is saved."
+      "text": "Folding and storing are done. Part 2 is laundry. The symbols and the sorting. Your place is saved."
     },
     {
       "kind": "open",
@@ -156,10 +156,10 @@
       "title": "Five shapes, five jobs",
       "text": "The shape tells you which process. What is inside it tells you the limit.",
       "points": [
-        "**A tub of water** — washing. A number is the temperature.",
-        "**A triangle** — bleaching. Crossed out means never.",
-        "**A square** — drying. A circle inside means tumble dryer.",
-        "**An iron** — ironing. Dots are the heat setting."
+        "**A tub of water**: washing. A number is the temperature.",
+        "**A triangle**: bleaching. Crossed out means never.",
+        "**A square**: drying. A circle inside means tumble dryer.",
+        "**An iron**: ironing. Dots are the heat setting."
       ]
     },
     {
@@ -168,9 +168,9 @@
       "title": "A cross through it means do not",
       "text": "Whatever the shape, a cross over it means never do that to this garment. It is the one rule you can always read.",
       "points": [
-        "**Crossed tub** — do not machine wash.",
-        "**Crossed triangle** — do not bleach.",
-        "**Crossed square with a circle** — do not tumble dry.",
+        "**Crossed tub**: do not machine wash.",
+        "**Crossed triangle**: do not bleach.",
+        "**Crossed square with a circle**: do not tumble dry.",
         "**A circle on its own** means dry clean only."
       ]
     },
@@ -196,7 +196,7 @@
       "title": "Sort first, and always the same way",
       "text": "Two minutes of sorting prevents the one mistake that ruins a whole wash.",
       "points": [
-        "**Whites, darks, colours** — three piles minimum.",
+        "**Whites, darks, colours**: three piles minimum.",
         "**New bright colours** get washed separately first.",
         "**Empty every pocket.** Especially tissues.",
         "**Turn printed shirts inside out** to protect the print."
@@ -436,7 +436,7 @@
     }
   ],
   "teacher": {
-    "summary": "Week 5 TLE covers clothing and storage, matching the Term 1 weekly scope and completing the subject's run. The organising claim is that almost every storage problem is a visibility problem: you wear the clothes you can see, so file folding — standing folded items on edge rather than stacking them — is treated as the central technique rather than a nicety. The foldSteps figure is drawn as a folding diagram, with the next fold line dashed over the current silhouette, because that is the only form of this instruction that can actually be followed. The laundry half teaches the care label as a system with one universal rule (a cross means never) rather than as a set of icons to memorise, which is both easier and more useful.",
+    "summary": "Week 5 TLE covers clothing and storage, matching the Term 1 weekly scope and completing the subject's run. The organising claim is that almost every storage problem is a visibility problem: you wear the clothes you can see, so file folding (standing folded items on edge rather than stacking them) is treated as the central technique rather than a nicety. The foldSteps figure is drawn as a folding diagram, with the next fold line dashed over the current silhouette, because that is the only form of this instruction that can actually be followed. The laundry half teaches the care label as a system with one universal rule (a cross means never) rather than as a set of icons to memorise, which is both easier and more useful.",
     "discussion": [
       "Ask him what is at the bottom of his t-shirt drawer. Whatever it is has not been worn in months, which is the argument for file folding.",
       "Have him read the label in the shirt he is wearing. Most people have never looked at one.",

@@ -89,7 +89,7 @@
     {
       "kind": "break",
       "title": "Good spot to pause",
-      "text": "Comparing done. Part 2 is word problems — deciding which operation, then doing it. Your place is saved."
+      "text": "Comparing done. Part 2 is word problems. Deciding which operation, then doing it. Your place is saved."
     },
     {
       "kind": "open",
@@ -445,7 +445,7 @@
     }
   ],
   "teacher": {
-    "summary": "Week 4 Math continues the decimal work from Week 3, which already covered adding and subtracting with the points aligned. Rather than repeat that method, this lesson covers the two things Week 3 left: comparing and ordering decimals, and applying the operations to multi-step problems. The whole first half exists to kill one error — reading 0.45 as larger than 0.5 — and the compareDecimals figure pads both numbers and lights up the single column that actually decides it. The second half treats choosing the operation as the real skill, because by this point the arithmetic is not what costs the marks. Estimation is framed as a way of rejecting impossible answers rather than of producing right ones, which is both more honest and faster.",
+    "summary": "Week 4 Math continues the decimal work from Week 3, which already covered adding and subtracting with the points aligned. Rather than repeat that method, this lesson covers the two things Week 3 left: comparing and ordering decimals, and applying the operations to multi-step problems. The whole first half exists to kill one error (reading 0.45 as larger than 0.5) and the compareDecimals figure pads both numbers and lights up the single column that actually decides it. The second half treats choosing the operation as the real skill, because by this point the arithmetic is not what costs the marks. Estimation is framed as a way of rejecting impossible answers rather than of producing right ones, which is both more honest and faster.",
     "discussion": [
       "Ask him which is bigger, 0.5 or 0.45, before he starts the lesson. If he hesitates, the first half is exactly what he needs.",
       "Ask him to underline the question in a word problem before doing anything. Most lost marks are a correct calculation that answers a different question.",

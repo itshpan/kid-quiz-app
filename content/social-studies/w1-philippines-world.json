@@ -87,7 +87,7 @@
     {
       "kind": "explorer",
       "figure": "phMap",
-      "title": "Tap the island groups and the seas",
+      "title": "Three island groups, the seas, the neighbours",
       "text": "Three island groups, the waters on each side, and the neighbours. Two quiz questions come from this map."
     },
     {
@@ -96,9 +96,9 @@
       "title": "An archipelago of 7,641 islands",
       "text": "The Philippines isn't one landmass. It's thousands of islands, and only about 2,000 of them have people living on them.",
       "points": [
-        "**Luzon** in the north — the largest, and the capital.",
-        "**The Visayas** in the middle — a scatter of islands.",
-        "**Mindanao** in the south — the second largest.",
+        "**Luzon** in the north. The largest, and the capital.",
+        "**The Visayas** in the middle. A scatter of islands.",
+        "**Mindanao** in the south. The second largest.",
         "**The official count rose to 7,641** in 2016 after new surveys."
       ]
     },
@@ -177,7 +177,7 @@
       "icon": "⛵",
       "eyebrow": "Part 2 · Why the position mattered",
       "title": "Sitting on the route everyone wanted",
-      "text": "The Philippines lies between mainland Asia and the Pacific. For centuries, that made it a place ships passed through — and then a place they stopped."
+      "text": "The Philippines lies between mainland Asia and the Pacific. For centuries, that made it a place ships passed through. And then a place they stopped."
     },
     {
       "kind": "idea",
@@ -237,7 +237,7 @@
       "icon": "🪐",
       "eyebrow": "Space mode",
       "title": "You can see all of this from orbit",
-      "text": "From the ISS the archipelago is unmistakable — a scatter of green between two very different blues.",
+      "text": "From the ISS the archipelago is unmistakable. A scatter of green between two very different blues.",
       "points": [
         "**Typhoons are visible as spirals** moving west across the Pacific.",
         "**Satellites track them days ahead**, which is why warnings work.",
@@ -336,7 +336,7 @@
         "**Absolute** = coordinates. **Relative** = what's around it.",
         "**Three groups, north to south:** Luzon, Visayas, Mindanao.",
         "**7,641 islands and no land border.** Everything arrives by sea or air.",
-        "**Position brought the trade** — and the typhoons."
+        "**Position brought the trade**: and the typhoons."
       ]
     }
   ],
@@ -410,7 +410,7 @@
         "It was the only land in the region"
       ],
       "answerIndex": 1,
-      "explain": "Position. Ships travelling between Asia and the Pacific passed through, so traders stopped — and later, so did colonisers.",
+      "explain": "Position. Ships travelling between Asia and the Pacific passed through, so traders stopped. And later, so did colonisers.",
       "objective": "Explain how location put the Philippines on world trade routes",
       "seconds": 25
     },
@@ -460,7 +460,7 @@
         "How far east or west a place is"
       ],
       "answerIndex": 0,
-      "explain": "North–south. Longitude is the east–west one. Two numbers together pin any point on Earth.",
+      "explain": "North. South. Longitude is the east, west one. Two numbers together pin any point on Earth.",
       "objective": "Describe the absolute and relative location of the Philippines",
       "seconds": 25
     },
@@ -482,13 +482,13 @@
       "type": "truefalse",
       "text": "Relative location means describing a place using its exact coordinates.",
       "answer": false,
-      "explain": "False — that's absolute location. Relative location describes a place by what's around it, like 'south of Taiwan'.",
+      "explain": "False. That's absolute location. Relative location describes a place by what's around it, like 'south of Taiwan'.",
       "objective": "Describe the absolute and relative location of the Philippines",
       "seconds": 12
     }
   ],
   "teacher": {
-    "summary": "Week 1 Social Studies covers the Philippines as part of the world, matching the Term 1 weekly scope. It is organised around a single argument — that position explains the country's trade history, its colonisation, its weather and its present-day disputes — rather than as a list of facts to memorise. The interactive map reuses the explorer component from the Science lessons, so no new interface has to be learned. The map is deliberately schematic; it teaches relative position and the island groups, not coastline detail.",
+    "summary": "Week 1 Social Studies covers the Philippines as part of the world, matching the Term 1 weekly scope. It is organised around a single argument (that position explains the country's trade history, its colonisation, its weather and its present-day disputes) rather than as a list of facts to memorise. The interactive map reuses the explorer component from the Science lessons, so no new interface has to be learned. The map is deliberately schematic; it teaches relative position and the island groups, not coastline detail.",
     "discussion": [
       "Ask him to give both an absolute and a relative location for your own town. Doing both for one place makes the distinction stick.",
       "Ask why the Philippines has so many languages. The archipelago structure is most of the answer, and he can reason his way there.",

@@ -87,14 +87,14 @@
     {
       "kind": "figure",
       "figure": "frictionLab",
-      "title": "Press a surface",
+      "title": "Four surfaces, and the distance each needs to stop",
       "text": "Four surfaces, and the distance each one needs to stop from 60 km/h."
     },
     {
       "kind": "idea",
       "eyebrow": "Two kinds",
       "title": "Starting is harder than keeping going",
-      "text": "Push a heavy box. Nothing, nothing, nothing — then it suddenly gives and slides more easily.",
+      "text": "Push a heavy box. Nothing, nothing, nothing. Then it suddenly gives and slides more easily.",
       "points": [
         "**Static friction** holds something still. It is the larger one.",
         "**Kinetic friction** acts once it is already sliding.",

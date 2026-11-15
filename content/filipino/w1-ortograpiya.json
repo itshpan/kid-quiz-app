@@ -4,7 +4,7 @@
   "courseTitle": "Filipino",
   "week": 1,
   "title": "Ang Ortograpiyang Filipino",
-  "subtitle": "Ang sistema ng pagsulat — mga letra, pantig at gitling.",
+  "subtitle": "Ang sistema ng pagsulat. Mga letra, pantig at gitling.",
   "estMinutes": 18,
   "objectives": [
     "Mabilang ang mga letra ng Alpabetong Filipino",
@@ -73,8 +73,8 @@
       "title": "Bawat pantig ay may isang patinig",
       "text": "Ang pantig ay ang pinakamaliit na yunit ng tunog. Bilangin mo ang patinig at nabilang mo na ang pantig.",
       "points": [
-        "**ba-hay** — dalawang pantig, dalawang patinig.",
-        "**pa-a-ra-lan** — apat na pantig.",
+        "**ba-hay**: dalawang pantig, dalawang patinig.",
+        "**pa-a-ra-lan**: apat na pantig.",
         "**Karaniwang anyo:** KP (ba), KPK (bag), P (a), PK (at).",
         "**K = katinig. P = patinig.**"
       ]
@@ -235,9 +235,9 @@
       "title": "Ano ang babantayan habang nagbabasa",
       "text": "May tatlong tanong na sasagutin mo sa dulo ng bawat kabanata. Isulat mo ang sagot habang sariwa pa.",
       "points": [
-        "**Tauhan** — sino ang lumitaw, at ano ang ginawa niya?",
-        "**Tagpuan** — saan at kailan nangyari ito?",
-        "**Suliranin** — ano ang problemang lumitaw?",
+        "**Tauhan**: sino ang lumitaw, at ano ang ginawa niya?",
+        "**Tagpuan**: saan at kailan nangyari ito?",
+        "**Suliranin**: ano ang problemang lumitaw?",
         "**Isang pangungusap kada tanong.** Sapat na iyon."
       ]
     },
@@ -408,7 +408,7 @@
       "options": [
         "ika-3 palapag",
         "ika 3 palapag",
-        "ika–3 palapag",
+        "ika, 3 palapag",
         "ika3 palapag"
       ],
       "answerIndex": 0,
@@ -468,7 +468,7 @@
     }
   ],
   "teacher": {
-    "summary": "Linggo 1 ng Filipino: ang Ortograpiyang Filipino, kasama ang panimula sa nobelang Supremo. Ang unang kalahati ay tuntunin — alpabeto, patinig at katinig, pantig, at gitling — at nakaayos ito nang pasunod-sunod dahil kailangan ng pantig ang patinig, at kailangan ng gitling ang pantig. IMPORTANTE PARA SA GURO O MAGULANG: hindi pa nabasa ng may-akda ng aralin ang partikular na edisyon ng Supremo na ginagamit ng paaralan, kaya walang buod ng Kapitulo 1 at 2 dito. Sa halip, ang ikalawang kalahati ay tunay at matibay na paghahanda: ang kasaysayan ni Andres Bonifacio at ng panahong iyon, at ang tatlong tanong na dapat sagutin pagkatapos ng bawat kabanata. Kapag naibigay na ang aktuwal na teksto, madaling maidaragdag ang mga kard na partikular sa kabanata.",
+    "summary": "Linggo 1 ng Filipino: ang Ortograpiyang Filipino, kasama ang panimula sa nobelang Supremo. Ang unang kalahati ay tuntunin (alpabeto, patinig at katinig, pantig, at gitling) at nakaayos ito nang pasunod-sunod dahil kailangan ng pantig ang patinig, at kailangan ng gitling ang pantig. IMPORTANTE PARA SA GURO O MAGULANG: hindi pa nabasa ng may-akda ng aralin ang partikular na edisyon ng Supremo na ginagamit ng paaralan, kaya walang buod ng Kapitulo 1 at 2 dito. Sa halip, ang ikalawang kalahati ay tunay at matibay na paghahanda: ang kasaysayan ni Andres Bonifacio at ng panahong iyon, at ang tatlong tanong na dapat sagutin pagkatapos ng bawat kabanata. Kapag naibigay na ang aktuwal na teksto, madaling maidaragdag ang mga kard na partikular sa kabanata.",
     "discussion": [
       "Pabilangin siya ng pantig sa sarili niyang pangalan at sa pangalan ng tatlong kaibigan. Mabilis at mabisa.",
       "Itanong kung bakit kailangan ng gitling sa ika-10 pero wala sa ikasampu. Mahusay na tanong ito para sa dahilan, hindi sa pagsasaulo.",

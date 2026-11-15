@@ -27,17 +27,17 @@
       "title": "A bed is four layers, in one order",
       "text": "Once you know the order it stops being a chore and becomes a sequence you can do half asleep.",
       "points": [
-        "**Fitted sheet** — the one with elastic corners.",
-        "**Flat sheet** — patterned side facing down.",
-        "**Blanket or duvet** — on top of the flat sheet.",
-        "**Pillows** — last, on top of everything."
+        "**Fitted sheet**: the one with elastic corners.",
+        "**Flat sheet**: patterned side facing down.",
+        "**Blanket or duvet**: on top of the flat sheet.",
+        "**Pillows**: last, on top of everything."
       ]
     },
     {
       "kind": "figure",
       "figure": "bedLayers",
       "eyebrow": "In order",
-      "title": "Four steps, tapped through",
+      "title": "Four layers, in the order they go on",
       "text": "Two quiz questions come straight from this."
     },
     {
@@ -137,9 +137,9 @@
       "title": "Dark, cool and quiet",
       "text": "These three do more for sleep than anything you can buy, and all three are free to change.",
       "points": [
-        "**Dark** — light tells your body it is daytime.",
-        "**Cool** — a slightly cool room helps you fall asleep.",
-        "**Quiet** — or at least consistent, unchanging sound.",
+        "**Dark**: light tells your body it is daytime.",
+        "**Cool**: a slightly cool room helps you fall asleep.",
+        "**Quiet**: or at least consistent, unchanging sound.",
         "**Your body reads the room** before you decide anything."
       ]
     },
@@ -416,11 +416,11 @@
     }
   ],
   "teacher": {
-    "summary": "Week 4 TLE covers bed and sleeping area organisation, matching the Term 1 weekly scope. The first half is a procedure, and it is taught as one: the bedLayers figure shows the four layers in order because this is a skill nobody is ever actually shown, only told to do. The far-corners-first detail is included because it is the single piece of technique that makes the job quick. The second half is sleep hygiene, framed around three free levers — dark, cool, quiet — and the melatonin mechanism, which gives a reason rather than a rule. The one-job-per-place idea links back to Week 2's blocks and forward to Week 5's storage: a space with one purpose is easier to use than a space with four.",
+    "summary": "Week 4 TLE covers bed and sleeping area organisation, matching the Term 1 weekly scope. The first half is a procedure, and it is taught as one: the bedLayers figure shows the four layers in order because this is a skill nobody is ever actually shown, only told to do. The far-corners-first detail is included because it is the single piece of technique that makes the job quick. The second half is sleep hygiene, framed around three free levers (dark, cool, quiet) and the melatonin mechanism, which gives a reason rather than a rule. The one-job-per-place idea links back to Week 2's blocks and forward to Week 5's storage: a space with one purpose is easier to use than a space with four.",
     "discussion": [
       "Ask him to make the bed once while narrating the four layers. Saying them aloud once fixes the order.",
       "Ask what his room is currently for. Most bedrooms are doing four jobs, and naming them is the start of fixing it.",
-      "Ask where the phone charges. It is the single highest-leverage change in this lesson.",
+      "Ask where the phone charges. It is the one change in this lesson that does the most.",
       "Ask what a bad night's sleep costs him the next day, specifically. Training and school both have honest answers."
     ],
     "extension": "Have him move the phone charger across the room for one week and note how long it takes to fall asleep each night. It is a one-variable experiment with his own data.",

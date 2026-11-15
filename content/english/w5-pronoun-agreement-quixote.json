@@ -212,7 +212,7 @@
       "icon": "📚",
       "eyebrow": "Part 2 · Don Quixote",
       "title": "Chapter 5: The Library",
-      "text": "He is carried home beaten. While he sleeps, the people who love him decide the books are to blame — and they act on it."
+      "text": "He is carried home beaten. While he sleeps, the people who love him decide the books are to blame. And they act on it."
     },
     {
       "kind": "checkpoint",
@@ -258,7 +258,7 @@
       "title": "Some books are saved",
       "text": "It is not a mindless bonfire. The priest argues for particular books and spares them, which tells you he has read them too.",
       "points": [
-        "***Amadis of Gaul*** is kept — the first and best of its kind.",
+        "***Amadis of Gaul*** is kept. The first and best of its kind.",
         "**Others are rescued for their language**, not their story.",
         "**Cervantes even has the priest discuss his own novel.**",
         "**The judges are fans.** That is the joke."
@@ -352,7 +352,7 @@
       "title": "The four that matter",
       "points": [
         "**Find the antecedent first.** Then count it.",
-        "**Everyone, each, nobody** — all singular, however they sound.",
+        "**Everyone, each, nobody**: all singular, however they sound.",
         "**And = plural. Or and nor = the nearer noun wins.**",
         "**Two possible antecedents?** Rewrite, never guess."
       ]
@@ -521,7 +521,7 @@
     }
   ],
   "teacher": {
-    "summary": "Week 5 English covers pronoun-antecedent agreement alongside Don Quixote Chapter 5, matching the Term 1 weekly scope. The grammar half is sequenced by difficulty: find the antecedent, match the number, then the three cases that break a learner's instincts — indefinite pronouns, collective nouns, and compound antecedents joined by or and nor. The antecedentArrow figure exists for the ambiguous case: two arrows leaving one pronoun makes the fault visible in a way that the phrase 'unclear antecedent' does not. The literature half is chosen to link back: the chapter turns on who 'they' refers to, and on a lie that Don Quixote accepts because it suits the story he is already in.",
+    "summary": "Week 5 English covers pronoun-antecedent agreement alongside Don Quixote Chapter 5, matching the Term 1 weekly scope. The grammar half is sequenced by difficulty: find the antecedent, match the number, then the three cases that break a learner's instincts. Indefinite pronouns, collective nouns, and compound antecedents joined by or and nor. The antecedentArrow figure exists for the ambiguous case: two arrows leaving one pronoun makes the fault visible in a way that the phrase 'unclear antecedent' does not. The literature half is chosen to link back: the chapter turns on who 'they' refers to, and on a lie that Don Quixote accepts because it suits the story he is already in.",
     "discussion": [
       "Ask him to find every pronoun in one paragraph of his own writing and name each antecedent. Ambiguous ones surface immediately.",
       "Note that 'everyone brought their own kit' is what everybody actually says. The exam wants the strict rule; knowing both is the useful position.",

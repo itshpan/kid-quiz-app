@@ -23,13 +23,13 @@
     },
     {
       "kind": "idea",
-      "eyebrow": "Weeks 1–4",
+      "eyebrow": "Weeks 1-4",
       "title": "Mixtures: it all comes down to size",
       "text": "Four weeks, one thread. How big the pieces are decides everything else.",
       "points": [
-        "**Under 1 nm** dissolves — a solution.",
-        "**1 to 1000 nm** floats — a colloid.",
-        "**Over 1000 nm** settles — a suspension.",
+        "**Under 1 nm** dissolves. A solution.",
+        "**1 to 1000 nm** floats. A colloid.",
+        "**Over 1000 nm** settles. A suspension.",
         "**Separation method** follows from which one you have."
       ]
     },
@@ -51,7 +51,7 @@
     },
     {
       "kind": "idea",
-      "eyebrow": "Weeks 5–6",
+      "eyebrow": "Weeks 5-6",
       "title": "Forces: stillness means balance",
       "text": "Nothing at rest is free of forces. It is holding a draw.",
       "points": [
@@ -75,10 +75,10 @@
       "title": "One fan, most of the term",
       "text": "If you forget a definition, picture the fan and walk through it.",
       "points": [
-        "**Energy chain** — electrical, magnetic, kinetic, plus heat and sound.",
-        "**Friction** — bearings, and what happens when they dry out.",
-        "**Simple machines** — gears, screws and a wedge for a blade.",
-        "**Winnowing** — a wind you can switch on."
+        "**Energy chain**: electrical, magnetic, kinetic, plus heat and sound.",
+        "**Friction**: bearings, and what happens when they dry out.",
+        "**Simple machines**: gears, screws and a wedge for a blade.",
+        "**Winnowing**: a wind you can switch on."
       ]
     },
     {
@@ -104,7 +104,7 @@
     },
     {
       "kind": "idea",
-      "eyebrow": "Weeks 7–9",
+      "eyebrow": "Weeks 7-9",
       "title": "Energy: it changes form and leaks",
       "text": "Nothing is destroyed. Some always leaves as a form you did not want.",
       "points": [
@@ -513,7 +513,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 11 Science, the practice paper. Twenty-four questions spanning all ten teaching weeks, with the review cards organised by thread rather than by week number — mixtures as a size question, forces as a balance question, energy as a conversion question, machines as a trade. The fan card is a deliberate memory hook: almost every strand of the term appears somewhere in an appliance he has taken apart himself, so a forgotten definition has a physical object to hang on. The exam-technique card is in the review rather than the quiz because it is advice, not content.",
+    "summary": "Term 2 Week 11 Science, the practice paper. Twenty-four questions spanning all ten teaching weeks, with the review cards organised by thread rather than by week number. Mixtures as a size question, forces as a balance question, energy as a conversion question, machines as a trade. The fan card is a deliberate memory hook: almost every strand of the term appears somewhere in an appliance he has taken apart himself, so a forgotten definition has a physical object to hang on. The exam-technique card is in the review rather than the quiz because it is advice, not content.",
     "discussion": [
       "Which four threads does the whole term come down to?",
       "How much of this term can you find inside a fan?",

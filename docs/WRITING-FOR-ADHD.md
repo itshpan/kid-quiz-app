@@ -100,6 +100,28 @@ says stay loose" beats "and this demonstrates the principle of antagonistic musc
 **Never talk down.** Real terminology, real numbers, explained properly. Simplify the sentence,
 not the idea. He has been condescended to by educational software before and he can smell it.
 
+**Grade 5 to 6 reading level in the explaining.** This is the other half of "never talk down",
+not a contradiction of it. Hard words are the lesson: `sovereignty`, `distillation`,
+`membranophone`, `ilustrados`. The *sentence around them* is what stays plain. So the test is
+never "is this word long" but "does a plain word lose anything here":
+
+| Fault | Fix | Why |
+|---|---|---|
+| the commonest mistake | the most common mistake | nothing lost |
+| prior to sorting | before sorting | nothing lost |
+| Accusations of extravagance | Accusations of overspending | nothing lost |
+| Courage requires fear | *leave it* | "needs" is not clearer, and the sentence is the point |
+| 2 remainder 1 | *leave it* | the technical term, and he is learning it |
+| Earthquake magnitude | *leave it* | the technical term |
+
+`check-content.mjs` carries the fail list. It is a word list, not a readability score: a score
+rates "Executed in 1872. Rizal dedicated El Filibusterismo to them." at grade 15, and that
+sentence is already as plain as it can be.
+
+**Split the long sentence before you simplify the word.** Average across the decks is 7 words a
+sentence and the cap is 20. When a card reads hard, it is nearly always one sentence carrying two
+ideas, not a word that is too big.
+
 **One dry joke per section, maximum.** He likes wordplay and absurdity. A joke every card reads
 as trying too hard and he starts skimming for jokes instead of content.
 

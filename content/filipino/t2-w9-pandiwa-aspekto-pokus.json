@@ -18,7 +18,7 @@
       "icon": "⏱️",
       "eyebrow": "Bahagi 1 · Aspekto",
       "title": "Saan nakaupo ang kilos?",
-      "text": "Hindi tense ang aspekto. Hindi tanong kung kailan — tanong kung tapos na, ginagawa pa, o hindi pa nagsimula."
+      "text": "Hindi tense ang aspekto. Hindi tanong kung kailan. Tanong kung tapos na, ginagawa pa, o hindi pa nagsimula."
     },
     {
       "kind": "idea",
@@ -26,16 +26,16 @@
       "title": "Tatlong aspekto",
       "text": "Isang pandiwa, tatlong anyo.",
       "points": [
-        "**Perpektibo** — tapos na: nagsanay.",
-        "**Imperpektibo** — ginagawa pa: nagsasanay.",
-        "**Kontemplatibo** — hindi pa nagsimula: magsasanay.",
+        "**Perpektibo**: tapos na: nagsanay.",
+        "**Imperpektibo**: ginagawa pa: nagsasanay.",
+        "**Kontemplatibo**: hindi pa nagsimula: magsasanay.",
         "**Tingnan ang ngayon.** Saan nakaupo ang kilos kumpara doon?"
       ]
     },
     {
       "kind": "figure",
       "figure": "aspektoPandiwa",
-      "title": "Tatlong tagpo",
+      "title": "Tatlong aspekto sa guhit ng panahon",
       "text": "Pindutin ang tatlong anyo. Tingnan kung saan tumama ang bar sa guhit ng panahon."
     },
     {
@@ -90,9 +90,9 @@
       "title": "Tatlong anyo ng isang misyon",
       "text": "Nakikita mo ang tatlong aspekto sa listahan ng misyon.",
       "points": [
-        "**Natapos** — perpektibo. May tsek.",
-        "**Ginagawa** — imperpektibo. May progress bar.",
-        "**Nakalista** — kontemplatibo. Hindi pa nasimulan.",
+        "**Natapos**: perpektibo. May tsek.",
+        "**Ginagawa**: imperpektibo. May progress bar.",
+        "**Nakalista**: kontemplatibo. Hindi pa nasimulan.",
         "**Iisang misyon.** Tatlong estado."
       ]
     },
@@ -174,7 +174,7 @@
       "text": "Disyembre 1941 hanggang 1945.",
       "points": [
         "**Bumagsak ang Bataan** noong Abril 1942.",
-        "**Pinalitan ang pera** — tinawag itong Mickey Mouse money.",
+        "**Pinalitan ang pera**: tinawag itong Mickey Mouse money.",
         "**Kakaunti ang pagkain.** May rasyon at may palengkeng itim.",
         "**Itinuro ang Nihongo** sa mga paaralan."
       ]
@@ -185,8 +185,8 @@
       "title": "Hindi lahat ay sundalo",
       "text": "Napilitang pumili ang mga ordinaryong tao.",
       "points": [
-        "**Gerilya** — lumaban nang patago, buong panahon.",
-        "**Makapili** — tumulong sa mga Hapon.",
+        "**Gerilya**: lumaban nang patago, buong panahon.",
+        "**Makapili**: tumulong sa mga Hapon.",
         "**Karamihan** ay nagtago at naghanap ng makakain.",
         "**Ang pagpiling iyon** ang karaniwang sentro ng akda."
       ]
@@ -225,9 +225,9 @@
       "title": "Aspekto ang gulugod ng kuwento",
       "text": "Nabubuo ang salaysay sa paglipat-lipat ng aspekto.",
       "points": [
-        "**\"Nagtago sila\"** — tapos na.",
-        "**\"Naghihintay sila\"** — nangyayari pa.",
-        "**\"Aalis sila bukas\"** — hindi pa nangyari.",
+        "**\"Nagtago sila\"**: tapos na.",
+        "**\"Naghihintay sila\"**: nangyayari pa.",
+        "**\"Aalis sila bukas\"**: hindi pa nangyari.",
         "**Isang talata, tatlong aspekto.** Iyon ang tensyon."
       ]
     },
@@ -406,7 +406,7 @@
     }
   ],
   "teacher": {
-    "summary": "Linggo 9 ng Filipino: aspekto at pokus ng pandiwa, ang pinakamabigat na linggo ng markahan. Mahalagang hindi ituring ang aspekto bilang tense: ang tanong ay hindi kailan kundi natapos na ba, kaya iginuhit ito sa isang guhit ng panahon na may markang NGAYON. Ang pokus ay binawasan sa isang tanong — alin ang may pananda na ang — sa halip na pagmemorya ng apat na pangkat ng panlapi, dahil ang pananda ay nakikita at ang panlapi ay kailangang alalahanin. IMPORTANTE PARA SA GURO O MAGULANG: walang buod ng Si Pitong dito dahil hindi pa nakikita ang edisyon. Ang ikatlong bahagi ay totoong kasaysayan ng pananakop, na nakakabit din sa Araling Panlipunan ngayong markahan.",
+    "summary": "Linggo 9 ng Filipino: aspekto at pokus ng pandiwa, ang pinakamabigat na linggo ng markahan. Mahalagang hindi ituring ang aspekto bilang tense: ang tanong ay hindi kailan kundi natapos na ba, kaya iginuhit ito sa isang guhit ng panahon na may markang NGAYON. Ang pokus ay binawasan sa isang tanong (alin ang may pananda na ang) sa halip na pagmemorya ng apat na pangkat ng panlapi, dahil ang pananda ay nakikita at ang panlapi ay kailangang alalahanin. IMPORTANTE PARA SA GURO O MAGULANG: walang buod ng Si Pitong dito dahil hindi pa nakikita ang edisyon. Ang ikatlong bahagi ay totoong kasaysayan ng pananakop, na nakakabit din sa Araling Panlipunan ngayong markahan.",
     "discussion": [
       "Isang pandiwa, tatlong anyo: pasabihin sa kaniya nang malakas.",
       "Itanong: alin ang may ang sa pangungusap na ito?",

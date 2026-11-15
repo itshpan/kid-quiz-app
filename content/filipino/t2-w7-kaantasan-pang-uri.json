@@ -4,7 +4,7 @@
   "courseTitle": "Filipino",
   "week": 7,
   "title": "Kaantasan ng Pang-uri",
-  "subtitle": "Lantay, pahambing, pasukdol — bilangin muna.",
+  "subtitle": "Lantay, pahambing, pasukdol. Bilangin muna.",
   "estMinutes": 20,
   "objectives": [
     "Matukoy ang lantay, pahambing at pasukdol",
@@ -18,7 +18,7 @@
       "icon": "📊",
       "eyebrow": "Bahagi 1 · Tatlong antas",
       "title": "Ilang bagay ang pinaghahambing?",
-      "text": "Hindi pangalan ang tatlong antas ng pang-uri. Bilang iyon. Isa, dalawa, o tatlo pataas — at iba ang anyo ng salita sa bawat isa."
+      "text": "Hindi pangalan ang tatlong antas ng pang-uri. Bilang iyon. Isa, dalawa, o tatlo pataas. At iba ang anyo ng salita sa bawat isa."
     },
     {
       "kind": "idea",
@@ -26,16 +26,16 @@
       "title": "Isa, dalawa, tatlo pataas",
       "text": "Ang bilang ng pinaghahambing ang pumipili ng antas.",
       "points": [
-        "**Lantay** — isang bagay lamang, walang kahambing.",
-        "**Pahambing** — dalawang bagay.",
-        "**Pasukdol** — pinakamataas sa lahat.",
+        "**Lantay**: isang bagay lamang, walang kahambing.",
+        "**Pahambing**: dalawang bagay.",
+        "**Pasukdol**: pinakamataas sa lahat.",
         "**Bilangin muna.** Pagkatapos piliin ang anyo."
       ]
     },
     {
       "kind": "figure",
       "figure": "kaantasanPangUri",
-      "title": "Tatlong tagpo",
+      "title": "Tatlong antas ng pang-uri, iginuhit bilang bar",
       "text": "Pindutin ang lantay, pahambing at pasukdol. Tingnan ang bar."
     },
     {
@@ -88,10 +88,10 @@
       "title": "Mga senyas ng pasukdol",
       "text": "Marami, at lahat may isang ibig sabihin: wala nang hihigit.",
       "points": [
-        "**pinaka-** — pinakamabilis, pinakamatibay.",
-        "**napaka-** — napakabilis.",
-        "**ubod ng** — ubod ng bilis.",
-        "**sobrang, saksakan ng** — pareho ring pasukdol."
+        "**pinaka-**: pinakamabilis, pinakamatibay.",
+        "**napaka-**: napakabilis.",
+        "**ubod ng**: ubod ng bilis.",
+        "**sobrang, saksakan ng**: pareho ring pasukdol."
       ]
     },
     {
@@ -161,9 +161,9 @@
       "title": "Ano ang dala-dala ng isang tao noon",
       "text": "Tatlong pasanin ang nagtatakda ng araw-araw.",
       "points": [
-        "**Tributo** — buwis na binabayaran sa korona.",
-        "**Polo y servicio** — sapilitang paggawa, apatnapung araw.",
-        "**Cedula personal** — papel na dala-dala, laging hinihingi.",
+        "**Tributo**: buwis na binabayaran sa korona.",
+        "**Polo y servicio**: sapilitang paggawa, apatnapung araw.",
+        "**Cedula personal**: papel na dala-dala, laging hinihingi.",
         "**Nasa pueblo ang simbahan**, at nasa simbahan ang kapangyarihan."
       ]
     },
@@ -173,10 +173,10 @@
       "title": "Sino ang nasa itaas",
       "text": "May malinaw na hanay, at nakikita ito sa akda.",
       "points": [
-        "**Espanyol na ipinanganak sa Espanya** — pinakamataas.",
-        "**Insulares** — Espanyol na ipinanganak dito.",
-        "**Mestizo at principalia** — ang lokal na nakaaangat.",
-        "**Indio** — ang karamihan, at ang pinakamabigat ang dala."
+        "**Espanyol na ipinanganak sa Espanya**: pinakamataas.",
+        "**Insulares**: Espanyol na ipinanganak dito.",
+        "**Mestizo at principalia**: ang lokal na nakaaangat.",
+        "**Indio**: ang karamihan, at ang pinakamabigat ang dala."
       ]
     },
     {
@@ -203,9 +203,9 @@
       "title": "Pang-uri ang nagsasabi ng antas",
       "text": "Kapag naglalarawan ng lipunan ang isang akda, pang-uri ang sandata nito.",
       "points": [
-        "**\"Mabigat ang buwis\"** — lantay.",
-        "**\"Mas mabigat sa indio\"** — pahambing.",
-        "**\"Pinakamabigat sa kanila\"** — pasukdol.",
+        "**\"Mabigat ang buwis\"**: lantay.",
+        "**\"Mas mabigat sa indio\"**: pahambing.",
+        "**\"Pinakamabigat sa kanila\"**: pasukdol.",
         "**Isang antas lang ang nagbago.** Buong argumento ang naipahayag."
       ]
     },
@@ -382,7 +382,7 @@
     }
   ],
   "teacher": {
-    "summary": "Linggo 7 ng Filipino: ang kaantasan ng pang-uri. Ipinapasok ito bilang pagbilang, hindi bilang pagmemorya ng tatlong pangalan, at iginuhit bilang isa, dalawa at tatlong bar ng bilis, kaya nakikita ang antas bago mabasa ang pangalan nito. Hiwalay ang kard para sa dalawang uri ng pahambing dahil ang kasing- ay madalas mapagkamalang pasukdol. IMPORTANTE PARA SA GURO O MAGULANG: walang buod ng Si Segunda dito dahil hindi pa nakikita ang edisyon. Ang ikalawang bahagi ay ang totoong pasanin ng isang Indio sa panahong iyon — tributo, polo, cedula — at ang hanay ng lipunan, na kailangan upang maunawaan ang kahit anong tagpo sa akda.",
+    "summary": "Linggo 7 ng Filipino: ang kaantasan ng pang-uri. Ipinapasok ito bilang pagbilang, hindi bilang pagmemorya ng tatlong pangalan, at iginuhit bilang isa, dalawa at tatlong bar ng bilis, kaya nakikita ang antas bago mabasa ang pangalan nito. Hiwalay ang kard para sa dalawang uri ng pahambing dahil ang kasing- ay madalas mapagkamalang pasukdol. IMPORTANTE PARA SA GURO O MAGULANG: walang buod ng Si Segunda dito dahil hindi pa nakikita ang edisyon. Ang ikalawang bahagi ay ang totoong pasanin ng isang Indio sa panahong iyon (tributo, polo, cedula) at ang hanay ng lipunan, na kailangan upang maunawaan ang kahit anong tagpo sa akda.",
     "discussion": [
       "Bago sumagot: ilang bagay ang pinaghahambing?",
       "Itanong kung bakit hindi pasukdol ang kasing-.",

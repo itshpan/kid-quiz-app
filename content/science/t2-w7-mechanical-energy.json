@@ -87,7 +87,7 @@
     {
       "kind": "figure",
       "figure": "squareLawLab",
-      "title": "Press a speed. Watch which bar runs away",
+      "title": "Mass raises energy; speed squares it",
       "text": "One bar is what happens if you double the mass. The other is this speed. Try 20, then 160."
     },
     {
@@ -152,7 +152,7 @@
       "points": [
         "**That is kinetic energy** stored in spinning mass.",
         "**Friction in the bearings** is what finally removes it.",
-        "**Heavier blades coast longer** — more mass, more stored energy.",
+        "**Heavier blades coast longer**: more mass, more stored energy.",
         "**Dry bearings stop it fast**, which is a useful thing to notice."
       ]
     },

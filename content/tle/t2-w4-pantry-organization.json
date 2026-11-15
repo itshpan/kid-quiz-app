@@ -4,7 +4,7 @@
   "courseTitle": "TLE",
   "week": 4,
   "title": "Pantry Organization",
-  "subtitle": "First in, first out — and the two date words that are not the same.",
+  "subtitle": "First in, first out. And the two date words that are not the same.",
   "estMinutes": 20,
   "objectives": [
     "Decide where each kind of food is stored",
@@ -35,7 +35,7 @@
     {
       "kind": "figure",
       "figure": "pantryOrder",
-      "title": "You decide where it goes",
+      "title": "Four items, and where each one belongs",
       "text": "Four items. Pick a place and see what would actually happen."
     },
     {
@@ -47,7 +47,7 @@
           "The one expiring sooner",
           "The newer one",
           "Either",
-          "Neither — side by side"
+          "Neither, side by side"
         ],
         "answerIndex": 0,
         "explain": "FIFO. You will reach for the front one.",
@@ -60,10 +60,10 @@
       "title": "Four places, four reasons",
       "text": "The reason is always moisture, temperature or light.",
       "points": [
-        "**Fridge, at or under 4°C** — anything perishable.",
-        "**Freezer at -18°C** — long storage; growth stopped.",
-        "**Cool dark cupboard** — oil, rice, flour. Light turns oil rancid.",
-        "**Open shelf** — tins and jars only."
+        "**Fridge, at or under 4°C**: anything perishable.",
+        "**Freezer at -18°C**: long storage; growth stopped.",
+        "**Cool dark cupboard**: oil, rice, flour. Light turns oil rancid.",
+        "**Open shelf**: tins and jars only."
       ]
     },
     {
@@ -88,8 +88,8 @@
       "title": "Two different words that people treat as one",
       "text": "Only one of them is about safety.",
       "points": [
-        "**Use by** — a safety date. Do not eat it after.",
-        "**Best before** — a quality date. It is legal to eat.",
+        "**Use by**: a safety date. Do not eat it after.",
+        "**Best before**: a quality date. It is legal to eat.",
         "**Opened changes everything.** The date on the tin assumed it was shut.",
         "**Write the opening date** on the container."
       ]

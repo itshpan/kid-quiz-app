@@ -56,7 +56,7 @@
       "title": "What a fan's noise is actually telling you",
       "text": "A fan makes several sounds at once, and each one has a different source inside the case.",
       "points": [
-        "**The whoosh** is blades chopping air — normal, rises with speed.",
+        "**The whoosh** is blades chopping air. Normal, rises with speed.",
         "**A hum** is the motor's magnetic field vibrating the metal.",
         "**A rattle or grind** is bearings, and that one is a fault.",
         "**Listening is diagnosis.** You are hearing parts, not just noise."
@@ -78,9 +78,9 @@
       "title": "Three routes, not one",
       "text": "Heat always moves from hotter to colder. How it gets there is what you have to name.",
       "points": [
-        "**Conduction** — through a solid, particle to particle.",
-        "**Convection** — a fluid carries it, hot rising and cold sinking.",
-        "**Radiation** — straight through space, no material needed.",
+        "**Conduction**: through a solid, particle to particle.",
+        "**Convection**: a fluid carries it, hot rising and cold sinking.",
+        "**Radiation**: straight through space, no material needed.",
         "**The Sun reaches you by radiation.** Nothing else could cross the gap."
       ]
     },
@@ -120,9 +120,9 @@
       "title": "Straight lines, until something interferes",
       "text": "Light travels in straight lines. Everything you see is light that bounced off something into your eye.",
       "points": [
-        "**Reflection** — it bounces off.",
-        "**Refraction** — it bends on entering a new material.",
-        "**Absorption** — it is taken in and becomes heat.",
+        "**Reflection**: it bounces off.",
+        "**Refraction**: it bends on entering a new material.",
+        "**Absorption**: it is taken in and becomes heat.",
         "**Shadows are proof** that it does not bend round corners."
       ]
     },
@@ -377,7 +377,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 8 Science, three energy forms in one week, so each is given one clear rule rather than full coverage: sound needs a medium, heat has three named routes, light travels straight. The fan appears twice on purpose — its noises are a diagnosis he can practise, and the fact that a fan warms a room while cooling a person is the week's best misconception-breaker, since it separates temperature from how something feels. The lightning gap gives him a number to use.",
+    "summary": "Term 2 Week 8 Science, three energy forms in one week, so each is given one clear rule rather than full coverage: sound needs a medium, heat has three named routes, light travels straight. The fan appears twice on purpose. Its noises are a diagnosis he can practise, and the fact that a fan warms a room while cooling a person is the week's best misconception-breaker, since it separates temperature from how something feels. The lightning gap gives him a number to use.",
     "discussion": [
       "Why is space silent?",
       "If a fan warms the room, why does it feel cooler?",

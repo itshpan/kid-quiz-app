@@ -4,7 +4,7 @@
   "courseTitle": "TLE",
   "week": 1,
   "title": "Kitchen Orientation & Tools",
-  "subtitle": "A tool is a job — and why a sharp knife is the safe one.",
+  "subtitle": "A tool is a job. And why a sharp knife is the safe one.",
   "estMinutes": 20,
   "objectives": [
     "Name the main kitchen tools and their jobs",
@@ -18,7 +18,7 @@
       "icon": "🔪",
       "eyebrow": "Part 1 · TLE",
       "title": "A tool is a job, not an object",
-      "text": "A drawer full of named things is not a skill. Knowing which one the job needs — and why that one — is."
+      "text": "A drawer full of named things is not a skill. Knowing which one the job needs (and why that one) is."
     },
     {
       "kind": "idea",
@@ -26,16 +26,16 @@
       "title": "Six tools cover almost everything",
       "text": "Start here and you can cook most things.",
       "points": [
-        "**Chef's knife** — most cutting.",
-        "**Paring knife** — small work held in your hand.",
-        "**Measuring cups and spoons** — \"a bit\" is not a quantity.",
-        "**Colander, tongs, thermometer** — separate, move, check."
+        "**Chef's knife**: most cutting.",
+        "**Paring knife**: small work held in your hand.",
+        "**Measuring cups and spoons**: \"a bit\" is not a quantity.",
+        "**Colander, tongs, thermometer**: separate, move, check."
       ]
     },
     {
       "kind": "figure",
       "figure": "kitchenTools",
-      "title": "Six buttons",
+      "title": "Six tools, and the job each one is for",
       "text": "Tap each tool. The second line is why that one and not another."
     },
     {
@@ -169,7 +169,7 @@
       "points": [
         "Chef's knife for most cutting; paring knife for hand work.",
         "A thermometer, not colour, tells you food is safe.",
-        "Sharp knives are safer — less force, less slip.",
+        "Sharp knives are safer. Less force, less slip.",
         "Everything out and prepped before any heat."
       ]
     }
@@ -305,7 +305,7 @@
         "the lid cools"
       ],
       "answerIndex": 0,
-      "explain": "No clock and no sensor — a Curie-point magnet.",
+      "explain": "No clock and no sensor. A Curie-point magnet.",
       "objective": "Name the main kitchen tools and their jobs",
       "seconds": 22
     },
@@ -339,7 +339,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 1 TLE. Tools are introduced by the job they do rather than as a labelled drawer, and the week's argument is that six tools cover almost everything, which is more useful than naming twenty. The counter-intuitive safety fact — a sharp knife is safer because it needs less force — gets its own card and a checkpoint, because it is the one that changes behaviour. The rice cooker teardown is the strongest hook in the week and is accurate: a Curie-point ferrite magnet releases the switch once the water is gone and the pot climbs past 100°C. The car lens defends measuring spoons on the only ground he will accept: they are a spec.",
+    "summary": "Term 2 Week 1 TLE. Tools are introduced by the job they do rather than as a labelled drawer, and the week's argument is that six tools cover almost everything, which is more useful than naming twenty. The counter-intuitive safety fact (a sharp knife is safer because it needs less force) gets its own card and a checkpoint, because it is the one that changes behaviour. The rice cooker teardown is the strongest hook in the week and is accurate: a Curie-point ferrite magnet releases the switch once the water is gone and the pot climbs past 100°C. The car lens defends measuring spoons on the only ground he will accept: they are a spec.",
     "discussion": [
       "Ask which tool he would reach for, and why that one.",
       "Ask why a dull knife is the dangerous one.",

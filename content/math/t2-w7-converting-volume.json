@@ -88,8 +88,8 @@
       "text": "Squares get the jump twice; cubes get it three times.",
       "points": [
         "**1 m = 100 cm.**",
-        "**1 m² = 10,000 cm²** — the 100 squared.",
-        "**1 m³ = 1,000,000 cm³** — the 100 cubed.",
+        "**1 m² = 10,000 cm²**: the 100 squared.",
+        "**1 m³ = 1,000,000 cm³**: the 100 cubed.",
         "**Count the dimensions** and you know the jump."
       ]
     },
@@ -99,8 +99,8 @@
       "title": "Did the number move the right way?",
       "text": "A bigger unit should give a smaller number. If it got bigger, you went backwards.",
       "points": [
-        "**cm³ to m³** — the number must get smaller.",
-        "**L to mL** — the number must get bigger.",
+        "**cm³ to m³**: the number must get smaller.",
+        "**L to mL**: the number must get bigger.",
         "**Ask which unit is bigger** before you calculate.",
         "**A sanity check costs two seconds.**"
       ]
@@ -121,11 +121,11 @@
       "icon": "🌀",
       "eyebrow": "Teardown mode",
       "title": "Capacitors are measured in millionths",
-      "text": "The fan capacitor says 2.5 µF. That µ is micro — one millionth of a farad.",
+      "text": "The fan capacitor says 2.5 µF. That µ is micro. One millionth of a farad.",
       "points": [
         "**A farad is enormous**, so real parts are measured in micro.",
         "**2.5 µF** is 0.0000025 F written sensibly.",
-        "**Same trick as powers of ten** — move the size into the prefix.",
+        "**Same trick as powers of ten**: move the size into the prefix.",
         "**Mix up µF and nF** and the motor will not start."
       ]
     },
@@ -333,7 +333,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 7 Math, the first of the scope's two conversion weeks. The lesson is organised around the one thing that actually goes wrong — the cubic jump — and makes it a consequence of dimensions rather than a number to memorise: 100 cubed, once per direction. Area is shown beside it so the pattern generalises. The engine card is doing real work: cc, cm³ and mL are three names he already half-knows for one unit, and connecting them removes a whole category of confusion.",
+    "summary": "Term 2 Week 7 Math, the first of the scope's two conversion weeks. The lesson is organised around the one thing that actually goes wrong (the cubic jump) and makes it a consequence of dimensions rather than a number to memorise: 100 cubed, once per direction. Area is shown beside it so the pattern generalises. The engine card is doing real work: cc, cm³ and mL are three names he already half-knows for one unit, and connecting them removes a whole category of confusion.",
     "discussion": [
       "Why is the cubic jump a million?",
       "Which unit is bigger, and so which way should the number move?",

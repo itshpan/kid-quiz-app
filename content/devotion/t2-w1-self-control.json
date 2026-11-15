@@ -4,7 +4,7 @@
   "courseTitle": "Devotion",
   "week": 1,
   "title": "Self-Control in Choices",
-  "subtitle": "The gap between feeling and acting — and how to use it.",
+  "subtitle": "The gap between feeling and acting. And how to use it.",
   "estMinutes": 20,
   "objectives": [
     "Define self-control as the gap between feeling and acting",
@@ -35,7 +35,7 @@
     {
       "kind": "figure",
       "figure": "impulseGap",
-      "title": "You choose what goes in the gap",
+      "title": "The gap between the urge and the move",
       "text": "Work it through. Each other choice shows what it would cost."
     },
     {
@@ -63,7 +63,7 @@
         "**Galatians 5:22-23** lists the fruit of the Spirit.",
         "**Self-control is the last of the nine**, not the first.",
         "**Proverbs 25:28:** no self-control is a city with broken walls.",
-        "**Not a weak city — an open one.** Anything can walk in."
+        "**Not a weak city. An open one.** Anything can walk in."
       ]
     },
     {
@@ -78,7 +78,7 @@
           "a desert"
         ],
         "answerIndex": 1,
-        "explain": "Not weak. Open — anything can walk in.",
+        "explain": "Not weak. Open. Anything can walk in.",
         "seconds": 20
       }
     },
@@ -141,7 +141,7 @@
       "points": [
         "The feeling is not chosen; the gap is yours.",
         "Galatians 5:22-23 lists self-control last among nine.",
-        "Proverbs 25:28 — no self-control is a city with no walls.",
+        "Proverbs 25:28. No self-control is a city with no walls.",
         "Notice it, breathe once, ask what you want afterwards."
       ]
     }
@@ -207,7 +207,7 @@
       "type": "multiple",
       "text": "The point of that image is that the person is…",
       "options": [
-        "unprotected — anything can get in",
+        "unprotected, anything can get in",
         "alone",
         "weak",
         "angry"

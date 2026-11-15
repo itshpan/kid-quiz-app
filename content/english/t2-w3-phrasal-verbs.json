@@ -46,10 +46,10 @@
       "title": "Taking something apart has its own verbs",
       "text": "Almost every step of a teardown is a phrasal verb, and swapping the particle changes the job.",
       "points": [
-        "**take apart** — dismantle it into pieces.",
-        "**take off** — remove one part, like the guard.",
-        "**put back** — return it to where it was.",
-        "**put together** — reassemble the whole thing."
+        "**take apart**: dismantle it into pieces.",
+        "**take off**: remove one part, like the guard.",
+        "**put back**: return it to where it was.",
+        "**put together**: reassemble the whole thing."
       ]
     },
     {
@@ -88,10 +88,10 @@
       "title": "The ones every pilot uses",
       "text": "Flight vocabulary is unusually full of them, and the particles matter.",
       "points": [
-        "**take off** — leave the ground.",
-        "**touch down** — land.",
-        "**turn back** — abandon the route and return.",
-        "**hold off** — delay. Not the same as hold on."
+        "**take off**: leave the ground.",
+        "**touch down**: land.",
+        "**turn back**: abandon the route and return.",
+        "**hold off**: delay. Not the same as hold on."
       ]
     },
     {
@@ -154,7 +154,7 @@
         },
         {
           "term": "Particle",
-          "def": "The small word — up, off, out, back — attached to the verb."
+          "def": "The small word (up, off, out, back) attached to the verb."
         },
         {
           "term": "Separable",
@@ -245,7 +245,7 @@
     },
     {
       "type": "multiple",
-      "text": "'He ran up the hill' — is 'ran up' a phrasal verb here?",
+      "text": "'He ran up the hill'. Is 'ran up' a phrasal verb here?",
       "options": [
         "Only in the past",
         "No, it is a verb plus a preposition",
@@ -337,7 +337,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 3 English. Phrasal verbs are introduced through the particle rather than the verb, because the particle is what carries the meaning — take off, take apart, take over — and that framing makes them learnable instead of arbitrary. The separability test is given as a practical way to tell a phrasal verb from a verb plus preposition, which is the distinction an exam will probe. Vocabulary is drawn from a teardown and from aviation, both of which use these constantly and both of which he already has words for.",
+    "summary": "Term 2 Week 3 English. Phrasal verbs are introduced through the particle rather than the verb, because the particle is what carries the meaning (take off, take apart, take over) and that framing makes them learnable instead of arbitrary. The separability test is given as a practical way to tell a phrasal verb from a verb plus preposition, which is the distinction an exam will probe. Vocabulary is drawn from a teardown and from aviation, both of which use these constantly and both of which he already has words for.",
     "discussion": [
       "Why can't you translate a phrasal verb word by word?",
       "How does the splitting test work?",

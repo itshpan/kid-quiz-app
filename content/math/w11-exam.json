@@ -133,7 +133,7 @@
       "src": "assets/img/math-t2w11-desk.jpg",
       "alt": "An exam desk with blank squared paper, a ruler, a pencil, a calculator and small wooden cubes",
       "credit": "Generated image",
-      "text": "The commonest lost mark is a correct calculation answering a different question.",
+      "text": "The most common lost mark: a correct calculation that answers a different question.",
       "lightBg": true
     },
     {
@@ -535,7 +535,7 @@
     }
   ],
   "teacher": {
-    "summary": "Week 11 is exam week for Math and teaches no new content. The deck is built around the three things that actually move a Grade 6 maths mark: estimating before calculating, writing working down so method marks survive a slip, and naming the topic before choosing a method. That last one matters most here, because almost every error in this term's material is a correct method borrowed from the wrong topic — lining up decimal points when multiplying, finding a common denominator when multiplying fractions, flipping both fractions when dividing. Every number in the 24-question paper has been checked programmatically.",
+    "summary": "Week 11 is exam week for Math and teaches no new content. The deck is built around the three things that actually move a Grade 6 maths mark: estimating before calculating, writing working down so method marks survive a slip, and naming the topic before choosing a method. That last one matters most here, because almost every error in this term's material is a correct method borrowed from the wrong topic. Lining up decimal points when multiplying, finding a common denominator when multiplying fractions, flipping both fractions when dividing. Every number in the 24-question paper has been checked programmatically.",
     "discussion": [
       "Ask him to estimate before every answer for the whole paper, out loud. It is the single highest-value habit here.",
       "Ask which topic a question belongs to before he starts it.",

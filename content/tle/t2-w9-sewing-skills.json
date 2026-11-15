@@ -26,16 +26,16 @@
       "title": "Strong, weak, and deliberately temporary",
       "text": "Three categories cover the whole set.",
       "points": [
-        "**Backstitch** — the strongest hand stitch.",
-        "**Running stitch** — fast and weak.",
-        "**Basting** — long, loose, meant to be removed.",
-        "**Hemming and overcast** — finishing an edge, not joining."
+        "**Backstitch**: the strongest hand stitch.",
+        "**Running stitch**: fast and weak.",
+        "**Basting**: long, loose, meant to be removed.",
+        "**Hemming and overcast**: finishing an edge, not joining."
       ]
     },
     {
       "kind": "figure",
       "figure": "stitchKinds",
-      "title": "Six buttons",
+      "title": "Six stitches, and how much each one will hold",
       "text": "Tap each stitch. The second line is how much it will hold."
     },
     {
@@ -89,7 +89,7 @@
       "text": "A button sewn flat against the cloth will not fasten.",
       "points": [
         "**Leave slack** for the thickness of the buttonhole layer.",
-        "**Build a shank** — a few wraps of thread under the button.",
+        "**Build a shank**: a few wraps of thread under the button.",
         "**Six passes is plenty.** Twenty makes it bulky, not stronger.",
         "**Knot underneath**, where it will not be rubbed."
       ]
@@ -339,7 +339,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 9 TLE. Stitches are introduced by how much they hold rather than by name, which makes the set learnable as three categories: strong, fast-and-weak, and deliberately temporary. Basting gets its own card because a stitch designed to be weak sounds pointless until the reason is given, and because pins slipping is a real problem he will meet. The button card lists the four things people skip, with the one that matters most — slack for the buttonhole layer — first. The teardown lens treats a stitch as a mechanical fastener and a backstitch as overlapping load paths, which is both accurate and the framing most likely to land.",
+    "summary": "Term 2 Week 9 TLE. Stitches are introduced by how much they hold rather than by name, which makes the set learnable as three categories: strong, fast-and-weak, and deliberately temporary. Basting gets its own card because a stitch designed to be weak sounds pointless until the reason is given, and because pins slipping is a real problem he will meet. The button card lists the four things people skip, with the one that matters most (slack for the buttonhole layer) first. The teardown lens treats a stitch as a mechanical fastener and a backstitch as overlapping load paths, which is both accurate and the framing most likely to land.",
     "discussion": [
       "Ask which stitch he would use and why that one.",
       "Ask why basting exists at all.",
@@ -348,7 +348,7 @@
     ],
     "extension": [
       "Have him sew a button on properly, with a shank, and test it in a buttonhole.",
-      "Have him repair one real thing — a strap, a hem, a seam."
+      "Have him repair one real thing. A strap, a hem, a seam."
     ],
     "misconceptions": [
       "\"One stitch is as good as another.\" Strength is the whole choice.",

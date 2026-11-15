@@ -4,7 +4,7 @@
   "courseTitle": "English",
   "week": 3,
   "title": "Possessive Nouns",
-  "subtitle": "Where the apostrophe goes — and a rescue that makes things worse.",
+  "subtitle": "Where the apostrophe goes. And a rescue that makes things worse.",
   "estMinutes": 20,
   "objectives": [
     "Form the possessive of singular and plural nouns",
@@ -27,7 +27,7 @@
       "title": "Singular noun: add 's",
       "text": "It doesn't matter what letter the word ends in. If it's one thing, add apostrophe then s.",
       "points": [
-        "**the driver's helmet** — one driver.",
+        "**the driver's helmet**: one driver.",
         "**the dog's lead**, **the car's engine**.",
         "**Works for names too:** Maria's book."
       ]
@@ -36,9 +36,9 @@
       "kind": "idea",
       "eyebrow": "Rule 2",
       "title": "Plural ending in s: apostrophe only",
-      "text": "There's already an s on the end. Don't add another — just put the apostrophe after it.",
+      "text": "There's already an s on the end. Don't add another. Just put the apostrophe after it.",
       "points": [
-        "**the drivers' helmets** — several drivers.",
+        "**the drivers' helmets**: several drivers.",
         "**the boys' room**, **the students' work**.",
         "**Two steps:** make it plural first, then add the apostrophe."
       ]
@@ -47,7 +47,7 @@
       "kind": "figure",
       "figure": "possessiveRule",
       "eyebrow": "Try it",
-      "title": "Tap each case and see where the mark goes",
+      "title": "Five cases, and where the apostrophe goes",
       "text": "Five situations, including the one almost everybody gets wrong. Two quiz questions come from this."
     },
     {
@@ -61,7 +61,7 @@
           "the player's changing room"
         ],
         "answerIndex": 1,
-        "explain": "players' — plural first (players), then the apostrophe goes after the s. One player would be player's.",
+        "explain": "players'. Plural first (players), then the apostrophe goes after the s. One player would be player's.",
         "seconds": 20
       }
     },
@@ -71,7 +71,7 @@
       "title": "Irregular plurals: add 's",
       "text": "Some plurals don't end in s at all. Those go back to the singular rule.",
       "points": [
-        "**the children's books** — not childrens'.",
+        "**the children's books**: not childrens'.",
         "**the men's team**, **the women's race**, **the people's choice**.",
         "**Rule of thumb:** no s on the end? Then add 's."
       ]
@@ -109,9 +109,9 @@
       "title": "Possessive versus plural",
       "text": "Back to Week 1: a plural never takes an apostrophe. Only possession does.",
       "points": [
-        "**three cars** — plural. No apostrophe.",
-        "**the car's engine** — one car owns it.",
-        "**the cars' engines** — several cars own them.",
+        "**three cars**: plural. No apostrophe.",
+        "**the car's engine**: one car owns it.",
+        "**the cars' engines**: several cars own them.",
         "**Ask: does something belong to it?** If not, no apostrophe."
       ]
     },
@@ -123,9 +123,9 @@
       "title": "Read a leaderboard carefully",
       "text": "The difference between one driver and a whole team is one apostrophe in the right place.",
       "points": [
-        "**the driver's time** — one person's lap.",
-        "**the drivers' times** — everyone's laps.",
-        "**the team's car** — one team owns it.",
+        "**the driver's time**: one person's lap.",
+        "**the drivers' times**: everyone's laps.",
+        "**the team's car**: one team owns it.",
         "**Same letters. The mark decides.**"
       ]
     },
@@ -139,7 +139,7 @@
           "the children's books",
           "childrens books"
         ],
-        "explain": "children's books. Children is already plural and doesn't end in s, so it takes 's — never childrens'.",
+        "explain": "children's books. Children is already plural and doesn't end in s, so it takes 's. Never childrens'.",
         "seconds": 15
       }
     },
@@ -195,11 +195,11 @@
     {
       "kind": "idea",
       "eyebrow": "Notice this",
-      "title": "\"Nine months' wages\" — that's this week's grammar",
+      "title": "\"Nine months' wages\". That's this week's grammar",
       "text": "The apostrophe sits after the s because months is plural. Wages belonging to nine months.",
       "points": [
-        "**one month's wages** — singular.",
-        "**nine months' wages** — plural, apostrophe after.",
+        "**one month's wages**: singular.",
+        "**nine months' wages**: plural, apostrophe after.",
         "**Same rule** as the drivers' helmets."
       ]
     },
@@ -344,7 +344,7 @@
         "the drivers' helmet"
       ],
       "answerIndex": 1,
-      "explain": "driver's — one owner, so apostrophe then s.",
+      "explain": "driver's. One owner, so apostrophe then s.",
       "objective": "Form the possessive of singular and plural nouns",
       "seconds": 20
     },
@@ -358,7 +358,7 @@
         "the drivers's helmets"
       ],
       "answerIndex": 1,
-      "explain": "drivers' — make it plural first, then put the apostrophe after the s. Never add a second s.",
+      "explain": "drivers'. Make it plural first, then put the apostrophe after the s. Never add a second s.",
       "objective": "Place the apostrophe correctly for plurals ending in s",
       "seconds": 20
     },
@@ -369,7 +369,7 @@
         "children's toys",
         "the children's toys"
       ],
-      "explain": "children's toys. Children is plural but doesn't end in s, so it takes 's — never childrens'.",
+      "explain": "children's toys. Children is plural but doesn't end in s, so it takes 's. Never childrens'.",
       "objective": "Form the possessive of singular and plural nouns",
       "seconds": 15
     },
@@ -391,7 +391,7 @@
       "type": "truefalse",
       "text": "To write about more than one car, you write 'car's'.",
       "answer": false,
-      "explain": "False. Plurals never take an apostrophe — it's just 'cars'. 'Car's' means something belongs to one car.",
+      "explain": "False. Plurals never take an apostrophe. It's just 'cars'. 'Car's' means something belongs to one car.",
       "objective": "Distinguish a possessive from a plural",
       "seconds": 12
     },
@@ -405,7 +405,7 @@
         "many dogs"
       ],
       "answerIndex": 0,
-      "explain": "the dog's bowl — the bowl belongs to the dog. The others are just plurals, so no apostrophe.",
+      "explain": "the dog's bowl. The bowl belongs to the dog. The others are just plurals, so no apostrophe.",
       "objective": "Distinguish a possessive from a plural",
       "seconds": 15
     },
@@ -481,17 +481,17 @@
         "the women's race"
       ],
       "answerIndex": 3,
-      "explain": "women's. Women is already plural and doesn't end in s, so it takes 's — the same as children's and men's.",
+      "explain": "women's. Women is already plural and doesn't end in s, so it takes 's. The same as children's and men's.",
       "objective": "Form the possessive of singular and plural nouns",
       "seconds": 15
     }
   ],
   "teacher": {
-    "summary": "Week 3 English covers possessive noun forms plus Chapter 3 of Stories of Don Quixote Written Anew for Children. The grammar is taught as a decision tree — singular, plural ending in s, plural not ending in s — with its/it's treated separately as the trap it is. The two halves connect directly: the phrase 'nine months' wages' from the chapter is a plural possessive, so the literature supplies a live example of the week's rule. Chapter 3 is also the first place the novel shows Quixote's help causing harm, which is worth sitting with rather than rushing past.",
+    "summary": "Week 3 English covers possessive noun forms plus Chapter 3 of Stories of Don Quixote Written Anew for Children. The grammar is taught as a decision tree (singular, plural ending in s, plural not ending in s) with its/it's treated separately as the trap it is. The two halves connect directly: the phrase 'nine months' wages' from the chapter is a plural possessive, so the literature supplies a live example of the week's rule. Chapter 3 is also the first place the novel shows Quixote's help causing harm, which is worth sitting with rather than rushing past.",
     "discussion": [
       "Ask him to explain the difference between the driver's helmet and the drivers' helmets. If he says how many drivers there are, he has it.",
       "Ask him to test its and it's by reading them as 'it is'. Making it a mechanical check beats trying to remember a rule.",
-      "Ask whether Don Quixote did the right thing. He acted bravely and left a boy worse off — both are true, and holding both is the skill.",
+      "Ask whether Don Quixote did the right thing. He acted bravely and left a boy worse off. Both are true, and holding both is the skill.",
       "Ask what he should have done instead. Staying to see the money handed over is the answer, and it generalises well beyond the story."
     ],
     "extension": "Have him write the same scene from Andrés's point of view, ending after Don Quixote leaves. It forces the possessive forms into use naturally and makes the failure of the rescue impossible to skim past.",

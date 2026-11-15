@@ -35,7 +35,7 @@
     {
       "kind": "figure",
       "figure": "dangerZone",
-      "title": "Press a temperature",
+      "title": "The same temperatures, with no heat step to save you",
       "text": "Same lab as week 3, and now it matters more. There is no heat step to rescue you."
     },
     {
@@ -73,7 +73,7 @@
         "text": "Does acid in kinilaw make raw fish safe?",
         "options": [
           "Yes, completely",
-          "No — it changes texture, not safety",
+          "No, it changes texture, not safety",
           "Only if left overnight",
           "Only with salt"
         ],
@@ -88,7 +88,7 @@
       "title": "Build it so it survives until lunch",
       "text": "The order you assemble in decides whether it is still good in three hours.",
       "points": [
-        "**Spread to the edges** — fat is a moisture barrier.",
+        "**Spread to the edges**: fat is a moisture barrier.",
         "**Wet ingredients in the middle**, dry against the bread.",
         "**Dress a salad at the last moment.** Acid wilts leaves.",
         "**Pack cold things with something cold.**"
@@ -339,7 +339,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 6 TLE. The week is organised around one idea that is rarely said out loud: cooking is a kill step, and a dish without one has different rules. The danger-zone lab from week 3 returns deliberately, because the same mechanism now carries more weight. Kinilaw gets a card and two questions because the belief that acid cooks fish is widespread, specific to this cuisine, and wrong in a way that matters — acid changes texture, freezing handles parasites. Assembly is taught as a build order, with the spread-to-the-edges moisture barrier as the concrete example of why the sequence changes the outcome.",
+    "summary": "Term 2 Week 6 TLE. The week is organised around one idea that is rarely said out loud: cooking is a kill step, and a dish without one has different rules. The danger-zone lab from week 3 returns deliberately, because the same mechanism now carries more weight. Kinilaw gets a card and two questions because the belief that acid cooks fish is widespread, specific to this cuisine, and wrong in a way that matters. Acid changes texture, freezing handles parasites. Assembly is taught as a build order, with the spread-to-the-edges moisture barrier as the concrete example of why the sequence changes the outcome.",
     "discussion": [
       "Ask what a kill step is and which dishes have none.",
       "Ask whether vinegar makes raw fish safe, and what does.",

@@ -30,7 +30,7 @@
       "points": [
         "**The news *is* on at six.**",
         "**Mathematics *is* my best subject.**",
-        "**Physics, economics, politics** — all singular.",
+        "**Physics, economics, politics**: all singular.",
         "**Measles and mumps** are singular too."
       ]
     },
@@ -49,7 +49,7 @@
     {
       "kind": "figure",
       "figure": "agreementTraps",
-      "title": "The traps, one at a time",
+      "title": "Six places agreement goes wrong",
       "text": "Tap each one. These are the exact shapes the paper uses."
     },
     {
@@ -302,8 +302,8 @@
       "eyebrow": "Recap",
       "title": "The four that matter",
       "points": [
-        "**News, maths, physics** — singular, despite the -s.",
-        "**Scissors and trousers** — always plural.",
+        "**News, maths, physics**: singular, despite the -s.",
+        "**Scissors and trousers**: always plural.",
         "**An amount as one unit is singular.**",
         "**A number of = plural. The number of = singular.**"
       ]
@@ -481,7 +481,7 @@
       "Ask why 'ten pesos is' rather than 'are'. One amount rather than ten separate coins.",
       "Ask what makes the sheep scene funny. Mistaking dust for an army is ordinary; naming forty knights is not."
     ],
-    "extension": "Have him write ten sentences using the nouns from this lesson — news, scissors, mathematics, a pair of, ten pesos, a title — and check each verb. These are the ones a good ear gets wrong.",
+    "extension": "Have him write ten sentences using the nouns from this lesson (news, scissors, mathematics, a pair of, ten pesos, a title) and check each verb. These are the ones a good ear gets wrong.",
     "misconceptions": [
       "'Anything ending in -s is plural.' News, mathematics and physics are all singular.",
       "'Scissors can be singular if there is one pair.' The noun stays plural. Say 'a pair of scissors' and pair becomes the subject.",

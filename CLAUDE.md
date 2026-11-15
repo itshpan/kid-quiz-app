@@ -156,6 +156,60 @@ Adding a week is one JSON file plus a `status` flip in `content/courses.json`.
 No JavaScript changes. That separation is deliberate: the renderer can be
 rewritten later without touching a single lesson.
 
+## Voice
+
+The house writing rules apply: straight to the point, fun, willing to joke. Two
+of them are enforced by `check-content.mjs` so they cannot drift back:
+
+- **No em or en dashes.** A colon, a full stop or a comma is doing the job more
+  clearly, and clarity wins for a reader who loses the thread easily.
+- **No buzzwords** from the house list. Every word on that list has a literal
+  sense that is fine here: `leverage` is mechanical advantage in a rudder and
+  in a punch, the Katipunan really was a revolutionary society, a game reward
+  really does unlock. Those uses are allowlisted by file, with the reason, in
+  the checker. A *new* buzzword use is a failure.
+
+**The explaining voice sits at a Grade 5 to 6 reading level.** Introduce hard
+words freely: `sovereignty`, `distillation`, `membranophone` and `ilustrados`
+are the lesson, and "Never talk down" below still holds. The level applies to
+the sentence doing the explaining, never to the idea it carries. So a fancy
+word standing where a plain one loses nothing is a fault, and
+`check-content.mjs` fails the build on a list of them.
+
+It is **not** a readability score, and that was measured rather than assumed.
+Flesch-Kincaid across all 2,354 prose cards is the wrong instrument twice over:
+the Filipino decks rate grade 10.7 while averaging 2.3 words per sentence,
+because Tagalog is agglutinative and those cards are word lists; and English
+already sits at a median of grade 4.2, with the high tail carried by subject
+terms and proper nouns. "Executed in 1872. Rizal dedicated El Filibusterismo to
+them." scores grade 15 and is exactly right. Words with no plain equivalent are
+kept out of the list on purpose: `require`, `remainder`, `magnitude`,
+`demonstrate` and `observe` were each considered and rejected, because
+"Courage requires fear" and "2 remainder 1" are correct, clear, and would only
+get worse if simplified.
+
+**Headlines on teaching cards are functional, not witty.** The card title says
+what is being taught. The instruction to tap or press belongs in the card text
+and in the figure's own label, where it already is. A figure card titled "Six
+buttons" tells him nothing at the exact moment he needs orienting; "Six periods,
+and the question each one was asking" tells him what he is about to learn. Save
+the wordplay for `lens`, `recap`, `break`, `story` and `fact` cards, and for the
+week 11 review lessons, where it is doing a different job.
+
+**One deliberate divergence from the house rules: antithesis is allowed here.**
+The rule against "X, not Y" exists because it usually spends half a sentence on
+something untrue so the true half sounds earned. In a lesson the rejected half
+is not a rhetorical prop, it is the wrong model he actually arrived with, and
+naming it before correcting it is the teaching:
+
+> Clutter is not mess. It is postponed decisions.
+> Blood is not one substance. It is cells and fragments in a straw-coloured liquid.
+> Gravity is not a property of Earth. It is a property of mass.
+
+Deleting the first half of those leaves a true sentence that corrects nothing.
+Keep them. This is not licence for the construction as decoration: if no
+misconception is being corrected, cut the rejected half.
+
 ## Non-negotiables
 
 - **Wrong answers are never red and never say "wrong."** Calm blue, "not yet",

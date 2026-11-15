@@ -4,7 +4,7 @@
   "courseTitle": "Filipino",
   "week": 2,
   "title": "Panghalip Panao",
-  "subtitle": "Ako, ikaw, siya — at ang pagkakaiba ng tayo sa kami.",
+  "subtitle": "Ako, ikaw, siya. At ang pagkakaiba ng tayo sa kami.",
   "estMinutes": 20,
   "objectives": [
     "Matukoy ang walong panghalip panao",
@@ -26,9 +26,9 @@
       "title": "Tatlong panauhan",
       "text": "Sino ang nagsasalita, sino ang kausap, sino ang pinag-uusapan.",
       "points": [
-        "**Unang panauhan:** ako, kami, tayo — ang nagsasalita.",
-        "**Ikalawang panauhan:** ikaw, ka, kayo — ang kausap.",
-        "**Ikatlong panauhan:** siya, sila — ang pinag-uusapan.",
+        "**Unang panauhan:** ako, kami, tayo. Ang nagsasalita.",
+        "**Ikalawang panauhan:** ikaw, ka, kayo. Ang kausap.",
+        "**Ikatlong panauhan:** siya, sila. Ang pinag-uusapan.",
         "**May tatlong kaukulan ang bawat isa**, tulad ng pangngalan."
       ]
     },
@@ -61,8 +61,8 @@
       "text": "Dalawa silang maramihan at unang panauhan. Isang tanong ang naghihiwalay.",
       "points": [
         "**Kasama ba ang kinakausap mo?**",
-        "**Oo — tayo.** \"Tayo na sa gym.\"",
-        "**Hindi — kami.** \"Kami lang ang nagsanay kahapon.\"",
+        "**Oo. Tayo.** \"Tayo na sa gym.\"",
+        "**Hindi. Kami.** \"Kami lang ang nagsanay kahapon.\"",
         "**Walang ganitong pagkakaiba sa Ingles.** Iisang \"we\" lang."
       ]
     },
@@ -102,8 +102,8 @@
       "title": "Hindi puwedeng mag-una ang ka",
       "text": "Dalawa ang anyo ng ikalawang panauhan na isahan, at may patakaran.",
       "points": [
-        "**Ikaw** — puwedeng mag-una: \"Ikaw ang nanalo.\"",
-        "**Ka** — hindi kailanman nag-una: \"Mabilis ka.\"",
+        "**Ikaw**: puwedeng mag-una: \"Ikaw ang nanalo.\"",
+        "**Ka**: hindi kailanman nag-una: \"Mabilis ka.\"",
         "**Mali:** \"Ka ay mabilis.\"",
         "**Walang ibang panghalip** na may ganitong hadlang."
       ]
@@ -179,7 +179,7 @@
       "text": "Kapag nagkukuwento ka ng sakit ng katawan, ikaw lang ang may ganoong datos.",
       "points": [
         "**\"Masakit ang balikat ko.\"** Walang ibang makakaramdam niyon.",
-        "**\"Masakit ang balikat niya\"** — ikinuwento lang sa iyo.",
+        "**\"Masakit ang balikat niya\"**: ikinuwento lang sa iyo.",
         "**Ibang tiyak** ang dalawang pangungusap.",
         "**Kaya mahalaga ang panauhan** sa isang doktor."
       ]
@@ -269,7 +269,7 @@
     },
     {
       "type": "type",
-      "text": "Punan: \"Binuksan ___ ang bentilador\" — ako ang gumawa. Isang salita.",
+      "text": "Punan: \"Binuksan ___ ang bentilador\". Ako ang gumawa. Isang salita.",
       "accept": [
         "ko"
       ],
@@ -357,7 +357,7 @@
     }
   ],
   "teacher": {
-    "summary": "Linggo 2 ng Filipino: ang panghalip panao. Tatlong kaisipan ang binubuksan: ang tatlong panauhan, ang pagkakaiba ng tayo at kami, at ang hadlang sa ka. Ang tayo-kami ang itinampok dahil ito ang kakayahan ng Filipino na wala sa Ingles — isang bagay na mas tiyak, hindi mas mahirap, kaya hindi ito itinuturing na kahirapan dito. Ang interaktibong talahanayan ang nagdadala ng buong paradigma upang hindi ito listahang binabasa kundi walong pindutang pinipindot.",
+    "summary": "Linggo 2 ng Filipino: ang panghalip panao. Tatlong kaisipan ang binubuksan: ang tatlong panauhan, ang pagkakaiba ng tayo at kami, at ang hadlang sa ka. Ang tayo-kami ang itinampok dahil ito ang kakayahan ng Filipino na wala sa Ingles. Isang bagay na mas tiyak, hindi mas mahirap, kaya hindi ito itinuturing na kahirapan dito. Ang interaktibong talahanayan ang nagdadala ng buong paradigma upang hindi ito listahang binabasa kundi walong pindutang pinipindot.",
     "discussion": [
       "Pasagutin siya: sino ang kasama sa tayo, at sino ang hindi?",
       "Itanong kung bakit mali ang \"Ka ay mabilis\".",
@@ -369,7 +369,7 @@
       "Ipasulat ang isang mensahe sa kakampi at isa sa kalaban, tingnan ang panghalip."
     ],
     "misconceptions": [
-      "\"Pareho ang tayo at kami.\" Kasama o hindi ang kausap — iyon ang pinagkaiba.",
+      "\"Pareho ang tayo at kami.\" Kasama o hindi ang kausap. Iyon ang pinagkaiba.",
       "\"Puwedeng mag-una ang ka.\" Hindi kailanman.",
       "\"Isang anyo lang ang panghalip.\" Tatlo, tulad ng pangngalan."
     ]

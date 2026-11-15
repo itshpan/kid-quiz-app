@@ -26,16 +26,16 @@
       "title": "Walang tiyak na tinutukoy",
       "text": "Ito ang nagpapaiba ng panaklaw sa lahat ng iba.",
       "points": [
-        "**Panao:** tiyak — si Carlo, siya.",
-        "**Pamatlig:** tiyak — itong hawak ko.",
-        "**Panaklaw:** hindi tiyak — sinuman, lahat, anuman.",
+        "**Panao:** tiyak. Si Carlo, siya.",
+        "**Pamatlig:** tiyak. Itong hawak ko.",
+        "**Panaklaw:** hindi tiyak. Sinuman, lahat, anuman.",
         "**Totoo pa rin ang pangungusap** kahit hindi alam kung sino."
       ]
     },
     {
       "kind": "figure",
       "figure": "panaklawTakip",
-      "title": "Anim na pindutan",
+      "title": "Anim na panaklaw, at ang saklaw ng bawat isa",
       "text": "Pindutin ang bawat panaklaw. Tingnan kung gaano ito lumalawak."
     },
     {
@@ -60,9 +60,9 @@
       "title": "Ang madalas na mali: panaklaw o pamilang?",
       "text": "Magkamukha ang dalawa sa pagsusulit, kaya ito ang tanong.",
       "points": [
-        "**\"Lahat ng gulong\"** — panaklaw. Walang bilang.",
-        "**\"Apat na gulong\"** — pamilang. May bilang.",
-        "**\"Bawat isa\"** — panaklaw pa rin. Isa-isa, pero lahat.",
+        "**\"Lahat ng gulong\"**: panaklaw. Walang bilang.",
+        "**\"Apat na gulong\"**: pamilang. May bilang.",
+        "**\"Bawat isa\"**: panaklaw pa rin. Isa-isa, pero lahat.",
         "**May bilang ba?** Iyon ang tanong."
       ]
     },
@@ -102,8 +102,8 @@
       "title": "Isahan ang anyo, maramihan ang saklaw",
       "text": "Madalas itong mapagkamalan.",
       "points": [
-        "**\"Sinuman\"** — isang salita, walang mga.",
-        "**\"Bawat isa\"** — isahan ang anyo, lahat ang saklaw.",
+        "**\"Sinuman\"**: isang salita, walang mga.",
+        "**\"Bawat isa\"**: isahan ang anyo, lahat ang saklaw.",
         "**Mali:** \"mga sinuman\".",
         "**Hindi kailangan ng mga** ang panaklaw."
       ]
@@ -174,7 +174,7 @@
         },
         {
           "term": "Madla",
-          "def": "Ang publiko — ang hindi tiyak na nakararami."
+          "def": "Ang publiko. Ang hindi tiyak na nakararami."
         }
       ]
     },
@@ -351,7 +351,7 @@
     }
   ],
   "teacher": {
-    "summary": "Linggo 4 ng Filipino: ang panghalip panaklaw. Isang tanong lamang ang aralin — may tiyak bang tinutukoy? — at ang pinakamadalas na pagkakamali sa pagsusulit ay ang pagkakamali ng panaklaw sa pamilang, kaya may hiwalay itong kard at tatlong tanong. Binibigyang-diin din na isahan ang anyo ng panaklaw, dahil karaniwang nilalagyan ito ng \"mga\". Ang pinakamalaking kaisipan, na dinadala ng tatlong lente, ay ito: ang panaklaw ang wika ng patakaran, dahil nagtatakda ito ng tuntunin bago may taong pangalanan.",
+    "summary": "Linggo 4 ng Filipino: ang panghalip panaklaw. Isang tanong lamang ang aralin. May tiyak bang tinutukoy?, at ang pinakamadalas na pagkakamali sa pagsusulit ay ang pagkakamali ng panaklaw sa pamilang, kaya may hiwalay itong kard at tatlong tanong. Binibigyang-diin din na isahan ang anyo ng panaklaw, dahil karaniwang nilalagyan ito ng \"mga\". Ang pinakamalaking kaisipan, na dinadala ng tatlong lente, ay ito: ang panaklaw ang wika ng patakaran, dahil nagtatakda ito ng tuntunin bago may taong pangalanan.",
     "discussion": [
       "Isang tanong sa bawat salita: may bilang ba?",
       "Itanong kung bakit mali ang \"mga sinuman\".",

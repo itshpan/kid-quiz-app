@@ -4,7 +4,7 @@
   "courseTitle": "Devotion",
   "week": 7,
   "title": "Unity in Diversity",
-  "subtitle": "One body, many parts — difference is the design.",
+  "subtitle": "One body, many parts. Difference is the design.",
   "estMinutes": 20,
   "objectives": [
     "Explain the one-body argument in 1 Corinthians 12",
@@ -35,7 +35,7 @@
     {
       "kind": "figure",
       "figure": "oneBodyMany",
-      "title": "Tap a part",
+      "title": "One body, four parts, one argument",
       "text": "Tap each one. The last button is the argument itself."
     },
     {
@@ -57,7 +57,7 @@
     {
       "kind": "idea",
       "eyebrow": "Verse 15 and verse 21",
-      "title": "Two opposite mistakes",
+      "title": "Feeling useless, and feeling superior",
       "text": "The passage names both, in order.",
       "points": [
         "**Verse 15:** the foot says it is not a hand, so it does not belong.",
@@ -100,7 +100,7 @@
       "icon": "🌀",
       "eyebrow": "Teardown mode",
       "title": "A fan is four parts that cannot swap jobs",
-      "text": "Motor, capacitor, blade, switch — remove any one and nothing turns.",
+      "text": "Motor, capacitor, blade, switch. Remove any one and nothing turns.",
       "points": [
         "**The capacitor cannot do the blade's job.**",
         "**The blade cannot start the motor.**",
@@ -161,7 +161,7 @@
       "eyebrow": "Lesson done",
       "title": "What to remember",
       "points": [
-        "One body, many parts, different jobs — difference is the design.",
+        "One body, many parts, different jobs. Difference is the design.",
         "Verse 15 answers feeling useless; verse 21 answers feeling superior.",
         "Galatians 3:28 removes the ranking, not the difference.",
         "Unity means assembled, not identical."
@@ -235,7 +235,7 @@
     },
     {
       "type": "multiple",
-      "text": "Galatians 3:28 names divisions in order to say they…",
+      "text": "Galatians 3:28 names divisions to say they…",
       "options": [
         "never existed",
         "must be enforced",
@@ -333,7 +333,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 7 Devotion. 1 Corinthians 12 is an anatomical argument, so the figure is anatomical: a single body with eye, ear, hand and foot tappable, each carrying its verse. The week is careful to give both halves of the passage, because it answers two opposite mistakes in order — verse 15 speaks to the person who feels useless and verse 21 to the person who feels superior, and quoting only one of them produces a lopsided lesson. Galatians 3:28 is read precisely: it removes the ranking rather than the difference. The fan teardown is the clearest version of the idea for this learner: four parts, no swapping, remove one and nothing turns.",
+    "summary": "Term 2 Week 7 Devotion. 1 Corinthians 12 is an anatomical argument, so the figure is anatomical: a single body with eye, ear, hand and foot tappable, each carrying its verse. The week is careful to give both halves of the passage, because it answers two opposite mistakes in order. Verse 15 speaks to the person who feels useless and verse 21 to the person who feels superior, and quoting only one of them produces a lopsided lesson. Galatians 3:28 is read precisely: it removes the ranking rather than the difference. The fan teardown is the clearest version of the idea for this learner: four parts, no swapping, remove one and nothing turns.",
     "discussion": [
       "Ask what the passage asks about an all-eye body.",
       "Ask which verse speaks to feeling useless, and which to feeling superior.",

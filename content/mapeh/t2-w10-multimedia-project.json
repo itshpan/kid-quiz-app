@@ -4,7 +4,7 @@
   "courseTitle": "MAPEH",
   "week": 10,
   "title": "Historical Multimedia Project",
-  "subtitle": "Facts, script, media, edit — and why that order.",
+  "subtitle": "Facts, script, media, edit. And why that order.",
   "estMinutes": 20,
   "objectives": [
     "Order the stages of a multimedia project",
@@ -26,16 +26,16 @@
       "title": "Four stages, in one order",
       "text": "Each stage produces what the next one needs.",
       "points": [
-        "**Facts** — what happened, from sources you can name.",
-        "**Script** — what gets said, and in what order.",
-        "**Media** — the images and clips the script calls for.",
-        "**Edit and cite** — assemble it, credit everything."
+        "**Facts**: what happened, from sources you can name.",
+        "**Script**: what gets said, and in what order.",
+        "**Media**: the images and clips the script calls for.",
+        "**Edit and cite**: assemble it, credit everything."
       ]
     },
     {
       "kind": "figure",
       "figure": "projectOrder",
-      "title": "You plan the project",
+      "title": "The order a media project has to run in",
       "text": "Pick the first stage. Each wrong order shows what it would cost."
     },
     {
@@ -139,7 +139,7 @@
       "eyebrow": "Lesson done",
       "title": "What to remember",
       "points": [
-        "Facts, script, media, edit — in that order.",
+        "Facts, script, media, edit. In that order.",
         "The script tells you which media to gather.",
         "Two sources for anything surprising; name every source.",
         "Say plainly when something is not known."
@@ -311,7 +311,7 @@
     }
   ],
   "teacher": {
-    "summary": "Term 2 Week 10 MAPEH, Arts strand, and the practical week of the term. The interactive is the content: he orders the stages himself and each wrong order is answered with its real cost rather than a cross. Picking the music first is included because it is the actual failure mode of a school multimedia project — the facts get cut to fit a song. The accuracy card gives four rules that transfer to any research task, including the one most students never hear: saying plainly that something is not known is a finding. Three lenses all say the same thing from three directions: check before you commit.",
+    "summary": "Term 2 Week 10 MAPEH, Arts strand, and the practical week of the term. The interactive is the content: he orders the stages himself and each wrong order is answered with its real cost rather than a cross. Picking the music first is included because it is the actual failure mode of a school multimedia project. The facts get cut to fit a song. The accuracy card gives four rules that transfer to any research task, including the one most students never hear: saying plainly that something is not known is a finding. Three lenses all say the same thing from three directions: check before you commit.",
     "discussion": [
       "Ask what each stage produces for the next one.",
       "Ask why the music cannot come first.",
