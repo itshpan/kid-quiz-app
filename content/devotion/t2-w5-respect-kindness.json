@@ -1,0 +1,333 @@
+{
+  "id": "dev-t2-w5",
+  "courseId": "devotion",
+  "courseTitle": "Devotion",
+  "week": 5,
+  "title": "Respect & Kindness",
+  "subtitle": "One is owed. The other is chosen.",
+  "estMinutes": 20,
+  "objectives": [
+    "Distinguish respect from kindness",
+    "Explain Philippians 2:3",
+    "Describe respect that does not depend on agreement",
+    "Give kindness that costs something"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🫱",
+      "eyebrow": "Part 5 · Devotion",
+      "title": "Respect is owed. Kindness is given.",
+      "text": "They get used as one word and they are not. One is a baseline you do not get to withdraw. The other is something extra you choose."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "Two different things",
+      "text": "The difference decides how you behave when you disagree.",
+      "points": [
+        "**Respect** is the baseline every person is owed.",
+        "**It does not depend on agreeing with them.**",
+        "**Kindness** is something extra, chosen, often costly.",
+        "**You can respect someone you think is wrong.**"
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "serviceActs",
+      "title": "Six buttons, six passages",
+      "text": "Tap each one. Every row is a place where the text puts somebody else first."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Respect is best described as…",
+        "options": [
+          "liking someone",
+          "a baseline every person is owed",
+          "obeying someone",
+          "agreeing with someone"
+        ],
+        "answerIndex": 1,
+        "explain": "It does not depend on agreement.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Philippians 2:3",
+      "title": "What it actually asks",
+      "text": "This verse is often read as a command to be quiet. It is not.",
+      "points": [
+        "**\"Do nothing from selfish ambition or conceit.\"**",
+        "**\"Count others more significant than yourselves.\"**",
+        "**Counting, not silence.** It is about weighting.",
+        "**You can argue hard** and still weight the other person."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Philippians 2:3 asks you to…",
+        "options": [
+          "count others more significant than yourself",
+          "agree always",
+          "avoid arguments",
+          "stay silent"
+        ],
+        "answerIndex": 0,
+        "explain": "It is about weighting, not quietness.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Where it is hard",
+      "title": "Three concrete cases",
+      "text": "Respect that only operates when it is easy is not a baseline.",
+      "points": [
+        "**Someone who is wrong**, and you have to say so.",
+        "**Someone who was unfair to you** last week.",
+        "**Someone who is rude first.**",
+        "**In all three, the baseline holds.** That is what makes it one."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "The touch of gloves before the bell",
+      "text": "Two people about to try to hurt each other, and the ritual is respect.",
+      "points": [
+        "**It happens before every round in some gyms.**",
+        "**It means: this is a contest, not a grudge.**",
+        "**Respect does not require liking.**",
+        "**And it does not soften the fight.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "GG is a baseline, not a mood",
+      "text": "You say it when you win and when you lose, which is the entire point.",
+      "points": [
+        "**Said after a loss it costs something.**",
+        "**That is when it means anything.**",
+        "**A baseline you drop when annoyed** was never a baseline.",
+        "**It was a reward.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "Kindness that costs is the kind you remember",
+      "text": "Think about which kind acts you still remember being on the end of.",
+      "points": [
+        "**Not the easy, cheap ones.**",
+        "**The ones where somebody gave up time** they wanted.",
+        "**Mark 12: the widow gave less and it counted for more.**",
+        "**Cost, not size.**"
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Respect is owed to everyone; kindness is chosen and extra.",
+        "Respect does not depend on agreement.",
+        "Philippians 2:3 asks you to count others significant, not to be silent.",
+        "Kindness that costs something is the kind that is remembered."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Which one is owed to everyone?",
+      "options": [
+        "Kindness",
+        "Respect",
+        "Agreement",
+        "Friendship"
+      ],
+      "answerIndex": 1,
+      "explain": "It is a baseline, not a reward.",
+      "objective": "Distinguish respect from kindness",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Which one is chosen and extra?",
+      "options": [
+        "Respect",
+        "Silence",
+        "Kindness",
+        "Obedience"
+      ],
+      "answerIndex": 2,
+      "explain": "Often with a cost.",
+      "objective": "Distinguish respect from kindness",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "You can respect someone you think is wrong.",
+      "answer": true,
+      "explain": "Respect does not depend on agreement.",
+      "objective": "Describe respect that does not depend on agreement",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Philippians 2:3 says do nothing from…",
+      "options": [
+        "habit",
+        "duty",
+        "selfish ambition or conceit",
+        "fear"
+      ],
+      "answerIndex": 2,
+      "explain": "Then: count others significant.",
+      "objective": "Explain Philippians 2:3",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "That verse is mainly about…",
+      "options": [
+        "obedience",
+        "humility in dress",
+        "silence",
+        "weighting other people"
+      ],
+      "answerIndex": 3,
+      "explain": "You can argue hard and still weight the other person.",
+      "objective": "Explain Philippians 2:3",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "A baseline you drop when annoyed…",
+      "options": [
+        "is normal",
+        "was never a baseline",
+        "is fine",
+        "is still a baseline"
+      ],
+      "answerIndex": 1,
+      "explain": "It was a reward you were handing out.",
+      "objective": "Describe respect that does not depend on agreement",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Which is the harder case for respect?",
+      "options": [
+        "Someone who was unfair to you last week",
+        "A stranger",
+        "A teacher",
+        "Someone you like"
+      ],
+      "answerIndex": 0,
+      "explain": "If it only works when easy, it is not a baseline.",
+      "objective": "Describe respect that does not depend on agreement",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "In Mark 12 the widow's gift counted for more because…",
+      "options": [
+        "it cost her more",
+        "it was large",
+        "it was public",
+        "it was first"
+      ],
+      "answerIndex": 0,
+      "explain": "Cost, not size.",
+      "objective": "Give kindness that costs something",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Saying \"GG\" after losing matters because…",
+      "options": [
+        "it costs something at that moment",
+        "it is required",
+        "it is polite",
+        "it ends the game"
+      ],
+      "answerIndex": 0,
+      "explain": "That is when it means anything.",
+      "objective": "Distinguish respect from kindness",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Matthew 6:1-4 says giving should be…",
+      "options": [
+        "recorded",
+        "shared",
+        "announced",
+        "not announced"
+      ],
+      "answerIndex": 3,
+      "explain": "Do not announce it. That is the point.",
+      "objective": "Give kindness that costs something",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The glove touch before a round means…",
+      "options": [
+        "the fight is over",
+        "a rule was broken",
+        "this is a contest, not a grudge",
+        "one fighter is ahead"
+      ],
+      "answerIndex": 2,
+      "explain": "Respect without liking, and without softening the fight.",
+      "objective": "Describe respect that does not depend on agreement",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Luke 14:7-11 advises taking…",
+      "options": [
+        "no seat",
+        "the lowest place",
+        "the nearest seat",
+        "the highest seat"
+      ],
+      "answerIndex": 1,
+      "explain": "And letting someone else move you up.",
+      "objective": "Give kindness that costs something",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 5 Devotion. The week's whole value is one distinction: respect is a baseline owed to everyone and does not depend on agreement, while kindness is chosen and usually costs something. Collapsing the two is what produces the belief that respecting someone means agreeing with them, which then makes disagreement feel like disrespect. Philippians 2:3 is read carefully, because it is routinely used to tell a child to be quiet when the text is about weighting rather than silence. The three hard cases are given explicitly, since a baseline that only works when it is easy is a reward instead.",
+    "discussion": [
+      "Ask the difference between respect and kindness.",
+      "Ask whether he can respect someone he thinks is wrong.",
+      "Ask what Philippians 2:3 actually asks for.",
+      "Ask which kind act he still remembers."
+    ],
+    "extension": [
+      "Have him do one kindness this week that costs him something he wanted.",
+      "Have him name the hardest person to respect and what the baseline looks like there."
+    ],
+    "misconceptions": [
+      "\"Respect means agreeing.\" It does not depend on agreement.",
+      "\"Philippians 2:3 means be quiet.\" It means count others significant.",
+      "\"A big gift counts most.\" Mark 12 says cost, not size."
+    ]
+  }
+}

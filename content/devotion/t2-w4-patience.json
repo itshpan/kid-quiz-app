@@ -1,0 +1,333 @@
+{
+  "id": "dev-t2-w4",
+  "courseId": "devotion",
+  "courseTitle": "Devotion",
+  "week": 4,
+  "title": "Patience in the Process",
+  "subtitle": "Thirteen years, twenty-five years — and work the whole time.",
+  "estMinutes": 20,
+  "objectives": [
+    "Give examples of long waits in scripture",
+    "Explain that patience is active, not passive",
+    "Explain the farmer image in James 5",
+    "Describe what waiting produces"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "⏳",
+      "eyebrow": "Part 4 · Devotion",
+      "title": "Patience is not doing nothing",
+      "text": "Every long wait in scripture is full of work. Joseph ran a household and then a prison while he waited thirteen years."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "Real waits, with real numbers",
+      "text": "Abstract patience is forgettable. Measured patience is not.",
+      "points": [
+        "**Joseph:** sold at seventeen, before Pharaoh at thirty.",
+        "**Thirteen years**, including prison for something he did not do.",
+        "**Abraham:** promised a son at seventy-five, Isaac born at a hundred.",
+        "**Twenty-five years** between the promise and the child."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "patienceCases",
+      "title": "Six buttons",
+      "text": "Tap each one. The last two buttons are the point."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "How long was Joseph's wait?",
+        "options": [
+          "Seven years",
+          "Thirteen years",
+          "Three years",
+          "Twenty-five years"
+        ],
+        "answerIndex": 1,
+        "explain": "Seventeen to thirty. Genesis 37 and 41 give both ages.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "James 5",
+      "title": "The farmer, chosen on purpose",
+      "text": "Of all the images available, the letter picks the one that involves labour.",
+      "points": [
+        "**James 5:7:** be patient, like a farmer waiting for the rain.",
+        "**A farmer is not idle while waiting.**",
+        "**He planted. He weeds. He watches the sky.**",
+        "**Nothing visible happens for weeks.** He keeps going anyway."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why is a farmer the right image for patience?",
+        "options": [
+          "He works throughout the wait",
+          "He is poor",
+          "Farming is slow",
+          "Rain is unpredictable"
+        ],
+        "answerIndex": 0,
+        "explain": "Patience that is work, not waiting around.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "What it produces",
+      "title": "Romans 5:3-4",
+      "text": "The order in the verse matters.",
+      "points": [
+        "**Suffering produces endurance.**",
+        "**Endurance produces character.**",
+        "**Character produces hope.**",
+        "**Each one is made by the one before it.** None can be skipped."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "The plateau is the part that decides it",
+      "text": "Everyone improves fast at first. Then the numbers stop moving.",
+      "points": [
+        "**Weeks of work with no visible change.**",
+        "**That is where most people quit.**",
+        "**The adaptation is happening** where you cannot see it.",
+        "**The plateau is not failure.** It is the middle."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "Your height is on its own schedule",
+      "text": "Nothing you do this week will change it, and it is changing anyway.",
+      "points": [
+        "**Growth plates close in their own time.**",
+        "**You cannot hurry it and cannot stop it.**",
+        "**Meanwhile the things you can change** respond to months of work.",
+        "**Spend the wait on those.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "A restoration is measured in years",
+      "text": "Anyone who has rebuilt something knows the shape of this.",
+      "points": [
+        "**Months with the car in pieces** and nothing to show.",
+        "**Every part cleaned, labelled, waiting.**",
+        "**The first time it starts** is one afternoon.",
+        "**Everything before it was the project.**"
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Joseph waited thirteen years; Abraham twenty-five.",
+        "Patience is active — Joseph ran a household and a prison.",
+        "James 5:7 uses a farmer because a farmer works while waiting.",
+        "Romans 5: suffering, endurance, character, hope — in that order."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Joseph was sold at the age of…",
+      "options": [
+        "seventeen",
+        "twelve",
+        "forty",
+        "thirty"
+      ],
+      "answerIndex": 0,
+      "explain": "Genesis 37.",
+      "objective": "Give examples of long waits in scripture",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "He stood before Pharaoh at…",
+      "options": [
+        "fifty",
+        "seventeen",
+        "thirty",
+        "twenty"
+      ],
+      "answerIndex": 2,
+      "explain": "Genesis 41:46.",
+      "objective": "Give examples of long waits in scripture",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Abraham was promised a son at…",
+      "options": [
+        "fifty",
+        "seventy-five",
+        "a hundred",
+        "ninety"
+      ],
+      "answerIndex": 1,
+      "explain": "Genesis 12.",
+      "objective": "Give examples of long waits in scripture",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Isaac was born when Abraham was…",
+      "options": [
+        "a hundred and twenty",
+        "eighty-six",
+        "a hundred",
+        "seventy-five"
+      ],
+      "answerIndex": 2,
+      "explain": "Genesis 21:5 — twenty-five years after the promise.",
+      "objective": "Give examples of long waits in scripture",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "David was crowned at the age of…",
+      "options": [
+        "twenty",
+        "thirty",
+        "seventeen",
+        "forty"
+      ],
+      "answerIndex": 1,
+      "explain": "2 Samuel 5:4.",
+      "objective": "Give examples of long waits in scripture",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "Patience in scripture means waiting without doing anything.",
+      "answer": false,
+      "explain": "Joseph ran a household and then a prison throughout.",
+      "objective": "Explain that patience is active, not passive",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "James 5:7 compares patience to a…",
+      "options": [
+        "builder",
+        "runner",
+        "soldier",
+        "farmer"
+      ],
+      "answerIndex": 3,
+      "explain": "Because a farmer works all the way through.",
+      "objective": "Explain the farmer image in James 5",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "What makes the farmer image fit?",
+      "options": [
+        "Rain is free",
+        "He is patient by nature",
+        "Farming takes a year",
+        "He labours throughout the wait"
+      ],
+      "answerIndex": 3,
+      "explain": "Nothing visible happens for weeks and he keeps going.",
+      "objective": "Explain the farmer image in James 5",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "In Romans 5, suffering produces…",
+      "options": [
+        "endurance",
+        "hope",
+        "character",
+        "faith"
+      ],
+      "answerIndex": 0,
+      "explain": "Then endurance produces character.",
+      "objective": "Describe what waiting produces",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "And character produces…",
+      "options": [
+        "hope",
+        "suffering",
+        "endurance",
+        "patience"
+      ],
+      "answerIndex": 0,
+      "explain": "The order cannot be skipped.",
+      "objective": "Describe what waiting produces",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A training plateau is best understood as…",
+      "options": [
+        "a failure",
+        "a sign to stop",
+        "the middle of the process",
+        "an injury"
+      ],
+      "answerIndex": 2,
+      "explain": "The adaptation happens where you cannot see it.",
+      "objective": "Explain that patience is active, not passive",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "What should you spend a wait on?",
+      "options": [
+        "Complaining",
+        "The things that do respond to work",
+        "Nothing",
+        "Waiting harder"
+      ],
+      "answerIndex": 1,
+      "explain": "Height is on its own schedule. Strength is not.",
+      "objective": "Explain that patience is active, not passive",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 4 Devotion. Patience is given numbers, because abstract patience is forgettable and thirteen years is not. Both of the key figures' ages come straight from the text and are checkable, which matters for a learner who should be building the habit of asking where a claim comes from. The week's central correction is that patience is active: Joseph was running a household and then a prison for the whole thirteen years, which is a very different picture from waiting around. James 5's farmer is used for exactly that reason. The boxing lens names the plateau, which is the form this virtue will actually take for him this year.",
+    "discussion": [
+      "Ask how long Joseph and Abraham waited.",
+      "Ask what Joseph was doing during those years.",
+      "Ask why James chose a farmer.",
+      "Ask what a plateau means in training."
+    ],
+    "extension": [
+      "Have him pick one thing to work at for eight weeks and record it weekly.",
+      "Have him find the two verses that give Joseph's ages."
+    ],
+    "misconceptions": [
+      "\"Patience means waiting passively.\" Every example in the text is working.",
+      "\"A plateau means it is not working.\" It is the middle of it working.",
+      "\"Abraham waited a few years.\" Twenty-five."
+    ]
+  }
+}

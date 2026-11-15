@@ -6050,7 +6050,333 @@ function tleT2Map() {
     });
 }
 
+/* ==========================================================================
+   DEVOTION FIGURES — Term 2.
+   Character is usually taught as a word and a verse, which is why none of it
+   survives contact with an actual bad afternoon. These figures put the
+   mechanism in: where the gap between trigger and action is, what
+   forgiveness does and does not include, what order a conflict is handled
+   in. Scripture here is fixed by the subject, so the examples stay inside
+   the text and the lens cards carry his world.
+   ========================================================================== */
+
+/* The gap between trigger and action is where self-control lives. He works
+   the sequence himself, and a wrong choice is answered with what it costs
+   rather than with a verdict. */
+function impulseGap() {
+    return orderLab({
+        id: 'ig1', height: 212,
+        label: 'YOU CHOOSE WHAT HAPPENS IN THE GAP',
+        alt: 'An interactive where the learner works through the moment between a trigger and a reaction',
+        steps: [
+            { expr: 'Someone takes your turn.',
+              ask: 'The anger is already there. What is the very first move?',
+              choices: [
+                { btn: 'Say it now', ok: false,
+                  gives: 'The sentence lands before you have chosen it, and you cannot take it back.',
+                  why: 'Proverbs 25:28 — a person with no self-control is a city with its walls broken down. Nothing is holding the line.' },
+                { btn: 'Notice it', ok: true },
+                { btn: 'Pretend it is fine', ok: false,
+                  gives: 'It goes underground and comes out later, at someone who did nothing.',
+                  why: 'Self-control is not pretending. Ephesians 4:26 allows the anger and sets a limit on it.' } ] },
+            { expr: 'You noticed it. Anger named.',
+              ask: 'There is now a gap. What goes in it?',
+              choices: [
+                { btn: 'One breath', ok: true },
+                { btn: 'Plan the comeback', ok: false,
+                  gives: 'You spend the gap building a better insult, and then you use it.',
+                  why: 'The gap is for choosing, not for aiming.' } ] },
+            { expr: 'Noticed. Breathed.',
+              ask: 'Now you can actually decide. Which question helps?',
+              choices: [
+                { btn: '"How do I win this?"', ok: false,
+                  gives: 'Winning the exchange usually costs the friendship.',
+                  why: 'Romans 12:18 — as far as it depends on you, live at peace. Winning is not the goal named there.' },
+                { btn: '"What do I want after?"', ok: true } ] },
+            { expr: 'Noticed → Breathed → Asked → Chose',
+              done: 'Self-control is not feeling less. It is the gap between feeling and acting, used on purpose.' }
+        ]
+    });
+}
+
+/* Gratitude fails when it is only a mood. Four kinds, each with the thing
+   that makes it concrete. */
+function gratitudeKinds() {
+    return listPicker({
+        id: 'gk2', label: 'FOUR KINDS, NOT ONE MOOD', height: 272, y0: 60, dy: 26,
+        alt: 'Four kinds of gratitude, each with what makes it specific and a scripture reference',
+        capA: 'Means: ', capB: 'In the text: ',
+        rows: [
+            { btn: '1', short: 'For what is obvious', a: 'Food, a bed, people who came back for you',
+              b: 'Psalm 103:2 — "forget not all his benefits". The command is against forgetting.' },
+            { btn: '2', short: 'For what you nearly missed', a: 'The thing that almost went wrong and did not',
+              b: 'Luke 17 — ten were healed, one came back. Nine were glad and did not say so.' },
+            { btn: '3', short: 'In hard circumstances', a: 'Thanks *in* it, which is not thanks *for* it',
+              b: '1 Thessalonians 5:18 says "in all circumstances", not "for all circumstances".' },
+            { btn: '4', short: 'Said out loud', a: 'Named, to the person, specifically',
+              b: 'Gratitude nobody hears changes nothing between two people.' },
+            { btn: '5', short: 'Why it is specific', a: 'A vague thanks is a mood; a named one is a fact',
+              b: '"Thanks for everything" is forgettable. "Thanks for waiting for me" is not.' },
+            { btn: '6', short: 'The usual failure', a: 'Comparison',
+              b: 'You cannot be grateful and be counting what someone else has at the same time.' }
+        ]
+    });
+}
+
+/* Compassion is four steps and most people stop at two. Naming the steps is
+   what makes the stopping visible. */
+function compassionSteps() {
+    return listPicker({
+        id: 'cs3', label: 'FOUR STEPS \\u00b7 WHERE PEOPLE STOP', height: 272, y0: 60, dy: 26,
+        alt: 'The four steps of compassion with the point at which most people stop',
+        capA: 'Step: ', capB: 'In the text: ',
+        rows: [
+            { btn: '1', short: 'Notice', a: 'You actually see the person',
+              b: 'Matthew 9:36 — he saw the crowds and had compassion. Seeing comes first.' },
+            { btn: '2', short: 'Feel', a: 'It moves something in you',
+              b: 'The priest and the Levite in Luke 10 may well have felt it. They still walked past.' },
+            { btn: '3', short: 'Move', a: 'You cross the road',
+              b: 'The Samaritan "went to him". That verb is the whole parable.' },
+            { btn: '4', short: 'Cost', a: 'It takes your time, money or plan',
+              b: 'Oil, wine, bandages, his animal, two days\\u2019 wages, and a promise to return.' },
+            { btn: '!', short: 'Where people stop', a: 'Between feel and move',
+              b: 'Feeling sorry is not the same as helping. The parable is built to make that obvious.' },
+            { btn: '?', short: 'Who the Samaritan was', a: 'Someone the audience would not have admired',
+              b: 'That choice is deliberate. The person who helped was the one nobody expected to.' }
+        ]
+    });
+}
+
+/* Patience is abstract until it is measured. Real intervals, from the text. */
+function patienceCases() {
+    return listPicker({
+        id: 'pc4', label: 'HOW LONG THEY ACTUALLY WAITED', height: 272, y0: 60, dy: 26,
+        alt: 'Four scriptural examples of waiting, each with the length of the wait',
+        capA: 'The wait: ', capB: 'What it means: ',
+        rows: [
+            { btn: '1', short: 'Joseph', a: 'Sold at seventeen; before Pharaoh at thirty',
+              b: 'Thirteen years, including prison. Genesis 37 and 41 give both ages.' },
+            { btn: '2', short: 'Abraham', a: 'Promised a son at seventy-five; Isaac born at a hundred',
+              b: 'Twenty-five years. Genesis 12 and 21.' },
+            { btn: '3', short: 'David', a: 'Anointed as a boy; crowned at thirty',
+              b: 'Years of running and hiding between the oil and the throne. 2 Samuel 5:4.' },
+            { btn: '4', short: 'The farmer', a: 'A whole season, with nothing visible for weeks',
+              b: 'James 5:7 uses him on purpose: patience that is work, not waiting around.' },
+            { btn: '!', short: 'What patience is not', a: 'It is not doing nothing',
+              b: 'Joseph ran a household and then a prison. The waiting was active the whole time.' },
+            { btn: '?', short: 'Why it is hard now', a: 'Everything else in your day is instant',
+              b: 'A skill that takes months feels broken when a video loads in a second.' }
+        ]
+    });
+}
+
+/* Four things that get collapsed into one word, and the collapsing is what
+   makes forgiveness feel impossible or fake. */
+function forgiveParts() {
+    return listPicker({
+        id: 'fp6', label: 'FOUR THINGS, ONE WORD', height: 272, y0: 60, dy: 26,
+        alt: 'Forgiveness, reconciliation, trust and consequences separated out, with what each one means',
+        capA: 'Is: ', capB: 'Note: ',
+        rows: [
+            { btn: '1', short: 'Forgiveness', a: 'Letting go of your claim to pay them back',
+              b: 'It is a decision you can make alone. It does not need them to agree.' },
+            { btn: '2', short: 'Reconciliation', a: 'The relationship working again',
+              b: 'This one takes two. You cannot do it by yourself, and that is not your failure.' },
+            { btn: '3', short: 'Trust', a: 'Believing they will not do it again',
+              b: 'Rebuilt over time, by what they do. Forgiving is immediate; trust is earned.' },
+            { btn: '4', short: 'Consequences', a: 'What follows from what was done',
+              b: 'Forgiving someone does not remove these, and asking for them is not revenge.' },
+            { btn: '!', short: 'Why it matters', a: 'Collapsing all four makes forgiveness impossible',
+              b: '"Forgive and forget" asks for four things at once and gets none of them.' },
+            { btn: '?', short: 'Seventy-seven times', a: 'Matthew 18:22 \\u2014 Peter asked if seven was enough',
+              b: 'The answer is a number so large it stops being a count. Some translations say seventy times seven.' }
+        ]
+    });
+}
+
+/* 1 Corinthians 12, drawn. The argument is anatomical, so the figure is. */
+function oneBodyMany() {
+    const body = `
+      <g class="fig-body">
+        <circle cx="200" cy="66" r="24"/>
+        <rect x="186" y="90" width="28" height="62" rx="12"/>
+        <rect x="150" y="98" width="100" height="14" rx="7"/>
+        <rect x="186" y="152" width="12" height="52" rx="6"/>
+        <rect x="202" y="152" width="12" height="52" rx="6"/>
+      </g>
+      <text class="fig-cell" x="200" y="226" text-anchor="middle">one body</text>`;
+    const dot = (x, y) => `<circle class="fig-point-h" cx="${x}" cy="${y}" r="11"/>`;
+    return partPicker({
+        id: 'ob7', height: 296, capY: 252,
+        label: 'TAP A PART',
+        alt: 'A single figure with eye, ear, hand and foot marked, illustrating one body with many parts',
+        scene: body,
+        parts: [
+            { btn: 'Eye', svg: dot(192, 60),
+              a: 'THE EYE — it sees, and that is all it does',
+              b: '1 Corinthians 12:17 — if the whole body were an eye, where would the hearing be?' },
+            { btn: 'Ear', svg: dot(224, 66),
+              a: 'THE EAR — it cannot see, and nobody asks it to',
+              b: 'Its limit is not a fault. A body of identical parts is not a body.' },
+            { btn: 'Hand', svg: dot(154, 105),
+              a: 'THE HAND — it reaches and holds',
+              b: 'Verse 21: the eye cannot say to the hand, "I have no need of you."' },
+            { btn: 'Foot', svg: dot(192, 200),
+              a: 'THE FOOT — unglamorous, and it carries everything',
+              b: 'Verse 15: the foot saying it is not a hand does not make it any less part of the body.' },
+            { btn: 'All of it', svg: `${dot(192,60)}${dot(224,66)}${dot(154,105)}${dot(192,200)}`,
+              a: 'ONE BODY, MANY PARTS, DIFFERENT JOBS',
+              b: 'The argument is that difference is the design, not a problem to be fixed.' }
+        ]
+    });
+}
+
+/* Matthew 18:15-17 is a sequence, and the sequence is the point: it starts
+   as small and as private as it can. He walks it. */
+function peaceSteps() {
+    return orderLab({
+        id: 'ps9', height: 212,
+        label: 'YOU WALK THE STEPS',
+        alt: 'An interactive walking through the escalation sequence for handling a wrong, smallest step first',
+        steps: [
+            { expr: 'Someone in your class wronged you.',
+              ask: 'Matthew 18 gives an order. What is the first step?',
+              choices: [
+                { btn: 'Tell everyone', ok: false,
+                  gives: 'Now it is a public fight and nobody can back down without losing face.',
+                  why: 'The sequence starts as privately as possible precisely so that backing down stays cheap.' },
+                { btn: 'Go to them alone', ok: true },
+                { btn: 'Say nothing ever', ok: false,
+                  gives: 'It stays unresolved and you carry it instead.',
+                  why: 'Matthew 18:15 says go. Silence is not on the list.' } ] },
+            { expr: 'You went alone. It did not work.',
+              ask: 'They would not hear it. Next?',
+              choices: [
+                { btn: 'Post about it', ok: false,
+                  gives: 'An audience arrives and the point stops being the wrong.',
+                  why: 'Each step adds the smallest number of people that could help.' },
+                { btn: 'Bring one or two', ok: true } ] },
+            { expr: 'Still unresolved, with witnesses.',
+              ask: 'Now what?',
+              choices: [
+                { btn: 'Take it to the body', ok: true },
+                { btn: 'Get even', ok: false,
+                  gives: 'You become the second wrong and the first one stops mattering.',
+                  why: 'Romans 12:17 — do not repay evil for evil. That ends the sequence rather than finishing it.' } ] },
+            { expr: 'Alone \\u2192 One or two \\u2192 The body',
+              done: 'Smallest first, widening only when it must. A peacemaker is not the same as someone who avoids conflict.' }
+        ]
+    });
+}
+
+/* Words are usually discussed as niceness. James compares the tongue to
+   three pieces of machinery, which is a far better frame. */
+function wordsWeight() {
+    return listPicker({
+        id: 'ww10', label: 'WHAT JAMES COMPARES IT TO', height: 272, y0: 60, dy: 26,
+        alt: 'The three images James uses for the tongue, plus the practical tests for speech',
+        capA: 'The image: ', capB: 'Why it fits: ',
+        rows: [
+            { btn: '1', short: 'A bit in a horse\\u2019s mouth', a: 'James 3:3 — a small part steering a large animal',
+              b: 'A few words decide the direction of a whole conversation.' },
+            { btn: '2', short: 'A ship\\u2019s rudder', a: 'James 3:4 — tiny, against wind and weight',
+              b: 'The smallest control surface on the vessel sets its course.' },
+            { btn: '3', short: 'A small fire', a: 'James 3:5 — one spark, a whole forest',
+              b: 'Damage out of all proportion to the effort of starting it.' },
+            { btn: '4', short: 'The test before speaking', a: 'Is it true? Is it needed? Is it the moment?',
+              b: 'Ephesians 4:29 sets the bar at "building up", not merely "not lying".' },
+            { btn: '5', short: 'Encouragement, specifically', a: 'Name the thing, not the person',
+              b: '"You kept going after that round" lands. "You\\u2019re great" does not.' },
+            { btn: '6', short: 'Why it cannot be taken back', a: 'Proverbs 18:21 — life and death are in its power',
+              b: 'An apology repairs a relationship. It does not unsay the sentence.' }
+        ]
+    });
+}
+
+/* The term's review board. */
+function devT2Map() {
+    return examMap({
+        id: 'dvt2', label: 'TEN WEEKS \\u00b7 THE TERM',
+        alt: 'The ten Devotion topics of the term, each with what to know and the usual trap',
+        rows: [
+            { btn: '1', short: 'Self-control',
+              a: 'The gap between feeling and acting, used on purpose',
+              b: 'It is not feeling less. Proverbs 25:28 is about walls, not calm.' },
+            { btn: '2', short: 'Gratitude',
+              a: 'Four kinds; named and said out loud',
+              b: '1 Thessalonians 5:18 says thanks *in* all circumstances, not *for* them.' },
+            { btn: '3', short: 'Compassion',
+              a: 'Notice, feel, move, cost',
+              b: 'People stop between feel and move. Feeling sorry is not helping.' },
+            { btn: '4', short: 'Patience',
+              a: 'Joseph 13 years, Abraham 25, David to thirty',
+              b: 'Patience is not doing nothing. Joseph ran a household and a prison.' },
+            { btn: '5', short: 'Respect & kindness',
+              a: 'Respect is owed; kindness is given',
+              b: 'Philippians 2:3 is about counting others ahead, not about being quiet.' },
+            { btn: '6', short: 'Forgiveness',
+              a: 'Forgiveness, reconciliation, trust, consequences \\u2014 four things',
+              b: '"Forgive and forget" asks for all four at once and gets none.' },
+            { btn: '7', short: 'Unity in diversity',
+              a: 'One body, many parts, different jobs',
+              b: 'Unity is not sameness. A body of identical parts is not a body.' },
+            { btn: '8', short: 'Friendship',
+              a: 'Proverbs 27:6 and 13:20; David and Jonathan',
+              b: 'A friend who never disagrees with you is not being a friend.' },
+            { btn: '9', short: 'Peacemaker',
+              a: 'Matthew 18: alone, then one or two, then the body',
+              b: 'A peacemaker makes peace. Avoiding conflict is a different thing.' },
+            { btn: '10', short: 'Speaking life',
+              a: 'Bit, rudder, fire; true, needed, timely',
+              b: 'An apology repairs the relationship. It does not unsay the sentence.' }
+        ]
+    });
+}
+
+
+/* Friendship is usually described by feeling. Proverbs describes it by
+   behaviour, which is testable. */
+function friendTests() {
+    return listPicker({
+        id: 'ft8', label: 'SIX TESTS, FROM THE TEXT', height: 272, y0: 60, dy: 26,
+        alt: 'Six scriptural tests of friendship, each with the passage and what it means in practice',
+        capA: 'The passage: ', capB: 'In practice: ',
+        rows: [
+            { btn: '1', short: 'Will they tell you the truth?',
+              a: 'Proverbs 27:6 \u2014 "faithful are the wounds of a friend"',
+              b: 'A friend who never disagrees with you is not doing the job.' },
+            { btn: '2', short: 'Are they there when it is bad?',
+              a: 'Proverbs 17:17 \u2014 "a friend loves at all times"',
+              b: 'Easy to find in a good week. The bad week is the test.' },
+            { btn: '3', short: 'Who are you becoming?',
+              a: 'Proverbs 13:20 \u2014 walk with the wise and become wise',
+              b: 'You end up like the people you spend hours with. No exceptions.' },
+            { btn: '4', short: 'Do they cost you anything?',
+              a: '1 Samuel 18:1-4 \u2014 Jonathan gives David his own robe and weapons',
+              b: 'Jonathan was the king\u2019s son. He gave away his own claim.' },
+            { btn: '5', short: 'Quality over number',
+              a: 'Proverbs 18:24 \u2014 many companions, one who sticks closer',
+              b: 'The verse itself makes the distinction. Count is not the measure.' },
+            { btn: '6', short: 'The hard one',
+              a: 'Are you that friend to anyone?',
+              b: 'Every test above, read the other way round.' }
+        ]
+    });
+}
+
 export const FIGURES = {
+    friendTests,
+
+    impulseGap,
+    gratitudeKinds,
+    compassionSteps,
+    patienceCases,
+    forgiveParts,
+    oneBodyMany,
+    peaceSteps,
+    wordsWeight,
+    devT2Map,
+
     tleT2Map,
 
     kitchenTools,

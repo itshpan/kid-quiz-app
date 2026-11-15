@@ -1,0 +1,333 @@
+{
+  "id": "dev-t2-w3",
+  "courseId": "devotion",
+  "courseTitle": "Devotion",
+  "week": 3,
+  "title": "Compassion in Action",
+  "subtitle": "Four steps — and the two where people stop.",
+  "estMinutes": 20,
+  "objectives": [
+    "Name the four steps of compassion",
+    "Identify where people usually stop",
+    "Retell the Good Samaritan accurately",
+    "Explain why the helper's identity matters"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🤝",
+      "eyebrow": "Part 3 · Devotion",
+      "title": "Feeling sorry is not helping",
+      "text": "Compassion has four steps and almost everyone stops after two. The parable in Luke 10 is built to make that stopping impossible to miss."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "Notice, feel, move, cost",
+      "text": "The verbs are the lesson.",
+      "points": [
+        "**Notice** — you actually see the person.",
+        "**Feel** — something moves in you.",
+        "**Move** — you cross the road.",
+        "**Cost** — it takes your time, money or plan."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "compassionSteps",
+      "title": "Six buttons",
+      "text": "Tap each step. The last two buttons are the point of the parable."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Where do most people stop?",
+        "options": [
+          "Before noticing",
+          "Between feel and move",
+          "They do not stop",
+          "After the cost"
+        ],
+        "answerIndex": 1,
+        "explain": "Feeling sorry is where it usually ends.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Luke 10",
+      "title": "What the Samaritan actually did",
+      "text": "The detail in the text is specific, and the specificity is the point.",
+      "points": [
+        "**He went to him.** That verb comes first.",
+        "**Oil, wine and bandages** — he used what he was carrying.",
+        "**He put him on his own animal** and walked.",
+        "**Two days' wages to the innkeeper**, and a promise to return."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What did the Samaritan leave with the innkeeper?",
+        "options": [
+          "Two days' wages and a promise to return",
+          "Nothing",
+          "A letter",
+          "His animal"
+        ],
+        "answerIndex": 0,
+        "explain": "The cost was real and ongoing.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The part that is easy to miss",
+      "title": "Who the helper was",
+      "text": "The audience's reaction to the word \"Samaritan\" is half the parable.",
+      "points": [
+        "**A priest passed. A Levite passed.**",
+        "**Both were respected religious figures.**",
+        "**The one who stopped** was from a group the audience despised.",
+        "**That choice is deliberate.** Compassion is not about belonging."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "The glove touch after a knockdown",
+      "text": "Something real happens in boxing that is exactly this.",
+      "points": [
+        "**A fighter who drops his opponent** often helps him up.",
+        "**Corners check on the other corner** after a bad stoppage.",
+        "**Nothing in the rules requires it.**",
+        "**It costs them nothing to skip** and they do it anyway."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Reviving a teammate costs you",
+      "text": "The games that do this well make helping genuinely expensive.",
+      "points": [
+        "**You stop, you are exposed, you lose time.**",
+        "**That is why it means something.**",
+        "**Help that costs nothing** is not really help.",
+        "**Step four is the cost.** The parable knew that."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "disasters",
+      "icon": "🌊",
+      "eyebrow": "Disaster mode",
+      "title": "Bayanihan is step three and four",
+      "text": "After a typhoon the pattern repeats across the country.",
+      "points": [
+        "**Neighbours clear a neighbour's roof** before their own.",
+        "**Relief packed by people** who were also hit.",
+        "**Nobody waits to be asked.**",
+        "**That is noticing, moving and paying** in one week."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Notice, feel, move, cost — four steps, not one feeling.",
+        "People stop between feeling and moving.",
+        "The Samaritan used what he carried, then paid and promised to return.",
+        "The helper was the one the audience least expected."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "The four steps of compassion are…",
+      "options": [
+        "notice, feel, move, cost",
+        "ask, plan, act, rest",
+        "see, pray, wait, hope",
+        "hear, speak, give, leave"
+      ],
+      "answerIndex": 0,
+      "explain": "The verbs are the lesson.",
+      "objective": "Name the four steps of compassion",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Most people stop…",
+      "options": [
+        "between feeling and moving",
+        "at the end",
+        "before noticing",
+        "after paying"
+      ],
+      "answerIndex": 0,
+      "explain": "Feeling sorry is not helping.",
+      "objective": "Identify where people usually stop",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Who passed by before the Samaritan?",
+      "options": [
+        "Two soldiers",
+        "A priest and a Levite",
+        "Two merchants",
+        "Nobody"
+      ],
+      "answerIndex": 1,
+      "explain": "Both respected religious figures.",
+      "objective": "Retell the Good Samaritan accurately",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "What did the Samaritan put the man on?",
+      "options": [
+        "A boat",
+        "A cart",
+        "His own animal",
+        "A stretcher"
+      ],
+      "answerIndex": 2,
+      "explain": "And walked himself.",
+      "objective": "Retell the Good Samaritan accurately",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "What did he use on the wounds?",
+      "options": [
+        "Nothing",
+        "Oil and wine",
+        "Water only",
+        "Herbs"
+      ],
+      "answerIndex": 1,
+      "explain": "What he was already carrying.",
+      "objective": "Retell the Good Samaritan accurately",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "How much did he leave at the inn?",
+      "options": [
+        "Two days' wages",
+        "Nothing",
+        "A promise only",
+        "A month's wages"
+      ],
+      "answerIndex": 0,
+      "explain": "Plus a promise to return.",
+      "objective": "Retell the Good Samaritan accurately",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why does it matter that the helper was a Samaritan?",
+      "options": [
+        "He was a doctor",
+        "He was from a group the audience despised",
+        "He lived nearby",
+        "He was wealthy"
+      ],
+      "answerIndex": 1,
+      "explain": "Compassion is not about belonging.",
+      "objective": "Explain why the helper's identity matters",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Matthew 9:36 says that seeing the crowds, he…",
+      "options": [
+        "taught them",
+        "counted them",
+        "left them",
+        "had compassion on them"
+      ],
+      "answerIndex": 3,
+      "explain": "Seeing comes first.",
+      "objective": "Name the four steps of compassion",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "The priest and the Levite definitely felt nothing.",
+      "answer": false,
+      "explain": "They may well have felt it. They still walked past.",
+      "objective": "Identify where people usually stop",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Help that costs the helper nothing is…",
+      "options": [
+        "required",
+        "faster",
+        "the best kind",
+        "not really the fourth step"
+      ],
+      "answerIndex": 3,
+      "explain": "The cost is what makes it compassion rather than sympathy.",
+      "objective": "Name the four steps of compassion",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Bayanihan after a typhoon shows which steps most clearly?",
+      "options": [
+        "Notice and feel",
+        "Feel only",
+        "Move and cost",
+        "None"
+      ],
+      "answerIndex": 2,
+      "explain": "People who were hit themselves pack relief for others.",
+      "objective": "Name the four steps of compassion",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The verb the parable turns on is…",
+      "options": [
+        "\"he left\"",
+        "\"he paid\"",
+        "\"he went to him\"",
+        "\"he saw\""
+      ],
+      "answerIndex": 2,
+      "explain": "Crossing the road is the moment it becomes compassion.",
+      "objective": "Retell the Good Samaritan accurately",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 3 Devotion. Compassion is broken into four verbs so that the gap between feeling and acting becomes visible and nameable. The Samaritan is read with its actual detail — what he carried, what he paid, what he promised — because the parable's force is in the specificity, and because a vague retelling lets the listener off. The week makes two points that are often skipped: the priest and Levite may well have felt something and still walked past, and the helper was from a group the audience despised, which is a deliberate choice in the text. The gaming lens gives the sharpest version of step four: help that costs nothing is not help.",
+    "discussion": [
+      "Ask for the four verbs.",
+      "Ask where he stops, honestly.",
+      "Ask what the Samaritan actually paid and promised.",
+      "Ask why the storyteller chose a Samaritan."
+    ],
+    "extension": [
+      "Have him do one thing this week that costs him time he wanted.",
+      "Have him retell the parable from the innkeeper's side."
+    ],
+    "misconceptions": [
+      "\"Compassion is a feeling.\" It has two more steps after the feeling.",
+      "\"The priest did not care.\" The text does not say that; it says he passed.",
+      "\"The Samaritan was a respected figure.\" He was the opposite."
+    ]
+  }
+}

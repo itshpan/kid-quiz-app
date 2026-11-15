@@ -1,0 +1,333 @@
+{
+  "id": "dev-t2-w10",
+  "courseId": "devotion",
+  "courseTitle": "Devotion",
+  "week": 10,
+  "title": "Speaking Life & Encouragement",
+  "subtitle": "A bit, a rudder, a fire — and a test you can run first.",
+  "estMinutes": 20,
+  "objectives": [
+    "Name the three images James uses for the tongue",
+    "Apply a test before speaking",
+    "Give specific encouragement",
+    "Explain why words cannot be unsaid"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🗣️",
+      "eyebrow": "Part 10 · Devotion",
+      "title": "James compares the tongue to machinery",
+      "text": "Not to niceness. Three images, and all three are about something small that steers or destroys something much larger."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "A bit, a rudder, a fire",
+      "text": "Each one makes the same argument from a different angle.",
+      "points": [
+        "**James 3:3** — a bit in a horse's mouth. Small part, large animal.",
+        "**James 3:4** — a ship's rudder. Tiny, against wind and weight.",
+        "**James 3:5** — a small fire in a forest.",
+        "**Disproportionate effect** is the point of all three."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "wordsWeight",
+      "title": "Six buttons",
+      "text": "Tap each image. The last three buttons are what to do about it."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "James 3:4 compares the tongue to a…",
+        "options": [
+          "bit",
+          "rudder",
+          "sword",
+          "fire"
+        ],
+        "answerIndex": 1,
+        "explain": "The smallest control surface sets the course.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The test",
+      "title": "Three questions, in order",
+      "text": "Fast enough to run before speaking.",
+      "points": [
+        "**Is it true?**",
+        "**Is it needed?**",
+        "**Is this the moment?**",
+        "**Ephesians 4:29** sets the bar at *building up*, not merely not lying."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is the bar set by Ephesians 4:29?",
+        "options": [
+          "Building up",
+          "Not lying",
+          "Staying silent",
+          "Being clever"
+        ],
+        "answerIndex": 0,
+        "explain": "Which is higher than merely avoiding falsehood.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Encouragement that works",
+      "title": "Name the thing, not the person",
+      "text": "Vague praise is forgettable and sounds automatic.",
+      "points": [
+        "**\"You're great\"** carries no information.",
+        "**\"You kept going after that round\"** is a fact.",
+        "**A named thing** can be repeated on purpose.",
+        "**1 Thessalonians 5:11** — encourage one another, and build each other up."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "One sentence from a corner changes a round",
+      "text": "Thirty seconds, and what gets said decides the next three minutes.",
+      "points": [
+        "**\"Hands up, two more jabs\"** is usable.",
+        "**\"Come on, do better\"** is not.",
+        "**Specific instruction, specific encouragement.**",
+        "**Same rule in both directions.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "A rudder is a tiny control surface",
+      "text": "Look at the size of a ship's rudder compared with the ship.",
+      "points": [
+        "**A few square metres** turning thousands of tonnes.",
+        "**It works because it acts on moving water.**",
+        "**Leverage, not force.**",
+        "**James chose this image** because it is literally true."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Voice chat is the rudder",
+      "text": "One teammate's tone decides whether the next ten minutes work.",
+      "points": [
+        "**One person calling calmly** holds a team together.",
+        "**One person blaming** ends it faster than any mistake.",
+        "**Nobody's aim changed.** The words did.",
+        "**Disproportionate effect**, exactly as described."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Bit, rudder, fire — small things with disproportionate effect.",
+        "Test: is it true, is it needed, is this the moment?",
+        "Ephesians 4:29 sets the bar at building up.",
+        "Name the thing, not the person. An apology cannot unsay a sentence."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "James 3:3 compares the tongue to a…",
+      "options": [
+        "bit",
+        "sword",
+        "fire",
+        "rudder"
+      ],
+      "answerIndex": 0,
+      "explain": "A small part steering a large animal.",
+      "objective": "Name the three images James uses for the tongue",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "James 3:5 compares it to a…",
+      "options": [
+        "river",
+        "bit",
+        "small fire",
+        "rudder"
+      ],
+      "answerIndex": 2,
+      "explain": "One spark, a whole forest.",
+      "objective": "Name the three images James uses for the tongue",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "What do all three images share?",
+      "options": [
+        "They involve animals",
+        "Something small with a large effect",
+        "They are dangerous",
+        "They are ancient"
+      ],
+      "answerIndex": 1,
+      "explain": "Disproportionate effect.",
+      "objective": "Name the three images James uses for the tongue",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "The three-question test is…",
+      "options": [
+        "honest, fast, firm",
+        "short, loud, clear",
+        "true, needed, timely",
+        "true, kind, clever"
+      ],
+      "answerIndex": 2,
+      "explain": "Run it before speaking.",
+      "objective": "Apply a test before speaking",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Ephesians 4:29 sets the standard at…",
+      "options": [
+        "speaking rarely",
+        "speaking plainly",
+        "building up",
+        "not lying"
+      ],
+      "answerIndex": 2,
+      "explain": "Higher than merely avoiding falsehood.",
+      "objective": "Apply a test before speaking",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which is better encouragement?",
+      "options": [
+        "\"Nice one\"",
+        "\"You kept going after that round\"",
+        "\"Well done\"",
+        "\"You're great\""
+      ],
+      "answerIndex": 1,
+      "explain": "A named fact can be repeated on purpose.",
+      "objective": "Give specific encouragement",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why is vague praise weak?",
+      "options": [
+        "It is short",
+        "It is slow",
+        "It is rude",
+        "It carries no information"
+      ],
+      "answerIndex": 3,
+      "explain": "And it sounds automatic.",
+      "objective": "Give specific encouragement",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Proverbs 18:21 says life and death are in the power of the…",
+      "options": [
+        "tongue",
+        "hand",
+        "heart",
+        "mind"
+      ],
+      "answerIndex": 0,
+      "explain": "Which is why the test exists.",
+      "objective": "Explain why words cannot be unsaid",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "An apology unsays what was said.",
+      "answer": false,
+      "explain": "It can repair the relationship. It does not unsay the sentence.",
+      "objective": "Explain why words cannot be unsaid",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "1 Thessalonians 5:11 instructs believers to…",
+      "options": [
+        "stay silent",
+        "pray only",
+        "correct each other",
+        "encourage one another and build each other up"
+      ],
+      "answerIndex": 3,
+      "explain": "An instruction, not a suggestion.",
+      "objective": "Give specific encouragement",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A ship's rudder works by…",
+      "options": [
+        "leverage on moving water",
+        "force",
+        "size",
+        "weight"
+      ],
+      "answerIndex": 0,
+      "explain": "Which is why James chose it.",
+      "objective": "Name the three images James uses for the tongue",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "In a team, one person blaming tends to…",
+      "options": [
+        "help",
+        "end the game faster than any mistake",
+        "be ignored",
+        "improve focus"
+      ],
+      "answerIndex": 1,
+      "explain": "Nobody's aim changed. The words did.",
+      "objective": "Name the three images James uses for the tongue",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 10 Devotion. James compares the tongue to three pieces of machinery, and the week keeps that frame rather than reducing the topic to niceness: all three images are about leverage, something small steering or destroying something far larger. The teardown lens makes the rudder literal, since a few square metres really do turn thousands of tonnes, which is the kind of concrete fact that makes the metaphor stick. Two practical tools come out of it: the three-question test before speaking, and the rule that encouragement names the thing rather than the person. The closing point is honest — an apology repairs a relationship but does not unsay a sentence.",
+    "discussion": [
+      "Ask for the three images and what they have in common.",
+      "Ask him to run the three-question test on something he nearly said.",
+      "Ask for one specific piece of encouragement for someone today.",
+      "Ask what an apology can and cannot do."
+    ],
+    "extension": [
+      "Have him give one named, specific encouragement a day for a week.",
+      "Have him look up the size of a ship's rudder against the ship."
+    ],
+    "misconceptions": [
+      "\"Watching your words means saying less.\" Ephesians 4:29 sets the bar at building up.",
+      "\"Praise is praise.\" Vague praise carries no information.",
+      "\"An apology undoes it.\" It repairs; it does not unsay."
+    ]
+  }
+}

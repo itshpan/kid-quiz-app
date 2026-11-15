@@ -1,0 +1,333 @@
+{
+  "id": "dev-t2-w7",
+  "courseId": "devotion",
+  "courseTitle": "Devotion",
+  "week": 7,
+  "title": "Unity in Diversity",
+  "subtitle": "One body, many parts — difference is the design.",
+  "estMinutes": 20,
+  "objectives": [
+    "Explain the one-body argument in 1 Corinthians 12",
+    "Explain why unity is not sameness",
+    "Describe what Galatians 3:28 says",
+    "Name what holds a diverse group together"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🧩",
+      "eyebrow": "Part 7 · Devotion",
+      "title": "Unity is not sameness",
+      "text": "The argument in 1 Corinthians 12 is anatomical. It says the opposite of what people expect: difference is the design."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "One body, many parts, different jobs",
+      "text": "The passage asks two questions and both are rhetorical.",
+      "points": [
+        "**\"If the whole body were an eye, where would the hearing be?\"**",
+        "**A body of identical parts** is not a body.",
+        "**The eye cannot say to the hand, \"I have no need of you.\"**",
+        "**Difference is not a problem to be fixed.**"
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "oneBodyMany",
+      "title": "Tap a part",
+      "text": "Tap each one. The last button is the argument itself."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What does 1 Corinthians 12:17 ask?",
+        "options": [
+          "Who leads?",
+          "If all were an eye, where would the hearing be?",
+          "How many parts?",
+          "Who is strongest?"
+        ],
+        "answerIndex": 1,
+        "explain": "A rhetorical question. A body of one part is not a body.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Verse 15 and verse 21",
+      "title": "Two opposite mistakes",
+      "text": "The passage names both, in order.",
+      "points": [
+        "**Verse 15:** the foot says it is not a hand, so it does not belong.",
+        "**That is feeling useless.** The text denies it.",
+        "**Verse 21:** the eye says it has no need of the hand.",
+        "**That is feeling superior.** The text denies that too."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Verse 15 answers the person who feels…",
+        "options": [
+          "useless",
+          "tired",
+          "angry",
+          "superior"
+        ],
+        "answerIndex": 0,
+        "explain": "The foot saying it is not a hand does not make it less part of the body.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Galatians 3:28",
+      "title": "What it does and does not say",
+      "text": "Read carefully, because it gets quoted loosely.",
+      "points": [
+        "**It names real divisions:** Jew and Greek, slave and free.",
+        "**It says those divisions do not decide standing.**",
+        "**It does not say the differences vanished.**",
+        "**Equal standing, not erased identity.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "A fan is four parts that cannot swap jobs",
+      "text": "Motor, capacitor, blade, switch — remove any one and nothing turns.",
+      "points": [
+        "**The capacitor cannot do the blade's job.**",
+        "**The blade cannot start the motor.**",
+        "**No part is the important one.**",
+        "**Unity here means assembled**, not identical."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "A corner is four people with four jobs",
+      "text": "Nobody in a corner does what the fighter does, and the fight needs all of them.",
+      "points": [
+        "**The trainer reads the fight.**",
+        "**The cutman works the swelling.**",
+        "**Somebody watches the clock and the water.**",
+        "**Four roles. One result.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "A team of identical builds loses",
+      "text": "Any game with roles proves the passage accidentally.",
+      "points": [
+        "**Five of the same class** cannot cover the map.",
+        "**The weakest-looking role** is often the one that holds it.",
+        "**Composition beats individual power.**",
+        "**That is the one-body argument** in a scoreboard."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "One body, many parts, different jobs — difference is the design.",
+        "Verse 15 answers feeling useless; verse 21 answers feeling superior.",
+        "Galatians 3:28 removes the ranking, not the difference.",
+        "Unity means assembled, not identical."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "1 Corinthians 12 compares the group to a…",
+      "options": [
+        "building",
+        "body",
+        "city",
+        "field"
+      ],
+      "answerIndex": 1,
+      "explain": "Many parts, different jobs.",
+      "objective": "Explain the one-body argument in 1 Corinthians 12",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "\"If the whole body were an eye…\" the passage asks…",
+      "options": [
+        "who would see",
+        "where would the hearing be",
+        "who would lead",
+        "what colour"
+      ],
+      "answerIndex": 1,
+      "explain": "A body of one part is not a body.",
+      "objective": "Explain the one-body argument in 1 Corinthians 12",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Verse 21 says the eye cannot say to the hand…",
+      "options": [
+        "\"I have no need of you\"",
+        "\"follow me\"",
+        "\"you are first\"",
+        "nothing"
+      ],
+      "answerIndex": 0,
+      "explain": "That is the superiority mistake.",
+      "objective": "Explain the one-body argument in 1 Corinthians 12",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Verse 15 addresses someone who feels…",
+      "options": [
+        "useless",
+        "superior",
+        "proud",
+        "angry"
+      ],
+      "answerIndex": 0,
+      "explain": "The foot that thinks it does not belong.",
+      "objective": "Explain the one-body argument in 1 Corinthians 12",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "Unity in this passage means everyone being the same.",
+      "answer": false,
+      "explain": "Difference is the design, not the problem.",
+      "objective": "Explain why unity is not sameness",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Galatians 3:28 names divisions in order to say they…",
+      "options": [
+        "never existed",
+        "must be enforced",
+        "do not decide standing",
+        "are good"
+      ],
+      "answerIndex": 2,
+      "explain": "Equal standing, not erased identity.",
+      "objective": "Describe what Galatians 3:28 says",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Which does Galatians 3:28 NOT say?",
+      "options": [
+        "There is neither Jew nor Greek",
+        "All are one",
+        "Differences vanished",
+        "There is neither slave nor free"
+      ],
+      "answerIndex": 2,
+      "explain": "It removes the ranking, not the difference.",
+      "objective": "Describe what Galatians 3:28 says",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "The foot in the passage is described as…",
+      "options": [
+        "the leader",
+        "replaceable",
+        "unglamorous and still part of the body",
+        "the most important"
+      ],
+      "answerIndex": 2,
+      "explain": "And it carries everything.",
+      "objective": "Explain the one-body argument in 1 Corinthians 12",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "What holds an electric fan together as one working thing?",
+      "options": [
+        "The switch",
+        "The motor alone",
+        "Identical parts",
+        "Four different parts assembled"
+      ],
+      "answerIndex": 3,
+      "explain": "Remove any one and nothing turns.",
+      "objective": "Name what holds a diverse group together",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A boxing corner has four roles because…",
+      "options": [
+        "it looks better",
+        "the rules say so",
+        "tradition",
+        "each job needs full attention"
+      ],
+      "answerIndex": 3,
+      "explain": "Four roles, one result.",
+      "objective": "Name what holds a diverse group together",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A team of five identical builds usually…",
+      "options": [
+        "cannot cover everything",
+        "wins easily",
+        "is strongest",
+        "is fastest"
+      ],
+      "answerIndex": 0,
+      "explain": "Composition beats individual power.",
+      "objective": "Name what holds a diverse group together",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "\"Unity means assembled, not identical\" is a summary of…",
+      "options": [
+        "Matthew 18",
+        "1 Corinthians 12",
+        "Galatians 3:28",
+        "Psalm 103"
+      ],
+      "answerIndex": 1,
+      "explain": "The one-body argument.",
+      "objective": "Explain why unity is not sameness",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 7 Devotion. 1 Corinthians 12 is an anatomical argument, so the figure is anatomical: a single body with eye, ear, hand and foot tappable, each carrying its verse. The week is careful to give both halves of the passage, because it answers two opposite mistakes in order — verse 15 speaks to the person who feels useless and verse 21 to the person who feels superior, and quoting only one of them produces a lopsided lesson. Galatians 3:28 is read precisely: it removes the ranking rather than the difference. The fan teardown is the clearest version of the idea for this learner: four parts, no swapping, remove one and nothing turns.",
+    "discussion": [
+      "Ask what the passage asks about an all-eye body.",
+      "Ask which verse speaks to feeling useless, and which to feeling superior.",
+      "Ask what Galatians 3:28 removes.",
+      "Ask which part of a fan is the important one."
+    ],
+    "extension": [
+      "Have him name four different roles in a group he belongs to and what each contributes.",
+      "Have him find 1 Corinthians 12:15 and 12:21 and read both."
+    ],
+    "misconceptions": [
+      "\"Unity means everyone the same.\" Difference is the design.",
+      "\"Galatians 3:28 says differences disappeared.\" It says they do not decide standing.",
+      "\"Some parts are more important.\" Verse 21 denies exactly that."
+    ]
+  }
+}

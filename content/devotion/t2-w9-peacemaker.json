@@ -1,0 +1,333 @@
+{
+  "id": "dev-t2-w9",
+  "courseId": "devotion",
+  "courseTitle": "Devotion",
+  "week": 9,
+  "title": "Being A Peacemaker",
+  "subtitle": "Making peace is work. Avoiding conflict is not the same thing.",
+  "estMinutes": 20,
+  "objectives": [
+    "Distinguish making peace from avoiding conflict",
+    "Walk the Matthew 18 sequence",
+    "Explain Proverbs 15:1",
+    "Explain the limit in Romans 12:18"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🕊️",
+      "eyebrow": "Part 9 · Devotion",
+      "title": "A peacemaker is not someone who avoids conflict",
+      "text": "Matthew 5:9 says blessed are the peacemakers — the ones who make it. Making something takes work, and usually a conversation nobody wants."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "Two different things",
+      "text": "They look similar from the outside and are opposites underneath.",
+      "points": [
+        "**Avoiding conflict** leaves the problem running.",
+        "**Making peace** deals with it, which is uncomfortable.",
+        "**Keeping quiet is cheaper** in the short term.",
+        "**And it is not what the verse says.**"
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "peaceSteps",
+      "title": "You walk the steps",
+      "text": "Pick the first step. Each other route shows what it would cost."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Matthew 18 says the first step is to…",
+        "options": [
+          "go to them alone",
+          "tell everyone",
+          "say nothing",
+          "tell a teacher"
+        ],
+        "answerIndex": 0,
+        "explain": "As privately as possible, so backing down stays cheap.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Why that order",
+      "title": "Smallest first, widening only when it must",
+      "text": "The sequence is designed, not arbitrary.",
+      "points": [
+        "**Alone** — nobody has to lose face.",
+        "**Then one or two others** — the smallest help that could work.",
+        "**Then the wider body** — only if the first two failed.",
+        "**Going public first** removes everyone's way out."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why does the sequence start privately?",
+        "options": [
+          "It is faster",
+          "Backing down stays cheap when nobody is watching",
+          "It is secret",
+          "It is polite"
+        ],
+        "answerIndex": 1,
+        "explain": "An audience makes retreat expensive for everyone.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Two more verses",
+      "title": "One on tone, one on limits",
+      "text": "Both are practical rather than abstract.",
+      "points": [
+        "**Proverbs 15:1:** a soft answer turns away wrath.",
+        "**Tone is a separate decision from content.**",
+        "**Romans 12:18:** *as far as it depends on you*, live at peace.",
+        "**That clause is a limit.** Some of it does not depend on you."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Tone is a separate choice from content",
+      "text": "You can say a hard thing quietly, and the quiet is what lets it land.",
+      "points": [
+        "**A coach can tell you your guard dropped** without shouting.",
+        "**Same information, different delivery.**",
+        "**Shouted, you defend yourself** instead of listening.",
+        "**Proverbs 15:1 is about delivery**, not softening the truth."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Escalating straight to public is a mistake",
+      "text": "Everyone has seen a small thing become unfixable this way.",
+      "points": [
+        "**One message privately** usually ends it.",
+        "**One post publicly** draws an audience and sides.",
+        "**Now nobody can apologise** without losing face.",
+        "**The order in Matthew 18 prevents exactly that.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "Some of it does not depend on you",
+      "text": "Romans 12:18 contains a clause that protects you.",
+      "points": [
+        "**You can do your part properly** and it still fails.",
+        "**That is not your failure.**",
+        "**You are responsible for your side** of it.",
+        "**Not for both sides.**"
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Peacemaking is work; avoiding conflict is not the same thing.",
+        "Matthew 18: alone, then one or two, then the wider body.",
+        "Proverbs 15:1 — a soft answer; tone is a separate decision.",
+        "Romans 12:18 — as far as it depends on you. That clause is a limit."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Matthew 5:9 blesses…",
+      "options": [
+        "the peacemakers",
+        "the strong",
+        "the quiet",
+        "the patient"
+      ],
+      "answerIndex": 0,
+      "explain": "The ones who make it.",
+      "objective": "Distinguish making peace from avoiding conflict",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Avoiding conflict differs from making peace because it…",
+      "options": [
+        "is rude",
+        "leaves the problem running",
+        "takes longer",
+        "is harder"
+      ],
+      "answerIndex": 1,
+      "explain": "Cheaper now, unresolved later.",
+      "objective": "Distinguish making peace from avoiding conflict",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The first step in Matthew 18 is to…",
+      "options": [
+        "wait",
+        "tell the group",
+        "write it down",
+        "go to them alone"
+      ],
+      "answerIndex": 3,
+      "explain": "As privately as possible.",
+      "objective": "Walk the Matthew 18 sequence",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The second step adds…",
+      "options": [
+        "the whole class",
+        "nothing",
+        "one or two others",
+        "a teacher only"
+      ],
+      "answerIndex": 2,
+      "explain": "The smallest help that could work.",
+      "objective": "Walk the Matthew 18 sequence",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why not go public first?",
+      "options": [
+        "It is banned",
+        "It removes everyone's way to back down",
+        "It is slow",
+        "It is unkind"
+      ],
+      "answerIndex": 1,
+      "explain": "An audience makes retreat expensive.",
+      "objective": "Walk the Matthew 18 sequence",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Proverbs 15:1 says a soft answer…",
+      "options": [
+        "avoids truth",
+        "wins arguments",
+        "turns away wrath",
+        "ends friendship"
+      ],
+      "answerIndex": 2,
+      "explain": "Tone, not content.",
+      "objective": "Explain Proverbs 15:1",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "A soft answer means not saying the hard thing.",
+      "answer": false,
+      "explain": "Tone is a separate decision from content.",
+      "objective": "Explain Proverbs 15:1",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Romans 12:18 includes the clause…",
+      "options": [
+        "\"without delay\"",
+        "\"in public\"",
+        "\"as far as it depends on you\"",
+        "\"at all costs\""
+      ],
+      "answerIndex": 2,
+      "explain": "Which is a limit, deliberately.",
+      "objective": "Explain the limit in Romans 12:18",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "That clause means…",
+      "options": [
+        "give up",
+        "try harder",
+        "stay silent",
+        "you are responsible for your side, not both"
+      ],
+      "answerIndex": 3,
+      "explain": "You can do your part and it still fails.",
+      "objective": "Explain the limit in Romans 12:18",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Shouting a correct criticism usually makes the other person…",
+      "options": [
+        "defend themselves",
+        "agree",
+        "apologise",
+        "listen"
+      ],
+      "answerIndex": 0,
+      "explain": "Same information, worse delivery.",
+      "objective": "Explain Proverbs 15:1",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Romans 12:17 says do not…",
+      "options": [
+        "repay evil for evil",
+        "delay",
+        "speak",
+        "forgive"
+      ],
+      "answerIndex": 0,
+      "explain": "Which ends the sequence rather than finishing it.",
+      "objective": "Walk the Matthew 18 sequence",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A peacemaker is best described as someone who…",
+      "options": [
+        "stays neutral",
+        "does the uncomfortable work of resolving",
+        "keeps quiet",
+        "avoids arguments"
+      ],
+      "answerIndex": 1,
+      "explain": "Making something takes work.",
+      "objective": "Distinguish making peace from avoiding conflict",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 9 Devotion. The distinction that carries the week is between making peace and avoiding conflict, which look alike from outside and are opposites underneath; Matthew 5:9 blesses the makers. The Matthew 18 sequence is walked as an interactive, with the design reason stated: starting privately keeps backing down cheap, and going public first removes everyone's way out. Two verses do practical work — Proverbs 15:1 separates tone from content, so a hard thing can be said quietly, and Romans 12:18's clause \"as far as it depends on you\" is given as a protective limit rather than a loophole.",
+    "discussion": [
+      "Ask the difference between making peace and avoiding conflict.",
+      "Ask for the three steps, in order, and why that order.",
+      "Ask what Proverbs 15:1 is actually about.",
+      "Ask what the clause in Romans 12:18 protects him from."
+    ],
+    "extension": [
+      "Have him resolve one real small thing by going to the person first.",
+      "Have him rewrite a hard sentence three times, same content, softer tone."
+    ],
+    "misconceptions": [
+      "\"A peacemaker keeps the peace by staying quiet.\" Making is work.",
+      "\"A soft answer means not saying it.\" Tone, not content.",
+      "\"If it is not resolved, I failed.\" As far as it depends on you."
+    ]
+  }
+}

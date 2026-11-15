@@ -1,0 +1,507 @@
+{
+  "id": "dev-t2-w11",
+  "courseId": "devotion",
+  "courseTitle": "Devotion",
+  "week": 11,
+  "title": "Exam Week",
+  "subtitle": "Ten weeks of Devotion, one paper.",
+  "estMinutes": 30,
+  "objectives": [
+    "Recall self-control, gratitude and compassion",
+    "Recall patience, respect and forgiveness",
+    "Recall unity, friendship and peacemaking",
+    "Recall the teaching on words"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "📖",
+      "eyebrow": "Part 11 · Devotion",
+      "title": "Ten weeks, one paper",
+      "text": "Twenty-four questions. The review below is grouped by the distinction each week turns on, because the distinctions are what the paper tests."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Weeks 1 to 3",
+      "title": "Three distinctions",
+      "text": "Each week hangs on one.",
+      "points": [
+        "**Self-control** is the gap, not the absence of feeling.",
+        "**Gratitude** is thanks *in*, not thanks *for*.",
+        "**Compassion** has two steps after the feeling.",
+        "**Get those three and a third of the paper is done.**"
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "devT2Map",
+      "title": "Ten weeks, one board",
+      "text": "Tap each week. The second line is the trap it sets."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "1 Thessalonians 5:18 says give thanks…",
+        "options": [
+          "in all circumstances",
+          "for all circumstances",
+          "once a week",
+          "on good days"
+        ],
+        "answerIndex": 0,
+        "explain": "A real and important difference.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Weeks 4 to 6",
+      "title": "Three more",
+      "text": "The middle of the term is the hardest part of the paper.",
+      "points": [
+        "**Patience** is active. Joseph ran a prison for part of it.",
+        "**Respect** is owed; kindness is chosen.",
+        "**Forgiveness** is one of four things, not all four.",
+        "**Reconciliation takes two.** That is not your failure."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which of the four requires the other person?",
+        "options": [
+          "Consequences",
+          "Reconciliation",
+          "None",
+          "Forgiveness"
+        ],
+        "answerIndex": 1,
+        "explain": "You cannot do it alone.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Weeks 7 to 10",
+      "title": "The last four",
+      "text": "All four are about other people.",
+      "points": [
+        "**Unity** is assembled, not identical.",
+        "**Friendship** is behaviour you can test.",
+        "**Peacemaking** is work, not avoidance.",
+        "**Words** are a bit, a rudder and a fire."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Work the paper like rounds",
+      "text": "Twenty-four questions is twelve rounds twice.",
+      "points": [
+        "**Read the whole question** before touching an option.",
+        "**Most questions test a distinction.** Find which one.",
+        "**Mark the hard one and move on.**",
+        "**Do not switch an answer** without a reason you can say."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "The night before counts",
+      "text": "Same as every other paper this term.",
+      "points": [
+        "**Sleep beats cramming.** Eight to ten hours.",
+        "**Eat something.**",
+        "**Self-test, do not re-read.**",
+        "**Ten distinctions.** That is the whole paper."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Four people worth remembering",
+      "text": "Most of the term's hardest questions attach to one of these.",
+      "points": [
+        "**Joseph** — thirteen years, then Genesis 50:20.",
+        "**The Samaritan** — he went to him, then paid.",
+        "**Jonathan** — his robe and weapons.",
+        "**Peter** — asked for a number and did not get one."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Ready",
+      "title": "Ten distinctions",
+      "points": [
+        "Gap not absence; in not for; move not just feel.",
+        "Active not idle; owed not chosen; one of four not all four.",
+        "Assembled not identical; behaviour not feeling; work not avoidance.",
+        "Leverage, not volume."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Self-control is…",
+      "options": [
+        "never feeling angry",
+        "agreeing",
+        "what you do in the gap",
+        "staying silent"
+      ],
+      "answerIndex": 2,
+      "explain": "The feeling arrives either way.",
+      "objective": "Recall self-control, gratitude and compassion",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Galatians 5:22-23 lists how many qualities?",
+      "options": [
+        "Nine",
+        "Seven",
+        "Three",
+        "Twelve"
+      ],
+      "answerIndex": 0,
+      "explain": "Self-control is the last of them.",
+      "objective": "Recall self-control, gratitude and compassion",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Proverbs 25:28 compares no self-control to…",
+      "options": [
+        "a locked gate",
+        "a desert",
+        "a storm",
+        "a city with broken walls"
+      ],
+      "answerIndex": 3,
+      "explain": "Open, not weak.",
+      "objective": "Recall self-control, gratitude and compassion",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "1 Thessalonians 5:18 says thanks…",
+      "options": [
+        "publicly",
+        "daily",
+        "in all circumstances",
+        "for all things"
+      ],
+      "answerIndex": 2,
+      "explain": "Not thanks for everything that happens.",
+      "objective": "Recall self-control, gratitude and compassion",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "In Luke 17, how many of the ten returned?",
+      "options": [
+        "Three",
+        "One",
+        "All",
+        "Nine"
+      ],
+      "answerIndex": 1,
+      "explain": "The others were glad and said nothing.",
+      "objective": "Recall self-control, gratitude and compassion",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The four steps of compassion are…",
+      "options": [
+        "see, pray, wait, hope",
+        "hear, give, leave, rest",
+        "notice, feel, move, cost",
+        "ask, plan, act, pray"
+      ],
+      "answerIndex": 2,
+      "explain": "People stop between feel and move.",
+      "objective": "Recall self-control, gratitude and compassion",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The Samaritan left the innkeeper…",
+      "options": [
+        "two days' wages and a promise",
+        "his animal",
+        "nothing",
+        "a letter"
+      ],
+      "answerIndex": 0,
+      "explain": "The cost was ongoing.",
+      "objective": "Recall self-control, gratitude and compassion",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Joseph was sold at seventeen and stood before Pharaoh at…",
+      "options": [
+        "twenty-five",
+        "thirty",
+        "forty",
+        "twenty"
+      ],
+      "answerIndex": 1,
+      "explain": "Thirteen years.",
+      "objective": "Recall patience, respect and forgiveness",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Abraham waited how long for Isaac?",
+      "options": [
+        "Twenty-five years",
+        "Forty years",
+        "Five years",
+        "Thirteen years"
+      ],
+      "answerIndex": 0,
+      "explain": "Promised at seventy-five, Isaac born at a hundred.",
+      "objective": "Recall patience, respect and forgiveness",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "James 5:7 compares patience to a…",
+      "options": [
+        "soldier",
+        "farmer",
+        "runner",
+        "king"
+      ],
+      "answerIndex": 1,
+      "explain": "Because a farmer works throughout.",
+      "objective": "Recall patience, respect and forgiveness",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "In Romans 5, endurance produces…",
+      "options": [
+        "character",
+        "hope",
+        "faith",
+        "suffering"
+      ],
+      "answerIndex": 0,
+      "explain": "Then character produces hope.",
+      "objective": "Recall patience, respect and forgiveness",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which is owed to everyone?",
+      "options": [
+        "Trust",
+        "Respect",
+        "Agreement",
+        "Kindness"
+      ],
+      "answerIndex": 1,
+      "explain": "A baseline, not a reward.",
+      "objective": "Recall patience, respect and forgiveness",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Philippians 2:3 asks you to…",
+      "options": [
+        "stay quiet",
+        "give money",
+        "obey",
+        "count others more significant"
+      ],
+      "answerIndex": 3,
+      "explain": "Weighting, not silence.",
+      "objective": "Recall patience, respect and forgiveness",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which of forgiveness, reconciliation, trust and consequences is yours alone?",
+      "options": [
+        "Forgiveness",
+        "Consequences",
+        "Reconciliation",
+        "Trust"
+      ],
+      "answerIndex": 0,
+      "explain": "A decision you can make without them.",
+      "objective": "Recall patience, respect and forgiveness",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Matthew 18:22 answers Peter with…",
+      "options": [
+        "ten",
+        "three",
+        "seven",
+        "seventy-seven"
+      ],
+      "answerIndex": 3,
+      "explain": "A number large enough to stop the counting.",
+      "objective": "Recall patience, respect and forgiveness",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "In Genesis 50 Joseph said his brothers meant evil, but…",
+      "options": [
+        "God meant it for good",
+        "it did not matter",
+        "he forgot it",
+        "it was legal"
+      ],
+      "answerIndex": 0,
+      "explain": "Named and released in one sentence.",
+      "objective": "Recall patience, respect and forgiveness",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "1 Corinthians 12:17 asks: if all were an eye, where would…",
+      "options": [
+        "the head be",
+        "the hearing be",
+        "the hand be",
+        "the body be"
+      ],
+      "answerIndex": 1,
+      "explain": "A body of one part is not a body.",
+      "objective": "Recall unity, friendship and peacemaking",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Verse 21 says the eye cannot say to the hand…",
+      "options": [
+        "\"you are first\"",
+        "\"I have no need of you\"",
+        "\"wait\"",
+        "\"lead me\""
+      ],
+      "answerIndex": 1,
+      "explain": "That is the superiority mistake.",
+      "objective": "Recall unity, friendship and peacemaking",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Proverbs 27:6 says faithful are the…",
+      "options": [
+        "works",
+        "words",
+        "ways",
+        "wounds"
+      ],
+      "answerIndex": 3,
+      "explain": "A friend who never disagrees is not doing the job.",
+      "objective": "Recall unity, friendship and peacemaking",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Proverbs 13:20 says whoever walks with the wise…",
+      "options": [
+        "leads them",
+        "leaves them",
+        "teaches them",
+        "becomes wise"
+      ],
+      "answerIndex": 3,
+      "explain": "Hours over intentions.",
+      "objective": "Recall unity, friendship and peacemaking",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Jonathan gave David his…",
+      "options": [
+        "money",
+        "sword only",
+        "robe and weapons",
+        "land"
+      ],
+      "answerIndex": 2,
+      "explain": "The symbols of his own claim to the throne.",
+      "objective": "Recall unity, friendship and peacemaking",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The first step in Matthew 18 is to…",
+      "options": [
+        "write",
+        "wait",
+        "go to them alone",
+        "tell the group"
+      ],
+      "answerIndex": 2,
+      "explain": "As privately as possible.",
+      "objective": "Recall unity, friendship and peacemaking",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Romans 12:18 includes the clause…",
+      "options": [
+        "\"at all costs\"",
+        "\"without delay\"",
+        "\"in public\"",
+        "\"as far as it depends on you\""
+      ],
+      "answerIndex": 3,
+      "explain": "A limit, deliberately.",
+      "objective": "Recall unity, friendship and peacemaking",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "James compares the tongue to a bit, a fire, and a…",
+      "options": [
+        "hammer",
+        "sword",
+        "rudder",
+        "river"
+      ],
+      "answerIndex": 2,
+      "explain": "Leverage, not volume.",
+      "objective": "Recall the teaching on words",
+      "seconds": 18
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 11 Devotion, the practice paper. The review is grouped by the distinction each week turns on rather than by topic, because the distinctions are what the paper actually tests and because they are what the term was built on: the gap rather than the absence of feeling, thanks in rather than for, one of four things rather than all four. The story lens gathers the four people the hardest questions attach to, with the detail each one is asked about. Twenty-four questions spread evenly across the ten weeks, weighted slightly towards weeks 4 to 6, which carry the most difficult material.",
+    "discussion": [
+      "Ask for the ten distinctions in his own words.",
+      "Ask which week he feels least sure of.",
+      "Ask for the four people and the one fact each.",
+      "Ask what Romans 12:18's clause protects him from."
+    ],
+    "extension": [
+      "Sit the paper once at pace, then again days later without revising.",
+      "Have him write one exam question per week of the term."
+    ],
+    "misconceptions": [
+      "\"Revision means re-reading.\" Self-testing is what works.",
+      "\"Gratitude is for everything.\" In, not for.",
+      "\"Forgiveness is one thing.\" It is four, and only one is yours alone."
+    ]
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "id": "dev-t2-w2",
+  "courseId": "devotion",
+  "courseTitle": "Devotion",
+  "week": 2,
+  "title": "Gratitude Everyday",
+  "subtitle": "Specific, said out loud — and the verse people misuse.",
+  "estMinutes": 20,
+  "objectives": [
+    "Name the four kinds of gratitude",
+    "Explain the difference between thanks in and thanks for",
+    "Explain the point of Luke 17",
+    "Say gratitude specifically and out loud"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🙏",
+      "eyebrow": "Part 2 · Devotion",
+      "title": "Gratitude that nobody hears changes nothing",
+      "text": "It is not a mood you work yourself into. It is noticing something specific and then saying it to the person who did it."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "Specific, or it does not count",
+      "text": "The difference between a mood and a fact is a detail.",
+      "points": [
+        "**\"Thanks for everything\"** is forgettable.",
+        "**\"Thanks for waiting for me\"** is not.",
+        "**Name the thing.** Then name the person.",
+        "**Psalm 103:2** — the command is against *forgetting*."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "gratitudeKinds",
+      "title": "Six buttons",
+      "text": "Tap each kind. The last two are the ones that go wrong."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What makes gratitude land?",
+        "options": [
+          "Saying it quietly",
+          "Naming the specific thing",
+          "Saying it often",
+          "Writing it down only"
+        ],
+        "answerIndex": 1,
+        "explain": "A detail turns a mood into a fact.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The careful bit",
+      "title": "In all circumstances, not for all circumstances",
+      "text": "This is the verse most often used badly.",
+      "points": [
+        "**1 Thessalonians 5:18:** give thanks *in* all circumstances.",
+        "**It does not say be thankful for everything** that happens.",
+        "**You are not asked to be glad a thing was bad.**",
+        "**You are asked to find what is still true** while it is."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "1 Thessalonians 5:18 says give thanks…",
+        "options": [
+          "in all circumstances",
+          "once a day",
+          "when things go well",
+          "for all circumstances"
+        ],
+        "answerIndex": 0,
+        "explain": "A real difference, and the whole weight of the verse.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Luke 17",
+      "title": "Ten were healed. One came back.",
+      "text": "The story is not about the healing.",
+      "points": [
+        "**Ten men were healed** on the way.",
+        "**One returned to say so.**",
+        "**The other nine were not ungrateful** — they were glad.",
+        "**They just did not say it.** That is the whole gap."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "You notice a fan when it stops",
+      "text": "Everything that works is invisible, which is the actual problem with gratitude.",
+      "points": [
+        "**A working fan is background noise.**",
+        "**A broken one is all you can think about.**",
+        "**Your attention is built to find faults**, not functions.",
+        "**So noticing what works is deliberate work.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "A maintenance log is a record of what held",
+      "text": "Mechanics keep one, and reading it back is an accidental gratitude practice.",
+      "points": [
+        "**Every part that was replaced** is in there.",
+        "**So is every part that never needed it.**",
+        "**You forget the second list** entirely.",
+        "**Write things down** and you stop forgetting them."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "Comparison is the off switch",
+      "text": "You cannot be grateful and be counting someone else's total at the same time.",
+      "points": [
+        "**Someone is always stronger or faster.**",
+        "**That will be true at every level**, forever.",
+        "**Compare to your own last month** instead.",
+        "**That comparison has an answer** you can act on."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Name the specific thing, and say it out loud.",
+        "Thanks *in* all circumstances, not *for* all circumstances.",
+        "Luke 17 — nine were glad and said nothing.",
+        "Comparison turns gratitude off."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "What makes gratitude specific?",
+      "options": [
+        "Repeating it",
+        "Naming the actual thing",
+        "Volume",
+        "Writing it"
+      ],
+      "answerIndex": 1,
+      "explain": "A detail makes it a fact rather than a mood.",
+      "objective": "Name the four kinds of gratitude",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Psalm 103:2 commands against…",
+      "options": [
+        "complaining",
+        "arguing",
+        "boasting",
+        "forgetting"
+      ],
+      "answerIndex": 3,
+      "explain": "\"Forget not all his benefits.\"",
+      "objective": "Name the four kinds of gratitude",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "1 Thessalonians 5:18 says give thanks…",
+      "options": [
+        "for all things",
+        "on Sundays",
+        "when healed",
+        "in all circumstances"
+      ],
+      "answerIndex": 3,
+      "explain": "A real and important difference.",
+      "objective": "Explain the difference between thanks in and thanks for",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "That verse asks you to be glad that bad things happened.",
+      "answer": false,
+      "explain": "In, not for. You look for what is still true while it is.",
+      "objective": "Explain the difference between thanks in and thanks for",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "In Luke 17, how many were healed?",
+      "options": [
+        "Ten",
+        "One",
+        "Seventy",
+        "Three"
+      ],
+      "answerIndex": 0,
+      "explain": "And one returned.",
+      "objective": "Explain the point of Luke 17",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "How many came back to say thank you?",
+      "options": [
+        "Nine",
+        "All ten",
+        "One",
+        "Three"
+      ],
+      "answerIndex": 2,
+      "explain": "The other nine were glad and did not say so.",
+      "objective": "Explain the point of Luke 17",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The point of Luke 17 is that…",
+      "options": [
+        "healing is rare",
+        "nine were ungrateful",
+        "being glad is not the same as saying it",
+        "ten is a lot"
+      ],
+      "answerIndex": 2,
+      "explain": "That gap is the whole story.",
+      "objective": "Explain the point of Luke 17",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Why does noticing what works take effort?",
+      "options": [
+        "Nobody teaches it",
+        "Attention is built to find faults, not functions",
+        "It is boring",
+        "It is slow"
+      ],
+      "answerIndex": 1,
+      "explain": "A working fan is background noise.",
+      "objective": "Name the four kinds of gratitude",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "What turns gratitude off?",
+      "options": [
+        "Comparison",
+        "Silence",
+        "Tiredness",
+        "Routine"
+      ],
+      "answerIndex": 0,
+      "explain": "You cannot count someone else's total and be grateful at once.",
+      "objective": "Say gratitude specifically and out loud",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A better comparison than someone else is…",
+      "options": [
+        "the best in the world",
+        "the average",
+        "your own last month",
+        "nobody"
+      ],
+      "answerIndex": 2,
+      "explain": "That one has an answer you can act on.",
+      "objective": "Say gratitude specifically and out loud",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which is the strongest form of gratitude?",
+      "options": [
+        "Posted publicly",
+        "Said to the person, specifically",
+        "Felt privately",
+        "Written in a diary"
+      ],
+      "answerIndex": 1,
+      "explain": "Gratitude nobody hears changes nothing between two people.",
+      "objective": "Say gratitude specifically and out loud",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why does a maintenance log work as a gratitude practice?",
+      "options": [
+        "It records what never failed as well as what did",
+        "It is required",
+        "It is official",
+        "It is long"
+      ],
+      "answerIndex": 0,
+      "explain": "You forget the second list entirely.",
+      "objective": "Name the four kinds of gratitude",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 2 Devotion. Gratitude is defined as an action with a detail in it rather than a mood, because a mood cannot be practised and a sentence can. The week does careful work on 1 Thessalonians 5:18, which is routinely used to tell people to be glad about bad things: the text says thanks *in* all circumstances, and the distinction is given its own card and two questions. Luke 17 is read precisely — the nine were glad and did not say so — which is a more useful reading than calling them ungrateful. The teardown lens gives the mechanism: attention is built to find faults, so noticing what works is deliberate.",
+    "discussion": [
+      "Ask for one specific thank-you, named, out loud.",
+      "Ask the difference between thanks in and thanks for.",
+      "Ask what the nine in Luke 17 actually did wrong.",
+      "Ask what comparison does to gratitude."
+    ],
+    "extension": [
+      "Have him say one specific thank-you to one person each day for a week.",
+      "Have him list five things that worked today and nobody noticed."
+    ],
+    "misconceptions": [
+      "\"The verse says be thankful for everything.\" In, not for.",
+      "\"The nine were ungrateful.\" They were glad and silent.",
+      "\"Gratitude is a feeling.\" It is a sentence somebody hears."
+    ]
+  }
+}

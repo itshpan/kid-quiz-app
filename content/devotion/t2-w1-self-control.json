@@ -1,0 +1,321 @@
+{
+  "id": "dev-t2-w1",
+  "courseId": "devotion",
+  "courseTitle": "Devotion",
+  "week": 1,
+  "title": "Self-Control in Choices",
+  "subtitle": "The gap between feeling and acting — and how to use it.",
+  "estMinutes": 20,
+  "objectives": [
+    "Define self-control as the gap between feeling and acting",
+    "Name the fruit of the Spirit",
+    "Explain Proverbs 25:28",
+    "Use a method in the moment before reacting"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🛑",
+      "eyebrow": "Part 1 · Devotion",
+      "title": "Self-control is not feeling less",
+      "text": "It is not calmness and it is not pretending. It is the gap between what you feel and what you do. A gap is a skill, so it can be trained."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "Where it actually lives",
+      "text": "Three things happen, and only the middle one is yours.",
+      "points": [
+        "**The feeling arrives.** You did not choose that.",
+        "**A gap opens.** This is the part you own.",
+        "**An action follows.** Chosen, or not chosen.",
+        "**Self-control is what you put in the gap.**"
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "impulseGap",
+      "title": "You choose what goes in the gap",
+      "text": "Work it through. Each other choice shows what it would cost."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Self-control is best described as…",
+        "options": [
+          "what you do in the gap between feeling and acting",
+          "staying quiet",
+          "being calm",
+          "never feeling angry"
+        ],
+        "answerIndex": 0,
+        "explain": "The feeling is not the problem. The gap is the work.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "In the text",
+      "title": "Two verses that do the work",
+      "text": "One lists it; the other says what its absence looks like.",
+      "points": [
+        "**Galatians 5:22-23** lists the fruit of the Spirit.",
+        "**Self-control is the last of the nine**, not the first.",
+        "**Proverbs 25:28:** no self-control is a city with broken walls.",
+        "**Not a weak city — an open one.** Anything can walk in."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Proverbs 25:28 compares a person without self-control to…",
+        "options": [
+          "a locked gate",
+          "a city with its walls broken down",
+          "a storm",
+          "a desert"
+        ],
+        "answerIndex": 1,
+        "explain": "Not weak. Open — anything can walk in.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Paul uses an athlete on purpose",
+      "text": "1 Corinthians 9 is the most literally athletic passage in the letters.",
+      "points": [
+        "**\"Every athlete exercises self-control in all things.\"**",
+        "**\"I discipline my body.\"** That is the actual wording.",
+        "**Nobody is surprised** that a fighter has rules about food and sleep.",
+        "**Same mechanism**, applied to temper."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "The brakes are still being built",
+      "text": "This is not an excuse, and it is also a real fact about your age.",
+      "points": [
+        "**The part of the brain that holds the gap** is still developing.",
+        "**It keeps developing into your twenties.**",
+        "**Which means the gap is shorter now** than it will be.",
+        "**And means practising it now** is exactly the right time."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Tilt is the word for losing the gap",
+      "text": "Every competitive player knows this and most have a rule about it.",
+      "points": [
+        "**You lose, and the next match starts angry.**",
+        "**Decisions get worse, so you lose again.**",
+        "**The rule is to stop after two.**",
+        "**That rule is self-control**, written down in advance."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "The feeling is not chosen; the gap is yours.",
+        "Galatians 5:22-23 lists self-control last among nine.",
+        "Proverbs 25:28 — no self-control is a city with no walls.",
+        "Notice it, breathe once, ask what you want afterwards."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Self-control means…",
+      "options": [
+        "agreeing",
+        "being quiet",
+        "choosing what follows the feeling",
+        "never feeling strongly"
+      ],
+      "answerIndex": 2,
+      "explain": "The feeling arrives either way.",
+      "objective": "Define self-control as the gap between feeling and acting",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Galatians 5:22-23 lists…",
+      "options": [
+        "the ten commandments",
+        "the apostles",
+        "the beatitudes",
+        "the fruit of the Spirit"
+      ],
+      "answerIndex": 3,
+      "explain": "Nine qualities, with self-control last.",
+      "objective": "Name the fruit of the Spirit",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "How many qualities are in that list?",
+      "options": [
+        "Twelve",
+        "Nine",
+        "Seven",
+        "Three"
+      ],
+      "answerIndex": 1,
+      "explain": "Love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control.",
+      "objective": "Name the fruit of the Spirit",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Proverbs 25:28 uses the image of…",
+      "options": [
+        "a field",
+        "a river",
+        "a city with broken walls",
+        "a tower"
+      ],
+      "answerIndex": 2,
+      "explain": "Open, rather than weak.",
+      "objective": "Explain Proverbs 25:28",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The point of that image is that the person is…",
+      "options": [
+        "unprotected — anything can get in",
+        "alone",
+        "weak",
+        "angry"
+      ],
+      "answerIndex": 0,
+      "explain": "Walls decide what enters.",
+      "objective": "Explain Proverbs 25:28",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Which passage compares self-control to an athlete's discipline?",
+      "options": [
+        "Acts 2",
+        "Psalm 23",
+        "1 Corinthians 9",
+        "Genesis 1"
+      ],
+      "answerIndex": 2,
+      "explain": "\"Every athlete exercises self-control in all things.\"",
+      "objective": "Name the fruit of the Spirit",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The first step in the gap is to…",
+      "options": [
+        "say it",
+        "notice the feeling",
+        "leave",
+        "plan a reply"
+      ],
+      "answerIndex": 1,
+      "explain": "You cannot choose what you have not noticed.",
+      "objective": "Use a method in the moment before reacting",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The question that helps most in the gap is…",
+      "options": [
+        "\"What do I want after this?\"",
+        "\"Is it fair?\"",
+        "\"Who started it?\"",
+        "\"How do I win?\""
+      ],
+      "answerIndex": 0,
+      "explain": "Winning the exchange often costs the friendship.",
+      "objective": "Use a method in the moment before reacting",
+      "seconds": 22
+    },
+    {
+      "type": "truefalse",
+      "text": "Pretending you are not angry is self-control.",
+      "answer": false,
+      "explain": "It goes underground and comes out later, at someone else.",
+      "objective": "Define self-control as the gap between feeling and acting",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why is practising this now especially worthwhile?",
+      "options": [
+        "The part of the brain that holds the gap is still developing",
+        "It is required",
+        "It gets harder later",
+        "It is easy now"
+      ],
+      "answerIndex": 0,
+      "explain": "Development continues into the twenties.",
+      "objective": "Define self-control as the gap between feeling and acting",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "\"Tilt\" in competitive gaming describes…",
+      "options": [
+        "a strategy",
+        "playing on after a loss while still angry",
+        "a ranking",
+        "a hardware fault"
+      ],
+      "answerIndex": 1,
+      "explain": "Decisions get worse, so the losses continue.",
+      "objective": "Use a method in the moment before reacting",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Where in the list of nine does self-control appear?",
+      "options": [
+        "Third",
+        "Fifth",
+        "First",
+        "Last"
+      ],
+      "answerIndex": 3,
+      "explain": "Which is worth noticing.",
+      "objective": "Name the fruit of the Spirit",
+      "seconds": 18
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 1 Devotion. Self-control is defined as a mechanism rather than a mood: the feeling is not chosen, the gap is, and the action follows. That framing matters for this learner specifically, because defining self-control as calmness sets a target he cannot hit, while defining it as the gap gives him something to practise. The interactive walks the gap and answers every other choice with its cost rather than a verdict. The growth lens states the honest fact that the relevant part of the brain is still developing, and turns it into a reason to practise now rather than an excuse. 1 Corinthians 9 carries the boxing lens because the passage is genuinely athletic.",
+    "discussion": [
+      "Ask what self-control is, in his own words.",
+      "Ask what Proverbs 25:28 compares it to, and why that image.",
+      "Ask what he puts in the gap.",
+      "Ask what his own rule after two losses would be."
+    ],
+    "extension": [
+      "Have him write his own three-step rule for the gap and put it somewhere visible.",
+      "Have him name one moment this week where the gap worked."
+    ],
+    "misconceptions": [
+      "\"Self-control means not feeling angry.\" The feeling arrives either way.",
+      "\"Pretending it is fine counts.\" It resurfaces elsewhere.",
+      "\"Proverbs 25:28 says he is weak.\" It says he is open."
+    ]
+  }
+}

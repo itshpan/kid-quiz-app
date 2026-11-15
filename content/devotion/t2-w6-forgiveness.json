@@ -1,0 +1,345 @@
+{
+  "id": "dev-t2-w6",
+  "courseId": "devotion",
+  "courseTitle": "Devotion",
+  "week": 6,
+  "title": "Forgiveness & Reconciliation",
+  "subtitle": "Four separate things, and only one is yours alone.",
+  "estMinutes": 20,
+  "objectives": [
+    "Separate forgiveness, reconciliation, trust and consequences",
+    "Explain Matthew 18:22",
+    "Explain why forgiveness does not require the other person",
+    "Describe Joseph's response in Genesis 50"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🕊️",
+      "eyebrow": "Part 6 · Devotion",
+      "title": "Four things, collapsed into one word",
+      "text": "\"Forgive and forget\" asks for four separate things at once, which is why it usually produces none of them. Separate them and each becomes possible."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "They are not the same",
+      "text": "Only the first one is entirely yours.",
+      "points": [
+        "**Forgiveness** — letting go of your claim to pay them back.",
+        "**Reconciliation** — the relationship working again.",
+        "**Trust** — believing they will not do it again.",
+        "**Consequences** — what follows from what was done."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "forgiveParts",
+      "title": "Six buttons",
+      "text": "Tap each one. The fifth button is why this matters."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which one can you do without the other person agreeing?",
+        "options": [
+          "Forgiveness",
+          "All of them",
+          "Reconciliation",
+          "Trust"
+        ],
+        "answerIndex": 0,
+        "explain": "It is a decision you can make alone.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Why the difference matters",
+      "title": "Three things it frees you from",
+      "text": "People refuse to forgive because they think it means all four.",
+      "points": [
+        "**You can forgive** and still not be close again.",
+        "**You can forgive** and still not trust yet.",
+        "**You can forgive** and still ask for consequences.",
+        "**Reconciliation takes two.** If they will not, that is not your failure."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Does forgiving someone remove the consequences of what they did?",
+        "options": [
+          "Yes",
+          "No",
+          "Only if they ask",
+          "Only sometimes"
+        ],
+        "answerIndex": 1,
+        "explain": "And asking for consequences is not revenge.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Matthew 18",
+      "title": "Peter asked for a number",
+      "text": "The answer is designed to end the counting.",
+      "points": [
+        "**Peter asked:** is seven times enough?",
+        "**Seven was already generous** by the standards of the day.",
+        "**The answer: seventy-seven times.**",
+        "**Some translations say seventy times seven.** Either way, stop counting."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Genesis 50",
+      "title": "Joseph, thirteen years later",
+      "text": "He had the power to retaliate and the brothers knew it.",
+      "points": [
+        "**\"You meant evil against me, but God meant it for good.\"**",
+        "**He named the wrong.** He did not pretend it was fine.",
+        "**Then he fed them.**",
+        "**Naming it and releasing it** happen in the same sentence."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Carrying it costs you the next round",
+      "text": "A fighter still angry about round two loses round three.",
+      "points": [
+        "**The grudge takes attention** you need now.",
+        "**It is not a moral point.** It is a performance one.",
+        "**Resentment is a tax** you pay and they do not.",
+        "**Letting go is partly self-interest.** That is allowed."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "A repaired part is not a new part",
+      "text": "You can fix something properly and still watch it more closely than the rest.",
+      "points": [
+        "**The repair is real.** It holds.",
+        "**You still check that joint first** next time.",
+        "**That is not distrust of the repair.**",
+        "**It is a record.** Records are allowed."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Forgiveness is not a trust reset",
+      "text": "Two different systems, and games keep them separate on purpose.",
+      "points": [
+        "**You can unmute someone** and still not party with them.",
+        "**Forgiving is immediate.** Trust is a record.",
+        "**A record is rebuilt by behaviour**, over time.",
+        "**Keeping them separate is wisdom**, not bitterness."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Forgiveness, reconciliation, trust and consequences are four things.",
+        "Forgiveness is yours alone; reconciliation takes two.",
+        "Matthew 18:22 — seventy-seven times, which means stop counting.",
+        "Joseph named the wrong and released it in the same sentence."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Which of the four takes two people?",
+      "options": [
+        "Reconciliation",
+        "Forgiveness",
+        "None",
+        "Consequences"
+      ],
+      "answerIndex": 0,
+      "explain": "You cannot do it alone, and that is not your failure.",
+      "objective": "Separate forgiveness, reconciliation, trust and consequences",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which of the four is rebuilt over time by behaviour?",
+      "options": [
+        "Consequences",
+        "Trust",
+        "Forgiveness",
+        "Reconciliation"
+      ],
+      "answerIndex": 1,
+      "explain": "Forgiving is immediate; trust is earned.",
+      "objective": "Separate forgiveness, reconciliation, trust and consequences",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "Forgiving someone removes the consequences of what they did.",
+      "answer": false,
+      "explain": "Asking for consequences is not revenge.",
+      "objective": "Separate forgiveness, reconciliation, trust and consequences",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "In Matthew 18, Peter suggested forgiving…",
+      "options": [
+        "seventy times",
+        "three times",
+        "seven times",
+        "always"
+      ],
+      "answerIndex": 2,
+      "explain": "Already generous by the standards of the day.",
+      "objective": "Explain Matthew 18:22",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The answer given was…",
+      "options": [
+        "never",
+        "ten times",
+        "once",
+        "seventy-seven times"
+      ],
+      "answerIndex": 3,
+      "explain": "Or seventy times seven, depending on the translation.",
+      "objective": "Explain Matthew 18:22",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The point of that number is to…",
+      "options": [
+        "be strict",
+        "be precise",
+        "set a limit",
+        "end the counting"
+      ],
+      "answerIndex": 3,
+      "explain": "A number so large it stops being a count.",
+      "objective": "Explain Matthew 18:22",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Why can forgiveness be done alone?",
+      "options": [
+        "It is easy",
+        "It is private",
+        "It is your own decision to release a claim",
+        "Nobody notices"
+      ],
+      "answerIndex": 2,
+      "explain": "It does not need them to agree.",
+      "objective": "Explain why forgiveness does not require the other person",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "In Genesis 50 Joseph said his brothers…",
+      "options": [
+        "did nothing wrong",
+        "meant evil, but God meant it for good",
+        "were forgiven by law",
+        "should be punished"
+      ],
+      "answerIndex": 1,
+      "explain": "He named the wrong and released it together.",
+      "objective": "Describe Joseph's response in Genesis 50",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "What did Joseph then do?",
+      "options": [
+        "Sent them away",
+        "Fed them",
+        "Imprisoned them",
+        "Said nothing"
+      ],
+      "answerIndex": 1,
+      "explain": "With the power to do otherwise.",
+      "objective": "Describe Joseph's response in Genesis 50",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Joseph's response shows that forgiveness does NOT require…",
+      "options": [
+        "pretending it did not happen",
+        "naming the wrong",
+        "any action",
+        "time"
+      ],
+      "answerIndex": 0,
+      "explain": "He named it explicitly.",
+      "objective": "Describe Joseph's response in Genesis 50",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Why is resentment described as a tax?",
+      "options": [
+        "It is small",
+        "It is legal",
+        "You pay it and they do not",
+        "It is shared"
+      ],
+      "answerIndex": 2,
+      "explain": "It takes attention you need now.",
+      "objective": "Explain why forgiveness does not require the other person",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Keeping forgiveness and trust separate is…",
+      "options": [
+        "wisdom",
+        "revenge",
+        "avoidance",
+        "bitterness"
+      ],
+      "answerIndex": 0,
+      "explain": "Two different systems, deliberately.",
+      "objective": "Separate forgiveness, reconciliation, trust and consequences",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 6 Devotion, and the most practically useful week in the subject. Forgiveness, reconciliation, trust and consequences are separated out, because collapsing them into \"forgive and forget\" is what makes forgiveness feel either impossible or dishonest. The separation frees three real things: he can forgive without being close again, without trusting yet, and without waiving consequences. Genesis 50 is the model because Joseph names the wrong and releases it in the same sentence rather than pretending it did not happen. Matthew 18:22 is given with the translation note, since both renderings appear and the point is identical.",
+    "discussion": [
+      "Ask him to name the four and which is his alone.",
+      "Ask whether forgiving means trusting again.",
+      "Ask what Joseph actually said to his brothers.",
+      "Ask what resentment costs the person carrying it."
+    ],
+    "extension": [
+      "Have him write the four words down and sort one real situation into them.",
+      "Have him find Genesis 50:20 and read it aloud."
+    ],
+    "misconceptions": [
+      "\"Forgiving means forgetting.\" It means releasing a claim.",
+      "\"Forgiving means trusting again.\" Trust is rebuilt by behaviour.",
+      "\"If we are not close again, I failed.\" Reconciliation takes two."
+    ]
+  }
+}

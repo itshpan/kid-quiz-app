@@ -1,0 +1,333 @@
+{
+  "id": "dev-t2-w8",
+  "courseId": "devotion",
+  "courseTitle": "Devotion",
+  "week": 8,
+  "title": "Friendship That Honors God",
+  "subtitle": "Proverbs describes friendship by behaviour, which you can check.",
+  "estMinutes": 20,
+  "objectives": [
+    "Name the scriptural tests of friendship",
+    "Explain Proverbs 27:6",
+    "Explain Proverbs 13:20",
+    "Describe what Jonathan gave David"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "👥",
+      "eyebrow": "Part 8 · Devotion",
+      "title": "Proverbs describes friendship by behaviour",
+      "text": "Not by feeling. Which is useful, because behaviour is something you can actually check — in them, and in yourself."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "Four tests you can run",
+      "text": "Each one comes from a specific verse.",
+      "points": [
+        "**Will they tell you the truth?** Proverbs 27:6.",
+        "**Are they there when it is bad?** Proverbs 17:17.",
+        "**Who are you becoming?** Proverbs 13:20.",
+        "**Does it cost them anything?** 1 Samuel 18."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "friendTests",
+      "title": "Six buttons",
+      "text": "Tap each test. The last one is the hard one."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Proverbs 27:6 says \"faithful are the…\"",
+        "options": [
+          "words of a friend",
+          "wounds of a friend",
+          "gifts of a friend",
+          "promises of a friend"
+        ],
+        "answerIndex": 1,
+        "explain": "A friend who never disagrees is not doing the job.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Proverbs 13:20",
+      "title": "The one with no exceptions",
+      "text": "This is the bluntest verse in the set.",
+      "points": [
+        "**\"Whoever walks with the wise becomes wise.\"**",
+        "**The second half is the warning.**",
+        "**You end up like the people you spend hours with.**",
+        "**Not sometimes. This is how people work.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Proverbs 13:20 is about…",
+        "options": [
+          "becoming like the people you spend time with",
+          "choosing teachers",
+          "finding wisdom alone",
+          "avoiding people"
+        ],
+        "answerIndex": 0,
+        "explain": "Hours matter more than intentions.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "1 Samuel 18",
+      "title": "What Jonathan actually gave up",
+      "text": "This is the detail that makes the story more than sentiment.",
+      "points": [
+        "**Jonathan was the king's son.** The throne was his.",
+        "**He gave David his robe and his weapons.**",
+        "**Those were the symbols of that claim.**",
+        "**He gave away his own succession**, on purpose."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "A good training partner is not easy on you",
+      "text": "The one who lets you win teaches you nothing.",
+      "points": [
+        "**A partner who goes soft** hides your gaps.",
+        "**You find them in a real fight instead.**",
+        "**\"Faithful are the wounds of a friend\"** is literal here.",
+        "**You want the one who tells you** your guard drops."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "You rise or sink to the lobby",
+      "text": "Anyone who plays competitively has watched this happen.",
+      "points": [
+        "**Play with better players** and you improve.",
+        "**Play with people who tilt** and you tilt.",
+        "**Nobody decides to copy them.** It happens anyway.",
+        "**Proverbs 13:20, in a queue.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "The hard test is the last one",
+      "text": "Every test above, read the other way round.",
+      "points": [
+        "**Do you tell your friends the truth?**",
+        "**Are you there in their bad week?**",
+        "**Does being your friend cost you anything?**",
+        "**That list is harder** than judging theirs."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Proverbs 27:6 — faithful are the wounds of a friend.",
+        "Proverbs 17:17 — a friend loves at all times.",
+        "Proverbs 13:20 — you become like the people you walk with.",
+        "Jonathan gave David his robe and weapons: his own claim to the throne."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Proverbs 27:6 says faithful are the…",
+      "options": [
+        "works",
+        "ways",
+        "wounds",
+        "words"
+      ],
+      "answerIndex": 2,
+      "explain": "A friend who disagrees with you is doing the job.",
+      "objective": "Explain Proverbs 27:6",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "What does that verse imply about a friend who always agrees?",
+      "options": [
+        "They are not doing the job",
+        "They are wise",
+        "They are kind",
+        "They are loyal"
+      ],
+      "answerIndex": 0,
+      "explain": "Agreement is not the measure.",
+      "objective": "Explain Proverbs 27:6",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Proverbs 17:17 says a friend loves…",
+      "options": [
+        "sometimes",
+        "when easy",
+        "at all times",
+        "in public"
+      ],
+      "answerIndex": 2,
+      "explain": "The bad week is the test.",
+      "objective": "Name the scriptural tests of friendship",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Proverbs 13:20 says whoever walks with the wise…",
+      "options": [
+        "becomes wise",
+        "leaves them",
+        "teaches them",
+        "leads them"
+      ],
+      "answerIndex": 0,
+      "explain": "And the second half is the warning.",
+      "objective": "Explain Proverbs 13:20",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "Proverbs 13:20 allows for exceptions if your intentions are good.",
+      "answer": false,
+      "explain": "Hours matter more than intentions. This is how people work.",
+      "objective": "Explain Proverbs 13:20",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Proverbs 18:24 contrasts many companions with…",
+      "options": [
+        "no friends",
+        "one who sticks closer",
+        "family",
+        "enemies"
+      ],
+      "answerIndex": 1,
+      "explain": "Count is not the measure.",
+      "objective": "Name the scriptural tests of friendship",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Jonathan was the son of…",
+      "options": [
+        "David",
+        "Samuel",
+        "Saul",
+        "Jesse"
+      ],
+      "answerIndex": 2,
+      "explain": "Which made the throne his.",
+      "objective": "Describe what Jonathan gave David",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "What did Jonathan give David?",
+      "options": [
+        "His robe and weapons",
+        "Land",
+        "Money",
+        "A letter"
+      ],
+      "answerIndex": 0,
+      "explain": "The symbols of his own claim.",
+      "objective": "Describe what Jonathan gave David",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why does that gift matter so much?",
+      "options": [
+        "It was expensive",
+        "It was public",
+        "It was a surprise",
+        "It gave away his own succession"
+      ],
+      "answerIndex": 3,
+      "explain": "On purpose, and knowingly.",
+      "objective": "Describe what Jonathan gave David",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "A training partner who goes easy on you…",
+      "options": [
+        "helps you relax",
+        "hides your gaps",
+        "is a good friend",
+        "builds confidence"
+      ],
+      "answerIndex": 1,
+      "explain": "You find the gaps in a real fight instead.",
+      "objective": "Explain Proverbs 27:6",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Playing with people who tilt tends to…",
+      "options": [
+        "slow the game",
+        "have no effect",
+        "improve you",
+        "make you tilt"
+      ],
+      "answerIndex": 3,
+      "explain": "Nobody decides to copy them.",
+      "objective": "Explain Proverbs 13:20",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The hardest of the tests is…",
+      "options": [
+        "judging your friends",
+        "applying all of them to yourself",
+        "counting friends",
+        "finding one"
+      ],
+      "answerIndex": 1,
+      "explain": "Every test, read the other way round.",
+      "objective": "Name the scriptural tests of friendship",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 8 Devotion. Proverbs describes friendship in terms of behaviour rather than feeling, which makes it testable, and the week is built as four tests with their verses. Proverbs 27:6 is the one most worth having at this age: a friend who never disagrees is not being a friend, which arrives for him naturally through the training-partner lens where the point is literal. Proverbs 13:20 is given without softening, because it is a claim about how people actually work rather than an aspiration. The Jonathan detail — his robe and weapons were the symbols of a throne that was his — is what lifts the story above sentiment.",
+    "discussion": [
+      "Ask what Proverbs 27:6 says and what it implies.",
+      "Ask who he spends the most hours with, and what that is making him.",
+      "Ask what Jonathan gave up and why it mattered.",
+      "Ask him to run all four tests on himself."
+    ],
+    "extension": [
+      "Have him apply the four tests to himself in writing, privately.",
+      "Have him find 1 Samuel 18:4 and work out what the items represented."
+    ],
+    "misconceptions": [
+      "\"A good friend always agrees with you.\" Proverbs 27:6 says the opposite.",
+      "\"Who I spend time with does not change me.\" Proverbs 13:20 denies that.",
+      "\"Jonathan just gave David some clothes.\" They were the symbols of his claim."
+    ]
+  }
+}
