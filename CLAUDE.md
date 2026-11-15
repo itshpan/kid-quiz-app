@@ -120,17 +120,31 @@ skull, and it stays sharp, works offline and carries no licensing risk.
 ## Before you commit
 
 ```bash
-node tools/check-content.mjs     # writing limits + lens coverage. Must pass.
+node tools/check-content.mjs     # writing limits, rhythm rule, lens coverage
 node tools/check-figures.mjs     # measures every figure caption in a real
                                  # browser. SVG text does not wrap and does
                                  # not warn — it just gets clipped by the card.
+node tools/check-lessons.mjs     # opens every lesson, reads the deck, sits
+                                 # the quiz. ~12 min for all 176.
 npm run deploy                   # ships to Cloudflare Pages
 ```
 
-The checker is not advisory. It has caught real problems on almost every
+The checkers are not advisory. They have caught real problems on almost every
 content change in this repo — spacing drift, over-long sentences, two
 near-identical checkpoints two cards apart, a high-stimulation video placed
-immediately before new material. If it complains, it is right.
+immediately before new material. If one complains, it is right.
+
+The three look at different things and none of them replaces another.
+`check-content` reads the JSON. `check-figures` measures the rendered SVG.
+`check-lessons` is the only one that actually *opens* a lesson, which is why
+it is the one that catches a card whose shape throws and renders the whole
+lesson blank, two cards emitting the same element id, or a deck and its data
+drifting apart.
+
+**What `check-lessons` cannot do:** it answers from the same JSON the app
+scores against, so an answer key that is wrong but internally consistent
+scores 100% and passes. Flipping an `answerIndex` is invisible to it. Only a
+person reading the questions catches that.
 
 ## The content model
 
