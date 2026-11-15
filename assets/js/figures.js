@@ -5642,34 +5642,47 @@ function pinoyGames() {
 /* The plate, tappable. Pinggang Pinoy is a proportion, so a figure that
    shows the proportion does the teaching that a list of food groups cannot. */
 function pinggangPinoy() {
+    const CX = 182, CY = 124, R = 80;
     const plate = `
-      <circle class="fig-arena" cx="200" cy="124" r="82"/>
-      <path class="fig-divide" d="M200 42 L200 206" fill="none"/>
-      <path class="fig-divide" d="M200 124 L282 124" fill="none"/>
-      <circle class="fig-jar" cx="322" cy="70" r="22"/>
-      <text class="fig-cell" x="322" y="106" text-anchor="middle">tubig</text>`;
-    const hi = d => `<path class="fig-soft-fill" d="${d}"/>`;
-    const HALF = 'M200 42 A82 82 0 0 0 200 206 Z';
-    const GO   = 'M200 124 L200 42 A82 82 0 0 1 282 124 Z';
-    const GROW = 'M200 124 L282 124 A82 82 0 0 1 200 206 Z';
+      <g data-p="glow">
+        <path class="fig-cloth" d="M${CX} ${CY - R} A${R} ${R} 0 0 0 ${CX} ${CY + R} Z"/>
+        <text class="fig-cell" x="${CX - 42}" y="${CY + 5}" text-anchor="middle">GLOW</text>
+      </g>
+      <g data-p="go">
+        <path class="fig-liquid" d="M${CX} ${CY} L${CX} ${CY - R} A${R} ${R} 0 0 1 ${CX + R} ${CY} Z"/>
+        <text class="fig-cell" x="${CX + 34}" y="${CY - 28}" text-anchor="middle">GO</text>
+      </g>
+      <g data-p="grow">
+        <path class="fig-band" d="M${CX} ${CY} L${CX + R} ${CY} A${R} ${R} 0 0 1 ${CX} ${CY + R} Z"/>
+        <text class="fig-cell" x="${CX + 32}" y="${CY + 38}" text-anchor="middle">GROW</text>
+      </g>
+      <circle class="fig-wheel" cx="${CX}" cy="${CY}" r="${R}"/>
+      <g data-p="water">
+        <circle class="fig-liquid" cx="326" cy="86" r="26"/>
+        <circle class="fig-wheel" cx="326" cy="86" r="26"/>
+        <text class="fig-cell" x="326" y="130" text-anchor="middle">tubig</text>
+      </g>`;
     return partPicker({
-        id: 'pp8', height: 286, capY: 238,
+        id: 'pp8', height: 296, capY: 240,
         label: 'TAP A PART OF THE PLATE',
         alt: 'The Pinggang Pinoy plate divided into vegetables and fruit, energy foods and body-building foods, with water beside it',
         scene: plate,
         parts: [
-            { btn: 'Glow', svg: hi(HALF),
-              a: 'GLOW — vegetables and fruit, half the plate',
+            { btn: 'Glow', pick: ['glow'],
+              a: 'GLOW \u2014 vegetables and fruit, half the plate',
               b: 'Vitamins and minerals. The biggest share, and the one usually missing.' },
-            { btn: 'Go', svg: hi(GO),
-              a: 'GO — rice, bread, root crops',
+            { btn: 'Go', pick: ['go'],
+              a: 'GO \u2014 rice, bread, root crops',
               b: 'Energy. Not the enemy: it is what the training runs on.' },
-            { btn: 'Grow', svg: hi(GROW),
-              a: 'GROW — fish, meat, egg, beans, milk',
+            { btn: 'Grow', pick: ['grow'],
+              a: 'GROW \u2014 fish, meat, egg, beans, milk',
               b: 'Body-building. The smallest share of the plate, and still essential.' },
-            { btn: 'Water', svg: hi('M300 70 A22 22 0 1 0 344 70 A22 22 0 1 0 300 70 Z'),
-              a: 'WATER — beside the plate, not on it',
-              b: 'Six to eight glasses a day, more when you train.' }
+            { btn: 'Water', pick: ['water'],
+              a: 'WATER \u2014 beside the plate, not on it',
+              b: 'Six to eight glasses a day, more when you train.' },
+            { btn: 'All', pick: ['glow', 'go', 'grow', 'water'],
+              a: 'HALF GLOW, THEN GO, THEN GROW',
+              b: 'The proportions are the lesson. A list of food groups cannot show them.' }
         ]
     });
 }
@@ -5790,37 +5803,40 @@ function kitchenTools() {
 /* The work triangle, drawn. A kitchen is laid out badly when you cross your
    own path; the figure shows the four zones and the walk between them. */
 function kitchenZones() {
+    const zone = (pid, x, y, label) => `
+      <g data-p="${pid}">
+        <rect class="fig-box" x="${x}" y="${y}" width="74" height="42" rx="4"/>
+        <text class="fig-cell" x="${x + 37}" y="${y + 26}" text-anchor="middle">${label}</text>
+      </g>`;
     const room = `
       <rect class="fig-arena" x="40" y="44" width="320" height="168" rx="8"/>
-      <rect class="fig-box" x="52" y="56" width="74" height="42" rx="4"/>
-      <text class="fig-cell" x="89" y="82" text-anchor="middle">store</text>
-      <rect class="fig-box" x="146" y="56" width="74" height="42" rx="4"/>
-      <text class="fig-cell" x="183" y="82" text-anchor="middle">wash</text>
-      <rect class="fig-box" x="240" y="56" width="74" height="42" rx="4"/>
-      <text class="fig-cell" x="277" y="82" text-anchor="middle">prep</text>
-      <rect class="fig-box" x="146" y="150" width="74" height="42" rx="4"/>
-      <text class="fig-cell" x="183" y="176" text-anchor="middle">cook</text>`;
-    const path = d => `<path class="fig-flow" d="${d}" fill="none"/>`;
+      ${zone('store', 52, 56, 'store')}
+      ${zone('wash', 146, 56, 'wash')}
+      ${zone('prep', 240, 56, 'prep')}
+      ${zone('cook', 146, 150, 'cook')}
+      <g data-p="walk">
+        <path class="fig-flow on" fill="none" d="M126 77 L146 77 M220 77 L240 77 M277 98 L277 128 L220 171"/>
+      </g>`;
     return partPicker({
         id: 'kz2', height: 296, capY: 244,
-        label: 'TAP A ZONE · SEE THE WALK',
+        label: 'TAP A ZONE \u00b7 SEE THE WALK',
         alt: 'A kitchen plan with store, wash, prep and cook zones and the path between them',
         scene: room,
         parts: [
-            { btn: 'Store', svg: `<rect class="fig-box-on" x="52" y="56" width="74" height="42" rx="4"/>`,
-              a: 'STORE — fridge, pantry, cupboards',
+            { btn: 'Store', pick: ['store'],
+              a: 'STORE \u2014 fridge, pantry, cupboards',
               b: 'Food comes in here and should not have to cross the room to be used.' },
-            { btn: 'Wash', svg: `<rect class="fig-box-on" x="146" y="56" width="74" height="42" rx="4"/>`,
-              a: 'WASH — sink, drainer, bin',
+            { btn: 'Wash', pick: ['wash'],
+              a: 'WASH \u2014 sink, drainer, bin',
               b: 'Between store and prep, because washing happens before cutting.' },
-            { btn: 'Prep', svg: `<rect class="fig-box-on" x="240" y="56" width="74" height="42" rx="4"/>`,
-              a: 'PREP — board, knives, clear counter',
+            { btn: 'Prep', pick: ['prep'],
+              a: 'PREP \u2014 board, knives, clear counter',
               b: 'The biggest clear surface. Prep with no space is where accidents happen.' },
-            { btn: 'Cook', svg: `<rect class="fig-box-on" x="146" y="150" width="74" height="42" rx="4"/>`,
-              a: 'COOK — stove, oven, pans',
+            { btn: 'Cook', pick: ['cook'],
+              a: 'COOK \u2014 stove, oven, pans',
               b: 'Closed off from the walkway, so nobody walks past a hot pan.' },
-            { btn: 'The walk', svg: path('M89 98 L183 98 L277 98 L277 130 L183 150'),
-              a: 'STORE → WASH → PREP → COOK',
+            { btn: 'The walk', pick: ['walk', 'store', 'wash', 'prep', 'cook'],
+              a: 'STORE \u2192 WASH \u2192 PREP \u2192 COOK',
               b: 'One direction, no crossing back. That is the whole point of zoning.' }
         ]
     });
@@ -6196,35 +6212,46 @@ function forgiveParts() {
 
 /* 1 Corinthians 12, drawn. The argument is anatomical, so the figure is. */
 function oneBodyMany() {
+    /* Markers sit on a neutral silhouette with a short leader to the label,
+       so the dot reads against the body rather than disappearing into it. */
+    const mark = (pid, x, y, lx, ly, anchor, label) => `
+      <g data-p="${pid}">
+        <path class="fig-flow" fill="none" d="M${x} ${y} L${lx + (anchor === 'end' ? 8 : -8)} ${ly - 4}"/>
+        <circle class="fig-point-h" cx="${x}" cy="${y}" r="7"/>
+        <circle class="fig-point" cx="${x}" cy="${y}" r="11"/>
+        <text class="fig-cell" x="${lx}" y="${ly}" text-anchor="${anchor}">${label}</text>
+      </g>`;
     const body = `
-      <g class="fig-body">
-        <circle cx="200" cy="66" r="24"/>
-        <rect x="186" y="90" width="28" height="62" rx="12"/>
-        <rect x="150" y="98" width="100" height="14" rx="7"/>
-        <rect x="186" y="152" width="12" height="52" rx="6"/>
-        <rect x="202" y="152" width="12" height="52" rx="6"/>
+      <g class="fig-organ">
+        <circle cx="200" cy="72" r="27"/>
+        <rect x="185" y="99" width="30" height="64" rx="13"/>
+        <rect x="146" y="107" width="108" height="15" rx="7"/>
+        <rect x="185" y="163" width="13" height="50" rx="6"/>
+        <rect x="202" y="163" width="13" height="50" rx="6"/>
       </g>
-      <text class="fig-cell" x="200" y="226" text-anchor="middle">one body</text>`;
-    const dot = (x, y) => `<circle class="fig-point-h" cx="${x}" cy="${y}" r="11"/>`;
+      ${mark('eye', 190, 64, 108, 58, 'end', 'eye')}
+      ${mark('ear', 224, 74, 292, 70, 'start', 'ear')}
+      ${mark('hand', 150, 114, 108, 132, 'end', 'hand')}
+      ${mark('foot', 191, 209, 292, 206, 'start', 'foot')}`;
     return partPicker({
-        id: 'ob7', height: 296, capY: 252,
+        id: 'ob7', height: 300, capY: 252,
         label: 'TAP A PART',
         alt: 'A single figure with eye, ear, hand and foot marked, illustrating one body with many parts',
         scene: body,
         parts: [
-            { btn: 'Eye', svg: dot(192, 60),
-              a: 'THE EYE — it sees, and that is all it does',
-              b: '1 Corinthians 12:17 — if the whole body were an eye, where would the hearing be?' },
-            { btn: 'Ear', svg: dot(224, 66),
-              a: 'THE EAR — it cannot see, and nobody asks it to',
+            { btn: 'Eye', pick: ['eye'],
+              a: 'THE EYE \u2014 it sees, and that is all it does',
+              b: '1 Corinthians 12:17 \u2014 if the whole body were an eye, where would the hearing be?' },
+            { btn: 'Ear', pick: ['ear'],
+              a: 'THE EAR \u2014 it cannot see, and nobody asks it to',
               b: 'Its limit is not a fault. A body of identical parts is not a body.' },
-            { btn: 'Hand', svg: dot(154, 105),
-              a: 'THE HAND — it reaches and holds',
+            { btn: 'Hand', pick: ['hand'],
+              a: 'THE HAND \u2014 it reaches and holds',
               b: 'Verse 21: the eye cannot say to the hand, "I have no need of you."' },
-            { btn: 'Foot', svg: dot(192, 200),
-              a: 'THE FOOT — unglamorous, and it carries everything',
-              b: 'Verse 15: the foot saying it is not a hand does not make it any less part of the body.' },
-            { btn: 'All of it', svg: `${dot(192,60)}${dot(224,66)}${dot(154,105)}${dot(192,200)}`,
+            { btn: 'Foot', pick: ['foot'],
+              a: 'THE FOOT \u2014 unglamorous, and it carries everything',
+              b: 'Verse 15: the foot saying it is not a hand does not make it less part of the body.' },
+            { btn: 'All of it', pick: ['eye', 'ear', 'hand', 'foot'],
               a: 'ONE BODY, MANY PARTS, DIFFERENT JOBS',
               b: 'The argument is that difference is the design, not a problem to be fixed.' }
         ]
