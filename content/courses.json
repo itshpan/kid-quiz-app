@@ -1030,7 +1030,7 @@
         {
           "id": "science",
           "title": "Science",
-          "tagline": "Body systems, mixtures and living things",
+          "tagline": "Mixtures, forces and the forms of energy",
           "icon": "🧬",
           "accent": "#4ecdc4",
           "status": "live",
@@ -1150,7 +1150,7 @@
         {
           "id": "math",
           "title": "Math",
-          "tagline": "Tessellation, decimals, fractions and ratio",
+          "tagline": "Percentages, exponents, GEMDAS and volume",
           "icon": "📐",
           "accent": "#f5c542",
           "status": "live",
@@ -1270,7 +1270,7 @@
         {
           "id": "english",
           "title": "English",
-          "tagline": "Grammar plus Don Quixote, chapter by chapter",
+          "tagline": "Tenses and modifiers, plus Don Quixote 11–20",
           "icon": "📖",
           "accent": "#ff6b9d",
           "status": "live",
@@ -1400,7 +1400,7 @@
         {
           "id": "social-studies",
           "title": "Social Studies",
-          "tagline": "The Philippines, colonisation and nationhood",
+          "tagline": "Commonwealth, occupation, republic, martial law",
           "icon": "🌏",
           "accent": "#a855f7",
           "status": "live",
@@ -1520,7 +1520,7 @@
         {
           "id": "filipino",
           "title": "Filipino",
-          "tagline": "Ortograpiya, salita at pagbasa ng Supremo",
+          "tagline": "Panghalip, pang-uri, pandiwa at pang-abay",
           "icon": "🇵🇭",
           "accent": "#fb923c",
           "status": "live",
@@ -1645,7 +1645,7 @@
         {
           "id": "mapeh",
           "title": "MAPEH",
-          "tagline": "Music, art, PE and health",
+          "tagline": "Instruments, art history, games and nutrition",
           "icon": "🎵",
           "accent": "#22c55e",
           "status": "live",
@@ -1765,7 +1765,7 @@
         {
           "id": "tle",
           "title": "TLE",
-          "tagline": "Organising space, materials and digital life",
+          "tagline": "Kitchen, pantry, laundry and needle",
           "icon": "🧰",
           "accent": "#4ecdc4",
           "status": "live",
@@ -1885,7 +1885,7 @@
         {
           "id": "devotion",
           "title": "Devotion",
-          "tagline": "Character themes for the term",
+          "tagline": "Rooted in Christlike character and relationship",
           "icon": "🕊️",
           "accent": "#f5c542",
           "status": "live",
