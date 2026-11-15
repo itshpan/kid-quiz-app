@@ -17,11 +17,20 @@
        because this tool could no longer tell them apart either.
 
    What counts as a failure:
+     · a lesson that will not render at all, which is the big one;
      · any uncaught page error while reading or answering;
      · a quiz stem this tool cannot find in the lesson JSON, or an option
        that has gone missing — both mean the deck and the data disagree;
-     · a final score below 100%, since it answers from the answer key. A
-       wrong answer here means the key itself is wrong.
+     · a final score below 100%.
+
+   What it CANNOT catch, and this matters: it answers from the same JSON the
+   app scores against, so an answer key that is factually wrong but
+   internally consistent scores 100% and passes. Flipping an answerIndex is
+   invisible here. A score below 100% means the deck and the data have come
+   apart — an option rendering differently from the string in the file, or
+   two questions sharing a stem so the wrong key gets looked up — not that
+   the key is wrong about the world. Only a human reading the questions
+   catches that.
 
    The clock is faked, so a 40-card lesson takes about eight seconds rather
    than the twenty minutes it would take a person.
@@ -210,7 +219,16 @@ await page.addInitScript(() => {
 
 let walked = 0, failed = 0;
 for (const rel of files) {
-    const problems = await walk(page, rel);
+    /* A lesson that will not render at all throws out of walk() — which is
+       the single most important thing this tool catches, so it must be
+       reported as a result rather than ending the run and taking the other
+       175 lessons with it. */
+    let problems;
+    try {
+        problems = await walk(page, rel);
+    } catch (err) {
+        problems = [`did not finish: ${String(err.message).split('\n')[0].slice(0, 120)}`];
+    }
     if (problems === null) continue;
     walked++;
     if (problems.length) {
