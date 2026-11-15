@@ -151,6 +151,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Tatlong pasanin",
+      "src": "assets/img/fil-w3-pasanin.jpg",
+      "alt": "A worn folded document, an old silver coin and a heavy field hoe laid on rough sacking",
+      "credit": "Generated image",
+      "text": "Cedula, tributo, polo. Ito ang dala-dala ng isang tao araw-araw.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "story",
       "icon": "✍️",

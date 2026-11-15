@@ -117,6 +117,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Ang deklarasyon sa Kawit",
+      "src": "assets/img/ss-t2w1-flag.jpg",
+      "alt": "A Philippine flag flying open against a blue sky, its sun and three stars visible",
+      "credit": "Generated image",
+      "text": "Ika-12 ng Hunyo, 1898. Ito ang bandilang itinaas noong araw na iyon.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "Hunyo 1898",
       "title": "Ang deklarasyon sa Kawit",

@@ -1032,6 +1032,108 @@
       "size": "wide",
       "prompt": "A bicycle's rear cassette photographed close from the side, showing the stack of sprockets running from a very small one to a much larger one, with the chain engaged on one of them. Oily metal, shallow depth of field.",
       "alt": "A bicycle rear cassette showing sprockets from very small to much larger with the chain engaged"
+    },
+    "fil-w1-clerk": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A nineteenth-century clerk's desk by a warehouse window: a thick leather-bound ledger lying open but with completely blank pages, a glass inkwell, a wooden dip pen resting across it, and a brass hand-stamp. Dusty afternoon light, rope and crates blurred behind.",
+      "alt": "A clerk's desk with an open blank ledger, an inkwell, a dip pen and a brass stamp, with crates behind"
+    },
+    "fil-w2-lihim": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A single folded sheet of thick paper sealed with a dark red wax seal, lying at the back of an open wooden drawer in low light. Nothing written on the outside. Deep shadow around it.",
+      "alt": "A folded sheet sealed with dark red wax, lying at the back of an open wooden drawer in low light"
+    },
+    "fil-w3-pasanin": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "Three objects laid on rough sacking: a folded, worn and water-stained paper document, a single old silver coin, and the wooden handle and blade of a heavy field hoe. Hard side light, no writing legible on the paper.",
+      "alt": "A worn folded document, an old silver coin and a heavy field hoe laid on rough sacking"
+    },
+    "fil-w4-punit": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "Several torn pieces of an old off-white paper document scattered on dark earth, the ragged edges clearly visible where it has been ripped by hand. No legible writing on any piece. Harsh daylight.",
+      "alt": "Torn pieces of an old paper document scattered on dark earth with ragged hand-torn edges"
+    },
+    "fil-w5-balota": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A plain wooden box on a trestle table with a slot cut in its lid and a scatter of small folded paper slips beside it, some already pushed through the slot. Lamplight, bare room, nothing written on the slips.",
+      "alt": "A wooden ballot box with a slot in the lid and folded paper slips scattered beside it"
+    },
+    "fil-w6-upuan": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A long bare wooden meeting table with simple chairs down both sides, all empty, and one chair at the head pushed back from the table at an angle. Shuttered window light, dust in the air.",
+      "alt": "A long empty wooden meeting table with chairs down both sides and one at the head pushed back"
+    },
+    "fil-w10-mangga": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "Three groupings of ripe yellow mangoes on a pale wooden table, left to right: a single mango on its own, then exactly two mangoes together, then a woven basket heaped full of them. Clear separation between the three groups.",
+      "alt": "One mango alone, then two together, then a woven basket heaped with mangoes"
+    },
+    "dev-w1-foundation": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A freshly poured concrete building foundation on a construction site, seen from above, with grids of steel reinforcing bar set into it and the first course of blocks starting at one corner. Nothing built above ground yet.",
+      "alt": "A poured concrete foundation with grids of steel reinforcing bar and the first course of blocks at one corner"
+    },
+    "dev-w1-level": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A yellow spirit level lying across the top of a newly laid concrete block wall, its bubble centred exactly between the lines. Close view, rough mortar visible, bright site daylight.",
+      "alt": "A spirit level across a block wall with its bubble centred exactly between the lines"
+    },
+    "dev-w2-rope": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A climbing rope threaded through a steel carabiner clipped to a bolted anchor in grey rock, the rope hanging taut down out of frame. Close view, hard daylight, no people.",
+      "alt": "A climbing rope through a carabiner clipped to a bolt in rock, hanging taut out of frame"
+    },
+    "dev-w2-partial": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "Extreme close view of a steel bolt through a metal bracket, tightened most of the way but with a clearly visible gap left between the nut and the surface. A spanner lies beside it. Harsh workshop light.",
+      "alt": "A bolt tightened most of the way with a visible gap left under the nut, a spanner beside it"
+    },
+    "dev-w3-roof": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A wooden ladder leaning up against the edge of a low roof where several tiles have been lifted away, leaving a clear square opening down into the dim room below. Bright sunlight outside, dark inside.",
+      "alt": "A ladder against a low roof with tiles lifted away leaving a square opening into the dark room below"
+    },
+    "dev-w5-nightsky": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A clear night sky dense with stars and the faint band of the Milky Way, above the dark silhouette of a low hill and a single small house with one lit window. Long exposure, no moon.",
+      "alt": "A night sky dense with stars above a dark hill and one small house with a single lit window"
+    },
+    "dev-w6-chapel": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "The inside of a small plain chapel, empty, with simple wooden benches in rows and light falling through a high window onto the floor. No altar decoration, no people, no text or signage.",
+      "alt": "A small plain empty chapel with wooden benches and light falling through a high window"
+    },
+    "dev-w8-change": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A small pile of loose coins and a folded paper receipt left on a worn shop counter beside a closed cash drawer. Nobody present. Flat daylight, no readable printing on the receipt.",
+      "alt": "Loose coins and a folded receipt left on a shop counter beside a closed cash drawer"
+    },
+    "dev-w9-washing": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A shallow basin of clean water on a stone floor with a folded coarse towel laid over its rim and a plain clay jug standing beside it. Low side light, nobody present.",
+      "alt": "A shallow basin of water with a folded coarse towel over the rim and a clay jug beside it"
+    },
+    "dev-w10-door": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A hand resting on the long metal handle of a tall closed door, caught in the moment before pushing it. Only the hand and forearm are visible. The door is plain and heavy, the light beyond it unseen.",
+      "alt": "A hand resting on the handle of a tall closed door in the moment before pushing it"
     }
   },
   "_never": "NEVER generate an image that poses as a documentary photograph of a specific real place, artwork, artefact or person - the Angono Petroglyphs, the Spoliarium, Rizal. A generated picture of a named real thing is a false claim about the world, and CLAUDE.md says facts must be true. Generated photographs depict a TYPE (kamote, a kulintang, a sipa shuttle), never a named original. For a specific real artefact use tools/fetch-images.mjs to pull the real, credited photograph from Wikimedia instead."

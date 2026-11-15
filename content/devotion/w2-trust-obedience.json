@@ -34,6 +34,12 @@
       ]
     },
     {
+      "kind": "figure",
+      "figure": "obeyParts",
+      "title": "Inward and outward",
+      "text": "Six buttons. The last two are the case 1 Samuel 15 is actually about."
+    },
+    {
       "kind": "idea",
       "eyebrow": "The distinction",
       "title": "Trust is inward. Obedience is what you do",
@@ -111,6 +117,16 @@
         "**\"To obey is better than sacrifice.\"**",
         "**Doing a different good thing** is not the same as obeying."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Almost tightened",
+      "src": "assets/img/dev-w2-partial.jpg",
+      "alt": "A bolt tightened most of the way with a visible gap left under the nut, a spanner beside it",
+      "credit": "Generated image",
+      "text": "It looks done. Under load it is not, and that gap is the whole passage.",
+      "lightBg": true
     },
     {
       "kind": "lens",

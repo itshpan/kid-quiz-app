@@ -7116,7 +7116,110 @@ function unitRateLab() {
     });
 }
 
+
+/* The alphabet question, which is the whole of week one: twenty letters
+   became twenty-eight, and the eight that were added have a specific job. */
+function alpabetoLab() {
+    return listPicker({
+        id: 'al1', label: 'DALAWAMPU, NAGING DALAWAMPU\u2019T WALO', height: 272, y0: 60, dy: 26,
+        alt: 'The twenty-letter abakada beside the twenty-eight-letter alphabet and the job of the eight added letters',
+        capA: 'Ano ito: ', capB: 'Halimbawa: ',
+        rows: [
+            { btn: '1', short: 'Abakada \u2014 dalawampung titik', a: 'Ang lumang palatitikan',
+              b: 'A B K D E G H I L M N NG O P R S T U W Y. Walang C, F, J, \u00d1, Q, V, X, Z.' },
+            { btn: '2', short: 'Alpabeto \u2014 dalawampu\u2019t walo', a: 'Ang kasalukuyang palatitikan ng KWF',
+              b: 'Idinagdag ang walong titik para sa mga salitang hiram at pantangi.' },
+            { btn: '3', short: 'C, Q, X', a: 'Para sa hiram at pangalan',
+              b: 'Cebu, Quezon, Xavier. Hindi ito isinusulat bilang Sebu o Kezon.' },
+            { btn: '4', short: 'F, V, Z', a: 'May tunog na wala sa abakada',
+              b: 'Ifugao, Ivatan, Zambales. Mga katutubong wika rin ang pinagmulan.' },
+            { btn: '5', short: '\u00d1 at J', a: 'Mula sa Espanyol',
+              b: 'Ni\u00f1o, Ca\u00f1ete, Jose. Nananatili ang anyo ng pangalan.' },
+            { btn: '?', short: 'Ang patakaran', a: 'Kailan ginagamit ang hiram na titik?',
+              b: 'Kapag pantangi o teknikal ang salita. Kung hindi, isinasa-Filipino ang baybay.' }
+        ]
+    });
+}
+
+
+/* Trust and obedience are treated as one word and are not. The last two rows
+   are the partial-obedience case, which is the one the passage is about. */
+function obeyParts() {
+    return listPicker({
+        id: 'ob2', label: 'INWARD AND OUTWARD', height: 272, y0: 60, dy: 26,
+        alt: 'Trust and obedience separated out, with partial obedience as the case that matters',
+        capA: 'Is: ', capB: 'Note: ',
+        rows: [
+            { btn: '1', short: 'Trust', a: 'Inward \u2014 what you believe about someone',
+              b: 'Proverbs 3:5 \u2014 lean not on your own understanding. Nobody can see this part.' },
+            { btn: '2', short: 'Obedience', a: 'Outward \u2014 what you actually do',
+              b: 'Everyone can see this part, including you. It is the testable half.' },
+            { btn: '3', short: 'Trust without obedience', a: 'A belief nothing follows from',
+              b: 'James 2 calls this dead. Not wrong \u2014 dead. It produces nothing.' },
+            { btn: '4', short: 'Obedience without trust', a: 'Compliance, and it does not last',
+              b: 'It holds while someone is watching and stops the moment nobody is.' },
+            { btn: '5', short: 'Partial obedience', a: '1 Samuel 15 \u2014 Saul kept the best animals',
+              b: 'He did most of it and called it done. Samuel\u2019s reply is the whole chapter.' },
+            { btn: '6', short: '"To obey is better than sacrifice"', a: '1 Samuel 15:22',
+              b: 'Saul offered what he had kept back. The offering was not the point.' }
+        ]
+    });
+}
+
+/* Faith in the text is never a feeling that stays still, so every row here is
+   something somebody physically did. */
+function faithActs() {
+    return listPicker({
+        id: 'fa3', label: 'WHAT THEY ACTUALLY DID', height: 272, y0: 60, dy: 26,
+        alt: 'Five examples where faith in the text is shown by an action rather than a feeling',
+        capA: 'The act: ', capB: 'Why it counts: ',
+        rows: [
+            { btn: '1', short: 'Four friends', a: 'Dug through a roof to lower a man in',
+              b: 'Mark 2 \u2014 "when he saw THEIR faith". He saw what they had done to the roof.' },
+            { btn: '2', short: 'Noah', a: 'Built, for years, with no rain',
+              b: 'Hebrews 11:7. Nothing visible supported it for the whole build.' },
+            { btn: '3', short: 'Abraham', a: 'Left without being told where',
+              b: 'Hebrews 11:8. He moved first and found out after.' },
+            { btn: '4', short: 'The woman in the crowd', a: 'Pushed through to reach him',
+              b: 'Mark 5. Wanting to was not what got her there.' },
+            { btn: '5', short: 'Peter', a: 'Stepped out of the boat',
+              b: 'Matthew 14. He also sank. Both halves are in the passage.' },
+            { btn: '?', short: 'The pattern', a: 'Faith is visible in the text, every time',
+              b: 'Wishing sits still. In every one of these something moved first.' }
+        ]
+    });
+}
+
+/* Love as a standard you can check, rather than a feeling you wait for. */
+function loveStandard() {
+    return listPicker({
+        id: 'ls4', label: 'A STANDARD YOU CAN CHECK', height: 272, y0: 60, dy: 26,
+        alt: 'Six marks of love from 1 Corinthians 13 and John 13, each stated as something testable',
+        capA: 'Says: ', capB: 'Test: ',
+        rows: [
+            { btn: '1', short: 'Patient', a: '1 Corinthians 13:4 \u2014 it waits',
+              b: 'How do you speak to them on the third time they ask the same question?' },
+            { btn: '2', short: 'Kind', a: 'It does something, not just feels something',
+              b: 'Name the last thing you did for them that cost you time you wanted.' },
+            { btn: '3', short: 'Not envious or boastful', a: 'It does not compete with them',
+              b: 'When something good happens to them, what is your first reaction?' },
+            { btn: '4', short: 'Not easily angered', a: 'It is slow, not never',
+              b: 'The verse allows the anger. It is about the fuse, not the fire.' },
+            { btn: '5', short: 'Keeps no record of wrongs', a: 'It does not store them up',
+              b: 'Could you list theirs right now? That list is the thing being described.' },
+            { btn: '6', short: '"As I have loved you"', a: 'John 13:34 \u2014 the measure is given',
+              b: 'Not "as much as you like yourself". A specific, visible standard.' }
+        ]
+    });
+}
+
 export const FIGURES = {
+    obeyParts,
+    faithActs,
+    loveStandard,
+
+    alpabetoLab,
+
     unitRateLab,
 
     commonwealthRoad,

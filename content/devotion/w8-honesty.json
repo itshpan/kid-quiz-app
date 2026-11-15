@@ -117,6 +117,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Nobody would know",
+      "src": "assets/img/dev-w8-change.jpg",
+      "alt": "Loose coins and a folded receipt left on a shop counter beside a closed cash drawer",
+      "credit": "Generated image",
+      "text": "Honesty is measured by what the other person is left believing.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "Acts 5",
       "title": "Ananias and Sapphira",
@@ -171,6 +181,16 @@
         "**And whatever you said in the meantime.**",
         "**Go early. It never gets cheaper.**"
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Admitting it early is cheapest",
+      "src": "assets/img/dev-t2w6-repaired.jpg",
+      "alt": "A mended ceramic bowl with its cracks filled in bright gold so every repair line shows",
+      "credit": "Generated image",
+      "text": "The repair shows. It still holds, and hiding it would not have.",
+      "lightBg": true
     },
     {
       "kind": "terms",

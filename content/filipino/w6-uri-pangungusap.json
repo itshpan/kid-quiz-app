@@ -123,6 +123,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Ilang uri ng pangungusap ayon sa gamit?",
+        "options": [
+          "Tatlo",
+          "Apat",
+          "Lima",
+          "Anim"
+        ],
+        "answerIndex": 2,
+        "explain": "Paturol, patanong, pautos, padamdam, pasalaysay.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Bagong pinuno",
+      "src": "assets/img/fil-w6-upuan.jpg",
+      "alt": "A long empty wooden meeting table with chairs down both sides and one at the head pushed back",
+      "credit": "Generated image",
+      "text": "Namatay si Bonifacio. Hindi natapos ang kuwento sa kaniya.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "story",
       "icon": "✍️",

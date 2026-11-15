@@ -151,6 +151,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Sa Tejeros",
+      "src": "assets/img/fil-w5-balota.jpg",
+      "alt": "A wooden ballot box with a slot in the lid and folded paper slips scattered beside it",
+      "credit": "Generated image",
+      "text": "Isang halalan sa gitna ng digmaan, at ang bunga nito ay hindi naayos kailanman.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "Mayo 1897",
       "title": "Ang wakas",

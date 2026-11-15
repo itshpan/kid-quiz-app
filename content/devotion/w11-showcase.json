@@ -117,6 +117,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "A good showcase names…",
+        "options": [
+          "everything you did",
+          "the one thing that actually changed",
+          "your best mark",
+          "your favourite week"
+        ],
+        "answerIndex": 1,
+        "explain": "Explaining is not announcing. Say what it cost you.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Explaining, not announcing",
+      "src": "assets/img/dev-t2w11-desk.jpg",
+      "alt": "A closed leather-bound book with a red ribbon marker, a pencil and a glass of water on a wooden desk",
+      "credit": "Generated image",
+      "text": "Name the one you actually worked on, and say what it cost you.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "story",
       "icon": "✍️",

@@ -105,6 +105,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "John 4 says worship must be in…",
+        "options": [
+          "a temple",
+          "spirit and truth",
+          "silence",
+          "public"
+        ],
+        "answerIndex": 1,
+        "explain": "Both words, and the place stops mattering.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Empty, and that is fine",
+      "src": "assets/img/dev-w6-chapel.jpg",
+      "alt": "A small plain empty chapel with wooden benches and light falling through a high window",
+      "credit": "Generated image",
+      "text": "John 4 says the place stops mattering. Spirit and truth, both required.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "story",
       "icon": "✍️",

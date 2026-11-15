@@ -122,6 +122,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Scale is part of the point",
+      "src": "assets/img/dev-w5-nightsky.jpg",
+      "alt": "A night sky dense with stars above a dark hill and one small house with a single lit window",
+      "credit": "Generated image",
+      "text": "Philippians 4:6 says do not be anxious, ask instead. Both halves matter.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "space",
       "icon": "🪐",

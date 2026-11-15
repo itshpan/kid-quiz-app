@@ -151,6 +151,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Ang Sigaw",
+      "src": "assets/img/fil-w4-punit.jpg",
+      "alt": "Torn pieces of an old paper document scattered on dark earth with ragged hand-torn edges",
+      "credit": "Generated image",
+      "text": "Pinunit ang cedula. Pagkatapos noon ay wala nang atrasan.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "Agosto 1896",
       "title": "Ang Sigaw",

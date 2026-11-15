@@ -1216,5 +1216,124 @@
     "artist": "Generated with OpenAI gpt-image-2",
     "licence": "Generated for this project",
     "source": "A bicycle's rear cassette photographed close from the side, showing the stack of sprockets running from a very small one to a much larger one, with the chain engaged on one of them. Oily metal, shallow depth of field."
+  },
+  "fil-w2-lihim": {
+    "file": "fil-w2-lihim.jpg",
+    "alt": "A folded sheet sealed with dark red wax, lying at the back of an open wooden drawer in low light",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A single folded sheet of thick paper sealed with a dark red wax seal, lying at the back of an open wooden drawer in low light. Nothing written on the outside. Deep shadow around it."
+  },
+  "fil-w3-pasanin": {
+    "file": "fil-w3-pasanin.jpg",
+    "alt": "A worn folded document, an old silver coin and a heavy field hoe laid on rough sacking",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "Three objects laid on rough sacking: a folded, worn and water-stained paper document, a single old silver coin, and the wooden handle and blade of a heavy field hoe. Hard side light, no writing legible on the paper."
+  },
+  "fil-w1-clerk": {
+    "file": "fil-w1-clerk.jpg",
+    "alt": "A clerk's desk with an open blank ledger, an inkwell, a dip pen and a brass stamp, with crates behind",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A nineteenth-century clerk's desk by a warehouse window: a thick leather-bound ledger lying open but with completely blank pages, a glass inkwell, a wooden dip pen resting across it, and a brass hand-stamp. Dusty afternoon light, rope and crates blurred behind."
+  },
+  "fil-w4-punit": {
+    "file": "fil-w4-punit.jpg",
+    "alt": "Torn pieces of an old paper document scattered on dark earth with ragged hand-torn edges",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "Several torn pieces of an old off-white paper document scattered on dark earth, the ragged edges clearly visible where it has been ripped by hand. No legible writing on any piece. Harsh daylight."
+  },
+  "fil-w5-balota": {
+    "file": "fil-w5-balota.jpg",
+    "alt": "A wooden ballot box with a slot in the lid and folded paper slips scattered beside it",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A plain wooden box on a trestle table with a slot cut in its lid and a scatter of small folded paper slips beside it, some already pushed through the slot. Lamplight, bare room, nothing written on the slips."
+  },
+  "fil-w6-upuan": {
+    "file": "fil-w6-upuan.jpg",
+    "alt": "A long empty wooden meeting table with chairs down both sides and one at the head pushed back",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A long bare wooden meeting table with simple chairs down both sides, all empty, and one chair at the head pushed back from the table at an angle. Shuttered window light, dust in the air."
+  },
+  "fil-w10-mangga": {
+    "file": "fil-w10-mangga.jpg",
+    "alt": "One mango alone, then two together, then a woven basket heaped with mangoes",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "Three groupings of ripe yellow mangoes on a pale wooden table, left to right: a single mango on its own, then exactly two mangoes together, then a woven basket heaped full of them. Clear separation between the three groups."
+  },
+  "dev-w2-partial": {
+    "file": "dev-w2-partial.jpg",
+    "alt": "A bolt tightened most of the way with a visible gap left under the nut, a spanner beside it",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "Extreme close view of a steel bolt through a metal bracket, tightened most of the way but with a clearly visible gap left between the nut and the surface. A spanner lies beside it. Harsh workshop light."
+  },
+  "dev-w2-rope": {
+    "file": "dev-w2-rope.jpg",
+    "alt": "A climbing rope through a carabiner clipped to a bolt in rock, hanging taut out of frame",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A climbing rope threaded through a steel carabiner clipped to a bolted anchor in grey rock, the rope hanging taut down out of frame. Close view, hard daylight, no people."
+  },
+  "dev-w1-foundation": {
+    "file": "dev-w1-foundation.jpg",
+    "alt": "A poured concrete foundation with grids of steel reinforcing bar and the first course of blocks at one corner",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A freshly poured concrete building foundation on a construction site, seen from above, with grids of steel reinforcing bar set into it and the first course of blocks starting at one corner. Nothing built above ground yet."
+  },
+  "dev-w1-level": {
+    "file": "dev-w1-level.jpg",
+    "alt": "A spirit level across a block wall with its bubble centred exactly between the lines",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A yellow spirit level lying across the top of a newly laid concrete block wall, its bubble centred exactly between the lines. Close view, rough mortar visible, bright site daylight."
+  },
+  "dev-w3-roof": {
+    "file": "dev-w3-roof.jpg",
+    "alt": "A ladder against a low roof with tiles lifted away leaving a square opening into the dark room below",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A wooden ladder leaning up against the edge of a low roof where several tiles have been lifted away, leaving a clear square opening down into the dim room below. Bright sunlight outside, dark inside."
+  },
+  "dev-w5-nightsky": {
+    "file": "dev-w5-nightsky.jpg",
+    "alt": "A night sky dense with stars above a dark hill and one small house with a single lit window",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A clear night sky dense with stars and the faint band of the Milky Way, above the dark silhouette of a low hill and a single small house with one lit window. Long exposure, no moon."
+  },
+  "dev-w6-chapel": {
+    "file": "dev-w6-chapel.jpg",
+    "alt": "A small plain empty chapel with wooden benches and light falling through a high window",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "The inside of a small plain chapel, empty, with simple wooden benches in rows and light falling through a high window onto the floor. No altar decoration, no people, no text or signage."
+  },
+  "dev-w8-change": {
+    "file": "dev-w8-change.jpg",
+    "alt": "Loose coins and a folded receipt left on a shop counter beside a closed cash drawer",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A small pile of loose coins and a folded paper receipt left on a worn shop counter beside a closed cash drawer. Nobody present. Flat daylight, no readable printing on the receipt."
+  },
+  "dev-w9-washing": {
+    "file": "dev-w9-washing.jpg",
+    "alt": "A shallow basin of water with a folded coarse towel over the rim and a clay jug beside it",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A shallow basin of clean water on a stone floor with a folded coarse towel laid over its rim and a plain clay jug standing beside it. Low side light, nobody present."
+  },
+  "dev-w10-door": {
+    "file": "dev-w10-door.jpg",
+    "alt": "A hand resting on the handle of a tall closed door in the moment before pushing it",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A hand resting on the long metal handle of a tall closed door, caught in the moment before pushing it. Only the hand and forearm are visible. The door is plain and heavy, the light beyond it unseen."
   }
 }

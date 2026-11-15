@@ -117,6 +117,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Isahan, dalawahan, maramihan",
+      "src": "assets/img/fil-w10-mangga.jpg",
+      "alt": "One mango alone, then two together, then a woven basket heaped with mangoes",
+      "credit": "Generated image",
+      "text": "Isa, dalawa, at marami. Hindi kailangan ng salita para makita ito.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "Ang pinakamadalas na mali",
       "title": "Huwag doblehin ang senyas",

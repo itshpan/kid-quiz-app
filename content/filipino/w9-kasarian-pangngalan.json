@@ -117,6 +117,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Mula sa Espanyol",
+      "src": "assets/img/fil-t2w7-simbahan.jpg",
+      "alt": "The weathered stone facade of an old Spanish colonial church with an arched wooden door and a bell tower",
+      "credit": "Generated image",
+      "text": "Kasama ng simbahan dumating ang -o at -a. Hiram ang kasarian, hindi atin.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "story",
       "icon": "✍️",

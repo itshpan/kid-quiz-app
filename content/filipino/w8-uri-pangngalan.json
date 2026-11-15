@@ -123,6 +123,26 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Isang uri lamang ang bawat pangngalan.",
+        "answer": false,
+        "explain": "Tatlong magkahiwalay na tanong ito: pantangi ba, tahas ba, palansak ba?",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Pantangi, pambalana, tahas",
+      "src": "assets/img/fil-t2w6-palengke.jpg",
+      "alt": "A market stall piled with calamansi, string beans, bitter gourd, eggplants and coconuts",
+      "credit": "Generated image",
+      "text": "Pangalanan ang nakikita mo, pagkatapos tanungin kung anong uri ito.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "gaming",
       "icon": "🎮",

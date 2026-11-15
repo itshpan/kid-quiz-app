@@ -117,6 +117,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Anong kasarian ang \"ina\"?",
+        "options": [
+          "Panlalaki",
+          "Pambabae",
+          "Di-tiyak",
+          "Walang kasarian"
+        ],
+        "answerIndex": 1,
+        "explain": "Pambabae.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Ang gabi bago",
+      "src": "assets/img/fil-t2w11-mesa.jpg",
+      "alt": "A closed plain notebook, two pencils, an eraser and a glass of water on a wooden desk",
+      "credit": "Generated image",
+      "text": "Anim na petsa at apat na sinulid. Pagsubok sa sarili, hindi pagbabasang muli.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "story",
       "icon": "✍️",

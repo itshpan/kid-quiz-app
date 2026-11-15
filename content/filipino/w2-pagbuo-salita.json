@@ -161,6 +161,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Bakit kailangang lihim",
+      "src": "assets/img/fil-w2-lihim.jpg",
+      "alt": "A folded sheet sealed with dark red wax, lying at the back of an open wooden drawer in low light",
+      "credit": "Generated image",
+      "text": "Pagkakanulo ang katapusan ng bawat naunang kilusan. Natutunan nila iyon.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "story",
       "icon": "✍️",

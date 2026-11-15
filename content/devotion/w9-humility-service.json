@@ -117,6 +117,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "In Mark 12 the widow gave…",
+        "options": [
+          "the largest amount",
+          "two very small coins",
+          "nothing",
+          "a tenth"
+        ],
+        "answerIndex": 1,
+        "explain": "Less than anyone, and it counted for more. Cost, not size.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "The lowest job in the room",
+      "src": "assets/img/dev-w9-washing.jpg",
+      "alt": "A shallow basin of water with a folded coarse towel over the rim and a clay jug beside it",
+      "credit": "Generated image",
+      "text": "John 13. He did it himself, and then said why.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "gaming",
       "icon": "🎮",

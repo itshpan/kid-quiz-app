@@ -46,6 +46,12 @@
       ]
     },
     {
+      "kind": "figure",
+      "figure": "alpabetoLab",
+      "title": "Dalawampu, naging dalawampu't walo",
+      "text": "Pindutin ang bawat hanay. Ang walong idinagdag ang may tiyak na trabaho."
+    },
+    {
       "kind": "checkpoint",
       "question": {
         "type": "multiple",
@@ -168,6 +174,16 @@
         "**Nagtinda siya ng baston at pamaypay** para mabuhay sila.",
         "**Nagtrabaho siya sa mga kompanyang dayuhan** sa Maynila."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Bodega at ledger",
+      "src": "assets/img/fil-w1-clerk.jpg",
+      "alt": "A clerk's desk with an open blank ledger, an inkwell, a dip pen and a brass stamp, with crates behind",
+      "credit": "Generated image",
+      "text": "Dito nagtrabaho si Bonifacio bago ang Katipunan. Hindi mahirap, hindi mayaman.",
+      "lightBg": true
     },
     {
       "kind": "idea",

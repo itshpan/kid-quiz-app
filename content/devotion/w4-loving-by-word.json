@@ -50,6 +50,12 @@
       }
     },
     {
+      "kind": "figure",
+      "figure": "loveStandard",
+      "title": "A standard you can check",
+      "text": "Six marks, each with a question you can actually answer about yourself."
+    },
+    {
       "kind": "idea",
       "eyebrow": "1 Corinthians 13",
       "title": "The definition nobody expects",
@@ -114,6 +120,16 @@
         "**And people will know you by it**, he says.",
         "**Not by what you say you believe.**"
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Love that is visible",
+      "src": "assets/img/dev-t2w3-hand-up.jpg",
+      "alt": "One hand gripping the forearm of another reaching up from below, taut with effort",
+      "credit": "Generated image",
+      "text": "John 13:35 says people will know by this. Not by what you feel.",
+      "lightBg": true
     },
     {
       "kind": "lens",

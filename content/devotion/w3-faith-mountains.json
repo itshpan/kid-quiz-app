@@ -46,6 +46,12 @@
       ]
     },
     {
+      "kind": "figure",
+      "figure": "faithActs",
+      "title": "What they actually did",
+      "text": "Five people. In every case something moved before anything happened."
+    },
+    {
       "kind": "checkpoint",
       "question": {
         "type": "multiple",
@@ -114,6 +120,16 @@
         "**Faith is a thing you then do.**",
         "**James 2:17** — faith without action is dead."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "They dug through the roof",
+      "src": "assets/img/dev-w3-roof.jpg",
+      "alt": "A ladder against a low roof with tiles lifted away leaving a square opening into the dark room below",
+      "credit": "Generated image",
+      "text": "Mark 2 says he saw their faith. What he saw was the hole.",
+      "lightBg": true
     },
     {
       "kind": "lens",

@@ -117,6 +117,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Esther 4:16 ends with…",
+        "options": [
+          "\"I will not go\"",
+          "\"If I perish, I perish\"",
+          "\"Send someone else\"",
+          "\"Wait a year\""
+        ],
+        "answerIndex": 1,
+        "explain": "She named the risk out loud and went in anyway.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Before pushing it",
+      "src": "assets/img/dev-w10-door.jpg",
+      "alt": "A hand resting on the handle of a tall closed door in the moment before pushing it",
+      "credit": "Generated image",
+      "text": "\"If I perish, I perish.\" Esther 4:16. She went in anyway.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "story",
       "icon": "✍️",

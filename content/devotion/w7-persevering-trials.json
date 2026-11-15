@@ -117,6 +117,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "You are inside a chapter",
+      "src": "assets/img/dev-t2w4-seedling.jpg",
+      "alt": "A single green rice seedling standing above the still water of a flooded paddy at dawn",
+      "credit": "Generated image",
+      "text": "James 1 says the testing produces something. You cannot see it from here.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "story",
       "icon": "✍️",
@@ -171,6 +181,22 @@
         "**Quitting mid-session** loses the adaptation.",
         "**Same pattern, different subject.**"
       ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "When does adaptation actually happen?",
+        "options": [
+          "During the hard part",
+          "After it, while you recover",
+          "Before you start",
+          "It does not"
+        ],
+        "answerIndex": 1,
+        "explain": "The session is the request. The rebuild happens in the rest afterwards.",
+        "seconds": 20
+      }
     },
     {
       "kind": "terms",

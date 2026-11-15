@@ -117,6 +117,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Boring on purpose",
+      "src": "assets/img/dev-w1-foundation.jpg",
+      "alt": "A poured concrete foundation with grids of steel reinforcing bar and the first course of blocks at one corner",
+      "credit": "Generated image",
+      "text": "Nothing about this is impressive. Every storey above it rests on it.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "growth",
       "icon": "⚡",
@@ -171,6 +181,16 @@
         "**Write it down** where you will see it.",
         "**Check it on Sunday.** Not before."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Checked before anything goes on top",
+      "src": "assets/img/dev-w1-level.jpg",
+      "alt": "A spirit level across a block wall with its bubble centred exactly between the lines",
+      "credit": "Generated image",
+      "text": "Nobody sees this later. Everything above it depends on it being right.",
+      "lightBg": true
     },
     {
       "kind": "terms",
