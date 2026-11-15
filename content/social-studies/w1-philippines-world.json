@@ -48,6 +48,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Where it actually is",
+      "src": "assets/img/ss-w1-globe.jpg",
+      "alt": "A desk globe showing landmasses and ocean with no names, borders or lettering",
+      "credit": "Generated image",
+      "text": "North of the equator, east of the mainland, on the edge of the deepest water.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "Relative location",
       "title": "The other way to say where you are",
@@ -137,6 +147,32 @@
       "text": "You've got the map. Part 2 is why this position mattered to the rest of the world. Your place is saved."
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Relative location describes…",
+        "options": [
+          "exact coordinates",
+          "where a place is in relation to others",
+          "the climate",
+          "the population"
+        ],
+        "answerIndex": 1,
+        "explain": "Absolute location is the coordinates. Relative is who you are next to.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Sitting on the route everyone wanted",
+      "src": "assets/img/ss-w1-galleon.jpg",
+      "alt": "A three-masted wooden sailing ship at anchor in a calm harbour at dawn",
+      "credit": "Generated image",
+      "text": "The position is the reason for most of the next four hundred years.",
+      "lightBg": true
+    },
+    {
       "kind": "open",
       "icon": "⛵",
       "eyebrow": "Part 2 · Why the position mattered",
@@ -209,6 +245,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Seven thousand of them",
+      "src": "assets/img/ss-w1-orbit.jpg",
+      "alt": "Small green tropical islands fringed with pale reef in deep blue sea, seen from high altitude",
+      "credit": "Generated image",
+      "text": "An archipelago is not one island with suburbs. It is this, all the way down.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "Today",
       "title": "Still defined by the map",
@@ -271,6 +317,16 @@
           "def": "The Association of Southeast Asian Nations."
         }
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Absolute and relative",
+      "src": "assets/img/ss-t2w11-desk.jpg",
+      "alt": "A study desk with a closed hardback book, blank paper, a pencil, a mug and an empty wall calendar",
+      "credit": "Generated image",
+      "text": "One is coordinates. The other is who you are next to.",
+      "lightBg": true
     },
     {
       "kind": "recap",

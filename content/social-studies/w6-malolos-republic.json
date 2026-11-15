@@ -123,6 +123,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "The mock Battle of Manila",
+      "src": "assets/img/ss-w6-fort.jpg",
+      "alt": "The massive stone battlements of an old walled city with an arched gateway in shadow",
+      "credit": "Generated image",
+      "text": "Arranged in advance so the Spanish could surrender to the Americans and not to Filipinos.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "boxing",
       "icon": "🥊",
@@ -177,6 +187,16 @@
         "**The constitution is the Filipino version.**",
         "**Both documents exist.** Only one was enforced."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Two accounts of the same year",
+      "src": "assets/img/ss-w3-press.jpg",
+      "alt": "An old cast-iron hand printing press with a tray of loose type and a stack of blank paper beside it",
+      "credit": "Generated image",
+      "text": "The Malolos Constitution was written here. So was the American version of events.",
+      "lightBg": true
     },
     {
       "kind": "idea",

@@ -1461,5 +1461,89 @@
     "artist": "Generated with OpenAI gpt-image-2",
     "licence": "Generated for this project",
     "source": "A bold flat storybook illustration with thick confident outlines and a warm limited palette. A knight pointing triumphantly at an ordinary windmill while a swirling cartoon puff of magical smoke floats beside it, as his companion stands with both hands over his face in despair."
+  },
+  "ss-w2-arsenal": {
+    "file": "ss-w2-arsenal.jpg",
+    "alt": "A weathered stone fortress wall with an old iron cannon mounted in an embrasure over water",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A thick weathered stone fortress wall with an old iron cannon still mounted in an embrasure pointing out over water. Overcast light, moss in the joints, no signage or text."
+  },
+  "ss-w1-globe": {
+    "file": "ss-w1-globe.jpg",
+    "alt": "A desk globe showing landmasses and ocean with no names, borders or lettering",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A plain physical desk globe on a wooden stand photographed from the side, showing green and brown landmasses and blue ocean with no country names, borders or lettering of any kind. Soft window light."
+  },
+  "ss-w1-orbit": {
+    "file": "ss-w1-orbit.jpg",
+    "alt": "Small green tropical islands fringed with pale reef in deep blue sea, seen from high altitude",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A scatter of small green tropical islands fringed with pale reef and surrounded by deep blue sea, photographed from very high altitude through an aircraft window, with cloud shadows crossing the water."
+  },
+  "ss-w4-novel": {
+    "file": "ss-w4-novel.jpg",
+    "alt": "A slim old cloth-bound book with a plain untitled cover, beside wire-framed spectacles and a candle stub",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A slim old cloth-bound book lying closed on a dark wooden table beside a pair of wire-framed spectacles and a stub of candle. The cover and spine are completely plain with no title or lettering."
+  },
+  "ss-w1-galleon": {
+    "file": "ss-w1-galleon.jpg",
+    "alt": "A three-masted wooden sailing ship at anchor in a calm harbour at dawn",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A large wooden sailing ship with three masts and furled sails lying at anchor in a calm harbour at dawn, seen from the shore. Plain hull, no flags or markings. Mist on the water."
+  },
+  "ss-w3-press": {
+    "file": "ss-w3-press.jpg",
+    "alt": "An old cast-iron hand printing press with a tray of loose type and a stack of blank paper beside it",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "An old cast-iron hand printing press in a dim workshop, with a tray of loose metal type beside it and a stack of completely blank paper sheets on the bench. No legible letters anywhere."
+  },
+  "ss-w6-fort": {
+    "file": "ss-w6-fort.jpg",
+    "alt": "The massive stone battlements of an old walled city with an arched gateway in shadow",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "The massive stone battlements of an old walled city, photographed from below along the base of the wall, with grass growing from the joints and an arched gateway in deep shadow further along."
+  },
+  "ss-w7-pass": {
+    "file": "ss-w7-pass.jpg",
+    "alt": "A narrow rocky mountain pass between steep ridges with a thin trail climbing through mist",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A narrow rocky mountain pass between two steep ridges, with a thin trail climbing through it and mist lying in the gap. Cold early light, no people or structures."
+  },
+  "ss-w10-classroom": {
+    "file": "ss-w10-classroom.jpg",
+    "alt": "An old schoolroom with rows of wooden desks facing a blackboard wiped completely clean",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "An old schoolroom with rows of wooden double desks with attached benches facing a large blackboard that has been wiped completely clean. Chalk dust in the light from tall windows. Nobody present."
+  },
+  "ss-w8-chamber": {
+    "file": "ss-w8-chamber.jpg",
+    "alt": "An empty legislative chamber with curved rows of wooden desks facing a raised bench",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "An empty legislative chamber seen from the public gallery: curved rows of wooden desks facing a raised bench, every seat empty, tall windows behind. No flags, seals, text or signage."
+  },
+  "ss-w10-hoop": {
+    "file": "ss-w10-hoop.jpg",
+    "alt": "A weathered outdoor basketball hoop with a frayed net at the edge of a concrete court",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A weathered outdoor basketball hoop on a wooden backboard mounted on a concrete post at the edge of a barangay court, with a frayed net and faded painted lines on the ground below. Late afternoon light."
+  },
+  "ss-w5-bolo": {
+    "file": "ss-w5-bolo.jpg",
+    "alt": "A bolo knife with a worn wooden handle beside a coil of abaca rope and folded dark cloth",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A heavy bolo knife with a worn wooden handle lying on rough planks beside a coil of abaca rope and a folded length of dark cloth. Hard side light, deep shadow."
   }
 }

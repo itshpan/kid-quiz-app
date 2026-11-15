@@ -88,11 +88,31 @@
       "text": "Part 2 looks hard at the 'not ready' claim. Come back when you are set."
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "There was no Filipino government when the commission reported.",
+        "answer": false,
+        "explain": "The First Philippine Republic had a constitution and an elected congress already.",
+        "seconds": 18
+      }
+    },
+    {
       "kind": "open",
       "icon": "⏳",
       "eyebrow": "Part 2 · The claim at the centre",
       "title": "'Filipinos are not yet ready to govern themselves'",
       "text": "This one sentence justified everything else in the report. It is worth testing against what was already happening."
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "\"Not yet ready to govern\"",
+      "src": "assets/img/ss-w8-chamber.jpg",
+      "alt": "An empty legislative chamber with curved rows of wooden desks facing a raised bench",
+      "credit": "Generated image",
+      "text": "The republic it said was not ready had a constitution and an elected congress already.",
+      "lightBg": true
     },
     {
       "kind": "idea",

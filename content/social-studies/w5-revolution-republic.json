@@ -90,6 +90,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "The Katipunan",
+      "src": "assets/img/ss-w5-bolo.jpg",
+      "alt": "A bolo knife with a worn wooden handle beside a coil of abaca rope and folded dark cloth",
+      "credit": "Generated image",
+      "text": "Ranks, passwords and blood compacts. Secret because every earlier movement was betrayed.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "gaming",
       "icon": "🎮",
@@ -191,6 +201,16 @@
         "**Authority versus results.** Both had a real claim.",
         "**A meeting was called** to settle it."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Magdiwang and Magdalo",
+      "src": "assets/img/fil-w6-upuan.jpg",
+      "alt": "A long empty wooden meeting table with chairs down both sides and one at the head pushed back",
+      "credit": "Generated image",
+      "text": "Two councils, one revolution, and they could not agree on who led it.",
+      "lightBg": true
     },
     {
       "kind": "idea",
@@ -348,6 +368,16 @@
           "def": "December 1898. Spain sold the Philippines to the United States for $20 million."
         }
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Tejeros",
+      "src": "assets/img/fil-w5-balota.jpg",
+      "alt": "A wooden ballot box with a slot in the lid and folded paper slips scattered beside it",
+      "credit": "Generated image",
+      "text": "An election held in the middle of a war, and it settled nothing.",
+      "lightBg": true
     },
     {
       "kind": "recap",

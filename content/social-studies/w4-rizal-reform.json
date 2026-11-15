@@ -82,6 +82,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "El Filibusterismo",
+      "src": "assets/img/ss-w4-novel.jpg",
+      "alt": "A slim old cloth-bound book with a plain untitled cover, beside wire-framed spectacles and a candle stub",
+      "credit": "Generated image",
+      "text": "Darker than the first, and dedicated to three executed priests.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "story",
       "icon": "✍️",
@@ -176,6 +186,16 @@
         "**Encourage education, farming and trade.**",
         "**Founded 3 July. He was arrested on the 6th.**"
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "La Liga Filipina",
+      "src": "assets/img/fil-w2-lihim.jpg",
+      "alt": "A folded sheet sealed with dark red wax, lying at the back of an open wooden drawer in low light",
+      "credit": "Generated image",
+      "text": "Founded in July 1892. He was arrested days later.",
+      "lightBg": true
     },
     {
       "kind": "lens",
@@ -320,6 +340,16 @@
           "def": "The poem Rizal wrote the night before his execution, hidden in a lamp."
         }
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Two novels and a league",
+      "src": "assets/img/ss-t2w11-desk.jpg",
+      "alt": "A study desk with a closed hardback book, blank paper, a pencil, a mug and an empty wall calendar",
+      "credit": "Generated image",
+      "text": "He asked for reform. He was executed for it anyway.",
+      "lightBg": true
     },
     {
       "kind": "recap",

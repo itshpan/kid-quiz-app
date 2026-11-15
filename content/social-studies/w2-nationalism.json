@@ -48,6 +48,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "What nationalism actually means",
+      "src": "assets/img/ss-t2w1-flag.jpg",
+      "alt": "A Philippine flag flying open against a blue sky, its sun and three stars visible",
+      "credit": "Generated image",
+      "text": "Not hatred of elsewhere. A claim that this place is a country.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "gaming",
       "icon": "🎮",
@@ -97,6 +107,16 @@
         "**More Filipinos could read Spanish** — and read what liberals wrote.",
         "**Spain had trained its own opposition.**"
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "The ilustrados",
+      "src": "assets/img/fil-w1-clerk.jpg",
+      "alt": "A clerk's desk with an open blank ledger, an inkwell, a dip pen and a brass stamp, with crates behind",
+      "credit": "Generated image",
+      "text": "Educated, mostly comfortable, and asking for reform rather than independence.",
+      "lightBg": true
     },
     {
       "kind": "lens",
@@ -238,6 +258,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "The Cavite Mutiny",
+      "src": "assets/img/ss-w2-arsenal.jpg",
+      "alt": "A weathered stone fortress wall with an old iron cannon mounted in an embrasure over water",
+      "credit": "Generated image",
+      "text": "A pay dispute at an arsenal, turned into a case for executions.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "17 February 1872",
       "title": "GomBurZa",
@@ -276,6 +306,16 @@
       "kind": "fact",
       "eyebrow": "One line to keep",
       "text": "Spain wanted the executions to end the argument. Instead they handed Filipinos three names, one date, and a reason to stop asking politely."
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Three priests",
+      "src": "assets/img/fil-t2w7-simbahan.jpg",
+      "alt": "The weathered stone facade of an old Spanish colonial church with an arched wooden door and a bell tower",
+      "credit": "Generated image",
+      "text": "Executed in 1872. Rizal dedicated El Filibusterismo to them.",
+      "lightBg": true
     },
     {
       "kind": "terms",

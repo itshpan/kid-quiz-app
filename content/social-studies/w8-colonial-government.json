@@ -88,6 +88,32 @@
       "text": "Part 2 is the 1902 Bill and the elected Assembly. Stretch first if you need it."
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "The Philippine Bill of 1902 promised an assembly once…",
+        "options": [
+          "a war ended",
+          "a census and two years of peace had passed",
+          "a king agreed",
+          "ten years had passed"
+        ],
+        "answerIndex": 1,
+        "explain": "Three conditions, all of them decided elsewhere.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "The Philippine Bill of 1902",
+      "src": "assets/img/ss-w8-chamber.jpg",
+      "alt": "An empty legislative chamber with curved rows of wooden desks facing a raised bench",
+      "credit": "Generated image",
+      "text": "It promised an elected assembly, once a census and two years of peace had passed.",
+      "lightBg": true
+    },
+    {
       "kind": "open",
       "icon": "📜",
       "eyebrow": "Part 2 · Filipinos in government",
@@ -201,6 +227,16 @@
           "def": "The first elected Filipino legislature, opened 16 October 1907."
         }
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Who actually decided",
+      "src": "assets/img/ss-t2w11-desk.jpg",
+      "alt": "A study desk with a closed hardback book, blank paper, a pencil, a mug and an empty wall calendar",
+      "credit": "Generated image",
+      "text": "A Filipino assembly underneath an American commission that could overrule it.",
+      "lightBg": true
     },
     {
       "kind": "recap",

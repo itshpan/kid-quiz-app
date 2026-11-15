@@ -117,6 +117,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "The best question to ask of any source is…",
+        "options": [
+          "how long it is",
+          "who wrote it and what they wanted you to believe",
+          "when you found it",
+          "who recommended it"
+        ],
+        "answerIndex": 1,
+        "explain": "Both columns, then the sentence.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Ask them of anything",
+      "src": "assets/img/ss-t2w11-desk.jpg",
+      "alt": "A study desk with a closed hardback book, blank paper, a pencil, a mug and an empty wall calendar",
+      "credit": "Generated image",
+      "text": "Who wrote it, when, and what did they want you to believe?",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "gaming",
       "icon": "🎮",

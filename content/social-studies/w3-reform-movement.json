@@ -162,6 +162,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why did the reformists write under pen names?",
+        "options": [
+          "It was fashionable",
+          "To protect themselves and their families",
+          "To sound Spanish",
+          "To sell more copies"
+        ],
+        "answerIndex": 1,
+        "explain": "Rizal was Laong Laan; Del Pilar was Plaridel; Lopez Jaena used his own name.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "La Solidaridad",
+      "src": "assets/img/ss-w3-press.jpg",
+      "alt": "An old cast-iron hand printing press with a tray of loose type and a stack of blank paper beside it",
+      "credit": "Generated image",
+      "text": "A newspaper printed in Spain, smuggled home, read aloud to people who could not read.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "The organiser",
       "title": "Marcelo H. del Pilar",
@@ -228,6 +254,16 @@
         "**The money ran out.** The paper closed in 1895.",
         "**And they fell out with each other.**"
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Four reasons, none of them laziness",
+      "src": "assets/img/fil-w6-upuan.jpg",
+      "alt": "A long empty wooden meeting table with chairs down both sides and one at the head pushed back",
+      "credit": "Generated image",
+      "text": "Distance, money, disagreement, and a government that was never going to say yes.",
+      "lightBg": true
     },
     {
       "kind": "lens",
@@ -301,6 +337,16 @@
           "def": "The forced labour service. Cut from forty days to fifteen in 1884, never abolished."
         }
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Twenty years of asking",
+      "src": "assets/img/ss-t2w11-desk.jpg",
+      "alt": "A study desk with a closed hardback book, blank paper, a pencil, a mug and an empty wall calendar",
+      "credit": "Generated image",
+      "text": "Six demands. The second line of every one of them never changed.",
+      "lightBg": true
     },
     {
       "kind": "recap",

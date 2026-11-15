@@ -137,6 +137,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Tirad Pass",
+      "src": "assets/img/ss-w7-pass.jpg",
+      "alt": "A narrow rocky mountain pass between steep ridges with a thin trail climbing through mist",
+      "credit": "Generated image",
+      "text": "Sixty men holding a gap in the mountains. Del Pilar was twenty-four.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "gaming",
       "icon": "🎮",
@@ -189,6 +199,16 @@
         "**Whole areas were emptied** and villages burned.",
         "**Samar in 1901** was the worst of it."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "The part the dates do not show",
+      "src": "assets/img/ss-t2w11-desk.jpg",
+      "alt": "A study desk with a closed hardback book, blank paper, a pencil, a mug and an empty wall calendar",
+      "credit": "Generated image",
+      "text": "Far more civilians died of disease and hunger than of fighting.",
+      "lightBg": true
     },
     {
       "kind": "lens",

@@ -1242,6 +1242,78 @@
       "size": "wide",
       "prompt": "A bold flat storybook illustration with thick confident outlines and a warm limited palette. A knight pointing triumphantly at an ordinary windmill while a swirling cartoon puff of magical smoke floats beside it, as his companion stands with both hands over his face in despair.",
       "alt": "An illustration of a knight pointing at a windmill beside a puff of magical smoke while his companion despairs"
+    },
+    "ss-w1-globe": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A plain physical desk globe on a wooden stand photographed from the side, showing green and brown landmasses and blue ocean with no country names, borders or lettering of any kind. Soft window light.",
+      "alt": "A desk globe showing landmasses and ocean with no names, borders or lettering"
+    },
+    "ss-w1-galleon": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A large wooden sailing ship with three masts and furled sails lying at anchor in a calm harbour at dawn, seen from the shore. Plain hull, no flags or markings. Mist on the water.",
+      "alt": "A three-masted wooden sailing ship at anchor in a calm harbour at dawn"
+    },
+    "ss-w1-orbit": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A scatter of small green tropical islands fringed with pale reef and surrounded by deep blue sea, photographed from very high altitude through an aircraft window, with cloud shadows crossing the water.",
+      "alt": "Small green tropical islands fringed with pale reef in deep blue sea, seen from high altitude"
+    },
+    "ss-w2-arsenal": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A thick weathered stone fortress wall with an old iron cannon still mounted in an embrasure pointing out over water. Overcast light, moss in the joints, no signage or text.",
+      "alt": "A weathered stone fortress wall with an old iron cannon mounted in an embrasure over water"
+    },
+    "ss-w3-press": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "An old cast-iron hand printing press in a dim workshop, with a tray of loose metal type beside it and a stack of completely blank paper sheets on the bench. No legible letters anywhere.",
+      "alt": "An old cast-iron hand printing press with a tray of loose type and a stack of blank paper beside it"
+    },
+    "ss-w4-novel": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A slim old cloth-bound book lying closed on a dark wooden table beside a pair of wire-framed spectacles and a stub of candle. The cover and spine are completely plain with no title or lettering.",
+      "alt": "A slim old cloth-bound book with a plain untitled cover, beside wire-framed spectacles and a candle stub"
+    },
+    "ss-w5-bolo": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A heavy bolo knife with a worn wooden handle lying on rough planks beside a coil of abaca rope and a folded length of dark cloth. Hard side light, deep shadow.",
+      "alt": "A bolo knife with a worn wooden handle beside a coil of abaca rope and folded dark cloth"
+    },
+    "ss-w6-fort": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "The massive stone battlements of an old walled city, photographed from below along the base of the wall, with grass growing from the joints and an arched gateway in deep shadow further along.",
+      "alt": "The massive stone battlements of an old walled city with an arched gateway in shadow"
+    },
+    "ss-w7-pass": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A narrow rocky mountain pass between two steep ridges, with a thin trail climbing through it and mist lying in the gap. Cold early light, no people or structures.",
+      "alt": "A narrow rocky mountain pass between steep ridges with a thin trail climbing through mist"
+    },
+    "ss-w8-chamber": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "An empty legislative chamber seen from the public gallery: curved rows of wooden desks facing a raised bench, every seat empty, tall windows behind. No flags, seals, text or signage.",
+      "alt": "An empty legislative chamber with curved rows of wooden desks facing a raised bench"
+    },
+    "ss-w10-classroom": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "An old schoolroom with rows of wooden double desks with attached benches facing a large blackboard that has been wiped completely clean. Chalk dust in the light from tall windows. Nobody present.",
+      "alt": "An old schoolroom with rows of wooden desks facing a blackboard wiped completely clean"
+    },
+    "ss-w10-hoop": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A weathered outdoor basketball hoop on a wooden backboard mounted on a concrete post at the edge of a barangay court, with a frayed net and faded painted lines on the ground below. Late afternoon light.",
+      "alt": "A weathered outdoor basketball hoop with a frayed net at the edge of a concrete court"
     }
   },
   "_never": "NEVER generate an image that poses as a documentary photograph of a specific real place, artwork, artefact or person - the Angono Petroglyphs, the Spoliarium, Rizal. A generated picture of a named real thing is a false claim about the world, and CLAUDE.md says facts must be true. Generated photographs depict a TYPE (kamote, a kulintang, a sipa shuttle), never a named original. For a specific real artefact use tools/fetch-images.mjs to pull the real, credited photograph from Wikimedia instead."

@@ -125,6 +125,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "You are reading this because of 1901",
+      "src": "assets/img/ss-w10-classroom.jpg",
+      "alt": "An old schoolroom with rows of wooden desks facing a blackboard wiped completely clean",
+      "credit": "Generated image",
+      "text": "English became the language of school, and it still is.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "Public health",
       "title": "Hospitals, vaccines, and a very bad year",
@@ -173,6 +183,32 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "It arrived with the teachers",
+      "src": "assets/img/ss-w10-hoop.jpg",
+      "alt": "A weathered outdoor basketball hoop with a frayed net at the edge of a concrete court",
+      "credit": "Generated image",
+      "text": "Introduced through the public school system, and it never left.",
+      "lightBg": true
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "English became the language of school from…",
+        "options": [
+          "1898",
+          "1901",
+          "1935",
+          "1946"
+        ],
+        "answerIndex": 1,
+        "explain": "With the arrival of the American teachers.",
+        "seconds": 20
+      }
+    },
+    {
       "kind": "idea",
       "eyebrow": "How to hold it",
       "title": "Both columns are real",
@@ -209,6 +245,16 @@
           "def": "Founded in 1902 under Gregorio Aglipay. Also called the Aglipayan Church."
         }
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Both columns are real",
+      "src": "assets/img/ss-t2w11-desk.jpg",
+      "alt": "A study desk with a closed hardback book, blank paper, a pencil, a mug and an empty wall calendar",
+      "credit": "Generated image",
+      "text": "Schools and hospitals, and a war that killed hundreds of thousands.",
+      "lightBg": true
     },
     {
       "kind": "recap",
