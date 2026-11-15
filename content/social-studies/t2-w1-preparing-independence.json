@@ -1,0 +1,352 @@
+{
+  "id": "ss-t2-w1",
+  "courseId": "social-studies",
+  "courseTitle": "Social Studies",
+  "week": 1,
+  "title": "Preparing for Independence",
+  "subtitle": "A date was set, and then the world got in the way.",
+  "estMinutes": 20,
+  "objectives": [
+    "Explain what the Tydings-McDuffie Act set in motion",
+    "Describe the Commonwealth and its purpose",
+    "Name the leaders of the transition",
+    "Explain why independence was delayed"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🇵🇭",
+      "eyebrow": "Part 1 · The road out",
+      "title": "Independence was scheduled, not sudden",
+      "text": "Term 1 ended with American colonial government. This term opens with the Americans agreeing to leave — on a timetable."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The law",
+      "title": "The Tydings-McDuffie Act, 1934",
+      "text": "The United States Congress passed a law setting a date for Philippine independence.",
+      "points": [
+        "**Ten years of transition**, then full independence.",
+        "**A Commonwealth** would govern in the meantime.",
+        "**Foreign policy stayed American** during those ten years.",
+        "**The date set was 1945.** It did not happen then."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The Commonwealth",
+      "title": "A government with real power and real limits",
+      "text": "Established 1935. Filipinos ran most things; the United States kept some control.",
+      "points": [
+        "**Manuel L. Quezon** was elected President.",
+        "**Sergio Osmeña** was Vice President.",
+        "**Its own constitution**, written in 1935.",
+        "**Defence and foreign affairs** remained American."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What did the Tydings-McDuffie Act establish?",
+        "options": [
+          "A ten-year transition to independence",
+          "American statehood",
+          "Immediate independence",
+          "Japanese rule"
+        ],
+        "answerIndex": 0,
+        "explain": "A scheduled ten-year Commonwealth period, then independence.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Quezon's line about running a government",
+      "text": "He said he would rather have a country run like hell by Filipinos than like heaven by Americans.",
+      "points": [
+        "**It is quoted constantly**, and it is about self-rule.",
+        "**Better imperfect and ours** than perfect and someone else's.",
+        "**He also built institutions** that outlived him.",
+        "**He died in 1944**, before independence came."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Preparing",
+      "title": "What a country does before it governs itself",
+      "text": "The Commonwealth years were spent building the machinery of a state.",
+      "points": [
+        "**A national language** was chosen, based on Tagalog.",
+        "**A national defence act** created an army.",
+        "**Public education** expanded.",
+        "**Land reform was attempted**, with limited success."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "The Commonwealth had complete control over foreign policy.",
+        "answer": false,
+        "explain": "Defence and foreign affairs stayed with the United States throughout the transition.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "disasters",
+      "icon": "🌍",
+      "eyebrow": "Disaster mode",
+      "title": "Why 1945 came and went",
+      "text": "The schedule was interrupted by something nobody in 1934 had planned for.",
+      "points": [
+        "**Japan invaded in December 1941.**",
+        "**The Commonwealth government fled** into exile.",
+        "**Three years of occupation** followed.",
+        "**Independence finally came on 4 July 1946.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "aviation",
+      "icon": "✈️",
+      "eyebrow": "Aviation mode",
+      "title": "The war reached Luzon within hours",
+      "text": "Clark Field was attacked on 8 December 1941, the same day as Pearl Harbor across the date line.",
+      "points": [
+        "**Most of the air force** was destroyed on the ground.",
+        "**Warning had been received** and the aircraft were still parked.",
+        "**Without air cover** the defence of Luzon was decided early.",
+        "**The ten-year plan** ended that morning."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why was independence delayed past 1945?",
+        "options": [
+          "The law was repealed",
+          "The Japanese occupation and the war",
+          "Filipinos voted against it",
+          "America refused"
+        ],
+        "answerIndex": 1,
+        "explain": "The invasion and occupation interrupted the timetable entirely.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Tydings-McDuffie Act",
+          "def": "The 1934 US law setting a ten-year path to Philippine independence."
+        },
+        {
+          "term": "Commonwealth",
+          "def": "The transitional Philippine government, 1935 to 1946."
+        },
+        {
+          "term": "Manuel L. Quezon",
+          "def": "First President of the Commonwealth."
+        },
+        {
+          "term": "Sergio Osmeña",
+          "def": "Vice President, later President after Quezon's death."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Tydings-McDuffie, 1934: ten years, then independence.",
+        "The Commonwealth began in 1935 under Quezon.",
+        "Defence and foreign policy stayed American.",
+        "War delayed independence from 1945 to 4 July 1946."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "The Tydings-McDuffie Act set out…",
+      "options": [
+        "immediate independence",
+        "a trade treaty",
+        "annexation",
+        "a ten-year transition"
+      ],
+      "answerIndex": 3,
+      "explain": "Ten years of Commonwealth government, then independence.",
+      "objective": "Explain what the Tydings-McDuffie Act set in motion",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The Commonwealth was established in…",
+      "options": [
+        "1935",
+        "1898",
+        "1941",
+        "1946"
+      ],
+      "answerIndex": 0,
+      "explain": "The year after the Act was passed.",
+      "objective": "Describe the Commonwealth and its purpose",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Who was the first President of the Commonwealth?",
+      "options": [
+        "Manuel Roxas",
+        "Manuel L. Quezon",
+        "Sergio Osmeña",
+        "Emilio Aguinaldo"
+      ],
+      "answerIndex": 1,
+      "explain": "Quezon, with Osmeña as Vice President.",
+      "objective": "Name the leaders of the transition",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "What did the United States keep control of during the Commonwealth?",
+      "options": [
+        "Education",
+        "Agriculture",
+        "Local government",
+        "Defence and foreign affairs"
+      ],
+      "answerIndex": 3,
+      "explain": "Those two powers stayed American throughout.",
+      "objective": "Describe the Commonwealth and its purpose",
+      "seconds": 22
+    },
+    {
+      "type": "truefalse",
+      "text": "Independence was originally scheduled for 1945.",
+      "answer": true,
+      "explain": "Ten years from 1935. The war pushed it to 1946.",
+      "objective": "Explain why independence was delayed",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Independence finally came on…",
+      "options": [
+        "4 July 1946",
+        "1941",
+        "1935",
+        "12 June 1898"
+      ],
+      "answerIndex": 0,
+      "explain": "4 July 1946, after the occupation delayed the original date.",
+      "objective": "Explain why independence was delayed",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "What delayed independence?",
+      "options": [
+        "A US election",
+        "A referendum",
+        "The Japanese invasion and occupation",
+        "An earthquake"
+      ],
+      "answerIndex": 2,
+      "explain": "Japan invaded in December 1941 and the government went into exile.",
+      "objective": "Explain why independence was delayed",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which was NOT done during the Commonwealth years?",
+      "options": [
+        "Creating a national army",
+        "Joining the United Nations",
+        "Expanding public education",
+        "Choosing a national language"
+      ],
+      "answerIndex": 1,
+      "explain": "The UN did not exist until 1945, and the Philippines joined as an independent state.",
+      "objective": "Describe the Commonwealth and its purpose",
+      "seconds": 24
+    },
+    {
+      "type": "truefalse",
+      "text": "The Commonwealth wrote its own constitution.",
+      "answer": true,
+      "explain": "The 1935 Constitution, which governed the transition.",
+      "objective": "Describe the Commonwealth and its purpose",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Who became President after Quezon died in 1944?",
+      "options": [
+        "Magsaysay",
+        "Roxas",
+        "Osmeña",
+        "Laurel"
+      ],
+      "answerIndex": 2,
+      "explain": "Sergio Osmeña, his Vice President.",
+      "objective": "Name the leaders of the transition",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Quezon's famous line was about preferring a government…",
+      "options": [
+        "run like hell by Filipinos",
+        "run perfectly by anyone",
+        "led by the army",
+        "without elections"
+      ],
+      "answerIndex": 0,
+      "explain": "The point is self-rule: imperfect and ours rather than perfect and someone else's.",
+      "objective": "Name the leaders of the transition",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "The national language chosen during this period was based on…",
+      "options": [
+        "Cebuano",
+        "Tagalog",
+        "Ilocano",
+        "Spanish"
+      ],
+      "answerIndex": 1,
+      "explain": "Tagalog was selected as the basis for the national language.",
+      "objective": "Describe the Commonwealth and its purpose",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 1 Social Studies, picking up exactly where Term 1 left off with American colonial government. The organising idea is that independence was scheduled rather than won suddenly, which makes the Commonwealth years intelligible as preparation rather than as a pause. The limits on the Commonwealth — defence and foreign affairs staying American — are given directly, because 'self-governing' without those qualifications is the version most learners carry away. The week ends on the gap between the planned 1945 date and the actual 1946 one, which sets up the occupation in weeks 3 and 4.",
+    "discussion": [
+      "Why would a colonial power schedule its own departure?",
+      "What does Quezon's famous line actually argue for?",
+      "What has to exist before a country can govern itself?"
+    ],
+    "extension": [
+      "List the institutions a new country needs on day one.",
+      "Find out what your own province was like in the 1930s."
+    ],
+    "misconceptions": [
+      "That the Commonwealth was fully independent.",
+      "That independence happened in 1945 as planned.",
+      "That Quezon lived to see it."
+    ]
+  }
+}

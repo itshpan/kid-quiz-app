@@ -1,0 +1,352 @@
+{
+  "id": "ss-t2-w4",
+  "courseId": "social-studies",
+  "courseTitle": "Social Studies",
+  "week": 4,
+  "title": "Resistance and Return",
+  "subtitle": "Three years of guerrilla war, and what the return cost.",
+  "estMinutes": 20,
+  "objectives": [
+    "Describe the guerrilla resistance",
+    "Explain the return and the Leyte landing",
+    "Describe the Battle of Manila and its cost",
+    "Explain the state of the country in 1945"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🕯",
+      "eyebrow": "Part 4 · Resistance and return",
+      "title": "Occupied is not the same as conquered",
+      "text": "For three years the fighting never fully stopped. It just moved into the hills and into the towns."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Guerrillas",
+      "title": "A war fought in pieces",
+      "text": "Resistance groups operated across the islands, with no single command.",
+      "points": [
+        "**Former soldiers, farmers, students and teachers.**",
+        "**They gathered intelligence**, ambushed patrols and kept maps.",
+        "**Radios kept some in contact** with Allied forces.",
+        "**Reprisals against villages** were the cost of every raid."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why did guerrilla raids carry a heavy cost for civilians?",
+        "options": [
+          "Occupying forces took reprisals against villages",
+          "They were illegal",
+          "They were expensive",
+          "Guerrillas took food by force"
+        ],
+        "answerIndex": 0,
+        "explain": "Collective punishment of nearby communities was a standard response.",
+        "seconds": 24
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The return",
+      "title": "Leyte, October 1944",
+      "text": "The Allied return began in the central islands, not in Luzon.",
+      "points": [
+        "**MacArthur landed at Leyte** in October 1944.",
+        "**He had promised 'I shall return'** in 1942.",
+        "**Osmeña, now President, came with him.**",
+        "**The campaign north** took months more."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "aviation",
+      "icon": "✈️",
+      "eyebrow": "Aviation mode",
+      "title": "Why Leyte and not Manila",
+      "text": "You take the place that gives you airfields, not the place with the famous name.",
+      "points": [
+        "**Airfields first**, then everything else becomes possible.",
+        "**Leyte Gulf** could land men and supplies.",
+        "**Air cover from there** reached Luzon.",
+        "**The same logic** that lost the islands in 1941 won them back."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Manila",
+      "title": "The cost of taking the city back",
+      "text": "The battle for Manila in February 1945 was among the most destructive of the war.",
+      "points": [
+        "**About a month of street fighting.**",
+        "**Roughly 100,000 civilians died.**",
+        "**The old walled city, Intramuros, was largely destroyed.**",
+        "**Manila was one of the most damaged capitals** of the entire war."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Manila was recaptured with little damage because it had been an open city in 1941.",
+        "answer": false,
+        "explain": "The 1941 declaration did not apply in 1945. The battle destroyed much of the city and killed around 100,000 civilians.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "disasters",
+      "icon": "🌊",
+      "eyebrow": "Disaster mode",
+      "title": "What a destroyed country actually means",
+      "text": "Independence arrived in 1946 to a place that had to be rebuilt first.",
+      "points": [
+        "**Bridges, ports and railways** were wrecked.",
+        "**Schools and hospitals** gone or occupied.",
+        "**Farms had been stripped**, so food was short.",
+        "**A new country** starting from less than nothing."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Roughly how many civilians died in the Battle of Manila?",
+        "options": [
+          "1,000",
+          "100,000",
+          "10,000",
+          "1 million"
+        ],
+        "answerIndex": 1,
+        "explain": "Around 100,000, in about a month of street fighting.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "'I shall return' is remembered because he did",
+      "text": "Promises in war are usually forgotten. This one was repeated until it became a fact.",
+      "points": [
+        "**He said it in 1942**, leaving for Australia.",
+        "**He landed at Leyte in October 1944.**",
+        "**The phrase was deliberate**, and he refused to change it.",
+        "**Osmeña walked ashore with him**, which is less often remembered."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Guerrilla",
+          "def": "A fighter in a small irregular group, not a regular army."
+        },
+        {
+          "term": "Reprisal",
+          "def": "Punishment of a community in response to an attack."
+        },
+        {
+          "term": "Leyte Gulf",
+          "def": "Where the Allied return began in October 1944."
+        },
+        {
+          "term": "Intramuros",
+          "def": "The old walled city of Manila, largely destroyed in 1945."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Resistance continued for three years, at heavy cost to villages.",
+        "The return began at Leyte in October 1944.",
+        "The Battle of Manila killed around 100,000 civilians.",
+        "Independence in 1946 came to a country that had to be rebuilt."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Guerrilla groups during the occupation were…",
+      "options": [
+        "many separate groups with no one command",
+        "a single national army",
+        "officially recognised",
+        "foreign troops only"
+      ],
+      "answerIndex": 0,
+      "explain": "They operated independently across the islands.",
+      "objective": "Describe the guerrilla resistance",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Why were reprisals a problem for the resistance?",
+      "options": [
+        "They cost money",
+        "Guerrillas were untrained",
+        "Nearby villages were punished for raids",
+        "They were illegal"
+      ],
+      "answerIndex": 2,
+      "explain": "Collective punishment made every raid a decision about other people's lives.",
+      "objective": "Describe the guerrilla resistance",
+      "seconds": 24
+    },
+    {
+      "type": "multiple",
+      "text": "The Allied return began at…",
+      "options": [
+        "Cebu",
+        "Leyte",
+        "Manila",
+        "Bataan"
+      ],
+      "answerIndex": 1,
+      "explain": "Leyte Gulf, October 1944.",
+      "objective": "Explain the return and the Leyte landing",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "In which month and year did MacArthur land at Leyte?",
+      "options": [
+        "December 1941",
+        "April 1942",
+        "July 1946",
+        "October 1944"
+      ],
+      "answerIndex": 3,
+      "explain": "Two and a half years after leaving.",
+      "objective": "Explain the return and the Leyte landing",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why Leyte rather than Luzon first?",
+      "options": [
+        "It offered airfields and a landing point",
+        "It was closer",
+        "It was undefended",
+        "Manila refused"
+      ],
+      "answerIndex": 0,
+      "explain": "Air cover first, then everything else becomes possible.",
+      "objective": "Explain the return and the Leyte landing",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Roughly how many civilians died in the Battle of Manila?",
+      "options": [
+        "10,000",
+        "1,000",
+        "500,000",
+        "100,000"
+      ],
+      "answerIndex": 3,
+      "explain": "About 100,000 in roughly a month.",
+      "objective": "Describe the Battle of Manila and its cost",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "Intramuros survived the war largely intact.",
+      "answer": false,
+      "explain": "The old walled city was largely destroyed in February 1945.",
+      "objective": "Describe the Battle of Manila and its cost",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Who returned with MacArthur as President?",
+      "options": [
+        "Roxas",
+        "Osmeña",
+        "Quezon",
+        "Laurel"
+      ],
+      "answerIndex": 1,
+      "explain": "Quezon had died in 1944; Osmeña had succeeded him.",
+      "objective": "Explain the return and the Leyte landing",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "Manila was one of the most damaged capital cities of the entire war.",
+      "answer": true,
+      "explain": "Comparable with the worst in Europe and Asia.",
+      "objective": "Describe the Battle of Manila and its cost",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The Philippines became independent in 1946 facing…",
+      "options": [
+        "a destroyed infrastructure and food shortage",
+        "a rebuilt economy",
+        "foreign occupation",
+        "no problems"
+      ],
+      "answerIndex": 0,
+      "explain": "Bridges, ports, schools and farms had to be rebuilt first.",
+      "objective": "Explain the state of the country in 1945",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "A 'reprisal' is…",
+      "options": [
+        "a type of weapon",
+        "punishment of a community after an attack",
+        "a reward",
+        "a treaty"
+      ],
+      "answerIndex": 1,
+      "explain": "Collective punishment, used widely during the occupation.",
+      "objective": "Describe the guerrilla resistance",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "MacArthur's promise in 1942 was…",
+      "options": [
+        "'Hold Bataan'",
+        "'Remember Manila'",
+        "'I shall return'",
+        "'We will win'"
+      ],
+      "answerIndex": 2,
+      "explain": "He repeated it until he kept it in October 1944.",
+      "objective": "Explain the return and the Leyte landing",
+      "seconds": 18
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 4 Social Studies, the second occupation week, covering resistance and liberation. The guerrilla section is built around the reprisal problem rather than around heroism, because that is the honest shape of the choice: every raid was also a decision about a nearby village. Leyte is explained by the same air-power logic that lost the islands in 1941, which ties the two weeks together causally. The Battle of Manila is given its real figure, about 100,000 civilian dead, and the week closes on the condition of the country in 1946 so that the challenges of independence in weeks 5 and 6 follow from something concrete.",
+    "discussion": [
+      "Why was every guerrilla raid also a decision about civilians?",
+      "Why land at Leyte rather than Manila?",
+      "What did independence inherit in 1946?"
+    ],
+    "extension": [
+      "Find out whether your province had a named guerrilla unit.",
+      "Look at photographs of Intramuros before and after 1945."
+    ],
+    "misconceptions": [
+      "That resistance was centrally organised.",
+      "That Manila was spared because of 1941.",
+      "That independence began from a normal starting point."
+    ]
+  }
+}

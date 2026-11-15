@@ -1403,7 +1403,7 @@
           "tagline": "The Philippines, colonisation and nationhood",
           "icon": "🌏",
           "accent": "#a855f7",
-          "status": "planned",
+          "status": "live",
           "weeks": [
             {
               "week": 1,
@@ -1412,52 +1412,58 @@
               "topics": [
                 "Preparing for Independence"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "social-studies/t2-w1-preparing-independence.json"
             },
             {
               "week": 2,
               "id": "ss-t2-w2",
-              "title": "Preparing for Independence",
+              "title": "Building the State",
               "topics": [
                 "Preparing for Independence"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "social-studies/t2-w2-building-the-state.json"
             },
             {
               "week": 3,
               "id": "ss-t2-w3",
-              "title": "Japanese Occupation",
+              "title": "The Japanese Occupation",
               "topics": [
                 "Japanese Occupation"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "social-studies/t2-w3-japanese-occupation.json"
             },
             {
               "week": 4,
               "id": "ss-t2-w4",
-              "title": "Japanese Occupation",
+              "title": "Resistance and Return",
               "topics": [
                 "Japanese Occupation"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "social-studies/t2-w4-resistance-return.json"
             },
             {
               "week": 5,
               "id": "ss-t2-w5",
-              "title": "The Challenges of Independence",
+              "title": "Independence, With Conditions",
               "topics": [
                 "The Challenges of Independence"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "social-studies/t2-w5-independence-conditions.json"
             },
             {
               "week": 6,
               "id": "ss-t2-w6",
-              "title": "The Challenges of Independence",
+              "title": "The Land Question",
               "topics": [
                 "The Challenges of Independence"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "social-studies/t2-w6-huk-rebellion.json"
             },
             {
               "week": 7,

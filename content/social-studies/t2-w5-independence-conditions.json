@@ -1,0 +1,352 @@
+{
+  "id": "ss-t2-w5",
+  "courseId": "social-studies",
+  "courseTitle": "Social Studies",
+  "week": 5,
+  "title": "Independence, With Conditions",
+  "subtitle": "A flag in 1946, and a bill attached to it.",
+  "estMinutes": 20,
+  "objectives": [
+    "Describe independence in 1946 and its conditions",
+    "Explain the Bell Trade Act and parity rights",
+    "Explain why rebuilding depended on American terms",
+    "Judge how independent the new republic was"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "📜",
+      "eyebrow": "Part 5 · Independence, with conditions",
+      "title": "4 July 1946, and a bill attached",
+      "text": "The flag changed. So did the law. But the money needed to rebuild came with terms written in Washington."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The Third Republic",
+      "title": "A new state in a wrecked country",
+      "text": "Manuel Roxas became the first President of the independent Republic.",
+      "points": [
+        "**Independence came on 4 July 1946.**",
+        "**Roxas led the Third Republic.**",
+        "**Cities, ports and farms** were still in ruins.",
+        "**Rebuilding needed money** the country did not have."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The Bell Trade Act",
+      "title": "Aid, in exchange for terms",
+      "text": "The United States offered war damage payments, and attached conditions.",
+      "points": [
+        "**Free trade** between the two countries, on a schedule.",
+        "**The peso was pegged** to the dollar.",
+        "**Parity rights** let Americans exploit natural resources equally with Filipinos.",
+        "**Parity needed a constitutional amendment**, which was passed."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Parity rights allowed Americans to…",
+        "options": [
+          "vote in elections",
+          "exploit natural resources equally with Filipinos",
+          "own the government",
+          "hold office"
+        ],
+        "answerIndex": 1,
+        "explain": "Equal access to natural resources and public utilities, which required amending the Constitution.",
+        "seconds": 24
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "A choice that was not really a choice",
+      "text": "Accept the terms and get the rebuilding money, or refuse and rebuild with nothing.",
+      "points": [
+        "**War damage payments** were tied to accepting the Act.",
+        "**Refusing meant no funds** for ports, schools or bridges.",
+        "**Congress passed it**, and many who voted felt cornered.",
+        "**Independence on paper** sat awkwardly with dependence in practice."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "The Philippines could have refused the Bell Trade Act with no consequences.",
+        "answer": false,
+        "explain": "The war damage payments were tied to it. Refusing meant rebuilding without that money.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "Pegged currency, explained simply",
+      "text": "Tying the peso to the dollar is like fixing your gear ratio to someone else's engine.",
+      "points": [
+        "**Their engine speeds up**, yours follows.",
+        "**You cannot choose your own ratio** any more.",
+        "**Stability is the benefit.**",
+        "**Lost control is the cost.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Bases",
+      "title": "The military agreement of 1947",
+      "text": "American forces stayed, under a long-term agreement.",
+      "points": [
+        "**Clark Air Base and Subic Bay** were the largest.",
+        "**A 99-year term** was agreed, later shortened.",
+        "**Supporters saw protection.**",
+        "**Critics saw a limit on sovereignty.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "aviation",
+      "icon": "✈️",
+      "eyebrow": "Aviation mode",
+      "title": "Clark and Subic were not small",
+      "text": "These were among the largest American overseas bases anywhere, and they shaped the towns around them for decades.",
+      "points": [
+        "**Clark** was a major air base on Luzon.",
+        "**Subic Bay** was a deep-water naval port.",
+        "**Whole local economies** grew around the gates.",
+        "**They closed in the early 1990s**, and those towns had to start again."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Independence was granted on…",
+        "options": [
+          "4 July 1946",
+          "1947",
+          "12 June 1898",
+          "1935"
+        ],
+        "answerIndex": 0,
+        "explain": "4 July 1946. The 12 June date commemorates the 1898 declaration.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Third Republic",
+          "def": "The independent Philippine state from 1946."
+        },
+        {
+          "term": "Bell Trade Act",
+          "def": "The 1946 US law tying aid to trade terms and parity rights."
+        },
+        {
+          "term": "Parity rights",
+          "def": "Equal American access to Philippine natural resources."
+        },
+        {
+          "term": "Pegged currency",
+          "def": "A currency fixed in value against another."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Independence came on 4 July 1946, under Roxas.",
+        "The Bell Trade Act tied rebuilding money to American terms.",
+        "Parity rights required amending the Constitution.",
+        "Sovereignty in law, dependence in economics."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "The Philippines became independent on…",
+      "options": [
+        "4 July 1946",
+        "1935",
+        "1947",
+        "12 June 1898"
+      ],
+      "answerIndex": 0,
+      "explain": "The 1898 date is the declaration; 1946 is recognised independence.",
+      "objective": "Describe independence in 1946 and its conditions",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Who was the first President of the Third Republic?",
+      "options": [
+        "Osmeña",
+        "Roxas",
+        "Quirino",
+        "Laurel"
+      ],
+      "answerIndex": 1,
+      "explain": "Manuel Roxas.",
+      "objective": "Describe independence in 1946 and its conditions",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The Bell Trade Act offered aid in exchange for…",
+      "options": [
+        "trade terms and parity rights",
+        "a new language",
+        "soldiers",
+        "land"
+      ],
+      "answerIndex": 0,
+      "explain": "Free trade on a schedule, a pegged peso, and parity.",
+      "objective": "Explain the Bell Trade Act and parity rights",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Parity rights gave Americans equal access to…",
+      "options": [
+        "elections",
+        "the courts",
+        "natural resources",
+        "the army"
+      ],
+      "answerIndex": 2,
+      "explain": "Natural resources and public utilities.",
+      "objective": "Explain the Bell Trade Act and parity rights",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "Parity rights required a change to the Constitution.",
+      "answer": true,
+      "explain": "An amendment was passed to allow it.",
+      "objective": "Explain the Bell Trade Act and parity rights",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "War damage payments were tied to…",
+      "options": [
+        "joining the UN",
+        "accepting the Bell Trade Act",
+        "building bases",
+        "the Japanese treaty"
+      ],
+      "answerIndex": 1,
+      "explain": "Which is what made refusal so costly.",
+      "objective": "Explain why rebuilding depended on American terms",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "A pegged currency means its value is…",
+      "options": [
+        "decided yearly",
+        "unregulated",
+        "fixed against another currency",
+        "set by trade"
+      ],
+      "answerIndex": 2,
+      "explain": "The peso was fixed to the dollar.",
+      "objective": "Explain the Bell Trade Act and parity rights",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The 1947 agreement allowed the United States to keep…",
+      "options": [
+        "banks",
+        "military bases",
+        "courts",
+        "schools"
+      ],
+      "answerIndex": 1,
+      "explain": "Clark and Subic were the largest.",
+      "objective": "Judge how independent the new republic was",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "Independence in 1946 meant complete economic independence.",
+      "answer": false,
+      "explain": "Trade, currency and resources all remained tied to the United States.",
+      "objective": "Judge how independent the new republic was",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why did many in Congress feel cornered?",
+      "options": [
+        "They were threatened",
+        "It was secret",
+        "They did not understand it",
+        "Refusing meant rebuilding with no money"
+      ],
+      "answerIndex": 3,
+      "explain": "The aid and the terms were bound together.",
+      "objective": "Explain why rebuilding depended on American terms",
+      "seconds": 24
+    },
+    {
+      "type": "multiple",
+      "text": "Which pair were the largest American bases?",
+      "options": [
+        "Bataan and Corregidor",
+        "Leyte and Cebu",
+        "Manila and Baguio",
+        "Clark and Subic"
+      ],
+      "answerIndex": 3,
+      "explain": "Clark Air Base and Subic Bay Naval Base.",
+      "objective": "Judge how independent the new republic was",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The best summary of 1946 is…",
+      "options": [
+        "sovereignty in law, dependence in economics",
+        "continued colony",
+        "full independence",
+        "Japanese rule"
+      ],
+      "answerIndex": 0,
+      "explain": "The legal change was real; the economic relationship continued.",
+      "objective": "Judge how independent the new republic was",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 5 Social Studies, the first of two weeks on the challenges of independence. The lesson's spine is the gap between legal sovereignty and economic dependence, which is the thing worth understanding about 1946 and which a date-only account hides. The Bell Trade Act is presented as a genuine dilemma rather than a betrayal: the war damage money was tied to it, and refusing meant rebuilding with nothing, so the vote is shown as cornered rather than careless. Parity rights are given their constitutional weight, since amending a constitution to admit foreign access is the clearest measure of how constrained the choice was.",
+    "discussion": [
+      "Why is 4 July 1946 the date rather than 12 June 1898?",
+      "Was accepting the Bell Trade Act a free choice?",
+      "What does sovereignty mean if trade and currency are controlled elsewhere?"
+    ],
+    "extension": [
+      "Find out what war damage payments were spent on locally.",
+      "Look up when the American bases finally closed."
+    ],
+    "misconceptions": [
+      "That independence in 1946 was complete.",
+      "That parity rights were a minor detail.",
+      "That refusing the Act was an easy option."
+    ]
+  }
+}

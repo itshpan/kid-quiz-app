@@ -1,0 +1,346 @@
+{
+  "id": "ss-t2-w2",
+  "courseId": "social-studies",
+  "courseTitle": "Social Studies",
+  "week": 2,
+  "title": "Building the State",
+  "subtitle": "Ten years to make the machinery a country runs on.",
+  "estMinutes": 20,
+  "objectives": [
+    "Describe how the Commonwealth prepared institutions",
+    "Explain the National Defense Act",
+    "Explain the choice of a national language",
+    "Assess how ready the country was in 1941"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🏛",
+      "eyebrow": "Part 2 · Building the machinery",
+      "title": "Ten years to build a state from the parts you have",
+      "text": "A flag and a date are the easy bits. The Commonwealth had to build the things a country runs on."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Defence",
+      "title": "The National Defense Act of 1935",
+      "text": "The first major law of the Commonwealth created an army from almost nothing.",
+      "points": [
+        "**Douglas MacArthur** was brought in as military adviser.",
+        "**A reserve force** was to be trained over ten years.",
+        "**Funding was always short.**",
+        "**By 1941 it was far from ready.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Language",
+      "title": "One country, many languages",
+      "text": "A national language was chosen deliberately, and the choice was argued over.",
+      "points": [
+        "**The 1935 Constitution** called for a national language.",
+        "**Tagalog was selected** as its basis in 1937.",
+        "**Not because it had the most speakers** — Cebuano had a strong claim.",
+        "**It was the language of Manila**, the centre of government and print."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Tagalog was chosen as the basis of the national language mainly because…",
+        "options": [
+          "it had the most speakers",
+          "it was the language of Manila and of print",
+          "it was oldest",
+          "the Americans chose it"
+        ],
+        "answerIndex": 1,
+        "explain": "Cebuano had a comparable number of speakers. Manila's position decided it.",
+        "seconds": 24
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Naming a language is never only about language",
+      "text": "Choosing one region's tongue as everyone's is a political act, and people knew it.",
+      "points": [
+        "**Speakers of other languages objected**, and still do.",
+        "**The name changed over time** — Pilipino, then Filipino.",
+        "**Filipino today** draws on more than Tagalog alone.",
+        "**The argument is not settled**, which is itself worth knowing."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Education and land",
+      "title": "The two hardest problems",
+      "text": "One expanded. The other barely moved.",
+      "points": [
+        "**Schools grew quickly**, in English and in the vernacular.",
+        "**Land reform was attempted** and mostly failed.",
+        "**Tenant farmers stayed tenants.**",
+        "**That unfinished problem** returns again and again."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Gaming mode",
+      "title": "Nation-building games make you pick, and so did they",
+      "text": "Limited budget, several things that all need funding, and a clock running. That was the Commonwealth.",
+      "points": [
+        "**Spend on schools** and the army stays thin.",
+        "**Spend on the army** and land reform waits.",
+        "**They chose education**, and it showed in 1941.",
+        "**Every real government** is making this trade."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Land reform was largely achieved during the Commonwealth.",
+        "answer": false,
+        "explain": "It was attempted and made very little progress. Tenancy remained the norm.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "Preparation is not the same as readiness",
+      "text": "Training for ten years and being ready are different claims, and 1941 tested the difference.",
+      "points": [
+        "**A plan on paper** is not a trained army.",
+        "**Equipment was old** and there was not enough of it.",
+        "**The reserve was partly trained** when the invasion came.",
+        "**Preparation ran out of time.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "How ready was the Philippine military when Japan invaded?",
+        "options": [
+          "Partly trained and under-equipped",
+          "Fully trained and equipped",
+          "Not created at all",
+          "Larger than Japan's"
+        ],
+        "answerIndex": 0,
+        "explain": "The reserve existed on paper more than in practice, and equipment was short.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "National Defense Act",
+          "def": "The 1935 law creating a Philippine army and reserve."
+        },
+        {
+          "term": "Douglas MacArthur",
+          "def": "American general who advised on building that army."
+        },
+        {
+          "term": "Vernacular",
+          "def": "A local or regional language."
+        },
+        {
+          "term": "Tenancy",
+          "def": "Farming land owned by someone else, for a share of the crop."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "The National Defense Act of 1935 built an army from almost nothing.",
+        "Tagalog was chosen in 1937, because of Manila rather than numbers.",
+        "Education expanded; land reform did not.",
+        "By 1941 preparation had run out of time."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "The National Defense Act was passed in…",
+      "options": [
+        "1941",
+        "1946",
+        "1935",
+        "1898"
+      ],
+      "answerIndex": 2,
+      "explain": "The first major law of the Commonwealth.",
+      "objective": "Explain the National Defense Act",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Who advised on building the Philippine army?",
+      "options": [
+        "Osmeña",
+        "Douglas MacArthur",
+        "Quezon",
+        "Roxas"
+      ],
+      "answerIndex": 1,
+      "explain": "Brought in as military adviser to the Commonwealth.",
+      "objective": "Explain the National Defense Act",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Tagalog was chosen as the basis of the national language in…",
+      "options": [
+        "1941",
+        "1935",
+        "1937",
+        "1946"
+      ],
+      "answerIndex": 2,
+      "explain": "The Constitution called for one in 1935; Tagalog was selected in 1937.",
+      "objective": "Explain the choice of a national language",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The main reason Tagalog was chosen was…",
+      "options": [
+        "its position in Manila and in print",
+        "it was oldest",
+        "most speakers",
+        "US pressure"
+      ],
+      "answerIndex": 0,
+      "explain": "Cebuano had a comparable claim on numbers.",
+      "objective": "Explain the choice of a national language",
+      "seconds": 22
+    },
+    {
+      "type": "truefalse",
+      "text": "Land reform largely succeeded during the Commonwealth.",
+      "answer": false,
+      "explain": "It was attempted and achieved very little. Tenancy continued.",
+      "objective": "Describe how the Commonwealth prepared institutions",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which expanded most successfully in this period?",
+      "options": [
+        "Land ownership",
+        "Heavy industry",
+        "The navy",
+        "Public education"
+      ],
+      "answerIndex": 3,
+      "explain": "Schools grew quickly; the other areas did not.",
+      "objective": "Describe how the Commonwealth prepared institutions",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "By December 1941 the Philippine army was…",
+      "options": [
+        "partly trained and under-equipped",
+        "disbanded",
+        "larger than Japan's",
+        "fully ready"
+      ],
+      "answerIndex": 0,
+      "explain": "Ten years was the plan and six had passed, with chronic shortages.",
+      "objective": "Assess how ready the country was in 1941",
+      "seconds": 22
+    },
+    {
+      "type": "truefalse",
+      "text": "A national language was required by the 1935 Constitution.",
+      "answer": true,
+      "explain": "The Constitution called for one; the choice came two years later.",
+      "objective": "Explain the choice of a national language",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "'Vernacular' means…",
+      "options": [
+        "a foreign language",
+        "a local or regional language",
+        "a kind of school",
+        "an official document"
+      ],
+      "answerIndex": 1,
+      "explain": "The everyday language of a place.",
+      "objective": "Explain the choice of a national language",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Tenancy means farming…",
+      "options": [
+        "land owned by someone else",
+        "government land",
+        "no land",
+        "your own land"
+      ],
+      "answerIndex": 0,
+      "explain": "For a share of the crop, which is why reform mattered so much.",
+      "objective": "Describe how the Commonwealth prepared institutions",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which problem was left unfinished and returns later?",
+      "options": [
+        "Defence funding",
+        "Language",
+        "Education",
+        "Land reform"
+      ],
+      "answerIndex": 3,
+      "explain": "It reappears under every administration this term.",
+      "objective": "Describe how the Commonwealth prepared institutions",
+      "seconds": 22
+    },
+    {
+      "type": "truefalse",
+      "text": "Choosing a national language was uncontroversial.",
+      "answer": false,
+      "explain": "Speakers of other languages objected, and the argument continues.",
+      "objective": "Explain the choice of a national language",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 2 Social Studies, the second of the scope's two weeks on preparing for independence, taking the institutional view rather than repeating the political narrative. Three strands are followed — defence, language and land — because each has a different ending and together they show what preparation actually achieved. The language card is handled honestly: Tagalog was not chosen on numbers, the objection was real, and the argument is live, which is more useful to him than a settled-sounding fact. Land reform is flagged as the unfinished problem that returns under every administration later in the term.",
+    "discussion": [
+      "Why was Tagalog chosen when Cebuano had similar numbers?",
+      "What is the difference between preparing and being ready?",
+      "Why does land reform keep coming back?"
+    ],
+    "extension": [
+      "Find out which languages are spoken in your own family's provinces.",
+      "List what an army needs besides soldiers."
+    ],
+    "misconceptions": [
+      "That Tagalog was chosen because most people spoke it.",
+      "That land reform succeeded.",
+      "That a ten-year plan means ten years of readiness."
+    ]
+  }
+}

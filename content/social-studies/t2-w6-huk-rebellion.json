@@ -1,0 +1,346 @@
+{
+  "id": "ss-t2-w6",
+  "courseId": "social-studies",
+  "courseTitle": "Social Studies",
+  "week": 6,
+  "title": "The Land Question",
+  "subtitle": "A rebellion that grew out of rent, not theory.",
+  "estMinutes": 20,
+  "objectives": [
+    "Explain the causes of the Hukbalahap rebellion",
+    "Connect land tenancy to unrest",
+    "Describe how the rebellion was ended",
+    "Explain why land reform kept returning"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🌾",
+      "eyebrow": "Part 6 · The unfinished problem",
+      "title": "The war ended. The land question did not",
+      "text": "Peasants who had fought the Japanese came home to the same landlords, the same rents and the same debts."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Who the Huks were",
+      "title": "A resistance army that did not disband",
+      "text": "The Hukbalahap began as an anti-Japanese guerrilla force in Central Luzon.",
+      "points": [
+        "**The name means** the People's Army Against the Japanese.",
+        "**They had fought the occupation** effectively.",
+        "**After the war** many were treated as a threat, not as veterans.",
+        "**Some kept their weapons.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The cause",
+      "title": "Tenancy, not ideology first",
+      "text": "The grievance was concrete before it was political.",
+      "points": [
+        "**Tenant farmers** kept a small share of what they grew.",
+        "**Debts passed down** through families.",
+        "**Land reform had failed** in the 1930s and again after the war.",
+        "**Communist organisation came later**, onto a real grievance."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "The deepest cause of the Huk rebellion was…",
+        "options": [
+          "language policy",
+          "land tenancy and rural debt",
+          "foreign invasion",
+          "religion"
+        ],
+        "answerIndex": 1,
+        "explain": "The political organising attached itself to a concrete grievance about land.",
+        "seconds": 24
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "A grievance with a physical meaning",
+      "text": "Tenancy is not an abstract arrangement. It decides whether a family eats.",
+      "points": [
+        "**A bad harvest** still owed the same share.",
+        "**Debt carried into the next season**, and the next.",
+        "**Children worked** instead of attending school.",
+        "**That is what people took up arms about.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "The Huks began as a communist party militia.",
+        "answer": false,
+        "explain": "They began as an anti-Japanese guerrilla force. Communist organisation came later, onto an existing grievance.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Magsaysay",
+      "title": "How the rebellion was ended",
+      "text": "Ramon Magsaysay, as Defence Secretary and then President, combined force with reform.",
+      "points": [
+        "**He cleaned up the army** and stopped abuses against villagers.",
+        "**He offered land and amnesty** to those who surrendered.",
+        "**He made himself reachable**, famously opening the palace.",
+        "**The rebellion collapsed** by the mid-1950s."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Magsaysay's approach combined military pressure with…",
+        "options": [
+          "land and amnesty offers",
+          "foreign troops",
+          "censorship",
+          "higher taxes"
+        ],
+        "answerIndex": 0,
+        "explain": "Force alone had failed. Addressing the grievance is what ended it.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Gaming mode",
+      "title": "You cannot win this one by fighting only",
+      "text": "Strategy games model it: crush an uprising without fixing what caused it and it returns a few turns later.",
+      "points": [
+        "**Military pressure alone** reduces numbers, not causes.",
+        "**Address the grievance** and recruitment dries up.",
+        "**Magsaysay did both at once**, which is why it stuck.",
+        "**The game is modelling** something real."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Why the land question never closes",
+      "text": "Every administration this term promises land reform. Each one leaves some of it undone.",
+      "points": [
+        "**The Commonwealth tried** and achieved little.",
+        "**Magsaysay resettled some families**, not most.",
+        "**Later presidents passed new laws.**",
+        "**Watch for it** in every week that follows."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Hukbalahap",
+          "def": "The anti-Japanese guerrilla army that later rebelled."
+        },
+        {
+          "term": "Tenancy",
+          "def": "Farming land owned by another for a share of the crop."
+        },
+        {
+          "term": "Amnesty",
+          "def": "An official pardon offered to those who surrender."
+        },
+        {
+          "term": "Agrarian reform",
+          "def": "Redistributing farmland or changing the terms of tenancy."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "The Huks began as anti-Japanese guerrillas, not as a party militia.",
+        "The grievance was tenancy and debt, before it was ideology.",
+        "Magsaysay used force and reform together, and it worked.",
+        "Land reform remains the recurring unfinished business."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Hukbalahap originally meant an army against…",
+      "options": [
+        "the Americans",
+        "the Spanish",
+        "landlords",
+        "the Japanese"
+      ],
+      "answerIndex": 3,
+      "explain": "The People's Army Against the Japanese.",
+      "objective": "Explain the causes of the Hukbalahap rebellion",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The deepest cause of the rebellion was…",
+      "options": [
+        "land tenancy and debt",
+        "religion",
+        "language",
+        "trade"
+      ],
+      "answerIndex": 0,
+      "explain": "A concrete rural grievance that political organising later attached to.",
+      "objective": "Connect land tenancy to unrest",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "The Huks began as a communist militia.",
+      "answer": false,
+      "explain": "They began as anti-Japanese guerrillas.",
+      "objective": "Explain the causes of the Hukbalahap rebellion",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Tenancy means farming…",
+      "options": [
+        "land owned by someone else for a share",
+        "your own land",
+        "government land",
+        "no land"
+      ],
+      "answerIndex": 0,
+      "explain": "Which is why a bad harvest still owed the same share.",
+      "objective": "Connect land tenancy to unrest",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Who ended the rebellion?",
+      "options": [
+        "Magsaysay",
+        "Marcos",
+        "Quirino",
+        "Roxas"
+      ],
+      "answerIndex": 0,
+      "explain": "As Defence Secretary and then President.",
+      "objective": "Describe how the rebellion was ended",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "His approach combined force with…",
+      "options": [
+        "censorship",
+        "land and amnesty",
+        "higher taxes",
+        "foreign troops"
+      ],
+      "answerIndex": 1,
+      "explain": "Force alone had already failed.",
+      "objective": "Describe how the rebellion was ended",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "Magsaysay stopped army abuses against villagers as part of his strategy.",
+      "answer": true,
+      "explain": "Reducing the army's own role in creating grievances was central.",
+      "objective": "Describe how the rebellion was ended",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "'Amnesty' means…",
+      "options": [
+        "a fine",
+        "a new law",
+        "an official pardon for those who surrender",
+        "a prison term"
+      ],
+      "answerIndex": 2,
+      "explain": "It gave fighters a way out other than fighting on.",
+      "objective": "Describe how the rebellion was ended",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Why did many Huk veterans feel betrayed after the war?",
+      "options": [
+        "They were sent abroad",
+        "They were treated as a threat rather than as veterans",
+        "They were promoted",
+        "They were paid too much"
+      ],
+      "answerIndex": 1,
+      "explain": "Having fought the occupation, they came home to the same landlords.",
+      "objective": "Explain the causes of the Hukbalahap rebellion",
+      "seconds": 24
+    },
+    {
+      "type": "multiple",
+      "text": "Land reform in the 1930s…",
+      "options": [
+        "succeeded fully",
+        "ended tenancy",
+        "was never attempted",
+        "achieved very little"
+      ],
+      "answerIndex": 3,
+      "explain": "Which is why the grievance was still live in 1946.",
+      "objective": "Explain why land reform kept returning",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "Land reform was completed by the mid-1950s.",
+      "answer": false,
+      "explain": "Some families were resettled. The broader problem continued.",
+      "objective": "Explain why land reform kept returning",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why does land reform keep returning in this term's history?",
+      "options": [
+        "Nobody wanted it",
+        "It is popular to promise",
+        "Each attempt left part of it undone",
+        "It was illegal"
+      ],
+      "answerIndex": 2,
+      "explain": "Every administration addresses it and none finishes it.",
+      "objective": "Explain why land reform kept returning",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 6 Social Studies, the second week on the challenges of independence, and the one that explains why the period is unstable. The rebellion is taught cause-first: tenancy and debt were the grievance, and political organising arrived afterwards onto something already real. That ordering matters, because the opposite framing makes the rebellion look imported. Magsaysay's solution is given in full — stopping army abuses, offering land and amnesty alongside military pressure — since the lesson is that force alone had already been tried and failed. Land reform is explicitly flagged as the thread to watch in every remaining week.",
+    "discussion": [
+      "Why did the Huks not disband after the war?",
+      "Why did force alone fail?",
+      "Why does land reform appear in every decade?"
+    ],
+    "extension": [
+      "Find out what crops are grown near your family's province and who owns that land.",
+      "Trace land reform laws from 1935 to today."
+    ],
+    "misconceptions": [
+      "That the Huks were always a communist militia.",
+      "That the rebellion was purely ideological.",
+      "That Magsaysay solved it by force alone."
+    ]
+  }
+}

@@ -1,0 +1,352 @@
+{
+  "id": "ss-t2-w3",
+  "courseId": "social-studies",
+  "courseTitle": "Social Studies",
+  "week": 3,
+  "title": "The Japanese Occupation",
+  "subtitle": "Six months to invasion, three years of occupation.",
+  "estMinutes": 20,
+  "objectives": [
+    "Describe the invasion and the fall of Bataan and Corregidor",
+    "Explain what the Second Republic was",
+    "Describe life under occupation",
+    "Explain why resistance took the form it did"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🗾",
+      "eyebrow": "Part 3 · Occupation",
+      "title": "The timetable stopped on 8 December 1941",
+      "text": "Japan invaded hours after Pearl Harbor. Within six months the islands were under occupation, and the plan for 1945 was gone."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The fall",
+      "title": "Bataan, then Corregidor",
+      "text": "The defence held longer than expected and still ended the same way.",
+      "points": [
+        "**Manila was declared an open city** to spare it from bombing.",
+        "**Filipino and American forces** withdrew to the Bataan peninsula.",
+        "**Bataan surrendered in April 1942.**",
+        "**Corregidor held until May**, then fell too."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The march",
+      "title": "What followed the surrender at Bataan",
+      "text": "Tens of thousands of prisoners were forced to walk roughly 100 kilometres north.",
+      "points": [
+        "**They were already starving and sick** when they surrendered.",
+        "**Men who fell behind** were killed.",
+        "**Thousands died on the road**, most of them Filipino.",
+        "**It is remembered every April** as the Araw ng Kagitingan."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Bataan surrendered in…",
+        "options": [
+          "April 1942",
+          "December 1941",
+          "October 1944",
+          "May 1942"
+        ],
+        "answerIndex": 0,
+        "explain": "Bataan fell in April 1942. Corregidor held out until May.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "Why the defenders ran out before they gave up",
+      "text": "Bataan was lost to supply, not to courage. A body without food stops working long before the will does.",
+      "points": [
+        "**Rations were cut**, then cut again.",
+        "**Malaria and dysentery** spread through the lines.",
+        "**A starving soldier** cannot march or shoot straight.",
+        "**They surrendered sick**, which is why the march killed so many."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "aviation",
+      "icon": "✈️",
+      "eyebrow": "Aviation mode",
+      "title": "Air power decided it early",
+      "text": "The campaign was shaped in the first two days, before most ground fighting began.",
+      "points": [
+        "**Clark Field was hit** on 8 December, aircraft still on the ground.",
+        "**Without air cover**, supply by sea became impossible.",
+        "**Bataan could not be resupplied.**",
+        "**The defenders ran out of food** before they ran out of will."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The Second Republic",
+      "title": "A government with a Filipino president and Japanese control",
+      "text": "Declared in 1943, with José P. Laurel as President.",
+      "points": [
+        "**It had a constitution** and Filipino officials.",
+        "**Japan controlled** what it was allowed to decide.",
+        "**Most historians call it a puppet state.**",
+        "**Laurel argued** he took the post to shield Filipinos from worse."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "The Second Philippine Republic was fully independent.",
+        "answer": false,
+        "explain": "It had Filipino officials and a constitution, but Japan controlled its decisions. It is generally described as a puppet state.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Collaboration is the hardest question of the period",
+      "text": "Some who served under the occupation said they did it to protect people. Others took the chance.",
+      "points": [
+        "**Judging it afterwards** divided the country for years.",
+        "**Laurel was charged**, then amnestied.",
+        "**There is no clean answer**, and historians still argue.",
+        "**Hold both facts:** the republic was controlled, and some who served meant well."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Who was President of the Second Republic?",
+        "options": [
+          "Manuel Roxas",
+          "José P. Laurel",
+          "Osmeña",
+          "Quezon"
+        ],
+        "answerIndex": 1,
+        "explain": "Laurel led the 1943 republic under Japanese control.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Open city",
+          "def": "A city declared undefended, to spare it from attack."
+        },
+        {
+          "term": "Bataan Death March",
+          "def": "The forced march of prisoners after Bataan's surrender in 1942."
+        },
+        {
+          "term": "Second Philippine Republic",
+          "def": "The 1943 government under Japanese control."
+        },
+        {
+          "term": "Puppet state",
+          "def": "A government that appears independent but is controlled from outside."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Japan invaded in December 1941; Bataan fell in April 1942.",
+        "The Death March followed the surrender; thousands died.",
+        "The Second Republic of 1943 had Laurel as President and Japan in control.",
+        "Collaboration remains a genuinely contested question."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Japan invaded the Philippines in…",
+      "options": [
+        "April 1942",
+        "1943",
+        "1945",
+        "December 1941"
+      ],
+      "answerIndex": 3,
+      "explain": "Hours after Pearl Harbor, across the date line.",
+      "objective": "Describe the invasion and the fall of Bataan and Corregidor",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Manila was declared an open city to…",
+      "options": [
+        "invite invasion",
+        "hide the army",
+        "spare it from bombing",
+        "end the war"
+      ],
+      "answerIndex": 2,
+      "explain": "An undefended city, declared so in the hope it would not be attacked.",
+      "objective": "Describe the invasion and the fall of Bataan and Corregidor",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Bataan surrendered in…",
+      "options": [
+        "December 1941",
+        "April 1942",
+        "1944",
+        "May 1942"
+      ],
+      "answerIndex": 1,
+      "explain": "Corregidor followed in May.",
+      "objective": "Describe the invasion and the fall of Bataan and Corregidor",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The Bataan Death March involved prisoners walking roughly…",
+      "options": [
+        "10 km",
+        "1,000 km",
+        "100 km",
+        "500 km"
+      ],
+      "answerIndex": 2,
+      "explain": "About 100 kilometres, while starving and sick.",
+      "objective": "Describe the invasion and the fall of Bataan and Corregidor",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The Second Philippine Republic was declared in…",
+      "options": [
+        "1943",
+        "1946",
+        "1941",
+        "1942"
+      ],
+      "answerIndex": 0,
+      "explain": "With Laurel as President.",
+      "objective": "Explain what the Second Republic was",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Who led the Second Republic?",
+      "options": [
+        "Laurel",
+        "Quezon",
+        "Roxas",
+        "Osmeña"
+      ],
+      "answerIndex": 0,
+      "explain": "José P. Laurel.",
+      "objective": "Explain what the Second Republic was",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "The Second Republic made its own decisions free of Japanese control.",
+      "answer": false,
+      "explain": "It had Filipino officials, but Japan controlled what it could decide.",
+      "objective": "Explain what the Second Republic was",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "'Puppet state' means a government that…",
+      "options": [
+        "has no leader",
+        "appears independent but is controlled from outside",
+        "is elected",
+        "has no constitution"
+      ],
+      "answerIndex": 1,
+      "explain": "The forms of independence without the substance.",
+      "objective": "Explain what the Second Republic was",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Why could Bataan not be resupplied?",
+      "options": [
+        "Air cover was lost, so sea supply failed",
+        "The defenders refused",
+        "It had no port",
+        "It was too far"
+      ],
+      "answerIndex": 0,
+      "explain": "Losing the aircraft on the ground decided the campaign early.",
+      "objective": "Describe the invasion and the fall of Bataan and Corregidor",
+      "seconds": 24
+    },
+    {
+      "type": "truefalse",
+      "text": "Filipino and American forces fought together in the defence.",
+      "answer": true,
+      "explain": "Both served in the campaign on Bataan and Corregidor.",
+      "objective": "Describe the invasion and the fall of Bataan and Corregidor",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The Death March is commemorated each year as…",
+      "options": [
+        "Rizal Day",
+        "Bonifacio Day",
+        "Independence Day",
+        "Araw ng Kagitingan"
+      ],
+      "answerIndex": 3,
+      "explain": "The Day of Valour, in April.",
+      "objective": "Describe the invasion and the fall of Bataan and Corregidor",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why is collaboration a difficult question?",
+      "options": [
+        "Records were lost",
+        "Some who served said they did it to protect people",
+        "Nobody collaborated",
+        "It was never discussed"
+      ],
+      "answerIndex": 1,
+      "explain": "Motives differed, and the country argued about it for years afterwards.",
+      "objective": "Explain why resistance took the form it did",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 3 Social Studies, the first of two weeks on the occupation. The campaign is explained causally rather than as a list of dates: air power lost in the first two days meant Bataan could not be resupplied, which is why a determined defence still ended in surrender. The Death March is stated plainly, with the distance and the outcome, and without detail that would serve no teaching purpose. The Second Republic is given its real complexity — a constitution and Filipino officials, with Japan deciding what they could decide — and collaboration is presented as genuinely contested rather than settled, because that is the honest position and he is old enough for it.",
+    "discussion": [
+      "Why did losing aircraft on the ground decide so much?",
+      "What makes a state a puppet state?",
+      "Why do historians still argue about collaboration?"
+    ],
+    "extension": [
+      "Find out whether anyone in your family's province has a wartime story.",
+      "Look up why Araw ng Kagitingan is in April."
+    ],
+    "misconceptions": [
+      "That the Second Republic was independent.",
+      "That Bataan fell quickly.",
+      "That collaboration has a simple answer."
+    ]
+  }
+}
