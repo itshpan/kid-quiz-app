@@ -147,6 +147,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Six of them, in one photograph",
+      "src": "assets/img/mapeh-t2w1-instruments.jpg",
+      "alt": "Kulintang gongs, a flat gangsa gong, a two-string boat lute, a bamboo jaw harp, a bamboo flute and a skin-headed hand drum",
+      "credit": "Generated image",
+      "text": "Find the gongs, the lute, the jaw harp, the flute and the drum. Name the family of each.",
+      "lightBg": true
+    },
+    {
       "kind": "recap",
       "eyebrow": "Lesson done",
       "title": "What to remember",

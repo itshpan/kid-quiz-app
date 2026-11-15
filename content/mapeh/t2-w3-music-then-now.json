@@ -147,6 +147,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "A hundred years, left to right",
+      "src": "assets/img/mapeh-t2w3-formats.jpg",
+      "alt": "A vinyl record, a cassette tape, a compact disc and a smartphone with earphones laid out in a row",
+      "credit": "Generated image",
+      "text": "Groove, tape, laser, and nothing at all. Each one answered the same question.",
+      "lightBg": true
+    },
+    {
       "kind": "recap",
       "eyebrow": "Lesson done",
       "title": "What to remember",

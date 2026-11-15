@@ -67,6 +67,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "GO: what the training runs on",
+      "src": "assets/img/mapeh-t2w8-go-foods.jpg",
+      "alt": "Steamed rice, pandesal, kamote, cassava and boiled saba banana arranged on a pale surface",
+      "credit": "Generated image",
+      "text": "Rice, pandesal, kamote, cassava, saba. Energy, and not the enemy.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "growth",
       "icon": "🌱",
@@ -79,6 +89,16 @@
         "**Skip either and the session was wasted.**",
         "**Eight to ten hours** at your age, not six."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "GROW: the smallest share",
+      "src": "assets/img/mapeh-t2w8-grow-foods.jpg",
+      "alt": "A whole bangus, boiled eggs, monggo beans, chicken, tofu and a glass of milk arranged on a pale surface",
+      "credit": "Generated image",
+      "text": "Bangus, egg, monggo, chicken, tofu, milk. Smallest on the plate, still essential.",
+      "lightBg": true
     },
     {
       "kind": "checkpoint",
@@ -121,6 +141,16 @@
         "**Glow is the oil and coolant** — nothing moves without it.",
         "**Water is water.** An overheating engine and an overheating runner need the same thing."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "GLOW: half the plate",
+      "src": "assets/img/mapeh-t2w8-glow-foods.jpg",
+      "alt": "Kangkong, halved papaya, mangoes, ampalaya, pechay and calamansi arranged on a pale surface",
+      "credit": "Generated image",
+      "text": "Kangkong, papaya, mango, ampalaya, pechay, calamansi. The biggest share.",
+      "lightBg": true
     },
     {
       "kind": "lens",

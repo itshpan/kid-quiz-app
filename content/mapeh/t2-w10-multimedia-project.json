@@ -125,6 +125,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "The cards are blank on purpose",
+      "src": "assets/img/mapeh-t2w10-planning.jpg",
+      "alt": "Blank index cards laid out in a row with a pencil, headphones and a phone on a small tripod",
+      "credit": "Generated image",
+      "text": "This is the stage that decides the project, and it costs nothing to change.",
+      "lightBg": true
+    },
+    {
       "kind": "recap",
       "eyebrow": "Lesson done",
       "title": "What to remember",

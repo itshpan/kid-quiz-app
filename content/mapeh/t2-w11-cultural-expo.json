@@ -138,6 +138,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Three seconds, from here",
+      "src": "assets/img/mapeh-t2w11-expo.jpg",
+      "alt": "A cloth-covered exhibition table holding a woven basket, a capiz lantern, two bronze gongs and a tablet on a stand",
+      "credit": "Generated image",
+      "text": "This is what a visitor sees. One thing visible, one thing to touch, one sentence.",
+      "lightBg": true
+    },
+    {
       "kind": "recap",
       "eyebrow": "Expo ready",
       "title": "The four strands",

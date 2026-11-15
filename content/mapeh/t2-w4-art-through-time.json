@@ -147,6 +147,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "The tools, not the pictures",
+      "src": "assets/img/mapeh-t2w4-art-tools.jpg",
+      "alt": "Raw ochre pigment and a stone tool, a bristle brush with oil paints, and a stylus on a graphics tablet",
+      "credit": "Generated image",
+      "text": "Ochre and a stone, a brush and oil paint, a stylus. The question changed and so did these.",
+      "lightBg": true
+    },
+    {
       "kind": "recap",
       "eyebrow": "Lesson done",
       "title": "What to remember",

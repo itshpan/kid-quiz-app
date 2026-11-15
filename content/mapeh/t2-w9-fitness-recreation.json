@@ -123,6 +123,32 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Five components, this much kit",
+      "src": "assets/img/mapeh-t2w9-fitness-tests.jpg",
+      "alt": "A wooden sit-and-reach box, a stopwatch, a skipping rope, a tape measure and worn training shoes on a gym floor",
+      "credit": "Generated image",
+      "text": "A box, a stopwatch, a rope, a tape. Each one measures a different thing.",
+      "lightBg": true
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which component does a sit-and-reach box measure?",
+        "options": [
+          "Heart endurance",
+          "Muscular strength",
+          "Flexibility",
+          "Body composition"
+        ],
+        "answerIndex": 2,
+        "explain": "How far a joint can move safely. Each component needs its own test.",
+        "seconds": 20
+      }
+    },
+    {
       "kind": "lens",
       "lens": "gaming",
       "icon": "🎮",

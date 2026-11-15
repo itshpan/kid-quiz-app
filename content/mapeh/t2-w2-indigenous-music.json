@@ -123,6 +123,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "A kulintang row, graded by size",
+      "src": "assets/img/mapeh-t2w2-gongs.jpg",
+      "alt": "Eight graded bronze gongs on a carved wooden frame with two padded beaters, and a larger flat gong behind",
+      "credit": "Generated image",
+      "text": "Eight gongs, smallest to largest. The tuning is in the metal, not in a knob.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "story",
       "icon": "✍️",

@@ -58,6 +58,63 @@ plank is cut into 0.4 m pieces" are the failure. Where the example is fixed by
 the subject — a Bible passage, the Treaty of Paris, the plural of *roof* — the
 lens cards carry the interest instead, and that is correct.
 
+## The rhythm rule
+
+**A lesson is never allowed to become a wall of text, and the checker enforces
+it.** He is bright and not a weak reader; what he cannot do is stay in prose
+long enough to finish it. So prose is capped twice over, because either cap
+alone has a hole in it — three short cards in a row are fine, three dense ones
+are not:
+
+| Limit | Value |
+|---|---|
+| Text-only cards in a row | **3** |
+| Words of prose with nothing to look at | **130** |
+| Cards between checkpoints | **5** |
+| Interactive figures per lesson | **at least 1** |
+| Image cards per lesson | **at least 1** |
+
+Anything that is not `open`, `idea`, `lens`, `terms`, `recap`, `story`, `fact`
+or `break` resets the run — a checkpoint counts, because answering something
+is not reading.
+
+**The two floors matter as much as the caps.** A lesson cannot pass by being
+all diagram or all photograph, because they do different jobs: a figure shows
+a *mechanism* he can poke, and a photograph shows him what the thing actually
+looks like in the world. "GO foods" means nothing until he can recognise a
+kamote on a table.
+
+## Pictures
+
+`node tools/make-images.mjs` generates the images in
+[`content/images.json`](content/images.json) and writes provenance into
+`assets/img/credits.json`. The OpenAI key is a **network secret on the
+environment**, injected by the egress proxy — there is no key in this repo,
+and `fetch` will not work for this because Node ignores `HTTPS_PROXY`. The
+tool shells out to `curl` for exactly that reason.
+
+Four styles: `photo` (a real thing he should be able to recognise — the one
+that matters most), `render3d` (the short-3D-explainer look, for what no
+photograph exists of), `meme` (a textless visual joke), `diagramish` (flat
+vector). **No text inside any image**, ever — a label baked into pixels cannot
+scale with his text-size setting and cannot be translated. The caption goes on
+the card.
+
+**Never generate a picture that poses as a documentary photograph of a
+specific real place, artwork, artefact or person** — the Angono Petroglyphs,
+the *Spoliarium*, Rizal. A generated image of a named real thing is a false
+claim about the world, and the rule below says facts must be true. Generated
+photographs depict a *type* — kamote, a kulintang, a sipa shuttle — never a
+named original. For a specific real artefact, use `tools/fetch-images.mjs` to
+pull the real, credited photograph from Wikimedia.
+
+Generated images carry `"credit": "Generated image"` on the card, so he is
+never told a drawing is a photograph.
+
+Still prefer a hand-written SVG figure in `assets/js/figures.js` when the
+subject is a **mechanism** — a diagram can show a brain rotating inside a
+skull, and it stays sharp, works offline and carries no licensing risk.
+
 ## Before you commit
 
 ```bash

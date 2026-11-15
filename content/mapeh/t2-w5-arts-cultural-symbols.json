@@ -131,6 +131,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Four things that mean something",
+      "src": "assets/img/mapeh-t2w5-symbols.jpg",
+      "alt": "Handwoven red, black and cream abaca cloth, a star-shaped capiz lantern, a carved leaf-and-vine wood panel and a small carved wooden figure",
+      "credit": "Generated image",
+      "text": "Woven cloth, a star lantern, carved scrollwork, a standing figure. Say what each one carries.",
+      "lightBg": true
+    },
+    {
       "kind": "recap",
       "eyebrow": "Lesson done",
       "title": "What to remember",

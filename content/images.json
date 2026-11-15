@@ -1,40 +1,84 @@
 {
-  "_note": "Photographs pulled from Wikimedia Commons by tools/fetch-images.mjs. Titles must match Commons exactly. Re-running skips anything already downloaded, so a rate-limited run can just be repeated.",
-  "images": [
-    {
-      "id": "muscle-skeletal",
-      "commons": "Skeletal striated muscle.jpg",
-      "alt": "Skeletal muscle under a microscope, showing long parallel fibres with regular stripes across them"
+  "_note": "Prompts for every generated lesson image. `node tools/make-images.mjs` turns these into assets/img/<id>.jpg and records provenance in assets/img/credits.json. Styles: photo (a real thing he should be able to recognise), render3d (the short-3D-explainer look, for what no photograph exists of), meme (a textless visual joke), diagramish (flat vector). Keep every prompt specific and Filipino where the subject is: a generic stock salad teaches nothing.",
+  "images": {
+    "mapeh-t2w8-go-foods": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A flat-lay of Filipino GO foods, the energy group, arranged on a pale neutral surface: a white bowl of steamed rice, a basket of pandesal rolls, a whole purple-skinned kamote with two slices cut to show the orange flesh, a length of cassava root, and a few pieces of boiled saba banana.",
+      "alt": "Steamed rice, pandesal, kamote, cassava and boiled saba banana arranged on a pale surface"
     },
-    {
-      "id": "muscle-smooth",
-      "commons": "Smooth muscle - histology.jpg",
-      "alt": "Smooth muscle under a microscope, showing spindle-shaped cells with no stripes"
+    "mapeh-t2w8-grow-foods": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A flat-lay of Filipino GROW foods, the body-building group, arranged on a pale neutral surface: a whole raw bangus milkfish, two boiled eggs with one cut in half, a small bowl of dried monggo beans, a piece of raw chicken, a block of tofu, and a glass of milk.",
+      "alt": "A whole bangus, boiled eggs, monggo beans, chicken, tofu and a glass of milk arranged on a pale surface"
     },
-    {
-      "id": "muscle-cardiac",
-      "commons": "Muscle Tissue Intercalated Discs in Cardiac Muscle (27061943807).jpg",
-      "alt": "Cardiac muscle under a microscope, showing branching striped fibres joined by dark intercalated discs"
+    "mapeh-t2w8-glow-foods": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A flat-lay of Filipino GLOW foods, the vitamins and minerals group, arranged on a pale neutral surface: a bundle of kangkong water spinach, a halved ripe papaya showing orange flesh and black seeds, two ripe mangoes, a bitter gourd ampalaya, a bunch of pechay, and several calamansi limes.",
+      "alt": "Kangkong, halved papaya, mangoes, ampalaya, pechay and calamansi arranged on a pale surface"
     },
-    {
-      "id": "honeycomb",
-      "commons": "Honeycomb (PSF).png",
-      "alt": "A bee honeycomb, showing hexagonal cells packed together with no gaps"
+    "mapeh-t2w1-instruments": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A flat-lay of traditional Filipino musical instruments on a pale neutral surface: a row of small bronze kulintang gongs on a wooden frame, a flat bronze gangsa gong, a carved two-string wooden boat lute, a small bamboo jaw harp, a bamboo nose flute, and a goblet-shaped hand drum with a stretched skin head.",
+      "alt": "Kulintang gongs, a flat gangsa gong, a two-string boat lute, a bamboo jaw harp, a bamboo flute and a skin-headed hand drum"
     },
-    {
-      "id": "alhambra",
-      "commons": "Tassellatura alhambra.jpg",
-      "alt": "Interlocking tiled patterns on a wall of the Alhambra palace in Spain"
+    "mapeh-t2w2-gongs": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "Close view of a row of eight small bronze gongs of graded size resting on a carved wooden frame, with two padded wooden beater sticks laid across them, and one larger flat bronze gong propped behind. Warm indoor daylight, pale background.",
+      "alt": "Eight graded bronze gongs on a carved wooden frame with two padded beaters, and a larger flat gong behind"
     },
-    {
-      "id": "tessellation-art",
-      "commons": "Tessellation Serie - 3 directions.png",
-      "alt": "A geometric tessellation built from repeating shapes in three directions"
+    "mapeh-t2w3-formats": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A flat-lay showing how recorded music has been stored, left to right on a pale neutral surface: a black vinyl record, a cassette tape, a compact disc catching a faint rainbow sheen, and a modern smartphone lying face down with white earphones coiled beside it.",
+      "alt": "A vinyl record, a cassette tape, a compact disc and a smartphone with earphones laid out in a row"
     },
-    {
-      "id": "heart-bloodflow",
-      "commons": "Blausen 0452 Heart BloodFlow.png",
-      "alt": "A three-dimensional medical illustration of a human heart cut open, with blue arrows showing oxygen-poor blood entering the right side and red arrows showing oxygen-rich blood leaving the left side"
+    "mapeh-t2w4-art-tools": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A flat-lay of art-making tools from different eras on a pale neutral surface, left to right: a lump of raw red ochre pigment beside a rough stone hand tool, a wooden-handled bristle brush beside two squeezed tubes of oil paint, and a slim black stylus resting on the corner of a graphics tablet.",
+      "alt": "Raw ochre pigment and a stone tool, a bristle brush with oil paints, and a stylus on a graphics tablet"
+    },
+    "mapeh-t2w5-symbols": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A flat-lay of Filipino craft objects on a pale neutral surface: a folded length of handwoven abaca cloth in deep red, black and cream with geometric patterning, a star-shaped capiz-shell lantern, a panel of dark hardwood carved with flowing leaf-and-vine scrollwork, and a small carved standing wooden figure.",
+      "alt": "Handwoven red, black and cream abaca cloth, a star-shaped capiz lantern, a carved leaf-and-vine wood panel and a small carved wooden figure"
+    },
+    "mapeh-t2w6-panels": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "An open sketchbook on a wooden desk, the right-hand page ruled by hand into four empty rectangular comic panels with clean white gutters between them. A mechanical pencil and a kneaded eraser rest beside it. The panels are completely blank. Overhead daylight.",
+      "alt": "An open sketchbook ruled into four empty comic panels with a pencil and eraser beside it"
+    },
+    "mapeh-t2w7-games": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A flat-lay of the everyday objects Filipino street games are played with, on worn pale concrete: a single rubber tsinelas slipper, an empty tin can lying on its side, a woven rattan sipa ball, a stick of white chalk, a handful of small glass marbles, and a long carved wooden sungka board with cowrie shells in its hollows.",
+      "alt": "A rubber slipper, a tin can, a woven rattan ball, chalk, glass marbles and a carved sungka board with shells"
+    },
+    "mapeh-t2w9-fitness-tests": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A flat-lay of school fitness-testing equipment on a gymnasium floor: a wooden sit-and-reach box with a measuring scale along the top, a stopwatch, a coiled skipping rope, a retractable tape measure, and a pair of worn training shoes.",
+      "alt": "A wooden sit-and-reach box, a stopwatch, a skipping rope, a tape measure and worn training shoes on a gym floor"
+    },
+    "mapeh-t2w10-planning": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A flat-lay of a video project being planned on a wooden desk: a row of blank white index cards laid out in sequence, a pencil, a pair of over-ear headphones, and a smartphone resting on a small desktop tripod. The cards are completely blank.",
+      "alt": "Blank index cards laid out in a row with a pencil, headphones and a phone on a small tripod"
+    },
+    "mapeh-t2w11-expo": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A simple school exhibition table seen from a visitor's side: a folding table covered with a plain cloth, holding a small handwoven basket, a star-shaped capiz lantern, a pair of bronze gongs and a tablet propped on a stand with a blank dark screen. Bright hall daylight, no people, no signage.",
+      "alt": "A cloth-covered exhibition table holding a woven basket, a capiz lantern, two bronze gongs and a tablet on a stand"
     }
-  ]
+  },
+  "_never": "NEVER generate an image that poses as a documentary photograph of a specific real place, artwork, artefact or person - the Angono Petroglyphs, the Spoliarium, Rizal. A generated picture of a named real thing is a false claim about the world, and CLAUDE.md says facts must be true. Generated photographs depict a TYPE (kamote, a kulintang, a sipa shuttle), never a named original. For a specific real artefact use tools/fetch-images.mjs to pull the real, credited photograph from Wikimedia instead."
 }

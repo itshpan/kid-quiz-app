@@ -137,6 +137,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Four empty panels",
+      "src": "assets/img/mapeh-t2w6-panels.jpg",
+      "alt": "An open sketchbook ruled into four empty comic panels with a pencil and eraser beside it",
+      "credit": "Generated image",
+      "text": "This is the whole form. The gaps between them are where the reader works.",
+      "lightBg": true
+    },
+    {
       "kind": "recap",
       "eyebrow": "Lesson done",
       "title": "What to remember",

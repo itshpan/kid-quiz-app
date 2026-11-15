@@ -109,6 +109,32 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "The whole equipment list",
+      "src": "assets/img/mapeh-t2w7-games.jpg",
+      "alt": "A rubber slipper, a tin can, a woven rattan ball, chalk, glass marbles and a carved sungka board with shells",
+      "credit": "Generated image",
+      "text": "A slipper, a can, a woven ball, chalk, marbles, a board. Name the game for each.",
+      "lightBg": true
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why did these games survive without anyone organising them?",
+        "options": [
+          "They were taught in school",
+          "They need no equipment and mixed ages can play",
+          "They were written down",
+          "They were cheap to buy"
+        ],
+        "answerIndex": 1,
+        "explain": "A slipper, a can, a stick of chalk — and the rules bend to whoever turns up.",
+        "seconds": 22
+      }
+    },
+    {
       "kind": "lens",
       "lens": "growth",
       "icon": "🌱",

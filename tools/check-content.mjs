@@ -21,7 +21,16 @@ const LIMITS = {
     cardWords: 40,
     pointWords: 18,
     pointsPerCard: 4,
-    cardsBetweenCheckpoints: 6,
+    cardsBetweenCheckpoints: 5,
+    /* The rhythm rule. He is bright and not a weak reader; what he cannot do
+       is stay in a block of prose. So prose is capped twice over — by how
+       many cards in a row it runs, and by how many words those cards carry —
+       and a lesson that is all diagram or all photograph fails too, because
+       a mechanism needs a figure and a real thing needs a photograph. */
+    textCardsInARow: 3,
+    wordsBetweenVisuals: 130,
+    minInteractiveVisuals: 1,
+    minPhotos: 1,
     minLensesPerLesson: 3,
     maxSamePositionShare: 0.6,    // an answer key that is 100% "A" is free marks
     maxSameLensInARow: 2,
@@ -35,7 +44,33 @@ const LIMITS = {
    at its worst in the moments after a dopamine spike. */
 const OK_AFTER_HIGH_STIM = new Set(['checkpoint', 'break', 'fact', 'recap', 'terms']);
 
+/* Cards that are words on a screen, however they are laid out. A `terms` card
+   is a definition list, which reads as prose however it is styled, so it
+   counts here even though it is exempt from the checkpoint spacing. */
+const TEXT_ONLY = new Set(['open', 'idea', 'lens', 'terms', 'recap', 'story', 'fact', 'break']);
+
+/* Anything that breaks a run of prose. A checkpoint counts: answering
+   something is not reading. */
+const BREAKS_PROSE = k => !TEXT_ONLY.has(k);
+
+/* Something he can touch and that responds. A picture is not one of these. */
+const INTERACTIVE = new Set(['figure', 'explorer', 'diagram', 'model3d']);
+
+/* A photograph or generated image of a real thing, which is the other half:
+   a diagram shows a mechanism, a photograph shows him what it looks like in
+   the world so he can recognise it there. */
+const PHOTO = new Set(['image']);
+
 const words = s => s.replace(/\*\*/g, '').trim().split(/\s+/).filter(Boolean).length;
+
+/** Every word on a card, wherever the renderer puts it. */
+function cardWords(c) {
+    let n = 0;
+    for (const k of ['text', 'body', 'lede', 'caption']) if (typeof c[k] === 'string') n += words(c[k]);
+    for (const p of c.points || []) n += words(p);
+    for (const t of c.terms || []) n += words(t.def || '');
+    return n;
+}
 
 function sentences(s) {
     return s.replace(/\*\*/g, '')
@@ -110,6 +145,43 @@ for (const file of files) {
             }
         }
     });
+
+    /* ---- Rhythm ------------------------------------------------------
+       Two caps on prose, because either one alone has a hole in it: three
+       short cards in a row are fine, three dense ones are not, and one very
+       long card is not fine either. Then two floors on what a lesson must
+       carry, so it cannot pass by being all diagram or all photograph. */
+    {
+        let run = 0, runWords = 0, runStart = 0;
+        lesson.cards.forEach((c, i) => {
+            if (BREAKS_PROSE(c.kind)) { run = 0; runWords = 0; return; }
+            if (run === 0) runStart = i;
+            run++; runWords += cardWords(c);
+
+            const where = `cards ${runStart + 1}-${i + 1}`;
+            if (run > LIMITS.textCardsInARow) {
+                warn(file, where,
+                    `${run} text cards in a row (max ${LIMITS.textCardsInARow}) — break the run with a figure, a photo or a checkpoint`);
+                run = 0; runWords = 0;          // report once per run
+            } else if (runWords > LIMITS.wordsBetweenVisuals) {
+                warn(file, where,
+                    `${runWords} words of prose with nothing to look at (max ${LIMITS.wordsBetweenVisuals}) — break the run`);
+                run = 0; runWords = 0;
+            }
+        });
+    }
+
+    const interactive = lesson.cards.filter(c => INTERACTIVE.has(c.kind)).length;
+    if (interactive < LIMITS.minInteractiveVisuals) {
+        warn(file, 'rhythm',
+            `no interactive visual — every lesson needs at least ${LIMITS.minInteractiveVisuals} figure or explorer he can touch`);
+    }
+
+    const photos = lesson.cards.filter(c => PHOTO.has(c.kind)).length;
+    if (photos < LIMITS.minPhotos) {
+        warn(file, 'rhythm',
+            `no image card — every lesson needs at least ${LIMITS.minPhotos} picture of the real thing. See docs/IMAGE-PROMPTS.md`);
+    }
 
     // Interest coverage. Every lesson teaches through at least three different
     // lenses, and never stacks the same one up in a run — four car cards in a
