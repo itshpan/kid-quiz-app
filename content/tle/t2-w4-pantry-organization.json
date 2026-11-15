@@ -1,0 +1,333 @@
+{
+  "id": "tle-t2-w4",
+  "courseId": "tle",
+  "courseTitle": "TLE",
+  "week": 4,
+  "title": "Pantry Organization",
+  "subtitle": "First in, first out — and the two date words that are not the same.",
+  "estMinutes": 20,
+  "objectives": [
+    "Decide where each kind of food is stored",
+    "Apply first-in-first-out",
+    "Explain why dry goods go into sealed containers",
+    "Read dates on packaging correctly"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🥫",
+      "eyebrow": "Part 4 · TLE",
+      "title": "A pantry is a system with a direction",
+      "text": "Food goes in at the back and comes out at the front. Get that one habit and almost nothing expires unopened."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "First in, first out",
+      "text": "FIFO. Two letters of it do all the work.",
+      "points": [
+        "**New stock goes behind** the old.",
+        "**Nearest expiry sits in front.**",
+        "**You reach for the front** without thinking.",
+        "**Shops run on this.** So should a cupboard."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "pantryOrder",
+      "title": "You decide where it goes",
+      "text": "Four items. Pick a place and see what would actually happen."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Two identical tins, one expiring sooner. Which goes in front?",
+        "options": [
+          "The one expiring sooner",
+          "The newer one",
+          "Either",
+          "Neither — side by side"
+        ],
+        "answerIndex": 0,
+        "explain": "FIFO. You will reach for the front one.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Where things go",
+      "title": "Four places, four reasons",
+      "text": "The reason is always moisture, temperature or light.",
+      "points": [
+        "**Fridge, at or under 4°C** — anything perishable.",
+        "**Freezer at -18°C** — long storage; growth stopped.",
+        "**Cool dark cupboard** — oil, rice, flour. Light turns oil rancid.",
+        "**Open shelf** — tins and jars only."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why does cooking oil go in a dark cupboard?",
+        "options": [
+          "It is heavy",
+          "Light makes it go rancid",
+          "It freezes",
+          "It evaporates"
+        ],
+        "answerIndex": 1,
+        "explain": "Light and heat both break it down.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Dates",
+      "title": "Two different words that people treat as one",
+      "text": "Only one of them is about safety.",
+      "points": [
+        "**Use by** — a safety date. Do not eat it after.",
+        "**Best before** — a quality date. It is legal to eat.",
+        "**Opened changes everything.** The date on the tin assumed it was shut.",
+        "**Write the opening date** on the container."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "A pantry is a chest you have to sort",
+      "text": "Same problem, same solution, every game you have played.",
+      "points": [
+        "**Stacks of the same item together.**",
+        "**Oldest used first** so nothing decays in storage.",
+        "**Labels, because you will not remember.**",
+        "**A full chest you cannot read** is the same as an empty one."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "space",
+      "icon": "🚀",
+      "eyebrow": "Space mode",
+      "title": "A mission pantry is the extreme version",
+      "text": "Nothing can spoil, nothing can be restocked, and mass costs money.",
+      "points": [
+        "**Freeze-dried**, so water is removed and growth cannot start.",
+        "**Water is added back** on board.",
+        "**Every item is dated and tracked.**",
+        "**A pantry with no shop** is a pantry run properly."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "Sealed containers, labelled",
+      "text": "The same instinct that keeps a screw from being lost.",
+      "points": [
+        "**Opened rice in a bag** gets weevils and damp.",
+        "**Opened rice in a sealed jar** keeps for months.",
+        "**Label it with the date opened.**",
+        "**Future you is a stranger.** Write it down."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "FIFO: new stock behind, nearest expiry in front.",
+        "Fridge 4°C, freezer -18°C, oil and rice cool and dark.",
+        "Use by is safety; best before is quality.",
+        "Opened dry goods go into something that seals, with the date on it."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "FIFO stands for…",
+      "options": [
+        "Fill in, fill out",
+        "Fast in, fast out",
+        "First in, first out",
+        "Fresh in, fresh out"
+      ],
+      "answerIndex": 2,
+      "explain": "Oldest stock gets used first.",
+      "objective": "Apply first-in-first-out",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "New stock goes…",
+      "options": [
+        "in a different cupboard",
+        "in the fridge",
+        "in front",
+        "behind the old"
+      ],
+      "answerIndex": 3,
+      "explain": "So you reach for the oldest.",
+      "objective": "Apply first-in-first-out",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "A fridge should run at or below…",
+      "options": [
+        "0°C",
+        "4°C",
+        "8°C",
+        "10°C"
+      ],
+      "answerIndex": 1,
+      "explain": "Low enough to slow growth to almost nothing.",
+      "objective": "Decide where each kind of food is stored",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A freezer should run at about…",
+      "options": [
+        "0°C",
+        "-18°C",
+        "-40°C",
+        "-5°C"
+      ],
+      "answerIndex": 1,
+      "explain": "Growth is stopped there.",
+      "objective": "Decide where each kind of food is stored",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why does rice go in a sealed container once opened?",
+      "options": [
+        "It expires faster in air only",
+        "It is heavier",
+        "Weevils and damp get in",
+        "It smells"
+      ],
+      "answerIndex": 2,
+      "explain": "A folded-over bag is not a seal.",
+      "objective": "Explain why dry goods go into sealed containers",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "\"Use by\" is a…",
+      "options": [
+        "quality date",
+        "packing date",
+        "delivery date",
+        "safety date"
+      ],
+      "answerIndex": 3,
+      "explain": "Do not eat it after that.",
+      "objective": "Read dates on packaging correctly",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "\"Best before\" is a…",
+      "options": [
+        "quality date",
+        "sell-by date",
+        "legal ban",
+        "safety date"
+      ],
+      "answerIndex": 0,
+      "explain": "Quality drops; it is still legal to eat.",
+      "objective": "Read dates on packaging correctly",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "A date on a tin still applies once the tin is open.",
+      "answer": false,
+      "explain": "The date assumed it was sealed. Write the opening date on it.",
+      "objective": "Read dates on packaging correctly",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Raw chicken goes…",
+      "options": [
+        "bottom shelf, sealed",
+        "top shelf",
+        "the door",
+        "the pantry"
+      ],
+      "answerIndex": 0,
+      "explain": "Nothing can drip onto other food.",
+      "objective": "Decide where each kind of food is stored",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why is cooking oil kept out of the light?",
+      "options": [
+        "Light turns it rancid",
+        "It evaporates",
+        "It is flammable",
+        "It freezes"
+      ],
+      "answerIndex": 0,
+      "explain": "Light and heat break it down.",
+      "objective": "Decide where each kind of food is stored",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Freeze-dried space food works because…",
+      "options": [
+        "it is cooked twice",
+        "water is removed, so growth cannot start",
+        "it is frozen solid",
+        "it is sealed in metal"
+      ],
+      "answerIndex": 1,
+      "explain": "No water, no growth. Water is added back on board.",
+      "objective": "Explain why dry goods go into sealed containers",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "The real reason to label an opened container is that…",
+      "options": [
+        "it is required",
+        "it stops spills",
+        "you will not remember when you opened it",
+        "it looks organised"
+      ],
+      "answerIndex": 2,
+      "explain": "Future you is a stranger.",
+      "objective": "Explain why dry goods go into sealed containers",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 4 TLE. One habit carries the week: new stock behind, nearest expiry in front. The interactive makes him decide where four items go, and each wrong placement is answered with what would happen to the food, including the cooked-rice case from week 3 so the two weeks reinforce. The use-by against best-before distinction is given carefully because it is both commonly confused and genuinely about safety in one direction only, and because it is the knowledge that stops a household throwing away edible food. The space lens is the honest extreme: a pantry with no shop, every item dated and tracked.",
+    "discussion": [
+      "Ask which tin goes in front and why.",
+      "Ask the difference between use by and best before.",
+      "Ask what the date on a tin assumes.",
+      "Ask why oil is kept in the dark."
+    ],
+    "extension": [
+      "Have him reorganise one shelf by FIFO and label anything opened.",
+      "Have him check the fridge and freezer temperatures against the targets."
+    ],
+    "misconceptions": [
+      "\"Use by and best before mean the same.\" Only one is about safety.",
+      "\"The printed date still applies once it is open.\" It assumed a seal.",
+      "\"Newest to the front looks tidier.\" It is how food expires unopened."
+    ]
+  }
+}

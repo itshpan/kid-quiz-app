@@ -1768,7 +1768,7 @@
           "tagline": "Organising space, materials and digital life",
           "icon": "🧰",
           "accent": "#4ecdc4",
-          "status": "planned",
+          "status": "live",
           "weeks": [
             {
               "week": 1,
@@ -1777,7 +1777,8 @@
               "topics": [
                 "Kitchen Orientation & Tools"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "tle/t2-w1-kitchen-tools.json"
             },
             {
               "week": 2,
@@ -1786,7 +1787,8 @@
               "topics": [
                 "Kitchen Organization Basics"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "tle/t2-w2-kitchen-organization.json"
             },
             {
               "week": 3,
@@ -1795,7 +1797,8 @@
               "topics": [
                 "Food Safety & Hygiene"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "tle/t2-w3-food-safety.json"
             },
             {
               "week": 4,
@@ -1804,7 +1807,8 @@
               "topics": [
                 "Pantry Organization"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "tle/t2-w4-pantry-organization.json"
             },
             {
               "week": 5,
@@ -1813,7 +1817,8 @@
               "topics": [
                 "Food Preparation Basics"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "tle/t2-w5-food-preparation.json"
             },
             {
               "week": 6,
@@ -1822,7 +1827,8 @@
               "topics": [
                 "No-Cook Recipes"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "tle/t2-w6-no-cook-recipes.json"
             },
             {
               "week": 7,
@@ -1831,7 +1837,8 @@
               "topics": [
                 "Basic Cooking & Workstation Skills"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "tle/t2-w7-cooking-skills.json"
             },
             {
               "week": 8,
@@ -1840,7 +1847,8 @@
               "topics": [
                 "Clothing Care & Laundry"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "tle/t2-w8-clothing-care.json"
             },
             {
               "week": 9,
@@ -1849,7 +1857,8 @@
               "topics": [
                 "Basic Sewing Skills"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "tle/t2-w9-sewing-skills.json"
             },
             {
               "week": 10,
@@ -1858,7 +1867,8 @@
               "topics": [
                 "My Organized Home System"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "tle/t2-w10-home-system.json"
             },
             {
               "week": 11,
@@ -1867,7 +1877,8 @@
               "topics": [
                 "Assessment & Practical Test"
               ],
-              "status": "planned"
+              "status": "exam",
+              "file": "tle/t2-w11-assessment.json"
             }
           ]
         },

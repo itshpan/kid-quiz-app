@@ -1,0 +1,339 @@
+{
+  "id": "tle-t2-w5",
+  "courseId": "tle",
+  "courseTitle": "TLE",
+  "week": 5,
+  "title": "Food Preparation Basics",
+  "subtitle": "Every cut is a decision about time.",
+  "estMinutes": 20,
+  "objectives": [
+    "Name the main knife cuts",
+    "Explain why cut size changes cooking time",
+    "Measure dry and liquid ingredients correctly",
+    "Prepare produce safely"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🥕",
+      "eyebrow": "Part 5 · TLE",
+      "title": "Every cut is a decision about time",
+      "text": "Shape is not decoration. A thin piece cooks faster, so the cut decides what finishes together."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "Even size beats small size",
+      "text": "The goal is not fine. It is equal.",
+      "points": [
+        "**Equal pieces finish together.**",
+        "**Uneven pieces give you burnt and raw** in the same spoonful.",
+        "**Smaller means faster**, in every method.",
+        "**More surface means more browning.**"
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "knifeCuts",
+      "title": "Five cuts and one grip",
+      "text": "Tap each one. The last button is the grip that protects your fingers."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why does even sizing matter more than fine chopping?",
+        "options": [
+          "It looks better",
+          "Equal pieces finish cooking together",
+          "It uses less oil",
+          "It is faster to cut"
+        ],
+        "answerIndex": 1,
+        "explain": "Uneven gives you burnt and raw at once.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Measuring",
+      "title": "Dry and liquid are measured differently",
+      "text": "The same cup gives two different answers if you use it wrong.",
+      "points": [
+        "**Dry:** fill past the top, then level it off with a straight edge.",
+        "**Do not pack flour.** Do pack brown sugar — recipes assume it.",
+        "**Liquid:** a clear jug, read at eye level.",
+        "**Looking down at a jug** reads high every time."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "How do you measure a cup of flour?",
+        "options": [
+          "Fill past the top and level it off",
+          "Scoop and press down",
+          "Pour until it looks right",
+          "Pack it tightly"
+        ],
+        "answerIndex": 0,
+        "explain": "Packing flour can add a third more than the recipe wanted.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Produce",
+      "title": "Wash, then cut — in that order",
+      "text": "The order matters more than it sounds.",
+      "points": [
+        "**Wash under running water**, not in a standing bowl.",
+        "**Cutting first drags surface dirt** into the middle.",
+        "**Scrub root vegetables**; do not soak them.",
+        "**Dry leaves before cutting** or they bruise."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "Surface area is why brake discs are vented",
+      "text": "The same fact that makes thin vegetables cook fast cools a brake.",
+      "points": [
+        "**More surface, faster heat exchange.**",
+        "**Vented discs expose more metal to air.**",
+        "**Julienne exposes more vegetable to heat.**",
+        "**One rule, two machines.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "Sharpening is a geometry job",
+      "text": "A blade is two surfaces meeting at an angle, and sharpening is rebuilding that angle.",
+      "points": [
+        "**A dull edge is a rounded edge**, not a worn one.",
+        "**A whetstone grinds the angle back.**",
+        "**A honing rod straightens** a bent edge, not a blunt one.",
+        "**Two different tools.** Two different problems."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Repeat it until it is boring",
+      "text": "Knife skill is one motion, done enough times.",
+      "points": [
+        "**The rock-and-slide of a chef's knife** is a single motion.",
+        "**Slow and even first.** Speed comes last.",
+        "**Exactly how a jab is learned.**",
+        "**Nobody got fast by starting fast.**"
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Equal pieces matter more than fine pieces.",
+        "Slice, dice, julienne, mince, chiffonade — each is a time decision.",
+        "Level dry measures off; read liquids at eye level.",
+        "Wash before cutting; use the claw grip."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Thin matchsticks are called…",
+      "options": [
+        "dice",
+        "julienne",
+        "chiffonade",
+        "mince"
+      ],
+      "answerIndex": 1,
+      "explain": "Maximum surface, minimum time.",
+      "objective": "Name the main knife cuts",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Fine ribbons of leaves are called…",
+      "options": [
+        "mince",
+        "julienne",
+        "chiffonade",
+        "brunoise"
+      ],
+      "answerIndex": 2,
+      "explain": "Stacked, rolled, sliced.",
+      "objective": "Name the main knife cuts",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Cubes of equal size are a…",
+      "options": [
+        "dice",
+        "slice",
+        "mince",
+        "chiffonade"
+      ],
+      "answerIndex": 0,
+      "explain": "They cook evenly from every side.",
+      "objective": "Name the main knife cuts",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Garlic is usually minced because…",
+      "options": [
+        "it looks better",
+        "fine pieces spread flavour through the pan",
+        "it keeps longer",
+        "it is easier"
+      ],
+      "answerIndex": 1,
+      "explain": "Very fine, almost paste.",
+      "objective": "Explain why cut size changes cooking time",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Smaller pieces cook…",
+      "options": [
+        "faster",
+        "slower",
+        "the same",
+        "unevenly always"
+      ],
+      "answerIndex": 0,
+      "explain": "More surface, less distance to the middle.",
+      "objective": "Explain why cut size changes cooking time",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "How is a cup of flour measured?",
+      "options": [
+        "By weight only",
+        "Shaken flat",
+        "Filled past the top and levelled",
+        "Packed down"
+      ],
+      "answerIndex": 2,
+      "explain": "Packing can add a third.",
+      "objective": "Measure dry and liquid ingredients correctly",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which ingredient do recipes expect you to pack?",
+      "options": [
+        "Rice",
+        "Salt",
+        "Flour",
+        "Brown sugar"
+      ],
+      "answerIndex": 3,
+      "explain": "Brown sugar is measured packed.",
+      "objective": "Measure dry and liquid ingredients correctly",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A liquid measure is read…",
+      "options": [
+        "from above",
+        "by weight",
+        "at eye level",
+        "from below"
+      ],
+      "answerIndex": 2,
+      "explain": "Looking down reads high.",
+      "objective": "Measure dry and liquid ingredients correctly",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Produce should be washed…",
+      "options": [
+        "after cutting",
+        "never",
+        "only if dirty",
+        "before cutting"
+      ],
+      "answerIndex": 3,
+      "explain": "Cutting first drags surface dirt inside.",
+      "objective": "Prepare produce safely",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Vegetables are washed…",
+      "options": [
+        "with soap",
+        "under running water",
+        "in a bowl of standing water",
+        "in hot water"
+      ],
+      "answerIndex": 1,
+      "explain": "Standing water just redistributes the dirt.",
+      "objective": "Prepare produce safely",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A honing rod is for…",
+      "options": [
+        "a bent edge",
+        "a blunt blade",
+        "cleaning",
+        "rust"
+      ],
+      "answerIndex": 0,
+      "explain": "A whetstone is for a blunt one. Different problems.",
+      "objective": "Explain why cut size changes cooking time",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Why are brake discs vented?",
+      "options": [
+        "To look fast",
+        "To hold oil",
+        "To be lighter",
+        "More surface means faster heat exchange"
+      ],
+      "answerIndex": 3,
+      "explain": "The same reason julienne cooks quickly.",
+      "objective": "Explain why cut size changes cooking time",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 5 TLE. The cuts are taught as time decisions rather than as vocabulary, and the week's key correction is that equal matters more than fine — uneven pieces give burnt and raw in the same spoonful, which is the actual failure he will meet. Measuring gets its own card because the flour error (packing it) silently adds up to a third more than the recipe wanted, and because the eye-level rule for liquids is a one-second habit. The car lens links surface area to vented brake discs, which is the same physics as a julienne and is the kind of cross-subject link that makes a home-economics fact stick.",
+    "discussion": [
+      "Ask why equal size beats small size.",
+      "Ask him to measure a cup of flour and explain each step.",
+      "Ask what the difference is between honing and sharpening.",
+      "Ask why washing comes before cutting."
+    ],
+    "extension": [
+      "Have him cut one carrot five ways and time each in boiling water.",
+      "Have him weigh a packed cup of flour against a levelled one."
+    ],
+    "misconceptions": [
+      "\"Finer is always better.\" Equal is what matters.",
+      "\"Pack the cup for an accurate measure.\" Not for flour.",
+      "\"A honing rod sharpens a knife.\" It straightens a bent edge."
+    ]
+  }
+}

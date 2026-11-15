@@ -1,0 +1,333 @@
+{
+  "id": "tle-t2-w7",
+  "courseId": "tle",
+  "courseTitle": "TLE",
+  "week": 7,
+  "title": "Basic Cooking & Workstation Skills",
+  "subtitle": "Heat moves three ways — and water stops at 100 degrees.",
+  "estMinutes": 20,
+  "objectives": [
+    "Name the three ways heat moves",
+    "Distinguish dry-heat from moist-heat methods",
+    "Explain why you cannot brown food in water",
+    "Run a workstation in the right order"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🔥",
+      "eyebrow": "Part 7 · TLE",
+      "title": "Cooking is heat, moved three ways",
+      "text": "Every method you will ever use is one of three ways of moving heat into food. Knowing which one tells you what the method can and cannot do."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "Conduction, convection, radiation",
+      "text": "Three mechanisms, and every method is one of them.",
+      "points": [
+        "**Conduction** — touching. Pan to food.",
+        "**Convection** — a moving fluid. Boiling water, oven air.",
+        "**Radiation** — straight from a hot source. A grill above food.",
+        "**Most real cooking** uses two at once."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "miseOrder",
+      "title": "You run the workstation",
+      "text": "Pick the first move. Each wrong order shows what it would cost."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Boiling water cooks mainly by…",
+        "options": [
+          "convection",
+          "conduction",
+          "radiation",
+          "none of these"
+        ],
+        "answerIndex": 0,
+        "explain": "The moving water carries the heat.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The fact that explains browning",
+      "title": "Water stops at 100°C",
+      "text": "This is the single most useful fact in cooking.",
+      "points": [
+        "**Water cannot get hotter than 100°C** in an open pan.",
+        "**Browning needs more than about 140°C.**",
+        "**So you cannot brown anything in water.** Ever.",
+        "**Oil can reach 180°C and above.** That is why frying browns."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why can you not brown meat in boiling water?",
+        "options": [
+          "Water is clean",
+          "Water cannot exceed 100°C and browning needs about 140°C",
+          "It is too wet",
+          "It is too fast"
+        ],
+        "answerIndex": 1,
+        "explain": "The ceiling is physical, not a technique problem.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Two families of method",
+      "title": "Dry heat and moist heat",
+      "text": "The family tells you what you will get.",
+      "points": [
+        "**Dry heat:** fry, sauté, grill, roast. Browning, crust, flavour.",
+        "**Moist heat:** boil, simmer, steam, poach. Tender, no crust.",
+        "**Braising uses both:** brown first, then liquid.",
+        "**That is why adobo is browned** before the vinegar goes in."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "Why a pan has a thick base",
+      "text": "The base is a heat spreader, exactly like the one under a processor.",
+      "points": [
+        "**Thin metal makes hot spots** straight above the flame.",
+        "**A thick base conducts sideways** before it conducts up.",
+        "**Same job as a heatsink.**",
+        "**Aluminium in both**, for the same reason."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "Oil fire: never water",
+      "text": "Water on burning oil is the most dangerous thing in a kitchen, and the reason is physics.",
+      "points": [
+        "**Water hits oil above 300°C** and flashes to steam instantly.",
+        "**It expands about 1,700 times**, throwing burning oil upward.",
+        "**Turn off the heat. Cover with a lid.**",
+        "**Same rule as an engine bay fire.** Smother, do not spray."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "A simmer is not a boil",
+      "text": "Pacing matters as much in a pan as in a round.",
+      "points": [
+        "**A boil is a rolling, breaking surface.**",
+        "**A simmer is a few lazy bubbles.**",
+        "**Boiling meat makes it tough.** Simmering makes it tender.",
+        "**Lower and longer wins** in both."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Conduction touches, convection moves, radiation beams.",
+        "Water stops at 100°C, so nothing browns in it.",
+        "Dry heat browns; moist heat tenderises; braising does both.",
+        "Oil fire: heat off, lid on. Never water."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "A pan heating a steak is mainly…",
+      "options": [
+        "convection",
+        "radiation",
+        "conduction",
+        "none"
+      ],
+      "answerIndex": 2,
+      "explain": "Direct contact.",
+      "objective": "Name the three ways heat moves",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "A grill element above food cooks by…",
+      "options": [
+        "conduction",
+        "radiation",
+        "convection",
+        "contact"
+      ],
+      "answerIndex": 1,
+      "explain": "Heat straight from the source.",
+      "objective": "Name the three ways heat moves",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Fan oven air cooks by…",
+      "options": [
+        "radiation",
+        "convection",
+        "none",
+        "conduction"
+      ],
+      "answerIndex": 1,
+      "explain": "Moving hot air.",
+      "objective": "Name the three ways heat moves",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The highest temperature water reaches in an open pan is…",
+      "options": [
+        "100°C",
+        "140°C",
+        "80°C",
+        "180°C"
+      ],
+      "answerIndex": 0,
+      "explain": "Which is the whole point.",
+      "objective": "Explain why you cannot brown food in water",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Browning needs roughly…",
+      "options": [
+        "60°C",
+        "300°C",
+        "140°C or more",
+        "100°C"
+      ],
+      "answerIndex": 2,
+      "explain": "Above what water can reach.",
+      "objective": "Explain why you cannot brown food in water",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "You can brown meat by boiling it for long enough.",
+      "answer": false,
+      "explain": "The temperature ceiling is physical.",
+      "objective": "Explain why you cannot brown food in water",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which is a dry-heat method?",
+      "options": [
+        "Sautéing",
+        "Steaming",
+        "Simmering",
+        "Poaching"
+      ],
+      "answerIndex": 0,
+      "explain": "Dry heat browns.",
+      "objective": "Distinguish dry-heat from moist-heat methods",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Which is a moist-heat method?",
+      "options": [
+        "Frying",
+        "Steaming",
+        "Grilling",
+        "Roasting"
+      ],
+      "answerIndex": 1,
+      "explain": "Tender, no crust.",
+      "objective": "Distinguish dry-heat from moist-heat methods",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Braising is…",
+      "options": [
+        "raw",
+        "moist heat only",
+        "brown first, then liquid",
+        "dry heat only"
+      ],
+      "answerIndex": 2,
+      "explain": "Which is why adobo is browned before the vinegar.",
+      "objective": "Distinguish dry-heat from moist-heat methods",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "What do you do about a pan of burning oil?",
+      "options": [
+        "Carry it outside",
+        "Throw water on it",
+        "Blow on it",
+        "Turn off the heat and cover it"
+      ],
+      "answerIndex": 3,
+      "explain": "Smother it where it stands.",
+      "objective": "Run a workstation in the right order",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Water on burning oil is dangerous because it…",
+      "options": [
+        "cools too fast",
+        "spreads the oil",
+        "is heavy",
+        "flashes to steam and expands about 1,700 times"
+      ],
+      "answerIndex": 3,
+      "explain": "It throws burning oil upward.",
+      "objective": "Run a workstation in the right order",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "A simmer looks like…",
+      "options": [
+        "a few lazy bubbles",
+        "no movement",
+        "steam only",
+        "a rolling boil"
+      ],
+      "answerIndex": 0,
+      "explain": "Boiling meat toughens it.",
+      "objective": "Distinguish dry-heat from moist-heat methods",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 7 TLE. The week is built on physics rather than technique lists: three heat-transfer mechanisms, then the single most useful fact in cooking, which is that water cannot exceed 100°C while browning needs about 140°C. That one fact explains why nothing browns in a pan of water, why frying browns, and why braising starts dry. The oil-fire lens is the most important safety content in the subject and is given with the reason — water flashing to steam and expanding roughly 1,700 times — because a rule with a mechanism survives panic better than a rule without one. The thick-base pan is linked to a heatsink, which is the same job in the same metal.",
+    "discussion": [
+      "Ask which of the three mechanisms each method uses.",
+      "Ask why you cannot brown anything in water.",
+      "Ask what to do about a pan of burning oil, and why not water.",
+      "Ask him to show the difference between a boil and a simmer."
+    ],
+    "extension": [
+      "Have him brown half an onion in oil and simmer the other half in water, then compare.",
+      "Have him find the thickest-based pan in the house and explain why it is thick."
+    ],
+    "misconceptions": [
+      "\"Boiling long enough will brown it.\" The ceiling is 100°C.",
+      "\"Water puts out a fire.\" Not an oil fire — it throws it upward.",
+      "\"A simmer is a gentle boil.\" A few lazy bubbles, not a rolling surface."
+    ]
+  }
+}

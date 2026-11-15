@@ -1,0 +1,333 @@
+{
+  "id": "tle-t2-w9",
+  "courseId": "tle",
+  "courseTitle": "TLE",
+  "week": 9,
+  "title": "Basic Sewing Skills",
+  "subtitle": "Every stitch is a choice about strength.",
+  "estMinutes": 20,
+  "objectives": [
+    "Name the main hand stitches and their uses",
+    "Choose a stitch for a given job",
+    "Sew on a button correctly",
+    "Thread a needle and finish off securely"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🪡",
+      "eyebrow": "Part 9 · TLE",
+      "title": "A stitch is a choice about strength",
+      "text": "There is no single way to sew. Each stitch is strong or weak on purpose, and picking the wrong one is why a repair fails."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "Strong, weak, and deliberately temporary",
+      "text": "Three categories cover the whole set.",
+      "points": [
+        "**Backstitch** — the strongest hand stitch.",
+        "**Running stitch** — fast and weak.",
+        "**Basting** — long, loose, meant to be removed.",
+        "**Hemming and overcast** — finishing an edge, not joining."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "stitchKinds",
+      "title": "Six buttons",
+      "text": "Tap each stitch. The second line is how much it will hold."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which stitch would you use on a seam that has to hold?",
+        "options": [
+          "Backstitch",
+          "Basting stitch",
+          "Overcast",
+          "Running stitch"
+        ],
+        "answerIndex": 0,
+        "explain": "Each stitch doubles back on the last.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Why basting exists",
+      "title": "A stitch designed to be weak",
+      "text": "This is the one that sounds pointless and is not.",
+      "points": [
+        "**It holds two pieces still** while you sew properly.",
+        "**Pins slip and stab.** Basting does not.",
+        "**Long, loose and in a contrasting thread** so you can find it.",
+        "**Then you pull it out.** That was always the plan."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "A basting stitch is deliberately…",
+        "options": [
+          "invisible",
+          "weak and temporary",
+          "decorative",
+          "the strongest"
+        ],
+        "answerIndex": 1,
+        "explain": "It is meant to come out.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "A button, properly",
+      "title": "Four things people skip",
+      "text": "A button sewn flat against the cloth will not fasten.",
+      "points": [
+        "**Leave slack** for the thickness of the buttonhole layer.",
+        "**Build a shank** — a few wraps of thread under the button.",
+        "**Six passes is plenty.** Twenty makes it bulky, not stronger.",
+        "**Knot underneath**, where it will not be rubbed."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Repair is cheaper than replacement",
+      "text": "Gear fails at the stitching long before the material gives up.",
+      "points": [
+        "**Glove seams and bag straps** go first.",
+        "**A backstitched repair** lasts another season.",
+        "**Sewing is a cheap skill** with an expensive payoff.",
+        "**Nobody in a gym throws away a bag** over one seam."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "A stitch is a mechanical fastener",
+      "text": "Think of it as thread doing what a screw does.",
+      "points": [
+        "**A running stitch is one screw** every few centimetres.",
+        "**A backstitch overlaps**, so load is shared.",
+        "**Load is spread over more points.**",
+        "**Same reason bolts go in pairs.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Finish off or it unravels",
+      "text": "The last step is the one that decides whether any of it held.",
+      "points": [
+        "**Three small stitches in the same place**, then knot.",
+        "**Do not rely on one knot.**",
+        "**An unfinished seam undoes itself** from the end.",
+        "**Saving is part of the work.**"
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Backstitch is strongest; running stitch is fast and weak.",
+        "Basting is deliberately weak and designed to be removed.",
+        "Hemming and overcast finish an edge rather than join.",
+        "Buttons need slack, a shank, and a knot underneath."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "The strongest hand stitch is the…",
+      "options": [
+        "running stitch",
+        "basting stitch",
+        "backstitch",
+        "hemming stitch"
+      ],
+      "answerIndex": 2,
+      "explain": "Each stitch doubles back.",
+      "objective": "Name the main hand stitches and their uses",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Which stitch is meant to be removed?",
+      "options": [
+        "Basting",
+        "Overcast",
+        "Backstitch",
+        "Hemming"
+      ],
+      "answerIndex": 0,
+      "explain": "Long, loose and in contrasting thread.",
+      "objective": "Name the main hand stitches and their uses",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Which stitch is for gathering fabric?",
+      "options": [
+        "Overcast",
+        "Hemming",
+        "Backstitch",
+        "Running stitch"
+      ],
+      "answerIndex": 3,
+      "explain": "Sewn then drawn up.",
+      "objective": "Choose a stitch for a given job",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which stitch stops a cut edge fraying?",
+      "options": [
+        "Backstitch",
+        "Overcast",
+        "Basting",
+        "Running"
+      ],
+      "answerIndex": 1,
+      "explain": "It wraps the raw edge.",
+      "objective": "Choose a stitch for a given job",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A hemming stitch should be…",
+      "options": [
+        "bold on the front",
+        "in a bright colour",
+        "barely visible from the front",
+        "very loose"
+      ],
+      "answerIndex": 2,
+      "explain": "That is the point of it.",
+      "objective": "Choose a stitch for a given job",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why leave slack when sewing a button?",
+      "options": [
+        "To look loose",
+        "For the thickness of the buttonhole layer",
+        "It does not matter",
+        "To save thread"
+      ],
+      "answerIndex": 1,
+      "explain": "Sewn flat, it will not fasten.",
+      "objective": "Sew on a button correctly",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "A thread shank under a button is…",
+      "options": [
+        "a fabric",
+        "a few wraps that lift the button",
+        "a knot",
+        "a stitch name"
+      ],
+      "answerIndex": 1,
+      "explain": "It gives the buttonhole somewhere to sit.",
+      "objective": "Sew on a button correctly",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "How many passes through a button's holes is plenty?",
+      "options": [
+        "Two",
+        "Fifty",
+        "About six",
+        "Twenty"
+      ],
+      "answerIndex": 2,
+      "explain": "More is bulky, not stronger.",
+      "objective": "Sew on a button correctly",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Where should a button's knot be?",
+      "options": [
+        "Underneath",
+        "Inside the hole",
+        "Anywhere",
+        "On top"
+      ],
+      "answerIndex": 0,
+      "explain": "Where it will not be rubbed.",
+      "objective": "Sew on a button correctly",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "How do you finish off a seam?",
+      "options": [
+        "Three small stitches in one place, then a knot",
+        "One knot",
+        "Tape it",
+        "Cut the thread"
+      ],
+      "answerIndex": 0,
+      "explain": "One knot alone works loose.",
+      "objective": "Thread a needle and finish off securely",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "Pins are better than basting for holding fabric while you sew.",
+      "answer": false,
+      "explain": "Pins slip and stab. Basting holds still.",
+      "objective": "Choose a stitch for a given job",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A backstitch is stronger than a running stitch because…",
+      "options": [
+        "it uses two needles",
+        "it is slower",
+        "the thread is thicker",
+        "the stitches overlap and share the load"
+      ],
+      "answerIndex": 3,
+      "explain": "Load spread over more points, like bolts in pairs.",
+      "objective": "Name the main hand stitches and their uses",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 9 TLE. Stitches are introduced by how much they hold rather than by name, which makes the set learnable as three categories: strong, fast-and-weak, and deliberately temporary. Basting gets its own card because a stitch designed to be weak sounds pointless until the reason is given, and because pins slipping is a real problem he will meet. The button card lists the four things people skip, with the one that matters most — slack for the buttonhole layer — first. The teardown lens treats a stitch as a mechanical fastener and a backstitch as overlapping load paths, which is both accurate and the framing most likely to land.",
+    "discussion": [
+      "Ask which stitch he would use and why that one.",
+      "Ask why basting exists at all.",
+      "Ask what happens to a button sewn flat.",
+      "Ask how a seam is finished off."
+    ],
+    "extension": [
+      "Have him sew a button on properly, with a shank, and test it in a buttonhole.",
+      "Have him repair one real thing — a strap, a hem, a seam."
+    ],
+    "misconceptions": [
+      "\"One stitch is as good as another.\" Strength is the whole choice.",
+      "\"Basting is a waste of time.\" Pins slip; basting does not.",
+      "\"More thread means a stronger button.\" Six passes is plenty."
+    ]
+  }
+}

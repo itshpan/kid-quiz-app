@@ -1,0 +1,333 @@
+{
+  "id": "tle-t2-w6",
+  "courseId": "tle",
+  "courseTitle": "TLE",
+  "week": 6,
+  "title": "No-Cook Recipes",
+  "subtitle": "No heat step means no second chance.",
+  "estMinutes": 20,
+  "objectives": [
+    "Explain why no-cook food needs stricter handling",
+    "Prepare a safe no-cook dish",
+    "Explain what acid does and does not do",
+    "Assemble food so it keeps well"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🥗",
+      "eyebrow": "Part 6 · TLE",
+      "title": "No cooking means no second chance",
+      "text": "Cooking is a kill step: heat removes most of what was there. A no-cook dish has no kill step, so everything depends on what you started with and how you handled it."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "No kill step changes the rules",
+      "text": "Three consequences, all practical.",
+      "points": [
+        "**Ingredient quality is the whole dish.** Nothing fixes it later.",
+        "**Cold stays cold.** The two-hour clock runs the whole time.",
+        "**Cross-contamination is unrecoverable.** No heat follows it.",
+        "**Wash, chill, assemble last.**"
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "dangerZone",
+      "title": "Press a temperature",
+      "text": "Same lab as week 3, and now it matters more. There is no heat step to rescue you."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why is handling stricter for a no-cook dish?",
+        "options": [
+          "There is no heat step to kill anything later",
+          "It takes longer",
+          "It costs more",
+          "It tastes stronger"
+        ],
+        "answerIndex": 0,
+        "explain": "Whatever is there, stays there.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Kinilaw",
+      "title": "What acid actually does",
+      "text": "This one is worth getting right, because people believe the opposite.",
+      "points": [
+        "**Vinegar or calamansi firms the fish** and changes the flavour.",
+        "**That looks like cooking. It is not.**",
+        "**Acid does not reliably kill bacteria or parasites.**",
+        "**Freezing the fish first** is what deals with parasites."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Does acid in kinilaw make raw fish safe?",
+        "options": [
+          "Yes, completely",
+          "No — it changes texture, not safety",
+          "Only if left overnight",
+          "Only with salt"
+        ],
+        "answerIndex": 1,
+        "explain": "Freezing first is what handles parasites.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Assembly",
+      "title": "Build it so it survives until lunch",
+      "text": "The order you assemble in decides whether it is still good in three hours.",
+      "points": [
+        "**Spread to the edges** — fat is a moisture barrier.",
+        "**Wet ingredients in the middle**, dry against the bread.",
+        "**Dress a salad at the last moment.** Acid wilts leaves.",
+        "**Pack cold things with something cold.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "space",
+      "icon": "🚀",
+      "eyebrow": "Space mode",
+      "title": "Why astronauts do not eat fresh salad",
+      "text": "On a long mission, anything that cannot be sterilised or dried is a risk nobody takes.",
+      "points": [
+        "**Fresh produce arrives on resupply** and gets eaten within days.",
+        "**Most food is freeze-dried or thermostabilised.**",
+        "**No fridge, no shop, no hospital.**",
+        "**The no-kill-step problem**, with the stakes raised."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "What a fighter eats before weighing in",
+      "text": "Light, cold, no-cook food is exactly what training camps run on.",
+      "points": [
+        "**Fruit, eggs boiled earlier, yoghurt, nuts.**",
+        "**Prepared ahead and kept cold.**",
+        "**Nothing that needs a stove at 5am.**",
+        "**A cool box is part of the kit.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Assembly order is a build order",
+      "text": "The sequence changes the result even with identical parts.",
+      "points": [
+        "**Same ingredients, different order, different sandwich.**",
+        "**Dressing early is a wasted salad.**",
+        "**Spread first is armour** against the wet filling.",
+        "**Order is a decision**, not an accident."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "No cooking means no kill step: ingredients and handling are everything.",
+        "Cold stays cold, and the two-hour clock runs throughout.",
+        "Acid firms fish and changes flavour; it does not make it safe.",
+        "Spread to the edges, wet in the middle, dress at the last moment."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "A \"kill step\" in cooking means…",
+      "options": [
+        "chilling",
+        "cutting",
+        "heat that destroys most microbes",
+        "seasoning"
+      ],
+      "answerIndex": 2,
+      "explain": "A no-cook dish has none.",
+      "objective": "Explain why no-cook food needs stricter handling",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "For a no-cook dish, the most important factor is…",
+      "options": [
+        "the plate",
+        "presentation",
+        "the recipe",
+        "the quality and handling of the ingredients"
+      ],
+      "answerIndex": 3,
+      "explain": "Nothing later fixes it.",
+      "objective": "Explain why no-cook food needs stricter handling",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "Vinegar in kinilaw makes raw fish safe to eat.",
+      "answer": false,
+      "explain": "It firms the flesh and changes flavour. It is not a reliable kill step.",
+      "objective": "Explain what acid does and does not do",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "What actually deals with parasites in raw fish?",
+      "options": [
+        "Vinegar",
+        "Lemon",
+        "Freezing it first",
+        "Salt"
+      ],
+      "answerIndex": 2,
+      "explain": "Freezing, before it is served raw.",
+      "objective": "Explain what acid does and does not do",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "A sandwich spread should go…",
+      "options": [
+        "on top of the filling",
+        "right to the edges",
+        "nowhere",
+        "in the middle only"
+      ],
+      "answerIndex": 1,
+      "explain": "The fat is a moisture barrier.",
+      "objective": "Assemble food so it keeps well",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Wet ingredients in a packed sandwich go…",
+      "options": [
+        "against the bread",
+        "on the outside",
+        "in the middle",
+        "on top"
+      ],
+      "answerIndex": 2,
+      "explain": "Dry against the bread, wet in the centre.",
+      "objective": "Assemble food so it keeps well",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "When should a leafy salad be dressed?",
+      "options": [
+        "An hour early",
+        "At the last moment",
+        "It does not matter",
+        "The night before"
+      ],
+      "answerIndex": 1,
+      "explain": "Acid wilts the leaves.",
+      "objective": "Assemble food so it keeps well",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The two-hour clock for a no-cook dish…",
+      "options": [
+        "restarts when chilled",
+        "does not apply",
+        "applies only to meat",
+        "runs the whole time it is out"
+      ],
+      "answerIndex": 3,
+      "explain": "And there is no heat step afterwards.",
+      "objective": "Prepare a safe no-cook dish",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why do long space missions avoid fresh salad?",
+      "options": [
+        "It cannot be sterilised or dried, and there is no hospital",
+        "It floats",
+        "It tastes bad",
+        "It is heavy"
+      ],
+      "answerIndex": 0,
+      "explain": "The no-kill-step problem with the stakes raised.",
+      "objective": "Explain why no-cook food needs stricter handling",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Which is a sensible no-cook item for a 5am training session?",
+      "options": [
+        "Fried chicken",
+        "Fruit and eggs boiled the night before",
+        "A fresh steak",
+        "Raw fish"
+      ],
+      "answerIndex": 1,
+      "explain": "Prepared ahead and kept cold.",
+      "objective": "Prepare a safe no-cook dish",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Cross-contamination in a no-cook dish is serious because…",
+      "options": [
+        "nothing afterwards can undo it",
+        "it is illegal",
+        "it looks bad",
+        "it smells"
+      ],
+      "answerIndex": 0,
+      "explain": "No heat follows.",
+      "objective": "Explain why no-cook food needs stricter handling",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "The correct order for a no-cook dish is…",
+      "options": [
+        "wash, chill, assemble last",
+        "chill, assemble, wash",
+        "assemble, chill, wash",
+        "assemble, wash, chill"
+      ],
+      "answerIndex": 0,
+      "explain": "Assembly is the last thing before it is eaten.",
+      "objective": "Prepare a safe no-cook dish",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 6 TLE. The week is organised around one idea that is rarely said out loud: cooking is a kill step, and a dish without one has different rules. The danger-zone lab from week 3 returns deliberately, because the same mechanism now carries more weight. Kinilaw gets a card and two questions because the belief that acid cooks fish is widespread, specific to this cuisine, and wrong in a way that matters — acid changes texture, freezing handles parasites. Assembly is taught as a build order, with the spread-to-the-edges moisture barrier as the concrete example of why the sequence changes the outcome.",
+    "discussion": [
+      "Ask what a kill step is and which dishes have none.",
+      "Ask whether vinegar makes raw fish safe, and what does.",
+      "Ask why the spread goes to the edges.",
+      "Ask when a salad should be dressed."
+    ],
+    "extension": [
+      "Have him build two sandwiches, one spread to the edges and one not, and compare after three hours.",
+      "Have him plan a no-cook packed lunch and say how it stays cold."
+    ],
+    "misconceptions": [
+      "\"Acid cooks fish.\" It firms it. Freezing deals with parasites.",
+      "\"No cooking means less to worry about.\" There is no rescue step.",
+      "\"Dress the salad early so it soaks in.\" It wilts."
+    ]
+  }
+}

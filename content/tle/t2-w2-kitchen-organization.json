@@ -1,0 +1,333 @@
+{
+  "id": "tle-t2-w2",
+  "courseId": "tle",
+  "courseTitle": "TLE",
+  "week": 2,
+  "title": "Kitchen Organization Basics",
+  "subtitle": "Four zones in one direction, and a station you set up the same way twice.",
+  "estMinutes": 20,
+  "objectives": [
+    "Name the four kitchen zones",
+    "Explain why the zones are ordered that way",
+    "Describe how to set up a workstation",
+    "Explain clean-as-you-go"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🧭",
+      "eyebrow": "Part 2 · TLE",
+      "title": "A kitchen is laid out, not just filled",
+      "text": "Almost every kitchen accident and every slow dinner comes from the same thing: crossing your own path."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "Four zones, one direction",
+      "text": "Food moves through a kitchen in one line.",
+      "points": [
+        "**Store** — fridge, pantry, cupboards.",
+        "**Wash** — sink, drainer, bin.",
+        "**Prep** — board, knives, clear surface.",
+        "**Cook** — stove, oven, pans."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "kitchenZones",
+      "title": "Tap a zone",
+      "text": "Tap each zone, then tap the walk. The order is the point."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why does wash sit between store and prep?",
+        "options": [
+          "Washing happens before cutting",
+          "The sink is heavy",
+          "To save water",
+          "It looks better"
+        ],
+        "answerIndex": 0,
+        "explain": "The zones follow what the food does.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Your workstation",
+      "title": "One square metre, set up the same way every time",
+      "text": "A set-up you repeat is a set-up you stop thinking about.",
+      "points": [
+        "**Board in the middle**, damp cloth underneath.",
+        "**Knife on your dominant side**, blade away.",
+        "**Bowl for scraps** on the other side.",
+        "**Finished pieces in a tray**, not left on the board."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What goes under the chopping board?",
+        "options": [
+          "A dry towel folded",
+          "A damp cloth",
+          "A plate",
+          "Nothing"
+        ],
+        "answerIndex": 1,
+        "explain": "A board that slides is a board that cuts you.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Clean as you go",
+      "title": "It is a time strategy, not tidiness",
+      "text": "The washing-up happens in time you were going to waste anyway.",
+      "points": [
+        "**Something is always simmering or resting.**",
+        "**That is the window.**",
+        "**Wipe the board between raw and ready-to-eat** — not optional.",
+        "**A kitchen cleaned at the end** takes twice as long."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Zoning is inventory management",
+      "text": "Every game you play solves the same problem.",
+      "points": [
+        "**Things you use often go where you reach first.**",
+        "**Things you rarely use go deep.**",
+        "**Walking across the map for one item** is wasted time.",
+        "**A good kitchen is a good hotbar.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "A pit box has zones too",
+      "text": "Nobody in a pit crew crosses another's path. It is designed out.",
+      "points": [
+        "**Tyres on one side. Fuel on the other.**",
+        "**Every tool has a position**, not a drawer.",
+        "**Two seconds saved per stop** wins races.",
+        "**Same principle in a kitchen**, slower stakes."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "Lay the screws out in order",
+      "text": "Anyone who has opened a fan knows this one.",
+      "points": [
+        "**Screws in a line**, in the order you removed them.",
+        "**Panels stacked the way they came off.**",
+        "**Reassembly becomes reading backwards.**",
+        "**Same habit, different bench.**"
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Store, wash, prep, cook — one direction, no crossing back.",
+        "Set your workstation up identically every time.",
+        "Damp cloth under the board, knife on your dominant side.",
+        "Clean in the gaps, not at the end."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Which zone comes first for food arriving?",
+      "options": [
+        "Wash",
+        "Prep",
+        "Cook",
+        "Store"
+      ],
+      "answerIndex": 3,
+      "explain": "It should not cross the room to be used.",
+      "objective": "Name the four kitchen zones",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Which zone comes last?",
+      "options": [
+        "Wash",
+        "Cook",
+        "Store",
+        "Prep"
+      ],
+      "answerIndex": 1,
+      "explain": "And it sits off the walkway.",
+      "objective": "Name the four kitchen zones",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The prep zone needs mainly…",
+      "options": [
+        "running water",
+        "the largest clear surface",
+        "storage",
+        "heat"
+      ],
+      "answerIndex": 1,
+      "explain": "Prep with no space is where accidents happen.",
+      "objective": "Explain why the zones are ordered that way",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why is the cook zone kept off the walkway?",
+      "options": [
+        "Smell",
+        "Space",
+        "So nobody walks past a hot pan",
+        "Noise"
+      ],
+      "answerIndex": 2,
+      "explain": "Design it out rather than warn about it.",
+      "objective": "Explain why the zones are ordered that way",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "What goes under a chopping board?",
+      "options": [
+        "A damp cloth",
+        "Nothing",
+        "A tray",
+        "Paper"
+      ],
+      "answerIndex": 0,
+      "explain": "It stops the board sliding.",
+      "objective": "Describe how to set up a workstation",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Where should the knife sit at your station?",
+      "options": [
+        "In the scrap bowl",
+        "On your dominant side, blade away",
+        "In the sink",
+        "Across the board"
+      ],
+      "answerIndex": 1,
+      "explain": "Same position every time.",
+      "objective": "Describe how to set up a workstation",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Finished cut pieces should go…",
+      "options": [
+        "in the sink",
+        "on the stove",
+        "back on the board",
+        "into a tray"
+      ],
+      "answerIndex": 3,
+      "explain": "A crowded board is a slow board.",
+      "objective": "Describe how to set up a workstation",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "Clean-as-you-go is mainly about tidiness.",
+      "answer": false,
+      "explain": "It is a time strategy: the washing-up fits in the waiting.",
+      "objective": "Explain clean-as-you-go",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "When is the board wiped without exception?",
+      "options": [
+        "Every hour",
+        "Never",
+        "Between raw and ready-to-eat food",
+        "At the end"
+      ],
+      "answerIndex": 2,
+      "explain": "That is cross-contamination, not mess.",
+      "objective": "Explain clean-as-you-go",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Zoning a kitchen is most like…",
+      "options": [
+        "managing an inventory",
+        "writing a list",
+        "drawing a map",
+        "decorating a room"
+      ],
+      "answerIndex": 0,
+      "explain": "Often-used things where you reach first.",
+      "objective": "Explain why the zones are ordered that way",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "What do a pit box and a kitchen have in common?",
+      "options": [
+        "Nobody crosses another's path",
+        "Both use fuel",
+        "Both are loud",
+        "Both are timed"
+      ],
+      "answerIndex": 0,
+      "explain": "The crossing is designed out.",
+      "objective": "Explain why the zones are ordered that way",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Laying screws out in removal order helps because…",
+      "options": [
+        "screws rust",
+        "it looks neat",
+        "reassembly becomes reading backwards",
+        "it is required"
+      ],
+      "answerIndex": 2,
+      "explain": "The same habit as a workstation set-up.",
+      "objective": "Describe how to set up a workstation",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 2 TLE. The week's claim is that almost every slow or dangerous kitchen is one where people cross their own path, so the zones are drawn as a plan with the walk between them rather than listed. The workstation card is deliberately specific — board centred, damp cloth under it, knife on the dominant side, tray for finished pieces — because a repeated set-up is one he stops having to think about. Clean-as-you-go is argued as a time strategy rather than a tidiness rule, with the one exception that is genuinely about safety: wiping between raw and ready-to-eat. Three lenses say the same thing from the hotbar, the pit box and the workbench.",
+    "discussion": [
+      "Ask him to name the four zones in order.",
+      "Ask why the cook zone is off the walkway.",
+      "Ask him to set the station up and then explain each position.",
+      "Ask what a pit crew and a kitchen have in common."
+    ],
+    "extension": [
+      "Have him redraw your actual kitchen as four zones and say what he would move.",
+      "Have him cook one dish cleaning only in the waiting time."
+    ],
+    "misconceptions": [
+      "\"Any surface will do for prep.\" It needs the biggest clear space.",
+      "\"Clean up at the end.\" It takes twice as long.",
+      "\"Wiping the board is about mess.\" Between raw and ready-to-eat it is safety."
+    ]
+  }
+}

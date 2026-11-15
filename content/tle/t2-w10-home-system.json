@@ -1,0 +1,333 @@
+{
+  "id": "tle-t2-w10",
+  "courseId": "tle",
+  "courseTitle": "TLE",
+  "week": 10,
+  "title": "My Organized Home System",
+  "subtitle": "Decide once, then stop deciding.",
+  "estMinutes": 20,
+  "objectives": [
+    "Design a storage system with a place for everything",
+    "Build a repeatable weekly routine",
+    "Explain why a system must not rely on memory",
+    "Take on a fair share of household work"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🗂️",
+      "eyebrow": "Part 10 · TLE",
+      "title": "A system you have to remember is not a system",
+      "text": "The whole term comes together here. Everything you have learned — zones, FIFO, clean-as-you-go — is the same idea: decide once, then stop deciding."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "A place for everything, decided once",
+      "text": "The decision is the work. After that it is just putting things back.",
+      "points": [
+        "**Every object has one home.**",
+        "**The home is where it is used**, not where there is space.",
+        "**Things used daily go at hand height.**",
+        "**If you have to think about where it goes, it has no home yet.**"
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "homeJobs",
+      "title": "Six buttons",
+      "text": "Tap each job. The second line is why it is yours rather than someone else's."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Where should a daily-use item be stored?",
+        "options": [
+          "Wherever there is space",
+          "Where it is used",
+          "Highest shelf",
+          "In a box"
+        ],
+        "answerIndex": 1,
+        "explain": "Storage near use is the whole rule.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The routine",
+      "title": "Daily, weekly, monthly",
+      "text": "Three loops, each with a fixed time.",
+      "points": [
+        "**Daily:** dishes, surfaces, your own things away.",
+        "**Weekly:** laundry, sheets, floors, one shelf resorted.",
+        "**Monthly:** fridge and pantry check against FIFO.",
+        "**A fixed day beats a reminder.** Reminders get dismissed."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why does a fixed day beat a reminder?",
+        "options": [
+          "A reminder can be dismissed; a habit runs by itself",
+          "It is cheaper",
+          "It is faster",
+          "It is kinder"
+        ],
+        "answerIndex": 0,
+        "explain": "The point is to stop deciding.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The honest part",
+      "title": "Why this is yours",
+      "text": "This is not about being helpful. It is about carrying weight.",
+      "points": [
+        "**You generate washing, dishes and mess.**",
+        "**Somebody deals with it either way.**",
+        "**Doing your own share is not a favour.**",
+        "**Noticing without being asked** is the actual skill."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "Label the drawer",
+      "text": "Anyone who has lost a screw knows why.",
+      "points": [
+        "**Sorted into labelled boxes**, not one tin.",
+        "**Labels are for your future self**, who has forgotten.",
+        "**Finding takes seconds** instead of minutes.",
+        "**Ten minutes of sorting** buys back hours."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Reduce the friction, not your willpower",
+      "text": "Any system that needs effort every single time will be abandoned.",
+      "points": [
+        "**A basket by the door** beats remembering to carry it up.",
+        "**One hook at the right height** beats a tidy pile.",
+        "**Design for the tired version of you.**",
+        "**That is who will be using it.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "A routine protects sleep",
+      "text": "The thing that actually makes you faster and stronger is the one a chaotic evening eats.",
+      "points": [
+        "**Jobs done early** means bed at a fixed time.",
+        "**Fixed bedtime** is what makes training work.",
+        "**Eight to ten hours**, not six.",
+        "**Organisation is training**, indirectly."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "One home for every object, where it is used.",
+        "Three loops: daily, weekly, monthly, on fixed days.",
+        "Design for the tired version of yourself.",
+        "Your own share is not a favour, and noticing is the skill."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "A thing that has no fixed home…",
+      "options": [
+        "is cleaner",
+        "is used more",
+        "ends up wherever there is space",
+        "is easy to find"
+      ],
+      "answerIndex": 2,
+      "explain": "And then you hunt for it.",
+      "objective": "Design a storage system with a place for everything",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Items used daily should be stored…",
+      "options": [
+        "at hand height",
+        "in storage",
+        "lowest",
+        "highest"
+      ],
+      "answerIndex": 0,
+      "explain": "Where you reach without thinking.",
+      "objective": "Design a storage system with a place for everything",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Which belongs in the weekly loop?",
+      "options": [
+        "Fridge FIFO check",
+        "Surfaces",
+        "Washing up",
+        "Sheets and floors"
+      ],
+      "answerIndex": 3,
+      "explain": "Daily is dishes and surfaces; monthly is the FIFO check.",
+      "objective": "Build a repeatable weekly routine",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which belongs in the monthly loop?",
+      "options": [
+        "Pantry check against FIFO",
+        "Floors",
+        "Laundry",
+        "Dishes"
+      ],
+      "answerIndex": 0,
+      "explain": "Catching anything near expiry.",
+      "objective": "Build a repeatable weekly routine",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A fixed day beats a reminder because…",
+      "options": [
+        "reminders cost money",
+        "a habit runs without a decision",
+        "it is quieter",
+        "it is faster"
+      ],
+      "answerIndex": 1,
+      "explain": "The aim is to stop deciding.",
+      "objective": "Build a repeatable weekly routine",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "A system that depends on remembering is a working system.",
+      "answer": false,
+      "explain": "It will fail on the first tired evening.",
+      "objective": "Explain why a system must not rely on memory",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "\"Design for the tired version of you\" means…",
+      "options": [
+        "do it at night",
+        "do less",
+        "ask for help",
+        "make the right action the easy one"
+      ],
+      "answerIndex": 3,
+      "explain": "A basket by the door beats willpower.",
+      "objective": "Explain why a system must not rely on memory",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Labelling a drawer is mainly for…",
+      "options": [
+        "visitors",
+        "your future self, who has forgotten",
+        "neatness",
+        "safety"
+      ],
+      "answerIndex": 1,
+      "explain": "Finding takes seconds instead of minutes.",
+      "objective": "Explain why a system must not rely on memory",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Doing your own laundry is best described as…",
+      "options": [
+        "your share of work you created",
+        "optional",
+        "a punishment",
+        "a favour"
+      ],
+      "answerIndex": 0,
+      "explain": "Somebody deals with it either way.",
+      "objective": "Take on a fair share of household work",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The actual skill in household work is…",
+      "options": [
+        "strength",
+        "noticing without being asked",
+        "following a list",
+        "speed"
+      ],
+      "answerIndex": 1,
+      "explain": "A list still needs someone to look up.",
+      "objective": "Take on a fair share of household work",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Which earlier week does this one generalise?",
+      "options": [
+        "None",
+        "Only week 1",
+        "Kitchen zones, FIFO and clean-as-you-go",
+        "Only sewing"
+      ],
+      "answerIndex": 2,
+      "explain": "Decide once, then stop deciding.",
+      "objective": "Design a storage system with a place for everything",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "How does an evening routine affect training?",
+      "options": [
+        "It replaces warm-ups",
+        "It does not",
+        "Jobs done early protect a fixed bedtime",
+        "It makes you stronger directly"
+      ],
+      "answerIndex": 2,
+      "explain": "Sleep is what makes the training land.",
+      "objective": "Build a repeatable weekly routine",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 10 TLE, and the week that ties the term together: kitchen zoning, FIFO and clean-as-you-go are all the same principle, which is to make the decision once and then stop making it. The strongest card is the honest one — household work is his share of work he generates, not a favour — stated plainly and without moralising, with the real skill named as noticing without being asked. The gaming lens gives the week its most usable rule: design for the tired version of yourself, because that is who will be using the system. The growth lens closes the loop to training through sleep, which is true and is the argument he will actually accept.",
+    "discussion": [
+      "Ask where one object's home should be, and why there.",
+      "Ask what belongs in the daily, weekly and monthly loops.",
+      "Ask what \"design for the tired version of you\" would change in his room.",
+      "Ask what work he generates in a week."
+    ],
+    "extension": [
+      "Have him set up one real system — a hook, a basket, a labelled shelf — and run it for a week.",
+      "Have him write the three loops on a card and put it where he will see it."
+    ],
+    "misconceptions": [
+      "\"A reminder is a system.\" It can be dismissed.",
+      "\"Tidying is about tidiness.\" It is about not deciding twice.",
+      "\"Doing chores is helping out.\" It is carrying your own share."
+    ]
+  }
+}

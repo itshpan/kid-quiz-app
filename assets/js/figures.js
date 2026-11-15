@@ -5755,7 +5755,313 @@ function mapehT2Map() {
     });
 }
 
+/* ==========================================================================
+   TLE FIGURES — Term 2. Kitchen, pantry, laundry, needle.
+   Home skills are usually taught as lists of rules with no mechanism, which
+   is why they are forgotten the week after the test. Each of these shows the
+   reason instead: what the temperature does to bacteria, why the zones sit
+   where they do, what a stitch is actually holding.
+   ========================================================================== */
+
+/* Tools grouped by the job, because a drawer full of named objects is not
+   knowledge. The last row is the one that prevents most injuries. */
+function kitchenTools() {
+    return listPicker({
+        id: 'kt1', label: 'WHAT IS IT FOR?', height: 272, y0: 60, dy: 26,
+        alt: 'Six kitchen tools grouped by the job each one does, with the reason for each',
+        capA: 'Job: ', capB: 'Why that one: ',
+        rows: [
+            { btn: '1', short: 'Chef’s knife', a: 'Chopping, slicing, dicing — most cutting',
+              b: 'The curve lets you rock it. One good knife beats five bad ones.' },
+            { btn: '2', short: 'Paring knife', a: 'Small, close work in your hand',
+              b: 'Peeling and trimming. A chef’s knife here is how fingers get cut.' },
+            { btn: '3', short: 'Measuring cups & spoons', a: 'Measuring by volume',
+              b: 'Baking fails without them. "A bit" is not a quantity.' },
+            { btn: '4', short: 'Colander & sieve', a: 'Separating solid from liquid',
+              b: 'Same idea as filtration in Science: holes pass one, hold the other.' },
+            { btn: '5', short: 'Tongs & turner', a: 'Moving hot food without touching it',
+              b: 'A fork pierces meat and lets the juice out. Tongs do not.' },
+            { btn: '6', short: 'Thermometer', a: 'Telling you if food is actually safe',
+              b: 'Colour is not doneness. 74°C for chicken, measured, not guessed.' }
+        ]
+    });
+}
+
+/* The work triangle, drawn. A kitchen is laid out badly when you cross your
+   own path; the figure shows the four zones and the walk between them. */
+function kitchenZones() {
+    const room = `
+      <rect class="fig-arena" x="40" y="44" width="320" height="168" rx="8"/>
+      <rect class="fig-box" x="52" y="56" width="74" height="42" rx="4"/>
+      <text class="fig-cell" x="89" y="82" text-anchor="middle">store</text>
+      <rect class="fig-box" x="146" y="56" width="74" height="42" rx="4"/>
+      <text class="fig-cell" x="183" y="82" text-anchor="middle">wash</text>
+      <rect class="fig-box" x="240" y="56" width="74" height="42" rx="4"/>
+      <text class="fig-cell" x="277" y="82" text-anchor="middle">prep</text>
+      <rect class="fig-box" x="146" y="150" width="74" height="42" rx="4"/>
+      <text class="fig-cell" x="183" y="176" text-anchor="middle">cook</text>`;
+    const path = d => `<path class="fig-flow" d="${d}" fill="none"/>`;
+    return partPicker({
+        id: 'kz2', height: 296, capY: 244,
+        label: 'TAP A ZONE · SEE THE WALK',
+        alt: 'A kitchen plan with store, wash, prep and cook zones and the path between them',
+        scene: room,
+        parts: [
+            { btn: 'Store', svg: `<rect class="fig-box-on" x="52" y="56" width="74" height="42" rx="4"/>`,
+              a: 'STORE — fridge, pantry, cupboards',
+              b: 'Food comes in here and should not have to cross the room to be used.' },
+            { btn: 'Wash', svg: `<rect class="fig-box-on" x="146" y="56" width="74" height="42" rx="4"/>`,
+              a: 'WASH — sink, drainer, bin',
+              b: 'Between store and prep, because washing happens before cutting.' },
+            { btn: 'Prep', svg: `<rect class="fig-box-on" x="240" y="56" width="74" height="42" rx="4"/>`,
+              a: 'PREP — board, knives, clear counter',
+              b: 'The biggest clear surface. Prep with no space is where accidents happen.' },
+            { btn: 'Cook', svg: `<rect class="fig-box-on" x="146" y="150" width="74" height="42" rx="4"/>`,
+              a: 'COOK — stove, oven, pans',
+              b: 'Closed off from the walkway, so nobody walks past a hot pan.' },
+            { btn: 'The walk', svg: path('M89 98 L183 98 L277 98 L277 130 L183 150'),
+              a: 'STORE → WASH → PREP → COOK',
+              b: 'One direction, no crossing back. That is the whole point of zoning.' }
+        ]
+    });
+}
+
+/* The one food-safety fact that explains all the others. Bacteria growth
+   against temperature, so the two-hour rule and the fridge setting stop
+   being arbitrary numbers. */
+function dangerZone() {
+    const rate = v => v <= -18 ? 0 : v <= 4 ? 0.12 : v < 60 ? (v < 20 ? 0.9 : 2) : 0;
+    const note = {
+        '-18': 'Frozen. Growth is stopped, not reversed — bacteria already there survive.',
+        '4': 'Fridge temperature. Growth is very slow. This is why a fridge buys you days.',
+        '20': 'Room temperature in Manila. Growth is well underway.',
+        '37': 'Body temperature — the fastest growth of all. Doubling about every 20 minutes.',
+        '65': 'Above 60°C growth stops and most bacteria begin to die. Hot holding works.'
+    };
+    return ruleLab({
+        id: 'dz3', label: 'PRESS A TEMPERATURE',
+        alt: 'A lab showing how fast bacteria grow at different temperatures and how long food is safe',
+        input: { name: 'Temperature', unit: '°C', values: [-18, 4, 20, 37, 65] },
+        sharedScale: true,
+        outputs: [
+            { name: 'Bacteria growth', f: rate, fmt: o => o === 0 ? 'stopped' : o < 0.5 ? 'very slow' : o < 1.5 ? 'fast' : 'fastest' },
+            { name: 'Safe time out', f: v => rate(v) === 0 ? 2 : v <= 4 ? 2 : 0.4,
+              fmt: o => o === 2 ? 'hours and hours' : 'about 2 hours, no more' }
+        ],
+        rule: v => note[String(v)]
+    });
+}
+
+/* Where things go, and why. He makes the call and a wrong one is answered
+   with what would actually happen to the food. */
+function pantryOrder() {
+    return orderLab({
+        id: 'po4', height: 206,
+        label: 'YOU DECIDE WHERE IT GOES',
+        alt: 'An interactive where the learner decides where to store four items and sees the consequence of each choice',
+        steps: [
+            { expr: 'Raw chicken',
+              ask: 'Shopping is on the counter. Where does the raw chicken go?',
+              choices: [
+                { btn: 'Top shelf', ok: false,
+                  gives: 'Juice drips onto everything below it.',
+                  why: 'Raw meat always goes on the bottom shelf, in a sealed container.' },
+                { btn: 'Bottom shelf', ok: true },
+                { btn: 'Pantry', ok: false,
+                  gives: 'At 20°C bacteria are already multiplying fast.',
+                  why: 'Raw meat has about two hours out of refrigeration, total.' } ] },
+            { expr: 'Two tins of the same sardines',
+              ask: 'One tin expires in March, one in August. How do you shelve them?',
+              choices: [
+                { btn: 'August in front', ok: false,
+                  gives: 'You reach for the August tin first and the March one expires unopened.',
+                  why: 'First in, first out — FIFO. Nearest expiry goes in front.' },
+                { btn: 'March in front', ok: true } ] },
+            { expr: 'Opened bag of rice',
+              ask: 'Where does an opened bag of rice belong?',
+              choices: [
+                { btn: 'Sealed container', ok: true },
+                { btn: 'Folded over, as is', ok: false,
+                  gives: 'Weevils and ants get in, and the rice takes up damp.',
+                  why: 'Opened dry goods go into something that closes properly.' } ] },
+            { expr: 'Cooked rice, still warm',
+              ask: 'Last one. Warm cooked rice at 9pm?',
+              choices: [
+                { btn: 'Leave overnight', ok: false,
+                  gives: 'Cooked rice left out is one of the most common causes of food poisoning.',
+                  why: 'Bacillus cereus survives cooking and multiplies as the rice cools.' },
+                { btn: 'Cool fast, then fridge', ok: true } ] },
+            { expr: 'All four stored',
+              done: 'Raw low and sealed, nearest expiry in front, dry goods closed, cooked food cooled fast.' }
+        ]
+    });
+}
+
+/* Five cuts, named, with the reason each shape exists. The reason is always
+   cooking time, which is the idea worth keeping. */
+function knifeCuts() {
+    return listPicker({
+        id: 'kc5', label: 'WHY THAT SHAPE?', height: 272, y0: 60, dy: 26,
+        alt: 'Five knife cuts with the shape each produces and the reason for using it',
+        capA: 'Shape: ', capB: 'Used because: ',
+        rows: [
+            { btn: '1', short: 'Slice', a: 'Flat pieces of even thickness',
+              b: 'Even thickness means every piece is done at the same moment.' },
+            { btn: '2', short: 'Dice', a: 'Cubes, all the same size',
+              b: 'Cubes cook evenly from every side. Small dice cooks faster.' },
+            { btn: '3', short: 'Julienne', a: 'Thin matchsticks',
+              b: 'Maximum surface, minimum time. For stir-fries and raw salads.' },
+            { btn: '4', short: 'Mince', a: 'Very fine, almost paste',
+              b: 'Garlic and ginger minced spread flavour through the whole pan.' },
+            { btn: '5', short: 'Chiffonade', a: 'Fine ribbons of leaves',
+              b: 'Stacked, rolled and sliced. Keeps herbs from bruising into mush.' },
+            { btn: '!', short: 'The claw', a: 'Fingertips curled under, knuckles forward',
+              b: 'The blade rides your knuckles. A sharp knife cuts you less than a dull one.' }
+        ]
+    });
+}
+
+/* Mise en place is an order, not a tidiness rule, and he works it out. */
+function miseOrder() {
+    return orderLab({
+        id: 'mo6', height: 206,
+        label: 'YOU RUN THE WORKSTATION',
+        alt: 'An interactive where the learner orders the stages of preparing and cooking a simple dish',
+        steps: [
+            { expr: 'Adobo for four. What first?',
+              ask: 'Nothing is out yet. What is the first move?',
+              choices: [
+                { btn: 'Heat the pan', ok: false,
+                  gives: 'The pan is hot and you are still looking for the garlic.',
+                  why: 'Heat starts a clock you cannot pause. Everything else comes first.' },
+                { btn: 'Read it through', ok: true },
+                { btn: 'Start chopping', ok: false,
+                  gives: 'You chop, then find out the recipe wanted it whole.',
+                  why: 'Read the whole method once. It is thirty seconds and it saves the dish.' } ] },
+            { expr: 'Read through → ?',
+              ask: 'You know the method. Now?',
+              choices: [
+                { btn: 'Gather everything', ok: true },
+                { btn: 'Heat the pan', ok: false,
+                  gives: 'Still hunting for ingredients with a hot pan behind you.',
+                  why: 'Mise en place means everything in place before any heat.' } ] },
+            { expr: 'Read → Gather → ?',
+              ask: 'Everything is on the counter. Next?',
+              choices: [
+                { btn: 'Cut and measure', ok: true },
+                { btn: 'Wash up', ok: false,
+                  gives: 'Clean sink, nothing prepped, and no time saved.',
+                  why: 'Washing up happens in the gaps while things cook.' } ] },
+            { expr: 'Read → Gather → Prep → ?',
+              ask: 'Prepped and measured. Now you can…',
+              choices: [
+                { btn: 'Heat and cook', ok: true } ] },
+            { expr: 'Read → Gather → Prep → Cook → Clean as you go',
+              done: 'Read, gather, prep, cook. Clean in the waiting time, not at the end.' }
+        ]
+    });
+}
+
+/* Care labels are a written language almost nobody is taught to read. */
+function laundryCodes() {
+    return listPicker({
+        id: 'lc8', label: 'READ THE LABEL', height: 272, y0: 60, dy: 26,
+        alt: 'Six laundry care symbols and what each one instructs',
+        capA: 'Means: ', capB: 'In practice: ',
+        rows: [
+            { btn: '1', short: 'Tub of water', a: 'Machine washing',
+              b: 'A number inside is the maximum temperature. Dots mean the same thing.' },
+            { btn: '2', short: 'Tub with a hand', a: 'Hand wash only',
+              b: 'Usually wool or something loosely knitted. A machine will felt it.' },
+            { btn: '3', short: 'Triangle', a: 'Bleaching',
+              b: 'Crossed out means no bleach at all — including most stain removers.' },
+            { btn: '4', short: 'Square', a: 'Drying',
+              b: 'A circle inside is a tumble dryer. A line inside means dry flat or on a line.' },
+            { btn: '5', short: 'Iron', a: 'Ironing',
+              b: 'Dots are the heat setting: one is coolest. Crossed out means do not iron.' },
+            { btn: '6', short: 'Any symbol crossed out', a: 'Do not do this',
+              b: 'The cross is the whole instruction. Ignoring it is how a shirt is ruined once.' }
+        ]
+    });
+}
+
+/* Stitches by what they are holding, so the choice has a reason. */
+function stitchKinds() {
+    return listPicker({
+        id: 'sk9', label: 'WHICH STITCH, AND WHY', height: 272, y0: 60, dy: 26,
+        alt: 'Six hand stitches with what each is for and how strong it is',
+        capA: 'For: ', capB: 'Strength: ',
+        rows: [
+            { btn: '1', short: 'Running stitch', a: 'Quick seams and gathering',
+              b: 'Weakest of the set. Fast to sew, fast to pull out.' },
+            { btn: '2', short: 'Backstitch', a: 'A seam that has to hold',
+              b: 'Strongest hand stitch. Each stitch doubles back on the last.' },
+            { btn: '3', short: 'Basting stitch', a: 'Holding two pieces while you sew properly',
+              b: 'Deliberately weak and long. It is meant to come out.' },
+            { btn: '4', short: 'Hemming stitch', a: 'Turning up an edge so it does not fray',
+              b: 'Barely visible from the front, which is the point.' },
+            { btn: '5', short: 'Overcast stitch', a: 'Wrapping a raw edge',
+              b: 'Stops fraying on fabric that has been cut.' },
+            { btn: '6', short: 'Sewing a button', a: 'Four holes, a shank, a knot underneath',
+              b: 'Leave slack for the thickness of the buttonhole, or it will not sit flat.' }
+        ]
+    });
+}
+
+
+/* The practical test is the term, done rather than written. The board names
+   what each week will actually be marked on. */
+function tleT2Map() {
+    return examMap({
+        id: 'tlt2', label: 'TEN WEEKS \u00b7 WHAT IS MARKED',
+        alt: 'The ten TLE topics of the term, each with what to know and the usual trap',
+        rows: [
+            { btn: '1', short: 'Tools',
+              a: 'Which tool for which job; thermometer over colour',
+              b: 'A sharp knife is the safe one. A dull blade needs force.' },
+            { btn: '2', short: 'Organisation',
+              a: 'Store, wash, prep, cook \u2014 one direction',
+              b: 'Clean-as-you-go is a time strategy, not tidiness.' },
+            { btn: '3', short: 'Food safety',
+              a: '5\u201360\u00b0C danger zone; two hours total',
+              b: 'The clock does not reset in the fridge. Freezing does not kill.' },
+            { btn: '4', short: 'Pantry',
+              a: 'FIFO; fridge 4\u00b0C, freezer \u221218\u00b0C',
+              b: 'Use by is safety. Best before is quality.' },
+            { btn: '5', short: 'Preparation',
+              a: 'Slice, dice, julienne, mince, chiffonade; the claw',
+              b: 'Equal beats fine. Do not pack flour; do pack brown sugar.' },
+            { btn: '6', short: 'No-cook',
+              a: 'No kill step, so handling is everything',
+              b: 'Acid firms fish. Freezing is what deals with parasites.' },
+            { btn: '7', short: 'Cooking skills',
+              a: 'Conduction, convection, radiation; dry and moist heat',
+              b: 'You cannot brown in water. It stops at 100\u00b0C.' },
+            { btn: '8', short: 'Laundry',
+              a: 'Reading care symbols; sorting; cold for protein stains',
+              b: 'Hot water sets blood and egg. Cold first, always.' },
+            { btn: '9', short: 'Sewing',
+              a: 'Running, back, basting, hemming, overcast, buttons',
+              b: 'Backstitch holds. Basting is meant to come out.' },
+            { btn: '10', short: 'Home system',
+              a: 'A place for everything, and a repeatable routine',
+              b: 'A system you have to remember is not a system.' }
+        ]
+    });
+}
+
 export const FIGURES = {
+    tleT2Map,
+
+    kitchenTools,
+    kitchenZones,
+    dangerZone,
+    pantryOrder,
+    knifeCuts,
+    miseOrder,
+    laundryCodes,
+    stitchKinds,
+
     mapehT2Map,
 
     instrumentFamilies,

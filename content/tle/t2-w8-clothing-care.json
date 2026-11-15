@@ -1,0 +1,333 @@
+{
+  "id": "tle-t2-w8",
+  "courseId": "tle",
+  "courseTitle": "TLE",
+  "week": 8,
+  "title": "Clothing Care & Laundry",
+  "subtitle": "Five symbols, three sorts, and why blood needs cold water.",
+  "estMinutes": 20,
+  "objectives": [
+    "Read laundry care symbols",
+    "Sort a wash correctly",
+    "Explain why protein stains need cold water",
+    "Dry and store clothes properly"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "👕",
+      "eyebrow": "Part 8 · TLE",
+      "title": "The label is a language",
+      "text": "Every garment comes with written instructions almost nobody is taught to read. Five shapes cover all of it."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "Five shapes, one cross",
+      "text": "Learn the shapes and the cross, and you can read any label.",
+      "points": [
+        "**Tub** — washing. **Triangle** — bleach.",
+        "**Square** — drying. **Iron** — ironing.",
+        "**Circle** — dry cleaning.",
+        "**A cross through any of them** means do not."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "laundryCodes",
+      "title": "Six buttons",
+      "text": "Tap each symbol. The second line is what it means in practice."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "A tub symbol with a hand in it means…",
+        "options": [
+          "hand wash only",
+          "bleach",
+          "tumble dry",
+          "machine wash hot"
+        ],
+        "answerIndex": 0,
+        "explain": "Usually wool or a loose knit. A machine will felt it.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Sorting",
+      "title": "Three sorts, not one",
+      "text": "Colour is only the first.",
+      "points": [
+        "**By colour:** whites, lights, darks.",
+        "**By fabric:** heavy denim will abrade a thin shirt.",
+        "**By soil level:** very dirty items redeposit onto clean ones.",
+        "**Turn dark clothes inside out.** The sun fades the outside."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Stains",
+      "title": "Cold water first, always",
+      "text": "Hot water on the wrong stain makes it permanent.",
+      "points": [
+        "**Blood, egg, milk, sweat** are protein stains.",
+        "**Heat cooks protein** and sets it into the fibre.",
+        "**Cold water and soap first.** Then wash normally.",
+        "**Blot, do not rub.** Rubbing drives it deeper."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why does a blood stain need cold water?",
+        "options": [
+          "Cold dissolves iron",
+          "Heat cooks the protein and sets it",
+          "It does not matter",
+          "Cold is gentler on dye"
+        ],
+        "answerIndex": 1,
+        "explain": "Hot water makes it permanent.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Training kit is the hardest laundry there is",
+      "text": "Sweat is a protein stain and synthetic fabric holds the bacteria that cause the smell.",
+      "points": [
+        "**Do not leave it in the bag.** Hours in a damp bag is the problem.",
+        "**Rinse it the same day** if you cannot wash it.",
+        "**Cold wash**, because sweat is protein.",
+        "**Air dry.** Heat bakes the smell in permanently."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "A washing machine is a drum and a pump",
+      "text": "Knowing what is inside explains both rules about loading it.",
+      "points": [
+        "**Clothes need room to tumble** or nothing moves through them.",
+        "**Overloading means a dirty, unrinsed load.**",
+        "**Too much detergent** cannot be rinsed out and stiffens fabric.",
+        "**Both faults look like a broken machine.** Neither is."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "It is a maintenance loop",
+      "text": "A kit that is clean on the day you need it was dealt with three days earlier.",
+      "points": [
+        "**Wash the day it is used.**",
+        "**Dry before storing**, or it will smell.",
+        "**Fold and put away**, not on a chair.",
+        "**The loop breaks at the chair.** Every time."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Tub, triangle, square, iron, circle — and a cross means do not.",
+        "Sort by colour, by fabric and by how dirty things are.",
+        "Protein stains get cold water first; heat sets them.",
+        "Do not overload, do not overdose detergent, dry before storing."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "The tub symbol refers to…",
+      "options": [
+        "washing",
+        "drying",
+        "bleaching",
+        "ironing"
+      ],
+      "answerIndex": 0,
+      "explain": "A number inside is the maximum temperature.",
+      "objective": "Read laundry care symbols",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "A triangle on a label refers to…",
+      "options": [
+        "dry cleaning",
+        "drying",
+        "ironing",
+        "bleaching"
+      ],
+      "answerIndex": 3,
+      "explain": "Crossed out means no bleach at all.",
+      "objective": "Read laundry care symbols",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "A square refers to…",
+      "options": [
+        "ironing",
+        "drying",
+        "washing",
+        "bleaching"
+      ],
+      "answerIndex": 1,
+      "explain": "A circle inside means a tumble dryer.",
+      "objective": "Read laundry care symbols",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Dots inside the iron symbol indicate…",
+      "options": [
+        "the number of garments",
+        "the heat setting",
+        "the fabric",
+        "the time"
+      ],
+      "answerIndex": 1,
+      "explain": "One dot is coolest.",
+      "objective": "Read laundry care symbols",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A symbol with a cross through it means…",
+      "options": [
+        "optional",
+        "do it carefully",
+        "do not do it",
+        "do it twice"
+      ],
+      "answerIndex": 2,
+      "explain": "The cross is the whole instruction.",
+      "objective": "Read laundry care symbols",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Which is a protein stain?",
+      "options": [
+        "Blood",
+        "Oil",
+        "Ink",
+        "Rust"
+      ],
+      "answerIndex": 0,
+      "explain": "Along with egg, milk and sweat.",
+      "objective": "Explain why protein stains need cold water",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Protein stains should be treated with…",
+      "options": [
+        "cold water",
+        "boiling water",
+        "steam",
+        "hot water"
+      ],
+      "answerIndex": 0,
+      "explain": "Heat cooks the protein into the fibre.",
+      "objective": "Explain why protein stains need cold water",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "Rubbing a fresh stain is the best first move.",
+      "answer": false,
+      "explain": "Blot. Rubbing drives it deeper into the fibre.",
+      "objective": "Explain why protein stains need cold water",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Why turn dark clothes inside out to dry?",
+      "options": [
+        "They dry faster",
+        "It is tidier",
+        "It saves space",
+        "The sun fades the outside"
+      ],
+      "answerIndex": 3,
+      "explain": "Especially on a line in full sun.",
+      "objective": "Dry and store clothes properly",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Overloading a washing machine results in…",
+      "options": [
+        "a faster wash",
+        "less noise",
+        "a dirty, unrinsed load",
+        "cleaner clothes"
+      ],
+      "answerIndex": 2,
+      "explain": "Clothes need room to tumble.",
+      "objective": "Dry and store clothes properly",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Too much detergent causes…",
+      "options": [
+        "a shorter cycle",
+        "residue that stiffens fabric",
+        "brighter colours",
+        "nothing"
+      ],
+      "answerIndex": 1,
+      "explain": "It cannot all be rinsed out.",
+      "objective": "Dry and store clothes properly",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why should training kit not be left in a bag?",
+      "options": [
+        "It creases",
+        "It is heavy",
+        "Hours damp and warm is what creates the smell",
+        "It is untidy"
+      ],
+      "answerIndex": 2,
+      "explain": "Rinse the same day if you cannot wash it.",
+      "objective": "Sort a wash correctly",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 8 TLE. Care labels are treated as a written language with five shapes and one negation, which is genuinely all of it and makes the whole system learnable in one card. The protein-stain rule is the week's most useful piece of knowledge and is given with its mechanism — heat cooks protein into the fibre — because the mechanism is what makes someone reach for cold water under pressure. The boxing lens is the most directly applicable thing in the subject for this learner: sweat is a protein stain, synthetic kit holds the bacteria that smell, and leaving it in a bag is the actual cause.",
+    "discussion": [
+      "Ask him to read the label on what he is wearing.",
+      "Ask why blood needs cold water.",
+      "Ask what happens if a machine is overloaded.",
+      "Ask what to do with kit when he gets home."
+    ],
+    "extension": [
+      "Have him sort a real wash three ways and explain each pile.",
+      "Have him treat one protein stain with cold water and one with hot, and compare."
+    ],
+    "misconceptions": [
+      "\"Hot water cleans better.\" It sets protein stains permanently.",
+      "\"More detergent means cleaner.\" The residue stiffens fabric.",
+      "\"Rub a stain out.\" Blot it."
+    ]
+  }
+}

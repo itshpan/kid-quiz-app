@@ -1,0 +1,495 @@
+{
+  "id": "tle-t2-w11",
+  "courseId": "tle",
+  "courseTitle": "TLE",
+  "week": 11,
+  "title": "Assessment & Practical Test",
+  "subtitle": "Ten weeks, done rather than written.",
+  "estMinutes": 30,
+  "objectives": [
+    "Recall the kitchen and safety weeks",
+    "Recall the food preparation and cooking weeks",
+    "Recall the clothing and sewing weeks",
+    "Plan and run the practical test"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "✅",
+      "eyebrow": "Part 11 · TLE",
+      "title": "Ten weeks, done rather than written",
+      "text": "The test asks you to do things. So revision here is readiness, not recall."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Kitchen and safety",
+      "title": "Weeks 1 to 4",
+      "text": "The four that carry most of the marks.",
+      "points": [
+        "**Tools:** right tool, thermometer over colour, sharp is safe.",
+        "**Zones:** store, wash, prep, cook — one direction.",
+        "**Safety:** 5 to 60°C, two hours total, no reset.",
+        "**Pantry:** FIFO, 4°C and -18°C, use by against best before."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "tleT2Map",
+      "title": "Ten weeks, what is marked",
+      "text": "Tap each week. The second line is the trap."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is the temperature danger zone?",
+        "options": [
+          "20 to 40°C",
+          "5 to 60°C",
+          "60 to 100°C",
+          "0 to 10°C"
+        ],
+        "answerIndex": 1,
+        "explain": "Fastest growth at body temperature.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Preparation and cooking",
+      "title": "Weeks 5 to 7",
+      "text": "Where the practical marks actually come from.",
+      "points": [
+        "**Cuts:** equal beats fine; the claw grip.",
+        "**Measuring:** level dry, eye level for liquid.",
+        "**No-cook:** no kill step, so handling is everything.",
+        "**Heat:** water stops at 100°C, so nothing browns in it."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why can nothing brown in boiling water?",
+        "options": [
+          "Water cannot exceed 100°C; browning needs about 140°C",
+          "It is too fast",
+          "It is wet",
+          "Water is clean"
+        ],
+        "answerIndex": 0,
+        "explain": "A physical ceiling, not a technique problem.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Clothing and sewing",
+      "title": "Weeks 8 to 10",
+      "text": "The three that get least practice and most lost marks.",
+      "points": [
+        "**Labels:** five shapes, and a cross means do not.",
+        "**Stains:** cold water for protein; heat sets it.",
+        "**Stitches:** backstitch holds, basting comes out.",
+        "**System:** one home per object, fixed days."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Rehearse the order, not the facts",
+      "text": "In a practical test you lose marks on sequence, not on knowledge.",
+      "points": [
+        "**Wash hands. Set the station. Then touch food.**",
+        "**Say the step out loud** as you do it.",
+        "**Markers are watching the order**, not your speed.",
+        "**Do it slowly and correctly.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Know what is scored",
+      "text": "A practical has a rubric, and the rubric is not a secret.",
+      "points": [
+        "**Hygiene. Safety. Sequence. Result. Clean-up.**",
+        "**Clean-up is marked** and is the one people skip.",
+        "**The result is one part of five.**",
+        "**Lose nothing on the parts that are free.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "Eat before, not during",
+      "text": "A two-hour practical on an empty stomach goes badly.",
+      "points": [
+        "**Eat properly beforehand.**",
+        "**Water within reach**, away from the board.",
+        "**Tie hair back, sleeves up**, before you start.",
+        "**Those are marks too.**"
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Test ready",
+      "title": "The five that matter",
+      "points": [
+        "Hands and station before any food.",
+        "5 to 60°C, two hours total, no reset.",
+        "Equal cuts, levelled measures, the claw grip.",
+        "Clean-up is scored. Do not walk away from it."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Which tool tells you chicken is safe?",
+      "options": [
+        "A timer",
+        "Colour",
+        "A thermometer",
+        "A knife"
+      ],
+      "answerIndex": 2,
+      "explain": "74°C, measured.",
+      "objective": "Recall the kitchen and safety weeks",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "A sharp knife is safer because…",
+      "options": [
+        "it is lighter",
+        "it is cleaner",
+        "it is newer",
+        "it needs less force, so a slip carries less"
+      ],
+      "answerIndex": 3,
+      "explain": "Force plus slip is the problem.",
+      "objective": "Recall the kitchen and safety weeks",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which zone comes last in a kitchen?",
+      "options": [
+        "Prep",
+        "Wash",
+        "Cook",
+        "Store"
+      ],
+      "answerIndex": 2,
+      "explain": "And it sits off the walkway.",
+      "objective": "Recall the kitchen and safety weeks",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "How long can perishable food be out, in total?",
+      "options": [
+        "Six hours",
+        "About two hours",
+        "Overnight",
+        "30 minutes"
+      ],
+      "answerIndex": 1,
+      "explain": "One hour above 32°C.",
+      "objective": "Recall the kitchen and safety weeks",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "The two-hour clock resets when food goes back in the fridge.",
+      "answer": false,
+      "explain": "The time adds up.",
+      "objective": "Recall the kitchen and safety weeks",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Freezing food…",
+      "options": [
+        "does nothing",
+        "stops growth without killing them",
+        "sterilises it",
+        "kills bacteria"
+      ],
+      "answerIndex": 1,
+      "explain": "What is there survives.",
+      "objective": "Recall the kitchen and safety weeks",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "FIFO means…",
+      "options": [
+        "first in, first out",
+        "fresh in, fresh out",
+        "fill in, fill out",
+        "fast in, fast out"
+      ],
+      "answerIndex": 0,
+      "explain": "Nearest expiry in front.",
+      "objective": "Recall the kitchen and safety weeks",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "\"Use by\" is a…",
+      "options": [
+        "sell-by date",
+        "safety date",
+        "packing date",
+        "quality date"
+      ],
+      "answerIndex": 1,
+      "explain": "Best before is quality.",
+      "objective": "Recall the kitchen and safety weeks",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Thin matchsticks are a…",
+      "options": [
+        "dice",
+        "mince",
+        "julienne",
+        "slice"
+      ],
+      "answerIndex": 2,
+      "explain": "Maximum surface.",
+      "objective": "Recall the food preparation and cooking weeks",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "How is flour measured?",
+      "options": [
+        "Shaken",
+        "Heaped",
+        "Packed down",
+        "Levelled off"
+      ],
+      "answerIndex": 3,
+      "explain": "Packing adds up to a third.",
+      "objective": "Recall the food preparation and cooking weeks",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Which ingredient is measured packed?",
+      "options": [
+        "Flour",
+        "Rice",
+        "Salt",
+        "Brown sugar"
+      ],
+      "answerIndex": 3,
+      "explain": "Recipes assume it.",
+      "objective": "Recall the food preparation and cooking weeks",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "Acid in kinilaw makes raw fish safe.",
+      "answer": false,
+      "explain": "It firms the flesh. Freezing deals with parasites.",
+      "objective": "Recall the food preparation and cooking weeks",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A grill above food cooks by…",
+      "options": [
+        "radiation",
+        "contact",
+        "conduction",
+        "convection"
+      ],
+      "answerIndex": 0,
+      "explain": "Straight from the source.",
+      "objective": "Recall the food preparation and cooking weeks",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Browning needs about…",
+      "options": [
+        "140°C or more",
+        "60°C",
+        "100°C",
+        "300°C"
+      ],
+      "answerIndex": 0,
+      "explain": "Above what water can reach.",
+      "objective": "Recall the food preparation and cooking weeks",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which is a moist-heat method?",
+      "options": [
+        "Steaming",
+        "Roasting",
+        "Grilling",
+        "Sautéing"
+      ],
+      "answerIndex": 0,
+      "explain": "Tender, no crust.",
+      "objective": "Recall the food preparation and cooking weeks",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "A pan of burning oil should be…",
+      "options": [
+        "doused with water",
+        "left alone",
+        "covered with the heat off",
+        "carried outside"
+      ],
+      "answerIndex": 2,
+      "explain": "Smother it where it stands.",
+      "objective": "Recall the food preparation and cooking weeks",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "A triangle on a care label refers to…",
+      "options": [
+        "ironing",
+        "bleaching",
+        "washing",
+        "drying"
+      ],
+      "answerIndex": 1,
+      "explain": "Crossed out means none.",
+      "objective": "Recall the clothing and sewing weeks",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Which is a protein stain?",
+      "options": [
+        "Oil",
+        "Blood",
+        "Rust",
+        "Ink"
+      ],
+      "answerIndex": 1,
+      "explain": "Heat sets it.",
+      "objective": "Recall the clothing and sewing weeks",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Protein stains are treated with…",
+      "options": [
+        "hot water",
+        "bleach first",
+        "cold water",
+        "steam"
+      ],
+      "answerIndex": 2,
+      "explain": "Heat cooks it into the fibre.",
+      "objective": "Recall the clothing and sewing weeks",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The strongest hand stitch is the…",
+      "options": [
+        "basting",
+        "backstitch",
+        "hemming",
+        "running stitch"
+      ],
+      "answerIndex": 1,
+      "explain": "Each stitch doubles back.",
+      "objective": "Recall the clothing and sewing weeks",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Basting stitch is designed to be…",
+      "options": [
+        "invisible",
+        "strongest",
+        "decorative",
+        "weak and temporary"
+      ],
+      "answerIndex": 3,
+      "explain": "It is meant to come out.",
+      "objective": "Recall the clothing and sewing weeks",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Why leave slack when sewing a button?",
+      "options": [
+        "For the buttonhole layer's thickness",
+        "No reason",
+        "To look loose",
+        "To save thread"
+      ],
+      "answerIndex": 0,
+      "explain": "Flat, it will not fasten.",
+      "objective": "Recall the clothing and sewing weeks",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which part of a practical is most often skipped?",
+      "options": [
+        "Clean-up",
+        "Hygiene",
+        "Sequence",
+        "The result"
+      ],
+      "answerIndex": 0,
+      "explain": "And it is scored.",
+      "objective": "Plan and run the practical test",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "In a practical test, marks are mostly lost on…",
+      "options": [
+        "speed",
+        "presentation",
+        "taste",
+        "sequence and hygiene"
+      ],
+      "answerIndex": 3,
+      "explain": "Say the step out loud as you do it.",
+      "objective": "Plan and run the practical test",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 11 TLE, the practical. The deck is written as readiness rather than revision: what will be marked, which step gets forgotten, and the fact that clean-up is scored and is the part people walk away from. The review board names the trap for each of the ten weeks. The boxing lens gives the single most useful instruction for a practical exam — marks are lost on sequence, not knowledge, so say each step out loud as you do it — and the growth lens covers the physical preparation that also carries marks: hair tied, sleeves up, eaten beforehand. The twenty-four question paper is weighted towards the safety weeks, which is where the marks are.",
+    "discussion": [
+      "Ask him to talk through a dish from washing hands to clean-up.",
+      "Ask what the five scored parts of a practical are.",
+      "Ask which week he feels least ready on.",
+      "Ask what he will do before the test starts."
+    ],
+    "extension": [
+      "Run a full mock practical at home, timed, including clean-up.",
+      "Have him write his own rubric and mark himself against it."
+    ],
+    "misconceptions": [
+      "\"The result is what is scored.\" It is one part of five.",
+      "\"Clean-up is after the test.\" It is part of the test.",
+      "\"Speed matters.\" Sequence and hygiene matter."
+    ]
+  }
+}

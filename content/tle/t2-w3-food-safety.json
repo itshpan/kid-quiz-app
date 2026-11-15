@@ -1,0 +1,333 @@
+{
+  "id": "tle-t2-w3",
+  "courseId": "tle",
+  "courseTitle": "TLE",
+  "week": 3,
+  "title": "Food Safety & Hygiene",
+  "subtitle": "One fact — 5 to 60 degrees — explains every rule here.",
+  "estMinutes": 20,
+  "objectives": [
+    "State the temperature danger zone",
+    "Explain the two-hour rule",
+    "Wash hands and prevent cross-contamination",
+    "Explain why cooked rice is a special case"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🦠",
+      "eyebrow": "Part 3 · TLE",
+      "title": "One fact explains every rule in this week",
+      "text": "Bacteria multiply fastest at the temperature of a human body. Every food-safety rule you have ever been given follows from that."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "The danger zone is 5°C to 60°C",
+      "text": "Between those two numbers, bacteria grow.",
+      "points": [
+        "**Below 5°C** growth slows to almost nothing.",
+        "**Above 60°C** growth stops and they start dying.",
+        "**In between is the zone.** Manila is in it all day.",
+        "**At body temperature** they can double every twenty minutes."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "dangerZone",
+      "title": "Press a temperature",
+      "text": "Press each one. Watch both bars, and read the line underneath."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is the temperature danger zone?",
+        "options": [
+          "5 to 60°C",
+          "0 to 10°C",
+          "20 to 40°C",
+          "60 to 100°C"
+        ],
+        "answerIndex": 0,
+        "explain": "Between those, bacteria multiply.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The two-hour rule",
+      "title": "Perishable food has about two hours, in total",
+      "text": "Total means cumulative, not two hours each time.",
+      "points": [
+        "**Two hours out of the fridge** is the budget.",
+        "**One hour if it is above 32°C.**",
+        "**It does not reset** when you put it back.",
+        "**The fridge slows growth. It does not undo it.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Does the two-hour clock reset when food goes back in the fridge?",
+        "options": [
+          "Only for meat",
+          "No — the time adds up",
+          "Yes, fully",
+          "Only if it is cold"
+        ],
+        "answerIndex": 1,
+        "explain": "Cold slows growth; it does not reverse it.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Hands and boards",
+      "title": "The two routes food poisoning actually takes",
+      "text": "Both are preventable with a habit rather than a product.",
+      "points": [
+        "**Twenty seconds with soap** — palms, backs, between fingers, nails.",
+        "**Before cooking, after raw meat, after the bin, after the toilet.**",
+        "**Separate board for raw meat**, or wash between.",
+        "**Raw meat on the bottom shelf**, sealed, so nothing drips onto it."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "Why your fridge buys you days",
+      "text": "Your body runs at the exact temperature bacteria like best.",
+      "points": [
+        "**37°C is the fastest growth there is.**",
+        "**Which is why an infection spreads fast** once it is inside.",
+        "**And why a fever is useful** — it is the body raising the temperature.",
+        "**Same physics, opposite direction.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "It is a timer you cannot see",
+      "text": "The worst kind: no bar, no warning, and it keeps running.",
+      "points": [
+        "**Two hours of budget**, spent in pieces.",
+        "**No visible countdown.**",
+        "**The penalty arrives hours later.**",
+        "**So you track it yourself.** Note the time it came out."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "A fridge does not make cold",
+      "text": "It moves heat out, which is a different thing and explains the warm back.",
+      "points": [
+        "**A gas is compressed** and gets hot.",
+        "**Coils at the back dump that heat** into the room.",
+        "**The gas expands inside** and gets cold.",
+        "**Blocked coils mean a warm fridge.** Keep the back clear."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Danger zone: 5°C to 60°C. Fastest growth at body temperature.",
+        "Two hours total out of the fridge, one above 32°C, and it does not reset.",
+        "Twenty seconds of soap; separate boards; raw meat lowest and sealed.",
+        "Cooked rice left out is a known cause of food poisoning."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Bacteria grow fastest at about…",
+      "options": [
+        "37°C",
+        "20°C",
+        "80°C",
+        "0°C"
+      ],
+      "answerIndex": 0,
+      "explain": "Body temperature. Doubling roughly every twenty minutes.",
+      "objective": "State the temperature danger zone",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Below which temperature does growth almost stop?",
+      "options": [
+        "10°C",
+        "0°C only",
+        "5°C",
+        "15°C"
+      ],
+      "answerIndex": 2,
+      "explain": "Which is why a fridge should run at or under 4°C.",
+      "objective": "State the temperature danger zone",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Above which temperature do bacteria start dying?",
+      "options": [
+        "50°C",
+        "100°C only",
+        "60°C",
+        "40°C"
+      ],
+      "answerIndex": 2,
+      "explain": "Hot holding works for this reason.",
+      "objective": "State the temperature danger zone",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "How long can perishable food sit out, in total?",
+      "options": [
+        "Six hours",
+        "About two hours",
+        "Overnight",
+        "Thirty minutes"
+      ],
+      "answerIndex": 1,
+      "explain": "One hour above 32°C.",
+      "objective": "Explain the two-hour rule",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "The two-hour clock resets each time food goes back in the fridge.",
+      "answer": false,
+      "explain": "The time adds up. Cold slows growth, it does not reverse it.",
+      "objective": "Explain the two-hour rule",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "How long should you wash your hands?",
+      "options": [
+        "Five seconds",
+        "Two minutes",
+        "Ten seconds",
+        "Twenty seconds"
+      ],
+      "answerIndex": 3,
+      "explain": "Palms, backs, between fingers, nails.",
+      "objective": "Wash hands and prevent cross-contamination",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Raw meat goes on which fridge shelf?",
+      "options": [
+        "Bottom",
+        "Door",
+        "Middle",
+        "Top"
+      ],
+      "answerIndex": 0,
+      "explain": "Sealed, so nothing can drip onto other food.",
+      "objective": "Wash hands and prevent cross-contamination",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Using one board for raw chicken then salad is called…",
+      "options": [
+        "cross-contamination",
+        "FIFO",
+        "hot holding",
+        "batching"
+      ],
+      "answerIndex": 0,
+      "explain": "Wash between, or use two boards.",
+      "objective": "Wash hands and prevent cross-contamination",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why is cooked rice left out overnight risky?",
+      "options": [
+        "It loses taste",
+        "It goes hard",
+        "Bacillus cereus survives cooking and multiplies as it cools",
+        "It dries out"
+      ],
+      "answerIndex": 2,
+      "explain": "The spores survive the boil.",
+      "objective": "Explain why cooked rice is a special case",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "What should you do with warm cooked rice?",
+      "options": [
+        "Freeze it hot",
+        "Leave it to cool slowly",
+        "Reheat it twice",
+        "Cool it fast, then refrigerate"
+      ],
+      "answerIndex": 3,
+      "explain": "Spread it out to drop through the zone quickly.",
+      "objective": "Explain why cooked rice is a special case",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Freezing food…",
+      "options": [
+        "has no effect",
+        "stops growth without killing them",
+        "sterilises it",
+        "kills all bacteria"
+      ],
+      "answerIndex": 1,
+      "explain": "What is already there survives the freeze.",
+      "objective": "State the temperature danger zone",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A fridge works by…",
+      "options": [
+        "blowing air",
+        "moving heat out of itself",
+        "sealing air in",
+        "making cold"
+      ],
+      "answerIndex": 1,
+      "explain": "Which is why the back gets warm and must stay clear.",
+      "objective": "State the temperature danger zone",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 3 TLE, and the most consequential week of the subject. The whole week is derived from one mechanism rather than given as a list: bacteria grow between 5°C and 60°C and fastest at body temperature, so the fridge setting, the two-hour rule and hot holding all stop being arbitrary. The interactive lets him press a temperature and see growth and safe time move together. Two points are emphasised because they are the ones usually got wrong: the two-hour clock is cumulative and does not reset, and freezing stops growth without killing anything. Cooked rice gets its own question pair because it is a real and common cause of poisoning here.",
+    "discussion": [
+      "Ask for the two numbers of the danger zone.",
+      "Ask whether the two-hour clock resets.",
+      "Ask why raw meat goes on the bottom shelf.",
+      "Ask what a fridge actually does."
+    ],
+    "extension": [
+      "Have him check the fridge temperature and compare it to 4°C.",
+      "Have him time twenty seconds of handwashing and see how long it feels."
+    ],
+    "misconceptions": [
+      "\"Freezing kills bacteria.\" It stops growth only.",
+      "\"Putting it back in the fridge resets the clock.\" The time adds up.",
+      "\"Rice is safe because it was boiled.\" The spores survive the boil."
+    ]
+  }
+}

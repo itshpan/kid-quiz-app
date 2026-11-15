@@ -1,0 +1,333 @@
+{
+  "id": "tle-t2-w1",
+  "courseId": "tle",
+  "courseTitle": "TLE",
+  "week": 1,
+  "title": "Kitchen Orientation & Tools",
+  "subtitle": "A tool is a job — and why a sharp knife is the safe one.",
+  "estMinutes": 20,
+  "objectives": [
+    "Name the main kitchen tools and their jobs",
+    "Choose the right tool for a task",
+    "Explain why a sharp knife is safer than a dull one",
+    "Handle knives and hot tools safely"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🔪",
+      "eyebrow": "Part 1 · TLE",
+      "title": "A tool is a job, not an object",
+      "text": "A drawer full of named things is not a skill. Knowing which one the job needs — and why that one — is."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "Six tools cover almost everything",
+      "text": "Start here and you can cook most things.",
+      "points": [
+        "**Chef's knife** — most cutting.",
+        "**Paring knife** — small work held in your hand.",
+        "**Measuring cups and spoons** — \"a bit\" is not a quantity.",
+        "**Colander, tongs, thermometer** — separate, move, check."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "kitchenTools",
+      "title": "Six buttons",
+      "text": "Tap each tool. The second line is why that one and not another."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which tool tells you whether chicken is actually safe?",
+        "options": [
+          "A thermometer",
+          "A knife",
+          "A timer",
+          "The colour"
+        ],
+        "answerIndex": 0,
+        "explain": "74°C inside, measured. Colour is not doneness.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The rule people get backwards",
+      "title": "A sharp knife is the safe one",
+      "text": "This sounds wrong and is not.",
+      "points": [
+        "**A dull blade slides** instead of biting.",
+        "**So you push harder.**",
+        "**When it finally slips** it slips with all that force.",
+        "**A sharp knife needs almost none.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "A dull knife is more dangerous because…",
+        "options": [
+          "it is rusty",
+          "you have to push harder, so a slip carries more force",
+          "it is heavier",
+          "it is slower"
+        ],
+        "answerIndex": 1,
+        "explain": "Force plus a slip is the whole problem.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Safety",
+      "title": "Four habits, not four rules",
+      "text": "Rules are forgotten. Habits run without you.",
+      "points": [
+        "**The claw:** fingertips curled under, knuckles guide the blade.",
+        "**Cut on a board that does not move.** Damp cloth underneath.",
+        "**Carry a knife point down**, blade behind you.",
+        "**Never put a knife in the washing-up water.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "A rice cooker has no timer in it",
+      "text": "It is a magnet that gives up at the right moment, and that is the whole design.",
+      "points": [
+        "**While there is water**, the pot stays at 100°C.",
+        "**Water gone, the pot climbs** past that.",
+        "**A ferrite magnet loses its grip** at about 103°C.",
+        "**The switch drops to warm.** No clock, no sensor, no chip."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Wrapping hands is mise en place",
+      "text": "Nobody wraps their hands halfway through a round.",
+      "points": [
+        "**Everything ready before the bell.**",
+        "**Gloves, wraps, water, mouthguard.**",
+        "**Same in a kitchen:** everything out before any heat.",
+        "**Heat starts a clock** you cannot pause."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "A recipe is a torque spec",
+      "text": "Numbers in both exist because guessing damages the thing.",
+      "points": [
+        "**\"Tighten it well\" strips a thread.**",
+        "**\"Add a bit of salt\" ruins a dish.**",
+        "**Both have a right value** somebody measured.",
+        "**Measuring spoons are not fussiness.** They are the spec."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Chef's knife for most cutting; paring knife for hand work.",
+        "A thermometer, not colour, tells you food is safe.",
+        "Sharp knives are safer — less force, less slip.",
+        "Everything out and prepped before any heat."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Which knife is for peeling and trimming in your hand?",
+      "options": [
+        "Bread knife",
+        "Chef's knife",
+        "Paring knife",
+        "Cleaver"
+      ],
+      "answerIndex": 2,
+      "explain": "Small, close work.",
+      "objective": "Choose the right tool for a task",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Which tool separates solid from liquid?",
+      "options": [
+        "Turner",
+        "Colander",
+        "Tongs",
+        "Whisk"
+      ],
+      "answerIndex": 1,
+      "explain": "Holes pass one and hold the other.",
+      "objective": "Choose the right tool for a task",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Why use tongs rather than a fork on meat?",
+      "options": [
+        "A fork pierces it and lets the juice out",
+        "No reason",
+        "Tongs are longer",
+        "Tongs are cheaper"
+      ],
+      "answerIndex": 0,
+      "explain": "Piercing costs you the juice.",
+      "objective": "Choose the right tool for a task",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Safe internal temperature for chicken?",
+      "options": [
+        "100°C",
+        "54°C",
+        "74°C",
+        "63°C"
+      ],
+      "answerIndex": 2,
+      "explain": "Measured, not guessed.",
+      "objective": "Name the main kitchen tools and their jobs",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "A sharp knife is safer than a dull one.",
+      "answer": true,
+      "explain": "Less force needed, so a slip carries less force.",
+      "objective": "Explain why a sharp knife is safer than a dull one",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The claw grip protects your…",
+      "options": [
+        "elbow",
+        "thumb only",
+        "wrist",
+        "fingertips"
+      ],
+      "answerIndex": 3,
+      "explain": "Curled under, with the knuckles guiding the blade.",
+      "objective": "Handle knives and hot tools safely",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "A knife should never be put…",
+      "options": [
+        "on a board",
+        "in the washing-up water",
+        "in a block",
+        "in a drawer"
+      ],
+      "answerIndex": 1,
+      "explain": "Somebody reaches in and finds it with a hand.",
+      "objective": "Handle knives and hot tools safely",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "You carry a knife…",
+      "options": [
+        "in a pocket",
+        "point down, blade behind you",
+        "on a plate",
+        "point up"
+      ],
+      "answerIndex": 1,
+      "explain": "Point down and behind.",
+      "objective": "Handle knives and hot tools safely",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Measuring spoons matter most in…",
+      "options": [
+        "grilling",
+        "frying",
+        "boiling",
+        "baking"
+      ],
+      "answerIndex": 3,
+      "explain": "Baking is a chemical reaction with ratios.",
+      "objective": "Choose the right tool for a task",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A rice cooker switches to warm because…",
+      "options": [
+        "a magnet loses its grip above 100°C",
+        "a timer ends",
+        "a chip counts minutes",
+        "the lid cools"
+      ],
+      "answerIndex": 0,
+      "explain": "No clock and no sensor — a Curie-point magnet.",
+      "objective": "Name the main kitchen tools and their jobs",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Why does everything get prepped before the heat goes on?",
+      "options": [
+        "Heat starts a clock you cannot pause",
+        "It is a school rule",
+        "It is faster to wash up",
+        "It looks tidy"
+      ],
+      "answerIndex": 0,
+      "explain": "Same reason nobody wraps their hands mid-round.",
+      "objective": "Name the main kitchen tools and their jobs",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "The curve of a chef's knife exists so you can…",
+      "options": [
+        "peel fruit",
+        "open tins",
+        "rock it while chopping",
+        "cut bread"
+      ],
+      "answerIndex": 2,
+      "explain": "The rocking motion is what makes it fast.",
+      "objective": "Choose the right tool for a task",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 1 TLE. Tools are introduced by the job they do rather than as a labelled drawer, and the week's argument is that six tools cover almost everything, which is more useful than naming twenty. The counter-intuitive safety fact — a sharp knife is safer because it needs less force — gets its own card and a checkpoint, because it is the one that changes behaviour. The rice cooker teardown is the strongest hook in the week and is accurate: a Curie-point ferrite magnet releases the switch once the water is gone and the pot climbs past 100°C. The car lens defends measuring spoons on the only ground he will accept: they are a spec.",
+    "discussion": [
+      "Ask which tool he would reach for, and why that one.",
+      "Ask why a dull knife is the dangerous one.",
+      "Ask what a rice cooker uses instead of a timer.",
+      "Ask what mise en place means in boxing terms."
+    ],
+    "extension": [
+      "Have him set up a workstation for one dish before cooking anything.",
+      "Have him open a rice cooker base and find the thermostat."
+    ],
+    "misconceptions": [
+      "\"Dull knives are safer.\" They need more force, so slips cost more.",
+      "\"Colour tells you chicken is done.\" A thermometer does.",
+      "\"Measuring is fussy.\" Baking is a ratio."
+    ]
+  }
+}
