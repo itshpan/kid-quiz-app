@@ -15,7 +15,7 @@
    ========================================================================== */
 
 import { escapeHtml, mountHeader } from './ui.js';
-import { getSettings, saveSettings } from './store.js';
+import { getSettings, saveSettings, missedByObjective, missedCount, masteredCount, getActiveProfile } from './store.js';
 import { getDashboard } from './sync.js';
 
 const UNLOCKED = 'learningLab_settingsUnlocked';
@@ -77,7 +77,56 @@ function panel() {
             Saved on this device only, for whoever uses it. It is not part of his progress
             and does not sync.
         </p>
+        ${weakSpots()}
+
         <p style="margin-top:18px;"><a class="btn" href="index.html">Back to subjects</a></p>`;
+}
+
+/* What he is actually getting wrong, grouped by the objective the question
+   was written against. Every quiz item in the app carries one, so this needs
+   no extra tagging: it is the payoff for having stored the misses at all.
+
+   Grouped by objective rather than listed per question because "he has
+   missed four questions about subject-verb agreement" is something you can
+   act on, and "he missed question 7 of week 9" is not. */
+function weakSpots() {
+    const rows = missedByObjective();
+    const who = getActiveProfile();
+    const n = missedCount();
+
+    if (!who) return '';
+    if (!rows.length) {
+        return `
+            <section class="card" style="margin-top:26px;">
+                <h2>Still to firm up</h2>
+                <p class="small muted" style="margin-top:8px;">
+                    Nothing outstanding for ${escapeHtml(who.name)} right now. A question lands
+                    here when he gets it wrong, and leaves once he has answered it correctly
+                    twice.
+                </p>
+            </section>`;
+    }
+    return `
+        <section class="card" style="margin-top:26px;">
+            <h2>Still to firm up</h2>
+            <p class="small muted" style="margin-top:8px;">
+                ${n} question${n === 1 ? '' : 's'} ${escapeHtml(who.name)} has got wrong and not
+                yet answered correctly twice. They come back at the start of later quizzes
+                until they do. Most-missed first.
+                ${masteredCount() ? `<br>${masteredCount()} more have been cleared.` : ''}
+            </p>
+            <div class="stack" style="margin-top:16px;">
+                ${rows.map(r => `
+                    <div class="tkey">
+                        <div class="tkey-q">${escapeHtml(r.objective)}</div>
+                        <div class="tkey-why">
+                            ${r.items.length} question${r.items.length === 1 ? '' : 's'},
+                            ${r.wrong} wrong answer${r.wrong === 1 ? '' : 's'},
+                            from ${escapeHtml(r.lessons.join(', '))}
+                        </div>
+                    </div>`).join('')}
+            </div>
+        </section>`;
 }
 
 function bind(page) {

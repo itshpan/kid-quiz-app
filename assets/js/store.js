@@ -65,8 +65,46 @@ const DEFAULT_PROGRESS = {
     deckPosition: {},       // lessonId -> last card index seen, so a lesson resumes
     streak: 0,
     lastPlayDate: null,
-    practiceDays: []        // 'YYYY-MM-DD'
+    practiceDays: [],       // 'YYYY-MM-DD'
+
+    /* The questions he got wrong, which is the whole point of a reviewer.
+       Before this existed the quiz computed exactly which ones he missed,
+       showed them once, and then threw the list away: a score survived and
+       the thing worth practising did not.
+
+       qid -> { lessonId, objective, text, wrong, right, lastAt }
+
+       `right` counts consecutive correct answers SINCE the last miss, and a
+       question retires at MASTERED. A miss resets it to 0, because getting
+       it right once after getting it wrong is not knowing it. */
+    missed: {}
 };
+
+/* How many consecutive correct answers retire a missed question. Two, not
+   one: one is luck or a half-remembered option, and four would mean he keeps
+   meeting a question he has clearly learned, which is its own punishment. */
+export const MASTERED = 2;
+
+/* A stable id for a question, so a missed one can be found again after the
+   file is edited or the quiz reordered. Keyed on the lesson AND the text:
+   the same stem in week 3 and in the week 11 exam are two separate items,
+   and concept-level grouping is what the `objective` tag is for.
+
+   Two 32-bit FNV-1a passes with different offsets, because one pass over
+   ~3,000 questions has a birthday-collision risk of roughly a tenth of a
+   per cent, and a collision would silently merge two questions' histories. */
+function hash32(s, seed) {
+    let h = seed;
+    for (let i = 0; i < s.length; i++) {
+        h ^= s.charCodeAt(i);
+        h = Math.imul(h, 16777619);
+    }
+    return (h >>> 0).toString(36);
+}
+export function questionId(lessonId, text) {
+    const k = `${lessonId}|${String(text || '').replace(/\s+/g, ' ').trim()}`;
+    return `${hash32(k, 0x811c9dc5)}${hash32(k, 0x01000193)}`;
+}
 
 function read(key, fallback) {
     try {
@@ -169,10 +207,19 @@ export function isLessonComplete(lessonId, id = getActiveId()) {
     return getProgress(id).lessonsCompleted.includes(lessonId);
 }
 
-/** Records a finished quiz and returns the updated progress. */
+/**
+ * Records a finished quiz and returns the updated progress.
+ *
+ * `timing` also carries the two question lists, so one call persists the
+ * score and the mastery state together rather than saving twice:
+ *   asked  - every question put to him in this run
+ *   missed - the ones he got wrong
+ * Anything asked and not missed was right, which is what retires an item.
+ */
 export function recordQuiz(lessonId, correct, total, xpEarned, timing = {}, id = getActiveId()) {
     const p = getProgress(id);
     const pct = total ? Math.round((correct / total) * 100) : 0;
+    applyMissed(p, lessonId, timing.asked, timing.missed);
     const prev = p.quizScores[lessonId];
 
     // Timing is kept alongside the score so the two can be read together:
@@ -196,6 +243,112 @@ export function recordQuiz(lessonId, correct, total, xpEarned, timing = {}, id =
     touchStreak(p);
     saveProgress(p, id, { immediate: true });
     return p;
+}
+
+/**
+ * A practice run over the missed list. It moves mastery and nothing else:
+ * no XP, no score, no streak. The score he got sitting the real quiz is his
+ * result, and practising afterwards must not be able to inflate or dent it.
+ */
+export function recordPractice(lessonId, { asked, missed } = {}, id = getActiveId()) {
+    const p = getProgress(id);
+    applyMissed(p, lessonId, asked, missed);
+    saveProgress(p, id, { immediate: true });
+    return p;
+}
+
+/* ---------- Wrong answers, remembered ----------
+
+   Mutates the progress object in place; the caller saves once. */
+function applyMissed(p, lessonId, asked, missed) {
+    if (!Array.isArray(asked) || !asked.length) return;
+    p.missed = { ...(p.missed || {}) };
+    const wrongIds = new Set((missed || []).map(q => questionId(q.__lesson || lessonId, q.text)));
+    const now = new Date().toISOString();
+
+    for (const q of asked) {
+        /* A resurfaced question belongs to the lesson it came from, not the
+           one he happens to be sitting, or it would be filed twice. */
+        const home = q.__lesson || lessonId;
+        const qid = questionId(home, q.text);
+        const prev = p.missed[qid];
+
+        if (wrongIds.has(qid)) {
+            /* The whole question is kept, not just its text, so a later week
+               can ask it again without fetching another lesson's JSON. That
+               file is already downloaded to the browser with every answer in
+               it, so this stores nothing that was not already there. The
+               carry markers are stripped: this record IS the question's home.
+               Fields the renderer does not need are dropped to keep the
+               local copy small. */
+            const { __lesson, __carried, ...clean } = q;
+            p.missed[qid] = {
+                lessonId: home,
+                objective: q.objective || null,
+                text: q.text,
+                q: clean,
+                wrong: (prev?.wrong || 0) + 1,
+                right: 0,
+                lastAt: now
+            };
+        } else if (prev) {
+            /* Retire by marking, never by deleting. A deleted record is
+               indistinguishable from one that was never missed on that
+               device, so the cross-device merge would resurrect a question
+               he has already mastered. A record that stays, with a newer
+               timestamp, merges correctly on its own.
+               The stored question is dropped at that point: a mastered one
+               is never asked again, and it is the bulky part. */
+            const right = (prev.right || 0) + 1;
+            p.missed[qid] = right >= MASTERED
+                ? { ...prev, q: undefined, right: MASTERED, lastAt: now }
+                : { ...prev, q: prev.q || q, right, lastAt: now };
+        }
+        // Right first time and never missed before: nothing to remember.
+    }
+}
+
+/**
+ * Questions still worth practising, hardest first.
+ *
+ * `excludeLesson` keeps the lesson he is already sitting out of its own
+ * warm-up, because its questions are about to be asked anyway.
+ */
+const outstanding = m => (m.right || 0) < MASTERED;
+
+export function getDueMissed({ limit = 3, excludeLesson = null, id = getActiveId() } = {}) {
+    const all = Object.entries(getProgress(id).missed || {});
+    return all
+        .filter(([, m]) => outstanding(m) && m.lessonId !== excludeLesson)
+        .sort((a, b) => (b[1].wrong - a[1].wrong) || String(a[1].lastAt).localeCompare(String(b[1].lastAt)))
+        .slice(0, limit)
+        .map(([qid, m]) => ({ qid, ...m }));
+}
+
+/** Everything still outstanding, for the grown-up view. */
+export function missedByObjective(id = getActiveId()) {
+    const out = new Map();
+    for (const m of Object.values(getProgress(id).missed || {})) {
+        if (!outstanding(m)) continue;
+        const key = m.objective || 'Unlabelled';
+        const row = out.get(key) || { objective: key, items: [], wrong: 0, lessons: new Set() };
+        row.items.push(m);
+        row.wrong += m.wrong || 0;
+        row.lessons.add(m.lessonId);
+        out.set(key, row);
+    }
+    return [...out.values()]
+        .map(r => ({ ...r, lessons: [...r.lessons] }))
+        .sort((a, b) => b.wrong - a.wrong);
+}
+
+export function missedCount(id = getActiveId()) {
+    return Object.values(getProgress(id).missed || {}).filter(outstanding).length;
+}
+
+/** Questions he missed and has since mastered, for the grown-up view. */
+export function masteredCount(id = getActiveId()) {
+    return Object.values(getProgress(id).missed || {}).filter(m => !outstanding(m)).length;
 }
 
 function touchStreak(p) {

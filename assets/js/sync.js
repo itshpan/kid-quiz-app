@@ -70,6 +70,29 @@ export function mergeProgress(a, b) {
     for (const [lesson, at] of Object.entries(b.deckPosition || {})) {
         out.deckPosition[lesson] = Math.max(out.deckPosition[lesson] ?? 0, at);
     }
+
+    /* Missed questions need their own rule. The spread above would take one
+       side's whole map, so practice done on the phone would vanish the next
+       time the laptop synced.
+
+       Per question: `wrong` is a lifetime count, so take the larger. `right`
+       is a live streak, so take the more recent side's value, because a miss
+       anywhere resets it and the older copy cannot know that happened.
+       Nothing is ever deleted from this map: a mastered question is kept
+       with right = MASTERED. That is deliberate and it is what makes this
+       merge safe, because an absent record would otherwise be ambiguous
+       between "mastered here" and "never missed here", and the stale side
+       would resurrect a question he has already finished with. */
+    out.missed = { ...(a.missed || {}) };
+    for (const [qid, mine] of Object.entries(b.missed || {})) {
+        const theirs = out.missed[qid];
+        if (!theirs) { out.missed[qid] = mine; continue; }
+        const newer = String(mine.lastAt) > String(theirs.lastAt) ? mine : theirs;
+        out.missed[qid] = {
+            ...newer,
+            wrong: Math.max(mine.wrong || 0, theirs.wrong || 0)
+        };
+    }
     return out;
 }
 

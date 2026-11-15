@@ -6,7 +6,7 @@
 import { escapeHtml, param, loadJSON, mountHeader, requireProfile } from './ui.js';
 import { mountDeck, deckAsPage } from './deck.js';
 import { runQuiz } from './quiz.js';
-import { recordQuiz, getProgress, saveProgress, levelFor } from './store.js';
+import { recordQuiz, recordPractice, getDueMissed, getProgress, saveProgress, levelFor } from './store.js';
 
 async function main() {
     mountHeader();
@@ -98,10 +98,25 @@ async function main() {
     document.getElementById('startQuiz').addEventListener('click', () => {
         quizGate.classList.add('hidden');
         quizHost.classList.remove('hidden');
-        runQuiz(quizHost, lesson.quiz, {
-            onFinish: ({ correct, total, xp, spent, budget }) => {
+
+        /* Up to three questions he has got wrong before, from earlier weeks,
+           asked first. A missed question he never meets again is a wrong
+           answer he keeps: this is what makes the memory worth storing.
+
+           They are tagged with the lesson they came from so the mastery
+           state is filed against their own lesson, and they are asked first
+           because attention is best at the start and these are the ones that
+           need it. Three is the cap: this is still this week's quiz. */
+        const carried = getDueMissed({ limit: 3, excludeLesson: lesson.id })
+            .filter(m => m.q && m.q.text)
+            .map(m => ({ ...m.q, __lesson: m.lessonId, __carried: true }));
+
+        runQuiz(quizHost, [...carried, ...lesson.quiz], {
+            onFinish: ({ correct, total, xp, spent, budget, asked, missed, practice }) => {
+                if (practice) { recordPractice(lesson.id, { asked, missed }); return; }
                 const before = levelFor(getProgress().xp).level;
-                const after = recordQuiz(lesson.id, correct, total, xp, { spent, budget });
+                const after = recordQuiz(lesson.id, correct, total, xp,
+                                         { spent, budget, asked, missed });
                 const now = levelFor(after.xp);
                 if (now.level > before) {
                     const note = document.createElement('div');

@@ -126,6 +126,10 @@ node tools/check-figures.mjs     # measures every figure caption in a real
                                  # not warn — it just gets clipped by the card.
 node tools/check-lessons.mjs     # opens every lesson, reads the deck, sits
                                  # the quiz. ~12 min for all 176.
+node tools/check-review.mjs      # proves the wrong-answer memory works:
+                                 # misses persist, redo asks only those, a
+                                 # miss carries into a later week, mastery
+                                 # retires it. ~40s.
 npm run deploy                   # ships to Cloudflare Pages
 ```
 
@@ -141,10 +145,58 @@ it is the one that catches a card whose shape throws and renders the whole
 lesson blank, two cards emitting the same element id, or a deck and its data
 drifting apart.
 
+`check-review` is separate because the other three cannot see the feature at
+all: `check-lessons` sits every quiz with a **fresh profile**, which by
+definition has no history, so it never has a missed question to carry and
+would pass whether any of it worked or not.
+
 **What `check-lessons` cannot do:** it answers from the same JSON the app
 scores against, so an answer key that is wrong but internally consistent
 scores 100% and passes. Flipping an `answerIndex` is invisible to it. Only a
-person reading the questions catches that.
+person reading the questions catches that, and it is worth the time: a wall of
+text bores him, but a wrong key teaches him a false fact and then marks him
+wrong for knowing better. The audit that found the Commonwealth/UN error
+below is the kind of pass that has to be repeated whenever questions change.
+
+**A worked example of that, kept because it shows what to look for.** Week 1
+of Term 2 asked which thing was *not* done during the Commonwealth and keyed
+"Joining the United Nations". The Philippines is a founding UN member, 24
+October 1945, nine months *before* independence. The giveaway was that the
+app contradicted itself: `t2-w7-sovereign-country.json` teaches the fact
+correctly, and the week 1 quiz marked him wrong for knowing it. **When
+checking keys, grep the whole corpus for the claim rather than reading the
+question alone.**
+
+## Wrong answers are the point
+
+In Philippine usage a **reviewer** is the study material itself, and its value
+is that he corrects a wrong answer and then meets it again. So the misses are
+stored, and `assets/js/store.js` owns that:
+
+| Behaviour | Where |
+|---|---|
+| A miss is persisted with its `objective` and the question itself | `applyMissed` |
+| "Redo the N I missed" asks only those, for no XP and no score change | `recordPractice` |
+| Up to **3** earlier misses are asked at the top of a later quiz | `getDueMissed` |
+| **2** consecutive correct answers retire it | `MASTERED` |
+| Grouped by objective for the grown-up view | `missedByObjective` |
+
+Three rules in there are load-bearing and should not be "tidied":
+
+- **A carried question never counts toward the host lesson's score or XP.**
+  Week 3's mistake must not dent the week 9 result, and the number on the
+  results screen has to be the number that gets recorded. `check-review`
+  asserts the numerator *and* the denominator, because asserting only the
+  denominator let this bug through once as an impossible 13/12.
+- **Mastery retires a question by marking it, never by deleting it.** Deleting
+  looks tidier and is wrong: an absent record cannot be told apart from one
+  that was never missed on that device, so a stale phone would resurrect a
+  question he had finished with. `mergeProgress` in `sync.js` depends on this.
+- **A miss resets the streak to 0.** Getting something right once after
+  getting it wrong is not knowing it.
+
+Every quiz item carries an `objective`, all 2,311 of them, which is what makes
+the grown-up view possible without any extra tagging. Keep it that way.
 
 ## The content model
 

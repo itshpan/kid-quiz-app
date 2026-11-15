@@ -48,9 +48,9 @@ const PACE_TIPS = {
 };
 
 export function runQuiz(host, questions, { onFinish }) {
-    let i = 0, correct = 0, xp = 0, spent = 0;
+    let i = 0, correct = 0, xp = 0, spent = 0, practice = false;
     const missed = [];
-    const budget = questions.reduce((n, q) => n + (Number(q.seconds) || 0), 0);
+    let budget = questions.reduce((n, q) => n + (Number(q.seconds) || 0), 0);
     const showRun = getSettings().sessionTimer;
 
     function render() {
@@ -75,7 +75,13 @@ export function runQuiz(host, questions, { onFinish }) {
         const q = questions[i];
         renderQuestion(host.querySelector('#qCard'), q, (ok, secs) => {
             spent += secs || 0;
-            if (ok) { correct++; xp += XP_PER_CORRECT; } else { missed.push(q); }
+            /* A question carried in from an earlier week is asked, graded and
+               remembered, but it does not count toward THIS lesson's score or
+               XP. Week 3's mistake must not dent the week 9 result, and the
+               number on the results screen has to be the number that gets
+               recorded. */
+            if (!q.__carried) { if (ok) { correct++; xp += XP_PER_CORRECT; } }
+            if (!ok) missed.push(q);
 
             const nav = host.querySelector('#qNav');
             nav.innerHTML = `<button class="btn primary wide" id="qNext">${
@@ -87,8 +93,14 @@ export function runQuiz(host, questions, { onFinish }) {
     }
 
     function finish() {
-        const pct = Math.round((correct / questions.length) * 100);
-        const msg = pct === 100 ? 'Perfect run. Every single one.'
+        const own = questions.filter(q => !q.__carried);
+        const ownTotal = own.length || questions.length;
+        const carriedCount = questions.length - own.length;
+        const pct = Math.round((correct / ownTotal) * 100);
+        const msg = practice
+            ? (pct === 100 ? 'All of them. That is the list cleared.'
+               : 'Closer. The ones still here are the ones to look at again.')
+            : pct === 100 ? 'Perfect run. Every single one.'
             : pct >= 80 ? 'Strong. You know this.'
             : pct >= 60 ? 'Good start. Two or three to firm up.'
             : 'Worth another pass through the cards.';
@@ -99,7 +111,7 @@ export function runQuiz(host, questions, { onFinish }) {
             <div class="results">
                 <div class="scorepair">
                     <div class="scorecell">
-                        <div class="score">${correct}/${questions.length}</div>
+                        <div class="score">${correct}/${ownTotal}</div>
                         <div class="score-label">Answers · ${pct}%</div>
                     </div>
                     ${pace ? `<div class="scorecell">
@@ -107,8 +119,11 @@ export function runQuiz(host, questions, { onFinish }) {
                         <div class="score-label">Pace · ${pace.label} (${mmss(budget)})</div>
                     </div>` : ''}
                 </div>
-                <div class="score-label" style="margin-top:10px;">+${xp} XP</div>
+                <div class="score-label" style="margin-top:10px;">${
+                    practice ? 'Practice run &middot; your lesson score stands' : `+${xp} XP`}</div>
                 <div class="msg">${msg}</div>
+                ${carriedCount && !practice ? `<div class="score-label" style="margin-top:6px;">
+                    Plus ${carriedCount} from earlier weeks, which do not affect this score.</div>` : ''}
                 ${pace ? `<div class="pacenote">${escapeHtml(pace.note)}</div>` : ''}
                 ${pace && PACE_TIPS[pace.key] ? `
                     <div class="pacetips">
@@ -116,8 +131,9 @@ export function runQuiz(host, questions, { onFinish }) {
                         <ul class="points">${PACE_TIPS[pace.key].map(t => `<li>${escapeHtml(t)}</li>`).join('')}</ul>
                     </div>` : ''}
                 <div class="row" style="justify-content:center;margin-top:20px;">
+                    ${missed.length ? `<button class="btn primary" id="redo">Redo the ${missed.length} I missed</button>` : ''}
                     <button class="btn" id="retry">Try again</button>
-                    <a class="btn primary" href="index.html">Back to subjects</a>
+                    <a class="btn${missed.length ? '' : ' primary'}" href="index.html">Back to subjects</a>
                 </div>
             </div>
             ${missed.length ? `
@@ -134,7 +150,26 @@ export function runQuiz(host, questions, { onFinish }) {
         host.querySelector('#retry').addEventListener('click', () => {
             i = 0; correct = 0; xp = 0; spent = 0; missed.length = 0; render();
         });
-        onFinish({ correct, total: questions.length, xp, spent, budget });
+
+        /* Practice on just the missed ones. It earns no XP and does not
+           overwrite the lesson score: the run he sat stands as his result,
+           and this only moves the mastery state. Re-running the whole quiz
+           to reach three questions is exactly the friction that stops him
+           doing it at all. */
+        const redo = host.querySelector('#redo');
+        if (redo) redo.addEventListener('click', () => {
+            questions = [...missed];
+            budget = questions.reduce((n, q) => n + (Number(q.seconds) || 0), 0);
+            i = 0; correct = 0; xp = 0; spent = 0; missed.length = 0;
+            practice = true;
+            render();
+        });
+        /* asked and missed are what make a reviewer a reviewer: the score
+           says how it went, these two say what to practise. */
+        onFinish({
+            correct, total: ownTotal, xp, spent, budget,
+            asked: questions, missed: [...missed], practice
+        });
     }
 
     render();
