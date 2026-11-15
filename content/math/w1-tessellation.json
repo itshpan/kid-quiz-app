@@ -173,6 +173,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why do bees build in hexagons?",
+        "options": [
+          "They are easiest to make",
+          "Most shared edge for the least wax",
+          "They are the strongest shape",
+          "Tradition"
+        ],
+        "answerIndex": 1,
+        "explain": "Every wall is shared with a neighbour, so no wax is wasted.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Why hexagons, everywhere",
+      "src": "assets/img/math-w1-hex.jpg",
+      "alt": "A cut edge of a composite panel showing rows of perfect hexagonal cells packed with no gaps",
+      "credit": "Generated image",
+      "text": "Most edge shared per unit of material. Bees and engineers found the same answer.",
+      "lightBg": true
+    },
+    {
       "kind": "fact",
       "eyebrow": "Did you know",
       "text": "Bees use hexagons because that shape encloses the most space for the least wall. Less wax, more honey. Mathematicians only proved they were right in 1999."
@@ -271,6 +297,16 @@
       "text": "The Alhambra palace, covered in interlocking tile. He came home and spent forty years on it."
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "A shape tessellates if it covers a surface with no gaps and no overlaps.",
+        "answer": true,
+        "explain": "Both conditions. A gap or an overlap and it is not a tessellation.",
+        "seconds": 18
+      }
+    },
+    {
       "kind": "idea",
       "eyebrow": "The trick",
       "title": "Cut and slide",
@@ -337,6 +373,22 @@
       "text": "Regular shapes are the fussy ones. Once you drop the word 'regular', tessellation gets strange."
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which of these always tessellates?",
+        "options": [
+          "Any pentagon",
+          "Any triangle",
+          "Any circle",
+          "Any octagon"
+        ],
+        "answerIndex": 1,
+        "explain": "Every triangle, without exception. Three angles make a straight line.",
+        "seconds": 20
+      }
+    },
+    {
       "kind": "idea",
       "eyebrow": "Surprise 1",
       "title": "Every single triangle works",
@@ -346,6 +398,16 @@
         "**Parallelograms tile easily** in rows.",
         "**So every triangle does too.** No exceptions."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Every triangle works",
+      "src": "assets/img/math-w1-triangles.jpg",
+      "alt": "A floor tiled in identical equilateral triangles in two alternating shades, filling the frame",
+      "credit": "Generated image",
+      "text": "Any triangle at all. Three of them always meet to make a straight line.",
+      "lightBg": true
     },
     {
       "kind": "idea",
@@ -443,6 +505,16 @@
         "**Angles at a corner must total 360°.** Interior angle = (n − 2) × 180 ÷ n.",
         "**Cut and slide** turns any square into a tile that still fits."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "It keeps going past the edge",
+      "src": "assets/img/math-w1-floor.jpg",
+      "alt": "An old patterned ceramic floor in a repeating geometric design continuing past every edge",
+      "credit": "Generated image",
+      "text": "That is what a tessellation is. No gaps, no overlaps, and no end.",
+      "lightBg": true
     },
     {
       "kind": "open",

@@ -123,6 +123,32 @@
       "text": "You've got the rule. Part 2 is subtraction, checking your work, and money. Your place is saved."
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Before adding decimals you should…",
+        "options": [
+          "line up the left edges",
+          "line up the decimal points",
+          "remove the points",
+          "round first"
+        ],
+        "answerIndex": 1,
+        "explain": "Fill the gaps with zeros so every column holds the same place value.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "One, cut into ten",
+      "src": "assets/img/math-w3-tenths.jpg",
+      "alt": "A solid cube beside an identical cube cut into ten equal thin slabs fanned apart",
+      "credit": "Generated image",
+      "text": "That is what the first decimal place counts. Ten of them rebuild the whole.",
+      "lightBg": true
+    },
+    {
       "kind": "open",
       "icon": "➖",
       "eyebrow": "Part 2 · Subtracting",
@@ -175,6 +201,16 @@
         "**That's a subtraction** you'd better get right.",
         "**Rounding to whole kilos** would hide the whole problem."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Making weight is subtraction",
+      "src": "assets/img/math-w3-scale.jpg",
+      "alt": "A digital scale with a blank dark display on a tiled floor beside boxing gloves and a skipping rope",
+      "credit": "Generated image",
+      "text": "Where you are, minus where you have to be. To one decimal place.",
+      "lightBg": true
     },
     {
       "kind": "idea",

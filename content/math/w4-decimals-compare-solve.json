@@ -111,6 +111,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Which is more?",
+      "src": "assets/img/math-w4-compare.jpg",
+      "alt": "Two identical clear bottles backlit and filled to very slightly different levels",
+      "credit": "Generated image",
+      "text": "Line them up and it is obvious. Written down, 0.7 and 0.65 catch people.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "Step 2",
       "title": "Multi-step problems need a plan, not speed",
@@ -260,6 +270,16 @@
           "def": "The operation that undoes another. Subtraction undoes addition."
         }
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "On the day",
+      "src": "assets/img/math-t2w11-desk.jpg",
+      "alt": "An exam desk with blank squared paper, a ruler, a pencil, a calculator and small wooden cubes",
+      "credit": "Generated image",
+      "text": "Ruler, pencil, calculator. Line up the points before you add.",
+      "lightBg": true
     },
     {
       "kind": "recap",

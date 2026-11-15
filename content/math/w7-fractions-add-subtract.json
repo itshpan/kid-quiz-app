@@ -112,6 +112,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Three eighths gone",
+      "src": "assets/img/math-w7-pie.jpg",
+      "alt": "A pie cut into eight equal wedges with three removed, seen from above",
+      "credit": "Generated image",
+      "text": "The gap is the fraction. You cannot add eighths to fifths without fixing that first.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "Simplifying",
       "title": "Always reduce at the end",
@@ -201,6 +211,16 @@
         "**5/4 is more than one**, so it becomes 6¼.",
         "**That is regrouping**, in real timing."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "A quarter, a half, three quarters",
+      "src": "assets/img/math-w7-glasses.jpg",
+      "alt": "Three identical glasses filled to about a quarter, a half and three quarters",
+      "credit": "Generated image",
+      "text": "Same glass every time. The bottom number says how many pieces the whole was cut into.",
+      "lightBg": true
     },
     {
       "kind": "idea",

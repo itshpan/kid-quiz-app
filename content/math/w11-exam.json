@@ -117,6 +117,26 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "A number written without its unit is a complete answer.",
+        "answer": false,
+        "explain": "It is half an answer. 4.5 what? Marks go for the unit.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Right method, wrong topic",
+      "src": "assets/img/math-t2w11-desk.jpg",
+      "alt": "An exam desk with blank squared paper, a ruler, a pencil, a calculator and small wooden cubes",
+      "credit": "Generated image",
+      "text": "The commonest lost mark is a correct calculation answering a different question.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "gaming",
       "icon": "🎮",

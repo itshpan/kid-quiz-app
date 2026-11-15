@@ -150,6 +150,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "One to three",
+      "src": "assets/img/math-w9-beans.jpg",
+      "alt": "A small pile of red beans beside a pile of white beans about three times as large",
+      "credit": "Generated image",
+      "text": "A ratio compares two amounts. It says nothing about how many there are in total.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "The method",
       "title": "Cross-multiply to find the missing one",
@@ -200,6 +210,16 @@
         "**Multiply each side** by that value.",
         "**Check they add back** to the original total."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Cement, sand, gravel",
+      "src": "assets/img/math-w9-mix.jpg",
+      "alt": "Three piles of different sizes on concrete: cement powder, sand and gravel, with a trowel beside them",
+      "credit": "Generated image",
+      "text": "Mixed by ratio, never by eye. Change one and you change all three.",
+      "lightBg": true
     },
     {
       "kind": "lens",

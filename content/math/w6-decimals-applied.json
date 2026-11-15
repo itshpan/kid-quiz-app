@@ -89,6 +89,12 @@
       }
     },
     {
+      "kind": "figure",
+      "figure": "unitRateLab",
+      "title": "Press a pack size",
+      "text": "Three sizes. The biggest box is not the best deal here."
+    },
+    {
       "kind": "break",
       "title": "Good spot to pause",
       "text": "Order and rounding done. Part 2 is rates — how much for exactly one. Your place is saved."
@@ -155,6 +161,16 @@
         "**Always compare on the same base.**",
         "**That is the entire trick** of reading a label."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Which one is actually cheaper?",
+      "src": "assets/img/math-w6-packs.jpg",
+      "alt": "Two plain unlabelled packets of the same product on a shelf, one about twice the size of the other",
+      "credit": "Generated image",
+      "text": "You cannot tell from the price. You have to divide.",
+      "lightBg": true
     },
     {
       "kind": "lens",

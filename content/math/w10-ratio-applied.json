@@ -93,6 +93,12 @@
       }
     },
     {
+      "kind": "figure",
+      "figure": "squareLawLab",
+      "title": "Press a speed. Watch both bars.",
+      "text": "Some things double when speed doubles. Some go up four times."
+    },
+    {
       "kind": "idea",
       "eyebrow": "Scale",
       "title": "A scale is a ratio between drawing and reality",
@@ -159,6 +165,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Double the speed and the braking distance becomes…",
+        "options": [
+          "twice as long",
+          "three times as long",
+          "four times as long",
+          "the same"
+        ],
+        "answerIndex": 2,
+        "explain": "It goes with the square of speed, not with speed.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Scaled, not shrunk",
+      "src": "assets/img/math-w10-model.jpg",
+      "alt": "A small die-cast model car on a bench in front of a full-size car wheel, showing the size difference",
+      "credit": "Generated image",
+      "text": "Every dimension divided by the same number. That is what makes it a scale model.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "The counter-examples",
       "title": "Things that look proportional and are not",
@@ -183,6 +215,16 @@
         "**A wing's lift**, and a car's braking distance.",
         "**Mass is proportional. Speed is not.**"
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "A ratio you can turn",
+      "src": "assets/img/math-w10-gears.jpg",
+      "alt": "A bicycle rear cassette showing sprockets from very small to much larger with the chain engaged",
+      "credit": "Generated image",
+      "text": "Small cog to big cog. That is the gear ratio, and you can count the teeth.",
+      "lightBg": true
     },
     {
       "kind": "lens",

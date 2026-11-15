@@ -163,6 +163,16 @@
       "text": "Dividing by a whole number is normal division. Dividing by a decimal needs one move first, and then it is also normal division."
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Dividing is sharing out",
+      "src": "assets/img/math-w5-slices.jpg",
+      "alt": "A pizza cut into eight equal slices with three lifted away, seen from above",
+      "credit": "Generated image",
+      "text": "Eight equal slices, three gone. Both halves of this week are on this board.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "The easy case",
       "title": "Dividing by a whole number",
@@ -315,6 +325,16 @@
           "def": "A rough answer from rounded numbers, used to check the point is right."
         }
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Estimate before you press",
+      "src": "assets/img/math-w5-calc.jpg",
+      "alt": "A desktop calculator with a blank display beside a blank notepad and a pencil",
+      "credit": "Generated image",
+      "text": "If the answer is wildly off your estimate, you mistyped it.",
+      "lightBg": true
     },
     {
       "kind": "recap",

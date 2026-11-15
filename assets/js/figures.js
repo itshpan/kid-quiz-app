@@ -7096,7 +7096,29 @@ function ssT2Map() {
     });
 }
 
+
+/* The supermarket question: which packet is actually cheaper. The sizes and
+   prices are chosen so the bigger box is the worse deal, because that is the
+   case the rule exists for. */
+function unitRateLab() {
+    const packs = { 200: 48, 500: 135, 900: 261 };
+    return ruleLab({
+        id: 'ur6', label: 'PRESS A PACK SIZE',
+        alt: 'A lab comparing three pack sizes by price per hundred grams',
+        input: { name: 'Pack', unit: ' g', values: [200, 500, 900] },
+        outputs: [
+            { name: 'Price', f: v => packs[v], fmt: o => `\u20b1${o}` },
+            { name: 'Per 100 g', f: v => +(packs[v] / v * 100).toFixed(2), fmt: o => `\u20b1${o}` }
+        ],
+        rule: v => v === 500
+            ? 'The 500 g is the best value here, at \u20b127.00 per 100 g.'
+            : `The ${v} g works out at \u20b1${(packs[v] / v * 100).toFixed(2)} per 100 g. Bigger is not automatically cheaper.`
+    });
+}
+
 export const FIGURES = {
+    unitRateLab,
+
     commonwealthRoad,
     commonwealthWork,
     occupationLine,

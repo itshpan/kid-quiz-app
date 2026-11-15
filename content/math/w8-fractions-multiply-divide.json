@@ -124,6 +124,16 @@
       "text": "That sounds like a shortcut that shouldn't work. It works, and the picture in the figure shows why."
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Six out of twenty",
+      "src": "assets/img/math-w8-grid.jpg",
+      "alt": "A square ruled into a four-by-five grid with six squares in one corner raised and in a contrasting colour",
+      "credit": "Generated image",
+      "text": "Multiplying fractions is this: a part of a part. The grid does it for you.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "Reciprocal",
       "title": "Flip the second one, then multiply",

@@ -80,6 +80,32 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Translation is just movement",
+      "src": "assets/img/math-w2-footprints.jpg",
+      "alt": "A line of evenly spaced bare footprints in wet sand, all pointing the same way",
+      "credit": "Generated image",
+      "text": "Same shape, same size, same way up. Only the position changed.",
+      "lightBg": true
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which transformation has a fixed centre?",
+        "options": [
+          "Translation",
+          "Reflection",
+          "Rotation",
+          "None of them"
+        ],
+        "answerIndex": 2,
+        "explain": "Everything turns about it; the centre itself does not move.",
+        "seconds": 20
+      }
+    },
+    {
       "kind": "lens",
       "lens": "gaming",
       "icon": "🎮",
@@ -102,6 +128,16 @@
         "**Anything touching the line doesn't move.**",
         "**Left and right swap.** That's the giveaway."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "A flip over a line",
+      "src": "assets/img/math-w2-reflection.jpg",
+      "alt": "A building beside perfectly still water with its complete mirror image below, split by a sharp waterline",
+      "credit": "Generated image",
+      "text": "The waterline is the line of reflection. Every point is the same distance either side.",
+      "lightBg": true
     },
     {
       "kind": "lens",
@@ -156,6 +192,16 @@
         "**A car driving forward** is doing both at once.",
         "**Wheels rotate; the car translates.**"
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Rotation has a fixed centre",
+      "src": "assets/img/math-w2-wheel.jpg",
+      "alt": "A spinning bicycle wheel with the spokes blurred into a disc and the hub at the centre perfectly sharp",
+      "credit": "Generated image",
+      "text": "Everything blurs except the hub. The hub is the centre of rotation.",
+      "lightBg": true
     },
     {
       "kind": "lens",

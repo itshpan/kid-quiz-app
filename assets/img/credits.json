@@ -1083,5 +1083,138 @@
     "artist": "Generated with OpenAI gpt-image-2",
     "licence": "Generated for this project",
     "source": "A small display table set up in a classroom: a plain cloth over it, three finished handmade objects arranged with space between them, and a tablet propped on a stand with a blank screen. Bright classroom daylight, nobody present."
+  },
+  "math-w1-floor": {
+    "file": "math-w1-floor.jpg",
+    "alt": "An old patterned ceramic floor in a repeating geometric design continuing past every edge",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "An old patterned ceramic floor photographed straight down, laid in a repeating geometric design that clearly continues past every edge of the frame. Worn surface, warm daylight."
+  },
+  "math-w2-footprints": {
+    "file": "math-w2-footprints.jpg",
+    "alt": "A line of evenly spaced bare footprints in wet sand, all pointing the same way",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A single line of bare footprints pressed into smooth wet sand, evenly spaced and all pointing the same way, running from the bottom corner of the frame into the distance. Low morning light, long shadows."
+  },
+  "math-w1-triangles": {
+    "file": "math-w1-triangles.jpg",
+    "alt": "A floor tiled in identical equilateral triangles in two alternating shades, filling the frame",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A floor tiled entirely in identical equilateral triangles in two alternating shades, photographed straight down so the pattern fills the frame with no gaps or overlaps anywhere."
+  },
+  "math-w1-hex": {
+    "file": "math-w1-hex.jpg",
+    "alt": "A cut edge of a composite panel showing rows of perfect hexagonal cells packed with no gaps",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "Extreme close view of a carbon-fibre composite panel with a visible honeycomb core exposed at a cut edge, showing rows of perfect hexagonal cells packed together with no gaps. Raking light, dark background."
+  },
+  "math-w3-tenths": {
+    "file": "math-w3-tenths.jpg",
+    "alt": "A solid cube beside an identical cube cut into ten equal thin slabs fanned apart",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "On a plain soft-grey background, one solid cube beside an identical cube that has been sliced into ten equal thin slabs, slightly fanned apart so all ten are countable. Same overall size."
+  },
+  "math-w2-wheel": {
+    "file": "math-w2-wheel.jpg",
+    "alt": "A spinning bicycle wheel with the spokes blurred into a disc and the hub at the centre perfectly sharp",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A bicycle wheel photographed head on while spinning fast, the spokes blurred into a continuous disc while the hub at the exact centre stays perfectly sharp and still. Plain background."
+  },
+  "math-w3-scale": {
+    "file": "math-w3-scale.jpg",
+    "alt": "A digital scale with a blank dark display on a tiled floor beside boxing gloves and a skipping rope",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A flat digital bathroom scale on a tiled floor with its display completely dark and blank, a pair of boxing gloves and a skipping rope on the floor beside it. Plain, no numbers visible anywhere."
+  },
+  "math-w2-reflection": {
+    "file": "math-w2-reflection.jpg",
+    "alt": "A building beside perfectly still water with its complete mirror image below, split by a sharp waterline",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A building standing at the edge of a perfectly still lake at dawn, with its complete mirror image in the water below, the waterline forming a sharp horizontal division across the middle of the frame."
+  },
+  "math-w4-compare": {
+    "file": "math-w4-compare.jpg",
+    "alt": "Two identical clear bottles backlit and filled to very slightly different levels",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "Two identical clear glass bottles standing side by side on a pale surface, backlit, filled with water to very slightly different levels so the small difference is visible but not obvious. No markings on either bottle."
+  },
+  "math-w5-slices": {
+    "file": "math-w5-slices.jpg",
+    "alt": "A pizza cut into eight equal slices with three lifted away, seen from above",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A round flatbread pizza on a wooden board cut into eight equal slices, with three slices already lifted away and placed to one side so the gap in the circle is clear. Seen from directly above."
+  },
+  "math-w6-packs": {
+    "file": "math-w6-packs.jpg",
+    "alt": "Two plain unlabelled packets of the same product on a shelf, one about twice the size of the other",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "Two plain white unlabelled packets of the same product standing side by side on a shop shelf, one clearly about twice the size of the other. Completely blank packaging with no printing, logos or prices."
+  },
+  "math-w5-calc": {
+    "file": "math-w5-calc.jpg",
+    "alt": "A desktop calculator with a blank display beside a blank notepad and a pencil",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A simple desktop calculator with a completely blank dark display, lying on a wooden desk beside a blank notepad and a pencil. No numbers or text visible anywhere, including on the keys."
+  },
+  "math-w7-pie": {
+    "file": "math-w7-pie.jpg",
+    "alt": "A pie cut into eight equal wedges with three removed, seen from above",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A round pie on a plate cut into eight equal wedges, with three wedges removed and the rest still in place, seen from directly above so the empty sector is obvious."
+  },
+  "math-w9-beans": {
+    "file": "math-w9-beans.jpg",
+    "alt": "A small pile of red beans beside a pile of white beans about three times as large",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "Two separate neat piles of dried beans on a pale wooden surface: a small pile of red beans and a clearly larger pile of white beans, roughly three times as many. Seen from above, nothing else in frame."
+  },
+  "math-w7-glasses": {
+    "file": "math-w7-glasses.jpg",
+    "alt": "Three identical glasses filled to about a quarter, a half and three quarters",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "Three identical clear glasses standing in a row on a pale surface, backlit: the first filled to about a quarter, the second to about a half, the third to about three quarters. No markings on the glasses."
+  },
+  "math-w8-grid": {
+    "file": "math-w8-grid.jpg",
+    "alt": "A square ruled into a four-by-five grid with six squares in one corner raised and in a contrasting colour",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A flat square panel on a plain soft-grey background, ruled into a four-by-five grid of equal smaller squares. Six of the small squares, forming a solid block in one corner, are raised slightly and in a contrasting colour."
+  },
+  "math-w9-mix": {
+    "file": "math-w9-mix.jpg",
+    "alt": "Three piles of different sizes on concrete: cement powder, sand and gravel, with a trowel beside them",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "Three small conical piles side by side on a concrete slab: grey cement powder, fine sand, and coarse gravel, each pile a clearly different size. A trowel rests beside them."
+  },
+  "math-w10-model": {
+    "file": "math-w10-model.jpg",
+    "alt": "A small die-cast model car on a bench in front of a full-size car wheel, showing the size difference",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A small die-cast scale model car standing on a workbench directly in front of a full-size car wheel and tyre, so the enormous difference in size is immediate. Plain garage background, no branding or text."
+  },
+  "math-w10-gears": {
+    "file": "math-w10-gears.jpg",
+    "alt": "A bicycle rear cassette showing sprockets from very small to much larger with the chain engaged",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A bicycle's rear cassette photographed close from the side, showing the stack of sprockets running from a very small one to a much larger one, with the chain engaged on one of them. Oily metal, shallow depth of field."
   }
 }
