@@ -123,6 +123,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Where should a knife never be put?",
+        "options": [
+          "In a block",
+          "In the washing-up water",
+          "On a board",
+          "In a drawer"
+        ],
+        "answerIndex": 1,
+        "explain": "Somebody reaches into the water and finds it with a hand.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Six tools, most of a kitchen",
+      "src": "assets/img/tle-t2w1-knives.jpg",
+      "alt": "A chef's knife, a paring knife, measuring cups and spoons, a colander, tongs and a probe thermometer",
+      "credit": "Generated image",
+      "text": "Name the job of each one. The thermometer is the only one that tells you something is safe.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "cars",
       "icon": "🚗",

@@ -109,6 +109,32 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Same chicken, two pans",
+      "src": "assets/img/tle-t2w7-pans.jpg",
+      "alt": "Chicken browning deep gold in oil beside the same chicken simmering pale in water",
+      "credit": "Generated image",
+      "text": "Oil reaches 180°C and browns it. Water stops at 100°C and never will.",
+      "lightBg": true
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "You cannot brown food in boiling water because…",
+        "options": [
+          "it is too wet",
+          "water cannot pass 100°C and browning needs about 140°C",
+          "it is too fast",
+          "water is too clean"
+        ],
+        "answerIndex": 1,
+        "explain": "The ceiling is physical. No technique gets round it.",
+        "seconds": 22
+      }
+    },
+    {
       "kind": "lens",
       "lens": "cars",
       "icon": "🚗",

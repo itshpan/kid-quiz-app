@@ -34,6 +34,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Sand, salt, milk",
+      "src": "assets/img/sci-t2w1-three-glasses.jpg",
+      "alt": "Three glasses side by side: sandy water with visible grains, clear salt water, and opaque white milk",
+      "credit": "Generated image",
+      "text": "One settles, one is invisible, one is opaque and never settles. Three different things.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "Why one falls",
       "title": "Gravity pulls on everything. It only wins sometimes",
@@ -188,6 +198,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Same beam, two tanks",
+      "src": "assets/img/sci-t2w1-tyndall.jpg",
+      "alt": "A light beam invisible in a tank of plain water and clearly visible as a shaft in a tank of milky water",
+      "credit": "Generated image",
+      "text": "Plain water on the left: nothing to see. Add a little milk and the beam appears.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "gaming",
       "icon": "🎮",
@@ -200,6 +220,22 @@
         "**Engines call it** volumetric lighting, and it is expensive to draw.",
         "**Switch fog off** in the settings and the shafts go with it."
       ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why does a colloid never settle out?",
+        "options": [
+          "The particles are too heavy",
+          "The particles are small enough to stay suspended",
+          "It is a solution",
+          "It is stirred constantly"
+        ],
+        "answerIndex": 1,
+        "explain": "Too small for gravity to win against the jostling of the liquid around them.",
+        "seconds": 22
+      }
     },
     {
       "kind": "lens",

@@ -123,6 +123,26 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Clean-as-you-go is mainly about keeping the kitchen tidy.",
+        "answer": false,
+        "explain": "It is a time strategy: the washing-up fits into the minutes something is already simmering.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Your square metre",
+      "src": "assets/img/tle-t2w2-station.jpg",
+      "alt": "A chopping board centred on a counter with a knife to the right, a scrap bowl to the left and a tray of cut vegetables above",
+      "credit": "Generated image",
+      "text": "Board centred, cloth underneath, knife on your side with the blade away, tray for what is finished.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "teardown",
       "icon": "🌀",

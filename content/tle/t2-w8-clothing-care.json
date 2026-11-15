@@ -123,6 +123,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "The instructions were always there",
+      "src": "assets/img/tle-t2w8-laundry.jpg",
+      "alt": "A sewn-in clothing care label showing tub, triangle, square and iron pictograms",
+      "credit": "Generated image",
+      "text": "Tub, triangle, square, iron. Five shapes and a cross is the whole language.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "gaming",
       "icon": "🎮",

@@ -123,6 +123,26 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "A system that depends on remembering is a working system.",
+        "answer": false,
+        "explain": "It fails on the first tired evening. Design for the tired version of you.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Designed for the tired version of you",
+      "src": "assets/img/tle-t2w10-hooks.jpg",
+      "alt": "Three wall hooks at child height with a bag and cap, a basket beneath and a key dish on a small shelf",
+      "credit": "Generated image",
+      "text": "A hook at the right height beats remembering. That is the whole trick.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "growth",
       "icon": "🌱",

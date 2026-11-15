@@ -147,6 +147,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Where the energy goes",
+      "src": "assets/img/sci-t2w9-teardown.jpg",
+      "alt": "A disassembled desk fan laid out: guard, blade, motor with copper windings, a capacitor, cord and screwdriver",
+      "credit": "Generated image",
+      "text": "Electrical in, movement out, and heat and sound whether you wanted them or not.",
+      "lightBg": true
+    },
+    {
       "kind": "terms",
       "title": "Words the test will use",
       "terms": [

@@ -33,6 +33,22 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Left alone overnight",
+      "src": "assets/img/sci-t2w2-settled.jpg",
+      "alt": "A jar of muddy water left to stand, with brown sediment settled in a flat band and clear water above",
+      "credit": "Generated image",
+      "text": "Nobody did anything. Gravity sorted it into a band and clear water above.",
+      "lightBg": true
+    },
+    {
+      "kind": "figure",
+      "figure": "settleStack",
+      "title": "Tap through the stages",
+      "text": "One jar, four stages. Watch what each step still leaves behind."
+    },
+    {
       "kind": "idea",
       "eyebrow": "Decantation",
       "title": "Then pour the clear part off",
@@ -181,6 +197,16 @@
           "def": "Separating solids from solids by particle size."
         }
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "What the paper keeps",
+      "src": "assets/img/sci-t2w2-filter.jpg",
+      "alt": "Cloudy water poured into a paper-lined funnel, dripping clear into the flask below",
+      "credit": "Generated image",
+      "text": "Cloudy in, clear out. The paper holds anything bigger than its holes.",
+      "lightBg": true
     },
     {
       "kind": "recap",

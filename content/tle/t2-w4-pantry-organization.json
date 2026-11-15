@@ -109,6 +109,32 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Front to back is the whole system",
+      "src": "assets/img/tle-t2w4-pantry.jpg",
+      "alt": "A pantry shelf with tins lined front to back, sealed clear jars of rice and flour, and oil kept at the back",
+      "credit": "Generated image",
+      "text": "Oldest at the front, oil in the shade, opened dry goods in something that seals.",
+      "lightBg": true
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which date is the one about safety?",
+        "options": [
+          "Best before",
+          "Use by",
+          "Packed on",
+          "Display until"
+        ],
+        "answerIndex": 1,
+        "explain": "Best before is quality. Use by is the safety date.",
+        "seconds": 20
+      }
+    },
+    {
       "kind": "lens",
       "lens": "space",
       "icon": "🚀",

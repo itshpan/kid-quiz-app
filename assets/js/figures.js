@@ -6391,7 +6391,231 @@ function friendTests() {
     });
 }
 
+/* ==========================================================================
+   SCIENCE FIGURES — Term 2.
+   Separation, forces, energy and machines are all processes, and a process
+   drawn as a still picture is just a picture. Each of these moves: the jar
+   settles, the vacuum pump runs, the lever arm gets longer and the numbers
+   underneath change with it.
+   ========================================================================== */
+
+/* Four stages of one jar, so settling and decanting stop being two words and
+   become two things that happen to the same muddy water. */
+function settleStack() {
+    const jar = `<path class="fig-jar" d="M150 60 h100 v150 a10 10 0 0 1 -10 10 h-80 a10 10 0 0 1 -10 -10 Z" fill="none"/>`;
+    const mud = (y, h, cls = 'fig-liquid') => `<rect class="${cls}" x="152" y="${y}" width="96" height="${h}"/>`;
+    return demoSwitch({
+        id: 'ss2', height: 288, capY: 242,
+        label: 'TAP THROUGH THE STAGES',
+        alt: 'One jar of muddy water shown mixed, settled, decanted and filtered',
+        demos: [
+            { btn: 'Mixed', svg: `${jar}${mud(80, 130)}
+                <text class="fig-cell" x="200" y="248" text-anchor="middle">&#160;</text>`,
+              a: 'MIXED — stirred, and cloudy all the way up',
+              b: 'The solid is spread through the water. Nothing has sorted itself yet.' },
+            { btn: 'Settled', svg: `${jar}${mud(80, 104, 'fig-soft-fill')}${mud(184, 26)}`,
+              a: 'SETTLED — left alone, and gravity did it',
+              b: 'Sedimentation. You did nothing; the heavy particles went down on their own.' },
+            { btn: 'Decanted', svg: `${jar}${mud(184, 26)}
+                <path class="fig-flow" fill="none" d="M250 70 q34 14 34 44"/>`,
+              a: 'DECANTED — the clear part poured off',
+              b: 'Decantation. Cheap and quick, and it always leaves some behind.' },
+            { btn: 'Filtered', svg: `${jar}
+                <path class="fig-divide" fill="none" d="M152 150 h96"/>
+                ${mud(150, 60, 'fig-soft-fill')}`,
+              a: 'FILTERED — through paper, to catch the rest',
+              b: 'The paper keeps anything bigger than its holes. This is what decanting misses.' }
+        ]
+    });
+}
+
+/* Five ways to pull a mixture apart, each named by the force doing the work
+   rather than by the apparatus, because the force is the transferable part. */
+function forceSort() {
+    return listPicker({
+        id: 'fs3', label: 'WHICH FORCE DOES THE WORK?', height: 272, y0: 60, dy: 26,
+        alt: 'Five separation methods, each named by the force that does the separating',
+        capA: 'The force: ', capB: 'Works because: ',
+        rows: [
+            { btn: '1', short: 'Sieving', a: 'None — it is geometry',
+              b: 'Big stays, small passes. Nothing is pulled; the holes decide.' },
+            { btn: '2', short: 'Winnowing', a: 'Moving air against weight',
+              b: 'Heavy grain is barely pushed. Light chaff is carried away.' },
+            { btn: '3', short: 'Magnetic', a: 'Magnetism, on iron only',
+              b: 'Ignores everything that is not magnetic, however heavy or fine it is.' },
+            { btn: '4', short: 'Centrifuging', a: 'Spin, standing in for gravity',
+              b: 'Settling takes hours. Spinning makes the same sort happen in minutes.' },
+            { btn: '5', short: 'Flotation', a: 'Buoyancy against density',
+              b: 'Less dense than the liquid floats, denser sinks. Density, not weight.' },
+            { btn: '?', short: 'Choosing one', a: 'Ask what the two parts differ in',
+              b: 'Size, weight, magnetism or density. The difference picks the method.' }
+        ]
+    });
+}
+
+/* Evaporation and distillation do the same first half and differ entirely in
+   what they keep, which is the only thing the exam ever asks. */
+function distillLab() {
+    const flask = `<path class="fig-jar" fill="none" d="M176 70 h14 v30 a44 44 0 1 1 -28 0 v-30 Z"/>`;
+    const heat = `<path class="fig-force" fill="none" d="M166 206 q8 -12 0 -22 M176 208 q8 -12 0 -22 M186 206 q8 -12 0 -22"/>`;
+    return demoSwitch({
+        id: 'dl4', height: 280, capY: 236,
+        label: 'WHICH HALF DO YOU WANT?',
+        alt: 'Evaporation losing the solvent to the air beside distillation collecting it in a beaker',
+        demos: [
+            { btn: 'Evaporation', svg: `${flask}${heat}
+                <path class="fig-breath" fill="none" d="M183 66 q-10 -18 2 -32 M183 66 q12 -16 0 -34"/>
+                <rect class="fig-grain" x="166" y="176" width="34" height="8" rx="3"/>`,
+              a: 'EVAPORATION — you keep the solid',
+              b: 'The solvent leaves as vapour and is gone. Salt stays in the pan; the water is lost.' },
+            { btn: 'Distillation', svg: `${flask}${heat}
+                <path class="fig-flow" fill="none" d="M190 76 q50 0 62 44 q6 26 -10 40"/>
+                <path class="fig-jar" fill="none" d="M228 170 h44 v38 h-44 Z"/>
+                <rect class="fig-liquid" x="230" y="192" width="40" height="15"/>`,
+              a: 'DISTILLATION — you keep both',
+              b: 'The same vapour is cooled back to liquid and collected. Nothing is thrown away.' }
+        ]
+    });
+}
+
+/* Friction as a number you can press, with the stopping distance it actually
+   produces. The distances are worked from v²/2μg at 60 km/h and are real. */
+function frictionLab() {
+    const dist = v => Math.round(14.2 / v);
+    const note = {
+        '0.1': 'Ice. Almost nothing to grip. Steering and braking both stop working.',
+        '0.4': 'Wet road. Half the grip of dry, so twice the distance. This is rain, not ice.',
+        '0.8': 'Dry road, good tyres. This is the number everything else is compared to.',
+        '1.1': 'Soft racing rubber, warm. More grip than the road is usually asked to give.'
+    };
+    return ruleLab({
+        id: 'fl5', label: 'PRESS A SURFACE',
+        alt: 'A lab showing how the grip of different surfaces changes the distance needed to stop from 60 km/h',
+        input: { name: 'Grip', values: [0.1, 0.4, 0.8, 1.1],
+                 label: v => ({ 0.1: 'Ice', 0.4: 'Wet road', 0.8: 'Dry road', 1.1: 'Race tyre' }[v]) },
+        outputs: [
+            { name: 'Grip', f: v => v, fmt: o => o.toFixed(2) },
+            { name: 'Stopping from 60', f: v => dist(v), fmt: o => `${o} m` }
+        ],
+        rule: v => note[String(v)]
+    });
+}
+
+/* The hammer and the feather. Drawn rather than described because the claim
+   sounds false until you watch it: Apollo 15, 1971, and they landed together. */
+function fallPair() {
+    const scene = (sepL, sepR) => `
+      <text class="fig-cell" x="128" y="56" text-anchor="middle">feather</text>
+      <text class="fig-cell" x="272" y="56" text-anchor="middle">hammer</text>
+      <path class="fig-divide" fill="none" d="M40 212 h320"/>
+      <circle class="fig-point-h" cx="128" cy="${sepL}" r="8"/>
+      <rect class="fig-grain" x="262" y="${sepR - 8}" width="20" height="16" rx="3"/>`;
+    return demoSwitch({
+        id: 'fp6', height: 282, capY: 240,
+        label: 'DROP THEM TOGETHER',
+        alt: 'A feather and a hammer dropped together, falling apart in air and together in a vacuum',
+        demos: [
+            { btn: 'In air', svg: scene(104, 196),
+              a: 'IN AIR — the hammer is already down',
+              b: 'Air resistance acts on the feather far more, because it has huge area for its mass.' },
+            { btn: 'No air', svg: scene(196, 196),
+              a: 'IN A VACUUM — they land together',
+              b: 'Gravity pulls both the same. Apollo 15 did this on the Moon in 1971 and filmed it.' }
+        ]
+    });
+}
+
+/* Sound needs something to travel through. Light does not. One jar, one pump,
+   and the two behave completely differently. */
+function waveNeeds() {
+    const jar = `<path class="fig-jar" fill="none" d="M140 64 h120 v146 h-120 Z"/>
+                 <rect class="fig-grain" x="178" y="118" width="44" height="38" rx="5"/>
+                 <path class="fig-flow" fill="none" d="M260 190 h40"/>`;
+    const ring = n => Array.from({ length: n }, (_, i) =>
+        `<circle class="fig-point" cx="200" cy="137" r="${30 + i * 16}" fill="none"/>`).join('');
+    const beam = `<path class="fig-track" fill="none" d="M60 137 h118 M222 137 h118"/>`;
+    return demoSwitch({
+        id: 'wn8', height: 282, capY: 238,
+        label: 'PUMP THE AIR OUT',
+        alt: 'A bell ringing in a jar, with sound waves present in air and absent in a vacuum while light passes either way',
+        demos: [
+            { btn: 'With air', svg: `${jar}${ring(3)}${beam}`,
+              a: 'WITH AIR — you hear it and you see it',
+              b: 'Sound is a squeeze passed from particle to particle. Air gives it something to squeeze.' },
+            { btn: 'Air pumped out', svg: `${jar}${beam}`,
+              a: 'VACUUM — you still see it. You hear nothing.',
+              b: 'No particles, no squeeze. Light is not a squeeze, so it crosses empty space unbothered.' }
+        ]
+    });
+}
+
+/* The lever, as a trade rather than as a magic force multiplier. The second
+   bar is the one that matters: nothing is gained, it is only rearranged. */
+function leverLab() {
+    return ruleLab({
+        id: 'll10', label: 'MAKE THE ARM LONGER',
+        alt: 'A lab showing that lengthening a lever arm lowers the effort needed and raises the distance moved by the same factor',
+        input: { name: 'Effort arm', unit: '×', values: [1, 2, 3, 4] },
+        outputs: [
+            { name: 'Effort needed', f: v => Math.round(100 / v), fmt: o => `${o} N` },
+            { name: 'Distance you move', f: v => v * 10, fmt: o => `${o} cm` }
+        ],
+        rule: v => v === 1
+            ? 'Arms equal: 100 N to lift 100 N, and your end moves the same 10 cm. No help at all.'
+            : `Arm ${v}× longer: ${Math.round(100 / v)} N instead of 100 N — but your end travels ${v * 10} cm to lift the load 10 cm.`
+    });
+}
+
+/* The term's review board. */
+function sciT2Map() {
+    return examMap({
+        id: 'sct2', label: 'TEN WEEKS · THE TERM',
+        alt: 'The ten Science topics of the term, each with what to know and the usual trap',
+        rows: [
+            { btn: '1', short: 'Suspensions & colloids',
+              a: 'Solution, colloid, suspension by particle size',
+              b: 'A colloid never settles. A suspension does, given time.' },
+            { btn: '2', short: 'Gravity methods',
+              a: 'Sedimentation, decantation, filtration',
+              b: 'Decanting always leaves some behind. That is why filtering follows it.' },
+            { btn: '3', short: 'Adding a force',
+              a: 'Sieving, winnowing, magnetism, centrifuging',
+              b: 'Winnowing sorts by weight, sieving by size. Not the same thing.' },
+            { btn: '4', short: 'Separating solutions',
+              a: 'Evaporation keeps the solid; distillation keeps both',
+              b: 'Dissolved is not gone. Evaporation is the proof.' },
+            { btn: '5', short: 'Gravity & friction',
+              a: 'Friction depends on the surfaces, not the speed',
+              b: 'Starting friction is higher than sliding friction.' },
+            { btn: '6', short: 'Living with forces',
+              a: 'Air resistance, grip, downforce',
+              b: 'In a vacuum a feather and a hammer land together.' },
+            { btn: '7', short: 'Mechanical energy',
+              a: 'Potential and kinetic, and the swap between them',
+              b: 'Kinetic energy goes with the square of speed, not with speed.' },
+            { btn: '8', short: 'Sound, heat, light',
+              a: 'What each one needs in order to travel',
+              b: 'Sound needs a medium. Light does not. Space is silent.' },
+            { btn: '9', short: 'Electricity',
+              a: 'Energy transformations in a circuit',
+              b: 'Heat is produced whether you wanted it or not.' },
+            { btn: '10', short: 'Simple machines',
+              a: 'Lever, pulley, ramp, wheel, wedge, screw',
+              b: 'A machine trades force for distance. It never gives you work for free.' }
+        ]
+    });
+}
+
 export const FIGURES = {
+    settleStack,
+    forceSort,
+    distillLab,
+    frictionLab,
+    fallPair,
+    waveNeeds,
+    leverLab,
+    sciT2Map,
+
     friendTests,
 
     impulseGap,

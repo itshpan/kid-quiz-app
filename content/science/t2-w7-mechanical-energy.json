@@ -45,6 +45,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Double the speed and the kinetic energy becomes…",
+        "options": [
+          "twice as much",
+          "three times as much",
+          "four times as much",
+          "the same"
+        ],
+        "answerIndex": 2,
+        "explain": "It goes with the square of speed. That is why speed limits drop near schools.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Nothing is moving. It is still loaded.",
+      "src": "assets/img/sci-t2w7-ramp.jpg",
+      "alt": "A skateboard balanced at the top lip of a concrete ramp with the drop falling away below",
+      "credit": "Generated image",
+      "text": "Everything it will do on the way down is already in it, because of where it is.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "physics",
       "icon": "⚛️",

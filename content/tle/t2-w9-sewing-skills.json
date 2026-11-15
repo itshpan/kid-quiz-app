@@ -109,6 +109,32 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Four stitches, four strengths",
+      "src": "assets/img/tle-t2w9-stitches.jpg",
+      "alt": "Four rows of hand stitching on hooped fabric: running, backstitch, long basting and overcast along an edge",
+      "credit": "Generated image",
+      "text": "Running, backstitch, basting, overcast. Find the one that is meant to come out.",
+      "lightBg": true
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which stitch is designed to be removed again?",
+        "options": [
+          "Backstitch",
+          "Basting stitch",
+          "Hemming stitch",
+          "Overcast stitch"
+        ],
+        "answerIndex": 1,
+        "explain": "Long, loose and in a contrasting thread so you can find it.",
+        "seconds": 20
+      }
+    },
+    {
       "kind": "lens",
       "lens": "teardown",
       "icon": "🌀",

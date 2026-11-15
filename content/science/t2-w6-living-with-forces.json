@@ -111,6 +111,22 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "A wing mounted upside down",
+      "src": "assets/img/sci-t2w6-wing.jpg",
+      "alt": "The steeply angled rear wing of a racing car seen close from behind",
+      "credit": "Generated image",
+      "text": "An aircraft wing lifts. Angle it the other way and it pushes the car into the road.",
+      "lightBg": true
+    },
+    {
+      "kind": "figure",
+      "figure": "fallPair",
+      "title": "Drop them together",
+      "text": "A feather and a hammer. Tap the air out and watch what changes."
+    },
+    {
       "kind": "lens",
       "lens": "teardown",
       "icon": "🌀",

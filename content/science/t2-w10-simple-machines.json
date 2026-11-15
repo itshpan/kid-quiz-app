@@ -45,6 +45,12 @@
       ]
     },
     {
+      "kind": "figure",
+      "figure": "leverLab",
+      "title": "Make the arm longer",
+      "text": "Watch both bars. The second one is the price of the first."
+    },
+    {
       "kind": "checkpoint",
       "question": {
         "type": "multiple",
@@ -165,6 +171,16 @@
           "def": "A ramp — including the wedge and the screw."
         }
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "All six, on one bench",
+      "src": "assets/img/sci-t2w10-machines.jpg",
+      "alt": "A crowbar, a pulley block, a wooden ramp, a wheel and axle, a wedge and a large screw laid out on a bench",
+      "credit": "Generated image",
+      "text": "Lever, pulley, inclined plane, wheel and axle, wedge, screw. Every machine is these.",
+      "lightBg": true
     },
     {
       "kind": "recap",

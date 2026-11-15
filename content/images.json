@@ -78,6 +78,174 @@
       "size": "wide",
       "prompt": "A simple school exhibition table seen from a visitor's side: a folding table covered with a plain cloth, holding a small handwoven basket, a star-shaped capiz lantern, a pair of bronze gongs and a tablet propped on a stand with a blank dark screen. Bright hall daylight, no people, no signage.",
       "alt": "A cloth-covered exhibition table holding a woven basket, a capiz lantern, two bronze gongs and a tablet on a stand"
+    },
+    "tle-t2w1-knives": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A flat-lay of basic kitchen tools on a pale wooden board: a large chef's knife with a curved blade, a small paring knife, a nested set of metal measuring cups and spoons, a stainless steel colander, a pair of kitchen tongs, and an instant-read probe thermometer. Clean and well used, not new.",
+      "alt": "A chef's knife, a paring knife, measuring cups and spoons, a colander, tongs and a probe thermometer"
+    },
+    "tle-t2w2-station": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A prepared kitchen workstation seen from directly above: a large wooden chopping board centred on a counter with a folded damp cloth just visible underneath it, a chef's knife resting to the right of the board with the blade pointing away, a small bowl for scraps to the left, and a shallow metal tray of already-cut vegetables above. Nothing else on the counter.",
+      "alt": "A chopping board centred on a counter with a knife to the right, a scrap bowl to the left and a tray of cut vegetables above"
+    },
+    "tle-t2w3-fridge": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "The inside of a clean domestic refrigerator with the door open, seen straight on. Raw chicken sealed in a clear lidded container sits alone on the lowest shelf. Cooked food in covered containers, a carton of milk and a bowl of vegetables sit on the shelves above it. A small round fridge thermometer hangs at the front. Cool even light.",
+      "alt": "An open fridge with raw chicken sealed on the bottom shelf and cooked food and vegetables on the shelves above"
+    },
+    "tle-t2w3-rice": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A wide shallow metal tray of freshly cooked white rice spread out in a thin even layer to cool quickly, steam just visible rising from it, sitting on a kitchen counter beside a closed storage container with its lid off and ready.",
+      "alt": "Cooked rice spread thin in a shallow tray to cool fast, beside an open storage container"
+    },
+    "tle-t2w4-pantry": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A tidy pantry shelf seen straight on: identical tins lined up front to back, clear sealed jars of rice and flour with small handwritten-looking blank labels, a bottle of cooking oil standing in shadow at the back of the shelf, and a few glass containers. Everything squared up and facing forward. No readable writing anywhere.",
+      "alt": "A pantry shelf with tins lined front to back, sealed clear jars of rice and flour, and oil kept at the back"
+    },
+    "tle-t2w5-cuts": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A wooden chopping board seen from above, holding five neat separate piles of prepared vegetables: thin even slices of carrot, small equal cubes of carrot, fine matchsticks of carrot, a small mound of very finely minced garlic, and a loose pile of fine green ribbons of shredded leaves. A chef's knife rests along the top edge.",
+      "alt": "Five piles on a board: carrot slices, cubes, matchsticks, minced garlic and fine green leaf ribbons"
+    },
+    "tle-t2w6-nocook": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A packed no-cook lunch seen from above on a pale surface: a sandwich cut in half showing spread carried right out to the crust edges, a small sealed container of sliced mango and papaya, two boiled eggs, and a cool pack beside an insulated lunch bag.",
+      "alt": "A halved sandwich with spread to the crusts, a container of cut fruit, two boiled eggs and a cool pack"
+    },
+    "tle-t2w7-pans": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "Two pans side by side on a stove, seen from above. Left: a pan of oil with pieces of chicken browning to a deep golden crust. Right: a pot of water at a bare simmer with pale pieces of the same chicken in it, no colour at all on them. The difference in colour between the two is obvious.",
+      "alt": "Chicken browning deep gold in oil beside the same chicken simmering pale in water"
+    },
+    "tle-t2w8-laundry": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "Close view of a clothing care label sewn into the inside seam of a cotton shirt, showing a row of small black laundry symbols: a tub of water, a triangle, a square, and an iron. The symbols are simple black pictograms with no letters or numbers. Shallow depth of field, soft daylight.",
+      "alt": "A sewn-in clothing care label showing tub, triangle, square and iron pictograms"
+    },
+    "tle-t2w9-stitches": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A piece of pale cream fabric in a wooden embroidery hoop, worked with four separate rows of hand stitching in dark thread for comparison: a row of evenly spaced running stitch, a row of solid continuous backstitch, a row of long loose basting stitch, and a row of slanted overcast stitch along a cut edge. A threaded needle rests beside it.",
+      "alt": "Four rows of hand stitching on hooped fabric: running, backstitch, long basting and overcast along an edge"
+    },
+    "tle-t2w10-hooks": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A simple home drop zone by a front door: a row of three wooden wall hooks at child height holding a school bag and a cap, a shallow woven basket on the floor beneath them, and a small shelf above with a set of keys in a dish. Plain wall, warm daylight, nothing cluttered.",
+      "alt": "Three wall hooks at child height with a bag and cap, a basket beneath and a key dish on a small shelf"
+    },
+    "tle-t2w11-mise": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A workstation fully set up before any cooking starts, seen from above: every ingredient already measured into its own small glass bowl and arranged in a neat arc, a chopping board wiped clean, a knife laid parallel to the counter edge, and an unlit stove with a cold empty pan on it.",
+      "alt": "Ingredients pre-measured into small bowls arranged in an arc beside a clean board, a knife and a cold pan"
+    },
+    "sci-t2w1-three-glasses": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "Three identical clear drinking glasses side by side on a pale surface, lit from behind. Left: water with sand in it, the grains clearly visible and settling. Middle: completely clear salt water, transparent. Right: milk, uniformly white and opaque. The difference between the three is obvious.",
+      "alt": "Three glasses side by side: sandy water with visible grains, clear salt water, and opaque white milk"
+    },
+    "sci-t2w1-tyndall": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A darkened room with a narrow beam of light shining horizontally through two clear glass tanks side by side. In the left tank of plain water the beam is invisible. In the right tank of water with a little milk stirred in, the beam shows as a bright visible shaft through the liquid.",
+      "alt": "A light beam invisible in a tank of plain water and clearly visible as a shaft in a tank of milky water"
+    },
+    "sci-t2w2-settled": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A tall clear glass jar of muddy river water that has been left to stand, photographed straight on against a pale background. A thick layer of brown sediment has settled into a sharp flat band at the bottom and the water above it has gone almost clear.",
+      "alt": "A jar of muddy water left to stand, with brown sediment settled in a flat band and clear water above"
+    },
+    "sci-t2w2-filter": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A glass funnel lined with a folded paper filter sitting in the neck of a clear conical flask. Cloudy grey water is being poured into the funnel from above and clear water is dripping out of the stem into the flask below, which already holds a shallow layer of clear liquid.",
+      "alt": "Cloudy water poured into a paper-lined funnel, dripping clear into the flask below"
+    },
+    "sci-t2w3-winnow": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A wide flat round woven rattan winnowing tray held at an angle, with unhusked rice grains in it and a cloud of light chaff blowing off the far edge in the breeze. The heavy grain stays in the tray. Outdoors, warm daylight, hands visible but no face.",
+      "alt": "Rice being winnowed on a round woven tray, light chaff blowing off the edge while the grain stays"
+    },
+    "sci-t2w3-magnet": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A strong bar magnet held just above a shallow dish of pale sand, with dark iron filings leaping up and clinging to the magnet in bristling spikes while the sand stays in the dish. Plain pale background.",
+      "alt": "A bar magnet lifting dark iron filings in spikes out of a dish of pale sand"
+    },
+    "sci-t2w4-saltpan": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A wide shallow stainless steel pan photographed from above, completely dry, with a crust of white salt crystals left across the bottom in a ring pattern where the water evaporated away. Warm overhead light showing the crystal texture.",
+      "alt": "A dry pan with a ring-shaped crust of white salt crystals left where the water evaporated"
+    },
+    "sci-t2w4-distill": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A simple laboratory distillation set up on a bench: a round-bottomed flask of dark liquid over a gentle flame, a long glass condenser sloping away from it with cooling water tubes attached, and clear colourless liquid dripping from its end into a small beaker.",
+      "alt": "A distillation apparatus: a flask of dark liquid, a sloping condenser, and clear liquid dripping into a beaker"
+    },
+    "sci-t2w5-tyres": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "Two car tyres standing side by side on wet tarmac, photographed from the side at tread level. The left tyre has deep sharp tread grooves. The right tyre is worn almost smooth with the grooves nearly gone. Water is visible on the ground beneath both.",
+      "alt": "A deeply treaded tyre beside a worn almost smooth tyre, both on wet tarmac"
+    },
+    "sci-t2w6-wing": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "The large rear wing of a racing car photographed close and from behind at track level, showing the steeply angled aerofoil blades and their end plates. Blurred track and kerbing behind. No sponsor markings, no text, no numbers anywhere.",
+      "alt": "The steeply angled rear wing of a racing car seen close from behind"
+    },
+    "sci-t2w7-ramp": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A skateboard balanced motionless right at the very top lip of a concrete skate ramp, seen from the side, with the curved drop of the ramp falling away below it. Nobody is on it. Late afternoon light, long shadow.",
+      "alt": "A skateboard balanced at the top lip of a concrete ramp with the drop falling away below"
+    },
+    "sci-t2w8-drumskin": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "Close overhead view of a drum head with a scatter of white rice grains on it, caught mid-bounce a few millimetres above the skin as the drum is struck. The grains are clearly in the air. Shallow depth of field, dark background.",
+      "alt": "Rice grains caught bouncing in the air above a drum head as it is struck"
+    },
+    "sci-t2w8-prism": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A clear triangular glass prism on a white surface in a darkened room, with a narrow beam of white light entering one face and a bright spread spectrum of red, orange, yellow, green, blue and violet fanning out of the other onto the surface.",
+      "alt": "A glass prism splitting a narrow white beam into a fanned spectrum of colours"
+    },
+    "sci-t2w9-teardown": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "An electric desk fan taken apart on a workbench and laid out: the removed wire guard, the plastic blade, the motor housing opened to show copper windings, a silver cylindrical capacitor, and the power cord, all arranged in a row with a screwdriver beside them.",
+      "alt": "A disassembled desk fan laid out: guard, blade, motor with copper windings, a capacitor, cord and screwdriver"
+    },
+    "sci-t2w10-machines": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A flat-lay of six simple machines on a pale workbench: a steel crowbar, a small rope pulley block, a short wooden ramp, a wheel on an axle, a metal splitting wedge, and a large screw. Arranged with space between them.",
+      "alt": "A crowbar, a pulley block, a wooden ramp, a wheel and axle, a wedge and a large screw laid out on a bench"
+    },
+    "sci-t2w11-bench": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A school science bench set up for practical work, seen from above: a funnel with filter paper in a flask, a magnet beside a dish of sand, a beaker of cloudy liquid, a small pulley, a ramp with a toy car at the top of it, and a thermometer.",
+      "alt": "A school science bench with a filter funnel, a magnet and sand, a beaker, a pulley, a ramp with a toy car, and a thermometer"
     }
   },
   "_never": "NEVER generate an image that poses as a documentary photograph of a specific real place, artwork, artefact or person - the Angono Petroglyphs, the Spoliarium, Rizal. A generated picture of a named real thing is a false claim about the world, and CLAUDE.md says facts must be true. Generated photographs depict a TYPE (kamote, a kulintang, a sipa shuttle), never a named original. For a specific real artefact use tools/fetch-images.mjs to pull the real, credited photograph from Wikimedia instead."

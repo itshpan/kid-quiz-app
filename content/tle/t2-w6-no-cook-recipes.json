@@ -109,6 +109,32 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Built to survive until lunch",
+      "src": "assets/img/tle-t2w6-nocook.jpg",
+      "alt": "A halved sandwich with spread to the crusts, a container of cut fruit, two boiled eggs and a cool pack",
+      "credit": "Generated image",
+      "text": "Spread carried to the crusts, fruit sealed, and something cold packed with it.",
+      "lightBg": true
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why does a sandwich spread go right to the edges?",
+        "options": [
+          "It tastes better",
+          "The fat is a moisture barrier",
+          "It uses it up",
+          "It looks tidier"
+        ],
+        "answerIndex": 1,
+        "explain": "Dry against the bread, wet in the middle. That is what makes it last until lunch.",
+        "seconds": 22
+      }
+    },
+    {
       "kind": "lens",
       "lens": "boxing",
       "icon": "🥊",

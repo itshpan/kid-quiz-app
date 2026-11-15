@@ -34,6 +34,22 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Moving air sorts by weight",
+      "src": "assets/img/sci-t2w3-winnow.jpg",
+      "alt": "Rice being winnowed on a round woven tray, light chaff blowing off the edge while the grain stays",
+      "credit": "Generated image",
+      "text": "Heavy grain stays in the bilao. Light chaff leaves. No sieve involved.",
+      "lightBg": true
+    },
+    {
+      "kind": "figure",
+      "figure": "forceSort",
+      "title": "Five buttons",
+      "text": "Tap each method. The second line names the force actually doing the work."
+    },
+    {
       "kind": "lens",
       "lens": "teardown",
       "icon": "🌀",
@@ -178,6 +194,16 @@
           "def": "How much mass is packed into a given volume."
         }
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Only one thing in the dish is iron",
+      "src": "assets/img/sci-t2w3-magnet.jpg",
+      "alt": "A bar magnet lifting dark iron filings in spikes out of a dish of pale sand",
+      "credit": "Generated image",
+      "text": "The sand is untouched. Magnetism is a separating force that ignores everything else.",
+      "lightBg": true
     },
     {
       "kind": "recap",

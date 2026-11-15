@@ -62,6 +62,12 @@
       ]
     },
     {
+      "kind": "figure",
+      "figure": "sciT2Map",
+      "title": "Ten weeks, one board",
+      "text": "Tap each week. The second line is the trap it sets."
+    },
+    {
       "kind": "lens",
       "lens": "teardown",
       "icon": "🌀",
@@ -121,6 +127,16 @@
         "**Braking distance** follows the same curve.",
         "**It decided** meteors, wind and cars alike."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "The whole term on one bench",
+      "src": "assets/img/sci-t2w11-bench.jpg",
+      "alt": "A school science bench with a filter funnel, a magnet and sand, a beaker, a pulley, a ramp with a toy car, and a thermometer",
+      "credit": "Generated image",
+      "text": "Filter, magnet, beaker, pulley, ramp, thermometer. Name the week each one belongs to.",
+      "lightBg": true
     },
     {
       "kind": "idea",

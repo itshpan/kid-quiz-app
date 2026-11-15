@@ -33,6 +33,22 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "You can see the vibration",
+      "src": "assets/img/sci-t2w8-drumskin.jpg",
+      "alt": "Rice grains caught bouncing in the air above a drum head as it is struck",
+      "credit": "Generated image",
+      "text": "The grains are in the air. The skin is pushing them, and pushing the air the same way.",
+      "lightBg": true
+    },
+    {
+      "kind": "figure",
+      "figure": "waveNeeds",
+      "title": "Pump the air out",
+      "text": "A bell in a jar. One of the two waves stops working."
+    },
+    {
       "kind": "lens",
       "lens": "teardown",
       "icon": "🌀",
@@ -109,6 +125,16 @@
         "**Absorption** — it is taken in and becomes heat.",
         "**Shadows are proof** that it does not bend round corners."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "White was never one colour",
+      "src": "assets/img/sci-t2w8-prism.jpg",
+      "alt": "A glass prism splitting a narrow white beam into a fanned spectrum of colours",
+      "credit": "Generated image",
+      "text": "The glass bends each colour by a different amount, so they come out separated.",
+      "lightBg": true
     },
     {
       "kind": "lens",

@@ -75,6 +75,22 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Same car, two tyres",
+      "src": "assets/img/sci-t2w5-tyres.jpg",
+      "alt": "A deeply treaded tyre beside a worn almost smooth tyre, both on wet tarmac",
+      "credit": "Generated image",
+      "text": "Those grooves are there to move water. Worn smooth, there is nowhere for it to go.",
+      "lightBg": true
+    },
+    {
+      "kind": "figure",
+      "figure": "frictionLab",
+      "title": "Press a surface",
+      "text": "Four surfaces, and the distance each one needs to stop from 60 km/h."
+    },
+    {
       "kind": "idea",
       "eyebrow": "Two kinds",
       "title": "Starting is harder than keeping going",

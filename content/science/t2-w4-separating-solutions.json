@@ -33,6 +33,32 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "The water left. The salt did not.",
+      "src": "assets/img/sci-t2w4-saltpan.jpg",
+      "alt": "A dry pan with a ring-shaped crust of white salt crystals left where the water evaporated",
+      "credit": "Generated image",
+      "text": "It was dissolved, not gone. Evaporation proves a solution still had solid in it.",
+      "lightBg": true
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "If salt dissolves, the salt is gone.",
+        "answer": false,
+        "explain": "It is spread through the water. Boil the water off and it is all still there.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "figure",
+      "figure": "distillLab",
+      "title": "Two buttons",
+      "text": "Same heat, same flask. The difference is what you walk away with."
+    },
+    {
       "kind": "idea",
       "eyebrow": "Condensation",
       "title": "Catch the gas and it turns back into liquid",
@@ -135,6 +161,16 @@
         "**Bitumen for roads** never boils and stays at the bottom.",
         "**One mixture in, many products out**, by boiling point alone."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Distillation keeps both halves",
+      "src": "assets/img/sci-t2w4-distill.jpg",
+      "alt": "A distillation apparatus: a flask of dark liquid, a sloping condenser, and clear liquid dripping into a beaker",
+      "credit": "Generated image",
+      "text": "The liquid dripping out is the solvent. Evaporation throws that away.",
+      "lightBg": true
     },
     {
       "kind": "terms",

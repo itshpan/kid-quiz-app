@@ -123,6 +123,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which part of a practical do people most often skip?",
+        "options": [
+          "Hygiene",
+          "The result",
+          "Clean-up",
+          "Sequence"
+        ],
+        "answerIndex": 2,
+        "explain": "And it is scored.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "This is what gets marked",
+      "src": "assets/img/tle-t2w11-mise.jpg",
+      "alt": "Ingredients pre-measured into small bowls arranged in an arc beside a clean board, a knife and a cold pan",
+      "credit": "Generated image",
+      "text": "Everything measured and in place before any heat. Markers watch the order, not your speed.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "growth",
       "icon": "🌱",

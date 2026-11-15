@@ -109,6 +109,32 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Raw meat lives on the bottom shelf",
+      "src": "assets/img/tle-t2w3-fridge.jpg",
+      "alt": "An open fridge with raw chicken sealed on the bottom shelf and cooked food and vegetables on the shelves above",
+      "credit": "Generated image",
+      "text": "Sealed, and under everything else. Nothing it drips on is food you will eat raw.",
+      "lightBg": true
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "How long can perishable food sit out, in total?",
+        "options": [
+          "Thirty minutes",
+          "About two hours",
+          "Six hours",
+          "Until it smells"
+        ],
+        "answerIndex": 1,
+        "explain": "One hour above 32°C. And the clock does not reset in the fridge.",
+        "seconds": 20
+      }
+    },
+    {
       "kind": "lens",
       "lens": "gaming",
       "icon": "🎮",
@@ -135,6 +161,16 @@
         "**The gas expands inside** and gets cold.",
         "**Blocked coils mean a warm fridge.** Keep the back clear."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Cooked rice, spread thin",
+      "src": "assets/img/tle-t2w3-rice.jpg",
+      "alt": "Cooked rice spread thin in a shallow tray to cool fast, beside an open storage container",
+      "credit": "Generated image",
+      "text": "Spread out it falls through the danger zone in minutes. In the pot it sits in it for hours.",
+      "lightBg": true
     },
     {
       "kind": "recap",

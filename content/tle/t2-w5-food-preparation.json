@@ -123,6 +123,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why does even sizing matter more than fine chopping?",
+        "options": [
+          "It looks neater",
+          "Equal pieces finish cooking together",
+          "It is faster to cut",
+          "It uses less oil"
+        ],
+        "answerIndex": 1,
+        "explain": "Uneven pieces give you burnt and raw in the same spoonful.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "One carrot, five decisions",
+      "src": "assets/img/tle-t2w5-cuts.jpg",
+      "alt": "Five piles on a board: carrot slices, cubes, matchsticks, minced garlic and fine green leaf ribbons",
+      "credit": "Generated image",
+      "text": "Slice, dice, julienne, mince, chiffonade. Each pile cooks in a different length of time.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "boxing",
       "icon": "🥊",
