@@ -98,12 +98,13 @@ async function walk(page, rel) {
 
     /* Answer from the lesson's own key, so a disagreement between the deck
        and the data shows up as a wrong answer rather than passing quietly. */
-    const choice = new Map(), typed = new Map(), ordered = new Map();
+    const choice = new Map(), typed = new Map(), ordered = new Map(), bones = new Map();
     for (const q of lesson.quiz ?? []) {
         if (q.type === 'order' && q.items) ordered.set(norm(q.text), q.items);
         else if (q.options) choice.set(norm(q.text), q.options[q.answerIndex]);
         else if (q.type === 'truefalse') choice.set(norm(q.text), q.answer ? 'True' : 'False');
         else if (q.type === 'type' && q.accept) typed.set(norm(q.text), q.accept[0]);
+        else if (q.type === 'hotspot') bones.set(norm(q.text), q.answerBone);
     }
 
     const problems = [];
@@ -133,6 +134,12 @@ async function walk(page, rel) {
         } else if (await page.locator('#cardHost .sortable').count()) {
             await page.locator('#cardHost .btn.primary.wide').first().click();
             await page.clock.runFor(150);
+        } else if (await page.locator('#cardHost .skel [data-bone]').count()) {
+            /* A hotspot: tap a bone on the skeleton. There is exactly one of
+               these in the app, and before it was handled the Next button
+               simply never enabled and the walk span until it timed out. */
+            await page.locator('#cardHost .skel [data-bone]').first().click({ force: true });
+            await page.clock.runFor(150);
         }
         const next = page.locator('#nav button').last();
         if (!await next.count()) break;
@@ -150,7 +157,12 @@ async function walk(page, rel) {
         const opts = page.locator('#quizHost .option');
         const ty = page.locator('#quizHost #typeIn');
         const so = page.locator('#quizHost .sortable');
-        if (!await opts.count() && !await ty.count() && !await so.count()) break;
+        const hs = page.locator('#quizHost .skel [data-bone]');
+        /* Every input kind has to be listed here. A hotspot has none of the
+           other three, so leaving it out made the loop exit at the first one
+           and report the quiz as unfinished. */
+        if (!await opts.count() && !await ty.count()
+            && !await so.count() && !await hs.count()) break;
         await page.clock.fastForward(19_000);   // past the per-question nudges
 
         const stem = (await page.locator('#quizHost .qtext, #quizHost h2')
@@ -170,6 +182,14 @@ async function walk(page, rel) {
             if (!want) problems.push(`no typed key for "${stem.slice(0, 48)}"`);
             await ty.fill(want ?? 'x');
             await page.locator('#quizHost #typeGo').click();
+        } else if (await hs.count()) {
+            const want = bones.get(norm(stem));
+            if (!want) problems.push(`no hotspot key for "${stem.slice(0, 48)}"`);
+            const target = page.locator(`#quizHost .skel [data-bone="${want ?? ''}"]`);
+            if (want && !await target.count()) problems.push(`no such bone: ${want}`);
+            await (want && await target.count() ? target.first()
+                 : page.locator('#quizHost .skel [data-bone]').first())
+                .click({ force: true });
         } else {
             /* The sortable uses arrow buttons rather than drag-and-drop so it
                works on touch and by keyboard. That also makes it scriptable:
@@ -211,10 +231,28 @@ const args = process.argv.slice(2);
 const files = args.length ? args.map(a => a.replace(/^content\//, '')) : await lessonFiles();
 
 const page = await browser.newPage({ viewport: { width: 430, height: 1000 } });
+
+/* Nothing outside this process is allowed to affect the result. Two lessons
+   embed YouTube, and waiting on an iframe that cannot load is both slow and
+   a dependency on someone else's uptime — the skeleton lesson, which has
+   four of them, was the one lesson slow enough to look like a failure.
+   The embed is still built and still rendered; only the fetch is refused. */
+await page.route('**/*', route => {
+    const url = route.request().url();
+    if (url.startsWith(base) || url.startsWith('data:') || url.startsWith('about:')) {
+        return route.continue();
+    }
+    return route.abort();
+});
 await page.addInitScript(() => {
-    localStorage.setItem('learningLab_profiles',
-        JSON.stringify([{ id: 'check', name: 'Check', avatar: '🦊' }]));
-    localStorage.setItem('learningLab_activeProfile', JSON.stringify('check'));
+    /* This runs in EVERY frame, including the blocked video iframes, where
+       touching localStorage throws and surfaces as a page error that has
+       nothing to do with the lesson. */
+    try {
+        localStorage.setItem('learningLab_profiles',
+            JSON.stringify([{ id: 'check', name: 'Check', avatar: '🦊' }]));
+        localStorage.setItem('learningLab_activeProfile', JSON.stringify('check'));
+    } catch {}
 });
 
 let walked = 0, failed = 0;
