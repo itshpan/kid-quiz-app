@@ -390,7 +390,7 @@
     },
     {
       "type": "multiple",
-      "text": "Alin ang tamang baybay?",
+      "text": "Alin ang tamang baybay ng inuulit na salita?",
       "options": [
         "arawaraw",
         "araw-araw",
@@ -404,7 +404,7 @@
     },
     {
       "type": "multiple",
-      "text": "Alin ang tamang baybay?",
+      "text": "Alin ang tamang baybay kapag may bilang ang panunuran?",
       "options": [
         "ika-3 palapag",
         "ika 3 palapag",

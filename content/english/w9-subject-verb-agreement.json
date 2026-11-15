@@ -307,7 +307,7 @@
   "quiz": [
     {
       "type": "multiple",
-      "text": "Which is correct?",
+      "text": "The subject is 'list'. Which is correct?",
       "options": [
         "The list of names is on the desk",
         "The list of name are on the desk",
@@ -321,7 +321,7 @@
     },
     {
       "type": "multiple",
-      "text": "Which is correct?",
+      "text": "The subject is 'cost'. Which is correct?",
       "options": [
         "The cost of the repairs was high",
         "The costs of the repair was high",
@@ -405,7 +405,7 @@
     },
     {
       "type": "multiple",
-      "text": "Which is correct?",
+      "text": "'Team' acting as one unit. Which is correct?",
       "options": [
         "The team is playing well",
         "The team are plays well",
@@ -419,7 +419,7 @@
     },
     {
       "type": "multiple",
-      "text": "Which is correct?",
+      "text": "Starting with 'There'. Which is correct?",
       "options": [
         "There am two questions left",
         "There are two questions left",

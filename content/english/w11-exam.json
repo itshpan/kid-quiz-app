@@ -257,7 +257,7 @@
     },
     {
       "type": "multiple",
-      "text": "Which is correct?",
+      "text": "Counting separate things. Which is correct?",
       "options": [
         "There were less cars on the road.",
         "There were fewer cars on the road.",
@@ -335,7 +335,7 @@
     },
     {
       "type": "multiple",
-      "text": "Which is correct?",
+      "text": "Agreeing with 'everyone'. Which is correct?",
       "options": [
         "Everyone have their own go-bag.",
         "Everyone has his or her own go-bag.",
@@ -391,7 +391,7 @@
     },
     {
       "type": "multiple",
-      "text": "Which is correct?",
+      "text": "A negative with a singular subject. Which is correct?",
       "options": [
         "He don't trains on Sundays.",
         "He doesn't trains on Sundays.",
@@ -419,7 +419,7 @@
     },
     {
       "type": "multiple",
-      "text": "Which is correct?",
+      "text": "With 'neither … nor'. Which is correct?",
       "options": [
         "Neither the coach nor the players was ready.",
         "Neither the coach nor the players were ready.",
@@ -433,7 +433,7 @@
     },
     {
       "type": "multiple",
-      "text": "Which is correct?",
+      "text": "A subject whose name ends in -s. Which is correct?",
       "options": [
         "Mathematics is his best subject.",
         "Mathematics have been his best subjects.",
@@ -447,7 +447,7 @@
     },
     {
       "type": "multiple",
-      "text": "Which is correct?",
+      "text": "Beginning 'A number of…'. Which is correct?",
       "options": [
         "A number of drivers is waiting.",
         "A number of driver is waiting.",

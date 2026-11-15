@@ -146,6 +146,23 @@ for (const file of files) {
         }
     });
 
+    /* Two quiz items with the same stem are a content problem before they
+       are anything else: "Which is correct?" twice in one paper tells him
+       nothing about what is being tested, and he cannot tell the two apart
+       when he reviews his answers. It also silently breaks any tool that
+       keys a lesson by its question text. */
+    {
+        const seen = new Map();
+        for (const q of lesson.quiz || []) {
+            const t = (q.text || '').trim().toLowerCase();
+            if (!t) continue;
+            if (seen.has(t)) {
+                warn(file, `quiz ${seen.get(t) + 1} and ${(lesson.quiz.indexOf(q)) + 1}`,
+                    `two questions share the stem "${q.text.slice(0, 48)}" — say what each one is asking`);
+            } else seen.set(t, lesson.quiz.indexOf(q));
+        }
+    }
+
     /* ---- Rhythm ------------------------------------------------------
        Two caps on prose, because either one alone has a hole in it: three
        short cards in a row are fine, three dense ones are not, and one very

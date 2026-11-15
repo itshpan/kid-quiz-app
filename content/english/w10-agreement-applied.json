@@ -312,7 +312,7 @@
   "quiz": [
     {
       "type": "multiple",
-      "text": "Which is correct?",
+      "text": "'News' looks plural. Which is correct?",
       "options": [
         "The new is on at nine",
         "The news were on at nine",
@@ -340,7 +340,7 @@
     },
     {
       "type": "multiple",
-      "text": "Which is correct?",
+      "text": "Talking about the scissors themselves. Which is correct?",
       "options": [
         "The scissors is on the shelf",
         "A scissors is on the shelf",
@@ -354,7 +354,7 @@
     },
     {
       "type": "multiple",
-      "text": "Which is correct?",
+      "text": "The subject is 'a pair'. Which is correct?",
       "options": [
         "A pair of scissors is on the shelf",
         "A pair of scissors are on the shelf",
@@ -368,7 +368,7 @@
     },
     {
       "type": "multiple",
-      "text": "Which is correct?",
+      "text": "An amount of money as one total. Which is correct?",
       "options": [
         "Five hundred pesos is a lot to spend",
         "Five hundred pesos were a lot to spend",
@@ -382,7 +382,7 @@
     },
     {
       "type": "multiple",
-      "text": "Which is correct?",
+      "text": "A length of time as one block. Which is correct?",
       "options": [
         "Three hours are long enough",
         "Three hour is long enough",
@@ -396,7 +396,7 @@
     },
     {
       "type": "multiple",
-      "text": "Which is correct?",
+      "text": "A title that looks plural. Which is correct?",
       "options": [
         "Star Wars is showing tonight",
         "Star Wars are showing tonight",

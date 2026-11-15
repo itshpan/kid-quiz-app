@@ -393,7 +393,7 @@
     },
     {
       "type": "multiple",
-      "text": "Which one is correct?",
+      "text": "Which is the correct plural of 'baby'?",
       "options": [
         "babyes",
         "babys",
@@ -407,7 +407,7 @@
     },
     {
       "type": "multiple",
-      "text": "Which one is correct?",
+      "text": "Which is the correct plural of 'monkey'?",
       "options": [
         "monkies",
         "monkys",
@@ -453,7 +453,7 @@
     },
     {
       "type": "multiple",
-      "text": "Which one is correct?",
+      "text": "Which is the correct plural of 'potato'?",
       "options": [
         "potatoes",
         "potatoe",
