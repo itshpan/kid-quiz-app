@@ -87,3 +87,48 @@ Search terms that tend to surface good Grade 6 material:
 - "skeletal system for kids" · "how bones heal" · "why bones are stronger than steel"
 - "three types of muscle tissue" · "how muscles work animation"
 - Crash-test and seatbelt-physics explainers — these land especially well given the car angle
+
+---
+
+# Open after Term 2 (November 2026)
+
+Term 2 is written: 88 lessons across eight subjects, all live, 176 weeks total
+with Term 1. These are the things that are deliberately **not** done.
+
+## Needs a person, not a build
+
+1. **Make the repository private.** `github.com/itshpan/kid-quiz-app` is public,
+   and `db/setup.sql` holds the live class codes in git history. No tool in this
+   session can change repository visibility — it has to be done by hand in
+   GitHub settings. Rotating the learner code is *not* a safe fix: `classes.id`
+   **is** the learner code, so changing it changes a primary key and orphans or
+   cascade-deletes progress. The teacher code is a separate column and is safe
+   to rotate.
+2. **Site lockdown.** `learning-lab-8qx.pages.dev` is publicly readable. This
+   was deliberately deferred — the learner is using it live, so any gate has to
+   come with a way in for him and for the teacher before it is switched on.
+3. **A native-speaker read of Filipino Term 2.** Term 1 had a line-by-line
+   language review (twenty corrections, all listed in
+   `content/filipino/README.md`). Term 2 has not had one. That README names the
+   four places to look first, in order.
+4. **The five Term 2 Filipino books.** The scope pairs weeks 1, 3, 5, 7 and 9
+   with named titles that have not been seen, so no plot is summarised anywhere.
+   Each of those lessons carries real historical or cultural background instead
+   and says so to the learner. Supply the books and the chapter cards drop in
+   without touching the grammar half or any figure.
+
+## Checked and not available in this environment
+
+- **No image or video generation.** The only API keys present are unrelated
+  (Sociamonials, Ontraport, Resicert, GoHighLevel). Outbound network is limited
+  to package registries, so an image or video API could not be reached even
+  with a key.
+- **No Ekko or Sylvie agents.** Nothing by those names is registered.
+- **YouTube embeds cannot be verified from here.** The `video` block still
+  renders a placeholder until a `youtubeId` is set, and the sandbox cannot load
+  youtube.com to check a clip. The Sketchfab heart embed works — that was
+  confirmed by the parent in a real browser, not by this session.
+
+Every figure in Term 2 is therefore hand-written SVG in `assets/js/figures.js`,
+which is the better default anyway: a diagram can show a mechanism rotating
+inside a skull, and a stock photograph cannot.
