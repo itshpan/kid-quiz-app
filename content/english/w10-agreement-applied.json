@@ -47,6 +47,12 @@
       ]
     },
     {
+      "kind": "figure",
+      "figure": "agreementTraps",
+      "title": "The traps, one at a time",
+      "text": "Tap each one. These are the exact shapes the paper uses."
+    },
+    {
       "kind": "checkpoint",
       "question": {
         "type": "multiple",
@@ -127,6 +133,16 @@
         "**One work, one verb.**",
         "**Trust the rule** over your ear here."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "A title is one thing",
+      "src": "assets/img/eng-w10-titles.jpg",
+      "alt": "A row of hardback books with completely blank spines beside two plain blank game cases",
+      "credit": "Generated image",
+      "text": "Even when it is plural in form. \"Great Expectations is a long book.\"",
+      "lightBg": true
     },
     {
       "kind": "lens",
@@ -216,6 +232,16 @@
         "**Sancho counts the cost** in animals and money.",
         "**And Don Quixote blames the enchanter.** Again."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "The shepherds fight back",
+      "src": "assets/img/eng-w10-shepherds.jpg",
+      "alt": "An illustration of shepherds picking up stones to throw while a knight backs away behind his shield",
+      "credit": "Generated image",
+      "text": "He attacks a flock of sheep believing it is an army, and they throw stones.",
+      "lightBg": true
     },
     {
       "kind": "lens",

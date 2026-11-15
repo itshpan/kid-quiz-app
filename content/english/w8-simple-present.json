@@ -107,6 +107,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Live commentary is the present",
+      "src": "assets/img/eng-w8-commentary.jpg",
+      "alt": "A broadcast microphone, headset and binoculars on a commentary desk overlooking a blurred arena",
+      "credit": "Generated image",
+      "text": "\"He goes wide.\" Not went. It is happening as the words come out.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "cars",
       "icon": "🏎️",
@@ -161,6 +171,16 @@
         "**The -s moved to the helper.**",
         "**Only one word carries it.** Ever."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Every tooltip is in this tense",
+      "src": "assets/img/eng-w8-controller.jpg",
+      "alt": "A game controller on a desk in front of a monitor showing a blank dark screen",
+      "credit": "Generated image",
+      "text": "\"Press to reload.\" \"Holding sprints.\" Permanent truths about how the thing works.",
+      "lightBg": true
     },
     {
       "kind": "lens",

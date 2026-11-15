@@ -124,6 +124,16 @@
       "text": "This is the same rule you learned for pronouns in Week 5, applied to verbs. Knowing that saves learning it twice."
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "One or two?",
+      "src": "assets/img/eng-w9-pair.jpg",
+      "alt": "A matched pair of boxing gloves on one side and a single glove on its own on the other",
+      "credit": "Generated image",
+      "text": "A pair of gloves is singular. Two gloves are plural. The verb has to follow.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "Trap three",
       "title": "And makes it plural. Or and nor look at the nearer one",
@@ -211,6 +221,16 @@
         "**Sancho says plainly** that it is a barber's basin.",
         "**Don Quixote agrees it looks like one.** Then keeps it."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "The golden helmet of Mambrino",
+      "src": "assets/img/eng-w1-helmet.jpg",
+      "alt": "An illustration of a crude homemade helmet of cardboard, string and a metal basin on a table",
+      "credit": "Generated image",
+      "text": "It is a barber's basin. Everyone can see that it is a barber's basin.",
+      "lightBg": true
     },
     {
       "kind": "lens",

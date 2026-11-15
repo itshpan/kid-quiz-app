@@ -215,6 +215,32 @@
       "text": "He is carried home beaten. While he sleeps, the people who love him decide the books are to blame — and they act on it."
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "A pronoun must agree with its antecedent in…",
+        "options": [
+          "spelling",
+          "number and gender",
+          "length",
+          "position"
+        ],
+        "answerIndex": 1,
+        "explain": "Singular with singular, plural with plural.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "They put the books on trial",
+      "src": "assets/img/eng-w5-library.jpg",
+      "alt": "An illustration of two men sorting a huge pile of books into two heaps while a housekeeper waits with a basket",
+      "credit": "Generated image",
+      "text": "One at a time, each judged and sentenced. The books caused it, so the books burn.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "What happens",
       "title": "They put the books on trial",

@@ -209,6 +209,32 @@
       "text": "A quiet gentleman in Spain owns a small farm, a skinny horse and a wall of books about knights. Then he makes a decision."
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What finally makes him decide to become a knight?",
+        "options": [
+          "A dream",
+          "The books he has read",
+          "A friend",
+          "An injury"
+        ],
+        "answerIndex": 1,
+        "explain": "The book says so directly. The reading is the cause.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "He read himself out of reality",
+      "src": "assets/img/eng-w1-books.jpg",
+      "alt": "An illustration of a thin gentleman reading, surrounded by teetering stacks of books piled to the ceiling",
+      "credit": "Generated image",
+      "text": "Not a metaphor in this book. The books are the cause, and everyone says so.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "The setup",
       "title": "He read himself out of reality",
@@ -232,6 +258,16 @@
         "**Names his mount:** Rocinante.",
         "**Chooses a lady to fight for:** Dulcinea del Toboso."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "The helmet he did not test twice",
+      "src": "assets/img/eng-w1-helmet.jpg",
+      "alt": "An illustration of a crude homemade helmet of cardboard, string and a metal basin on a table",
+      "credit": "Generated image",
+      "text": "He tested it once, it broke, he rebuilt it and decided not to test it again.",
+      "lightBg": true
     },
     {
       "kind": "idea",
@@ -282,6 +318,16 @@
         "**They have never spoken.**",
         "**He is not lying.** He genuinely sees her that way."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "A letter to someone who does not know him",
+      "src": "assets/img/eng-w1-letter.jpg",
+      "alt": "An illustration of a knight at a tiny desk writing a letter by candlelight, crumpled sheets on the floor",
+      "credit": "Generated image",
+      "text": "Dulcinea is a real farm girl who has never met him. He has never spoken to her.",
+      "lightBg": true
     },
     {
       "kind": "lens",

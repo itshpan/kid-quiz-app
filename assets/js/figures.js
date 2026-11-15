@@ -7213,7 +7213,34 @@ function loveStandard() {
     });
 }
 
+
+/* Countable against uncountable, which is the whole of fewer/less and
+   many/much. The test is in the last row and takes two seconds. */
+function countableLab() {
+    return listPicker({
+        id: 'cl2', label: 'CAN YOU COUNT THEM ONE BY ONE?', height: 272, y0: 60, dy: 26,
+        alt: 'Countable and uncountable nouns with the quantifiers each one takes',
+        capA: 'Takes: ', capB: 'Examples: ',
+        rows: [
+            { btn: '1', short: 'Countable nouns', a: 'fewer, many, a number of',
+              b: 'rounds, laps, screws, mistakes. You can say "three" of them.' },
+            { btn: '2', short: 'Uncountable nouns', a: 'less, much, an amount of',
+              b: 'water, fuel, time, advice. "Three waters" means three bottles, not three waters.' },
+            { btn: '3', short: 'fewer / less', a: 'fewer rounds, less water',
+              b: 'The supermarket sign saying "ten items or less" is the famous wrong one.' },
+            { btn: '4', short: 'many / much', a: 'how many laps, how much fuel',
+              b: 'If "how many" sounds wrong, the noun is uncountable.' },
+            { btn: '5', short: 'The trap', a: 'Some nouns are both',
+              b: '"Two coffees" is countable (cups). "Not much coffee" is uncountable (the stuff).' },
+            { btn: '?', short: 'The test', a: 'Put a number in front of it',
+              b: 'If "three ___" works with no extra word, it is countable.' }
+        ]
+    });
+}
+
 export const FIGURES = {
+    countableLab,
+
     obeyParts,
     faithActs,
     loveStandard,

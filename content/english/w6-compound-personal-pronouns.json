@@ -152,6 +152,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Sancho Panza",
+      "src": "assets/img/eng-w6-sancho.jpg",
+      "alt": "An illustration of a short round peasant on a small donkey riding beside the legs of a tall bony horse",
+      "credit": "Generated image",
+      "text": "A real farmer with a real donkey, promised an island he will never see.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "The offer",
       "title": "An island to govern",

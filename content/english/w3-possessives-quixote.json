@@ -167,6 +167,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "One boy owns the rope. Which is correct?",
+        "options": [
+          "the boys rope",
+          "the boy's rope",
+          "the boys' rope",
+          "the boys's rope"
+        ],
+        "answerIndex": 1,
+        "explain": "One owner, so apostrophe then s.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "The boy tied to the tree",
+      "src": "assets/img/eng-w3-tree.jpg",
+      "alt": "An illustration of a boy tied to a tree looking fed up while a knight rides away in the distance",
+      "credit": "Generated image",
+      "text": "Quixote makes the farmer promise to stop. Then he leaves.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "Notice this",
       "title": "\"Nine months' wages\" — that's this week's grammar",
@@ -227,6 +253,16 @@
         "**That's a real ending** most stories won't give you.",
         "**Steal it.** A story where the rescue fails is more interesting."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "A promise is not a result",
+      "src": "assets/img/eng-w3-promise.jpg",
+      "alt": "An illustration of two figures shaking hands while one crosses his fingers behind his back",
+      "credit": "Generated image",
+      "text": "He rides off certain he has fixed it. Nothing has been fixed.",
+      "lightBg": true
     },
     {
       "kind": "lens",

@@ -123,6 +123,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "\"Retell\" asks you to give…",
+        "options": [
+          "your opinion",
+          "what happened, in order",
+          "a definition",
+          "a drawing"
+        ],
+        "answerIndex": 1,
+        "explain": "Command words are four different jobs. Read it first.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "An unbeatable explanation",
+      "src": "assets/img/eng-w11-enchanter.jpg",
+      "alt": "An illustration of a knight pointing at a windmill beside a puff of magical smoke while his companion despairs",
+      "credit": "Generated image",
+      "text": "Whatever happens, the enchanter did it. Nothing can ever prove him wrong.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "story",
       "icon": "✍️",

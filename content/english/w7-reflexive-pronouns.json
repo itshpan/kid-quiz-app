@@ -127,6 +127,32 @@
       "text": "Grammar done. Part 2 is the windmills — the most famous thing in the book. Your place is saved."
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which is a reflexive pronoun?",
+        "options": [
+          "him",
+          "his",
+          "himself",
+          "he"
+        ],
+        "answerIndex": 2,
+        "explain": "It points the action back at the subject.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "The windmills",
+      "src": "assets/img/eng-w7-windmills.jpg",
+      "alt": "An illustration of a thin knight charging a row of windmills with a lance while his companion waves in alarm",
+      "credit": "Generated image",
+      "text": "The most famous scene in the book, and he loses. He always loses.",
+      "lightBg": true
+    },
+    {
       "kind": "open",
       "icon": "🌬️",
       "eyebrow": "Part 2 · Don Quixote",

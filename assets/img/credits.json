@@ -1335,5 +1335,131 @@
     "artist": "Generated with OpenAI gpt-image-2",
     "licence": "Generated for this project",
     "source": "A hand resting on the long metal handle of a tall closed door, caught in the moment before pushing it. Only the hand and forearm are visible. The door is plain and heavy, the light beyond it unseen."
+  },
+  "eng-w2-countable": {
+    "file": "eng-w2-countable.jpg",
+    "alt": "A jar of individual marbles beside a jug of water, one countable and one not",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "On a pale surface, a glass jar packed with individual marbles beside a clear jug half full of water. The marbles are obviously countable one by one; the water obviously is not."
+  },
+  "eng-w1-helmet": {
+    "file": "eng-w1-helmet.jpg",
+    "alt": "An illustration of a crude homemade helmet of cardboard, string and a metal basin on a table",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A bold flat storybook illustration with thick confident outlines and a warm limited palette. A crude homemade helmet made of cardboard, string and a beaten metal shaving basin, sitting on a wooden table beside a sword and a pair of spectacles. Comically flimsy, clearly about to fall apart."
+  },
+  "eng-w1-books": {
+    "file": "eng-w1-books.jpg",
+    "alt": "An illustration of a thin gentleman reading, surrounded by teetering stacks of books piled to the ceiling",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A bold flat storybook illustration with thick confident outlines and a warm limited palette. A thin elderly gentleman in old-fashioned clothes sitting bolt upright in a chair in a dim room, utterly absorbed in a huge open book, surrounded by teetering stacks of books piled to the ceiling on every side. Candle burning low. Comic and slightly mad."
+  },
+  "eng-w1-letter": {
+    "file": "eng-w1-letter.jpg",
+    "alt": "An illustration of a knight at a tiny desk writing a letter by candlelight, crumpled sheets on the floor",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A bold flat storybook illustration with thick confident outlines and a warm limited palette. A gentleman in armour hunched over a tiny writing desk by candlelight, quill in hand, writing a letter with enormous emotional effort, crumpled rejected sheets all over the floor around him. The page is blank."
+  },
+  "eng-w2-stuck": {
+    "file": "eng-w2-stuck.jpg",
+    "alt": "An illustration of two people hauling at a helmet jammed on a seated knight's head",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A bold flat storybook illustration with thick confident outlines and a warm limited palette. A knight sitting rigidly on a stool with a helmet jammed immovably over his head while two exasperated people haul at it from either side, feet braced. Very comic."
+  },
+  "eng-w3-tree": {
+    "file": "eng-w3-tree.jpg",
+    "alt": "An illustration of a boy tied to a tree looking fed up while a knight rides away in the distance",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A bold flat storybook illustration with thick confident outlines and a warm limited palette. A young farm boy tied to a tree trunk with rope in a field, looking fed up rather than frightened, while a knight on a bony horse rides away in the distance believing he has fixed everything."
+  },
+  "eng-w2-inn": {
+    "file": "eng-w2-inn.jpg",
+    "alt": "An illustration of a ramshackle inn courtyard with a blank sign board, a trough, a donkey and an innkeeper",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A bold flat storybook illustration with thick confident outlines and a warm limited palette. A ramshackle roadside inn courtyard at dusk with a crooked sign post holding a blank board, a water trough, a tethered donkey and an amused innkeeper leaning in the doorway with his arms folded."
+  },
+  "eng-w3-promise": {
+    "file": "eng-w3-promise.jpg",
+    "alt": "An illustration of two figures shaking hands while one crosses his fingers behind his back",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A bold flat storybook illustration with thick confident outlines and a warm limited palette. Two figures shaking hands warmly while one of them clearly holds his other hand behind his back with the fingers crossed. Exaggerated and obvious."
+  },
+  "eng-w4-merchants": {
+    "file": "eng-w4-merchants.jpg",
+    "alt": "An illustration of merchants with loaded mules stopped by a thin knight on a bony horse blocking the road",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A bold flat storybook illustration with thick confident outlines and a warm limited palette. A group of merchants with heavily loaded mules stopped in the middle of a dusty road, looking baffled, while a thin knight on a bony horse blocks their way with his lance raised."
+  },
+  "eng-w6-sancho": {
+    "file": "eng-w6-sancho.jpg",
+    "alt": "An illustration of a short round peasant on a small donkey riding beside the legs of a tall bony horse",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A bold flat storybook illustration with thick confident outlines and a warm limited palette. A short round cheerful peasant sitting comfortably on a small grey donkey with a bulging saddlebag, riding beside the legs of a much taller bony horse whose rider is out of frame above."
+  },
+  "eng-w7-windmills": {
+    "file": "eng-w7-windmills.jpg",
+    "alt": "An illustration of a thin knight charging a row of windmills with a lance while his companion waves in alarm",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A bold flat storybook illustration with thick confident outlines and a warm limited palette. A thin knight in mismatched armour charging with a lowered lance at a row of enormous windmills on a ridge, while his round companion on a donkey waves both arms in alarm behind him."
+  },
+  "eng-w8-commentary": {
+    "file": "eng-w8-commentary.jpg",
+    "alt": "A broadcast microphone, headset and binoculars on a commentary desk overlooking a blurred arena",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A sports commentary position overlooking a blurred arena: a broadcast microphone on a desk stand, a headset resting beside it, and a pair of binoculars. The desk is otherwise clear and nobody is there."
+  },
+  "eng-w8-controller": {
+    "file": "eng-w8-controller.jpg",
+    "alt": "A game controller on a desk in front of a monitor showing a blank dark screen",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A modern game controller lying on a desk in front of a monitor showing a completely blank dark screen, with a mug beside it. No text or imagery displayed."
+  },
+  "eng-w9-pair": {
+    "file": "eng-w9-pair.jpg",
+    "alt": "A matched pair of boxing gloves on one side and a single glove on its own on the other",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "On a pale surface, a matched pair of boxing gloves laid together on the left and a single unmatched glove on its own to the right, with a clear gap between them."
+  },
+  "eng-w5-library": {
+    "file": "eng-w5-library.jpg",
+    "alt": "An illustration of two men sorting a huge pile of books into two heaps while a housekeeper waits with a basket",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A bold flat storybook illustration with thick confident outlines and a warm limited palette. A cluttered study where a priest and a barber are solemnly sorting a huge pile of books into two heaps, one to keep and one for the fire, while a housekeeper waits by the door with a basket."
+  },
+  "eng-w10-titles": {
+    "file": "eng-w10-titles.jpg",
+    "alt": "A row of hardback books with completely blank spines beside two plain blank game cases",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A row of hardback books standing upright on a shelf, all with completely blank spines and no lettering of any kind, beside two plain game cases also blank. Even daylight."
+  },
+  "eng-w10-shepherds": {
+    "file": "eng-w10-shepherds.jpg",
+    "alt": "An illustration of shepherds picking up stones to throw while a knight backs away behind his shield",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A bold flat storybook illustration with thick confident outlines and a warm limited palette. A group of annoyed shepherds with their flock on a hillside, picking up stones and winding up to throw, while a knight on a bony horse backs away with his shield raised."
+  },
+  "eng-w11-enchanter": {
+    "file": "eng-w11-enchanter.jpg",
+    "alt": "An illustration of a knight pointing at a windmill beside a puff of magical smoke while his companion despairs",
+    "artist": "Generated with OpenAI gpt-image-2",
+    "licence": "Generated for this project",
+    "source": "A bold flat storybook illustration with thick confident outlines and a warm limited palette. A knight pointing triumphantly at an ordinary windmill while a swirling cartoon puff of magical smoke floats beside it, as his companion stands with both hands over his face in despair."
   }
 }

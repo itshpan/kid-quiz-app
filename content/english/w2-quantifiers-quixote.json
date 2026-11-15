@@ -44,6 +44,12 @@
       ]
     },
     {
+      "kind": "figure",
+      "figure": "countableLab",
+      "title": "Can you count them one by one?",
+      "text": "Six buttons. The last one is a two-second test you can always run."
+    },
+    {
       "kind": "checkpoint",
       "question": {
         "type": "multiple",
@@ -125,6 +131,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Count them, or measure them",
+      "src": "assets/img/eng-w2-countable.jpg",
+      "alt": "A jar of individual marbles beside a jug of water, one countable and one not",
+      "credit": "Generated image",
+      "text": "Marbles take fewer and many. Water takes less and much.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "Rule 3",
       "title": "Fewer and less",
@@ -175,6 +191,32 @@
       "text": "He rides all day and finds a roadside inn. He sees a castle with towers and a moat. Everything that follows comes from that one decision."
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which goes with an uncountable noun?",
+        "options": [
+          "fewer",
+          "many",
+          "much",
+          "a number of"
+        ],
+        "answerIndex": 2,
+        "explain": "Much water, much time. Many takes countable nouns.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "The inn he takes for a castle",
+      "src": "assets/img/eng-w2-inn.jpg",
+      "alt": "An illustration of a ramshackle inn courtyard with a blank sign board, a trough, a donkey and an innkeeper",
+      "credit": "Generated image",
+      "text": "Everyone plays along. That is what makes it funny and what makes it sad.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "What he sees",
       "title": "He upgrades everything in sight",
@@ -197,6 +239,16 @@
         "**He will not take it off.** A knight doesn't.",
         "**Nobody says a word.** They just play along."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "He cannot get it off",
+      "src": "assets/img/eng-w2-stuck.jpg",
+      "alt": "An illustration of two people hauling at a helmet jammed on a seated knight's head",
+      "credit": "Generated image",
+      "text": "He had the strings tied on. Taking it off means cutting it apart again.",
+      "lightBg": true
     },
     {
       "kind": "lens",

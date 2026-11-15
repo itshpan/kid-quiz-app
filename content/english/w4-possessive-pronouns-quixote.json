@@ -180,6 +180,26 @@
       "text": "Still sore from the last chapter, he rides on and meets six silk merchants from Toledo coming the other way."
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Possessive pronouns take an apostrophe.",
+        "answer": false,
+        "explain": "Mine, yours, hers, ours, theirs. Not one of them does.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Agree with me about someone you have never met",
+      "src": "assets/img/eng-w4-merchants.jpg",
+      "alt": "An illustration of merchants with loaded mules stopped by a thin knight on a bony horse blocking the road",
+      "credit": "Generated image",
+      "text": "That is the demand. It is unreasonable, and he means it completely.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "The demand",
       "title": "Agree with me about someone you have never seen",
@@ -296,6 +316,16 @@
           "def": "Short for who is or who has. Apostrophe."
         }
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Mine, yours, hers, theirs",
+      "src": "assets/img/eng-t2w11-desk.jpg",
+      "alt": "An exam desk with a closed worn paperback, a blank answer sheet, two pencils and an eraser",
+      "credit": "Generated image",
+      "text": "No apostrophes in any of them. That is the rule the paper tests.",
+      "lightBg": true
     },
     {
       "kind": "recap",
