@@ -1,35 +1,69 @@
-# Image and animation prompts
+# Images
 
-Ready-to-paste prompts for generating visuals elsewhere (Codex, an image model, whatever you're
-using) and dropping the results back into a lesson.
+## How images are made now
 
-## Before you generate anything
+`content/images.json` holds a prompt, a style and an alt text for every
+picture in the app. `node tools/make-images.mjs` turns the ones that do not
+exist yet into `assets/img/<id>.jpg` and records provenance in
+`assets/img/credits.json`. Re-running it is safe: it skips anything already
+generated. `--force <id>` regenerates one.
 
-The app already has **five hand-drawn SVG figures** built in — `crumpleZone`, `muscleTypes`,
-`armPair`, `boneDensity`, `kineticChain` (see `assets/js/figures.js`). Those inherit the theme,
-stay sharp at any text size, work offline, and carry no licensing risk. **Prefer a new SVG figure
-over a generated image** wherever the subject is diagrammatic.
+The OpenAI key is a **network secret on the environment**, injected by the
+egress proxy. There is no key in this repo and none in the environment
+variables. The tool shells out to `curl` rather than using `fetch`, because
+Node ignores `HTTPS_PROXY` and the placeholder header would otherwise reach
+OpenAI unreplaced and fail as a 401 that looks like a bad key.
 
-Generate images when you want something a diagram can't do: atmosphere, a photographic subject,
-a character, a scene.
+Images are generated at 1536×1024 and downscaled to 720px wide, which is the
+width a card actually renders at. The full-size original is discarded.
+
+## The four styles
+
+| Style | For | Looks like |
+|---|---|---|
+| `photo` | A real thing he should be able to recognise | A clear documentary photograph |
+| `render3d` | Something no photograph exists of | A short 3D fact-explainer: one object, plain grey backdrop, matte clay materials, slightly oversized and odd — the look of **Zack D. Films** |
+| `meme` | A visual joke, or a scene from fiction | Bold flat illustration, thick outlines, warm palette, exaggerated |
+| `diagramish` | When a figure would be overkill | Flat vector, amber and muted blue on warm off-white |
+
+`photo` is the one that matters most and is the reason the pipeline exists.
+"GO foods" means nothing until he can recognise a kamote on a table.
+
+## Three rules that are not negotiable
+
+**No text inside any image.** Ever. A label baked into pixels cannot scale
+with his text-size setting and cannot be translated. Every prompt says so
+explicitly, because the models will add lettering if you let them. The
+caption goes on the card.
+
+**Never generate a picture that poses as a documentary photograph of a
+specific real place, artwork, artefact or person** — the Angono Petroglyphs,
+the *Spoliarium*, Rizal, a named battle. A generated image of a named real
+thing is a false claim about the world, and CLAUDE.md says facts must be
+true. Generated photographs depict a **type**: a kulintang, a sipa shuttle, a
+Spanish colonial church, a padlocked gate. For a specific real artefact use
+`tools/fetch-images.mjs`, which pulls the real credited photograph from
+Wikimedia.
+
+Fiction is exempt from that rule, which is why Don Quixote gets illustrated
+scenes — the windmills, the basin helmet, the books put on trial. Nobody is
+being told those are photographs of anything.
+
+**Generated images carry `"credit": "Generated image"` on the card**, so he
+is never told a drawing is a photograph.
+
+## Still prefer a figure for a mechanism
+
+A hand-written SVG in `assets/js/figures.js` beats a picture whenever the
+subject is a **mechanism**. A diagram can show a brain rotating inside a
+skull, stays sharp at any text size, works offline and carries no licensing
+risk. The rhythm rule asks for both in every lesson precisely because they do
+different jobs: the figure shows how it works, the photograph shows what it
+looks like in the world.
 
 ---
 
-## House style (paste this into every image prompt)
-
-> Style: clean flat vector illustration, minimal, generous negative space. Limited palette: warm
-> amber `#C2761A` for anything rigid or emphasised, muted blue `#4A6FA5` for anything that
-> deforms or is secondary, warm off-white `#FBF8F3` background, dark charcoal `#23222A` for line
-> work. No gradients, no drop shadows, no photorealism, no text or labels in the image. Flat
-> colour blocks with confident linework. Reads clearly at 700px wide on a phone.
-
-Two rules that matter more than they sound:
-
-- **No text in the image.** Any label needs to scale with his text-size setting and stay
-  translatable. Labels go in the card's `points`, not baked into the pixels.
-- **Transparent or `#FBF8F3` background.** A white-boxed image looks broken in dark mode.
-
----
+## Older notes: animation prompts
 
 ## Prompts for Week 1
 
