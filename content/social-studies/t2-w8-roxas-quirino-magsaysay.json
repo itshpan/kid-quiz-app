@@ -1,0 +1,352 @@
+{
+  "id": "ss-t2-w8",
+  "courseId": "social-studies",
+  "courseTitle": "Social Studies",
+  "week": 8,
+  "title": "Roxas, Quirino & Magsaysay",
+  "subtitle": "Three presidents, one continuous problem.",
+  "estMinutes": 20,
+  "objectives": [
+    "Describe the Roxas, Quirino and Magsaysay administrations",
+    "Compare how each handled corruption and unrest",
+    "Explain why Magsaysay is remembered as he is",
+    "Assess the record of the early republic"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🏛",
+      "eyebrow": "Part 8 · Three presidents",
+      "title": "Rebuilding, scandal, and a change of tone",
+      "text": "The first decade of the republic ran through three very different men and one continuous problem."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Roxas",
+      "title": "1946 to 1948: independence and its price",
+      "text": "He led the country into independence and died in office.",
+      "points": [
+        "**Accepted the Bell Trade Act** and the bases agreement.",
+        "**Granted amnesty** to those accused of collaboration.",
+        "**Faced the growing Huk rebellion.**",
+        "**Died of a heart attack in 1948**, at Clark Field."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Quirino",
+      "title": "1948 to 1953: rebuilding under a cloud",
+      "text": "Real reconstruction happened. So did a reputation for corruption.",
+      "points": [
+        "**Infrastructure and the economy** recovered somewhat.",
+        "**Negotiated with the Huks**, without lasting success.",
+        "**Accusations of extravagance and graft** dominated his image.",
+        "**The 1949 election** was widely seen as fraudulent."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which president led the country into independence in 1946?",
+        "options": [
+          "Osmeña",
+          "Roxas",
+          "Magsaysay",
+          "Quirino"
+        ],
+        "answerIndex": 1,
+        "explain": "Manuel Roxas, who died in office in 1948.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "The golden arinola, and why reputation sticks",
+      "text": "Quirino was accused of buying a gold chamber pot. The story was almost certainly false and it defined him anyway.",
+      "points": [
+        "**Repeated often enough**, it became the thing people knew.",
+        "**It was political attack**, not reporting.",
+        "**He lost heavily in 1953.**",
+        "**A reminder:** check whether a famous story was ever true."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Magsaysay",
+      "title": "1953 to 1957: the change of tone",
+      "text": "He won on a promise to make government reachable, and largely kept it.",
+      "points": [
+        "**Opened Malacañang** to ordinary visitors.",
+        "**Ended the Huk rebellion** with force and reform together.",
+        "**Pushed resettlement** for surrendered rebels.",
+        "**Died in a plane crash in 1957**, still in office."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Magsaysay ended the Huk rebellion using military force alone.",
+        "answer": false,
+        "explain": "He combined military pressure with amnesty, land and an end to army abuses. Force alone had already failed.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "aviation",
+      "icon": "✈️",
+      "eyebrow": "Aviation mode",
+      "title": "Two presidents and two aircraft",
+      "text": "The early republic lost two leaders in ways that shaped what came next.",
+      "points": [
+        "**Roxas died at Clark Field** in 1948, after a speech.",
+        "**Magsaysay died in a crash** on Mount Manunggal in 1957.",
+        "**Both were in office**, both successions were sudden.",
+        "**Continuity is fragile** when it rests on one person."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Magsaysay is best remembered for…",
+        "options": [
+          "making government reachable and ending the Huk rebellion",
+          "writing a constitution",
+          "closing the bases",
+          "winning a war abroad"
+        ],
+        "answerIndex": 0,
+        "explain": "Accessibility plus the combined force-and-reform approach.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "Reputation is built on what people can see",
+      "text": "Magsaysay's open-door policy was partly substance and partly a very good decision about visibility.",
+      "points": [
+        "**People judge** what they can observe.",
+        "**He let them observe a lot.**",
+        "**Quirino's achievements** were real and invisible.",
+        "**Both things are true at once.**"
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Graft",
+          "def": "Using public office for private gain."
+        },
+        {
+          "term": "Amnesty",
+          "def": "An official pardon."
+        },
+        {
+          "term": "Resettlement",
+          "def": "Moving families to new farmland, used with surrendered rebels."
+        },
+        {
+          "term": "Malacañang",
+          "def": "The presidential palace in Manila."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Roxas led into independence and died in 1948.",
+        "Quirino rebuilt, and was defined by corruption accusations.",
+        "Magsaysay ended the rebellion with force and reform together.",
+        "Two of the three died in office, both suddenly."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Who was president at independence in 1946?",
+      "options": [
+        "Roxas",
+        "Magsaysay",
+        "Osmeña",
+        "Quirino"
+      ],
+      "answerIndex": 0,
+      "explain": "Manuel Roxas.",
+      "objective": "Describe the Roxas, Quirino and Magsaysay administrations",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Roxas died in 1948…",
+      "options": [
+        "in an election",
+        "in a plane crash",
+        "of a heart attack at Clark Field",
+        "abroad"
+      ],
+      "answerIndex": 2,
+      "explain": "Shortly after giving a speech.",
+      "objective": "Describe the Roxas, Quirino and Magsaysay administrations",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Quirino's presidency is most associated with…",
+      "options": [
+        "writing a constitution",
+        "closing the bases",
+        "ending the rebellion",
+        "corruption accusations"
+      ],
+      "answerIndex": 3,
+      "explain": "Reconstruction happened, but the image was graft.",
+      "objective": "Compare how each handled corruption and unrest",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The golden arinola story was…",
+      "options": [
+        "never told",
+        "almost certainly false but damaging",
+        "proven true",
+        "a legal case"
+      ],
+      "answerIndex": 1,
+      "explain": "A political attack that stuck regardless of truth.",
+      "objective": "Compare how each handled corruption and unrest",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Magsaysay ended the Huk rebellion by…",
+      "options": [
+        "negotiation only",
+        "force plus amnesty and land",
+        "ignoring it",
+        "force alone"
+      ],
+      "answerIndex": 1,
+      "explain": "Force alone had already failed under his predecessors.",
+      "objective": "Explain why Magsaysay is remembered as he is",
+      "seconds": 22
+    },
+    {
+      "type": "truefalse",
+      "text": "Magsaysay opened the presidential palace to ordinary visitors.",
+      "answer": true,
+      "explain": "Part of a deliberate strategy of being reachable.",
+      "objective": "Explain why Magsaysay is remembered as he is",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Magsaysay died in…",
+      "options": [
+        "1965",
+        "1948",
+        "1957",
+        "1953"
+      ],
+      "answerIndex": 2,
+      "explain": "In a plane crash on Mount Manunggal, still in office.",
+      "objective": "Explain why Magsaysay is remembered as he is",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "How did Magsaysay die?",
+      "options": [
+        "Illness",
+        "Heart attack",
+        "Assassination",
+        "Plane crash"
+      ],
+      "answerIndex": 3,
+      "explain": "A crash in 1957.",
+      "objective": "Explain why Magsaysay is remembered as he is",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "'Graft' means…",
+      "options": [
+        "a kind of farming",
+        "using public office for private gain",
+        "hard work",
+        "a treaty"
+      ],
+      "answerIndex": 1,
+      "explain": "The accusation that defined Quirino's image.",
+      "objective": "Compare how each handled corruption and unrest",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "Both Roxas and Magsaysay died while in office.",
+      "answer": true,
+      "explain": "In 1948 and 1957 respectively.",
+      "objective": "Assess the record of the early republic",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The 1949 election under Quirino was widely seen as…",
+      "options": [
+        "fraudulent",
+        "clean",
+        "uncontested",
+        "cancelled"
+      ],
+      "answerIndex": 0,
+      "explain": "Which damaged his standing further.",
+      "objective": "Compare how each handled corruption and unrest",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "What does the Quirino story teach about reputation?",
+      "options": [
+        "A story repeated often can outlast the facts",
+        "Famous stories are usually true",
+        "Elections decide truth",
+        "Corruption is always invented"
+      ],
+      "answerIndex": 0,
+      "explain": "Worth checking whether a well-known story was ever verified.",
+      "objective": "Assess the record of the early republic",
+      "seconds": 24
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 8 Social Studies. Three administrations compared on how each handled the same two pressures, corruption and rural unrest, which gives the decade a shape rather than a sequence. The Quirino card does real work beyond the syllabus: the golden arinola story was almost certainly untrue and defined him anyway, which is a transferable lesson about checking whether a famous story was ever verified. Magsaysay's reputation is given honestly as both genuine achievement and a very effective decision about visibility, with Quirino's real and invisible reconstruction set beside it.",
+    "discussion": [
+      "Why did force alone fail against the Huks?",
+      "Was the golden arinola story true, and does that matter?",
+      "Why is Quirino remembered worse than his record?"
+    ],
+    "extension": [
+      "Look up whether the arinola story was ever substantiated.",
+      "Compare what each of the three actually built."
+    ],
+    "misconceptions": [
+      "That Magsaysay used only military force.",
+      "That Quirino achieved nothing.",
+      "That a famous story must be true."
+    ]
+  }
+}

@@ -1,0 +1,509 @@
+{
+  "id": "ss-t2-w11",
+  "courseId": "social-studies",
+  "courseTitle": "Social Studies",
+  "week": 11,
+  "title": "Exam Week",
+  "subtitle": "Ten weeks of Philippine history, one paper.",
+  "estMinutes": 30,
+  "objectives": [
+    "Recall the road to independence, 1934 to 1941",
+    "Recall the occupation and the return, 1942 to 1945",
+    "Recall independence and its conditions, 1946",
+    "Recall the presidents and martial law, 1946 to 1986"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "📝",
+      "eyebrow": "Part 11 · Exam week",
+      "title": "Ten weeks of Philippine history, one paper",
+      "text": "Twenty-four questions. The review below is grouped by thread, not by week, because that is how the paper will mix them."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Thread 1",
+      "title": "The road out, 1934 to 1941",
+      "text": "A ten-year countdown with a war in the middle of it.",
+      "points": [
+        "**Tydings-McDuffie Act, 1934**: independence promised in ten years.",
+        "**Commonwealth, 1935**: Quezon president, self-rule in most things.",
+        "**National Defense Act, 1935** and a national language chosen.",
+        "**December 1941**: the countdown is interrupted."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "The Tydings-McDuffie Act set a transition of…",
+        "options": [
+          "no fixed term",
+          "ten years",
+          "five years",
+          "twenty years"
+        ],
+        "answerIndex": 1,
+        "explain": "Ten years, which made 1945 the target.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Thread 2",
+      "title": "Occupation and return, 1942 to 1945",
+      "text": "Three years of occupation, then a brutal liberation.",
+      "points": [
+        "**Bataan fell in April 1942**; Corregidor in May.",
+        "**The Second Republic, 1943**, under Jose P. Laurel.",
+        "**Guerrilla resistance** operated throughout.",
+        "**Leyte, October 1944**; Manila destroyed in February 1945."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "The Second Republic of 1943 governed independently of Japan.",
+        "answer": false,
+        "explain": "It governed under Japanese authority. That is why its standing is still argued about.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Thread 3",
+      "title": "Independence with conditions, 1946",
+      "text": "Sovereignty arrived with strings attached.",
+      "points": [
+        "**4 July 1946**: the Third Republic.",
+        "**The Bell Trade Act** tied the peso to the dollar and gave parity rights.",
+        "**The Military Bases Agreement, 1947**: 99 years, later cut.",
+        "**Parity needed a constitutional amendment** to pass."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Conditions attached to a reward",
+      "text": "You finish the mission and the reward unlocks — with a modifier you did not choose.",
+      "points": [
+        "**Independence was the reward.**",
+        "**Parity rights and the bases** were the modifiers.",
+        "**Accepting them** was the price of reconstruction money.",
+        "**Later governments spent decades** removing them."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Thread 4",
+      "title": "Presidents and martial law, 1946 to 1986",
+      "text": "Six presidents, one land problem, and 1972.",
+      "points": [
+        "**Roxas, Quirino, Magsaysay**: rebuilding, corruption, the Huk settlement.",
+        "**Garcia's Filipino First**; Macapagal moves Independence Day to 12 June.",
+        "**Marcos elected 1965**, re-elected 1969.",
+        "**Proclamation 1081, 1972**; EDSA ends it in 1986."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Proclamation 1081 closed…",
+        "options": [
+          "Congress",
+          "the universities",
+          "the Supreme Court",
+          "the ports"
+        ],
+        "answerIndex": 0,
+        "explain": "Congress was abolished and the press was shut or taken over.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "How to work the paper",
+      "text": "Twelve rounds, not one punch. Pace it.",
+      "points": [
+        "**Read the whole question** before touching an option.",
+        "**Dates cluster**: 1934, 1935, 1946, 1972, 1986.",
+        "**Mark the hard one and move on.** Come back.",
+        "**Do not change an answer** without a reason you can say."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "The night before is part of the exam",
+      "text": "This is not about being clever on the day.",
+      "points": [
+        "**Sleep beats cramming.**",
+        "**Eat something.** Your brain runs on glucose.",
+        "**Self-test, do not re-read.** Re-reading feels like learning.",
+        "**Five dates, four threads.** That is the whole paper."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Ready",
+      "title": "The four threads",
+      "points": [
+        "1934 to 1941: a promised countdown, interrupted.",
+        "1942 to 1945: occupation, resistance, destruction.",
+        "1946: sovereignty with economic and military conditions.",
+        "1946 to 1986: land, presidents, martial law, EDSA."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "The Tydings-McDuffie Act was passed in…",
+      "options": [
+        "1946",
+        "1934",
+        "1916",
+        "1935"
+      ],
+      "answerIndex": 1,
+      "explain": "Setting a ten-year countdown.",
+      "objective": "Recall the road to independence, 1934 to 1941",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The Commonwealth began in…",
+      "options": [
+        "1946",
+        "1935",
+        "1941",
+        "1934"
+      ],
+      "answerIndex": 1,
+      "explain": "With Quezon as president.",
+      "objective": "Recall the road to independence, 1934 to 1941",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Who was the Commonwealth's first president?",
+      "options": [
+        "Roxas",
+        "Laurel",
+        "Osmena",
+        "Quezon"
+      ],
+      "answerIndex": 3,
+      "explain": "Manuel L. Quezon.",
+      "objective": "Recall the road to independence, 1934 to 1941",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The National Defense Act of 1935 created…",
+      "options": [
+        "a new currency",
+        "conscription and a reserve army",
+        "the Senate",
+        "a land bank"
+      ],
+      "answerIndex": 1,
+      "explain": "Self-rule meant building a defence force.",
+      "objective": "Recall the road to independence, 1934 to 1941",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "The Commonwealth controlled its own foreign policy.",
+      "answer": false,
+      "explain": "Foreign affairs and defence stayed with the United States.",
+      "objective": "Recall the road to independence, 1934 to 1941",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Bataan fell in…",
+      "options": [
+        "April 1942",
+        "December 1941",
+        "October 1944",
+        "May 1942"
+      ],
+      "answerIndex": 0,
+      "explain": "Corregidor followed in May.",
+      "objective": "Recall the occupation and the return, 1942 to 1945",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The president of the 1943 Second Republic was…",
+      "options": [
+        "Osmena",
+        "Roxas",
+        "Laurel",
+        "Quezon"
+      ],
+      "answerIndex": 2,
+      "explain": "Jose P. Laurel.",
+      "objective": "Recall the occupation and the return, 1942 to 1945",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The landing that began liberation was at…",
+      "options": [
+        "Corregidor",
+        "Lingayen",
+        "Leyte",
+        "Bataan"
+      ],
+      "answerIndex": 2,
+      "explain": "October 1944.",
+      "objective": "Recall the occupation and the return, 1942 to 1945",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Manila in February 1945 was…",
+      "options": [
+        "largely destroyed in the fighting",
+        "evacuated",
+        "left untouched",
+        "taken without a fight"
+      ],
+      "answerIndex": 0,
+      "explain": "One of the most destructive urban battles of the war.",
+      "objective": "Recall the occupation and the return, 1942 to 1945",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "Guerrilla groups operated throughout the occupation.",
+      "answer": true,
+      "explain": "They mapped positions, ran couriers and held ground.",
+      "objective": "Recall the occupation and the return, 1942 to 1945",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Independence was granted on…",
+      "options": [
+        "21 September 1972",
+        "12 June 1898",
+        "25 February 1986",
+        "4 July 1946"
+      ],
+      "answerIndex": 3,
+      "explain": "The Third Republic began that day.",
+      "objective": "Recall independence and its conditions, 1946",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Parity rights allowed Americans to…",
+      "options": [
+        "vote",
+        "own and operate Philippine businesses equally",
+        "tax imports",
+        "hold office"
+      ],
+      "answerIndex": 1,
+      "explain": "Which required a constitutional amendment.",
+      "objective": "Recall independence and its conditions, 1946",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "The Bell Trade Act tied the peso to…",
+      "options": [
+        "the dollar",
+        "nothing",
+        "gold",
+        "the yen"
+      ],
+      "answerIndex": 0,
+      "explain": "At a fixed rate.",
+      "objective": "Recall independence and its conditions, 1946",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The 1947 Military Bases Agreement ran originally for…",
+      "options": [
+        "indefinitely",
+        "99 years",
+        "25 years",
+        "50 years"
+      ],
+      "answerIndex": 1,
+      "explain": "Later shortened by agreement.",
+      "objective": "Recall independence and its conditions, 1946",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why were those conditions accepted?",
+      "options": [
+        "They were popular",
+        "They were secret",
+        "They were tied to reconstruction money",
+        "They were required by the UN"
+      ],
+      "answerIndex": 2,
+      "explain": "War damage payments were conditional.",
+      "objective": "Recall independence and its conditions, 1946",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "The Huk rebellion grew mainly out of…",
+      "options": [
+        "trade",
+        "language",
+        "land tenancy",
+        "religion"
+      ],
+      "answerIndex": 2,
+      "explain": "Tenants paying most of a harvest to a landlord they never met.",
+      "objective": "Recall the presidents and martial law, 1946 to 1986",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which president is associated with settling the Huk rebellion?",
+      "options": [
+        "Garcia",
+        "Quirino",
+        "Roxas",
+        "Magsaysay"
+      ],
+      "answerIndex": 3,
+      "explain": "Through land resettlement and surrender terms.",
+      "objective": "Recall the presidents and martial law, 1946 to 1986",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The Filipino First Policy belongs to…",
+      "options": [
+        "Marcos",
+        "Quirino",
+        "Macapagal",
+        "Garcia"
+      ],
+      "answerIndex": 3,
+      "explain": "1957 to 1961.",
+      "objective": "Recall the presidents and martial law, 1946 to 1986",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Independence Day was moved to 12 June by…",
+      "options": [
+        "Marcos",
+        "Garcia",
+        "Quirino",
+        "Macapagal"
+      ],
+      "answerIndex": 3,
+      "explain": "In 1962.",
+      "objective": "Recall the presidents and martial law, 1946 to 1986",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Martial law was declared in…",
+      "options": [
+        "1972",
+        "1969",
+        "1965",
+        "1981"
+      ],
+      "answerIndex": 0,
+      "explain": "Proclamation 1081, September 1972.",
+      "objective": "Recall the presidents and martial law, 1946 to 1986",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Roughly how many people were imprisoned under martial law?",
+      "options": [
+        "70,000",
+        "7,000",
+        "700",
+        "700,000"
+      ],
+      "answerIndex": 0,
+      "explain": "About 70,000, per Amnesty International.",
+      "objective": "Recall the presidents and martial law, 1946 to 1986",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Benigno Aquino Jr. was assassinated in…",
+      "options": [
+        "1972",
+        "1986",
+        "1983",
+        "1981"
+      ],
+      "answerIndex": 2,
+      "explain": "On his return to Manila.",
+      "objective": "Recall the presidents and martial law, 1946 to 1986",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The Marcos government ended in 1986 through…",
+      "options": [
+        "an election result alone",
+        "EDSA People Power",
+        "an invasion",
+        "a court ruling"
+      ],
+      "answerIndex": 1,
+      "explain": "Four days of mass demonstrations with military defections.",
+      "objective": "Recall the presidents and martial law, 1946 to 1986",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which pair of dates marks the two independence days?",
+      "options": [
+        "1898 and 1946",
+        "1935 and 1946",
+        "1941 and 1945",
+        "1972 and 1986"
+      ],
+      "answerIndex": 0,
+      "explain": "Declared 12 June 1898, granted 4 July 1946.",
+      "objective": "Recall independence and its conditions, 1946",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 11 Social Studies, the practice paper. Twenty-four questions spread across all ten teaching weeks, with the review cards grouped by thread rather than by week because the paper mixes them: the promised countdown, the occupation, the conditions attached to 1946, and the presidents through to EDSA. The last review card reduces the term to five dates, which is the smallest thing worth memorising. Exam technique gets its own lens card rather than a sidebar, since pacing a paper is the skill most likely to cost him marks he already knows.",
+    "discussion": [
+      "Which five dates would you keep if you could keep only five?",
+      "Which thread feels least solid?",
+      "Can you say what each condition of 1946 actually allowed?"
+    ],
+    "extension": [
+      "Sit the quiz once at pace, then again days later without revising.",
+      "Say each thread aloud in four sentences."
+    ],
+    "misconceptions": [
+      "That revision means re-reading rather than self-testing.",
+      "That the dates matter more than what happened."
+    ]
+  }
+}

@@ -1472,7 +1472,8 @@
               "topics": [
                 "The Philippines as a Sovereign Country"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "social-studies/t2-w7-sovereign-country.json"
             },
             {
               "week": 8,
@@ -1481,7 +1482,8 @@
               "topics": [
                 "Roxas, Quirino, and Magsaysay Administrations"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "social-studies/t2-w8-roxas-quirino-magsaysay.json"
             },
             {
               "week": 9,
@@ -1490,16 +1492,18 @@
               "topics": [
                 "Garcia, Macapagal, Marcos Administrations"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "social-studies/t2-w9-garcia-macapagal-marcos.json"
             },
             {
               "week": 10,
               "id": "ss-t2-w10",
-              "title": "Martial Law in the Philippines",
+              "title": "Martial Law",
               "topics": [
                 "Martial Law in the Philippines"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "social-studies/t2-w10-martial-law.json"
             },
             {
               "week": 11,
@@ -1508,7 +1512,8 @@
               "topics": [
                 "EXAM"
               ],
-              "status": "planned"
+              "status": "exam",
+              "file": "social-studies/t2-w11-exam.json"
             }
           ]
         },

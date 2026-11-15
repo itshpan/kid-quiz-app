@@ -1,0 +1,352 @@
+{
+  "id": "ss-t2-w7",
+  "courseId": "social-studies",
+  "courseTitle": "Social Studies",
+  "week": 7,
+  "title": "A Sovereign Country",
+  "subtitle": "What sovereignty is, and how much of it 1946 actually delivered.",
+  "estMinutes": 20,
+  "objectives": [
+    "Explain what sovereignty means in practice",
+    "Describe the Philippines' early foreign policy",
+    "Explain the role of the bases in sovereignty debates",
+    "Judge how sovereignty grew over time"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🌏",
+      "eyebrow": "Part 7 · Standing alone",
+      "title": "Sovereignty is a set of powers, not a feeling",
+      "text": "A sovereign country decides its own laws, its own trade and its own alliances. In 1946 the Philippines had the first and not much of the others."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "What it means",
+      "title": "Four powers that add up to sovereignty",
+      "text": "Measure a country against these and you get a real answer.",
+      "points": [
+        "**Make its own laws.**",
+        "**Control its own borders and defence.**",
+        "**Set its own trade and currency.**",
+        "**Choose its own allies.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which power did the Philippines have least of in 1946?",
+        "options": [
+          "Setting its own trade and currency",
+          "Holding elections",
+          "Making its own laws",
+          "Running its schools"
+        ],
+        "answerIndex": 0,
+        "explain": "The Bell Trade Act fixed trade terms and pegged the peso.",
+        "seconds": 24
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Foreign policy",
+      "title": "A founding member, and a close alignment",
+      "text": "The new republic joined the world as an independent voice, and leaned firmly one way.",
+      "points": [
+        "**A founding member of the United Nations** in 1945.",
+        "**Closely aligned with the United States** throughout the Cold War.",
+        "**Sent troops to Korea** in 1950.",
+        "**Hosted the SEATO alliance headquarters** in Manila."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "aviation",
+      "icon": "✈️",
+      "eyebrow": "Aviation mode",
+      "title": "The bases were the sharpest test",
+      "text": "Foreign troops on your soil is where sovereignty stops being theoretical.",
+      "points": [
+        "**Supporters said** the bases provided defence the country could not afford.",
+        "**Critics said** no country is sovereign with foreign forces inside it.",
+        "**The agreement was renegotiated** several times and shortened.",
+        "**The Senate voted them out in 1991.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "The Philippines was a founding member of the United Nations.",
+        "answer": true,
+        "explain": "It signed the UN Charter in 1945, before formal independence in 1946.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Two independence days, and why both are real",
+      "text": "The Philippines celebrates 12 June, not 4 July. That was a deliberate choice made in 1962.",
+      "points": [
+        "**12 June 1898** is the declaration by Filipinos themselves.",
+        "**4 July 1946** is the date recognition was granted.",
+        "**Macapagal moved the holiday** to the earlier date.",
+        "**Declared or granted** — the choice of date is an argument about which counts."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Growing into it",
+      "title": "Sovereignty was gained in pieces",
+      "text": "Each decade recovered a power that had been limited in 1946.",
+      "points": [
+        "**Parity rights expired** in 1974.",
+        "**The peso was unpegged.**",
+        "**Base terms were shortened**, then ended in 1991.",
+        "**The 1987 Constitution** set out an independent foreign policy."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "When did the Senate vote to end the American bases agreement?",
+        "options": [
+          "1974",
+          "1991",
+          "2001",
+          "1946"
+        ],
+        "answerIndex": 1,
+        "explain": "In 1991, which is usually taken as the point the last major limit ended.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "Independence arrives in stages, not in a day",
+      "text": "It is closer to growing up than to a birthday. Powers are handed over one at a time.",
+      "points": [
+        "**You get some decisions early**, others much later.",
+        "**Money is usually the last one.**",
+        "**A country is the same.**",
+        "**1946 was the start of the process**, not the end."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Sovereignty",
+          "def": "A state's power to govern itself without outside control."
+        },
+        {
+          "term": "Foreign policy",
+          "def": "How a country deals with other countries."
+        },
+        {
+          "term": "SEATO",
+          "def": "A Cold War alliance with its headquarters in Manila."
+        },
+        {
+          "term": "Alignment",
+          "def": "Consistently siding with one bloc or power."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Sovereignty is laws, borders, trade and alliances together.",
+        "In 1946 trade and currency were the weakest of the four.",
+        "The Philippines was a UN founding member and closely aligned with the US.",
+        "Full sovereignty arrived in pieces, with 1991 the last major step."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Sovereignty means the power to…",
+      "options": [
+        "win wars",
+        "trade freely only",
+        "hold elections only",
+        "govern yourself without outside control"
+      ],
+      "answerIndex": 3,
+      "explain": "Laws, borders, trade and alliances together.",
+      "objective": "Explain what sovereignty means in practice",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which power was weakest in 1946?",
+      "options": [
+        "Lawmaking",
+        "Trade and currency",
+        "Education",
+        "Elections"
+      ],
+      "answerIndex": 1,
+      "explain": "The Bell Trade Act set the terms and pegged the peso.",
+      "objective": "Explain what sovereignty means in practice",
+      "seconds": 22
+    },
+    {
+      "type": "truefalse",
+      "text": "The Philippines was a founding member of the United Nations.",
+      "answer": true,
+      "explain": "It signed the Charter in 1945.",
+      "objective": "Describe the Philippines' early foreign policy",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "During the Cold War the Philippines was closely aligned with…",
+      "options": [
+        "no one",
+        "China",
+        "the United States",
+        "the Soviet Union"
+      ],
+      "answerIndex": 2,
+      "explain": "Including troops to Korea and hosting SEATO.",
+      "objective": "Describe the Philippines' early foreign policy",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "SEATO's headquarters were in…",
+      "options": [
+        "Tokyo",
+        "Manila",
+        "Singapore",
+        "Bangkok"
+      ],
+      "answerIndex": 1,
+      "explain": "Manila hosted the alliance.",
+      "objective": "Describe the Philippines' early foreign policy",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The strongest argument that the bases limited sovereignty was…",
+      "options": [
+        "foreign forces were stationed on Philippine soil",
+        "they cost money",
+        "they were small",
+        "they were far away"
+      ],
+      "answerIndex": 0,
+      "explain": "That is the point on which the debate actually turned.",
+      "objective": "Explain the role of the bases in sovereignty debates",
+      "seconds": 24
+    },
+    {
+      "type": "multiple",
+      "text": "Parity rights expired in…",
+      "options": [
+        "1974",
+        "1991",
+        "1946",
+        "1986"
+      ],
+      "answerIndex": 0,
+      "explain": "After twenty-eight years.",
+      "objective": "Judge how sovereignty grew over time",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The Senate ended the bases agreement in…",
+      "options": [
+        "1991",
+        "1986",
+        "1998",
+        "1974"
+      ],
+      "answerIndex": 0,
+      "explain": "Usually taken as the last major step.",
+      "objective": "Judge how sovereignty grew over time",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "Sovereignty arrived all at once in 1946.",
+      "answer": false,
+      "explain": "Powers were recovered in stages over decades.",
+      "objective": "Judge how sovereignty grew over time",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Which constitution set out an independent foreign policy?",
+      "options": [
+        "1973",
+        "1987",
+        "1935",
+        "1943"
+      ],
+      "answerIndex": 1,
+      "explain": "The 1987 Constitution, after the Marcos period.",
+      "objective": "Judge how sovereignty grew over time",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Filipino troops were sent to which war in 1950?",
+      "options": [
+        "Taiwan",
+        "Malaya",
+        "Vietnam",
+        "Korea"
+      ],
+      "answerIndex": 3,
+      "explain": "Part of the close alignment with the United States.",
+      "objective": "Describe the Philippines' early foreign policy",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The best description of 1946 sovereignty is…",
+      "options": [
+        "complete",
+        "nonexistent",
+        "legal but economically limited",
+        "temporary"
+      ],
+      "answerIndex": 2,
+      "explain": "The laws changed; the economic relationship continued.",
+      "objective": "Explain what sovereignty means in practice",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 7 Social Studies. Sovereignty is defined as four measurable powers rather than as a feeling, which lets him assess the 1946 settlement himself instead of accepting a verdict. The bases are used as the sharpest test because foreign forces on national soil is where the abstraction becomes concrete, and both sides of that long argument are given their strongest form. The week closes on sovereignty as a staged process ending in 1991, which both corrects the idea that independence was a single day and sets up the later administrations.",
+    "discussion": [
+      "Which four powers add up to sovereignty?",
+      "Which did the Philippines have least of in 1946?",
+      "Why were the bases the sharpest test?"
+    ],
+    "extension": [
+      "Score the 1946 republic out of four on the sovereignty powers.",
+      "Find out what happened to Clark and Subic after 1991."
+    ],
+    "misconceptions": [
+      "That sovereignty is a single thing you either have or do not.",
+      "That independence was complete in 1946.",
+      "That the bases debate had only one reasonable side."
+    ]
+  }
+}

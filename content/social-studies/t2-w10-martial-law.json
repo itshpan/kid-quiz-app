@@ -1,0 +1,364 @@
+{
+  "id": "ss-t2-w10",
+  "courseId": "social-studies",
+  "courseTitle": "Social Studies",
+  "week": 10,
+  "title": "Martial Law",
+  "subtitle": "September 1972, and the fourteen years that followed.",
+  "estMinutes": 20,
+  "objectives": [
+    "Describe Proclamation 1081 and what it changed",
+    "State what is documented about the period",
+    "Explain the economic record honestly",
+    "Explain how the period ended"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "⚖️",
+      "eyebrow": "Part 10 · Martial law",
+      "title": "September 1972, and the fourteen years that followed",
+      "text": "One proclamation removed Congress, the free press and the courts' independence. This is recent history, and much of it is documented in detail."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The proclamation",
+      "title": "What Proclamation 1081 actually did",
+      "text": "Signed 21 September 1972 and announced on the 23rd.",
+      "points": [
+        "**Congress was closed.**",
+        "**Newspapers and broadcasters** were shut or taken over.",
+        "**Opposition figures were arrested**, including Senator Benigno Aquino Jr.",
+        "**The stated reason** was a communist threat and public disorder."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Proclamation 1081 closed which institution?",
+        "options": [
+          "Congress",
+          "The church",
+          "The universities",
+          "The Supreme Court"
+        ],
+        "answerIndex": 0,
+        "explain": "Congress was abolished and did not meet again for years.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "What is documented",
+      "title": "Numbers from official and independent records",
+      "text": "These figures come from Amnesty International and from the Philippine government's own later claims board.",
+      "points": [
+        "**Roughly 70,000 people were imprisoned.**",
+        "**About 34,000 were tortured.**",
+        "**Around 3,200 were killed.**",
+        "**A government board later recognised** over 11,000 victims as eligible for compensation."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "The human rights record of martial law is only an opinion.",
+        "answer": false,
+        "explain": "It is documented by Amnesty International and by a Philippine government board that paid compensation to recognised victims.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The economy",
+      "title": "Building, borrowing and a crash",
+      "text": "Both halves of this are true and have to be held together.",
+      "points": [
+        "**Major infrastructure was built**, and is still used.",
+        "**Foreign debt rose** from around two billion dollars to about twenty-eight billion.",
+        "**By the early 1980s** the economy was in severe crisis.",
+        "**In 1984 and 1985** it contracted sharply."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "Why the debt is the part people miss",
+      "text": "A country can look like it is accelerating while the fuel gauge empties.",
+      "points": [
+        "**New roads are visible.** Debt is not.",
+        "**Repayment comes later**, from other budgets.",
+        "**Interest grew** faster than the economy did.",
+        "**Both the bridges and the bill** are the record."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "The scorecard and the crowd remember different fights",
+      "text": "A crowd remembers a feeling. The scorecard records rounds, punches and knockdowns.",
+      "points": [
+        "**Both are real experiences.**",
+        "**Only one can be checked** afterwards.",
+        "**Historians work from the card**: arrest records, court files, claims paid.",
+        "**That is why the numbers above** carry weight."
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "How it ended",
+      "title": "Assassination, an election, and four days",
+      "text": "The end came quickly once it started.",
+      "points": [
+        "**Martial law was formally lifted in 1981**, with powers kept.",
+        "**Aquino was assassinated** at Manila airport in 1983.",
+        "**A snap election in February 1986** was widely seen as rigged.",
+        "**The EDSA People Power Revolution** ended the government in four days."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What ended the Marcos government in February 1986?",
+        "options": [
+          "A general election result",
+          "The EDSA People Power Revolution",
+          "An invasion",
+          "A court ruling"
+        ],
+        "answerIndex": 1,
+        "explain": "Four days of mass demonstrations, with military defections, ended it.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Why this period is still argued about",
+      "text": "Some remember order and new roads. The documented record of arrests and killings is also real.",
+      "points": [
+        "**Both memories exist** in the same country.",
+        "**Documented evidence** is not the same as opinion.",
+        "**Ask what a claim is based on**, every time.",
+        "**That habit matters more** than any single fact here."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Proclamation 1081",
+          "def": "The 1972 declaration of martial law."
+        },
+        {
+          "term": "Martial law",
+          "def": "Government by the military, replacing normal civil authority."
+        },
+        {
+          "term": "EDSA People Power Revolution",
+          "def": "The February 1986 mass demonstrations that ended the government."
+        },
+        {
+          "term": "Snap election",
+          "def": "An election called at short notice, outside the normal schedule."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Proclamation 1081 closed Congress and the free press in 1972.",
+        "Around 70,000 imprisoned, 34,000 tortured and 3,200 killed are documented figures.",
+        "Infrastructure was built and foreign debt rose from about 2 to about 28 billion dollars.",
+        "Aquino's assassination in 1983 led to EDSA in 1986."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Martial law was declared in…",
+      "options": [
+        "1972",
+        "1965",
+        "1969",
+        "1981"
+      ],
+      "answerIndex": 0,
+      "explain": "Proclamation 1081, September 1972.",
+      "objective": "Describe Proclamation 1081 and what it changed",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Proclamation 1081 closed…",
+      "options": [
+        "the Supreme Court",
+        "all schools",
+        "the ports",
+        "Congress"
+      ],
+      "answerIndex": 3,
+      "explain": "Congress was abolished and the press was shut or taken over.",
+      "objective": "Describe Proclamation 1081 and what it changed",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Who was among the first arrested in 1972?",
+      "options": [
+        "Macapagal",
+        "Garcia",
+        "Benigno Aquino Jr.",
+        "Quirino"
+      ],
+      "answerIndex": 2,
+      "explain": "The leading opposition senator.",
+      "objective": "Describe Proclamation 1081 and what it changed",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Roughly how many people were imprisoned during the period?",
+      "options": [
+        "700",
+        "700,000",
+        "7,000",
+        "70,000"
+      ],
+      "answerIndex": 3,
+      "explain": "About 70,000, according to Amnesty International.",
+      "objective": "State what is documented about the period",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Roughly how many were killed?",
+      "options": [
+        "32,000",
+        "3,200",
+        "320,000",
+        "320"
+      ],
+      "answerIndex": 1,
+      "explain": "Around 3,200 documented.",
+      "objective": "State what is documented about the period",
+      "seconds": 22
+    },
+    {
+      "type": "truefalse",
+      "text": "A Philippine government board later recognised thousands of victims for compensation.",
+      "answer": true,
+      "explain": "Over 11,000 claimants were recognised as eligible.",
+      "objective": "State what is documented about the period",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Foreign debt during the period rose from about…",
+      "options": [
+        "$2M to $28M",
+        "$2B to $28B",
+        "it fell",
+        "$20B to $28B"
+      ],
+      "answerIndex": 1,
+      "explain": "Roughly two billion dollars to about twenty-eight billion.",
+      "objective": "Explain the economic record honestly",
+      "seconds": 22
+    },
+    {
+      "type": "truefalse",
+      "text": "No significant infrastructure was built during this period.",
+      "answer": false,
+      "explain": "Major infrastructure was built and is still in use. Both that and the debt are the record.",
+      "objective": "Explain the economic record honestly",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Benigno Aquino Jr. was assassinated in…",
+      "options": [
+        "1972",
+        "1981",
+        "1983",
+        "1986"
+      ],
+      "answerIndex": 2,
+      "explain": "At Manila airport, on his return.",
+      "objective": "Explain how the period ended",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The February 1986 snap election was widely seen as…",
+      "options": [
+        "rigged",
+        "cancelled",
+        "uncontested",
+        "clean"
+      ],
+      "answerIndex": 0,
+      "explain": "Which triggered the demonstrations that followed.",
+      "objective": "Explain how the period ended",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "What ended the government in 1986?",
+      "options": [
+        "A court ruling",
+        "EDSA People Power",
+        "An invasion",
+        "A resignation letter alone"
+      ],
+      "answerIndex": 1,
+      "explain": "Four days of mass demonstrations with military defections.",
+      "objective": "Explain how the period ended",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "When a claim about this period is made, the best question is…",
+      "options": [
+        "what evidence it rests on",
+        "how popular it is",
+        "how old it is",
+        "who said it"
+      ],
+      "answerIndex": 0,
+      "explain": "Documented evidence and opinion are different things, and the difference is checkable.",
+      "objective": "State what is documented about the period",
+      "seconds": 24
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 10 Social Studies, the last teaching week and the most sensitive. The approach is to separate what is documented from what is contested, and to say which is which. The human rights figures are attributed to Amnesty International and to the Philippine government's own claims board, which paid compensation to recognised victims, so he can see that these are records rather than opinions. The economic record is given with both halves intact: real infrastructure and a debt rising from roughly two to twenty-eight billion dollars. The closing card acknowledges that different memories of the period exist in the same country, while holding the line that documented evidence and opinion are not the same thing — which is the transferable skill the week is really teaching.",
+    "discussion": [
+      "What is the difference between a documented figure and an opinion?",
+      "Can building roads and causing harm both be true of one government?",
+      "Why does the question 'what evidence is this based on' matter here?"
+    ],
+    "extension": [
+      "Look up what the Human Rights Victims Claims Board was set up to do.",
+      "Ask an older relative what they remember of 1986."
+    ],
+    "misconceptions": [
+      "That the human rights record is a matter of opinion.",
+      "That nothing was built in this period.",
+      "That the period ended with an ordinary election."
+    ]
+  }
+}

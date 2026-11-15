@@ -1,0 +1,353 @@
+{
+  "id": "ss-t2-w9",
+  "courseId": "social-studies",
+  "courseTitle": "Social Studies",
+  "week": 9,
+  "title": "Garcia, Macapagal & Marcos",
+  "subtitle": "Economic nationalism, a new date, and a landslide.",
+  "estMinutes": 20,
+  "objectives": [
+    "Describe the Garcia and Macapagal administrations",
+    "Explain the Filipino First policy",
+    "Explain why Independence Day was moved to 12 June",
+    "Describe Marcos before 1972"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🧭",
+      "eyebrow": "Part 9 · Three more presidents",
+      "title": "Economic nationalism, a new date, and a landslide",
+      "text": "The republic tried to take back economic control, then elected a man who promised to build.",
+      "body": "The republic tried to take back economic control, then elected a man who promised to build."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Garcia",
+      "title": "1957 to 1961: Filipino First",
+      "text": "He took over when Magsaysay died, then won his own term.",
+      "points": [
+        "**Filipino First Policy** gave Filipino businesses priority.",
+        "**The aim** was to reduce foreign control of the economy.",
+        "**It annoyed American business interests.**",
+        "**It also drew accusations** of protecting the well-connected."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "The Filipino First Policy aimed to…",
+        "options": [
+          "close the bases",
+          "give Filipino businesses priority in the economy",
+          "increase foreign investment",
+          "end trade"
+        ],
+        "answerIndex": 1,
+        "explain": "Reducing foreign economic control was the point.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Macapagal",
+      "title": "1961 to 1965: the date and the land code",
+      "text": "Two changes that outlasted him.",
+      "points": [
+        "**Moved Independence Day** from 4 July to 12 June, in 1962.",
+        "**The Agricultural Land Reform Code of 1963** attacked tenancy directly.",
+        "**It aimed to turn tenants into owners.**",
+        "**Funding and enforcement** fell far short."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Changing a national holiday is an argument about history",
+      "text": "Moving the date said that independence was declared by Filipinos, not handed over by Americans.",
+      "points": [
+        "**4 July 1946** was the day recognition was granted.",
+        "**12 June 1898** was the day it was declared.",
+        "**Macapagal chose the declaration.**",
+        "**Same country, two stories about where it begins.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "The 1963 land reform code ended tenancy in the Philippines.",
+        "answer": false,
+        "explain": "It aimed to, and fell far short on funding and enforcement. The problem continued.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Marcos",
+      "title": "1965 to 1972: build, borrow, win again",
+      "text": "He was elected on competence and a promise of infrastructure.",
+      "points": [
+        "**Roads, bridges and schools** were built at pace.",
+        "**He borrowed heavily** to pay for them.",
+        "**Re-elected in 1969**, the first president to win a second full term.",
+        "**That campaign** was extraordinarily expensive."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Independence Day was moved to 12 June by…",
+        "options": [
+          "Macapagal",
+          "Quirino",
+          "Marcos",
+          "Garcia"
+        ],
+        "answerIndex": 0,
+        "explain": "In 1962, to mark the declaration rather than the grant.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "Building on borrowed money",
+      "text": "Infrastructure you cannot pay for is a car bought on finance: real, useful, and still owed.",
+      "points": [
+        "**The roads existed** and were genuinely used.",
+        "**So did the debt**, growing each year.",
+        "**Repayments** came out of later budgets.",
+        "**Both facts are true.** Hold them together."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "Unrest was rising before 1972",
+      "text": "Student protests, rural insurgency and a widening gap between rich and poor.",
+      "points": [
+        "**The First Quarter Storm of 1970** saw mass student demonstrations.",
+        "**A new communist movement** had formed in 1968.",
+        "**A Muslim separatist movement** grew in Mindanao.",
+        "**All three were real** before martial law was declared."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Filipino First Policy",
+          "def": "Garcia's policy favouring Filipino businesses."
+        },
+        {
+          "term": "Agricultural Land Reform Code",
+          "def": "Macapagal's 1963 law attacking tenancy."
+        },
+        {
+          "term": "First Quarter Storm",
+          "def": "The wave of student protests in early 1970."
+        },
+        {
+          "term": "Infrastructure",
+          "def": "Roads, bridges, ports and public buildings."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Garcia's Filipino First tried to reduce foreign economic control.",
+        "Macapagal moved Independence Day to 12 June in 1962.",
+        "The 1963 land code aimed at tenancy and fell short.",
+        "Marcos built heavily, borrowed heavily, and won again in 1969."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "The Filipino First Policy was introduced by…",
+      "options": [
+        "Quirino",
+        "Marcos",
+        "Garcia",
+        "Macapagal"
+      ],
+      "answerIndex": 2,
+      "explain": "During his 1957 to 1961 term.",
+      "objective": "Explain the Filipino First policy",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Its aim was to…",
+      "options": [
+        "give Filipino businesses priority",
+        "close the bases",
+        "end all trade",
+        "attract foreign owners"
+      ],
+      "answerIndex": 0,
+      "explain": "Reducing foreign control of the economy.",
+      "objective": "Explain the Filipino First policy",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Independence Day was moved to 12 June in…",
+      "options": [
+        "1946",
+        "1962",
+        "1972",
+        "1957"
+      ],
+      "answerIndex": 1,
+      "explain": "By Macapagal.",
+      "objective": "Explain why Independence Day was moved to 12 June",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Why move it?",
+      "options": [
+        "It was a mistake",
+        "4 July was inconvenient",
+        "To match America",
+        "12 June marks the declaration by Filipinos"
+      ],
+      "answerIndex": 3,
+      "explain": "Declared rather than granted — a claim about where the country begins.",
+      "objective": "Explain why Independence Day was moved to 12 June",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "The 1963 Agricultural Land Reform Code targeted…",
+      "options": [
+        "tenancy",
+        "foreign trade",
+        "education",
+        "the army"
+      ],
+      "answerIndex": 0,
+      "explain": "It aimed to turn tenants into owners.",
+      "objective": "Describe the Garcia and Macapagal administrations",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "The 1963 land code solved the tenancy problem.",
+      "answer": false,
+      "explain": "Funding and enforcement fell far short.",
+      "objective": "Describe the Garcia and Macapagal administrations",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Marcos was first elected in…",
+      "options": [
+        "1957",
+        "1969",
+        "1961",
+        "1965"
+      ],
+      "answerIndex": 3,
+      "explain": "On a promise of infrastructure and competence.",
+      "objective": "Describe Marcos before 1972",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "How did Marcos pay for his building programme?",
+      "options": [
+        "Selling land",
+        "Heavy borrowing",
+        "Foreign aid only",
+        "Taxes alone"
+      ],
+      "answerIndex": 1,
+      "explain": "The roads were real and so was the debt.",
+      "objective": "Describe Marcos before 1972",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "Marcos was re-elected in 1969.",
+      "answer": true,
+      "explain": "The first president to win a second full term.",
+      "objective": "Describe Marcos before 1972",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The First Quarter Storm of 1970 was…",
+      "options": [
+        "an election",
+        "a wave of student protests",
+        "a treaty",
+        "a typhoon"
+      ],
+      "answerIndex": 1,
+      "explain": "Mass demonstrations in early 1970.",
+      "objective": "Describe Marcos before 1972",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which was NOT a source of unrest before 1972?",
+      "options": [
+        "A foreign invasion",
+        "A Mindanao separatist movement",
+        "A new communist movement",
+        "Student protests"
+      ],
+      "answerIndex": 0,
+      "explain": "The first three were all real and growing.",
+      "objective": "Describe Marcos before 1972",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Garcia became president initially because…",
+      "options": [
+        "he was appointed",
+        "Quirino resigned",
+        "Magsaysay died in office",
+        "he won an election"
+      ],
+      "answerIndex": 2,
+      "explain": "He was Vice President when the 1957 crash happened, then won his own term.",
+      "objective": "Describe the Garcia and Macapagal administrations",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 9 Social Studies, covering the administrations between Magsaysay and martial law. The week's purpose is to make 1972 intelligible rather than sudden, so the closing cards establish that student protest, a new communist movement and a Mindanao separatist movement were all real and growing before any declaration. Marcos before 1972 is presented accurately as a popular builder financed by debt, with both facts held together rather than one chosen. Macapagal's holiday change is used to show that choosing a national date is an argument about whether independence was declared or granted.",
+    "discussion": [
+      "Why move Independence Day to 12 June?",
+      "Can infrastructure and debt both be real achievements and real problems?",
+      "What was already unstable before 1972?"
+    ],
+    "extension": [
+      "Find out what was built near you in the late 1960s.",
+      "Look up what the First Quarter Storm demanded."
+    ],
+    "misconceptions": [
+      "That the 1963 land code worked.",
+      "That unrest began only after 1972.",
+      "That Marcos was unpopular before martial law."
+    ]
+  }
+}
