@@ -5449,7 +5449,325 @@ function uriPangAbay() {
     });
 }
 
+/* ==========================================================================
+   MAPEH FIGURES — Term 2.
+   The term is history: of instruments, of art, of games, of how music gets
+   from a player to an ear. History taught as dates is the fastest way to
+   lose him, so each of these is a mechanism instead — how the sound is
+   made, what order the panels go in, what goes on the plate.
+   ========================================================================== */
+
+/* Instruments are usually grouped by what they look like. They are actually
+   grouped by what vibrates, which is a physics question and a better one. */
+function instrumentFamilies() {
+    return listPicker({
+        id: 'if1', label: 'WHAT ACTUALLY VIBRATES?', height: 272, y0: 60, dy: 26,
+        alt: 'Five instrument families, each named by the part that vibrates, with a Filipino example',
+        capA: 'Vibrates: ', capB: 'Filipino example: ',
+        rows: [
+            { btn: '1', short: 'Chordophone — strings', a: 'A stretched string',
+              b: 'Kudyapi, the two-string boat lute of Mindanao.' },
+            { btn: '2', short: 'Aerophone — wind', a: 'A column of air inside a tube',
+              b: 'Tongali, the Kalinga nose flute.' },
+            { btn: '3', short: 'Membranophone — drums', a: 'A stretched skin',
+              b: 'Dabakan, the goblet drum of a kulintang ensemble.' },
+            { btn: '4', short: 'Idiophone — self-sounding', a: 'The whole body of the instrument',
+              b: 'Gangsa and kulintang gongs; the kubing jaw harp.' },
+            { btn: '5', short: 'Electrophone — electric', a: 'Nothing. A circuit makes the signal',
+              b: 'Synthesiser, electric guitar pickup, drum machine.' },
+            { btn: '?', short: 'Why it matters', a: 'The family predicts how you change the note',
+              b: 'Shorter string, shorter air column, tighter skin, bigger gong.' }
+        ]
+    });
+}
+
+/* Indigenous music here is named by region and by playing technique, not by
+   a single word, because "ethnic music" flattens half the country. */
+function pinoyEnsembles() {
+    return listPicker({
+        id: 'pe2', label: 'WHERE IT IS FROM · HOW IT IS PLAYED', height: 272, y0: 60, dy: 26,
+        alt: 'Six indigenous Philippine music traditions with their region and playing method',
+        capA: 'From: ', capB: 'Played: ',
+        rows: [
+            { btn: '1', short: 'Gangsa — flat gongs', a: 'The Cordillera, in the north',
+              b: 'Toppaya: seated, struck with the palm. Palook: standing, struck with a stick.' },
+            { btn: '2', short: 'Kulintang — gong row', a: 'Maguindanao and Maranao, Mindanao',
+              b: 'Eight gongs in a row, struck with two padded sticks.' },
+            { btn: '3', short: 'Agung & gandingan', a: 'Mindanao, inside the kulintang ensemble',
+              b: 'The large hanging gongs that hold the time underneath.' },
+            { btn: '4', short: 'Kudyapi — boat lute', a: 'Maguindanao, Maranao, T’boli',
+              b: 'Two strings: one carries the melody, one drones.' },
+            { btn: '5', short: 'Kubing — jaw harp', a: 'Across Mindanao and the Cordillera',
+              b: 'Held to the mouth; your mouth is the amplifier.' },
+            { btn: '6', short: 'Bamboo ensembles', a: 'Visayas and Luzon lowlands',
+              b: 'Angklung, tongatong, bungkaka — tuned lengths of bamboo.' }
+        ]
+    });
+}
+
+/* Not "old versus new" but a chain of answers to one question: how do you
+   move a sound from the player to the listener? */
+function musicTech() {
+    return listPicker({
+        id: 'mt3', label: 'HOW THE SOUND REACHES YOU', height: 272, y0: 60, dy: 26,
+        alt: 'Six stages in how music is stored and delivered, from live performance to streaming',
+        capA: 'Stored as: ', capB: 'What changed: ',
+        rows: [
+            { btn: '1', short: 'Live only', a: 'Nothing. It exists while it is played',
+              b: 'To hear it you had to be in the room. Every version was different.' },
+            { btn: '2', short: 'Notation', a: 'Marks on paper',
+              b: 'The piece could travel without the player. Reading became a skill.' },
+            { btn: '3', short: 'Record & tape', a: 'A groove, or magnetised tape',
+              b: 'One performance, copied. The take became permanent.' },
+            { btn: '4', short: 'CD', a: 'Numbers read by a laser',
+              b: 'No contact, so no wear. The same copy every play.' },
+            { btn: '5', short: 'MP3', a: 'Numbers with the quiet parts thrown away',
+              b: 'Small enough to send. That is why it won, not because it sounded better.' },
+            { btn: '6', short: 'Streaming', a: 'Nothing on your device at all',
+              b: 'You stopped owning it. The catalogue moved to someone else’s computer.' }
+        ]
+    });
+}
+
+/* Six periods, each with the question its artists were trying to answer.
+   The Philippine example is there so the period is not only European. */
+function artPeriods() {
+    return listPicker({
+        id: 'ap4', label: 'WHAT WERE THEY TRYING TO DO?', height: 272, y0: 60, dy: 26,
+        alt: 'Six periods of art history, each with the question its artists were answering and a Philippine example',
+        capA: 'The question: ', capB: 'Here: ',
+        rows: [
+            { btn: '1', short: 'Prehistoric', a: 'Can I record that this happened?',
+              b: 'The Angono Petroglyphs in Rizal — 127 carved figures, around 3000 BC.' },
+            { btn: '2', short: 'Classical', a: 'Can I make the human body ideal?',
+              b: 'Greek and Roman sculpture: balance, proportion, calm faces.' },
+            { btn: '3', short: 'Religious', a: 'Can I teach a story to people who cannot read?',
+              b: 'Colonial church painting and santo carving, from the 1500s on.' },
+            { btn: '4', short: 'Academic realism', a: 'Can I paint it exactly as the eye sees it?',
+              b: 'Juan Luna’s Spoliarium, 1884 — gold medal in Madrid.' },
+            { btn: '5', short: 'Modernism', a: 'Why should art look like anything at all?',
+              b: 'Victorio Edades broke with Amorsolo’s sunlit style in the 1920s.' },
+            { btn: '6', short: 'Digital', a: 'What can I make that could not exist on paper?',
+              b: 'Game art, 3D models, animation — including the ones you already use.' }
+        ]
+    });
+}
+
+/* Symbols carry meaning that is lost the moment they are called decoration.
+   Each row says what it means, not only what it is. */
+function pinoySymbols() {
+    return listPicker({
+        id: 'ps5', label: 'WHAT IT MEANS, NOT JUST WHAT IT IS', height: 272, y0: 60, dy: 26,
+        alt: 'Six Philippine cultural symbols with their origin and the meaning each one carries',
+        capA: 'From: ', capB: 'Carries: ',
+        rows: [
+            { btn: '1', short: 'Sarimanok', a: 'Maranao, Mindanao',
+              b: 'A bird holding a fish. A sign of rank and good fortune, not a cartoon.' },
+            { btn: '2', short: 'Okir', a: 'Maranao and Maguindanao',
+              b: 'Curved leaf and vine carving. Traditionally carved by men, on houses and boats.' },
+            { btn: '3', short: 'T’nalak', a: 'T’boli, South Cotabato',
+              b: 'Abaca cloth in red, black and white. The patterns come to the weaver in dreams.' },
+            { btn: '4', short: 'Bulul', a: 'Ifugao, the Cordillera',
+              b: 'A carved rice-granary figure. It guards the harvest; it is not an ornament.' },
+            { btn: '5', short: 'Parol', a: 'Pampanga and the whole country',
+              b: 'A star lantern. San Fernando’s giant parols run on their own motors.' },
+            { btn: '6', short: 'Jeepney art', a: 'Everywhere there is a road',
+              b: 'Chrome horses, names, saints. The owner’s whole life painted on a vehicle.' }
+        ]
+    });
+}
+
+/* Sequencing a story is a decision, so he makes it. A wrong order is never
+   called wrong — it is shown as a different story, which it is. */
+function storyPanels() {
+    return orderLab({
+        id: 'sp6', height: 206,
+        label: 'YOU PUT THE PANELS IN ORDER',
+        alt: 'An interactive where the learner sequences four story panels and sees what each wrong order would mean',
+        steps: [
+            { expr: '? → ? → ? → ?',
+              ask: 'Four panels of one story. Which is panel 1?',
+              choices: [
+                { btn: 'Trophy', ok: false,
+                  gives: 'Opening on the trophy tells the reader the ending first.',
+                  why: 'That can work — it is called a flash-forward — but then panel 2 has to go back in time, and you have to show that.' },
+                { btn: 'Taping hands', ok: true },
+                { btn: 'The knockdown', ok: false,
+                  gives: 'Opening on the knockdown is dramatic and leaves no setup.',
+                  why: 'The reader does not know who is down or why it matters yet.' } ] },
+            { expr: 'Taping hands → ? → ? → ?',
+              ask: 'Hands are taped. What comes next?',
+              choices: [
+                { btn: 'Trophy', ok: false,
+                  gives: 'Taping, then the trophy. The fight is skipped entirely.',
+                  why: 'Skipping the middle is allowed, but then the story is about preparation, not the fight.' },
+                { btn: 'Walking out', ok: true } ] },
+            { expr: 'Taping → Walking out → ? → ?',
+              ask: 'He is in the ring. What now?',
+              choices: [
+                { btn: 'The knockdown', ok: true },
+                { btn: 'Trophy', ok: false,
+                  gives: 'Walking out, then the trophy. He wins with nothing at stake.',
+                  why: 'A story needs the moment it could have gone the other way.' } ] },
+            { expr: 'Taping → Walking out → Knockdown → Trophy',
+              done: 'Setup, build, turning point, outcome. Four panels, one story.' }
+        ]
+    });
+}
+
+/* These games are a PE syllabus that nobody wrote down. Each row names the
+   fitness component it trains, so "old game" becomes "specific training". */
+function pinoyGames() {
+    return listPicker({
+        id: 'pg7', label: 'WHAT EACH GAME ACTUALLY TRAINS', height: 272, y0: 60, dy: 26,
+        alt: 'Six traditional Filipino games with how each is played and the fitness component it trains',
+        capA: 'How: ', capB: 'Trains: ',
+        rows: [
+            { btn: '1', short: 'Patintero', a: 'Cross a grid of lines without being tagged',
+              b: 'Agility and reaction. Direction changes, not straight-line speed.' },
+            { btn: '2', short: 'Tumbang preso', a: 'Knock down a can with a slipper, then retrieve it',
+              b: 'Accuracy under pressure, plus sprinting.' },
+            { btn: '3', short: 'Sipa', a: 'Keep a weighted shuttle up with your feet',
+              b: 'Balance and coordination. Closest Filipino game to footwork drills.' },
+            { btn: '4', short: 'Luksong tinik', a: 'Jump over a rising stack of hands and feet',
+              b: 'Explosive power and flexibility together.' },
+            { btn: '5', short: 'Piko', a: 'Hop a drawn grid on one foot',
+              b: 'Single-leg balance and ankle control.' },
+            { btn: '6', short: 'Sungka', a: 'Move shells around a carved board',
+              b: 'Nothing physical. Counting ahead — it is a strategy game.' }
+        ]
+    });
+}
+
+/* The plate, tappable. Pinggang Pinoy is a proportion, so a figure that
+   shows the proportion does the teaching that a list of food groups cannot. */
+function pinggangPinoy() {
+    const plate = `
+      <circle class="fig-arena" cx="200" cy="124" r="82"/>
+      <path class="fig-divide" d="M200 42 L200 206" fill="none"/>
+      <path class="fig-divide" d="M200 124 L282 124" fill="none"/>
+      <circle class="fig-jar" cx="322" cy="70" r="22"/>
+      <text class="fig-cell" x="322" y="106" text-anchor="middle">tubig</text>`;
+    const hi = d => `<path class="fig-soft-fill" d="${d}"/>`;
+    const HALF = 'M200 42 A82 82 0 0 0 200 206 Z';
+    const GO   = 'M200 124 L200 42 A82 82 0 0 1 282 124 Z';
+    const GROW = 'M200 124 L282 124 A82 82 0 0 1 200 206 Z';
+    return partPicker({
+        id: 'pp8', height: 286, capY: 238,
+        label: 'TAP A PART OF THE PLATE',
+        alt: 'The Pinggang Pinoy plate divided into vegetables and fruit, energy foods and body-building foods, with water beside it',
+        scene: plate,
+        parts: [
+            { btn: 'Glow', svg: hi(HALF),
+              a: 'GLOW — vegetables and fruit, half the plate',
+              b: 'Vitamins and minerals. The biggest share, and the one usually missing.' },
+            { btn: 'Go', svg: hi(GO),
+              a: 'GO — rice, bread, root crops',
+              b: 'Energy. Not the enemy: it is what the training runs on.' },
+            { btn: 'Grow', svg: hi(GROW),
+              a: 'GROW — fish, meat, egg, beans, milk',
+              b: 'Body-building. The smallest share of the plate, and still essential.' },
+            { btn: 'Water', svg: hi('M300 70 A22 22 0 1 0 344 70 A22 22 0 1 0 300 70 Z'),
+              a: 'WATER — beside the plate, not on it',
+              b: 'Six to eight glasses a day, more when you train.' }
+        ]
+    });
+}
+
+/* A multimedia project fails in the planning, not the making, so the figure
+   is the planning — and a wrong order shows the cost rather than a cross. */
+function projectOrder() {
+    return orderLab({
+        id: 'po10', height: 206,
+        label: 'YOU PLAN THE PROJECT',
+        alt: 'An interactive where the learner orders the stages of a historical multimedia project',
+        steps: [
+            { expr: '? → ? → ? → ?',
+              ask: 'A short video about one event. What do you do first?',
+              choices: [
+                { btn: 'Record audio', ok: false,
+                  gives: 'You record a narration before you know what happens in it.',
+                  why: 'The script decides the length of every shot. Recording first means recording twice.' },
+                { btn: 'Find the facts', ok: true },
+                { btn: 'Pick music', ok: false,
+                  gives: 'Music first means cutting the facts to fit a song.',
+                  why: 'That is how an accurate project becomes a wrong one.' } ] },
+            { expr: 'Find the facts → ? → ? → ?',
+              ask: 'You have the facts and the sources. Now?',
+              choices: [
+                { btn: 'Write the script', ok: true },
+                { btn: 'Edit', ok: false,
+                  gives: 'Editing with no script means guessing in the timeline.',
+                  why: 'Every change costs ten times more once the clips are in.' } ] },
+            { expr: 'Facts → Script → ? → ?',
+              ask: 'Script is done. Next?',
+              choices: [
+                { btn: 'Gather media', ok: true },
+                { btn: 'Publish', ok: false,
+                  gives: 'Nothing to publish yet — there are no images or clips.',
+                  why: 'The script tells you exactly which media to collect. That is its other job.' } ] },
+            { expr: 'Facts → Script → Media → Edit & cite',
+              done: 'Facts, script, media, edit. Cite every source on screen or at the end.' }
+        ]
+    });
+}
+
+
+/* The expo is the term's final piece, so the review board doubles as a
+   planning board: ten weeks, what to show from each, and the thing that
+   usually goes wrong on the day. */
+function mapehT2Map() {
+    return examMap({
+        id: 'mpt2', label: 'TEN WEEKS \u00b7 WHAT TO SHOW',
+        alt: 'The ten MAPEH topics of the term, each with what to know and the usual trap',
+        rows: [
+            { btn: '1', short: 'Instrument families',
+              a: 'What vibrates: string, air, skin, body, circuit',
+              b: 'A gong is an idiophone, not a drum. Nothing is stretched over it.' },
+            { btn: '2', short: 'Indigenous music',
+              a: 'Gangsa in the north; kulintang in the south',
+              b: 'Toppaya is the palm, palook is the stick. They are techniques, not places.' },
+            { btn: '3', short: 'Then vs. now',
+              a: 'Live, notation, record, CD, MP3, streaming',
+              b: 'The MP3 won on size. It throws audio away on purpose.' },
+            { btn: '4', short: 'Art through time',
+              a: 'Each period answers a question; Angono, Luna, Amorsolo, Edades',
+              b: 'Luna painted the Spoliarium. Amorsolo painted sunlight.' },
+            { btn: '5', short: 'Cultural symbols',
+              a: 'Sarimanok, okir, t\u2019nalak, bulul, parol, flag',
+              b: 'Three stars are the island groups, not three heroes.' },
+            { btn: '6', short: 'Storytelling',
+              a: 'Setup, build, turning point, outcome; panel and gutter',
+              b: 'The reader fills the gutter. The best moment is often not drawn.' },
+            { btn: '7', short: 'Traditional games',
+              a: 'What each game trains, not just how it is played',
+              b: 'Sungka trains nothing physical. It is a strategy game.' },
+            { btn: '8', short: 'Wellness & nutrition',
+              a: 'Go, Grow, Glow and the proportions of the plate',
+              b: 'Glow is the biggest share. Go is not the enemy.' },
+            { btn: '9', short: 'Fitness & recreation',
+              a: 'The five components, and a test for each',
+              b: 'Strength is one effort; endurance is many. Different tests.' },
+            { btn: '10', short: 'Multimedia project',
+              a: 'Facts, script, media, edit \u2014 in that order',
+              b: 'Picking music first means cutting the facts to fit a song.' }
+        ]
+    });
+}
+
 export const FIGURES = {
+    mapehT2Map,
+
+    instrumentFamilies,
+    pinoyEnsembles,
+    musicTech,
+    artPeriods,
+    pinoySymbols,
+    storyPanels,
+    pinoyGames,
+    pinggangPinoy,
+    projectOrder,
+
     kaukulanPangngalan,
     panghalipPanao,
     pamatligLapit,

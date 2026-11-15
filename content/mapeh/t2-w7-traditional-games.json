@@ -1,0 +1,333 @@
+{
+  "id": "mapeh-t2-w7",
+  "courseId": "mapeh",
+  "courseTitle": "MAPEH",
+  "week": 7,
+  "title": "Traditional Filipino Games",
+  "subtitle": "Six games, and what each one actually trains.",
+  "estMinutes": 20,
+  "objectives": [
+    "Name the main traditional Filipino games",
+    "Describe how each is played",
+    "Say which fitness component each one trains",
+    "Explain why these games still work as training"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🏃",
+      "eyebrow": "Part 7 · PE",
+      "title": "These games are a training programme nobody wrote down",
+      "text": "Every one of them trains something specific. Once you can name what, they stop being old games and become drills."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "Name the component, not the game",
+      "text": "A game you can name the purpose of is a game you can use.",
+      "points": [
+        "**Agility** — changing direction fast.",
+        "**Power** — force produced quickly.",
+        "**Balance and coordination** — control under movement.",
+        "**Accuracy** — hitting a target under pressure."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "pinoyGames",
+      "title": "Six buttons",
+      "text": "Tap each game. The second line is what it actually trains."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Patintero mainly trains…",
+        "options": [
+          "flexibility",
+          "agility",
+          "strength",
+          "accuracy"
+        ],
+        "answerIndex": 1,
+        "explain": "Direction changes under pressure, not straight-line speed.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Two that look similar",
+      "title": "Luksong tinik and piko",
+      "text": "Both involve jumping. They train different things.",
+      "points": [
+        "**Luksong tinik:** a rising stack of hands and feet.",
+        "**That is power and flexibility together.**",
+        "**Piko:** hopping a grid on one foot.",
+        "**That is single-leg balance and ankle control.**"
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which game trains nothing physical?",
+        "options": [
+          "Sungka",
+          "Patintero",
+          "Piko",
+          "Sipa"
+        ],
+        "answerIndex": 0,
+        "explain": "Sungka is a counting and strategy game.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Sipa is footwork",
+      "text": "Keeping a weighted shuttle up with your feet is the same skill as not losing your base.",
+      "points": [
+        "**Weight has to stay over your feet.**",
+        "**Small corrections, constantly.**",
+        "**That is what a boxer's footwork is.**",
+        "**Coaches use skipping for the same reason.**"
+      ]
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Why they still work",
+      "title": "Four reasons",
+      "text": "This is not nostalgia. There are real reasons these games are good training.",
+      "points": [
+        "**No equipment.** A slipper, a can, a stick of chalk.",
+        "**Short bursts with rest** — the same shape as interval training.",
+        "**Mixed ages can play together**, which keeps it going.",
+        "**They are fun**, which is the only reason anyone repeats anything."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "Short bursts with rest is a real method",
+      "text": "What these games do by accident, coaches do on purpose.",
+      "points": [
+        "**Sprint, stop, sprint again.**",
+        "**That trains the heart differently** from a steady jog.",
+        "**It is called interval training.**",
+        "**Patintero is intervals** with a reason to run."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "These games have rules you could code",
+      "text": "Every one of them is a complete rule set.",
+      "points": [
+        "**Win condition, lose condition, turn order.**",
+        "**Tumbang preso has a respawn rule.**",
+        "**Patintero has collision detection** — by hand.",
+        "**They are games in the strict sense**, not just play."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Patintero: agility. Tumbang preso: accuracy and sprinting.",
+        "Sipa: balance and coordination. Luksong tinik: power and flexibility.",
+        "Piko: single-leg balance. Sungka: strategy, not fitness.",
+        "Short bursts with rest is interval training by another name."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "How is patintero played?",
+      "options": [
+        "Crossing lines without being tagged",
+        "Moving shells",
+        "Hopping a grid",
+        "Kicking a shuttle"
+      ],
+      "answerIndex": 0,
+      "explain": "A grid of lines and taggers on them.",
+      "objective": "Describe how each is played",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Tumbang preso uses a…",
+      "options": [
+        "board",
+        "shuttle",
+        "slipper and a can",
+        "ball"
+      ],
+      "answerIndex": 2,
+      "explain": "You knock the can down, then retrieve the slipper.",
+      "objective": "Describe how each is played",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Sipa trains mainly…",
+      "options": [
+        "flexibility",
+        "strength",
+        "accuracy",
+        "balance and coordination"
+      ],
+      "answerIndex": 3,
+      "explain": "Constant small corrections over your feet.",
+      "objective": "Say which fitness component each one trains",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Luksong tinik trains…",
+      "options": [
+        "accuracy",
+        "power and flexibility",
+        "nothing",
+        "endurance only"
+      ],
+      "answerIndex": 1,
+      "explain": "Explosive jumping over a rising obstacle.",
+      "objective": "Say which fitness component each one trains",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Piko trains…",
+      "options": [
+        "single-leg balance",
+        "heart endurance",
+        "accuracy",
+        "upper-body strength"
+      ],
+      "answerIndex": 0,
+      "explain": "Hopping a grid on one foot.",
+      "objective": "Say which fitness component each one trains",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Sungka is played with…",
+      "options": [
+        "shells on a carved board",
+        "slippers",
+        "chalk",
+        "a shuttle"
+      ],
+      "answerIndex": 0,
+      "explain": "A counting and strategy game.",
+      "objective": "Describe how each is played",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "Sungka is a good test of physical fitness.",
+      "answer": false,
+      "explain": "It trains counting ahead, not the body.",
+      "objective": "Say which fitness component each one trains",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Short bursts of effort with rest between is called…",
+      "options": [
+        "steady state",
+        "flexibility work",
+        "balance work",
+        "interval training"
+      ],
+      "answerIndex": 3,
+      "explain": "It trains the heart differently from a steady jog.",
+      "objective": "Explain why these games still work as training",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which game is closest to a boxer's footwork drills?",
+      "options": [
+        "Sungka",
+        "Tumbang preso",
+        "Sipa",
+        "Piko"
+      ],
+      "answerIndex": 2,
+      "explain": "Weight over the feet, corrected constantly.",
+      "objective": "Say which fitness component each one trains",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why can mixed ages play these games together?",
+      "options": [
+        "They are easy",
+        "They are short",
+        "The rules adjust and no equipment is needed",
+        "They are indoors"
+      ],
+      "answerIndex": 2,
+      "explain": "Which is a real reason they survived.",
+      "objective": "Explain why these games still work as training",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "What do all six have that a kickabout does not?",
+      "options": [
+        "A pitch",
+        "A complete rule set",
+        "A referee",
+        "A trophy"
+      ],
+      "answerIndex": 1,
+      "explain": "Win condition, lose condition, turn order.",
+      "objective": "Explain why these games still work as training",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Agility means…",
+      "options": [
+        "moving fast in a line",
+        "changing direction quickly and in control",
+        "stretching far",
+        "lifting heavily"
+      ],
+      "answerIndex": 1,
+      "explain": "Which is why patintero is an agility game.",
+      "objective": "Say which fitness component each one trains",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 7 MAPEH, PE strand. The move that makes this week work is refusing the nostalgia framing: each game is labelled with the fitness component it trains, so 'old game' becomes 'specific drill'. Sungka is kept in the set precisely because it trains nothing physical, which forces him to actually read the column rather than assume every traditional game is exercise. The four reasons these games survived are given plainly, including that they are fun, since that is the real mechanism. The gaming lens reframes them as complete rule sets, which they are.",
+    "discussion": [
+      "Ask what each game trains before he plays it.",
+      "Ask why sungka is in the list at all.",
+      "Ask what interval training is and which game does it.",
+      "Ask him to write the rules of patintero as if for a computer."
+    ],
+    "extension": [
+      "Play one of these and have him name the component afterwards.",
+      "Have him invent a game that trains one named component."
+    ],
+    "misconceptions": [
+      "\"All traditional games are exercise.\" Sungka is strategy.",
+      "\"Patintero is a running race.\" It is agility, not speed.",
+      "\"These games are too simple to be training.\" Short bursts with rest is a real method."
+    ]
+  }
+}

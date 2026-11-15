@@ -1,0 +1,343 @@
+{
+  "id": "mapeh-t2-w1",
+  "courseId": "mapeh",
+  "courseTitle": "MAPEH",
+  "week": 1,
+  "title": "History of Music & Instruments",
+  "subtitle": "Grouped by what vibrates — which makes it physics.",
+  "estMinutes": 20,
+  "objectives": [
+    "Group instruments by what vibrates",
+    "Place the main stages of instrument history",
+    "Name Filipino instruments in each family",
+    "Explain what changes a note's pitch"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🎻",
+      "eyebrow": "Part 1 · Music",
+      "title": "Instruments are grouped by what shakes",
+      "text": "Not by what they look like, and not by how loud they are. By which part of the instrument actually vibrates — which makes this a physics question."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "Five families, one test",
+      "text": "Ask one thing: what is moving back and forth fast enough to make sound?",
+      "points": [
+        "**A string** — chordophone.",
+        "**A column of air** — aerophone.",
+        "**A stretched skin** — membranophone.",
+        "**The whole body of the thing** — idiophone."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "instrumentFamilies",
+      "title": "Five buttons",
+      "text": "Tap each family. The Filipino example is the one worth remembering."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "A kulintang gong belongs to which family?",
+        "options": [
+          "Idiophone",
+          "Chordophone",
+          "Membranophone",
+          "Aerophone"
+        ],
+        "answerIndex": 0,
+        "explain": "Nothing is stretched over it. The bronze itself rings.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "History",
+      "title": "Four moments, not four dates",
+      "text": "Each one solved a problem the one before it could not.",
+      "points": [
+        "**About 40,000 years ago:** bone flutes, already with finger holes.",
+        "**Ancient civilisations:** harps, lyres, large drums, bronze gongs.",
+        "**From the 1600s:** the violin family and the keyboard, built to blend.",
+        "**From the 1900s:** electricity, and an instrument with no vibrating part."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "physics",
+      "icon": "🧪",
+      "eyebrow": "Physics mode",
+      "title": "Pitch is a frequency, not a feeling",
+      "text": "High and low are not opinions. They are counts per second.",
+      "points": [
+        "**Faster vibration = higher note.** That is the whole rule.",
+        "**Shorter string** vibrates faster. So does a tighter one.",
+        "**Shorter air column** vibrates faster.",
+        "**Smaller, thinner gong** vibrates faster. Same rule, four instruments."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "You want a higher note from a guitar string. You should…",
+        "options": [
+          "loosen it",
+          "shorten it",
+          "lengthen it",
+          "make it thicker"
+        ],
+        "answerIndex": 1,
+        "explain": "Shorter means faster vibration, which means higher pitch.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "A speaker is an instrument built backwards",
+      "text": "An instrument turns movement into sound. A speaker turns a signal into movement.",
+      "points": [
+        "**A coil of wire** sits inside a magnet.",
+        "**Current through the coil** makes it push and pull.",
+        "**The cone glued to it** moves the air.",
+        "**Same physics as a drum skin.** Different reason for moving."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Game music has to not know what happens next",
+      "text": "A film score knows the running time. A game score does not.",
+      "points": [
+        "**The music is written in layers.**",
+        "**Layers are added** as the danger rises.",
+        "**It loops without a seam** so you never hear it restart.",
+        "**That is a composing problem** no orchestra ever had."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Chordophone",
+          "def": "An instrument whose string vibrates."
+        },
+        {
+          "term": "Aerophone",
+          "def": "An instrument whose air column vibrates."
+        },
+        {
+          "term": "Idiophone",
+          "def": "An instrument whose own body vibrates."
+        },
+        {
+          "term": "Pitch",
+          "def": "How high or low a note is — its vibration frequency."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Ask what vibrates: string, air, skin, body, or a circuit.",
+        "Kudyapi is a chordophone; tongali an aerophone; gangsa an idiophone.",
+        "Faster vibration means higher pitch, in every family.",
+        "Bone flutes with finger holes are about 40,000 years old."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "What vibrates in an aerophone?",
+      "options": [
+        "A circuit",
+        "A column of air",
+        "A skin",
+        "A string"
+      ],
+      "answerIndex": 1,
+      "explain": "The air inside the tube.",
+      "objective": "Group instruments by what vibrates",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The kudyapi is a…",
+      "options": [
+        "membranophone",
+        "aerophone",
+        "idiophone",
+        "chordophone"
+      ],
+      "answerIndex": 3,
+      "explain": "A two-string boat lute from Mindanao.",
+      "objective": "Name Filipino instruments in each family",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The dabakan is a…",
+      "options": [
+        "aerophone",
+        "chordophone",
+        "membranophone",
+        "idiophone"
+      ],
+      "answerIndex": 2,
+      "explain": "A drum — a stretched skin.",
+      "objective": "Name Filipino instruments in each family",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The kubing is a…",
+      "options": [
+        "aerophone",
+        "idiophone",
+        "chordophone",
+        "membranophone"
+      ],
+      "answerIndex": 1,
+      "explain": "A jaw harp. The bamboo tongue itself vibrates.",
+      "objective": "Name Filipino instruments in each family",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The tongali is played with the…",
+      "options": [
+        "nose",
+        "elbow",
+        "mouth only",
+        "fingers"
+      ],
+      "answerIndex": 0,
+      "explain": "A Kalinga nose flute.",
+      "objective": "Name Filipino instruments in each family",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "To raise the pitch of a string you…",
+      "options": [
+        "tighten it",
+        "thicken it",
+        "loosen it",
+        "lengthen it"
+      ],
+      "answerIndex": 0,
+      "explain": "Tighter means faster vibration.",
+      "objective": "Explain what changes a note's pitch",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "Pitch is a matter of opinion.",
+      "answer": false,
+      "explain": "It is a vibration frequency — a count per second.",
+      "objective": "Explain what changes a note's pitch",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Roughly how old are the oldest known flutes?",
+      "options": [
+        "400,000 years",
+        "4,000 years",
+        "40,000 years",
+        "400 years"
+      ],
+      "answerIndex": 2,
+      "explain": "Bone and ivory flutes, already with finger holes.",
+      "objective": "Place the main stages of instrument history",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "What arrived in instrument history only in the 1900s?",
+      "options": [
+        "Electric instruments",
+        "Drums",
+        "Harps",
+        "Gongs"
+      ],
+      "answerIndex": 0,
+      "explain": "An instrument where nothing mechanical has to vibrate.",
+      "objective": "Place the main stages of instrument history",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The violin family was built mainly to…",
+      "options": [
+        "be cheap",
+        "blend with other instruments",
+        "be loud",
+        "be portable"
+      ],
+      "answerIndex": 1,
+      "explain": "They were designed as a family that sounds like one body.",
+      "objective": "Place the main stages of instrument history",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "A speaker works by…",
+      "options": [
+        "heating air",
+        "vibrating a string",
+        "moving a cone with a coil and magnet",
+        "spinning a disc"
+      ],
+      "answerIndex": 2,
+      "explain": "An instrument in reverse.",
+      "objective": "Group instruments by what vibrates",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Game music is written in layers because…",
+      "options": [
+        "it is a rule",
+        "it sounds better",
+        "it is cheaper",
+        "the composer does not know how long a scene lasts"
+      ],
+      "answerIndex": 3,
+      "explain": "A film score knows the running time. A game score cannot.",
+      "objective": "Place the main stages of instrument history",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 1 MAPEH, Music strand. The organising move is to drop the usual grouping by appearance and use the Hornbostel-Sachs question instead: what vibrates? That turns a memory task into a physics one, and it pays off immediately — the single rule that faster vibration means higher pitch then explains shortening a string, shortening an air column and choosing a smaller gong, all at once. Filipino instruments carry each family rather than appearing as a separate 'local' section. The history is given as four problems solved rather than four dates.",
+    "discussion": [
+      "Ask what vibrates in each instrument in the house.",
+      "Ask why a smaller gong sounds higher.",
+      "Ask what a speaker and a drum have in common.",
+      "Ask how game music differs from film music."
+    ],
+    "extension": [
+      "Have him find the highest and lowest note on one string and explain why.",
+      "Have him listen to a game soundtrack and count the layers."
+    ],
+    "misconceptions": [
+      "\"Instruments are grouped by size.\" By what vibrates.",
+      "\"A gong is a drum.\" Nothing is stretched over a gong.",
+      "\"Loose strings sound higher.\" Tighter is higher."
+    ]
+  }
+}

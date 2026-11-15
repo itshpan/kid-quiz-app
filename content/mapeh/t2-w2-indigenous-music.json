@@ -1,0 +1,333 @@
+{
+  "id": "mapeh-t2-w2",
+  "courseId": "mapeh",
+  "courseTitle": "MAPEH",
+  "week": 2,
+  "title": "Indigenous Music Traditions",
+  "subtitle": "Two gong traditions, north and south, and how each is struck.",
+  "estMinutes": 20,
+  "objectives": [
+    "Name the main indigenous Philippine music traditions",
+    "Say where each tradition comes from",
+    "Explain how each is played",
+    "Explain why this music is tied to an occasion"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🪘",
+      "eyebrow": "Part 2 · Music",
+      "title": "Not folk music. Living traditions, with addresses.",
+      "text": "\"Ethnic music\" flattens a hundred groups into one word. These traditions have regions, techniques and rules, and they are still played."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "Two great gong traditions, north and south",
+      "text": "The Philippines has two, and they are not the same.",
+      "points": [
+        "**The Cordillera, north:** flat gongs called **gangsa**.",
+        "**Mindanao, south:** a row of tuned gongs, the **kulintang**.",
+        "**Flat and hand-struck** in the north.",
+        "**Bossed and melodic** in the south."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "pinoyEnsembles",
+      "title": "Six buttons",
+      "text": "Tap each one. The second line is how it is actually played."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "The gangsa comes from…",
+        "options": [
+          "Palawan",
+          "The Cordillera",
+          "The Visayas",
+          "Mindanao"
+        ],
+        "answerIndex": 1,
+        "explain": "Flat gongs, played in the northern highlands.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Technique",
+      "title": "Two ways to play a gangsa",
+      "text": "The method has a name, and it changes the whole sound.",
+      "points": [
+        "**Toppaya:** seated, struck with the **palm**.",
+        "**Palook:** standing or walking, struck with a **stick**.",
+        "**Same instrument**, two different events.",
+        "**The technique tells you the occasion.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Nobody counts out loud",
+      "text": "In a gong ensemble each player holds one part and listens for the others.",
+      "points": [
+        "**No conductor.** No sheet music.",
+        "**You learn it by standing in it.**",
+        "**Same as learning a combination:** by repetition, not description.",
+        "**Lose the timing** and the whole pattern collapses."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is palook?",
+        "options": [
+          "Playing with a stick while standing",
+          "A song",
+          "A region",
+          "A kind of gong"
+        ],
+        "answerIndex": 0,
+        "explain": "The other technique is toppaya: seated, with the palm.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Function",
+      "title": "This music has a job",
+      "text": "It is not written for a concert hall, and that changes everything about it.",
+      "points": [
+        "**Rituals:** healing, harvest, funerals.",
+        "**Courtship:** the kudyapi and the kubing are played close and quiet.",
+        "**Celebration:** weddings and victory, with the full ensemble.",
+        "**Taught by ear**, passed down by playing — not by notation."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "Why a gong's size sets its note",
+      "text": "The same rule you met last week, in bronze.",
+      "points": [
+        "**Bigger and thicker** vibrates slower. Lower note.",
+        "**Smaller and thinner** vibrates faster. Higher note.",
+        "**A kulintang row** is eight gongs graded by size.",
+        "**Nothing is adjusted while playing.** The tuning is in the metal."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "A tradition with no text",
+      "text": "When nothing is written down, the music itself is the archive.",
+      "points": [
+        "**A forgotten piece is gone.** There is no copy.",
+        "**That is why recording these traditions matters.**",
+        "**The Darangen was chanted**, not read, for centuries.",
+        "**Every performer is a link** in a chain that can break."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Cordillera: flat gangsa gongs, played toppaya or palook.",
+        "Mindanao: the tuned kulintang row, with agung and gandingan beneath.",
+        "Kudyapi is a two-string lute; kubing a jaw harp.",
+        "The music belongs to an occasion, and is learned by ear."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "The kulintang comes from…",
+      "options": [
+        "The Cordillera",
+        "Mindanao",
+        "Ilocos",
+        "Bicol"
+      ],
+      "answerIndex": 1,
+      "explain": "Maguindanao and Maranao traditions.",
+      "objective": "Say where each tradition comes from",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "How many gongs are in a kulintang row?",
+      "options": [
+        "Eight",
+        "Six",
+        "Twelve",
+        "Four"
+      ],
+      "answerIndex": 0,
+      "explain": "Eight, graded by size.",
+      "objective": "Name the main indigenous Philippine music traditions",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Toppaya means playing the gangsa…",
+      "options": [
+        "with a hammer",
+        "with a bow",
+        "seated, with the palm",
+        "with a stick, standing"
+      ],
+      "answerIndex": 2,
+      "explain": "Palook is the stick technique.",
+      "objective": "Explain how each is played",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The kubing is held…",
+      "options": [
+        "on the shoulder",
+        "on the lap",
+        "to the mouth",
+        "under the arm"
+      ],
+      "answerIndex": 2,
+      "explain": "Your mouth is the amplifier.",
+      "objective": "Explain how each is played",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The kudyapi has how many strings?",
+      "options": [
+        "Six",
+        "One",
+        "Four",
+        "Two"
+      ],
+      "answerIndex": 3,
+      "explain": "One carries the melody, one drones.",
+      "objective": "Name the main indigenous Philippine music traditions",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The agung and gandingan are…",
+      "options": [
+        "string instruments",
+        "large hanging gongs",
+        "flutes",
+        "drums"
+      ],
+      "answerIndex": 1,
+      "explain": "They hold the time beneath the kulintang.",
+      "objective": "Name the main indigenous Philippine music traditions",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A smaller, thinner gong sounds…",
+      "options": [
+        "higher",
+        "louder only",
+        "the same",
+        "lower"
+      ],
+      "answerIndex": 0,
+      "explain": "Faster vibration means higher pitch.",
+      "objective": "Explain how each is played",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "A gong ensemble normally plays from written music.",
+      "answer": false,
+      "explain": "No conductor and no notation. It is learned by standing in it.",
+      "objective": "Explain why this music is tied to an occasion",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which is NOT a traditional occasion for this music?",
+      "options": [
+        "A healing ritual",
+        "A concert tour",
+        "A harvest",
+        "A wedding"
+      ],
+      "answerIndex": 1,
+      "explain": "It was not written for a stage and an audience.",
+      "objective": "Explain why this music is tied to an occasion",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why does losing a piece from an oral tradition matter so much?",
+      "options": [
+        "It was loud",
+        "It was expensive",
+        "There is no written copy to go back to",
+        "It was recent"
+      ],
+      "answerIndex": 2,
+      "explain": "The performance is the only archive.",
+      "objective": "Explain why this music is tied to an occasion",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Which pair is both from Mindanao?",
+      "options": [
+        "Gangsa and tongali",
+        "Tongali and bungkaka",
+        "Gangsa and kulintang",
+        "Kulintang and dabakan"
+      ],
+      "answerIndex": 3,
+      "explain": "The dabakan is the drum of a kulintang ensemble.",
+      "objective": "Say where each tradition comes from",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Bamboo instruments like tongatong are grouped as…",
+      "options": [
+        "aerophones or idiophones",
+        "membranophones",
+        "chordophones",
+        "electrophones"
+      ],
+      "answerIndex": 0,
+      "explain": "Depending on whether a column of air or the bamboo itself rings.",
+      "objective": "Name the main indigenous Philippine music traditions",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 2 MAPEH, Music strand. The week's purpose is to replace the single word 'ethnic' with addresses and techniques: two distinct gong traditions, north and south, and the named methods of striking a gangsa. Toppaya and palook do real work here, because a technique with a name is a fact he can hold, while 'indigenous music' is not. The pitch rule from week 1 is carried over into bronze so the two weeks reinforce rather than sit apart. The last card makes the point that an oral tradition has no backup copy, which is why recording it matters.",
+    "discussion": [
+      "Ask which tradition is north and which is south.",
+      "Ask what the difference is between toppaya and palook.",
+      "Ask why a kulintang row is graded by size.",
+      "Ask what is lost when an oral tradition stops being played."
+    ],
+    "extension": [
+      "Find a kulintang recording and have him count the gongs he can hear.",
+      "Have him tap a pattern and keep it while you play a different one."
+    ],
+    "misconceptions": [
+      "\"All Philippine gongs are the same.\" Flat and hand-struck north; tuned and bossed south.",
+      "\"This music is for performances.\" It belongs to occasions.",
+      "\"It is written down somewhere.\" It is learned by ear."
+    ]
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "id": "mapeh-t2-w6",
+  "courseId": "mapeh",
+  "courseTitle": "MAPEH",
+  "week": 6,
+  "title": "Storytelling Through Art",
+  "subtitle": "Four beats, and the gap that does the work.",
+  "estMinutes": 20,
+  "objectives": [
+    "Order the parts of a visual story",
+    "Name the parts of a comic page",
+    "Explain what the gap between panels does",
+    "Name key figures in Philippine komiks"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "💬",
+      "eyebrow": "Part 6 · Arts",
+      "title": "A story in pictures is a story in decisions",
+      "text": "Which moment do you draw? Which do you leave out? A comic page is mostly the moments the artist decided not to show."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "Four beats in any visual story",
+      "text": "Comic, storyboard, film or game cutscene — the same four.",
+      "points": [
+        "**Setup** — who, where, and what is at stake.",
+        "**Build** — it gets harder.",
+        "**Turning point** — it could go either way.",
+        "**Outcome** — what it cost."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "storyPanels",
+      "title": "You put them in order",
+      "text": "Four panels, one story. Pick panel 1 and see what each order would mean."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which beat is the moment it could go either way?",
+        "options": [
+          "Turning point",
+          "Build",
+          "Outcome",
+          "Setup"
+        ],
+        "answerIndex": 0,
+        "explain": "Without it, the ending has nothing at stake.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The page",
+      "title": "What the parts are called",
+      "text": "The vocabulary is small and the test uses it.",
+      "points": [
+        "**Panel** — one framed moment.",
+        "**Gutter** — the gap between panels.",
+        "**Speech balloon** — what is said. **Caption** — what is narrated.",
+        "**Splash** — a single panel filling the page."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "The gutter does the work",
+      "text": "Nothing is drawn in the gap, and that is where the reader does the most.",
+      "points": [
+        "**Panel 1:** he raises the glove.",
+        "**Panel 2:** the other fighter is on the canvas.",
+        "**You saw the punch.** It was never drawn.",
+        "**The reader fills the gutter.** That is the trick of the form."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is the gutter?",
+        "options": [
+          "The page edge",
+          "The gap between panels",
+          "The caption",
+          "A speech balloon"
+        ],
+        "answerIndex": 1,
+        "explain": "The reader supplies what happens in it.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Philippine komiks",
+      "title": "Three names worth knowing",
+      "text": "Komiks were the most-read medium in the country for decades.",
+      "points": [
+        "**Tony Velasquez** — *Kenkoy*, 1929. The start of it.",
+        "**Mars Ravelo** — created *Darna* and *Captain Barbell*.",
+        "**Francisco V. Coching** — called the dean of Filipino illustrators.",
+        "**Weekly magazines** carried them to millions."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "A storyboard is a game before it exists",
+      "text": "Nothing gets built until somebody draws the sequence.",
+      "points": [
+        "**Each shot is a panel.**",
+        "**The order is tested on paper** because paper is cheap.",
+        "**Changing a drawing costs minutes.**",
+        "**Changing a built level costs weeks.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "A fight is already four beats",
+      "text": "Which is why it is the easiest thing to storyboard.",
+      "points": [
+        "**Setup:** the walk-out and the stare.",
+        "**Build:** rounds one to three.",
+        "**Turning point:** the knockdown.",
+        "**Outcome:** the hand raised, or not."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Setup, build, turning point, outcome.",
+        "Panel, gutter, balloon, caption, splash.",
+        "The reader fills the gutter — the best moment is often not drawn.",
+        "Velasquez, Ravelo, Coching: the names Philippine komiks is built on."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Which beat comes third?",
+      "options": [
+        "Outcome",
+        "Turning point",
+        "Setup",
+        "Build"
+      ],
+      "answerIndex": 1,
+      "explain": "The moment it could go either way.",
+      "objective": "Order the parts of a visual story",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "One framed moment on a comic page is a…",
+      "options": [
+        "gutter",
+        "panel",
+        "splash",
+        "caption"
+      ],
+      "answerIndex": 1,
+      "explain": "A panel.",
+      "objective": "Name the parts of a comic page",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "The gap between panels is the…",
+      "options": [
+        "balloon",
+        "gutter",
+        "margin",
+        "frame"
+      ],
+      "answerIndex": 1,
+      "explain": "The gutter.",
+      "objective": "Name the parts of a comic page",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "A single panel filling a whole page is a…",
+      "options": [
+        "splash",
+        "balloon",
+        "caption",
+        "gutter"
+      ],
+      "answerIndex": 0,
+      "explain": "A splash page.",
+      "objective": "Name the parts of a comic page",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Narration, rather than speech, goes in a…",
+      "options": [
+        "caption",
+        "panel",
+        "balloon",
+        "gutter"
+      ],
+      "answerIndex": 0,
+      "explain": "Balloons are spoken; captions are narrated.",
+      "objective": "Name the parts of a comic page",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "What does the reader do in the gutter?",
+      "options": [
+        "Turns the page",
+        "Reads the caption",
+        "Nothing",
+        "Supplies what happened between panels"
+      ],
+      "answerIndex": 3,
+      "explain": "The punch is often never drawn.",
+      "objective": "Explain what the gap between panels does",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Who created Kenkoy, in 1929?",
+      "options": [
+        "Ravelo",
+        "Luna",
+        "Velasquez",
+        "Coching"
+      ],
+      "answerIndex": 2,
+      "explain": "Generally taken as the start of Philippine komiks.",
+      "objective": "Name key figures in Philippine komiks",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Who created Darna?",
+      "options": [
+        "Amorsolo",
+        "Velasquez",
+        "Coching",
+        "Ravelo"
+      ],
+      "answerIndex": 3,
+      "explain": "Mars Ravelo, who also created Captain Barbell.",
+      "objective": "Name key figures in Philippine komiks",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Francisco V. Coching is known as the dean of Filipino…",
+      "options": [
+        "sculptors",
+        "composers",
+        "illustrators",
+        "painters"
+      ],
+      "answerIndex": 2,
+      "explain": "Illustrators.",
+      "objective": "Name key figures in Philippine komiks",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "A storyboard is tested on paper because changes are cheap there.",
+      "answer": true,
+      "explain": "Minutes on paper, weeks in a built level.",
+      "objective": "Order the parts of a visual story",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Why is a boxing match easy to storyboard?",
+      "options": [
+        "It already has the four beats",
+        "It is loud",
+        "There are two people",
+        "It is short"
+      ],
+      "answerIndex": 0,
+      "explain": "Walk-out, rounds, knockdown, decision.",
+      "objective": "Order the parts of a visual story",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Opening a story on its ending is called a…",
+      "options": [
+        "gutter",
+        "caption",
+        "flash-forward",
+        "splash"
+      ],
+      "answerIndex": 2,
+      "explain": "It works, but then you have to show the jump back in time.",
+      "objective": "Order the parts of a visual story",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 6 MAPEH, Arts strand. The interactive is the lesson here: he sequences four panels himself and each wrong order is answered with what that order would mean rather than with a cross, which is both the house rule on wrong answers and the truth about storytelling. The vocabulary card is short because the test uses only five words. The gutter card carries the real idea of the form — the reader supplies the punch — and it transfers straight to storyboarding, which is why the gaming lens follows it. Philippine komiks gets three names, which is what a Grade 6 paper asks for.",
+    "discussion": [
+      "Ask which four beats a film he likes has.",
+      "Ask what happens in the gutter.",
+      "Ask why a storyboard is drawn before anything is built.",
+      "Ask which panel he would leave out, and why."
+    ],
+    "extension": [
+      "Have him draw four panels of something that happened this week.",
+      "Have him retell a story leaving out the turning point and see what breaks."
+    ],
+    "misconceptions": [
+      "\"Every moment has to be drawn.\" The best ones often are not.",
+      "\"A caption and a balloon are the same.\" Spoken against narrated.",
+      "\"Komiks were a small thing here.\" They were the most-read medium for decades."
+    ]
+  }
+}

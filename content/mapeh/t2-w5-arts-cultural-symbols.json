@@ -1,0 +1,327 @@
+{
+  "id": "mapeh-t2-w5",
+  "courseId": "mapeh",
+  "courseTitle": "MAPEH",
+  "week": 5,
+  "title": "Philippine Arts & Cultural Symbols",
+  "subtitle": "Design with a job — and what each symbol carries.",
+  "estMinutes": 20,
+  "objectives": [
+    "Name the main Philippine cultural symbols",
+    "Say which group or region each comes from",
+    "Explain the meaning each symbol carries",
+    "Read the symbols on the national flag"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🪶",
+      "eyebrow": "Part 5 · Arts",
+      "title": "A symbol stops being a symbol when you call it a pattern",
+      "text": "Every one of these means something specific to the people who made it. Learn the meaning and the design stops being wallpaper."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "Design with a job",
+      "text": "None of these were made to look nice on a shirt.",
+      "points": [
+        "**Sarimanok** marks rank and fortune.",
+        "**Bulul** guards a rice harvest.",
+        "**T'nalak** records a dream.",
+        "**Okir** says whose house this is."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "pinoySymbols",
+      "title": "Six buttons",
+      "text": "Tap each symbol. The second line is what it carries."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "The t'nalak is woven by the…",
+        "options": [
+          "T'boli",
+          "Maranao",
+          "Kalinga",
+          "Ifugao"
+        ],
+        "answerIndex": 0,
+        "explain": "From abaca, in red, black and white, in South Cotabato.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "How t'nalak is made",
+      "title": "Dreamed, then woven",
+      "text": "The process is the reason the cloth matters.",
+      "points": [
+        "**The fibre is abaca**, stripped and knotted by hand.",
+        "**Three colours only:** red, black, white.",
+        "**The weaver is called a dreamweaver** — the pattern comes in a dream.",
+        "**Months per piece.** It is not printed."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "phFlag",
+      "title": "The flag, part by part",
+      "text": "Tap each part. The last button is the one most people do not know."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What do the three stars on the flag stand for?",
+        "options": [
+          "Three heroes",
+          "Luzon, Visayas, Mindanao",
+          "Three wars",
+          "Three colours"
+        ],
+        "answerIndex": 1,
+        "explain": "The three main island groups.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "The jeepney is a moving artwork",
+      "text": "Nowhere else is a public vehicle also the owner's portrait.",
+      "points": [
+        "**Chrome horses** on the bonnet.",
+        "**His children's names** along the side.",
+        "**A saint, a team, a hometown** — all of it chosen.",
+        "**Same instinct as okir:** mark what is yours."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Borrowed symbols get their meaning stripped",
+      "text": "Games take designs from real cultures, and often lose what they meant.",
+      "points": [
+        "**A pattern used as decoration** carries nothing.",
+        "**The same pattern on a torogan** says rank and ownership.",
+        "**Ask where a design came from.**",
+        "**That question is the whole point** of this week."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "A parol is a star somebody built",
+      "text": "San Fernando's giant lanterns run on their own motors and crews.",
+      "points": [
+        "**Metres across**, with thousands of bulbs.",
+        "**Switched in sequence** so the light appears to move.",
+        "**Barangays compete** every December.",
+        "**It began as a simple star lantern.** It became engineering."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Sarimanok and okir: Maranao. Bulul: Ifugao. T'nalak: T'boli.",
+        "T'nalak is abaca, three colours, and the pattern is dreamed.",
+        "Flag: 8 rays for 8 provinces, 3 stars for the island groups.",
+        "Ask of any design: where is it from, and what does it mean?"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "The sarimanok comes from which group?",
+      "options": [
+        "T'boli",
+        "Maranao",
+        "Ifugao",
+        "Ibaloi"
+      ],
+      "answerIndex": 1,
+      "explain": "A bird holding a fish, marking rank and fortune.",
+      "objective": "Say which group or region each comes from",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The bulul is carved by the…",
+      "options": [
+        "T'boli",
+        "Tausug",
+        "Maranao",
+        "Ifugao"
+      ],
+      "answerIndex": 3,
+      "explain": "It guards the rice granary.",
+      "objective": "Say which group or region each comes from",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "T'nalak is woven from…",
+      "options": [
+        "cotton",
+        "silk",
+        "abaca",
+        "wool"
+      ],
+      "answerIndex": 2,
+      "explain": "Hand-stripped abaca fibre.",
+      "objective": "Explain the meaning each symbol carries",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "How many colours does t'nalak use?",
+      "options": [
+        "Five",
+        "Seven",
+        "Three",
+        "Two"
+      ],
+      "answerIndex": 2,
+      "explain": "Red, black and white.",
+      "objective": "Explain the meaning each symbol carries",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Why is a t'nalak weaver called a dreamweaver?",
+      "options": [
+        "She weaves at night",
+        "The pattern comes to her in a dream",
+        "She sells to tourists",
+        "She works alone"
+      ],
+      "answerIndex": 1,
+      "explain": "The design is received, not designed.",
+      "objective": "Explain the meaning each symbol carries",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Okir is traditionally found on…",
+      "options": [
+        "houses and boats",
+        "paper",
+        "coins",
+        "clothing only"
+      ],
+      "answerIndex": 0,
+      "explain": "Carved on the torogan and on vessels.",
+      "objective": "Explain the meaning each symbol carries",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The eight rays of the sun on the flag stand for…",
+      "options": [
+        "eight heroes",
+        "eight regions",
+        "eight islands",
+        "eight provinces that first revolted"
+      ],
+      "answerIndex": 3,
+      "explain": "The first eight provinces to rise against Spain.",
+      "objective": "Read the symbols on the national flag",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The white triangle on the flag refers to the…",
+      "options": [
+        "Katipunan",
+        "Church",
+        "Spanish",
+        "Americans"
+      ],
+      "answerIndex": 0,
+      "explain": "The triangle was the Katipunan's own symbol.",
+      "objective": "Read the symbols on the national flag",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "The Philippine flag is flown with red on top during war.",
+      "answer": true,
+      "explain": "The only national flag that shows a state of war by being inverted.",
+      "objective": "Read the symbols on the national flag",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The giant parols of San Fernando are notable for…",
+      "options": [
+        "switching thousands of bulbs in sequence",
+        "being imported",
+        "being very small",
+        "being made of paper only"
+      ],
+      "answerIndex": 0,
+      "explain": "The light appears to move.",
+      "objective": "Explain the meaning each symbol carries",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "What does jeepney art have in common with okir?",
+      "options": [
+        "Both are printed",
+        "Both mark what belongs to someone",
+        "Both are new",
+        "Both are religious"
+      ],
+      "answerIndex": 1,
+      "explain": "A design that says whose this is.",
+      "objective": "Explain the meaning each symbol carries",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "The point of asking where a design came from is that…",
+      "options": [
+        "it is polite",
+        "it is required",
+        "the meaning is lost when it is used as decoration",
+        "it is easier"
+      ],
+      "answerIndex": 2,
+      "explain": "A pattern used as wallpaper carries nothing.",
+      "objective": "Explain the meaning each symbol carries",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 5 MAPEH, Arts strand. The organising claim is that each of these designs was made to do something — mark rank, guard a harvest, record a dream, say whose house this is — and that calling it a pattern is what empties it. T'nalak gets a card of its own because the process, including the dreamweaver, is the reason the cloth matters and is the detail most likely to stick. The flag explorer from Term 1 returns here, which is deliberate: it is the one set of symbols he will be asked about for the rest of his schooling, and the war-inversion fact is genuinely little known. The gaming lens turns the week into a transferable habit: ask where a design came from.",
+    "discussion": [
+      "Ask which group each symbol belongs to.",
+      "Ask why the weaver is called a dreamweaver.",
+      "Ask what the eight rays stand for.",
+      "Ask what a jeepney's paintwork tells you about its owner."
+    ],
+    "extension": [
+      "Have him design a symbol for himself and say what every part means.",
+      "Have him look at a jeepney and list everything the owner chose."
+    ],
+    "misconceptions": [
+      "\"These are just patterns.\" Each one carries a specific meaning.",
+      "\"The three stars are three heroes.\" Luzon, Visayas, Mindanao.",
+      "\"T'nalak is printed cloth.\" Hand-woven abaca, months per piece."
+    ]
+  }
+}

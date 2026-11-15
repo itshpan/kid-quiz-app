@@ -1,0 +1,343 @@
+{
+  "id": "mapeh-t2-w3",
+  "courseId": "mapeh",
+  "courseTitle": "MAPEH",
+  "week": 3,
+  "title": "Music Then vs. Now",
+  "subtitle": "Six answers to one question, and what each one cost.",
+  "estMinutes": 20,
+  "objectives": [
+    "Order the stages of music storage and delivery",
+    "Say what each stage gained and cost",
+    "Describe how OPM changed across the decades",
+    "Explain why a format wins"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "📻",
+      "eyebrow": "Part 3 · Music",
+      "title": "One question, asked for a thousand years",
+      "text": "How do you get a sound from the person making it to the person who wants to hear it? Every format is an answer to that, and each one gave something up."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "Each step traded something",
+      "text": "Nothing was a pure upgrade.",
+      "points": [
+        "**Notation** let music travel — and froze it.",
+        "**Recording** kept the performance — and made one take permanent.",
+        "**MP3** made it portable — by throwing audio away.",
+        "**Streaming** gave you everything — and you own none of it."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "musicTech",
+      "title": "Six buttons",
+      "text": "Tap each stage. The second line is what actually changed."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why did the MP3 win?",
+        "options": [
+          "It was free",
+          "It was small enough to send",
+          "It sounded best",
+          "It lasted longest"
+        ],
+        "answerIndex": 1,
+        "explain": "It deliberately discards audio. Size beat quality.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "OPM",
+      "title": "Four decades in four lines",
+      "text": "Original Pilipino Music is a label for where it came from, not a single sound.",
+      "points": [
+        "**1970s:** the Manila sound, and rock in Filipino.",
+        "**1978:** Freddie Aguilar's *Anak* becomes an international hit.",
+        "**1990s:** band culture — the Eraserheads and the alternative wave.",
+        "**Now:** streaming and self-release, with no label needed."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "Electric cars had to be given a sound",
+      "text": "An engine's noise was a by-product. Then it stopped existing, and it turned out we needed it.",
+      "points": [
+        "**An electric motor is nearly silent** at low speed.",
+        "**Pedestrians could not hear a car coming.**",
+        "**Since 2019 in Europe and 2020 in the US**, new EVs must emit sound.",
+        "**Designers now compose it.** Sound became a decision."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "A streaming subscription means you…",
+        "options": [
+          "do not own anything",
+          "own the app",
+          "own one album",
+          "own the files"
+        ],
+        "answerIndex": 0,
+        "explain": "Access, not ownership. The catalogue can change without you.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "teardown",
+      "icon": "🌀",
+      "eyebrow": "Teardown mode",
+      "title": "A vinyl groove is a physical copy of the air",
+      "text": "It is the least abstract storage ever invented.",
+      "points": [
+        "**The groove is a wiggle** cut to match the sound wave.",
+        "**A needle rides it** and wiggles the same way.",
+        "**You can see the loud parts** — the groove is wider there.",
+        "**Every play wears it down.** Contact has a cost."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Game audio is the newest answer",
+      "text": "A game cannot store a finished performance, because the performance has not happened yet.",
+      "points": [
+        "**Short pieces are stored** and assembled live.",
+        "**Footsteps change with the surface** under you.",
+        "**The music reacts** to what you do.",
+        "**Back to live music**, in a way — nothing is fixed."
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Notation",
+          "def": "Writing music down as marks on paper."
+        },
+        {
+          "term": "Compression",
+          "def": "Making a file smaller, often by discarding data."
+        },
+        {
+          "term": "Streaming",
+          "def": "Playing audio held on someone else's computer."
+        },
+        {
+          "term": "OPM",
+          "def": "Original Pilipino Music — a label for origin, not a genre."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Live, notation, record, CD, MP3, streaming — each traded something.",
+        "The MP3 won on size, not sound quality.",
+        "Streaming gives access, not ownership.",
+        "OPM says where music came from, not what it sounds like."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Notation let music…",
+      "options": [
+        "travel without the player",
+        "sound better",
+        "last forever",
+        "get louder"
+      ],
+      "answerIndex": 0,
+      "explain": "The piece could move without the performer.",
+      "objective": "Say what each stage gained and cost",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "What does MP3 compression do?",
+      "options": [
+        "Raises the pitch",
+        "Adds detail",
+        "Slows the track",
+        "Discards audio data"
+      ],
+      "answerIndex": 3,
+      "explain": "It removes what it judges you will not hear.",
+      "objective": "Say what each stage gained and cost",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A CD stores music as…",
+      "options": [
+        "magnetised tape",
+        "a groove",
+        "numbers read by a laser",
+        "a pressed sheet"
+      ],
+      "answerIndex": 2,
+      "explain": "No contact, so no wear.",
+      "objective": "Order the stages of music storage and delivery",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The widest part of a vinyl groove is the…",
+      "options": [
+        "end",
+        "loudest",
+        "start",
+        "quietest"
+      ],
+      "answerIndex": 1,
+      "explain": "Bigger wiggle means a louder sound.",
+      "objective": "Say what each stage gained and cost",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "A streaming subscription means you own the music.",
+      "answer": false,
+      "explain": "It is access. The catalogue is not yours.",
+      "objective": "Explain why a format wins",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Why do new electric cars have to make a sound?",
+      "options": [
+        "To save battery",
+        "So pedestrians can hear them",
+        "To obey a music law",
+        "To sound sporty"
+      ],
+      "answerIndex": 1,
+      "explain": "An electric motor is nearly silent at low speed.",
+      "objective": "Explain why a format wins",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Freddie Aguilar's international hit was…",
+      "options": [
+        "Darna",
+        "Anak",
+        "Spoliarium",
+        "Kenkoy"
+      ],
+      "answerIndex": 1,
+      "explain": "Released in 1978.",
+      "objective": "Describe how OPM changed across the decades",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The Eraserheads belong to which decade of OPM?",
+      "options": [
+        "1970s",
+        "1960s",
+        "1990s",
+        "2020s"
+      ],
+      "answerIndex": 2,
+      "explain": "The band and alternative wave.",
+      "objective": "Describe how OPM changed across the decades",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "OPM stands for…",
+      "options": [
+        "One Philippine Melody",
+        "Old Philippine Music",
+        "Original Pilipino Music",
+        "Orchestral Pilipino Music"
+      ],
+      "answerIndex": 2,
+      "explain": "A label for origin, not a single sound.",
+      "objective": "Describe how OPM changed across the decades",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Which format cannot wear out from being played?",
+      "options": [
+        "CD",
+        "All wear out",
+        "Cassette",
+        "Vinyl"
+      ],
+      "answerIndex": 0,
+      "explain": "A laser does not touch the disc.",
+      "objective": "Say what each stage gained and cost",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Game audio is assembled live because…",
+      "options": [
+        "it is cheaper",
+        "files are too big",
+        "it is a rule",
+        "the performance has not happened yet"
+      ],
+      "answerIndex": 3,
+      "explain": "What you do decides what plays.",
+      "objective": "Order the stages of music storage and delivery",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "The pattern across all six stages is that each one…",
+      "options": [
+        "traded something away",
+        "sounded worse",
+        "cost more",
+        "improved everything"
+      ],
+      "answerIndex": 0,
+      "explain": "Nothing was a pure upgrade.",
+      "objective": "Say what each stage gained and cost",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 3 MAPEH, Music strand. The week is built on one question — how does a sound get from a player to a listener — so that 'then versus now' stops being nostalgia and becomes a chain of trade-offs. The MP3 is the key example: it won on file size while deliberately discarding audio, which is a useful lesson about why technologies win. The electric-car lens is the week's best hook and is factually anchored: silent motors created a safety problem, and sound became something designers compose rather than a by-product. OPM is presented as a label for origin, since calling it a genre is the usual error.",
+    "discussion": [
+      "Ask what each format gave up.",
+      "Ask why the MP3 won.",
+      "Ask what it means to not own the music you listen to.",
+      "Ask why an electric car needs a sound."
+    ],
+    "extension": [
+      "Have him listen to the same song on a phone speaker and on headphones and describe the difference.",
+      "Have him find out which year the oldest music in his library was recorded."
+    ],
+    "misconceptions": [
+      "\"Newer always sounds better.\" The MP3 discards audio on purpose.",
+      "\"Streaming means you own it.\" It is access only.",
+      "\"OPM is a genre.\" It is a statement about origin."
+    ]
+  }
+}

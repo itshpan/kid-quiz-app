@@ -68,11 +68,16 @@ const problems = [];
 for (const name of names) {
     await page.evaluate(n => window.__mount(n), name);
     await page.waitForTimeout(30);
-    const states = Math.max(await page.locator('#h .fig-switch button').count(), 1);
+    /* orderLab rebuilds its button bar as the learner advances, so the count
+       is not fixed. Re-read it each pass and stop when the index runs past
+       what is on screen, rather than waiting 30s for a button that is gone. */
+    const buttons = () => page.locator('#h .fig-switch button');
+    const first = Math.max(await buttons().count(), 1);
 
-    for (let i = 0; i < states; i++) {
-        if (states > 1) {
-            await page.locator('#h .fig-switch button').nth(i).click();
+    for (let i = 0; i < first; i++) {
+        if (first > 1) {
+            if (i >= await buttons().count()) break;
+            await buttons().nth(i).click();
             await page.waitForTimeout(30);
         }
         const over = await page.evaluate(() => {

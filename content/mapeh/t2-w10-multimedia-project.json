@@ -1,0 +1,321 @@
+{
+  "id": "mapeh-t2-w10",
+  "courseId": "mapeh",
+  "courseTitle": "MAPEH",
+  "week": 10,
+  "title": "Historical Multimedia Project",
+  "subtitle": "Facts, script, media, edit — and why that order.",
+  "estMinutes": 20,
+  "objectives": [
+    "Order the stages of a multimedia project",
+    "Explain why the script comes before the media",
+    "Cite sources correctly",
+    "Explain what makes a historical project accurate"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🎬",
+      "eyebrow": "Part 10 · Arts",
+      "title": "The project fails in the planning",
+      "text": "A historical video goes wrong before a single clip is cut. The order you do things in decides whether it works."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "Four stages, in one order",
+      "text": "Each stage produces what the next one needs.",
+      "points": [
+        "**Facts** — what happened, from sources you can name.",
+        "**Script** — what gets said, and in what order.",
+        "**Media** — the images and clips the script calls for.",
+        "**Edit and cite** — assemble it, credit everything."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "projectOrder",
+      "title": "You plan the project",
+      "text": "Pick the first stage. Each wrong order shows what it would cost."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Why does the script come before gathering media?",
+        "options": [
+          "It is a rule",
+          "The script says exactly which media you need",
+          "It is quicker",
+          "It looks better"
+        ],
+        "answerIndex": 1,
+        "explain": "That is the script's second job.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Accuracy",
+      "title": "Four rules for a history project",
+      "text": "An inaccurate project is worse than no project.",
+      "points": [
+        "**Two sources** for anything surprising.",
+        "**Name your source on screen** or at the end.",
+        "**Separate what is documented** from what is argued.",
+        "**Say when you do not know.** That is a finding too."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Something surprising in your research should be…",
+        "options": [
+          "checked against a second source",
+          "made the headline",
+          "left out",
+          "used immediately"
+        ],
+        "answerIndex": 0,
+        "explain": "One source is a claim; two is a finding.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Nobody builds the level first",
+      "text": "Game studios storyboard and block out before anything is made properly.",
+      "points": [
+        "**Grey boxes first**, to test the shape.",
+        "**Art goes on last**, when the shape works.",
+        "**Changing a grey box costs minutes.**",
+        "**Changing a finished level costs weeks.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "The script is where the thinking happens",
+      "text": "If the script is vague, no amount of editing will save it.",
+      "points": [
+        "**Write it as sentences**, not bullet points.",
+        "**Read it aloud and time it.** That is your real length.",
+        "**If you cannot say it, you cannot narrate it.**",
+        "**Cut it by a quarter.** It will be better."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "Measure, then cut",
+      "text": "The workshop rule holds for projects exactly.",
+      "points": [
+        "**A wrong cut wastes the part.**",
+        "**A wrong plan wastes the week.**",
+        "**Both are fixed by checking before committing.**",
+        "**Edit last** means you cut once."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Facts, script, media, edit — in that order.",
+        "The script tells you which media to gather.",
+        "Two sources for anything surprising; name every source.",
+        "Say plainly when something is not known."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "What is the first stage of the project?",
+      "options": [
+        "Edit",
+        "Pick music",
+        "Find the facts",
+        "Record audio"
+      ],
+      "answerIndex": 2,
+      "explain": "Everything else depends on it.",
+      "objective": "Order the stages of a multimedia project",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "What comes immediately after the facts?",
+      "options": [
+        "Publish",
+        "Script",
+        "Media",
+        "Edit"
+      ],
+      "answerIndex": 1,
+      "explain": "The script decides the length of every shot.",
+      "objective": "Order the stages of a multimedia project",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Picking the music first risks…",
+      "options": [
+        "poor audio",
+        "nothing",
+        "cutting the facts to fit a song",
+        "a short video"
+      ],
+      "answerIndex": 2,
+      "explain": "That is how an accurate project becomes a wrong one.",
+      "objective": "Explain why the script comes before the media",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "The script's second job is to…",
+      "options": [
+        "set the music",
+        "tell you which media to gather",
+        "fill time",
+        "impress the teacher"
+      ],
+      "answerIndex": 1,
+      "explain": "It is a shopping list for images and clips.",
+      "objective": "Explain why the script comes before the media",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "How many sources for a surprising claim?",
+      "options": [
+        "Two",
+        "Five",
+        "One",
+        "None"
+      ],
+      "answerIndex": 0,
+      "explain": "One source is a claim; two is a finding.",
+      "objective": "Explain what makes a historical project accurate",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Where should sources be named?",
+      "options": [
+        "Only in your notes",
+        "On screen or at the end",
+        "Only if asked",
+        "Nowhere"
+      ],
+      "answerIndex": 1,
+      "explain": "Credit everything you used.",
+      "objective": "Cite sources correctly",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "You should say plainly when something is not known.",
+      "answer": true,
+      "explain": "An honest gap is a finding, not a failure.",
+      "objective": "Explain what makes a historical project accurate",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Game studios block out levels in grey boxes because…",
+      "options": [
+        "it is cheaper to render",
+        "it looks good",
+        "it is tradition",
+        "changing the shape is cheap at that stage"
+      ],
+      "answerIndex": 3,
+      "explain": "Minutes then, weeks later.",
+      "objective": "Explain why the script comes before the media",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "The best way to find the real length of a script is to…",
+      "options": [
+        "count the words",
+        "guess",
+        "read it aloud and time it",
+        "ask someone"
+      ],
+      "answerIndex": 2,
+      "explain": "Reading speed is what decides it.",
+      "objective": "Explain why the script comes before the media",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A good last step on a first draft of a script is to…",
+      "options": [
+        "cut a quarter",
+        "add titles",
+        "add music",
+        "add a quarter"
+      ],
+      "answerIndex": 0,
+      "explain": "It will be better.",
+      "objective": "Explain why the script comes before the media",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which is NOT one of the four accuracy rules?",
+      "options": [
+        "Separate documented from argued",
+        "Name your sources",
+        "Two sources for surprises",
+        "Keep it under a minute"
+      ],
+      "answerIndex": 3,
+      "explain": "Length is a format choice, not an accuracy rule.",
+      "objective": "Explain what makes a historical project accurate",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "\"Measure, then cut\" applies to a project because…",
+      "options": [
+        "a wrong plan wastes the week",
+        "editing is hard",
+        "projects use rulers",
+        "it sounds good"
+      ],
+      "answerIndex": 0,
+      "explain": "Check before committing, in both cases.",
+      "objective": "Order the stages of a multimedia project",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 10 MAPEH, Arts strand, and the practical week of the term. The interactive is the content: he orders the stages himself and each wrong order is answered with its real cost rather than a cross. Picking the music first is included because it is the actual failure mode of a school multimedia project — the facts get cut to fit a song. The accuracy card gives four rules that transfer to any research task, including the one most students never hear: saying plainly that something is not known is a finding. Three lenses all say the same thing from three directions: check before you commit.",
+    "discussion": [
+      "Ask what each stage produces for the next one.",
+      "Ask why the music cannot come first.",
+      "Ask how many sources a surprising fact needs.",
+      "Ask him to read his script aloud and time it."
+    ],
+    "extension": [
+      "Have him actually make a two-minute project on one Term 2 Social Studies week.",
+      "Have him cut his own script by a quarter and compare the two."
+    ],
+    "misconceptions": [
+      "\"Gather the clips first, then write.\" The script is the shopping list.",
+      "\"One source is enough.\" Two for anything surprising.",
+      "\"Admitting you do not know looks weak.\" It is a finding."
+    ]
+  }
+}

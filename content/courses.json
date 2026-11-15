@@ -1648,7 +1648,7 @@
           "tagline": "Music, art, PE and health",
           "icon": "🎵",
           "accent": "#22c55e",
-          "status": "planned",
+          "status": "live",
           "weeks": [
             {
               "week": 1,
@@ -1657,7 +1657,8 @@
               "topics": [
                 "History of Music & Instruments"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "mapeh/t2-w1-instrument-history.json"
             },
             {
               "week": 2,
@@ -1666,7 +1667,8 @@
               "topics": [
                 "Indigenous Music Traditions"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "mapeh/t2-w2-indigenous-music.json"
             },
             {
               "week": 3,
@@ -1675,7 +1677,8 @@
               "topics": [
                 "Music Then vs. Now"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "mapeh/t2-w3-music-then-now.json"
             },
             {
               "week": 4,
@@ -1684,7 +1687,8 @@
               "topics": [
                 "Art Through Time"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "mapeh/t2-w4-art-through-time.json"
             },
             {
               "week": 5,
@@ -1693,7 +1697,8 @@
               "topics": [
                 "Philippine Arts & Cultural Symbols"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "mapeh/t2-w5-arts-cultural-symbols.json"
             },
             {
               "week": 6,
@@ -1702,7 +1707,8 @@
               "topics": [
                 "Storytelling Through Art"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "mapeh/t2-w6-storytelling-art.json"
             },
             {
               "week": 7,
@@ -1711,7 +1717,8 @@
               "topics": [
                 "Traditional Filipino Games"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "mapeh/t2-w7-traditional-games.json"
             },
             {
               "week": 8,
@@ -1720,7 +1727,8 @@
               "topics": [
                 "Family Wellness & Nutrition"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "mapeh/t2-w8-family-wellness.json"
             },
             {
               "week": 9,
@@ -1729,7 +1737,8 @@
               "topics": [
                 "Physical Fitness & Recreation"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "mapeh/t2-w9-fitness-recreation.json"
             },
             {
               "week": 10,
@@ -1738,7 +1747,8 @@
               "topics": [
                 "Historical Multimedia Project"
               ],
-              "status": "planned"
+              "status": "live",
+              "file": "mapeh/t2-w10-multimedia-project.json"
             },
             {
               "week": 11,
@@ -1747,7 +1757,8 @@
               "topics": [
                 "Cultural Expo Assessment"
               ],
-              "status": "planned"
+              "status": "exam",
+              "file": "mapeh/t2-w11-cultural-expo.json"
             }
           ]
         },

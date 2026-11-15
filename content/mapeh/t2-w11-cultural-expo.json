@@ -1,0 +1,508 @@
+{
+  "id": "mapeh-t2-w11",
+  "courseId": "mapeh",
+  "courseTitle": "MAPEH",
+  "week": 11,
+  "title": "Cultural Expo",
+  "subtitle": "Ten weeks, shown rather than written.",
+  "estMinutes": 30,
+  "objectives": [
+    "Recall the Music strand of the term",
+    "Recall the Arts strand of the term",
+    "Recall the PE strand of the term",
+    "Recall the Health strand of the term",
+    "Plan what to present at the expo"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🎪",
+      "eyebrow": "Part 11 · Cultural Expo",
+      "title": "Ten weeks, one table",
+      "text": "It is the term, shown rather than written. So the question is what each week gives you to show."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Music",
+      "title": "Three weeks, three things to show",
+      "text": "All three are demonstrable.",
+      "points": [
+        "**Week 1:** play two notes and explain why one is higher.",
+        "**Week 2:** play a gangsa pattern toppaya, then palook.",
+        "**Week 3:** the same song through two formats.",
+        "**Show the mechanism**, not a poster of it."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "mapehT2Map",
+      "title": "Ten weeks, what to show",
+      "text": "Tap each week. The second line is the trap that catches people."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Toppaya and palook are…",
+        "options": [
+          "two songs",
+          "two ways of striking a gangsa",
+          "two regions",
+          "two instruments"
+        ],
+        "answerIndex": 1,
+        "explain": "Palm, seated; stick, standing.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Arts",
+      "title": "Three weeks, three things to show",
+      "text": "Each one is a made object.",
+      "points": [
+        "**Week 4:** one subject in three periods' styles.",
+        "**Week 5:** a symbol you designed, with its meaning written.",
+        "**Week 6:** four panels in order, and the same four reordered.",
+        "**The reordered version** is the one people remember."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "An expo table is a user interface",
+      "text": "People walk past. You have about three seconds.",
+      "points": [
+        "**One thing visible** from two metres away.",
+        "**One thing they can touch.**",
+        "**One sentence you say** before they ask.",
+        "**Everything else is detail** for whoever stays."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which group takes about half the Pinggang Pinoy plate?",
+        "options": [
+          "Glow",
+          "Water",
+          "Grow",
+          "Go"
+        ],
+        "answerIndex": 0,
+        "explain": "Vegetables and fruit.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "PE and Health",
+      "title": "Four weeks, two demonstrations",
+      "text": "These are the easiest to show and the most often turned into posters.",
+      "points": [
+        "**Week 7:** run one game and name what it trains.",
+        "**Week 8:** lay out a real plate in the right proportions.",
+        "**Week 9:** run one fitness test on a visitor.",
+        "**Week 10:** show the plan, not only the finished video."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Rehearse the sentence",
+      "text": "The one line you say when somebody stops at your table.",
+      "points": [
+        "**Write it down.** Say it twenty times.",
+        "**Under fifteen words.**",
+        "**It names the thing and why it matters.**",
+        "**Then stop talking** and let them ask."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "The day itself is physical",
+      "text": "Standing and talking for two hours is harder than it sounds.",
+      "points": [
+        "**Eat before**, not during.",
+        "**Water within reach.**",
+        "**Sit when nobody is at the table.**",
+        "**Talking all day will tire you** more than training does."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Expo ready",
+      "title": "The four strands",
+      "points": [
+        "Music: what vibrates, how it is struck, how it reaches you.",
+        "Arts: periods, symbols, and the order of panels.",
+        "PE: what each game trains, and the five components.",
+        "Health: the plate, the proportions, and sleep."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "A gong belongs to which instrument family?",
+      "options": [
+        "Idiophone",
+        "Chordophone",
+        "Membranophone",
+        "Aerophone"
+      ],
+      "answerIndex": 0,
+      "explain": "Its own body rings.",
+      "objective": "Recall the Music strand of the term",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The kulintang is from…",
+      "options": [
+        "Mindanao",
+        "The Cordillera",
+        "Ilocos",
+        "Palawan"
+      ],
+      "answerIndex": 0,
+      "explain": "Maguindanao and Maranao.",
+      "objective": "Recall the Music strand of the term",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "To raise a string's pitch you…",
+      "options": [
+        "lengthen it",
+        "loosen it",
+        "thicken it",
+        "tighten it"
+      ],
+      "answerIndex": 3,
+      "explain": "Faster vibration, higher note.",
+      "objective": "Recall the Music strand of the term",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The MP3 won because it was…",
+      "options": [
+        "free",
+        "loudest",
+        "small enough to send",
+        "best sounding"
+      ],
+      "answerIndex": 2,
+      "explain": "It discards audio on purpose.",
+      "objective": "Recall the Music strand of the term",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Streaming gives you…",
+      "options": [
+        "a file",
+        "access",
+        "a disc",
+        "ownership"
+      ],
+      "answerIndex": 1,
+      "explain": "The catalogue is not yours.",
+      "objective": "Recall the Music strand of the term",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Who painted the Spoliarium?",
+      "options": [
+        "Edades",
+        "Luna",
+        "Amorsolo",
+        "Francisco"
+      ],
+      "answerIndex": 1,
+      "explain": "1884, gold in Madrid.",
+      "objective": "Recall the Arts strand of the term",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The Angono Petroglyphs date to about…",
+      "options": [
+        "300 BC",
+        "3000 BC",
+        "1900 AD",
+        "1300 AD"
+      ],
+      "answerIndex": 1,
+      "explain": "127 carved figures in Rizal.",
+      "objective": "Recall the Arts strand of the term",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "T'nalak is woven by the…",
+      "options": [
+        "Maranao",
+        "Tausug",
+        "Ifugao",
+        "T'boli"
+      ],
+      "answerIndex": 3,
+      "explain": "From abaca, in three colours.",
+      "objective": "Recall the Arts strand of the term",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The three stars on the flag stand for…",
+      "options": [
+        "the three island groups",
+        "three heroes",
+        "three wars",
+        "three provinces"
+      ],
+      "answerIndex": 0,
+      "explain": "Luzon, Visayas, Mindanao.",
+      "objective": "Recall the Arts strand of the term",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "The gap between comic panels is the…",
+      "options": [
+        "margin",
+        "frame",
+        "gutter",
+        "balloon"
+      ],
+      "answerIndex": 2,
+      "explain": "The reader fills it.",
+      "objective": "Recall the Arts strand of the term",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Who created Darna?",
+      "options": [
+        "Ravelo",
+        "Coching",
+        "Velasquez",
+        "Luna"
+      ],
+      "answerIndex": 0,
+      "explain": "Mars Ravelo.",
+      "objective": "Recall the Arts strand of the term",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Which story beat is the moment it could go either way?",
+      "options": [
+        "Setup",
+        "Build",
+        "Turning point",
+        "Outcome"
+      ],
+      "answerIndex": 2,
+      "explain": "Without it nothing is at stake.",
+      "objective": "Recall the Arts strand of the term",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Patintero mainly trains…",
+      "options": [
+        "flexibility",
+        "strength",
+        "agility",
+        "accuracy"
+      ],
+      "answerIndex": 2,
+      "explain": "Direction changes under pressure.",
+      "objective": "Recall the PE strand of the term",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Which traditional game trains nothing physical?",
+      "options": [
+        "Sipa",
+        "Sungka",
+        "Piko",
+        "Luksong tinik"
+      ],
+      "answerIndex": 1,
+      "explain": "It is a strategy game.",
+      "objective": "Recall the PE strand of the term",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Luksong tinik trains…",
+      "options": [
+        "power and flexibility",
+        "heart endurance",
+        "balance only",
+        "accuracy"
+      ],
+      "answerIndex": 0,
+      "explain": "Explosive jumping over a rising obstacle.",
+      "objective": "Recall the PE strand of the term",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Which is NOT a health-related fitness component?",
+      "options": [
+        "Body composition",
+        "Agility",
+        "Heart endurance",
+        "Flexibility"
+      ],
+      "answerIndex": 1,
+      "explain": "Agility is skill-related.",
+      "objective": "Recall the PE strand of the term",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Sit-and-reach tests…",
+      "options": [
+        "power",
+        "flexibility",
+        "strength",
+        "endurance"
+      ],
+      "answerIndex": 1,
+      "explain": "Range of movement.",
+      "objective": "Recall the PE strand of the term",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Thirty push-ups tests mainly…",
+      "options": [
+        "power",
+        "flexibility",
+        "muscular endurance",
+        "strength"
+      ],
+      "answerIndex": 2,
+      "explain": "Repeating the effort.",
+      "objective": "Recall the PE strand of the term",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Rice and bread are…",
+      "options": [
+        "Water",
+        "Glow",
+        "Grow",
+        "Go"
+      ],
+      "answerIndex": 3,
+      "explain": "Energy foods.",
+      "objective": "Recall the Health strand of the term",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Fish and beans are…",
+      "options": [
+        "Go",
+        "Water",
+        "Grow",
+        "Glow"
+      ],
+      "answerIndex": 2,
+      "explain": "Body-building foods.",
+      "objective": "Recall the Health strand of the term",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "How much water a day?",
+      "options": [
+        "Fifteen glasses",
+        "Three glasses",
+        "One glass",
+        "Six to eight glasses"
+      ],
+      "answerIndex": 3,
+      "explain": "More when training.",
+      "objective": "Recall the Health strand of the term",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "When does the body rebuild after training?",
+      "options": [
+        "During the session",
+        "It does not",
+        "During the warm-up",
+        "During sleep"
+      ],
+      "answerIndex": 3,
+      "explain": "Food and sleep do the building.",
+      "objective": "Recall the Health strand of the term",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The correct order for a multimedia project is…",
+      "options": [
+        "facts, script, media, edit",
+        "edit, facts, script, media",
+        "media, script, facts, edit",
+        "script, facts, edit, media"
+      ],
+      "answerIndex": 0,
+      "explain": "Each stage produces what the next needs.",
+      "objective": "Plan what to present at the expo",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "At an expo table, you have roughly…",
+      "options": [
+        "ten minutes",
+        "one hour",
+        "no time limit",
+        "three seconds to catch someone"
+      ],
+      "answerIndex": 3,
+      "explain": "One visible thing, one touchable thing, one sentence.",
+      "objective": "Plan what to present at the expo",
+      "seconds": 20
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 11 MAPEH, the term's showcase. The deck is built as a planning session rather than a revision list: each strand's card asks what that week gives him to demonstrate, and in every case the answer is a mechanism or a made object rather than a poster. The interactive review board doubles as the planning board, with the usual trap named for each week. The expo-table lens treats the table as an interface with a three-second budget, which is both true and the kind of concrete constraint that makes a vague task doable. The twenty-four question paper covers all four strands evenly.",
+    "discussion": [
+      "Ask what he will show from each strand.",
+      "Ask him to say his one expo sentence out loud.",
+      "Ask which week has the weakest demonstration and what would fix it.",
+      "Ask what a visitor can touch at his table."
+    ],
+    "extension": [
+      "Set up the table at home and have him run it for ten minutes.",
+      "Have him time his one sentence and cut it to fifteen words."
+    ],
+    "misconceptions": [
+      "\"An expo is a poster competition.\" Show the mechanism.",
+      "\"More detail is better.\" One visible thing, one touchable thing, one sentence.",
+      "\"Agility is a health component.\" It is skill-related."
+    ]
+  }
+}

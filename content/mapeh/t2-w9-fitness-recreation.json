@@ -1,0 +1,333 @@
+{
+  "id": "mapeh-t2-w9",
+  "courseId": "mapeh",
+  "courseTitle": "MAPEH",
+  "week": 9,
+  "title": "Physical Fitness & Recreation",
+  "subtitle": "Five components, five tests — and why rest is in the plan.",
+  "estMinutes": 20,
+  "objectives": [
+    "Name the five components of health-related fitness",
+    "Name a test for each component",
+    "Explain the difference between strength and endurance",
+    "Explain why recreation is part of fitness"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "💪",
+      "eyebrow": "Part 9 · PE",
+      "title": "Fitness is five things, not one",
+      "text": "\"Fit\" is not a single number. It is five separate abilities, and you can be strong in one and weak in the next."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "Five components, five tests",
+      "text": "Each one is measured differently, because each one is a different ability.",
+      "points": [
+        "**Heart endurance** — a timed run or a step test.",
+        "**Muscular strength** — one maximum effort.",
+        "**Muscular endurance** — the same effort, repeated.",
+        "**Flexibility** — sit-and-reach. **Body composition** — one number of five."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "fitnessParts",
+      "title": "Six buttons",
+      "text": "Tap each component. The second line is how it is tested."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which test measures flexibility?",
+        "options": [
+          "Sit-and-reach",
+          "A step test",
+          "A timed run",
+          "Push-ups to failure"
+        ],
+        "answerIndex": 0,
+        "explain": "How far a joint can move safely.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The one people confuse",
+      "title": "Strength against endurance",
+      "text": "They are different abilities and need different training.",
+      "points": [
+        "**Strength:** how much force, once.",
+        "**Endurance:** how many times you can repeat it.",
+        "**A heavy single lift** trains the first.",
+        "**Push-ups to failure** trains the second."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Doing thirty push-ups tests mainly…",
+        "options": [
+          "body composition",
+          "muscular endurance",
+          "strength",
+          "flexibility"
+        ],
+        "answerIndex": 1,
+        "explain": "Repeating the effort, not producing it once.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Skill-related fitness",
+      "title": "Five more, for sport",
+      "text": "These sit beside the health five rather than replacing them.",
+      "points": [
+        "**Agility, balance, coordination.**",
+        "**Power** — force produced fast.",
+        "**Reaction time** — how quickly you start.",
+        "**Health five keep you well. Skill five make you good.**"
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "A boxer needs all ten",
+      "text": "Which is why boxing training looks like five different sports.",
+      "points": [
+        "**Rounds** — heart endurance.",
+        "**The clinch** — strength.",
+        "**Holding guard for twelve rounds** — muscular endurance.",
+        "**Slipping a punch** — reaction time and agility."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "Your numbers will move on their own",
+      "text": "At your age some of this improves without any training at all.",
+      "points": [
+        "**Growth changes your leverage** and your reach.",
+        "**A test score can rise** because you got taller.",
+        "**Compare to yourself last term**, not to a classmate.",
+        "**Body composition is one of five.** It is not a verdict."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Recreation is not the opposite of fitness",
+      "text": "Rest and play are part of the programme, not a break from it.",
+      "points": [
+        "**Training every day without rest** makes you slower.",
+        "**Recreation keeps you doing it** for years.",
+        "**A programme you quit** beats nothing by nothing.",
+        "**Consistency is the only variable** that always matters."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Five health components, each with its own test.",
+        "Strength is one effort; endurance is many.",
+        "Skill-related fitness adds agility, balance, coordination, power, reaction.",
+        "Rest and recreation are part of the programme."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Which is NOT a health-related component?",
+      "options": [
+        "Agility",
+        "Heart endurance",
+        "Body composition",
+        "Flexibility"
+      ],
+      "answerIndex": 0,
+      "explain": "Agility is skill-related.",
+      "objective": "Name the five components of health-related fitness",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "A three-minute step test measures…",
+      "options": [
+        "strength",
+        "heart endurance",
+        "body composition",
+        "flexibility"
+      ],
+      "answerIndex": 1,
+      "explain": "How well the heart handles sustained work.",
+      "objective": "Name a test for each component",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Sit-and-reach measures…",
+      "options": [
+        "strength",
+        "endurance",
+        "flexibility",
+        "power"
+      ],
+      "answerIndex": 2,
+      "explain": "Safe range of movement at a joint.",
+      "objective": "Name a test for each component",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "One maximum lift measures…",
+      "options": [
+        "agility",
+        "muscular endurance",
+        "flexibility",
+        "muscular strength"
+      ],
+      "answerIndex": 3,
+      "explain": "Force produced once.",
+      "objective": "Explain the difference between strength and endurance",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Curl-ups to failure measure…",
+      "options": [
+        "muscular endurance",
+        "reaction time",
+        "strength",
+        "flexibility"
+      ],
+      "answerIndex": 0,
+      "explain": "The same effort repeated.",
+      "objective": "Explain the difference between strength and endurance",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "Strength and muscular endurance are the same ability.",
+      "answer": false,
+      "explain": "One effort against many. Different training.",
+      "objective": "Explain the difference between strength and endurance",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Power is best described as…",
+      "options": [
+        "range of movement",
+        "heart capacity",
+        "force produced slowly",
+        "force produced fast"
+      ],
+      "answerIndex": 3,
+      "explain": "Which is why jumping tests it.",
+      "objective": "Name the five components of health-related fitness",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Reaction time is…",
+      "options": [
+        "how long you last",
+        "how fast you run",
+        "how quickly you start",
+        "how far you stretch"
+      ],
+      "answerIndex": 2,
+      "explain": "The gap between signal and movement.",
+      "objective": "Name the five components of health-related fitness",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Why compare your fitness scores to your own earlier scores?",
+      "options": [
+        "It is faster",
+        "Growth alone changes the numbers",
+        "It is kinder",
+        "Classmates cheat"
+      ],
+      "answerIndex": 1,
+      "explain": "A score can rise because you got taller.",
+      "objective": "Explain why recreation is part of fitness",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Training every single day with no rest tends to make you…",
+      "options": [
+        "stronger",
+        "slower",
+        "taller",
+        "faster"
+      ],
+      "answerIndex": 1,
+      "explain": "Recovery is when the gains land.",
+      "objective": "Explain why recreation is part of fitness",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Why does recreation belong in a fitness plan?",
+      "options": [
+        "It keeps you doing it for years",
+        "It is required",
+        "It replaces training",
+        "It is easier"
+      ],
+      "answerIndex": 0,
+      "explain": "Consistency is the variable that always matters.",
+      "objective": "Explain why recreation is part of fitness",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Which pair would a boxer train with completely different sessions?",
+      "options": [
+        "Flexibility and reach",
+        "Power and weight",
+        "Strength and muscular endurance",
+        "Agility and balance"
+      ],
+      "answerIndex": 2,
+      "explain": "One heavy effort against many repeated ones.",
+      "objective": "Explain the difference between strength and endurance",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 9 MAPEH, PE strand. The week insists that fitness is five separate abilities with five separate tests, because 'fit' as a single word hides the one distinction the paper always asks about: strength against muscular endurance. Skill-related fitness is introduced beside the health five rather than instead of them. Two cards do pastoral work that matters at this age: scores move with growth, so the comparison is to his own earlier self, and body composition is one number out of five rather than a verdict. Recreation is argued for on the only honest ground — a programme he quits is worth nothing.",
+    "discussion": [
+      "Ask which test goes with which component.",
+      "Ask the difference between strength and endurance.",
+      "Ask why his own earlier score is the right comparison.",
+      "Ask what happens to a body trained every day with no rest."
+    ],
+    "extension": [
+      "Run the five tests and record them, then repeat them in eight weeks.",
+      "Have him design a week's plan that includes two rest days."
+    ],
+    "misconceptions": [
+      "\"Fit is one thing.\" It is five, measured five ways.",
+      "\"More training is always better.\" Recovery is when it lands.",
+      "\"Body composition is the real score.\" It is one of five."
+    ]
+  }
+}

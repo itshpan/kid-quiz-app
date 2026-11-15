@@ -1,0 +1,343 @@
+{
+  "id": "mapeh-t2-w4",
+  "courseId": "mapeh",
+  "courseTitle": "MAPEH",
+  "week": 4,
+  "title": "Art Through Time",
+  "subtitle": "Six periods, six questions somebody was trying to answer.",
+  "estMinutes": 20,
+  "objectives": [
+    "Order the main periods of art history",
+    "Say what question each period was answering",
+    "Name key Philippine artists and works",
+    "Explain why art is evidence"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🖼️",
+      "eyebrow": "Part 4 · Arts",
+      "title": "Every period was solving a problem",
+      "text": "Art history taught as a list of styles is a list to forget. Taught as a series of questions, each style is the answer somebody found."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "Six questions, six periods",
+      "text": "The question explains the look.",
+      "points": [
+        "**Prehistoric:** can I record that this happened?",
+        "**Classical:** can I make the body ideal?",
+        "**Realism:** can I paint exactly what the eye sees?",
+        "**Modernism:** why should art look like anything at all?"
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "artPeriods",
+      "title": "Six buttons",
+      "text": "Tap each period. The second line is the Philippine example."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "The Angono Petroglyphs are…",
+        "options": [
+          "127 carved figures from about 3000 BC",
+          "a modern mural",
+          "a photograph",
+          "a Spanish church"
+        ],
+        "answerIndex": 0,
+        "explain": "The oldest known artwork in the Philippines, in Rizal.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Three Filipino painters",
+      "title": "Who did what, and when",
+      "text": "These three come up every year.",
+      "points": [
+        "**Juan Luna:** the *Spoliarium*, 1884. Gold medal in Madrid.",
+        "**Fernando Amorsolo:** sunlit rural scenes; first National Artist.",
+        "**Victorio Edades:** broke with that style in the 1920s.",
+        "**Carlos \"Botong\" Francisco:** the great muralist of history."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "gaming",
+      "icon": "🎮",
+      "eyebrow": "Game mode",
+      "title": "Concept art is the newest academic realism",
+      "text": "Before anything is built in a game, somebody paints it.",
+      "points": [
+        "**Concept art decides** the shape of a world.",
+        "**It is painted to be believed**, not to be pretty.",
+        "**Same discipline as realism:** light, weight, material.",
+        "**Then modellers build** from the painting."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Who painted the Spoliarium?",
+        "options": [
+          "Edades",
+          "Luna",
+          "Francisco",
+          "Amorsolo"
+        ],
+        "answerIndex": 1,
+        "explain": "1884, and it won gold at the Madrid exposition.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "A car body is sculpture with rules",
+      "text": "Designers draw it, then physics edits it.",
+      "points": [
+        "**The line has to look fast** standing still.",
+        "**And it has to let air past** without dragging.",
+        "**Clay models are still carved by hand** at full size.",
+        "**Art under constraint** is still art."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "story",
+      "icon": "✍️",
+      "eyebrow": "Story mode",
+      "title": "Art is evidence",
+      "text": "Most of what we know about daily life before writing came from pictures.",
+      "points": [
+        "**What they wore. What they hunted. What they feared.**",
+        "**None of that was written** at Angono.",
+        "**The carvings are the record.**",
+        "**Ask of any artwork:** what does this prove happened?"
+      ]
+    },
+    {
+      "kind": "terms",
+      "title": "Words the test will use",
+      "terms": [
+        {
+          "term": "Petroglyph",
+          "def": "A figure carved into rock."
+        },
+        {
+          "term": "Realism",
+          "def": "Painting a subject as the eye would see it."
+        },
+        {
+          "term": "Modernism",
+          "def": "Breaking with realism on purpose."
+        },
+        {
+          "term": "Mural",
+          "def": "A painting made directly on a wall."
+        }
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Each period answers a question: record, idealise, copy, or break.",
+        "Angono: 127 carvings, about 3000 BC, the oldest art here.",
+        "Luna painted the Spoliarium; Amorsolo painted sunlight; Edades broke away.",
+        "Art is evidence of what happened, not only decoration."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "The Spoliarium was painted in…",
+      "options": [
+        "1884",
+        "1965",
+        "1928",
+        "1784"
+      ],
+      "answerIndex": 0,
+      "explain": "And won gold in Madrid.",
+      "objective": "Name key Philippine artists and works",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Who is known for sunlit rural scenes?",
+      "options": [
+        "Amorsolo",
+        "Edades",
+        "Francisco",
+        "Luna"
+      ],
+      "answerIndex": 0,
+      "explain": "And was the first National Artist.",
+      "objective": "Name key Philippine artists and works",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Who broke with that style in the 1920s?",
+      "options": [
+        "Amorsolo",
+        "Hidalgo",
+        "Luna",
+        "Edades"
+      ],
+      "answerIndex": 3,
+      "explain": "Victorio Edades, the father of modern Philippine painting.",
+      "objective": "Name key Philippine artists and works",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "How many figures are at the Angono Petroglyphs?",
+      "options": [
+        "12",
+        "1,270",
+        "127",
+        "27"
+      ],
+      "answerIndex": 2,
+      "explain": "Carved into a rock shelter in Rizal.",
+      "objective": "Order the main periods of art history",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Roughly when were they carved?",
+      "options": [
+        "1800 AD",
+        "3000 BC",
+        "1300 AD",
+        "300 BC"
+      ],
+      "answerIndex": 1,
+      "explain": "Late Neolithic.",
+      "objective": "Order the main periods of art history",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Religious colonial art existed mainly to…",
+      "options": [
+        "sell paint",
+        "decorate homes",
+        "teach stories to people who could not read",
+        "record harvests"
+      ],
+      "answerIndex": 2,
+      "explain": "A painting was the lesson.",
+      "objective": "Say what question each period was answering",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Classical sculpture aimed to show the body as…",
+      "options": [
+        "ordinary",
+        "damaged",
+        "abstract",
+        "ideal"
+      ],
+      "answerIndex": 3,
+      "explain": "Balance, proportion and calm.",
+      "objective": "Say what question each period was answering",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "Modernism asked…",
+      "options": [
+        "how to copy nature",
+        "why art should look like anything",
+        "how to carve stone",
+        "how to sell art"
+      ],
+      "answerIndex": 1,
+      "explain": "It broke with realism deliberately.",
+      "objective": "Say what question each period was answering",
+      "seconds": 20
+    },
+    {
+      "type": "truefalse",
+      "text": "Art from before writing is useful historical evidence.",
+      "answer": true,
+      "explain": "Often it is the only evidence there is.",
+      "objective": "Explain why art is evidence",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "A mural is painted…",
+      "options": [
+        "on paper",
+        "on canvas",
+        "directly on a wall",
+        "on wood panels"
+      ],
+      "answerIndex": 2,
+      "explain": "Botong Francisco's histories are murals.",
+      "objective": "Name key Philippine artists and works",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Game concept art is closest in purpose to…",
+      "options": [
+        "academic realism",
+        "abstract art",
+        "religious icons",
+        "petroglyphs"
+      ],
+      "answerIndex": 0,
+      "explain": "It is painted to be believed: light, weight, material.",
+      "objective": "Say what question each period was answering",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Why is a car body called sculpture with rules?",
+      "options": [
+        "It is painted",
+        "Physics edits the designer's line",
+        "It is expensive",
+        "It is made of clay"
+      ],
+      "answerIndex": 1,
+      "explain": "The shape has to look fast and let air past.",
+      "objective": "Say what question each period was answering",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 4 MAPEH, Arts strand. Periods are given as questions rather than labels, because the question explains the look and a label does not. Each period carries a Philippine example in the same row as the European one, so the local material is not a bolted-on section. Angono is the anchor for the earliest period and is specific — 127 figures, about 3000 BC, in Rizal. The three painters who appear in every Grade 6 paper get their own card with the one fact each that is actually asked. The closing lens makes the transferable point: art is evidence, and the right question to ask of an artwork is what it proves happened.",
+    "discussion": [
+      "Ask what question each period was answering.",
+      "Ask which painter did which work.",
+      "Ask what the Angono carvings prove about the people who made them.",
+      "Ask what constraints a car designer works under."
+    ],
+    "extension": [
+      "Have him draw the same object realistically, then stylised, then abstract.",
+      "Have him find concept art for a game he plays and describe the light in it."
+    ],
+    "misconceptions": [
+      "\"Older art is worse art.\" Each period solved a different problem.",
+      "\"Amorsolo painted the Spoliarium.\" Luna did.",
+      "\"Art is decoration.\" It is often the only surviving record."
+    ]
+  }
+}

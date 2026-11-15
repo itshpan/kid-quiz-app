@@ -1,0 +1,333 @@
+{
+  "id": "mapeh-t2-w8",
+  "courseId": "mapeh",
+  "courseTitle": "MAPEH",
+  "week": 8,
+  "title": "Family Wellness & Nutrition",
+  "subtitle": "A plate, not a list — and who actually decides what you eat.",
+  "estMinutes": 20,
+  "objectives": [
+    "Name the Go, Grow and Glow groups",
+    "Describe the proportions of Pinggang Pinoy",
+    "Explain why each group is needed",
+    "Describe habits that support family wellness"
+  ],
+  "cards": [
+    {
+      "kind": "open",
+      "icon": "🍽️",
+      "eyebrow": "Part 8 · Health",
+      "title": "A plate, not a list",
+      "text": "A list of food groups tells you what exists. A plate tells you how much — and how much is the part that actually decides anything."
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The main idea",
+      "title": "Three jobs on one plate",
+      "text": "Each group does something the others cannot.",
+      "points": [
+        "**Go** — energy. Rice, bread, root crops.",
+        "**Grow** — building material. Fish, meat, egg, beans, milk.",
+        "**Glow** — vitamins and minerals. Vegetables and fruit.",
+        "**Water** sits beside the plate, not on it."
+      ]
+    },
+    {
+      "kind": "figure",
+      "figure": "pinggangPinoy",
+      "title": "Tap a part of the plate",
+      "text": "Pinggang Pinoy is a proportion. Tap each part and read the share."
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which group should take the biggest share of the plate?",
+        "options": [
+          "They are equal",
+          "Glow",
+          "Go",
+          "Grow"
+        ],
+        "answerIndex": 1,
+        "explain": "Vegetables and fruit — about half the plate.",
+        "seconds": 22
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "The usual mistake",
+      "title": "Go is not the enemy",
+      "text": "Energy food gets blamed, and it is what the training runs on.",
+      "points": [
+        "**Without Go, you cannot train.** You run out mid-session.",
+        "**Without Grow, you train and do not rebuild.**",
+        "**Without Glow, both of the above work badly.**",
+        "**The question is proportion**, never which one to delete."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "growth",
+      "icon": "🌱",
+      "eyebrow": "Your body",
+      "title": "You rebuild while asleep, not while training",
+      "text": "Training is the request. Food and sleep are the build.",
+      "points": [
+        "**Training breaks tissue down.**",
+        "**Protein and sleep put it back stronger.**",
+        "**Skip either and the session was wasted.**",
+        "**Eight to ten hours** at your age, not six."
+      ]
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Where does water belong on Pinggang Pinoy?",
+        "options": [
+          "Beside the plate",
+          "In the Go section",
+          "In the Glow section",
+          "It is not included"
+        ],
+        "answerIndex": 0,
+        "explain": "Six to eight glasses a day, more when you train.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "idea",
+      "eyebrow": "Family wellness",
+      "title": "It is a household system, not a personal one",
+      "text": "Most of what you eat is decided before you are hungry.",
+      "points": [
+        "**What is in the kitchen** decides most meals.",
+        "**Eating together** makes portions visible.",
+        "**A shared schedule** protects sleep.",
+        "**One person's habit** becomes everyone's default."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "cars",
+      "icon": "🚗",
+      "eyebrow": "Car mode",
+      "title": "Fuel, parts and coolant",
+      "text": "The analogy holds further than it has any right to.",
+      "points": [
+        "**Go is the fuel.** No fuel, no laps.",
+        "**Grow is the spare parts.** That is how worn components get replaced.",
+        "**Glow is the oil and coolant** — nothing moves without it.",
+        "**Water is water.** An overheating engine and an overheating runner need the same thing."
+      ]
+    },
+    {
+      "kind": "lens",
+      "lens": "boxing",
+      "icon": "🥊",
+      "eyebrow": "Boxing mode",
+      "title": "Making weight is not the same as being fit",
+      "text": "Cutting water weight is a real practice and a real risk.",
+      "points": [
+        "**A fighter can lose kilos in days** and most of it is water.",
+        "**Performance drops with it.**",
+        "**That is why weigh-ins are a day early** in many codes.",
+        "**Weight is one number.** It is not the verdict."
+      ]
+    },
+    {
+      "kind": "recap",
+      "eyebrow": "Lesson done",
+      "title": "What to remember",
+      "points": [
+        "Go for energy, Grow for building, Glow for vitamins and minerals.",
+        "Glow takes about half the plate; Grow the smallest share.",
+        "Water sits beside the plate: six to eight glasses, more when training.",
+        "You rebuild during sleep, not during the session."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple",
+      "text": "Rice and bread belong to…",
+      "options": [
+        "Glow",
+        "Go",
+        "Water",
+        "Grow"
+      ],
+      "answerIndex": 1,
+      "explain": "Energy foods.",
+      "objective": "Name the Go, Grow and Glow groups",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Fish, egg and beans belong to…",
+      "options": [
+        "Go",
+        "Water",
+        "Grow",
+        "Glow"
+      ],
+      "answerIndex": 2,
+      "explain": "Body-building foods.",
+      "objective": "Name the Go, Grow and Glow groups",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Vegetables and fruit belong to…",
+      "options": [
+        "Go",
+        "Water",
+        "Glow",
+        "Grow"
+      ],
+      "answerIndex": 2,
+      "explain": "Vitamins and minerals.",
+      "objective": "Name the Go, Grow and Glow groups",
+      "seconds": 16
+    },
+    {
+      "type": "multiple",
+      "text": "Which group takes the biggest share of the plate?",
+      "options": [
+        "All equal",
+        "Glow",
+        "Go",
+        "Grow"
+      ],
+      "answerIndex": 1,
+      "explain": "About half.",
+      "objective": "Describe the proportions of Pinggang Pinoy",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Which takes the smallest share?",
+      "options": [
+        "Grow",
+        "Water",
+        "Go",
+        "Glow"
+      ],
+      "answerIndex": 0,
+      "explain": "Smallest, and still essential.",
+      "objective": "Describe the proportions of Pinggang Pinoy",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "How much water a day?",
+      "options": [
+        "Two to three glasses",
+        "One glass",
+        "Six to eight glasses",
+        "Twenty glasses"
+      ],
+      "answerIndex": 2,
+      "explain": "More when you train.",
+      "objective": "Describe the proportions of Pinggang Pinoy",
+      "seconds": 18
+    },
+    {
+      "type": "truefalse",
+      "text": "Cutting out energy foods is the fastest way to get fit.",
+      "answer": false,
+      "explain": "Without Go you cannot complete the training at all.",
+      "objective": "Explain why each group is needed",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "When does the body actually rebuild after training?",
+      "options": [
+        "During the warm-up",
+        "During the session",
+        "It does not",
+        "During sleep"
+      ],
+      "answerIndex": 3,
+      "explain": "Training is the request; food and sleep are the build.",
+      "objective": "Explain why each group is needed",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "How much sleep at Grade 6 age?",
+      "options": [
+        "Six hours",
+        "Eight to ten hours",
+        "Twelve hours",
+        "Five hours"
+      ],
+      "answerIndex": 1,
+      "explain": "Not six.",
+      "objective": "Describe habits that support family wellness",
+      "seconds": 18
+    },
+    {
+      "type": "multiple",
+      "text": "Why does family wellness matter more than personal willpower?",
+      "options": [
+        "It is required",
+        "It is faster",
+        "It is cheaper",
+        "What is in the kitchen decides most meals"
+      ],
+      "answerIndex": 3,
+      "explain": "Most of what you eat is decided before you are hungry.",
+      "objective": "Describe habits that support family wellness",
+      "seconds": 22
+    },
+    {
+      "type": "multiple",
+      "text": "Most of the weight a fighter loses in a few days is…",
+      "options": [
+        "water",
+        "bone",
+        "fat",
+        "muscle"
+      ],
+      "answerIndex": 0,
+      "explain": "Which is why performance drops with it.",
+      "objective": "Explain why each group is needed",
+      "seconds": 20
+    },
+    {
+      "type": "multiple",
+      "text": "The real question about the three groups is…",
+      "options": [
+        "what proportion",
+        "which to delete",
+        "which is cheapest",
+        "which tastes best"
+      ],
+      "answerIndex": 0,
+      "explain": "Never which one to remove.",
+      "objective": "Explain why each group is needed",
+      "seconds": 22
+    }
+  ],
+  "teacher": {
+    "summary": "Term 2 Week 8 MAPEH, Health strand. Pinggang Pinoy is taught as a proportion rather than a list of groups, because proportion is the part that changes behaviour and a tappable plate shows it directly. The week deliberately defends Go, since 'carbohydrates are bad' is the belief a boy who trains is most likely to pick up and the one that will cost him sessions. Family wellness is framed as a household system — what is in the kitchen decides most meals — rather than as willpower. The boxing lens handles weight-cutting honestly: it is real, it is mostly water, and performance drops with it.",
+    "discussion": [
+      "Ask him to lay out one meal in the right proportions.",
+      "Ask when the body rebuilds.",
+      "Ask what is in the kitchen right now and what that means for this week's meals.",
+      "Ask why a weigh-in is often a day before a fight."
+    ],
+    "extension": [
+      "Have him plan and serve one family meal against the plate.",
+      "Have him track water for three days and compare with the target."
+    ],
+    "misconceptions": [
+      "\"Carbohydrates are the problem.\" Without them you cannot train.",
+      "\"Protein alone builds muscle.\" Sleep does the building.",
+      "\"Weight is the measure of fitness.\" It is one number out of five."
+    ]
+  }
+}
