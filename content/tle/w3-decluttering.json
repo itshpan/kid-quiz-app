@@ -135,6 +135,26 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "Everything you remove should go straight in the bin.",
+        "answer": false,
+        "explain": "Keep, repair, pass on, bin. The bin is the last option, not the first.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Three boxes, one decision each",
+      "src": "assets/img/tle-w3-three-boxes.jpg",
+      "alt": "Three open cardboard boxes on a floor holding folded clothes, broken items, and things to give away",
+      "credit": "Generated image",
+      "text": "Keep, repair or bin, and pass on. Nothing goes back on the floor undecided.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "cars",
       "icon": "🔧",

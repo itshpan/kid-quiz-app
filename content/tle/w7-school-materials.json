@@ -117,6 +117,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "When should the bag be packed?",
+        "options": [
+          "In the morning",
+          "The night before",
+          "On the way",
+          "At school"
+        ],
+        "answerIndex": 1,
+        "explain": "Morning you is not the person who should be making decisions.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "One place, by the door",
+      "src": "assets/img/tle-w7-bythedoor.jpg",
+      "alt": "A packed school bag by a front door with shoes lined up beside it, a bottle in the pocket and a jacket on a hook",
+      "credit": "Generated image",
+      "text": "Packed the night before. Morning you is not the one who should be deciding.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "cars",
       "icon": "🚗",

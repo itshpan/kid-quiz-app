@@ -117,6 +117,26 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "No save points",
+      "src": "assets/img/mapeh-w11-stage.jpg",
+      "alt": "An empty school stage with curtains open, a single microphone stand at the centre and the lights on",
+      "credit": "Generated image",
+      "text": "Run it whole, at pace, including the parts you are sure of.",
+      "lightBg": true
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "truefalse",
+        "text": "You should rehearse only the parts you are unsure of.",
+        "answer": false,
+        "explain": "Run it whole, at pace. There are no save points on the day.",
+        "seconds": 18
+      }
+    },
+    {
       "kind": "lens",
       "lens": "gaming",
       "icon": "🎮",

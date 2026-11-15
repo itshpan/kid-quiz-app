@@ -152,6 +152,32 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Four elements on one sheet",
+      "src": "assets/img/mapeh-w4-elements.jpg",
+      "alt": "A sheet of drawing exercises: a row of lines, a tonal gradient, simple shapes and a patch of cross-hatching",
+      "credit": "Generated image",
+      "text": "Line, value, shape, texture. Drawn as exercises, which is how they are learned.",
+      "lightBg": true
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Which of the three is light and dark?",
+        "options": [
+          "Hue",
+          "Value",
+          "Intensity",
+          "Texture"
+        ],
+        "answerIndex": 1,
+        "explain": "Hue is which colour. Intensity is how strong. Value does most of the work.",
+        "seconds": 20
+      }
+    },
+    {
       "kind": "idea",
       "eyebrow": "Value",
       "title": "Value is the one that does the work",

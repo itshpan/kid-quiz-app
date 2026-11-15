@@ -117,6 +117,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Two minutes, twice",
+      "src": "assets/img/mapeh-w10-toothbrush.jpg",
+      "alt": "A toothbrush with toothpaste on the bristles beside a glass of water and a roll of dental floss",
+      "credit": "Generated image",
+      "text": "Plaque is a living film. Brushing is scraping it off before it hardens.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "gaming",
       "icon": "🎮",
@@ -171,6 +181,16 @@
         "**Shower soon after training**, not hours later.",
         "**Never share** wraps, towels or a mouthguard."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Gear is part of it",
+      "src": "assets/img/mapeh-w10-kit.jpg",
+      "alt": "An open gym bag with a folded towel, a spare shirt, soap, a water bottle and rubber slippers set out beside it",
+      "credit": "Generated image",
+      "text": "Damp kit in a closed bag is where the smell and the skin problems start.",
+      "lightBg": true
     },
     {
       "kind": "idea",

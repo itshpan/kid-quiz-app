@@ -147,6 +147,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "The rondalla, laid out",
+      "src": "assets/img/mapeh-w3-rondalla.jpg",
+      "alt": "A bandurria, a laud, an octavina, a guitar and a double bass neck laid on a woven mat with a plectrum",
+      "credit": "Generated image",
+      "text": "Bandurria, laud, octavina, guitar, bass. Brought in under Spain and kept.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "The names",
       "title": "Four you should be able to place",
@@ -199,6 +209,16 @@
         "**A form dies when the last person stops singing it.**",
         "**Which is why schools teach them.**"
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Set up, nobody dancing yet",
+      "src": "assets/img/mapeh-w3-tinikling.jpg",
+      "alt": "Two long bamboo poles laid parallel on crossbars on a wooden floor, set up for tinikling",
+      "credit": "Generated image",
+      "text": "Two poles and a rhythm. The dance is named after a bird's step between them.",
+      "lightBg": true
     },
     {
       "kind": "lens",

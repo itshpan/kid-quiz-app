@@ -123,6 +123,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Grouped by what you do with it",
+      "src": "assets/img/mapeh-w7-equipment.jpg",
+      "alt": "Sports equipment grouped on a gym floor: a basketball and football, a racket and shuttlecock, and a target with arrows",
+      "credit": "Generated image",
+      "text": "Invasion, net, target. The equipment gives the category away.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "growth",
       "icon": "📈",
@@ -177,6 +187,16 @@
         "**Spacing in a fighting game** is boxing's distance control.",
         "**Learn the category and you learn faster.**"
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "The pattern under the sport",
+      "src": "assets/img/mapeh-w7-footwork.jpg",
+      "alt": "An agility ladder laid across a gym floor with training shoes in the first rung and cones set out beyond",
+      "credit": "Generated image",
+      "text": "Agility work looks the same whichever game you play it for.",
+      "lightBg": true
     },
     {
       "kind": "terms",

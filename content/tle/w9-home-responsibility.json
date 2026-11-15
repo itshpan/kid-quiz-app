@@ -105,6 +105,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What is the hardest part of household responsibility?",
+        "options": [
+          "Doing it fast",
+          "Noticing without being asked",
+          "Doing it perfectly",
+          "Doing it alone"
+        ],
+        "answerIndex": 1,
+        "explain": "A list still needs somebody to look at it.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Nobody checks",
+      "src": "assets/img/tle-w9-bins.jpg",
+      "alt": "Three different-coloured household bins side by side against a wall, one half full of flattened cardboard",
+      "credit": "Generated image",
+      "text": "This is the kind of job that only happens because somebody noticed it needed doing.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "boxing",
       "icon": "🥊",

@@ -123,6 +123,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Give every job a when",
+      "src": "assets/img/tle-w2-schedule.jpg",
+      "alt": "A blank weekly planner page ruled into seven empty columns, pinned to a kitchen wall with a pencil beside it",
+      "credit": "Generated image",
+      "text": "A job with no time attached is a job you will think about all week and not do.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "gaming",
       "icon": "🎮",

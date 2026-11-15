@@ -125,6 +125,32 @@
       "text": "Every garment has a care label with symbols on it. They are the same symbols worldwide, and almost nobody reads them."
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "A care symbol with a cross through it means…",
+        "options": [
+          "do it gently",
+          "do not do it",
+          "do it twice",
+          "optional"
+        ],
+        "answerIndex": 1,
+        "explain": "The cross is the whole instruction.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Standing, not stacked",
+      "src": "assets/img/tle-w5-folded.jpg",
+      "alt": "An open drawer of shirts folded into rectangles and stood on edge in a row so each one is visible",
+      "credit": "Generated image",
+      "text": "Stacked, you only ever wear the top three. On edge, you can see all of them.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "The symbols",
       "title": "Five shapes, five jobs",

@@ -106,6 +106,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Before anything is on it",
+      "src": "assets/img/mapeh-w5-easel.jpg",
+      "alt": "A wooden easel holding a blank canvas, with a palette of mixed oil paint and brushes on the ledge",
+      "credit": "Generated image",
+      "text": "Every style in this week started here. The difference is what the artist was trying to do.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "story",
       "icon": "✍️",

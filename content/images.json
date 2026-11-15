@@ -726,6 +726,198 @@
       "size": "wide",
       "prompt": "A flooded Philippine street after heavy rain, the water brown and opaque with suspended silt, debris floating on the surface, a tricycle half submerged at the kerb and the water lapping at the steps of closed shopfronts. Overcast daylight, no people.",
       "alt": "A flooded street with brown silty water, floating debris and a half-submerged tricycle"
+    },
+    "mapeh-w1-orchestra": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "An empty orchestra stage seen from the auditorium: rows of chairs and music stands arranged in a wide arc, a set of timpani at the back, a grand piano to one side, all lit by stage lights. Every stand is empty and nobody is present.",
+      "alt": "An empty orchestra stage with chairs and music stands arranged in an arc, timpani behind and a grand piano to one side"
+    },
+    "mapeh-w1-space": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A school gymnasium floor marked with painted court lines, photographed from a high corner so the whole empty space and its boundaries are visible. Polished wood, bright overhead light, nobody on it.",
+      "alt": "An empty school gymnasium floor marked with painted court lines, seen from a high corner"
+    },
+    "mapeh-w1-bars": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A handwritten sheet of blank music manuscript paper on a wooden desk, ruled with empty five-line staves and nothing written on them, with a pencil and a metronome standing beside it.",
+      "alt": "Blank music manuscript paper ruled with empty staves, with a pencil and a metronome beside it"
+    },
+    "mapeh-w2-worldmap": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A flat-lay of instruments from different parts of the world on a pale surface: a West African djembe drum, a Spanish nylon-string guitar, a pair of Latin maracas, a bamboo flute and a set of small bronze gongs. Even daylight.",
+      "alt": "A djembe drum, a nylon-string guitar, maracas, a bamboo flute and small bronze gongs laid out together"
+    },
+    "mapeh-w2-vinyl": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A stack of plain unlabelled vinyl records in blank white paper sleeves on a wooden floor beside a turntable with its arm resting. No printing or text on any sleeve.",
+      "alt": "A stack of plain unlabelled vinyl records in blank sleeves beside a turntable"
+    },
+    "mapeh-w3-rondalla": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A flat-lay of Philippine rondalla string instruments on a woven mat: a pear-shaped bandurria, a laud, an octavina, a six-string guitar and a double bass neck, with a tortoiseshell plectrum resting on one of them.",
+      "alt": "A bandurria, a laud, an octavina, a guitar and a double bass neck laid on a woven mat with a plectrum"
+    },
+    "mapeh-w3-tinikling": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "Two long bamboo poles lying parallel on a polished wooden floor with two short crossbars under their ends, set up ready for a tinikling dance. Nobody is there. Bright hall daylight.",
+      "alt": "Two long bamboo poles laid parallel on crossbars on a wooden floor, set up for tinikling"
+    },
+    "mapeh-w4-elements": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "An artist's worktable from above: a sheet of paper showing hand-drawn exercises in graphite - a row of straight lines, a smooth tonal gradient from black to white, a cluster of simple geometric shapes, and a patch of rough cross-hatched texture. Pencils and a kneaded eraser beside it. No letters or words.",
+      "alt": "A sheet of drawing exercises: a row of lines, a tonal gradient, simple shapes and a patch of cross-hatching"
+    },
+    "mapeh-w5-easel": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A wooden studio easel holding a blank stretched canvas, with a wooden palette of mixed oil paint and several brushes resting on the easel's ledge. Studio window light, plain wall behind. The canvas is completely empty.",
+      "alt": "A wooden easel holding a blank canvas, with a palette of mixed oil paint and brushes on the ledge"
+    },
+    "mapeh-w6-colourwheel": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "Twelve small ceramic dishes of thick wet paint arranged in a circle on a white surface, running smoothly through red, orange, yellow, green, blue and violet and back to red. Seen from directly above. No labels.",
+      "alt": "Twelve dishes of wet paint arranged in a circle running through the full spectrum of colours"
+    },
+    "mapeh-w6-badges": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A flat-lay of embroidered cloth patches and enamel pins on dark felt, each a simple bold shape - a shield, a star, a lightning bolt, a pair of wings, an anchor - with no letters, numbers or words on any of them.",
+      "alt": "Embroidered patches and enamel pins in simple bold shapes: a shield, a star, a lightning bolt, wings and an anchor"
+    },
+    "mapeh-w7-equipment": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A flat-lay of sports equipment on a gym floor grouped by type: a basketball and a football together, a badminton racket and shuttlecock together, and an archery target face with three arrows. Even overhead light.",
+      "alt": "Sports equipment grouped on a gym floor: a basketball and football, a racket and shuttlecock, and a target with arrows"
+    },
+    "mapeh-w7-footwork": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A floor-level view of a plastic agility ladder laid out across a gym floor with a pair of training shoes standing in the first rung and a row of small orange cones set out beyond it.",
+      "alt": "An agility ladder laid across a gym floor with training shoes in the first rung and cones set out beyond"
+    },
+    "mapeh-w8-water": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A clear plastic sports bottle standing on a gym bench, about half full, beaded with condensation, with a damp rolled towel beside it and bright window light behind.",
+      "alt": "A half-full clear sports bottle beaded with condensation beside a damp rolled towel on a gym bench"
+    },
+    "mapeh-w8-sleep": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A simple bedroom at night with the bed neatly turned down, a small lamp giving warm low light, curtains drawn, and a phone lying face down on a shelf across the room away from the bed.",
+      "alt": "A bedroom at night with the bed turned down, a low warm lamp, and a phone face down across the room"
+    },
+    "mapeh-w9-team": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "Five pairs of training shoes arranged in a neat circle on a gym floor, toes pointing inward toward the centre, photographed from directly above. Nobody is wearing them.",
+      "alt": "Five pairs of training shoes arranged in a circle on a gym floor, toes pointing inward"
+    },
+    "mapeh-w10-toothbrush": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "Close view of a toothbrush head with a thin line of toothpaste on the bristles, lying on the edge of a clean white basin beside a glass of water and a roll of dental floss. Bright bathroom daylight.",
+      "alt": "A toothbrush with toothpaste on the bristles beside a glass of water and a roll of dental floss"
+    },
+    "mapeh-w10-kit": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A gym bag lying open on a bench with its contents set out beside it: a folded clean towel, a spare shirt, a bar of soap in a travel case, a small bottle of water and a pair of rubber slippers.",
+      "alt": "An open gym bag with a folded towel, a spare shirt, soap, a water bottle and rubber slippers set out beside it"
+    },
+    "mapeh-w11-stage": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A small school stage seen from the empty auditorium, curtains open, a single microphone stand at the centre and bright stage lights on. Nobody is on the stage.",
+      "alt": "An empty school stage with curtains open, a single microphone stand at the centre and the lights on"
+    },
+    "tle-w1-reset": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A small study desk photographed straight on, completely clear and reset: an empty wooden surface, a lamp switched off, a closed laptop pushed to one side and a single pen in a small pot. Nothing else on it at all.",
+      "alt": "A small study desk left completely clear, with a closed laptop, a lamp and one pen in a pot"
+    },
+    "tle-w2-schedule": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A plain weekly planner page pinned to a kitchen wall, ruled into seven empty columns with blank rows, with a pencil hanging beside it on a string. Completely blank, no writing or numbers anywhere.",
+      "alt": "A blank weekly planner page ruled into seven empty columns, pinned to a kitchen wall with a pencil beside it"
+    },
+    "tle-w3-three-boxes": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "Three open cardboard boxes side by side on a bedroom floor, each partly filled with different things: one with usable clothes folded, one with broken and worn items, and one with items clearly to be given away. Plain boxes, no writing on them.",
+      "alt": "Three open cardboard boxes on a floor holding folded clothes, broken items, and things to give away"
+    },
+    "tle-w4-bed": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A single bed neatly made in a simple bedroom: sheet pulled tight, pillow squared, light blanket folded at the foot. Morning daylight through a window, plain walls, nothing else in the room.",
+      "alt": "A single bed neatly made with the sheet pulled tight, the pillow squared and a blanket folded at the foot"
+    },
+    "tle-w4-dark": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A bedroom at night with the curtains fully drawn, one small warm lamp on a bedside table, and an electric fan running in the corner. The room is dim and quiet. No screens visible.",
+      "alt": "A dim bedroom at night with curtains drawn, a small warm bedside lamp and a fan in the corner"
+    },
+    "tle-w5-folded": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "An open drawer seen from above, filled with shirts folded into neat rectangles and stood on edge in a row so the top edge of every one is visible at once, like files. Plain shirts, no logos or printing.",
+      "alt": "An open drawer of shirts folded into rectangles and stood on edge in a row so each one is visible"
+    },
+    "tle-w6-spare": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A bathroom shelf with a nearly empty bottle of shampoo standing next to an unopened spare bottle still sealed, with a folded towel beside them. Plain bottles, no labels or printing.",
+      "alt": "A nearly empty bottle beside an unopened sealed spare bottle on a bathroom shelf with a folded towel"
+    },
+    "tle-w7-bythedoor": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A school bag standing packed and zipped on the floor beside a front door, with shoes lined up next to it, a water bottle in the side pocket and a jacket on a hook above. Early morning light through the door glass.",
+      "alt": "A packed school bag by a front door with shoes lined up beside it, a bottle in the pocket and a jacket on a hook"
+    },
+    "tle-w8-drives": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "Two small portable hard drives lying side by side on a desk beside a laptop, one connected by a cable and one disconnected, with a USB stick next to them. Plain casings with no labels or branding.",
+      "alt": "Two portable hard drives side by side on a desk, one connected and one not, with a USB stick beside them"
+    },
+    "tle-w8-folders": {
+      "style": "render3d",
+      "size": "wide",
+      "prompt": "A simple tree of plain folder shapes on a plain soft-grey background: one folder at the top, three beneath it, and two beneath one of those, connected by thin lines. All folders are blank with no labels.",
+      "alt": "A tree of blank folder shapes, one at the top branching to three and then to two more"
+    },
+    "tle-w9-bins": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "Three household bins standing side by side against an outside wall, each a different colour, with their lids closed and one of them half full of flattened cardboard. Concrete yard, overcast daylight, no signage or text.",
+      "alt": "Three different-coloured household bins side by side against a wall, one half full of flattened cardboard"
+    },
+    "tle-w10-screens": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A laptop open on a desk showing a plain blank white screen, beside a phone also showing a blank screen, with a notebook and pencil next to them. Nothing displayed on either device.",
+      "alt": "An open laptop and a phone, both with blank screens, beside a notebook and pencil on a desk"
+    },
+    "tle-w11-table": {
+      "style": "photo",
+      "size": "wide",
+      "prompt": "A small display table set up in a classroom: a plain cloth over it, three finished handmade objects arranged with space between them, and a tablet propped on a stand with a blank screen. Bright classroom daylight, nobody present.",
+      "alt": "A cloth-covered display table with three handmade objects spaced out and a tablet on a stand with a blank screen"
     }
   },
   "_never": "NEVER generate an image that poses as a documentary photograph of a specific real place, artwork, artefact or person - the Angono Petroglyphs, the Spoliarium, Rizal. A generated picture of a named real thing is a false claim about the world, and CLAUDE.md says facts must be true. Generated photographs depict a TYPE (kamote, a kulintang, a sipa shuttle), never a named original. For a specific real artefact use tools/fetch-images.mjs to pull the real, credited photograph from Wikimedia instead."

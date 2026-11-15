@@ -117,6 +117,32 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Five, facing in",
+      "src": "assets/img/mapeh-w9-team.jpg",
+      "alt": "Five pairs of training shoes arranged in a circle on a gym floor, toes pointing inward",
+      "credit": "Generated image",
+      "text": "A team is not five people doing the same thing. It is five jobs that fit.",
+      "lightBg": true
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "What does the first T in FITT stand for?",
+        "options": [
+          "Target",
+          "Time",
+          "Technique",
+          "Training"
+        ],
+        "answerIndex": 1,
+        "explain": "Frequency, Intensity, Time, Type.",
+        "seconds": 20
+      }
+    },
+    {
       "kind": "idea",
       "eyebrow": "Overload",
       "title": "You adapt to what you survive",

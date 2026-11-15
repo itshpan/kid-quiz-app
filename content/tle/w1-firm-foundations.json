@@ -111,6 +111,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "The two-minute rule says…",
+        "options": [
+          "do it within two minutes of being asked",
+          "if it takes under two minutes, do it now",
+          "spend two minutes tidying daily",
+          "set a two-minute timer"
+        ],
+        "answerIndex": 1,
+        "explain": "Anything under two minutes costs more to remember than to just do.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Reset, not tidied",
+      "src": "assets/img/tle-w1-reset.jpg",
+      "alt": "A small study desk left completely clear, with a closed laptop, a lamp and one pen in a pot",
+      "credit": "Generated image",
+      "text": "A surface that starts empty every day is a decision made once.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "Habit 2",
       "title": "The two-minute rule",

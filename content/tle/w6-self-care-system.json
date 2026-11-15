@@ -117,6 +117,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "When should you replace a nearly-finished item?",
+        "options": [
+          "When it runs out",
+          "When you start the last one",
+          "Once a month",
+          "When someone reminds you"
+        ],
+        "answerIndex": 1,
+        "explain": "Open the spare, then say so. That is the whole system.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Open the spare, then say so",
+      "src": "assets/img/tle-w6-spare.jpg",
+      "alt": "A nearly empty bottle beside an unopened sealed spare bottle on a bathroom shelf with a folded towel",
+      "credit": "Generated image",
+      "text": "The moment to replace it is when you start the last one, not when it runs out.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "cars",
       "icon": "🚗",

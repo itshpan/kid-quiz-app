@@ -117,6 +117,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "At a showcase table you have roughly…",
+        "options": [
+          "three seconds to catch someone",
+          "five minutes",
+          "no limit",
+          "one hour"
+        ],
+        "answerIndex": 0,
+        "explain": "One visible thing, one thing to pick up, one sentence.",
+        "seconds": 18
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Three seconds, from here",
+      "src": "assets/img/tle-w11-table.jpg",
+      "alt": "A cloth-covered display table with three handmade objects spaced out and a tablet on a stand with a blank screen",
+      "credit": "Generated image",
+      "text": "One thing visible from two metres, one thing they can pick up, one sentence.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "gaming",
       "icon": "🎮",

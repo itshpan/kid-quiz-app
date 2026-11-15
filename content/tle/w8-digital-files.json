@@ -117,6 +117,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Deep enough, and no deeper",
+      "src": "assets/img/tle-w8-folders.jpg",
+      "alt": "A tree of blank folder shapes, one at the top branching to three and then to two more",
+      "credit": "Generated image",
+      "text": "Three levels finds things. Seven levels is where you lose them.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "Deleting",
       "title": "Archive is not the same as delete",
@@ -169,6 +179,16 @@
         "**Check it opens.** An unreadable backup is none.",
         "**Do it before you need it.**"
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "One copy is not a copy",
+      "src": "assets/img/tle-w8-drives.jpg",
+      "alt": "Two portable hard drives side by side on a desk, one connected and one not, with a USB stick beside them",
+      "credit": "Generated image",
+      "text": "A file that exists in one place is a file you are one accident away from losing.",
+      "lightBg": true
     },
     {
       "kind": "lens",

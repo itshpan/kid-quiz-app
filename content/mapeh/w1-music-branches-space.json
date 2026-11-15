@@ -89,6 +89,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Where the layers sit",
+      "src": "assets/img/mapeh-w1-orchestra.jpg",
+      "alt": "An empty orchestra stage with chairs and music stands arranged in an arc, timpani behind and a grand piano to one side",
+      "credit": "Generated image",
+      "text": "Strings in front, brass and percussion behind. The seating is the texture.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "story",
       "icon": "✍️",
@@ -143,6 +153,32 @@
       "eyebrow": "Part 2 · Personal space",
       "title": "You carry a bubble around with you",
       "text": "Every sport, every crowded corridor, every sparring round is about managing one thing: the distance between you and everyone else."
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "General space",
+      "src": "assets/img/mapeh-w1-space.jpg",
+      "alt": "An empty school gymnasium floor marked with painted court lines, seen from a high corner",
+      "credit": "Generated image",
+      "text": "The whole floor is general space. The bubble you carry is self space.",
+      "lightBg": true
+    },
+    {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "Self space is…",
+        "options": [
+          "the whole room",
+          "the bubble you can reach without moving your feet",
+          "the stage",
+          "the gym"
+        ],
+        "answerIndex": 1,
+        "explain": "General space is everywhere else you could travel to.",
+        "seconds": 20
+      }
     },
     {
       "kind": "idea",
@@ -270,6 +306,16 @@
           "def": "The shape of the line you travel along: straight, curved or zigzag."
         }
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Empty staves",
+      "src": "assets/img/mapeh-w1-bars.jpg",
+      "alt": "Blank music manuscript paper ruled with empty staves, with a pencil and a metronome beside it",
+      "credit": "Generated image",
+      "text": "Rhythm, melody, harmony and form all get written on these five lines.",
+      "lightBg": true
     },
     {
       "kind": "recap",

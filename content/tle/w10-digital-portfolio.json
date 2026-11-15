@@ -117,6 +117,32 @@
       ]
     },
     {
+      "kind": "checkpoint",
+      "question": {
+        "type": "multiple",
+        "text": "How much should you write per piece in a portfolio?",
+        "options": [
+          "Nothing",
+          "Two lines: what it is and what you learned",
+          "A full page",
+          "A title only"
+        ],
+        "answerIndex": 1,
+        "explain": "The work shows itself. The two lines say what it cost you.",
+        "seconds": 20
+      }
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Before anything is on it",
+      "src": "assets/img/tle-w10-screens.jpg",
+      "alt": "An open laptop and a phone, both with blank screens, beside a notebook and pencil on a desk",
+      "credit": "Generated image",
+      "text": "A portfolio is two lines per piece: what it is, and what you learned making it.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "gaming",
       "icon": "🎮",

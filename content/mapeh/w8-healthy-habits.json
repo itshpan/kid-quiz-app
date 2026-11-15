@@ -123,6 +123,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Before you are thirsty",
+      "src": "assets/img/mapeh-w8-water.jpg",
+      "alt": "A half-full clear sports bottle beaded with condensation beside a damp rolled towel on a gym bench",
+      "credit": "Generated image",
+      "text": "Thirst is already the warning. Performance has dropped by then.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "boxing",
       "icon": "🥊",
@@ -171,6 +181,16 @@
         "**Sleep then starts later**, not shorter by choice.",
         "**Stopping earlier is the cheapest win** on this list."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "The phone is across the room",
+      "src": "assets/img/mapeh-w8-sleep.jpg",
+      "alt": "A bedroom at night with the bed turned down, a low warm lamp, and a phone face down across the room",
+      "credit": "Generated image",
+      "text": "That is the whole intervention. It is not willpower, it is distance.",
+      "lightBg": true
     },
     {
       "kind": "idea",

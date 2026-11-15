@@ -82,6 +82,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Two minutes, every morning",
+      "src": "assets/img/tle-w4-bed.jpg",
+      "alt": "A single bed neatly made with the sheet pulled tight, the pillow squared and a blanket folded at the foot",
+      "credit": "Generated image",
+      "text": "It is not about the bed. It is one finished thing before anything else starts.",
+      "lightBg": true
+    },
+    {
       "kind": "idea",
       "eyebrow": "Hygiene",
       "title": "How often bedding gets changed",
@@ -132,6 +142,16 @@
         "**Quiet** — or at least consistent, unchanging sound.",
         "**Your body reads the room** before you decide anything."
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Dark, cool and quiet",
+      "src": "assets/img/tle-w4-dark.jpg",
+      "alt": "A dim bedroom at night with curtains drawn, a small warm bedside lamp and a fan in the corner",
+      "credit": "Generated image",
+      "text": "Three conditions. The fan handles two of them at once.",
+      "lightBg": true
     },
     {
       "kind": "lens",

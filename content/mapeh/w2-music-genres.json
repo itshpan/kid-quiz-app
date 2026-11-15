@@ -123,6 +123,16 @@
       ]
     },
     {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Five places, five instruments",
+      "src": "assets/img/mapeh-w2-worldmap.jpg",
+      "alt": "A djembe drum, a nylon-string guitar, maracas, a bamboo flute and small bronze gongs laid out together",
+      "credit": "Generated image",
+      "text": "A genre carries the place it came from, in the instruments it uses.",
+      "lightBg": true
+    },
+    {
       "kind": "lens",
       "lens": "story",
       "icon": "✍️",
@@ -237,6 +247,16 @@
           "def": "Instruments played by striking or shaking. Samba is carried by them."
         }
       ]
+    },
+    {
+      "kind": "image",
+      "eyebrow": "Look at it",
+      "title": "Records of where music went",
+      "src": "assets/img/mapeh-w2-vinyl.jpg",
+      "alt": "A stack of plain unlabelled vinyl records in blank sleeves beside a turntable",
+      "credit": "Generated image",
+      "text": "Every genre travelled on something like this before it travelled on wires.",
+      "lightBg": true
     },
     {
       "kind": "recap",
