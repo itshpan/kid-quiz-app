@@ -143,7 +143,7 @@ async function sitQuiz(page, choose) {
     return stems;
 }
 
-const SEED = ([q, right]) => {
+const SEED = ([q, right, course]) => {
     try {
         localStorage.setItem('learningLab_profiles',
             JSON.stringify([{ id: 'rv', name: 'Check', avatar: '🦊' }]));
@@ -160,8 +160,9 @@ const SEED = ([q, right]) => {
         localStorage.setItem('learningLab_progress_rv', JSON.stringify({
             xp: 0, lessonsCompleted: [], quizScores: {}, deckPosition: {},
             streak: 0, lastPlayDate: null, practiceDays: [],
-            missed: { [qid]: { lessonId: 'math-t2-w1', objective: q.objective,
-                               text: q.text, q, wrong: 2, right, lastAt: '2026-01-01T00:00:00Z' } }
+            missed: { [qid]: { lessonId: 'math-t2-w1', courseId: course,
+                               objective: q.objective, text: q.text, q,
+                               wrong: 2, right, lastAt: '2026-01-01T00:00:00Z' } }
         }));
     } catch {}
 };
@@ -176,7 +177,7 @@ const seedQ = srcLesson.quiz[0];
 // ---- 1-3: miss everything, then redo only the misses ----
 console.log('\nmissing every question, then redoing only those');
 {
-    const page = await newPage(SEED, [null, 0]);
+    const page = await newPage(SEED, [null, 0, 'math']);
     await toQuiz(page, SRC);
     await sitQuiz(page, (stem, kind) => {
         if (kind === 'type') return 'definitely-not-the-answer';
@@ -230,7 +231,7 @@ console.log('\nmissing every question, then redoing only those');
 // ---- 4-6: carry into a later week, and retire at two ----
 for (const [seededRight, label] of [[0, 'one of two correct'], [1, 'the second correct']]) {
     console.log(`\ncarrying a week 1 miss into week 3 (${label})`);
-    const page = await newPage(SEED, [seedQ, seededRight]);
+    const page = await newPage(SEED, [seedQ, seededRight, 'math']);
     await toQuiz(page, HOST);
     /* Every host question must be answered CORRECTLY here, or the expected
        score below is calibrated against a wrong baseline and the check stops
@@ -272,6 +273,70 @@ for (const [seededRight, label] of [[0, 'one of two correct'], [1, 'the second c
         check('two correct answers retire it, kept and marked rather than deleted',
             [!!rec, rec?.right, rec?.q === undefined], [true, 2, true]);
     }
+    check('no page errors', page.__errs, []);
+    await page.close();
+}
+
+// ---- 8: a legacy record with no courseId is repaired, not dropped ----
+console.log('\na miss stored before subjects were tracked still carries');
+{
+    const LEGACY = ([q]) => {
+        try {
+            localStorage.setItem('learningLab_profiles',
+                JSON.stringify([{ id: 'rv', name: 'Check', avatar: '\u{1F98A}' }]));
+            localStorage.setItem('learningLab_activeProfile', JSON.stringify('rv'));
+            const h = (s, seed) => { let x = seed;
+                for (let i = 0; i < s.length; i++) { x ^= s.charCodeAt(i); x = Math.imul(x, 16777619); }
+                return (x >>> 0).toString(36); };
+            const k = 'math-t2-w1|' + q.text.replace(/\s+/g, ' ').trim();
+            const qid = h(k, 0x811c9dc5) + h(k, 0x01000193);
+            localStorage.setItem('learningLab_progress_rv', JSON.stringify({
+                xp: 0, lessonsCompleted: [], quizScores: {}, deckPosition: {},
+                streak: 0, lastPlayDate: null, practiceDays: [],
+                /* exactly what the shipped version wrote: no courseId */
+                missed: { [qid]: { lessonId: 'math-t2-w1', objective: q.objective,
+                                   text: q.text, q, wrong: 2, right: 0,
+                                   lastAt: '2026-01-01T00:00:00Z' } }
+            }));
+        } catch {}
+    };
+    const page = await newPage(LEGACY, [seedQ]);
+    await toQuiz(page, HOST);                       // another MATHS lesson
+    const stems = await sitQuiz(page, (stem, kind) => {
+        if (stem.includes(seedQ.text.slice(0, 25))) {
+            return seedQ.type === 'truefalse' ? (seedQ.answer ? 0 : 1) : (seedQ.answerIndex ?? 0);
+        }
+        const q = (hostLesson.quiz || []).find(x => x.text && stem.includes(x.text.slice(0, 25)));
+        if (kind === 'type') return q?.accept?.[0] ?? 'x';
+        return q ? (q.type === 'truefalse' ? (q.answer ? 0 : 1) : (q.answerIndex ?? 0)) : 0;
+    });
+    check('the legacy maths miss is carried into a maths lesson',
+        stems[0]?.includes(seedQ.text.slice(0, 20)), true);
+    const prog = await read(page);
+    const rec = Object.values(prog.missed || {}).find(m => m.lessonId === 'math-t2-w1');
+    check('and it has been given its subject', rec?.courseId, 'math');
+    check('no page errors', page.__errs, []);
+    await page.close();
+}
+
+// ---- 7: a miss from ANOTHER subject must never be carried ----
+console.log('\na maths miss must not appear in an English quiz');
+{
+    const ENG = 'english/t2-w1-simple-past.json';
+    const engLesson = JSON.parse(await readFile(join(ROOT, 'content', ENG), 'utf8'));
+    const page = await newPage(SEED, [seedQ, 0, 'math']);   // a MATHS miss on file
+    await toQuiz(page, ENG);
+    const stems = await sitQuiz(page, (stem, kind) => {
+        const q = (engLesson.quiz || []).find(x => x.text && stem.includes(x.text.slice(0, 25)));
+        if (kind === 'type') return q?.accept?.[0] ?? 'x';
+        return q ? (q.type === 'truefalse' ? (q.answer ? 0 : 1) : (q.answerIndex ?? 0)) : 0;
+    });
+    check('the English quiz asks only its own questions',
+        stems.length, (engLesson.quiz || []).length);
+    check('the maths question is nowhere in it',
+        stems.some(s => s.includes(seedQ.text.slice(0, 20))), false);
+    const res = await page.locator('#quizHost .results').innerText();
+    check('and no "from earlier weeks" note is shown', /earlier weeks/.test(res), false);
     check('no page errors', page.__errs, []);
     await page.close();
 }

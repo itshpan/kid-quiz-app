@@ -103,20 +103,30 @@ async function main() {
            asked first. A missed question he never meets again is a wrong
            answer he keeps: this is what makes the memory worth storing.
 
-           They are tagged with the lesson they came from so the mastery
-           state is filed against their own lesson, and they are asked first
-           because attention is best at the start and these are the ones that
-           need it. Three is the cap: this is still this week's quiz. */
-        const carried = getDueMissed({ limit: 3, excludeLesson: lesson.id })
+           Same subject only. Without that filter a maths question he missed
+           turned up at the top of the English quiz, which is both confusing
+           and the one kind of context switch this app exists to avoid.
+
+           They are tagged with the lesson and course they came from so the
+           mastery state is filed against their own lesson, and they are asked
+           first because attention is best at the start and these are the ones
+           that need it. Three is the cap: this is still this week's quiz. */
+        const carried = getDueMissed({ limit: 3, excludeLesson: lesson.id,
+                                       course: lesson.courseId })
             .filter(m => m.q && m.q.text)
-            .map(m => ({ ...m.q, __lesson: m.lessonId, __carried: true }));
+            .map(m => ({ ...m.q, __lesson: m.lessonId, __course: m.courseId,
+                         __carried: true }));
 
         runQuiz(quizHost, [...carried, ...lesson.quiz], {
             onFinish: ({ correct, total, xp, spent, budget, asked, missed, practice }) => {
-                if (practice) { recordPractice(lesson.id, { asked, missed }); return; }
+                if (practice) {
+                    recordPractice(lesson.id, { asked, missed, courseId: lesson.courseId });
+                    return;
+                }
                 const before = levelFor(getProgress().xp).level;
                 const after = recordQuiz(lesson.id, correct, total, xp,
-                                         { spent, budget, asked, missed });
+                                         { spent, budget, asked, missed,
+                                           courseId: lesson.courseId });
                 const now = levelFor(after.xp);
                 if (now.level > before) {
                     const note = document.createElement('div');

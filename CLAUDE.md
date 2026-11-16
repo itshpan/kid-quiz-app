@@ -197,7 +197,7 @@ The misses themselves are stored, and `assets/js/store.js` owns that:
 |---|---|
 | A miss is persisted with its `objective` and the question itself | `applyMissed` |
 | "Redo the N I missed" asks only those, for no XP and no score change | `recordPractice` |
-| Up to **3** earlier misses are asked at the top of a later quiz | `getDueMissed` |
+| Up to **3** earlier misses are asked at the top of a later quiz, **same subject only** | `getDueMissed` |
 | **2** consecutive correct answers retire it | `MASTERED` |
 | Grouped by objective for the grown-up view | `missedByObjective` |
 
@@ -214,6 +214,13 @@ Three rules in there are load-bearing and should not be "tidied":
   question he had finished with. `mergeProgress` in `sync.js` depends on this.
 - **A miss resets the streak to 0.** Getting something right once after
   getting it wrong is not knowing it.
+- **A carried question never crosses subjects.** `getDueMissed` requires a
+  `course` and matches on `courseId`. This shipped without that filter for a
+  day and put maths questions at the top of the English quiz, which is both
+  confusing and the exact context switch this app exists to avoid. Note that
+  lesson ids abbreviate the subject (`eng-w9`, `sci-w3`) and `courseId` does
+  not (`english`, `science`), so never derive one from the other outside the
+  `COURSE_BY_PREFIX` migration that repairs records stored before the fix.
 
 Every quiz item carries an `objective`, all 2,311 of them, which is what makes
 the grown-up view possible without any extra tagging. Keep it that way.

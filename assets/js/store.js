@@ -181,9 +181,38 @@ export function getActiveProfile() {
 
 /* ---------- Progress ---------- */
 
+/* Lesson ids abbreviate the subject ("eng-w9", "sci-w3") and courseId does
+   not ("english", "science"), so the two cannot be compared directly. This
+   map exists only to repair misses stored before subjects were tracked, in
+   the day this shipped without a subject filter. It was checked against all
+   176 lessons and every prefix resolves to exactly one course.
+
+   Delete it once no stored progress predates that, and delete backfill()
+   with it. Nothing else should use it: a lesson states its own courseId. */
+const COURSE_BY_PREFIX = {
+    dev: 'devotion', eng: 'english', fil: 'filipino', mapeh: 'mapeh',
+    math: 'math', sci: 'science', ss: 'social-studies', tle: 'tle'
+};
+
+function backfill(p) {
+    if (!p.missed) return p;
+    let changed = false;
+    for (const [qid, m] of Object.entries(p.missed)) {
+        if (m.courseId || !m.lessonId) continue;
+        const course = COURSE_BY_PREFIX[String(m.lessonId).split('-')[0]];
+        if (!course) continue;
+        p.missed[qid] = { ...m, courseId: course };
+        changed = true;
+    }
+    /* Not written back here: getProgress must stay a read. The repaired
+       value is what every caller sees, and it is persisted by the next
+       ordinary save. */
+    return changed ? { ...p, missed: { ...p.missed } } : p;
+}
+
 export function getProgress(id = getActiveId()) {
     if (!id) return { ...DEFAULT_PROGRESS };
-    return { ...DEFAULT_PROGRESS, ...read(K.progress(id), {}) };
+    return backfill({ ...DEFAULT_PROGRESS, ...read(K.progress(id), {}) });
 }
 
 export function saveProgress(progress, id = getActiveId(), { immediate = false } = {}) {
@@ -219,7 +248,7 @@ export function isLessonComplete(lessonId, id = getActiveId()) {
 export function recordQuiz(lessonId, correct, total, xpEarned, timing = {}, id = getActiveId()) {
     const p = getProgress(id);
     const pct = total ? Math.round((correct / total) * 100) : 0;
-    applyMissed(p, lessonId, timing.asked, timing.missed);
+    applyMissed(p, lessonId, timing.courseId, timing.asked, timing.missed);
     const prev = p.quizScores[lessonId];
 
     // Timing is kept alongside the score so the two can be read together:
@@ -250,9 +279,9 @@ export function recordQuiz(lessonId, correct, total, xpEarned, timing = {}, id =
  * no XP, no score, no streak. The score he got sitting the real quiz is his
  * result, and practising afterwards must not be able to inflate or dent it.
  */
-export function recordPractice(lessonId, { asked, missed } = {}, id = getActiveId()) {
+export function recordPractice(lessonId, { asked, missed, courseId } = {}, id = getActiveId()) {
     const p = getProgress(id);
-    applyMissed(p, lessonId, asked, missed);
+    applyMissed(p, lessonId, courseId, asked, missed);
     saveProgress(p, id, { immediate: true });
     return p;
 }
@@ -260,7 +289,7 @@ export function recordPractice(lessonId, { asked, missed } = {}, id = getActiveI
 /* ---------- Wrong answers, remembered ----------
 
    Mutates the progress object in place; the caller saves once. */
-function applyMissed(p, lessonId, asked, missed) {
+function applyMissed(p, lessonId, courseId, asked, missed) {
     if (!Array.isArray(asked) || !asked.length) return;
     p.missed = { ...(p.missed || {}) };
     const wrongIds = new Set((missed || []).map(q => questionId(q.__lesson || lessonId, q.text)));
@@ -268,8 +297,11 @@ function applyMissed(p, lessonId, asked, missed) {
 
     for (const q of asked) {
         /* A resurfaced question belongs to the lesson it came from, not the
-           one he happens to be sitting, or it would be filed twice. */
+           one he happens to be sitting, or it would be filed twice. The same
+           goes for its subject: a maths question carried into English is
+           still a maths question. */
         const home = q.__lesson || lessonId;
+        const course = q.__course || courseId || null;
         const qid = questionId(home, q.text);
         const prev = p.missed[qid];
 
@@ -281,9 +313,10 @@ function applyMissed(p, lessonId, asked, missed) {
                carry markers are stripped: this record IS the question's home.
                Fields the renderer does not need are dropped to keep the
                local copy small. */
-            const { __lesson, __carried, ...clean } = q;
+            const { __lesson, __course, __carried, ...clean } = q;
             p.missed[qid] = {
                 lessonId: home,
+                courseId: course,
                 objective: q.objective || null,
                 text: q.text,
                 q: clean,
@@ -301,8 +334,8 @@ function applyMissed(p, lessonId, asked, missed) {
                is never asked again, and it is the bulky part. */
             const right = (prev.right || 0) + 1;
             p.missed[qid] = right >= MASTERED
-                ? { ...prev, q: undefined, right: MASTERED, lastAt: now }
-                : { ...prev, q: prev.q || q, right, lastAt: now };
+                ? { ...prev, courseId: prev.courseId ?? course, q: undefined, right: MASTERED, lastAt: now }
+                : { ...prev, courseId: prev.courseId ?? course, q: prev.q || q, right, lastAt: now };
         }
         // Right first time and never missed before: nothing to remember.
     }
@@ -316,10 +349,27 @@ function applyMissed(p, lessonId, asked, missed) {
  */
 const outstanding = m => (m.right || 0) < MASTERED;
 
-export function getDueMissed({ limit = 3, excludeLesson = null, id = getActiveId() } = {}) {
+/**
+ * Questions still worth practising, hardest first.
+ *
+ * `course` is required and is not optional politeness: without it a maths
+ * question he missed gets asked at the top of the English quiz, which is
+ * exactly what happened. A quiz belongs to its subject, and an eleven year
+ * old switching from English to percentages mid-paper is being asked to do
+ * the one thing this app is built around not making him do.
+ *
+ * Records stored before subjects were tracked are repaired on read by
+ * backfill(), so his existing history still carries. One that cannot be
+ * placed in a subject is never carried: guessing the subject is what caused
+ * this bug, and it stays visible in the grown-up view either way.
+ */
+export function getDueMissed({ limit = 3, excludeLesson = null, course = null,
+                               id = getActiveId() } = {}) {
     const all = Object.entries(getProgress(id).missed || {});
     return all
-        .filter(([, m]) => outstanding(m) && m.lessonId !== excludeLesson)
+        .filter(([, m]) => outstanding(m)
+            && m.lessonId !== excludeLesson
+            && !!course && m.courseId === course)
         .sort((a, b) => (b[1].wrong - a[1].wrong) || String(a[1].lastAt).localeCompare(String(b[1].lastAt)))
         .slice(0, limit)
         .map(([qid, m]) => ({ qid, ...m }));
