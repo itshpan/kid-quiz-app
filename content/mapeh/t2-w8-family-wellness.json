@@ -290,12 +290,12 @@
       "text": "How much sleep at Grade 6 age?",
       "options": [
         "Six hours",
-        "Eight to ten hours",
-        "Twelve hours",
+        "Nine to eleven hours",
+        "Twelve to fourteen hours",
         "Five hours"
       ],
       "answerIndex": 1,
-      "explain": "Not six.",
+      "explain": "Nine to eleven hours at this age, the same figure as week 8. Eight to ten is the guidance for teenagers.",
       "objective": "Describe habits that support family wellness",
       "seconds": 18
     },

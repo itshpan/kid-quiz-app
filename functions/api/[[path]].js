@@ -29,12 +29,21 @@ function sameCode(a, b) {
     return diff === 0;
 }
 
+/* Codes are generated lowercase, and the sign-in screen promises that
+   capitals do not matter. They did: a phone keyboard capitalising the first
+   letter turned a valid code into "That code didn't work", with no way for
+   anyone to tell why. Lowercasing here keeps that promise for every client,
+   including ones that do not lowercase before sending. */
+const normCode = c => (typeof c === 'string' ? c.trim().toLowerCase() : '');
+
 async function findClassByLearnerCode(db, code) {
+    code = normCode(code);
     if (!code) return null;
     return db.prepare('SELECT id, label FROM classes WHERE id = ?').bind(code).first();
 }
 
 async function findClassByTeacherCode(db, code) {
+    code = normCode(code);
     if (!code) return null;
     // Fetched by primary lookup then compared, rather than matched in SQL,
     // so the comparison itself is not a timing oracle.

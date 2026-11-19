@@ -375,7 +375,7 @@
     },
     {
       "type": "multiple",
-      "text": "Which is correct?",
+      "text": "Which quantifier fits 'water'?",
       "options": [
         "There aren't much water left",
         "There isn't much water left",
@@ -435,7 +435,7 @@
     },
     {
       "type": "multiple",
-      "text": "Which sentence is correct?",
+      "text": "Which uses 'fewer' and 'less' correctly?",
       "options": [
         "I made fewer errors and used fewer paper",
         "I made fewer errors and used less paper",

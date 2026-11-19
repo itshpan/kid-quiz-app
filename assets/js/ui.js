@@ -125,10 +125,10 @@ export function openClassGate({ dismissable = true } = {}) {
                 <h1 class="center">Enter your class code</h1>
                 <ol class="signin-help">
                     <li>Type the code your parent or teacher gave you.</li>
-                    <li>It looks like <code>lab-6b-xxxx</code>. Capitals don't matter.</li>
+                    <li>Words and numbers joined by dashes. Capitals don't matter.</li>
                     <li>You only do this once on each device.</li>
                 </ol>
-                <input class="text-input" id="codeInput" placeholder="e.g. lab-6b-xxxx" autocomplete="off"
+                <input class="text-input" id="codeInput" placeholder="e.g. grade-6-term-1-abcd" autocomplete="off"
                        autocapitalize="off" spellcheck="false" style="text-align:center;">
                 <div id="codeError" class="feedback notyet hidden" style="margin-top:12px;"></div>
                 <button class="btn primary wide" id="codeGo" style="margin-top:14px;">Continue</button>
@@ -141,7 +141,9 @@ export function openClassGate({ dismissable = true } = {}) {
         const err = overlay.querySelector('#codeError');
 
         const submit = async () => {
-            const code = field.value.trim();
+            /* Lowercased because the help above promises capitals do not
+               matter, and a phone keyboard capitalises the first letter. */
+            const code = field.value.trim().toLowerCase();
             if (!code) { field.focus(); return; }
             go.disabled = true; go.textContent = 'Checking…';
             try {

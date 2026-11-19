@@ -231,7 +231,7 @@
     },
     {
       "type": "multiple",
-      "text": "Which sentence is correct?",
+      "text": "Which past form of 'lose' is correct?",
       "options": [
         "He lost the fight.",
         "He lose the fight.",
@@ -277,7 +277,7 @@
     },
     {
       "type": "multiple",
-      "text": "Which is correct?",
+      "text": "Which past form of 'break' is correct?",
       "options": [
         "The typhoon broke the fence.",
         "The typhoon broked the fence.",

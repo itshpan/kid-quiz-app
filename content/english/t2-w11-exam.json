@@ -343,7 +343,7 @@
     },
     {
       "type": "multiple",
-      "text": "Which is wrong?",
+      "text": "Which comparison is wrong?",
       "options": [
         "He is the fastest here.",
         "He is faster than me.",

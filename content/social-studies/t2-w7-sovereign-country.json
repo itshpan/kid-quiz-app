@@ -63,7 +63,7 @@
         "**A founding member of the United Nations** in 1945.",
         "**Closely aligned with the United States** throughout the Cold War.",
         "**Sent troops to Korea** in 1950.",
-        "**Hosted the SEATO alliance headquarters** in Manila."
+        "**Hosted the signing of the SEATO treaty** in Manila, 1954."
       ]
     },
     {
@@ -237,21 +237,21 @@
         "the Soviet Union"
       ],
       "answerIndex": 2,
-      "explain": "Including troops to Korea and hosting SEATO.",
+      "explain": "Including troops to Korea and signing the SEATO treaty in Manila.",
       "objective": "Describe the Philippines' early foreign policy",
       "seconds": 18
     },
     {
       "type": "multiple",
-      "text": "SEATO's headquarters were in…",
+      "text": "SEATO was signed in Manila. Where were its headquarters?",
       "options": [
         "Tokyo",
         "Manila",
         "Singapore",
         "Bangkok"
       ],
-      "answerIndex": 1,
-      "explain": "Manila hosted the alliance.",
+      "answerIndex": 3,
+      "explain": "Manila hosted the signing in 1954, which is why it is called the Manila Pact. The headquarters were in Bangkok.",
       "objective": "Describe the Philippines' early foreign policy",
       "seconds": 20
     },
